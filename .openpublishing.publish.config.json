@@ -1,27 +1,7 @@
 {
   "need_generate_pdf": false,
   "need_generate_intellisense": false,
-  "docsets_to_publish": [
-    {
-      "docset_name": "smalldotnet",
-      "build_source_folder": ".",
-      "build_output_subfolder": "smalldotnet",
-      "locale": "en-us",
-      "version": 0,
-      "open_to_public_contributors": true,
-      "type_mapping": {
-        "Conceptual": "Content",
-        "ManagedReference": "Content",
-        "RestApi": "Content"
-      },
-      "build_entry_point": "docs",
-      "template_folder": "_themes",
-      "customized_template_paths": [
-        "_dependentPackages/memberpage.plugins/content"
-      ],
-      "is_dynamic_rendering": false
-    }
-  ],
+  "docsets_to_publish": [],
   "notification_subscribers": [],
   "branches_to_filter": [],
   "skip_source_output_uploading": false,
@@ -34,6 +14,7 @@
       "branch_mapping": {}
     }
   ],
+  "need_generate_pdf_url_template": false,
   "dependent_packages": [
     {
       "id": "memberpage.plugins",
@@ -42,6 +23,5 @@
       "target_framework": "net45",
       "version": "latest-prerelease"
     }
-  ],
-  "need_generate_pdf_url_template": false
+  ]
 }
