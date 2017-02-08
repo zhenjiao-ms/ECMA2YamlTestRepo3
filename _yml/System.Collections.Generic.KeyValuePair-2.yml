@@ -53,6 +53,7 @@ items:
     - id: value
       type: TValue
       description: To be added.
+  overload: System.Collections.Generic.KeyValuePair`2.#ctor*
   platform:
   - net-11
   - net-20
@@ -76,6 +77,7 @@ items:
     return:
       type: TKey
       description: To be added.
+  overload: System.Collections.Generic.KeyValuePair`2.Key*
   platform:
   - net-11
   - net-20
@@ -100,6 +102,7 @@ items:
     return:
       type: System.String
       description: To be added.
+  overload: System.Collections.Generic.KeyValuePair`2.ToString*
   platform:
   - net-11
   - net-20
@@ -123,6 +126,7 @@ items:
     return:
       type: TValue
       description: To be added.
+  overload: System.Collections.Generic.KeyValuePair`2.Value*
   platform:
   - net-11
   - net-20
@@ -185,3 +189,23 @@ references:
   name: TValue
   nameWithType: TValue
   fullName: TValue
+- uid: System.Collections.Generic.KeyValuePair`2.#ctor*
+  parent: System.Collections.Generic.KeyValuePair`2
+  isExternal: false
+  name: KeyValuePair<TKey,TValue>
+  nameWithType: KeyValuePair<TKey,TValue>.KeyValuePair<TKey,TValue>
+- uid: System.Collections.Generic.KeyValuePair`2.Key*
+  parent: System.Collections.Generic.KeyValuePair`2
+  isExternal: false
+  name: Key
+  nameWithType: KeyValuePair<TKey,TValue>.Key
+- uid: System.Collections.Generic.KeyValuePair`2.ToString*
+  parent: System.Collections.Generic.KeyValuePair`2
+  isExternal: false
+  name: ToString
+  nameWithType: KeyValuePair<TKey,TValue>.ToString
+- uid: System.Collections.Generic.KeyValuePair`2.Value*
+  parent: System.Collections.Generic.KeyValuePair`2
+  isExternal: false
+  name: Value
+  nameWithType: KeyValuePair<TKey,TValue>.Value

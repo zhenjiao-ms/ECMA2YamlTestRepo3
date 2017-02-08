@@ -90,6 +90,7 @@ items:
   syntax:
     content: public ClaimsIdentity ();
     parameters: []
+  overload: System.Security.Claims.ClaimsIdentity.#ctor*
   platform:
   - net-11
   - net-20
@@ -114,6 +115,7 @@ items:
     - id: claims
       type: System.Collections.Generic.IEnumerable{System.Security.Claims.Claim}
       description: To be added.
+  overload: System.Security.Claims.ClaimsIdentity.#ctor*
   platform:
   - net-11
   - net-20
@@ -138,6 +140,7 @@ items:
     - id: reader
       type: System.IO.BinaryReader
       description: To be added.
+  overload: System.Security.Claims.ClaimsIdentity.#ctor*
   platform:
   - net-11
   - net-20
@@ -162,6 +165,7 @@ items:
     - id: info
       type: System.Runtime.Serialization.SerializationInfo
       description: To be added.
+  overload: System.Security.Claims.ClaimsIdentity.#ctor*
   platform:
   - net-11
   - net-20
@@ -186,6 +190,7 @@ items:
     - id: other
       type: System.Security.Claims.ClaimsIdentity
       description: To be added.
+  overload: System.Security.Claims.ClaimsIdentity.#ctor*
   platform:
   - net-11
   - net-20
@@ -210,6 +215,7 @@ items:
     - id: identity
       type: System.Security.Principal.IIdentity
       description: To be added.
+  overload: System.Security.Claims.ClaimsIdentity.#ctor*
   platform:
   - net-11
   - net-20
@@ -234,6 +240,7 @@ items:
     - id: authenticationType
       type: System.String
       description: To be added.
+  overload: System.Security.Claims.ClaimsIdentity.#ctor*
   platform:
   - net-11
   - net-20
@@ -261,6 +268,7 @@ items:
     - id: authenticationType
       type: System.String
       description: To be added.
+  overload: System.Security.Claims.ClaimsIdentity.#ctor*
   platform:
   - net-11
   - net-20
@@ -288,6 +296,7 @@ items:
     - id: context
       type: System.Runtime.Serialization.StreamingContext
       description: To be added.
+  overload: System.Security.Claims.ClaimsIdentity.#ctor*
   platform:
   - net-11
   - net-20
@@ -315,6 +324,7 @@ items:
     - id: claims
       type: System.Collections.Generic.IEnumerable{System.Security.Claims.Claim}
       description: To be added.
+  overload: System.Security.Claims.ClaimsIdentity.#ctor*
   platform:
   - net-11
   - net-20
@@ -345,6 +355,7 @@ items:
     - id: roleType
       type: System.String
       description: To be added.
+  overload: System.Security.Claims.ClaimsIdentity.#ctor*
   platform:
   - net-11
   - net-20
@@ -378,6 +389,7 @@ items:
     - id: roleType
       type: System.String
       description: To be added.
+  overload: System.Security.Claims.ClaimsIdentity.#ctor*
   platform:
   - net-11
   - net-20
@@ -414,6 +426,7 @@ items:
     - id: roleType
       type: System.String
       description: To be added.
+  overload: System.Security.Claims.ClaimsIdentity.#ctor*
   platform:
   - net-11
   - net-20
@@ -437,6 +450,7 @@ items:
     return:
       type: System.Security.Claims.ClaimsIdentity
       description: To be added.
+  overload: System.Security.Claims.ClaimsIdentity.Actor*
   platform:
   - net-11
   - net-20
@@ -461,6 +475,7 @@ items:
     - id: claim
       type: System.Security.Claims.Claim
       description: To be added.
+  overload: System.Security.Claims.ClaimsIdentity.AddClaim*
   platform:
   - net-11
   - net-20
@@ -485,6 +500,7 @@ items:
     - id: claims
       type: System.Collections.Generic.IEnumerable{System.Security.Claims.Claim}
       description: To be added.
+  overload: System.Security.Claims.ClaimsIdentity.AddClaims*
   platform:
   - net-11
   - net-20
@@ -508,6 +524,7 @@ items:
     return:
       type: System.String
       description: To be added.
+  overload: System.Security.Claims.ClaimsIdentity.AuthenticationType*
   platform:
   - net-11
   - net-20
@@ -531,6 +548,7 @@ items:
     return:
       type: System.Object
       description: To be added.
+  overload: System.Security.Claims.ClaimsIdentity.BootstrapContext*
   platform:
   - net-11
   - net-20
@@ -554,6 +572,7 @@ items:
     return:
       type: System.Collections.Generic.IEnumerable{System.Security.Claims.Claim}
       description: To be added.
+  overload: System.Security.Claims.ClaimsIdentity.Claims*
   platform:
   - net-11
   - net-20
@@ -578,6 +597,7 @@ items:
     return:
       type: System.Security.Claims.ClaimsIdentity
       description: To be added.
+  overload: System.Security.Claims.ClaimsIdentity.Clone*
   platform:
   - net-11
   - net-20
@@ -605,6 +625,7 @@ items:
     return:
       type: System.Security.Claims.Claim
       description: To be added.
+  overload: System.Security.Claims.ClaimsIdentity.CreateClaim*
   platform:
   - net-11
   - net-20
@@ -628,6 +649,7 @@ items:
     return:
       type: System.Byte[]
       description: To be added.
+  overload: System.Security.Claims.ClaimsIdentity.CustomSerializationData*
   platform:
   - net-11
   - net-20
@@ -836,6 +858,7 @@ items:
     - id: context
       type: System.Runtime.Serialization.StreamingContext
       description: To be added.
+  overload: System.Security.Claims.ClaimsIdentity.GetObjectData*
   platform:
   - net-11
   - net-20
@@ -918,6 +941,7 @@ items:
     return:
       type: System.Boolean
       description: To be added.
+  overload: System.Security.Claims.ClaimsIdentity.IsAuthenticated*
   platform:
   - net-11
   - net-20
@@ -941,6 +965,7 @@ items:
     return:
       type: System.String
       description: To be added.
+  overload: System.Security.Claims.ClaimsIdentity.Label*
   platform:
   - net-11
   - net-20
@@ -964,6 +989,7 @@ items:
     return:
       type: System.String
       description: To be added.
+  overload: System.Security.Claims.ClaimsIdentity.Name*
   platform:
   - net-11
   - net-20
@@ -987,6 +1013,7 @@ items:
     return:
       type: System.String
       description: To be added.
+  overload: System.Security.Claims.ClaimsIdentity.NameClaimType*
   platform:
   - net-11
   - net-20
@@ -1011,6 +1038,7 @@ items:
     - id: claim
       type: System.Security.Claims.Claim
       description: To be added.
+  overload: System.Security.Claims.ClaimsIdentity.RemoveClaim*
   platform:
   - net-11
   - net-20
@@ -1034,6 +1062,7 @@ items:
     return:
       type: System.String
       description: To be added.
+  overload: System.Security.Claims.ClaimsIdentity.RoleClaimType*
   platform:
   - net-11
   - net-20
@@ -1061,6 +1090,7 @@ items:
     return:
       type: System.Boolean
       description: To be added.
+  overload: System.Security.Claims.ClaimsIdentity.TryRemoveClaim*
   platform:
   - net-11
   - net-20
@@ -1746,6 +1776,56 @@ references:
   name: Byte
   nameWithType: Byte
   fullName: System.Byte[]
+- uid: System.Security.Claims.ClaimsIdentity.#ctor*
+  parent: System.Security.Claims.ClaimsIdentity
+  isExternal: false
+  name: ClaimsIdentity
+  nameWithType: ClaimsIdentity.ClaimsIdentity
+- uid: System.Security.Claims.ClaimsIdentity.Actor*
+  parent: System.Security.Claims.ClaimsIdentity
+  isExternal: false
+  name: Actor
+  nameWithType: ClaimsIdentity.Actor
+- uid: System.Security.Claims.ClaimsIdentity.AddClaim*
+  parent: System.Security.Claims.ClaimsIdentity
+  isExternal: false
+  name: AddClaim
+  nameWithType: ClaimsIdentity.AddClaim
+- uid: System.Security.Claims.ClaimsIdentity.AddClaims*
+  parent: System.Security.Claims.ClaimsIdentity
+  isExternal: false
+  name: AddClaims
+  nameWithType: ClaimsIdentity.AddClaims
+- uid: System.Security.Claims.ClaimsIdentity.AuthenticationType*
+  parent: System.Security.Claims.ClaimsIdentity
+  isExternal: false
+  name: AuthenticationType
+  nameWithType: ClaimsIdentity.AuthenticationType
+- uid: System.Security.Claims.ClaimsIdentity.BootstrapContext*
+  parent: System.Security.Claims.ClaimsIdentity
+  isExternal: false
+  name: BootstrapContext
+  nameWithType: ClaimsIdentity.BootstrapContext
+- uid: System.Security.Claims.ClaimsIdentity.Claims*
+  parent: System.Security.Claims.ClaimsIdentity
+  isExternal: false
+  name: Claims
+  nameWithType: ClaimsIdentity.Claims
+- uid: System.Security.Claims.ClaimsIdentity.Clone*
+  parent: System.Security.Claims.ClaimsIdentity
+  isExternal: false
+  name: Clone
+  nameWithType: ClaimsIdentity.Clone
+- uid: System.Security.Claims.ClaimsIdentity.CreateClaim*
+  parent: System.Security.Claims.ClaimsIdentity
+  isExternal: false
+  name: CreateClaim
+  nameWithType: ClaimsIdentity.CreateClaim
+- uid: System.Security.Claims.ClaimsIdentity.CustomSerializationData*
+  parent: System.Security.Claims.ClaimsIdentity
+  isExternal: false
+  name: CustomSerializationData
+  nameWithType: ClaimsIdentity.CustomSerializationData
 - uid: System.Security.Claims.ClaimsIdentity.FindAll*
   parent: System.Security.Claims.ClaimsIdentity
   isExternal: false
@@ -1756,11 +1836,51 @@ references:
   isExternal: false
   name: FindFirst
   nameWithType: ClaimsIdentity.FindFirst
+- uid: System.Security.Claims.ClaimsIdentity.GetObjectData*
+  parent: System.Security.Claims.ClaimsIdentity
+  isExternal: false
+  name: GetObjectData
+  nameWithType: ClaimsIdentity.GetObjectData
 - uid: System.Security.Claims.ClaimsIdentity.HasClaim*
   parent: System.Security.Claims.ClaimsIdentity
   isExternal: false
   name: HasClaim
   nameWithType: ClaimsIdentity.HasClaim
+- uid: System.Security.Claims.ClaimsIdentity.IsAuthenticated*
+  parent: System.Security.Claims.ClaimsIdentity
+  isExternal: false
+  name: IsAuthenticated
+  nameWithType: ClaimsIdentity.IsAuthenticated
+- uid: System.Security.Claims.ClaimsIdentity.Label*
+  parent: System.Security.Claims.ClaimsIdentity
+  isExternal: false
+  name: Label
+  nameWithType: ClaimsIdentity.Label
+- uid: System.Security.Claims.ClaimsIdentity.Name*
+  parent: System.Security.Claims.ClaimsIdentity
+  isExternal: false
+  name: Name
+  nameWithType: ClaimsIdentity.Name
+- uid: System.Security.Claims.ClaimsIdentity.NameClaimType*
+  parent: System.Security.Claims.ClaimsIdentity
+  isExternal: false
+  name: NameClaimType
+  nameWithType: ClaimsIdentity.NameClaimType
+- uid: System.Security.Claims.ClaimsIdentity.RemoveClaim*
+  parent: System.Security.Claims.ClaimsIdentity
+  isExternal: false
+  name: RemoveClaim
+  nameWithType: ClaimsIdentity.RemoveClaim
+- uid: System.Security.Claims.ClaimsIdentity.RoleClaimType*
+  parent: System.Security.Claims.ClaimsIdentity
+  isExternal: false
+  name: RoleClaimType
+  nameWithType: ClaimsIdentity.RoleClaimType
+- uid: System.Security.Claims.ClaimsIdentity.TryRemoveClaim*
+  parent: System.Security.Claims.ClaimsIdentity
+  isExternal: false
+  name: TryRemoveClaim
+  nameWithType: ClaimsIdentity.TryRemoveClaim
 - uid: System.Security.Claims.ClaimsIdentity.WriteTo*
   parent: System.Security.Claims.ClaimsIdentity
   isExternal: false

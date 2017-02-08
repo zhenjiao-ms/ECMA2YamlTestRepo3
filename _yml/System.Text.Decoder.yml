@@ -60,6 +60,7 @@ items:
   syntax:
     content: protected Decoder ();
     parameters: []
+  overload: System.Text.Decoder.#ctor*
   platform:
   - net-11
   - net-20
@@ -181,6 +182,7 @@ items:
     return:
       type: System.Text.DecoderFallback
       description: To be added.
+  overload: System.Text.Decoder.Fallback*
   platform:
   - net-11
   - net-20
@@ -204,6 +206,7 @@ items:
     return:
       type: System.Text.DecoderFallbackBuffer
       description: To be added.
+  overload: System.Text.Decoder.FallbackBuffer*
   platform:
   - net-11
   - net-20
@@ -453,6 +456,7 @@ items:
   syntax:
     content: public virtual void Reset ();
     parameters: []
+  overload: System.Text.Decoder.Reset*
   platform:
   - net-11
   - net-20
@@ -815,11 +819,26 @@ references:
   name: Reset()
   nameWithType: Decoder.Reset()
   fullName: System.Text.Decoder.Reset()
+- uid: System.Text.Decoder.#ctor*
+  parent: System.Text.Decoder
+  isExternal: false
+  name: Decoder
+  nameWithType: Decoder.Decoder
 - uid: System.Text.Decoder.Convert*
   parent: System.Text.Decoder
   isExternal: false
   name: Convert
   nameWithType: Decoder.Convert
+- uid: System.Text.Decoder.Fallback*
+  parent: System.Text.Decoder
+  isExternal: false
+  name: Fallback
+  nameWithType: Decoder.Fallback
+- uid: System.Text.Decoder.FallbackBuffer*
+  parent: System.Text.Decoder
+  isExternal: false
+  name: FallbackBuffer
+  nameWithType: Decoder.FallbackBuffer
 - uid: System.Text.Decoder.GetCharCount*
   parent: System.Text.Decoder
   isExternal: false
@@ -830,3 +849,8 @@ references:
   isExternal: false
   name: GetChars
   nameWithType: Decoder.GetChars
+- uid: System.Text.Decoder.Reset*
+  parent: System.Text.Decoder
+  isExternal: false
+  name: Reset
+  nameWithType: Decoder.Reset

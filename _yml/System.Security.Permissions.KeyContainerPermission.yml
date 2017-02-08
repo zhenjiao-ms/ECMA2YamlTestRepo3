@@ -73,6 +73,7 @@ items:
     - id: flags
       type: System.Security.Permissions.KeyContainerPermissionFlags
       description: To be added.
+  overload: System.Security.Permissions.KeyContainerPermission.#ctor*
   platform:
   - net-11
   - net-20
@@ -97,6 +98,7 @@ items:
     - id: state
       type: System.Security.Permissions.PermissionState
       description: To be added.
+  overload: System.Security.Permissions.KeyContainerPermission.#ctor*
   platform:
   - net-11
   - net-20
@@ -124,6 +126,7 @@ items:
     - id: accessList
       type: System.Security.Permissions.KeyContainerPermissionAccessEntry[]
       description: To be added.
+  overload: System.Security.Permissions.KeyContainerPermission.#ctor*
   platform:
   - net-11
   - net-20
@@ -147,6 +150,7 @@ items:
     return:
       type: System.Security.Permissions.KeyContainerPermissionAccessEntryCollection
       description: To be added.
+  overload: System.Security.Permissions.KeyContainerPermission.AccessEntries*
   platform:
   - net-11
   - net-20
@@ -171,6 +175,7 @@ items:
     return:
       type: System.Security.IPermission
       description: To be added.
+  overload: System.Security.Permissions.KeyContainerPermission.Copy*
   platform:
   - net-11
   - net-20
@@ -194,6 +199,7 @@ items:
     return:
       type: System.Security.Permissions.KeyContainerPermissionFlags
       description: To be added.
+  overload: System.Security.Permissions.KeyContainerPermission.Flags*
   platform:
   - net-11
   - net-20
@@ -218,6 +224,7 @@ items:
     - id: securityElement
       type: System.Security.SecurityElement
       description: To be added.
+  overload: System.Security.Permissions.KeyContainerPermission.FromXml*
   platform:
   - net-11
   - net-20
@@ -245,6 +252,7 @@ items:
     return:
       type: System.Security.IPermission
       description: To be added.
+  overload: System.Security.Permissions.KeyContainerPermission.Intersect*
   platform:
   - net-11
   - net-20
@@ -272,6 +280,7 @@ items:
     return:
       type: System.Boolean
       description: To be added.
+  overload: System.Security.Permissions.KeyContainerPermission.IsSubsetOf*
   platform:
   - net-11
   - net-20
@@ -296,6 +305,7 @@ items:
     return:
       type: System.Boolean
       description: To be added.
+  overload: System.Security.Permissions.KeyContainerPermission.IsUnrestricted*
   platform:
   - net-11
   - net-20
@@ -320,6 +330,7 @@ items:
     return:
       type: System.Security.SecurityElement
       description: To be added.
+  overload: System.Security.Permissions.KeyContainerPermission.ToXml*
   platform:
   - net-11
   - net-20
@@ -347,6 +358,7 @@ items:
     return:
       type: System.Security.IPermission
       description: To be added.
+  overload: System.Security.Permissions.KeyContainerPermission.Union*
   platform:
   - net-11
   - net-20
@@ -523,3 +535,53 @@ references:
   name: IPermission
   nameWithType: IPermission
   fullName: System.Security.IPermission
+- uid: System.Security.Permissions.KeyContainerPermission.#ctor*
+  parent: System.Security.Permissions.KeyContainerPermission
+  isExternal: false
+  name: KeyContainerPermission
+  nameWithType: KeyContainerPermission.KeyContainerPermission
+- uid: System.Security.Permissions.KeyContainerPermission.AccessEntries*
+  parent: System.Security.Permissions.KeyContainerPermission
+  isExternal: false
+  name: AccessEntries
+  nameWithType: KeyContainerPermission.AccessEntries
+- uid: System.Security.Permissions.KeyContainerPermission.Copy*
+  parent: System.Security.Permissions.KeyContainerPermission
+  isExternal: false
+  name: Copy
+  nameWithType: KeyContainerPermission.Copy
+- uid: System.Security.Permissions.KeyContainerPermission.Flags*
+  parent: System.Security.Permissions.KeyContainerPermission
+  isExternal: false
+  name: Flags
+  nameWithType: KeyContainerPermission.Flags
+- uid: System.Security.Permissions.KeyContainerPermission.FromXml*
+  parent: System.Security.Permissions.KeyContainerPermission
+  isExternal: false
+  name: FromXml
+  nameWithType: KeyContainerPermission.FromXml
+- uid: System.Security.Permissions.KeyContainerPermission.Intersect*
+  parent: System.Security.Permissions.KeyContainerPermission
+  isExternal: false
+  name: Intersect
+  nameWithType: KeyContainerPermission.Intersect
+- uid: System.Security.Permissions.KeyContainerPermission.IsSubsetOf*
+  parent: System.Security.Permissions.KeyContainerPermission
+  isExternal: false
+  name: IsSubsetOf
+  nameWithType: KeyContainerPermission.IsSubsetOf
+- uid: System.Security.Permissions.KeyContainerPermission.IsUnrestricted*
+  parent: System.Security.Permissions.KeyContainerPermission
+  isExternal: false
+  name: IsUnrestricted
+  nameWithType: KeyContainerPermission.IsUnrestricted
+- uid: System.Security.Permissions.KeyContainerPermission.ToXml*
+  parent: System.Security.Permissions.KeyContainerPermission
+  isExternal: false
+  name: ToXml
+  nameWithType: KeyContainerPermission.ToXml
+- uid: System.Security.Permissions.KeyContainerPermission.Union*
+  parent: System.Security.Permissions.KeyContainerPermission
+  isExternal: false
+  name: Union
+  nameWithType: KeyContainerPermission.Union

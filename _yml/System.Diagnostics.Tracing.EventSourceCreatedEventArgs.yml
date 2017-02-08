@@ -49,6 +49,7 @@ items:
   syntax:
     content: public EventSourceCreatedEventArgs ();
     parameters: []
+  overload: System.Diagnostics.Tracing.EventSourceCreatedEventArgs.#ctor*
   platform:
   - net-11
   - net-20
@@ -72,6 +73,7 @@ items:
     return:
       type: System.Diagnostics.Tracing.EventSource
       description: To be added.
+  overload: System.Diagnostics.Tracing.EventSourceCreatedEventArgs.EventSource*
   platform:
   - net-11
   - net-20
@@ -98,3 +100,13 @@ references:
   name: EventSource
   nameWithType: EventSource
   fullName: System.Diagnostics.Tracing.EventSource
+- uid: System.Diagnostics.Tracing.EventSourceCreatedEventArgs.#ctor*
+  parent: System.Diagnostics.Tracing.EventSourceCreatedEventArgs
+  isExternal: false
+  name: EventSourceCreatedEventArgs
+  nameWithType: EventSourceCreatedEventArgs.EventSourceCreatedEventArgs
+- uid: System.Diagnostics.Tracing.EventSourceCreatedEventArgs.EventSource*
+  parent: System.Diagnostics.Tracing.EventSourceCreatedEventArgs
+  isExternal: false
+  name: EventSource
+  nameWithType: EventSourceCreatedEventArgs.EventSource

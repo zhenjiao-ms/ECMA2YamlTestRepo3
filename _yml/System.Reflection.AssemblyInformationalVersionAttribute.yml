@@ -95,6 +95,7 @@ items:
     - id: informationalVersion
       type: System.String
       description: To be added.
+  overload: System.Reflection.AssemblyInformationalVersionAttribute.#ctor*
   platform:
   - net-11
   - net-20
@@ -118,6 +119,7 @@ items:
     return:
       type: System.String
       description: To be added.
+  overload: System.Reflection.AssemblyInformationalVersionAttribute.InformationalVersion*
   platform:
   - net-11
   - net-20
@@ -150,3 +152,13 @@ references:
   name: String
   nameWithType: String
   fullName: System.String
+- uid: System.Reflection.AssemblyInformationalVersionAttribute.#ctor*
+  parent: System.Reflection.AssemblyInformationalVersionAttribute
+  isExternal: false
+  name: AssemblyInformationalVersionAttribute
+  nameWithType: AssemblyInformationalVersionAttribute.AssemblyInformationalVersionAttribute
+- uid: System.Reflection.AssemblyInformationalVersionAttribute.InformationalVersion*
+  parent: System.Reflection.AssemblyInformationalVersionAttribute
+  isExternal: false
+  name: InformationalVersion
+  nameWithType: AssemblyInformationalVersionAttribute.InformationalVersion

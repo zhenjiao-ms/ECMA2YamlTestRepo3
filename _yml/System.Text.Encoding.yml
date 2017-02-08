@@ -109,6 +109,7 @@ items:
   syntax:
     content: protected Encoding ();
     parameters: []
+  overload: System.Text.Encoding.#ctor*
   platform:
   - net-11
   - net-20
@@ -133,6 +134,7 @@ items:
     - id: codePage
       type: System.Int32
       description: To be added.
+  overload: System.Text.Encoding.#ctor*
   platform:
   - net-11
   - net-20
@@ -163,6 +165,7 @@ items:
     - id: decoderFallback
       type: System.Text.DecoderFallback
       description: To be added.
+  overload: System.Text.Encoding.#ctor*
   platform:
   - net-11
   - net-20
@@ -186,6 +189,7 @@ items:
     return:
       type: System.Text.Encoding
       description: To be added.
+  overload: System.Text.Encoding.ASCII*
   platform:
   - net-11
   - net-20
@@ -209,6 +213,7 @@ items:
     return:
       type: System.Text.Encoding
       description: To be added.
+  overload: System.Text.Encoding.BigEndianUnicode*
   platform:
   - net-11
   - net-20
@@ -232,6 +237,7 @@ items:
     return:
       type: System.String
       description: To be added.
+  overload: System.Text.Encoding.BodyName*
   platform:
   - net-11
   - net-20
@@ -256,6 +262,7 @@ items:
     return:
       type: System.Object
       description: To be added.
+  overload: System.Text.Encoding.Clone*
   platform:
   - net-11
   - net-20
@@ -279,6 +286,7 @@ items:
     return:
       type: System.Int32
       description: To be added.
+  overload: System.Text.Encoding.CodePage*
   platform:
   - net-11
   - net-20
@@ -376,6 +384,7 @@ items:
     return:
       type: System.Text.DecoderFallback
       description: To be added.
+  overload: System.Text.Encoding.DecoderFallback*
   platform:
   - net-11
   - net-20
@@ -399,6 +408,7 @@ items:
     return:
       type: System.Text.Encoding
       description: To be added.
+  overload: System.Text.Encoding.Default*
   platform:
   - net-11
   - net-20
@@ -422,6 +432,7 @@ items:
     return:
       type: System.Text.EncoderFallback
       description: To be added.
+  overload: System.Text.Encoding.EncoderFallback*
   platform:
   - net-11
   - net-20
@@ -445,6 +456,7 @@ items:
     return:
       type: System.String
       description: To be added.
+  overload: System.Text.Encoding.EncodingName*
   platform:
   - net-11
   - net-20
@@ -472,6 +484,7 @@ items:
     return:
       type: System.Boolean
       description: To be added.
+  overload: System.Text.Encoding.Equals*
   platform:
   - net-11
   - net-20
@@ -1056,6 +1069,7 @@ items:
     return:
       type: System.Text.Decoder
       description: To be added.
+  overload: System.Text.Encoding.GetDecoder*
   platform:
   - net-11
   - net-20
@@ -1080,6 +1094,7 @@ items:
     return:
       type: System.Text.Encoder
       description: To be added.
+  overload: System.Text.Encoding.GetEncoder*
   platform:
   - net-11
   - net-20
@@ -1228,6 +1243,7 @@ items:
     return:
       type: System.Text.EncodingInfo[]
       description: To be added.
+  overload: System.Text.Encoding.GetEncodings*
   platform:
   - net-11
   - net-20
@@ -1252,6 +1268,7 @@ items:
     return:
       type: System.Int32
       description: To be added.
+  overload: System.Text.Encoding.GetHashCode*
   platform:
   - net-11
   - net-20
@@ -1279,6 +1296,7 @@ items:
     return:
       type: System.Int32
       description: To be added.
+  overload: System.Text.Encoding.GetMaxByteCount*
   platform:
   - net-11
   - net-20
@@ -1306,6 +1324,7 @@ items:
     return:
       type: System.Int32
       description: To be added.
+  overload: System.Text.Encoding.GetMaxCharCount*
   platform:
   - net-11
   - net-20
@@ -1330,6 +1349,7 @@ items:
     return:
       type: System.Byte[]
       description: To be added.
+  overload: System.Text.Encoding.GetPreamble*
   platform:
   - net-11
   - net-20
@@ -1446,6 +1466,7 @@ items:
     return:
       type: System.String
       description: To be added.
+  overload: System.Text.Encoding.HeaderName*
   platform:
   - net-11
   - net-20
@@ -1522,6 +1543,7 @@ items:
     return:
       type: System.Boolean
       description: To be added.
+  overload: System.Text.Encoding.IsBrowserDisplay*
   platform:
   - net-11
   - net-20
@@ -1545,6 +1567,7 @@ items:
     return:
       type: System.Boolean
       description: To be added.
+  overload: System.Text.Encoding.IsBrowserSave*
   platform:
   - net-11
   - net-20
@@ -1568,6 +1591,7 @@ items:
     return:
       type: System.Boolean
       description: To be added.
+  overload: System.Text.Encoding.IsMailNewsDisplay*
   platform:
   - net-11
   - net-20
@@ -1591,6 +1615,7 @@ items:
     return:
       type: System.Boolean
       description: To be added.
+  overload: System.Text.Encoding.IsMailNewsSave*
   platform:
   - net-11
   - net-20
@@ -1614,6 +1639,7 @@ items:
     return:
       type: System.Boolean
       description: To be added.
+  overload: System.Text.Encoding.IsReadOnly*
   platform:
   - net-11
   - net-20
@@ -1637,6 +1663,7 @@ items:
     return:
       type: System.Boolean
       description: To be added.
+  overload: System.Text.Encoding.IsSingleByte*
   platform:
   - net-11
   - net-20
@@ -1661,6 +1688,7 @@ items:
     - id: provider
       type: System.Text.EncodingProvider
       description: To be added.
+  overload: System.Text.Encoding.RegisterProvider*
   platform:
   - net-11
   - net-20
@@ -1684,6 +1712,7 @@ items:
     return:
       type: System.Text.Encoding
       description: To be added.
+  overload: System.Text.Encoding.Unicode*
   platform:
   - net-11
   - net-20
@@ -1707,6 +1736,7 @@ items:
     return:
       type: System.Text.Encoding
       description: To be added.
+  overload: System.Text.Encoding.UTF32*
   platform:
   - net-11
   - net-20
@@ -1730,6 +1760,7 @@ items:
     return:
       type: System.Text.Encoding
       description: To be added.
+  overload: System.Text.Encoding.UTF7*
   platform:
   - net-11
   - net-20
@@ -1753,6 +1784,7 @@ items:
     return:
       type: System.Text.Encoding
       description: To be added.
+  overload: System.Text.Encoding.UTF8*
   platform:
   - net-11
   - net-20
@@ -1776,6 +1808,7 @@ items:
     return:
       type: System.String
       description: To be added.
+  overload: System.Text.Encoding.WebName*
   platform:
   - net-11
   - net-20
@@ -1799,6 +1832,7 @@ items:
     return:
       type: System.Int32
       description: To be added.
+  overload: System.Text.Encoding.WindowsCodePage*
   platform:
   - net-11
   - net-20
@@ -2941,11 +2975,66 @@ references:
   name: Int32
   nameWithType: Int32
   fullName: System.Int32
+- uid: System.Text.Encoding.#ctor*
+  parent: System.Text.Encoding
+  isExternal: false
+  name: Encoding
+  nameWithType: Encoding.Encoding
+- uid: System.Text.Encoding.ASCII*
+  parent: System.Text.Encoding
+  isExternal: false
+  name: ASCII
+  nameWithType: Encoding.ASCII
+- uid: System.Text.Encoding.BigEndianUnicode*
+  parent: System.Text.Encoding
+  isExternal: false
+  name: BigEndianUnicode
+  nameWithType: Encoding.BigEndianUnicode
+- uid: System.Text.Encoding.BodyName*
+  parent: System.Text.Encoding
+  isExternal: false
+  name: BodyName
+  nameWithType: Encoding.BodyName
+- uid: System.Text.Encoding.Clone*
+  parent: System.Text.Encoding
+  isExternal: false
+  name: Clone
+  nameWithType: Encoding.Clone
+- uid: System.Text.Encoding.CodePage*
+  parent: System.Text.Encoding
+  isExternal: false
+  name: CodePage
+  nameWithType: Encoding.CodePage
 - uid: System.Text.Encoding.Convert*
   parent: System.Text.Encoding
   isExternal: false
   name: Convert
   nameWithType: Encoding.Convert
+- uid: System.Text.Encoding.DecoderFallback*
+  parent: System.Text.Encoding
+  isExternal: false
+  name: DecoderFallback
+  nameWithType: Encoding.DecoderFallback
+- uid: System.Text.Encoding.Default*
+  parent: System.Text.Encoding
+  isExternal: false
+  name: Default
+  nameWithType: Encoding.Default
+- uid: System.Text.Encoding.EncoderFallback*
+  parent: System.Text.Encoding
+  isExternal: false
+  name: EncoderFallback
+  nameWithType: Encoding.EncoderFallback
+- uid: System.Text.Encoding.EncodingName*
+  parent: System.Text.Encoding
+  isExternal: false
+  name: EncodingName
+  nameWithType: Encoding.EncodingName
+- uid: System.Text.Encoding.Equals*
+  parent: System.Text.Encoding
+  isExternal: false
+  name: Equals
+  nameWithType: Encoding.Equals
 - uid: System.Text.Encoding.GetByteCount*
   parent: System.Text.Encoding
   isExternal: false
@@ -2966,18 +3055,123 @@ references:
   isExternal: false
   name: GetChars
   nameWithType: Encoding.GetChars
+- uid: System.Text.Encoding.GetDecoder*
+  parent: System.Text.Encoding
+  isExternal: false
+  name: GetDecoder
+  nameWithType: Encoding.GetDecoder
+- uid: System.Text.Encoding.GetEncoder*
+  parent: System.Text.Encoding
+  isExternal: false
+  name: GetEncoder
+  nameWithType: Encoding.GetEncoder
 - uid: System.Text.Encoding.GetEncoding*
   parent: System.Text.Encoding
   isExternal: false
   name: GetEncoding
   nameWithType: Encoding.GetEncoding
+- uid: System.Text.Encoding.GetEncodings*
+  parent: System.Text.Encoding
+  isExternal: false
+  name: GetEncodings
+  nameWithType: Encoding.GetEncodings
+- uid: System.Text.Encoding.GetHashCode*
+  parent: System.Text.Encoding
+  isExternal: false
+  name: GetHashCode
+  nameWithType: Encoding.GetHashCode
+- uid: System.Text.Encoding.GetMaxByteCount*
+  parent: System.Text.Encoding
+  isExternal: false
+  name: GetMaxByteCount
+  nameWithType: Encoding.GetMaxByteCount
+- uid: System.Text.Encoding.GetMaxCharCount*
+  parent: System.Text.Encoding
+  isExternal: false
+  name: GetMaxCharCount
+  nameWithType: Encoding.GetMaxCharCount
+- uid: System.Text.Encoding.GetPreamble*
+  parent: System.Text.Encoding
+  isExternal: false
+  name: GetPreamble
+  nameWithType: Encoding.GetPreamble
 - uid: System.Text.Encoding.GetString*
   parent: System.Text.Encoding
   isExternal: false
   name: GetString
   nameWithType: Encoding.GetString
+- uid: System.Text.Encoding.HeaderName*
+  parent: System.Text.Encoding
+  isExternal: false
+  name: HeaderName
+  nameWithType: Encoding.HeaderName
 - uid: System.Text.Encoding.IsAlwaysNormalized*
   parent: System.Text.Encoding
   isExternal: false
   name: IsAlwaysNormalized
   nameWithType: Encoding.IsAlwaysNormalized
+- uid: System.Text.Encoding.IsBrowserDisplay*
+  parent: System.Text.Encoding
+  isExternal: false
+  name: IsBrowserDisplay
+  nameWithType: Encoding.IsBrowserDisplay
+- uid: System.Text.Encoding.IsBrowserSave*
+  parent: System.Text.Encoding
+  isExternal: false
+  name: IsBrowserSave
+  nameWithType: Encoding.IsBrowserSave
+- uid: System.Text.Encoding.IsMailNewsDisplay*
+  parent: System.Text.Encoding
+  isExternal: false
+  name: IsMailNewsDisplay
+  nameWithType: Encoding.IsMailNewsDisplay
+- uid: System.Text.Encoding.IsMailNewsSave*
+  parent: System.Text.Encoding
+  isExternal: false
+  name: IsMailNewsSave
+  nameWithType: Encoding.IsMailNewsSave
+- uid: System.Text.Encoding.IsReadOnly*
+  parent: System.Text.Encoding
+  isExternal: false
+  name: IsReadOnly
+  nameWithType: Encoding.IsReadOnly
+- uid: System.Text.Encoding.IsSingleByte*
+  parent: System.Text.Encoding
+  isExternal: false
+  name: IsSingleByte
+  nameWithType: Encoding.IsSingleByte
+- uid: System.Text.Encoding.RegisterProvider*
+  parent: System.Text.Encoding
+  isExternal: false
+  name: RegisterProvider
+  nameWithType: Encoding.RegisterProvider
+- uid: System.Text.Encoding.Unicode*
+  parent: System.Text.Encoding
+  isExternal: false
+  name: Unicode
+  nameWithType: Encoding.Unicode
+- uid: System.Text.Encoding.UTF32*
+  parent: System.Text.Encoding
+  isExternal: false
+  name: UTF32
+  nameWithType: Encoding.UTF32
+- uid: System.Text.Encoding.UTF7*
+  parent: System.Text.Encoding
+  isExternal: false
+  name: UTF7
+  nameWithType: Encoding.UTF7
+- uid: System.Text.Encoding.UTF8*
+  parent: System.Text.Encoding
+  isExternal: false
+  name: UTF8
+  nameWithType: Encoding.UTF8
+- uid: System.Text.Encoding.WebName*
+  parent: System.Text.Encoding
+  isExternal: false
+  name: WebName
+  nameWithType: Encoding.WebName
+- uid: System.Text.Encoding.WindowsCodePage*
+  parent: System.Text.Encoding
+  isExternal: false
+  name: WindowsCodePage
+  nameWithType: Encoding.WindowsCodePage

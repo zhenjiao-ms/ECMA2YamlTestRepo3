@@ -51,6 +51,7 @@ items:
   syntax:
     content: public EncoderExceptionFallback ();
     parameters: []
+  overload: System.Text.EncoderExceptionFallback.#ctor*
   platform:
   - net-11
   - net-20
@@ -75,6 +76,7 @@ items:
     return:
       type: System.Text.EncoderFallbackBuffer
       description: To be added.
+  overload: System.Text.EncoderExceptionFallback.CreateFallbackBuffer*
   platform:
   - net-11
   - net-20
@@ -102,6 +104,7 @@ items:
     return:
       type: System.Boolean
       description: To be added.
+  overload: System.Text.EncoderExceptionFallback.Equals*
   platform:
   - net-11
   - net-20
@@ -126,6 +129,7 @@ items:
     return:
       type: System.Int32
       description: To be added.
+  overload: System.Text.EncoderExceptionFallback.GetHashCode*
   platform:
   - net-11
   - net-20
@@ -149,6 +153,7 @@ items:
     return:
       type: System.Int32
       description: To be added.
+  overload: System.Text.EncoderExceptionFallback.MaxCharCount*
   platform:
   - net-11
   - net-20
@@ -217,3 +222,28 @@ references:
   name: Int32
   nameWithType: Int32
   fullName: System.Int32
+- uid: System.Text.EncoderExceptionFallback.#ctor*
+  parent: System.Text.EncoderExceptionFallback
+  isExternal: false
+  name: EncoderExceptionFallback
+  nameWithType: EncoderExceptionFallback.EncoderExceptionFallback
+- uid: System.Text.EncoderExceptionFallback.CreateFallbackBuffer*
+  parent: System.Text.EncoderExceptionFallback
+  isExternal: false
+  name: CreateFallbackBuffer
+  nameWithType: EncoderExceptionFallback.CreateFallbackBuffer
+- uid: System.Text.EncoderExceptionFallback.Equals*
+  parent: System.Text.EncoderExceptionFallback
+  isExternal: false
+  name: Equals
+  nameWithType: EncoderExceptionFallback.Equals
+- uid: System.Text.EncoderExceptionFallback.GetHashCode*
+  parent: System.Text.EncoderExceptionFallback
+  isExternal: false
+  name: GetHashCode
+  nameWithType: EncoderExceptionFallback.GetHashCode
+- uid: System.Text.EncoderExceptionFallback.MaxCharCount*
+  parent: System.Text.EncoderExceptionFallback
+  isExternal: false
+  name: MaxCharCount
+  nameWithType: EncoderExceptionFallback.MaxCharCount

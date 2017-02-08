@@ -62,6 +62,7 @@ items:
     - id: control
       type: System.Boolean
       description: To be added.
+  overload: System.ConsoleKeyInfo.#ctor*
   platform:
   - net-11
   - net-20
@@ -142,6 +143,7 @@ items:
     return:
       type: System.Int32
       description: To be added.
+  overload: System.ConsoleKeyInfo.GetHashCode*
   platform:
   - net-11
   - net-20
@@ -165,6 +167,7 @@ items:
     return:
       type: System.ConsoleKey
       description: To be added.
+  overload: System.ConsoleKeyInfo.Key*
   platform:
   - net-11
   - net-20
@@ -188,6 +191,7 @@ items:
     return:
       type: System.Char
       description: To be added.
+  overload: System.ConsoleKeyInfo.KeyChar*
   platform:
   - net-11
   - net-20
@@ -211,6 +215,7 @@ items:
     return:
       type: System.ConsoleModifiers
       description: To be added.
+  overload: System.ConsoleKeyInfo.Modifiers*
   platform:
   - net-11
   - net-20
@@ -241,6 +246,7 @@ items:
     return:
       type: System.Boolean
       description: To be added.
+  overload: System.ConsoleKeyInfo.op_Equality*
   platform:
   - net-11
   - net-20
@@ -271,6 +277,7 @@ items:
     return:
       type: System.Boolean
       description: To be added.
+  overload: System.ConsoleKeyInfo.op_Inequality*
   platform:
   - net-11
   - net-20
@@ -447,8 +454,43 @@ references:
   name: ConsoleKeyInfo
   nameWithType: ConsoleKeyInfo
   fullName: System.ConsoleKeyInfo
+- uid: System.ConsoleKeyInfo.#ctor*
+  parent: System.ConsoleKeyInfo
+  isExternal: false
+  name: ConsoleKeyInfo
+  nameWithType: ConsoleKeyInfo.ConsoleKeyInfo
 - uid: System.ConsoleKeyInfo.Equals*
   parent: System.ConsoleKeyInfo
   isExternal: false
   name: Equals
   nameWithType: ConsoleKeyInfo.Equals
+- uid: System.ConsoleKeyInfo.GetHashCode*
+  parent: System.ConsoleKeyInfo
+  isExternal: false
+  name: GetHashCode
+  nameWithType: ConsoleKeyInfo.GetHashCode
+- uid: System.ConsoleKeyInfo.Key*
+  parent: System.ConsoleKeyInfo
+  isExternal: false
+  name: Key
+  nameWithType: ConsoleKeyInfo.Key
+- uid: System.ConsoleKeyInfo.KeyChar*
+  parent: System.ConsoleKeyInfo
+  isExternal: false
+  name: KeyChar
+  nameWithType: ConsoleKeyInfo.KeyChar
+- uid: System.ConsoleKeyInfo.Modifiers*
+  parent: System.ConsoleKeyInfo
+  isExternal: false
+  name: Modifiers
+  nameWithType: ConsoleKeyInfo.Modifiers
+- uid: System.ConsoleKeyInfo.op_Equality*
+  parent: System.ConsoleKeyInfo
+  isExternal: false
+  name: op_Equality
+  nameWithType: ConsoleKeyInfo.op_Equality
+- uid: System.ConsoleKeyInfo.op_Inequality*
+  parent: System.ConsoleKeyInfo
+  isExternal: false
+  name: op_Inequality
+  nameWithType: ConsoleKeyInfo.op_Inequality

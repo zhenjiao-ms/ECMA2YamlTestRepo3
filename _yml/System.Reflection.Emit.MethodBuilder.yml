@@ -170,6 +170,7 @@ items:
     - id: pset
       type: System.Security.PermissionSet
       description: To be added.
+  overload: System.Reflection.Emit.MethodBuilder.AddDeclarativeSecurity*
   platform:
   - net-11
   - net-20
@@ -193,6 +194,7 @@ items:
     return:
       type: System.Reflection.MethodAttributes
       description: To be added.
+  overload: System.Reflection.Emit.MethodBuilder.Attributes*
   platform:
   - net-11
   - net-20
@@ -216,6 +218,7 @@ items:
     return:
       type: System.Reflection.CallingConventions
       description: To be added.
+  overload: System.Reflection.Emit.MethodBuilder.CallingConvention*
   platform:
   - net-11
   - net-20
@@ -239,6 +242,7 @@ items:
     return:
       type: System.Boolean
       description: To be added.
+  overload: System.Reflection.Emit.MethodBuilder.ContainsGenericParameters*
   platform:
   - net-11
   - net-20
@@ -266,6 +270,7 @@ items:
     - id: count
       type: System.Int32
       description: To be added.
+  overload: System.Reflection.Emit.MethodBuilder.CreateMethodBody*
   platform:
   - net-11
   - net-20
@@ -289,6 +294,7 @@ items:
     return:
       type: System.Type
       description: To be added.
+  overload: System.Reflection.Emit.MethodBuilder.DeclaringType*
   platform:
   - net-11
   - net-20
@@ -316,6 +322,7 @@ items:
     return:
       type: System.Reflection.Emit.GenericTypeParameterBuilder[]
       description: To be added.
+  overload: System.Reflection.Emit.MethodBuilder.DefineGenericParameters*
   platform:
   - net-11
   - net-20
@@ -349,6 +356,7 @@ items:
     return:
       type: System.Reflection.Emit.ParameterBuilder
       description: To be added.
+  overload: System.Reflection.Emit.MethodBuilder.DefineParameter*
   platform:
   - net-11
   - net-20
@@ -376,6 +384,7 @@ items:
     return:
       type: System.Boolean
       description: To be added.
+  overload: System.Reflection.Emit.MethodBuilder.Equals*
   platform:
   - net-11
   - net-20
@@ -400,6 +409,7 @@ items:
     return:
       type: System.Reflection.MethodInfo
       description: To be added.
+  overload: System.Reflection.Emit.MethodBuilder.GetBaseDefinition*
   platform:
   - net-11
   - net-20
@@ -483,6 +493,7 @@ items:
     return:
       type: System.Type[]
       description: To be added.
+  overload: System.Reflection.Emit.MethodBuilder.GetGenericArguments*
   platform:
   - net-11
   - net-20
@@ -507,6 +518,7 @@ items:
     return:
       type: System.Reflection.MethodInfo
       description: To be added.
+  overload: System.Reflection.Emit.MethodBuilder.GetGenericMethodDefinition*
   platform:
   - net-11
   - net-20
@@ -531,6 +543,7 @@ items:
     return:
       type: System.Int32
       description: To be added.
+  overload: System.Reflection.Emit.MethodBuilder.GetHashCode*
   platform:
   - net-11
   - net-20
@@ -608,6 +621,7 @@ items:
     return:
       type: System.Reflection.MethodImplAttributes
       description: To be added.
+  overload: System.Reflection.Emit.MethodBuilder.GetMethodImplementationFlags*
   platform:
   - net-11
   - net-20
@@ -632,6 +646,7 @@ items:
     return:
       type: System.Reflection.Module
       description: To be added.
+  overload: System.Reflection.Emit.MethodBuilder.GetModule*
   platform:
   - net-11
   - net-20
@@ -656,6 +671,7 @@ items:
     return:
       type: System.Reflection.ParameterInfo[]
       description: To be added.
+  overload: System.Reflection.Emit.MethodBuilder.GetParameters*
   platform:
   - net-11
   - net-20
@@ -680,6 +696,7 @@ items:
     return:
       type: System.Reflection.Emit.MethodToken
       description: To be added.
+  overload: System.Reflection.Emit.MethodBuilder.GetToken*
   platform:
   - net-11
   - net-20
@@ -703,6 +720,7 @@ items:
     return:
       type: System.Boolean
       description: To be added.
+  overload: System.Reflection.Emit.MethodBuilder.InitLocals*
   platform:
   - net-11
   - net-20
@@ -742,6 +760,7 @@ items:
     return:
       type: System.Object
       description: To be added.
+  overload: System.Reflection.Emit.MethodBuilder.Invoke*
   platform:
   - net-11
   - net-20
@@ -772,6 +791,7 @@ items:
     return:
       type: System.Boolean
       description: To be added.
+  overload: System.Reflection.Emit.MethodBuilder.IsDefined*
   platform:
   - net-11
   - net-20
@@ -795,6 +815,7 @@ items:
     return:
       type: System.Boolean
       description: To be added.
+  overload: System.Reflection.Emit.MethodBuilder.IsGenericMethod*
   platform:
   - net-11
   - net-20
@@ -818,6 +839,7 @@ items:
     return:
       type: System.Boolean
       description: To be added.
+  overload: System.Reflection.Emit.MethodBuilder.IsGenericMethodDefinition*
   platform:
   - net-11
   - net-20
@@ -841,6 +863,7 @@ items:
     return:
       type: System.Boolean
       description: To be added.
+  overload: System.Reflection.Emit.MethodBuilder.IsSecurityCritical*
   platform:
   - net-11
   - net-20
@@ -864,6 +887,7 @@ items:
     return:
       type: System.Boolean
       description: To be added.
+  overload: System.Reflection.Emit.MethodBuilder.IsSecuritySafeCritical*
   platform:
   - net-11
   - net-20
@@ -887,6 +911,7 @@ items:
     return:
       type: System.Boolean
       description: To be added.
+  overload: System.Reflection.Emit.MethodBuilder.IsSecurityTransparent*
   platform:
   - net-11
   - net-20
@@ -914,6 +939,7 @@ items:
     return:
       type: System.Reflection.MethodInfo
       description: To be added.
+  overload: System.Reflection.Emit.MethodBuilder.MakeGenericMethod*
   platform:
   - net-11
   - net-20
@@ -937,6 +963,7 @@ items:
     return:
       type: System.RuntimeMethodHandle
       description: To be added.
+  overload: System.Reflection.Emit.MethodBuilder.MethodHandle*
   platform:
   - net-11
   - net-20
@@ -960,6 +987,7 @@ items:
     return:
       type: System.Reflection.Module
       description: To be added.
+  overload: System.Reflection.Emit.MethodBuilder.Module*
   platform:
   - net-11
   - net-20
@@ -983,6 +1011,7 @@ items:
     return:
       type: System.String
       description: To be added.
+  overload: System.Reflection.Emit.MethodBuilder.Name*
   platform:
   - net-11
   - net-20
@@ -1006,6 +1035,7 @@ items:
     return:
       type: System.Type
       description: To be added.
+  overload: System.Reflection.Emit.MethodBuilder.ReflectedType*
   platform:
   - net-11
   - net-20
@@ -1029,6 +1059,7 @@ items:
     return:
       type: System.Reflection.ParameterInfo
       description: To be added.
+  overload: System.Reflection.Emit.MethodBuilder.ReturnParameter*
   platform:
   - net-11
   - net-20
@@ -1052,6 +1083,7 @@ items:
     return:
       type: System.Type
       description: To be added.
+  overload: System.Reflection.Emit.MethodBuilder.ReturnType*
   platform:
   - net-11
   - net-20
@@ -1075,6 +1107,7 @@ items:
     return:
       type: System.Reflection.ICustomAttributeProvider
       description: To be added.
+  overload: System.Reflection.Emit.MethodBuilder.ReturnTypeCustomAttributes*
   platform:
   - net-11
   - net-20
@@ -1152,6 +1185,7 @@ items:
     - id: attributes
       type: System.Reflection.MethodImplAttributes
       description: To be added.
+  overload: System.Reflection.Emit.MethodBuilder.SetImplementationFlags*
   platform:
   - net-11
   - net-20
@@ -1176,6 +1210,7 @@ items:
     - id: unmanagedMarshal
       type: System.Reflection.Emit.UnmanagedMarshal
       description: To be added.
+  overload: System.Reflection.Emit.MethodBuilder.SetMarshal*
   platform:
   - net-11
   - net-20
@@ -1212,6 +1247,7 @@ items:
     - id: tokenFixups
       type: System.Collections.Generic.IEnumerable{System.Int32}
       description: To be added.
+  overload: System.Reflection.Emit.MethodBuilder.SetMethodBody*
   platform:
   - net-11
   - net-20
@@ -1236,6 +1272,7 @@ items:
     - id: parameterTypes
       type: System.Type[]
       description: To be added.
+  overload: System.Reflection.Emit.MethodBuilder.SetParameters*
   platform:
   - net-11
   - net-20
@@ -1260,6 +1297,7 @@ items:
     - id: returnType
       type: System.Type
       description: To be added.
+  overload: System.Reflection.Emit.MethodBuilder.SetReturnType*
   platform:
   - net-11
   - net-20
@@ -1299,6 +1337,7 @@ items:
     - id: parameterTypeOptionalCustomModifiers
       type: System.Type[][]
       description: To be added.
+  overload: System.Reflection.Emit.MethodBuilder.SetSignature*
   platform:
   - net-11
   - net-20
@@ -1326,6 +1365,7 @@ items:
     - id: data
       type: System.Byte[]
       description: To be added.
+  overload: System.Reflection.Emit.MethodBuilder.SetSymCustomAttribute*
   platform:
   - net-11
   - net-20
@@ -1349,6 +1389,7 @@ items:
     return:
       type: System.String
       description: To be added.
+  overload: System.Reflection.Emit.MethodBuilder.Signature*
   platform:
   - net-11
   - net-20
@@ -1386,6 +1427,7 @@ items:
     - id: rgDispId
       type: System.IntPtr
       description: To be added.
+  overload: System.Reflection.Emit.MethodBuilder.System#Runtime#InteropServices#_MethodBuilder#GetIDsOfNames*
   platform:
   - net-11
   - net-20
@@ -1417,6 +1459,7 @@ items:
     - id: ppTInfo
       type: System.IntPtr
       description: To be added.
+  overload: System.Reflection.Emit.MethodBuilder.System#Runtime#InteropServices#_MethodBuilder#GetTypeInfo*
   platform:
   - net-11
   - net-20
@@ -1442,6 +1485,7 @@ items:
     - id: pcTInfo
       type: System.UInt32
       description: To be added.
+  overload: System.Reflection.Emit.MethodBuilder.System#Runtime#InteropServices#_MethodBuilder#GetTypeInfoCount*
   platform:
   - net-11
   - net-20
@@ -1488,6 +1532,7 @@ items:
     - id: puArgErr
       type: System.IntPtr
       description: To be added.
+  overload: System.Reflection.Emit.MethodBuilder.System#Runtime#InteropServices#_MethodBuilder#Invoke*
   platform:
   - net-11
   - net-20
@@ -1512,6 +1557,7 @@ items:
     return:
       type: System.String
       description: To be added.
+  overload: System.Reflection.Emit.MethodBuilder.ToString*
   platform:
   - net-11
   - net-20
@@ -2402,18 +2448,248 @@ references:
   name: String
   nameWithType: String
   fullName: System.String
+- uid: System.Reflection.Emit.MethodBuilder.AddDeclarativeSecurity*
+  parent: System.Reflection.Emit.MethodBuilder
+  isExternal: false
+  name: AddDeclarativeSecurity
+  nameWithType: MethodBuilder.AddDeclarativeSecurity
+- uid: System.Reflection.Emit.MethodBuilder.Attributes*
+  parent: System.Reflection.Emit.MethodBuilder
+  isExternal: false
+  name: Attributes
+  nameWithType: MethodBuilder.Attributes
+- uid: System.Reflection.Emit.MethodBuilder.CallingConvention*
+  parent: System.Reflection.Emit.MethodBuilder
+  isExternal: false
+  name: CallingConvention
+  nameWithType: MethodBuilder.CallingConvention
+- uid: System.Reflection.Emit.MethodBuilder.ContainsGenericParameters*
+  parent: System.Reflection.Emit.MethodBuilder
+  isExternal: false
+  name: ContainsGenericParameters
+  nameWithType: MethodBuilder.ContainsGenericParameters
+- uid: System.Reflection.Emit.MethodBuilder.CreateMethodBody*
+  parent: System.Reflection.Emit.MethodBuilder
+  isExternal: false
+  name: CreateMethodBody
+  nameWithType: MethodBuilder.CreateMethodBody
+- uid: System.Reflection.Emit.MethodBuilder.DeclaringType*
+  parent: System.Reflection.Emit.MethodBuilder
+  isExternal: false
+  name: DeclaringType
+  nameWithType: MethodBuilder.DeclaringType
+- uid: System.Reflection.Emit.MethodBuilder.DefineGenericParameters*
+  parent: System.Reflection.Emit.MethodBuilder
+  isExternal: false
+  name: DefineGenericParameters
+  nameWithType: MethodBuilder.DefineGenericParameters
+- uid: System.Reflection.Emit.MethodBuilder.DefineParameter*
+  parent: System.Reflection.Emit.MethodBuilder
+  isExternal: false
+  name: DefineParameter
+  nameWithType: MethodBuilder.DefineParameter
+- uid: System.Reflection.Emit.MethodBuilder.Equals*
+  parent: System.Reflection.Emit.MethodBuilder
+  isExternal: false
+  name: Equals
+  nameWithType: MethodBuilder.Equals
+- uid: System.Reflection.Emit.MethodBuilder.GetBaseDefinition*
+  parent: System.Reflection.Emit.MethodBuilder
+  isExternal: false
+  name: GetBaseDefinition
+  nameWithType: MethodBuilder.GetBaseDefinition
 - uid: System.Reflection.Emit.MethodBuilder.GetCustomAttributes*
   parent: System.Reflection.Emit.MethodBuilder
   isExternal: false
   name: GetCustomAttributes
   nameWithType: MethodBuilder.GetCustomAttributes
+- uid: System.Reflection.Emit.MethodBuilder.GetGenericArguments*
+  parent: System.Reflection.Emit.MethodBuilder
+  isExternal: false
+  name: GetGenericArguments
+  nameWithType: MethodBuilder.GetGenericArguments
+- uid: System.Reflection.Emit.MethodBuilder.GetGenericMethodDefinition*
+  parent: System.Reflection.Emit.MethodBuilder
+  isExternal: false
+  name: GetGenericMethodDefinition
+  nameWithType: MethodBuilder.GetGenericMethodDefinition
+- uid: System.Reflection.Emit.MethodBuilder.GetHashCode*
+  parent: System.Reflection.Emit.MethodBuilder
+  isExternal: false
+  name: GetHashCode
+  nameWithType: MethodBuilder.GetHashCode
 - uid: System.Reflection.Emit.MethodBuilder.GetILGenerator*
   parent: System.Reflection.Emit.MethodBuilder
   isExternal: false
   name: GetILGenerator
   nameWithType: MethodBuilder.GetILGenerator
+- uid: System.Reflection.Emit.MethodBuilder.GetMethodImplementationFlags*
+  parent: System.Reflection.Emit.MethodBuilder
+  isExternal: false
+  name: GetMethodImplementationFlags
+  nameWithType: MethodBuilder.GetMethodImplementationFlags
+- uid: System.Reflection.Emit.MethodBuilder.GetModule*
+  parent: System.Reflection.Emit.MethodBuilder
+  isExternal: false
+  name: GetModule
+  nameWithType: MethodBuilder.GetModule
+- uid: System.Reflection.Emit.MethodBuilder.GetParameters*
+  parent: System.Reflection.Emit.MethodBuilder
+  isExternal: false
+  name: GetParameters
+  nameWithType: MethodBuilder.GetParameters
+- uid: System.Reflection.Emit.MethodBuilder.GetToken*
+  parent: System.Reflection.Emit.MethodBuilder
+  isExternal: false
+  name: GetToken
+  nameWithType: MethodBuilder.GetToken
+- uid: System.Reflection.Emit.MethodBuilder.InitLocals*
+  parent: System.Reflection.Emit.MethodBuilder
+  isExternal: false
+  name: InitLocals
+  nameWithType: MethodBuilder.InitLocals
+- uid: System.Reflection.Emit.MethodBuilder.Invoke*
+  parent: System.Reflection.Emit.MethodBuilder
+  isExternal: false
+  name: Invoke
+  nameWithType: MethodBuilder.Invoke
+- uid: System.Reflection.Emit.MethodBuilder.IsDefined*
+  parent: System.Reflection.Emit.MethodBuilder
+  isExternal: false
+  name: IsDefined
+  nameWithType: MethodBuilder.IsDefined
+- uid: System.Reflection.Emit.MethodBuilder.IsGenericMethod*
+  parent: System.Reflection.Emit.MethodBuilder
+  isExternal: false
+  name: IsGenericMethod
+  nameWithType: MethodBuilder.IsGenericMethod
+- uid: System.Reflection.Emit.MethodBuilder.IsGenericMethodDefinition*
+  parent: System.Reflection.Emit.MethodBuilder
+  isExternal: false
+  name: IsGenericMethodDefinition
+  nameWithType: MethodBuilder.IsGenericMethodDefinition
+- uid: System.Reflection.Emit.MethodBuilder.IsSecurityCritical*
+  parent: System.Reflection.Emit.MethodBuilder
+  isExternal: false
+  name: IsSecurityCritical
+  nameWithType: MethodBuilder.IsSecurityCritical
+- uid: System.Reflection.Emit.MethodBuilder.IsSecuritySafeCritical*
+  parent: System.Reflection.Emit.MethodBuilder
+  isExternal: false
+  name: IsSecuritySafeCritical
+  nameWithType: MethodBuilder.IsSecuritySafeCritical
+- uid: System.Reflection.Emit.MethodBuilder.IsSecurityTransparent*
+  parent: System.Reflection.Emit.MethodBuilder
+  isExternal: false
+  name: IsSecurityTransparent
+  nameWithType: MethodBuilder.IsSecurityTransparent
+- uid: System.Reflection.Emit.MethodBuilder.MakeGenericMethod*
+  parent: System.Reflection.Emit.MethodBuilder
+  isExternal: false
+  name: MakeGenericMethod
+  nameWithType: MethodBuilder.MakeGenericMethod
+- uid: System.Reflection.Emit.MethodBuilder.MethodHandle*
+  parent: System.Reflection.Emit.MethodBuilder
+  isExternal: false
+  name: MethodHandle
+  nameWithType: MethodBuilder.MethodHandle
+- uid: System.Reflection.Emit.MethodBuilder.Module*
+  parent: System.Reflection.Emit.MethodBuilder
+  isExternal: false
+  name: Module
+  nameWithType: MethodBuilder.Module
+- uid: System.Reflection.Emit.MethodBuilder.Name*
+  parent: System.Reflection.Emit.MethodBuilder
+  isExternal: false
+  name: Name
+  nameWithType: MethodBuilder.Name
+- uid: System.Reflection.Emit.MethodBuilder.ReflectedType*
+  parent: System.Reflection.Emit.MethodBuilder
+  isExternal: false
+  name: ReflectedType
+  nameWithType: MethodBuilder.ReflectedType
+- uid: System.Reflection.Emit.MethodBuilder.ReturnParameter*
+  parent: System.Reflection.Emit.MethodBuilder
+  isExternal: false
+  name: ReturnParameter
+  nameWithType: MethodBuilder.ReturnParameter
+- uid: System.Reflection.Emit.MethodBuilder.ReturnType*
+  parent: System.Reflection.Emit.MethodBuilder
+  isExternal: false
+  name: ReturnType
+  nameWithType: MethodBuilder.ReturnType
+- uid: System.Reflection.Emit.MethodBuilder.ReturnTypeCustomAttributes*
+  parent: System.Reflection.Emit.MethodBuilder
+  isExternal: false
+  name: ReturnTypeCustomAttributes
+  nameWithType: MethodBuilder.ReturnTypeCustomAttributes
 - uid: System.Reflection.Emit.MethodBuilder.SetCustomAttribute*
   parent: System.Reflection.Emit.MethodBuilder
   isExternal: false
   name: SetCustomAttribute
   nameWithType: MethodBuilder.SetCustomAttribute
+- uid: System.Reflection.Emit.MethodBuilder.SetImplementationFlags*
+  parent: System.Reflection.Emit.MethodBuilder
+  isExternal: false
+  name: SetImplementationFlags
+  nameWithType: MethodBuilder.SetImplementationFlags
+- uid: System.Reflection.Emit.MethodBuilder.SetMarshal*
+  parent: System.Reflection.Emit.MethodBuilder
+  isExternal: false
+  name: SetMarshal
+  nameWithType: MethodBuilder.SetMarshal
+- uid: System.Reflection.Emit.MethodBuilder.SetMethodBody*
+  parent: System.Reflection.Emit.MethodBuilder
+  isExternal: false
+  name: SetMethodBody
+  nameWithType: MethodBuilder.SetMethodBody
+- uid: System.Reflection.Emit.MethodBuilder.SetParameters*
+  parent: System.Reflection.Emit.MethodBuilder
+  isExternal: false
+  name: SetParameters
+  nameWithType: MethodBuilder.SetParameters
+- uid: System.Reflection.Emit.MethodBuilder.SetReturnType*
+  parent: System.Reflection.Emit.MethodBuilder
+  isExternal: false
+  name: SetReturnType
+  nameWithType: MethodBuilder.SetReturnType
+- uid: System.Reflection.Emit.MethodBuilder.SetSignature*
+  parent: System.Reflection.Emit.MethodBuilder
+  isExternal: false
+  name: SetSignature
+  nameWithType: MethodBuilder.SetSignature
+- uid: System.Reflection.Emit.MethodBuilder.SetSymCustomAttribute*
+  parent: System.Reflection.Emit.MethodBuilder
+  isExternal: false
+  name: SetSymCustomAttribute
+  nameWithType: MethodBuilder.SetSymCustomAttribute
+- uid: System.Reflection.Emit.MethodBuilder.Signature*
+  parent: System.Reflection.Emit.MethodBuilder
+  isExternal: false
+  name: Signature
+  nameWithType: MethodBuilder.Signature
+- uid: System.Reflection.Emit.MethodBuilder.System#Runtime#InteropServices#_MethodBuilder#GetIDsOfNames*
+  parent: System.Reflection.Emit.MethodBuilder
+  isExternal: false
+  name: System.Runtime.InteropServices._MethodBuilder.GetIDsOfNames
+  nameWithType: MethodBuilder.System.Runtime.InteropServices._MethodBuilder.GetIDsOfNames
+- uid: System.Reflection.Emit.MethodBuilder.System#Runtime#InteropServices#_MethodBuilder#GetTypeInfo*
+  parent: System.Reflection.Emit.MethodBuilder
+  isExternal: false
+  name: System.Runtime.InteropServices._MethodBuilder.GetTypeInfo
+  nameWithType: MethodBuilder.System.Runtime.InteropServices._MethodBuilder.GetTypeInfo
+- uid: System.Reflection.Emit.MethodBuilder.System#Runtime#InteropServices#_MethodBuilder#GetTypeInfoCount*
+  parent: System.Reflection.Emit.MethodBuilder
+  isExternal: false
+  name: System.Runtime.InteropServices._MethodBuilder.GetTypeInfoCount
+  nameWithType: MethodBuilder.System.Runtime.InteropServices._MethodBuilder.GetTypeInfoCount
+- uid: System.Reflection.Emit.MethodBuilder.System#Runtime#InteropServices#_MethodBuilder#Invoke*
+  parent: System.Reflection.Emit.MethodBuilder
+  isExternal: false
+  name: System.Runtime.InteropServices._MethodBuilder.Invoke
+  nameWithType: MethodBuilder.System.Runtime.InteropServices._MethodBuilder.Invoke
+- uid: System.Reflection.Emit.MethodBuilder.ToString*
+  parent: System.Reflection.Emit.MethodBuilder
+  isExternal: false
+  name: ToString
+  nameWithType: MethodBuilder.ToString

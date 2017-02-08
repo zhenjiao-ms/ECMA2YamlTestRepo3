@@ -94,6 +94,7 @@ items:
     - id: frameworkName
       type: System.String
       description: To be added.
+  overload: System.Runtime.Versioning.TargetFrameworkAttribute.#ctor*
   platform:
   - net-11
   - net-20
@@ -117,6 +118,7 @@ items:
     return:
       type: System.String
       description: To be added.
+  overload: System.Runtime.Versioning.TargetFrameworkAttribute.FrameworkDisplayName*
   platform:
   - net-11
   - net-20
@@ -140,6 +142,7 @@ items:
     return:
       type: System.String
       description: To be added.
+  overload: System.Runtime.Versioning.TargetFrameworkAttribute.FrameworkName*
   platform:
   - net-11
   - net-20
@@ -184,3 +187,18 @@ references:
   name: String
   nameWithType: String
   fullName: System.String
+- uid: System.Runtime.Versioning.TargetFrameworkAttribute.#ctor*
+  parent: System.Runtime.Versioning.TargetFrameworkAttribute
+  isExternal: false
+  name: TargetFrameworkAttribute
+  nameWithType: TargetFrameworkAttribute.TargetFrameworkAttribute
+- uid: System.Runtime.Versioning.TargetFrameworkAttribute.FrameworkDisplayName*
+  parent: System.Runtime.Versioning.TargetFrameworkAttribute
+  isExternal: false
+  name: FrameworkDisplayName
+  nameWithType: TargetFrameworkAttribute.FrameworkDisplayName
+- uid: System.Runtime.Versioning.TargetFrameworkAttribute.FrameworkName*
+  parent: System.Runtime.Versioning.TargetFrameworkAttribute
+  isExternal: false
+  name: FrameworkName
+  nameWithType: TargetFrameworkAttribute.FrameworkName

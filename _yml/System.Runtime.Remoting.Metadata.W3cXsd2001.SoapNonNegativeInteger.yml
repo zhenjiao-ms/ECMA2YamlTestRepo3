@@ -55,6 +55,7 @@ items:
   syntax:
     content: public SoapNonNegativeInteger ();
     parameters: []
+  overload: System.Runtime.Remoting.Metadata.W3cXsd2001.SoapNonNegativeInteger.#ctor*
   platform:
   - net-11
   - net-20
@@ -79,6 +80,7 @@ items:
     - id: value
       type: System.Decimal
       description: To be added.
+  overload: System.Runtime.Remoting.Metadata.W3cXsd2001.SoapNonNegativeInteger.#ctor*
   platform:
   - net-11
   - net-20
@@ -103,6 +105,7 @@ items:
     return:
       type: System.String
       description: To be added.
+  overload: System.Runtime.Remoting.Metadata.W3cXsd2001.SoapNonNegativeInteger.GetXsdType*
   platform:
   - net-11
   - net-20
@@ -130,6 +133,7 @@ items:
     return:
       type: System.Runtime.Remoting.Metadata.W3cXsd2001.SoapNonNegativeInteger
       description: To be added.
+  overload: System.Runtime.Remoting.Metadata.W3cXsd2001.SoapNonNegativeInteger.Parse*
   platform:
   - net-11
   - net-20
@@ -154,6 +158,7 @@ items:
     return:
       type: System.String
       description: To be added.
+  overload: System.Runtime.Remoting.Metadata.W3cXsd2001.SoapNonNegativeInteger.ToString*
   platform:
   - net-11
   - net-20
@@ -177,6 +182,7 @@ items:
     return:
       type: System.Decimal
       description: To be added.
+  overload: System.Runtime.Remoting.Metadata.W3cXsd2001.SoapNonNegativeInteger.Value*
   platform:
   - net-11
   - net-20
@@ -200,6 +206,7 @@ items:
     return:
       type: System.String
       description: To be added.
+  overload: System.Runtime.Remoting.Metadata.W3cXsd2001.SoapNonNegativeInteger.XsdType*
   platform:
   - net-11
   - net-20
@@ -292,3 +299,33 @@ references:
   name: String
   nameWithType: String
   fullName: System.String
+- uid: System.Runtime.Remoting.Metadata.W3cXsd2001.SoapNonNegativeInteger.#ctor*
+  parent: System.Runtime.Remoting.Metadata.W3cXsd2001.SoapNonNegativeInteger
+  isExternal: false
+  name: SoapNonNegativeInteger
+  nameWithType: SoapNonNegativeInteger.SoapNonNegativeInteger
+- uid: System.Runtime.Remoting.Metadata.W3cXsd2001.SoapNonNegativeInteger.GetXsdType*
+  parent: System.Runtime.Remoting.Metadata.W3cXsd2001.SoapNonNegativeInteger
+  isExternal: false
+  name: GetXsdType
+  nameWithType: SoapNonNegativeInteger.GetXsdType
+- uid: System.Runtime.Remoting.Metadata.W3cXsd2001.SoapNonNegativeInteger.Parse*
+  parent: System.Runtime.Remoting.Metadata.W3cXsd2001.SoapNonNegativeInteger
+  isExternal: false
+  name: Parse
+  nameWithType: SoapNonNegativeInteger.Parse
+- uid: System.Runtime.Remoting.Metadata.W3cXsd2001.SoapNonNegativeInteger.ToString*
+  parent: System.Runtime.Remoting.Metadata.W3cXsd2001.SoapNonNegativeInteger
+  isExternal: false
+  name: ToString
+  nameWithType: SoapNonNegativeInteger.ToString
+- uid: System.Runtime.Remoting.Metadata.W3cXsd2001.SoapNonNegativeInteger.Value*
+  parent: System.Runtime.Remoting.Metadata.W3cXsd2001.SoapNonNegativeInteger
+  isExternal: false
+  name: Value
+  nameWithType: SoapNonNegativeInteger.Value
+- uid: System.Runtime.Remoting.Metadata.W3cXsd2001.SoapNonNegativeInteger.XsdType*
+  parent: System.Runtime.Remoting.Metadata.W3cXsd2001.SoapNonNegativeInteger
+  isExternal: false
+  name: XsdType
+  nameWithType: SoapNonNegativeInteger.XsdType

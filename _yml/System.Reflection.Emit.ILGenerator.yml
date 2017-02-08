@@ -99,6 +99,7 @@ items:
     - id: exceptionType
       type: System.Type
       description: To be added.
+  overload: System.Reflection.Emit.ILGenerator.BeginCatchBlock*
   platform:
   - net-11
   - net-20
@@ -120,6 +121,7 @@ items:
   syntax:
     content: public virtual void BeginExceptFilterBlock ();
     parameters: []
+  overload: System.Reflection.Emit.ILGenerator.BeginExceptFilterBlock*
   platform:
   - net-11
   - net-20
@@ -144,6 +146,7 @@ items:
     return:
       type: System.Reflection.Emit.Label
       description: To be added.
+  overload: System.Reflection.Emit.ILGenerator.BeginExceptionBlock*
   platform:
   - net-11
   - net-20
@@ -165,6 +168,7 @@ items:
   syntax:
     content: public virtual void BeginFaultBlock ();
     parameters: []
+  overload: System.Reflection.Emit.ILGenerator.BeginFaultBlock*
   platform:
   - net-11
   - net-20
@@ -186,6 +190,7 @@ items:
   syntax:
     content: public virtual void BeginFinallyBlock ();
     parameters: []
+  overload: System.Reflection.Emit.ILGenerator.BeginFinallyBlock*
   platform:
   - net-11
   - net-20
@@ -207,6 +212,7 @@ items:
   syntax:
     content: public virtual void BeginScope ();
     parameters: []
+  overload: System.Reflection.Emit.ILGenerator.BeginScope*
   platform:
   - net-11
   - net-20
@@ -290,6 +296,7 @@ items:
     return:
       type: System.Reflection.Emit.Label
       description: To be added.
+  overload: System.Reflection.Emit.ILGenerator.DefineLabel*
   platform:
   - net-11
   - net-20
@@ -793,6 +800,7 @@ items:
     - id: optionalParameterTypes
       type: System.Type[]
       description: To be added.
+  overload: System.Reflection.Emit.ILGenerator.EmitCall*
   platform:
   - net-11
   - net-20
@@ -960,6 +968,7 @@ items:
   syntax:
     content: public virtual void EndExceptionBlock ();
     parameters: []
+  overload: System.Reflection.Emit.ILGenerator.EndExceptionBlock*
   platform:
   - net-11
   - net-20
@@ -981,6 +990,7 @@ items:
   syntax:
     content: public virtual void EndScope ();
     parameters: []
+  overload: System.Reflection.Emit.ILGenerator.EndScope*
   platform:
   - net-11
   - net-20
@@ -1004,6 +1014,7 @@ items:
     return:
       type: System.Int32
       description: To be added.
+  overload: System.Reflection.Emit.ILGenerator.ILOffset*
   platform:
   - net-11
   - net-20
@@ -1028,6 +1039,7 @@ items:
     - id: loc
       type: System.Reflection.Emit.Label
       description: To be added.
+  overload: System.Reflection.Emit.ILGenerator.MarkLabel*
   platform:
   - net-11
   - net-20
@@ -1064,6 +1076,7 @@ items:
     - id: endColumn
       type: System.Int32
       description: To be added.
+  overload: System.Reflection.Emit.ILGenerator.MarkSequencePoint*
   platform:
   - net-11
   - net-20
@@ -1101,6 +1114,7 @@ items:
     - id: rgDispId
       type: System.IntPtr
       description: To be added.
+  overload: System.Reflection.Emit.ILGenerator.System#Runtime#InteropServices#_ILGenerator#GetIDsOfNames*
   platform:
   - net-11
   - net-20
@@ -1132,6 +1146,7 @@ items:
     - id: ppTInfo
       type: System.IntPtr
       description: To be added.
+  overload: System.Reflection.Emit.ILGenerator.System#Runtime#InteropServices#_ILGenerator#GetTypeInfo*
   platform:
   - net-11
   - net-20
@@ -1157,6 +1172,7 @@ items:
     - id: pcTInfo
       type: System.UInt32
       description: To be added.
+  overload: System.Reflection.Emit.ILGenerator.System#Runtime#InteropServices#_ILGenerator#GetTypeInfoCount*
   platform:
   - net-11
   - net-20
@@ -1203,6 +1219,7 @@ items:
     - id: puArgErr
       type: System.IntPtr
       description: To be added.
+  overload: System.Reflection.Emit.ILGenerator.System#Runtime#InteropServices#_ILGenerator#Invoke*
   platform:
   - net-11
   - net-20
@@ -1227,6 +1244,7 @@ items:
     - id: excType
       type: System.Type
       description: To be added.
+  overload: System.Reflection.Emit.ILGenerator.ThrowException*
   platform:
   - net-11
   - net-20
@@ -1251,6 +1269,7 @@ items:
     - id: usingNamespace
       type: System.String
       description: To be added.
+  overload: System.Reflection.Emit.ILGenerator.UsingNamespace*
   platform:
   - net-11
   - net-20
@@ -2009,16 +2028,56 @@ references:
   name: String
   nameWithType: String
   fullName: System.String
+- uid: System.Reflection.Emit.ILGenerator.BeginCatchBlock*
+  parent: System.Reflection.Emit.ILGenerator
+  isExternal: false
+  name: BeginCatchBlock
+  nameWithType: ILGenerator.BeginCatchBlock
+- uid: System.Reflection.Emit.ILGenerator.BeginExceptFilterBlock*
+  parent: System.Reflection.Emit.ILGenerator
+  isExternal: false
+  name: BeginExceptFilterBlock
+  nameWithType: ILGenerator.BeginExceptFilterBlock
+- uid: System.Reflection.Emit.ILGenerator.BeginExceptionBlock*
+  parent: System.Reflection.Emit.ILGenerator
+  isExternal: false
+  name: BeginExceptionBlock
+  nameWithType: ILGenerator.BeginExceptionBlock
+- uid: System.Reflection.Emit.ILGenerator.BeginFaultBlock*
+  parent: System.Reflection.Emit.ILGenerator
+  isExternal: false
+  name: BeginFaultBlock
+  nameWithType: ILGenerator.BeginFaultBlock
+- uid: System.Reflection.Emit.ILGenerator.BeginFinallyBlock*
+  parent: System.Reflection.Emit.ILGenerator
+  isExternal: false
+  name: BeginFinallyBlock
+  nameWithType: ILGenerator.BeginFinallyBlock
+- uid: System.Reflection.Emit.ILGenerator.BeginScope*
+  parent: System.Reflection.Emit.ILGenerator
+  isExternal: false
+  name: BeginScope
+  nameWithType: ILGenerator.BeginScope
 - uid: System.Reflection.Emit.ILGenerator.DeclareLocal*
   parent: System.Reflection.Emit.ILGenerator
   isExternal: false
   name: DeclareLocal
   nameWithType: ILGenerator.DeclareLocal
+- uid: System.Reflection.Emit.ILGenerator.DefineLabel*
+  parent: System.Reflection.Emit.ILGenerator
+  isExternal: false
+  name: DefineLabel
+  nameWithType: ILGenerator.DefineLabel
 - uid: System.Reflection.Emit.ILGenerator.Emit*
   parent: System.Reflection.Emit.ILGenerator
   isExternal: false
   name: Emit
   nameWithType: ILGenerator.Emit
+- uid: System.Reflection.Emit.ILGenerator.EmitCall*
+  parent: System.Reflection.Emit.ILGenerator
+  isExternal: false
+  name: EmitCall
+  nameWithType: ILGenerator.EmitCall
 - uid: System.Reflection.Emit.ILGenerator.EmitCalli*
   parent: System.Reflection.Emit.ILGenerator
   isExternal: false
@@ -2029,3 +2088,58 @@ references:
   isExternal: false
   name: EmitWriteLine
   nameWithType: ILGenerator.EmitWriteLine
+- uid: System.Reflection.Emit.ILGenerator.EndExceptionBlock*
+  parent: System.Reflection.Emit.ILGenerator
+  isExternal: false
+  name: EndExceptionBlock
+  nameWithType: ILGenerator.EndExceptionBlock
+- uid: System.Reflection.Emit.ILGenerator.EndScope*
+  parent: System.Reflection.Emit.ILGenerator
+  isExternal: false
+  name: EndScope
+  nameWithType: ILGenerator.EndScope
+- uid: System.Reflection.Emit.ILGenerator.ILOffset*
+  parent: System.Reflection.Emit.ILGenerator
+  isExternal: false
+  name: ILOffset
+  nameWithType: ILGenerator.ILOffset
+- uid: System.Reflection.Emit.ILGenerator.MarkLabel*
+  parent: System.Reflection.Emit.ILGenerator
+  isExternal: false
+  name: MarkLabel
+  nameWithType: ILGenerator.MarkLabel
+- uid: System.Reflection.Emit.ILGenerator.MarkSequencePoint*
+  parent: System.Reflection.Emit.ILGenerator
+  isExternal: false
+  name: MarkSequencePoint
+  nameWithType: ILGenerator.MarkSequencePoint
+- uid: System.Reflection.Emit.ILGenerator.System#Runtime#InteropServices#_ILGenerator#GetIDsOfNames*
+  parent: System.Reflection.Emit.ILGenerator
+  isExternal: false
+  name: System.Runtime.InteropServices._ILGenerator.GetIDsOfNames
+  nameWithType: ILGenerator.System.Runtime.InteropServices._ILGenerator.GetIDsOfNames
+- uid: System.Reflection.Emit.ILGenerator.System#Runtime#InteropServices#_ILGenerator#GetTypeInfo*
+  parent: System.Reflection.Emit.ILGenerator
+  isExternal: false
+  name: System.Runtime.InteropServices._ILGenerator.GetTypeInfo
+  nameWithType: ILGenerator.System.Runtime.InteropServices._ILGenerator.GetTypeInfo
+- uid: System.Reflection.Emit.ILGenerator.System#Runtime#InteropServices#_ILGenerator#GetTypeInfoCount*
+  parent: System.Reflection.Emit.ILGenerator
+  isExternal: false
+  name: System.Runtime.InteropServices._ILGenerator.GetTypeInfoCount
+  nameWithType: ILGenerator.System.Runtime.InteropServices._ILGenerator.GetTypeInfoCount
+- uid: System.Reflection.Emit.ILGenerator.System#Runtime#InteropServices#_ILGenerator#Invoke*
+  parent: System.Reflection.Emit.ILGenerator
+  isExternal: false
+  name: System.Runtime.InteropServices._ILGenerator.Invoke
+  nameWithType: ILGenerator.System.Runtime.InteropServices._ILGenerator.Invoke
+- uid: System.Reflection.Emit.ILGenerator.ThrowException*
+  parent: System.Reflection.Emit.ILGenerator
+  isExternal: false
+  name: ThrowException
+  nameWithType: ILGenerator.ThrowException
+- uid: System.Reflection.Emit.ILGenerator.UsingNamespace*
+  parent: System.Reflection.Emit.ILGenerator
+  isExternal: false
+  name: UsingNamespace
+  nameWithType: ILGenerator.UsingNamespace

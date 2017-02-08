@@ -167,6 +167,7 @@ items:
     - id: optionalCustomModifiers
       type: System.Type[][]
       description: To be added.
+  overload: System.Reflection.Emit.SignatureHelper.AddArguments*
   platform:
   - net-11
   - net-20
@@ -188,6 +189,7 @@ items:
   syntax:
     content: public void AddSentinel ();
     parameters: []
+  overload: System.Reflection.Emit.SignatureHelper.AddSentinel*
   platform:
   - net-11
   - net-20
@@ -215,6 +217,7 @@ items:
     return:
       type: System.Boolean
       description: To be added.
+  overload: System.Reflection.Emit.SignatureHelper.Equals*
   platform:
   - net-11
   - net-20
@@ -242,6 +245,7 @@ items:
     return:
       type: System.Reflection.Emit.SignatureHelper
       description: To be added.
+  overload: System.Reflection.Emit.SignatureHelper.GetFieldSigHelper*
   platform:
   - net-11
   - net-20
@@ -266,6 +270,7 @@ items:
     return:
       type: System.Int32
       description: To be added.
+  overload: System.Reflection.Emit.SignatureHelper.GetHashCode*
   platform:
   - net-11
   - net-20
@@ -636,6 +641,7 @@ items:
     return:
       type: System.Byte[]
       description: To be added.
+  overload: System.Reflection.Emit.SignatureHelper.GetSignature*
   platform:
   - net-11
   - net-20
@@ -673,6 +679,7 @@ items:
     - id: rgDispId
       type: System.IntPtr
       description: To be added.
+  overload: System.Reflection.Emit.SignatureHelper.System#Runtime#InteropServices#_SignatureHelper#GetIDsOfNames*
   platform:
   - net-11
   - net-20
@@ -704,6 +711,7 @@ items:
     - id: ppTInfo
       type: System.IntPtr
       description: To be added.
+  overload: System.Reflection.Emit.SignatureHelper.System#Runtime#InteropServices#_SignatureHelper#GetTypeInfo*
   platform:
   - net-11
   - net-20
@@ -729,6 +737,7 @@ items:
     - id: pcTInfo
       type: System.UInt32
       description: To be added.
+  overload: System.Reflection.Emit.SignatureHelper.System#Runtime#InteropServices#_SignatureHelper#GetTypeInfoCount*
   platform:
   - net-11
   - net-20
@@ -775,6 +784,7 @@ items:
     - id: puArgErr
       type: System.IntPtr
       description: To be added.
+  overload: System.Reflection.Emit.SignatureHelper.System#Runtime#InteropServices#_SignatureHelper#Invoke*
   platform:
   - net-11
   - net-20
@@ -799,6 +809,7 @@ items:
     return:
       type: System.String
       description: To be added.
+  overload: System.Reflection.Emit.SignatureHelper.ToString*
   platform:
   - net-11
   - net-20
@@ -1406,6 +1417,31 @@ references:
   isExternal: false
   name: AddArgument
   nameWithType: SignatureHelper.AddArgument
+- uid: System.Reflection.Emit.SignatureHelper.AddArguments*
+  parent: System.Reflection.Emit.SignatureHelper
+  isExternal: false
+  name: AddArguments
+  nameWithType: SignatureHelper.AddArguments
+- uid: System.Reflection.Emit.SignatureHelper.AddSentinel*
+  parent: System.Reflection.Emit.SignatureHelper
+  isExternal: false
+  name: AddSentinel
+  nameWithType: SignatureHelper.AddSentinel
+- uid: System.Reflection.Emit.SignatureHelper.Equals*
+  parent: System.Reflection.Emit.SignatureHelper
+  isExternal: false
+  name: Equals
+  nameWithType: SignatureHelper.Equals
+- uid: System.Reflection.Emit.SignatureHelper.GetFieldSigHelper*
+  parent: System.Reflection.Emit.SignatureHelper
+  isExternal: false
+  name: GetFieldSigHelper
+  nameWithType: SignatureHelper.GetFieldSigHelper
+- uid: System.Reflection.Emit.SignatureHelper.GetHashCode*
+  parent: System.Reflection.Emit.SignatureHelper
+  isExternal: false
+  name: GetHashCode
+  nameWithType: SignatureHelper.GetHashCode
 - uid: System.Reflection.Emit.SignatureHelper.GetLocalVarSigHelper*
   parent: System.Reflection.Emit.SignatureHelper
   isExternal: false
@@ -1421,3 +1457,33 @@ references:
   isExternal: false
   name: GetPropertySigHelper
   nameWithType: SignatureHelper.GetPropertySigHelper
+- uid: System.Reflection.Emit.SignatureHelper.GetSignature*
+  parent: System.Reflection.Emit.SignatureHelper
+  isExternal: false
+  name: GetSignature
+  nameWithType: SignatureHelper.GetSignature
+- uid: System.Reflection.Emit.SignatureHelper.System#Runtime#InteropServices#_SignatureHelper#GetIDsOfNames*
+  parent: System.Reflection.Emit.SignatureHelper
+  isExternal: false
+  name: System.Runtime.InteropServices._SignatureHelper.GetIDsOfNames
+  nameWithType: SignatureHelper.System.Runtime.InteropServices._SignatureHelper.GetIDsOfNames
+- uid: System.Reflection.Emit.SignatureHelper.System#Runtime#InteropServices#_SignatureHelper#GetTypeInfo*
+  parent: System.Reflection.Emit.SignatureHelper
+  isExternal: false
+  name: System.Runtime.InteropServices._SignatureHelper.GetTypeInfo
+  nameWithType: SignatureHelper.System.Runtime.InteropServices._SignatureHelper.GetTypeInfo
+- uid: System.Reflection.Emit.SignatureHelper.System#Runtime#InteropServices#_SignatureHelper#GetTypeInfoCount*
+  parent: System.Reflection.Emit.SignatureHelper
+  isExternal: false
+  name: System.Runtime.InteropServices._SignatureHelper.GetTypeInfoCount
+  nameWithType: SignatureHelper.System.Runtime.InteropServices._SignatureHelper.GetTypeInfoCount
+- uid: System.Reflection.Emit.SignatureHelper.System#Runtime#InteropServices#_SignatureHelper#Invoke*
+  parent: System.Reflection.Emit.SignatureHelper
+  isExternal: false
+  name: System.Runtime.InteropServices._SignatureHelper.Invoke
+  nameWithType: SignatureHelper.System.Runtime.InteropServices._SignatureHelper.Invoke
+- uid: System.Reflection.Emit.SignatureHelper.ToString*
+  parent: System.Reflection.Emit.SignatureHelper
+  isExternal: false
+  name: ToString
+  nameWithType: SignatureHelper.ToString

@@ -53,6 +53,7 @@ items:
     - id: sizeInMegabytes
       type: System.Int32
       description: To be added.
+  overload: System.Runtime.MemoryFailPoint.#ctor*
   platform:
   - net-11
   - net-20
@@ -74,6 +75,7 @@ items:
   syntax:
     content: public void Dispose ();
     parameters: []
+  overload: System.Runtime.MemoryFailPoint.Dispose*
   platform:
   - net-11
   - net-20
@@ -95,6 +97,7 @@ items:
   syntax:
     content: ~MemoryFailPoint ();
     parameters: []
+  overload: System.Runtime.MemoryFailPoint.Finalize*
   platform:
   - net-11
   - net-20
@@ -127,3 +130,18 @@ references:
   name: Finalize()
   nameWithType: MemoryFailPoint.Finalize()
   fullName: System.Runtime.MemoryFailPoint.Finalize()
+- uid: System.Runtime.MemoryFailPoint.#ctor*
+  parent: System.Runtime.MemoryFailPoint
+  isExternal: false
+  name: MemoryFailPoint
+  nameWithType: MemoryFailPoint.MemoryFailPoint
+- uid: System.Runtime.MemoryFailPoint.Dispose*
+  parent: System.Runtime.MemoryFailPoint
+  isExternal: false
+  name: Dispose
+  nameWithType: MemoryFailPoint.Dispose
+- uid: System.Runtime.MemoryFailPoint.Finalize*
+  parent: System.Runtime.MemoryFailPoint
+  isExternal: false
+  name: Finalize
+  nameWithType: MemoryFailPoint.Finalize

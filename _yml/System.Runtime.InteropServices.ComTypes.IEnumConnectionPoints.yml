@@ -47,6 +47,7 @@ items:
     - id: ppenum
       type: System.Runtime.InteropServices.ComTypes.IEnumConnectionPoints
       description: To be added.
+  overload: System.Runtime.InteropServices.ComTypes.IEnumConnectionPoints.Clone*
   platform:
   - net-11
   - net-20
@@ -80,6 +81,7 @@ items:
     return:
       type: System.Int32
       description: To be added.
+  overload: System.Runtime.InteropServices.ComTypes.IEnumConnectionPoints.Next*
   platform:
   - net-11
   - net-20
@@ -101,6 +103,7 @@ items:
   syntax:
     content: public void Reset ();
     parameters: []
+  overload: System.Runtime.InteropServices.ComTypes.IEnumConnectionPoints.Reset*
   platform:
   - net-11
   - net-20
@@ -128,6 +131,7 @@ items:
     return:
       type: System.Int32
       description: To be added.
+  overload: System.Runtime.InteropServices.ComTypes.IEnumConnectionPoints.Skip*
   platform:
   - net-11
   - net-20
@@ -199,3 +203,23 @@ references:
   name: Int32
   nameWithType: Int32
   fullName: System.Int32
+- uid: System.Runtime.InteropServices.ComTypes.IEnumConnectionPoints.Clone*
+  parent: System.Runtime.InteropServices.ComTypes.IEnumConnectionPoints
+  isExternal: false
+  name: Clone
+  nameWithType: IEnumConnectionPoints.Clone
+- uid: System.Runtime.InteropServices.ComTypes.IEnumConnectionPoints.Next*
+  parent: System.Runtime.InteropServices.ComTypes.IEnumConnectionPoints
+  isExternal: false
+  name: Next
+  nameWithType: IEnumConnectionPoints.Next
+- uid: System.Runtime.InteropServices.ComTypes.IEnumConnectionPoints.Reset*
+  parent: System.Runtime.InteropServices.ComTypes.IEnumConnectionPoints
+  isExternal: false
+  name: Reset
+  nameWithType: IEnumConnectionPoints.Reset
+- uid: System.Runtime.InteropServices.ComTypes.IEnumConnectionPoints.Skip*
+  parent: System.Runtime.InteropServices.ComTypes.IEnumConnectionPoints
+  isExternal: false
+  name: Skip
+  nameWithType: IEnumConnectionPoints.Skip

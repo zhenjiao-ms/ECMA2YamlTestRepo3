@@ -95,6 +95,7 @@ items:
     - id: memberName
       type: System.String
       description: To be added.
+  overload: System.Reflection.DefaultMemberAttribute.#ctor*
   platform:
   - net-11
   - net-20
@@ -118,6 +119,7 @@ items:
     return:
       type: System.String
       description: To be added.
+  overload: System.Reflection.DefaultMemberAttribute.MemberName*
   platform:
   - net-11
   - net-20
@@ -150,3 +152,13 @@ references:
   name: String
   nameWithType: String
   fullName: System.String
+- uid: System.Reflection.DefaultMemberAttribute.#ctor*
+  parent: System.Reflection.DefaultMemberAttribute
+  isExternal: false
+  name: DefaultMemberAttribute
+  nameWithType: DefaultMemberAttribute.DefaultMemberAttribute
+- uid: System.Reflection.DefaultMemberAttribute.MemberName*
+  parent: System.Reflection.DefaultMemberAttribute
+  isExternal: false
+  name: MemberName
+  nameWithType: DefaultMemberAttribute.MemberName

@@ -319,6 +319,7 @@ items:
     return:
       type: System.Double
       description: To be added.
+  overload: System.Math.Acos*
   platform:
   - net-11
   - net-20
@@ -346,6 +347,7 @@ items:
     return:
       type: System.Double
       description: To be added.
+  overload: System.Math.Asin*
   platform:
   - net-11
   - net-20
@@ -373,6 +375,7 @@ items:
     return:
       type: System.Double
       description: To be added.
+  overload: System.Math.Atan*
   platform:
   - net-11
   - net-20
@@ -403,6 +406,7 @@ items:
     return:
       type: System.Double
       description: To be added.
+  overload: System.Math.Atan2*
   platform:
   - net-11
   - net-20
@@ -433,6 +437,7 @@ items:
     return:
       type: System.Int64
       description: To be added.
+  overload: System.Math.BigMul*
   platform:
   - net-11
   - net-20
@@ -516,6 +521,7 @@ items:
     return:
       type: System.Double
       description: To be added.
+  overload: System.Math.Cos*
   platform:
   - net-11
   - net-20
@@ -543,6 +549,7 @@ items:
     return:
       type: System.Double
       description: To be added.
+  overload: System.Math.Cosh*
   platform:
   - net-11
   - net-20
@@ -661,6 +668,7 @@ items:
     return:
       type: System.Double
       description: To be added.
+  overload: System.Math.Exp*
   platform:
   - net-11
   - net-20
@@ -747,6 +755,7 @@ items:
     return:
       type: System.Double
       description: To be added.
+  overload: System.Math.IEEERemainder*
   platform:
   - net-11
   - net-20
@@ -833,6 +842,7 @@ items:
     return:
       type: System.Double
       description: To be added.
+  overload: System.Math.Log10*
   platform:
   - net-11
   - net-20
@@ -1568,6 +1578,7 @@ items:
     return:
       type: System.Double
       description: To be added.
+  overload: System.Math.Pow*
   platform:
   - net-11
   - net-20
@@ -2039,6 +2050,7 @@ items:
     return:
       type: System.Double
       description: To be added.
+  overload: System.Math.Sin*
   platform:
   - net-11
   - net-20
@@ -2066,6 +2078,7 @@ items:
     return:
       type: System.Double
       description: To be added.
+  overload: System.Math.Sinh*
   platform:
   - net-11
   - net-20
@@ -2093,6 +2106,7 @@ items:
     return:
       type: System.Double
       description: To be added.
+  overload: System.Math.Sqrt*
   platform:
   - net-11
   - net-20
@@ -2120,6 +2134,7 @@ items:
     return:
       type: System.Double
       description: To be added.
+  overload: System.Math.Tan*
   platform:
   - net-11
   - net-20
@@ -2147,6 +2162,7 @@ items:
     return:
       type: System.Double
       description: To be added.
+  overload: System.Math.Tanh*
   platform:
   - net-11
   - net-20
@@ -3734,26 +3750,76 @@ references:
   isExternal: false
   name: Abs
   nameWithType: Math.Abs
+- uid: System.Math.Acos*
+  parent: System.Math
+  isExternal: false
+  name: Acos
+  nameWithType: Math.Acos
+- uid: System.Math.Asin*
+  parent: System.Math
+  isExternal: false
+  name: Asin
+  nameWithType: Math.Asin
+- uid: System.Math.Atan*
+  parent: System.Math
+  isExternal: false
+  name: Atan
+  nameWithType: Math.Atan
+- uid: System.Math.Atan2*
+  parent: System.Math
+  isExternal: false
+  name: Atan2
+  nameWithType: Math.Atan2
+- uid: System.Math.BigMul*
+  parent: System.Math
+  isExternal: false
+  name: BigMul
+  nameWithType: Math.BigMul
 - uid: System.Math.Ceiling*
   parent: System.Math
   isExternal: false
   name: Ceiling
   nameWithType: Math.Ceiling
+- uid: System.Math.Cos*
+  parent: System.Math
+  isExternal: false
+  name: Cos
+  nameWithType: Math.Cos
+- uid: System.Math.Cosh*
+  parent: System.Math
+  isExternal: false
+  name: Cosh
+  nameWithType: Math.Cosh
 - uid: System.Math.DivRem*
   parent: System.Math
   isExternal: false
   name: DivRem
   nameWithType: Math.DivRem
+- uid: System.Math.Exp*
+  parent: System.Math
+  isExternal: false
+  name: Exp
+  nameWithType: Math.Exp
 - uid: System.Math.Floor*
   parent: System.Math
   isExternal: false
   name: Floor
   nameWithType: Math.Floor
+- uid: System.Math.IEEERemainder*
+  parent: System.Math
+  isExternal: false
+  name: IEEERemainder
+  nameWithType: Math.IEEERemainder
 - uid: System.Math.Log*
   parent: System.Math
   isExternal: false
   name: Log
   nameWithType: Math.Log
+- uid: System.Math.Log10*
+  parent: System.Math
+  isExternal: false
+  name: Log10
+  nameWithType: Math.Log10
 - uid: System.Math.Max*
   parent: System.Math
   isExternal: false
@@ -3764,6 +3830,11 @@ references:
   isExternal: false
   name: Min
   nameWithType: Math.Min
+- uid: System.Math.Pow*
+  parent: System.Math
+  isExternal: false
+  name: Pow
+  nameWithType: Math.Pow
 - uid: System.Math.Round*
   parent: System.Math
   isExternal: false
@@ -3774,6 +3845,31 @@ references:
   isExternal: false
   name: Sign
   nameWithType: Math.Sign
+- uid: System.Math.Sin*
+  parent: System.Math
+  isExternal: false
+  name: Sin
+  nameWithType: Math.Sin
+- uid: System.Math.Sinh*
+  parent: System.Math
+  isExternal: false
+  name: Sinh
+  nameWithType: Math.Sinh
+- uid: System.Math.Sqrt*
+  parent: System.Math
+  isExternal: false
+  name: Sqrt
+  nameWithType: Math.Sqrt
+- uid: System.Math.Tan*
+  parent: System.Math
+  isExternal: false
+  name: Tan
+  nameWithType: Math.Tan
+- uid: System.Math.Tanh*
+  parent: System.Math
+  isExternal: false
+  name: Tanh
+  nameWithType: Math.Tanh
 - uid: System.Math.Truncate*
   parent: System.Math
   isExternal: false

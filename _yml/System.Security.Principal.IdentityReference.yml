@@ -59,6 +59,7 @@ items:
     return:
       type: System.Boolean
       description: To be added.
+  overload: System.Security.Principal.IdentityReference.Equals*
   platform:
   - net-11
   - net-20
@@ -83,6 +84,7 @@ items:
     return:
       type: System.Int32
       description: To be added.
+  overload: System.Security.Principal.IdentityReference.GetHashCode*
   platform:
   - net-11
   - net-20
@@ -110,6 +112,7 @@ items:
     return:
       type: System.Boolean
       description: To be added.
+  overload: System.Security.Principal.IdentityReference.IsValidTargetType*
   platform:
   - net-11
   - net-20
@@ -140,6 +143,7 @@ items:
     return:
       type: System.Boolean
       description: To be added.
+  overload: System.Security.Principal.IdentityReference.op_Equality*
   platform:
   - net-11
   - net-20
@@ -170,6 +174,7 @@ items:
     return:
       type: System.Boolean
       description: To be added.
+  overload: System.Security.Principal.IdentityReference.op_Inequality*
   platform:
   - net-11
   - net-20
@@ -194,6 +199,7 @@ items:
     return:
       type: System.String
       description: To be added.
+  overload: System.Security.Principal.IdentityReference.ToString*
   platform:
   - net-11
   - net-20
@@ -221,6 +227,7 @@ items:
     return:
       type: System.Security.Principal.IdentityReference
       description: To be added.
+  overload: System.Security.Principal.IdentityReference.Translate*
   platform:
   - net-11
   - net-20
@@ -244,6 +251,7 @@ items:
     return:
       type: System.String
       description: To be added.
+  overload: System.Security.Principal.IdentityReference.Value*
   platform:
   - net-11
   - net-20
@@ -390,3 +398,43 @@ references:
   name: String
   nameWithType: String
   fullName: System.String
+- uid: System.Security.Principal.IdentityReference.Equals*
+  parent: System.Security.Principal.IdentityReference
+  isExternal: false
+  name: Equals
+  nameWithType: IdentityReference.Equals
+- uid: System.Security.Principal.IdentityReference.GetHashCode*
+  parent: System.Security.Principal.IdentityReference
+  isExternal: false
+  name: GetHashCode
+  nameWithType: IdentityReference.GetHashCode
+- uid: System.Security.Principal.IdentityReference.IsValidTargetType*
+  parent: System.Security.Principal.IdentityReference
+  isExternal: false
+  name: IsValidTargetType
+  nameWithType: IdentityReference.IsValidTargetType
+- uid: System.Security.Principal.IdentityReference.op_Equality*
+  parent: System.Security.Principal.IdentityReference
+  isExternal: false
+  name: op_Equality
+  nameWithType: IdentityReference.op_Equality
+- uid: System.Security.Principal.IdentityReference.op_Inequality*
+  parent: System.Security.Principal.IdentityReference
+  isExternal: false
+  name: op_Inequality
+  nameWithType: IdentityReference.op_Inequality
+- uid: System.Security.Principal.IdentityReference.ToString*
+  parent: System.Security.Principal.IdentityReference
+  isExternal: false
+  name: ToString
+  nameWithType: IdentityReference.ToString
+- uid: System.Security.Principal.IdentityReference.Translate*
+  parent: System.Security.Principal.IdentityReference
+  isExternal: false
+  name: Translate
+  nameWithType: IdentityReference.Translate
+- uid: System.Security.Principal.IdentityReference.Value*
+  parent: System.Security.Principal.IdentityReference
+  isExternal: false
+  name: Value
+  nameWithType: IdentityReference.Value

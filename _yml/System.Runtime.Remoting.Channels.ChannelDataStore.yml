@@ -57,6 +57,7 @@ items:
     - id: channelURIs
       type: System.String[]
       description: To be added.
+  overload: System.Runtime.Remoting.Channels.ChannelDataStore.#ctor*
   platform:
   - net-11
   - net-20
@@ -80,6 +81,7 @@ items:
     return:
       type: System.String[]
       description: To be added.
+  overload: System.Runtime.Remoting.Channels.ChannelDataStore.ChannelUris*
   platform:
   - net-11
   - net-20
@@ -107,6 +109,7 @@ items:
     return:
       type: System.Object
       description: To be added.
+  overload: System.Runtime.Remoting.Channels.ChannelDataStore.Item*
   platform:
   - net-11
   - net-20
@@ -157,3 +160,18 @@ references:
   name: Object
   nameWithType: Object
   fullName: System.Object
+- uid: System.Runtime.Remoting.Channels.ChannelDataStore.#ctor*
+  parent: System.Runtime.Remoting.Channels.ChannelDataStore
+  isExternal: false
+  name: ChannelDataStore
+  nameWithType: ChannelDataStore.ChannelDataStore
+- uid: System.Runtime.Remoting.Channels.ChannelDataStore.ChannelUris*
+  parent: System.Runtime.Remoting.Channels.ChannelDataStore
+  isExternal: false
+  name: ChannelUris
+  nameWithType: ChannelDataStore.ChannelUris
+- uid: System.Runtime.Remoting.Channels.ChannelDataStore.Item*
+  parent: System.Runtime.Remoting.Channels.ChannelDataStore
+  isExternal: false
+  name: Item
+  nameWithType: ChannelDataStore.Item

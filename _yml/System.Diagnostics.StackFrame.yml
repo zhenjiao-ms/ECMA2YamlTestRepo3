@@ -61,6 +61,7 @@ items:
   syntax:
     content: public StackFrame ();
     parameters: []
+  overload: System.Diagnostics.StackFrame.#ctor*
   platform:
   - net-11
   - net-20
@@ -85,6 +86,7 @@ items:
     - id: fNeedFileInfo
       type: System.Boolean
       description: To be added.
+  overload: System.Diagnostics.StackFrame.#ctor*
   platform:
   - net-11
   - net-20
@@ -109,6 +111,7 @@ items:
     - id: skipFrames
       type: System.Int32
       description: To be added.
+  overload: System.Diagnostics.StackFrame.#ctor*
   platform:
   - net-11
   - net-20
@@ -136,6 +139,7 @@ items:
     - id: fNeedFileInfo
       type: System.Boolean
       description: To be added.
+  overload: System.Diagnostics.StackFrame.#ctor*
   platform:
   - net-11
   - net-20
@@ -163,6 +167,7 @@ items:
     - id: lineNumber
       type: System.Int32
       description: To be added.
+  overload: System.Diagnostics.StackFrame.#ctor*
   platform:
   - net-11
   - net-20
@@ -193,6 +198,7 @@ items:
     - id: colNumber
       type: System.Int32
       description: To be added.
+  overload: System.Diagnostics.StackFrame.#ctor*
   platform:
   - net-11
   - net-20
@@ -217,6 +223,7 @@ items:
     return:
       type: System.Int32
       description: To be added.
+  overload: System.Diagnostics.StackFrame.GetFileColumnNumber*
   platform:
   - net-11
   - net-20
@@ -241,6 +248,7 @@ items:
     return:
       type: System.Int32
       description: To be added.
+  overload: System.Diagnostics.StackFrame.GetFileLineNumber*
   platform:
   - net-11
   - net-20
@@ -265,6 +273,7 @@ items:
     return:
       type: System.String
       description: To be added.
+  overload: System.Diagnostics.StackFrame.GetFileName*
   platform:
   - net-11
   - net-20
@@ -289,6 +298,7 @@ items:
     return:
       type: System.Int32
       description: To be added.
+  overload: System.Diagnostics.StackFrame.GetILOffset*
   platform:
   - net-11
   - net-20
@@ -313,6 +323,7 @@ items:
     return:
       type: System.Reflection.MethodBase
       description: To be added.
+  overload: System.Diagnostics.StackFrame.GetMethod*
   platform:
   - net-11
   - net-20
@@ -337,6 +348,7 @@ items:
     return:
       type: System.Int32
       description: To be added.
+  overload: System.Diagnostics.StackFrame.GetNativeOffset*
   platform:
   - net-11
   - net-20
@@ -384,6 +396,7 @@ items:
     return:
       type: System.String
       description: To be added.
+  overload: System.Diagnostics.StackFrame.ToString*
   platform:
   - net-11
   - net-20
@@ -578,3 +591,43 @@ references:
   name: String
   nameWithType: String
   fullName: System.String
+- uid: System.Diagnostics.StackFrame.#ctor*
+  parent: System.Diagnostics.StackFrame
+  isExternal: false
+  name: StackFrame
+  nameWithType: StackFrame.StackFrame
+- uid: System.Diagnostics.StackFrame.GetFileColumnNumber*
+  parent: System.Diagnostics.StackFrame
+  isExternal: false
+  name: GetFileColumnNumber
+  nameWithType: StackFrame.GetFileColumnNumber
+- uid: System.Diagnostics.StackFrame.GetFileLineNumber*
+  parent: System.Diagnostics.StackFrame
+  isExternal: false
+  name: GetFileLineNumber
+  nameWithType: StackFrame.GetFileLineNumber
+- uid: System.Diagnostics.StackFrame.GetFileName*
+  parent: System.Diagnostics.StackFrame
+  isExternal: false
+  name: GetFileName
+  nameWithType: StackFrame.GetFileName
+- uid: System.Diagnostics.StackFrame.GetILOffset*
+  parent: System.Diagnostics.StackFrame
+  isExternal: false
+  name: GetILOffset
+  nameWithType: StackFrame.GetILOffset
+- uid: System.Diagnostics.StackFrame.GetMethod*
+  parent: System.Diagnostics.StackFrame
+  isExternal: false
+  name: GetMethod
+  nameWithType: StackFrame.GetMethod
+- uid: System.Diagnostics.StackFrame.GetNativeOffset*
+  parent: System.Diagnostics.StackFrame
+  isExternal: false
+  name: GetNativeOffset
+  nameWithType: StackFrame.GetNativeOffset
+- uid: System.Diagnostics.StackFrame.ToString*
+  parent: System.Diagnostics.StackFrame
+  isExternal: false
+  name: ToString
+  nameWithType: StackFrame.ToString

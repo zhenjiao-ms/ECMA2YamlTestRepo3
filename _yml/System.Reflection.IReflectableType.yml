@@ -39,6 +39,7 @@ items:
     return:
       type: System.Reflection.TypeInfo
       description: To be added.
+  overload: System.Reflection.IReflectableType.GetTypeInfo*
   platform:
   - net-11
   - net-20
@@ -56,3 +57,8 @@ references:
   name: TypeInfo
   nameWithType: TypeInfo
   fullName: System.Reflection.TypeInfo
+- uid: System.Reflection.IReflectableType.GetTypeInfo*
+  parent: System.Reflection.IReflectableType
+  isExternal: false
+  name: GetTypeInfo
+  nameWithType: IReflectableType.GetTypeInfo

@@ -60,6 +60,7 @@ items:
     return:
       type: System.Int32
       description: To be added.
+  overload: System.Globalization.SortKey.Compare*
   platform:
   - net-11
   - net-20
@@ -87,6 +88,7 @@ items:
     return:
       type: System.Boolean
       description: To be added.
+  overload: System.Globalization.SortKey.Equals*
   platform:
   - net-11
   - net-20
@@ -111,6 +113,7 @@ items:
     return:
       type: System.Int32
       description: To be added.
+  overload: System.Globalization.SortKey.GetHashCode*
   platform:
   - net-11
   - net-20
@@ -134,6 +137,7 @@ items:
     return:
       type: System.Byte[]
       description: To be added.
+  overload: System.Globalization.SortKey.KeyData*
   platform:
   - net-11
   - net-20
@@ -157,6 +161,7 @@ items:
     return:
       type: System.String
       description: To be added.
+  overload: System.Globalization.SortKey.OriginalString*
   platform:
   - net-11
   - net-20
@@ -181,6 +186,7 @@ items:
     return:
       type: System.String
       description: To be added.
+  overload: System.Globalization.SortKey.ToString*
   platform:
   - net-11
   - net-20
@@ -279,3 +285,33 @@ references:
   name: String
   nameWithType: String
   fullName: System.String
+- uid: System.Globalization.SortKey.Compare*
+  parent: System.Globalization.SortKey
+  isExternal: false
+  name: Compare
+  nameWithType: SortKey.Compare
+- uid: System.Globalization.SortKey.Equals*
+  parent: System.Globalization.SortKey
+  isExternal: false
+  name: Equals
+  nameWithType: SortKey.Equals
+- uid: System.Globalization.SortKey.GetHashCode*
+  parent: System.Globalization.SortKey
+  isExternal: false
+  name: GetHashCode
+  nameWithType: SortKey.GetHashCode
+- uid: System.Globalization.SortKey.KeyData*
+  parent: System.Globalization.SortKey
+  isExternal: false
+  name: KeyData
+  nameWithType: SortKey.KeyData
+- uid: System.Globalization.SortKey.OriginalString*
+  parent: System.Globalization.SortKey
+  isExternal: false
+  name: OriginalString
+  nameWithType: SortKey.OriginalString
+- uid: System.Globalization.SortKey.ToString*
+  parent: System.Globalization.SortKey
+  isExternal: false
+  name: ToString
+  nameWithType: SortKey.ToString

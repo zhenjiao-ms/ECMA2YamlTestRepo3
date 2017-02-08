@@ -51,6 +51,7 @@ items:
     - id: pdwCookie
       type: System.Int32
       description: To be added.
+  overload: System.Runtime.InteropServices.ComTypes.IConnectionPoint.Advise*
   platform:
   - net-11
   - net-20
@@ -75,6 +76,7 @@ items:
     - id: ppEnum
       type: System.Runtime.InteropServices.ComTypes.IEnumConnections
       description: To be added.
+  overload: System.Runtime.InteropServices.ComTypes.IConnectionPoint.EnumConnections*
   platform:
   - net-11
   - net-20
@@ -99,6 +101,7 @@ items:
     - id: pIID
       type: System.Guid
       description: To be added.
+  overload: System.Runtime.InteropServices.ComTypes.IConnectionPoint.GetConnectionInterface*
   platform:
   - net-11
   - net-20
@@ -123,6 +126,7 @@ items:
     - id: ppCPC
       type: System.Runtime.InteropServices.ComTypes.IConnectionPointContainer
       description: To be added.
+  overload: System.Runtime.InteropServices.ComTypes.IConnectionPoint.GetConnectionPointContainer*
   platform:
   - net-11
   - net-20
@@ -147,6 +151,7 @@ items:
     - id: dwCookie
       type: System.Int32
       description: To be added.
+  overload: System.Runtime.InteropServices.ComTypes.IConnectionPoint.Unadvise*
   platform:
   - net-11
   - net-20
@@ -218,3 +223,28 @@ references:
   name: Int32
   nameWithType: Int32
   fullName: System.Int32
+- uid: System.Runtime.InteropServices.ComTypes.IConnectionPoint.Advise*
+  parent: System.Runtime.InteropServices.ComTypes.IConnectionPoint
+  isExternal: false
+  name: Advise
+  nameWithType: IConnectionPoint.Advise
+- uid: System.Runtime.InteropServices.ComTypes.IConnectionPoint.EnumConnections*
+  parent: System.Runtime.InteropServices.ComTypes.IConnectionPoint
+  isExternal: false
+  name: EnumConnections
+  nameWithType: IConnectionPoint.EnumConnections
+- uid: System.Runtime.InteropServices.ComTypes.IConnectionPoint.GetConnectionInterface*
+  parent: System.Runtime.InteropServices.ComTypes.IConnectionPoint
+  isExternal: false
+  name: GetConnectionInterface
+  nameWithType: IConnectionPoint.GetConnectionInterface
+- uid: System.Runtime.InteropServices.ComTypes.IConnectionPoint.GetConnectionPointContainer*
+  parent: System.Runtime.InteropServices.ComTypes.IConnectionPoint
+  isExternal: false
+  name: GetConnectionPointContainer
+  nameWithType: IConnectionPoint.GetConnectionPointContainer
+- uid: System.Runtime.InteropServices.ComTypes.IConnectionPoint.Unadvise*
+  parent: System.Runtime.InteropServices.ComTypes.IConnectionPoint
+  isExternal: false
+  name: Unadvise
+  nameWithType: IConnectionPoint.Unadvise

@@ -111,6 +111,7 @@ items:
     return:
       type: System.Int32
       description: To be added.
+  overload: System.RuntimeTypeHandle.GetHashCode*
   platform:
   - net-11
   - net-20
@@ -135,6 +136,7 @@ items:
     return:
       type: System.ModuleHandle
       description: To be added.
+  overload: System.RuntimeTypeHandle.GetModuleHandle*
   platform:
   - net-11
   - net-20
@@ -162,6 +164,7 @@ items:
     - id: context
       type: System.Runtime.Serialization.StreamingContext
       description: To be added.
+  overload: System.RuntimeTypeHandle.GetObjectData*
   platform:
   - net-11
   - net-20
@@ -192,6 +195,7 @@ items:
     return:
       type: System.Boolean
       description: To be added.
+  overload: System.RuntimeTypeHandle.op_Equality*
   platform:
   - net-11
   - net-20
@@ -222,6 +226,7 @@ items:
     return:
       type: System.Boolean
       description: To be added.
+  overload: System.RuntimeTypeHandle.op_Equality*
   platform:
   - net-11
   - net-20
@@ -252,6 +257,7 @@ items:
     return:
       type: System.Boolean
       description: To be added.
+  overload: System.RuntimeTypeHandle.op_Inequality*
   platform:
   - net-11
   - net-20
@@ -282,6 +288,7 @@ items:
     return:
       type: System.Boolean
       description: To be added.
+  overload: System.RuntimeTypeHandle.op_Inequality*
   platform:
   - net-11
   - net-20
@@ -305,6 +312,7 @@ items:
     return:
       type: System.IntPtr
       description: To be added.
+  overload: System.RuntimeTypeHandle.Value*
   platform:
   - net-11
   - net-20
@@ -504,3 +512,33 @@ references:
   isExternal: false
   name: Equals
   nameWithType: RuntimeTypeHandle.Equals
+- uid: System.RuntimeTypeHandle.GetHashCode*
+  parent: System.RuntimeTypeHandle
+  isExternal: false
+  name: GetHashCode
+  nameWithType: RuntimeTypeHandle.GetHashCode
+- uid: System.RuntimeTypeHandle.GetModuleHandle*
+  parent: System.RuntimeTypeHandle
+  isExternal: false
+  name: GetModuleHandle
+  nameWithType: RuntimeTypeHandle.GetModuleHandle
+- uid: System.RuntimeTypeHandle.GetObjectData*
+  parent: System.RuntimeTypeHandle
+  isExternal: false
+  name: GetObjectData
+  nameWithType: RuntimeTypeHandle.GetObjectData
+- uid: System.RuntimeTypeHandle.op_Equality*
+  parent: System.RuntimeTypeHandle
+  isExternal: false
+  name: op_Equality
+  nameWithType: RuntimeTypeHandle.op_Equality
+- uid: System.RuntimeTypeHandle.op_Inequality*
+  parent: System.RuntimeTypeHandle
+  isExternal: false
+  name: op_Inequality
+  nameWithType: RuntimeTypeHandle.op_Inequality
+- uid: System.RuntimeTypeHandle.Value*
+  parent: System.RuntimeTypeHandle
+  isExternal: false
+  name: Value
+  nameWithType: RuntimeTypeHandle.Value

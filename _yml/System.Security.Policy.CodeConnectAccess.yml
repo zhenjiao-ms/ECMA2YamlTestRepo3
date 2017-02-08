@@ -63,6 +63,7 @@ items:
     - id: allowPort
       type: System.Int32
       description: To be added.
+  overload: System.Security.Policy.CodeConnectAccess.#ctor*
   platform:
   - net-11
   - net-20
@@ -113,6 +114,7 @@ items:
     return:
       type: System.Security.Policy.CodeConnectAccess
       description: To be added.
+  overload: System.Security.Policy.CodeConnectAccess.CreateAnySchemeAccess*
   platform:
   - net-11
   - net-20
@@ -140,6 +142,7 @@ items:
     return:
       type: System.Security.Policy.CodeConnectAccess
       description: To be added.
+  overload: System.Security.Policy.CodeConnectAccess.CreateOriginSchemeAccess*
   platform:
   - net-11
   - net-20
@@ -190,6 +193,7 @@ items:
     return:
       type: System.Boolean
       description: To be added.
+  overload: System.Security.Policy.CodeConnectAccess.Equals*
   platform:
   - net-11
   - net-20
@@ -214,6 +218,7 @@ items:
     return:
       type: System.Int32
       description: To be added.
+  overload: System.Security.Policy.CodeConnectAccess.GetHashCode*
   platform:
   - net-11
   - net-20
@@ -283,6 +288,7 @@ items:
     return:
       type: System.Int32
       description: To be added.
+  overload: System.Security.Policy.CodeConnectAccess.Port*
   platform:
   - net-11
   - net-20
@@ -306,6 +312,7 @@ items:
     return:
       type: System.String
       description: To be added.
+  overload: System.Security.Policy.CodeConnectAccess.Scheme*
   platform:
   - net-11
   - net-20
@@ -470,3 +477,38 @@ references:
   name: String
   nameWithType: String
   fullName: System.String
+- uid: System.Security.Policy.CodeConnectAccess.#ctor*
+  parent: System.Security.Policy.CodeConnectAccess
+  isExternal: false
+  name: CodeConnectAccess
+  nameWithType: CodeConnectAccess.CodeConnectAccess
+- uid: System.Security.Policy.CodeConnectAccess.CreateAnySchemeAccess*
+  parent: System.Security.Policy.CodeConnectAccess
+  isExternal: false
+  name: CreateAnySchemeAccess
+  nameWithType: CodeConnectAccess.CreateAnySchemeAccess
+- uid: System.Security.Policy.CodeConnectAccess.CreateOriginSchemeAccess*
+  parent: System.Security.Policy.CodeConnectAccess
+  isExternal: false
+  name: CreateOriginSchemeAccess
+  nameWithType: CodeConnectAccess.CreateOriginSchemeAccess
+- uid: System.Security.Policy.CodeConnectAccess.Equals*
+  parent: System.Security.Policy.CodeConnectAccess
+  isExternal: false
+  name: Equals
+  nameWithType: CodeConnectAccess.Equals
+- uid: System.Security.Policy.CodeConnectAccess.GetHashCode*
+  parent: System.Security.Policy.CodeConnectAccess
+  isExternal: false
+  name: GetHashCode
+  nameWithType: CodeConnectAccess.GetHashCode
+- uid: System.Security.Policy.CodeConnectAccess.Port*
+  parent: System.Security.Policy.CodeConnectAccess
+  isExternal: false
+  name: Port
+  nameWithType: CodeConnectAccess.Port
+- uid: System.Security.Policy.CodeConnectAccess.Scheme*
+  parent: System.Security.Policy.CodeConnectAccess
+  isExternal: false
+  name: Scheme
+  nameWithType: CodeConnectAccess.Scheme

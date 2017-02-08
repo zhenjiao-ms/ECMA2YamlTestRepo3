@@ -66,6 +66,7 @@ items:
   syntax:
     content: public TaskCanceledException ();
     parameters: []
+  overload: System.Threading.Tasks.TaskCanceledException.#ctor*
   platform:
   - net-11
   - net-20
@@ -90,6 +91,7 @@ items:
     - id: message
       type: System.String
       description: To be added.
+  overload: System.Threading.Tasks.TaskCanceledException.#ctor*
   platform:
   - net-11
   - net-20
@@ -114,6 +116,7 @@ items:
     - id: task
       type: System.Threading.Tasks.Task
       description: To be added.
+  overload: System.Threading.Tasks.TaskCanceledException.#ctor*
   platform:
   - net-11
   - net-20
@@ -141,6 +144,7 @@ items:
     - id: context
       type: System.Runtime.Serialization.StreamingContext
       description: To be added.
+  overload: System.Threading.Tasks.TaskCanceledException.#ctor*
   platform:
   - net-11
   - net-20
@@ -168,6 +172,7 @@ items:
     - id: innerException
       type: System.Exception
       description: To be added.
+  overload: System.Threading.Tasks.TaskCanceledException.#ctor*
   platform:
   - net-11
   - net-20
@@ -191,6 +196,7 @@ items:
     return:
       type: System.Threading.Tasks.Task
       description: To be added.
+  overload: System.Threading.Tasks.TaskCanceledException.Task*
   platform:
   - net-11
   - net-20
@@ -277,3 +283,13 @@ references:
   name: Task
   nameWithType: Task
   fullName: System.Threading.Tasks.Task
+- uid: System.Threading.Tasks.TaskCanceledException.#ctor*
+  parent: System.Threading.Tasks.TaskCanceledException
+  isExternal: false
+  name: TaskCanceledException
+  nameWithType: TaskCanceledException.TaskCanceledException
+- uid: System.Threading.Tasks.TaskCanceledException.Task*
+  parent: System.Threading.Tasks.TaskCanceledException
+  isExternal: false
+  name: Task
+  nameWithType: TaskCanceledException.Task

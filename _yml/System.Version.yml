@@ -76,6 +76,7 @@ items:
   syntax:
     content: public Version ();
     parameters: []
+  overload: System.Version.#ctor*
   platform:
   - net-11
   - net-20
@@ -100,6 +101,7 @@ items:
     - id: version
       type: System.String
       description: To be added.
+  overload: System.Version.#ctor*
   platform:
   - net-11
   - net-20
@@ -127,6 +129,7 @@ items:
     - id: minor
       type: System.Int32
       description: To be added.
+  overload: System.Version.#ctor*
   platform:
   - net-11
   - net-20
@@ -157,6 +160,7 @@ items:
     - id: build
       type: System.Int32
       description: To be added.
+  overload: System.Version.#ctor*
   platform:
   - net-11
   - net-20
@@ -190,6 +194,7 @@ items:
     - id: revision
       type: System.Int32
       description: To be added.
+  overload: System.Version.#ctor*
   platform:
   - net-11
   - net-20
@@ -213,6 +218,7 @@ items:
     return:
       type: System.Int32
       description: To be added.
+  overload: System.Version.Build*
   platform:
   - net-11
   - net-20
@@ -237,6 +243,7 @@ items:
     return:
       type: System.Object
       description: To be added.
+  overload: System.Version.Clone*
   platform:
   - net-11
   - net-20
@@ -373,6 +380,7 @@ items:
     return:
       type: System.Int32
       description: To be added.
+  overload: System.Version.GetHashCode*
   platform:
   - net-11
   - net-20
@@ -396,6 +404,7 @@ items:
     return:
       type: System.Int32
       description: To be added.
+  overload: System.Version.Major*
   platform:
   - net-11
   - net-20
@@ -419,6 +428,7 @@ items:
     return:
       type: System.Int16
       description: To be added.
+  overload: System.Version.MajorRevision*
   platform:
   - net-11
   - net-20
@@ -442,6 +452,7 @@ items:
     return:
       type: System.Int32
       description: To be added.
+  overload: System.Version.Minor*
   platform:
   - net-11
   - net-20
@@ -465,6 +476,7 @@ items:
     return:
       type: System.Int16
       description: To be added.
+  overload: System.Version.MinorRevision*
   platform:
   - net-11
   - net-20
@@ -495,6 +507,7 @@ items:
     return:
       type: System.Boolean
       description: To be added.
+  overload: System.Version.op_Equality*
   platform:
   - net-11
   - net-20
@@ -525,6 +538,7 @@ items:
     return:
       type: System.Boolean
       description: To be added.
+  overload: System.Version.op_GreaterThan*
   platform:
   - net-11
   - net-20
@@ -555,6 +569,7 @@ items:
     return:
       type: System.Boolean
       description: To be added.
+  overload: System.Version.op_GreaterThanOrEqual*
   platform:
   - net-11
   - net-20
@@ -585,6 +600,7 @@ items:
     return:
       type: System.Boolean
       description: To be added.
+  overload: System.Version.op_Inequality*
   platform:
   - net-11
   - net-20
@@ -615,6 +631,7 @@ items:
     return:
       type: System.Boolean
       description: To be added.
+  overload: System.Version.op_LessThan*
   platform:
   - net-11
   - net-20
@@ -645,6 +662,7 @@ items:
     return:
       type: System.Boolean
       description: To be added.
+  overload: System.Version.op_LessThanOrEqual*
   platform:
   - net-11
   - net-20
@@ -672,6 +690,7 @@ items:
     return:
       type: System.Version
       description: To be added.
+  overload: System.Version.Parse*
   platform:
   - net-11
   - net-20
@@ -695,6 +714,7 @@ items:
     return:
       type: System.Int32
       description: To be added.
+  overload: System.Version.Revision*
   platform:
   - net-11
   - net-20
@@ -778,6 +798,7 @@ items:
     return:
       type: System.Boolean
       description: To be added.
+  overload: System.Version.TryParse*
   platform:
   - net-11
   - net-20
@@ -1260,6 +1281,21 @@ references:
   name: Version
   nameWithType: Version
   fullName: System.Version
+- uid: System.Version.#ctor*
+  parent: System.Version
+  isExternal: false
+  name: Version
+  nameWithType: Version.Version
+- uid: System.Version.Build*
+  parent: System.Version
+  isExternal: false
+  name: Build
+  nameWithType: Version.Build
+- uid: System.Version.Clone*
+  parent: System.Version
+  isExternal: false
+  name: Clone
+  nameWithType: Version.Clone
 - uid: System.Version.CompareTo*
   parent: System.Version
   isExternal: false
@@ -1270,8 +1306,78 @@ references:
   isExternal: false
   name: Equals
   nameWithType: Version.Equals
+- uid: System.Version.GetHashCode*
+  parent: System.Version
+  isExternal: false
+  name: GetHashCode
+  nameWithType: Version.GetHashCode
+- uid: System.Version.Major*
+  parent: System.Version
+  isExternal: false
+  name: Major
+  nameWithType: Version.Major
+- uid: System.Version.MajorRevision*
+  parent: System.Version
+  isExternal: false
+  name: MajorRevision
+  nameWithType: Version.MajorRevision
+- uid: System.Version.Minor*
+  parent: System.Version
+  isExternal: false
+  name: Minor
+  nameWithType: Version.Minor
+- uid: System.Version.MinorRevision*
+  parent: System.Version
+  isExternal: false
+  name: MinorRevision
+  nameWithType: Version.MinorRevision
+- uid: System.Version.op_Equality*
+  parent: System.Version
+  isExternal: false
+  name: op_Equality
+  nameWithType: Version.op_Equality
+- uid: System.Version.op_GreaterThan*
+  parent: System.Version
+  isExternal: false
+  name: op_GreaterThan
+  nameWithType: Version.op_GreaterThan
+- uid: System.Version.op_GreaterThanOrEqual*
+  parent: System.Version
+  isExternal: false
+  name: op_GreaterThanOrEqual
+  nameWithType: Version.op_GreaterThanOrEqual
+- uid: System.Version.op_Inequality*
+  parent: System.Version
+  isExternal: false
+  name: op_Inequality
+  nameWithType: Version.op_Inequality
+- uid: System.Version.op_LessThan*
+  parent: System.Version
+  isExternal: false
+  name: op_LessThan
+  nameWithType: Version.op_LessThan
+- uid: System.Version.op_LessThanOrEqual*
+  parent: System.Version
+  isExternal: false
+  name: op_LessThanOrEqual
+  nameWithType: Version.op_LessThanOrEqual
+- uid: System.Version.Parse*
+  parent: System.Version
+  isExternal: false
+  name: Parse
+  nameWithType: Version.Parse
+- uid: System.Version.Revision*
+  parent: System.Version
+  isExternal: false
+  name: Revision
+  nameWithType: Version.Revision
 - uid: System.Version.ToString*
   parent: System.Version
   isExternal: false
   name: ToString
   nameWithType: Version.ToString
+- uid: System.Version.TryParse*
+  parent: System.Version
+  isExternal: false
+  name: TryParse
+  nameWithType: Version.TryParse

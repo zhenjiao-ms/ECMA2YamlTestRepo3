@@ -203,6 +203,7 @@ items:
     - id: value
       type: System.Char*
       description: To be added.
+  overload: System.String.#ctor*
   platform:
   - net-11
   - net-20
@@ -227,6 +228,7 @@ items:
     - id: value
       type: System.Char[]
       description: To be added.
+  overload: System.String.#ctor*
   platform:
   - net-11
   - net-20
@@ -251,6 +253,7 @@ items:
     - id: value
       type: System.SByte*
       description: To be added.
+  overload: System.String.#ctor*
   platform:
   - net-11
   - net-20
@@ -278,6 +281,7 @@ items:
     - id: count
       type: System.Int32
       description: To be added.
+  overload: System.String.#ctor*
   platform:
   - net-11
   - net-20
@@ -308,6 +312,7 @@ items:
     - id: length
       type: System.Int32
       description: To be added.
+  overload: System.String.#ctor*
   platform:
   - net-11
   - net-20
@@ -338,6 +343,7 @@ items:
     - id: length
       type: System.Int32
       description: To be added.
+  overload: System.String.#ctor*
   platform:
   - net-11
   - net-20
@@ -368,6 +374,7 @@ items:
     - id: length
       type: System.Int32
       description: To be added.
+  overload: System.String.#ctor*
   platform:
   - net-11
   - net-20
@@ -401,6 +408,7 @@ items:
     - id: enc
       type: System.Text.Encoding
       description: To be added.
+  overload: System.String.#ctor*
   platform:
   - net-11
   - net-20
@@ -428,6 +436,7 @@ items:
     return:
       type: System.Char
       description: To be added.
+  overload: System.String.Chars*
   platform:
   - net-11
   - net-20
@@ -452,6 +461,7 @@ items:
     return:
       type: System.Object
       description: To be added.
+  overload: System.String.Clone*
   platform:
   - net-11
   - net-20
@@ -1313,6 +1323,7 @@ items:
     return:
       type: System.String
       description: To be added.
+  overload: System.String.Concat<T>*
   platform:
   - net-11
   - net-20
@@ -1340,6 +1351,7 @@ items:
     return:
       type: System.Boolean
       description: To be added.
+  overload: System.String.Contains*
   platform:
   - net-11
   - net-20
@@ -1367,6 +1379,7 @@ items:
     return:
       type: System.String
       description: To be added.
+  overload: System.String.Copy*
   platform:
   - net-11
   - net-20
@@ -1400,6 +1413,7 @@ items:
     - id: count
       type: System.Int32
       description: To be added.
+  overload: System.String.CopyTo*
   platform:
   - net-11
   - net-20
@@ -1970,6 +1984,7 @@ items:
     return:
       type: System.CharEnumerator
       description: To be added.
+  overload: System.String.GetEnumerator*
   platform:
   - net-11
   - net-20
@@ -1994,6 +2009,7 @@ items:
     return:
       type: System.Int32
       description: To be added.
+  overload: System.String.GetHashCode*
   platform:
   - net-11
   - net-20
@@ -2018,6 +2034,7 @@ items:
     return:
       type: System.TypeCode
       description: To be added.
+  overload: System.String.GetTypeCode*
   platform:
   - net-11
   - net-20
@@ -2429,6 +2446,7 @@ items:
     return:
       type: System.String
       description: To be added.
+  overload: System.String.Insert*
   platform:
   - net-11
   - net-20
@@ -2456,6 +2474,7 @@ items:
     return:
       type: System.String
       description: To be added.
+  overload: System.String.Intern*
   platform:
   - net-11
   - net-20
@@ -2483,6 +2502,7 @@ items:
     return:
       type: System.String
       description: To be added.
+  overload: System.String.IsInterned*
   platform:
   - net-11
   - net-20
@@ -2563,6 +2583,7 @@ items:
     return:
       type: System.Boolean
       description: To be added.
+  overload: System.String.IsNullOrEmpty*
   platform:
   - net-11
   - net-20
@@ -2590,6 +2611,7 @@ items:
     return:
       type: System.Boolean
       description: To be added.
+  overload: System.String.IsNullOrWhiteSpace*
   platform:
   - net-11
   - net-20
@@ -2750,6 +2772,7 @@ items:
     return:
       type: System.String
       description: To be added.
+  overload: System.String.Join<T>*
   platform:
   - net-11
   - net-20
@@ -3154,6 +3177,7 @@ items:
     return:
       type: System.Int32
       description: To be added.
+  overload: System.String.Length*
   platform:
   - net-11
   - net-20
@@ -3237,6 +3261,7 @@ items:
     return:
       type: System.Boolean
       description: To be added.
+  overload: System.String.op_Equality*
   platform:
   - net-11
   - net-20
@@ -3267,6 +3292,7 @@ items:
     return:
       type: System.Boolean
       description: To be added.
+  overload: System.String.op_Inequality*
   platform:
   - net-11
   - net-20
@@ -3872,6 +3898,7 @@ items:
     return:
       type: System.Collections.Generic.IEnumerator{System.Char}
       description: To be added.
+  overload: System.String.System#Collections#Generic#IEnumerable<System#Char>#GetEnumerator*
   platform:
   - net-11
   - net-20
@@ -3897,6 +3924,7 @@ items:
     return:
       type: System.Collections.IEnumerator
       description: To be added.
+  overload: System.String.System#Collections#IEnumerable#GetEnumerator*
   platform:
   - net-11
   - net-20
@@ -3925,6 +3953,7 @@ items:
     return:
       type: System.Boolean
       description: To be added.
+  overload: System.String.System#IConvertible#ToBoolean*
   platform:
   - net-11
   - net-20
@@ -3953,6 +3982,7 @@ items:
     return:
       type: System.Byte
       description: To be added.
+  overload: System.String.System#IConvertible#ToByte*
   platform:
   - net-11
   - net-20
@@ -3981,6 +4011,7 @@ items:
     return:
       type: System.Char
       description: To be added.
+  overload: System.String.System#IConvertible#ToChar*
   platform:
   - net-11
   - net-20
@@ -4009,6 +4040,7 @@ items:
     return:
       type: System.DateTime
       description: To be added.
+  overload: System.String.System#IConvertible#ToDateTime*
   platform:
   - net-11
   - net-20
@@ -4037,6 +4069,7 @@ items:
     return:
       type: System.Decimal
       description: To be added.
+  overload: System.String.System#IConvertible#ToDecimal*
   platform:
   - net-11
   - net-20
@@ -4065,6 +4098,7 @@ items:
     return:
       type: System.Double
       description: To be added.
+  overload: System.String.System#IConvertible#ToDouble*
   platform:
   - net-11
   - net-20
@@ -4093,6 +4127,7 @@ items:
     return:
       type: System.Int16
       description: To be added.
+  overload: System.String.System#IConvertible#ToInt16*
   platform:
   - net-11
   - net-20
@@ -4121,6 +4156,7 @@ items:
     return:
       type: System.Int32
       description: To be added.
+  overload: System.String.System#IConvertible#ToInt32*
   platform:
   - net-11
   - net-20
@@ -4149,6 +4185,7 @@ items:
     return:
       type: System.Int64
       description: To be added.
+  overload: System.String.System#IConvertible#ToInt64*
   platform:
   - net-11
   - net-20
@@ -4177,6 +4214,7 @@ items:
     return:
       type: System.SByte
       description: To be added.
+  overload: System.String.System#IConvertible#ToSByte*
   platform:
   - net-11
   - net-20
@@ -4205,6 +4243,7 @@ items:
     return:
       type: System.Single
       description: To be added.
+  overload: System.String.System#IConvertible#ToSingle*
   platform:
   - net-11
   - net-20
@@ -4236,6 +4275,7 @@ items:
     return:
       type: System.Object
       description: To be added.
+  overload: System.String.System#IConvertible#ToType*
   platform:
   - net-11
   - net-20
@@ -4264,6 +4304,7 @@ items:
     return:
       type: System.UInt16
       description: To be added.
+  overload: System.String.System#IConvertible#ToUInt16*
   platform:
   - net-11
   - net-20
@@ -4292,6 +4333,7 @@ items:
     return:
       type: System.UInt32
       description: To be added.
+  overload: System.String.System#IConvertible#ToUInt32*
   platform:
   - net-11
   - net-20
@@ -4320,6 +4362,7 @@ items:
     return:
       type: System.UInt64
       description: To be added.
+  overload: System.String.System#IConvertible#ToUInt64*
   platform:
   - net-11
   - net-20
@@ -4453,6 +4496,7 @@ items:
     return:
       type: System.String
       description: To be added.
+  overload: System.String.ToLowerInvariant*
   platform:
   - net-11
   - net-20
@@ -4583,6 +4627,7 @@ items:
     return:
       type: System.String
       description: To be added.
+  overload: System.String.ToUpperInvariant*
   platform:
   - net-11
   - net-20
@@ -4663,6 +4708,7 @@ items:
     return:
       type: System.String
       description: To be added.
+  overload: System.String.TrimEnd*
   platform:
   - net-11
   - net-20
@@ -4690,6 +4736,7 @@ items:
     return:
       type: System.String
       description: To be added.
+  overload: System.String.TrimStart*
   platform:
   - net-11
   - net-20
@@ -8094,6 +8141,21 @@ references:
   name: Char
   nameWithType: Char
   fullName: System.Char[]
+- uid: System.String.#ctor*
+  parent: System.String
+  isExternal: false
+  name: String
+  nameWithType: String.String
+- uid: System.String.Chars*
+  parent: System.String
+  isExternal: false
+  name: Chars
+  nameWithType: String.Chars
+- uid: System.String.Clone*
+  parent: System.String
+  isExternal: false
+  name: Clone
+  nameWithType: String.Clone
 - uid: System.String.Compare*
   parent: System.String
   isExternal: false
@@ -8114,6 +8176,26 @@ references:
   isExternal: false
   name: Concat
   nameWithType: String.Concat
+- uid: System.String.Concat<T>*
+  parent: System.String
+  isExternal: false
+  name: Concat<T>
+  nameWithType: String.Concat<T>
+- uid: System.String.Contains*
+  parent: System.String
+  isExternal: false
+  name: Contains
+  nameWithType: String.Contains
+- uid: System.String.Copy*
+  parent: System.String
+  isExternal: false
+  name: Copy
+  nameWithType: String.Copy
+- uid: System.String.CopyTo*
+  parent: System.String
+  isExternal: false
+  name: CopyTo
+  nameWithType: String.CopyTo
 - uid: System.String.EndsWith*
   parent: System.String
   isExternal: false
@@ -8129,6 +8211,21 @@ references:
   isExternal: false
   name: Format
   nameWithType: String.Format
+- uid: System.String.GetEnumerator*
+  parent: System.String
+  isExternal: false
+  name: GetEnumerator
+  nameWithType: String.GetEnumerator
+- uid: System.String.GetHashCode*
+  parent: System.String
+  isExternal: false
+  name: GetHashCode
+  nameWithType: String.GetHashCode
+- uid: System.String.GetTypeCode*
+  parent: System.String
+  isExternal: false
+  name: GetTypeCode
+  nameWithType: String.GetTypeCode
 - uid: System.String.IndexOf*
   parent: System.String
   isExternal: false
@@ -8139,16 +8236,46 @@ references:
   isExternal: false
   name: IndexOfAny
   nameWithType: String.IndexOfAny
+- uid: System.String.Insert*
+  parent: System.String
+  isExternal: false
+  name: Insert
+  nameWithType: String.Insert
+- uid: System.String.Intern*
+  parent: System.String
+  isExternal: false
+  name: Intern
+  nameWithType: String.Intern
+- uid: System.String.IsInterned*
+  parent: System.String
+  isExternal: false
+  name: IsInterned
+  nameWithType: String.IsInterned
 - uid: System.String.IsNormalized*
   parent: System.String
   isExternal: false
   name: IsNormalized
   nameWithType: String.IsNormalized
+- uid: System.String.IsNullOrEmpty*
+  parent: System.String
+  isExternal: false
+  name: IsNullOrEmpty
+  nameWithType: String.IsNullOrEmpty
+- uid: System.String.IsNullOrWhiteSpace*
+  parent: System.String
+  isExternal: false
+  name: IsNullOrWhiteSpace
+  nameWithType: String.IsNullOrWhiteSpace
 - uid: System.String.Join*
   parent: System.String
   isExternal: false
   name: Join
   nameWithType: String.Join
+- uid: System.String.Join<T>*
+  parent: System.String
+  isExternal: false
+  name: Join<T>
+  nameWithType: String.Join<T>
 - uid: System.String.LastIndexOf*
   parent: System.String
   isExternal: false
@@ -8159,11 +8286,26 @@ references:
   isExternal: false
   name: LastIndexOfAny
   nameWithType: String.LastIndexOfAny
+- uid: System.String.Length*
+  parent: System.String
+  isExternal: false
+  name: Length
+  nameWithType: String.Length
 - uid: System.String.Normalize*
   parent: System.String
   isExternal: false
   name: Normalize
   nameWithType: String.Normalize
+- uid: System.String.op_Equality*
+  parent: System.String
+  isExternal: false
+  name: op_Equality
+  nameWithType: String.op_Equality
+- uid: System.String.op_Inequality*
+  parent: System.String
+  isExternal: false
+  name: op_Inequality
+  nameWithType: String.op_Inequality
 - uid: System.String.PadLeft*
   parent: System.String
   isExternal: false
@@ -8199,6 +8341,91 @@ references:
   isExternal: false
   name: Substring
   nameWithType: String.Substring
+- uid: System.String.System#Collections#Generic#IEnumerable<System#Char>#GetEnumerator*
+  parent: System.String
+  isExternal: false
+  name: System.Collections.Generic.IEnumerable<System.Char>.GetEnumerator
+  nameWithType: String.System.Collections.Generic.IEnumerable<System.Char>.GetEnumerator
+- uid: System.String.System#Collections#IEnumerable#GetEnumerator*
+  parent: System.String
+  isExternal: false
+  name: System.Collections.IEnumerable.GetEnumerator
+  nameWithType: String.System.Collections.IEnumerable.GetEnumerator
+- uid: System.String.System#IConvertible#ToBoolean*
+  parent: System.String
+  isExternal: false
+  name: System.IConvertible.ToBoolean
+  nameWithType: String.System.IConvertible.ToBoolean
+- uid: System.String.System#IConvertible#ToByte*
+  parent: System.String
+  isExternal: false
+  name: System.IConvertible.ToByte
+  nameWithType: String.System.IConvertible.ToByte
+- uid: System.String.System#IConvertible#ToChar*
+  parent: System.String
+  isExternal: false
+  name: System.IConvertible.ToChar
+  nameWithType: String.System.IConvertible.ToChar
+- uid: System.String.System#IConvertible#ToDateTime*
+  parent: System.String
+  isExternal: false
+  name: System.IConvertible.ToDateTime
+  nameWithType: String.System.IConvertible.ToDateTime
+- uid: System.String.System#IConvertible#ToDecimal*
+  parent: System.String
+  isExternal: false
+  name: System.IConvertible.ToDecimal
+  nameWithType: String.System.IConvertible.ToDecimal
+- uid: System.String.System#IConvertible#ToDouble*
+  parent: System.String
+  isExternal: false
+  name: System.IConvertible.ToDouble
+  nameWithType: String.System.IConvertible.ToDouble
+- uid: System.String.System#IConvertible#ToInt16*
+  parent: System.String
+  isExternal: false
+  name: System.IConvertible.ToInt16
+  nameWithType: String.System.IConvertible.ToInt16
+- uid: System.String.System#IConvertible#ToInt32*
+  parent: System.String
+  isExternal: false
+  name: System.IConvertible.ToInt32
+  nameWithType: String.System.IConvertible.ToInt32
+- uid: System.String.System#IConvertible#ToInt64*
+  parent: System.String
+  isExternal: false
+  name: System.IConvertible.ToInt64
+  nameWithType: String.System.IConvertible.ToInt64
+- uid: System.String.System#IConvertible#ToSByte*
+  parent: System.String
+  isExternal: false
+  name: System.IConvertible.ToSByte
+  nameWithType: String.System.IConvertible.ToSByte
+- uid: System.String.System#IConvertible#ToSingle*
+  parent: System.String
+  isExternal: false
+  name: System.IConvertible.ToSingle
+  nameWithType: String.System.IConvertible.ToSingle
+- uid: System.String.System#IConvertible#ToType*
+  parent: System.String
+  isExternal: false
+  name: System.IConvertible.ToType
+  nameWithType: String.System.IConvertible.ToType
+- uid: System.String.System#IConvertible#ToUInt16*
+  parent: System.String
+  isExternal: false
+  name: System.IConvertible.ToUInt16
+  nameWithType: String.System.IConvertible.ToUInt16
+- uid: System.String.System#IConvertible#ToUInt32*
+  parent: System.String
+  isExternal: false
+  name: System.IConvertible.ToUInt32
+  nameWithType: String.System.IConvertible.ToUInt32
+- uid: System.String.System#IConvertible#ToUInt64*
+  parent: System.String
+  isExternal: false
+  name: System.IConvertible.ToUInt64
+  nameWithType: String.System.IConvertible.ToUInt64
 - uid: System.String.ToCharArray*
   parent: System.String
   isExternal: false
@@ -8209,6 +8436,11 @@ references:
   isExternal: false
   name: ToLower
   nameWithType: String.ToLower
+- uid: System.String.ToLowerInvariant*
+  parent: System.String
+  isExternal: false
+  name: ToLowerInvariant
+  nameWithType: String.ToLowerInvariant
 - uid: System.String.ToString*
   parent: System.String
   isExternal: false
@@ -8219,8 +8451,23 @@ references:
   isExternal: false
   name: ToUpper
   nameWithType: String.ToUpper
+- uid: System.String.ToUpperInvariant*
+  parent: System.String
+  isExternal: false
+  name: ToUpperInvariant
+  nameWithType: String.ToUpperInvariant
 - uid: System.String.Trim*
   parent: System.String
   isExternal: false
   name: Trim
   nameWithType: String.Trim
+- uid: System.String.TrimEnd*
+  parent: System.String
+  isExternal: false
+  name: TrimEnd
+  nameWithType: String.TrimEnd
+- uid: System.String.TrimStart*
+  parent: System.String
+  isExternal: false
+  name: TrimStart
+  nameWithType: String.TrimStart

@@ -56,6 +56,7 @@ items:
   syntax:
     content: protected ReadOnlyCollectionBase ();
     parameters: []
+  overload: System.Collections.ReadOnlyCollectionBase.#ctor*
   platform:
   - net-11
   - net-20
@@ -79,6 +80,7 @@ items:
     return:
       type: System.Int32
       description: To be added.
+  overload: System.Collections.ReadOnlyCollectionBase.Count*
   platform:
   - net-11
   - net-20
@@ -103,6 +105,7 @@ items:
     return:
       type: System.Collections.IEnumerator
       description: To be added.
+  overload: System.Collections.ReadOnlyCollectionBase.GetEnumerator*
   platform:
   - net-11
   - net-20
@@ -126,6 +129,7 @@ items:
     return:
       type: System.Collections.ArrayList
       description: To be added.
+  overload: System.Collections.ReadOnlyCollectionBase.InnerList*
   platform:
   - net-11
   - net-20
@@ -154,6 +158,7 @@ items:
     - id: index
       type: System.Int32
       description: To be added.
+  overload: System.Collections.ReadOnlyCollectionBase.System#Collections#ICollection#CopyTo*
   platform:
   - net-11
   - net-20
@@ -178,6 +183,7 @@ items:
     return:
       type: System.Boolean
       description: To be added.
+  overload: System.Collections.ReadOnlyCollectionBase.System#Collections#ICollection#IsSynchronized*
   platform:
   - net-11
   - net-20
@@ -202,6 +208,7 @@ items:
     return:
       type: System.Object
       description: To be added.
+  overload: System.Collections.ReadOnlyCollectionBase.System#Collections#ICollection#SyncRoot*
   platform:
   - net-11
   - net-20
@@ -294,3 +301,38 @@ references:
   name: Object
   nameWithType: Object
   fullName: System.Object
+- uid: System.Collections.ReadOnlyCollectionBase.#ctor*
+  parent: System.Collections.ReadOnlyCollectionBase
+  isExternal: false
+  name: ReadOnlyCollectionBase
+  nameWithType: ReadOnlyCollectionBase.ReadOnlyCollectionBase
+- uid: System.Collections.ReadOnlyCollectionBase.Count*
+  parent: System.Collections.ReadOnlyCollectionBase
+  isExternal: false
+  name: Count
+  nameWithType: ReadOnlyCollectionBase.Count
+- uid: System.Collections.ReadOnlyCollectionBase.GetEnumerator*
+  parent: System.Collections.ReadOnlyCollectionBase
+  isExternal: false
+  name: GetEnumerator
+  nameWithType: ReadOnlyCollectionBase.GetEnumerator
+- uid: System.Collections.ReadOnlyCollectionBase.InnerList*
+  parent: System.Collections.ReadOnlyCollectionBase
+  isExternal: false
+  name: InnerList
+  nameWithType: ReadOnlyCollectionBase.InnerList
+- uid: System.Collections.ReadOnlyCollectionBase.System#Collections#ICollection#CopyTo*
+  parent: System.Collections.ReadOnlyCollectionBase
+  isExternal: false
+  name: System.Collections.ICollection.CopyTo
+  nameWithType: ReadOnlyCollectionBase.System.Collections.ICollection.CopyTo
+- uid: System.Collections.ReadOnlyCollectionBase.System#Collections#ICollection#IsSynchronized*
+  parent: System.Collections.ReadOnlyCollectionBase
+  isExternal: false
+  name: System.Collections.ICollection.IsSynchronized
+  nameWithType: ReadOnlyCollectionBase.System.Collections.ICollection.IsSynchronized
+- uid: System.Collections.ReadOnlyCollectionBase.System#Collections#ICollection#SyncRoot*
+  parent: System.Collections.ReadOnlyCollectionBase
+  isExternal: false
+  name: System.Collections.ICollection.SyncRoot
+  nameWithType: ReadOnlyCollectionBase.System.Collections.ICollection.SyncRoot

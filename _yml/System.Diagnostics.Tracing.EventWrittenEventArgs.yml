@@ -64,6 +64,7 @@ items:
     return:
       type: System.Guid
       description: To be added.
+  overload: System.Diagnostics.Tracing.EventWrittenEventArgs.ActivityId*
   platform:
   - net-11
   - net-20
@@ -87,6 +88,7 @@ items:
     return:
       type: System.Diagnostics.Tracing.EventChannel
       description: To be added.
+  overload: System.Diagnostics.Tracing.EventWrittenEventArgs.Channel*
   platform:
   - net-11
   - net-20
@@ -110,6 +112,7 @@ items:
     return:
       type: System.Int32
       description: To be added.
+  overload: System.Diagnostics.Tracing.EventWrittenEventArgs.EventId*
   platform:
   - net-11
   - net-20
@@ -133,6 +136,7 @@ items:
     return:
       type: System.String
       description: To be added.
+  overload: System.Diagnostics.Tracing.EventWrittenEventArgs.EventName*
   platform:
   - net-11
   - net-20
@@ -156,6 +160,7 @@ items:
     return:
       type: System.Diagnostics.Tracing.EventSource
       description: To be added.
+  overload: System.Diagnostics.Tracing.EventWrittenEventArgs.EventSource*
   platform:
   - net-11
   - net-20
@@ -179,6 +184,7 @@ items:
     return:
       type: System.Diagnostics.Tracing.EventKeywords
       description: To be added.
+  overload: System.Diagnostics.Tracing.EventWrittenEventArgs.Keywords*
   platform:
   - net-11
   - net-20
@@ -202,6 +208,7 @@ items:
     return:
       type: System.Diagnostics.Tracing.EventLevel
       description: To be added.
+  overload: System.Diagnostics.Tracing.EventWrittenEventArgs.Level*
   platform:
   - net-11
   - net-20
@@ -225,6 +232,7 @@ items:
     return:
       type: System.String
       description: To be added.
+  overload: System.Diagnostics.Tracing.EventWrittenEventArgs.Message*
   platform:
   - net-11
   - net-20
@@ -248,6 +256,7 @@ items:
     return:
       type: System.Diagnostics.Tracing.EventOpcode
       description: To be added.
+  overload: System.Diagnostics.Tracing.EventWrittenEventArgs.Opcode*
   platform:
   - net-11
   - net-20
@@ -271,6 +280,7 @@ items:
     return:
       type: System.Collections.ObjectModel.ReadOnlyCollection{System.Object}
       description: To be added.
+  overload: System.Diagnostics.Tracing.EventWrittenEventArgs.Payload*
   platform:
   - net-11
   - net-20
@@ -294,6 +304,7 @@ items:
     return:
       type: System.Collections.ObjectModel.ReadOnlyCollection{System.String}
       description: To be added.
+  overload: System.Diagnostics.Tracing.EventWrittenEventArgs.PayloadNames*
   platform:
   - net-11
   - net-20
@@ -317,6 +328,7 @@ items:
     return:
       type: System.Guid
       description: To be added.
+  overload: System.Diagnostics.Tracing.EventWrittenEventArgs.RelatedActivityId*
   platform:
   - net-11
   - net-20
@@ -340,6 +352,7 @@ items:
     return:
       type: System.Diagnostics.Tracing.EventTags
       description: To be added.
+  overload: System.Diagnostics.Tracing.EventWrittenEventArgs.Tags*
   platform:
   - net-11
   - net-20
@@ -363,6 +376,7 @@ items:
     return:
       type: System.Diagnostics.Tracing.EventTask
       description: To be added.
+  overload: System.Diagnostics.Tracing.EventWrittenEventArgs.Task*
   platform:
   - net-11
   - net-20
@@ -386,6 +400,7 @@ items:
     return:
       type: System.Byte
       description: To be added.
+  overload: System.Diagnostics.Tracing.EventWrittenEventArgs.Version*
   platform:
   - net-11
   - net-20
@@ -574,3 +589,78 @@ references:
   name: Byte
   nameWithType: Byte
   fullName: System.Byte
+- uid: System.Diagnostics.Tracing.EventWrittenEventArgs.ActivityId*
+  parent: System.Diagnostics.Tracing.EventWrittenEventArgs
+  isExternal: false
+  name: ActivityId
+  nameWithType: EventWrittenEventArgs.ActivityId
+- uid: System.Diagnostics.Tracing.EventWrittenEventArgs.Channel*
+  parent: System.Diagnostics.Tracing.EventWrittenEventArgs
+  isExternal: false
+  name: Channel
+  nameWithType: EventWrittenEventArgs.Channel
+- uid: System.Diagnostics.Tracing.EventWrittenEventArgs.EventId*
+  parent: System.Diagnostics.Tracing.EventWrittenEventArgs
+  isExternal: false
+  name: EventId
+  nameWithType: EventWrittenEventArgs.EventId
+- uid: System.Diagnostics.Tracing.EventWrittenEventArgs.EventName*
+  parent: System.Diagnostics.Tracing.EventWrittenEventArgs
+  isExternal: false
+  name: EventName
+  nameWithType: EventWrittenEventArgs.EventName
+- uid: System.Diagnostics.Tracing.EventWrittenEventArgs.EventSource*
+  parent: System.Diagnostics.Tracing.EventWrittenEventArgs
+  isExternal: false
+  name: EventSource
+  nameWithType: EventWrittenEventArgs.EventSource
+- uid: System.Diagnostics.Tracing.EventWrittenEventArgs.Keywords*
+  parent: System.Diagnostics.Tracing.EventWrittenEventArgs
+  isExternal: false
+  name: Keywords
+  nameWithType: EventWrittenEventArgs.Keywords
+- uid: System.Diagnostics.Tracing.EventWrittenEventArgs.Level*
+  parent: System.Diagnostics.Tracing.EventWrittenEventArgs
+  isExternal: false
+  name: Level
+  nameWithType: EventWrittenEventArgs.Level
+- uid: System.Diagnostics.Tracing.EventWrittenEventArgs.Message*
+  parent: System.Diagnostics.Tracing.EventWrittenEventArgs
+  isExternal: false
+  name: Message
+  nameWithType: EventWrittenEventArgs.Message
+- uid: System.Diagnostics.Tracing.EventWrittenEventArgs.Opcode*
+  parent: System.Diagnostics.Tracing.EventWrittenEventArgs
+  isExternal: false
+  name: Opcode
+  nameWithType: EventWrittenEventArgs.Opcode
+- uid: System.Diagnostics.Tracing.EventWrittenEventArgs.Payload*
+  parent: System.Diagnostics.Tracing.EventWrittenEventArgs
+  isExternal: false
+  name: Payload
+  nameWithType: EventWrittenEventArgs.Payload
+- uid: System.Diagnostics.Tracing.EventWrittenEventArgs.PayloadNames*
+  parent: System.Diagnostics.Tracing.EventWrittenEventArgs
+  isExternal: false
+  name: PayloadNames
+  nameWithType: EventWrittenEventArgs.PayloadNames
+- uid: System.Diagnostics.Tracing.EventWrittenEventArgs.RelatedActivityId*
+  parent: System.Diagnostics.Tracing.EventWrittenEventArgs
+  isExternal: false
+  name: RelatedActivityId
+  nameWithType: EventWrittenEventArgs.RelatedActivityId
+- uid: System.Diagnostics.Tracing.EventWrittenEventArgs.Tags*
+  parent: System.Diagnostics.Tracing.EventWrittenEventArgs
+  isExternal: false
+  name: Tags
+  nameWithType: EventWrittenEventArgs.Tags
+- uid: System.Diagnostics.Tracing.EventWrittenEventArgs.Task*
+  parent: System.Diagnostics.Tracing.EventWrittenEventArgs
+  isExternal: false
+  name: Task
+  nameWithType: EventWrittenEventArgs.Task
+- uid: System.Diagnostics.Tracing.EventWrittenEventArgs.Version*
+  parent: System.Diagnostics.Tracing.EventWrittenEventArgs
+  isExternal: false
+  name: Version
+  nameWithType: EventWrittenEventArgs.Version

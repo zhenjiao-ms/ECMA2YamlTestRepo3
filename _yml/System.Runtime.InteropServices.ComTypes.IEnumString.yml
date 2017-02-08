@@ -47,6 +47,7 @@ items:
     - id: ppenum
       type: System.Runtime.InteropServices.ComTypes.IEnumString
       description: To be added.
+  overload: System.Runtime.InteropServices.ComTypes.IEnumString.Clone*
   platform:
   - net-11
   - net-20
@@ -80,6 +81,7 @@ items:
     return:
       type: System.Int32
       description: To be added.
+  overload: System.Runtime.InteropServices.ComTypes.IEnumString.Next*
   platform:
   - net-11
   - net-20
@@ -101,6 +103,7 @@ items:
   syntax:
     content: public void Reset ();
     parameters: []
+  overload: System.Runtime.InteropServices.ComTypes.IEnumString.Reset*
   platform:
   - net-11
   - net-20
@@ -128,6 +131,7 @@ items:
     return:
       type: System.Int32
       description: To be added.
+  overload: System.Runtime.InteropServices.ComTypes.IEnumString.Skip*
   platform:
   - net-11
   - net-20
@@ -199,3 +203,23 @@ references:
   name: Int32
   nameWithType: Int32
   fullName: System.Int32
+- uid: System.Runtime.InteropServices.ComTypes.IEnumString.Clone*
+  parent: System.Runtime.InteropServices.ComTypes.IEnumString
+  isExternal: false
+  name: Clone
+  nameWithType: IEnumString.Clone
+- uid: System.Runtime.InteropServices.ComTypes.IEnumString.Next*
+  parent: System.Runtime.InteropServices.ComTypes.IEnumString
+  isExternal: false
+  name: Next
+  nameWithType: IEnumString.Next
+- uid: System.Runtime.InteropServices.ComTypes.IEnumString.Reset*
+  parent: System.Runtime.InteropServices.ComTypes.IEnumString
+  isExternal: false
+  name: Reset
+  nameWithType: IEnumString.Reset
+- uid: System.Runtime.InteropServices.ComTypes.IEnumString.Skip*
+  parent: System.Runtime.InteropServices.ComTypes.IEnumString
+  isExternal: false
+  name: Skip
+  nameWithType: IEnumString.Skip

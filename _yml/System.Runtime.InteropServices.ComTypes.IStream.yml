@@ -54,6 +54,7 @@ items:
     - id: ppstm
       type: System.Runtime.InteropServices.ComTypes.IStream
       description: To be added.
+  overload: System.Runtime.InteropServices.ComTypes.IStream.Clone*
   platform:
   - net-11
   - net-20
@@ -78,6 +79,7 @@ items:
     - id: grfCommitFlags
       type: System.Int32
       description: To be added.
+  overload: System.Runtime.InteropServices.ComTypes.IStream.Commit*
   platform:
   - net-11
   - net-20
@@ -111,6 +113,7 @@ items:
     - id: pcbWritten
       type: System.IntPtr
       description: To be added.
+  overload: System.Runtime.InteropServices.ComTypes.IStream.CopyTo*
   platform:
   - net-11
   - net-20
@@ -141,6 +144,7 @@ items:
     - id: dwLockType
       type: System.Int32
       description: To be added.
+  overload: System.Runtime.InteropServices.ComTypes.IStream.LockRegion*
   platform:
   - net-11
   - net-20
@@ -171,6 +175,7 @@ items:
     - id: pcbRead
       type: System.IntPtr
       description: To be added.
+  overload: System.Runtime.InteropServices.ComTypes.IStream.Read*
   platform:
   - net-11
   - net-20
@@ -192,6 +197,7 @@ items:
   syntax:
     content: public void Revert ();
     parameters: []
+  overload: System.Runtime.InteropServices.ComTypes.IStream.Revert*
   platform:
   - net-11
   - net-20
@@ -222,6 +228,7 @@ items:
     - id: plibNewPosition
       type: System.IntPtr
       description: To be added.
+  overload: System.Runtime.InteropServices.ComTypes.IStream.Seek*
   platform:
   - net-11
   - net-20
@@ -246,6 +253,7 @@ items:
     - id: libNewSize
       type: System.Int64
       description: To be added.
+  overload: System.Runtime.InteropServices.ComTypes.IStream.SetSize*
   platform:
   - net-11
   - net-20
@@ -273,6 +281,7 @@ items:
     - id: grfStatFlag
       type: System.Int32
       description: To be added.
+  overload: System.Runtime.InteropServices.ComTypes.IStream.Stat*
   platform:
   - net-11
   - net-20
@@ -303,6 +312,7 @@ items:
     - id: dwLockType
       type: System.Int32
       description: To be added.
+  overload: System.Runtime.InteropServices.ComTypes.IStream.UnlockRegion*
   platform:
   - net-11
   - net-20
@@ -333,6 +343,7 @@ items:
     - id: pcbWritten
       type: System.IntPtr
       description: To be added.
+  overload: System.Runtime.InteropServices.ComTypes.IStream.Write*
   platform:
   - net-11
   - net-20
@@ -548,3 +559,58 @@ references:
   name: IntPtr
   nameWithType: IntPtr
   fullName: System.IntPtr
+- uid: System.Runtime.InteropServices.ComTypes.IStream.Clone*
+  parent: System.Runtime.InteropServices.ComTypes.IStream
+  isExternal: false
+  name: Clone
+  nameWithType: IStream.Clone
+- uid: System.Runtime.InteropServices.ComTypes.IStream.Commit*
+  parent: System.Runtime.InteropServices.ComTypes.IStream
+  isExternal: false
+  name: Commit
+  nameWithType: IStream.Commit
+- uid: System.Runtime.InteropServices.ComTypes.IStream.CopyTo*
+  parent: System.Runtime.InteropServices.ComTypes.IStream
+  isExternal: false
+  name: CopyTo
+  nameWithType: IStream.CopyTo
+- uid: System.Runtime.InteropServices.ComTypes.IStream.LockRegion*
+  parent: System.Runtime.InteropServices.ComTypes.IStream
+  isExternal: false
+  name: LockRegion
+  nameWithType: IStream.LockRegion
+- uid: System.Runtime.InteropServices.ComTypes.IStream.Read*
+  parent: System.Runtime.InteropServices.ComTypes.IStream
+  isExternal: false
+  name: Read
+  nameWithType: IStream.Read
+- uid: System.Runtime.InteropServices.ComTypes.IStream.Revert*
+  parent: System.Runtime.InteropServices.ComTypes.IStream
+  isExternal: false
+  name: Revert
+  nameWithType: IStream.Revert
+- uid: System.Runtime.InteropServices.ComTypes.IStream.Seek*
+  parent: System.Runtime.InteropServices.ComTypes.IStream
+  isExternal: false
+  name: Seek
+  nameWithType: IStream.Seek
+- uid: System.Runtime.InteropServices.ComTypes.IStream.SetSize*
+  parent: System.Runtime.InteropServices.ComTypes.IStream
+  isExternal: false
+  name: SetSize
+  nameWithType: IStream.SetSize
+- uid: System.Runtime.InteropServices.ComTypes.IStream.Stat*
+  parent: System.Runtime.InteropServices.ComTypes.IStream
+  isExternal: false
+  name: Stat
+  nameWithType: IStream.Stat
+- uid: System.Runtime.InteropServices.ComTypes.IStream.UnlockRegion*
+  parent: System.Runtime.InteropServices.ComTypes.IStream
+  isExternal: false
+  name: UnlockRegion
+  nameWithType: IStream.UnlockRegion
+- uid: System.Runtime.InteropServices.ComTypes.IStream.Write*
+  parent: System.Runtime.InteropServices.ComTypes.IStream
+  isExternal: false
+  name: Write
+  nameWithType: IStream.Write

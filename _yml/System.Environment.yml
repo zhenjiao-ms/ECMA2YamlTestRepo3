@@ -84,6 +84,7 @@ items:
     return:
       type: System.String
       description: To be added.
+  overload: System.Environment.CommandLine*
   platform:
   - net-11
   - net-20
@@ -107,6 +108,7 @@ items:
     return:
       type: System.String
       description: To be added.
+  overload: System.Environment.CurrentDirectory*
   platform:
   - net-11
   - net-20
@@ -130,6 +132,7 @@ items:
     return:
       type: System.Int32
       description: To be added.
+  overload: System.Environment.CurrentManagedThreadId*
   platform:
   - net-11
   - net-20
@@ -154,6 +157,7 @@ items:
     - id: exitCode
       type: System.Int32
       description: To be added.
+  overload: System.Environment.Exit*
   platform:
   - net-11
   - net-20
@@ -177,6 +181,7 @@ items:
     return:
       type: System.Int32
       description: To be added.
+  overload: System.Environment.ExitCode*
   platform:
   - net-11
   - net-20
@@ -204,6 +209,7 @@ items:
     return:
       type: System.String
       description: To be added.
+  overload: System.Environment.ExpandEnvironmentVariables*
   platform:
   - net-11
   - net-20
@@ -281,6 +287,7 @@ items:
     return:
       type: System.String[]
       description: To be added.
+  overload: System.Environment.GetCommandLineArgs*
   platform:
   - net-11
   - net-20
@@ -476,6 +483,7 @@ items:
     return:
       type: System.String[]
       description: To be added.
+  overload: System.Environment.GetLogicalDrives*
   platform:
   - net-11
   - net-20
@@ -499,6 +507,7 @@ items:
     return:
       type: System.Boolean
       description: To be added.
+  overload: System.Environment.HasShutdownStarted*
   platform:
   - net-11
   - net-20
@@ -522,6 +531,7 @@ items:
     return:
       type: System.Boolean
       description: To be added.
+  overload: System.Environment.Is64BitOperatingSystem*
   platform:
   - net-11
   - net-20
@@ -545,6 +555,7 @@ items:
     return:
       type: System.Boolean
       description: To be added.
+  overload: System.Environment.Is64BitProcess*
   platform:
   - net-11
   - net-20
@@ -568,6 +579,7 @@ items:
     return:
       type: System.String
       description: To be added.
+  overload: System.Environment.MachineName*
   platform:
   - net-11
   - net-20
@@ -591,6 +603,7 @@ items:
     return:
       type: System.String
       description: To be added.
+  overload: System.Environment.NewLine*
   platform:
   - net-11
   - net-20
@@ -614,6 +627,7 @@ items:
     return:
       type: System.OperatingSystem
       description: To be added.
+  overload: System.Environment.OSVersion*
   platform:
   - net-11
   - net-20
@@ -637,6 +651,7 @@ items:
     return:
       type: System.Int32
       description: To be added.
+  overload: System.Environment.ProcessorCount*
   platform:
   - net-11
   - net-20
@@ -719,6 +734,7 @@ items:
     return:
       type: System.String
       description: To be added.
+  overload: System.Environment.StackTrace*
   platform:
   - net-11
   - net-20
@@ -742,6 +758,7 @@ items:
     return:
       type: System.String
       description: To be added.
+  overload: System.Environment.SystemDirectory*
   platform:
   - net-11
   - net-20
@@ -765,6 +782,7 @@ items:
     return:
       type: System.Int32
       description: To be added.
+  overload: System.Environment.SystemPageSize*
   platform:
   - net-11
   - net-20
@@ -788,6 +806,7 @@ items:
     return:
       type: System.Int32
       description: To be added.
+  overload: System.Environment.TickCount*
   platform:
   - net-11
   - net-20
@@ -811,6 +830,7 @@ items:
     return:
       type: System.String
       description: To be added.
+  overload: System.Environment.UserDomainName*
   platform:
   - net-11
   - net-20
@@ -834,6 +854,7 @@ items:
     return:
       type: System.Boolean
       description: To be added.
+  overload: System.Environment.UserInteractive*
   platform:
   - net-11
   - net-20
@@ -857,6 +878,7 @@ items:
     return:
       type: System.String
       description: To be added.
+  overload: System.Environment.UserName*
   platform:
   - net-11
   - net-20
@@ -880,6 +902,7 @@ items:
     return:
       type: System.Version
       description: To be added.
+  overload: System.Environment.Version*
   platform:
   - net-11
   - net-20
@@ -903,6 +926,7 @@ items:
     return:
       type: System.Int64
       description: To be added.
+  overload: System.Environment.WorkingSet*
   platform:
   - net-11
   - net-20
@@ -1391,11 +1415,46 @@ references:
   name: Int64
   nameWithType: Int64
   fullName: System.Int64
+- uid: System.Environment.CommandLine*
+  parent: System.Environment
+  isExternal: false
+  name: CommandLine
+  nameWithType: Environment.CommandLine
+- uid: System.Environment.CurrentDirectory*
+  parent: System.Environment
+  isExternal: false
+  name: CurrentDirectory
+  nameWithType: Environment.CurrentDirectory
+- uid: System.Environment.CurrentManagedThreadId*
+  parent: System.Environment
+  isExternal: false
+  name: CurrentManagedThreadId
+  nameWithType: Environment.CurrentManagedThreadId
+- uid: System.Environment.Exit*
+  parent: System.Environment
+  isExternal: false
+  name: Exit
+  nameWithType: Environment.Exit
+- uid: System.Environment.ExitCode*
+  parent: System.Environment
+  isExternal: false
+  name: ExitCode
+  nameWithType: Environment.ExitCode
+- uid: System.Environment.ExpandEnvironmentVariables*
+  parent: System.Environment
+  isExternal: false
+  name: ExpandEnvironmentVariables
+  nameWithType: Environment.ExpandEnvironmentVariables
 - uid: System.Environment.FailFast*
   parent: System.Environment
   isExternal: false
   name: FailFast
   nameWithType: Environment.FailFast
+- uid: System.Environment.GetCommandLineArgs*
+  parent: System.Environment
+  isExternal: false
+  name: GetCommandLineArgs
+  nameWithType: Environment.GetCommandLineArgs
 - uid: System.Environment.GetEnvironmentVariable*
   parent: System.Environment
   isExternal: false
@@ -1411,8 +1470,93 @@ references:
   isExternal: false
   name: GetFolderPath
   nameWithType: Environment.GetFolderPath
+- uid: System.Environment.GetLogicalDrives*
+  parent: System.Environment
+  isExternal: false
+  name: GetLogicalDrives
+  nameWithType: Environment.GetLogicalDrives
+- uid: System.Environment.HasShutdownStarted*
+  parent: System.Environment
+  isExternal: false
+  name: HasShutdownStarted
+  nameWithType: Environment.HasShutdownStarted
+- uid: System.Environment.Is64BitOperatingSystem*
+  parent: System.Environment
+  isExternal: false
+  name: Is64BitOperatingSystem
+  nameWithType: Environment.Is64BitOperatingSystem
+- uid: System.Environment.Is64BitProcess*
+  parent: System.Environment
+  isExternal: false
+  name: Is64BitProcess
+  nameWithType: Environment.Is64BitProcess
+- uid: System.Environment.MachineName*
+  parent: System.Environment
+  isExternal: false
+  name: MachineName
+  nameWithType: Environment.MachineName
+- uid: System.Environment.NewLine*
+  parent: System.Environment
+  isExternal: false
+  name: NewLine
+  nameWithType: Environment.NewLine
+- uid: System.Environment.OSVersion*
+  parent: System.Environment
+  isExternal: false
+  name: OSVersion
+  nameWithType: Environment.OSVersion
+- uid: System.Environment.ProcessorCount*
+  parent: System.Environment
+  isExternal: false
+  name: ProcessorCount
+  nameWithType: Environment.ProcessorCount
 - uid: System.Environment.SetEnvironmentVariable*
   parent: System.Environment
   isExternal: false
   name: SetEnvironmentVariable
   nameWithType: Environment.SetEnvironmentVariable
+- uid: System.Environment.StackTrace*
+  parent: System.Environment
+  isExternal: false
+  name: StackTrace
+  nameWithType: Environment.StackTrace
+- uid: System.Environment.SystemDirectory*
+  parent: System.Environment
+  isExternal: false
+  name: SystemDirectory
+  nameWithType: Environment.SystemDirectory
+- uid: System.Environment.SystemPageSize*
+  parent: System.Environment
+  isExternal: false
+  name: SystemPageSize
+  nameWithType: Environment.SystemPageSize
+- uid: System.Environment.TickCount*
+  parent: System.Environment
+  isExternal: false
+  name: TickCount
+  nameWithType: Environment.TickCount
+- uid: System.Environment.UserDomainName*
+  parent: System.Environment
+  isExternal: false
+  name: UserDomainName
+  nameWithType: Environment.UserDomainName
+- uid: System.Environment.UserInteractive*
+  parent: System.Environment
+  isExternal: false
+  name: UserInteractive
+  nameWithType: Environment.UserInteractive
+- uid: System.Environment.UserName*
+  parent: System.Environment
+  isExternal: false
+  name: UserName
+  nameWithType: Environment.UserName
+- uid: System.Environment.Version*
+  parent: System.Environment
+  isExternal: false
+  name: Version
+  nameWithType: Environment.Version
+- uid: System.Environment.WorkingSet*
+  parent: System.Environment
+  isExternal: false
+  name: WorkingSet
+  nameWithType: Environment.WorkingSet

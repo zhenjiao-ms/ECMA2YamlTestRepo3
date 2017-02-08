@@ -110,6 +110,7 @@ items:
   syntax:
     content: public UnicodeEncoding ();
     parameters: []
+  overload: System.Text.UnicodeEncoding.#ctor*
   platform:
   - net-11
   - net-20
@@ -137,6 +138,7 @@ items:
     - id: byteOrderMark
       type: System.Boolean
       description: To be added.
+  overload: System.Text.UnicodeEncoding.#ctor*
   platform:
   - net-11
   - net-20
@@ -167,6 +169,7 @@ items:
     - id: throwOnInvalidBytes
       type: System.Boolean
       description: To be added.
+  overload: System.Text.UnicodeEncoding.#ctor*
   platform:
   - net-11
   - net-20
@@ -217,6 +220,7 @@ items:
     return:
       type: System.Boolean
       description: To be added.
+  overload: System.Text.UnicodeEncoding.Equals*
   platform:
   - net-11
   - net-20
@@ -593,6 +597,7 @@ items:
     return:
       type: System.Text.Decoder
       description: To be added.
+  overload: System.Text.UnicodeEncoding.GetDecoder*
   platform:
   - net-11
   - net-20
@@ -617,6 +622,7 @@ items:
     return:
       type: System.Text.Encoder
       description: To be added.
+  overload: System.Text.UnicodeEncoding.GetEncoder*
   platform:
   - net-11
   - net-20
@@ -641,6 +647,7 @@ items:
     return:
       type: System.Int32
       description: To be added.
+  overload: System.Text.UnicodeEncoding.GetHashCode*
   platform:
   - net-11
   - net-20
@@ -668,6 +675,7 @@ items:
     return:
       type: System.Int32
       description: To be added.
+  overload: System.Text.UnicodeEncoding.GetMaxByteCount*
   platform:
   - net-11
   - net-20
@@ -695,6 +703,7 @@ items:
     return:
       type: System.Int32
       description: To be added.
+  overload: System.Text.UnicodeEncoding.GetMaxCharCount*
   platform:
   - net-11
   - net-20
@@ -719,6 +728,7 @@ items:
     return:
       type: System.Byte[]
       description: To be added.
+  overload: System.Text.UnicodeEncoding.GetPreamble*
   platform:
   - net-11
   - net-20
@@ -752,6 +762,7 @@ items:
     return:
       type: System.String
       description: To be added.
+  overload: System.Text.UnicodeEncoding.GetString*
   platform:
   - net-11
   - net-20
@@ -1240,6 +1251,16 @@ references:
   name: Int32
   nameWithType: Int32
   fullName: System.Int32
+- uid: System.Text.UnicodeEncoding.#ctor*
+  parent: System.Text.UnicodeEncoding
+  isExternal: false
+  name: UnicodeEncoding
+  nameWithType: UnicodeEncoding.UnicodeEncoding
+- uid: System.Text.UnicodeEncoding.Equals*
+  parent: System.Text.UnicodeEncoding
+  isExternal: false
+  name: Equals
+  nameWithType: UnicodeEncoding.Equals
 - uid: System.Text.UnicodeEncoding.GetByteCount*
   parent: System.Text.UnicodeEncoding
   isExternal: false
@@ -1260,3 +1281,38 @@ references:
   isExternal: false
   name: GetChars
   nameWithType: UnicodeEncoding.GetChars
+- uid: System.Text.UnicodeEncoding.GetDecoder*
+  parent: System.Text.UnicodeEncoding
+  isExternal: false
+  name: GetDecoder
+  nameWithType: UnicodeEncoding.GetDecoder
+- uid: System.Text.UnicodeEncoding.GetEncoder*
+  parent: System.Text.UnicodeEncoding
+  isExternal: false
+  name: GetEncoder
+  nameWithType: UnicodeEncoding.GetEncoder
+- uid: System.Text.UnicodeEncoding.GetHashCode*
+  parent: System.Text.UnicodeEncoding
+  isExternal: false
+  name: GetHashCode
+  nameWithType: UnicodeEncoding.GetHashCode
+- uid: System.Text.UnicodeEncoding.GetMaxByteCount*
+  parent: System.Text.UnicodeEncoding
+  isExternal: false
+  name: GetMaxByteCount
+  nameWithType: UnicodeEncoding.GetMaxByteCount
+- uid: System.Text.UnicodeEncoding.GetMaxCharCount*
+  parent: System.Text.UnicodeEncoding
+  isExternal: false
+  name: GetMaxCharCount
+  nameWithType: UnicodeEncoding.GetMaxCharCount
+- uid: System.Text.UnicodeEncoding.GetPreamble*
+  parent: System.Text.UnicodeEncoding
+  isExternal: false
+  name: GetPreamble
+  nameWithType: UnicodeEncoding.GetPreamble
+- uid: System.Text.UnicodeEncoding.GetString*
+  parent: System.Text.UnicodeEncoding
+  isExternal: false
+  name: GetString
+  nameWithType: UnicodeEncoding.GetString

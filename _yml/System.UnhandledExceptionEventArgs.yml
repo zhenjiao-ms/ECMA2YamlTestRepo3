@@ -59,6 +59,7 @@ items:
     - id: isTerminating
       type: System.Boolean
       description: To be added.
+  overload: System.UnhandledExceptionEventArgs.#ctor*
   platform:
   - net-11
   - net-20
@@ -82,6 +83,7 @@ items:
     return:
       type: System.Object
       description: To be added.
+  overload: System.UnhandledExceptionEventArgs.ExceptionObject*
   platform:
   - net-11
   - net-20
@@ -105,6 +107,7 @@ items:
     return:
       type: System.Boolean
       description: To be added.
+  overload: System.UnhandledExceptionEventArgs.IsTerminating*
   platform:
   - net-11
   - net-20
@@ -155,3 +158,18 @@ references:
   name: Boolean
   nameWithType: Boolean
   fullName: System.Boolean
+- uid: System.UnhandledExceptionEventArgs.#ctor*
+  parent: System.UnhandledExceptionEventArgs
+  isExternal: false
+  name: UnhandledExceptionEventArgs
+  nameWithType: UnhandledExceptionEventArgs.UnhandledExceptionEventArgs
+- uid: System.UnhandledExceptionEventArgs.ExceptionObject*
+  parent: System.UnhandledExceptionEventArgs
+  isExternal: false
+  name: ExceptionObject
+  nameWithType: UnhandledExceptionEventArgs.ExceptionObject
+- uid: System.UnhandledExceptionEventArgs.IsTerminating*
+  parent: System.UnhandledExceptionEventArgs
+  isExternal: false
+  name: IsTerminating
+  nameWithType: UnhandledExceptionEventArgs.IsTerminating

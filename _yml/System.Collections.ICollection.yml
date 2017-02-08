@@ -49,6 +49,7 @@ items:
     - id: index
       type: System.Int32
       description: To be added.
+  overload: System.Collections.ICollection.CopyTo*
   platform:
   - net-11
   - net-20
@@ -72,6 +73,7 @@ items:
     return:
       type: System.Int32
       description: To be added.
+  overload: System.Collections.ICollection.Count*
   platform:
   - net-11
   - net-20
@@ -95,6 +97,7 @@ items:
     return:
       type: System.Boolean
       description: To be added.
+  overload: System.Collections.ICollection.IsSynchronized*
   platform:
   - net-11
   - net-20
@@ -118,6 +121,7 @@ items:
     return:
       type: System.Object
       description: To be added.
+  overload: System.Collections.ICollection.SyncRoot*
   platform:
   - net-11
   - net-20
@@ -177,3 +181,23 @@ references:
   name: Object
   nameWithType: Object
   fullName: System.Object
+- uid: System.Collections.ICollection.CopyTo*
+  parent: System.Collections.ICollection
+  isExternal: false
+  name: CopyTo
+  nameWithType: ICollection.CopyTo
+- uid: System.Collections.ICollection.Count*
+  parent: System.Collections.ICollection
+  isExternal: false
+  name: Count
+  nameWithType: ICollection.Count
+- uid: System.Collections.ICollection.IsSynchronized*
+  parent: System.Collections.ICollection
+  isExternal: false
+  name: IsSynchronized
+  nameWithType: ICollection.IsSynchronized
+- uid: System.Collections.ICollection.SyncRoot*
+  parent: System.Collections.ICollection
+  isExternal: false
+  name: SyncRoot
+  nameWithType: ICollection.SyncRoot

@@ -60,6 +60,7 @@ items:
     - id: requestingAssembly
       type: System.Reflection.Assembly
       description: To be added.
+  overload: System.Runtime.InteropServices.WindowsRuntime.NamespaceResolveEventArgs.#ctor*
   platform:
   - net-11
   - net-20
@@ -83,6 +84,7 @@ items:
     return:
       type: System.String
       description: To be added.
+  overload: System.Runtime.InteropServices.WindowsRuntime.NamespaceResolveEventArgs.NamespaceName*
   platform:
   - net-11
   - net-20
@@ -106,6 +108,7 @@ items:
     return:
       type: System.Reflection.Assembly
       description: To be added.
+  overload: System.Runtime.InteropServices.WindowsRuntime.NamespaceResolveEventArgs.RequestingAssembly*
   platform:
   - net-11
   - net-20
@@ -129,6 +132,7 @@ items:
     return:
       type: System.Collections.ObjectModel.Collection{System.Reflection.Assembly}
       description: To be added.
+  overload: System.Runtime.InteropServices.WindowsRuntime.NamespaceResolveEventArgs.ResolvedAssemblies*
   platform:
   - net-11
   - net-20
@@ -191,3 +195,23 @@ references:
   name: Collection<Assembly>
   nameWithType: Collection<Assembly>
   fullName: System.Collections.ObjectModel.Collection<System.Reflection.Assembly>
+- uid: System.Runtime.InteropServices.WindowsRuntime.NamespaceResolveEventArgs.#ctor*
+  parent: System.Runtime.InteropServices.WindowsRuntime.NamespaceResolveEventArgs
+  isExternal: false
+  name: NamespaceResolveEventArgs
+  nameWithType: NamespaceResolveEventArgs.NamespaceResolveEventArgs
+- uid: System.Runtime.InteropServices.WindowsRuntime.NamespaceResolveEventArgs.NamespaceName*
+  parent: System.Runtime.InteropServices.WindowsRuntime.NamespaceResolveEventArgs
+  isExternal: false
+  name: NamespaceName
+  nameWithType: NamespaceResolveEventArgs.NamespaceName
+- uid: System.Runtime.InteropServices.WindowsRuntime.NamespaceResolveEventArgs.RequestingAssembly*
+  parent: System.Runtime.InteropServices.WindowsRuntime.NamespaceResolveEventArgs
+  isExternal: false
+  name: RequestingAssembly
+  nameWithType: NamespaceResolveEventArgs.RequestingAssembly
+- uid: System.Runtime.InteropServices.WindowsRuntime.NamespaceResolveEventArgs.ResolvedAssemblies*
+  parent: System.Runtime.InteropServices.WindowsRuntime.NamespaceResolveEventArgs
+  isExternal: false
+  name: ResolvedAssemblies
+  nameWithType: NamespaceResolveEventArgs.ResolvedAssemblies

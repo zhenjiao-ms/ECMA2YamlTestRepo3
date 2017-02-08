@@ -55,6 +55,7 @@ items:
     - id: offset
       type: System.Int32
       description: To be added.
+  overload: System.Runtime.InteropServices.ArrayWithOffset.#ctor*
   platform:
   - net-11
   - net-20
@@ -135,6 +136,7 @@ items:
     return:
       type: System.Object
       description: To be added.
+  overload: System.Runtime.InteropServices.ArrayWithOffset.GetArray*
   platform:
   - net-11
   - net-20
@@ -159,6 +161,7 @@ items:
     return:
       type: System.Int32
       description: To be added.
+  overload: System.Runtime.InteropServices.ArrayWithOffset.GetHashCode*
   platform:
   - net-11
   - net-20
@@ -183,6 +186,7 @@ items:
     return:
       type: System.Int32
       description: To be added.
+  overload: System.Runtime.InteropServices.ArrayWithOffset.GetOffset*
   platform:
   - net-11
   - net-20
@@ -213,6 +217,7 @@ items:
     return:
       type: System.Boolean
       description: To be added.
+  overload: System.Runtime.InteropServices.ArrayWithOffset.op_Equality*
   platform:
   - net-11
   - net-20
@@ -243,6 +248,7 @@ items:
     return:
       type: System.Boolean
       description: To be added.
+  overload: System.Runtime.InteropServices.ArrayWithOffset.op_Inequality*
   platform:
   - net-11
   - net-20
@@ -389,8 +395,38 @@ references:
   name: ArrayWithOffset
   nameWithType: ArrayWithOffset
   fullName: System.Runtime.InteropServices.ArrayWithOffset
+- uid: System.Runtime.InteropServices.ArrayWithOffset.#ctor*
+  parent: System.Runtime.InteropServices.ArrayWithOffset
+  isExternal: false
+  name: ArrayWithOffset
+  nameWithType: ArrayWithOffset.ArrayWithOffset
 - uid: System.Runtime.InteropServices.ArrayWithOffset.Equals*
   parent: System.Runtime.InteropServices.ArrayWithOffset
   isExternal: false
   name: Equals
   nameWithType: ArrayWithOffset.Equals
+- uid: System.Runtime.InteropServices.ArrayWithOffset.GetArray*
+  parent: System.Runtime.InteropServices.ArrayWithOffset
+  isExternal: false
+  name: GetArray
+  nameWithType: ArrayWithOffset.GetArray
+- uid: System.Runtime.InteropServices.ArrayWithOffset.GetHashCode*
+  parent: System.Runtime.InteropServices.ArrayWithOffset
+  isExternal: false
+  name: GetHashCode
+  nameWithType: ArrayWithOffset.GetHashCode
+- uid: System.Runtime.InteropServices.ArrayWithOffset.GetOffset*
+  parent: System.Runtime.InteropServices.ArrayWithOffset
+  isExternal: false
+  name: GetOffset
+  nameWithType: ArrayWithOffset.GetOffset
+- uid: System.Runtime.InteropServices.ArrayWithOffset.op_Equality*
+  parent: System.Runtime.InteropServices.ArrayWithOffset
+  isExternal: false
+  name: op_Equality
+  nameWithType: ArrayWithOffset.op_Equality
+- uid: System.Runtime.InteropServices.ArrayWithOffset.op_Inequality*
+  parent: System.Runtime.InteropServices.ArrayWithOffset
+  isExternal: false
+  name: op_Inequality
+  nameWithType: ArrayWithOffset.op_Inequality

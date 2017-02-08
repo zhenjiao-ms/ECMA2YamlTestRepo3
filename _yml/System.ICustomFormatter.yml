@@ -51,6 +51,7 @@ items:
     return:
       type: System.String
       description: To be added.
+  overload: System.ICustomFormatter.Format*
   platform:
   - net-11
   - net-20
@@ -86,3 +87,8 @@ references:
   name: IFormatProvider
   nameWithType: IFormatProvider
   fullName: System.IFormatProvider
+- uid: System.ICustomFormatter.Format*
+  parent: System.ICustomFormatter
+  isExternal: false
+  name: Format
+  nameWithType: ICustomFormatter.Format

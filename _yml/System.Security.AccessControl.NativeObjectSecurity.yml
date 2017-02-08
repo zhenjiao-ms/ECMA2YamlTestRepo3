@@ -115,6 +115,7 @@ items:
     - id: resourceType
       type: System.Security.AccessControl.ResourceType
       description: To be added.
+  overload: System.Security.AccessControl.NativeObjectSecurity.#ctor*
   platform:
   - net-11
   - net-20
@@ -148,6 +149,7 @@ items:
     - id: includeSections
       type: System.Security.AccessControl.AccessControlSections
       description: To be added.
+  overload: System.Security.AccessControl.NativeObjectSecurity.#ctor*
   platform:
   - net-11
   - net-20
@@ -181,6 +183,7 @@ items:
     - id: exceptionContext
       type: System.Object
       description: To be added.
+  overload: System.Security.AccessControl.NativeObjectSecurity.#ctor*
   platform:
   - net-11
   - net-20
@@ -214,6 +217,7 @@ items:
     - id: includeSections
       type: System.Security.AccessControl.AccessControlSections
       description: To be added.
+  overload: System.Security.AccessControl.NativeObjectSecurity.#ctor*
   platform:
   - net-11
   - net-20
@@ -253,6 +257,7 @@ items:
     - id: exceptionContext
       type: System.Object
       description: To be added.
+  overload: System.Security.AccessControl.NativeObjectSecurity.#ctor*
   platform:
   - net-11
   - net-20
@@ -292,6 +297,7 @@ items:
     - id: exceptionContext
       type: System.Object
       description: To be added.
+  overload: System.Security.AccessControl.NativeObjectSecurity.#ctor*
   platform:
   - net-11
   - net-20
@@ -694,6 +700,11 @@ references:
   name: Object
   nameWithType: Object
   fullName: System.Object
+- uid: System.Security.AccessControl.NativeObjectSecurity.#ctor*
+  parent: System.Security.AccessControl.NativeObjectSecurity
+  isExternal: false
+  name: NativeObjectSecurity
+  nameWithType: NativeObjectSecurity.NativeObjectSecurity
 - uid: System.Security.AccessControl.NativeObjectSecurity.Persist*
   parent: System.Security.AccessControl.NativeObjectSecurity
   isExternal: false

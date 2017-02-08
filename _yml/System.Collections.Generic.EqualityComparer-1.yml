@@ -56,6 +56,7 @@ items:
   syntax:
     content: protected EqualityComparer ();
     parameters: []
+  overload: System.Collections.Generic.EqualityComparer`1.#ctor*
   platform:
   - net-11
   - net-20
@@ -79,6 +80,7 @@ items:
     return:
       type: System.Collections.Generic.EqualityComparer`1
       description: To be added.
+  overload: System.Collections.Generic.EqualityComparer`1.Default*
   platform:
   - net-11
   - net-20
@@ -109,6 +111,7 @@ items:
     return:
       type: System.Boolean
       description: To be added.
+  overload: System.Collections.Generic.EqualityComparer`1.Equals*
   platform:
   - net-11
   - net-20
@@ -136,6 +139,7 @@ items:
     return:
       type: System.Int32
       description: To be added.
+  overload: System.Collections.Generic.EqualityComparer`1.GetHashCode*
   platform:
   - net-11
   - net-20
@@ -167,6 +171,7 @@ items:
     return:
       type: System.Boolean
       description: To be added.
+  overload: System.Collections.Generic.EqualityComparer`1.System#Collections#IEqualityComparer#Equals*
   platform:
   - net-11
   - net-20
@@ -195,6 +200,7 @@ items:
     return:
       type: System.Int32
       description: To be added.
+  overload: System.Collections.Generic.EqualityComparer`1.System#Collections#IEqualityComparer#GetHashCode*
   platform:
   - net-11
   - net-20
@@ -305,3 +311,33 @@ references:
   name: Object
   nameWithType: Object
   fullName: System.Object
+- uid: System.Collections.Generic.EqualityComparer`1.#ctor*
+  parent: System.Collections.Generic.EqualityComparer`1
+  isExternal: false
+  name: EqualityComparer<T>
+  nameWithType: EqualityComparer<T>.EqualityComparer<T>
+- uid: System.Collections.Generic.EqualityComparer`1.Default*
+  parent: System.Collections.Generic.EqualityComparer`1
+  isExternal: false
+  name: Default
+  nameWithType: EqualityComparer<T>.Default
+- uid: System.Collections.Generic.EqualityComparer`1.Equals*
+  parent: System.Collections.Generic.EqualityComparer`1
+  isExternal: false
+  name: Equals
+  nameWithType: EqualityComparer<T>.Equals
+- uid: System.Collections.Generic.EqualityComparer`1.GetHashCode*
+  parent: System.Collections.Generic.EqualityComparer`1
+  isExternal: false
+  name: GetHashCode
+  nameWithType: EqualityComparer<T>.GetHashCode
+- uid: System.Collections.Generic.EqualityComparer`1.System#Collections#IEqualityComparer#Equals*
+  parent: System.Collections.Generic.EqualityComparer`1
+  isExternal: false
+  name: System.Collections.IEqualityComparer.Equals
+  nameWithType: EqualityComparer<T>.System.Collections.IEqualityComparer.Equals
+- uid: System.Collections.Generic.EqualityComparer`1.System#Collections#IEqualityComparer#GetHashCode*
+  parent: System.Collections.Generic.EqualityComparer`1
+  isExternal: false
+  name: System.Collections.IEqualityComparer.GetHashCode
+  nameWithType: EqualityComparer<T>.System.Collections.IEqualityComparer.GetHashCode

@@ -57,6 +57,7 @@ items:
     - id: name
       type: System.String
       description: To be added.
+  overload: System.Runtime.DesignerServices.WindowsRuntimeDesignerContext.#ctor*
   platform:
   - net-11
   - net-20
@@ -84,6 +85,7 @@ items:
     return:
       type: System.Reflection.Assembly
       description: To be added.
+  overload: System.Runtime.DesignerServices.WindowsRuntimeDesignerContext.GetAssembly*
   platform:
   - net-11
   - net-20
@@ -111,6 +113,7 @@ items:
     return:
       type: System.Type
       description: To be added.
+  overload: System.Runtime.DesignerServices.WindowsRuntimeDesignerContext.GetType*
   platform:
   - net-11
   - net-20
@@ -135,6 +138,7 @@ items:
     - id: paths
       type: System.Collections.Generic.IEnumerable{System.String}
       description: To be added.
+  overload: System.Runtime.DesignerServices.WindowsRuntimeDesignerContext.InitializeSharedContext*
   platform:
   - net-11
   - net-20
@@ -158,6 +162,7 @@ items:
     return:
       type: System.String
       description: To be added.
+  overload: System.Runtime.DesignerServices.WindowsRuntimeDesignerContext.Name*
   platform:
   - net-11
   - net-20
@@ -182,6 +187,7 @@ items:
     - id: context
       type: System.Runtime.DesignerServices.WindowsRuntimeDesignerContext
       description: To be added.
+  overload: System.Runtime.DesignerServices.WindowsRuntimeDesignerContext.SetIterationContext*
   platform:
   - net-11
   - net-20
@@ -280,3 +286,33 @@ references:
   name: WindowsRuntimeDesignerContext
   nameWithType: WindowsRuntimeDesignerContext
   fullName: System.Runtime.DesignerServices.WindowsRuntimeDesignerContext
+- uid: System.Runtime.DesignerServices.WindowsRuntimeDesignerContext.#ctor*
+  parent: System.Runtime.DesignerServices.WindowsRuntimeDesignerContext
+  isExternal: false
+  name: WindowsRuntimeDesignerContext
+  nameWithType: WindowsRuntimeDesignerContext.WindowsRuntimeDesignerContext
+- uid: System.Runtime.DesignerServices.WindowsRuntimeDesignerContext.GetAssembly*
+  parent: System.Runtime.DesignerServices.WindowsRuntimeDesignerContext
+  isExternal: false
+  name: GetAssembly
+  nameWithType: WindowsRuntimeDesignerContext.GetAssembly
+- uid: System.Runtime.DesignerServices.WindowsRuntimeDesignerContext.GetType*
+  parent: System.Runtime.DesignerServices.WindowsRuntimeDesignerContext
+  isExternal: false
+  name: GetType
+  nameWithType: WindowsRuntimeDesignerContext.GetType
+- uid: System.Runtime.DesignerServices.WindowsRuntimeDesignerContext.InitializeSharedContext*
+  parent: System.Runtime.DesignerServices.WindowsRuntimeDesignerContext
+  isExternal: false
+  name: InitializeSharedContext
+  nameWithType: WindowsRuntimeDesignerContext.InitializeSharedContext
+- uid: System.Runtime.DesignerServices.WindowsRuntimeDesignerContext.Name*
+  parent: System.Runtime.DesignerServices.WindowsRuntimeDesignerContext
+  isExternal: false
+  name: Name
+  nameWithType: WindowsRuntimeDesignerContext.Name
+- uid: System.Runtime.DesignerServices.WindowsRuntimeDesignerContext.SetIterationContext*
+  parent: System.Runtime.DesignerServices.WindowsRuntimeDesignerContext
+  isExternal: false
+  name: SetIterationContext
+  nameWithType: WindowsRuntimeDesignerContext.SetIterationContext

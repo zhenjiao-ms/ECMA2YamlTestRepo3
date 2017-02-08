@@ -53,6 +53,7 @@ items:
   syntax:
     content: public EncodingProvider ();
     parameters: []
+  overload: System.Text.EncodingProvider.#ctor*
   platform:
   - net-11
   - net-20
@@ -287,6 +288,11 @@ references:
   name: DecoderFallback
   nameWithType: DecoderFallback
   fullName: System.Text.DecoderFallback
+- uid: System.Text.EncodingProvider.#ctor*
+  parent: System.Text.EncodingProvider
+  isExternal: false
+  name: EncodingProvider
+  nameWithType: EncodingProvider.EncodingProvider
 - uid: System.Text.EncodingProvider.GetEncoding*
   parent: System.Text.EncodingProvider
   isExternal: false

@@ -55,6 +55,7 @@ items:
     return:
       type: System.FormattableString
       description: To be added.
+  overload: System.Runtime.CompilerServices.FormattableStringFactory.Create*
   platform:
   - net-11
   - net-20
@@ -87,3 +88,8 @@ references:
   name: Object
   nameWithType: Object
   fullName: System.Object[]
+- uid: System.Runtime.CompilerServices.FormattableStringFactory.Create*
+  parent: System.Runtime.CompilerServices.FormattableStringFactory
+  isExternal: false
+  name: Create
+  nameWithType: FormattableStringFactory.Create

@@ -108,6 +108,7 @@ items:
   syntax:
     content: public UTF7Encoding ();
     parameters: []
+  overload: System.Text.UTF7Encoding.#ctor*
   platform:
   - net-11
   - net-20
@@ -132,6 +133,7 @@ items:
     - id: allowOptionals
       type: System.Boolean
       description: To be added.
+  overload: System.Text.UTF7Encoding.#ctor*
   platform:
   - net-11
   - net-20
@@ -159,6 +161,7 @@ items:
     return:
       type: System.Boolean
       description: To be added.
+  overload: System.Text.UTF7Encoding.Equals*
   platform:
   - net-11
   - net-20
@@ -535,6 +538,7 @@ items:
     return:
       type: System.Text.Decoder
       description: To be added.
+  overload: System.Text.UTF7Encoding.GetDecoder*
   platform:
   - net-11
   - net-20
@@ -559,6 +563,7 @@ items:
     return:
       type: System.Text.Encoder
       description: To be added.
+  overload: System.Text.UTF7Encoding.GetEncoder*
   platform:
   - net-11
   - net-20
@@ -583,6 +588,7 @@ items:
     return:
       type: System.Int32
       description: To be added.
+  overload: System.Text.UTF7Encoding.GetHashCode*
   platform:
   - net-11
   - net-20
@@ -610,6 +616,7 @@ items:
     return:
       type: System.Int32
       description: To be added.
+  overload: System.Text.UTF7Encoding.GetMaxByteCount*
   platform:
   - net-11
   - net-20
@@ -637,6 +644,7 @@ items:
     return:
       type: System.Int32
       description: To be added.
+  overload: System.Text.UTF7Encoding.GetMaxCharCount*
   platform:
   - net-11
   - net-20
@@ -670,6 +678,7 @@ items:
     return:
       type: System.String
       description: To be added.
+  overload: System.Text.UTF7Encoding.GetString*
   platform:
   - net-11
   - net-20
@@ -1104,6 +1113,16 @@ references:
   name: Int32
   nameWithType: Int32
   fullName: System.Int32
+- uid: System.Text.UTF7Encoding.#ctor*
+  parent: System.Text.UTF7Encoding
+  isExternal: false
+  name: UTF7Encoding
+  nameWithType: UTF7Encoding.UTF7Encoding
+- uid: System.Text.UTF7Encoding.Equals*
+  parent: System.Text.UTF7Encoding
+  isExternal: false
+  name: Equals
+  nameWithType: UTF7Encoding.Equals
 - uid: System.Text.UTF7Encoding.GetByteCount*
   parent: System.Text.UTF7Encoding
   isExternal: false
@@ -1124,3 +1143,33 @@ references:
   isExternal: false
   name: GetChars
   nameWithType: UTF7Encoding.GetChars
+- uid: System.Text.UTF7Encoding.GetDecoder*
+  parent: System.Text.UTF7Encoding
+  isExternal: false
+  name: GetDecoder
+  nameWithType: UTF7Encoding.GetDecoder
+- uid: System.Text.UTF7Encoding.GetEncoder*
+  parent: System.Text.UTF7Encoding
+  isExternal: false
+  name: GetEncoder
+  nameWithType: UTF7Encoding.GetEncoder
+- uid: System.Text.UTF7Encoding.GetHashCode*
+  parent: System.Text.UTF7Encoding
+  isExternal: false
+  name: GetHashCode
+  nameWithType: UTF7Encoding.GetHashCode
+- uid: System.Text.UTF7Encoding.GetMaxByteCount*
+  parent: System.Text.UTF7Encoding
+  isExternal: false
+  name: GetMaxByteCount
+  nameWithType: UTF7Encoding.GetMaxByteCount
+- uid: System.Text.UTF7Encoding.GetMaxCharCount*
+  parent: System.Text.UTF7Encoding
+  isExternal: false
+  name: GetMaxCharCount
+  nameWithType: UTF7Encoding.GetMaxCharCount
+- uid: System.Text.UTF7Encoding.GetString*
+  parent: System.Text.UTF7Encoding
+  isExternal: false
+  name: GetString
+  nameWithType: UTF7Encoding.GetString

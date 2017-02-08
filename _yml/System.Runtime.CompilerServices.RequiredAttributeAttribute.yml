@@ -95,6 +95,7 @@ items:
     - id: requiredContract
       type: System.Type
       description: To be added.
+  overload: System.Runtime.CompilerServices.RequiredAttributeAttribute.#ctor*
   platform:
   - net-11
   - net-20
@@ -118,6 +119,7 @@ items:
     return:
       type: System.Type
       description: To be added.
+  overload: System.Runtime.CompilerServices.RequiredAttributeAttribute.RequiredContract*
   platform:
   - net-11
   - net-20
@@ -150,3 +152,13 @@ references:
   name: Type
   nameWithType: Type
   fullName: System.Type
+- uid: System.Runtime.CompilerServices.RequiredAttributeAttribute.#ctor*
+  parent: System.Runtime.CompilerServices.RequiredAttributeAttribute
+  isExternal: false
+  name: RequiredAttributeAttribute
+  nameWithType: RequiredAttributeAttribute.RequiredAttributeAttribute
+- uid: System.Runtime.CompilerServices.RequiredAttributeAttribute.RequiredContract*
+  parent: System.Runtime.CompilerServices.RequiredAttributeAttribute
+  isExternal: false
+  name: RequiredContract
+  nameWithType: RequiredAttributeAttribute.RequiredContract

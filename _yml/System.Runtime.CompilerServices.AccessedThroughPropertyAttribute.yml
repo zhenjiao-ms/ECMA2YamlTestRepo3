@@ -95,6 +95,7 @@ items:
     - id: propertyName
       type: System.String
       description: To be added.
+  overload: System.Runtime.CompilerServices.AccessedThroughPropertyAttribute.#ctor*
   platform:
   - net-11
   - net-20
@@ -118,6 +119,7 @@ items:
     return:
       type: System.String
       description: To be added.
+  overload: System.Runtime.CompilerServices.AccessedThroughPropertyAttribute.PropertyName*
   platform:
   - net-11
   - net-20
@@ -150,3 +152,13 @@ references:
   name: String
   nameWithType: String
   fullName: System.String
+- uid: System.Runtime.CompilerServices.AccessedThroughPropertyAttribute.#ctor*
+  parent: System.Runtime.CompilerServices.AccessedThroughPropertyAttribute
+  isExternal: false
+  name: AccessedThroughPropertyAttribute
+  nameWithType: AccessedThroughPropertyAttribute.AccessedThroughPropertyAttribute
+- uid: System.Runtime.CompilerServices.AccessedThroughPropertyAttribute.PropertyName*
+  parent: System.Runtime.CompilerServices.AccessedThroughPropertyAttribute
+  isExternal: false
+  name: PropertyName
+  nameWithType: AccessedThroughPropertyAttribute.PropertyName

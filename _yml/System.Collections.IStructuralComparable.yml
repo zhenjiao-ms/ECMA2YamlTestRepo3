@@ -45,6 +45,7 @@ items:
     return:
       type: System.Int32
       description: To be added.
+  overload: System.Collections.IStructuralComparable.CompareTo*
   platform:
   - net-11
   - net-20
@@ -74,3 +75,8 @@ references:
   name: IComparer
   nameWithType: IComparer
   fullName: System.Collections.IComparer
+- uid: System.Collections.IStructuralComparable.CompareTo*
+  parent: System.Collections.IStructuralComparable
+  isExternal: false
+  name: CompareTo
+  nameWithType: IStructuralComparable.CompareTo

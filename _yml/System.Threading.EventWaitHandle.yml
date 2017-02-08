@@ -97,6 +97,7 @@ items:
     - id: mode
       type: System.Threading.EventResetMode
       description: To be added.
+  overload: System.Threading.EventWaitHandle.#ctor*
   platform:
   - net-11
   - net-20
@@ -127,6 +128,7 @@ items:
     - id: name
       type: System.String
       description: To be added.
+  overload: System.Threading.EventWaitHandle.#ctor*
   platform:
   - net-11
   - net-20
@@ -160,6 +162,7 @@ items:
     - id: createdNew
       type: System.Boolean
       description: To be added.
+  overload: System.Threading.EventWaitHandle.#ctor*
   platform:
   - net-11
   - net-20
@@ -196,6 +199,7 @@ items:
     - id: eventSecurity
       type: System.Security.AccessControl.EventWaitHandleSecurity
       description: To be added.
+  overload: System.Threading.EventWaitHandle.#ctor*
   platform:
   - net-11
   - net-20
@@ -220,6 +224,7 @@ items:
     return:
       type: System.Security.AccessControl.EventWaitHandleSecurity
       description: To be added.
+  overload: System.Threading.EventWaitHandle.GetAccessControl*
   platform:
   - net-11
   - net-20
@@ -303,6 +308,7 @@ items:
     return:
       type: System.Boolean
       description: To be added.
+  overload: System.Threading.EventWaitHandle.Reset*
   platform:
   - net-11
   - net-20
@@ -327,6 +333,7 @@ items:
     return:
       type: System.Boolean
       description: To be added.
+  overload: System.Threading.EventWaitHandle.Set*
   platform:
   - net-11
   - net-20
@@ -351,6 +358,7 @@ items:
     - id: eventSecurity
       type: System.Security.AccessControl.EventWaitHandleSecurity
       description: To be added.
+  overload: System.Threading.EventWaitHandle.SetAccessControl*
   platform:
   - net-11
   - net-20
@@ -676,11 +684,36 @@ references:
   name: EventWaitHandle
   nameWithType: EventWaitHandle
   fullName: System.Threading.EventWaitHandle
+- uid: System.Threading.EventWaitHandle.#ctor*
+  parent: System.Threading.EventWaitHandle
+  isExternal: false
+  name: EventWaitHandle
+  nameWithType: EventWaitHandle.EventWaitHandle
+- uid: System.Threading.EventWaitHandle.GetAccessControl*
+  parent: System.Threading.EventWaitHandle
+  isExternal: false
+  name: GetAccessControl
+  nameWithType: EventWaitHandle.GetAccessControl
 - uid: System.Threading.EventWaitHandle.OpenExisting*
   parent: System.Threading.EventWaitHandle
   isExternal: false
   name: OpenExisting
   nameWithType: EventWaitHandle.OpenExisting
+- uid: System.Threading.EventWaitHandle.Reset*
+  parent: System.Threading.EventWaitHandle
+  isExternal: false
+  name: Reset
+  nameWithType: EventWaitHandle.Reset
+- uid: System.Threading.EventWaitHandle.Set*
+  parent: System.Threading.EventWaitHandle
+  isExternal: false
+  name: Set
+  nameWithType: EventWaitHandle.Set
+- uid: System.Threading.EventWaitHandle.SetAccessControl*
+  parent: System.Threading.EventWaitHandle
+  isExternal: false
+  name: SetAccessControl
+  nameWithType: EventWaitHandle.SetAccessControl
 - uid: System.Threading.EventWaitHandle.TryOpenExisting*
   parent: System.Threading.EventWaitHandle
   isExternal: false

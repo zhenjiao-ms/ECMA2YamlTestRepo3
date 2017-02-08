@@ -70,6 +70,7 @@ items:
   syntax:
     content: public MissingMemberException ();
     parameters: []
+  overload: System.MissingMemberException.#ctor*
   platform:
   - net-11
   - net-20
@@ -94,6 +95,7 @@ items:
     - id: message
       type: System.String
       description: To be added.
+  overload: System.MissingMemberException.#ctor*
   platform:
   - net-11
   - net-20
@@ -121,6 +123,7 @@ items:
     - id: context
       type: System.Runtime.Serialization.StreamingContext
       description: To be added.
+  overload: System.MissingMemberException.#ctor*
   platform:
   - net-11
   - net-20
@@ -148,6 +151,7 @@ items:
     - id: inner
       type: System.Exception
       description: To be added.
+  overload: System.MissingMemberException.#ctor*
   platform:
   - net-11
   - net-20
@@ -175,6 +179,7 @@ items:
     - id: memberName
       type: System.String
       description: To be added.
+  overload: System.MissingMemberException.#ctor*
   platform:
   - net-11
   - net-20
@@ -225,6 +230,7 @@ items:
     - id: context
       type: System.Runtime.Serialization.StreamingContext
       description: To be added.
+  overload: System.MissingMemberException.GetObjectData*
   platform:
   - net-11
   - net-20
@@ -271,6 +277,7 @@ items:
     return:
       type: System.String
       description: To be added.
+  overload: System.MissingMemberException.Message*
   platform:
   - net-11
   - net-20
@@ -440,3 +447,18 @@ references:
   name: Byte
   nameWithType: Byte
   fullName: System.Byte[]
+- uid: System.MissingMemberException.#ctor*
+  parent: System.MissingMemberException
+  isExternal: false
+  name: MissingMemberException
+  nameWithType: MissingMemberException.MissingMemberException
+- uid: System.MissingMemberException.GetObjectData*
+  parent: System.MissingMemberException
+  isExternal: false
+  name: GetObjectData
+  nameWithType: MissingMemberException.GetObjectData
+- uid: System.MissingMemberException.Message*
+  parent: System.MissingMemberException
+  isExternal: false
+  name: Message
+  nameWithType: MissingMemberException.Message

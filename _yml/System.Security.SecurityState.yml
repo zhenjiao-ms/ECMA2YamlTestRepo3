@@ -51,6 +51,7 @@ items:
   syntax:
     content: protected SecurityState ();
     parameters: []
+  overload: System.Security.SecurityState.#ctor*
   platform:
   - net-11
   - net-20
@@ -72,6 +73,7 @@ items:
   syntax:
     content: public abstract void EnsureState ();
     parameters: []
+  overload: System.Security.SecurityState.EnsureState*
   platform:
   - net-11
   - net-20
@@ -96,6 +98,7 @@ items:
     return:
       type: System.Boolean
       description: To be added.
+  overload: System.Security.SecurityState.IsStateAvailable*
   platform:
   - net-11
   - net-20
@@ -128,3 +131,18 @@ references:
   name: Boolean
   nameWithType: Boolean
   fullName: System.Boolean
+- uid: System.Security.SecurityState.#ctor*
+  parent: System.Security.SecurityState
+  isExternal: false
+  name: SecurityState
+  nameWithType: SecurityState.SecurityState
+- uid: System.Security.SecurityState.EnsureState*
+  parent: System.Security.SecurityState
+  isExternal: false
+  name: EnsureState
+  nameWithType: SecurityState.EnsureState
+- uid: System.Security.SecurityState.IsStateAvailable*
+  parent: System.Security.SecurityState
+  isExternal: false
+  name: IsStateAvailable
+  nameWithType: SecurityState.IsStateAvailable

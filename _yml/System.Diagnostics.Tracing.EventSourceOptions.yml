@@ -45,6 +45,7 @@ items:
     return:
       type: System.Diagnostics.Tracing.EventActivityOptions
       description: To be added.
+  overload: System.Diagnostics.Tracing.EventSourceOptions.ActivityOptions*
   platform:
   - net-11
   - net-20
@@ -68,6 +69,7 @@ items:
     return:
       type: System.Diagnostics.Tracing.EventKeywords
       description: To be added.
+  overload: System.Diagnostics.Tracing.EventSourceOptions.Keywords*
   platform:
   - net-11
   - net-20
@@ -91,6 +93,7 @@ items:
     return:
       type: System.Diagnostics.Tracing.EventLevel
       description: To be added.
+  overload: System.Diagnostics.Tracing.EventSourceOptions.Level*
   platform:
   - net-11
   - net-20
@@ -114,6 +117,7 @@ items:
     return:
       type: System.Diagnostics.Tracing.EventOpcode
       description: To be added.
+  overload: System.Diagnostics.Tracing.EventSourceOptions.Opcode*
   platform:
   - net-11
   - net-20
@@ -137,6 +141,7 @@ items:
     return:
       type: System.Diagnostics.Tracing.EventTags
       description: To be added.
+  overload: System.Diagnostics.Tracing.EventSourceOptions.Tags*
   platform:
   - net-11
   - net-20
@@ -205,3 +210,28 @@ references:
   name: EventTags
   nameWithType: EventTags
   fullName: System.Diagnostics.Tracing.EventTags
+- uid: System.Diagnostics.Tracing.EventSourceOptions.ActivityOptions*
+  parent: System.Diagnostics.Tracing.EventSourceOptions
+  isExternal: false
+  name: ActivityOptions
+  nameWithType: EventSourceOptions.ActivityOptions
+- uid: System.Diagnostics.Tracing.EventSourceOptions.Keywords*
+  parent: System.Diagnostics.Tracing.EventSourceOptions
+  isExternal: false
+  name: Keywords
+  nameWithType: EventSourceOptions.Keywords
+- uid: System.Diagnostics.Tracing.EventSourceOptions.Level*
+  parent: System.Diagnostics.Tracing.EventSourceOptions
+  isExternal: false
+  name: Level
+  nameWithType: EventSourceOptions.Level
+- uid: System.Diagnostics.Tracing.EventSourceOptions.Opcode*
+  parent: System.Diagnostics.Tracing.EventSourceOptions
+  isExternal: false
+  name: Opcode
+  nameWithType: EventSourceOptions.Opcode
+- uid: System.Diagnostics.Tracing.EventSourceOptions.Tags*
+  parent: System.Diagnostics.Tracing.EventSourceOptions
+  isExternal: false
+  name: Tags
+  nameWithType: EventSourceOptions.Tags

@@ -52,6 +52,7 @@ items:
   syntax:
     content: protected AsymmetricKeyExchangeDeformatter ();
     parameters: []
+  overload: System.Security.Cryptography.AsymmetricKeyExchangeDeformatter.#ctor*
   platform:
   - net-11
   - net-20
@@ -79,6 +80,7 @@ items:
     return:
       type: System.Byte[]
       description: To be added.
+  overload: System.Security.Cryptography.AsymmetricKeyExchangeDeformatter.DecryptKeyExchange*
   platform:
   - net-11
   - net-20
@@ -102,6 +104,7 @@ items:
     return:
       type: System.String
       description: To be added.
+  overload: System.Security.Cryptography.AsymmetricKeyExchangeDeformatter.Parameters*
   platform:
   - net-11
   - net-20
@@ -126,6 +129,7 @@ items:
     - id: key
       type: System.Security.Cryptography.AsymmetricAlgorithm
       description: To be added.
+  overload: System.Security.Cryptography.AsymmetricKeyExchangeDeformatter.SetKey*
   platform:
   - net-11
   - net-20
@@ -182,3 +186,23 @@ references:
   name: AsymmetricAlgorithm
   nameWithType: AsymmetricAlgorithm
   fullName: System.Security.Cryptography.AsymmetricAlgorithm
+- uid: System.Security.Cryptography.AsymmetricKeyExchangeDeformatter.#ctor*
+  parent: System.Security.Cryptography.AsymmetricKeyExchangeDeformatter
+  isExternal: false
+  name: AsymmetricKeyExchangeDeformatter
+  nameWithType: AsymmetricKeyExchangeDeformatter.AsymmetricKeyExchangeDeformatter
+- uid: System.Security.Cryptography.AsymmetricKeyExchangeDeformatter.DecryptKeyExchange*
+  parent: System.Security.Cryptography.AsymmetricKeyExchangeDeformatter
+  isExternal: false
+  name: DecryptKeyExchange
+  nameWithType: AsymmetricKeyExchangeDeformatter.DecryptKeyExchange
+- uid: System.Security.Cryptography.AsymmetricKeyExchangeDeformatter.Parameters*
+  parent: System.Security.Cryptography.AsymmetricKeyExchangeDeformatter
+  isExternal: false
+  name: Parameters
+  nameWithType: AsymmetricKeyExchangeDeformatter.Parameters
+- uid: System.Security.Cryptography.AsymmetricKeyExchangeDeformatter.SetKey*
+  parent: System.Security.Cryptography.AsymmetricKeyExchangeDeformatter
+  isExternal: false
+  name: SetKey
+  nameWithType: AsymmetricKeyExchangeDeformatter.SetKey

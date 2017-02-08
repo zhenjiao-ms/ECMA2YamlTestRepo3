@@ -95,6 +95,7 @@ items:
     - id: keyName
       type: System.String
       description: To be added.
+  overload: System.Reflection.AssemblyKeyNameAttribute.#ctor*
   platform:
   - net-11
   - net-20
@@ -118,6 +119,7 @@ items:
     return:
       type: System.String
       description: To be added.
+  overload: System.Reflection.AssemblyKeyNameAttribute.KeyName*
   platform:
   - net-11
   - net-20
@@ -150,3 +152,13 @@ references:
   name: String
   nameWithType: String
   fullName: System.String
+- uid: System.Reflection.AssemblyKeyNameAttribute.#ctor*
+  parent: System.Reflection.AssemblyKeyNameAttribute
+  isExternal: false
+  name: AssemblyKeyNameAttribute
+  nameWithType: AssemblyKeyNameAttribute.AssemblyKeyNameAttribute
+- uid: System.Reflection.AssemblyKeyNameAttribute.KeyName*
+  parent: System.Reflection.AssemblyKeyNameAttribute
+  isExternal: false
+  name: KeyName
+  nameWithType: AssemblyKeyNameAttribute.KeyName

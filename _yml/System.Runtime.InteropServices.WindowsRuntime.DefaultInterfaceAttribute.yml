@@ -93,6 +93,7 @@ items:
     - id: defaultInterface
       type: System.Type
       description: To be added.
+  overload: System.Runtime.InteropServices.WindowsRuntime.DefaultInterfaceAttribute.#ctor*
   platform:
   - net-11
   - net-20
@@ -116,6 +117,7 @@ items:
     return:
       type: System.Type
       description: To be added.
+  overload: System.Runtime.InteropServices.WindowsRuntime.DefaultInterfaceAttribute.DefaultInterface*
   platform:
   - net-11
   - net-20
@@ -148,3 +150,13 @@ references:
   name: Type
   nameWithType: Type
   fullName: System.Type
+- uid: System.Runtime.InteropServices.WindowsRuntime.DefaultInterfaceAttribute.#ctor*
+  parent: System.Runtime.InteropServices.WindowsRuntime.DefaultInterfaceAttribute
+  isExternal: false
+  name: DefaultInterfaceAttribute
+  nameWithType: DefaultInterfaceAttribute.DefaultInterfaceAttribute
+- uid: System.Runtime.InteropServices.WindowsRuntime.DefaultInterfaceAttribute.DefaultInterface*
+  parent: System.Runtime.InteropServices.WindowsRuntime.DefaultInterfaceAttribute
+  isExternal: false
+  name: DefaultInterface
+  nameWithType: DefaultInterfaceAttribute.DefaultInterface

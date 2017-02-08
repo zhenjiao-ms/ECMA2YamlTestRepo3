@@ -47,6 +47,7 @@ items:
     - id: ppenum
       type: System.Runtime.InteropServices.ComTypes.IEnumConnections
       description: To be added.
+  overload: System.Runtime.InteropServices.ComTypes.IEnumConnections.Clone*
   platform:
   - net-11
   - net-20
@@ -80,6 +81,7 @@ items:
     return:
       type: System.Int32
       description: To be added.
+  overload: System.Runtime.InteropServices.ComTypes.IEnumConnections.Next*
   platform:
   - net-11
   - net-20
@@ -101,6 +103,7 @@ items:
   syntax:
     content: public void Reset ();
     parameters: []
+  overload: System.Runtime.InteropServices.ComTypes.IEnumConnections.Reset*
   platform:
   - net-11
   - net-20
@@ -128,6 +131,7 @@ items:
     return:
       type: System.Int32
       description: To be added.
+  overload: System.Runtime.InteropServices.ComTypes.IEnumConnections.Skip*
   platform:
   - net-11
   - net-20
@@ -199,3 +203,23 @@ references:
   name: Int32
   nameWithType: Int32
   fullName: System.Int32
+- uid: System.Runtime.InteropServices.ComTypes.IEnumConnections.Clone*
+  parent: System.Runtime.InteropServices.ComTypes.IEnumConnections
+  isExternal: false
+  name: Clone
+  nameWithType: IEnumConnections.Clone
+- uid: System.Runtime.InteropServices.ComTypes.IEnumConnections.Next*
+  parent: System.Runtime.InteropServices.ComTypes.IEnumConnections
+  isExternal: false
+  name: Next
+  nameWithType: IEnumConnections.Next
+- uid: System.Runtime.InteropServices.ComTypes.IEnumConnections.Reset*
+  parent: System.Runtime.InteropServices.ComTypes.IEnumConnections
+  isExternal: false
+  name: Reset
+  nameWithType: IEnumConnections.Reset
+- uid: System.Runtime.InteropServices.ComTypes.IEnumConnections.Skip*
+  parent: System.Runtime.InteropServices.ComTypes.IEnumConnections
+  isExternal: false
+  name: Skip
+  nameWithType: IEnumConnections.Skip

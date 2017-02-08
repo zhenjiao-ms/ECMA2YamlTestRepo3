@@ -95,6 +95,7 @@ items:
     - id: company
       type: System.String
       description: To be added.
+  overload: System.Reflection.AssemblyCompanyAttribute.#ctor*
   platform:
   - net-11
   - net-20
@@ -118,6 +119,7 @@ items:
     return:
       type: System.String
       description: To be added.
+  overload: System.Reflection.AssemblyCompanyAttribute.Company*
   platform:
   - net-11
   - net-20
@@ -150,3 +152,13 @@ references:
   name: String
   nameWithType: String
   fullName: System.String
+- uid: System.Reflection.AssemblyCompanyAttribute.#ctor*
+  parent: System.Reflection.AssemblyCompanyAttribute
+  isExternal: false
+  name: AssemblyCompanyAttribute
+  nameWithType: AssemblyCompanyAttribute.AssemblyCompanyAttribute
+- uid: System.Reflection.AssemblyCompanyAttribute.Company*
+  parent: System.Reflection.AssemblyCompanyAttribute
+  isExternal: false
+  name: Company
+  nameWithType: AssemblyCompanyAttribute.Company

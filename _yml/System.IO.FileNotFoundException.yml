@@ -70,6 +70,7 @@ items:
   syntax:
     content: public FileNotFoundException ();
     parameters: []
+  overload: System.IO.FileNotFoundException.#ctor*
   platform:
   - net-11
   - net-20
@@ -94,6 +95,7 @@ items:
     - id: message
       type: System.String
       description: To be added.
+  overload: System.IO.FileNotFoundException.#ctor*
   platform:
   - net-11
   - net-20
@@ -121,6 +123,7 @@ items:
     - id: context
       type: System.Runtime.Serialization.StreamingContext
       description: To be added.
+  overload: System.IO.FileNotFoundException.#ctor*
   platform:
   - net-11
   - net-20
@@ -148,6 +151,7 @@ items:
     - id: innerException
       type: System.Exception
       description: To be added.
+  overload: System.IO.FileNotFoundException.#ctor*
   platform:
   - net-11
   - net-20
@@ -175,6 +179,7 @@ items:
     - id: fileName
       type: System.String
       description: To be added.
+  overload: System.IO.FileNotFoundException.#ctor*
   platform:
   - net-11
   - net-20
@@ -205,6 +210,7 @@ items:
     - id: innerException
       type: System.Exception
       description: To be added.
+  overload: System.IO.FileNotFoundException.#ctor*
   platform:
   - net-11
   - net-20
@@ -228,6 +234,7 @@ items:
     return:
       type: System.String
       description: To be added.
+  overload: System.IO.FileNotFoundException.FileName*
   platform:
   - net-11
   - net-20
@@ -251,6 +258,7 @@ items:
     return:
       type: System.String
       description: To be added.
+  overload: System.IO.FileNotFoundException.FusionLog*
   platform:
   - net-11
   - net-20
@@ -278,6 +286,7 @@ items:
     - id: context
       type: System.Runtime.Serialization.StreamingContext
       description: To be added.
+  overload: System.IO.FileNotFoundException.GetObjectData*
   platform:
   - net-11
   - net-20
@@ -301,6 +310,7 @@ items:
     return:
       type: System.String
       description: To be added.
+  overload: System.IO.FileNotFoundException.Message*
   platform:
   - net-11
   - net-20
@@ -325,6 +335,7 @@ items:
     return:
       type: System.String
       description: To be added.
+  overload: System.IO.FileNotFoundException.ToString*
   platform:
   - net-11
   - net-20
@@ -495,3 +506,33 @@ references:
   name: String
   nameWithType: String
   fullName: System.String
+- uid: System.IO.FileNotFoundException.#ctor*
+  parent: System.IO.FileNotFoundException
+  isExternal: false
+  name: FileNotFoundException
+  nameWithType: FileNotFoundException.FileNotFoundException
+- uid: System.IO.FileNotFoundException.FileName*
+  parent: System.IO.FileNotFoundException
+  isExternal: false
+  name: FileName
+  nameWithType: FileNotFoundException.FileName
+- uid: System.IO.FileNotFoundException.FusionLog*
+  parent: System.IO.FileNotFoundException
+  isExternal: false
+  name: FusionLog
+  nameWithType: FileNotFoundException.FusionLog
+- uid: System.IO.FileNotFoundException.GetObjectData*
+  parent: System.IO.FileNotFoundException
+  isExternal: false
+  name: GetObjectData
+  nameWithType: FileNotFoundException.GetObjectData
+- uid: System.IO.FileNotFoundException.Message*
+  parent: System.IO.FileNotFoundException
+  isExternal: false
+  name: Message
+  nameWithType: FileNotFoundException.Message
+- uid: System.IO.FileNotFoundException.ToString*
+  parent: System.IO.FileNotFoundException
+  isExternal: false
+  name: ToString
+  nameWithType: FileNotFoundException.ToString

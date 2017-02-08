@@ -98,6 +98,7 @@ items:
     - id: modes
       type: System.Diagnostics.DebuggableAttribute.DebuggingModes
       description: To be added.
+  overload: System.Diagnostics.DebuggableAttribute.#ctor*
   platform:
   - net-11
   - net-20
@@ -125,6 +126,7 @@ items:
     - id: isJITOptimizerDisabled
       type: System.Boolean
       description: To be added.
+  overload: System.Diagnostics.DebuggableAttribute.#ctor*
   platform:
   - net-11
   - net-20
@@ -148,6 +150,7 @@ items:
     return:
       type: System.Diagnostics.DebuggableAttribute.DebuggingModes
       description: To be added.
+  overload: System.Diagnostics.DebuggableAttribute.DebuggingFlags*
   platform:
   - net-11
   - net-20
@@ -171,6 +174,7 @@ items:
     return:
       type: System.Boolean
       description: To be added.
+  overload: System.Diagnostics.DebuggableAttribute.IsJITOptimizerDisabled*
   platform:
   - net-11
   - net-20
@@ -194,6 +198,7 @@ items:
     return:
       type: System.Boolean
       description: To be added.
+  overload: System.Diagnostics.DebuggableAttribute.IsJITTrackingEnabled*
   platform:
   - net-11
   - net-20
@@ -268,3 +273,23 @@ references:
   name: Boolean
   nameWithType: Boolean
   fullName: System.Boolean
+- uid: System.Diagnostics.DebuggableAttribute.#ctor*
+  parent: System.Diagnostics.DebuggableAttribute
+  isExternal: false
+  name: DebuggableAttribute
+  nameWithType: DebuggableAttribute.DebuggableAttribute
+- uid: System.Diagnostics.DebuggableAttribute.DebuggingFlags*
+  parent: System.Diagnostics.DebuggableAttribute
+  isExternal: false
+  name: DebuggingFlags
+  nameWithType: DebuggableAttribute.DebuggingFlags
+- uid: System.Diagnostics.DebuggableAttribute.IsJITOptimizerDisabled*
+  parent: System.Diagnostics.DebuggableAttribute
+  isExternal: false
+  name: IsJITOptimizerDisabled
+  nameWithType: DebuggableAttribute.IsJITOptimizerDisabled
+- uid: System.Diagnostics.DebuggableAttribute.IsJITTrackingEnabled*
+  parent: System.Diagnostics.DebuggableAttribute
+  isExternal: false
+  name: IsJITTrackingEnabled
+  nameWithType: DebuggableAttribute.IsJITTrackingEnabled

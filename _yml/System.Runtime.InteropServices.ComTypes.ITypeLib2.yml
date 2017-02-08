@@ -70,6 +70,7 @@ items:
     - id: pcFound
       type: System.Int16
       description: To be added.
+  overload: System.Runtime.InteropServices.ComTypes.ITypeLib2.FindName*
   platform:
   - net-11
   - net-20
@@ -94,6 +95,7 @@ items:
     - id: pCustData
       type: System.IntPtr
       description: To be added.
+  overload: System.Runtime.InteropServices.ComTypes.ITypeLib2.GetAllCustData*
   platform:
   - net-11
   - net-20
@@ -121,6 +123,7 @@ items:
     - id: pVarVal
       type: System.Object
       description: To be added.
+  overload: System.Runtime.InteropServices.ComTypes.ITypeLib2.GetCustData*
   platform:
   - net-11
   - net-20
@@ -157,6 +160,7 @@ items:
     - id: strHelpFile
       type: System.String
       description: To be added.
+  overload: System.Runtime.InteropServices.ComTypes.ITypeLib2.GetDocumentation*
   platform:
   - net-11
   - net-20
@@ -190,6 +194,7 @@ items:
     - id: pbstrHelpStringDll
       type: System.String
       description: To be added.
+  overload: System.Runtime.InteropServices.ComTypes.ITypeLib2.GetDocumentation2*
   platform:
   - net-11
   - net-20
@@ -214,6 +219,7 @@ items:
     - id: ppTLibAttr
       type: System.IntPtr
       description: To be added.
+  overload: System.Runtime.InteropServices.ComTypes.ITypeLib2.GetLibAttr*
   platform:
   - net-11
   - net-20
@@ -241,6 +247,7 @@ items:
     - id: pcchUniqueNames
       type: System.Int32
       description: To be added.
+  overload: System.Runtime.InteropServices.ComTypes.ITypeLib2.GetLibStatistics*
   platform:
   - net-11
   - net-20
@@ -265,6 +272,7 @@ items:
     - id: ppTComp
       type: System.Runtime.InteropServices.ComTypes.ITypeComp
       description: To be added.
+  overload: System.Runtime.InteropServices.ComTypes.ITypeLib2.GetTypeComp*
   platform:
   - net-11
   - net-20
@@ -292,6 +300,7 @@ items:
     - id: ppTI
       type: System.Runtime.InteropServices.ComTypes.ITypeInfo
       description: To be added.
+  overload: System.Runtime.InteropServices.ComTypes.ITypeLib2.GetTypeInfo*
   platform:
   - net-11
   - net-20
@@ -316,6 +325,7 @@ items:
     return:
       type: System.Int32
       description: To be added.
+  overload: System.Runtime.InteropServices.ComTypes.ITypeLib2.GetTypeInfoCount*
   platform:
   - net-11
   - net-20
@@ -343,6 +353,7 @@ items:
     - id: ppTInfo
       type: System.Runtime.InteropServices.ComTypes.ITypeInfo
       description: To be added.
+  overload: System.Runtime.InteropServices.ComTypes.ITypeLib2.GetTypeInfoOfGuid*
   platform:
   - net-11
   - net-20
@@ -370,6 +381,7 @@ items:
     - id: pTKind
       type: System.Runtime.InteropServices.ComTypes.TYPEKIND
       description: To be added.
+  overload: System.Runtime.InteropServices.ComTypes.ITypeLib2.GetTypeInfoType*
   platform:
   - net-11
   - net-20
@@ -400,6 +412,7 @@ items:
     return:
       type: System.Boolean
       description: To be added.
+  overload: System.Runtime.InteropServices.ComTypes.ITypeLib2.IsName*
   platform:
   - net-11
   - net-20
@@ -424,6 +437,7 @@ items:
     - id: pTLibAttr
       type: System.IntPtr
       description: To be added.
+  overload: System.Runtime.InteropServices.ComTypes.ITypeLib2.ReleaseTLibAttr*
   platform:
   - net-11
   - net-20
@@ -705,3 +719,73 @@ references:
   name: IntPtr
   nameWithType: IntPtr
   fullName: System.IntPtr
+- uid: System.Runtime.InteropServices.ComTypes.ITypeLib2.FindName*
+  parent: System.Runtime.InteropServices.ComTypes.ITypeLib2
+  isExternal: false
+  name: FindName
+  nameWithType: ITypeLib2.FindName
+- uid: System.Runtime.InteropServices.ComTypes.ITypeLib2.GetAllCustData*
+  parent: System.Runtime.InteropServices.ComTypes.ITypeLib2
+  isExternal: false
+  name: GetAllCustData
+  nameWithType: ITypeLib2.GetAllCustData
+- uid: System.Runtime.InteropServices.ComTypes.ITypeLib2.GetCustData*
+  parent: System.Runtime.InteropServices.ComTypes.ITypeLib2
+  isExternal: false
+  name: GetCustData
+  nameWithType: ITypeLib2.GetCustData
+- uid: System.Runtime.InteropServices.ComTypes.ITypeLib2.GetDocumentation*
+  parent: System.Runtime.InteropServices.ComTypes.ITypeLib2
+  isExternal: false
+  name: GetDocumentation
+  nameWithType: ITypeLib2.GetDocumentation
+- uid: System.Runtime.InteropServices.ComTypes.ITypeLib2.GetDocumentation2*
+  parent: System.Runtime.InteropServices.ComTypes.ITypeLib2
+  isExternal: false
+  name: GetDocumentation2
+  nameWithType: ITypeLib2.GetDocumentation2
+- uid: System.Runtime.InteropServices.ComTypes.ITypeLib2.GetLibAttr*
+  parent: System.Runtime.InteropServices.ComTypes.ITypeLib2
+  isExternal: false
+  name: GetLibAttr
+  nameWithType: ITypeLib2.GetLibAttr
+- uid: System.Runtime.InteropServices.ComTypes.ITypeLib2.GetLibStatistics*
+  parent: System.Runtime.InteropServices.ComTypes.ITypeLib2
+  isExternal: false
+  name: GetLibStatistics
+  nameWithType: ITypeLib2.GetLibStatistics
+- uid: System.Runtime.InteropServices.ComTypes.ITypeLib2.GetTypeComp*
+  parent: System.Runtime.InteropServices.ComTypes.ITypeLib2
+  isExternal: false
+  name: GetTypeComp
+  nameWithType: ITypeLib2.GetTypeComp
+- uid: System.Runtime.InteropServices.ComTypes.ITypeLib2.GetTypeInfo*
+  parent: System.Runtime.InteropServices.ComTypes.ITypeLib2
+  isExternal: false
+  name: GetTypeInfo
+  nameWithType: ITypeLib2.GetTypeInfo
+- uid: System.Runtime.InteropServices.ComTypes.ITypeLib2.GetTypeInfoCount*
+  parent: System.Runtime.InteropServices.ComTypes.ITypeLib2
+  isExternal: false
+  name: GetTypeInfoCount
+  nameWithType: ITypeLib2.GetTypeInfoCount
+- uid: System.Runtime.InteropServices.ComTypes.ITypeLib2.GetTypeInfoOfGuid*
+  parent: System.Runtime.InteropServices.ComTypes.ITypeLib2
+  isExternal: false
+  name: GetTypeInfoOfGuid
+  nameWithType: ITypeLib2.GetTypeInfoOfGuid
+- uid: System.Runtime.InteropServices.ComTypes.ITypeLib2.GetTypeInfoType*
+  parent: System.Runtime.InteropServices.ComTypes.ITypeLib2
+  isExternal: false
+  name: GetTypeInfoType
+  nameWithType: ITypeLib2.GetTypeInfoType
+- uid: System.Runtime.InteropServices.ComTypes.ITypeLib2.IsName*
+  parent: System.Runtime.InteropServices.ComTypes.ITypeLib2
+  isExternal: false
+  name: IsName
+  nameWithType: ITypeLib2.IsName
+- uid: System.Runtime.InteropServices.ComTypes.ITypeLib2.ReleaseTLibAttr*
+  parent: System.Runtime.InteropServices.ComTypes.ITypeLib2
+  isExternal: false
+  name: ReleaseTLibAttr
+  nameWithType: ITypeLib2.ReleaseTLibAttr

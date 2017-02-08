@@ -66,6 +66,7 @@ items:
     return:
       type: System.Boolean
       description: To be added.
+  overload: System.Security.SecurityManager.CheckExecutionRights*
   platform:
   - net-11
   - net-20
@@ -90,6 +91,7 @@ items:
     return:
       type: System.Boolean
       description: To be added.
+  overload: System.Security.SecurityManager.CurrentThreadRequiresSecurityContextCapture*
   platform:
   - net-11
   - net-20
@@ -117,6 +119,7 @@ items:
     return:
       type: System.Security.PermissionSet
       description: To be added.
+  overload: System.Security.SecurityManager.GetStandardSandbox*
   platform:
   - net-11
   - net-20
@@ -144,6 +147,7 @@ items:
     - id: origin
       type: System.Collections.ArrayList
       description: To be added.
+  overload: System.Security.SecurityManager.GetZoneAndOrigin*
   platform:
   - net-11
   - net-20
@@ -171,6 +175,7 @@ items:
     return:
       type: System.Boolean
       description: To be added.
+  overload: System.Security.SecurityManager.IsGranted*
   platform:
   - net-11
   - net-20
@@ -201,6 +206,7 @@ items:
     return:
       type: System.Security.Policy.PolicyLevel
       description: To be added.
+  overload: System.Security.SecurityManager.LoadPolicyLevelFromFile*
   platform:
   - net-11
   - net-20
@@ -231,6 +237,7 @@ items:
     return:
       type: System.Security.Policy.PolicyLevel
       description: To be added.
+  overload: System.Security.SecurityManager.LoadPolicyLevelFromString*
   platform:
   - net-11
   - net-20
@@ -255,6 +262,7 @@ items:
     return:
       type: System.Collections.IEnumerator
       description: To be added.
+  overload: System.Security.SecurityManager.PolicyHierarchy*
   platform:
   - net-11
   - net-20
@@ -378,6 +386,7 @@ items:
     return:
       type: System.Collections.IEnumerator
       description: To be added.
+  overload: System.Security.SecurityManager.ResolvePolicyGroups*
   platform:
   - net-11
   - net-20
@@ -405,6 +414,7 @@ items:
     return:
       type: System.Security.PermissionSet
       description: To be added.
+  overload: System.Security.SecurityManager.ResolveSystemPolicy*
   platform:
   - net-11
   - net-20
@@ -426,6 +436,7 @@ items:
   syntax:
     content: public static void SavePolicy ();
     parameters: []
+  overload: System.Security.SecurityManager.SavePolicy*
   platform:
   - net-11
   - net-20
@@ -450,6 +461,7 @@ items:
     - id: level
       type: System.Security.Policy.PolicyLevel
       description: To be added.
+  overload: System.Security.SecurityManager.SavePolicyLevel*
   platform:
   - net-11
   - net-20
@@ -473,6 +485,7 @@ items:
     return:
       type: System.Boolean
       description: To be added.
+  overload: System.Security.SecurityManager.SecurityEnabled*
   platform:
   - net-11
   - net-20
@@ -763,8 +776,73 @@ references:
   name: Boolean
   nameWithType: Boolean
   fullName: System.Boolean
+- uid: System.Security.SecurityManager.CheckExecutionRights*
+  parent: System.Security.SecurityManager
+  isExternal: false
+  name: CheckExecutionRights
+  nameWithType: SecurityManager.CheckExecutionRights
+- uid: System.Security.SecurityManager.CurrentThreadRequiresSecurityContextCapture*
+  parent: System.Security.SecurityManager
+  isExternal: false
+  name: CurrentThreadRequiresSecurityContextCapture
+  nameWithType: SecurityManager.CurrentThreadRequiresSecurityContextCapture
+- uid: System.Security.SecurityManager.GetStandardSandbox*
+  parent: System.Security.SecurityManager
+  isExternal: false
+  name: GetStandardSandbox
+  nameWithType: SecurityManager.GetStandardSandbox
+- uid: System.Security.SecurityManager.GetZoneAndOrigin*
+  parent: System.Security.SecurityManager
+  isExternal: false
+  name: GetZoneAndOrigin
+  nameWithType: SecurityManager.GetZoneAndOrigin
+- uid: System.Security.SecurityManager.IsGranted*
+  parent: System.Security.SecurityManager
+  isExternal: false
+  name: IsGranted
+  nameWithType: SecurityManager.IsGranted
+- uid: System.Security.SecurityManager.LoadPolicyLevelFromFile*
+  parent: System.Security.SecurityManager
+  isExternal: false
+  name: LoadPolicyLevelFromFile
+  nameWithType: SecurityManager.LoadPolicyLevelFromFile
+- uid: System.Security.SecurityManager.LoadPolicyLevelFromString*
+  parent: System.Security.SecurityManager
+  isExternal: false
+  name: LoadPolicyLevelFromString
+  nameWithType: SecurityManager.LoadPolicyLevelFromString
+- uid: System.Security.SecurityManager.PolicyHierarchy*
+  parent: System.Security.SecurityManager
+  isExternal: false
+  name: PolicyHierarchy
+  nameWithType: SecurityManager.PolicyHierarchy
 - uid: System.Security.SecurityManager.ResolvePolicy*
   parent: System.Security.SecurityManager
   isExternal: false
   name: ResolvePolicy
   nameWithType: SecurityManager.ResolvePolicy
+- uid: System.Security.SecurityManager.ResolvePolicyGroups*
+  parent: System.Security.SecurityManager
+  isExternal: false
+  name: ResolvePolicyGroups
+  nameWithType: SecurityManager.ResolvePolicyGroups
+- uid: System.Security.SecurityManager.ResolveSystemPolicy*
+  parent: System.Security.SecurityManager
+  isExternal: false
+  name: ResolveSystemPolicy
+  nameWithType: SecurityManager.ResolveSystemPolicy
+- uid: System.Security.SecurityManager.SavePolicy*
+  parent: System.Security.SecurityManager
+  isExternal: false
+  name: SavePolicy
+  nameWithType: SecurityManager.SavePolicy
+- uid: System.Security.SecurityManager.SavePolicyLevel*
+  parent: System.Security.SecurityManager
+  isExternal: false
+  name: SavePolicyLevel
+  nameWithType: SecurityManager.SavePolicyLevel
+- uid: System.Security.SecurityManager.SecurityEnabled*
+  parent: System.Security.SecurityManager
+  isExternal: false
+  name: SecurityEnabled
+  nameWithType: SecurityManager.SecurityEnabled

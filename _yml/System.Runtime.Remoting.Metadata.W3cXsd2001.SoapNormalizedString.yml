@@ -55,6 +55,7 @@ items:
   syntax:
     content: public SoapNormalizedString ();
     parameters: []
+  overload: System.Runtime.Remoting.Metadata.W3cXsd2001.SoapNormalizedString.#ctor*
   platform:
   - net-11
   - net-20
@@ -79,6 +80,7 @@ items:
     - id: value
       type: System.String
       description: To be added.
+  overload: System.Runtime.Remoting.Metadata.W3cXsd2001.SoapNormalizedString.#ctor*
   platform:
   - net-11
   - net-20
@@ -103,6 +105,7 @@ items:
     return:
       type: System.String
       description: To be added.
+  overload: System.Runtime.Remoting.Metadata.W3cXsd2001.SoapNormalizedString.GetXsdType*
   platform:
   - net-11
   - net-20
@@ -130,6 +133,7 @@ items:
     return:
       type: System.Runtime.Remoting.Metadata.W3cXsd2001.SoapNormalizedString
       description: To be added.
+  overload: System.Runtime.Remoting.Metadata.W3cXsd2001.SoapNormalizedString.Parse*
   platform:
   - net-11
   - net-20
@@ -154,6 +158,7 @@ items:
     return:
       type: System.String
       description: To be added.
+  overload: System.Runtime.Remoting.Metadata.W3cXsd2001.SoapNormalizedString.ToString*
   platform:
   - net-11
   - net-20
@@ -177,6 +182,7 @@ items:
     return:
       type: System.String
       description: To be added.
+  overload: System.Runtime.Remoting.Metadata.W3cXsd2001.SoapNormalizedString.Value*
   platform:
   - net-11
   - net-20
@@ -200,6 +206,7 @@ items:
     return:
       type: System.String
       description: To be added.
+  overload: System.Runtime.Remoting.Metadata.W3cXsd2001.SoapNormalizedString.XsdType*
   platform:
   - net-11
   - net-20
@@ -292,3 +299,33 @@ references:
   name: String
   nameWithType: String
   fullName: System.String
+- uid: System.Runtime.Remoting.Metadata.W3cXsd2001.SoapNormalizedString.#ctor*
+  parent: System.Runtime.Remoting.Metadata.W3cXsd2001.SoapNormalizedString
+  isExternal: false
+  name: SoapNormalizedString
+  nameWithType: SoapNormalizedString.SoapNormalizedString
+- uid: System.Runtime.Remoting.Metadata.W3cXsd2001.SoapNormalizedString.GetXsdType*
+  parent: System.Runtime.Remoting.Metadata.W3cXsd2001.SoapNormalizedString
+  isExternal: false
+  name: GetXsdType
+  nameWithType: SoapNormalizedString.GetXsdType
+- uid: System.Runtime.Remoting.Metadata.W3cXsd2001.SoapNormalizedString.Parse*
+  parent: System.Runtime.Remoting.Metadata.W3cXsd2001.SoapNormalizedString
+  isExternal: false
+  name: Parse
+  nameWithType: SoapNormalizedString.Parse
+- uid: System.Runtime.Remoting.Metadata.W3cXsd2001.SoapNormalizedString.ToString*
+  parent: System.Runtime.Remoting.Metadata.W3cXsd2001.SoapNormalizedString
+  isExternal: false
+  name: ToString
+  nameWithType: SoapNormalizedString.ToString
+- uid: System.Runtime.Remoting.Metadata.W3cXsd2001.SoapNormalizedString.Value*
+  parent: System.Runtime.Remoting.Metadata.W3cXsd2001.SoapNormalizedString
+  isExternal: false
+  name: Value
+  nameWithType: SoapNormalizedString.Value
+- uid: System.Runtime.Remoting.Metadata.W3cXsd2001.SoapNormalizedString.XsdType*
+  parent: System.Runtime.Remoting.Metadata.W3cXsd2001.SoapNormalizedString
+  isExternal: false
+  name: XsdType
+  nameWithType: SoapNormalizedString.XsdType

@@ -102,6 +102,7 @@ items:
   syntax:
     content: protected EventSource ();
     parameters: []
+  overload: System.Diagnostics.Tracing.EventSource.#ctor*
   platform:
   - net-11
   - net-20
@@ -126,6 +127,7 @@ items:
     - id: throwOnEventWriteErrors
       type: System.Boolean
       description: To be added.
+  overload: System.Diagnostics.Tracing.EventSource.#ctor*
   platform:
   - net-11
   - net-20
@@ -150,6 +152,7 @@ items:
     - id: settings
       type: System.Diagnostics.Tracing.EventSourceSettings
       description: To be added.
+  overload: System.Diagnostics.Tracing.EventSource.#ctor*
   platform:
   - net-11
   - net-20
@@ -174,6 +177,7 @@ items:
     - id: eventSourceName
       type: System.String
       description: To be added.
+  overload: System.Diagnostics.Tracing.EventSource.#ctor*
   platform:
   - net-11
   - net-20
@@ -201,6 +205,7 @@ items:
     - id: traits
       type: System.String[]
       description: To be added.
+  overload: System.Diagnostics.Tracing.EventSource.#ctor*
   platform:
   - net-11
   - net-20
@@ -228,6 +233,7 @@ items:
     - id: config
       type: System.Diagnostics.Tracing.EventSourceSettings
       description: To be added.
+  overload: System.Diagnostics.Tracing.EventSource.#ctor*
   platform:
   - net-11
   - net-20
@@ -258,6 +264,7 @@ items:
     - id: traits
       type: System.String[]
       description: To be added.
+  overload: System.Diagnostics.Tracing.EventSource.#ctor*
   platform:
   - net-11
   - net-20
@@ -281,6 +288,7 @@ items:
     return:
       type: System.Exception
       description: To be added.
+  overload: System.Diagnostics.Tracing.EventSource.ConstructionException*
   platform:
   - net-11
   - net-20
@@ -304,6 +312,7 @@ items:
     return:
       type: System.Guid
       description: To be added.
+  overload: System.Diagnostics.Tracing.EventSource.CurrentThreadActivityId*
   platform:
   - net-11
   - net-20
@@ -395,6 +404,7 @@ items:
   syntax:
     content: ~EventSource ();
     parameters: []
+  overload: System.Diagnostics.Tracing.EventSource.Finalize*
   platform:
   - net-11
   - net-20
@@ -487,6 +497,7 @@ items:
     return:
       type: System.Guid
       description: To be added.
+  overload: System.Diagnostics.Tracing.EventSource.GetGuid*
   platform:
   - net-11
   - net-20
@@ -514,6 +525,7 @@ items:
     return:
       type: System.String
       description: To be added.
+  overload: System.Diagnostics.Tracing.EventSource.GetName*
   platform:
   - net-11
   - net-20
@@ -538,6 +550,7 @@ items:
     return:
       type: System.Collections.Generic.IEnumerable{System.Diagnostics.Tracing.EventSource}
       description: To be added.
+  overload: System.Diagnostics.Tracing.EventSource.GetSources*
   platform:
   - net-11
   - net-20
@@ -565,6 +578,7 @@ items:
     return:
       type: System.String
       description: To be added.
+  overload: System.Diagnostics.Tracing.EventSource.GetTrait*
   platform:
   - net-11
   - net-20
@@ -588,6 +602,7 @@ items:
     return:
       type: System.Guid
       description: To be added.
+  overload: System.Diagnostics.Tracing.EventSource.Guid*
   platform:
   - net-11
   - net-20
@@ -701,6 +716,7 @@ items:
     return:
       type: System.String
       description: To be added.
+  overload: System.Diagnostics.Tracing.EventSource.Name*
   platform:
   - net-11
   - net-20
@@ -725,6 +741,7 @@ items:
     - id: command
       type: System.Diagnostics.Tracing.EventCommandEventArgs
       description: To be added.
+  overload: System.Diagnostics.Tracing.EventSource.OnEventCommand*
   platform:
   - net-11
   - net-20
@@ -755,6 +772,7 @@ items:
     - id: commandArguments
       type: System.Collections.Generic.IDictionary{System.String,System.String}
       description: To be added.
+  overload: System.Diagnostics.Tracing.EventSource.SendCommand*
   platform:
   - net-11
   - net-20
@@ -831,6 +849,7 @@ items:
     return:
       type: System.Diagnostics.Tracing.EventSourceSettings
       description: To be added.
+  overload: System.Diagnostics.Tracing.EventSource.Settings*
   platform:
   - net-11
   - net-20
@@ -855,6 +874,7 @@ items:
     return:
       type: System.String
       description: To be added.
+  overload: System.Diagnostics.Tracing.EventSource.ToString*
   platform:
   - net-11
   - net-20
@@ -1614,6 +1634,7 @@ items:
     - id: data
       type: System.Diagnostics.Tracing.EventSource+EventData*
       description: To be added.
+  overload: System.Diagnostics.Tracing.EventSource.WriteEventCore*
   platform:
   - net-11
   - net-20
@@ -1644,6 +1665,7 @@ items:
     - id: args
       type: System.Object[]
       description: To be added.
+  overload: System.Diagnostics.Tracing.EventSource.WriteEventWithRelatedActivityId*
   platform:
   - net-11
   - net-20
@@ -1677,6 +1699,7 @@ items:
     - id: data
       type: System.Diagnostics.Tracing.EventSource+EventData*
       description: To be added.
+  overload: System.Diagnostics.Tracing.EventSource.WriteEventWithRelatedActivityIdCore*
   platform:
   - net-11
   - net-20
@@ -2753,26 +2776,96 @@ references:
   name: Int32
   nameWithType: Int32
   fullName: System.Int32
+- uid: System.Diagnostics.Tracing.EventSource.#ctor*
+  parent: System.Diagnostics.Tracing.EventSource
+  isExternal: false
+  name: EventSource
+  nameWithType: EventSource.EventSource
+- uid: System.Diagnostics.Tracing.EventSource.ConstructionException*
+  parent: System.Diagnostics.Tracing.EventSource
+  isExternal: false
+  name: ConstructionException
+  nameWithType: EventSource.ConstructionException
+- uid: System.Diagnostics.Tracing.EventSource.CurrentThreadActivityId*
+  parent: System.Diagnostics.Tracing.EventSource
+  isExternal: false
+  name: CurrentThreadActivityId
+  nameWithType: EventSource.CurrentThreadActivityId
 - uid: System.Diagnostics.Tracing.EventSource.Dispose*
   parent: System.Diagnostics.Tracing.EventSource
   isExternal: false
   name: Dispose
   nameWithType: EventSource.Dispose
+- uid: System.Diagnostics.Tracing.EventSource.Finalize*
+  parent: System.Diagnostics.Tracing.EventSource
+  isExternal: false
+  name: Finalize
+  nameWithType: EventSource.Finalize
 - uid: System.Diagnostics.Tracing.EventSource.GenerateManifest*
   parent: System.Diagnostics.Tracing.EventSource
   isExternal: false
   name: GenerateManifest
   nameWithType: EventSource.GenerateManifest
+- uid: System.Diagnostics.Tracing.EventSource.GetGuid*
+  parent: System.Diagnostics.Tracing.EventSource
+  isExternal: false
+  name: GetGuid
+  nameWithType: EventSource.GetGuid
+- uid: System.Diagnostics.Tracing.EventSource.GetName*
+  parent: System.Diagnostics.Tracing.EventSource
+  isExternal: false
+  name: GetName
+  nameWithType: EventSource.GetName
+- uid: System.Diagnostics.Tracing.EventSource.GetSources*
+  parent: System.Diagnostics.Tracing.EventSource
+  isExternal: false
+  name: GetSources
+  nameWithType: EventSource.GetSources
+- uid: System.Diagnostics.Tracing.EventSource.GetTrait*
+  parent: System.Diagnostics.Tracing.EventSource
+  isExternal: false
+  name: GetTrait
+  nameWithType: EventSource.GetTrait
+- uid: System.Diagnostics.Tracing.EventSource.Guid*
+  parent: System.Diagnostics.Tracing.EventSource
+  isExternal: false
+  name: Guid
+  nameWithType: EventSource.Guid
 - uid: System.Diagnostics.Tracing.EventSource.IsEnabled*
   parent: System.Diagnostics.Tracing.EventSource
   isExternal: false
   name: IsEnabled
   nameWithType: EventSource.IsEnabled
+- uid: System.Diagnostics.Tracing.EventSource.Name*
+  parent: System.Diagnostics.Tracing.EventSource
+  isExternal: false
+  name: Name
+  nameWithType: EventSource.Name
+- uid: System.Diagnostics.Tracing.EventSource.OnEventCommand*
+  parent: System.Diagnostics.Tracing.EventSource
+  isExternal: false
+  name: OnEventCommand
+  nameWithType: EventSource.OnEventCommand
+- uid: System.Diagnostics.Tracing.EventSource.SendCommand*
+  parent: System.Diagnostics.Tracing.EventSource
+  isExternal: false
+  name: SendCommand
+  nameWithType: EventSource.SendCommand
 - uid: System.Diagnostics.Tracing.EventSource.SetCurrentThreadActivityId*
   parent: System.Diagnostics.Tracing.EventSource
   isExternal: false
   name: SetCurrentThreadActivityId
   nameWithType: EventSource.SetCurrentThreadActivityId
+- uid: System.Diagnostics.Tracing.EventSource.Settings*
+  parent: System.Diagnostics.Tracing.EventSource
+  isExternal: false
+  name: Settings
+  nameWithType: EventSource.Settings
+- uid: System.Diagnostics.Tracing.EventSource.ToString*
+  parent: System.Diagnostics.Tracing.EventSource
+  isExternal: false
+  name: ToString
+  nameWithType: EventSource.ToString
 - uid: System.Diagnostics.Tracing.EventSource.Write*
   parent: System.Diagnostics.Tracing.EventSource
   isExternal: false
@@ -2788,3 +2881,18 @@ references:
   isExternal: false
   name: WriteEvent
   nameWithType: EventSource.WriteEvent
+- uid: System.Diagnostics.Tracing.EventSource.WriteEventCore*
+  parent: System.Diagnostics.Tracing.EventSource
+  isExternal: false
+  name: WriteEventCore
+  nameWithType: EventSource.WriteEventCore
+- uid: System.Diagnostics.Tracing.EventSource.WriteEventWithRelatedActivityId*
+  parent: System.Diagnostics.Tracing.EventSource
+  isExternal: false
+  name: WriteEventWithRelatedActivityId
+  nameWithType: EventSource.WriteEventWithRelatedActivityId
+- uid: System.Diagnostics.Tracing.EventSource.WriteEventWithRelatedActivityIdCore*
+  parent: System.Diagnostics.Tracing.EventSource
+  isExternal: false
+  name: WriteEventWithRelatedActivityIdCore
+  nameWithType: EventSource.WriteEventWithRelatedActivityIdCore

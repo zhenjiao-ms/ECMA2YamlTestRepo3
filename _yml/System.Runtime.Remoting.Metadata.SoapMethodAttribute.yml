@@ -101,6 +101,7 @@ items:
   syntax:
     content: public SoapMethodAttribute ();
     parameters: []
+  overload: System.Runtime.Remoting.Metadata.SoapMethodAttribute.#ctor*
   platform:
   - net-11
   - net-20
@@ -124,6 +125,7 @@ items:
     return:
       type: System.String
       description: To be added.
+  overload: System.Runtime.Remoting.Metadata.SoapMethodAttribute.ResponseXmlElementName*
   platform:
   - net-11
   - net-20
@@ -147,6 +149,7 @@ items:
     return:
       type: System.String
       description: To be added.
+  overload: System.Runtime.Remoting.Metadata.SoapMethodAttribute.ResponseXmlNamespace*
   platform:
   - net-11
   - net-20
@@ -170,6 +173,7 @@ items:
     return:
       type: System.String
       description: To be added.
+  overload: System.Runtime.Remoting.Metadata.SoapMethodAttribute.ReturnXmlElementName*
   platform:
   - net-11
   - net-20
@@ -193,6 +197,7 @@ items:
     return:
       type: System.String
       description: To be added.
+  overload: System.Runtime.Remoting.Metadata.SoapMethodAttribute.SoapAction*
   platform:
   - net-11
   - net-20
@@ -216,6 +221,7 @@ items:
     return:
       type: System.Boolean
       description: To be added.
+  overload: System.Runtime.Remoting.Metadata.SoapMethodAttribute.UseAttribute*
   platform:
   - net-11
   - net-20
@@ -239,6 +245,7 @@ items:
     return:
       type: System.String
       description: To be added.
+  overload: System.Runtime.Remoting.Metadata.SoapMethodAttribute.XmlNamespace*
   platform:
   - net-11
   - net-20
@@ -325,3 +332,38 @@ references:
   name: String
   nameWithType: String
   fullName: System.String
+- uid: System.Runtime.Remoting.Metadata.SoapMethodAttribute.#ctor*
+  parent: System.Runtime.Remoting.Metadata.SoapMethodAttribute
+  isExternal: false
+  name: SoapMethodAttribute
+  nameWithType: SoapMethodAttribute.SoapMethodAttribute
+- uid: System.Runtime.Remoting.Metadata.SoapMethodAttribute.ResponseXmlElementName*
+  parent: System.Runtime.Remoting.Metadata.SoapMethodAttribute
+  isExternal: false
+  name: ResponseXmlElementName
+  nameWithType: SoapMethodAttribute.ResponseXmlElementName
+- uid: System.Runtime.Remoting.Metadata.SoapMethodAttribute.ResponseXmlNamespace*
+  parent: System.Runtime.Remoting.Metadata.SoapMethodAttribute
+  isExternal: false
+  name: ResponseXmlNamespace
+  nameWithType: SoapMethodAttribute.ResponseXmlNamespace
+- uid: System.Runtime.Remoting.Metadata.SoapMethodAttribute.ReturnXmlElementName*
+  parent: System.Runtime.Remoting.Metadata.SoapMethodAttribute
+  isExternal: false
+  name: ReturnXmlElementName
+  nameWithType: SoapMethodAttribute.ReturnXmlElementName
+- uid: System.Runtime.Remoting.Metadata.SoapMethodAttribute.SoapAction*
+  parent: System.Runtime.Remoting.Metadata.SoapMethodAttribute
+  isExternal: false
+  name: SoapAction
+  nameWithType: SoapMethodAttribute.SoapAction
+- uid: System.Runtime.Remoting.Metadata.SoapMethodAttribute.UseAttribute*
+  parent: System.Runtime.Remoting.Metadata.SoapMethodAttribute
+  isExternal: false
+  name: UseAttribute
+  nameWithType: SoapMethodAttribute.UseAttribute
+- uid: System.Runtime.Remoting.Metadata.SoapMethodAttribute.XmlNamespace*
+  parent: System.Runtime.Remoting.Metadata.SoapMethodAttribute
+  isExternal: false
+  name: XmlNamespace
+  nameWithType: SoapMethodAttribute.XmlNamespace

@@ -74,6 +74,7 @@ items:
   syntax:
     content: protected ResourceManager ();
     parameters: []
+  overload: System.Resources.ResourceManager.#ctor*
   platform:
   - net-11
   - net-20
@@ -98,6 +99,7 @@ items:
     - id: resourceSource
       type: System.Type
       description: To be added.
+  overload: System.Resources.ResourceManager.#ctor*
   platform:
   - net-11
   - net-20
@@ -125,6 +127,7 @@ items:
     - id: assembly
       type: System.Reflection.Assembly
       description: To be added.
+  overload: System.Resources.ResourceManager.#ctor*
   platform:
   - net-11
   - net-20
@@ -155,6 +158,7 @@ items:
     - id: usingResourceSet
       type: System.Type
       description: To be added.
+  overload: System.Resources.ResourceManager.#ctor*
   platform:
   - net-11
   - net-20
@@ -178,6 +182,7 @@ items:
     return:
       type: System.String
       description: To be added.
+  overload: System.Resources.ResourceManager.BaseName*
   platform:
   - net-11
   - net-20
@@ -234,6 +239,7 @@ items:
     return:
       type: System.Resources.ResourceManager
       description: To be added.
+  overload: System.Resources.ResourceManager.CreateFileBasedResourceManager*
   platform:
   - net-11
   - net-20
@@ -257,6 +263,7 @@ items:
     return:
       type: System.Resources.UltimateResourceFallbackLocation
       description: To be added.
+  overload: System.Resources.ResourceManager.FallbackLocation*
   platform:
   - net-11
   - net-20
@@ -284,6 +291,7 @@ items:
     return:
       type: System.Globalization.CultureInfo
       description: To be added.
+  overload: System.Resources.ResourceManager.GetNeutralResourcesLanguage*
   platform:
   - net-11
   - net-20
@@ -370,6 +378,7 @@ items:
     return:
       type: System.String
       description: To be added.
+  overload: System.Resources.ResourceManager.GetResourceFileName*
   platform:
   - net-11
   - net-20
@@ -403,6 +412,7 @@ items:
     return:
       type: System.Resources.ResourceSet
       description: To be added.
+  overload: System.Resources.ResourceManager.GetResourceSet*
   platform:
   - net-11
   - net-20
@@ -430,6 +440,7 @@ items:
     return:
       type: System.Version
       description: To be added.
+  overload: System.Resources.ResourceManager.GetSatelliteContractVersion*
   platform:
   - net-11
   - net-20
@@ -594,6 +605,7 @@ items:
     return:
       type: System.Boolean
       description: To be added.
+  overload: System.Resources.ResourceManager.IgnoreCase*
   platform:
   - net-11
   - net-20
@@ -627,6 +639,7 @@ items:
     return:
       type: System.Resources.ResourceSet
       description: To be added.
+  overload: System.Resources.ResourceManager.InternalGetResourceSet*
   platform:
   - net-11
   - net-20
@@ -694,6 +707,7 @@ items:
   syntax:
     content: public virtual void ReleaseAllResources ();
     parameters: []
+  overload: System.Resources.ResourceManager.ReleaseAllResources*
   platform:
   - net-11
   - net-20
@@ -740,6 +754,7 @@ items:
     return:
       type: System.Type
       description: To be added.
+  overload: System.Resources.ResourceManager.ResourceSetType*
   platform:
   - net-11
   - net-20
@@ -1192,11 +1207,51 @@ references:
   name: Type
   nameWithType: Type
   fullName: System.Type
+- uid: System.Resources.ResourceManager.#ctor*
+  parent: System.Resources.ResourceManager
+  isExternal: false
+  name: ResourceManager
+  nameWithType: ResourceManager.ResourceManager
+- uid: System.Resources.ResourceManager.BaseName*
+  parent: System.Resources.ResourceManager
+  isExternal: false
+  name: BaseName
+  nameWithType: ResourceManager.BaseName
+- uid: System.Resources.ResourceManager.CreateFileBasedResourceManager*
+  parent: System.Resources.ResourceManager
+  isExternal: false
+  name: CreateFileBasedResourceManager
+  nameWithType: ResourceManager.CreateFileBasedResourceManager
+- uid: System.Resources.ResourceManager.FallbackLocation*
+  parent: System.Resources.ResourceManager
+  isExternal: false
+  name: FallbackLocation
+  nameWithType: ResourceManager.FallbackLocation
+- uid: System.Resources.ResourceManager.GetNeutralResourcesLanguage*
+  parent: System.Resources.ResourceManager
+  isExternal: false
+  name: GetNeutralResourcesLanguage
+  nameWithType: ResourceManager.GetNeutralResourcesLanguage
 - uid: System.Resources.ResourceManager.GetObject*
   parent: System.Resources.ResourceManager
   isExternal: false
   name: GetObject
   nameWithType: ResourceManager.GetObject
+- uid: System.Resources.ResourceManager.GetResourceFileName*
+  parent: System.Resources.ResourceManager
+  isExternal: false
+  name: GetResourceFileName
+  nameWithType: ResourceManager.GetResourceFileName
+- uid: System.Resources.ResourceManager.GetResourceSet*
+  parent: System.Resources.ResourceManager
+  isExternal: false
+  name: GetResourceSet
+  nameWithType: ResourceManager.GetResourceSet
+- uid: System.Resources.ResourceManager.GetSatelliteContractVersion*
+  parent: System.Resources.ResourceManager
+  isExternal: false
+  name: GetSatelliteContractVersion
+  nameWithType: ResourceManager.GetSatelliteContractVersion
 - uid: System.Resources.ResourceManager.GetStream*
   parent: System.Resources.ResourceManager
   isExternal: false
@@ -1207,3 +1262,23 @@ references:
   isExternal: false
   name: GetString
   nameWithType: ResourceManager.GetString
+- uid: System.Resources.ResourceManager.IgnoreCase*
+  parent: System.Resources.ResourceManager
+  isExternal: false
+  name: IgnoreCase
+  nameWithType: ResourceManager.IgnoreCase
+- uid: System.Resources.ResourceManager.InternalGetResourceSet*
+  parent: System.Resources.ResourceManager
+  isExternal: false
+  name: InternalGetResourceSet
+  nameWithType: ResourceManager.InternalGetResourceSet
+- uid: System.Resources.ResourceManager.ReleaseAllResources*
+  parent: System.Resources.ResourceManager
+  isExternal: false
+  name: ReleaseAllResources
+  nameWithType: ResourceManager.ReleaseAllResources
+- uid: System.Resources.ResourceManager.ResourceSetType*
+  parent: System.Resources.ResourceManager
+  isExternal: false
+  name: ResourceSetType
+  nameWithType: ResourceManager.ResourceSetType

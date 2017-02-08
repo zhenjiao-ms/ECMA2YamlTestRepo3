@@ -68,6 +68,7 @@ items:
     return:
       type: System.Security.AccessControl.AceQualifier
       description: To be added.
+  overload: System.Security.AccessControl.QualifiedAce.AceQualifier*
   platform:
   - net-11
   - net-20
@@ -92,6 +93,7 @@ items:
     return:
       type: System.Byte[]
       description: To be added.
+  overload: System.Security.AccessControl.QualifiedAce.GetOpaque*
   platform:
   - net-11
   - net-20
@@ -115,6 +117,7 @@ items:
     return:
       type: System.Boolean
       description: To be added.
+  overload: System.Security.AccessControl.QualifiedAce.IsCallback*
   platform:
   - net-11
   - net-20
@@ -138,6 +141,7 @@ items:
     return:
       type: System.Int32
       description: To be added.
+  overload: System.Security.AccessControl.QualifiedAce.OpaqueLength*
   platform:
   - net-11
   - net-20
@@ -162,6 +166,7 @@ items:
     - id: opaque
       type: System.Byte[]
       description: To be added.
+  overload: System.Security.AccessControl.QualifiedAce.SetOpaque*
   platform:
   - net-11
   - net-20
@@ -230,3 +235,28 @@ references:
   name: Byte
   nameWithType: Byte
   fullName: System.Byte[]
+- uid: System.Security.AccessControl.QualifiedAce.AceQualifier*
+  parent: System.Security.AccessControl.QualifiedAce
+  isExternal: false
+  name: AceQualifier
+  nameWithType: QualifiedAce.AceQualifier
+- uid: System.Security.AccessControl.QualifiedAce.GetOpaque*
+  parent: System.Security.AccessControl.QualifiedAce
+  isExternal: false
+  name: GetOpaque
+  nameWithType: QualifiedAce.GetOpaque
+- uid: System.Security.AccessControl.QualifiedAce.IsCallback*
+  parent: System.Security.AccessControl.QualifiedAce
+  isExternal: false
+  name: IsCallback
+  nameWithType: QualifiedAce.IsCallback
+- uid: System.Security.AccessControl.QualifiedAce.OpaqueLength*
+  parent: System.Security.AccessControl.QualifiedAce
+  isExternal: false
+  name: OpaqueLength
+  nameWithType: QualifiedAce.OpaqueLength
+- uid: System.Security.AccessControl.QualifiedAce.SetOpaque*
+  parent: System.Security.AccessControl.QualifiedAce
+  isExternal: false
+  name: SetOpaque
+  nameWithType: QualifiedAce.SetOpaque

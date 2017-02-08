@@ -87,6 +87,7 @@ items:
     - id: stream
       type: System.IO.Stream
       description: To be added.
+  overload: System.IO.StreamReader.#ctor*
   platform:
   - net-11
   - net-20
@@ -111,6 +112,7 @@ items:
     - id: path
       type: System.String
       description: To be added.
+  overload: System.IO.StreamReader.#ctor*
   platform:
   - net-11
   - net-20
@@ -138,6 +140,7 @@ items:
     - id: detectEncodingFromByteOrderMarks
       type: System.Boolean
       description: To be added.
+  overload: System.IO.StreamReader.#ctor*
   platform:
   - net-11
   - net-20
@@ -165,6 +168,7 @@ items:
     - id: encoding
       type: System.Text.Encoding
       description: To be added.
+  overload: System.IO.StreamReader.#ctor*
   platform:
   - net-11
   - net-20
@@ -192,6 +196,7 @@ items:
     - id: detectEncodingFromByteOrderMarks
       type: System.Boolean
       description: To be added.
+  overload: System.IO.StreamReader.#ctor*
   platform:
   - net-11
   - net-20
@@ -219,6 +224,7 @@ items:
     - id: encoding
       type: System.Text.Encoding
       description: To be added.
+  overload: System.IO.StreamReader.#ctor*
   platform:
   - net-11
   - net-20
@@ -249,6 +255,7 @@ items:
     - id: detectEncodingFromByteOrderMarks
       type: System.Boolean
       description: To be added.
+  overload: System.IO.StreamReader.#ctor*
   platform:
   - net-11
   - net-20
@@ -279,6 +286,7 @@ items:
     - id: detectEncodingFromByteOrderMarks
       type: System.Boolean
       description: To be added.
+  overload: System.IO.StreamReader.#ctor*
   platform:
   - net-11
   - net-20
@@ -312,6 +320,7 @@ items:
     - id: bufferSize
       type: System.Int32
       description: To be added.
+  overload: System.IO.StreamReader.#ctor*
   platform:
   - net-11
   - net-20
@@ -345,6 +354,7 @@ items:
     - id: bufferSize
       type: System.Int32
       description: To be added.
+  overload: System.IO.StreamReader.#ctor*
   platform:
   - net-11
   - net-20
@@ -381,6 +391,7 @@ items:
     - id: leaveOpen
       type: System.Boolean
       description: To be added.
+  overload: System.IO.StreamReader.#ctor*
   platform:
   - net-11
   - net-20
@@ -404,6 +415,7 @@ items:
     return:
       type: System.IO.Stream
       description: To be added.
+  overload: System.IO.StreamReader.BaseStream*
   platform:
   - net-11
   - net-20
@@ -425,6 +437,7 @@ items:
   syntax:
     content: public override void Close ();
     parameters: []
+  overload: System.IO.StreamReader.Close*
   platform:
   - net-11
   - net-20
@@ -448,6 +461,7 @@ items:
     return:
       type: System.Text.Encoding
       description: To be added.
+  overload: System.IO.StreamReader.CurrentEncoding*
   platform:
   - net-11
   - net-20
@@ -469,6 +483,7 @@ items:
   syntax:
     content: public void DiscardBufferedData ();
     parameters: []
+  overload: System.IO.StreamReader.DiscardBufferedData*
   platform:
   - net-11
   - net-20
@@ -493,6 +508,7 @@ items:
     - id: disposing
       type: System.Boolean
       description: To be added.
+  overload: System.IO.StreamReader.Dispose*
   platform:
   - net-11
   - net-20
@@ -516,6 +532,7 @@ items:
     return:
       type: System.Boolean
       description: To be added.
+  overload: System.IO.StreamReader.EndOfStream*
   platform:
   - net-11
   - net-20
@@ -563,6 +580,7 @@ items:
     return:
       type: System.Int32
       description: To be added.
+  overload: System.IO.StreamReader.Peek*
   platform:
   - net-11
   - net-20
@@ -655,6 +673,7 @@ items:
     return:
       type: System.Threading.Tasks.Task{System.Int32}
       description: To be added.
+  overload: System.IO.StreamReader.ReadAsync*
   platform:
   - net-11
   - net-20
@@ -688,6 +707,7 @@ items:
     return:
       type: System.Int32
       description: To be added.
+  overload: System.IO.StreamReader.ReadBlock*
   platform:
   - net-11
   - net-20
@@ -721,6 +741,7 @@ items:
     return:
       type: System.Threading.Tasks.Task{System.Int32}
       description: To be added.
+  overload: System.IO.StreamReader.ReadBlockAsync*
   platform:
   - net-11
   - net-20
@@ -745,6 +766,7 @@ items:
     return:
       type: System.String
       description: To be added.
+  overload: System.IO.StreamReader.ReadLine*
   platform:
   - net-11
   - net-20
@@ -769,6 +791,7 @@ items:
     return:
       type: System.Threading.Tasks.Task{System.String}
       description: To be added.
+  overload: System.IO.StreamReader.ReadLineAsync*
   platform:
   - net-11
   - net-20
@@ -793,6 +816,7 @@ items:
     return:
       type: System.String
       description: To be added.
+  overload: System.IO.StreamReader.ReadToEnd*
   platform:
   - net-11
   - net-20
@@ -817,6 +841,7 @@ items:
     return:
       type: System.Threading.Tasks.Task{System.String}
       description: To be added.
+  overload: System.IO.StreamReader.ReadToEndAsync*
   platform:
   - net-11
   - net-20
@@ -1329,8 +1354,83 @@ references:
   name: Task<String>
   nameWithType: Task<String>
   fullName: System.Threading.Tasks.Task<System.String>
+- uid: System.IO.StreamReader.#ctor*
+  parent: System.IO.StreamReader
+  isExternal: false
+  name: StreamReader
+  nameWithType: StreamReader.StreamReader
+- uid: System.IO.StreamReader.BaseStream*
+  parent: System.IO.StreamReader
+  isExternal: false
+  name: BaseStream
+  nameWithType: StreamReader.BaseStream
+- uid: System.IO.StreamReader.Close*
+  parent: System.IO.StreamReader
+  isExternal: false
+  name: Close
+  nameWithType: StreamReader.Close
+- uid: System.IO.StreamReader.CurrentEncoding*
+  parent: System.IO.StreamReader
+  isExternal: false
+  name: CurrentEncoding
+  nameWithType: StreamReader.CurrentEncoding
+- uid: System.IO.StreamReader.DiscardBufferedData*
+  parent: System.IO.StreamReader
+  isExternal: false
+  name: DiscardBufferedData
+  nameWithType: StreamReader.DiscardBufferedData
+- uid: System.IO.StreamReader.Dispose*
+  parent: System.IO.StreamReader
+  isExternal: false
+  name: Dispose
+  nameWithType: StreamReader.Dispose
+- uid: System.IO.StreamReader.EndOfStream*
+  parent: System.IO.StreamReader
+  isExternal: false
+  name: EndOfStream
+  nameWithType: StreamReader.EndOfStream
+- uid: System.IO.StreamReader.Peek*
+  parent: System.IO.StreamReader
+  isExternal: false
+  name: Peek
+  nameWithType: StreamReader.Peek
 - uid: System.IO.StreamReader.Read*
   parent: System.IO.StreamReader
   isExternal: false
   name: Read
   nameWithType: StreamReader.Read
+- uid: System.IO.StreamReader.ReadAsync*
+  parent: System.IO.StreamReader
+  isExternal: false
+  name: ReadAsync
+  nameWithType: StreamReader.ReadAsync
+- uid: System.IO.StreamReader.ReadBlock*
+  parent: System.IO.StreamReader
+  isExternal: false
+  name: ReadBlock
+  nameWithType: StreamReader.ReadBlock
+- uid: System.IO.StreamReader.ReadBlockAsync*
+  parent: System.IO.StreamReader
+  isExternal: false
+  name: ReadBlockAsync
+  nameWithType: StreamReader.ReadBlockAsync
+- uid: System.IO.StreamReader.ReadLine*
+  parent: System.IO.StreamReader
+  isExternal: false
+  name: ReadLine
+  nameWithType: StreamReader.ReadLine
+- uid: System.IO.StreamReader.ReadLineAsync*
+  parent: System.IO.StreamReader
+  isExternal: false
+  name: ReadLineAsync
+  nameWithType: StreamReader.ReadLineAsync
+- uid: System.IO.StreamReader.ReadToEnd*
+  parent: System.IO.StreamReader
+  isExternal: false
+  name: ReadToEnd
+  nameWithType: StreamReader.ReadToEnd
+- uid: System.IO.StreamReader.ReadToEndAsync*
+  parent: System.IO.StreamReader
+  isExternal: false
+  name: ReadToEndAsync
+  nameWithType: StreamReader.ReadToEndAsync

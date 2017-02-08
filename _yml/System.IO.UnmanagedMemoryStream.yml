@@ -97,6 +97,7 @@ items:
   syntax:
     content: protected UnmanagedMemoryStream ();
     parameters: []
+  overload: System.IO.UnmanagedMemoryStream.#ctor*
   platform:
   - net-11
   - net-20
@@ -124,6 +125,7 @@ items:
     - id: length
       type: System.Int64
       description: To be added.
+  overload: System.IO.UnmanagedMemoryStream.#ctor*
   platform:
   - net-11
   - net-20
@@ -154,6 +156,7 @@ items:
     - id: length
       type: System.Int64
       description: To be added.
+  overload: System.IO.UnmanagedMemoryStream.#ctor*
   platform:
   - net-11
   - net-20
@@ -187,6 +190,7 @@ items:
     - id: access
       type: System.IO.FileAccess
       description: To be added.
+  overload: System.IO.UnmanagedMemoryStream.#ctor*
   platform:
   - net-11
   - net-20
@@ -220,6 +224,7 @@ items:
     - id: access
       type: System.IO.FileAccess
       description: To be added.
+  overload: System.IO.UnmanagedMemoryStream.#ctor*
   platform:
   - net-11
   - net-20
@@ -243,6 +248,7 @@ items:
     return:
       type: System.Boolean
       description: To be added.
+  overload: System.IO.UnmanagedMemoryStream.CanRead*
   platform:
   - net-11
   - net-20
@@ -266,6 +272,7 @@ items:
     return:
       type: System.Boolean
       description: To be added.
+  overload: System.IO.UnmanagedMemoryStream.CanSeek*
   platform:
   - net-11
   - net-20
@@ -289,6 +296,7 @@ items:
     return:
       type: System.Boolean
       description: To be added.
+  overload: System.IO.UnmanagedMemoryStream.CanWrite*
   platform:
   - net-11
   - net-20
@@ -312,6 +320,7 @@ items:
     return:
       type: System.Int64
       description: To be added.
+  overload: System.IO.UnmanagedMemoryStream.Capacity*
   platform:
   - net-11
   - net-20
@@ -336,6 +345,7 @@ items:
     - id: disposing
       type: System.Boolean
       description: To be added.
+  overload: System.IO.UnmanagedMemoryStream.Dispose*
   platform:
   - net-11
   - net-20
@@ -357,6 +367,7 @@ items:
   syntax:
     content: public override void Flush ();
     parameters: []
+  overload: System.IO.UnmanagedMemoryStream.Flush*
   platform:
   - net-11
   - net-20
@@ -384,6 +395,7 @@ items:
     return:
       type: System.Threading.Tasks.Task
       description: To be added.
+  overload: System.IO.UnmanagedMemoryStream.FlushAsync*
   platform:
   - net-11
   - net-20
@@ -475,6 +487,7 @@ items:
     return:
       type: System.Int64
       description: To be added.
+  overload: System.IO.UnmanagedMemoryStream.Length*
   platform:
   - net-11
   - net-20
@@ -498,6 +511,7 @@ items:
     return:
       type: System.Int64
       description: To be added.
+  overload: System.IO.UnmanagedMemoryStream.Position*
   platform:
   - net-11
   - net-20
@@ -521,6 +535,7 @@ items:
     return:
       type: System.Byte*
       description: To be added.
+  overload: System.IO.UnmanagedMemoryStream.PositionPointer*
   platform:
   - net-11
   - net-20
@@ -554,6 +569,7 @@ items:
     return:
       type: System.Int32
       description: To be added.
+  overload: System.IO.UnmanagedMemoryStream.Read*
   platform:
   - net-11
   - net-20
@@ -590,6 +606,7 @@ items:
     return:
       type: System.Threading.Tasks.Task{System.Int32}
       description: To be added.
+  overload: System.IO.UnmanagedMemoryStream.ReadAsync*
   platform:
   - net-11
   - net-20
@@ -614,6 +631,7 @@ items:
     return:
       type: System.Int32
       description: To be added.
+  overload: System.IO.UnmanagedMemoryStream.ReadByte*
   platform:
   - net-11
   - net-20
@@ -644,6 +662,7 @@ items:
     return:
       type: System.Int64
       description: To be added.
+  overload: System.IO.UnmanagedMemoryStream.Seek*
   platform:
   - net-11
   - net-20
@@ -668,6 +687,7 @@ items:
     - id: value
       type: System.Int64
       description: To be added.
+  overload: System.IO.UnmanagedMemoryStream.SetLength*
   platform:
   - net-11
   - net-20
@@ -698,6 +718,7 @@ items:
     - id: count
       type: System.Int32
       description: To be added.
+  overload: System.IO.UnmanagedMemoryStream.Write*
   platform:
   - net-11
   - net-20
@@ -734,6 +755,7 @@ items:
     return:
       type: System.Threading.Tasks.Task
       description: To be added.
+  overload: System.IO.UnmanagedMemoryStream.WriteAsync*
   platform:
   - net-11
   - net-20
@@ -758,6 +780,7 @@ items:
     - id: value
       type: System.Byte
       description: To be added.
+  overload: System.IO.UnmanagedMemoryStream.WriteByte*
   platform:
   - net-11
   - net-20
@@ -1216,8 +1239,103 @@ references:
   name: Byte
   nameWithType: Byte
   fullName: System.Byte
+- uid: System.IO.UnmanagedMemoryStream.#ctor*
+  parent: System.IO.UnmanagedMemoryStream
+  isExternal: false
+  name: UnmanagedMemoryStream
+  nameWithType: UnmanagedMemoryStream.UnmanagedMemoryStream
+- uid: System.IO.UnmanagedMemoryStream.CanRead*
+  parent: System.IO.UnmanagedMemoryStream
+  isExternal: false
+  name: CanRead
+  nameWithType: UnmanagedMemoryStream.CanRead
+- uid: System.IO.UnmanagedMemoryStream.CanSeek*
+  parent: System.IO.UnmanagedMemoryStream
+  isExternal: false
+  name: CanSeek
+  nameWithType: UnmanagedMemoryStream.CanSeek
+- uid: System.IO.UnmanagedMemoryStream.CanWrite*
+  parent: System.IO.UnmanagedMemoryStream
+  isExternal: false
+  name: CanWrite
+  nameWithType: UnmanagedMemoryStream.CanWrite
+- uid: System.IO.UnmanagedMemoryStream.Capacity*
+  parent: System.IO.UnmanagedMemoryStream
+  isExternal: false
+  name: Capacity
+  nameWithType: UnmanagedMemoryStream.Capacity
+- uid: System.IO.UnmanagedMemoryStream.Dispose*
+  parent: System.IO.UnmanagedMemoryStream
+  isExternal: false
+  name: Dispose
+  nameWithType: UnmanagedMemoryStream.Dispose
+- uid: System.IO.UnmanagedMemoryStream.Flush*
+  parent: System.IO.UnmanagedMemoryStream
+  isExternal: false
+  name: Flush
+  nameWithType: UnmanagedMemoryStream.Flush
+- uid: System.IO.UnmanagedMemoryStream.FlushAsync*
+  parent: System.IO.UnmanagedMemoryStream
+  isExternal: false
+  name: FlushAsync
+  nameWithType: UnmanagedMemoryStream.FlushAsync
 - uid: System.IO.UnmanagedMemoryStream.Initialize*
   parent: System.IO.UnmanagedMemoryStream
   isExternal: false
   name: Initialize
   nameWithType: UnmanagedMemoryStream.Initialize
+- uid: System.IO.UnmanagedMemoryStream.Length*
+  parent: System.IO.UnmanagedMemoryStream
+  isExternal: false
+  name: Length
+  nameWithType: UnmanagedMemoryStream.Length
+- uid: System.IO.UnmanagedMemoryStream.Position*
+  parent: System.IO.UnmanagedMemoryStream
+  isExternal: false
+  name: Position
+  nameWithType: UnmanagedMemoryStream.Position
+- uid: System.IO.UnmanagedMemoryStream.PositionPointer*
+  parent: System.IO.UnmanagedMemoryStream
+  isExternal: false
+  name: PositionPointer
+  nameWithType: UnmanagedMemoryStream.PositionPointer
+- uid: System.IO.UnmanagedMemoryStream.Read*
+  parent: System.IO.UnmanagedMemoryStream
+  isExternal: false
+  name: Read
+  nameWithType: UnmanagedMemoryStream.Read
+- uid: System.IO.UnmanagedMemoryStream.ReadAsync*
+  parent: System.IO.UnmanagedMemoryStream
+  isExternal: false
+  name: ReadAsync
+  nameWithType: UnmanagedMemoryStream.ReadAsync
+- uid: System.IO.UnmanagedMemoryStream.ReadByte*
+  parent: System.IO.UnmanagedMemoryStream
+  isExternal: false
+  name: ReadByte
+  nameWithType: UnmanagedMemoryStream.ReadByte
+- uid: System.IO.UnmanagedMemoryStream.Seek*
+  parent: System.IO.UnmanagedMemoryStream
+  isExternal: false
+  name: Seek
+  nameWithType: UnmanagedMemoryStream.Seek
+- uid: System.IO.UnmanagedMemoryStream.SetLength*
+  parent: System.IO.UnmanagedMemoryStream
+  isExternal: false
+  name: SetLength
+  nameWithType: UnmanagedMemoryStream.SetLength
+- uid: System.IO.UnmanagedMemoryStream.Write*
+  parent: System.IO.UnmanagedMemoryStream
+  isExternal: false
+  name: Write
+  nameWithType: UnmanagedMemoryStream.Write
+- uid: System.IO.UnmanagedMemoryStream.WriteAsync*
+  parent: System.IO.UnmanagedMemoryStream
+  isExternal: false
+  name: WriteAsync
+  nameWithType: UnmanagedMemoryStream.WriteAsync
+- uid: System.IO.UnmanagedMemoryStream.WriteByte*
+  parent: System.IO.UnmanagedMemoryStream
+  isExternal: false
+  name: WriteByte
+  nameWithType: UnmanagedMemoryStream.WriteByte

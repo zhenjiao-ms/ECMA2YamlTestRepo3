@@ -66,6 +66,7 @@ items:
   syntax:
     content: public ReaderWriterLock ();
     parameters: []
+  overload: System.Threading.ReaderWriterLock.#ctor*
   platform:
   - net-11
   - net-20
@@ -193,6 +194,7 @@ items:
     return:
       type: System.Boolean
       description: To be added.
+  overload: System.Threading.ReaderWriterLock.AnyWritersSince*
   platform:
   - net-11
   - net-20
@@ -217,6 +219,7 @@ items:
     - id: lockCookie
       type: System.Threading.LockCookie
       description: To be added.
+  overload: System.Threading.ReaderWriterLock.DowngradeFromWriterLock*
   platform:
   - net-11
   - net-20
@@ -238,6 +241,7 @@ items:
   syntax:
     content: ~ReaderWriterLock ();
     parameters: []
+  overload: System.Threading.ReaderWriterLock.Finalize*
   platform:
   - net-11
   - net-20
@@ -261,6 +265,7 @@ items:
     return:
       type: System.Boolean
       description: To be added.
+  overload: System.Threading.ReaderWriterLock.IsReaderLockHeld*
   platform:
   - net-11
   - net-20
@@ -284,6 +289,7 @@ items:
     return:
       type: System.Boolean
       description: To be added.
+  overload: System.Threading.ReaderWriterLock.IsWriterLockHeld*
   platform:
   - net-11
   - net-20
@@ -308,6 +314,7 @@ items:
     return:
       type: System.Threading.LockCookie
       description: To be added.
+  overload: System.Threading.ReaderWriterLock.ReleaseLock*
   platform:
   - net-11
   - net-20
@@ -329,6 +336,7 @@ items:
   syntax:
     content: public void ReleaseReaderLock ();
     parameters: []
+  overload: System.Threading.ReaderWriterLock.ReleaseReaderLock*
   platform:
   - net-11
   - net-20
@@ -350,6 +358,7 @@ items:
   syntax:
     content: public void ReleaseWriterLock ();
     parameters: []
+  overload: System.Threading.ReaderWriterLock.ReleaseWriterLock*
   platform:
   - net-11
   - net-20
@@ -374,6 +383,7 @@ items:
     - id: lockCookie
       type: System.Threading.LockCookie
       description: To be added.
+  overload: System.Threading.ReaderWriterLock.RestoreLock*
   platform:
   - net-11
   - net-20
@@ -453,6 +463,7 @@ items:
     return:
       type: System.Int32
       description: To be added.
+  overload: System.Threading.ReaderWriterLock.WriterSeqNum*
   platform:
   - net-11
   - net-20
@@ -659,6 +670,11 @@ references:
   name: Int32
   nameWithType: Int32
   fullName: System.Int32
+- uid: System.Threading.ReaderWriterLock.#ctor*
+  parent: System.Threading.ReaderWriterLock
+  isExternal: false
+  name: ReaderWriterLock
+  nameWithType: ReaderWriterLock.ReaderWriterLock
 - uid: System.Threading.ReaderWriterLock.AcquireReaderLock*
   parent: System.Threading.ReaderWriterLock
   isExternal: false
@@ -669,8 +685,58 @@ references:
   isExternal: false
   name: AcquireWriterLock
   nameWithType: ReaderWriterLock.AcquireWriterLock
+- uid: System.Threading.ReaderWriterLock.AnyWritersSince*
+  parent: System.Threading.ReaderWriterLock
+  isExternal: false
+  name: AnyWritersSince
+  nameWithType: ReaderWriterLock.AnyWritersSince
+- uid: System.Threading.ReaderWriterLock.DowngradeFromWriterLock*
+  parent: System.Threading.ReaderWriterLock
+  isExternal: false
+  name: DowngradeFromWriterLock
+  nameWithType: ReaderWriterLock.DowngradeFromWriterLock
+- uid: System.Threading.ReaderWriterLock.Finalize*
+  parent: System.Threading.ReaderWriterLock
+  isExternal: false
+  name: Finalize
+  nameWithType: ReaderWriterLock.Finalize
+- uid: System.Threading.ReaderWriterLock.IsReaderLockHeld*
+  parent: System.Threading.ReaderWriterLock
+  isExternal: false
+  name: IsReaderLockHeld
+  nameWithType: ReaderWriterLock.IsReaderLockHeld
+- uid: System.Threading.ReaderWriterLock.IsWriterLockHeld*
+  parent: System.Threading.ReaderWriterLock
+  isExternal: false
+  name: IsWriterLockHeld
+  nameWithType: ReaderWriterLock.IsWriterLockHeld
+- uid: System.Threading.ReaderWriterLock.ReleaseLock*
+  parent: System.Threading.ReaderWriterLock
+  isExternal: false
+  name: ReleaseLock
+  nameWithType: ReaderWriterLock.ReleaseLock
+- uid: System.Threading.ReaderWriterLock.ReleaseReaderLock*
+  parent: System.Threading.ReaderWriterLock
+  isExternal: false
+  name: ReleaseReaderLock
+  nameWithType: ReaderWriterLock.ReleaseReaderLock
+- uid: System.Threading.ReaderWriterLock.ReleaseWriterLock*
+  parent: System.Threading.ReaderWriterLock
+  isExternal: false
+  name: ReleaseWriterLock
+  nameWithType: ReaderWriterLock.ReleaseWriterLock
+- uid: System.Threading.ReaderWriterLock.RestoreLock*
+  parent: System.Threading.ReaderWriterLock
+  isExternal: false
+  name: RestoreLock
+  nameWithType: ReaderWriterLock.RestoreLock
 - uid: System.Threading.ReaderWriterLock.UpgradeToWriterLock*
   parent: System.Threading.ReaderWriterLock
   isExternal: false
   name: UpgradeToWriterLock
   nameWithType: ReaderWriterLock.UpgradeToWriterLock
+- uid: System.Threading.ReaderWriterLock.WriterSeqNum*
+  parent: System.Threading.ReaderWriterLock
+  isExternal: false
+  name: WriterSeqNum
+  nameWithType: ReaderWriterLock.WriterSeqNum

@@ -55,6 +55,7 @@ items:
     - id: msg
       type: System.Runtime.Remoting.Messaging.IMessage
       description: To be added.
+  overload: System.Runtime.Remoting.Messaging.InternalMessageWrapper.#ctor*
   platform:
   - net-11
   - net-20
@@ -110,3 +111,8 @@ references:
   name: IMessage
   nameWithType: IMessage
   fullName: System.Runtime.Remoting.Messaging.IMessage
+- uid: System.Runtime.Remoting.Messaging.InternalMessageWrapper.#ctor*
+  parent: System.Runtime.Remoting.Messaging.InternalMessageWrapper
+  isExternal: false
+  name: InternalMessageWrapper
+  nameWithType: InternalMessageWrapper.InternalMessageWrapper

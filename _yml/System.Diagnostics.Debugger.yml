@@ -56,6 +56,7 @@ items:
   syntax:
     content: public Debugger ();
     parameters: []
+  overload: System.Diagnostics.Debugger.#ctor*
   platform:
   - net-11
   - net-20
@@ -77,6 +78,7 @@ items:
   syntax:
     content: public static void Break ();
     parameters: []
+  overload: System.Diagnostics.Debugger.Break*
   platform:
   - net-11
   - net-20
@@ -123,6 +125,7 @@ items:
     return:
       type: System.Boolean
       description: To be added.
+  overload: System.Diagnostics.Debugger.IsAttached*
   platform:
   - net-11
   - net-20
@@ -147,6 +150,7 @@ items:
     return:
       type: System.Boolean
       description: To be added.
+  overload: System.Diagnostics.Debugger.IsLogging*
   platform:
   - net-11
   - net-20
@@ -171,6 +175,7 @@ items:
     return:
       type: System.Boolean
       description: To be added.
+  overload: System.Diagnostics.Debugger.Launch*
   platform:
   - net-11
   - net-20
@@ -201,6 +206,7 @@ items:
     - id: message
       type: System.String
       description: To be added.
+  overload: System.Diagnostics.Debugger.Log*
   platform:
   - net-11
   - net-20
@@ -222,6 +228,7 @@ items:
   syntax:
     content: public static void NotifyOfCrossThreadDependency ();
     parameters: []
+  overload: System.Diagnostics.Debugger.NotifyOfCrossThreadDependency*
   platform:
   - net-11
   - net-20
@@ -320,3 +327,38 @@ references:
   name: NotifyOfCrossThreadDependency()
   nameWithType: Debugger.NotifyOfCrossThreadDependency()
   fullName: System.Diagnostics.Debugger.NotifyOfCrossThreadDependency()
+- uid: System.Diagnostics.Debugger.#ctor*
+  parent: System.Diagnostics.Debugger
+  isExternal: false
+  name: Debugger
+  nameWithType: Debugger.Debugger
+- uid: System.Diagnostics.Debugger.Break*
+  parent: System.Diagnostics.Debugger
+  isExternal: false
+  name: Break
+  nameWithType: Debugger.Break
+- uid: System.Diagnostics.Debugger.IsAttached*
+  parent: System.Diagnostics.Debugger
+  isExternal: false
+  name: IsAttached
+  nameWithType: Debugger.IsAttached
+- uid: System.Diagnostics.Debugger.IsLogging*
+  parent: System.Diagnostics.Debugger
+  isExternal: false
+  name: IsLogging
+  nameWithType: Debugger.IsLogging
+- uid: System.Diagnostics.Debugger.Launch*
+  parent: System.Diagnostics.Debugger
+  isExternal: false
+  name: Launch
+  nameWithType: Debugger.Launch
+- uid: System.Diagnostics.Debugger.Log*
+  parent: System.Diagnostics.Debugger
+  isExternal: false
+  name: Log
+  nameWithType: Debugger.Log
+- uid: System.Diagnostics.Debugger.NotifyOfCrossThreadDependency*
+  parent: System.Diagnostics.Debugger
+  isExternal: false
+  name: NotifyOfCrossThreadDependency
+  nameWithType: Debugger.NotifyOfCrossThreadDependency

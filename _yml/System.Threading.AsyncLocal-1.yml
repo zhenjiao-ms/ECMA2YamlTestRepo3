@@ -51,6 +51,7 @@ items:
   syntax:
     content: public AsyncLocal ();
     parameters: []
+  overload: System.Threading.AsyncLocal`1.#ctor*
   platform:
   - net-11
   - net-20
@@ -75,6 +76,7 @@ items:
     - id: valueChangedHandler
       type: System.Action{System.Threading.AsyncLocalValueChangedArgs{T}}
       description: To be added.
+  overload: System.Threading.AsyncLocal`1.#ctor*
   platform:
   - net-11
   - net-20
@@ -98,6 +100,7 @@ items:
     return:
       type: T
       description: To be added.
+  overload: System.Threading.AsyncLocal`1.Value*
   platform:
   - net-11
   - net-20
@@ -136,3 +139,13 @@ references:
   name: T
   nameWithType: T
   fullName: T
+- uid: System.Threading.AsyncLocal`1.#ctor*
+  parent: System.Threading.AsyncLocal`1
+  isExternal: false
+  name: AsyncLocal<T>
+  nameWithType: AsyncLocal<T>.AsyncLocal<T>
+- uid: System.Threading.AsyncLocal`1.Value*
+  parent: System.Threading.AsyncLocal`1
+  isExternal: false
+  name: Value
+  nameWithType: AsyncLocal<T>.Value

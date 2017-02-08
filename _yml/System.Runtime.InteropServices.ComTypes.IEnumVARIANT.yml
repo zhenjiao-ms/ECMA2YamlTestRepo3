@@ -47,6 +47,7 @@ items:
     return:
       type: System.Runtime.InteropServices.ComTypes.IEnumVARIANT
       description: To be added.
+  overload: System.Runtime.InteropServices.ComTypes.IEnumVARIANT.Clone*
   platform:
   - net-11
   - net-20
@@ -80,6 +81,7 @@ items:
     return:
       type: System.Int32
       description: To be added.
+  overload: System.Runtime.InteropServices.ComTypes.IEnumVARIANT.Next*
   platform:
   - net-11
   - net-20
@@ -104,6 +106,7 @@ items:
     return:
       type: System.Int32
       description: To be added.
+  overload: System.Runtime.InteropServices.ComTypes.IEnumVARIANT.Reset*
   platform:
   - net-11
   - net-20
@@ -131,6 +134,7 @@ items:
     return:
       type: System.Int32
       description: To be added.
+  overload: System.Runtime.InteropServices.ComTypes.IEnumVARIANT.Skip*
   platform:
   - net-11
   - net-20
@@ -208,3 +212,23 @@ references:
   name: Int32
   nameWithType: Int32
   fullName: System.Int32
+- uid: System.Runtime.InteropServices.ComTypes.IEnumVARIANT.Clone*
+  parent: System.Runtime.InteropServices.ComTypes.IEnumVARIANT
+  isExternal: false
+  name: Clone
+  nameWithType: IEnumVARIANT.Clone
+- uid: System.Runtime.InteropServices.ComTypes.IEnumVARIANT.Next*
+  parent: System.Runtime.InteropServices.ComTypes.IEnumVARIANT
+  isExternal: false
+  name: Next
+  nameWithType: IEnumVARIANT.Next
+- uid: System.Runtime.InteropServices.ComTypes.IEnumVARIANT.Reset*
+  parent: System.Runtime.InteropServices.ComTypes.IEnumVARIANT
+  isExternal: false
+  name: Reset
+  nameWithType: IEnumVARIANT.Reset
+- uid: System.Runtime.InteropServices.ComTypes.IEnumVARIANT.Skip*
+  parent: System.Runtime.InteropServices.ComTypes.IEnumVARIANT
+  isExternal: false
+  name: Skip
+  nameWithType: IEnumVARIANT.Skip

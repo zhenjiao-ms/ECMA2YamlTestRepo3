@@ -42,6 +42,7 @@ items:
     return:
       type: System.Object
       description: To be added.
+  overload: System.Runtime.InteropServices.ICustomAdapter.GetUnderlyingObject*
   platform:
   - net-11
   - net-20
@@ -59,3 +60,8 @@ references:
   name: Object
   nameWithType: Object
   fullName: System.Object
+- uid: System.Runtime.InteropServices.ICustomAdapter.GetUnderlyingObject*
+  parent: System.Runtime.InteropServices.ICustomAdapter
+  isExternal: false
+  name: GetUnderlyingObject
+  nameWithType: ICustomAdapter.GetUnderlyingObject

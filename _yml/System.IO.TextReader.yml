@@ -70,6 +70,7 @@ items:
   syntax:
     content: protected TextReader ();
     parameters: []
+  overload: System.IO.TextReader.#ctor*
   platform:
   - net-11
   - net-20
@@ -91,6 +92,7 @@ items:
   syntax:
     content: public virtual void Close ();
     parameters: []
+  overload: System.IO.TextReader.Close*
   platform:
   - net-11
   - net-20
@@ -185,6 +187,7 @@ items:
     return:
       type: System.Int32
       description: To be added.
+  overload: System.IO.TextReader.Peek*
   platform:
   - net-11
   - net-20
@@ -277,6 +280,7 @@ items:
     return:
       type: System.Threading.Tasks.Task{System.Int32}
       description: To be added.
+  overload: System.IO.TextReader.ReadAsync*
   platform:
   - net-11
   - net-20
@@ -310,6 +314,7 @@ items:
     return:
       type: System.Int32
       description: To be added.
+  overload: System.IO.TextReader.ReadBlock*
   platform:
   - net-11
   - net-20
@@ -343,6 +348,7 @@ items:
     return:
       type: System.Threading.Tasks.Task{System.Int32}
       description: To be added.
+  overload: System.IO.TextReader.ReadBlockAsync*
   platform:
   - net-11
   - net-20
@@ -367,6 +373,7 @@ items:
     return:
       type: System.String
       description: To be added.
+  overload: System.IO.TextReader.ReadLine*
   platform:
   - net-11
   - net-20
@@ -391,6 +398,7 @@ items:
     return:
       type: System.Threading.Tasks.Task{System.String}
       description: To be added.
+  overload: System.IO.TextReader.ReadLineAsync*
   platform:
   - net-11
   - net-20
@@ -415,6 +423,7 @@ items:
     return:
       type: System.String
       description: To be added.
+  overload: System.IO.TextReader.ReadToEnd*
   platform:
   - net-11
   - net-20
@@ -439,6 +448,7 @@ items:
     return:
       type: System.Threading.Tasks.Task{System.String}
       description: To be added.
+  overload: System.IO.TextReader.ReadToEndAsync*
   platform:
   - net-11
   - net-20
@@ -466,6 +476,7 @@ items:
     return:
       type: System.IO.TextReader
       description: To be added.
+  overload: System.IO.TextReader.Synchronized*
   platform:
   - net-11
   - net-20
@@ -726,13 +737,68 @@ references:
   name: TextReader
   nameWithType: TextReader
   fullName: System.IO.TextReader
+- uid: System.IO.TextReader.#ctor*
+  parent: System.IO.TextReader
+  isExternal: false
+  name: TextReader
+  nameWithType: TextReader.TextReader
+- uid: System.IO.TextReader.Close*
+  parent: System.IO.TextReader
+  isExternal: false
+  name: Close
+  nameWithType: TextReader.Close
 - uid: System.IO.TextReader.Dispose*
   parent: System.IO.TextReader
   isExternal: false
   name: Dispose
   nameWithType: TextReader.Dispose
+- uid: System.IO.TextReader.Peek*
+  parent: System.IO.TextReader
+  isExternal: false
+  name: Peek
+  nameWithType: TextReader.Peek
 - uid: System.IO.TextReader.Read*
   parent: System.IO.TextReader
   isExternal: false
   name: Read
   nameWithType: TextReader.Read
+- uid: System.IO.TextReader.ReadAsync*
+  parent: System.IO.TextReader
+  isExternal: false
+  name: ReadAsync
+  nameWithType: TextReader.ReadAsync
+- uid: System.IO.TextReader.ReadBlock*
+  parent: System.IO.TextReader
+  isExternal: false
+  name: ReadBlock
+  nameWithType: TextReader.ReadBlock
+- uid: System.IO.TextReader.ReadBlockAsync*
+  parent: System.IO.TextReader
+  isExternal: false
+  name: ReadBlockAsync
+  nameWithType: TextReader.ReadBlockAsync
+- uid: System.IO.TextReader.ReadLine*
+  parent: System.IO.TextReader
+  isExternal: false
+  name: ReadLine
+  nameWithType: TextReader.ReadLine
+- uid: System.IO.TextReader.ReadLineAsync*
+  parent: System.IO.TextReader
+  isExternal: false
+  name: ReadLineAsync
+  nameWithType: TextReader.ReadLineAsync
+- uid: System.IO.TextReader.ReadToEnd*
+  parent: System.IO.TextReader
+  isExternal: false
+  name: ReadToEnd
+  nameWithType: TextReader.ReadToEnd
+- uid: System.IO.TextReader.ReadToEndAsync*
+  parent: System.IO.TextReader
+  isExternal: false
+  name: ReadToEndAsync
+  nameWithType: TextReader.ReadToEndAsync
+- uid: System.IO.TextReader.Synchronized*
+  parent: System.IO.TextReader
+  isExternal: false
+  name: Synchronized
+  nameWithType: TextReader.Synchronized

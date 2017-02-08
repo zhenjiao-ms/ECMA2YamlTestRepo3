@@ -141,6 +141,7 @@ items:
   syntax:
     content: protected MethodInfo ();
     parameters: []
+  overload: System.Reflection.MethodInfo.#ctor*
   platform:
   - net-11
   - net-20
@@ -227,6 +228,7 @@ items:
     return:
       type: System.Boolean
       description: To be added.
+  overload: System.Reflection.MethodInfo.Equals*
   platform:
   - net-11
   - net-20
@@ -251,6 +253,7 @@ items:
     return:
       type: System.Reflection.MethodInfo
       description: To be added.
+  overload: System.Reflection.MethodInfo.GetBaseDefinition*
   platform:
   - net-11
   - net-20
@@ -275,6 +278,7 @@ items:
     return:
       type: System.Type[]
       description: To be added.
+  overload: System.Reflection.MethodInfo.GetGenericArguments*
   platform:
   - net-11
   - net-20
@@ -299,6 +303,7 @@ items:
     return:
       type: System.Reflection.MethodInfo
       description: To be added.
+  overload: System.Reflection.MethodInfo.GetGenericMethodDefinition*
   platform:
   - net-11
   - net-20
@@ -323,6 +328,7 @@ items:
     return:
       type: System.Int32
       description: To be added.
+  overload: System.Reflection.MethodInfo.GetHashCode*
   platform:
   - net-11
   - net-20
@@ -350,6 +356,7 @@ items:
     return:
       type: System.Reflection.MethodInfo
       description: To be added.
+  overload: System.Reflection.MethodInfo.MakeGenericMethod*
   platform:
   - net-11
   - net-20
@@ -373,6 +380,7 @@ items:
     return:
       type: System.Reflection.MemberTypes
       description: To be added.
+  overload: System.Reflection.MethodInfo.MemberType*
   platform:
   - net-11
   - net-20
@@ -403,6 +411,7 @@ items:
     return:
       type: System.Boolean
       description: To be added.
+  overload: System.Reflection.MethodInfo.op_Equality*
   platform:
   - net-11
   - net-20
@@ -433,6 +442,7 @@ items:
     return:
       type: System.Boolean
       description: To be added.
+  overload: System.Reflection.MethodInfo.op_Inequality*
   platform:
   - net-11
   - net-20
@@ -456,6 +466,7 @@ items:
     return:
       type: System.Reflection.ParameterInfo
       description: To be added.
+  overload: System.Reflection.MethodInfo.ReturnParameter*
   platform:
   - net-11
   - net-20
@@ -479,6 +490,7 @@ items:
     return:
       type: System.Type
       description: To be added.
+  overload: System.Reflection.MethodInfo.ReturnType*
   platform:
   - net-11
   - net-20
@@ -502,6 +514,7 @@ items:
     return:
       type: System.Reflection.ICustomAttributeProvider
       description: To be added.
+  overload: System.Reflection.MethodInfo.ReturnTypeCustomAttributes*
   platform:
   - net-11
   - net-20
@@ -539,6 +552,7 @@ items:
     - id: rgDispId
       type: System.IntPtr
       description: To be added.
+  overload: System.Reflection.MethodInfo.System#Runtime#InteropServices#_MethodInfo#GetIDsOfNames*
   platform:
   - net-11
   - net-20
@@ -564,6 +578,7 @@ items:
     return:
       type: System.Type
       description: To be added.
+  overload: System.Reflection.MethodInfo.System#Runtime#InteropServices#_MethodInfo#GetType*
   platform:
   - net-11
   - net-20
@@ -595,6 +610,7 @@ items:
     - id: ppTInfo
       type: System.IntPtr
       description: To be added.
+  overload: System.Reflection.MethodInfo.System#Runtime#InteropServices#_MethodInfo#GetTypeInfo*
   platform:
   - net-11
   - net-20
@@ -620,6 +636,7 @@ items:
     - id: pcTInfo
       type: System.UInt32
       description: To be added.
+  overload: System.Reflection.MethodInfo.System#Runtime#InteropServices#_MethodInfo#GetTypeInfoCount*
   platform:
   - net-11
   - net-20
@@ -666,6 +683,7 @@ items:
     - id: puArgErr
       type: System.IntPtr
       description: To be added.
+  overload: System.Reflection.MethodInfo.System#Runtime#InteropServices#_MethodInfo#Invoke*
   platform:
   - net-11
   - net-20
@@ -1040,8 +1058,98 @@ references:
   name: IntPtr
   nameWithType: IntPtr
   fullName: System.IntPtr
+- uid: System.Reflection.MethodInfo.#ctor*
+  parent: System.Reflection.MethodInfo
+  isExternal: false
+  name: MethodInfo
+  nameWithType: MethodInfo.MethodInfo
 - uid: System.Reflection.MethodInfo.CreateDelegate*
   parent: System.Reflection.MethodInfo
   isExternal: false
   name: CreateDelegate
   nameWithType: MethodInfo.CreateDelegate
+- uid: System.Reflection.MethodInfo.Equals*
+  parent: System.Reflection.MethodInfo
+  isExternal: false
+  name: Equals
+  nameWithType: MethodInfo.Equals
+- uid: System.Reflection.MethodInfo.GetBaseDefinition*
+  parent: System.Reflection.MethodInfo
+  isExternal: false
+  name: GetBaseDefinition
+  nameWithType: MethodInfo.GetBaseDefinition
+- uid: System.Reflection.MethodInfo.GetGenericArguments*
+  parent: System.Reflection.MethodInfo
+  isExternal: false
+  name: GetGenericArguments
+  nameWithType: MethodInfo.GetGenericArguments
+- uid: System.Reflection.MethodInfo.GetGenericMethodDefinition*
+  parent: System.Reflection.MethodInfo
+  isExternal: false
+  name: GetGenericMethodDefinition
+  nameWithType: MethodInfo.GetGenericMethodDefinition
+- uid: System.Reflection.MethodInfo.GetHashCode*
+  parent: System.Reflection.MethodInfo
+  isExternal: false
+  name: GetHashCode
+  nameWithType: MethodInfo.GetHashCode
+- uid: System.Reflection.MethodInfo.MakeGenericMethod*
+  parent: System.Reflection.MethodInfo
+  isExternal: false
+  name: MakeGenericMethod
+  nameWithType: MethodInfo.MakeGenericMethod
+- uid: System.Reflection.MethodInfo.MemberType*
+  parent: System.Reflection.MethodInfo
+  isExternal: false
+  name: MemberType
+  nameWithType: MethodInfo.MemberType
+- uid: System.Reflection.MethodInfo.op_Equality*
+  parent: System.Reflection.MethodInfo
+  isExternal: false
+  name: op_Equality
+  nameWithType: MethodInfo.op_Equality
+- uid: System.Reflection.MethodInfo.op_Inequality*
+  parent: System.Reflection.MethodInfo
+  isExternal: false
+  name: op_Inequality
+  nameWithType: MethodInfo.op_Inequality
+- uid: System.Reflection.MethodInfo.ReturnParameter*
+  parent: System.Reflection.MethodInfo
+  isExternal: false
+  name: ReturnParameter
+  nameWithType: MethodInfo.ReturnParameter
+- uid: System.Reflection.MethodInfo.ReturnType*
+  parent: System.Reflection.MethodInfo
+  isExternal: false
+  name: ReturnType
+  nameWithType: MethodInfo.ReturnType
+- uid: System.Reflection.MethodInfo.ReturnTypeCustomAttributes*
+  parent: System.Reflection.MethodInfo
+  isExternal: false
+  name: ReturnTypeCustomAttributes
+  nameWithType: MethodInfo.ReturnTypeCustomAttributes
+- uid: System.Reflection.MethodInfo.System#Runtime#InteropServices#_MethodInfo#GetIDsOfNames*
+  parent: System.Reflection.MethodInfo
+  isExternal: false
+  name: System.Runtime.InteropServices._MethodInfo.GetIDsOfNames
+  nameWithType: MethodInfo.System.Runtime.InteropServices._MethodInfo.GetIDsOfNames
+- uid: System.Reflection.MethodInfo.System#Runtime#InteropServices#_MethodInfo#GetType*
+  parent: System.Reflection.MethodInfo
+  isExternal: false
+  name: System.Runtime.InteropServices._MethodInfo.GetType
+  nameWithType: MethodInfo.System.Runtime.InteropServices._MethodInfo.GetType
+- uid: System.Reflection.MethodInfo.System#Runtime#InteropServices#_MethodInfo#GetTypeInfo*
+  parent: System.Reflection.MethodInfo
+  isExternal: false
+  name: System.Runtime.InteropServices._MethodInfo.GetTypeInfo
+  nameWithType: MethodInfo.System.Runtime.InteropServices._MethodInfo.GetTypeInfo
+- uid: System.Reflection.MethodInfo.System#Runtime#InteropServices#_MethodInfo#GetTypeInfoCount*
+  parent: System.Reflection.MethodInfo
+  isExternal: false
+  name: System.Runtime.InteropServices._MethodInfo.GetTypeInfoCount
+  nameWithType: MethodInfo.System.Runtime.InteropServices._MethodInfo.GetTypeInfoCount
+- uid: System.Reflection.MethodInfo.System#Runtime#InteropServices#_MethodInfo#Invoke*
+  parent: System.Reflection.MethodInfo
+  isExternal: false
+  name: System.Runtime.InteropServices._MethodInfo.Invoke
+  nameWithType: MethodInfo.System.Runtime.InteropServices._MethodInfo.Invoke

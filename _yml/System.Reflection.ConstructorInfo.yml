@@ -141,6 +141,7 @@ items:
   syntax:
     content: protected ConstructorInfo ();
     parameters: []
+  overload: System.Reflection.ConstructorInfo.#ctor*
   platform:
   - net-11
   - net-20
@@ -191,6 +192,7 @@ items:
     return:
       type: System.Boolean
       description: To be added.
+  overload: System.Reflection.ConstructorInfo.Equals*
   platform:
   - net-11
   - net-20
@@ -215,6 +217,7 @@ items:
     return:
       type: System.Int32
       description: To be added.
+  overload: System.Reflection.ConstructorInfo.GetHashCode*
   platform:
   - net-11
   - net-20
@@ -303,6 +306,7 @@ items:
     return:
       type: System.Reflection.MemberTypes
       description: To be added.
+  overload: System.Reflection.ConstructorInfo.MemberType*
   platform:
   - net-11
   - net-20
@@ -333,6 +337,7 @@ items:
     return:
       type: System.Boolean
       description: To be added.
+  overload: System.Reflection.ConstructorInfo.op_Equality*
   platform:
   - net-11
   - net-20
@@ -363,6 +368,7 @@ items:
     return:
       type: System.Boolean
       description: To be added.
+  overload: System.Reflection.ConstructorInfo.op_Inequality*
   platform:
   - net-11
   - net-20
@@ -400,6 +406,7 @@ items:
     - id: rgDispId
       type: System.IntPtr
       description: To be added.
+  overload: System.Reflection.ConstructorInfo.System#Runtime#InteropServices#_ConstructorInfo#GetIDsOfNames*
   platform:
   - net-11
   - net-20
@@ -425,6 +432,7 @@ items:
     return:
       type: System.Type
       description: To be added.
+  overload: System.Reflection.ConstructorInfo.System#Runtime#InteropServices#_ConstructorInfo#GetType*
   platform:
   - net-11
   - net-20
@@ -456,6 +464,7 @@ items:
     - id: ppTInfo
       type: System.IntPtr
       description: To be added.
+  overload: System.Reflection.ConstructorInfo.System#Runtime#InteropServices#_ConstructorInfo#GetTypeInfo*
   platform:
   - net-11
   - net-20
@@ -481,6 +490,7 @@ items:
     - id: pcTInfo
       type: System.UInt32
       description: To be added.
+  overload: System.Reflection.ConstructorInfo.System#Runtime#InteropServices#_ConstructorInfo#GetTypeInfoCount*
   platform:
   - net-11
   - net-20
@@ -527,6 +537,7 @@ items:
     - id: puArgErr
       type: System.IntPtr
       description: To be added.
+  overload: System.Reflection.ConstructorInfo.System#Runtime#InteropServices#_ConstructorInfo#Invoke*
   platform:
   - net-11
   - net-20
@@ -567,6 +578,7 @@ items:
     return:
       type: System.Object
       description: To be added.
+  overload: System.Reflection.ConstructorInfo.System#Runtime#InteropServices#_ConstructorInfo#Invoke_2*
   platform:
   - net-11
   - net-20
@@ -598,6 +610,7 @@ items:
     return:
       type: System.Object
       description: To be added.
+  overload: System.Reflection.ConstructorInfo.System#Runtime#InteropServices#_ConstructorInfo#Invoke_3*
   platform:
   - net-11
   - net-20
@@ -635,6 +648,7 @@ items:
     return:
       type: System.Object
       description: To be added.
+  overload: System.Reflection.ConstructorInfo.System#Runtime#InteropServices#_ConstructorInfo#Invoke_4*
   platform:
   - net-11
   - net-20
@@ -663,6 +677,7 @@ items:
     return:
       type: System.Object
       description: To be added.
+  overload: System.Reflection.ConstructorInfo.System#Runtime#InteropServices#_ConstructorInfo#Invoke_5*
   platform:
   - net-11
   - net-20
@@ -1126,8 +1141,83 @@ references:
   name: String
   nameWithType: String
   fullName: System.String
+- uid: System.Reflection.ConstructorInfo.#ctor*
+  parent: System.Reflection.ConstructorInfo
+  isExternal: false
+  name: ConstructorInfo
+  nameWithType: ConstructorInfo.ConstructorInfo
+- uid: System.Reflection.ConstructorInfo.Equals*
+  parent: System.Reflection.ConstructorInfo
+  isExternal: false
+  name: Equals
+  nameWithType: ConstructorInfo.Equals
+- uid: System.Reflection.ConstructorInfo.GetHashCode*
+  parent: System.Reflection.ConstructorInfo
+  isExternal: false
+  name: GetHashCode
+  nameWithType: ConstructorInfo.GetHashCode
 - uid: System.Reflection.ConstructorInfo.Invoke*
   parent: System.Reflection.ConstructorInfo
   isExternal: false
   name: Invoke
   nameWithType: ConstructorInfo.Invoke
+- uid: System.Reflection.ConstructorInfo.MemberType*
+  parent: System.Reflection.ConstructorInfo
+  isExternal: false
+  name: MemberType
+  nameWithType: ConstructorInfo.MemberType
+- uid: System.Reflection.ConstructorInfo.op_Equality*
+  parent: System.Reflection.ConstructorInfo
+  isExternal: false
+  name: op_Equality
+  nameWithType: ConstructorInfo.op_Equality
+- uid: System.Reflection.ConstructorInfo.op_Inequality*
+  parent: System.Reflection.ConstructorInfo
+  isExternal: false
+  name: op_Inequality
+  nameWithType: ConstructorInfo.op_Inequality
+- uid: System.Reflection.ConstructorInfo.System#Runtime#InteropServices#_ConstructorInfo#GetIDsOfNames*
+  parent: System.Reflection.ConstructorInfo
+  isExternal: false
+  name: System.Runtime.InteropServices._ConstructorInfo.GetIDsOfNames
+  nameWithType: ConstructorInfo.System.Runtime.InteropServices._ConstructorInfo.GetIDsOfNames
+- uid: System.Reflection.ConstructorInfo.System#Runtime#InteropServices#_ConstructorInfo#GetType*
+  parent: System.Reflection.ConstructorInfo
+  isExternal: false
+  name: System.Runtime.InteropServices._ConstructorInfo.GetType
+  nameWithType: ConstructorInfo.System.Runtime.InteropServices._ConstructorInfo.GetType
+- uid: System.Reflection.ConstructorInfo.System#Runtime#InteropServices#_ConstructorInfo#GetTypeInfo*
+  parent: System.Reflection.ConstructorInfo
+  isExternal: false
+  name: System.Runtime.InteropServices._ConstructorInfo.GetTypeInfo
+  nameWithType: ConstructorInfo.System.Runtime.InteropServices._ConstructorInfo.GetTypeInfo
+- uid: System.Reflection.ConstructorInfo.System#Runtime#InteropServices#_ConstructorInfo#GetTypeInfoCount*
+  parent: System.Reflection.ConstructorInfo
+  isExternal: false
+  name: System.Runtime.InteropServices._ConstructorInfo.GetTypeInfoCount
+  nameWithType: ConstructorInfo.System.Runtime.InteropServices._ConstructorInfo.GetTypeInfoCount
+- uid: System.Reflection.ConstructorInfo.System#Runtime#InteropServices#_ConstructorInfo#Invoke*
+  parent: System.Reflection.ConstructorInfo
+  isExternal: false
+  name: System.Runtime.InteropServices._ConstructorInfo.Invoke
+  nameWithType: ConstructorInfo.System.Runtime.InteropServices._ConstructorInfo.Invoke
+- uid: System.Reflection.ConstructorInfo.System#Runtime#InteropServices#_ConstructorInfo#Invoke_2*
+  parent: System.Reflection.ConstructorInfo
+  isExternal: false
+  name: System.Runtime.InteropServices._ConstructorInfo.Invoke_2
+  nameWithType: ConstructorInfo.System.Runtime.InteropServices._ConstructorInfo.Invoke_2
+- uid: System.Reflection.ConstructorInfo.System#Runtime#InteropServices#_ConstructorInfo#Invoke_3*
+  parent: System.Reflection.ConstructorInfo
+  isExternal: false
+  name: System.Runtime.InteropServices._ConstructorInfo.Invoke_3
+  nameWithType: ConstructorInfo.System.Runtime.InteropServices._ConstructorInfo.Invoke_3
+- uid: System.Reflection.ConstructorInfo.System#Runtime#InteropServices#_ConstructorInfo#Invoke_4*
+  parent: System.Reflection.ConstructorInfo
+  isExternal: false
+  name: System.Runtime.InteropServices._ConstructorInfo.Invoke_4
+  nameWithType: ConstructorInfo.System.Runtime.InteropServices._ConstructorInfo.Invoke_4
+- uid: System.Reflection.ConstructorInfo.System#Runtime#InteropServices#_ConstructorInfo#Invoke_5*
+  parent: System.Reflection.ConstructorInfo
+  isExternal: false
+  name: System.Runtime.InteropServices._ConstructorInfo.Invoke_5
+  nameWithType: ConstructorInfo.System.Runtime.InteropServices._ConstructorInfo.Invoke_5

@@ -67,6 +67,7 @@ items:
   syntax:
     content: public CryptographicUnexpectedOperationException ();
     parameters: []
+  overload: System.Security.Cryptography.CryptographicUnexpectedOperationException.#ctor*
   platform:
   - net-11
   - net-20
@@ -91,6 +92,7 @@ items:
     - id: message
       type: System.String
       description: To be added.
+  overload: System.Security.Cryptography.CryptographicUnexpectedOperationException.#ctor*
   platform:
   - net-11
   - net-20
@@ -118,6 +120,7 @@ items:
     - id: context
       type: System.Runtime.Serialization.StreamingContext
       description: To be added.
+  overload: System.Security.Cryptography.CryptographicUnexpectedOperationException.#ctor*
   platform:
   - net-11
   - net-20
@@ -145,6 +148,7 @@ items:
     - id: inner
       type: System.Exception
       description: To be added.
+  overload: System.Security.Cryptography.CryptographicUnexpectedOperationException.#ctor*
   platform:
   - net-11
   - net-20
@@ -172,6 +176,7 @@ items:
     - id: insert
       type: System.String
       description: To be added.
+  overload: System.Security.Cryptography.CryptographicUnexpectedOperationException.#ctor*
   platform:
   - net-11
   - net-20
@@ -252,3 +257,8 @@ references:
   name: String
   nameWithType: String
   fullName: System.String
+- uid: System.Security.Cryptography.CryptographicUnexpectedOperationException.#ctor*
+  parent: System.Security.Cryptography.CryptographicUnexpectedOperationException
+  isExternal: false
+  name: CryptographicUnexpectedOperationException
+  nameWithType: CryptographicUnexpectedOperationException.CryptographicUnexpectedOperationException

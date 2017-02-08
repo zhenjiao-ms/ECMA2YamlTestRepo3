@@ -97,6 +97,7 @@ items:
   syntax:
     content: protected EventInfo ();
     parameters: []
+  overload: System.Reflection.EventInfo.#ctor*
   platform:
   - net-11
   - net-20
@@ -124,6 +125,7 @@ items:
     - id: handler
       type: System.Delegate
       description: To be added.
+  overload: System.Reflection.EventInfo.AddEventHandler*
   platform:
   - net-11
   - net-20
@@ -147,6 +149,7 @@ items:
     return:
       type: System.Reflection.MethodInfo
       description: To be added.
+  overload: System.Reflection.EventInfo.AddMethod*
   platform:
   - net-11
   - net-20
@@ -170,6 +173,7 @@ items:
     return:
       type: System.Reflection.EventAttributes
       description: To be added.
+  overload: System.Reflection.EventInfo.Attributes*
   platform:
   - net-11
   - net-20
@@ -197,6 +201,7 @@ items:
     return:
       type: System.Boolean
       description: To be added.
+  overload: System.Reflection.EventInfo.Equals*
   platform:
   - net-11
   - net-20
@@ -220,6 +225,7 @@ items:
     return:
       type: System.Type
       description: To be added.
+  overload: System.Reflection.EventInfo.EventHandlerType*
   platform:
   - net-11
   - net-20
@@ -297,6 +303,7 @@ items:
     return:
       type: System.Int32
       description: To be added.
+  overload: System.Reflection.EventInfo.GetHashCode*
   platform:
   - net-11
   - net-20
@@ -479,6 +486,7 @@ items:
     return:
       type: System.Boolean
       description: To be added.
+  overload: System.Reflection.EventInfo.IsMulticast*
   platform:
   - net-11
   - net-20
@@ -502,6 +510,7 @@ items:
     return:
       type: System.Boolean
       description: To be added.
+  overload: System.Reflection.EventInfo.IsSpecialName*
   platform:
   - net-11
   - net-20
@@ -525,6 +534,7 @@ items:
     return:
       type: System.Reflection.MemberTypes
       description: To be added.
+  overload: System.Reflection.EventInfo.MemberType*
   platform:
   - net-11
   - net-20
@@ -555,6 +565,7 @@ items:
     return:
       type: System.Boolean
       description: To be added.
+  overload: System.Reflection.EventInfo.op_Equality*
   platform:
   - net-11
   - net-20
@@ -585,6 +596,7 @@ items:
     return:
       type: System.Boolean
       description: To be added.
+  overload: System.Reflection.EventInfo.op_Inequality*
   platform:
   - net-11
   - net-20
@@ -608,6 +620,7 @@ items:
     return:
       type: System.Reflection.MethodInfo
       description: To be added.
+  overload: System.Reflection.EventInfo.RaiseMethod*
   platform:
   - net-11
   - net-20
@@ -635,6 +648,7 @@ items:
     - id: handler
       type: System.Delegate
       description: To be added.
+  overload: System.Reflection.EventInfo.RemoveEventHandler*
   platform:
   - net-11
   - net-20
@@ -658,6 +672,7 @@ items:
     return:
       type: System.Reflection.MethodInfo
       description: To be added.
+  overload: System.Reflection.EventInfo.RemoveMethod*
   platform:
   - net-11
   - net-20
@@ -695,6 +710,7 @@ items:
     - id: rgDispId
       type: System.IntPtr
       description: To be added.
+  overload: System.Reflection.EventInfo.System#Runtime#InteropServices#_EventInfo#GetIDsOfNames*
   platform:
   - net-11
   - net-20
@@ -720,6 +736,7 @@ items:
     return:
       type: System.Type
       description: To be added.
+  overload: System.Reflection.EventInfo.System#Runtime#InteropServices#_EventInfo#GetType*
   platform:
   - net-11
   - net-20
@@ -751,6 +768,7 @@ items:
     - id: ppTInfo
       type: System.IntPtr
       description: To be added.
+  overload: System.Reflection.EventInfo.System#Runtime#InteropServices#_EventInfo#GetTypeInfo*
   platform:
   - net-11
   - net-20
@@ -776,6 +794,7 @@ items:
     - id: pcTInfo
       type: System.UInt32
       description: To be added.
+  overload: System.Reflection.EventInfo.System#Runtime#InteropServices#_EventInfo#GetTypeInfoCount*
   platform:
   - net-11
   - net-20
@@ -822,6 +841,7 @@ items:
     - id: puArgErr
       type: System.IntPtr
       description: To be added.
+  overload: System.Reflection.EventInfo.System#Runtime#InteropServices#_EventInfo#Invoke*
   platform:
   - net-11
   - net-20
@@ -1304,11 +1324,46 @@ references:
   name: IntPtr
   nameWithType: IntPtr
   fullName: System.IntPtr
+- uid: System.Reflection.EventInfo.#ctor*
+  parent: System.Reflection.EventInfo
+  isExternal: false
+  name: EventInfo
+  nameWithType: EventInfo.EventInfo
+- uid: System.Reflection.EventInfo.AddEventHandler*
+  parent: System.Reflection.EventInfo
+  isExternal: false
+  name: AddEventHandler
+  nameWithType: EventInfo.AddEventHandler
+- uid: System.Reflection.EventInfo.AddMethod*
+  parent: System.Reflection.EventInfo
+  isExternal: false
+  name: AddMethod
+  nameWithType: EventInfo.AddMethod
+- uid: System.Reflection.EventInfo.Attributes*
+  parent: System.Reflection.EventInfo
+  isExternal: false
+  name: Attributes
+  nameWithType: EventInfo.Attributes
+- uid: System.Reflection.EventInfo.Equals*
+  parent: System.Reflection.EventInfo
+  isExternal: false
+  name: Equals
+  nameWithType: EventInfo.Equals
+- uid: System.Reflection.EventInfo.EventHandlerType*
+  parent: System.Reflection.EventInfo
+  isExternal: false
+  name: EventHandlerType
+  nameWithType: EventInfo.EventHandlerType
 - uid: System.Reflection.EventInfo.GetAddMethod*
   parent: System.Reflection.EventInfo
   isExternal: false
   name: GetAddMethod
   nameWithType: EventInfo.GetAddMethod
+- uid: System.Reflection.EventInfo.GetHashCode*
+  parent: System.Reflection.EventInfo
+  isExternal: false
+  name: GetHashCode
+  nameWithType: EventInfo.GetHashCode
 - uid: System.Reflection.EventInfo.GetOtherMethods*
   parent: System.Reflection.EventInfo
   isExternal: false
@@ -1324,3 +1379,68 @@ references:
   isExternal: false
   name: GetRemoveMethod
   nameWithType: EventInfo.GetRemoveMethod
+- uid: System.Reflection.EventInfo.IsMulticast*
+  parent: System.Reflection.EventInfo
+  isExternal: false
+  name: IsMulticast
+  nameWithType: EventInfo.IsMulticast
+- uid: System.Reflection.EventInfo.IsSpecialName*
+  parent: System.Reflection.EventInfo
+  isExternal: false
+  name: IsSpecialName
+  nameWithType: EventInfo.IsSpecialName
+- uid: System.Reflection.EventInfo.MemberType*
+  parent: System.Reflection.EventInfo
+  isExternal: false
+  name: MemberType
+  nameWithType: EventInfo.MemberType
+- uid: System.Reflection.EventInfo.op_Equality*
+  parent: System.Reflection.EventInfo
+  isExternal: false
+  name: op_Equality
+  nameWithType: EventInfo.op_Equality
+- uid: System.Reflection.EventInfo.op_Inequality*
+  parent: System.Reflection.EventInfo
+  isExternal: false
+  name: op_Inequality
+  nameWithType: EventInfo.op_Inequality
+- uid: System.Reflection.EventInfo.RaiseMethod*
+  parent: System.Reflection.EventInfo
+  isExternal: false
+  name: RaiseMethod
+  nameWithType: EventInfo.RaiseMethod
+- uid: System.Reflection.EventInfo.RemoveEventHandler*
+  parent: System.Reflection.EventInfo
+  isExternal: false
+  name: RemoveEventHandler
+  nameWithType: EventInfo.RemoveEventHandler
+- uid: System.Reflection.EventInfo.RemoveMethod*
+  parent: System.Reflection.EventInfo
+  isExternal: false
+  name: RemoveMethod
+  nameWithType: EventInfo.RemoveMethod
+- uid: System.Reflection.EventInfo.System#Runtime#InteropServices#_EventInfo#GetIDsOfNames*
+  parent: System.Reflection.EventInfo
+  isExternal: false
+  name: System.Runtime.InteropServices._EventInfo.GetIDsOfNames
+  nameWithType: EventInfo.System.Runtime.InteropServices._EventInfo.GetIDsOfNames
+- uid: System.Reflection.EventInfo.System#Runtime#InteropServices#_EventInfo#GetType*
+  parent: System.Reflection.EventInfo
+  isExternal: false
+  name: System.Runtime.InteropServices._EventInfo.GetType
+  nameWithType: EventInfo.System.Runtime.InteropServices._EventInfo.GetType
+- uid: System.Reflection.EventInfo.System#Runtime#InteropServices#_EventInfo#GetTypeInfo*
+  parent: System.Reflection.EventInfo
+  isExternal: false
+  name: System.Runtime.InteropServices._EventInfo.GetTypeInfo
+  nameWithType: EventInfo.System.Runtime.InteropServices._EventInfo.GetTypeInfo
+- uid: System.Reflection.EventInfo.System#Runtime#InteropServices#_EventInfo#GetTypeInfoCount*
+  parent: System.Reflection.EventInfo
+  isExternal: false
+  name: System.Runtime.InteropServices._EventInfo.GetTypeInfoCount
+  nameWithType: EventInfo.System.Runtime.InteropServices._EventInfo.GetTypeInfoCount
+- uid: System.Reflection.EventInfo.System#Runtime#InteropServices#_EventInfo#Invoke*
+  parent: System.Reflection.EventInfo
+  isExternal: false
+  name: System.Runtime.InteropServices._EventInfo.Invoke
+  nameWithType: EventInfo.System.Runtime.InteropServices._EventInfo.Invoke

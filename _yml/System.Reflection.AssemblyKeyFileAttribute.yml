@@ -95,6 +95,7 @@ items:
     - id: keyFile
       type: System.String
       description: To be added.
+  overload: System.Reflection.AssemblyKeyFileAttribute.#ctor*
   platform:
   - net-11
   - net-20
@@ -118,6 +119,7 @@ items:
     return:
       type: System.String
       description: To be added.
+  overload: System.Reflection.AssemblyKeyFileAttribute.KeyFile*
   platform:
   - net-11
   - net-20
@@ -150,3 +152,13 @@ references:
   name: String
   nameWithType: String
   fullName: System.String
+- uid: System.Reflection.AssemblyKeyFileAttribute.#ctor*
+  parent: System.Reflection.AssemblyKeyFileAttribute
+  isExternal: false
+  name: AssemblyKeyFileAttribute
+  nameWithType: AssemblyKeyFileAttribute.AssemblyKeyFileAttribute
+- uid: System.Reflection.AssemblyKeyFileAttribute.KeyFile*
+  parent: System.Reflection.AssemblyKeyFileAttribute
+  isExternal: false
+  name: KeyFile
+  nameWithType: AssemblyKeyFileAttribute.KeyFile

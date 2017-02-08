@@ -95,6 +95,7 @@ items:
     - id: paths
       type: System.Runtime.InteropServices.DllImportSearchPath
       description: To be added.
+  overload: System.Runtime.InteropServices.DefaultDllImportSearchPathsAttribute.#ctor*
   platform:
   - net-11
   - net-20
@@ -118,6 +119,7 @@ items:
     return:
       type: System.Runtime.InteropServices.DllImportSearchPath
       description: To be added.
+  overload: System.Runtime.InteropServices.DefaultDllImportSearchPathsAttribute.Paths*
   platform:
   - net-11
   - net-20
@@ -150,3 +152,13 @@ references:
   name: DllImportSearchPath
   nameWithType: DllImportSearchPath
   fullName: System.Runtime.InteropServices.DllImportSearchPath
+- uid: System.Runtime.InteropServices.DefaultDllImportSearchPathsAttribute.#ctor*
+  parent: System.Runtime.InteropServices.DefaultDllImportSearchPathsAttribute
+  isExternal: false
+  name: DefaultDllImportSearchPathsAttribute
+  nameWithType: DefaultDllImportSearchPathsAttribute.DefaultDllImportSearchPathsAttribute
+- uid: System.Runtime.InteropServices.DefaultDllImportSearchPathsAttribute.Paths*
+  parent: System.Runtime.InteropServices.DefaultDllImportSearchPathsAttribute
+  isExternal: false
+  name: Paths
+  nameWithType: DefaultDllImportSearchPathsAttribute.Paths

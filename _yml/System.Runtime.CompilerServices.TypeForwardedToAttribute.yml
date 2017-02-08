@@ -93,6 +93,7 @@ items:
     - id: destination
       type: System.Type
       description: To be added.
+  overload: System.Runtime.CompilerServices.TypeForwardedToAttribute.#ctor*
   platform:
   - net-11
   - net-20
@@ -116,6 +117,7 @@ items:
     return:
       type: System.Type
       description: To be added.
+  overload: System.Runtime.CompilerServices.TypeForwardedToAttribute.Destination*
   platform:
   - net-11
   - net-20
@@ -148,3 +150,13 @@ references:
   name: Type
   nameWithType: Type
   fullName: System.Type
+- uid: System.Runtime.CompilerServices.TypeForwardedToAttribute.#ctor*
+  parent: System.Runtime.CompilerServices.TypeForwardedToAttribute
+  isExternal: false
+  name: TypeForwardedToAttribute
+  nameWithType: TypeForwardedToAttribute.TypeForwardedToAttribute
+- uid: System.Runtime.CompilerServices.TypeForwardedToAttribute.Destination*
+  parent: System.Runtime.CompilerServices.TypeForwardedToAttribute
+  isExternal: false
+  name: Destination
+  nameWithType: TypeForwardedToAttribute.Destination

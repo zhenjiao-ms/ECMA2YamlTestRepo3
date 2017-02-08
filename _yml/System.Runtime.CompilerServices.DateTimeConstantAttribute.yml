@@ -96,6 +96,7 @@ items:
     - id: ticks
       type: System.Int64
       description: To be added.
+  overload: System.Runtime.CompilerServices.DateTimeConstantAttribute.#ctor*
   platform:
   - net-11
   - net-20
@@ -119,6 +120,7 @@ items:
     return:
       type: System.Object
       description: To be added.
+  overload: System.Runtime.CompilerServices.DateTimeConstantAttribute.Value*
   platform:
   - net-11
   - net-20
@@ -151,3 +153,13 @@ references:
   name: Object
   nameWithType: Object
   fullName: System.Object
+- uid: System.Runtime.CompilerServices.DateTimeConstantAttribute.#ctor*
+  parent: System.Runtime.CompilerServices.DateTimeConstantAttribute
+  isExternal: false
+  name: DateTimeConstantAttribute
+  nameWithType: DateTimeConstantAttribute.DateTimeConstantAttribute
+- uid: System.Runtime.CompilerServices.DateTimeConstantAttribute.Value*
+  parent: System.Runtime.CompilerServices.DateTimeConstantAttribute
+  isExternal: false
+  name: Value
+  nameWithType: DateTimeConstantAttribute.Value

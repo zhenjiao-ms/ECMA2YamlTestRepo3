@@ -71,6 +71,7 @@ items:
   syntax:
     content: public MissingFieldException ();
     parameters: []
+  overload: System.MissingFieldException.#ctor*
   platform:
   - net-11
   - net-20
@@ -95,6 +96,7 @@ items:
     - id: message
       type: System.String
       description: To be added.
+  overload: System.MissingFieldException.#ctor*
   platform:
   - net-11
   - net-20
@@ -122,6 +124,7 @@ items:
     - id: context
       type: System.Runtime.Serialization.StreamingContext
       description: To be added.
+  overload: System.MissingFieldException.#ctor*
   platform:
   - net-11
   - net-20
@@ -149,6 +152,7 @@ items:
     - id: inner
       type: System.Exception
       description: To be added.
+  overload: System.MissingFieldException.#ctor*
   platform:
   - net-11
   - net-20
@@ -176,6 +180,7 @@ items:
     - id: fieldName
       type: System.String
       description: To be added.
+  overload: System.MissingFieldException.#ctor*
   platform:
   - net-11
   - net-20
@@ -199,6 +204,7 @@ items:
     return:
       type: System.String
       description: To be added.
+  overload: System.MissingFieldException.Message*
   platform:
   - net-11
   - net-20
@@ -291,3 +297,13 @@ references:
   name: String
   nameWithType: String
   fullName: System.String
+- uid: System.MissingFieldException.#ctor*
+  parent: System.MissingFieldException
+  isExternal: false
+  name: MissingFieldException
+  nameWithType: MissingFieldException.MissingFieldException
+- uid: System.MissingFieldException.Message*
+  parent: System.MissingFieldException
+  isExternal: false
+  name: Message
+  nameWithType: MissingFieldException.Message

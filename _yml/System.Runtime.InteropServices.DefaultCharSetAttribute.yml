@@ -95,6 +95,7 @@ items:
     - id: charSet
       type: System.Runtime.InteropServices.CharSet
       description: To be added.
+  overload: System.Runtime.InteropServices.DefaultCharSetAttribute.#ctor*
   platform:
   - net-11
   - net-20
@@ -118,6 +119,7 @@ items:
     return:
       type: System.Runtime.InteropServices.CharSet
       description: To be added.
+  overload: System.Runtime.InteropServices.DefaultCharSetAttribute.CharSet*
   platform:
   - net-11
   - net-20
@@ -150,3 +152,13 @@ references:
   name: CharSet
   nameWithType: CharSet
   fullName: System.Runtime.InteropServices.CharSet
+- uid: System.Runtime.InteropServices.DefaultCharSetAttribute.#ctor*
+  parent: System.Runtime.InteropServices.DefaultCharSetAttribute
+  isExternal: false
+  name: DefaultCharSetAttribute
+  nameWithType: DefaultCharSetAttribute.DefaultCharSetAttribute
+- uid: System.Runtime.InteropServices.DefaultCharSetAttribute.CharSet*
+  parent: System.Runtime.InteropServices.DefaultCharSetAttribute
+  isExternal: false
+  name: CharSet
+  nameWithType: DefaultCharSetAttribute.CharSet

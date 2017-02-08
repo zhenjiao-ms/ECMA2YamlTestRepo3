@@ -225,6 +225,7 @@ items:
     return:
       type: System.Int32
       description: To be added.
+  overload: System.Runtime.InteropServices.Marshal.AddRef*
   platform:
   - net-11
   - net-20
@@ -252,6 +253,7 @@ items:
     return:
       type: System.IntPtr
       description: To be added.
+  overload: System.Runtime.InteropServices.Marshal.AllocCoTaskMem*
   platform:
   - net-11
   - net-20
@@ -332,6 +334,7 @@ items:
     return:
       type: System.Boolean
       description: To be added.
+  overload: System.Runtime.InteropServices.Marshal.AreComObjectsAvailableForCleanup*
   platform:
   - net-11
   - net-20
@@ -359,6 +362,7 @@ items:
     return:
       type: System.Object
       description: To be added.
+  overload: System.Runtime.InteropServices.Marshal.BindToMoniker*
   platform:
   - net-11
   - net-20
@@ -386,6 +390,7 @@ items:
     - id: fIsWeak
       type: System.Boolean
       description: To be added.
+  overload: System.Runtime.InteropServices.Marshal.ChangeWrapperHandleStrength*
   platform:
   - net-11
   - net-20
@@ -407,6 +412,7 @@ items:
   syntax:
     content: public static void CleanupUnusedObjectsInCurrentContext ();
     parameters: []
+  overload: System.Runtime.InteropServices.Marshal.CleanupUnusedObjectsInCurrentContext*
   platform:
   - net-11
   - net-20
@@ -981,6 +987,7 @@ items:
     return:
       type: System.IntPtr
       description: To be added.
+  overload: System.Runtime.InteropServices.Marshal.CreateAggregatedObject*
   platform:
   - net-11
   - net-20
@@ -1011,6 +1018,7 @@ items:
     return:
       type: System.IntPtr
       description: To be added.
+  overload: System.Runtime.InteropServices.Marshal.CreateAggregatedObject<T>*
   platform:
   - net-11
   - net-20
@@ -1041,6 +1049,7 @@ items:
     return:
       type: System.Object
       description: To be added.
+  overload: System.Runtime.InteropServices.Marshal.CreateWrapperOfType*
   platform:
   - net-11
   - net-20
@@ -1068,6 +1077,7 @@ items:
     return:
       type: TWrapper
       description: To be added.
+  overload: System.Runtime.InteropServices.Marshal.CreateWrapperOfType<T,TWrapper>*
   platform:
   - net-11
   - net-20
@@ -1095,6 +1105,7 @@ items:
     - id: structuretype
       type: System.Type
       description: To be added.
+  overload: System.Runtime.InteropServices.Marshal.DestroyStructure*
   platform:
   - net-11
   - net-20
@@ -1119,6 +1130,7 @@ items:
     - id: ptr
       type: System.IntPtr
       description: To be added.
+  overload: System.Runtime.InteropServices.Marshal.DestroyStructure<T>*
   platform:
   - net-11
   - net-20
@@ -1146,6 +1158,7 @@ items:
     return:
       type: System.Int32
       description: To be added.
+  overload: System.Runtime.InteropServices.Marshal.FinalReleaseComObject*
   platform:
   - net-11
   - net-20
@@ -1170,6 +1183,7 @@ items:
     - id: ptr
       type: System.IntPtr
       description: To be added.
+  overload: System.Runtime.InteropServices.Marshal.FreeBSTR*
   platform:
   - net-11
   - net-20
@@ -1194,6 +1208,7 @@ items:
     - id: ptr
       type: System.IntPtr
       description: To be added.
+  overload: System.Runtime.InteropServices.Marshal.FreeCoTaskMem*
   platform:
   - net-11
   - net-20
@@ -1218,6 +1233,7 @@ items:
     - id: hglobal
       type: System.IntPtr
       description: To be added.
+  overload: System.Runtime.InteropServices.Marshal.FreeHGlobal*
   platform:
   - net-11
   - net-20
@@ -1245,6 +1261,7 @@ items:
     return:
       type: System.Guid
       description: To be added.
+  overload: System.Runtime.InteropServices.Marshal.GenerateGuidForType*
   platform:
   - net-11
   - net-20
@@ -1272,6 +1289,7 @@ items:
     return:
       type: System.String
       description: To be added.
+  overload: System.Runtime.InteropServices.Marshal.GenerateProgIdForType*
   platform:
   - net-11
   - net-20
@@ -1299,6 +1317,7 @@ items:
     return:
       type: System.Object
       description: To be added.
+  overload: System.Runtime.InteropServices.Marshal.GetActiveObject*
   platform:
   - net-11
   - net-20
@@ -1391,6 +1410,7 @@ items:
     return:
       type: System.IntPtr
       description: To be added.
+  overload: System.Runtime.InteropServices.Marshal.GetComInterfaceForObject<T,TInterface>*
   platform:
   - net-11
   - net-20
@@ -1421,6 +1441,7 @@ items:
     return:
       type: System.IntPtr
       description: To be added.
+  overload: System.Runtime.InteropServices.Marshal.GetComInterfaceForObjectInContext*
   platform:
   - net-11
   - net-20
@@ -1451,6 +1472,7 @@ items:
     return:
       type: System.Object
       description: To be added.
+  overload: System.Runtime.InteropServices.Marshal.GetComObjectData*
   platform:
   - net-11
   - net-20
@@ -1478,6 +1500,7 @@ items:
     return:
       type: System.Int32
       description: To be added.
+  overload: System.Runtime.InteropServices.Marshal.GetComSlotForMethodInfo*
   platform:
   - net-11
   - net-20
@@ -1508,6 +1531,7 @@ items:
     return:
       type: System.Delegate
       description: To be added.
+  overload: System.Runtime.InteropServices.Marshal.GetDelegateForFunctionPointer*
   platform:
   - net-11
   - net-20
@@ -1535,6 +1559,7 @@ items:
     return:
       type: TDelegate
       description: To be added.
+  overload: System.Runtime.InteropServices.Marshal.GetDelegateForFunctionPointer<TDelegate>*
   platform:
   - net-11
   - net-20
@@ -1562,6 +1587,7 @@ items:
     return:
       type: System.Int32
       description: To be added.
+  overload: System.Runtime.InteropServices.Marshal.GetEndComSlot*
   platform:
   - net-11
   - net-20
@@ -1586,6 +1612,7 @@ items:
     return:
       type: System.Int32
       description: To be added.
+  overload: System.Runtime.InteropServices.Marshal.GetExceptionCode*
   platform:
   - net-11
   - net-20
@@ -1669,6 +1696,7 @@ items:
     return:
       type: System.IntPtr
       description: To be added.
+  overload: System.Runtime.InteropServices.Marshal.GetExceptionPointers*
   platform:
   - net-11
   - net-20
@@ -1696,6 +1724,7 @@ items:
     return:
       type: System.IntPtr
       description: To be added.
+  overload: System.Runtime.InteropServices.Marshal.GetFunctionPointerForDelegate*
   platform:
   - net-11
   - net-20
@@ -1723,6 +1752,7 @@ items:
     return:
       type: System.IntPtr
       description: To be added.
+  overload: System.Runtime.InteropServices.Marshal.GetFunctionPointerForDelegate<TDelegate>*
   platform:
   - net-11
   - net-20
@@ -1750,6 +1780,7 @@ items:
     return:
       type: System.IntPtr
       description: To be added.
+  overload: System.Runtime.InteropServices.Marshal.GetHINSTANCE*
   platform:
   - net-11
   - net-20
@@ -1777,6 +1808,7 @@ items:
     return:
       type: System.Int32
       description: To be added.
+  overload: System.Runtime.InteropServices.Marshal.GetHRForException*
   platform:
   - net-11
   - net-20
@@ -1801,6 +1833,7 @@ items:
     return:
       type: System.Int32
       description: To be added.
+  overload: System.Runtime.InteropServices.Marshal.GetHRForLastWin32Error*
   platform:
   - net-11
   - net-20
@@ -1828,6 +1861,7 @@ items:
     return:
       type: System.IntPtr
       description: To be added.
+  overload: System.Runtime.InteropServices.Marshal.GetIDispatchForObject*
   platform:
   - net-11
   - net-20
@@ -1855,6 +1889,7 @@ items:
     return:
       type: System.IntPtr
       description: To be added.
+  overload: System.Runtime.InteropServices.Marshal.GetIDispatchForObjectInContext*
   platform:
   - net-11
   - net-20
@@ -1882,6 +1917,7 @@ items:
     return:
       type: System.IntPtr
       description: To be added.
+  overload: System.Runtime.InteropServices.Marshal.GetITypeInfoForType*
   platform:
   - net-11
   - net-20
@@ -1909,6 +1945,7 @@ items:
     return:
       type: System.IntPtr
       description: To be added.
+  overload: System.Runtime.InteropServices.Marshal.GetIUnknownForObject*
   platform:
   - net-11
   - net-20
@@ -1936,6 +1973,7 @@ items:
     return:
       type: System.IntPtr
       description: To be added.
+  overload: System.Runtime.InteropServices.Marshal.GetIUnknownForObjectInContext*
   platform:
   - net-11
   - net-20
@@ -1960,6 +1998,7 @@ items:
     return:
       type: System.Int32
       description: To be added.
+  overload: System.Runtime.InteropServices.Marshal.GetLastWin32Error*
   platform:
   - net-11
   - net-20
@@ -1993,6 +2032,7 @@ items:
     return:
       type: System.IntPtr
       description: To be added.
+  overload: System.Runtime.InteropServices.Marshal.GetManagedThunkForUnmanagedMethodPtr*
   platform:
   - net-11
   - net-20
@@ -2026,6 +2066,7 @@ items:
     return:
       type: System.Reflection.MemberInfo
       description: To be added.
+  overload: System.Runtime.InteropServices.Marshal.GetMethodInfoForComSlot*
   platform:
   - net-11
   - net-20
@@ -2053,6 +2094,7 @@ items:
     - id: pDstNativeVariant
       type: System.IntPtr
       description: To be added.
+  overload: System.Runtime.InteropServices.Marshal.GetNativeVariantForObject*
   platform:
   - net-11
   - net-20
@@ -2080,6 +2122,7 @@ items:
     - id: pDstNativeVariant
       type: System.IntPtr
       description: To be added.
+  overload: System.Runtime.InteropServices.Marshal.GetNativeVariantForObject<T>*
   platform:
   - net-11
   - net-20
@@ -2107,6 +2150,7 @@ items:
     return:
       type: System.Object
       description: To be added.
+  overload: System.Runtime.InteropServices.Marshal.GetObjectForIUnknown*
   platform:
   - net-11
   - net-20
@@ -2134,6 +2178,7 @@ items:
     return:
       type: System.Object
       description: To be added.
+  overload: System.Runtime.InteropServices.Marshal.GetObjectForNativeVariant*
   platform:
   - net-11
   - net-20
@@ -2161,6 +2206,7 @@ items:
     return:
       type: T
       description: To be added.
+  overload: System.Runtime.InteropServices.Marshal.GetObjectForNativeVariant<T>*
   platform:
   - net-11
   - net-20
@@ -2191,6 +2237,7 @@ items:
     return:
       type: System.Object[]
       description: To be added.
+  overload: System.Runtime.InteropServices.Marshal.GetObjectsForNativeVariants*
   platform:
   - net-11
   - net-20
@@ -2221,6 +2268,7 @@ items:
     return:
       type: T[]
       description: To be added.
+  overload: System.Runtime.InteropServices.Marshal.GetObjectsForNativeVariants<T>*
   platform:
   - net-11
   - net-20
@@ -2248,6 +2296,7 @@ items:
     return:
       type: System.Int32
       description: To be added.
+  overload: System.Runtime.InteropServices.Marshal.GetStartComSlot*
   platform:
   - net-11
   - net-20
@@ -2275,6 +2324,7 @@ items:
     return:
       type: System.Threading.Thread
       description: To be added.
+  overload: System.Runtime.InteropServices.Marshal.GetThreadFromFiberCookie*
   platform:
   - net-11
   - net-20
@@ -2305,6 +2355,7 @@ items:
     return:
       type: System.Object
       description: To be added.
+  overload: System.Runtime.InteropServices.Marshal.GetTypedObjectForIUnknown*
   platform:
   - net-11
   - net-20
@@ -2332,6 +2383,7 @@ items:
     return:
       type: System.Type
       description: To be added.
+  overload: System.Runtime.InteropServices.Marshal.GetTypeForITypeInfo*
   platform:
   - net-11
   - net-20
@@ -2359,6 +2411,7 @@ items:
     return:
       type: System.Type
       description: To be added.
+  overload: System.Runtime.InteropServices.Marshal.GetTypeFromCLSID*
   platform:
   - net-11
   - net-20
@@ -2498,6 +2551,7 @@ items:
     return:
       type: System.Guid
       description: To be added.
+  overload: System.Runtime.InteropServices.Marshal.GetTypeLibGuidForAssembly*
   platform:
   - net-11
   - net-20
@@ -2640,6 +2694,7 @@ items:
     - id: minorVersion
       type: System.Int32
       description: To be added.
+  overload: System.Runtime.InteropServices.Marshal.GetTypeLibVersionForAssembly*
   platform:
   - net-11
   - net-20
@@ -2667,6 +2722,7 @@ items:
     return:
       type: System.Object
       description: To be added.
+  overload: System.Runtime.InteropServices.Marshal.GetUniqueObjectForIUnknown*
   platform:
   - net-11
   - net-20
@@ -2700,6 +2756,7 @@ items:
     return:
       type: System.IntPtr
       description: To be added.
+  overload: System.Runtime.InteropServices.Marshal.GetUnmanagedThunkForManagedMethodPtr*
   platform:
   - net-11
   - net-20
@@ -2727,6 +2784,7 @@ items:
     return:
       type: System.Boolean
       description: To be added.
+  overload: System.Runtime.InteropServices.Marshal.IsComObject*
   platform:
   - net-11
   - net-20
@@ -2754,6 +2812,7 @@ items:
     return:
       type: System.Boolean
       description: To be added.
+  overload: System.Runtime.InteropServices.Marshal.IsTypeVisibleFromCom*
   platform:
   - net-11
   - net-20
@@ -2781,6 +2840,7 @@ items:
     return:
       type: System.Int32
       description: To be added.
+  overload: System.Runtime.InteropServices.Marshal.NumParamBytes*
   platform:
   - net-11
   - net-20
@@ -2811,6 +2871,7 @@ items:
     return:
       type: System.IntPtr
       description: To be added.
+  overload: System.Runtime.InteropServices.Marshal.OffsetOf*
   platform:
   - net-11
   - net-20
@@ -2838,6 +2899,7 @@ items:
     return:
       type: System.IntPtr
       description: To be added.
+  overload: System.Runtime.InteropServices.Marshal.OffsetOf<T>*
   platform:
   - net-11
   - net-20
@@ -2862,6 +2924,7 @@ items:
     - id: m
       type: System.Reflection.MethodInfo
       description: To be added.
+  overload: System.Runtime.InteropServices.Marshal.Prelink*
   platform:
   - net-11
   - net-20
@@ -2886,6 +2949,7 @@ items:
     - id: c
       type: System.Type
       description: To be added.
+  overload: System.Runtime.InteropServices.Marshal.PrelinkAll*
   platform:
   - net-11
   - net-20
@@ -3031,6 +3095,7 @@ items:
     return:
       type: System.String
       description: To be added.
+  overload: System.Runtime.InteropServices.Marshal.PtrToStringBSTR*
   platform:
   - net-11
   - net-20
@@ -3238,6 +3303,7 @@ items:
     return:
       type: System.Int32
       description: To be added.
+  overload: System.Runtime.InteropServices.Marshal.QueryInterface*
   platform:
   - net-11
   - net-20
@@ -3718,6 +3784,7 @@ items:
     return:
       type: System.IntPtr
       description: To be added.
+  overload: System.Runtime.InteropServices.Marshal.ReAllocCoTaskMem*
   platform:
   - net-11
   - net-20
@@ -3748,6 +3815,7 @@ items:
     return:
       type: System.IntPtr
       description: To be added.
+  overload: System.Runtime.InteropServices.Marshal.ReAllocHGlobal*
   platform:
   - net-11
   - net-20
@@ -3775,6 +3843,7 @@ items:
     return:
       type: System.Int32
       description: To be added.
+  overload: System.Runtime.InteropServices.Marshal.Release*
   platform:
   - net-11
   - net-20
@@ -3802,6 +3871,7 @@ items:
     return:
       type: System.Int32
       description: To be added.
+  overload: System.Runtime.InteropServices.Marshal.ReleaseComObject*
   platform:
   - net-11
   - net-20
@@ -3823,6 +3893,7 @@ items:
   syntax:
     content: public static void ReleaseThreadCache ();
     parameters: []
+  overload: System.Runtime.InteropServices.Marshal.ReleaseThreadCache*
   platform:
   - net-11
   - net-20
@@ -3850,6 +3921,7 @@ items:
     return:
       type: System.IntPtr
       description: To be added.
+  overload: System.Runtime.InteropServices.Marshal.SecureStringToBSTR*
   platform:
   - net-11
   - net-20
@@ -3877,6 +3949,7 @@ items:
     return:
       type: System.IntPtr
       description: To be added.
+  overload: System.Runtime.InteropServices.Marshal.SecureStringToCoTaskMemAnsi*
   platform:
   - net-11
   - net-20
@@ -3904,6 +3977,7 @@ items:
     return:
       type: System.IntPtr
       description: To be added.
+  overload: System.Runtime.InteropServices.Marshal.SecureStringToCoTaskMemUnicode*
   platform:
   - net-11
   - net-20
@@ -3931,6 +4005,7 @@ items:
     return:
       type: System.IntPtr
       description: To be added.
+  overload: System.Runtime.InteropServices.Marshal.SecureStringToGlobalAllocAnsi*
   platform:
   - net-11
   - net-20
@@ -3958,6 +4033,7 @@ items:
     return:
       type: System.IntPtr
       description: To be added.
+  overload: System.Runtime.InteropServices.Marshal.SecureStringToGlobalAllocUnicode*
   platform:
   - net-11
   - net-20
@@ -3991,6 +4067,7 @@ items:
     return:
       type: System.Boolean
       description: To be added.
+  overload: System.Runtime.InteropServices.Marshal.SetComObjectData*
   platform:
   - net-11
   - net-20
@@ -4127,6 +4204,7 @@ items:
     return:
       type: System.IntPtr
       description: To be added.
+  overload: System.Runtime.InteropServices.Marshal.StringToBSTR*
   platform:
   - net-11
   - net-20
@@ -4154,6 +4232,7 @@ items:
     return:
       type: System.IntPtr
       description: To be added.
+  overload: System.Runtime.InteropServices.Marshal.StringToCoTaskMemAnsi*
   platform:
   - net-11
   - net-20
@@ -4181,6 +4260,7 @@ items:
     return:
       type: System.IntPtr
       description: To be added.
+  overload: System.Runtime.InteropServices.Marshal.StringToCoTaskMemAuto*
   platform:
   - net-11
   - net-20
@@ -4208,6 +4288,7 @@ items:
     return:
       type: System.IntPtr
       description: To be added.
+  overload: System.Runtime.InteropServices.Marshal.StringToCoTaskMemUni*
   platform:
   - net-11
   - net-20
@@ -4235,6 +4316,7 @@ items:
     return:
       type: System.IntPtr
       description: To be added.
+  overload: System.Runtime.InteropServices.Marshal.StringToHGlobalAnsi*
   platform:
   - net-11
   - net-20
@@ -4262,6 +4344,7 @@ items:
     return:
       type: System.IntPtr
       description: To be added.
+  overload: System.Runtime.InteropServices.Marshal.StringToHGlobalAuto*
   platform:
   - net-11
   - net-20
@@ -4289,6 +4372,7 @@ items:
     return:
       type: System.IntPtr
       description: To be added.
+  overload: System.Runtime.InteropServices.Marshal.StringToHGlobalUni*
   platform:
   - net-11
   - net-20
@@ -4319,6 +4403,7 @@ items:
     - id: fDeleteOld
       type: System.Boolean
       description: To be added.
+  overload: System.Runtime.InteropServices.Marshal.StructureToPtr*
   platform:
   - net-11
   - net-20
@@ -4349,6 +4434,7 @@ items:
     - id: fDeleteOld
       type: System.Boolean
       description: To be added.
+  overload: System.Runtime.InteropServices.Marshal.StructureToPtr<T>*
   platform:
   - net-11
   - net-20
@@ -4478,6 +4564,7 @@ items:
     return:
       type: System.IntPtr
       description: To be added.
+  overload: System.Runtime.InteropServices.Marshal.UnsafeAddrOfPinnedArrayElement*
   platform:
   - net-11
   - net-20
@@ -4508,6 +4595,7 @@ items:
     return:
       type: System.IntPtr
       description: To be added.
+  overload: System.Runtime.InteropServices.Marshal.UnsafeAddrOfPinnedArrayElement<T>*
   platform:
   - net-11
   - net-20
@@ -5072,6 +5160,7 @@ items:
     - id: s
       type: System.IntPtr
       description: To be added.
+  overload: System.Runtime.InteropServices.Marshal.ZeroFreeBSTR*
   platform:
   - net-11
   - net-20
@@ -5096,6 +5185,7 @@ items:
     - id: s
       type: System.IntPtr
       description: To be added.
+  overload: System.Runtime.InteropServices.Marshal.ZeroFreeCoTaskMemAnsi*
   platform:
   - net-11
   - net-20
@@ -5120,6 +5210,7 @@ items:
     - id: s
       type: System.IntPtr
       description: To be added.
+  overload: System.Runtime.InteropServices.Marshal.ZeroFreeCoTaskMemUnicode*
   platform:
   - net-11
   - net-20
@@ -5144,6 +5235,7 @@ items:
     - id: s
       type: System.IntPtr
       description: To be added.
+  overload: System.Runtime.InteropServices.Marshal.ZeroFreeGlobalAllocAnsi*
   platform:
   - net-11
   - net-20
@@ -5168,6 +5260,7 @@ items:
     - id: s
       type: System.IntPtr
       description: To be added.
+  overload: System.Runtime.InteropServices.Marshal.ZeroFreeGlobalAllocUnicode*
   platform:
   - net-11
   - net-20
@@ -8698,26 +8791,291 @@ references:
   name: IntPtr
   nameWithType: IntPtr
   fullName: System.IntPtr
+- uid: System.Runtime.InteropServices.Marshal.AddRef*
+  parent: System.Runtime.InteropServices.Marshal
+  isExternal: false
+  name: AddRef
+  nameWithType: Marshal.AddRef
+- uid: System.Runtime.InteropServices.Marshal.AllocCoTaskMem*
+  parent: System.Runtime.InteropServices.Marshal
+  isExternal: false
+  name: AllocCoTaskMem
+  nameWithType: Marshal.AllocCoTaskMem
 - uid: System.Runtime.InteropServices.Marshal.AllocHGlobal*
   parent: System.Runtime.InteropServices.Marshal
   isExternal: false
   name: AllocHGlobal
   nameWithType: Marshal.AllocHGlobal
+- uid: System.Runtime.InteropServices.Marshal.AreComObjectsAvailableForCleanup*
+  parent: System.Runtime.InteropServices.Marshal
+  isExternal: false
+  name: AreComObjectsAvailableForCleanup
+  nameWithType: Marshal.AreComObjectsAvailableForCleanup
+- uid: System.Runtime.InteropServices.Marshal.BindToMoniker*
+  parent: System.Runtime.InteropServices.Marshal
+  isExternal: false
+  name: BindToMoniker
+  nameWithType: Marshal.BindToMoniker
+- uid: System.Runtime.InteropServices.Marshal.ChangeWrapperHandleStrength*
+  parent: System.Runtime.InteropServices.Marshal
+  isExternal: false
+  name: ChangeWrapperHandleStrength
+  nameWithType: Marshal.ChangeWrapperHandleStrength
+- uid: System.Runtime.InteropServices.Marshal.CleanupUnusedObjectsInCurrentContext*
+  parent: System.Runtime.InteropServices.Marshal
+  isExternal: false
+  name: CleanupUnusedObjectsInCurrentContext
+  nameWithType: Marshal.CleanupUnusedObjectsInCurrentContext
 - uid: System.Runtime.InteropServices.Marshal.Copy*
   parent: System.Runtime.InteropServices.Marshal
   isExternal: false
   name: Copy
   nameWithType: Marshal.Copy
+- uid: System.Runtime.InteropServices.Marshal.CreateAggregatedObject*
+  parent: System.Runtime.InteropServices.Marshal
+  isExternal: false
+  name: CreateAggregatedObject
+  nameWithType: Marshal.CreateAggregatedObject
+- uid: System.Runtime.InteropServices.Marshal.CreateAggregatedObject<T>*
+  parent: System.Runtime.InteropServices.Marshal
+  isExternal: false
+  name: CreateAggregatedObject<T>
+  nameWithType: Marshal.CreateAggregatedObject<T>
+- uid: System.Runtime.InteropServices.Marshal.CreateWrapperOfType*
+  parent: System.Runtime.InteropServices.Marshal
+  isExternal: false
+  name: CreateWrapperOfType
+  nameWithType: Marshal.CreateWrapperOfType
+- uid: System.Runtime.InteropServices.Marshal.CreateWrapperOfType<T,TWrapper>*
+  parent: System.Runtime.InteropServices.Marshal
+  isExternal: false
+  name: CreateWrapperOfType<T,TWrapper>
+  nameWithType: Marshal.CreateWrapperOfType<T,TWrapper>
+- uid: System.Runtime.InteropServices.Marshal.DestroyStructure*
+  parent: System.Runtime.InteropServices.Marshal
+  isExternal: false
+  name: DestroyStructure
+  nameWithType: Marshal.DestroyStructure
+- uid: System.Runtime.InteropServices.Marshal.DestroyStructure<T>*
+  parent: System.Runtime.InteropServices.Marshal
+  isExternal: false
+  name: DestroyStructure<T>
+  nameWithType: Marshal.DestroyStructure<T>
+- uid: System.Runtime.InteropServices.Marshal.FinalReleaseComObject*
+  parent: System.Runtime.InteropServices.Marshal
+  isExternal: false
+  name: FinalReleaseComObject
+  nameWithType: Marshal.FinalReleaseComObject
+- uid: System.Runtime.InteropServices.Marshal.FreeBSTR*
+  parent: System.Runtime.InteropServices.Marshal
+  isExternal: false
+  name: FreeBSTR
+  nameWithType: Marshal.FreeBSTR
+- uid: System.Runtime.InteropServices.Marshal.FreeCoTaskMem*
+  parent: System.Runtime.InteropServices.Marshal
+  isExternal: false
+  name: FreeCoTaskMem
+  nameWithType: Marshal.FreeCoTaskMem
+- uid: System.Runtime.InteropServices.Marshal.FreeHGlobal*
+  parent: System.Runtime.InteropServices.Marshal
+  isExternal: false
+  name: FreeHGlobal
+  nameWithType: Marshal.FreeHGlobal
+- uid: System.Runtime.InteropServices.Marshal.GenerateGuidForType*
+  parent: System.Runtime.InteropServices.Marshal
+  isExternal: false
+  name: GenerateGuidForType
+  nameWithType: Marshal.GenerateGuidForType
+- uid: System.Runtime.InteropServices.Marshal.GenerateProgIdForType*
+  parent: System.Runtime.InteropServices.Marshal
+  isExternal: false
+  name: GenerateProgIdForType
+  nameWithType: Marshal.GenerateProgIdForType
+- uid: System.Runtime.InteropServices.Marshal.GetActiveObject*
+  parent: System.Runtime.InteropServices.Marshal
+  isExternal: false
+  name: GetActiveObject
+  nameWithType: Marshal.GetActiveObject
 - uid: System.Runtime.InteropServices.Marshal.GetComInterfaceForObject*
   parent: System.Runtime.InteropServices.Marshal
   isExternal: false
   name: GetComInterfaceForObject
   nameWithType: Marshal.GetComInterfaceForObject
+- uid: System.Runtime.InteropServices.Marshal.GetComInterfaceForObject<T,TInterface>*
+  parent: System.Runtime.InteropServices.Marshal
+  isExternal: false
+  name: GetComInterfaceForObject<T,TInterface>
+  nameWithType: Marshal.GetComInterfaceForObject<T,TInterface>
+- uid: System.Runtime.InteropServices.Marshal.GetComInterfaceForObjectInContext*
+  parent: System.Runtime.InteropServices.Marshal
+  isExternal: false
+  name: GetComInterfaceForObjectInContext
+  nameWithType: Marshal.GetComInterfaceForObjectInContext
+- uid: System.Runtime.InteropServices.Marshal.GetComObjectData*
+  parent: System.Runtime.InteropServices.Marshal
+  isExternal: false
+  name: GetComObjectData
+  nameWithType: Marshal.GetComObjectData
+- uid: System.Runtime.InteropServices.Marshal.GetComSlotForMethodInfo*
+  parent: System.Runtime.InteropServices.Marshal
+  isExternal: false
+  name: GetComSlotForMethodInfo
+  nameWithType: Marshal.GetComSlotForMethodInfo
+- uid: System.Runtime.InteropServices.Marshal.GetDelegateForFunctionPointer*
+  parent: System.Runtime.InteropServices.Marshal
+  isExternal: false
+  name: GetDelegateForFunctionPointer
+  nameWithType: Marshal.GetDelegateForFunctionPointer
+- uid: System.Runtime.InteropServices.Marshal.GetDelegateForFunctionPointer<TDelegate>*
+  parent: System.Runtime.InteropServices.Marshal
+  isExternal: false
+  name: GetDelegateForFunctionPointer<TDelegate>
+  nameWithType: Marshal.GetDelegateForFunctionPointer<TDelegate>
+- uid: System.Runtime.InteropServices.Marshal.GetEndComSlot*
+  parent: System.Runtime.InteropServices.Marshal
+  isExternal: false
+  name: GetEndComSlot
+  nameWithType: Marshal.GetEndComSlot
+- uid: System.Runtime.InteropServices.Marshal.GetExceptionCode*
+  parent: System.Runtime.InteropServices.Marshal
+  isExternal: false
+  name: GetExceptionCode
+  nameWithType: Marshal.GetExceptionCode
 - uid: System.Runtime.InteropServices.Marshal.GetExceptionForHR*
   parent: System.Runtime.InteropServices.Marshal
   isExternal: false
   name: GetExceptionForHR
   nameWithType: Marshal.GetExceptionForHR
+- uid: System.Runtime.InteropServices.Marshal.GetExceptionPointers*
+  parent: System.Runtime.InteropServices.Marshal
+  isExternal: false
+  name: GetExceptionPointers
+  nameWithType: Marshal.GetExceptionPointers
+- uid: System.Runtime.InteropServices.Marshal.GetFunctionPointerForDelegate*
+  parent: System.Runtime.InteropServices.Marshal
+  isExternal: false
+  name: GetFunctionPointerForDelegate
+  nameWithType: Marshal.GetFunctionPointerForDelegate
+- uid: System.Runtime.InteropServices.Marshal.GetFunctionPointerForDelegate<TDelegate>*
+  parent: System.Runtime.InteropServices.Marshal
+  isExternal: false
+  name: GetFunctionPointerForDelegate<TDelegate>
+  nameWithType: Marshal.GetFunctionPointerForDelegate<TDelegate>
+- uid: System.Runtime.InteropServices.Marshal.GetHINSTANCE*
+  parent: System.Runtime.InteropServices.Marshal
+  isExternal: false
+  name: GetHINSTANCE
+  nameWithType: Marshal.GetHINSTANCE
+- uid: System.Runtime.InteropServices.Marshal.GetHRForException*
+  parent: System.Runtime.InteropServices.Marshal
+  isExternal: false
+  name: GetHRForException
+  nameWithType: Marshal.GetHRForException
+- uid: System.Runtime.InteropServices.Marshal.GetHRForLastWin32Error*
+  parent: System.Runtime.InteropServices.Marshal
+  isExternal: false
+  name: GetHRForLastWin32Error
+  nameWithType: Marshal.GetHRForLastWin32Error
+- uid: System.Runtime.InteropServices.Marshal.GetIDispatchForObject*
+  parent: System.Runtime.InteropServices.Marshal
+  isExternal: false
+  name: GetIDispatchForObject
+  nameWithType: Marshal.GetIDispatchForObject
+- uid: System.Runtime.InteropServices.Marshal.GetIDispatchForObjectInContext*
+  parent: System.Runtime.InteropServices.Marshal
+  isExternal: false
+  name: GetIDispatchForObjectInContext
+  nameWithType: Marshal.GetIDispatchForObjectInContext
+- uid: System.Runtime.InteropServices.Marshal.GetITypeInfoForType*
+  parent: System.Runtime.InteropServices.Marshal
+  isExternal: false
+  name: GetITypeInfoForType
+  nameWithType: Marshal.GetITypeInfoForType
+- uid: System.Runtime.InteropServices.Marshal.GetIUnknownForObject*
+  parent: System.Runtime.InteropServices.Marshal
+  isExternal: false
+  name: GetIUnknownForObject
+  nameWithType: Marshal.GetIUnknownForObject
+- uid: System.Runtime.InteropServices.Marshal.GetIUnknownForObjectInContext*
+  parent: System.Runtime.InteropServices.Marshal
+  isExternal: false
+  name: GetIUnknownForObjectInContext
+  nameWithType: Marshal.GetIUnknownForObjectInContext
+- uid: System.Runtime.InteropServices.Marshal.GetLastWin32Error*
+  parent: System.Runtime.InteropServices.Marshal
+  isExternal: false
+  name: GetLastWin32Error
+  nameWithType: Marshal.GetLastWin32Error
+- uid: System.Runtime.InteropServices.Marshal.GetManagedThunkForUnmanagedMethodPtr*
+  parent: System.Runtime.InteropServices.Marshal
+  isExternal: false
+  name: GetManagedThunkForUnmanagedMethodPtr
+  nameWithType: Marshal.GetManagedThunkForUnmanagedMethodPtr
+- uid: System.Runtime.InteropServices.Marshal.GetMethodInfoForComSlot*
+  parent: System.Runtime.InteropServices.Marshal
+  isExternal: false
+  name: GetMethodInfoForComSlot
+  nameWithType: Marshal.GetMethodInfoForComSlot
+- uid: System.Runtime.InteropServices.Marshal.GetNativeVariantForObject*
+  parent: System.Runtime.InteropServices.Marshal
+  isExternal: false
+  name: GetNativeVariantForObject
+  nameWithType: Marshal.GetNativeVariantForObject
+- uid: System.Runtime.InteropServices.Marshal.GetNativeVariantForObject<T>*
+  parent: System.Runtime.InteropServices.Marshal
+  isExternal: false
+  name: GetNativeVariantForObject<T>
+  nameWithType: Marshal.GetNativeVariantForObject<T>
+- uid: System.Runtime.InteropServices.Marshal.GetObjectForIUnknown*
+  parent: System.Runtime.InteropServices.Marshal
+  isExternal: false
+  name: GetObjectForIUnknown
+  nameWithType: Marshal.GetObjectForIUnknown
+- uid: System.Runtime.InteropServices.Marshal.GetObjectForNativeVariant*
+  parent: System.Runtime.InteropServices.Marshal
+  isExternal: false
+  name: GetObjectForNativeVariant
+  nameWithType: Marshal.GetObjectForNativeVariant
+- uid: System.Runtime.InteropServices.Marshal.GetObjectForNativeVariant<T>*
+  parent: System.Runtime.InteropServices.Marshal
+  isExternal: false
+  name: GetObjectForNativeVariant<T>
+  nameWithType: Marshal.GetObjectForNativeVariant<T>
+- uid: System.Runtime.InteropServices.Marshal.GetObjectsForNativeVariants*
+  parent: System.Runtime.InteropServices.Marshal
+  isExternal: false
+  name: GetObjectsForNativeVariants
+  nameWithType: Marshal.GetObjectsForNativeVariants
+- uid: System.Runtime.InteropServices.Marshal.GetObjectsForNativeVariants<T>*
+  parent: System.Runtime.InteropServices.Marshal
+  isExternal: false
+  name: GetObjectsForNativeVariants<T>
+  nameWithType: Marshal.GetObjectsForNativeVariants<T>
+- uid: System.Runtime.InteropServices.Marshal.GetStartComSlot*
+  parent: System.Runtime.InteropServices.Marshal
+  isExternal: false
+  name: GetStartComSlot
+  nameWithType: Marshal.GetStartComSlot
+- uid: System.Runtime.InteropServices.Marshal.GetThreadFromFiberCookie*
+  parent: System.Runtime.InteropServices.Marshal
+  isExternal: false
+  name: GetThreadFromFiberCookie
+  nameWithType: Marshal.GetThreadFromFiberCookie
+- uid: System.Runtime.InteropServices.Marshal.GetTypedObjectForIUnknown*
+  parent: System.Runtime.InteropServices.Marshal
+  isExternal: false
+  name: GetTypedObjectForIUnknown
+  nameWithType: Marshal.GetTypedObjectForIUnknown
+- uid: System.Runtime.InteropServices.Marshal.GetTypeForITypeInfo*
+  parent: System.Runtime.InteropServices.Marshal
+  isExternal: false
+  name: GetTypeForITypeInfo
+  nameWithType: Marshal.GetTypeForITypeInfo
+- uid: System.Runtime.InteropServices.Marshal.GetTypeFromCLSID*
+  parent: System.Runtime.InteropServices.Marshal
+  isExternal: false
+  name: GetTypeFromCLSID
+  nameWithType: Marshal.GetTypeFromCLSID
 - uid: System.Runtime.InteropServices.Marshal.GetTypeInfoName*
   parent: System.Runtime.InteropServices.Marshal
   isExternal: false
@@ -8728,6 +9086,11 @@ references:
   isExternal: false
   name: GetTypeLibGuid
   nameWithType: Marshal.GetTypeLibGuid
+- uid: System.Runtime.InteropServices.Marshal.GetTypeLibGuidForAssembly*
+  parent: System.Runtime.InteropServices.Marshal
+  isExternal: false
+  name: GetTypeLibGuidForAssembly
+  nameWithType: Marshal.GetTypeLibGuidForAssembly
 - uid: System.Runtime.InteropServices.Marshal.GetTypeLibLcid*
   parent: System.Runtime.InteropServices.Marshal
   isExternal: false
@@ -8738,6 +9101,56 @@ references:
   isExternal: false
   name: GetTypeLibName
   nameWithType: Marshal.GetTypeLibName
+- uid: System.Runtime.InteropServices.Marshal.GetTypeLibVersionForAssembly*
+  parent: System.Runtime.InteropServices.Marshal
+  isExternal: false
+  name: GetTypeLibVersionForAssembly
+  nameWithType: Marshal.GetTypeLibVersionForAssembly
+- uid: System.Runtime.InteropServices.Marshal.GetUniqueObjectForIUnknown*
+  parent: System.Runtime.InteropServices.Marshal
+  isExternal: false
+  name: GetUniqueObjectForIUnknown
+  nameWithType: Marshal.GetUniqueObjectForIUnknown
+- uid: System.Runtime.InteropServices.Marshal.GetUnmanagedThunkForManagedMethodPtr*
+  parent: System.Runtime.InteropServices.Marshal
+  isExternal: false
+  name: GetUnmanagedThunkForManagedMethodPtr
+  nameWithType: Marshal.GetUnmanagedThunkForManagedMethodPtr
+- uid: System.Runtime.InteropServices.Marshal.IsComObject*
+  parent: System.Runtime.InteropServices.Marshal
+  isExternal: false
+  name: IsComObject
+  nameWithType: Marshal.IsComObject
+- uid: System.Runtime.InteropServices.Marshal.IsTypeVisibleFromCom*
+  parent: System.Runtime.InteropServices.Marshal
+  isExternal: false
+  name: IsTypeVisibleFromCom
+  nameWithType: Marshal.IsTypeVisibleFromCom
+- uid: System.Runtime.InteropServices.Marshal.NumParamBytes*
+  parent: System.Runtime.InteropServices.Marshal
+  isExternal: false
+  name: NumParamBytes
+  nameWithType: Marshal.NumParamBytes
+- uid: System.Runtime.InteropServices.Marshal.OffsetOf*
+  parent: System.Runtime.InteropServices.Marshal
+  isExternal: false
+  name: OffsetOf
+  nameWithType: Marshal.OffsetOf
+- uid: System.Runtime.InteropServices.Marshal.OffsetOf<T>*
+  parent: System.Runtime.InteropServices.Marshal
+  isExternal: false
+  name: OffsetOf<T>
+  nameWithType: Marshal.OffsetOf<T>
+- uid: System.Runtime.InteropServices.Marshal.Prelink*
+  parent: System.Runtime.InteropServices.Marshal
+  isExternal: false
+  name: Prelink
+  nameWithType: Marshal.Prelink
+- uid: System.Runtime.InteropServices.Marshal.PrelinkAll*
+  parent: System.Runtime.InteropServices.Marshal
+  isExternal: false
+  name: PrelinkAll
+  nameWithType: Marshal.PrelinkAll
 - uid: System.Runtime.InteropServices.Marshal.PtrToStringAnsi*
   parent: System.Runtime.InteropServices.Marshal
   isExternal: false
@@ -8748,6 +9161,11 @@ references:
   isExternal: false
   name: PtrToStringAuto
   nameWithType: Marshal.PtrToStringAuto
+- uid: System.Runtime.InteropServices.Marshal.PtrToStringBSTR*
+  parent: System.Runtime.InteropServices.Marshal
+  isExternal: false
+  name: PtrToStringBSTR
+  nameWithType: Marshal.PtrToStringBSTR
 - uid: System.Runtime.InteropServices.Marshal.PtrToStringUni*
   parent: System.Runtime.InteropServices.Marshal
   isExternal: false
@@ -8763,6 +9181,11 @@ references:
   isExternal: false
   name: PtrToStructure<T>
   nameWithType: Marshal.PtrToStructure<T>
+- uid: System.Runtime.InteropServices.Marshal.QueryInterface*
+  parent: System.Runtime.InteropServices.Marshal
+  isExternal: false
+  name: QueryInterface
+  nameWithType: Marshal.QueryInterface
 - uid: System.Runtime.InteropServices.Marshal.ReadByte*
   parent: System.Runtime.InteropServices.Marshal
   isExternal: false
@@ -8788,6 +9211,61 @@ references:
   isExternal: false
   name: ReadIntPtr
   nameWithType: Marshal.ReadIntPtr
+- uid: System.Runtime.InteropServices.Marshal.ReAllocCoTaskMem*
+  parent: System.Runtime.InteropServices.Marshal
+  isExternal: false
+  name: ReAllocCoTaskMem
+  nameWithType: Marshal.ReAllocCoTaskMem
+- uid: System.Runtime.InteropServices.Marshal.ReAllocHGlobal*
+  parent: System.Runtime.InteropServices.Marshal
+  isExternal: false
+  name: ReAllocHGlobal
+  nameWithType: Marshal.ReAllocHGlobal
+- uid: System.Runtime.InteropServices.Marshal.Release*
+  parent: System.Runtime.InteropServices.Marshal
+  isExternal: false
+  name: Release
+  nameWithType: Marshal.Release
+- uid: System.Runtime.InteropServices.Marshal.ReleaseComObject*
+  parent: System.Runtime.InteropServices.Marshal
+  isExternal: false
+  name: ReleaseComObject
+  nameWithType: Marshal.ReleaseComObject
+- uid: System.Runtime.InteropServices.Marshal.ReleaseThreadCache*
+  parent: System.Runtime.InteropServices.Marshal
+  isExternal: false
+  name: ReleaseThreadCache
+  nameWithType: Marshal.ReleaseThreadCache
+- uid: System.Runtime.InteropServices.Marshal.SecureStringToBSTR*
+  parent: System.Runtime.InteropServices.Marshal
+  isExternal: false
+  name: SecureStringToBSTR
+  nameWithType: Marshal.SecureStringToBSTR
+- uid: System.Runtime.InteropServices.Marshal.SecureStringToCoTaskMemAnsi*
+  parent: System.Runtime.InteropServices.Marshal
+  isExternal: false
+  name: SecureStringToCoTaskMemAnsi
+  nameWithType: Marshal.SecureStringToCoTaskMemAnsi
+- uid: System.Runtime.InteropServices.Marshal.SecureStringToCoTaskMemUnicode*
+  parent: System.Runtime.InteropServices.Marshal
+  isExternal: false
+  name: SecureStringToCoTaskMemUnicode
+  nameWithType: Marshal.SecureStringToCoTaskMemUnicode
+- uid: System.Runtime.InteropServices.Marshal.SecureStringToGlobalAllocAnsi*
+  parent: System.Runtime.InteropServices.Marshal
+  isExternal: false
+  name: SecureStringToGlobalAllocAnsi
+  nameWithType: Marshal.SecureStringToGlobalAllocAnsi
+- uid: System.Runtime.InteropServices.Marshal.SecureStringToGlobalAllocUnicode*
+  parent: System.Runtime.InteropServices.Marshal
+  isExternal: false
+  name: SecureStringToGlobalAllocUnicode
+  nameWithType: Marshal.SecureStringToGlobalAllocUnicode
+- uid: System.Runtime.InteropServices.Marshal.SetComObjectData*
+  parent: System.Runtime.InteropServices.Marshal
+  isExternal: false
+  name: SetComObjectData
+  nameWithType: Marshal.SetComObjectData
 - uid: System.Runtime.InteropServices.Marshal.SizeOf*
   parent: System.Runtime.InteropServices.Marshal
   isExternal: false
@@ -8798,11 +9276,66 @@ references:
   isExternal: false
   name: SizeOf<T>
   nameWithType: Marshal.SizeOf<T>
+- uid: System.Runtime.InteropServices.Marshal.StringToBSTR*
+  parent: System.Runtime.InteropServices.Marshal
+  isExternal: false
+  name: StringToBSTR
+  nameWithType: Marshal.StringToBSTR
+- uid: System.Runtime.InteropServices.Marshal.StringToCoTaskMemAnsi*
+  parent: System.Runtime.InteropServices.Marshal
+  isExternal: false
+  name: StringToCoTaskMemAnsi
+  nameWithType: Marshal.StringToCoTaskMemAnsi
+- uid: System.Runtime.InteropServices.Marshal.StringToCoTaskMemAuto*
+  parent: System.Runtime.InteropServices.Marshal
+  isExternal: false
+  name: StringToCoTaskMemAuto
+  nameWithType: Marshal.StringToCoTaskMemAuto
+- uid: System.Runtime.InteropServices.Marshal.StringToCoTaskMemUni*
+  parent: System.Runtime.InteropServices.Marshal
+  isExternal: false
+  name: StringToCoTaskMemUni
+  nameWithType: Marshal.StringToCoTaskMemUni
+- uid: System.Runtime.InteropServices.Marshal.StringToHGlobalAnsi*
+  parent: System.Runtime.InteropServices.Marshal
+  isExternal: false
+  name: StringToHGlobalAnsi
+  nameWithType: Marshal.StringToHGlobalAnsi
+- uid: System.Runtime.InteropServices.Marshal.StringToHGlobalAuto*
+  parent: System.Runtime.InteropServices.Marshal
+  isExternal: false
+  name: StringToHGlobalAuto
+  nameWithType: Marshal.StringToHGlobalAuto
+- uid: System.Runtime.InteropServices.Marshal.StringToHGlobalUni*
+  parent: System.Runtime.InteropServices.Marshal
+  isExternal: false
+  name: StringToHGlobalUni
+  nameWithType: Marshal.StringToHGlobalUni
+- uid: System.Runtime.InteropServices.Marshal.StructureToPtr*
+  parent: System.Runtime.InteropServices.Marshal
+  isExternal: false
+  name: StructureToPtr
+  nameWithType: Marshal.StructureToPtr
+- uid: System.Runtime.InteropServices.Marshal.StructureToPtr<T>*
+  parent: System.Runtime.InteropServices.Marshal
+  isExternal: false
+  name: StructureToPtr<T>
+  nameWithType: Marshal.StructureToPtr<T>
 - uid: System.Runtime.InteropServices.Marshal.ThrowExceptionForHR*
   parent: System.Runtime.InteropServices.Marshal
   isExternal: false
   name: ThrowExceptionForHR
   nameWithType: Marshal.ThrowExceptionForHR
+- uid: System.Runtime.InteropServices.Marshal.UnsafeAddrOfPinnedArrayElement*
+  parent: System.Runtime.InteropServices.Marshal
+  isExternal: false
+  name: UnsafeAddrOfPinnedArrayElement
+  nameWithType: Marshal.UnsafeAddrOfPinnedArrayElement
+- uid: System.Runtime.InteropServices.Marshal.UnsafeAddrOfPinnedArrayElement<T>*
+  parent: System.Runtime.InteropServices.Marshal
+  isExternal: false
+  name: UnsafeAddrOfPinnedArrayElement<T>
+  nameWithType: Marshal.UnsafeAddrOfPinnedArrayElement<T>
 - uid: System.Runtime.InteropServices.Marshal.WriteByte*
   parent: System.Runtime.InteropServices.Marshal
   isExternal: false
@@ -8828,3 +9361,28 @@ references:
   isExternal: false
   name: WriteIntPtr
   nameWithType: Marshal.WriteIntPtr
+- uid: System.Runtime.InteropServices.Marshal.ZeroFreeBSTR*
+  parent: System.Runtime.InteropServices.Marshal
+  isExternal: false
+  name: ZeroFreeBSTR
+  nameWithType: Marshal.ZeroFreeBSTR
+- uid: System.Runtime.InteropServices.Marshal.ZeroFreeCoTaskMemAnsi*
+  parent: System.Runtime.InteropServices.Marshal
+  isExternal: false
+  name: ZeroFreeCoTaskMemAnsi
+  nameWithType: Marshal.ZeroFreeCoTaskMemAnsi
+- uid: System.Runtime.InteropServices.Marshal.ZeroFreeCoTaskMemUnicode*
+  parent: System.Runtime.InteropServices.Marshal
+  isExternal: false
+  name: ZeroFreeCoTaskMemUnicode
+  nameWithType: Marshal.ZeroFreeCoTaskMemUnicode
+- uid: System.Runtime.InteropServices.Marshal.ZeroFreeGlobalAllocAnsi*
+  parent: System.Runtime.InteropServices.Marshal
+  isExternal: false
+  name: ZeroFreeGlobalAllocAnsi
+  nameWithType: Marshal.ZeroFreeGlobalAllocAnsi
+- uid: System.Runtime.InteropServices.Marshal.ZeroFreeGlobalAllocUnicode*
+  parent: System.Runtime.InteropServices.Marshal
+  isExternal: false
+  name: ZeroFreeGlobalAllocUnicode
+  nameWithType: Marshal.ZeroFreeGlobalAllocUnicode

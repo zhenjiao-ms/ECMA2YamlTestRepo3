@@ -65,6 +65,7 @@ items:
     return:
       type: System.Boolean
       description: To be added.
+  overload: System.Reflection.Emit.LocalBuilder.IsPinned*
   platform:
   - net-11
   - net-20
@@ -88,6 +89,7 @@ items:
     return:
       type: System.Int32
       description: To be added.
+  overload: System.Reflection.Emit.LocalBuilder.LocalIndex*
   platform:
   - net-11
   - net-20
@@ -111,6 +113,7 @@ items:
     return:
       type: System.Type
       description: To be added.
+  overload: System.Reflection.Emit.LocalBuilder.LocalType*
   platform:
   - net-11
   - net-20
@@ -204,6 +207,7 @@ items:
     - id: rgDispId
       type: System.IntPtr
       description: To be added.
+  overload: System.Reflection.Emit.LocalBuilder.System#Runtime#InteropServices#_LocalBuilder#GetIDsOfNames*
   platform:
   - net-11
   - net-20
@@ -235,6 +239,7 @@ items:
     - id: ppTInfo
       type: System.IntPtr
       description: To be added.
+  overload: System.Reflection.Emit.LocalBuilder.System#Runtime#InteropServices#_LocalBuilder#GetTypeInfo*
   platform:
   - net-11
   - net-20
@@ -260,6 +265,7 @@ items:
     - id: pcTInfo
       type: System.UInt32
       description: To be added.
+  overload: System.Reflection.Emit.LocalBuilder.System#Runtime#InteropServices#_LocalBuilder#GetTypeInfoCount*
   platform:
   - net-11
   - net-20
@@ -306,6 +312,7 @@ items:
     - id: puArgErr
       type: System.IntPtr
       description: To be added.
+  overload: System.Reflection.Emit.LocalBuilder.System#Runtime#InteropServices#_LocalBuilder#Invoke*
   platform:
   - net-11
   - net-20
@@ -512,8 +519,43 @@ references:
   name: IntPtr
   nameWithType: IntPtr
   fullName: System.IntPtr
+- uid: System.Reflection.Emit.LocalBuilder.IsPinned*
+  parent: System.Reflection.Emit.LocalBuilder
+  isExternal: false
+  name: IsPinned
+  nameWithType: LocalBuilder.IsPinned
+- uid: System.Reflection.Emit.LocalBuilder.LocalIndex*
+  parent: System.Reflection.Emit.LocalBuilder
+  isExternal: false
+  name: LocalIndex
+  nameWithType: LocalBuilder.LocalIndex
+- uid: System.Reflection.Emit.LocalBuilder.LocalType*
+  parent: System.Reflection.Emit.LocalBuilder
+  isExternal: false
+  name: LocalType
+  nameWithType: LocalBuilder.LocalType
 - uid: System.Reflection.Emit.LocalBuilder.SetLocalSymInfo*
   parent: System.Reflection.Emit.LocalBuilder
   isExternal: false
   name: SetLocalSymInfo
   nameWithType: LocalBuilder.SetLocalSymInfo
+- uid: System.Reflection.Emit.LocalBuilder.System#Runtime#InteropServices#_LocalBuilder#GetIDsOfNames*
+  parent: System.Reflection.Emit.LocalBuilder
+  isExternal: false
+  name: System.Runtime.InteropServices._LocalBuilder.GetIDsOfNames
+  nameWithType: LocalBuilder.System.Runtime.InteropServices._LocalBuilder.GetIDsOfNames
+- uid: System.Reflection.Emit.LocalBuilder.System#Runtime#InteropServices#_LocalBuilder#GetTypeInfo*
+  parent: System.Reflection.Emit.LocalBuilder
+  isExternal: false
+  name: System.Runtime.InteropServices._LocalBuilder.GetTypeInfo
+  nameWithType: LocalBuilder.System.Runtime.InteropServices._LocalBuilder.GetTypeInfo
+- uid: System.Reflection.Emit.LocalBuilder.System#Runtime#InteropServices#_LocalBuilder#GetTypeInfoCount*
+  parent: System.Reflection.Emit.LocalBuilder
+  isExternal: false
+  name: System.Runtime.InteropServices._LocalBuilder.GetTypeInfoCount
+  nameWithType: LocalBuilder.System.Runtime.InteropServices._LocalBuilder.GetTypeInfoCount
+- uid: System.Reflection.Emit.LocalBuilder.System#Runtime#InteropServices#_LocalBuilder#Invoke*
+  parent: System.Reflection.Emit.LocalBuilder
+  isExternal: false
+  name: System.Runtime.InteropServices._LocalBuilder.Invoke
+  nameWithType: LocalBuilder.System.Runtime.InteropServices._LocalBuilder.Invoke

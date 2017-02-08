@@ -89,6 +89,7 @@ items:
   syntax:
     content: public SpecialNameAttribute ();
     parameters: []
+  overload: System.Runtime.CompilerServices.SpecialNameAttribute.#ctor*
   platform:
   - net-11
   - net-20
@@ -103,3 +104,8 @@ references:
   name: SpecialNameAttribute()
   nameWithType: SpecialNameAttribute.SpecialNameAttribute()
   fullName: System.Runtime.CompilerServices.SpecialNameAttribute.SpecialNameAttribute()
+- uid: System.Runtime.CompilerServices.SpecialNameAttribute.#ctor*
+  parent: System.Runtime.CompilerServices.SpecialNameAttribute
+  isExternal: false
+  name: SpecialNameAttribute
+  nameWithType: SpecialNameAttribute.SpecialNameAttribute

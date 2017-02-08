@@ -95,6 +95,7 @@ items:
     - id: conditionString
       type: System.String
       description: To be added.
+  overload: System.Diagnostics.ConditionalAttribute.#ctor*
   platform:
   - net-11
   - net-20
@@ -118,6 +119,7 @@ items:
     return:
       type: System.String
       description: To be added.
+  overload: System.Diagnostics.ConditionalAttribute.ConditionString*
   platform:
   - net-11
   - net-20
@@ -150,3 +152,13 @@ references:
   name: String
   nameWithType: String
   fullName: System.String
+- uid: System.Diagnostics.ConditionalAttribute.#ctor*
+  parent: System.Diagnostics.ConditionalAttribute
+  isExternal: false
+  name: ConditionalAttribute
+  nameWithType: ConditionalAttribute.ConditionalAttribute
+- uid: System.Diagnostics.ConditionalAttribute.ConditionString*
+  parent: System.Diagnostics.ConditionalAttribute
+  isExternal: false
+  name: ConditionString
+  nameWithType: ConditionalAttribute.ConditionString

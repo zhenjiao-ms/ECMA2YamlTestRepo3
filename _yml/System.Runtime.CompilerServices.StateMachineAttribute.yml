@@ -93,6 +93,7 @@ items:
     - id: stateMachineType
       type: System.Type
       description: To be added.
+  overload: System.Runtime.CompilerServices.StateMachineAttribute.#ctor*
   platform:
   - net-11
   - net-20
@@ -116,6 +117,7 @@ items:
     return:
       type: System.Type
       description: To be added.
+  overload: System.Runtime.CompilerServices.StateMachineAttribute.StateMachineType*
   platform:
   - net-11
   - net-20
@@ -148,3 +150,13 @@ references:
   name: Type
   nameWithType: Type
   fullName: System.Type
+- uid: System.Runtime.CompilerServices.StateMachineAttribute.#ctor*
+  parent: System.Runtime.CompilerServices.StateMachineAttribute
+  isExternal: false
+  name: StateMachineAttribute
+  nameWithType: StateMachineAttribute.StateMachineAttribute
+- uid: System.Runtime.CompilerServices.StateMachineAttribute.StateMachineType*
+  parent: System.Runtime.CompilerServices.StateMachineAttribute
+  isExternal: false
+  name: StateMachineType
+  nameWithType: StateMachineAttribute.StateMachineType

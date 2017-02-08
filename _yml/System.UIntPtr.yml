@@ -71,6 +71,7 @@ items:
     - id: value
       type: System.UInt32
       description: To be added.
+  overload: System.UIntPtr.#ctor*
   platform:
   - net-11
   - net-20
@@ -95,6 +96,7 @@ items:
     - id: value
       type: System.UInt64
       description: To be added.
+  overload: System.UIntPtr.#ctor*
   platform:
   - net-11
   - net-20
@@ -119,6 +121,7 @@ items:
     - id: value
       type: System.Void*
       description: To be added.
+  overload: System.UIntPtr.#ctor*
   platform:
   - net-11
   - net-20
@@ -149,6 +152,7 @@ items:
     return:
       type: System.UIntPtr
       description: To be added.
+  overload: System.UIntPtr.Add*
   platform:
   - net-11
   - net-20
@@ -176,6 +180,7 @@ items:
     return:
       type: System.Boolean
       description: To be added.
+  overload: System.UIntPtr.Equals*
   platform:
   - net-11
   - net-20
@@ -200,6 +205,7 @@ items:
     return:
       type: System.Int32
       description: To be added.
+  overload: System.UIntPtr.GetHashCode*
   platform:
   - net-11
   - net-20
@@ -230,6 +236,7 @@ items:
     return:
       type: System.UIntPtr
       description: To be added.
+  overload: System.UIntPtr.op_Addition*
   platform:
   - net-11
   - net-20
@@ -260,6 +267,7 @@ items:
     return:
       type: System.Boolean
       description: To be added.
+  overload: System.UIntPtr.op_Equality*
   platform:
   - net-11
   - net-20
@@ -287,6 +295,7 @@ items:
     return:
       type: System.UIntPtr
       description: To be added.
+  overload: System.UIntPtr.op_Explicit*
   platform:
   - net-11
   - net-20
@@ -314,6 +323,7 @@ items:
     return:
       type: System.UIntPtr
       description: To be added.
+  overload: System.UIntPtr.op_Explicit*
   platform:
   - net-11
   - net-20
@@ -341,6 +351,7 @@ items:
     return:
       type: System.UInt32
       description: To be added.
+  overload: System.UIntPtr.op_Explicit*
   platform:
   - net-11
   - net-20
@@ -368,6 +379,7 @@ items:
     return:
       type: System.UInt64
       description: To be added.
+  overload: System.UIntPtr.op_Explicit*
   platform:
   - net-11
   - net-20
@@ -395,6 +407,7 @@ items:
     return:
       type: System.Void*
       description: To be added.
+  overload: System.UIntPtr.op_Explicit*
   platform:
   - net-11
   - net-20
@@ -422,6 +435,7 @@ items:
     return:
       type: System.UIntPtr
       description: To be added.
+  overload: System.UIntPtr.op_Explicit*
   platform:
   - net-11
   - net-20
@@ -452,6 +466,7 @@ items:
     return:
       type: System.Boolean
       description: To be added.
+  overload: System.UIntPtr.op_Inequality*
   platform:
   - net-11
   - net-20
@@ -482,6 +497,7 @@ items:
     return:
       type: System.UIntPtr
       description: To be added.
+  overload: System.UIntPtr.op_Subtraction*
   platform:
   - net-11
   - net-20
@@ -505,6 +521,7 @@ items:
     return:
       type: System.Int32
       description: To be added.
+  overload: System.UIntPtr.Size*
   platform:
   - net-11
   - net-20
@@ -535,6 +552,7 @@ items:
     return:
       type: System.UIntPtr
       description: To be added.
+  overload: System.UIntPtr.Subtract*
   platform:
   - net-11
   - net-20
@@ -563,6 +581,7 @@ items:
     - id: context
       type: System.Runtime.Serialization.StreamingContext
       description: To be added.
+  overload: System.UIntPtr.System#Runtime#Serialization#ISerializable#GetObjectData*
   platform:
   - net-11
   - net-20
@@ -587,6 +606,7 @@ items:
     return:
       type: System.Void*
       description: To be added.
+  overload: System.UIntPtr.ToPointer*
   platform:
   - net-11
   - net-20
@@ -611,6 +631,7 @@ items:
     return:
       type: System.String
       description: To be added.
+  overload: System.UIntPtr.ToString*
   platform:
   - net-11
   - net-20
@@ -635,6 +656,7 @@ items:
     return:
       type: System.UInt32
       description: To be added.
+  overload: System.UIntPtr.ToUInt32*
   platform:
   - net-11
   - net-20
@@ -659,6 +681,7 @@ items:
     return:
       type: System.UInt64
       description: To be added.
+  overload: System.UIntPtr.ToUInt64*
   platform:
   - net-11
   - net-20
@@ -1074,3 +1097,83 @@ references:
   name: UIntPtr
   nameWithType: UIntPtr
   fullName: System.UIntPtr
+- uid: System.UIntPtr.#ctor*
+  parent: System.UIntPtr
+  isExternal: false
+  name: UIntPtr
+  nameWithType: UIntPtr.UIntPtr
+- uid: System.UIntPtr.Add*
+  parent: System.UIntPtr
+  isExternal: false
+  name: Add
+  nameWithType: UIntPtr.Add
+- uid: System.UIntPtr.Equals*
+  parent: System.UIntPtr
+  isExternal: false
+  name: Equals
+  nameWithType: UIntPtr.Equals
+- uid: System.UIntPtr.GetHashCode*
+  parent: System.UIntPtr
+  isExternal: false
+  name: GetHashCode
+  nameWithType: UIntPtr.GetHashCode
+- uid: System.UIntPtr.op_Addition*
+  parent: System.UIntPtr
+  isExternal: false
+  name: op_Addition
+  nameWithType: UIntPtr.op_Addition
+- uid: System.UIntPtr.op_Equality*
+  parent: System.UIntPtr
+  isExternal: false
+  name: op_Equality
+  nameWithType: UIntPtr.op_Equality
+- uid: System.UIntPtr.op_Explicit*
+  parent: System.UIntPtr
+  isExternal: false
+  name: op_Explicit
+  nameWithType: UIntPtr.op_Explicit
+- uid: System.UIntPtr.op_Inequality*
+  parent: System.UIntPtr
+  isExternal: false
+  name: op_Inequality
+  nameWithType: UIntPtr.op_Inequality
+- uid: System.UIntPtr.op_Subtraction*
+  parent: System.UIntPtr
+  isExternal: false
+  name: op_Subtraction
+  nameWithType: UIntPtr.op_Subtraction
+- uid: System.UIntPtr.Size*
+  parent: System.UIntPtr
+  isExternal: false
+  name: Size
+  nameWithType: UIntPtr.Size
+- uid: System.UIntPtr.Subtract*
+  parent: System.UIntPtr
+  isExternal: false
+  name: Subtract
+  nameWithType: UIntPtr.Subtract
+- uid: System.UIntPtr.System#Runtime#Serialization#ISerializable#GetObjectData*
+  parent: System.UIntPtr
+  isExternal: false
+  name: System.Runtime.Serialization.ISerializable.GetObjectData
+  nameWithType: UIntPtr.System.Runtime.Serialization.ISerializable.GetObjectData
+- uid: System.UIntPtr.ToPointer*
+  parent: System.UIntPtr
+  isExternal: false
+  name: ToPointer
+  nameWithType: UIntPtr.ToPointer
+- uid: System.UIntPtr.ToString*
+  parent: System.UIntPtr
+  isExternal: false
+  name: ToString
+  nameWithType: UIntPtr.ToString
+- uid: System.UIntPtr.ToUInt32*
+  parent: System.UIntPtr
+  isExternal: false
+  name: ToUInt32
+  nameWithType: UIntPtr.ToUInt32
+- uid: System.UIntPtr.ToUInt64*
+  parent: System.UIntPtr
+  isExternal: false
+  name: ToUInt64
+  nameWithType: UIntPtr.ToUInt64

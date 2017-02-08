@@ -79,6 +79,7 @@ items:
   syntax:
     content: public HMACRIPEMD160 ();
     parameters: []
+  overload: System.Security.Cryptography.HMACRIPEMD160.#ctor*
   platform:
   - net-11
   - net-20
@@ -103,6 +104,7 @@ items:
     - id: key
       type: System.Byte[]
       description: To be added.
+  overload: System.Security.Cryptography.HMACRIPEMD160.#ctor*
   platform:
   - net-11
   - net-20
@@ -129,3 +131,8 @@ references:
   name: Byte
   nameWithType: Byte
   fullName: System.Byte[]
+- uid: System.Security.Cryptography.HMACRIPEMD160.#ctor*
+  parent: System.Security.Cryptography.HMACRIPEMD160
+  isExternal: false
+  name: HMACRIPEMD160
+  nameWithType: HMACRIPEMD160.HMACRIPEMD160

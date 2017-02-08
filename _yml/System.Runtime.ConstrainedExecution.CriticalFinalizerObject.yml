@@ -50,6 +50,7 @@ items:
   syntax:
     content: protected CriticalFinalizerObject ();
     parameters: []
+  overload: System.Runtime.ConstrainedExecution.CriticalFinalizerObject.#ctor*
   platform:
   - net-11
   - net-20
@@ -71,6 +72,7 @@ items:
   syntax:
     content: ~CriticalFinalizerObject ();
     parameters: []
+  overload: System.Runtime.ConstrainedExecution.CriticalFinalizerObject.Finalize*
   platform:
   - net-11
   - net-20
@@ -91,3 +93,13 @@ references:
   name: Finalize()
   nameWithType: CriticalFinalizerObject.Finalize()
   fullName: System.Runtime.ConstrainedExecution.CriticalFinalizerObject.Finalize()
+- uid: System.Runtime.ConstrainedExecution.CriticalFinalizerObject.#ctor*
+  parent: System.Runtime.ConstrainedExecution.CriticalFinalizerObject
+  isExternal: false
+  name: CriticalFinalizerObject
+  nameWithType: CriticalFinalizerObject.CriticalFinalizerObject
+- uid: System.Runtime.ConstrainedExecution.CriticalFinalizerObject.Finalize*
+  parent: System.Runtime.ConstrainedExecution.CriticalFinalizerObject
+  isExternal: false
+  name: Finalize
+  nameWithType: CriticalFinalizerObject.Finalize

@@ -39,6 +39,7 @@ items:
   syntax:
     content: public void Dispose ();
     parameters: []
+  overload: System.IDisposable.Dispose*
   platform:
   - net-11
   - net-20
@@ -50,3 +51,8 @@ references:
   name: Dispose()
   nameWithType: IDisposable.Dispose()
   fullName: System.IDisposable.Dispose()
+- uid: System.IDisposable.Dispose*
+  parent: System.IDisposable
+  isExternal: false
+  name: Dispose
+  nameWithType: IDisposable.Dispose

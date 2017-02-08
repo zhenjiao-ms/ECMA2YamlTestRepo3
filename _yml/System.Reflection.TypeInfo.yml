@@ -261,6 +261,7 @@ items:
     return:
       type: System.Type
       description: To be added.
+  overload: System.Reflection.TypeInfo.AsType*
   platform:
   - net-11
   - net-20
@@ -284,6 +285,7 @@ items:
     return:
       type: System.Collections.Generic.IEnumerable{System.Reflection.ConstructorInfo}
       description: To be added.
+  overload: System.Reflection.TypeInfo.DeclaredConstructors*
   platform:
   - net-11
   - net-20
@@ -307,6 +309,7 @@ items:
     return:
       type: System.Collections.Generic.IEnumerable{System.Reflection.EventInfo}
       description: To be added.
+  overload: System.Reflection.TypeInfo.DeclaredEvents*
   platform:
   - net-11
   - net-20
@@ -330,6 +333,7 @@ items:
     return:
       type: System.Collections.Generic.IEnumerable{System.Reflection.FieldInfo}
       description: To be added.
+  overload: System.Reflection.TypeInfo.DeclaredFields*
   platform:
   - net-11
   - net-20
@@ -353,6 +357,7 @@ items:
     return:
       type: System.Collections.Generic.IEnumerable{System.Reflection.MemberInfo}
       description: To be added.
+  overload: System.Reflection.TypeInfo.DeclaredMembers*
   platform:
   - net-11
   - net-20
@@ -376,6 +381,7 @@ items:
     return:
       type: System.Collections.Generic.IEnumerable{System.Reflection.MethodInfo}
       description: To be added.
+  overload: System.Reflection.TypeInfo.DeclaredMethods*
   platform:
   - net-11
   - net-20
@@ -399,6 +405,7 @@ items:
     return:
       type: System.Collections.Generic.IEnumerable{System.Reflection.TypeInfo}
       description: To be added.
+  overload: System.Reflection.TypeInfo.DeclaredNestedTypes*
   platform:
   - net-11
   - net-20
@@ -422,6 +429,7 @@ items:
     return:
       type: System.Collections.Generic.IEnumerable{System.Reflection.PropertyInfo}
       description: To be added.
+  overload: System.Reflection.TypeInfo.DeclaredProperties*
   platform:
   - net-11
   - net-20
@@ -445,6 +453,7 @@ items:
     return:
       type: System.Type[]
       description: To be added.
+  overload: System.Reflection.TypeInfo.GenericTypeParameters*
   platform:
   - net-11
   - net-20
@@ -472,6 +481,7 @@ items:
     return:
       type: System.Reflection.EventInfo
       description: To be added.
+  overload: System.Reflection.TypeInfo.GetDeclaredEvent*
   platform:
   - net-11
   - net-20
@@ -499,6 +509,7 @@ items:
     return:
       type: System.Reflection.FieldInfo
       description: To be added.
+  overload: System.Reflection.TypeInfo.GetDeclaredField*
   platform:
   - net-11
   - net-20
@@ -526,6 +537,7 @@ items:
     return:
       type: System.Reflection.MethodInfo
       description: To be added.
+  overload: System.Reflection.TypeInfo.GetDeclaredMethod*
   platform:
   - net-11
   - net-20
@@ -553,6 +565,7 @@ items:
     return:
       type: System.Collections.Generic.IEnumerable{System.Reflection.MethodInfo}
       description: To be added.
+  overload: System.Reflection.TypeInfo.GetDeclaredMethods*
   platform:
   - net-11
   - net-20
@@ -580,6 +593,7 @@ items:
     return:
       type: System.Reflection.TypeInfo
       description: To be added.
+  overload: System.Reflection.TypeInfo.GetDeclaredNestedType*
   platform:
   - net-11
   - net-20
@@ -607,6 +621,7 @@ items:
     return:
       type: System.Reflection.PropertyInfo
       description: To be added.
+  overload: System.Reflection.TypeInfo.GetDeclaredProperty*
   platform:
   - net-11
   - net-20
@@ -630,6 +645,7 @@ items:
     return:
       type: System.Collections.Generic.IEnumerable{System.Type}
       description: To be added.
+  overload: System.Reflection.TypeInfo.ImplementedInterfaces*
   platform:
   - net-11
   - net-20
@@ -657,6 +673,7 @@ items:
     return:
       type: System.Boolean
       description: To be added.
+  overload: System.Reflection.TypeInfo.IsAssignableFrom*
   platform:
   - net-11
   - net-20
@@ -682,6 +699,7 @@ items:
     return:
       type: System.Reflection.TypeInfo
       description: To be added.
+  overload: System.Reflection.TypeInfo.System#Reflection#IReflectableType#GetTypeInfo*
   platform:
   - net-11
   - net-20
@@ -948,3 +966,93 @@ references:
   name: TypeInfo
   nameWithType: TypeInfo
   fullName: System.Reflection.TypeInfo
+- uid: System.Reflection.TypeInfo.AsType*
+  parent: System.Reflection.TypeInfo
+  isExternal: false
+  name: AsType
+  nameWithType: TypeInfo.AsType
+- uid: System.Reflection.TypeInfo.DeclaredConstructors*
+  parent: System.Reflection.TypeInfo
+  isExternal: false
+  name: DeclaredConstructors
+  nameWithType: TypeInfo.DeclaredConstructors
+- uid: System.Reflection.TypeInfo.DeclaredEvents*
+  parent: System.Reflection.TypeInfo
+  isExternal: false
+  name: DeclaredEvents
+  nameWithType: TypeInfo.DeclaredEvents
+- uid: System.Reflection.TypeInfo.DeclaredFields*
+  parent: System.Reflection.TypeInfo
+  isExternal: false
+  name: DeclaredFields
+  nameWithType: TypeInfo.DeclaredFields
+- uid: System.Reflection.TypeInfo.DeclaredMembers*
+  parent: System.Reflection.TypeInfo
+  isExternal: false
+  name: DeclaredMembers
+  nameWithType: TypeInfo.DeclaredMembers
+- uid: System.Reflection.TypeInfo.DeclaredMethods*
+  parent: System.Reflection.TypeInfo
+  isExternal: false
+  name: DeclaredMethods
+  nameWithType: TypeInfo.DeclaredMethods
+- uid: System.Reflection.TypeInfo.DeclaredNestedTypes*
+  parent: System.Reflection.TypeInfo
+  isExternal: false
+  name: DeclaredNestedTypes
+  nameWithType: TypeInfo.DeclaredNestedTypes
+- uid: System.Reflection.TypeInfo.DeclaredProperties*
+  parent: System.Reflection.TypeInfo
+  isExternal: false
+  name: DeclaredProperties
+  nameWithType: TypeInfo.DeclaredProperties
+- uid: System.Reflection.TypeInfo.GenericTypeParameters*
+  parent: System.Reflection.TypeInfo
+  isExternal: false
+  name: GenericTypeParameters
+  nameWithType: TypeInfo.GenericTypeParameters
+- uid: System.Reflection.TypeInfo.GetDeclaredEvent*
+  parent: System.Reflection.TypeInfo
+  isExternal: false
+  name: GetDeclaredEvent
+  nameWithType: TypeInfo.GetDeclaredEvent
+- uid: System.Reflection.TypeInfo.GetDeclaredField*
+  parent: System.Reflection.TypeInfo
+  isExternal: false
+  name: GetDeclaredField
+  nameWithType: TypeInfo.GetDeclaredField
+- uid: System.Reflection.TypeInfo.GetDeclaredMethod*
+  parent: System.Reflection.TypeInfo
+  isExternal: false
+  name: GetDeclaredMethod
+  nameWithType: TypeInfo.GetDeclaredMethod
+- uid: System.Reflection.TypeInfo.GetDeclaredMethods*
+  parent: System.Reflection.TypeInfo
+  isExternal: false
+  name: GetDeclaredMethods
+  nameWithType: TypeInfo.GetDeclaredMethods
+- uid: System.Reflection.TypeInfo.GetDeclaredNestedType*
+  parent: System.Reflection.TypeInfo
+  isExternal: false
+  name: GetDeclaredNestedType
+  nameWithType: TypeInfo.GetDeclaredNestedType
+- uid: System.Reflection.TypeInfo.GetDeclaredProperty*
+  parent: System.Reflection.TypeInfo
+  isExternal: false
+  name: GetDeclaredProperty
+  nameWithType: TypeInfo.GetDeclaredProperty
+- uid: System.Reflection.TypeInfo.ImplementedInterfaces*
+  parent: System.Reflection.TypeInfo
+  isExternal: false
+  name: ImplementedInterfaces
+  nameWithType: TypeInfo.ImplementedInterfaces
+- uid: System.Reflection.TypeInfo.IsAssignableFrom*
+  parent: System.Reflection.TypeInfo
+  isExternal: false
+  name: IsAssignableFrom
+  nameWithType: TypeInfo.IsAssignableFrom
+- uid: System.Reflection.TypeInfo.System#Reflection#IReflectableType#GetTypeInfo*
+  parent: System.Reflection.TypeInfo
+  isExternal: false
+  name: System.Reflection.IReflectableType.GetTypeInfo
+  nameWithType: TypeInfo.System.Reflection.IReflectableType.GetTypeInfo

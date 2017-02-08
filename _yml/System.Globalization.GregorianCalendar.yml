@@ -99,6 +99,7 @@ items:
   syntax:
     content: public GregorianCalendar ();
     parameters: []
+  overload: System.Globalization.GregorianCalendar.#ctor*
   platform:
   - net-11
   - net-20
@@ -123,6 +124,7 @@ items:
     - id: type
       type: System.Globalization.GregorianCalendarTypes
       description: To be added.
+  overload: System.Globalization.GregorianCalendar.#ctor*
   platform:
   - net-11
   - net-20
@@ -153,6 +155,7 @@ items:
     return:
       type: System.DateTime
       description: To be added.
+  overload: System.Globalization.GregorianCalendar.AddMonths*
   platform:
   - net-11
   - net-20
@@ -183,6 +186,7 @@ items:
     return:
       type: System.DateTime
       description: To be added.
+  overload: System.Globalization.GregorianCalendar.AddYears*
   platform:
   - net-11
   - net-20
@@ -229,6 +233,7 @@ items:
     return:
       type: System.Globalization.CalendarAlgorithmType
       description: To be added.
+  overload: System.Globalization.GregorianCalendar.AlgorithmType*
   platform:
   - net-11
   - net-20
@@ -252,6 +257,7 @@ items:
     return:
       type: System.Globalization.GregorianCalendarTypes
       description: To be added.
+  overload: System.Globalization.GregorianCalendar.CalendarType*
   platform:
   - net-11
   - net-20
@@ -275,6 +281,7 @@ items:
     return:
       type: System.Int32[]
       description: To be added.
+  overload: System.Globalization.GregorianCalendar.Eras*
   platform:
   - net-11
   - net-20
@@ -302,6 +309,7 @@ items:
     return:
       type: System.Int32
       description: To be added.
+  overload: System.Globalization.GregorianCalendar.GetDayOfMonth*
   platform:
   - net-11
   - net-20
@@ -329,6 +337,7 @@ items:
     return:
       type: System.DayOfWeek
       description: To be added.
+  overload: System.Globalization.GregorianCalendar.GetDayOfWeek*
   platform:
   - net-11
   - net-20
@@ -356,6 +365,7 @@ items:
     return:
       type: System.Int32
       description: To be added.
+  overload: System.Globalization.GregorianCalendar.GetDayOfYear*
   platform:
   - net-11
   - net-20
@@ -389,6 +399,7 @@ items:
     return:
       type: System.Int32
       description: To be added.
+  overload: System.Globalization.GregorianCalendar.GetDaysInMonth*
   platform:
   - net-11
   - net-20
@@ -419,6 +430,7 @@ items:
     return:
       type: System.Int32
       description: To be added.
+  overload: System.Globalization.GregorianCalendar.GetDaysInYear*
   platform:
   - net-11
   - net-20
@@ -446,6 +458,7 @@ items:
     return:
       type: System.Int32
       description: To be added.
+  overload: System.Globalization.GregorianCalendar.GetEra*
   platform:
   - net-11
   - net-20
@@ -476,6 +489,7 @@ items:
     return:
       type: System.Int32
       description: To be added.
+  overload: System.Globalization.GregorianCalendar.GetLeapMonth*
   platform:
   - net-11
   - net-20
@@ -503,6 +517,7 @@ items:
     return:
       type: System.Int32
       description: To be added.
+  overload: System.Globalization.GregorianCalendar.GetMonth*
   platform:
   - net-11
   - net-20
@@ -533,6 +548,7 @@ items:
     return:
       type: System.Int32
       description: To be added.
+  overload: System.Globalization.GregorianCalendar.GetMonthsInYear*
   platform:
   - net-11
   - net-20
@@ -560,6 +576,7 @@ items:
     return:
       type: System.Int32
       description: To be added.
+  overload: System.Globalization.GregorianCalendar.GetYear*
   platform:
   - net-11
   - net-20
@@ -596,6 +613,7 @@ items:
     return:
       type: System.Boolean
       description: To be added.
+  overload: System.Globalization.GregorianCalendar.IsLeapDay*
   platform:
   - net-11
   - net-20
@@ -629,6 +647,7 @@ items:
     return:
       type: System.Boolean
       description: To be added.
+  overload: System.Globalization.GregorianCalendar.IsLeapMonth*
   platform:
   - net-11
   - net-20
@@ -659,6 +678,7 @@ items:
     return:
       type: System.Boolean
       description: To be added.
+  overload: System.Globalization.GregorianCalendar.IsLeapYear*
   platform:
   - net-11
   - net-20
@@ -682,6 +702,7 @@ items:
     return:
       type: System.DateTime
       description: To be added.
+  overload: System.Globalization.GregorianCalendar.MaxSupportedDateTime*
   platform:
   - net-11
   - net-20
@@ -705,6 +726,7 @@ items:
     return:
       type: System.DateTime
       description: To be added.
+  overload: System.Globalization.GregorianCalendar.MinSupportedDateTime*
   platform:
   - net-11
   - net-20
@@ -753,6 +775,7 @@ items:
     return:
       type: System.DateTime
       description: To be added.
+  overload: System.Globalization.GregorianCalendar.ToDateTime*
   platform:
   - net-11
   - net-20
@@ -780,6 +803,7 @@ items:
     return:
       type: System.Int32
       description: To be added.
+  overload: System.Globalization.GregorianCalendar.ToFourDigitYear*
   platform:
   - net-11
   - net-20
@@ -803,6 +827,7 @@ items:
     return:
       type: System.Int32
       description: To be added.
+  overload: System.Globalization.GregorianCalendar.TwoDigitYearMax*
   platform:
   - net-11
   - net-20
@@ -1339,3 +1364,123 @@ references:
   name: Int32
   nameWithType: Int32
   fullName: System.Int32
+- uid: System.Globalization.GregorianCalendar.#ctor*
+  parent: System.Globalization.GregorianCalendar
+  isExternal: false
+  name: GregorianCalendar
+  nameWithType: GregorianCalendar.GregorianCalendar
+- uid: System.Globalization.GregorianCalendar.AddMonths*
+  parent: System.Globalization.GregorianCalendar
+  isExternal: false
+  name: AddMonths
+  nameWithType: GregorianCalendar.AddMonths
+- uid: System.Globalization.GregorianCalendar.AddYears*
+  parent: System.Globalization.GregorianCalendar
+  isExternal: false
+  name: AddYears
+  nameWithType: GregorianCalendar.AddYears
+- uid: System.Globalization.GregorianCalendar.AlgorithmType*
+  parent: System.Globalization.GregorianCalendar
+  isExternal: false
+  name: AlgorithmType
+  nameWithType: GregorianCalendar.AlgorithmType
+- uid: System.Globalization.GregorianCalendar.CalendarType*
+  parent: System.Globalization.GregorianCalendar
+  isExternal: false
+  name: CalendarType
+  nameWithType: GregorianCalendar.CalendarType
+- uid: System.Globalization.GregorianCalendar.Eras*
+  parent: System.Globalization.GregorianCalendar
+  isExternal: false
+  name: Eras
+  nameWithType: GregorianCalendar.Eras
+- uid: System.Globalization.GregorianCalendar.GetDayOfMonth*
+  parent: System.Globalization.GregorianCalendar
+  isExternal: false
+  name: GetDayOfMonth
+  nameWithType: GregorianCalendar.GetDayOfMonth
+- uid: System.Globalization.GregorianCalendar.GetDayOfWeek*
+  parent: System.Globalization.GregorianCalendar
+  isExternal: false
+  name: GetDayOfWeek
+  nameWithType: GregorianCalendar.GetDayOfWeek
+- uid: System.Globalization.GregorianCalendar.GetDayOfYear*
+  parent: System.Globalization.GregorianCalendar
+  isExternal: false
+  name: GetDayOfYear
+  nameWithType: GregorianCalendar.GetDayOfYear
+- uid: System.Globalization.GregorianCalendar.GetDaysInMonth*
+  parent: System.Globalization.GregorianCalendar
+  isExternal: false
+  name: GetDaysInMonth
+  nameWithType: GregorianCalendar.GetDaysInMonth
+- uid: System.Globalization.GregorianCalendar.GetDaysInYear*
+  parent: System.Globalization.GregorianCalendar
+  isExternal: false
+  name: GetDaysInYear
+  nameWithType: GregorianCalendar.GetDaysInYear
+- uid: System.Globalization.GregorianCalendar.GetEra*
+  parent: System.Globalization.GregorianCalendar
+  isExternal: false
+  name: GetEra
+  nameWithType: GregorianCalendar.GetEra
+- uid: System.Globalization.GregorianCalendar.GetLeapMonth*
+  parent: System.Globalization.GregorianCalendar
+  isExternal: false
+  name: GetLeapMonth
+  nameWithType: GregorianCalendar.GetLeapMonth
+- uid: System.Globalization.GregorianCalendar.GetMonth*
+  parent: System.Globalization.GregorianCalendar
+  isExternal: false
+  name: GetMonth
+  nameWithType: GregorianCalendar.GetMonth
+- uid: System.Globalization.GregorianCalendar.GetMonthsInYear*
+  parent: System.Globalization.GregorianCalendar
+  isExternal: false
+  name: GetMonthsInYear
+  nameWithType: GregorianCalendar.GetMonthsInYear
+- uid: System.Globalization.GregorianCalendar.GetYear*
+  parent: System.Globalization.GregorianCalendar
+  isExternal: false
+  name: GetYear
+  nameWithType: GregorianCalendar.GetYear
+- uid: System.Globalization.GregorianCalendar.IsLeapDay*
+  parent: System.Globalization.GregorianCalendar
+  isExternal: false
+  name: IsLeapDay
+  nameWithType: GregorianCalendar.IsLeapDay
+- uid: System.Globalization.GregorianCalendar.IsLeapMonth*
+  parent: System.Globalization.GregorianCalendar
+  isExternal: false
+  name: IsLeapMonth
+  nameWithType: GregorianCalendar.IsLeapMonth
+- uid: System.Globalization.GregorianCalendar.IsLeapYear*
+  parent: System.Globalization.GregorianCalendar
+  isExternal: false
+  name: IsLeapYear
+  nameWithType: GregorianCalendar.IsLeapYear
+- uid: System.Globalization.GregorianCalendar.MaxSupportedDateTime*
+  parent: System.Globalization.GregorianCalendar
+  isExternal: false
+  name: MaxSupportedDateTime
+  nameWithType: GregorianCalendar.MaxSupportedDateTime
+- uid: System.Globalization.GregorianCalendar.MinSupportedDateTime*
+  parent: System.Globalization.GregorianCalendar
+  isExternal: false
+  name: MinSupportedDateTime
+  nameWithType: GregorianCalendar.MinSupportedDateTime
+- uid: System.Globalization.GregorianCalendar.ToDateTime*
+  parent: System.Globalization.GregorianCalendar
+  isExternal: false
+  name: ToDateTime
+  nameWithType: GregorianCalendar.ToDateTime
+- uid: System.Globalization.GregorianCalendar.ToFourDigitYear*
+  parent: System.Globalization.GregorianCalendar
+  isExternal: false
+  name: ToFourDigitYear
+  nameWithType: GregorianCalendar.ToFourDigitYear
+- uid: System.Globalization.GregorianCalendar.TwoDigitYearMax*
+  parent: System.Globalization.GregorianCalendar
+  isExternal: false
+  name: TwoDigitYearMax
+  nameWithType: GregorianCalendar.TwoDigitYearMax

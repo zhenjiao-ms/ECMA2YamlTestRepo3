@@ -69,6 +69,7 @@ items:
   syntax:
     content: public OperationCanceledException ();
     parameters: []
+  overload: System.OperationCanceledException.#ctor*
   platform:
   - net-11
   - net-20
@@ -93,6 +94,7 @@ items:
     - id: message
       type: System.String
       description: To be added.
+  overload: System.OperationCanceledException.#ctor*
   platform:
   - net-11
   - net-20
@@ -117,6 +119,7 @@ items:
     - id: token
       type: System.Threading.CancellationToken
       description: To be added.
+  overload: System.OperationCanceledException.#ctor*
   platform:
   - net-11
   - net-20
@@ -144,6 +147,7 @@ items:
     - id: context
       type: System.Runtime.Serialization.StreamingContext
       description: To be added.
+  overload: System.OperationCanceledException.#ctor*
   platform:
   - net-11
   - net-20
@@ -171,6 +175,7 @@ items:
     - id: innerException
       type: System.Exception
       description: To be added.
+  overload: System.OperationCanceledException.#ctor*
   platform:
   - net-11
   - net-20
@@ -198,6 +203,7 @@ items:
     - id: token
       type: System.Threading.CancellationToken
       description: To be added.
+  overload: System.OperationCanceledException.#ctor*
   platform:
   - net-11
   - net-20
@@ -228,6 +234,7 @@ items:
     - id: token
       type: System.Threading.CancellationToken
       description: To be added.
+  overload: System.OperationCanceledException.#ctor*
   platform:
   - net-11
   - net-20
@@ -251,6 +258,7 @@ items:
     return:
       type: System.Threading.CancellationToken
       description: To be added.
+  overload: System.OperationCanceledException.CancellationToken*
   platform:
   - net-11
   - net-20
@@ -379,3 +387,13 @@ references:
   name: CancellationToken
   nameWithType: CancellationToken
   fullName: System.Threading.CancellationToken
+- uid: System.OperationCanceledException.#ctor*
+  parent: System.OperationCanceledException
+  isExternal: false
+  name: OperationCanceledException
+  nameWithType: OperationCanceledException.OperationCanceledException
+- uid: System.OperationCanceledException.CancellationToken*
+  parent: System.OperationCanceledException
+  isExternal: false
+  name: CancellationToken
+  nameWithType: OperationCanceledException.CancellationToken

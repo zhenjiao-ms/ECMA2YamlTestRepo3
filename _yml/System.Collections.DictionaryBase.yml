@@ -77,6 +77,7 @@ items:
   syntax:
     content: protected DictionaryBase ();
     parameters: []
+  overload: System.Collections.DictionaryBase.#ctor*
   platform:
   - net-11
   - net-20
@@ -98,6 +99,7 @@ items:
   syntax:
     content: public void Clear ();
     parameters: []
+  overload: System.Collections.DictionaryBase.Clear*
   platform:
   - net-11
   - net-20
@@ -125,6 +127,7 @@ items:
     - id: index
       type: System.Int32
       description: To be added.
+  overload: System.Collections.DictionaryBase.CopyTo*
   platform:
   - net-11
   - net-20
@@ -148,6 +151,7 @@ items:
     return:
       type: System.Int32
       description: To be added.
+  overload: System.Collections.DictionaryBase.Count*
   platform:
   - net-11
   - net-20
@@ -171,6 +175,7 @@ items:
     return:
       type: System.Collections.IDictionary
       description: To be added.
+  overload: System.Collections.DictionaryBase.Dictionary*
   platform:
   - net-11
   - net-20
@@ -195,6 +200,7 @@ items:
     return:
       type: System.Collections.IDictionaryEnumerator
       description: To be added.
+  overload: System.Collections.DictionaryBase.GetEnumerator*
   platform:
   - net-11
   - net-20
@@ -218,6 +224,7 @@ items:
     return:
       type: System.Collections.Hashtable
       description: To be added.
+  overload: System.Collections.DictionaryBase.InnerHashtable*
   platform:
   - net-11
   - net-20
@@ -239,6 +246,7 @@ items:
   syntax:
     content: protected virtual void OnClear ();
     parameters: []
+  overload: System.Collections.DictionaryBase.OnClear*
   platform:
   - net-11
   - net-20
@@ -260,6 +268,7 @@ items:
   syntax:
     content: protected virtual void OnClearComplete ();
     parameters: []
+  overload: System.Collections.DictionaryBase.OnClearComplete*
   platform:
   - net-11
   - net-20
@@ -290,6 +299,7 @@ items:
     return:
       type: System.Object
       description: To be added.
+  overload: System.Collections.DictionaryBase.OnGet*
   platform:
   - net-11
   - net-20
@@ -317,6 +327,7 @@ items:
     - id: value
       type: System.Object
       description: To be added.
+  overload: System.Collections.DictionaryBase.OnInsert*
   platform:
   - net-11
   - net-20
@@ -344,6 +355,7 @@ items:
     - id: value
       type: System.Object
       description: To be added.
+  overload: System.Collections.DictionaryBase.OnInsertComplete*
   platform:
   - net-11
   - net-20
@@ -371,6 +383,7 @@ items:
     - id: value
       type: System.Object
       description: To be added.
+  overload: System.Collections.DictionaryBase.OnRemove*
   platform:
   - net-11
   - net-20
@@ -398,6 +411,7 @@ items:
     - id: value
       type: System.Object
       description: To be added.
+  overload: System.Collections.DictionaryBase.OnRemoveComplete*
   platform:
   - net-11
   - net-20
@@ -428,6 +442,7 @@ items:
     - id: newValue
       type: System.Object
       description: To be added.
+  overload: System.Collections.DictionaryBase.OnSet*
   platform:
   - net-11
   - net-20
@@ -458,6 +473,7 @@ items:
     - id: newValue
       type: System.Object
       description: To be added.
+  overload: System.Collections.DictionaryBase.OnSetComplete*
   platform:
   - net-11
   - net-20
@@ -485,6 +501,7 @@ items:
     - id: value
       type: System.Object
       description: To be added.
+  overload: System.Collections.DictionaryBase.OnValidate*
   platform:
   - net-11
   - net-20
@@ -509,6 +526,7 @@ items:
     return:
       type: System.Boolean
       description: To be added.
+  overload: System.Collections.DictionaryBase.System#Collections#ICollection#IsSynchronized*
   platform:
   - net-11
   - net-20
@@ -533,6 +551,7 @@ items:
     return:
       type: System.Object
       description: To be added.
+  overload: System.Collections.DictionaryBase.System#Collections#ICollection#SyncRoot*
   platform:
   - net-11
   - net-20
@@ -561,6 +580,7 @@ items:
     - id: value
       type: System.Object
       description: To be added.
+  overload: System.Collections.DictionaryBase.System#Collections#IDictionary#Add*
   platform:
   - net-11
   - net-20
@@ -589,6 +609,7 @@ items:
     return:
       type: System.Boolean
       description: To be added.
+  overload: System.Collections.DictionaryBase.System#Collections#IDictionary#Contains*
   platform:
   - net-11
   - net-20
@@ -613,6 +634,7 @@ items:
     return:
       type: System.Boolean
       description: To be added.
+  overload: System.Collections.DictionaryBase.System#Collections#IDictionary#IsFixedSize*
   platform:
   - net-11
   - net-20
@@ -637,6 +659,7 @@ items:
     return:
       type: System.Boolean
       description: To be added.
+  overload: System.Collections.DictionaryBase.System#Collections#IDictionary#IsReadOnly*
   platform:
   - net-11
   - net-20
@@ -665,6 +688,7 @@ items:
     return:
       type: System.Object
       description: To be added.
+  overload: System.Collections.DictionaryBase.System#Collections#IDictionary#Item*
   platform:
   - net-11
   - net-20
@@ -689,6 +713,7 @@ items:
     return:
       type: System.Collections.ICollection
       description: To be added.
+  overload: System.Collections.DictionaryBase.System#Collections#IDictionary#Keys*
   platform:
   - net-11
   - net-20
@@ -714,6 +739,7 @@ items:
     - id: key
       type: System.Object
       description: To be added.
+  overload: System.Collections.DictionaryBase.System#Collections#IDictionary#Remove*
   platform:
   - net-11
   - net-20
@@ -738,6 +764,7 @@ items:
     return:
       type: System.Collections.ICollection
       description: To be added.
+  overload: System.Collections.DictionaryBase.System#Collections#IDictionary#Values*
   platform:
   - net-11
   - net-20
@@ -763,6 +790,7 @@ items:
     return:
       type: System.Collections.IEnumerator
       description: To be added.
+  overload: System.Collections.DictionaryBase.System#Collections#IEnumerable#GetEnumerator*
   platform:
   - net-11
   - net-20
@@ -1173,3 +1201,143 @@ references:
   name: IEnumerator
   nameWithType: IEnumerator
   fullName: System.Collections.IEnumerator
+- uid: System.Collections.DictionaryBase.#ctor*
+  parent: System.Collections.DictionaryBase
+  isExternal: false
+  name: DictionaryBase
+  nameWithType: DictionaryBase.DictionaryBase
+- uid: System.Collections.DictionaryBase.Clear*
+  parent: System.Collections.DictionaryBase
+  isExternal: false
+  name: Clear
+  nameWithType: DictionaryBase.Clear
+- uid: System.Collections.DictionaryBase.CopyTo*
+  parent: System.Collections.DictionaryBase
+  isExternal: false
+  name: CopyTo
+  nameWithType: DictionaryBase.CopyTo
+- uid: System.Collections.DictionaryBase.Count*
+  parent: System.Collections.DictionaryBase
+  isExternal: false
+  name: Count
+  nameWithType: DictionaryBase.Count
+- uid: System.Collections.DictionaryBase.Dictionary*
+  parent: System.Collections.DictionaryBase
+  isExternal: false
+  name: Dictionary
+  nameWithType: DictionaryBase.Dictionary
+- uid: System.Collections.DictionaryBase.GetEnumerator*
+  parent: System.Collections.DictionaryBase
+  isExternal: false
+  name: GetEnumerator
+  nameWithType: DictionaryBase.GetEnumerator
+- uid: System.Collections.DictionaryBase.InnerHashtable*
+  parent: System.Collections.DictionaryBase
+  isExternal: false
+  name: InnerHashtable
+  nameWithType: DictionaryBase.InnerHashtable
+- uid: System.Collections.DictionaryBase.OnClear*
+  parent: System.Collections.DictionaryBase
+  isExternal: false
+  name: OnClear
+  nameWithType: DictionaryBase.OnClear
+- uid: System.Collections.DictionaryBase.OnClearComplete*
+  parent: System.Collections.DictionaryBase
+  isExternal: false
+  name: OnClearComplete
+  nameWithType: DictionaryBase.OnClearComplete
+- uid: System.Collections.DictionaryBase.OnGet*
+  parent: System.Collections.DictionaryBase
+  isExternal: false
+  name: OnGet
+  nameWithType: DictionaryBase.OnGet
+- uid: System.Collections.DictionaryBase.OnInsert*
+  parent: System.Collections.DictionaryBase
+  isExternal: false
+  name: OnInsert
+  nameWithType: DictionaryBase.OnInsert
+- uid: System.Collections.DictionaryBase.OnInsertComplete*
+  parent: System.Collections.DictionaryBase
+  isExternal: false
+  name: OnInsertComplete
+  nameWithType: DictionaryBase.OnInsertComplete
+- uid: System.Collections.DictionaryBase.OnRemove*
+  parent: System.Collections.DictionaryBase
+  isExternal: false
+  name: OnRemove
+  nameWithType: DictionaryBase.OnRemove
+- uid: System.Collections.DictionaryBase.OnRemoveComplete*
+  parent: System.Collections.DictionaryBase
+  isExternal: false
+  name: OnRemoveComplete
+  nameWithType: DictionaryBase.OnRemoveComplete
+- uid: System.Collections.DictionaryBase.OnSet*
+  parent: System.Collections.DictionaryBase
+  isExternal: false
+  name: OnSet
+  nameWithType: DictionaryBase.OnSet
+- uid: System.Collections.DictionaryBase.OnSetComplete*
+  parent: System.Collections.DictionaryBase
+  isExternal: false
+  name: OnSetComplete
+  nameWithType: DictionaryBase.OnSetComplete
+- uid: System.Collections.DictionaryBase.OnValidate*
+  parent: System.Collections.DictionaryBase
+  isExternal: false
+  name: OnValidate
+  nameWithType: DictionaryBase.OnValidate
+- uid: System.Collections.DictionaryBase.System#Collections#ICollection#IsSynchronized*
+  parent: System.Collections.DictionaryBase
+  isExternal: false
+  name: System.Collections.ICollection.IsSynchronized
+  nameWithType: DictionaryBase.System.Collections.ICollection.IsSynchronized
+- uid: System.Collections.DictionaryBase.System#Collections#ICollection#SyncRoot*
+  parent: System.Collections.DictionaryBase
+  isExternal: false
+  name: System.Collections.ICollection.SyncRoot
+  nameWithType: DictionaryBase.System.Collections.ICollection.SyncRoot
+- uid: System.Collections.DictionaryBase.System#Collections#IDictionary#Add*
+  parent: System.Collections.DictionaryBase
+  isExternal: false
+  name: System.Collections.IDictionary.Add
+  nameWithType: DictionaryBase.System.Collections.IDictionary.Add
+- uid: System.Collections.DictionaryBase.System#Collections#IDictionary#Contains*
+  parent: System.Collections.DictionaryBase
+  isExternal: false
+  name: System.Collections.IDictionary.Contains
+  nameWithType: DictionaryBase.System.Collections.IDictionary.Contains
+- uid: System.Collections.DictionaryBase.System#Collections#IDictionary#IsFixedSize*
+  parent: System.Collections.DictionaryBase
+  isExternal: false
+  name: System.Collections.IDictionary.IsFixedSize
+  nameWithType: DictionaryBase.System.Collections.IDictionary.IsFixedSize
+- uid: System.Collections.DictionaryBase.System#Collections#IDictionary#IsReadOnly*
+  parent: System.Collections.DictionaryBase
+  isExternal: false
+  name: System.Collections.IDictionary.IsReadOnly
+  nameWithType: DictionaryBase.System.Collections.IDictionary.IsReadOnly
+- uid: System.Collections.DictionaryBase.System#Collections#IDictionary#Item*
+  parent: System.Collections.DictionaryBase
+  isExternal: false
+  name: System.Collections.IDictionary.Item
+  nameWithType: DictionaryBase.System.Collections.IDictionary.Item
+- uid: System.Collections.DictionaryBase.System#Collections#IDictionary#Keys*
+  parent: System.Collections.DictionaryBase
+  isExternal: false
+  name: System.Collections.IDictionary.Keys
+  nameWithType: DictionaryBase.System.Collections.IDictionary.Keys
+- uid: System.Collections.DictionaryBase.System#Collections#IDictionary#Remove*
+  parent: System.Collections.DictionaryBase
+  isExternal: false
+  name: System.Collections.IDictionary.Remove
+  nameWithType: DictionaryBase.System.Collections.IDictionary.Remove
+- uid: System.Collections.DictionaryBase.System#Collections#IDictionary#Values*
+  parent: System.Collections.DictionaryBase
+  isExternal: false
+  name: System.Collections.IDictionary.Values
+  nameWithType: DictionaryBase.System.Collections.IDictionary.Values
+- uid: System.Collections.DictionaryBase.System#Collections#IEnumerable#GetEnumerator*
+  parent: System.Collections.DictionaryBase
+  isExternal: false
+  name: System.Collections.IEnumerable.GetEnumerator
+  nameWithType: DictionaryBase.System.Collections.IEnumerable.GetEnumerator

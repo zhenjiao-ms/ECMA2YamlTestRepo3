@@ -56,6 +56,7 @@ items:
     - id: name
       type: System.String
       description: To be added.
+  overload: System.Security.Policy.ApplicationDirectory.#ctor*
   platform:
   - net-11
   - net-20
@@ -80,6 +81,7 @@ items:
     return:
       type: System.Security.Policy.EvidenceBase
       description: To be added.
+  overload: System.Security.Policy.ApplicationDirectory.Clone*
   platform:
   - net-11
   - net-20
@@ -104,6 +106,7 @@ items:
     return:
       type: System.Object
       description: To be added.
+  overload: System.Security.Policy.ApplicationDirectory.Copy*
   platform:
   - net-11
   - net-20
@@ -127,6 +130,7 @@ items:
     return:
       type: System.String
       description: To be added.
+  overload: System.Security.Policy.ApplicationDirectory.Directory*
   platform:
   - net-11
   - net-20
@@ -154,6 +158,7 @@ items:
     return:
       type: System.Boolean
       description: To be added.
+  overload: System.Security.Policy.ApplicationDirectory.Equals*
   platform:
   - net-11
   - net-20
@@ -178,6 +183,7 @@ items:
     return:
       type: System.Int32
       description: To be added.
+  overload: System.Security.Policy.ApplicationDirectory.GetHashCode*
   platform:
   - net-11
   - net-20
@@ -202,6 +208,7 @@ items:
     return:
       type: System.String
       description: To be added.
+  overload: System.Security.Policy.ApplicationDirectory.ToString*
   platform:
   - net-11
   - net-20
@@ -300,3 +307,38 @@ references:
   name: String
   nameWithType: String
   fullName: System.String
+- uid: System.Security.Policy.ApplicationDirectory.#ctor*
+  parent: System.Security.Policy.ApplicationDirectory
+  isExternal: false
+  name: ApplicationDirectory
+  nameWithType: ApplicationDirectory.ApplicationDirectory
+- uid: System.Security.Policy.ApplicationDirectory.Clone*
+  parent: System.Security.Policy.ApplicationDirectory
+  isExternal: false
+  name: Clone
+  nameWithType: ApplicationDirectory.Clone
+- uid: System.Security.Policy.ApplicationDirectory.Copy*
+  parent: System.Security.Policy.ApplicationDirectory
+  isExternal: false
+  name: Copy
+  nameWithType: ApplicationDirectory.Copy
+- uid: System.Security.Policy.ApplicationDirectory.Directory*
+  parent: System.Security.Policy.ApplicationDirectory
+  isExternal: false
+  name: Directory
+  nameWithType: ApplicationDirectory.Directory
+- uid: System.Security.Policy.ApplicationDirectory.Equals*
+  parent: System.Security.Policy.ApplicationDirectory
+  isExternal: false
+  name: Equals
+  nameWithType: ApplicationDirectory.Equals
+- uid: System.Security.Policy.ApplicationDirectory.GetHashCode*
+  parent: System.Security.Policy.ApplicationDirectory
+  isExternal: false
+  name: GetHashCode
+  nameWithType: ApplicationDirectory.GetHashCode
+- uid: System.Security.Policy.ApplicationDirectory.ToString*
+  parent: System.Security.Policy.ApplicationDirectory
+  isExternal: false
+  name: ToString
+  nameWithType: ApplicationDirectory.ToString

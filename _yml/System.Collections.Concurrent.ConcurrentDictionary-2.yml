@@ -109,6 +109,7 @@ items:
   syntax:
     content: public ConcurrentDictionary ();
     parameters: []
+  overload: System.Collections.Concurrent.ConcurrentDictionary`2.#ctor*
   platform:
   - net-11
   - net-20
@@ -133,6 +134,7 @@ items:
     - id: collection
       type: System.Collections.Generic.IEnumerable{System.Collections.Generic.KeyValuePair{TKey,TValue}}
       description: To be added.
+  overload: System.Collections.Concurrent.ConcurrentDictionary`2.#ctor*
   platform:
   - net-11
   - net-20
@@ -157,6 +159,7 @@ items:
     - id: comparer
       type: System.Collections.Generic.IEqualityComparer{TKey}
       description: To be added.
+  overload: System.Collections.Concurrent.ConcurrentDictionary`2.#ctor*
   platform:
   - net-11
   - net-20
@@ -184,6 +187,7 @@ items:
     - id: comparer
       type: System.Collections.Generic.IEqualityComparer{TKey}
       description: To be added.
+  overload: System.Collections.Concurrent.ConcurrentDictionary`2.#ctor*
   platform:
   - net-11
   - net-20
@@ -211,6 +215,7 @@ items:
     - id: capacity
       type: System.Int32
       description: To be added.
+  overload: System.Collections.Concurrent.ConcurrentDictionary`2.#ctor*
   platform:
   - net-11
   - net-20
@@ -241,6 +246,7 @@ items:
     - id: comparer
       type: System.Collections.Generic.IEqualityComparer{TKey}
       description: To be added.
+  overload: System.Collections.Concurrent.ConcurrentDictionary`2.#ctor*
   platform:
   - net-11
   - net-20
@@ -271,6 +277,7 @@ items:
     - id: comparer
       type: System.Collections.Generic.IEqualityComparer{TKey}
       description: To be added.
+  overload: System.Collections.Concurrent.ConcurrentDictionary`2.#ctor*
   platform:
   - net-11
   - net-20
@@ -360,6 +367,7 @@ items:
   syntax:
     content: public void Clear ();
     parameters: []
+  overload: System.Collections.Concurrent.ConcurrentDictionary`2.Clear*
   platform:
   - net-11
   - net-20
@@ -387,6 +395,7 @@ items:
     return:
       type: System.Boolean
       description: To be added.
+  overload: System.Collections.Concurrent.ConcurrentDictionary`2.ContainsKey*
   platform:
   - net-11
   - net-20
@@ -410,6 +419,7 @@ items:
     return:
       type: System.Int32
       description: To be added.
+  overload: System.Collections.Concurrent.ConcurrentDictionary`2.Count*
   platform:
   - net-11
   - net-20
@@ -434,6 +444,7 @@ items:
     return:
       type: System.Collections.Generic.IEnumerator{System.Collections.Generic.KeyValuePair{TKey,TValue}}
       description: To be added.
+  overload: System.Collections.Concurrent.ConcurrentDictionary`2.GetEnumerator*
   platform:
   - net-11
   - net-20
@@ -519,6 +530,7 @@ items:
     return:
       type: System.Boolean
       description: To be added.
+  overload: System.Collections.Concurrent.ConcurrentDictionary`2.IsEmpty*
   platform:
   - net-11
   - net-20
@@ -546,6 +558,7 @@ items:
     return:
       type: TValue
       description: To be added.
+  overload: System.Collections.Concurrent.ConcurrentDictionary`2.Item*
   platform:
   - net-11
   - net-20
@@ -569,6 +582,7 @@ items:
     return:
       type: System.Collections.Generic.ICollection{TKey}
       description: To be added.
+  overload: System.Collections.Concurrent.ConcurrentDictionary`2.Keys*
   platform:
   - net-11
   - net-20
@@ -594,6 +608,7 @@ items:
     - id: keyValuePair
       type: System.Collections.Generic.KeyValuePair`2
       description: To be added.
+  overload: System.Collections.Concurrent.ConcurrentDictionary`2.System#Collections#Generic#ICollection<System#Collections#Generic#KeyValuePair<TKey,TValue>>#Add*
   platform:
   - net-11
   - net-20
@@ -622,6 +637,7 @@ items:
     return:
       type: System.Boolean
       description: To be added.
+  overload: System.Collections.Concurrent.ConcurrentDictionary`2.System#Collections#Generic#ICollection<System#Collections#Generic#KeyValuePair<TKey,TValue>>#Contains*
   platform:
   - net-11
   - net-20
@@ -650,6 +666,7 @@ items:
     - id: index
       type: System.Int32
       description: To be added.
+  overload: System.Collections.Concurrent.ConcurrentDictionary`2.System#Collections#Generic#ICollection<System#Collections#Generic#KeyValuePair<TKey,TValue>>#CopyTo*
   platform:
   - net-11
   - net-20
@@ -674,6 +691,7 @@ items:
     return:
       type: System.Boolean
       description: To be added.
+  overload: System.Collections.Concurrent.ConcurrentDictionary`2.System#Collections#Generic#ICollection<System#Collections#Generic#KeyValuePair<TKey,TValue>>#IsReadOnly*
   platform:
   - net-11
   - net-20
@@ -702,6 +720,7 @@ items:
     return:
       type: System.Boolean
       description: To be added.
+  overload: System.Collections.Concurrent.ConcurrentDictionary`2.System#Collections#Generic#ICollection<System#Collections#Generic#KeyValuePair<TKey,TValue>>#Remove*
   platform:
   - net-11
   - net-20
@@ -730,6 +749,7 @@ items:
     - id: value
       type: TValue
       description: To be added.
+  overload: System.Collections.Concurrent.ConcurrentDictionary`2.System#Collections#Generic#IDictionary<TKey,TValue>#Add*
   platform:
   - net-11
   - net-20
@@ -758,6 +778,7 @@ items:
     return:
       type: System.Boolean
       description: To be added.
+  overload: System.Collections.Concurrent.ConcurrentDictionary`2.System#Collections#Generic#IDictionary<TKey,TValue>#Remove*
   platform:
   - net-11
   - net-20
@@ -782,6 +803,7 @@ items:
     return:
       type: System.Collections.Generic.IEnumerable{TKey}
       description: To be added.
+  overload: System.Collections.Concurrent.ConcurrentDictionary`2.System#Collections#Generic#IReadOnlyDictionary<TKey,TValue>#Keys*
   platform:
   - net-11
   - net-20
@@ -806,6 +828,7 @@ items:
     return:
       type: System.Collections.Generic.IEnumerable{TValue}
       description: To be added.
+  overload: System.Collections.Concurrent.ConcurrentDictionary`2.System#Collections#Generic#IReadOnlyDictionary<TKey,TValue>#Values*
   platform:
   - net-11
   - net-20
@@ -834,6 +857,7 @@ items:
     - id: index
       type: System.Int32
       description: To be added.
+  overload: System.Collections.Concurrent.ConcurrentDictionary`2.System#Collections#ICollection#CopyTo*
   platform:
   - net-11
   - net-20
@@ -858,6 +882,7 @@ items:
     return:
       type: System.Boolean
       description: To be added.
+  overload: System.Collections.Concurrent.ConcurrentDictionary`2.System#Collections#ICollection#IsSynchronized*
   platform:
   - net-11
   - net-20
@@ -882,6 +907,7 @@ items:
     return:
       type: System.Object
       description: To be added.
+  overload: System.Collections.Concurrent.ConcurrentDictionary`2.System#Collections#ICollection#SyncRoot*
   platform:
   - net-11
   - net-20
@@ -910,6 +936,7 @@ items:
     - id: value
       type: System.Object
       description: To be added.
+  overload: System.Collections.Concurrent.ConcurrentDictionary`2.System#Collections#IDictionary#Add*
   platform:
   - net-11
   - net-20
@@ -938,6 +965,7 @@ items:
     return:
       type: System.Boolean
       description: To be added.
+  overload: System.Collections.Concurrent.ConcurrentDictionary`2.System#Collections#IDictionary#Contains*
   platform:
   - net-11
   - net-20
@@ -963,6 +991,7 @@ items:
     return:
       type: System.Collections.IDictionaryEnumerator
       description: To be added.
+  overload: System.Collections.Concurrent.ConcurrentDictionary`2.System#Collections#IDictionary#GetEnumerator*
   platform:
   - net-11
   - net-20
@@ -987,6 +1016,7 @@ items:
     return:
       type: System.Boolean
       description: To be added.
+  overload: System.Collections.Concurrent.ConcurrentDictionary`2.System#Collections#IDictionary#IsFixedSize*
   platform:
   - net-11
   - net-20
@@ -1011,6 +1041,7 @@ items:
     return:
       type: System.Boolean
       description: To be added.
+  overload: System.Collections.Concurrent.ConcurrentDictionary`2.System#Collections#IDictionary#IsReadOnly*
   platform:
   - net-11
   - net-20
@@ -1039,6 +1070,7 @@ items:
     return:
       type: System.Object
       description: To be added.
+  overload: System.Collections.Concurrent.ConcurrentDictionary`2.System#Collections#IDictionary#Item*
   platform:
   - net-11
   - net-20
@@ -1063,6 +1095,7 @@ items:
     return:
       type: System.Collections.ICollection
       description: To be added.
+  overload: System.Collections.Concurrent.ConcurrentDictionary`2.System#Collections#IDictionary#Keys*
   platform:
   - net-11
   - net-20
@@ -1088,6 +1121,7 @@ items:
     - id: key
       type: System.Object
       description: To be added.
+  overload: System.Collections.Concurrent.ConcurrentDictionary`2.System#Collections#IDictionary#Remove*
   platform:
   - net-11
   - net-20
@@ -1112,6 +1146,7 @@ items:
     return:
       type: System.Collections.ICollection
       description: To be added.
+  overload: System.Collections.Concurrent.ConcurrentDictionary`2.System#Collections#IDictionary#Values*
   platform:
   - net-11
   - net-20
@@ -1137,6 +1172,7 @@ items:
     return:
       type: System.Collections.IEnumerator
       description: To be added.
+  overload: System.Collections.Concurrent.ConcurrentDictionary`2.System#Collections#IEnumerable#GetEnumerator*
   platform:
   - net-11
   - net-20
@@ -1161,6 +1197,7 @@ items:
     return:
       type: System.Collections.Generic.KeyValuePair{TKey,TValue}
       description: To be added.
+  overload: System.Collections.Concurrent.ConcurrentDictionary`2.ToArray*
   platform:
   - net-11
   - net-20
@@ -1191,6 +1228,7 @@ items:
     return:
       type: System.Boolean
       description: To be added.
+  overload: System.Collections.Concurrent.ConcurrentDictionary`2.TryAdd*
   platform:
   - net-11
   - net-20
@@ -1221,6 +1259,7 @@ items:
     return:
       type: System.Boolean
       description: To be added.
+  overload: System.Collections.Concurrent.ConcurrentDictionary`2.TryGetValue*
   platform:
   - net-11
   - net-20
@@ -1251,6 +1290,7 @@ items:
     return:
       type: System.Boolean
       description: To be added.
+  overload: System.Collections.Concurrent.ConcurrentDictionary`2.TryRemove*
   platform:
   - net-11
   - net-20
@@ -1284,6 +1324,7 @@ items:
     return:
       type: System.Boolean
       description: To be added.
+  overload: System.Collections.Concurrent.ConcurrentDictionary`2.TryUpdate*
   platform:
   - net-11
   - net-20
@@ -1307,6 +1348,7 @@ items:
     return:
       type: System.Collections.Generic.ICollection{TValue}
       description: To be added.
+  overload: System.Collections.Concurrent.ConcurrentDictionary`2.Values*
   platform:
   - net-11
   - net-20
@@ -2071,13 +2113,193 @@ references:
   name: ICollection<TValue>
   nameWithType: ICollection<TValue>
   fullName: System.Collections.Generic.ICollection<TValue>
+- uid: System.Collections.Concurrent.ConcurrentDictionary`2.#ctor*
+  parent: System.Collections.Concurrent.ConcurrentDictionary`2
+  isExternal: false
+  name: ConcurrentDictionary<TKey,TValue>
+  nameWithType: ConcurrentDictionary<TKey,TValue>.ConcurrentDictionary<TKey,TValue>
 - uid: System.Collections.Concurrent.ConcurrentDictionary`2.AddOrUpdate*
   parent: System.Collections.Concurrent.ConcurrentDictionary`2
   isExternal: false
   name: AddOrUpdate
   nameWithType: ConcurrentDictionary<TKey,TValue>.AddOrUpdate
+- uid: System.Collections.Concurrent.ConcurrentDictionary`2.Clear*
+  parent: System.Collections.Concurrent.ConcurrentDictionary`2
+  isExternal: false
+  name: Clear
+  nameWithType: ConcurrentDictionary<TKey,TValue>.Clear
+- uid: System.Collections.Concurrent.ConcurrentDictionary`2.ContainsKey*
+  parent: System.Collections.Concurrent.ConcurrentDictionary`2
+  isExternal: false
+  name: ContainsKey
+  nameWithType: ConcurrentDictionary<TKey,TValue>.ContainsKey
+- uid: System.Collections.Concurrent.ConcurrentDictionary`2.Count*
+  parent: System.Collections.Concurrent.ConcurrentDictionary`2
+  isExternal: false
+  name: Count
+  nameWithType: ConcurrentDictionary<TKey,TValue>.Count
+- uid: System.Collections.Concurrent.ConcurrentDictionary`2.GetEnumerator*
+  parent: System.Collections.Concurrent.ConcurrentDictionary`2
+  isExternal: false
+  name: GetEnumerator
+  nameWithType: ConcurrentDictionary<TKey,TValue>.GetEnumerator
 - uid: System.Collections.Concurrent.ConcurrentDictionary`2.GetOrAdd*
   parent: System.Collections.Concurrent.ConcurrentDictionary`2
   isExternal: false
   name: GetOrAdd
   nameWithType: ConcurrentDictionary<TKey,TValue>.GetOrAdd
+- uid: System.Collections.Concurrent.ConcurrentDictionary`2.IsEmpty*
+  parent: System.Collections.Concurrent.ConcurrentDictionary`2
+  isExternal: false
+  name: IsEmpty
+  nameWithType: ConcurrentDictionary<TKey,TValue>.IsEmpty
+- uid: System.Collections.Concurrent.ConcurrentDictionary`2.Item*
+  parent: System.Collections.Concurrent.ConcurrentDictionary`2
+  isExternal: false
+  name: Item
+  nameWithType: ConcurrentDictionary<TKey,TValue>.Item
+- uid: System.Collections.Concurrent.ConcurrentDictionary`2.Keys*
+  parent: System.Collections.Concurrent.ConcurrentDictionary`2
+  isExternal: false
+  name: Keys
+  nameWithType: ConcurrentDictionary<TKey,TValue>.Keys
+- uid: System.Collections.Concurrent.ConcurrentDictionary`2.System#Collections#Generic#ICollection<System#Collections#Generic#KeyValuePair<TKey,TValue>>#Add*
+  parent: System.Collections.Concurrent.ConcurrentDictionary`2
+  isExternal: false
+  name: System.Collections.Generic.ICollection<System.Collections.Generic.KeyValuePair<TKey,TValue>>.Add
+  nameWithType: ConcurrentDictionary<TKey,TValue>.System.Collections.Generic.ICollection<System.Collections.Generic.KeyValuePair<TKey,TValue>>.Add
+- uid: System.Collections.Concurrent.ConcurrentDictionary`2.System#Collections#Generic#ICollection<System#Collections#Generic#KeyValuePair<TKey,TValue>>#Contains*
+  parent: System.Collections.Concurrent.ConcurrentDictionary`2
+  isExternal: false
+  name: System.Collections.Generic.ICollection<System.Collections.Generic.KeyValuePair<TKey,TValue>>.Contains
+  nameWithType: ConcurrentDictionary<TKey,TValue>.System.Collections.Generic.ICollection<System.Collections.Generic.KeyValuePair<TKey,TValue>>.Contains
+- uid: System.Collections.Concurrent.ConcurrentDictionary`2.System#Collections#Generic#ICollection<System#Collections#Generic#KeyValuePair<TKey,TValue>>#CopyTo*
+  parent: System.Collections.Concurrent.ConcurrentDictionary`2
+  isExternal: false
+  name: System.Collections.Generic.ICollection<System.Collections.Generic.KeyValuePair<TKey,TValue>>.CopyTo
+  nameWithType: ConcurrentDictionary<TKey,TValue>.System.Collections.Generic.ICollection<System.Collections.Generic.KeyValuePair<TKey,TValue>>.CopyTo
+- uid: System.Collections.Concurrent.ConcurrentDictionary`2.System#Collections#Generic#ICollection<System#Collections#Generic#KeyValuePair<TKey,TValue>>#IsReadOnly*
+  parent: System.Collections.Concurrent.ConcurrentDictionary`2
+  isExternal: false
+  name: System.Collections.Generic.ICollection<System.Collections.Generic.KeyValuePair<TKey,TValue>>.IsReadOnly
+  nameWithType: ConcurrentDictionary<TKey,TValue>.System.Collections.Generic.ICollection<System.Collections.Generic.KeyValuePair<TKey,TValue>>.IsReadOnly
+- uid: System.Collections.Concurrent.ConcurrentDictionary`2.System#Collections#Generic#ICollection<System#Collections#Generic#KeyValuePair<TKey,TValue>>#Remove*
+  parent: System.Collections.Concurrent.ConcurrentDictionary`2
+  isExternal: false
+  name: System.Collections.Generic.ICollection<System.Collections.Generic.KeyValuePair<TKey,TValue>>.Remove
+  nameWithType: ConcurrentDictionary<TKey,TValue>.System.Collections.Generic.ICollection<System.Collections.Generic.KeyValuePair<TKey,TValue>>.Remove
+- uid: System.Collections.Concurrent.ConcurrentDictionary`2.System#Collections#Generic#IDictionary<TKey,TValue>#Add*
+  parent: System.Collections.Concurrent.ConcurrentDictionary`2
+  isExternal: false
+  name: System.Collections.Generic.IDictionary<TKey,TValue>.Add
+  nameWithType: ConcurrentDictionary<TKey,TValue>.System.Collections.Generic.IDictionary<TKey,TValue>.Add
+- uid: System.Collections.Concurrent.ConcurrentDictionary`2.System#Collections#Generic#IDictionary<TKey,TValue>#Remove*
+  parent: System.Collections.Concurrent.ConcurrentDictionary`2
+  isExternal: false
+  name: System.Collections.Generic.IDictionary<TKey,TValue>.Remove
+  nameWithType: ConcurrentDictionary<TKey,TValue>.System.Collections.Generic.IDictionary<TKey,TValue>.Remove
+- uid: System.Collections.Concurrent.ConcurrentDictionary`2.System#Collections#Generic#IReadOnlyDictionary<TKey,TValue>#Keys*
+  parent: System.Collections.Concurrent.ConcurrentDictionary`2
+  isExternal: false
+  name: System.Collections.Generic.IReadOnlyDictionary<TKey,TValue>.Keys
+  nameWithType: ConcurrentDictionary<TKey,TValue>.System.Collections.Generic.IReadOnlyDictionary<TKey,TValue>.Keys
+- uid: System.Collections.Concurrent.ConcurrentDictionary`2.System#Collections#Generic#IReadOnlyDictionary<TKey,TValue>#Values*
+  parent: System.Collections.Concurrent.ConcurrentDictionary`2
+  isExternal: false
+  name: System.Collections.Generic.IReadOnlyDictionary<TKey,TValue>.Values
+  nameWithType: ConcurrentDictionary<TKey,TValue>.System.Collections.Generic.IReadOnlyDictionary<TKey,TValue>.Values
+- uid: System.Collections.Concurrent.ConcurrentDictionary`2.System#Collections#ICollection#CopyTo*
+  parent: System.Collections.Concurrent.ConcurrentDictionary`2
+  isExternal: false
+  name: System.Collections.ICollection.CopyTo
+  nameWithType: ConcurrentDictionary<TKey,TValue>.System.Collections.ICollection.CopyTo
+- uid: System.Collections.Concurrent.ConcurrentDictionary`2.System#Collections#ICollection#IsSynchronized*
+  parent: System.Collections.Concurrent.ConcurrentDictionary`2
+  isExternal: false
+  name: System.Collections.ICollection.IsSynchronized
+  nameWithType: ConcurrentDictionary<TKey,TValue>.System.Collections.ICollection.IsSynchronized
+- uid: System.Collections.Concurrent.ConcurrentDictionary`2.System#Collections#ICollection#SyncRoot*
+  parent: System.Collections.Concurrent.ConcurrentDictionary`2
+  isExternal: false
+  name: System.Collections.ICollection.SyncRoot
+  nameWithType: ConcurrentDictionary<TKey,TValue>.System.Collections.ICollection.SyncRoot
+- uid: System.Collections.Concurrent.ConcurrentDictionary`2.System#Collections#IDictionary#Add*
+  parent: System.Collections.Concurrent.ConcurrentDictionary`2
+  isExternal: false
+  name: System.Collections.IDictionary.Add
+  nameWithType: ConcurrentDictionary<TKey,TValue>.System.Collections.IDictionary.Add
+- uid: System.Collections.Concurrent.ConcurrentDictionary`2.System#Collections#IDictionary#Contains*
+  parent: System.Collections.Concurrent.ConcurrentDictionary`2
+  isExternal: false
+  name: System.Collections.IDictionary.Contains
+  nameWithType: ConcurrentDictionary<TKey,TValue>.System.Collections.IDictionary.Contains
+- uid: System.Collections.Concurrent.ConcurrentDictionary`2.System#Collections#IDictionary#GetEnumerator*
+  parent: System.Collections.Concurrent.ConcurrentDictionary`2
+  isExternal: false
+  name: System.Collections.IDictionary.GetEnumerator
+  nameWithType: ConcurrentDictionary<TKey,TValue>.System.Collections.IDictionary.GetEnumerator
+- uid: System.Collections.Concurrent.ConcurrentDictionary`2.System#Collections#IDictionary#IsFixedSize*
+  parent: System.Collections.Concurrent.ConcurrentDictionary`2
+  isExternal: false
+  name: System.Collections.IDictionary.IsFixedSize
+  nameWithType: ConcurrentDictionary<TKey,TValue>.System.Collections.IDictionary.IsFixedSize
+- uid: System.Collections.Concurrent.ConcurrentDictionary`2.System#Collections#IDictionary#IsReadOnly*
+  parent: System.Collections.Concurrent.ConcurrentDictionary`2
+  isExternal: false
+  name: System.Collections.IDictionary.IsReadOnly
+  nameWithType: ConcurrentDictionary<TKey,TValue>.System.Collections.IDictionary.IsReadOnly
+- uid: System.Collections.Concurrent.ConcurrentDictionary`2.System#Collections#IDictionary#Item*
+  parent: System.Collections.Concurrent.ConcurrentDictionary`2
+  isExternal: false
+  name: System.Collections.IDictionary.Item
+  nameWithType: ConcurrentDictionary<TKey,TValue>.System.Collections.IDictionary.Item
+- uid: System.Collections.Concurrent.ConcurrentDictionary`2.System#Collections#IDictionary#Keys*
+  parent: System.Collections.Concurrent.ConcurrentDictionary`2
+  isExternal: false
+  name: System.Collections.IDictionary.Keys
+  nameWithType: ConcurrentDictionary<TKey,TValue>.System.Collections.IDictionary.Keys
+- uid: System.Collections.Concurrent.ConcurrentDictionary`2.System#Collections#IDictionary#Remove*
+  parent: System.Collections.Concurrent.ConcurrentDictionary`2
+  isExternal: false
+  name: System.Collections.IDictionary.Remove
+  nameWithType: ConcurrentDictionary<TKey,TValue>.System.Collections.IDictionary.Remove
+- uid: System.Collections.Concurrent.ConcurrentDictionary`2.System#Collections#IDictionary#Values*
+  parent: System.Collections.Concurrent.ConcurrentDictionary`2
+  isExternal: false
+  name: System.Collections.IDictionary.Values
+  nameWithType: ConcurrentDictionary<TKey,TValue>.System.Collections.IDictionary.Values
+- uid: System.Collections.Concurrent.ConcurrentDictionary`2.System#Collections#IEnumerable#GetEnumerator*
+  parent: System.Collections.Concurrent.ConcurrentDictionary`2
+  isExternal: false
+  name: System.Collections.IEnumerable.GetEnumerator
+  nameWithType: ConcurrentDictionary<TKey,TValue>.System.Collections.IEnumerable.GetEnumerator
+- uid: System.Collections.Concurrent.ConcurrentDictionary`2.ToArray*
+  parent: System.Collections.Concurrent.ConcurrentDictionary`2
+  isExternal: false
+  name: ToArray
+  nameWithType: ConcurrentDictionary<TKey,TValue>.ToArray
+- uid: System.Collections.Concurrent.ConcurrentDictionary`2.TryAdd*
+  parent: System.Collections.Concurrent.ConcurrentDictionary`2
+  isExternal: false
+  name: TryAdd
+  nameWithType: ConcurrentDictionary<TKey,TValue>.TryAdd
+- uid: System.Collections.Concurrent.ConcurrentDictionary`2.TryGetValue*
+  parent: System.Collections.Concurrent.ConcurrentDictionary`2
+  isExternal: false
+  name: TryGetValue
+  nameWithType: ConcurrentDictionary<TKey,TValue>.TryGetValue
+- uid: System.Collections.Concurrent.ConcurrentDictionary`2.TryRemove*
+  parent: System.Collections.Concurrent.ConcurrentDictionary`2
+  isExternal: false
+  name: TryRemove
+  nameWithType: ConcurrentDictionary<TKey,TValue>.TryRemove
+- uid: System.Collections.Concurrent.ConcurrentDictionary`2.TryUpdate*
+  parent: System.Collections.Concurrent.ConcurrentDictionary`2
+  isExternal: false
+  name: TryUpdate
+  nameWithType: ConcurrentDictionary<TKey,TValue>.TryUpdate
+- uid: System.Collections.Concurrent.ConcurrentDictionary`2.Values*
+  parent: System.Collections.Concurrent.ConcurrentDictionary`2
+  isExternal: false
+  name: Values
+  nameWithType: ConcurrentDictionary<TKey,TValue>.Values

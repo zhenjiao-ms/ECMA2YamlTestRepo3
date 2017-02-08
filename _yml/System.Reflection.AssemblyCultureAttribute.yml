@@ -95,6 +95,7 @@ items:
     - id: culture
       type: System.String
       description: To be added.
+  overload: System.Reflection.AssemblyCultureAttribute.#ctor*
   platform:
   - net-11
   - net-20
@@ -118,6 +119,7 @@ items:
     return:
       type: System.String
       description: To be added.
+  overload: System.Reflection.AssemblyCultureAttribute.Culture*
   platform:
   - net-11
   - net-20
@@ -150,3 +152,13 @@ references:
   name: String
   nameWithType: String
   fullName: System.String
+- uid: System.Reflection.AssemblyCultureAttribute.#ctor*
+  parent: System.Reflection.AssemblyCultureAttribute
+  isExternal: false
+  name: AssemblyCultureAttribute
+  nameWithType: AssemblyCultureAttribute.AssemblyCultureAttribute
+- uid: System.Reflection.AssemblyCultureAttribute.Culture*
+  parent: System.Reflection.AssemblyCultureAttribute
+  isExternal: false
+  name: Culture
+  nameWithType: AssemblyCultureAttribute.Culture

@@ -106,6 +106,7 @@ items:
   syntax:
     content: public UTF32Encoding ();
     parameters: []
+  overload: System.Text.UTF32Encoding.#ctor*
   platform:
   - net-11
   - net-20
@@ -133,6 +134,7 @@ items:
     - id: byteOrderMark
       type: System.Boolean
       description: To be added.
+  overload: System.Text.UTF32Encoding.#ctor*
   platform:
   - net-11
   - net-20
@@ -163,6 +165,7 @@ items:
     - id: throwOnInvalidCharacters
       type: System.Boolean
       description: To be added.
+  overload: System.Text.UTF32Encoding.#ctor*
   platform:
   - net-11
   - net-20
@@ -190,6 +193,7 @@ items:
     return:
       type: System.Boolean
       description: To be added.
+  overload: System.Text.UTF32Encoding.Equals*
   platform:
   - net-11
   - net-20
@@ -566,6 +570,7 @@ items:
     return:
       type: System.Text.Decoder
       description: To be added.
+  overload: System.Text.UTF32Encoding.GetDecoder*
   platform:
   - net-11
   - net-20
@@ -590,6 +595,7 @@ items:
     return:
       type: System.Text.Encoder
       description: To be added.
+  overload: System.Text.UTF32Encoding.GetEncoder*
   platform:
   - net-11
   - net-20
@@ -614,6 +620,7 @@ items:
     return:
       type: System.Int32
       description: To be added.
+  overload: System.Text.UTF32Encoding.GetHashCode*
   platform:
   - net-11
   - net-20
@@ -641,6 +648,7 @@ items:
     return:
       type: System.Int32
       description: To be added.
+  overload: System.Text.UTF32Encoding.GetMaxByteCount*
   platform:
   - net-11
   - net-20
@@ -668,6 +676,7 @@ items:
     return:
       type: System.Int32
       description: To be added.
+  overload: System.Text.UTF32Encoding.GetMaxCharCount*
   platform:
   - net-11
   - net-20
@@ -692,6 +701,7 @@ items:
     return:
       type: System.Byte[]
       description: To be added.
+  overload: System.Text.UTF32Encoding.GetPreamble*
   platform:
   - net-11
   - net-20
@@ -725,6 +735,7 @@ items:
     return:
       type: System.String
       description: To be added.
+  overload: System.Text.UTF32Encoding.GetString*
   platform:
   - net-11
   - net-20
@@ -1201,6 +1212,16 @@ references:
   name: Int32
   nameWithType: Int32
   fullName: System.Int32
+- uid: System.Text.UTF32Encoding.#ctor*
+  parent: System.Text.UTF32Encoding
+  isExternal: false
+  name: UTF32Encoding
+  nameWithType: UTF32Encoding.UTF32Encoding
+- uid: System.Text.UTF32Encoding.Equals*
+  parent: System.Text.UTF32Encoding
+  isExternal: false
+  name: Equals
+  nameWithType: UTF32Encoding.Equals
 - uid: System.Text.UTF32Encoding.GetByteCount*
   parent: System.Text.UTF32Encoding
   isExternal: false
@@ -1221,3 +1242,38 @@ references:
   isExternal: false
   name: GetChars
   nameWithType: UTF32Encoding.GetChars
+- uid: System.Text.UTF32Encoding.GetDecoder*
+  parent: System.Text.UTF32Encoding
+  isExternal: false
+  name: GetDecoder
+  nameWithType: UTF32Encoding.GetDecoder
+- uid: System.Text.UTF32Encoding.GetEncoder*
+  parent: System.Text.UTF32Encoding
+  isExternal: false
+  name: GetEncoder
+  nameWithType: UTF32Encoding.GetEncoder
+- uid: System.Text.UTF32Encoding.GetHashCode*
+  parent: System.Text.UTF32Encoding
+  isExternal: false
+  name: GetHashCode
+  nameWithType: UTF32Encoding.GetHashCode
+- uid: System.Text.UTF32Encoding.GetMaxByteCount*
+  parent: System.Text.UTF32Encoding
+  isExternal: false
+  name: GetMaxByteCount
+  nameWithType: UTF32Encoding.GetMaxByteCount
+- uid: System.Text.UTF32Encoding.GetMaxCharCount*
+  parent: System.Text.UTF32Encoding
+  isExternal: false
+  name: GetMaxCharCount
+  nameWithType: UTF32Encoding.GetMaxCharCount
+- uid: System.Text.UTF32Encoding.GetPreamble*
+  parent: System.Text.UTF32Encoding
+  isExternal: false
+  name: GetPreamble
+  nameWithType: UTF32Encoding.GetPreamble
+- uid: System.Text.UTF32Encoding.GetString*
+  parent: System.Text.UTF32Encoding
+  isExternal: false
+  name: GetString
+  nameWithType: UTF32Encoding.GetString

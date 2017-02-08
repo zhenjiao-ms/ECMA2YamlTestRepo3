@@ -70,6 +70,7 @@ items:
     - id: ownsHandle
       type: System.Boolean
       description: To be added.
+  overload: Microsoft.Win32.SafeHandles.SafeRegistryHandle.#ctor*
   platform:
   - net-11
   - net-20
@@ -94,6 +95,7 @@ items:
     return:
       type: System.Boolean
       description: To be added.
+  overload: Microsoft.Win32.SafeHandles.SafeRegistryHandle.ReleaseHandle*
   platform:
   - net-11
   - net-20
@@ -132,3 +134,13 @@ references:
   name: Boolean
   nameWithType: Boolean
   fullName: System.Boolean
+- uid: Microsoft.Win32.SafeHandles.SafeRegistryHandle.#ctor*
+  parent: Microsoft.Win32.SafeHandles.SafeRegistryHandle
+  isExternal: false
+  name: SafeRegistryHandle
+  nameWithType: SafeRegistryHandle.SafeRegistryHandle
+- uid: Microsoft.Win32.SafeHandles.SafeRegistryHandle.ReleaseHandle*
+  parent: Microsoft.Win32.SafeHandles.SafeRegistryHandle
+  isExternal: false
+  name: ReleaseHandle
+  nameWithType: SafeRegistryHandle.ReleaseHandle

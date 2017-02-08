@@ -50,6 +50,7 @@ items:
     return:
       type: System.Boolean
       description: To be added.
+  overload: System.Runtime.GCSettings.IsServerGC*
   platform:
   - net-11
   - net-20
@@ -73,6 +74,7 @@ items:
     return:
       type: System.Runtime.GCLargeObjectHeapCompactionMode
       description: To be added.
+  overload: System.Runtime.GCSettings.LargeObjectHeapCompactionMode*
   platform:
   - net-11
   - net-20
@@ -96,6 +98,7 @@ items:
     return:
       type: System.Runtime.GCLatencyMode
       description: To be added.
+  overload: System.Runtime.GCSettings.LatencyMode*
   platform:
   - net-11
   - net-20
@@ -140,3 +143,18 @@ references:
   name: GCLatencyMode
   nameWithType: GCLatencyMode
   fullName: System.Runtime.GCLatencyMode
+- uid: System.Runtime.GCSettings.IsServerGC*
+  parent: System.Runtime.GCSettings
+  isExternal: false
+  name: IsServerGC
+  nameWithType: GCSettings.IsServerGC
+- uid: System.Runtime.GCSettings.LargeObjectHeapCompactionMode*
+  parent: System.Runtime.GCSettings
+  isExternal: false
+  name: LargeObjectHeapCompactionMode
+  nameWithType: GCSettings.LargeObjectHeapCompactionMode
+- uid: System.Runtime.GCSettings.LatencyMode*
+  parent: System.Runtime.GCSettings
+  isExternal: false
+  name: LatencyMode
+  nameWithType: GCSettings.LatencyMode

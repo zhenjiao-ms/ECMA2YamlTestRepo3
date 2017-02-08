@@ -66,6 +66,7 @@ items:
     - id: denied
       type: System.Security.PermissionSet
       description: To be added.
+  overload: System.Security.Policy.PermissionRequestEvidence.#ctor*
   platform:
   - net-11
   - net-20
@@ -90,6 +91,7 @@ items:
     return:
       type: System.Security.Policy.EvidenceBase
       description: To be added.
+  overload: System.Security.Policy.PermissionRequestEvidence.Clone*
   platform:
   - net-11
   - net-20
@@ -114,6 +116,7 @@ items:
     return:
       type: System.Security.Policy.PermissionRequestEvidence
       description: To be added.
+  overload: System.Security.Policy.PermissionRequestEvidence.Copy*
   platform:
   - net-11
   - net-20
@@ -137,6 +140,7 @@ items:
     return:
       type: System.Security.PermissionSet
       description: To be added.
+  overload: System.Security.Policy.PermissionRequestEvidence.DeniedPermissions*
   platform:
   - net-11
   - net-20
@@ -160,6 +164,7 @@ items:
     return:
       type: System.Security.PermissionSet
       description: To be added.
+  overload: System.Security.Policy.PermissionRequestEvidence.OptionalPermissions*
   platform:
   - net-11
   - net-20
@@ -183,6 +188,7 @@ items:
     return:
       type: System.Security.PermissionSet
       description: To be added.
+  overload: System.Security.Policy.PermissionRequestEvidence.RequestedPermissions*
   platform:
   - net-11
   - net-20
@@ -207,6 +213,7 @@ items:
     return:
       type: System.String
       description: To be added.
+  overload: System.Security.Policy.PermissionRequestEvidence.ToString*
   platform:
   - net-11
   - net-20
@@ -311,3 +318,38 @@ references:
   name: String
   nameWithType: String
   fullName: System.String
+- uid: System.Security.Policy.PermissionRequestEvidence.#ctor*
+  parent: System.Security.Policy.PermissionRequestEvidence
+  isExternal: false
+  name: PermissionRequestEvidence
+  nameWithType: PermissionRequestEvidence.PermissionRequestEvidence
+- uid: System.Security.Policy.PermissionRequestEvidence.Clone*
+  parent: System.Security.Policy.PermissionRequestEvidence
+  isExternal: false
+  name: Clone
+  nameWithType: PermissionRequestEvidence.Clone
+- uid: System.Security.Policy.PermissionRequestEvidence.Copy*
+  parent: System.Security.Policy.PermissionRequestEvidence
+  isExternal: false
+  name: Copy
+  nameWithType: PermissionRequestEvidence.Copy
+- uid: System.Security.Policy.PermissionRequestEvidence.DeniedPermissions*
+  parent: System.Security.Policy.PermissionRequestEvidence
+  isExternal: false
+  name: DeniedPermissions
+  nameWithType: PermissionRequestEvidence.DeniedPermissions
+- uid: System.Security.Policy.PermissionRequestEvidence.OptionalPermissions*
+  parent: System.Security.Policy.PermissionRequestEvidence
+  isExternal: false
+  name: OptionalPermissions
+  nameWithType: PermissionRequestEvidence.OptionalPermissions
+- uid: System.Security.Policy.PermissionRequestEvidence.RequestedPermissions*
+  parent: System.Security.Policy.PermissionRequestEvidence
+  isExternal: false
+  name: RequestedPermissions
+  nameWithType: PermissionRequestEvidence.RequestedPermissions
+- uid: System.Security.Policy.PermissionRequestEvidence.ToString*
+  parent: System.Security.Policy.PermissionRequestEvidence
+  isExternal: false
+  name: ToString
+  nameWithType: PermissionRequestEvidence.ToString

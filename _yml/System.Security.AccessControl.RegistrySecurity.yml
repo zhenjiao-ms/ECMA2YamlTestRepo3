@@ -116,6 +116,7 @@ items:
   syntax:
     content: public RegistrySecurity ();
     parameters: []
+  overload: System.Security.AccessControl.RegistrySecurity.#ctor*
   platform:
   - net-11
   - net-20
@@ -139,6 +140,7 @@ items:
     return:
       type: System.Type
       description: To be added.
+  overload: System.Security.AccessControl.RegistrySecurity.AccessRightType*
   platform:
   - net-11
   - net-20
@@ -181,6 +183,7 @@ items:
     return:
       type: System.Security.AccessControl.AccessRule
       description: To be added.
+  overload: System.Security.AccessControl.RegistrySecurity.AccessRuleFactory*
   platform:
   - net-11
   - net-20
@@ -204,6 +207,7 @@ items:
     return:
       type: System.Type
       description: To be added.
+  overload: System.Security.AccessControl.RegistrySecurity.AccessRuleType*
   platform:
   - net-11
   - net-20
@@ -228,6 +232,7 @@ items:
     - id: rule
       type: System.Security.AccessControl.RegistryAccessRule
       description: To be added.
+  overload: System.Security.AccessControl.RegistrySecurity.AddAccessRule*
   platform:
   - net-11
   - net-20
@@ -252,6 +257,7 @@ items:
     - id: rule
       type: System.Security.AccessControl.RegistryAuditRule
       description: To be added.
+  overload: System.Security.AccessControl.RegistrySecurity.AddAuditRule*
   platform:
   - net-11
   - net-20
@@ -294,6 +300,7 @@ items:
     return:
       type: System.Security.AccessControl.AuditRule
       description: To be added.
+  overload: System.Security.AccessControl.RegistrySecurity.AuditRuleFactory*
   platform:
   - net-11
   - net-20
@@ -317,6 +324,7 @@ items:
     return:
       type: System.Type
       description: To be added.
+  overload: System.Security.AccessControl.RegistrySecurity.AuditRuleType*
   platform:
   - net-11
   - net-20
@@ -344,6 +352,7 @@ items:
     return:
       type: System.Boolean
       description: To be added.
+  overload: System.Security.AccessControl.RegistrySecurity.RemoveAccessRule*
   platform:
   - net-11
   - net-20
@@ -368,6 +377,7 @@ items:
     - id: rule
       type: System.Security.AccessControl.RegistryAccessRule
       description: To be added.
+  overload: System.Security.AccessControl.RegistrySecurity.RemoveAccessRuleAll*
   platform:
   - net-11
   - net-20
@@ -392,6 +402,7 @@ items:
     - id: rule
       type: System.Security.AccessControl.RegistryAccessRule
       description: To be added.
+  overload: System.Security.AccessControl.RegistrySecurity.RemoveAccessRuleSpecific*
   platform:
   - net-11
   - net-20
@@ -419,6 +430,7 @@ items:
     return:
       type: System.Boolean
       description: To be added.
+  overload: System.Security.AccessControl.RegistrySecurity.RemoveAuditRule*
   platform:
   - net-11
   - net-20
@@ -443,6 +455,7 @@ items:
     - id: rule
       type: System.Security.AccessControl.RegistryAuditRule
       description: To be added.
+  overload: System.Security.AccessControl.RegistrySecurity.RemoveAuditRuleAll*
   platform:
   - net-11
   - net-20
@@ -467,6 +480,7 @@ items:
     - id: rule
       type: System.Security.AccessControl.RegistryAuditRule
       description: To be added.
+  overload: System.Security.AccessControl.RegistrySecurity.RemoveAuditRuleSpecific*
   platform:
   - net-11
   - net-20
@@ -491,6 +505,7 @@ items:
     - id: rule
       type: System.Security.AccessControl.RegistryAccessRule
       description: To be added.
+  overload: System.Security.AccessControl.RegistrySecurity.ResetAccessRule*
   platform:
   - net-11
   - net-20
@@ -515,6 +530,7 @@ items:
     - id: rule
       type: System.Security.AccessControl.RegistryAccessRule
       description: To be added.
+  overload: System.Security.AccessControl.RegistrySecurity.SetAccessRule*
   platform:
   - net-11
   - net-20
@@ -539,6 +555,7 @@ items:
     - id: rule
       type: System.Security.AccessControl.RegistryAuditRule
       description: To be added.
+  overload: System.Security.AccessControl.RegistrySecurity.SetAuditRule*
   platform:
   - net-11
   - net-20
@@ -829,3 +846,88 @@ references:
   name: RegistryAuditRule
   nameWithType: RegistryAuditRule
   fullName: System.Security.AccessControl.RegistryAuditRule
+- uid: System.Security.AccessControl.RegistrySecurity.#ctor*
+  parent: System.Security.AccessControl.RegistrySecurity
+  isExternal: false
+  name: RegistrySecurity
+  nameWithType: RegistrySecurity.RegistrySecurity
+- uid: System.Security.AccessControl.RegistrySecurity.AccessRightType*
+  parent: System.Security.AccessControl.RegistrySecurity
+  isExternal: false
+  name: AccessRightType
+  nameWithType: RegistrySecurity.AccessRightType
+- uid: System.Security.AccessControl.RegistrySecurity.AccessRuleFactory*
+  parent: System.Security.AccessControl.RegistrySecurity
+  isExternal: false
+  name: AccessRuleFactory
+  nameWithType: RegistrySecurity.AccessRuleFactory
+- uid: System.Security.AccessControl.RegistrySecurity.AccessRuleType*
+  parent: System.Security.AccessControl.RegistrySecurity
+  isExternal: false
+  name: AccessRuleType
+  nameWithType: RegistrySecurity.AccessRuleType
+- uid: System.Security.AccessControl.RegistrySecurity.AddAccessRule*
+  parent: System.Security.AccessControl.RegistrySecurity
+  isExternal: false
+  name: AddAccessRule
+  nameWithType: RegistrySecurity.AddAccessRule
+- uid: System.Security.AccessControl.RegistrySecurity.AddAuditRule*
+  parent: System.Security.AccessControl.RegistrySecurity
+  isExternal: false
+  name: AddAuditRule
+  nameWithType: RegistrySecurity.AddAuditRule
+- uid: System.Security.AccessControl.RegistrySecurity.AuditRuleFactory*
+  parent: System.Security.AccessControl.RegistrySecurity
+  isExternal: false
+  name: AuditRuleFactory
+  nameWithType: RegistrySecurity.AuditRuleFactory
+- uid: System.Security.AccessControl.RegistrySecurity.AuditRuleType*
+  parent: System.Security.AccessControl.RegistrySecurity
+  isExternal: false
+  name: AuditRuleType
+  nameWithType: RegistrySecurity.AuditRuleType
+- uid: System.Security.AccessControl.RegistrySecurity.RemoveAccessRule*
+  parent: System.Security.AccessControl.RegistrySecurity
+  isExternal: false
+  name: RemoveAccessRule
+  nameWithType: RegistrySecurity.RemoveAccessRule
+- uid: System.Security.AccessControl.RegistrySecurity.RemoveAccessRuleAll*
+  parent: System.Security.AccessControl.RegistrySecurity
+  isExternal: false
+  name: RemoveAccessRuleAll
+  nameWithType: RegistrySecurity.RemoveAccessRuleAll
+- uid: System.Security.AccessControl.RegistrySecurity.RemoveAccessRuleSpecific*
+  parent: System.Security.AccessControl.RegistrySecurity
+  isExternal: false
+  name: RemoveAccessRuleSpecific
+  nameWithType: RegistrySecurity.RemoveAccessRuleSpecific
+- uid: System.Security.AccessControl.RegistrySecurity.RemoveAuditRule*
+  parent: System.Security.AccessControl.RegistrySecurity
+  isExternal: false
+  name: RemoveAuditRule
+  nameWithType: RegistrySecurity.RemoveAuditRule
+- uid: System.Security.AccessControl.RegistrySecurity.RemoveAuditRuleAll*
+  parent: System.Security.AccessControl.RegistrySecurity
+  isExternal: false
+  name: RemoveAuditRuleAll
+  nameWithType: RegistrySecurity.RemoveAuditRuleAll
+- uid: System.Security.AccessControl.RegistrySecurity.RemoveAuditRuleSpecific*
+  parent: System.Security.AccessControl.RegistrySecurity
+  isExternal: false
+  name: RemoveAuditRuleSpecific
+  nameWithType: RegistrySecurity.RemoveAuditRuleSpecific
+- uid: System.Security.AccessControl.RegistrySecurity.ResetAccessRule*
+  parent: System.Security.AccessControl.RegistrySecurity
+  isExternal: false
+  name: ResetAccessRule
+  nameWithType: RegistrySecurity.ResetAccessRule
+- uid: System.Security.AccessControl.RegistrySecurity.SetAccessRule*
+  parent: System.Security.AccessControl.RegistrySecurity
+  isExternal: false
+  name: SetAccessRule
+  nameWithType: RegistrySecurity.SetAccessRule
+- uid: System.Security.AccessControl.RegistrySecurity.SetAuditRule*
+  parent: System.Security.AccessControl.RegistrySecurity
+  isExternal: false
+  name: SetAuditRule
+  nameWithType: RegistrySecurity.SetAuditRule

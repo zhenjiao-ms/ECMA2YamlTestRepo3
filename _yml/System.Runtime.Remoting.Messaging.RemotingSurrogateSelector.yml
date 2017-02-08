@@ -59,6 +59,7 @@ items:
   syntax:
     content: public RemotingSurrogateSelector ();
     parameters: []
+  overload: System.Runtime.Remoting.Messaging.RemotingSurrogateSelector.#ctor*
   platform:
   - net-11
   - net-20
@@ -83,6 +84,7 @@ items:
     - id: selector
       type: System.Runtime.Serialization.ISurrogateSelector
       description: To be added.
+  overload: System.Runtime.Remoting.Messaging.RemotingSurrogateSelector.ChainSelector*
   platform:
   - net-11
   - net-20
@@ -106,6 +108,7 @@ items:
     return:
       type: System.Runtime.Remoting.Messaging.MessageSurrogateFilter
       description: To be added.
+  overload: System.Runtime.Remoting.Messaging.RemotingSurrogateSelector.Filter*
   platform:
   - net-11
   - net-20
@@ -130,6 +133,7 @@ items:
     return:
       type: System.Runtime.Serialization.ISurrogateSelector
       description: To be added.
+  overload: System.Runtime.Remoting.Messaging.RemotingSurrogateSelector.GetNextSelector*
   platform:
   - net-11
   - net-20
@@ -154,6 +158,7 @@ items:
     return:
       type: System.Object
       description: To be added.
+  overload: System.Runtime.Remoting.Messaging.RemotingSurrogateSelector.GetRootObject*
   platform:
   - net-11
   - net-20
@@ -187,6 +192,7 @@ items:
     return:
       type: System.Runtime.Serialization.ISerializationSurrogate
       description: To be added.
+  overload: System.Runtime.Remoting.Messaging.RemotingSurrogateSelector.GetSurrogate*
   platform:
   - net-11
   - net-20
@@ -211,6 +217,7 @@ items:
     - id: obj
       type: System.Object
       description: To be added.
+  overload: System.Runtime.Remoting.Messaging.RemotingSurrogateSelector.SetRootObject*
   platform:
   - net-11
   - net-20
@@ -232,6 +239,7 @@ items:
   syntax:
     content: public virtual void UseSoapFormat ();
     parameters: []
+  overload: System.Runtime.Remoting.Messaging.RemotingSurrogateSelector.UseSoapFormat*
   platform:
   - net-11
   - net-20
@@ -342,3 +350,43 @@ references:
   name: UseSoapFormat()
   nameWithType: RemotingSurrogateSelector.UseSoapFormat()
   fullName: System.Runtime.Remoting.Messaging.RemotingSurrogateSelector.UseSoapFormat()
+- uid: System.Runtime.Remoting.Messaging.RemotingSurrogateSelector.#ctor*
+  parent: System.Runtime.Remoting.Messaging.RemotingSurrogateSelector
+  isExternal: false
+  name: RemotingSurrogateSelector
+  nameWithType: RemotingSurrogateSelector.RemotingSurrogateSelector
+- uid: System.Runtime.Remoting.Messaging.RemotingSurrogateSelector.ChainSelector*
+  parent: System.Runtime.Remoting.Messaging.RemotingSurrogateSelector
+  isExternal: false
+  name: ChainSelector
+  nameWithType: RemotingSurrogateSelector.ChainSelector
+- uid: System.Runtime.Remoting.Messaging.RemotingSurrogateSelector.Filter*
+  parent: System.Runtime.Remoting.Messaging.RemotingSurrogateSelector
+  isExternal: false
+  name: Filter
+  nameWithType: RemotingSurrogateSelector.Filter
+- uid: System.Runtime.Remoting.Messaging.RemotingSurrogateSelector.GetNextSelector*
+  parent: System.Runtime.Remoting.Messaging.RemotingSurrogateSelector
+  isExternal: false
+  name: GetNextSelector
+  nameWithType: RemotingSurrogateSelector.GetNextSelector
+- uid: System.Runtime.Remoting.Messaging.RemotingSurrogateSelector.GetRootObject*
+  parent: System.Runtime.Remoting.Messaging.RemotingSurrogateSelector
+  isExternal: false
+  name: GetRootObject
+  nameWithType: RemotingSurrogateSelector.GetRootObject
+- uid: System.Runtime.Remoting.Messaging.RemotingSurrogateSelector.GetSurrogate*
+  parent: System.Runtime.Remoting.Messaging.RemotingSurrogateSelector
+  isExternal: false
+  name: GetSurrogate
+  nameWithType: RemotingSurrogateSelector.GetSurrogate
+- uid: System.Runtime.Remoting.Messaging.RemotingSurrogateSelector.SetRootObject*
+  parent: System.Runtime.Remoting.Messaging.RemotingSurrogateSelector
+  isExternal: false
+  name: SetRootObject
+  nameWithType: RemotingSurrogateSelector.SetRootObject
+- uid: System.Runtime.Remoting.Messaging.RemotingSurrogateSelector.UseSoapFormat*
+  parent: System.Runtime.Remoting.Messaging.RemotingSurrogateSelector
+  isExternal: false
+  name: UseSoapFormat
+  nameWithType: RemotingSurrogateSelector.UseSoapFormat

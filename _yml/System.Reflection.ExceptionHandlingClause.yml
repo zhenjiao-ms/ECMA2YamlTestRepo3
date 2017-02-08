@@ -56,6 +56,7 @@ items:
   syntax:
     content: protected ExceptionHandlingClause ();
     parameters: []
+  overload: System.Reflection.ExceptionHandlingClause.#ctor*
   platform:
   - net-11
   - net-20
@@ -79,6 +80,7 @@ items:
     return:
       type: System.Type
       description: To be added.
+  overload: System.Reflection.ExceptionHandlingClause.CatchType*
   platform:
   - net-11
   - net-20
@@ -102,6 +104,7 @@ items:
     return:
       type: System.Int32
       description: To be added.
+  overload: System.Reflection.ExceptionHandlingClause.FilterOffset*
   platform:
   - net-11
   - net-20
@@ -125,6 +128,7 @@ items:
     return:
       type: System.Reflection.ExceptionHandlingClauseOptions
       description: To be added.
+  overload: System.Reflection.ExceptionHandlingClause.Flags*
   platform:
   - net-11
   - net-20
@@ -148,6 +152,7 @@ items:
     return:
       type: System.Int32
       description: To be added.
+  overload: System.Reflection.ExceptionHandlingClause.HandlerLength*
   platform:
   - net-11
   - net-20
@@ -171,6 +176,7 @@ items:
     return:
       type: System.Int32
       description: To be added.
+  overload: System.Reflection.ExceptionHandlingClause.HandlerOffset*
   platform:
   - net-11
   - net-20
@@ -195,6 +201,7 @@ items:
     return:
       type: System.String
       description: To be added.
+  overload: System.Reflection.ExceptionHandlingClause.ToString*
   platform:
   - net-11
   - net-20
@@ -218,6 +225,7 @@ items:
     return:
       type: System.Int32
       description: To be added.
+  overload: System.Reflection.ExceptionHandlingClause.TryLength*
   platform:
   - net-11
   - net-20
@@ -241,6 +249,7 @@ items:
     return:
       type: System.Int32
       description: To be added.
+  overload: System.Reflection.ExceptionHandlingClause.TryOffset*
   platform:
   - net-11
   - net-20
@@ -351,3 +360,48 @@ references:
   name: Int32
   nameWithType: Int32
   fullName: System.Int32
+- uid: System.Reflection.ExceptionHandlingClause.#ctor*
+  parent: System.Reflection.ExceptionHandlingClause
+  isExternal: false
+  name: ExceptionHandlingClause
+  nameWithType: ExceptionHandlingClause.ExceptionHandlingClause
+- uid: System.Reflection.ExceptionHandlingClause.CatchType*
+  parent: System.Reflection.ExceptionHandlingClause
+  isExternal: false
+  name: CatchType
+  nameWithType: ExceptionHandlingClause.CatchType
+- uid: System.Reflection.ExceptionHandlingClause.FilterOffset*
+  parent: System.Reflection.ExceptionHandlingClause
+  isExternal: false
+  name: FilterOffset
+  nameWithType: ExceptionHandlingClause.FilterOffset
+- uid: System.Reflection.ExceptionHandlingClause.Flags*
+  parent: System.Reflection.ExceptionHandlingClause
+  isExternal: false
+  name: Flags
+  nameWithType: ExceptionHandlingClause.Flags
+- uid: System.Reflection.ExceptionHandlingClause.HandlerLength*
+  parent: System.Reflection.ExceptionHandlingClause
+  isExternal: false
+  name: HandlerLength
+  nameWithType: ExceptionHandlingClause.HandlerLength
+- uid: System.Reflection.ExceptionHandlingClause.HandlerOffset*
+  parent: System.Reflection.ExceptionHandlingClause
+  isExternal: false
+  name: HandlerOffset
+  nameWithType: ExceptionHandlingClause.HandlerOffset
+- uid: System.Reflection.ExceptionHandlingClause.ToString*
+  parent: System.Reflection.ExceptionHandlingClause
+  isExternal: false
+  name: ToString
+  nameWithType: ExceptionHandlingClause.ToString
+- uid: System.Reflection.ExceptionHandlingClause.TryLength*
+  parent: System.Reflection.ExceptionHandlingClause
+  isExternal: false
+  name: TryLength
+  nameWithType: ExceptionHandlingClause.TryLength
+- uid: System.Reflection.ExceptionHandlingClause.TryOffset*
+  parent: System.Reflection.ExceptionHandlingClause
+  isExternal: false
+  name: TryOffset
+  nameWithType: ExceptionHandlingClause.TryOffset

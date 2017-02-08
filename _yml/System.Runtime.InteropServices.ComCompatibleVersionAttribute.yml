@@ -107,6 +107,7 @@ items:
     - id: revision
       type: System.Int32
       description: To be added.
+  overload: System.Runtime.InteropServices.ComCompatibleVersionAttribute.#ctor*
   platform:
   - net-11
   - net-20
@@ -130,6 +131,7 @@ items:
     return:
       type: System.Int32
       description: To be added.
+  overload: System.Runtime.InteropServices.ComCompatibleVersionAttribute.BuildNumber*
   platform:
   - net-11
   - net-20
@@ -153,6 +155,7 @@ items:
     return:
       type: System.Int32
       description: To be added.
+  overload: System.Runtime.InteropServices.ComCompatibleVersionAttribute.MajorVersion*
   platform:
   - net-11
   - net-20
@@ -176,6 +179,7 @@ items:
     return:
       type: System.Int32
       description: To be added.
+  overload: System.Runtime.InteropServices.ComCompatibleVersionAttribute.MinorVersion*
   platform:
   - net-11
   - net-20
@@ -199,6 +203,7 @@ items:
     return:
       type: System.Int32
       description: To be added.
+  overload: System.Runtime.InteropServices.ComCompatibleVersionAttribute.RevisionNumber*
   platform:
   - net-11
   - net-20
@@ -285,3 +290,28 @@ references:
   name: Int32
   nameWithType: Int32
   fullName: System.Int32
+- uid: System.Runtime.InteropServices.ComCompatibleVersionAttribute.#ctor*
+  parent: System.Runtime.InteropServices.ComCompatibleVersionAttribute
+  isExternal: false
+  name: ComCompatibleVersionAttribute
+  nameWithType: ComCompatibleVersionAttribute.ComCompatibleVersionAttribute
+- uid: System.Runtime.InteropServices.ComCompatibleVersionAttribute.BuildNumber*
+  parent: System.Runtime.InteropServices.ComCompatibleVersionAttribute
+  isExternal: false
+  name: BuildNumber
+  nameWithType: ComCompatibleVersionAttribute.BuildNumber
+- uid: System.Runtime.InteropServices.ComCompatibleVersionAttribute.MajorVersion*
+  parent: System.Runtime.InteropServices.ComCompatibleVersionAttribute
+  isExternal: false
+  name: MajorVersion
+  nameWithType: ComCompatibleVersionAttribute.MajorVersion
+- uid: System.Runtime.InteropServices.ComCompatibleVersionAttribute.MinorVersion*
+  parent: System.Runtime.InteropServices.ComCompatibleVersionAttribute
+  isExternal: false
+  name: MinorVersion
+  nameWithType: ComCompatibleVersionAttribute.MinorVersion
+- uid: System.Runtime.InteropServices.ComCompatibleVersionAttribute.RevisionNumber*
+  parent: System.Runtime.InteropServices.ComCompatibleVersionAttribute
+  isExternal: false
+  name: RevisionNumber
+  nameWithType: ComCompatibleVersionAttribute.RevisionNumber

@@ -42,6 +42,7 @@ items:
     return:
       type: System.Object
       description: To be added.
+  overload: System.Runtime.InteropServices.WindowsRuntime.IActivationFactory.ActivateInstance*
   platform:
   - net-11
   - net-20
@@ -59,3 +60,8 @@ references:
   name: Object
   nameWithType: Object
   fullName: System.Object
+- uid: System.Runtime.InteropServices.WindowsRuntime.IActivationFactory.ActivateInstance*
+  parent: System.Runtime.InteropServices.WindowsRuntime.IActivationFactory
+  isExternal: false
+  name: ActivateInstance
+  nameWithType: IActivationFactory.ActivateInstance

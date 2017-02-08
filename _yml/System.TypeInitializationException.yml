@@ -69,6 +69,7 @@ items:
     - id: innerException
       type: System.Exception
       description: To be added.
+  overload: System.TypeInitializationException.#ctor*
   platform:
   - net-11
   - net-20
@@ -96,6 +97,7 @@ items:
     - id: context
       type: System.Runtime.Serialization.StreamingContext
       description: To be added.
+  overload: System.TypeInitializationException.GetObjectData*
   platform:
   - net-11
   - net-20
@@ -119,6 +121,7 @@ items:
     return:
       type: System.String
       description: To be added.
+  overload: System.TypeInitializationException.TypeName*
   platform:
   - net-11
   - net-20
@@ -175,3 +178,18 @@ references:
   name: String
   nameWithType: String
   fullName: System.String
+- uid: System.TypeInitializationException.#ctor*
+  parent: System.TypeInitializationException
+  isExternal: false
+  name: TypeInitializationException
+  nameWithType: TypeInitializationException.TypeInitializationException
+- uid: System.TypeInitializationException.GetObjectData*
+  parent: System.TypeInitializationException
+  isExternal: false
+  name: GetObjectData
+  nameWithType: TypeInitializationException.GetObjectData
+- uid: System.TypeInitializationException.TypeName*
+  parent: System.TypeInitializationException
+  isExternal: false
+  name: TypeName
+  nameWithType: TypeInitializationException.TypeName

@@ -70,6 +70,7 @@ items:
     return:
       type: System.Int32
       description: To be added.
+  overload: System.Reflection.Emit.ParameterBuilder.Attributes*
   platform:
   - net-11
   - net-20
@@ -94,6 +95,7 @@ items:
     return:
       type: System.Reflection.Emit.ParameterToken
       description: To be added.
+  overload: System.Reflection.Emit.ParameterBuilder.GetToken*
   platform:
   - net-11
   - net-20
@@ -117,6 +119,7 @@ items:
     return:
       type: System.Boolean
       description: To be added.
+  overload: System.Reflection.Emit.ParameterBuilder.IsIn*
   platform:
   - net-11
   - net-20
@@ -140,6 +143,7 @@ items:
     return:
       type: System.Boolean
       description: To be added.
+  overload: System.Reflection.Emit.ParameterBuilder.IsOptional*
   platform:
   - net-11
   - net-20
@@ -163,6 +167,7 @@ items:
     return:
       type: System.Boolean
       description: To be added.
+  overload: System.Reflection.Emit.ParameterBuilder.IsOut*
   platform:
   - net-11
   - net-20
@@ -186,6 +191,7 @@ items:
     return:
       type: System.String
       description: To be added.
+  overload: System.Reflection.Emit.ParameterBuilder.Name*
   platform:
   - net-11
   - net-20
@@ -209,6 +215,7 @@ items:
     return:
       type: System.Int32
       description: To be added.
+  overload: System.Reflection.Emit.ParameterBuilder.Position*
   platform:
   - net-11
   - net-20
@@ -233,6 +240,7 @@ items:
     - id: defaultValue
       type: System.Object
       description: To be added.
+  overload: System.Reflection.Emit.ParameterBuilder.SetConstant*
   platform:
   - net-11
   - net-20
@@ -310,6 +318,7 @@ items:
     - id: unmanagedMarshal
       type: System.Reflection.Emit.UnmanagedMarshal
       description: To be added.
+  overload: System.Reflection.Emit.ParameterBuilder.SetMarshal*
   platform:
   - net-11
   - net-20
@@ -347,6 +356,7 @@ items:
     - id: rgDispId
       type: System.IntPtr
       description: To be added.
+  overload: System.Reflection.Emit.ParameterBuilder.System#Runtime#InteropServices#_ParameterBuilder#GetIDsOfNames*
   platform:
   - net-11
   - net-20
@@ -378,6 +388,7 @@ items:
     - id: ppTInfo
       type: System.IntPtr
       description: To be added.
+  overload: System.Reflection.Emit.ParameterBuilder.System#Runtime#InteropServices#_ParameterBuilder#GetTypeInfo*
   platform:
   - net-11
   - net-20
@@ -403,6 +414,7 @@ items:
     - id: pcTInfo
       type: System.UInt32
       description: To be added.
+  overload: System.Reflection.Emit.ParameterBuilder.System#Runtime#InteropServices#_ParameterBuilder#GetTypeInfoCount*
   platform:
   - net-11
   - net-20
@@ -449,6 +461,7 @@ items:
     - id: puArgErr
       type: System.IntPtr
       description: To be added.
+  overload: System.Reflection.Emit.ParameterBuilder.System#Runtime#InteropServices#_ParameterBuilder#Invoke*
   platform:
   - net-11
   - net-20
@@ -721,8 +734,73 @@ references:
   name: IntPtr
   nameWithType: IntPtr
   fullName: System.IntPtr
+- uid: System.Reflection.Emit.ParameterBuilder.Attributes*
+  parent: System.Reflection.Emit.ParameterBuilder
+  isExternal: false
+  name: Attributes
+  nameWithType: ParameterBuilder.Attributes
+- uid: System.Reflection.Emit.ParameterBuilder.GetToken*
+  parent: System.Reflection.Emit.ParameterBuilder
+  isExternal: false
+  name: GetToken
+  nameWithType: ParameterBuilder.GetToken
+- uid: System.Reflection.Emit.ParameterBuilder.IsIn*
+  parent: System.Reflection.Emit.ParameterBuilder
+  isExternal: false
+  name: IsIn
+  nameWithType: ParameterBuilder.IsIn
+- uid: System.Reflection.Emit.ParameterBuilder.IsOptional*
+  parent: System.Reflection.Emit.ParameterBuilder
+  isExternal: false
+  name: IsOptional
+  nameWithType: ParameterBuilder.IsOptional
+- uid: System.Reflection.Emit.ParameterBuilder.IsOut*
+  parent: System.Reflection.Emit.ParameterBuilder
+  isExternal: false
+  name: IsOut
+  nameWithType: ParameterBuilder.IsOut
+- uid: System.Reflection.Emit.ParameterBuilder.Name*
+  parent: System.Reflection.Emit.ParameterBuilder
+  isExternal: false
+  name: Name
+  nameWithType: ParameterBuilder.Name
+- uid: System.Reflection.Emit.ParameterBuilder.Position*
+  parent: System.Reflection.Emit.ParameterBuilder
+  isExternal: false
+  name: Position
+  nameWithType: ParameterBuilder.Position
+- uid: System.Reflection.Emit.ParameterBuilder.SetConstant*
+  parent: System.Reflection.Emit.ParameterBuilder
+  isExternal: false
+  name: SetConstant
+  nameWithType: ParameterBuilder.SetConstant
 - uid: System.Reflection.Emit.ParameterBuilder.SetCustomAttribute*
   parent: System.Reflection.Emit.ParameterBuilder
   isExternal: false
   name: SetCustomAttribute
   nameWithType: ParameterBuilder.SetCustomAttribute
+- uid: System.Reflection.Emit.ParameterBuilder.SetMarshal*
+  parent: System.Reflection.Emit.ParameterBuilder
+  isExternal: false
+  name: SetMarshal
+  nameWithType: ParameterBuilder.SetMarshal
+- uid: System.Reflection.Emit.ParameterBuilder.System#Runtime#InteropServices#_ParameterBuilder#GetIDsOfNames*
+  parent: System.Reflection.Emit.ParameterBuilder
+  isExternal: false
+  name: System.Runtime.InteropServices._ParameterBuilder.GetIDsOfNames
+  nameWithType: ParameterBuilder.System.Runtime.InteropServices._ParameterBuilder.GetIDsOfNames
+- uid: System.Reflection.Emit.ParameterBuilder.System#Runtime#InteropServices#_ParameterBuilder#GetTypeInfo*
+  parent: System.Reflection.Emit.ParameterBuilder
+  isExternal: false
+  name: System.Runtime.InteropServices._ParameterBuilder.GetTypeInfo
+  nameWithType: ParameterBuilder.System.Runtime.InteropServices._ParameterBuilder.GetTypeInfo
+- uid: System.Reflection.Emit.ParameterBuilder.System#Runtime#InteropServices#_ParameterBuilder#GetTypeInfoCount*
+  parent: System.Reflection.Emit.ParameterBuilder
+  isExternal: false
+  name: System.Runtime.InteropServices._ParameterBuilder.GetTypeInfoCount
+  nameWithType: ParameterBuilder.System.Runtime.InteropServices._ParameterBuilder.GetTypeInfoCount
+- uid: System.Reflection.Emit.ParameterBuilder.System#Runtime#InteropServices#_ParameterBuilder#Invoke*
+  parent: System.Reflection.Emit.ParameterBuilder
+  isExternal: false
+  name: System.Runtime.InteropServices._ParameterBuilder.Invoke
+  nameWithType: ParameterBuilder.System.Runtime.InteropServices._ParameterBuilder.Invoke

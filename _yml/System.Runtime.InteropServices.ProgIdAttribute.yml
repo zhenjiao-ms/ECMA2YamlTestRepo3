@@ -95,6 +95,7 @@ items:
     - id: progId
       type: System.String
       description: To be added.
+  overload: System.Runtime.InteropServices.ProgIdAttribute.#ctor*
   platform:
   - net-11
   - net-20
@@ -118,6 +119,7 @@ items:
     return:
       type: System.String
       description: To be added.
+  overload: System.Runtime.InteropServices.ProgIdAttribute.Value*
   platform:
   - net-11
   - net-20
@@ -150,3 +152,13 @@ references:
   name: String
   nameWithType: String
   fullName: System.String
+- uid: System.Runtime.InteropServices.ProgIdAttribute.#ctor*
+  parent: System.Runtime.InteropServices.ProgIdAttribute
+  isExternal: false
+  name: ProgIdAttribute
+  nameWithType: ProgIdAttribute.ProgIdAttribute
+- uid: System.Runtime.InteropServices.ProgIdAttribute.Value*
+  parent: System.Runtime.InteropServices.ProgIdAttribute
+  isExternal: false
+  name: Value
+  nameWithType: ProgIdAttribute.Value

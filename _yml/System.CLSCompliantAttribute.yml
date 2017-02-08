@@ -95,6 +95,7 @@ items:
     - id: isCompliant
       type: System.Boolean
       description: To be added.
+  overload: System.CLSCompliantAttribute.#ctor*
   platform:
   - net-11
   - net-20
@@ -118,6 +119,7 @@ items:
     return:
       type: System.Boolean
       description: To be added.
+  overload: System.CLSCompliantAttribute.IsCompliant*
   platform:
   - net-11
   - net-20
@@ -150,3 +152,13 @@ references:
   name: Boolean
   nameWithType: Boolean
   fullName: System.Boolean
+- uid: System.CLSCompliantAttribute.#ctor*
+  parent: System.CLSCompliantAttribute
+  isExternal: false
+  name: CLSCompliantAttribute
+  nameWithType: CLSCompliantAttribute.CLSCompliantAttribute
+- uid: System.CLSCompliantAttribute.IsCompliant*
+  parent: System.CLSCompliantAttribute
+  isExternal: false
+  name: IsCompliant
+  nameWithType: CLSCompliantAttribute.IsCompliant

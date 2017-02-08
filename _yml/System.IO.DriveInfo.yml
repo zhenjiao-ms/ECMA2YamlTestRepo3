@@ -64,6 +64,7 @@ items:
     - id: driveName
       type: System.String
       description: To be added.
+  overload: System.IO.DriveInfo.#ctor*
   platform:
   - net-11
   - net-20
@@ -87,6 +88,7 @@ items:
     return:
       type: System.Int64
       description: To be added.
+  overload: System.IO.DriveInfo.AvailableFreeSpace*
   platform:
   - net-11
   - net-20
@@ -110,6 +112,7 @@ items:
     return:
       type: System.String
       description: To be added.
+  overload: System.IO.DriveInfo.DriveFormat*
   platform:
   - net-11
   - net-20
@@ -133,6 +136,7 @@ items:
     return:
       type: System.IO.DriveType
       description: To be added.
+  overload: System.IO.DriveInfo.DriveType*
   platform:
   - net-11
   - net-20
@@ -157,6 +161,7 @@ items:
     return:
       type: System.IO.DriveInfo[]
       description: To be added.
+  overload: System.IO.DriveInfo.GetDrives*
   platform:
   - net-11
   - net-20
@@ -180,6 +185,7 @@ items:
     return:
       type: System.Boolean
       description: To be added.
+  overload: System.IO.DriveInfo.IsReady*
   platform:
   - net-11
   - net-20
@@ -203,6 +209,7 @@ items:
     return:
       type: System.String
       description: To be added.
+  overload: System.IO.DriveInfo.Name*
   platform:
   - net-11
   - net-20
@@ -226,6 +233,7 @@ items:
     return:
       type: System.IO.DirectoryInfo
       description: To be added.
+  overload: System.IO.DriveInfo.RootDirectory*
   platform:
   - net-11
   - net-20
@@ -254,6 +262,7 @@ items:
     - id: context
       type: System.Runtime.Serialization.StreamingContext
       description: To be added.
+  overload: System.IO.DriveInfo.System#Runtime#Serialization#ISerializable#GetObjectData*
   platform:
   - net-11
   - net-20
@@ -278,6 +287,7 @@ items:
     return:
       type: System.String
       description: To be added.
+  overload: System.IO.DriveInfo.ToString*
   platform:
   - net-11
   - net-20
@@ -301,6 +311,7 @@ items:
     return:
       type: System.Int64
       description: To be added.
+  overload: System.IO.DriveInfo.TotalFreeSpace*
   platform:
   - net-11
   - net-20
@@ -324,6 +335,7 @@ items:
     return:
       type: System.Int64
       description: To be added.
+  overload: System.IO.DriveInfo.TotalSize*
   platform:
   - net-11
   - net-20
@@ -347,6 +359,7 @@ items:
     return:
       type: System.String
       description: To be added.
+  overload: System.IO.DriveInfo.VolumeLabel*
   platform:
   - net-11
   - net-20
@@ -517,3 +530,68 @@ references:
   name: String
   nameWithType: String
   fullName: System.String
+- uid: System.IO.DriveInfo.#ctor*
+  parent: System.IO.DriveInfo
+  isExternal: false
+  name: DriveInfo
+  nameWithType: DriveInfo.DriveInfo
+- uid: System.IO.DriveInfo.AvailableFreeSpace*
+  parent: System.IO.DriveInfo
+  isExternal: false
+  name: AvailableFreeSpace
+  nameWithType: DriveInfo.AvailableFreeSpace
+- uid: System.IO.DriveInfo.DriveFormat*
+  parent: System.IO.DriveInfo
+  isExternal: false
+  name: DriveFormat
+  nameWithType: DriveInfo.DriveFormat
+- uid: System.IO.DriveInfo.DriveType*
+  parent: System.IO.DriveInfo
+  isExternal: false
+  name: DriveType
+  nameWithType: DriveInfo.DriveType
+- uid: System.IO.DriveInfo.GetDrives*
+  parent: System.IO.DriveInfo
+  isExternal: false
+  name: GetDrives
+  nameWithType: DriveInfo.GetDrives
+- uid: System.IO.DriveInfo.IsReady*
+  parent: System.IO.DriveInfo
+  isExternal: false
+  name: IsReady
+  nameWithType: DriveInfo.IsReady
+- uid: System.IO.DriveInfo.Name*
+  parent: System.IO.DriveInfo
+  isExternal: false
+  name: Name
+  nameWithType: DriveInfo.Name
+- uid: System.IO.DriveInfo.RootDirectory*
+  parent: System.IO.DriveInfo
+  isExternal: false
+  name: RootDirectory
+  nameWithType: DriveInfo.RootDirectory
+- uid: System.IO.DriveInfo.System#Runtime#Serialization#ISerializable#GetObjectData*
+  parent: System.IO.DriveInfo
+  isExternal: false
+  name: System.Runtime.Serialization.ISerializable.GetObjectData
+  nameWithType: DriveInfo.System.Runtime.Serialization.ISerializable.GetObjectData
+- uid: System.IO.DriveInfo.ToString*
+  parent: System.IO.DriveInfo
+  isExternal: false
+  name: ToString
+  nameWithType: DriveInfo.ToString
+- uid: System.IO.DriveInfo.TotalFreeSpace*
+  parent: System.IO.DriveInfo
+  isExternal: false
+  name: TotalFreeSpace
+  nameWithType: DriveInfo.TotalFreeSpace
+- uid: System.IO.DriveInfo.TotalSize*
+  parent: System.IO.DriveInfo
+  isExternal: false
+  name: TotalSize
+  nameWithType: DriveInfo.TotalSize
+- uid: System.IO.DriveInfo.VolumeLabel*
+  parent: System.IO.DriveInfo
+  isExternal: false
+  name: VolumeLabel
+  nameWithType: DriveInfo.VolumeLabel

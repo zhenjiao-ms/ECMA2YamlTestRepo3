@@ -95,6 +95,7 @@ items:
     - id: offset
       type: System.Int32
       description: To be added.
+  overload: System.Runtime.InteropServices.FieldOffsetAttribute.#ctor*
   platform:
   - net-11
   - net-20
@@ -118,6 +119,7 @@ items:
     return:
       type: System.Int32
       description: To be added.
+  overload: System.Runtime.InteropServices.FieldOffsetAttribute.Value*
   platform:
   - net-11
   - net-20
@@ -150,3 +152,13 @@ references:
   name: Int32
   nameWithType: Int32
   fullName: System.Int32
+- uid: System.Runtime.InteropServices.FieldOffsetAttribute.#ctor*
+  parent: System.Runtime.InteropServices.FieldOffsetAttribute
+  isExternal: false
+  name: FieldOffsetAttribute
+  nameWithType: FieldOffsetAttribute.FieldOffsetAttribute
+- uid: System.Runtime.InteropServices.FieldOffsetAttribute.Value*
+  parent: System.Runtime.InteropServices.FieldOffsetAttribute
+  isExternal: false
+  name: Value
+  nameWithType: FieldOffsetAttribute.Value

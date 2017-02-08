@@ -443,6 +443,7 @@ items:
     return:
       type: T
       description: To be added.
+  overload: System.Threading.Volatile.Read<T>*
   platform:
   - net-11
   - net-20
@@ -834,6 +835,7 @@ items:
     - id: value
       type: T
       description: To be added.
+  overload: System.Threading.Volatile.Write<T>*
   platform:
   - net-11
   - net-20
@@ -1351,8 +1353,18 @@ references:
   isExternal: false
   name: Read
   nameWithType: Volatile.Read
+- uid: System.Threading.Volatile.Read<T>*
+  parent: System.Threading.Volatile
+  isExternal: false
+  name: Read<T>
+  nameWithType: Volatile.Read<T>
 - uid: System.Threading.Volatile.Write*
   parent: System.Threading.Volatile
   isExternal: false
   name: Write
   nameWithType: Volatile.Write
+- uid: System.Threading.Volatile.Write<T>*
+  parent: System.Threading.Volatile
+  isExternal: false
+  name: Write<T>
+  nameWithType: Volatile.Write<T>

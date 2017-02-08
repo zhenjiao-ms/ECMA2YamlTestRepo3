@@ -53,6 +53,7 @@ items:
     - id: value
       type: System.Object
       description: To be added.
+  overload: System.Reflection.CustomAttributeTypedArgument.#ctor*
   platform:
   - net-11
   - net-20
@@ -80,6 +81,7 @@ items:
     - id: value
       type: System.Object
       description: To be added.
+  overload: System.Reflection.CustomAttributeTypedArgument.#ctor*
   platform:
   - net-11
   - net-20
@@ -103,6 +105,7 @@ items:
     return:
       type: System.Type
       description: To be added.
+  overload: System.Reflection.CustomAttributeTypedArgument.ArgumentType*
   platform:
   - net-11
   - net-20
@@ -130,6 +133,7 @@ items:
     return:
       type: System.Boolean
       description: To be added.
+  overload: System.Reflection.CustomAttributeTypedArgument.Equals*
   platform:
   - net-11
   - net-20
@@ -154,6 +158,7 @@ items:
     return:
       type: System.Int32
       description: To be added.
+  overload: System.Reflection.CustomAttributeTypedArgument.GetHashCode*
   platform:
   - net-11
   - net-20
@@ -184,6 +189,7 @@ items:
     return:
       type: System.Boolean
       description: To be added.
+  overload: System.Reflection.CustomAttributeTypedArgument.op_Equality*
   platform:
   - net-11
   - net-20
@@ -214,6 +220,7 @@ items:
     return:
       type: System.Boolean
       description: To be added.
+  overload: System.Reflection.CustomAttributeTypedArgument.op_Inequality*
   platform:
   - net-11
   - net-20
@@ -238,6 +245,7 @@ items:
     return:
       type: System.String
       description: To be added.
+  overload: System.Reflection.CustomAttributeTypedArgument.ToString*
   platform:
   - net-11
   - net-20
@@ -261,6 +269,7 @@ items:
     return:
       type: System.Object
       description: To be added.
+  overload: System.Reflection.CustomAttributeTypedArgument.Value*
   platform:
   - net-11
   - net-20
@@ -413,3 +422,43 @@ references:
   name: Object
   nameWithType: Object
   fullName: System.Object
+- uid: System.Reflection.CustomAttributeTypedArgument.#ctor*
+  parent: System.Reflection.CustomAttributeTypedArgument
+  isExternal: false
+  name: CustomAttributeTypedArgument
+  nameWithType: CustomAttributeTypedArgument.CustomAttributeTypedArgument
+- uid: System.Reflection.CustomAttributeTypedArgument.ArgumentType*
+  parent: System.Reflection.CustomAttributeTypedArgument
+  isExternal: false
+  name: ArgumentType
+  nameWithType: CustomAttributeTypedArgument.ArgumentType
+- uid: System.Reflection.CustomAttributeTypedArgument.Equals*
+  parent: System.Reflection.CustomAttributeTypedArgument
+  isExternal: false
+  name: Equals
+  nameWithType: CustomAttributeTypedArgument.Equals
+- uid: System.Reflection.CustomAttributeTypedArgument.GetHashCode*
+  parent: System.Reflection.CustomAttributeTypedArgument
+  isExternal: false
+  name: GetHashCode
+  nameWithType: CustomAttributeTypedArgument.GetHashCode
+- uid: System.Reflection.CustomAttributeTypedArgument.op_Equality*
+  parent: System.Reflection.CustomAttributeTypedArgument
+  isExternal: false
+  name: op_Equality
+  nameWithType: CustomAttributeTypedArgument.op_Equality
+- uid: System.Reflection.CustomAttributeTypedArgument.op_Inequality*
+  parent: System.Reflection.CustomAttributeTypedArgument
+  isExternal: false
+  name: op_Inequality
+  nameWithType: CustomAttributeTypedArgument.op_Inequality
+- uid: System.Reflection.CustomAttributeTypedArgument.ToString*
+  parent: System.Reflection.CustomAttributeTypedArgument
+  isExternal: false
+  name: ToString
+  nameWithType: CustomAttributeTypedArgument.ToString
+- uid: System.Reflection.CustomAttributeTypedArgument.Value*
+  parent: System.Reflection.CustomAttributeTypedArgument
+  isExternal: false
+  name: Value
+  nameWithType: CustomAttributeTypedArgument.Value

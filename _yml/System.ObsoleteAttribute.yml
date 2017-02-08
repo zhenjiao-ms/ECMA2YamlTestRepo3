@@ -95,6 +95,7 @@ items:
   syntax:
     content: public ObsoleteAttribute ();
     parameters: []
+  overload: System.ObsoleteAttribute.#ctor*
   platform:
   - net-11
   - net-20
@@ -119,6 +120,7 @@ items:
     - id: message
       type: System.String
       description: To be added.
+  overload: System.ObsoleteAttribute.#ctor*
   platform:
   - net-11
   - net-20
@@ -146,6 +148,7 @@ items:
     - id: error
       type: System.Boolean
       description: To be added.
+  overload: System.ObsoleteAttribute.#ctor*
   platform:
   - net-11
   - net-20
@@ -169,6 +172,7 @@ items:
     return:
       type: System.Boolean
       description: To be added.
+  overload: System.ObsoleteAttribute.IsError*
   platform:
   - net-11
   - net-20
@@ -192,6 +196,7 @@ items:
     return:
       type: System.String
       description: To be added.
+  overload: System.ObsoleteAttribute.Message*
   platform:
   - net-11
   - net-20
@@ -260,3 +265,18 @@ references:
   name: String
   nameWithType: String
   fullName: System.String
+- uid: System.ObsoleteAttribute.#ctor*
+  parent: System.ObsoleteAttribute
+  isExternal: false
+  name: ObsoleteAttribute
+  nameWithType: ObsoleteAttribute.ObsoleteAttribute
+- uid: System.ObsoleteAttribute.IsError*
+  parent: System.ObsoleteAttribute
+  isExternal: false
+  name: IsError
+  nameWithType: ObsoleteAttribute.IsError
+- uid: System.ObsoleteAttribute.Message*
+  parent: System.ObsoleteAttribute
+  isExternal: false
+  name: Message
+  nameWithType: ObsoleteAttribute.Message

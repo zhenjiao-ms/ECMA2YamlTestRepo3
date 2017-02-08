@@ -70,6 +70,7 @@ items:
     - id: capacity
       type: System.Int32
       description: To be added.
+  overload: System.Security.AccessControl.RawAcl.#ctor*
   platform:
   - net-11
   - net-20
@@ -97,6 +98,7 @@ items:
     - id: offset
       type: System.Int32
       description: To be added.
+  overload: System.Security.AccessControl.RawAcl.#ctor*
   platform:
   - net-11
   - net-20
@@ -120,6 +122,7 @@ items:
     return:
       type: System.Int32
       description: To be added.
+  overload: System.Security.AccessControl.RawAcl.BinaryLength*
   platform:
   - net-11
   - net-20
@@ -143,6 +146,7 @@ items:
     return:
       type: System.Int32
       description: To be added.
+  overload: System.Security.AccessControl.RawAcl.Count*
   platform:
   - net-11
   - net-20
@@ -170,6 +174,7 @@ items:
     - id: offset
       type: System.Int32
       description: To be added.
+  overload: System.Security.AccessControl.RawAcl.GetBinaryForm*
   platform:
   - net-11
   - net-20
@@ -197,6 +202,7 @@ items:
     - id: ace
       type: System.Security.AccessControl.GenericAce
       description: To be added.
+  overload: System.Security.AccessControl.RawAcl.InsertAce*
   platform:
   - net-11
   - net-20
@@ -224,6 +230,7 @@ items:
     return:
       type: System.Security.AccessControl.GenericAce
       description: To be added.
+  overload: System.Security.AccessControl.RawAcl.Item*
   platform:
   - net-11
   - net-20
@@ -248,6 +255,7 @@ items:
     - id: index
       type: System.Int32
       description: To be added.
+  overload: System.Security.AccessControl.RawAcl.RemoveAce*
   platform:
   - net-11
   - net-20
@@ -271,6 +279,7 @@ items:
     return:
       type: System.Byte
       description: To be added.
+  overload: System.Security.AccessControl.RawAcl.Revision*
   platform:
   - net-11
   - net-20
@@ -417,3 +426,43 @@ references:
   name: Byte
   nameWithType: Byte
   fullName: System.Byte
+- uid: System.Security.AccessControl.RawAcl.#ctor*
+  parent: System.Security.AccessControl.RawAcl
+  isExternal: false
+  name: RawAcl
+  nameWithType: RawAcl.RawAcl
+- uid: System.Security.AccessControl.RawAcl.BinaryLength*
+  parent: System.Security.AccessControl.RawAcl
+  isExternal: false
+  name: BinaryLength
+  nameWithType: RawAcl.BinaryLength
+- uid: System.Security.AccessControl.RawAcl.Count*
+  parent: System.Security.AccessControl.RawAcl
+  isExternal: false
+  name: Count
+  nameWithType: RawAcl.Count
+- uid: System.Security.AccessControl.RawAcl.GetBinaryForm*
+  parent: System.Security.AccessControl.RawAcl
+  isExternal: false
+  name: GetBinaryForm
+  nameWithType: RawAcl.GetBinaryForm
+- uid: System.Security.AccessControl.RawAcl.InsertAce*
+  parent: System.Security.AccessControl.RawAcl
+  isExternal: false
+  name: InsertAce
+  nameWithType: RawAcl.InsertAce
+- uid: System.Security.AccessControl.RawAcl.Item*
+  parent: System.Security.AccessControl.RawAcl
+  isExternal: false
+  name: Item
+  nameWithType: RawAcl.Item
+- uid: System.Security.AccessControl.RawAcl.RemoveAce*
+  parent: System.Security.AccessControl.RawAcl
+  isExternal: false
+  name: RemoveAce
+  nameWithType: RawAcl.RemoveAce
+- uid: System.Security.AccessControl.RawAcl.Revision*
+  parent: System.Security.AccessControl.RawAcl
+  isExternal: false
+  name: Revision
+  nameWithType: RawAcl.Revision

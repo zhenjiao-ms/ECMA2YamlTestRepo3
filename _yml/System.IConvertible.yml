@@ -60,6 +60,7 @@ items:
     return:
       type: System.TypeCode
       description: To be added.
+  overload: System.IConvertible.GetTypeCode*
   platform:
   - net-11
   - net-20
@@ -87,6 +88,7 @@ items:
     return:
       type: System.Boolean
       description: To be added.
+  overload: System.IConvertible.ToBoolean*
   platform:
   - net-11
   - net-20
@@ -114,6 +116,7 @@ items:
     return:
       type: System.Byte
       description: To be added.
+  overload: System.IConvertible.ToByte*
   platform:
   - net-11
   - net-20
@@ -141,6 +144,7 @@ items:
     return:
       type: System.Char
       description: To be added.
+  overload: System.IConvertible.ToChar*
   platform:
   - net-11
   - net-20
@@ -168,6 +172,7 @@ items:
     return:
       type: System.DateTime
       description: To be added.
+  overload: System.IConvertible.ToDateTime*
   platform:
   - net-11
   - net-20
@@ -195,6 +200,7 @@ items:
     return:
       type: System.Decimal
       description: To be added.
+  overload: System.IConvertible.ToDecimal*
   platform:
   - net-11
   - net-20
@@ -222,6 +228,7 @@ items:
     return:
       type: System.Double
       description: To be added.
+  overload: System.IConvertible.ToDouble*
   platform:
   - net-11
   - net-20
@@ -249,6 +256,7 @@ items:
     return:
       type: System.Int16
       description: To be added.
+  overload: System.IConvertible.ToInt16*
   platform:
   - net-11
   - net-20
@@ -276,6 +284,7 @@ items:
     return:
       type: System.Int32
       description: To be added.
+  overload: System.IConvertible.ToInt32*
   platform:
   - net-11
   - net-20
@@ -303,6 +312,7 @@ items:
     return:
       type: System.Int64
       description: To be added.
+  overload: System.IConvertible.ToInt64*
   platform:
   - net-11
   - net-20
@@ -330,6 +340,7 @@ items:
     return:
       type: System.SByte
       description: To be added.
+  overload: System.IConvertible.ToSByte*
   platform:
   - net-11
   - net-20
@@ -357,6 +368,7 @@ items:
     return:
       type: System.Single
       description: To be added.
+  overload: System.IConvertible.ToSingle*
   platform:
   - net-11
   - net-20
@@ -384,6 +396,7 @@ items:
     return:
       type: System.String
       description: To be added.
+  overload: System.IConvertible.ToString*
   platform:
   - net-11
   - net-20
@@ -414,6 +427,7 @@ items:
     return:
       type: System.Object
       description: To be added.
+  overload: System.IConvertible.ToType*
   platform:
   - net-11
   - net-20
@@ -441,6 +455,7 @@ items:
     return:
       type: System.UInt16
       description: To be added.
+  overload: System.IConvertible.ToUInt16*
   platform:
   - net-11
   - net-20
@@ -468,6 +483,7 @@ items:
     return:
       type: System.UInt32
       description: To be added.
+  overload: System.IConvertible.ToUInt32*
   platform:
   - net-11
   - net-20
@@ -495,6 +511,7 @@ items:
     return:
       type: System.UInt64
       description: To be added.
+  overload: System.IConvertible.ToUInt64*
   platform:
   - net-11
   - net-20
@@ -806,3 +823,88 @@ references:
   name: IFormatProvider
   nameWithType: IFormatProvider
   fullName: System.IFormatProvider
+- uid: System.IConvertible.GetTypeCode*
+  parent: System.IConvertible
+  isExternal: false
+  name: GetTypeCode
+  nameWithType: IConvertible.GetTypeCode
+- uid: System.IConvertible.ToBoolean*
+  parent: System.IConvertible
+  isExternal: false
+  name: ToBoolean
+  nameWithType: IConvertible.ToBoolean
+- uid: System.IConvertible.ToByte*
+  parent: System.IConvertible
+  isExternal: false
+  name: ToByte
+  nameWithType: IConvertible.ToByte
+- uid: System.IConvertible.ToChar*
+  parent: System.IConvertible
+  isExternal: false
+  name: ToChar
+  nameWithType: IConvertible.ToChar
+- uid: System.IConvertible.ToDateTime*
+  parent: System.IConvertible
+  isExternal: false
+  name: ToDateTime
+  nameWithType: IConvertible.ToDateTime
+- uid: System.IConvertible.ToDecimal*
+  parent: System.IConvertible
+  isExternal: false
+  name: ToDecimal
+  nameWithType: IConvertible.ToDecimal
+- uid: System.IConvertible.ToDouble*
+  parent: System.IConvertible
+  isExternal: false
+  name: ToDouble
+  nameWithType: IConvertible.ToDouble
+- uid: System.IConvertible.ToInt16*
+  parent: System.IConvertible
+  isExternal: false
+  name: ToInt16
+  nameWithType: IConvertible.ToInt16
+- uid: System.IConvertible.ToInt32*
+  parent: System.IConvertible
+  isExternal: false
+  name: ToInt32
+  nameWithType: IConvertible.ToInt32
+- uid: System.IConvertible.ToInt64*
+  parent: System.IConvertible
+  isExternal: false
+  name: ToInt64
+  nameWithType: IConvertible.ToInt64
+- uid: System.IConvertible.ToSByte*
+  parent: System.IConvertible
+  isExternal: false
+  name: ToSByte
+  nameWithType: IConvertible.ToSByte
+- uid: System.IConvertible.ToSingle*
+  parent: System.IConvertible
+  isExternal: false
+  name: ToSingle
+  nameWithType: IConvertible.ToSingle
+- uid: System.IConvertible.ToString*
+  parent: System.IConvertible
+  isExternal: false
+  name: ToString
+  nameWithType: IConvertible.ToString
+- uid: System.IConvertible.ToType*
+  parent: System.IConvertible
+  isExternal: false
+  name: ToType
+  nameWithType: IConvertible.ToType
+- uid: System.IConvertible.ToUInt16*
+  parent: System.IConvertible
+  isExternal: false
+  name: ToUInt16
+  nameWithType: IConvertible.ToUInt16
+- uid: System.IConvertible.ToUInt32*
+  parent: System.IConvertible
+  isExternal: false
+  name: ToUInt32
+  nameWithType: IConvertible.ToUInt32
+- uid: System.IConvertible.ToUInt64*
+  parent: System.IConvertible
+  isExternal: false
+  name: ToUInt64
+  nameWithType: IConvertible.ToUInt64

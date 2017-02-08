@@ -69,6 +69,7 @@ items:
     return:
       type: System.Int32
       description: To be added.
+  overload: System.Globalization.TextInfo.ANSICodePage*
   platform:
   - net-11
   - net-20
@@ -93,6 +94,7 @@ items:
     return:
       type: System.Object
       description: To be added.
+  overload: System.Globalization.TextInfo.Clone*
   platform:
   - net-11
   - net-20
@@ -116,6 +118,7 @@ items:
     return:
       type: System.String
       description: To be added.
+  overload: System.Globalization.TextInfo.CultureName*
   platform:
   - net-11
   - net-20
@@ -139,6 +142,7 @@ items:
     return:
       type: System.Int32
       description: To be added.
+  overload: System.Globalization.TextInfo.EBCDICCodePage*
   platform:
   - net-11
   - net-20
@@ -166,6 +170,7 @@ items:
     return:
       type: System.Boolean
       description: To be added.
+  overload: System.Globalization.TextInfo.Equals*
   platform:
   - net-11
   - net-20
@@ -190,6 +195,7 @@ items:
     return:
       type: System.Int32
       description: To be added.
+  overload: System.Globalization.TextInfo.GetHashCode*
   platform:
   - net-11
   - net-20
@@ -213,6 +219,7 @@ items:
     return:
       type: System.Boolean
       description: To be added.
+  overload: System.Globalization.TextInfo.IsReadOnly*
   platform:
   - net-11
   - net-20
@@ -236,6 +243,7 @@ items:
     return:
       type: System.Boolean
       description: To be added.
+  overload: System.Globalization.TextInfo.IsRightToLeft*
   platform:
   - net-11
   - net-20
@@ -259,6 +267,7 @@ items:
     return:
       type: System.Int32
       description: To be added.
+  overload: System.Globalization.TextInfo.LCID*
   platform:
   - net-11
   - net-20
@@ -282,6 +291,7 @@ items:
     return:
       type: System.String
       description: To be added.
+  overload: System.Globalization.TextInfo.ListSeparator*
   platform:
   - net-11
   - net-20
@@ -305,6 +315,7 @@ items:
     return:
       type: System.Int32
       description: To be added.
+  overload: System.Globalization.TextInfo.MacCodePage*
   platform:
   - net-11
   - net-20
@@ -328,6 +339,7 @@ items:
     return:
       type: System.Int32
       description: To be added.
+  overload: System.Globalization.TextInfo.OEMCodePage*
   platform:
   - net-11
   - net-20
@@ -355,6 +367,7 @@ items:
     return:
       type: System.Globalization.TextInfo
       description: To be added.
+  overload: System.Globalization.TextInfo.ReadOnly*
   platform:
   - net-11
   - net-20
@@ -380,6 +393,7 @@ items:
     - id: sender
       type: System.Object
       description: To be added.
+  overload: System.Globalization.TextInfo.System#Runtime#Serialization#IDeserializationCallback#OnDeserialization*
   platform:
   - net-11
   - net-20
@@ -460,6 +474,7 @@ items:
     return:
       type: System.String
       description: To be added.
+  overload: System.Globalization.TextInfo.ToString*
   platform:
   - net-11
   - net-20
@@ -487,6 +502,7 @@ items:
     return:
       type: System.String
       description: To be added.
+  overload: System.Globalization.TextInfo.ToTitleCase*
   platform:
   - net-11
   - net-20
@@ -833,11 +849,91 @@ references:
   name: String
   nameWithType: String
   fullName: System.String
+- uid: System.Globalization.TextInfo.ANSICodePage*
+  parent: System.Globalization.TextInfo
+  isExternal: false
+  name: ANSICodePage
+  nameWithType: TextInfo.ANSICodePage
+- uid: System.Globalization.TextInfo.Clone*
+  parent: System.Globalization.TextInfo
+  isExternal: false
+  name: Clone
+  nameWithType: TextInfo.Clone
+- uid: System.Globalization.TextInfo.CultureName*
+  parent: System.Globalization.TextInfo
+  isExternal: false
+  name: CultureName
+  nameWithType: TextInfo.CultureName
+- uid: System.Globalization.TextInfo.EBCDICCodePage*
+  parent: System.Globalization.TextInfo
+  isExternal: false
+  name: EBCDICCodePage
+  nameWithType: TextInfo.EBCDICCodePage
+- uid: System.Globalization.TextInfo.Equals*
+  parent: System.Globalization.TextInfo
+  isExternal: false
+  name: Equals
+  nameWithType: TextInfo.Equals
+- uid: System.Globalization.TextInfo.GetHashCode*
+  parent: System.Globalization.TextInfo
+  isExternal: false
+  name: GetHashCode
+  nameWithType: TextInfo.GetHashCode
+- uid: System.Globalization.TextInfo.IsReadOnly*
+  parent: System.Globalization.TextInfo
+  isExternal: false
+  name: IsReadOnly
+  nameWithType: TextInfo.IsReadOnly
+- uid: System.Globalization.TextInfo.IsRightToLeft*
+  parent: System.Globalization.TextInfo
+  isExternal: false
+  name: IsRightToLeft
+  nameWithType: TextInfo.IsRightToLeft
+- uid: System.Globalization.TextInfo.LCID*
+  parent: System.Globalization.TextInfo
+  isExternal: false
+  name: LCID
+  nameWithType: TextInfo.LCID
+- uid: System.Globalization.TextInfo.ListSeparator*
+  parent: System.Globalization.TextInfo
+  isExternal: false
+  name: ListSeparator
+  nameWithType: TextInfo.ListSeparator
+- uid: System.Globalization.TextInfo.MacCodePage*
+  parent: System.Globalization.TextInfo
+  isExternal: false
+  name: MacCodePage
+  nameWithType: TextInfo.MacCodePage
+- uid: System.Globalization.TextInfo.OEMCodePage*
+  parent: System.Globalization.TextInfo
+  isExternal: false
+  name: OEMCodePage
+  nameWithType: TextInfo.OEMCodePage
+- uid: System.Globalization.TextInfo.ReadOnly*
+  parent: System.Globalization.TextInfo
+  isExternal: false
+  name: ReadOnly
+  nameWithType: TextInfo.ReadOnly
+- uid: System.Globalization.TextInfo.System#Runtime#Serialization#IDeserializationCallback#OnDeserialization*
+  parent: System.Globalization.TextInfo
+  isExternal: false
+  name: System.Runtime.Serialization.IDeserializationCallback.OnDeserialization
+  nameWithType: TextInfo.System.Runtime.Serialization.IDeserializationCallback.OnDeserialization
 - uid: System.Globalization.TextInfo.ToLower*
   parent: System.Globalization.TextInfo
   isExternal: false
   name: ToLower
   nameWithType: TextInfo.ToLower
+- uid: System.Globalization.TextInfo.ToString*
+  parent: System.Globalization.TextInfo
+  isExternal: false
+  name: ToString
+  nameWithType: TextInfo.ToString
+- uid: System.Globalization.TextInfo.ToTitleCase*
+  parent: System.Globalization.TextInfo
+  isExternal: false
+  name: ToTitleCase
+  nameWithType: TextInfo.ToTitleCase
 - uid: System.Globalization.TextInfo.ToUpper*
   parent: System.Globalization.TextInfo
   isExternal: false

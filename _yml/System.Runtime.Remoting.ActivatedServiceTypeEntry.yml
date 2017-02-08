@@ -58,6 +58,7 @@ items:
     - id: type
       type: System.Type
       description: To be added.
+  overload: System.Runtime.Remoting.ActivatedServiceTypeEntry.#ctor*
   platform:
   - net-11
   - net-20
@@ -85,6 +86,7 @@ items:
     - id: assemblyName
       type: System.String
       description: To be added.
+  overload: System.Runtime.Remoting.ActivatedServiceTypeEntry.#ctor*
   platform:
   - net-11
   - net-20
@@ -108,6 +110,7 @@ items:
     return:
       type: System.Runtime.Remoting.Contexts.IContextAttribute[]
       description: To be added.
+  overload: System.Runtime.Remoting.ActivatedServiceTypeEntry.ContextAttributes*
   platform:
   - net-11
   - net-20
@@ -131,6 +134,7 @@ items:
     return:
       type: System.Type
       description: To be added.
+  overload: System.Runtime.Remoting.ActivatedServiceTypeEntry.ObjectType*
   platform:
   - net-11
   - net-20
@@ -155,6 +159,7 @@ items:
     return:
       type: System.String
       description: To be added.
+  overload: System.Runtime.Remoting.ActivatedServiceTypeEntry.ToString*
   platform:
   - net-11
   - net-20
@@ -229,3 +234,23 @@ references:
   name: String
   nameWithType: String
   fullName: System.String
+- uid: System.Runtime.Remoting.ActivatedServiceTypeEntry.#ctor*
+  parent: System.Runtime.Remoting.ActivatedServiceTypeEntry
+  isExternal: false
+  name: ActivatedServiceTypeEntry
+  nameWithType: ActivatedServiceTypeEntry.ActivatedServiceTypeEntry
+- uid: System.Runtime.Remoting.ActivatedServiceTypeEntry.ContextAttributes*
+  parent: System.Runtime.Remoting.ActivatedServiceTypeEntry
+  isExternal: false
+  name: ContextAttributes
+  nameWithType: ActivatedServiceTypeEntry.ContextAttributes
+- uid: System.Runtime.Remoting.ActivatedServiceTypeEntry.ObjectType*
+  parent: System.Runtime.Remoting.ActivatedServiceTypeEntry
+  isExternal: false
+  name: ObjectType
+  nameWithType: ActivatedServiceTypeEntry.ObjectType
+- uid: System.Runtime.Remoting.ActivatedServiceTypeEntry.ToString*
+  parent: System.Runtime.Remoting.ActivatedServiceTypeEntry
+  isExternal: false
+  name: ToString
+  nameWithType: ActivatedServiceTypeEntry.ToString

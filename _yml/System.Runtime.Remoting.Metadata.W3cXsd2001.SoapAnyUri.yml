@@ -55,6 +55,7 @@ items:
   syntax:
     content: public SoapAnyUri ();
     parameters: []
+  overload: System.Runtime.Remoting.Metadata.W3cXsd2001.SoapAnyUri.#ctor*
   platform:
   - net-11
   - net-20
@@ -79,6 +80,7 @@ items:
     - id: value
       type: System.String
       description: To be added.
+  overload: System.Runtime.Remoting.Metadata.W3cXsd2001.SoapAnyUri.#ctor*
   platform:
   - net-11
   - net-20
@@ -103,6 +105,7 @@ items:
     return:
       type: System.String
       description: To be added.
+  overload: System.Runtime.Remoting.Metadata.W3cXsd2001.SoapAnyUri.GetXsdType*
   platform:
   - net-11
   - net-20
@@ -130,6 +133,7 @@ items:
     return:
       type: System.Runtime.Remoting.Metadata.W3cXsd2001.SoapAnyUri
       description: To be added.
+  overload: System.Runtime.Remoting.Metadata.W3cXsd2001.SoapAnyUri.Parse*
   platform:
   - net-11
   - net-20
@@ -154,6 +158,7 @@ items:
     return:
       type: System.String
       description: To be added.
+  overload: System.Runtime.Remoting.Metadata.W3cXsd2001.SoapAnyUri.ToString*
   platform:
   - net-11
   - net-20
@@ -177,6 +182,7 @@ items:
     return:
       type: System.String
       description: To be added.
+  overload: System.Runtime.Remoting.Metadata.W3cXsd2001.SoapAnyUri.Value*
   platform:
   - net-11
   - net-20
@@ -200,6 +206,7 @@ items:
     return:
       type: System.String
       description: To be added.
+  overload: System.Runtime.Remoting.Metadata.W3cXsd2001.SoapAnyUri.XsdType*
   platform:
   - net-11
   - net-20
@@ -292,3 +299,33 @@ references:
   name: String
   nameWithType: String
   fullName: System.String
+- uid: System.Runtime.Remoting.Metadata.W3cXsd2001.SoapAnyUri.#ctor*
+  parent: System.Runtime.Remoting.Metadata.W3cXsd2001.SoapAnyUri
+  isExternal: false
+  name: SoapAnyUri
+  nameWithType: SoapAnyUri.SoapAnyUri
+- uid: System.Runtime.Remoting.Metadata.W3cXsd2001.SoapAnyUri.GetXsdType*
+  parent: System.Runtime.Remoting.Metadata.W3cXsd2001.SoapAnyUri
+  isExternal: false
+  name: GetXsdType
+  nameWithType: SoapAnyUri.GetXsdType
+- uid: System.Runtime.Remoting.Metadata.W3cXsd2001.SoapAnyUri.Parse*
+  parent: System.Runtime.Remoting.Metadata.W3cXsd2001.SoapAnyUri
+  isExternal: false
+  name: Parse
+  nameWithType: SoapAnyUri.Parse
+- uid: System.Runtime.Remoting.Metadata.W3cXsd2001.SoapAnyUri.ToString*
+  parent: System.Runtime.Remoting.Metadata.W3cXsd2001.SoapAnyUri
+  isExternal: false
+  name: ToString
+  nameWithType: SoapAnyUri.ToString
+- uid: System.Runtime.Remoting.Metadata.W3cXsd2001.SoapAnyUri.Value*
+  parent: System.Runtime.Remoting.Metadata.W3cXsd2001.SoapAnyUri
+  isExternal: false
+  name: Value
+  nameWithType: SoapAnyUri.Value
+- uid: System.Runtime.Remoting.Metadata.W3cXsd2001.SoapAnyUri.XsdType*
+  parent: System.Runtime.Remoting.Metadata.W3cXsd2001.SoapAnyUri
+  isExternal: false
+  name: XsdType
+  nameWithType: SoapAnyUri.XsdType

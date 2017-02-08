@@ -97,6 +97,7 @@ items:
     - id: cultureName
       type: System.String
       description: To be added.
+  overload: System.Resources.NeutralResourcesLanguageAttribute.#ctor*
   platform:
   - net-11
   - net-20
@@ -124,6 +125,7 @@ items:
     - id: location
       type: System.Resources.UltimateResourceFallbackLocation
       description: To be added.
+  overload: System.Resources.NeutralResourcesLanguageAttribute.#ctor*
   platform:
   - net-11
   - net-20
@@ -147,6 +149,7 @@ items:
     return:
       type: System.String
       description: To be added.
+  overload: System.Resources.NeutralResourcesLanguageAttribute.CultureName*
   platform:
   - net-11
   - net-20
@@ -170,6 +173,7 @@ items:
     return:
       type: System.Resources.UltimateResourceFallbackLocation
       description: To be added.
+  overload: System.Resources.NeutralResourcesLanguageAttribute.Location*
   platform:
   - net-11
   - net-20
@@ -232,3 +236,18 @@ references:
   name: UltimateResourceFallbackLocation
   nameWithType: UltimateResourceFallbackLocation
   fullName: System.Resources.UltimateResourceFallbackLocation
+- uid: System.Resources.NeutralResourcesLanguageAttribute.#ctor*
+  parent: System.Resources.NeutralResourcesLanguageAttribute
+  isExternal: false
+  name: NeutralResourcesLanguageAttribute
+  nameWithType: NeutralResourcesLanguageAttribute.NeutralResourcesLanguageAttribute
+- uid: System.Resources.NeutralResourcesLanguageAttribute.CultureName*
+  parent: System.Resources.NeutralResourcesLanguageAttribute
+  isExternal: false
+  name: CultureName
+  nameWithType: NeutralResourcesLanguageAttribute.CultureName
+- uid: System.Resources.NeutralResourcesLanguageAttribute.Location*
+  parent: System.Resources.NeutralResourcesLanguageAttribute
+  isExternal: false
+  name: Location
+  nameWithType: NeutralResourcesLanguageAttribute.Location

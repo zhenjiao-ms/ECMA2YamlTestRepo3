@@ -50,6 +50,7 @@ items:
   syntax:
     content: protected EncoderFallback ();
     parameters: []
+  overload: System.Text.EncoderFallback.#ctor*
   platform:
   - net-11
   - net-20
@@ -74,6 +75,7 @@ items:
     return:
       type: System.Text.EncoderFallbackBuffer
       description: To be added.
+  overload: System.Text.EncoderFallback.CreateFallbackBuffer*
   platform:
   - net-11
   - net-20
@@ -97,6 +99,7 @@ items:
     return:
       type: System.Text.EncoderFallback
       description: To be added.
+  overload: System.Text.EncoderFallback.ExceptionFallback*
   platform:
   - net-11
   - net-20
@@ -120,6 +123,7 @@ items:
     return:
       type: System.Int32
       description: To be added.
+  overload: System.Text.EncoderFallback.MaxCharCount*
   platform:
   - net-11
   - net-20
@@ -143,6 +147,7 @@ items:
     return:
       type: System.Text.EncoderFallback
       description: To be added.
+  overload: System.Text.EncoderFallback.ReplacementFallback*
   platform:
   - net-11
   - net-20
@@ -205,3 +210,28 @@ references:
   name: EncoderFallback
   nameWithType: EncoderFallback
   fullName: System.Text.EncoderFallback
+- uid: System.Text.EncoderFallback.#ctor*
+  parent: System.Text.EncoderFallback
+  isExternal: false
+  name: EncoderFallback
+  nameWithType: EncoderFallback.EncoderFallback
+- uid: System.Text.EncoderFallback.CreateFallbackBuffer*
+  parent: System.Text.EncoderFallback
+  isExternal: false
+  name: CreateFallbackBuffer
+  nameWithType: EncoderFallback.CreateFallbackBuffer
+- uid: System.Text.EncoderFallback.ExceptionFallback*
+  parent: System.Text.EncoderFallback
+  isExternal: false
+  name: ExceptionFallback
+  nameWithType: EncoderFallback.ExceptionFallback
+- uid: System.Text.EncoderFallback.MaxCharCount*
+  parent: System.Text.EncoderFallback
+  isExternal: false
+  name: MaxCharCount
+  nameWithType: EncoderFallback.MaxCharCount
+- uid: System.Text.EncoderFallback.ReplacementFallback*
+  parent: System.Text.EncoderFallback
+  isExternal: false
+  name: ReplacementFallback
+  nameWithType: EncoderFallback.ReplacementFallback

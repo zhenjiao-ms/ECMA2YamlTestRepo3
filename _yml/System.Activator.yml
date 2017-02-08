@@ -728,6 +728,7 @@ items:
     return:
       type: T
       description: To be added.
+  overload: System.Activator.CreateInstance<T>*
   platform:
   - net-11
   - net-20
@@ -1137,6 +1138,7 @@ items:
     - id: rgDispId
       type: System.IntPtr
       description: To be added.
+  overload: System.Activator.System#Runtime#InteropServices#_Activator#GetIDsOfNames*
   platform:
   - net-11
   - net-20
@@ -1168,6 +1170,7 @@ items:
     - id: ppTInfo
       type: System.IntPtr
       description: To be added.
+  overload: System.Activator.System#Runtime#InteropServices#_Activator#GetTypeInfo*
   platform:
   - net-11
   - net-20
@@ -1193,6 +1196,7 @@ items:
     - id: pcTInfo
       type: System.UInt32
       description: To be added.
+  overload: System.Activator.System#Runtime#InteropServices#_Activator#GetTypeInfoCount*
   platform:
   - net-11
   - net-20
@@ -1239,6 +1243,7 @@ items:
     - id: puArgErr
       type: System.IntPtr
       description: To be added.
+  overload: System.Activator.System#Runtime#InteropServices#_Activator#Invoke*
   platform:
   - net-11
   - net-20
@@ -2433,6 +2438,11 @@ references:
   isExternal: false
   name: CreateInstance
   nameWithType: Activator.CreateInstance
+- uid: System.Activator.CreateInstance<T>*
+  parent: System.Activator
+  isExternal: false
+  name: CreateInstance<T>
+  nameWithType: Activator.CreateInstance<T>
 - uid: System.Activator.CreateInstanceFrom*
   parent: System.Activator
   isExternal: false
@@ -2443,3 +2453,23 @@ references:
   isExternal: false
   name: GetObject
   nameWithType: Activator.GetObject
+- uid: System.Activator.System#Runtime#InteropServices#_Activator#GetIDsOfNames*
+  parent: System.Activator
+  isExternal: false
+  name: System.Runtime.InteropServices._Activator.GetIDsOfNames
+  nameWithType: Activator.System.Runtime.InteropServices._Activator.GetIDsOfNames
+- uid: System.Activator.System#Runtime#InteropServices#_Activator#GetTypeInfo*
+  parent: System.Activator
+  isExternal: false
+  name: System.Runtime.InteropServices._Activator.GetTypeInfo
+  nameWithType: Activator.System.Runtime.InteropServices._Activator.GetTypeInfo
+- uid: System.Activator.System#Runtime#InteropServices#_Activator#GetTypeInfoCount*
+  parent: System.Activator
+  isExternal: false
+  name: System.Runtime.InteropServices._Activator.GetTypeInfoCount
+  nameWithType: Activator.System.Runtime.InteropServices._Activator.GetTypeInfoCount
+- uid: System.Activator.System#Runtime#InteropServices#_Activator#Invoke*
+  parent: System.Activator
+  isExternal: false
+  name: System.Runtime.InteropServices._Activator.Invoke
+  nameWithType: Activator.System.Runtime.InteropServices._Activator.Invoke

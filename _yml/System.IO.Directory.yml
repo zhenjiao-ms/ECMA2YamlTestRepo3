@@ -489,6 +489,7 @@ items:
     return:
       type: System.Boolean
       description: To be added.
+  overload: System.IO.Directory.Exists*
   platform:
   - net-11
   - net-20
@@ -575,6 +576,7 @@ items:
     return:
       type: System.DateTime
       description: To be added.
+  overload: System.IO.Directory.GetCreationTime*
   platform:
   - net-11
   - net-20
@@ -602,6 +604,7 @@ items:
     return:
       type: System.DateTime
       description: To be added.
+  overload: System.IO.Directory.GetCreationTimeUtc*
   platform:
   - net-11
   - net-20
@@ -626,6 +629,7 @@ items:
     return:
       type: System.String
       description: To be added.
+  overload: System.IO.Directory.GetCurrentDirectory*
   platform:
   - net-11
   - net-20
@@ -746,6 +750,7 @@ items:
     return:
       type: System.String
       description: To be added.
+  overload: System.IO.Directory.GetDirectoryRoot*
   platform:
   - net-11
   - net-20
@@ -959,6 +964,7 @@ items:
     return:
       type: System.DateTime
       description: To be added.
+  overload: System.IO.Directory.GetLastAccessTime*
   platform:
   - net-11
   - net-20
@@ -986,6 +992,7 @@ items:
     return:
       type: System.DateTime
       description: To be added.
+  overload: System.IO.Directory.GetLastAccessTimeUtc*
   platform:
   - net-11
   - net-20
@@ -1013,6 +1020,7 @@ items:
     return:
       type: System.DateTime
       description: To be added.
+  overload: System.IO.Directory.GetLastWriteTime*
   platform:
   - net-11
   - net-20
@@ -1040,6 +1048,7 @@ items:
     return:
       type: System.DateTime
       description: To be added.
+  overload: System.IO.Directory.GetLastWriteTimeUtc*
   platform:
   - net-11
   - net-20
@@ -1064,6 +1073,7 @@ items:
     return:
       type: System.String[]
       description: To be added.
+  overload: System.IO.Directory.GetLogicalDrives*
   platform:
   - net-11
   - net-20
@@ -1091,6 +1101,7 @@ items:
     return:
       type: System.IO.DirectoryInfo
       description: To be added.
+  overload: System.IO.Directory.GetParent*
   platform:
   - net-11
   - net-20
@@ -1118,6 +1129,7 @@ items:
     - id: destDirName
       type: System.String
       description: To be added.
+  overload: System.IO.Directory.Move*
   platform:
   - net-11
   - net-20
@@ -1145,6 +1157,7 @@ items:
     - id: directorySecurity
       type: System.Security.AccessControl.DirectorySecurity
       description: To be added.
+  overload: System.IO.Directory.SetAccessControl*
   platform:
   - net-11
   - net-20
@@ -1172,6 +1185,7 @@ items:
     - id: creationTime
       type: System.DateTime
       description: To be added.
+  overload: System.IO.Directory.SetCreationTime*
   platform:
   - net-11
   - net-20
@@ -1199,6 +1213,7 @@ items:
     - id: creationTimeUtc
       type: System.DateTime
       description: To be added.
+  overload: System.IO.Directory.SetCreationTimeUtc*
   platform:
   - net-11
   - net-20
@@ -1223,6 +1238,7 @@ items:
     - id: path
       type: System.String
       description: To be added.
+  overload: System.IO.Directory.SetCurrentDirectory*
   platform:
   - net-11
   - net-20
@@ -1250,6 +1266,7 @@ items:
     - id: lastAccessTime
       type: System.DateTime
       description: To be added.
+  overload: System.IO.Directory.SetLastAccessTime*
   platform:
   - net-11
   - net-20
@@ -1277,6 +1294,7 @@ items:
     - id: lastAccessTimeUtc
       type: System.DateTime
       description: To be added.
+  overload: System.IO.Directory.SetLastAccessTimeUtc*
   platform:
   - net-11
   - net-20
@@ -1304,6 +1322,7 @@ items:
     - id: lastWriteTime
       type: System.DateTime
       description: To be added.
+  overload: System.IO.Directory.SetLastWriteTime*
   platform:
   - net-11
   - net-20
@@ -1331,6 +1350,7 @@ items:
     - id: lastWriteTimeUtc
       type: System.DateTime
       description: To be added.
+  overload: System.IO.Directory.SetLastWriteTimeUtc*
   platform:
   - net-11
   - net-20
@@ -2252,16 +2272,41 @@ references:
   isExternal: false
   name: EnumerateFileSystemEntries
   nameWithType: Directory.EnumerateFileSystemEntries
+- uid: System.IO.Directory.Exists*
+  parent: System.IO.Directory
+  isExternal: false
+  name: Exists
+  nameWithType: Directory.Exists
 - uid: System.IO.Directory.GetAccessControl*
   parent: System.IO.Directory
   isExternal: false
   name: GetAccessControl
   nameWithType: Directory.GetAccessControl
+- uid: System.IO.Directory.GetCreationTime*
+  parent: System.IO.Directory
+  isExternal: false
+  name: GetCreationTime
+  nameWithType: Directory.GetCreationTime
+- uid: System.IO.Directory.GetCreationTimeUtc*
+  parent: System.IO.Directory
+  isExternal: false
+  name: GetCreationTimeUtc
+  nameWithType: Directory.GetCreationTimeUtc
+- uid: System.IO.Directory.GetCurrentDirectory*
+  parent: System.IO.Directory
+  isExternal: false
+  name: GetCurrentDirectory
+  nameWithType: Directory.GetCurrentDirectory
 - uid: System.IO.Directory.GetDirectories*
   parent: System.IO.Directory
   isExternal: false
   name: GetDirectories
   nameWithType: Directory.GetDirectories
+- uid: System.IO.Directory.GetDirectoryRoot*
+  parent: System.IO.Directory
+  isExternal: false
+  name: GetDirectoryRoot
+  nameWithType: Directory.GetDirectoryRoot
 - uid: System.IO.Directory.GetFiles*
   parent: System.IO.Directory
   isExternal: false
@@ -2272,3 +2317,78 @@ references:
   isExternal: false
   name: GetFileSystemEntries
   nameWithType: Directory.GetFileSystemEntries
+- uid: System.IO.Directory.GetLastAccessTime*
+  parent: System.IO.Directory
+  isExternal: false
+  name: GetLastAccessTime
+  nameWithType: Directory.GetLastAccessTime
+- uid: System.IO.Directory.GetLastAccessTimeUtc*
+  parent: System.IO.Directory
+  isExternal: false
+  name: GetLastAccessTimeUtc
+  nameWithType: Directory.GetLastAccessTimeUtc
+- uid: System.IO.Directory.GetLastWriteTime*
+  parent: System.IO.Directory
+  isExternal: false
+  name: GetLastWriteTime
+  nameWithType: Directory.GetLastWriteTime
+- uid: System.IO.Directory.GetLastWriteTimeUtc*
+  parent: System.IO.Directory
+  isExternal: false
+  name: GetLastWriteTimeUtc
+  nameWithType: Directory.GetLastWriteTimeUtc
+- uid: System.IO.Directory.GetLogicalDrives*
+  parent: System.IO.Directory
+  isExternal: false
+  name: GetLogicalDrives
+  nameWithType: Directory.GetLogicalDrives
+- uid: System.IO.Directory.GetParent*
+  parent: System.IO.Directory
+  isExternal: false
+  name: GetParent
+  nameWithType: Directory.GetParent
+- uid: System.IO.Directory.Move*
+  parent: System.IO.Directory
+  isExternal: false
+  name: Move
+  nameWithType: Directory.Move
+- uid: System.IO.Directory.SetAccessControl*
+  parent: System.IO.Directory
+  isExternal: false
+  name: SetAccessControl
+  nameWithType: Directory.SetAccessControl
+- uid: System.IO.Directory.SetCreationTime*
+  parent: System.IO.Directory
+  isExternal: false
+  name: SetCreationTime
+  nameWithType: Directory.SetCreationTime
+- uid: System.IO.Directory.SetCreationTimeUtc*
+  parent: System.IO.Directory
+  isExternal: false
+  name: SetCreationTimeUtc
+  nameWithType: Directory.SetCreationTimeUtc
+- uid: System.IO.Directory.SetCurrentDirectory*
+  parent: System.IO.Directory
+  isExternal: false
+  name: SetCurrentDirectory
+  nameWithType: Directory.SetCurrentDirectory
+- uid: System.IO.Directory.SetLastAccessTime*
+  parent: System.IO.Directory
+  isExternal: false
+  name: SetLastAccessTime
+  nameWithType: Directory.SetLastAccessTime
+- uid: System.IO.Directory.SetLastAccessTimeUtc*
+  parent: System.IO.Directory
+  isExternal: false
+  name: SetLastAccessTimeUtc
+  nameWithType: Directory.SetLastAccessTimeUtc
+- uid: System.IO.Directory.SetLastWriteTime*
+  parent: System.IO.Directory
+  isExternal: false
+  name: SetLastWriteTime
+  nameWithType: Directory.SetLastWriteTime
+- uid: System.IO.Directory.SetLastWriteTimeUtc*
+  parent: System.IO.Directory
+  isExternal: false
+  name: SetLastWriteTimeUtc
+  nameWithType: Directory.SetLastWriteTimeUtc

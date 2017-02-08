@@ -55,6 +55,7 @@ items:
   syntax:
     content: public AssemblyNameProxy ();
     parameters: []
+  overload: System.Reflection.AssemblyNameProxy.#ctor*
   platform:
   - net-11
   - net-20
@@ -82,6 +83,7 @@ items:
     return:
       type: System.Reflection.AssemblyName
       description: To be added.
+  overload: System.Reflection.AssemblyNameProxy.GetAssemblyName*
   platform:
   - net-11
   - net-20
@@ -114,3 +116,13 @@ references:
   name: String
   nameWithType: String
   fullName: System.String
+- uid: System.Reflection.AssemblyNameProxy.#ctor*
+  parent: System.Reflection.AssemblyNameProxy
+  isExternal: false
+  name: AssemblyNameProxy
+  nameWithType: AssemblyNameProxy.AssemblyNameProxy
+- uid: System.Reflection.AssemblyNameProxy.GetAssemblyName*
+  parent: System.Reflection.AssemblyNameProxy
+  isExternal: false
+  name: GetAssemblyName
+  nameWithType: AssemblyNameProxy.GetAssemblyName

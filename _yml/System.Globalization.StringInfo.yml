@@ -59,6 +59,7 @@ items:
   syntax:
     content: public StringInfo ();
     parameters: []
+  overload: System.Globalization.StringInfo.#ctor*
   platform:
   - net-11
   - net-20
@@ -83,6 +84,7 @@ items:
     - id: value
       type: System.String
       description: To be added.
+  overload: System.Globalization.StringInfo.#ctor*
   platform:
   - net-11
   - net-20
@@ -110,6 +112,7 @@ items:
     return:
       type: System.Boolean
       description: To be added.
+  overload: System.Globalization.StringInfo.Equals*
   platform:
   - net-11
   - net-20
@@ -134,6 +137,7 @@ items:
     return:
       type: System.Int32
       description: To be added.
+  overload: System.Globalization.StringInfo.GetHashCode*
   platform:
   - net-11
   - net-20
@@ -275,6 +279,7 @@ items:
     return:
       type: System.Int32
       description: To be added.
+  overload: System.Globalization.StringInfo.LengthInTextElements*
   platform:
   - net-11
   - net-20
@@ -302,6 +307,7 @@ items:
     return:
       type: System.Int32[]
       description: To be added.
+  overload: System.Globalization.StringInfo.ParseCombiningCharacters*
   platform:
   - net-11
   - net-20
@@ -325,6 +331,7 @@ items:
     return:
       type: System.String
       description: To be added.
+  overload: System.Globalization.StringInfo.String*
   platform:
   - net-11
   - net-20
@@ -608,6 +615,21 @@ references:
   name: Int32
   nameWithType: Int32
   fullName: System.Int32
+- uid: System.Globalization.StringInfo.#ctor*
+  parent: System.Globalization.StringInfo
+  isExternal: false
+  name: StringInfo
+  nameWithType: StringInfo.StringInfo
+- uid: System.Globalization.StringInfo.Equals*
+  parent: System.Globalization.StringInfo
+  isExternal: false
+  name: Equals
+  nameWithType: StringInfo.Equals
+- uid: System.Globalization.StringInfo.GetHashCode*
+  parent: System.Globalization.StringInfo
+  isExternal: false
+  name: GetHashCode
+  nameWithType: StringInfo.GetHashCode
 - uid: System.Globalization.StringInfo.GetNextTextElement*
   parent: System.Globalization.StringInfo
   isExternal: false
@@ -618,6 +640,21 @@ references:
   isExternal: false
   name: GetTextElementEnumerator
   nameWithType: StringInfo.GetTextElementEnumerator
+- uid: System.Globalization.StringInfo.LengthInTextElements*
+  parent: System.Globalization.StringInfo
+  isExternal: false
+  name: LengthInTextElements
+  nameWithType: StringInfo.LengthInTextElements
+- uid: System.Globalization.StringInfo.ParseCombiningCharacters*
+  parent: System.Globalization.StringInfo
+  isExternal: false
+  name: ParseCombiningCharacters
+  nameWithType: StringInfo.ParseCombiningCharacters
+- uid: System.Globalization.StringInfo.String*
+  parent: System.Globalization.StringInfo
+  isExternal: false
+  name: String
+  nameWithType: StringInfo.String
 - uid: System.Globalization.StringInfo.SubstringByTextElements*
   parent: System.Globalization.StringInfo
   isExternal: false

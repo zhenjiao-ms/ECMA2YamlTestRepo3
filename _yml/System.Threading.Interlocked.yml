@@ -345,6 +345,7 @@ items:
     return:
       type: T
       description: To be added.
+  overload: System.Threading.Interlocked.CompareExchange<T>*
   platform:
   - net-11
   - net-20
@@ -617,6 +618,7 @@ items:
     return:
       type: T
       description: To be added.
+  overload: System.Threading.Interlocked.Exchange<T>*
   platform:
   - net-11
   - net-20
@@ -694,6 +696,7 @@ items:
   syntax:
     content: public static void MemoryBarrier ();
     parameters: []
+  overload: System.Threading.Interlocked.MemoryBarrier*
   platform:
   - net-11
   - net-20
@@ -721,6 +724,7 @@ items:
     return:
       type: System.Int64
       description: To be added.
+  overload: System.Threading.Interlocked.Read*
   platform:
   - net-11
   - net-20
@@ -1261,6 +1265,11 @@ references:
   isExternal: false
   name: CompareExchange
   nameWithType: Interlocked.CompareExchange
+- uid: System.Threading.Interlocked.CompareExchange<T>*
+  parent: System.Threading.Interlocked
+  isExternal: false
+  name: CompareExchange<T>
+  nameWithType: Interlocked.CompareExchange<T>
 - uid: System.Threading.Interlocked.Decrement*
   parent: System.Threading.Interlocked
   isExternal: false
@@ -1271,8 +1280,23 @@ references:
   isExternal: false
   name: Exchange
   nameWithType: Interlocked.Exchange
+- uid: System.Threading.Interlocked.Exchange<T>*
+  parent: System.Threading.Interlocked
+  isExternal: false
+  name: Exchange<T>
+  nameWithType: Interlocked.Exchange<T>
 - uid: System.Threading.Interlocked.Increment*
   parent: System.Threading.Interlocked
   isExternal: false
   name: Increment
   nameWithType: Interlocked.Increment
+- uid: System.Threading.Interlocked.MemoryBarrier*
+  parent: System.Threading.Interlocked
+  isExternal: false
+  name: MemoryBarrier
+  nameWithType: Interlocked.MemoryBarrier
+- uid: System.Threading.Interlocked.Read*
+  parent: System.Threading.Interlocked
+  isExternal: false
+  name: Read
+  nameWithType: Interlocked.Read

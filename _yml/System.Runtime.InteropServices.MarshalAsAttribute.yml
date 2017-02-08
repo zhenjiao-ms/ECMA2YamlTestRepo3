@@ -105,6 +105,7 @@ items:
     - id: unmanagedType
       type: System.Int16
       description: To be added.
+  overload: System.Runtime.InteropServices.MarshalAsAttribute.#ctor*
   platform:
   - net-11
   - net-20
@@ -129,6 +130,7 @@ items:
     - id: unmanagedType
       type: System.Runtime.InteropServices.UnmanagedType
       description: To be added.
+  overload: System.Runtime.InteropServices.MarshalAsAttribute.#ctor*
   platform:
   - net-11
   - net-20
@@ -359,6 +361,7 @@ items:
     return:
       type: System.Runtime.InteropServices.UnmanagedType
       description: To be added.
+  overload: System.Runtime.InteropServices.MarshalAsAttribute.Value*
   platform:
   - net-11
   - net-20
@@ -511,3 +514,13 @@ references:
   name: UnmanagedType
   nameWithType: UnmanagedType
   fullName: System.Runtime.InteropServices.UnmanagedType
+- uid: System.Runtime.InteropServices.MarshalAsAttribute.#ctor*
+  parent: System.Runtime.InteropServices.MarshalAsAttribute
+  isExternal: false
+  name: MarshalAsAttribute
+  nameWithType: MarshalAsAttribute.MarshalAsAttribute
+- uid: System.Runtime.InteropServices.MarshalAsAttribute.Value*
+  parent: System.Runtime.InteropServices.MarshalAsAttribute
+  isExternal: false
+  name: Value
+  nameWithType: MarshalAsAttribute.Value

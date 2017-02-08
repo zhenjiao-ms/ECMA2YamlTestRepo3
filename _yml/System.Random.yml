@@ -56,6 +56,7 @@ items:
   syntax:
     content: public Random ();
     parameters: []
+  overload: System.Random.#ctor*
   platform:
   - net-11
   - net-20
@@ -80,6 +81,7 @@ items:
     - id: Seed
       type: System.Int32
       description: To be added.
+  overload: System.Random.#ctor*
   platform:
   - net-11
   - net-20
@@ -188,6 +190,7 @@ items:
     - id: buffer
       type: System.Byte[]
       description: To be added.
+  overload: System.Random.NextBytes*
   platform:
   - net-11
   - net-20
@@ -212,6 +215,7 @@ items:
     return:
       type: System.Double
       description: To be added.
+  overload: System.Random.NextDouble*
   platform:
   - net-11
   - net-20
@@ -236,6 +240,7 @@ items:
     return:
       type: System.Double
       description: To be added.
+  overload: System.Random.Sample*
   platform:
   - net-11
   - net-20
@@ -352,8 +357,28 @@ references:
   name: Double
   nameWithType: Double
   fullName: System.Double
+- uid: System.Random.#ctor*
+  parent: System.Random
+  isExternal: false
+  name: Random
+  nameWithType: Random.Random
 - uid: System.Random.Next*
   parent: System.Random
   isExternal: false
   name: Next
   nameWithType: Random.Next
+- uid: System.Random.NextBytes*
+  parent: System.Random
+  isExternal: false
+  name: NextBytes
+  nameWithType: Random.NextBytes
+- uid: System.Random.NextDouble*
+  parent: System.Random
+  isExternal: false
+  name: NextDouble
+  nameWithType: Random.NextDouble
+- uid: System.Random.Sample*
+  parent: System.Random
+  isExternal: false
+  name: Sample
+  nameWithType: Random.Sample

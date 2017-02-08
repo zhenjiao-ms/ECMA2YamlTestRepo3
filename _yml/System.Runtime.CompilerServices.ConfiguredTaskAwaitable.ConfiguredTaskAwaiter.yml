@@ -43,6 +43,7 @@ items:
   syntax:
     content: public void GetResult ();
     parameters: []
+  overload: System.Runtime.CompilerServices.ConfiguredTaskAwaitable.ConfiguredTaskAwaiter.GetResult*
   platform:
   - net-11
   - net-20
@@ -66,6 +67,7 @@ items:
     return:
       type: System.Boolean
       description: To be added.
+  overload: System.Runtime.CompilerServices.ConfiguredTaskAwaitable.ConfiguredTaskAwaiter.IsCompleted*
   platform:
   - net-11
   - net-20
@@ -90,6 +92,7 @@ items:
     - id: continuation
       type: System.Action
       description: To be added.
+  overload: System.Runtime.CompilerServices.ConfiguredTaskAwaitable.ConfiguredTaskAwaiter.OnCompleted*
   platform:
   - net-11
   - net-20
@@ -114,6 +117,7 @@ items:
     - id: continuation
       type: System.Action
       description: To be added.
+  overload: System.Runtime.CompilerServices.ConfiguredTaskAwaitable.ConfiguredTaskAwaiter.UnsafeOnCompleted*
   platform:
   - net-11
   - net-20
@@ -164,3 +168,23 @@ references:
   name: Action
   nameWithType: Action
   fullName: System.Action
+- uid: System.Runtime.CompilerServices.ConfiguredTaskAwaitable.ConfiguredTaskAwaiter.GetResult*
+  parent: System.Runtime.CompilerServices.ConfiguredTaskAwaitable.ConfiguredTaskAwaiter
+  isExternal: false
+  name: GetResult
+  nameWithType: ConfiguredTaskAwaitable+ConfiguredTaskAwaiter.GetResult
+- uid: System.Runtime.CompilerServices.ConfiguredTaskAwaitable.ConfiguredTaskAwaiter.IsCompleted*
+  parent: System.Runtime.CompilerServices.ConfiguredTaskAwaitable.ConfiguredTaskAwaiter
+  isExternal: false
+  name: IsCompleted
+  nameWithType: ConfiguredTaskAwaitable+ConfiguredTaskAwaiter.IsCompleted
+- uid: System.Runtime.CompilerServices.ConfiguredTaskAwaitable.ConfiguredTaskAwaiter.OnCompleted*
+  parent: System.Runtime.CompilerServices.ConfiguredTaskAwaitable.ConfiguredTaskAwaiter
+  isExternal: false
+  name: OnCompleted
+  nameWithType: ConfiguredTaskAwaitable+ConfiguredTaskAwaiter.OnCompleted
+- uid: System.Runtime.CompilerServices.ConfiguredTaskAwaitable.ConfiguredTaskAwaiter.UnsafeOnCompleted*
+  parent: System.Runtime.CompilerServices.ConfiguredTaskAwaitable.ConfiguredTaskAwaiter
+  isExternal: false
+  name: UnsafeOnCompleted
+  nameWithType: ConfiguredTaskAwaitable+ConfiguredTaskAwaiter.UnsafeOnCompleted

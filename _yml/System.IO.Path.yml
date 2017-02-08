@@ -103,6 +103,7 @@ items:
     return:
       type: System.String
       description: To be added.
+  overload: System.IO.Path.ChangeExtension*
   platform:
   - net-11
   - net-20
@@ -283,6 +284,7 @@ items:
     return:
       type: System.String
       description: To be added.
+  overload: System.IO.Path.GetDirectoryName*
   platform:
   - net-11
   - net-20
@@ -310,6 +312,7 @@ items:
     return:
       type: System.String
       description: To be added.
+  overload: System.IO.Path.GetExtension*
   platform:
   - net-11
   - net-20
@@ -337,6 +340,7 @@ items:
     return:
       type: System.String
       description: To be added.
+  overload: System.IO.Path.GetFileName*
   platform:
   - net-11
   - net-20
@@ -364,6 +368,7 @@ items:
     return:
       type: System.String
       description: To be added.
+  overload: System.IO.Path.GetFileNameWithoutExtension*
   platform:
   - net-11
   - net-20
@@ -391,6 +396,7 @@ items:
     return:
       type: System.String
       description: To be added.
+  overload: System.IO.Path.GetFullPath*
   platform:
   - net-11
   - net-20
@@ -415,6 +421,7 @@ items:
     return:
       type: System.Char[]
       description: To be added.
+  overload: System.IO.Path.GetInvalidFileNameChars*
   platform:
   - net-11
   - net-20
@@ -439,6 +446,7 @@ items:
     return:
       type: System.Char[]
       description: To be added.
+  overload: System.IO.Path.GetInvalidPathChars*
   platform:
   - net-11
   - net-20
@@ -466,6 +474,7 @@ items:
     return:
       type: System.String
       description: To be added.
+  overload: System.IO.Path.GetPathRoot*
   platform:
   - net-11
   - net-20
@@ -490,6 +499,7 @@ items:
     return:
       type: System.String
       description: To be added.
+  overload: System.IO.Path.GetRandomFileName*
   platform:
   - net-11
   - net-20
@@ -514,6 +524,7 @@ items:
     return:
       type: System.String
       description: To be added.
+  overload: System.IO.Path.GetTempFileName*
   platform:
   - net-11
   - net-20
@@ -538,6 +549,7 @@ items:
     return:
       type: System.String
       description: To be added.
+  overload: System.IO.Path.GetTempPath*
   platform:
   - net-11
   - net-20
@@ -565,6 +577,7 @@ items:
     return:
       type: System.Boolean
       description: To be added.
+  overload: System.IO.Path.HasExtension*
   platform:
   - net-11
   - net-20
@@ -615,6 +628,7 @@ items:
     return:
       type: System.Boolean
       description: To be added.
+  overload: System.IO.Path.IsPathRooted*
   platform:
   - net-11
   - net-20
@@ -1065,8 +1079,78 @@ references:
   name: Char
   nameWithType: Char
   fullName: System.Char
+- uid: System.IO.Path.ChangeExtension*
+  parent: System.IO.Path
+  isExternal: false
+  name: ChangeExtension
+  nameWithType: Path.ChangeExtension
 - uid: System.IO.Path.Combine*
   parent: System.IO.Path
   isExternal: false
   name: Combine
   nameWithType: Path.Combine
+- uid: System.IO.Path.GetDirectoryName*
+  parent: System.IO.Path
+  isExternal: false
+  name: GetDirectoryName
+  nameWithType: Path.GetDirectoryName
+- uid: System.IO.Path.GetExtension*
+  parent: System.IO.Path
+  isExternal: false
+  name: GetExtension
+  nameWithType: Path.GetExtension
+- uid: System.IO.Path.GetFileName*
+  parent: System.IO.Path
+  isExternal: false
+  name: GetFileName
+  nameWithType: Path.GetFileName
+- uid: System.IO.Path.GetFileNameWithoutExtension*
+  parent: System.IO.Path
+  isExternal: false
+  name: GetFileNameWithoutExtension
+  nameWithType: Path.GetFileNameWithoutExtension
+- uid: System.IO.Path.GetFullPath*
+  parent: System.IO.Path
+  isExternal: false
+  name: GetFullPath
+  nameWithType: Path.GetFullPath
+- uid: System.IO.Path.GetInvalidFileNameChars*
+  parent: System.IO.Path
+  isExternal: false
+  name: GetInvalidFileNameChars
+  nameWithType: Path.GetInvalidFileNameChars
+- uid: System.IO.Path.GetInvalidPathChars*
+  parent: System.IO.Path
+  isExternal: false
+  name: GetInvalidPathChars
+  nameWithType: Path.GetInvalidPathChars
+- uid: System.IO.Path.GetPathRoot*
+  parent: System.IO.Path
+  isExternal: false
+  name: GetPathRoot
+  nameWithType: Path.GetPathRoot
+- uid: System.IO.Path.GetRandomFileName*
+  parent: System.IO.Path
+  isExternal: false
+  name: GetRandomFileName
+  nameWithType: Path.GetRandomFileName
+- uid: System.IO.Path.GetTempFileName*
+  parent: System.IO.Path
+  isExternal: false
+  name: GetTempFileName
+  nameWithType: Path.GetTempFileName
+- uid: System.IO.Path.GetTempPath*
+  parent: System.IO.Path
+  isExternal: false
+  name: GetTempPath
+  nameWithType: Path.GetTempPath
+- uid: System.IO.Path.HasExtension*
+  parent: System.IO.Path
+  isExternal: false
+  name: HasExtension
+  nameWithType: Path.HasExtension
+- uid: System.IO.Path.IsPathRooted*
+  parent: System.IO.Path
+  isExternal: false
+  name: IsPathRooted
+  nameWithType: Path.IsPathRooted

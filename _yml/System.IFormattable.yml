@@ -48,6 +48,7 @@ items:
     return:
       type: System.String
       description: To be added.
+  overload: System.IFormattable.ToString*
   platform:
   - net-11
   - net-20
@@ -77,3 +78,8 @@ references:
   name: IFormatProvider
   nameWithType: IFormatProvider
   fullName: System.IFormatProvider
+- uid: System.IFormattable.ToString*
+  parent: System.IFormattable
+  isExternal: false
+  name: ToString
+  nameWithType: IFormattable.ToString

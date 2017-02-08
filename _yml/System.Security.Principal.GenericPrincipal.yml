@@ -77,6 +77,7 @@ items:
     - id: roles
       type: System.String[]
       description: To be added.
+  overload: System.Security.Principal.GenericPrincipal.#ctor*
   platform:
   - net-11
   - net-20
@@ -100,6 +101,7 @@ items:
     return:
       type: System.Security.Principal.IIdentity
       description: To be added.
+  overload: System.Security.Principal.GenericPrincipal.Identity*
   platform:
   - net-11
   - net-20
@@ -127,6 +129,7 @@ items:
     return:
       type: System.Boolean
       description: To be added.
+  overload: System.Security.Principal.GenericPrincipal.IsInRole*
   platform:
   - net-11
   - net-20
@@ -183,3 +186,18 @@ references:
   name: String
   nameWithType: String
   fullName: System.String
+- uid: System.Security.Principal.GenericPrincipal.#ctor*
+  parent: System.Security.Principal.GenericPrincipal
+  isExternal: false
+  name: GenericPrincipal
+  nameWithType: GenericPrincipal.GenericPrincipal
+- uid: System.Security.Principal.GenericPrincipal.Identity*
+  parent: System.Security.Principal.GenericPrincipal
+  isExternal: false
+  name: Identity
+  nameWithType: GenericPrincipal.Identity
+- uid: System.Security.Principal.GenericPrincipal.IsInRole*
+  parent: System.Security.Principal.GenericPrincipal
+  isExternal: false
+  name: IsInRole
+  nameWithType: GenericPrincipal.IsInRole

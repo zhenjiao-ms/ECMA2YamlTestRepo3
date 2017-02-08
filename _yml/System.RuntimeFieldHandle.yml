@@ -108,6 +108,7 @@ items:
     return:
       type: System.Int32
       description: To be added.
+  overload: System.RuntimeFieldHandle.GetHashCode*
   platform:
   - net-11
   - net-20
@@ -135,6 +136,7 @@ items:
     - id: context
       type: System.Runtime.Serialization.StreamingContext
       description: To be added.
+  overload: System.RuntimeFieldHandle.GetObjectData*
   platform:
   - net-11
   - net-20
@@ -165,6 +167,7 @@ items:
     return:
       type: System.Boolean
       description: To be added.
+  overload: System.RuntimeFieldHandle.op_Equality*
   platform:
   - net-11
   - net-20
@@ -195,6 +198,7 @@ items:
     return:
       type: System.Boolean
       description: To be added.
+  overload: System.RuntimeFieldHandle.op_Inequality*
   platform:
   - net-11
   - net-20
@@ -218,6 +222,7 @@ items:
     return:
       type: System.IntPtr
       description: To be added.
+  overload: System.RuntimeFieldHandle.Value*
   platform:
   - net-11
   - net-20
@@ -357,3 +362,28 @@ references:
   isExternal: false
   name: Equals
   nameWithType: RuntimeFieldHandle.Equals
+- uid: System.RuntimeFieldHandle.GetHashCode*
+  parent: System.RuntimeFieldHandle
+  isExternal: false
+  name: GetHashCode
+  nameWithType: RuntimeFieldHandle.GetHashCode
+- uid: System.RuntimeFieldHandle.GetObjectData*
+  parent: System.RuntimeFieldHandle
+  isExternal: false
+  name: GetObjectData
+  nameWithType: RuntimeFieldHandle.GetObjectData
+- uid: System.RuntimeFieldHandle.op_Equality*
+  parent: System.RuntimeFieldHandle
+  isExternal: false
+  name: op_Equality
+  nameWithType: RuntimeFieldHandle.op_Equality
+- uid: System.RuntimeFieldHandle.op_Inequality*
+  parent: System.RuntimeFieldHandle
+  isExternal: false
+  name: op_Inequality
+  nameWithType: RuntimeFieldHandle.op_Inequality
+- uid: System.RuntimeFieldHandle.Value*
+  parent: System.RuntimeFieldHandle
+  isExternal: false
+  name: Value
+  nameWithType: RuntimeFieldHandle.Value

@@ -103,6 +103,7 @@ items:
   syntax:
     content: public MemoryStream ();
     parameters: []
+  overload: System.IO.MemoryStream.#ctor*
   platform:
   - net-11
   - net-20
@@ -127,6 +128,7 @@ items:
     - id: buffer
       type: System.Byte[]
       description: To be added.
+  overload: System.IO.MemoryStream.#ctor*
   platform:
   - net-11
   - net-20
@@ -151,6 +153,7 @@ items:
     - id: capacity
       type: System.Int32
       description: To be added.
+  overload: System.IO.MemoryStream.#ctor*
   platform:
   - net-11
   - net-20
@@ -178,6 +181,7 @@ items:
     - id: writable
       type: System.Boolean
       description: To be added.
+  overload: System.IO.MemoryStream.#ctor*
   platform:
   - net-11
   - net-20
@@ -208,6 +212,7 @@ items:
     - id: count
       type: System.Int32
       description: To be added.
+  overload: System.IO.MemoryStream.#ctor*
   platform:
   - net-11
   - net-20
@@ -241,6 +246,7 @@ items:
     - id: writable
       type: System.Boolean
       description: To be added.
+  overload: System.IO.MemoryStream.#ctor*
   platform:
   - net-11
   - net-20
@@ -277,6 +283,7 @@ items:
     - id: publiclyVisible
       type: System.Boolean
       description: To be added.
+  overload: System.IO.MemoryStream.#ctor*
   platform:
   - net-11
   - net-20
@@ -300,6 +307,7 @@ items:
     return:
       type: System.Boolean
       description: To be added.
+  overload: System.IO.MemoryStream.CanRead*
   platform:
   - net-11
   - net-20
@@ -323,6 +331,7 @@ items:
     return:
       type: System.Boolean
       description: To be added.
+  overload: System.IO.MemoryStream.CanSeek*
   platform:
   - net-11
   - net-20
@@ -346,6 +355,7 @@ items:
     return:
       type: System.Boolean
       description: To be added.
+  overload: System.IO.MemoryStream.CanWrite*
   platform:
   - net-11
   - net-20
@@ -369,6 +379,7 @@ items:
     return:
       type: System.Int32
       description: To be added.
+  overload: System.IO.MemoryStream.Capacity*
   platform:
   - net-11
   - net-20
@@ -402,6 +413,7 @@ items:
     return:
       type: System.Threading.Tasks.Task
       description: To be added.
+  overload: System.IO.MemoryStream.CopyToAsync*
   platform:
   - net-11
   - net-20
@@ -426,6 +438,7 @@ items:
     - id: disposing
       type: System.Boolean
       description: To be added.
+  overload: System.IO.MemoryStream.Dispose*
   platform:
   - net-11
   - net-20
@@ -447,6 +460,7 @@ items:
   syntax:
     content: public override void Flush ();
     parameters: []
+  overload: System.IO.MemoryStream.Flush*
   platform:
   - net-11
   - net-20
@@ -474,6 +488,7 @@ items:
     return:
       type: System.Threading.Tasks.Task
       description: To be added.
+  overload: System.IO.MemoryStream.FlushAsync*
   platform:
   - net-11
   - net-20
@@ -498,6 +513,7 @@ items:
     return:
       type: System.Byte[]
       description: To be added.
+  overload: System.IO.MemoryStream.GetBuffer*
   platform:
   - net-11
   - net-20
@@ -521,6 +537,7 @@ items:
     return:
       type: System.Int64
       description: To be added.
+  overload: System.IO.MemoryStream.Length*
   platform:
   - net-11
   - net-20
@@ -544,6 +561,7 @@ items:
     return:
       type: System.Int64
       description: To be added.
+  overload: System.IO.MemoryStream.Position*
   platform:
   - net-11
   - net-20
@@ -577,6 +595,7 @@ items:
     return:
       type: System.Int32
       description: To be added.
+  overload: System.IO.MemoryStream.Read*
   platform:
   - net-11
   - net-20
@@ -613,6 +632,7 @@ items:
     return:
       type: System.Threading.Tasks.Task{System.Int32}
       description: To be added.
+  overload: System.IO.MemoryStream.ReadAsync*
   platform:
   - net-11
   - net-20
@@ -637,6 +657,7 @@ items:
     return:
       type: System.Int32
       description: To be added.
+  overload: System.IO.MemoryStream.ReadByte*
   platform:
   - net-11
   - net-20
@@ -667,6 +688,7 @@ items:
     return:
       type: System.Int64
       description: To be added.
+  overload: System.IO.MemoryStream.Seek*
   platform:
   - net-11
   - net-20
@@ -691,6 +713,7 @@ items:
     - id: value
       type: System.Int64
       description: To be added.
+  overload: System.IO.MemoryStream.SetLength*
   platform:
   - net-11
   - net-20
@@ -715,6 +738,7 @@ items:
     return:
       type: System.Byte[]
       description: To be added.
+  overload: System.IO.MemoryStream.ToArray*
   platform:
   - net-11
   - net-20
@@ -742,6 +766,7 @@ items:
     return:
       type: System.Boolean
       description: To be added.
+  overload: System.IO.MemoryStream.TryGetBuffer*
   platform:
   - net-11
   - net-20
@@ -772,6 +797,7 @@ items:
     - id: count
       type: System.Int32
       description: To be added.
+  overload: System.IO.MemoryStream.Write*
   platform:
   - net-11
   - net-20
@@ -808,6 +834,7 @@ items:
     return:
       type: System.Threading.Tasks.Task
       description: To be added.
+  overload: System.IO.MemoryStream.WriteAsync*
   platform:
   - net-11
   - net-20
@@ -832,6 +859,7 @@ items:
     - id: value
       type: System.Byte
       description: To be added.
+  overload: System.IO.MemoryStream.WriteByte*
   platform:
   - net-11
   - net-20
@@ -856,6 +884,7 @@ items:
     - id: stream
       type: System.IO.Stream
       description: To be added.
+  overload: System.IO.MemoryStream.WriteTo*
   platform:
   - net-11
   - net-20
@@ -1380,3 +1409,118 @@ references:
   name: Stream
   nameWithType: Stream
   fullName: System.IO.Stream
+- uid: System.IO.MemoryStream.#ctor*
+  parent: System.IO.MemoryStream
+  isExternal: false
+  name: MemoryStream
+  nameWithType: MemoryStream.MemoryStream
+- uid: System.IO.MemoryStream.CanRead*
+  parent: System.IO.MemoryStream
+  isExternal: false
+  name: CanRead
+  nameWithType: MemoryStream.CanRead
+- uid: System.IO.MemoryStream.CanSeek*
+  parent: System.IO.MemoryStream
+  isExternal: false
+  name: CanSeek
+  nameWithType: MemoryStream.CanSeek
+- uid: System.IO.MemoryStream.CanWrite*
+  parent: System.IO.MemoryStream
+  isExternal: false
+  name: CanWrite
+  nameWithType: MemoryStream.CanWrite
+- uid: System.IO.MemoryStream.Capacity*
+  parent: System.IO.MemoryStream
+  isExternal: false
+  name: Capacity
+  nameWithType: MemoryStream.Capacity
+- uid: System.IO.MemoryStream.CopyToAsync*
+  parent: System.IO.MemoryStream
+  isExternal: false
+  name: CopyToAsync
+  nameWithType: MemoryStream.CopyToAsync
+- uid: System.IO.MemoryStream.Dispose*
+  parent: System.IO.MemoryStream
+  isExternal: false
+  name: Dispose
+  nameWithType: MemoryStream.Dispose
+- uid: System.IO.MemoryStream.Flush*
+  parent: System.IO.MemoryStream
+  isExternal: false
+  name: Flush
+  nameWithType: MemoryStream.Flush
+- uid: System.IO.MemoryStream.FlushAsync*
+  parent: System.IO.MemoryStream
+  isExternal: false
+  name: FlushAsync
+  nameWithType: MemoryStream.FlushAsync
+- uid: System.IO.MemoryStream.GetBuffer*
+  parent: System.IO.MemoryStream
+  isExternal: false
+  name: GetBuffer
+  nameWithType: MemoryStream.GetBuffer
+- uid: System.IO.MemoryStream.Length*
+  parent: System.IO.MemoryStream
+  isExternal: false
+  name: Length
+  nameWithType: MemoryStream.Length
+- uid: System.IO.MemoryStream.Position*
+  parent: System.IO.MemoryStream
+  isExternal: false
+  name: Position
+  nameWithType: MemoryStream.Position
+- uid: System.IO.MemoryStream.Read*
+  parent: System.IO.MemoryStream
+  isExternal: false
+  name: Read
+  nameWithType: MemoryStream.Read
+- uid: System.IO.MemoryStream.ReadAsync*
+  parent: System.IO.MemoryStream
+  isExternal: false
+  name: ReadAsync
+  nameWithType: MemoryStream.ReadAsync
+- uid: System.IO.MemoryStream.ReadByte*
+  parent: System.IO.MemoryStream
+  isExternal: false
+  name: ReadByte
+  nameWithType: MemoryStream.ReadByte
+- uid: System.IO.MemoryStream.Seek*
+  parent: System.IO.MemoryStream
+  isExternal: false
+  name: Seek
+  nameWithType: MemoryStream.Seek
+- uid: System.IO.MemoryStream.SetLength*
+  parent: System.IO.MemoryStream
+  isExternal: false
+  name: SetLength
+  nameWithType: MemoryStream.SetLength
+- uid: System.IO.MemoryStream.ToArray*
+  parent: System.IO.MemoryStream
+  isExternal: false
+  name: ToArray
+  nameWithType: MemoryStream.ToArray
+- uid: System.IO.MemoryStream.TryGetBuffer*
+  parent: System.IO.MemoryStream
+  isExternal: false
+  name: TryGetBuffer
+  nameWithType: MemoryStream.TryGetBuffer
+- uid: System.IO.MemoryStream.Write*
+  parent: System.IO.MemoryStream
+  isExternal: false
+  name: Write
+  nameWithType: MemoryStream.Write
+- uid: System.IO.MemoryStream.WriteAsync*
+  parent: System.IO.MemoryStream
+  isExternal: false
+  name: WriteAsync
+  nameWithType: MemoryStream.WriteAsync
+- uid: System.IO.MemoryStream.WriteByte*
+  parent: System.IO.MemoryStream
+  isExternal: false
+  name: WriteByte
+  nameWithType: MemoryStream.WriteByte
+- uid: System.IO.MemoryStream.WriteTo*
+  parent: System.IO.MemoryStream
+  isExternal: false
+  name: WriteTo
+  nameWithType: MemoryStream.WriteTo

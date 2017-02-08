@@ -98,6 +98,7 @@ items:
     - id: typeName
       type: System.String
       description: To be added.
+  overload: System.Diagnostics.DebuggerTypeProxyAttribute.#ctor*
   platform:
   - net-11
   - net-20
@@ -122,6 +123,7 @@ items:
     - id: type
       type: System.Type
       description: To be added.
+  overload: System.Diagnostics.DebuggerTypeProxyAttribute.#ctor*
   platform:
   - net-11
   - net-20
@@ -145,6 +147,7 @@ items:
     return:
       type: System.String
       description: To be added.
+  overload: System.Diagnostics.DebuggerTypeProxyAttribute.ProxyTypeName*
   platform:
   - net-11
   - net-20
@@ -168,6 +171,7 @@ items:
     return:
       type: System.Type
       description: To be added.
+  overload: System.Diagnostics.DebuggerTypeProxyAttribute.Target*
   platform:
   - net-11
   - net-20
@@ -191,6 +195,7 @@ items:
     return:
       type: System.String
       description: To be added.
+  overload: System.Diagnostics.DebuggerTypeProxyAttribute.TargetTypeName*
   platform:
   - net-11
   - net-20
@@ -259,3 +264,23 @@ references:
   name: String
   nameWithType: String
   fullName: System.String
+- uid: System.Diagnostics.DebuggerTypeProxyAttribute.#ctor*
+  parent: System.Diagnostics.DebuggerTypeProxyAttribute
+  isExternal: false
+  name: DebuggerTypeProxyAttribute
+  nameWithType: DebuggerTypeProxyAttribute.DebuggerTypeProxyAttribute
+- uid: System.Diagnostics.DebuggerTypeProxyAttribute.ProxyTypeName*
+  parent: System.Diagnostics.DebuggerTypeProxyAttribute
+  isExternal: false
+  name: ProxyTypeName
+  nameWithType: DebuggerTypeProxyAttribute.ProxyTypeName
+- uid: System.Diagnostics.DebuggerTypeProxyAttribute.Target*
+  parent: System.Diagnostics.DebuggerTypeProxyAttribute
+  isExternal: false
+  name: Target
+  nameWithType: DebuggerTypeProxyAttribute.Target
+- uid: System.Diagnostics.DebuggerTypeProxyAttribute.TargetTypeName*
+  parent: System.Diagnostics.DebuggerTypeProxyAttribute
+  isExternal: false
+  name: TargetTypeName
+  nameWithType: DebuggerTypeProxyAttribute.TargetTypeName

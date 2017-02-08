@@ -96,6 +96,7 @@ items:
     - id: stream
       type: System.IO.Stream
       description: To be added.
+  overload: System.IO.BufferedStream.#ctor*
   platform:
   - net-11
   - net-20
@@ -123,6 +124,7 @@ items:
     - id: bufferSize
       type: System.Int32
       description: To be added.
+  overload: System.IO.BufferedStream.#ctor*
   platform:
   - net-11
   - net-20
@@ -162,6 +164,7 @@ items:
     return:
       type: System.IAsyncResult
       description: To be added.
+  overload: System.IO.BufferedStream.BeginRead*
   platform:
   - net-11
   - net-20
@@ -201,6 +204,7 @@ items:
     return:
       type: System.IAsyncResult
       description: To be added.
+  overload: System.IO.BufferedStream.BeginWrite*
   platform:
   - net-11
   - net-20
@@ -224,6 +228,7 @@ items:
     return:
       type: System.Boolean
       description: To be added.
+  overload: System.IO.BufferedStream.CanRead*
   platform:
   - net-11
   - net-20
@@ -247,6 +252,7 @@ items:
     return:
       type: System.Boolean
       description: To be added.
+  overload: System.IO.BufferedStream.CanSeek*
   platform:
   - net-11
   - net-20
@@ -270,6 +276,7 @@ items:
     return:
       type: System.Boolean
       description: To be added.
+  overload: System.IO.BufferedStream.CanWrite*
   platform:
   - net-11
   - net-20
@@ -294,6 +301,7 @@ items:
     - id: disposing
       type: System.Boolean
       description: To be added.
+  overload: System.IO.BufferedStream.Dispose*
   platform:
   - net-11
   - net-20
@@ -321,6 +329,7 @@ items:
     return:
       type: System.Int32
       description: To be added.
+  overload: System.IO.BufferedStream.EndRead*
   platform:
   - net-11
   - net-20
@@ -345,6 +354,7 @@ items:
     - id: asyncResult
       type: System.IAsyncResult
       description: To be added.
+  overload: System.IO.BufferedStream.EndWrite*
   platform:
   - net-11
   - net-20
@@ -366,6 +376,7 @@ items:
   syntax:
     content: public override void Flush ();
     parameters: []
+  overload: System.IO.BufferedStream.Flush*
   platform:
   - net-11
   - net-20
@@ -393,6 +404,7 @@ items:
     return:
       type: System.Threading.Tasks.Task
       description: To be added.
+  overload: System.IO.BufferedStream.FlushAsync*
   platform:
   - net-11
   - net-20
@@ -416,6 +428,7 @@ items:
     return:
       type: System.Int64
       description: To be added.
+  overload: System.IO.BufferedStream.Length*
   platform:
   - net-11
   - net-20
@@ -439,6 +452,7 @@ items:
     return:
       type: System.Int64
       description: To be added.
+  overload: System.IO.BufferedStream.Position*
   platform:
   - net-11
   - net-20
@@ -472,6 +486,7 @@ items:
     return:
       type: System.Int32
       description: To be added.
+  overload: System.IO.BufferedStream.Read*
   platform:
   - net-11
   - net-20
@@ -508,6 +523,7 @@ items:
     return:
       type: System.Threading.Tasks.Task{System.Int32}
       description: To be added.
+  overload: System.IO.BufferedStream.ReadAsync*
   platform:
   - net-11
   - net-20
@@ -532,6 +548,7 @@ items:
     return:
       type: System.Int32
       description: To be added.
+  overload: System.IO.BufferedStream.ReadByte*
   platform:
   - net-11
   - net-20
@@ -562,6 +579,7 @@ items:
     return:
       type: System.Int64
       description: To be added.
+  overload: System.IO.BufferedStream.Seek*
   platform:
   - net-11
   - net-20
@@ -586,6 +604,7 @@ items:
     - id: value
       type: System.Int64
       description: To be added.
+  overload: System.IO.BufferedStream.SetLength*
   platform:
   - net-11
   - net-20
@@ -616,6 +635,7 @@ items:
     - id: count
       type: System.Int32
       description: To be added.
+  overload: System.IO.BufferedStream.Write*
   platform:
   - net-11
   - net-20
@@ -652,6 +672,7 @@ items:
     return:
       type: System.Threading.Tasks.Task
       description: To be added.
+  overload: System.IO.BufferedStream.WriteAsync*
   platform:
   - net-11
   - net-20
@@ -676,6 +697,7 @@ items:
     - id: value
       type: System.Byte
       description: To be added.
+  overload: System.IO.BufferedStream.WriteByte*
   platform:
   - net-11
   - net-20
@@ -1110,3 +1132,108 @@ references:
   name: Byte
   nameWithType: Byte
   fullName: System.Byte
+- uid: System.IO.BufferedStream.#ctor*
+  parent: System.IO.BufferedStream
+  isExternal: false
+  name: BufferedStream
+  nameWithType: BufferedStream.BufferedStream
+- uid: System.IO.BufferedStream.BeginRead*
+  parent: System.IO.BufferedStream
+  isExternal: false
+  name: BeginRead
+  nameWithType: BufferedStream.BeginRead
+- uid: System.IO.BufferedStream.BeginWrite*
+  parent: System.IO.BufferedStream
+  isExternal: false
+  name: BeginWrite
+  nameWithType: BufferedStream.BeginWrite
+- uid: System.IO.BufferedStream.CanRead*
+  parent: System.IO.BufferedStream
+  isExternal: false
+  name: CanRead
+  nameWithType: BufferedStream.CanRead
+- uid: System.IO.BufferedStream.CanSeek*
+  parent: System.IO.BufferedStream
+  isExternal: false
+  name: CanSeek
+  nameWithType: BufferedStream.CanSeek
+- uid: System.IO.BufferedStream.CanWrite*
+  parent: System.IO.BufferedStream
+  isExternal: false
+  name: CanWrite
+  nameWithType: BufferedStream.CanWrite
+- uid: System.IO.BufferedStream.Dispose*
+  parent: System.IO.BufferedStream
+  isExternal: false
+  name: Dispose
+  nameWithType: BufferedStream.Dispose
+- uid: System.IO.BufferedStream.EndRead*
+  parent: System.IO.BufferedStream
+  isExternal: false
+  name: EndRead
+  nameWithType: BufferedStream.EndRead
+- uid: System.IO.BufferedStream.EndWrite*
+  parent: System.IO.BufferedStream
+  isExternal: false
+  name: EndWrite
+  nameWithType: BufferedStream.EndWrite
+- uid: System.IO.BufferedStream.Flush*
+  parent: System.IO.BufferedStream
+  isExternal: false
+  name: Flush
+  nameWithType: BufferedStream.Flush
+- uid: System.IO.BufferedStream.FlushAsync*
+  parent: System.IO.BufferedStream
+  isExternal: false
+  name: FlushAsync
+  nameWithType: BufferedStream.FlushAsync
+- uid: System.IO.BufferedStream.Length*
+  parent: System.IO.BufferedStream
+  isExternal: false
+  name: Length
+  nameWithType: BufferedStream.Length
+- uid: System.IO.BufferedStream.Position*
+  parent: System.IO.BufferedStream
+  isExternal: false
+  name: Position
+  nameWithType: BufferedStream.Position
+- uid: System.IO.BufferedStream.Read*
+  parent: System.IO.BufferedStream
+  isExternal: false
+  name: Read
+  nameWithType: BufferedStream.Read
+- uid: System.IO.BufferedStream.ReadAsync*
+  parent: System.IO.BufferedStream
+  isExternal: false
+  name: ReadAsync
+  nameWithType: BufferedStream.ReadAsync
+- uid: System.IO.BufferedStream.ReadByte*
+  parent: System.IO.BufferedStream
+  isExternal: false
+  name: ReadByte
+  nameWithType: BufferedStream.ReadByte
+- uid: System.IO.BufferedStream.Seek*
+  parent: System.IO.BufferedStream
+  isExternal: false
+  name: Seek
+  nameWithType: BufferedStream.Seek
+- uid: System.IO.BufferedStream.SetLength*
+  parent: System.IO.BufferedStream
+  isExternal: false
+  name: SetLength
+  nameWithType: BufferedStream.SetLength
+- uid: System.IO.BufferedStream.Write*
+  parent: System.IO.BufferedStream
+  isExternal: false
+  name: Write
+  nameWithType: BufferedStream.Write
+- uid: System.IO.BufferedStream.WriteAsync*
+  parent: System.IO.BufferedStream
+  isExternal: false
+  name: WriteAsync
+  nameWithType: BufferedStream.WriteAsync
+- uid: System.IO.BufferedStream.WriteByte*
+  parent: System.IO.BufferedStream
+  isExternal: false
+  name: WriteByte
+  nameWithType: BufferedStream.WriteByte

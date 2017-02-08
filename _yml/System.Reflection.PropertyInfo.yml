@@ -104,6 +104,7 @@ items:
   syntax:
     content: protected PropertyInfo ();
     parameters: []
+  overload: System.Reflection.PropertyInfo.#ctor*
   platform:
   - net-11
   - net-20
@@ -127,6 +128,7 @@ items:
     return:
       type: System.Reflection.PropertyAttributes
       description: To be added.
+  overload: System.Reflection.PropertyInfo.Attributes*
   platform:
   - net-11
   - net-20
@@ -150,6 +152,7 @@ items:
     return:
       type: System.Boolean
       description: To be added.
+  overload: System.Reflection.PropertyInfo.CanRead*
   platform:
   - net-11
   - net-20
@@ -173,6 +176,7 @@ items:
     return:
       type: System.Boolean
       description: To be added.
+  overload: System.Reflection.PropertyInfo.CanWrite*
   platform:
   - net-11
   - net-20
@@ -200,6 +204,7 @@ items:
     return:
       type: System.Boolean
       description: To be added.
+  overload: System.Reflection.PropertyInfo.Equals*
   platform:
   - net-11
   - net-20
@@ -277,6 +282,7 @@ items:
     return:
       type: System.Object
       description: To be added.
+  overload: System.Reflection.PropertyInfo.GetConstantValue*
   platform:
   - net-11
   - net-20
@@ -354,6 +360,7 @@ items:
     return:
       type: System.Int32
       description: To be added.
+  overload: System.Reflection.PropertyInfo.GetHashCode*
   platform:
   - net-11
   - net-20
@@ -378,6 +385,7 @@ items:
     return:
       type: System.Reflection.ParameterInfo[]
       description: To be added.
+  overload: System.Reflection.PropertyInfo.GetIndexParameters*
   platform:
   - net-11
   - net-20
@@ -401,6 +409,7 @@ items:
     return:
       type: System.Reflection.MethodInfo
       description: To be added.
+  overload: System.Reflection.PropertyInfo.GetMethod*
   platform:
   - net-11
   - net-20
@@ -425,6 +434,7 @@ items:
     return:
       type: System.Type[]
       description: To be added.
+  overload: System.Reflection.PropertyInfo.GetOptionalCustomModifiers*
   platform:
   - net-11
   - net-20
@@ -449,6 +459,7 @@ items:
     return:
       type: System.Object
       description: To be added.
+  overload: System.Reflection.PropertyInfo.GetRawConstantValue*
   platform:
   - net-11
   - net-20
@@ -473,6 +484,7 @@ items:
     return:
       type: System.Type[]
       description: To be added.
+  overload: System.Reflection.PropertyInfo.GetRequiredCustomModifiers*
   platform:
   - net-11
   - net-20
@@ -648,6 +660,7 @@ items:
     return:
       type: System.Boolean
       description: To be added.
+  overload: System.Reflection.PropertyInfo.IsSpecialName*
   platform:
   - net-11
   - net-20
@@ -671,6 +684,7 @@ items:
     return:
       type: System.Reflection.MemberTypes
       description: To be added.
+  overload: System.Reflection.PropertyInfo.MemberType*
   platform:
   - net-11
   - net-20
@@ -701,6 +715,7 @@ items:
     return:
       type: System.Boolean
       description: To be added.
+  overload: System.Reflection.PropertyInfo.op_Equality*
   platform:
   - net-11
   - net-20
@@ -731,6 +746,7 @@ items:
     return:
       type: System.Boolean
       description: To be added.
+  overload: System.Reflection.PropertyInfo.op_Inequality*
   platform:
   - net-11
   - net-20
@@ -754,6 +770,7 @@ items:
     return:
       type: System.Type
       description: To be added.
+  overload: System.Reflection.PropertyInfo.PropertyType*
   platform:
   - net-11
   - net-20
@@ -777,6 +794,7 @@ items:
     return:
       type: System.Reflection.MethodInfo
       description: To be added.
+  overload: System.Reflection.PropertyInfo.SetMethod*
   platform:
   - net-11
   - net-20
@@ -913,6 +931,7 @@ items:
     - id: rgDispId
       type: System.IntPtr
       description: To be added.
+  overload: System.Reflection.PropertyInfo.System#Runtime#InteropServices#_PropertyInfo#GetIDsOfNames*
   platform:
   - net-11
   - net-20
@@ -938,6 +957,7 @@ items:
     return:
       type: System.Type
       description: To be added.
+  overload: System.Reflection.PropertyInfo.System#Runtime#InteropServices#_PropertyInfo#GetType*
   platform:
   - net-11
   - net-20
@@ -969,6 +989,7 @@ items:
     - id: ppTInfo
       type: System.IntPtr
       description: To be added.
+  overload: System.Reflection.PropertyInfo.System#Runtime#InteropServices#_PropertyInfo#GetTypeInfo*
   platform:
   - net-11
   - net-20
@@ -994,6 +1015,7 @@ items:
     - id: pcTInfo
       type: System.UInt32
       description: To be added.
+  overload: System.Reflection.PropertyInfo.System#Runtime#InteropServices#_PropertyInfo#GetTypeInfoCount*
   platform:
   - net-11
   - net-20
@@ -1040,6 +1062,7 @@ items:
     - id: puArgErr
       type: System.IntPtr
       description: To be added.
+  overload: System.Reflection.PropertyInfo.System#Runtime#InteropServices#_PropertyInfo#Invoke*
   platform:
   - net-11
   - net-20
@@ -1684,16 +1707,76 @@ references:
   name: IntPtr
   nameWithType: IntPtr
   fullName: System.IntPtr
+- uid: System.Reflection.PropertyInfo.#ctor*
+  parent: System.Reflection.PropertyInfo
+  isExternal: false
+  name: PropertyInfo
+  nameWithType: PropertyInfo.PropertyInfo
+- uid: System.Reflection.PropertyInfo.Attributes*
+  parent: System.Reflection.PropertyInfo
+  isExternal: false
+  name: Attributes
+  nameWithType: PropertyInfo.Attributes
+- uid: System.Reflection.PropertyInfo.CanRead*
+  parent: System.Reflection.PropertyInfo
+  isExternal: false
+  name: CanRead
+  nameWithType: PropertyInfo.CanRead
+- uid: System.Reflection.PropertyInfo.CanWrite*
+  parent: System.Reflection.PropertyInfo
+  isExternal: false
+  name: CanWrite
+  nameWithType: PropertyInfo.CanWrite
+- uid: System.Reflection.PropertyInfo.Equals*
+  parent: System.Reflection.PropertyInfo
+  isExternal: false
+  name: Equals
+  nameWithType: PropertyInfo.Equals
 - uid: System.Reflection.PropertyInfo.GetAccessors*
   parent: System.Reflection.PropertyInfo
   isExternal: false
   name: GetAccessors
   nameWithType: PropertyInfo.GetAccessors
+- uid: System.Reflection.PropertyInfo.GetConstantValue*
+  parent: System.Reflection.PropertyInfo
+  isExternal: false
+  name: GetConstantValue
+  nameWithType: PropertyInfo.GetConstantValue
 - uid: System.Reflection.PropertyInfo.GetGetMethod*
   parent: System.Reflection.PropertyInfo
   isExternal: false
   name: GetGetMethod
   nameWithType: PropertyInfo.GetGetMethod
+- uid: System.Reflection.PropertyInfo.GetHashCode*
+  parent: System.Reflection.PropertyInfo
+  isExternal: false
+  name: GetHashCode
+  nameWithType: PropertyInfo.GetHashCode
+- uid: System.Reflection.PropertyInfo.GetIndexParameters*
+  parent: System.Reflection.PropertyInfo
+  isExternal: false
+  name: GetIndexParameters
+  nameWithType: PropertyInfo.GetIndexParameters
+- uid: System.Reflection.PropertyInfo.GetMethod*
+  parent: System.Reflection.PropertyInfo
+  isExternal: false
+  name: GetMethod
+  nameWithType: PropertyInfo.GetMethod
+- uid: System.Reflection.PropertyInfo.GetOptionalCustomModifiers*
+  parent: System.Reflection.PropertyInfo
+  isExternal: false
+  name: GetOptionalCustomModifiers
+  nameWithType: PropertyInfo.GetOptionalCustomModifiers
+- uid: System.Reflection.PropertyInfo.GetRawConstantValue*
+  parent: System.Reflection.PropertyInfo
+  isExternal: false
+  name: GetRawConstantValue
+  nameWithType: PropertyInfo.GetRawConstantValue
+- uid: System.Reflection.PropertyInfo.GetRequiredCustomModifiers*
+  parent: System.Reflection.PropertyInfo
+  isExternal: false
+  name: GetRequiredCustomModifiers
+  nameWithType: PropertyInfo.GetRequiredCustomModifiers
 - uid: System.Reflection.PropertyInfo.GetSetMethod*
   parent: System.Reflection.PropertyInfo
   isExternal: false
@@ -1704,8 +1787,63 @@ references:
   isExternal: false
   name: GetValue
   nameWithType: PropertyInfo.GetValue
+- uid: System.Reflection.PropertyInfo.IsSpecialName*
+  parent: System.Reflection.PropertyInfo
+  isExternal: false
+  name: IsSpecialName
+  nameWithType: PropertyInfo.IsSpecialName
+- uid: System.Reflection.PropertyInfo.MemberType*
+  parent: System.Reflection.PropertyInfo
+  isExternal: false
+  name: MemberType
+  nameWithType: PropertyInfo.MemberType
+- uid: System.Reflection.PropertyInfo.op_Equality*
+  parent: System.Reflection.PropertyInfo
+  isExternal: false
+  name: op_Equality
+  nameWithType: PropertyInfo.op_Equality
+- uid: System.Reflection.PropertyInfo.op_Inequality*
+  parent: System.Reflection.PropertyInfo
+  isExternal: false
+  name: op_Inequality
+  nameWithType: PropertyInfo.op_Inequality
+- uid: System.Reflection.PropertyInfo.PropertyType*
+  parent: System.Reflection.PropertyInfo
+  isExternal: false
+  name: PropertyType
+  nameWithType: PropertyInfo.PropertyType
+- uid: System.Reflection.PropertyInfo.SetMethod*
+  parent: System.Reflection.PropertyInfo
+  isExternal: false
+  name: SetMethod
+  nameWithType: PropertyInfo.SetMethod
 - uid: System.Reflection.PropertyInfo.SetValue*
   parent: System.Reflection.PropertyInfo
   isExternal: false
   name: SetValue
   nameWithType: PropertyInfo.SetValue
+- uid: System.Reflection.PropertyInfo.System#Runtime#InteropServices#_PropertyInfo#GetIDsOfNames*
+  parent: System.Reflection.PropertyInfo
+  isExternal: false
+  name: System.Runtime.InteropServices._PropertyInfo.GetIDsOfNames
+  nameWithType: PropertyInfo.System.Runtime.InteropServices._PropertyInfo.GetIDsOfNames
+- uid: System.Reflection.PropertyInfo.System#Runtime#InteropServices#_PropertyInfo#GetType*
+  parent: System.Reflection.PropertyInfo
+  isExternal: false
+  name: System.Runtime.InteropServices._PropertyInfo.GetType
+  nameWithType: PropertyInfo.System.Runtime.InteropServices._PropertyInfo.GetType
+- uid: System.Reflection.PropertyInfo.System#Runtime#InteropServices#_PropertyInfo#GetTypeInfo*
+  parent: System.Reflection.PropertyInfo
+  isExternal: false
+  name: System.Runtime.InteropServices._PropertyInfo.GetTypeInfo
+  nameWithType: PropertyInfo.System.Runtime.InteropServices._PropertyInfo.GetTypeInfo
+- uid: System.Reflection.PropertyInfo.System#Runtime#InteropServices#_PropertyInfo#GetTypeInfoCount*
+  parent: System.Reflection.PropertyInfo
+  isExternal: false
+  name: System.Runtime.InteropServices._PropertyInfo.GetTypeInfoCount
+  nameWithType: PropertyInfo.System.Runtime.InteropServices._PropertyInfo.GetTypeInfoCount
+- uid: System.Reflection.PropertyInfo.System#Runtime#InteropServices#_PropertyInfo#Invoke*
+  parent: System.Reflection.PropertyInfo
+  isExternal: false
+  name: System.Runtime.InteropServices._PropertyInfo.Invoke
+  nameWithType: PropertyInfo.System.Runtime.InteropServices._PropertyInfo.Invoke

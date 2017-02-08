@@ -91,6 +91,7 @@ items:
   syntax:
     content: public OptionalAttribute ();
     parameters: []
+  overload: System.Runtime.InteropServices.OptionalAttribute.#ctor*
   platform:
   - net-11
   - net-20
@@ -105,3 +106,8 @@ references:
   name: OptionalAttribute()
   nameWithType: OptionalAttribute.OptionalAttribute()
   fullName: System.Runtime.InteropServices.OptionalAttribute.OptionalAttribute()
+- uid: System.Runtime.InteropServices.OptionalAttribute.#ctor*
+  parent: System.Runtime.InteropServices.OptionalAttribute
+  isExternal: false
+  name: OptionalAttribute
+  nameWithType: OptionalAttribute.OptionalAttribute

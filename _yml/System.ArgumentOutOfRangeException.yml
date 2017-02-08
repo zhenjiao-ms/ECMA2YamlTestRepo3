@@ -70,6 +70,7 @@ items:
   syntax:
     content: public ArgumentOutOfRangeException ();
     parameters: []
+  overload: System.ArgumentOutOfRangeException.#ctor*
   platform:
   - net-11
   - net-20
@@ -94,6 +95,7 @@ items:
     - id: paramName
       type: System.String
       description: To be added.
+  overload: System.ArgumentOutOfRangeException.#ctor*
   platform:
   - net-11
   - net-20
@@ -121,6 +123,7 @@ items:
     - id: context
       type: System.Runtime.Serialization.StreamingContext
       description: To be added.
+  overload: System.ArgumentOutOfRangeException.#ctor*
   platform:
   - net-11
   - net-20
@@ -148,6 +151,7 @@ items:
     - id: innerException
       type: System.Exception
       description: To be added.
+  overload: System.ArgumentOutOfRangeException.#ctor*
   platform:
   - net-11
   - net-20
@@ -175,6 +179,7 @@ items:
     - id: message
       type: System.String
       description: To be added.
+  overload: System.ArgumentOutOfRangeException.#ctor*
   platform:
   - net-11
   - net-20
@@ -205,6 +210,7 @@ items:
     - id: message
       type: System.String
       description: To be added.
+  overload: System.ArgumentOutOfRangeException.#ctor*
   platform:
   - net-11
   - net-20
@@ -228,6 +234,7 @@ items:
     return:
       type: System.Object
       description: To be added.
+  overload: System.ArgumentOutOfRangeException.ActualValue*
   platform:
   - net-11
   - net-20
@@ -255,6 +262,7 @@ items:
     - id: context
       type: System.Runtime.Serialization.StreamingContext
       description: To be added.
+  overload: System.ArgumentOutOfRangeException.GetObjectData*
   platform:
   - net-11
   - net-20
@@ -278,6 +286,7 @@ items:
     return:
       type: System.String
       description: To be added.
+  overload: System.ArgumentOutOfRangeException.Message*
   platform:
   - net-11
   - net-20
@@ -424,3 +433,23 @@ references:
   name: String
   nameWithType: String
   fullName: System.String
+- uid: System.ArgumentOutOfRangeException.#ctor*
+  parent: System.ArgumentOutOfRangeException
+  isExternal: false
+  name: ArgumentOutOfRangeException
+  nameWithType: ArgumentOutOfRangeException.ArgumentOutOfRangeException
+- uid: System.ArgumentOutOfRangeException.ActualValue*
+  parent: System.ArgumentOutOfRangeException
+  isExternal: false
+  name: ActualValue
+  nameWithType: ArgumentOutOfRangeException.ActualValue
+- uid: System.ArgumentOutOfRangeException.GetObjectData*
+  parent: System.ArgumentOutOfRangeException
+  isExternal: false
+  name: GetObjectData
+  nameWithType: ArgumentOutOfRangeException.GetObjectData
+- uid: System.ArgumentOutOfRangeException.Message*
+  parent: System.ArgumentOutOfRangeException
+  isExternal: false
+  name: Message
+  nameWithType: ArgumentOutOfRangeException.Message

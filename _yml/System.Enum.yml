@@ -93,6 +93,7 @@ items:
   syntax:
     content: protected Enum ();
     parameters: []
+  overload: System.Enum.#ctor*
   platform:
   - net-11
   - net-20
@@ -120,6 +121,7 @@ items:
     return:
       type: System.Int32
       description: To be added.
+  overload: System.Enum.CompareTo*
   platform:
   - net-11
   - net-20
@@ -147,6 +149,7 @@ items:
     return:
       type: System.Boolean
       description: To be added.
+  overload: System.Enum.Equals*
   platform:
   - net-11
   - net-20
@@ -180,6 +183,7 @@ items:
     return:
       type: System.String
       description: To be added.
+  overload: System.Enum.Format*
   platform:
   - net-11
   - net-20
@@ -204,6 +208,7 @@ items:
     return:
       type: System.Int32
       description: To be added.
+  overload: System.Enum.GetHashCode*
   platform:
   - net-11
   - net-20
@@ -234,6 +239,7 @@ items:
     return:
       type: System.String
       description: To be added.
+  overload: System.Enum.GetName*
   platform:
   - net-11
   - net-20
@@ -261,6 +267,7 @@ items:
     return:
       type: System.String[]
       description: To be added.
+  overload: System.Enum.GetNames*
   platform:
   - net-11
   - net-20
@@ -285,6 +292,7 @@ items:
     return:
       type: System.TypeCode
       description: To be added.
+  overload: System.Enum.GetTypeCode*
   platform:
   - net-11
   - net-20
@@ -312,6 +320,7 @@ items:
     return:
       type: System.Type
       description: To be added.
+  overload: System.Enum.GetUnderlyingType*
   platform:
   - net-11
   - net-20
@@ -339,6 +348,7 @@ items:
     return:
       type: System.Array
       description: To be added.
+  overload: System.Enum.GetValues*
   platform:
   - net-11
   - net-20
@@ -366,6 +376,7 @@ items:
     return:
       type: System.Boolean
       description: To be added.
+  overload: System.Enum.HasFlag*
   platform:
   - net-11
   - net-20
@@ -396,6 +407,7 @@ items:
     return:
       type: System.Boolean
       description: To be added.
+  overload: System.Enum.IsDefined*
   platform:
   - net-11
   - net-20
@@ -489,6 +501,7 @@ items:
     return:
       type: System.Boolean
       description: To be added.
+  overload: System.Enum.System#IConvertible#ToBoolean*
   platform:
   - net-11
   - net-20
@@ -517,6 +530,7 @@ items:
     return:
       type: System.Byte
       description: To be added.
+  overload: System.Enum.System#IConvertible#ToByte*
   platform:
   - net-11
   - net-20
@@ -545,6 +559,7 @@ items:
     return:
       type: System.Char
       description: To be added.
+  overload: System.Enum.System#IConvertible#ToChar*
   platform:
   - net-11
   - net-20
@@ -573,6 +588,7 @@ items:
     return:
       type: System.DateTime
       description: To be added.
+  overload: System.Enum.System#IConvertible#ToDateTime*
   platform:
   - net-11
   - net-20
@@ -601,6 +617,7 @@ items:
     return:
       type: System.Decimal
       description: To be added.
+  overload: System.Enum.System#IConvertible#ToDecimal*
   platform:
   - net-11
   - net-20
@@ -629,6 +646,7 @@ items:
     return:
       type: System.Double
       description: To be added.
+  overload: System.Enum.System#IConvertible#ToDouble*
   platform:
   - net-11
   - net-20
@@ -657,6 +675,7 @@ items:
     return:
       type: System.Int16
       description: To be added.
+  overload: System.Enum.System#IConvertible#ToInt16*
   platform:
   - net-11
   - net-20
@@ -685,6 +704,7 @@ items:
     return:
       type: System.Int32
       description: To be added.
+  overload: System.Enum.System#IConvertible#ToInt32*
   platform:
   - net-11
   - net-20
@@ -713,6 +733,7 @@ items:
     return:
       type: System.Int64
       description: To be added.
+  overload: System.Enum.System#IConvertible#ToInt64*
   platform:
   - net-11
   - net-20
@@ -741,6 +762,7 @@ items:
     return:
       type: System.SByte
       description: To be added.
+  overload: System.Enum.System#IConvertible#ToSByte*
   platform:
   - net-11
   - net-20
@@ -769,6 +791,7 @@ items:
     return:
       type: System.Single
       description: To be added.
+  overload: System.Enum.System#IConvertible#ToSingle*
   platform:
   - net-11
   - net-20
@@ -800,6 +823,7 @@ items:
     return:
       type: System.Object
       description: To be added.
+  overload: System.Enum.System#IConvertible#ToType*
   platform:
   - net-11
   - net-20
@@ -828,6 +852,7 @@ items:
     return:
       type: System.UInt16
       description: To be added.
+  overload: System.Enum.System#IConvertible#ToUInt16*
   platform:
   - net-11
   - net-20
@@ -856,6 +881,7 @@ items:
     return:
       type: System.UInt32
       description: To be added.
+  overload: System.Enum.System#IConvertible#ToUInt32*
   platform:
   - net-11
   - net-20
@@ -884,6 +910,7 @@ items:
     return:
       type: System.UInt64
       description: To be added.
+  overload: System.Enum.System#IConvertible#ToUInt64*
   platform:
   - net-11
   - net-20
@@ -2236,11 +2263,146 @@ references:
   name: TEnum
   nameWithType: TEnum
   fullName: TEnum
+- uid: System.Enum.#ctor*
+  parent: System.Enum
+  isExternal: false
+  name: Enum
+  nameWithType: Enum.Enum
+- uid: System.Enum.CompareTo*
+  parent: System.Enum
+  isExternal: false
+  name: CompareTo
+  nameWithType: Enum.CompareTo
+- uid: System.Enum.Equals*
+  parent: System.Enum
+  isExternal: false
+  name: Equals
+  nameWithType: Enum.Equals
+- uid: System.Enum.Format*
+  parent: System.Enum
+  isExternal: false
+  name: Format
+  nameWithType: Enum.Format
+- uid: System.Enum.GetHashCode*
+  parent: System.Enum
+  isExternal: false
+  name: GetHashCode
+  nameWithType: Enum.GetHashCode
+- uid: System.Enum.GetName*
+  parent: System.Enum
+  isExternal: false
+  name: GetName
+  nameWithType: Enum.GetName
+- uid: System.Enum.GetNames*
+  parent: System.Enum
+  isExternal: false
+  name: GetNames
+  nameWithType: Enum.GetNames
+- uid: System.Enum.GetTypeCode*
+  parent: System.Enum
+  isExternal: false
+  name: GetTypeCode
+  nameWithType: Enum.GetTypeCode
+- uid: System.Enum.GetUnderlyingType*
+  parent: System.Enum
+  isExternal: false
+  name: GetUnderlyingType
+  nameWithType: Enum.GetUnderlyingType
+- uid: System.Enum.GetValues*
+  parent: System.Enum
+  isExternal: false
+  name: GetValues
+  nameWithType: Enum.GetValues
+- uid: System.Enum.HasFlag*
+  parent: System.Enum
+  isExternal: false
+  name: HasFlag
+  nameWithType: Enum.HasFlag
+- uid: System.Enum.IsDefined*
+  parent: System.Enum
+  isExternal: false
+  name: IsDefined
+  nameWithType: Enum.IsDefined
 - uid: System.Enum.Parse*
   parent: System.Enum
   isExternal: false
   name: Parse
   nameWithType: Enum.Parse
+- uid: System.Enum.System#IConvertible#ToBoolean*
+  parent: System.Enum
+  isExternal: false
+  name: System.IConvertible.ToBoolean
+  nameWithType: Enum.System.IConvertible.ToBoolean
+- uid: System.Enum.System#IConvertible#ToByte*
+  parent: System.Enum
+  isExternal: false
+  name: System.IConvertible.ToByte
+  nameWithType: Enum.System.IConvertible.ToByte
+- uid: System.Enum.System#IConvertible#ToChar*
+  parent: System.Enum
+  isExternal: false
+  name: System.IConvertible.ToChar
+  nameWithType: Enum.System.IConvertible.ToChar
+- uid: System.Enum.System#IConvertible#ToDateTime*
+  parent: System.Enum
+  isExternal: false
+  name: System.IConvertible.ToDateTime
+  nameWithType: Enum.System.IConvertible.ToDateTime
+- uid: System.Enum.System#IConvertible#ToDecimal*
+  parent: System.Enum
+  isExternal: false
+  name: System.IConvertible.ToDecimal
+  nameWithType: Enum.System.IConvertible.ToDecimal
+- uid: System.Enum.System#IConvertible#ToDouble*
+  parent: System.Enum
+  isExternal: false
+  name: System.IConvertible.ToDouble
+  nameWithType: Enum.System.IConvertible.ToDouble
+- uid: System.Enum.System#IConvertible#ToInt16*
+  parent: System.Enum
+  isExternal: false
+  name: System.IConvertible.ToInt16
+  nameWithType: Enum.System.IConvertible.ToInt16
+- uid: System.Enum.System#IConvertible#ToInt32*
+  parent: System.Enum
+  isExternal: false
+  name: System.IConvertible.ToInt32
+  nameWithType: Enum.System.IConvertible.ToInt32
+- uid: System.Enum.System#IConvertible#ToInt64*
+  parent: System.Enum
+  isExternal: false
+  name: System.IConvertible.ToInt64
+  nameWithType: Enum.System.IConvertible.ToInt64
+- uid: System.Enum.System#IConvertible#ToSByte*
+  parent: System.Enum
+  isExternal: false
+  name: System.IConvertible.ToSByte
+  nameWithType: Enum.System.IConvertible.ToSByte
+- uid: System.Enum.System#IConvertible#ToSingle*
+  parent: System.Enum
+  isExternal: false
+  name: System.IConvertible.ToSingle
+  nameWithType: Enum.System.IConvertible.ToSingle
+- uid: System.Enum.System#IConvertible#ToType*
+  parent: System.Enum
+  isExternal: false
+  name: System.IConvertible.ToType
+  nameWithType: Enum.System.IConvertible.ToType
+- uid: System.Enum.System#IConvertible#ToUInt16*
+  parent: System.Enum
+  isExternal: false
+  name: System.IConvertible.ToUInt16
+  nameWithType: Enum.System.IConvertible.ToUInt16
+- uid: System.Enum.System#IConvertible#ToUInt32*
+  parent: System.Enum
+  isExternal: false
+  name: System.IConvertible.ToUInt32
+  nameWithType: Enum.System.IConvertible.ToUInt32
+- uid: System.Enum.System#IConvertible#ToUInt64*
+  parent: System.Enum
+  isExternal: false
+  name: System.IConvertible.ToUInt64
+  nameWithType: Enum.System.IConvertible.ToUInt64
 - uid: System.Enum.ToObject*
   parent: System.Enum
   isExternal: false

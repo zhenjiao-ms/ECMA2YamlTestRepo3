@@ -75,6 +75,7 @@ items:
     - id: initialCount
       type: System.Int32
       description: To be added.
+  overload: System.Threading.CountdownEvent.#ctor*
   platform:
   - net-11
   - net-20
@@ -145,6 +146,7 @@ items:
     return:
       type: System.Int32
       description: To be added.
+  overload: System.Threading.CountdownEvent.CurrentCount*
   platform:
   - net-11
   - net-20
@@ -215,6 +217,7 @@ items:
     return:
       type: System.Int32
       description: To be added.
+  overload: System.Threading.CountdownEvent.InitialCount*
   platform:
   - net-11
   - net-20
@@ -238,6 +241,7 @@ items:
     return:
       type: System.Boolean
       description: To be added.
+  overload: System.Threading.CountdownEvent.IsSet*
   platform:
   - net-11
   - net-20
@@ -579,6 +583,7 @@ items:
     return:
       type: System.Threading.WaitHandle
       description: To be added.
+  overload: System.Threading.CountdownEvent.WaitHandle*
   platform:
   - net-11
   - net-20
@@ -863,16 +868,36 @@ references:
   name: WaitHandle
   nameWithType: WaitHandle
   fullName: System.Threading.WaitHandle
+- uid: System.Threading.CountdownEvent.#ctor*
+  parent: System.Threading.CountdownEvent
+  isExternal: false
+  name: CountdownEvent
+  nameWithType: CountdownEvent.CountdownEvent
 - uid: System.Threading.CountdownEvent.AddCount*
   parent: System.Threading.CountdownEvent
   isExternal: false
   name: AddCount
   nameWithType: CountdownEvent.AddCount
+- uid: System.Threading.CountdownEvent.CurrentCount*
+  parent: System.Threading.CountdownEvent
+  isExternal: false
+  name: CurrentCount
+  nameWithType: CountdownEvent.CurrentCount
 - uid: System.Threading.CountdownEvent.Dispose*
   parent: System.Threading.CountdownEvent
   isExternal: false
   name: Dispose
   nameWithType: CountdownEvent.Dispose
+- uid: System.Threading.CountdownEvent.InitialCount*
+  parent: System.Threading.CountdownEvent
+  isExternal: false
+  name: InitialCount
+  nameWithType: CountdownEvent.InitialCount
+- uid: System.Threading.CountdownEvent.IsSet*
+  parent: System.Threading.CountdownEvent
+  isExternal: false
+  name: IsSet
+  nameWithType: CountdownEvent.IsSet
 - uid: System.Threading.CountdownEvent.Reset*
   parent: System.Threading.CountdownEvent
   isExternal: false
@@ -893,3 +918,8 @@ references:
   isExternal: false
   name: Wait
   nameWithType: CountdownEvent.Wait
+- uid: System.Threading.CountdownEvent.WaitHandle*
+  parent: System.Threading.CountdownEvent
+  isExternal: false
+  name: WaitHandle
+  nameWithType: CountdownEvent.WaitHandle

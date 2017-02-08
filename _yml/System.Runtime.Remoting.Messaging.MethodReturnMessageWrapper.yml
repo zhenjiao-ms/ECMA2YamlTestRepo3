@@ -75,6 +75,7 @@ items:
     - id: msg
       type: System.Runtime.Remoting.Messaging.IMethodReturnMessage
       description: To be added.
+  overload: System.Runtime.Remoting.Messaging.MethodReturnMessageWrapper.#ctor*
   platform:
   - net-11
   - net-20
@@ -98,6 +99,7 @@ items:
     return:
       type: System.Int32
       description: To be added.
+  overload: System.Runtime.Remoting.Messaging.MethodReturnMessageWrapper.ArgCount*
   platform:
   - net-11
   - net-20
@@ -121,6 +123,7 @@ items:
     return:
       type: System.Object[]
       description: To be added.
+  overload: System.Runtime.Remoting.Messaging.MethodReturnMessageWrapper.Args*
   platform:
   - net-11
   - net-20
@@ -144,6 +147,7 @@ items:
     return:
       type: System.Exception
       description: To be added.
+  overload: System.Runtime.Remoting.Messaging.MethodReturnMessageWrapper.Exception*
   platform:
   - net-11
   - net-20
@@ -171,6 +175,7 @@ items:
     return:
       type: System.Object
       description: To be added.
+  overload: System.Runtime.Remoting.Messaging.MethodReturnMessageWrapper.GetArg*
   platform:
   - net-11
   - net-20
@@ -198,6 +203,7 @@ items:
     return:
       type: System.String
       description: To be added.
+  overload: System.Runtime.Remoting.Messaging.MethodReturnMessageWrapper.GetArgName*
   platform:
   - net-11
   - net-20
@@ -225,6 +231,7 @@ items:
     return:
       type: System.Object
       description: To be added.
+  overload: System.Runtime.Remoting.Messaging.MethodReturnMessageWrapper.GetOutArg*
   platform:
   - net-11
   - net-20
@@ -252,6 +259,7 @@ items:
     return:
       type: System.String
       description: To be added.
+  overload: System.Runtime.Remoting.Messaging.MethodReturnMessageWrapper.GetOutArgName*
   platform:
   - net-11
   - net-20
@@ -275,6 +283,7 @@ items:
     return:
       type: System.Boolean
       description: To be added.
+  overload: System.Runtime.Remoting.Messaging.MethodReturnMessageWrapper.HasVarArgs*
   platform:
   - net-11
   - net-20
@@ -298,6 +307,7 @@ items:
     return:
       type: System.Runtime.Remoting.Messaging.LogicalCallContext
       description: To be added.
+  overload: System.Runtime.Remoting.Messaging.MethodReturnMessageWrapper.LogicalCallContext*
   platform:
   - net-11
   - net-20
@@ -321,6 +331,7 @@ items:
     return:
       type: System.Reflection.MethodBase
       description: To be added.
+  overload: System.Runtime.Remoting.Messaging.MethodReturnMessageWrapper.MethodBase*
   platform:
   - net-11
   - net-20
@@ -344,6 +355,7 @@ items:
     return:
       type: System.String
       description: To be added.
+  overload: System.Runtime.Remoting.Messaging.MethodReturnMessageWrapper.MethodName*
   platform:
   - net-11
   - net-20
@@ -367,6 +379,7 @@ items:
     return:
       type: System.Object
       description: To be added.
+  overload: System.Runtime.Remoting.Messaging.MethodReturnMessageWrapper.MethodSignature*
   platform:
   - net-11
   - net-20
@@ -390,6 +403,7 @@ items:
     return:
       type: System.Int32
       description: To be added.
+  overload: System.Runtime.Remoting.Messaging.MethodReturnMessageWrapper.OutArgCount*
   platform:
   - net-11
   - net-20
@@ -413,6 +427,7 @@ items:
     return:
       type: System.Object[]
       description: To be added.
+  overload: System.Runtime.Remoting.Messaging.MethodReturnMessageWrapper.OutArgs*
   platform:
   - net-11
   - net-20
@@ -436,6 +451,7 @@ items:
     return:
       type: System.Collections.IDictionary
       description: To be added.
+  overload: System.Runtime.Remoting.Messaging.MethodReturnMessageWrapper.Properties*
   platform:
   - net-11
   - net-20
@@ -459,6 +475,7 @@ items:
     return:
       type: System.Object
       description: To be added.
+  overload: System.Runtime.Remoting.Messaging.MethodReturnMessageWrapper.ReturnValue*
   platform:
   - net-11
   - net-20
@@ -482,6 +499,7 @@ items:
     return:
       type: System.String
       description: To be added.
+  overload: System.Runtime.Remoting.Messaging.MethodReturnMessageWrapper.TypeName*
   platform:
   - net-11
   - net-20
@@ -505,6 +523,7 @@ items:
     return:
       type: System.String
       description: To be added.
+  overload: System.Runtime.Remoting.Messaging.MethodReturnMessageWrapper.Uri*
   platform:
   - net-11
   - net-20
@@ -765,3 +784,98 @@ references:
   name: String
   nameWithType: String
   fullName: System.String
+- uid: System.Runtime.Remoting.Messaging.MethodReturnMessageWrapper.#ctor*
+  parent: System.Runtime.Remoting.Messaging.MethodReturnMessageWrapper
+  isExternal: false
+  name: MethodReturnMessageWrapper
+  nameWithType: MethodReturnMessageWrapper.MethodReturnMessageWrapper
+- uid: System.Runtime.Remoting.Messaging.MethodReturnMessageWrapper.ArgCount*
+  parent: System.Runtime.Remoting.Messaging.MethodReturnMessageWrapper
+  isExternal: false
+  name: ArgCount
+  nameWithType: MethodReturnMessageWrapper.ArgCount
+- uid: System.Runtime.Remoting.Messaging.MethodReturnMessageWrapper.Args*
+  parent: System.Runtime.Remoting.Messaging.MethodReturnMessageWrapper
+  isExternal: false
+  name: Args
+  nameWithType: MethodReturnMessageWrapper.Args
+- uid: System.Runtime.Remoting.Messaging.MethodReturnMessageWrapper.Exception*
+  parent: System.Runtime.Remoting.Messaging.MethodReturnMessageWrapper
+  isExternal: false
+  name: Exception
+  nameWithType: MethodReturnMessageWrapper.Exception
+- uid: System.Runtime.Remoting.Messaging.MethodReturnMessageWrapper.GetArg*
+  parent: System.Runtime.Remoting.Messaging.MethodReturnMessageWrapper
+  isExternal: false
+  name: GetArg
+  nameWithType: MethodReturnMessageWrapper.GetArg
+- uid: System.Runtime.Remoting.Messaging.MethodReturnMessageWrapper.GetArgName*
+  parent: System.Runtime.Remoting.Messaging.MethodReturnMessageWrapper
+  isExternal: false
+  name: GetArgName
+  nameWithType: MethodReturnMessageWrapper.GetArgName
+- uid: System.Runtime.Remoting.Messaging.MethodReturnMessageWrapper.GetOutArg*
+  parent: System.Runtime.Remoting.Messaging.MethodReturnMessageWrapper
+  isExternal: false
+  name: GetOutArg
+  nameWithType: MethodReturnMessageWrapper.GetOutArg
+- uid: System.Runtime.Remoting.Messaging.MethodReturnMessageWrapper.GetOutArgName*
+  parent: System.Runtime.Remoting.Messaging.MethodReturnMessageWrapper
+  isExternal: false
+  name: GetOutArgName
+  nameWithType: MethodReturnMessageWrapper.GetOutArgName
+- uid: System.Runtime.Remoting.Messaging.MethodReturnMessageWrapper.HasVarArgs*
+  parent: System.Runtime.Remoting.Messaging.MethodReturnMessageWrapper
+  isExternal: false
+  name: HasVarArgs
+  nameWithType: MethodReturnMessageWrapper.HasVarArgs
+- uid: System.Runtime.Remoting.Messaging.MethodReturnMessageWrapper.LogicalCallContext*
+  parent: System.Runtime.Remoting.Messaging.MethodReturnMessageWrapper
+  isExternal: false
+  name: LogicalCallContext
+  nameWithType: MethodReturnMessageWrapper.LogicalCallContext
+- uid: System.Runtime.Remoting.Messaging.MethodReturnMessageWrapper.MethodBase*
+  parent: System.Runtime.Remoting.Messaging.MethodReturnMessageWrapper
+  isExternal: false
+  name: MethodBase
+  nameWithType: MethodReturnMessageWrapper.MethodBase
+- uid: System.Runtime.Remoting.Messaging.MethodReturnMessageWrapper.MethodName*
+  parent: System.Runtime.Remoting.Messaging.MethodReturnMessageWrapper
+  isExternal: false
+  name: MethodName
+  nameWithType: MethodReturnMessageWrapper.MethodName
+- uid: System.Runtime.Remoting.Messaging.MethodReturnMessageWrapper.MethodSignature*
+  parent: System.Runtime.Remoting.Messaging.MethodReturnMessageWrapper
+  isExternal: false
+  name: MethodSignature
+  nameWithType: MethodReturnMessageWrapper.MethodSignature
+- uid: System.Runtime.Remoting.Messaging.MethodReturnMessageWrapper.OutArgCount*
+  parent: System.Runtime.Remoting.Messaging.MethodReturnMessageWrapper
+  isExternal: false
+  name: OutArgCount
+  nameWithType: MethodReturnMessageWrapper.OutArgCount
+- uid: System.Runtime.Remoting.Messaging.MethodReturnMessageWrapper.OutArgs*
+  parent: System.Runtime.Remoting.Messaging.MethodReturnMessageWrapper
+  isExternal: false
+  name: OutArgs
+  nameWithType: MethodReturnMessageWrapper.OutArgs
+- uid: System.Runtime.Remoting.Messaging.MethodReturnMessageWrapper.Properties*
+  parent: System.Runtime.Remoting.Messaging.MethodReturnMessageWrapper
+  isExternal: false
+  name: Properties
+  nameWithType: MethodReturnMessageWrapper.Properties
+- uid: System.Runtime.Remoting.Messaging.MethodReturnMessageWrapper.ReturnValue*
+  parent: System.Runtime.Remoting.Messaging.MethodReturnMessageWrapper
+  isExternal: false
+  name: ReturnValue
+  nameWithType: MethodReturnMessageWrapper.ReturnValue
+- uid: System.Runtime.Remoting.Messaging.MethodReturnMessageWrapper.TypeName*
+  parent: System.Runtime.Remoting.Messaging.MethodReturnMessageWrapper
+  isExternal: false
+  name: TypeName
+  nameWithType: MethodReturnMessageWrapper.TypeName
+- uid: System.Runtime.Remoting.Messaging.MethodReturnMessageWrapper.Uri*
+  parent: System.Runtime.Remoting.Messaging.MethodReturnMessageWrapper
+  isExternal: false
+  name: Uri
+  nameWithType: MethodReturnMessageWrapper.Uri

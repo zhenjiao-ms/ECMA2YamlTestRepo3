@@ -55,6 +55,7 @@ items:
   syntax:
     content: public SoapDay ();
     parameters: []
+  overload: System.Runtime.Remoting.Metadata.W3cXsd2001.SoapDay.#ctor*
   platform:
   - net-11
   - net-20
@@ -79,6 +80,7 @@ items:
     - id: value
       type: System.DateTime
       description: To be added.
+  overload: System.Runtime.Remoting.Metadata.W3cXsd2001.SoapDay.#ctor*
   platform:
   - net-11
   - net-20
@@ -103,6 +105,7 @@ items:
     return:
       type: System.String
       description: To be added.
+  overload: System.Runtime.Remoting.Metadata.W3cXsd2001.SoapDay.GetXsdType*
   platform:
   - net-11
   - net-20
@@ -130,6 +133,7 @@ items:
     return:
       type: System.Runtime.Remoting.Metadata.W3cXsd2001.SoapDay
       description: To be added.
+  overload: System.Runtime.Remoting.Metadata.W3cXsd2001.SoapDay.Parse*
   platform:
   - net-11
   - net-20
@@ -154,6 +158,7 @@ items:
     return:
       type: System.String
       description: To be added.
+  overload: System.Runtime.Remoting.Metadata.W3cXsd2001.SoapDay.ToString*
   platform:
   - net-11
   - net-20
@@ -177,6 +182,7 @@ items:
     return:
       type: System.DateTime
       description: To be added.
+  overload: System.Runtime.Remoting.Metadata.W3cXsd2001.SoapDay.Value*
   platform:
   - net-11
   - net-20
@@ -200,6 +206,7 @@ items:
     return:
       type: System.String
       description: To be added.
+  overload: System.Runtime.Remoting.Metadata.W3cXsd2001.SoapDay.XsdType*
   platform:
   - net-11
   - net-20
@@ -292,3 +299,33 @@ references:
   name: String
   nameWithType: String
   fullName: System.String
+- uid: System.Runtime.Remoting.Metadata.W3cXsd2001.SoapDay.#ctor*
+  parent: System.Runtime.Remoting.Metadata.W3cXsd2001.SoapDay
+  isExternal: false
+  name: SoapDay
+  nameWithType: SoapDay.SoapDay
+- uid: System.Runtime.Remoting.Metadata.W3cXsd2001.SoapDay.GetXsdType*
+  parent: System.Runtime.Remoting.Metadata.W3cXsd2001.SoapDay
+  isExternal: false
+  name: GetXsdType
+  nameWithType: SoapDay.GetXsdType
+- uid: System.Runtime.Remoting.Metadata.W3cXsd2001.SoapDay.Parse*
+  parent: System.Runtime.Remoting.Metadata.W3cXsd2001.SoapDay
+  isExternal: false
+  name: Parse
+  nameWithType: SoapDay.Parse
+- uid: System.Runtime.Remoting.Metadata.W3cXsd2001.SoapDay.ToString*
+  parent: System.Runtime.Remoting.Metadata.W3cXsd2001.SoapDay
+  isExternal: false
+  name: ToString
+  nameWithType: SoapDay.ToString
+- uid: System.Runtime.Remoting.Metadata.W3cXsd2001.SoapDay.Value*
+  parent: System.Runtime.Remoting.Metadata.W3cXsd2001.SoapDay
+  isExternal: false
+  name: Value
+  nameWithType: SoapDay.Value
+- uid: System.Runtime.Remoting.Metadata.W3cXsd2001.SoapDay.XsdType*
+  parent: System.Runtime.Remoting.Metadata.W3cXsd2001.SoapDay
+  isExternal: false
+  name: XsdType
+  nameWithType: SoapDay.XsdType

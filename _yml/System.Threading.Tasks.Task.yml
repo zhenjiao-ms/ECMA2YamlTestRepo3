@@ -145,6 +145,7 @@ items:
     - id: action
       type: System.Action
       description: To be added.
+  overload: System.Threading.Tasks.Task.#ctor*
   platform:
   - net-11
   - net-20
@@ -172,6 +173,7 @@ items:
     - id: cancellationToken
       type: System.Threading.CancellationToken
       description: To be added.
+  overload: System.Threading.Tasks.Task.#ctor*
   platform:
   - net-11
   - net-20
@@ -199,6 +201,7 @@ items:
     - id: creationOptions
       type: System.Threading.Tasks.TaskCreationOptions
       description: To be added.
+  overload: System.Threading.Tasks.Task.#ctor*
   platform:
   - net-11
   - net-20
@@ -226,6 +229,7 @@ items:
     - id: state
       type: System.Object
       description: To be added.
+  overload: System.Threading.Tasks.Task.#ctor*
   platform:
   - net-11
   - net-20
@@ -256,6 +260,7 @@ items:
     - id: creationOptions
       type: System.Threading.Tasks.TaskCreationOptions
       description: To be added.
+  overload: System.Threading.Tasks.Task.#ctor*
   platform:
   - net-11
   - net-20
@@ -286,6 +291,7 @@ items:
     - id: cancellationToken
       type: System.Threading.CancellationToken
       description: To be added.
+  overload: System.Threading.Tasks.Task.#ctor*
   platform:
   - net-11
   - net-20
@@ -316,6 +322,7 @@ items:
     - id: creationOptions
       type: System.Threading.Tasks.TaskCreationOptions
       description: To be added.
+  overload: System.Threading.Tasks.Task.#ctor*
   platform:
   - net-11
   - net-20
@@ -349,6 +356,7 @@ items:
     - id: creationOptions
       type: System.Threading.Tasks.TaskCreationOptions
       description: To be added.
+  overload: System.Threading.Tasks.Task.#ctor*
   platform:
   - net-11
   - net-20
@@ -372,6 +380,7 @@ items:
     return:
       type: System.Object
       description: To be added.
+  overload: System.Threading.Tasks.Task.AsyncState*
   platform:
   - net-11
   - net-20
@@ -395,6 +404,7 @@ items:
     return:
       type: System.Threading.Tasks.Task
       description: To be added.
+  overload: System.Threading.Tasks.Task.CompletedTask*
   platform:
   - net-11
   - net-20
@@ -422,6 +432,7 @@ items:
     return:
       type: System.Runtime.CompilerServices.ConfiguredTaskAwaitable
       description: To be added.
+  overload: System.Threading.Tasks.Task.ConfigureAwait*
   platform:
   - net-11
   - net-20
@@ -1107,6 +1118,7 @@ items:
     return:
       type: System.Threading.Tasks.TaskCreationOptions
       description: To be added.
+  overload: System.Threading.Tasks.Task.CreationOptions*
   platform:
   - net-11
   - net-20
@@ -1130,6 +1142,7 @@ items:
     return:
       type: System.Nullable{System.Int32}
       description: To be added.
+  overload: System.Threading.Tasks.Task.CurrentId*
   platform:
   - net-11
   - net-20
@@ -1318,6 +1331,7 @@ items:
     return:
       type: System.AggregateException
       description: To be added.
+  overload: System.Threading.Tasks.Task.Exception*
   platform:
   - net-11
   - net-20
@@ -1341,6 +1355,7 @@ items:
     return:
       type: System.Threading.Tasks.TaskFactory
       description: To be added.
+  overload: System.Threading.Tasks.Task.Factory*
   platform:
   - net-11
   - net-20
@@ -1368,6 +1383,7 @@ items:
     return:
       type: System.Threading.Tasks.Task
       description: To be added.
+  overload: System.Threading.Tasks.Task.FromCanceled*
   platform:
   - net-11
   - net-20
@@ -1395,6 +1411,7 @@ items:
     return:
       type: System.Threading.Tasks.Task`1
       description: To be added.
+  overload: System.Threading.Tasks.Task.FromCanceled<TResult>*
   platform:
   - net-11
   - net-20
@@ -1422,6 +1439,7 @@ items:
     return:
       type: System.Threading.Tasks.Task
       description: To be added.
+  overload: System.Threading.Tasks.Task.FromException*
   platform:
   - net-11
   - net-20
@@ -1449,6 +1467,7 @@ items:
     return:
       type: System.Threading.Tasks.Task`1
       description: To be added.
+  overload: System.Threading.Tasks.Task.FromException<TResult>*
   platform:
   - net-11
   - net-20
@@ -1476,6 +1495,7 @@ items:
     return:
       type: System.Threading.Tasks.Task`1
       description: To be added.
+  overload: System.Threading.Tasks.Task.FromResult<TResult>*
   platform:
   - net-11
   - net-20
@@ -1500,6 +1520,7 @@ items:
     return:
       type: System.Runtime.CompilerServices.TaskAwaiter
       description: To be added.
+  overload: System.Threading.Tasks.Task.GetAwaiter*
   platform:
   - net-11
   - net-20
@@ -1523,6 +1544,7 @@ items:
     return:
       type: System.Int32
       description: To be added.
+  overload: System.Threading.Tasks.Task.Id*
   platform:
   - net-11
   - net-20
@@ -1546,6 +1568,7 @@ items:
     return:
       type: System.Boolean
       description: To be added.
+  overload: System.Threading.Tasks.Task.IsCanceled*
   platform:
   - net-11
   - net-20
@@ -1569,6 +1592,7 @@ items:
     return:
       type: System.Boolean
       description: To be added.
+  overload: System.Threading.Tasks.Task.IsCompleted*
   platform:
   - net-11
   - net-20
@@ -1592,6 +1616,7 @@ items:
     return:
       type: System.Boolean
       description: To be added.
+  overload: System.Threading.Tasks.Task.IsFaulted*
   platform:
   - net-11
   - net-20
@@ -1945,6 +1970,7 @@ items:
     return:
       type: System.Threading.Tasks.TaskStatus
       description: To be added.
+  overload: System.Threading.Tasks.Task.Status*
   platform:
   - net-11
   - net-20
@@ -1969,6 +1995,7 @@ items:
     return:
       type: System.Threading.WaitHandle
       description: To be added.
+  overload: System.Threading.Tasks.Task.System#IAsyncResult#AsyncWaitHandle*
   platform:
   - net-11
   - net-20
@@ -1993,6 +2020,7 @@ items:
     return:
       type: System.Boolean
       description: To be added.
+  overload: System.Threading.Tasks.Task.System#IAsyncResult#CompletedSynchronously*
   platform:
   - net-11
   - net-20
@@ -2679,6 +2707,7 @@ items:
     return:
       type: System.Runtime.CompilerServices.YieldAwaitable
       description: To be added.
+  overload: System.Threading.Tasks.Task.Yield*
   platform:
   - net-11
   - net-20
@@ -4463,6 +4492,26 @@ references:
   name: YieldAwaitable
   nameWithType: YieldAwaitable
   fullName: System.Runtime.CompilerServices.YieldAwaitable
+- uid: System.Threading.Tasks.Task.#ctor*
+  parent: System.Threading.Tasks.Task
+  isExternal: false
+  name: Task
+  nameWithType: Task.Task
+- uid: System.Threading.Tasks.Task.AsyncState*
+  parent: System.Threading.Tasks.Task
+  isExternal: false
+  name: AsyncState
+  nameWithType: Task.AsyncState
+- uid: System.Threading.Tasks.Task.CompletedTask*
+  parent: System.Threading.Tasks.Task
+  isExternal: false
+  name: CompletedTask
+  nameWithType: Task.CompletedTask
+- uid: System.Threading.Tasks.Task.ConfigureAwait*
+  parent: System.Threading.Tasks.Task
+  isExternal: false
+  name: ConfigureAwait
+  nameWithType: Task.ConfigureAwait
 - uid: System.Threading.Tasks.Task.ContinueWith*
   parent: System.Threading.Tasks.Task
   isExternal: false
@@ -4473,6 +4522,16 @@ references:
   isExternal: false
   name: ContinueWith<TResult>
   nameWithType: Task.ContinueWith<TResult>
+- uid: System.Threading.Tasks.Task.CreationOptions*
+  parent: System.Threading.Tasks.Task
+  isExternal: false
+  name: CreationOptions
+  nameWithType: Task.CreationOptions
+- uid: System.Threading.Tasks.Task.CurrentId*
+  parent: System.Threading.Tasks.Task
+  isExternal: false
+  name: CurrentId
+  nameWithType: Task.CurrentId
 - uid: System.Threading.Tasks.Task.Delay*
   parent: System.Threading.Tasks.Task
   isExternal: false
@@ -4483,6 +4542,66 @@ references:
   isExternal: false
   name: Dispose
   nameWithType: Task.Dispose
+- uid: System.Threading.Tasks.Task.Exception*
+  parent: System.Threading.Tasks.Task
+  isExternal: false
+  name: Exception
+  nameWithType: Task.Exception
+- uid: System.Threading.Tasks.Task.Factory*
+  parent: System.Threading.Tasks.Task
+  isExternal: false
+  name: Factory
+  nameWithType: Task.Factory
+- uid: System.Threading.Tasks.Task.FromCanceled*
+  parent: System.Threading.Tasks.Task
+  isExternal: false
+  name: FromCanceled
+  nameWithType: Task.FromCanceled
+- uid: System.Threading.Tasks.Task.FromCanceled<TResult>*
+  parent: System.Threading.Tasks.Task
+  isExternal: false
+  name: FromCanceled<TResult>
+  nameWithType: Task.FromCanceled<TResult>
+- uid: System.Threading.Tasks.Task.FromException*
+  parent: System.Threading.Tasks.Task
+  isExternal: false
+  name: FromException
+  nameWithType: Task.FromException
+- uid: System.Threading.Tasks.Task.FromException<TResult>*
+  parent: System.Threading.Tasks.Task
+  isExternal: false
+  name: FromException<TResult>
+  nameWithType: Task.FromException<TResult>
+- uid: System.Threading.Tasks.Task.FromResult<TResult>*
+  parent: System.Threading.Tasks.Task
+  isExternal: false
+  name: FromResult<TResult>
+  nameWithType: Task.FromResult<TResult>
+- uid: System.Threading.Tasks.Task.GetAwaiter*
+  parent: System.Threading.Tasks.Task
+  isExternal: false
+  name: GetAwaiter
+  nameWithType: Task.GetAwaiter
+- uid: System.Threading.Tasks.Task.Id*
+  parent: System.Threading.Tasks.Task
+  isExternal: false
+  name: Id
+  nameWithType: Task.Id
+- uid: System.Threading.Tasks.Task.IsCanceled*
+  parent: System.Threading.Tasks.Task
+  isExternal: false
+  name: IsCanceled
+  nameWithType: Task.IsCanceled
+- uid: System.Threading.Tasks.Task.IsCompleted*
+  parent: System.Threading.Tasks.Task
+  isExternal: false
+  name: IsCompleted
+  nameWithType: Task.IsCompleted
+- uid: System.Threading.Tasks.Task.IsFaulted*
+  parent: System.Threading.Tasks.Task
+  isExternal: false
+  name: IsFaulted
+  nameWithType: Task.IsFaulted
 - uid: System.Threading.Tasks.Task.Run*
   parent: System.Threading.Tasks.Task
   isExternal: false
@@ -4503,6 +4622,21 @@ references:
   isExternal: false
   name: Start
   nameWithType: Task.Start
+- uid: System.Threading.Tasks.Task.Status*
+  parent: System.Threading.Tasks.Task
+  isExternal: false
+  name: Status
+  nameWithType: Task.Status
+- uid: System.Threading.Tasks.Task.System#IAsyncResult#AsyncWaitHandle*
+  parent: System.Threading.Tasks.Task
+  isExternal: false
+  name: System.IAsyncResult.AsyncWaitHandle
+  nameWithType: Task.System.IAsyncResult.AsyncWaitHandle
+- uid: System.Threading.Tasks.Task.System#IAsyncResult#CompletedSynchronously*
+  parent: System.Threading.Tasks.Task
+  isExternal: false
+  name: System.IAsyncResult.CompletedSynchronously
+  nameWithType: Task.System.IAsyncResult.CompletedSynchronously
 - uid: System.Threading.Tasks.Task.Wait*
   parent: System.Threading.Tasks.Task
   isExternal: false
@@ -4538,3 +4672,8 @@ references:
   isExternal: false
   name: WhenAny<TResult>
   nameWithType: Task.WhenAny<TResult>
+- uid: System.Threading.Tasks.Task.Yield*
+  parent: System.Threading.Tasks.Task
+  isExternal: false
+  name: Yield
+  nameWithType: Task.Yield

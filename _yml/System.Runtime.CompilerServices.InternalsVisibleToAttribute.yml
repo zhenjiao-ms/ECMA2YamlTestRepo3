@@ -94,6 +94,7 @@ items:
     - id: assemblyName
       type: System.String
       description: To be added.
+  overload: System.Runtime.CompilerServices.InternalsVisibleToAttribute.#ctor*
   platform:
   - net-11
   - net-20
@@ -117,6 +118,7 @@ items:
     return:
       type: System.Boolean
       description: To be added.
+  overload: System.Runtime.CompilerServices.InternalsVisibleToAttribute.AllInternalsVisible*
   platform:
   - net-11
   - net-20
@@ -140,6 +142,7 @@ items:
     return:
       type: System.String
       description: To be added.
+  overload: System.Runtime.CompilerServices.InternalsVisibleToAttribute.AssemblyName*
   platform:
   - net-11
   - net-20
@@ -184,3 +187,18 @@ references:
   name: String
   nameWithType: String
   fullName: System.String
+- uid: System.Runtime.CompilerServices.InternalsVisibleToAttribute.#ctor*
+  parent: System.Runtime.CompilerServices.InternalsVisibleToAttribute
+  isExternal: false
+  name: InternalsVisibleToAttribute
+  nameWithType: InternalsVisibleToAttribute.InternalsVisibleToAttribute
+- uid: System.Runtime.CompilerServices.InternalsVisibleToAttribute.AllInternalsVisible*
+  parent: System.Runtime.CompilerServices.InternalsVisibleToAttribute
+  isExternal: false
+  name: AllInternalsVisible
+  nameWithType: InternalsVisibleToAttribute.AllInternalsVisible
+- uid: System.Runtime.CompilerServices.InternalsVisibleToAttribute.AssemblyName*
+  parent: System.Runtime.CompilerServices.InternalsVisibleToAttribute
+  isExternal: false
+  name: AssemblyName
+  nameWithType: InternalsVisibleToAttribute.AssemblyName

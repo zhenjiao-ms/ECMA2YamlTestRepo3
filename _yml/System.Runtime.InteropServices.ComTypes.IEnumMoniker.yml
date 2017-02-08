@@ -47,6 +47,7 @@ items:
     - id: ppenum
       type: System.Runtime.InteropServices.ComTypes.IEnumMoniker
       description: To be added.
+  overload: System.Runtime.InteropServices.ComTypes.IEnumMoniker.Clone*
   platform:
   - net-11
   - net-20
@@ -80,6 +81,7 @@ items:
     return:
       type: System.Int32
       description: To be added.
+  overload: System.Runtime.InteropServices.ComTypes.IEnumMoniker.Next*
   platform:
   - net-11
   - net-20
@@ -101,6 +103,7 @@ items:
   syntax:
     content: public void Reset ();
     parameters: []
+  overload: System.Runtime.InteropServices.ComTypes.IEnumMoniker.Reset*
   platform:
   - net-11
   - net-20
@@ -128,6 +131,7 @@ items:
     return:
       type: System.Int32
       description: To be added.
+  overload: System.Runtime.InteropServices.ComTypes.IEnumMoniker.Skip*
   platform:
   - net-11
   - net-20
@@ -199,3 +203,23 @@ references:
   name: Int32
   nameWithType: Int32
   fullName: System.Int32
+- uid: System.Runtime.InteropServices.ComTypes.IEnumMoniker.Clone*
+  parent: System.Runtime.InteropServices.ComTypes.IEnumMoniker
+  isExternal: false
+  name: Clone
+  nameWithType: IEnumMoniker.Clone
+- uid: System.Runtime.InteropServices.ComTypes.IEnumMoniker.Next*
+  parent: System.Runtime.InteropServices.ComTypes.IEnumMoniker
+  isExternal: false
+  name: Next
+  nameWithType: IEnumMoniker.Next
+- uid: System.Runtime.InteropServices.ComTypes.IEnumMoniker.Reset*
+  parent: System.Runtime.InteropServices.ComTypes.IEnumMoniker
+  isExternal: false
+  name: Reset
+  nameWithType: IEnumMoniker.Reset
+- uid: System.Runtime.InteropServices.ComTypes.IEnumMoniker.Skip*
+  parent: System.Runtime.InteropServices.ComTypes.IEnumMoniker
+  isExternal: false
+  name: Skip
+  nameWithType: IEnumMoniker.Skip

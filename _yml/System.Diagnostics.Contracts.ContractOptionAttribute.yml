@@ -105,6 +105,7 @@ items:
     - id: enabled
       type: System.Boolean
       description: To be added.
+  overload: System.Diagnostics.Contracts.ContractOptionAttribute.#ctor*
   platform:
   - net-11
   - net-20
@@ -135,6 +136,7 @@ items:
     - id: value
       type: System.String
       description: To be added.
+  overload: System.Diagnostics.Contracts.ContractOptionAttribute.#ctor*
   platform:
   - net-11
   - net-20
@@ -158,6 +160,7 @@ items:
     return:
       type: System.String
       description: To be added.
+  overload: System.Diagnostics.Contracts.ContractOptionAttribute.Category*
   platform:
   - net-11
   - net-20
@@ -181,6 +184,7 @@ items:
     return:
       type: System.Boolean
       description: To be added.
+  overload: System.Diagnostics.Contracts.ContractOptionAttribute.Enabled*
   platform:
   - net-11
   - net-20
@@ -204,6 +208,7 @@ items:
     return:
       type: System.String
       description: To be added.
+  overload: System.Diagnostics.Contracts.ContractOptionAttribute.Setting*
   platform:
   - net-11
   - net-20
@@ -227,6 +232,7 @@ items:
     return:
       type: System.String
       description: To be added.
+  overload: System.Diagnostics.Contracts.ContractOptionAttribute.Value*
   platform:
   - net-11
   - net-20
@@ -331,3 +337,28 @@ references:
   name: String
   nameWithType: String
   fullName: System.String
+- uid: System.Diagnostics.Contracts.ContractOptionAttribute.#ctor*
+  parent: System.Diagnostics.Contracts.ContractOptionAttribute
+  isExternal: false
+  name: ContractOptionAttribute
+  nameWithType: ContractOptionAttribute.ContractOptionAttribute
+- uid: System.Diagnostics.Contracts.ContractOptionAttribute.Category*
+  parent: System.Diagnostics.Contracts.ContractOptionAttribute
+  isExternal: false
+  name: Category
+  nameWithType: ContractOptionAttribute.Category
+- uid: System.Diagnostics.Contracts.ContractOptionAttribute.Enabled*
+  parent: System.Diagnostics.Contracts.ContractOptionAttribute
+  isExternal: false
+  name: Enabled
+  nameWithType: ContractOptionAttribute.Enabled
+- uid: System.Diagnostics.Contracts.ContractOptionAttribute.Setting*
+  parent: System.Diagnostics.Contracts.ContractOptionAttribute
+  isExternal: false
+  name: Setting
+  nameWithType: ContractOptionAttribute.Setting
+- uid: System.Diagnostics.Contracts.ContractOptionAttribute.Value*
+  parent: System.Diagnostics.Contracts.ContractOptionAttribute
+  isExternal: false
+  name: Value
+  nameWithType: ContractOptionAttribute.Value

@@ -80,6 +80,7 @@ items:
   syntax:
     content: protected WaitHandle ();
     parameters: []
+  overload: System.Threading.WaitHandle.#ctor*
   platform:
   - net-11
   - net-20
@@ -101,6 +102,7 @@ items:
   syntax:
     content: public virtual void Close ();
     parameters: []
+  overload: System.Threading.WaitHandle.Close*
   platform:
   - net-11
   - net-20
@@ -171,6 +173,7 @@ items:
     return:
       type: System.IntPtr
       description: To be added.
+  overload: System.Threading.WaitHandle.Handle*
   platform:
   - net-11
   - net-20
@@ -217,6 +220,7 @@ items:
     return:
       type: Microsoft.Win32.SafeHandles.SafeWaitHandle
       description: To be added.
+  overload: System.Threading.WaitHandle.SafeWaitHandle*
   platform:
   - net-11
   - net-20
@@ -1334,11 +1338,31 @@ references:
   name: Int32
   nameWithType: Int32
   fullName: System.Int32
+- uid: System.Threading.WaitHandle.#ctor*
+  parent: System.Threading.WaitHandle
+  isExternal: false
+  name: WaitHandle
+  nameWithType: WaitHandle.WaitHandle
+- uid: System.Threading.WaitHandle.Close*
+  parent: System.Threading.WaitHandle
+  isExternal: false
+  name: Close
+  nameWithType: WaitHandle.Close
 - uid: System.Threading.WaitHandle.Dispose*
   parent: System.Threading.WaitHandle
   isExternal: false
   name: Dispose
   nameWithType: WaitHandle.Dispose
+- uid: System.Threading.WaitHandle.Handle*
+  parent: System.Threading.WaitHandle
+  isExternal: false
+  name: Handle
+  nameWithType: WaitHandle.Handle
+- uid: System.Threading.WaitHandle.SafeWaitHandle*
+  parent: System.Threading.WaitHandle
+  isExternal: false
+  name: SafeWaitHandle
+  nameWithType: WaitHandle.SafeWaitHandle
 - uid: System.Threading.WaitHandle.SignalAndWait*
   parent: System.Threading.WaitHandle
   isExternal: false

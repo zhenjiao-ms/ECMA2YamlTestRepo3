@@ -63,6 +63,7 @@ items:
     - id: version
       type: System.Version
       description: To be added.
+  overload: System.OperatingSystem.#ctor*
   platform:
   - net-11
   - net-20
@@ -87,6 +88,7 @@ items:
     return:
       type: System.Object
       description: To be added.
+  overload: System.OperatingSystem.Clone*
   platform:
   - net-11
   - net-20
@@ -114,6 +116,7 @@ items:
     - id: context
       type: System.Runtime.Serialization.StreamingContext
       description: To be added.
+  overload: System.OperatingSystem.GetObjectData*
   platform:
   - net-11
   - net-20
@@ -137,6 +140,7 @@ items:
     return:
       type: System.PlatformID
       description: To be added.
+  overload: System.OperatingSystem.Platform*
   platform:
   - net-11
   - net-20
@@ -160,6 +164,7 @@ items:
     return:
       type: System.String
       description: To be added.
+  overload: System.OperatingSystem.ServicePack*
   platform:
   - net-11
   - net-20
@@ -184,6 +189,7 @@ items:
     return:
       type: System.String
       description: To be added.
+  overload: System.OperatingSystem.ToString*
   platform:
   - net-11
   - net-20
@@ -207,6 +213,7 @@ items:
     return:
       type: System.Version
       description: To be added.
+  overload: System.OperatingSystem.Version*
   platform:
   - net-11
   - net-20
@@ -230,6 +237,7 @@ items:
     return:
       type: System.String
       description: To be added.
+  overload: System.OperatingSystem.VersionString*
   platform:
   - net-11
   - net-20
@@ -346,3 +354,43 @@ references:
   name: String
   nameWithType: String
   fullName: System.String
+- uid: System.OperatingSystem.#ctor*
+  parent: System.OperatingSystem
+  isExternal: false
+  name: OperatingSystem
+  nameWithType: OperatingSystem.OperatingSystem
+- uid: System.OperatingSystem.Clone*
+  parent: System.OperatingSystem
+  isExternal: false
+  name: Clone
+  nameWithType: OperatingSystem.Clone
+- uid: System.OperatingSystem.GetObjectData*
+  parent: System.OperatingSystem
+  isExternal: false
+  name: GetObjectData
+  nameWithType: OperatingSystem.GetObjectData
+- uid: System.OperatingSystem.Platform*
+  parent: System.OperatingSystem
+  isExternal: false
+  name: Platform
+  nameWithType: OperatingSystem.Platform
+- uid: System.OperatingSystem.ServicePack*
+  parent: System.OperatingSystem
+  isExternal: false
+  name: ServicePack
+  nameWithType: OperatingSystem.ServicePack
+- uid: System.OperatingSystem.ToString*
+  parent: System.OperatingSystem
+  isExternal: false
+  name: ToString
+  nameWithType: OperatingSystem.ToString
+- uid: System.OperatingSystem.Version*
+  parent: System.OperatingSystem
+  isExternal: false
+  name: Version
+  nameWithType: OperatingSystem.Version
+- uid: System.OperatingSystem.VersionString*
+  parent: System.OperatingSystem
+  isExternal: false
+  name: VersionString
+  nameWithType: OperatingSystem.VersionString

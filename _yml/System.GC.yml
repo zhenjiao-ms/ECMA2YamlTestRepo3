@@ -75,6 +75,7 @@ items:
     - id: bytesAllocated
       type: System.Int64
       description: To be added.
+  overload: System.GC.AddMemoryPressure*
   platform:
   - net-11
   - net-20
@@ -96,6 +97,7 @@ items:
   syntax:
     content: public static void CancelFullGCNotification ();
     parameters: []
+  overload: System.GC.CancelFullGCNotification*
   platform:
   - net-11
   - net-20
@@ -263,6 +265,7 @@ items:
     return:
       type: System.Int32
       description: To be added.
+  overload: System.GC.CollectionCount*
   platform:
   - net-11
   - net-20
@@ -284,6 +287,7 @@ items:
   syntax:
     content: public static void EndNoGCRegion ();
     parameters: []
+  overload: System.GC.EndNoGCRegion*
   platform:
   - net-11
   - net-20
@@ -367,6 +371,7 @@ items:
     return:
       type: System.Int64
       description: To be added.
+  overload: System.GC.GetTotalMemory*
   platform:
   - net-11
   - net-20
@@ -391,6 +396,7 @@ items:
     - id: obj
       type: System.Object
       description: To be added.
+  overload: System.GC.KeepAlive*
   platform:
   - net-11
   - net-20
@@ -414,6 +420,7 @@ items:
     return:
       type: System.Int32
       description: To be added.
+  overload: System.GC.MaxGeneration*
   platform:
   - net-11
   - net-20
@@ -441,6 +448,7 @@ items:
     - id: largeObjectHeapThreshold
       type: System.Int32
       description: To be added.
+  overload: System.GC.RegisterForFullGCNotification*
   platform:
   - net-11
   - net-20
@@ -465,6 +473,7 @@ items:
     - id: bytesAllocated
       type: System.Int64
       description: To be added.
+  overload: System.GC.RemoveMemoryPressure*
   platform:
   - net-11
   - net-20
@@ -489,6 +498,7 @@ items:
     - id: obj
       type: System.Object
       description: To be added.
+  overload: System.GC.ReRegisterForFinalize*
   platform:
   - net-11
   - net-20
@@ -513,6 +523,7 @@ items:
     - id: obj
       type: System.Object
       description: To be added.
+  overload: System.GC.SuppressFinalize*
   platform:
   - net-11
   - net-20
@@ -764,6 +775,7 @@ items:
   syntax:
     content: public static void WaitForPendingFinalizers ();
     parameters: []
+  overload: System.GC.WaitForPendingFinalizers*
   platform:
   - net-11
   - net-20
@@ -1198,16 +1210,71 @@ references:
   name: WaitForPendingFinalizers()
   nameWithType: GC.WaitForPendingFinalizers()
   fullName: System.GC.WaitForPendingFinalizers()
+- uid: System.GC.AddMemoryPressure*
+  parent: System.GC
+  isExternal: false
+  name: AddMemoryPressure
+  nameWithType: GC.AddMemoryPressure
+- uid: System.GC.CancelFullGCNotification*
+  parent: System.GC
+  isExternal: false
+  name: CancelFullGCNotification
+  nameWithType: GC.CancelFullGCNotification
 - uid: System.GC.Collect*
   parent: System.GC
   isExternal: false
   name: Collect
   nameWithType: GC.Collect
+- uid: System.GC.CollectionCount*
+  parent: System.GC
+  isExternal: false
+  name: CollectionCount
+  nameWithType: GC.CollectionCount
+- uid: System.GC.EndNoGCRegion*
+  parent: System.GC
+  isExternal: false
+  name: EndNoGCRegion
+  nameWithType: GC.EndNoGCRegion
 - uid: System.GC.GetGeneration*
   parent: System.GC
   isExternal: false
   name: GetGeneration
   nameWithType: GC.GetGeneration
+- uid: System.GC.GetTotalMemory*
+  parent: System.GC
+  isExternal: false
+  name: GetTotalMemory
+  nameWithType: GC.GetTotalMemory
+- uid: System.GC.KeepAlive*
+  parent: System.GC
+  isExternal: false
+  name: KeepAlive
+  nameWithType: GC.KeepAlive
+- uid: System.GC.MaxGeneration*
+  parent: System.GC
+  isExternal: false
+  name: MaxGeneration
+  nameWithType: GC.MaxGeneration
+- uid: System.GC.RegisterForFullGCNotification*
+  parent: System.GC
+  isExternal: false
+  name: RegisterForFullGCNotification
+  nameWithType: GC.RegisterForFullGCNotification
+- uid: System.GC.RemoveMemoryPressure*
+  parent: System.GC
+  isExternal: false
+  name: RemoveMemoryPressure
+  nameWithType: GC.RemoveMemoryPressure
+- uid: System.GC.ReRegisterForFinalize*
+  parent: System.GC
+  isExternal: false
+  name: ReRegisterForFinalize
+  nameWithType: GC.ReRegisterForFinalize
+- uid: System.GC.SuppressFinalize*
+  parent: System.GC
+  isExternal: false
+  name: SuppressFinalize
+  nameWithType: GC.SuppressFinalize
 - uid: System.GC.TryStartNoGCRegion*
   parent: System.GC
   isExternal: false
@@ -1223,3 +1290,8 @@ references:
   isExternal: false
   name: WaitForFullGCComplete
   nameWithType: GC.WaitForFullGCComplete
+- uid: System.GC.WaitForPendingFinalizers*
+  parent: System.GC
+  isExternal: false
+  name: WaitForPendingFinalizers
+  nameWithType: GC.WaitForPendingFinalizers

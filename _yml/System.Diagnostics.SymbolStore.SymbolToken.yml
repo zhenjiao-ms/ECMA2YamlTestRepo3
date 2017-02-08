@@ -51,6 +51,7 @@ items:
     - id: val
       type: System.Int32
       description: To be added.
+  overload: System.Diagnostics.SymbolStore.SymbolToken.#ctor*
   platform:
   - net-11
   - net-20
@@ -131,6 +132,7 @@ items:
     return:
       type: System.Int32
       description: To be added.
+  overload: System.Diagnostics.SymbolStore.SymbolToken.GetHashCode*
   platform:
   - net-11
   - net-20
@@ -155,6 +157,7 @@ items:
     return:
       type: System.Int32
       description: To be added.
+  overload: System.Diagnostics.SymbolStore.SymbolToken.GetToken*
   platform:
   - net-11
   - net-20
@@ -185,6 +188,7 @@ items:
     return:
       type: System.Boolean
       description: To be added.
+  overload: System.Diagnostics.SymbolStore.SymbolToken.op_Equality*
   platform:
   - net-11
   - net-20
@@ -215,6 +219,7 @@ items:
     return:
       type: System.Boolean
       description: To be added.
+  overload: System.Diagnostics.SymbolStore.SymbolToken.op_Inequality*
   platform:
   - net-11
   - net-20
@@ -343,8 +348,33 @@ references:
   name: SymbolToken
   nameWithType: SymbolToken
   fullName: System.Diagnostics.SymbolStore.SymbolToken
+- uid: System.Diagnostics.SymbolStore.SymbolToken.#ctor*
+  parent: System.Diagnostics.SymbolStore.SymbolToken
+  isExternal: false
+  name: SymbolToken
+  nameWithType: SymbolToken.SymbolToken
 - uid: System.Diagnostics.SymbolStore.SymbolToken.Equals*
   parent: System.Diagnostics.SymbolStore.SymbolToken
   isExternal: false
   name: Equals
   nameWithType: SymbolToken.Equals
+- uid: System.Diagnostics.SymbolStore.SymbolToken.GetHashCode*
+  parent: System.Diagnostics.SymbolStore.SymbolToken
+  isExternal: false
+  name: GetHashCode
+  nameWithType: SymbolToken.GetHashCode
+- uid: System.Diagnostics.SymbolStore.SymbolToken.GetToken*
+  parent: System.Diagnostics.SymbolStore.SymbolToken
+  isExternal: false
+  name: GetToken
+  nameWithType: SymbolToken.GetToken
+- uid: System.Diagnostics.SymbolStore.SymbolToken.op_Equality*
+  parent: System.Diagnostics.SymbolStore.SymbolToken
+  isExternal: false
+  name: op_Equality
+  nameWithType: SymbolToken.op_Equality
+- uid: System.Diagnostics.SymbolStore.SymbolToken.op_Inequality*
+  parent: System.Diagnostics.SymbolStore.SymbolToken
+  isExternal: false
+  name: op_Inequality
+  nameWithType: SymbolToken.op_Inequality

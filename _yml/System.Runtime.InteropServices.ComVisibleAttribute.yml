@@ -95,6 +95,7 @@ items:
     - id: visibility
       type: System.Boolean
       description: To be added.
+  overload: System.Runtime.InteropServices.ComVisibleAttribute.#ctor*
   platform:
   - net-11
   - net-20
@@ -118,6 +119,7 @@ items:
     return:
       type: System.Boolean
       description: To be added.
+  overload: System.Runtime.InteropServices.ComVisibleAttribute.Value*
   platform:
   - net-11
   - net-20
@@ -150,3 +152,13 @@ references:
   name: Boolean
   nameWithType: Boolean
   fullName: System.Boolean
+- uid: System.Runtime.InteropServices.ComVisibleAttribute.#ctor*
+  parent: System.Runtime.InteropServices.ComVisibleAttribute
+  isExternal: false
+  name: ComVisibleAttribute
+  nameWithType: ComVisibleAttribute.ComVisibleAttribute
+- uid: System.Runtime.InteropServices.ComVisibleAttribute.Value*
+  parent: System.Runtime.InteropServices.ComVisibleAttribute
+  isExternal: false
+  name: Value
+  nameWithType: ComVisibleAttribute.Value

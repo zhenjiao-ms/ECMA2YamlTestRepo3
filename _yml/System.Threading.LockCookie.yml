@@ -105,6 +105,7 @@ items:
     return:
       type: System.Int32
       description: To be added.
+  overload: System.Threading.LockCookie.GetHashCode*
   platform:
   - net-11
   - net-20
@@ -135,6 +136,7 @@ items:
     return:
       type: System.Boolean
       description: To be added.
+  overload: System.Threading.LockCookie.op_Equality*
   platform:
   - net-11
   - net-20
@@ -165,6 +167,7 @@ items:
     return:
       type: System.Boolean
       description: To be added.
+  overload: System.Threading.LockCookie.op_Inequality*
   platform:
   - net-11
   - net-20
@@ -274,3 +277,18 @@ references:
   isExternal: false
   name: Equals
   nameWithType: LockCookie.Equals
+- uid: System.Threading.LockCookie.GetHashCode*
+  parent: System.Threading.LockCookie
+  isExternal: false
+  name: GetHashCode
+  nameWithType: LockCookie.GetHashCode
+- uid: System.Threading.LockCookie.op_Equality*
+  parent: System.Threading.LockCookie
+  isExternal: false
+  name: op_Equality
+  nameWithType: LockCookie.op_Equality
+- uid: System.Threading.LockCookie.op_Inequality*
+  parent: System.Threading.LockCookie
+  isExternal: false
+  name: op_Inequality
+  nameWithType: LockCookie.op_Inequality

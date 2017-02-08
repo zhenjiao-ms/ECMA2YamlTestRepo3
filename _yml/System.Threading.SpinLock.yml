@@ -58,6 +58,7 @@ items:
     - id: enableThreadOwnerTracking
       type: System.Boolean
       description: To be added.
+  overload: System.Threading.SpinLock.#ctor*
   platform:
   - net-11
   - net-20
@@ -82,6 +83,7 @@ items:
     - id: lockTaken
       type: System.Boolean
       description: To be added.
+  overload: System.Threading.SpinLock.Enter*
   platform:
   - net-11
   - net-20
@@ -152,6 +154,7 @@ items:
     return:
       type: System.Boolean
       description: To be added.
+  overload: System.Threading.SpinLock.IsHeld*
   platform:
   - net-11
   - net-20
@@ -175,6 +178,7 @@ items:
     return:
       type: System.Boolean
       description: To be added.
+  overload: System.Threading.SpinLock.IsHeldByCurrentThread*
   platform:
   - net-11
   - net-20
@@ -198,6 +202,7 @@ items:
     return:
       type: System.Boolean
       description: To be added.
+  overload: System.Threading.SpinLock.IsThreadOwnerTrackingEnabled*
   platform:
   - net-11
   - net-20
@@ -413,11 +418,36 @@ references:
   name: Boolean
   nameWithType: Boolean
   fullName: System.Boolean
+- uid: System.Threading.SpinLock.#ctor*
+  parent: System.Threading.SpinLock
+  isExternal: false
+  name: SpinLock
+  nameWithType: SpinLock.SpinLock
+- uid: System.Threading.SpinLock.Enter*
+  parent: System.Threading.SpinLock
+  isExternal: false
+  name: Enter
+  nameWithType: SpinLock.Enter
 - uid: System.Threading.SpinLock.Exit*
   parent: System.Threading.SpinLock
   isExternal: false
   name: Exit
   nameWithType: SpinLock.Exit
+- uid: System.Threading.SpinLock.IsHeld*
+  parent: System.Threading.SpinLock
+  isExternal: false
+  name: IsHeld
+  nameWithType: SpinLock.IsHeld
+- uid: System.Threading.SpinLock.IsHeldByCurrentThread*
+  parent: System.Threading.SpinLock
+  isExternal: false
+  name: IsHeldByCurrentThread
+  nameWithType: SpinLock.IsHeldByCurrentThread
+- uid: System.Threading.SpinLock.IsThreadOwnerTrackingEnabled*
+  parent: System.Threading.SpinLock
+  isExternal: false
+  name: IsThreadOwnerTrackingEnabled
+  nameWithType: SpinLock.IsThreadOwnerTrackingEnabled
 - uid: System.Threading.SpinLock.TryEnter*
   parent: System.Threading.SpinLock
   isExternal: false

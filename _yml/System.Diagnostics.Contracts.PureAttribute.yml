@@ -91,6 +91,7 @@ items:
   syntax:
     content: public PureAttribute ();
     parameters: []
+  overload: System.Diagnostics.Contracts.PureAttribute.#ctor*
   platform:
   - net-11
   - net-20
@@ -105,3 +106,8 @@ references:
   name: PureAttribute()
   nameWithType: PureAttribute.PureAttribute()
   fullName: System.Diagnostics.Contracts.PureAttribute.PureAttribute()
+- uid: System.Diagnostics.Contracts.PureAttribute.#ctor*
+  parent: System.Diagnostics.Contracts.PureAttribute
+  isExternal: false
+  name: PureAttribute
+  nameWithType: PureAttribute.PureAttribute

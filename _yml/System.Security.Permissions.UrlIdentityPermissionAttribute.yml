@@ -100,6 +100,7 @@ items:
     - id: action
       type: System.Security.Permissions.SecurityAction
       description: To be added.
+  overload: System.Security.Permissions.UrlIdentityPermissionAttribute.#ctor*
   platform:
   - net-11
   - net-20
@@ -124,6 +125,7 @@ items:
     return:
       type: System.Security.IPermission
       description: To be added.
+  overload: System.Security.Permissions.UrlIdentityPermissionAttribute.CreatePermission*
   platform:
   - net-11
   - net-20
@@ -147,6 +149,7 @@ items:
     return:
       type: System.String
       description: To be added.
+  overload: System.Security.Permissions.UrlIdentityPermissionAttribute.Url*
   platform:
   - net-11
   - net-20
@@ -191,3 +194,18 @@ references:
   name: String
   nameWithType: String
   fullName: System.String
+- uid: System.Security.Permissions.UrlIdentityPermissionAttribute.#ctor*
+  parent: System.Security.Permissions.UrlIdentityPermissionAttribute
+  isExternal: false
+  name: UrlIdentityPermissionAttribute
+  nameWithType: UrlIdentityPermissionAttribute.UrlIdentityPermissionAttribute
+- uid: System.Security.Permissions.UrlIdentityPermissionAttribute.CreatePermission*
+  parent: System.Security.Permissions.UrlIdentityPermissionAttribute
+  isExternal: false
+  name: CreatePermission
+  nameWithType: UrlIdentityPermissionAttribute.CreatePermission
+- uid: System.Security.Permissions.UrlIdentityPermissionAttribute.Url*
+  parent: System.Security.Permissions.UrlIdentityPermissionAttribute
+  isExternal: false
+  name: Url
+  nameWithType: UrlIdentityPermissionAttribute.Url

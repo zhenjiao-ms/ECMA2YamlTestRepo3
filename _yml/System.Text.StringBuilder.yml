@@ -118,6 +118,7 @@ items:
   syntax:
     content: public StringBuilder ();
     parameters: []
+  overload: System.Text.StringBuilder.#ctor*
   platform:
   - net-11
   - net-20
@@ -142,6 +143,7 @@ items:
     - id: capacity
       type: System.Int32
       description: To be added.
+  overload: System.Text.StringBuilder.#ctor*
   platform:
   - net-11
   - net-20
@@ -166,6 +168,7 @@ items:
     - id: value
       type: System.String
       description: To be added.
+  overload: System.Text.StringBuilder.#ctor*
   platform:
   - net-11
   - net-20
@@ -193,6 +196,7 @@ items:
     - id: maxCapacity
       type: System.Int32
       description: To be added.
+  overload: System.Text.StringBuilder.#ctor*
   platform:
   - net-11
   - net-20
@@ -220,6 +224,7 @@ items:
     - id: capacity
       type: System.Int32
       description: To be added.
+  overload: System.Text.StringBuilder.#ctor*
   platform:
   - net-11
   - net-20
@@ -253,6 +258,7 @@ items:
     - id: capacity
       type: System.Int32
       description: To be added.
+  overload: System.Text.StringBuilder.#ctor*
   platform:
   - net-11
   - net-20
@@ -1185,6 +1191,7 @@ items:
     return:
       type: System.Int32
       description: To be added.
+  overload: System.Text.StringBuilder.Capacity*
   platform:
   - net-11
   - net-20
@@ -1212,6 +1219,7 @@ items:
     return:
       type: System.Char
       description: To be added.
+  overload: System.Text.StringBuilder.Chars*
   platform:
   - net-11
   - net-20
@@ -1236,6 +1244,7 @@ items:
     return:
       type: System.Text.StringBuilder
       description: To be added.
+  overload: System.Text.StringBuilder.Clear*
   platform:
   - net-11
   - net-20
@@ -1269,6 +1278,7 @@ items:
     - id: count
       type: System.Int32
       description: To be added.
+  overload: System.Text.StringBuilder.CopyTo*
   platform:
   - net-11
   - net-20
@@ -1296,6 +1306,7 @@ items:
     return:
       type: System.Int32
       description: To be added.
+  overload: System.Text.StringBuilder.EnsureCapacity*
   platform:
   - net-11
   - net-20
@@ -1323,6 +1334,7 @@ items:
     return:
       type: System.Boolean
       description: To be added.
+  overload: System.Text.StringBuilder.Equals*
   platform:
   - net-11
   - net-20
@@ -1913,6 +1925,7 @@ items:
     return:
       type: System.Int32
       description: To be added.
+  overload: System.Text.StringBuilder.Length*
   platform:
   - net-11
   - net-20
@@ -1936,6 +1949,7 @@ items:
     return:
       type: System.Int32
       description: To be added.
+  overload: System.Text.StringBuilder.MaxCapacity*
   platform:
   - net-11
   - net-20
@@ -1966,6 +1980,7 @@ items:
     return:
       type: System.Text.StringBuilder
       description: To be added.
+  overload: System.Text.StringBuilder.Remove*
   platform:
   - net-11
   - net-20
@@ -2130,6 +2145,7 @@ items:
     - id: context
       type: System.Runtime.Serialization.StreamingContext
       description: To be added.
+  overload: System.Text.StringBuilder.System#Runtime#Serialization#ISerializable#GetObjectData*
   platform:
   - net-11
   - net-20
@@ -3742,6 +3758,11 @@ references:
   name: Int32
   nameWithType: Int32
   fullName: System.Int32
+- uid: System.Text.StringBuilder.#ctor*
+  parent: System.Text.StringBuilder
+  isExternal: false
+  name: StringBuilder
+  nameWithType: StringBuilder.StringBuilder
 - uid: System.Text.StringBuilder.Append*
   parent: System.Text.StringBuilder
   isExternal: false
@@ -3757,16 +3778,66 @@ references:
   isExternal: false
   name: AppendLine
   nameWithType: StringBuilder.AppendLine
+- uid: System.Text.StringBuilder.Capacity*
+  parent: System.Text.StringBuilder
+  isExternal: false
+  name: Capacity
+  nameWithType: StringBuilder.Capacity
+- uid: System.Text.StringBuilder.Chars*
+  parent: System.Text.StringBuilder
+  isExternal: false
+  name: Chars
+  nameWithType: StringBuilder.Chars
+- uid: System.Text.StringBuilder.Clear*
+  parent: System.Text.StringBuilder
+  isExternal: false
+  name: Clear
+  nameWithType: StringBuilder.Clear
+- uid: System.Text.StringBuilder.CopyTo*
+  parent: System.Text.StringBuilder
+  isExternal: false
+  name: CopyTo
+  nameWithType: StringBuilder.CopyTo
+- uid: System.Text.StringBuilder.EnsureCapacity*
+  parent: System.Text.StringBuilder
+  isExternal: false
+  name: EnsureCapacity
+  nameWithType: StringBuilder.EnsureCapacity
+- uid: System.Text.StringBuilder.Equals*
+  parent: System.Text.StringBuilder
+  isExternal: false
+  name: Equals
+  nameWithType: StringBuilder.Equals
 - uid: System.Text.StringBuilder.Insert*
   parent: System.Text.StringBuilder
   isExternal: false
   name: Insert
   nameWithType: StringBuilder.Insert
+- uid: System.Text.StringBuilder.Length*
+  parent: System.Text.StringBuilder
+  isExternal: false
+  name: Length
+  nameWithType: StringBuilder.Length
+- uid: System.Text.StringBuilder.MaxCapacity*
+  parent: System.Text.StringBuilder
+  isExternal: false
+  name: MaxCapacity
+  nameWithType: StringBuilder.MaxCapacity
+- uid: System.Text.StringBuilder.Remove*
+  parent: System.Text.StringBuilder
+  isExternal: false
+  name: Remove
+  nameWithType: StringBuilder.Remove
 - uid: System.Text.StringBuilder.Replace*
   parent: System.Text.StringBuilder
   isExternal: false
   name: Replace
   nameWithType: StringBuilder.Replace
+- uid: System.Text.StringBuilder.System#Runtime#Serialization#ISerializable#GetObjectData*
+  parent: System.Text.StringBuilder
+  isExternal: false
+  name: System.Runtime.Serialization.ISerializable.GetObjectData
+  nameWithType: StringBuilder.System.Runtime.Serialization.ISerializable.GetObjectData
 - uid: System.Text.StringBuilder.ToString*
   parent: System.Text.StringBuilder
   isExternal: false

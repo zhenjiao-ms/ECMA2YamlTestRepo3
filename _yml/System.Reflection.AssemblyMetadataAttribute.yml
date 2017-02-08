@@ -97,6 +97,7 @@ items:
     - id: value
       type: System.String
       description: To be added.
+  overload: System.Reflection.AssemblyMetadataAttribute.#ctor*
   platform:
   - net-11
   - net-20
@@ -120,6 +121,7 @@ items:
     return:
       type: System.String
       description: To be added.
+  overload: System.Reflection.AssemblyMetadataAttribute.Key*
   platform:
   - net-11
   - net-20
@@ -143,6 +145,7 @@ items:
     return:
       type: System.String
       description: To be added.
+  overload: System.Reflection.AssemblyMetadataAttribute.Value*
   platform:
   - net-11
   - net-20
@@ -193,3 +196,18 @@ references:
   name: String
   nameWithType: String
   fullName: System.String
+- uid: System.Reflection.AssemblyMetadataAttribute.#ctor*
+  parent: System.Reflection.AssemblyMetadataAttribute
+  isExternal: false
+  name: AssemblyMetadataAttribute
+  nameWithType: AssemblyMetadataAttribute.AssemblyMetadataAttribute
+- uid: System.Reflection.AssemblyMetadataAttribute.Key*
+  parent: System.Reflection.AssemblyMetadataAttribute
+  isExternal: false
+  name: Key
+  nameWithType: AssemblyMetadataAttribute.Key
+- uid: System.Reflection.AssemblyMetadataAttribute.Value*
+  parent: System.Reflection.AssemblyMetadataAttribute
+  isExternal: false
+  name: Value
+  nameWithType: AssemblyMetadataAttribute.Value

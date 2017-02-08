@@ -113,6 +113,7 @@ items:
     - id: ticks
       type: System.Int64
       description: To be added.
+  overload: System.TimeSpan.#ctor*
   platform:
   - net-11
   - net-20
@@ -143,6 +144,7 @@ items:
     - id: seconds
       type: System.Int32
       description: To be added.
+  overload: System.TimeSpan.#ctor*
   platform:
   - net-11
   - net-20
@@ -176,6 +178,7 @@ items:
     - id: seconds
       type: System.Int32
       description: To be added.
+  overload: System.TimeSpan.#ctor*
   platform:
   - net-11
   - net-20
@@ -212,6 +215,7 @@ items:
     - id: milliseconds
       type: System.Int32
       description: To be added.
+  overload: System.TimeSpan.#ctor*
   platform:
   - net-11
   - net-20
@@ -239,6 +243,7 @@ items:
     return:
       type: System.TimeSpan
       description: To be added.
+  overload: System.TimeSpan.Add*
   platform:
   - net-11
   - net-20
@@ -269,6 +274,7 @@ items:
     return:
       type: System.Int32
       description: To be added.
+  overload: System.TimeSpan.Compare*
   platform:
   - net-11
   - net-20
@@ -348,6 +354,7 @@ items:
     return:
       type: System.Int32
       description: To be added.
+  overload: System.TimeSpan.Days*
   platform:
   - net-11
   - net-20
@@ -372,6 +379,7 @@ items:
     return:
       type: System.TimeSpan
       description: To be added.
+  overload: System.TimeSpan.Duration*
   platform:
   - net-11
   - net-20
@@ -486,6 +494,7 @@ items:
     return:
       type: System.TimeSpan
       description: To be added.
+  overload: System.TimeSpan.FromDays*
   platform:
   - net-11
   - net-20
@@ -513,6 +522,7 @@ items:
     return:
       type: System.TimeSpan
       description: To be added.
+  overload: System.TimeSpan.FromHours*
   platform:
   - net-11
   - net-20
@@ -540,6 +550,7 @@ items:
     return:
       type: System.TimeSpan
       description: To be added.
+  overload: System.TimeSpan.FromMilliseconds*
   platform:
   - net-11
   - net-20
@@ -567,6 +578,7 @@ items:
     return:
       type: System.TimeSpan
       description: To be added.
+  overload: System.TimeSpan.FromMinutes*
   platform:
   - net-11
   - net-20
@@ -594,6 +606,7 @@ items:
     return:
       type: System.TimeSpan
       description: To be added.
+  overload: System.TimeSpan.FromSeconds*
   platform:
   - net-11
   - net-20
@@ -621,6 +634,7 @@ items:
     return:
       type: System.TimeSpan
       description: To be added.
+  overload: System.TimeSpan.FromTicks*
   platform:
   - net-11
   - net-20
@@ -645,6 +659,7 @@ items:
     return:
       type: System.Int32
       description: To be added.
+  overload: System.TimeSpan.GetHashCode*
   platform:
   - net-11
   - net-20
@@ -668,6 +683,7 @@ items:
     return:
       type: System.Int32
       description: To be added.
+  overload: System.TimeSpan.Hours*
   platform:
   - net-11
   - net-20
@@ -714,6 +730,7 @@ items:
     return:
       type: System.Int32
       description: To be added.
+  overload: System.TimeSpan.Milliseconds*
   platform:
   - net-11
   - net-20
@@ -737,6 +754,7 @@ items:
     return:
       type: System.Int32
       description: To be added.
+  overload: System.TimeSpan.Minutes*
   platform:
   - net-11
   - net-20
@@ -784,6 +802,7 @@ items:
     return:
       type: System.TimeSpan
       description: To be added.
+  overload: System.TimeSpan.Negate*
   platform:
   - net-11
   - net-20
@@ -814,6 +833,7 @@ items:
     return:
       type: System.TimeSpan
       description: To be added.
+  overload: System.TimeSpan.op_Addition*
   platform:
   - net-11
   - net-20
@@ -844,6 +864,7 @@ items:
     return:
       type: System.Boolean
       description: To be added.
+  overload: System.TimeSpan.op_Equality*
   platform:
   - net-11
   - net-20
@@ -874,6 +895,7 @@ items:
     return:
       type: System.Boolean
       description: To be added.
+  overload: System.TimeSpan.op_GreaterThan*
   platform:
   - net-11
   - net-20
@@ -904,6 +926,7 @@ items:
     return:
       type: System.Boolean
       description: To be added.
+  overload: System.TimeSpan.op_GreaterThanOrEqual*
   platform:
   - net-11
   - net-20
@@ -934,6 +957,7 @@ items:
     return:
       type: System.Boolean
       description: To be added.
+  overload: System.TimeSpan.op_Inequality*
   platform:
   - net-11
   - net-20
@@ -964,6 +988,7 @@ items:
     return:
       type: System.Boolean
       description: To be added.
+  overload: System.TimeSpan.op_LessThan*
   platform:
   - net-11
   - net-20
@@ -994,6 +1019,7 @@ items:
     return:
       type: System.Boolean
       description: To be added.
+  overload: System.TimeSpan.op_LessThanOrEqual*
   platform:
   - net-11
   - net-20
@@ -1024,6 +1050,7 @@ items:
     return:
       type: System.TimeSpan
       description: To be added.
+  overload: System.TimeSpan.op_Subtraction*
   platform:
   - net-11
   - net-20
@@ -1051,6 +1078,7 @@ items:
     return:
       type: System.TimeSpan
       description: To be added.
+  overload: System.TimeSpan.op_UnaryNegation*
   platform:
   - net-11
   - net-20
@@ -1078,6 +1106,7 @@ items:
     return:
       type: System.TimeSpan
       description: To be added.
+  overload: System.TimeSpan.op_UnaryPlus*
   platform:
   - net-11
   - net-20
@@ -1302,6 +1331,7 @@ items:
     return:
       type: System.Int32
       description: To be added.
+  overload: System.TimeSpan.Seconds*
   platform:
   - net-11
   - net-20
@@ -1329,6 +1359,7 @@ items:
     return:
       type: System.TimeSpan
       description: To be added.
+  overload: System.TimeSpan.Subtract*
   platform:
   - net-11
   - net-20
@@ -1352,6 +1383,7 @@ items:
     return:
       type: System.Int64
       description: To be added.
+  overload: System.TimeSpan.Ticks*
   platform:
   - net-11
   - net-20
@@ -1574,6 +1606,7 @@ items:
     return:
       type: System.Double
       description: To be added.
+  overload: System.TimeSpan.TotalDays*
   platform:
   - net-11
   - net-20
@@ -1597,6 +1630,7 @@ items:
     return:
       type: System.Double
       description: To be added.
+  overload: System.TimeSpan.TotalHours*
   platform:
   - net-11
   - net-20
@@ -1620,6 +1654,7 @@ items:
     return:
       type: System.Double
       description: To be added.
+  overload: System.TimeSpan.TotalMilliseconds*
   platform:
   - net-11
   - net-20
@@ -1643,6 +1678,7 @@ items:
     return:
       type: System.Double
       description: To be added.
+  overload: System.TimeSpan.TotalMinutes*
   platform:
   - net-11
   - net-20
@@ -1666,6 +1702,7 @@ items:
     return:
       type: System.Double
       description: To be added.
+  overload: System.TimeSpan.TotalSeconds*
   platform:
   - net-11
   - net-20
@@ -3212,16 +3249,146 @@ references:
   name: TimeSpan
   nameWithType: TimeSpan
   fullName: System.TimeSpan
+- uid: System.TimeSpan.#ctor*
+  parent: System.TimeSpan
+  isExternal: false
+  name: TimeSpan
+  nameWithType: TimeSpan.TimeSpan
+- uid: System.TimeSpan.Add*
+  parent: System.TimeSpan
+  isExternal: false
+  name: Add
+  nameWithType: TimeSpan.Add
+- uid: System.TimeSpan.Compare*
+  parent: System.TimeSpan
+  isExternal: false
+  name: Compare
+  nameWithType: TimeSpan.Compare
 - uid: System.TimeSpan.CompareTo*
   parent: System.TimeSpan
   isExternal: false
   name: CompareTo
   nameWithType: TimeSpan.CompareTo
+- uid: System.TimeSpan.Days*
+  parent: System.TimeSpan
+  isExternal: false
+  name: Days
+  nameWithType: TimeSpan.Days
+- uid: System.TimeSpan.Duration*
+  parent: System.TimeSpan
+  isExternal: false
+  name: Duration
+  nameWithType: TimeSpan.Duration
 - uid: System.TimeSpan.Equals*
   parent: System.TimeSpan
   isExternal: false
   name: Equals
   nameWithType: TimeSpan.Equals
+- uid: System.TimeSpan.FromDays*
+  parent: System.TimeSpan
+  isExternal: false
+  name: FromDays
+  nameWithType: TimeSpan.FromDays
+- uid: System.TimeSpan.FromHours*
+  parent: System.TimeSpan
+  isExternal: false
+  name: FromHours
+  nameWithType: TimeSpan.FromHours
+- uid: System.TimeSpan.FromMilliseconds*
+  parent: System.TimeSpan
+  isExternal: false
+  name: FromMilliseconds
+  nameWithType: TimeSpan.FromMilliseconds
+- uid: System.TimeSpan.FromMinutes*
+  parent: System.TimeSpan
+  isExternal: false
+  name: FromMinutes
+  nameWithType: TimeSpan.FromMinutes
+- uid: System.TimeSpan.FromSeconds*
+  parent: System.TimeSpan
+  isExternal: false
+  name: FromSeconds
+  nameWithType: TimeSpan.FromSeconds
+- uid: System.TimeSpan.FromTicks*
+  parent: System.TimeSpan
+  isExternal: false
+  name: FromTicks
+  nameWithType: TimeSpan.FromTicks
+- uid: System.TimeSpan.GetHashCode*
+  parent: System.TimeSpan
+  isExternal: false
+  name: GetHashCode
+  nameWithType: TimeSpan.GetHashCode
+- uid: System.TimeSpan.Hours*
+  parent: System.TimeSpan
+  isExternal: false
+  name: Hours
+  nameWithType: TimeSpan.Hours
+- uid: System.TimeSpan.Milliseconds*
+  parent: System.TimeSpan
+  isExternal: false
+  name: Milliseconds
+  nameWithType: TimeSpan.Milliseconds
+- uid: System.TimeSpan.Minutes*
+  parent: System.TimeSpan
+  isExternal: false
+  name: Minutes
+  nameWithType: TimeSpan.Minutes
+- uid: System.TimeSpan.Negate*
+  parent: System.TimeSpan
+  isExternal: false
+  name: Negate
+  nameWithType: TimeSpan.Negate
+- uid: System.TimeSpan.op_Addition*
+  parent: System.TimeSpan
+  isExternal: false
+  name: op_Addition
+  nameWithType: TimeSpan.op_Addition
+- uid: System.TimeSpan.op_Equality*
+  parent: System.TimeSpan
+  isExternal: false
+  name: op_Equality
+  nameWithType: TimeSpan.op_Equality
+- uid: System.TimeSpan.op_GreaterThan*
+  parent: System.TimeSpan
+  isExternal: false
+  name: op_GreaterThan
+  nameWithType: TimeSpan.op_GreaterThan
+- uid: System.TimeSpan.op_GreaterThanOrEqual*
+  parent: System.TimeSpan
+  isExternal: false
+  name: op_GreaterThanOrEqual
+  nameWithType: TimeSpan.op_GreaterThanOrEqual
+- uid: System.TimeSpan.op_Inequality*
+  parent: System.TimeSpan
+  isExternal: false
+  name: op_Inequality
+  nameWithType: TimeSpan.op_Inequality
+- uid: System.TimeSpan.op_LessThan*
+  parent: System.TimeSpan
+  isExternal: false
+  name: op_LessThan
+  nameWithType: TimeSpan.op_LessThan
+- uid: System.TimeSpan.op_LessThanOrEqual*
+  parent: System.TimeSpan
+  isExternal: false
+  name: op_LessThanOrEqual
+  nameWithType: TimeSpan.op_LessThanOrEqual
+- uid: System.TimeSpan.op_Subtraction*
+  parent: System.TimeSpan
+  isExternal: false
+  name: op_Subtraction
+  nameWithType: TimeSpan.op_Subtraction
+- uid: System.TimeSpan.op_UnaryNegation*
+  parent: System.TimeSpan
+  isExternal: false
+  name: op_UnaryNegation
+  nameWithType: TimeSpan.op_UnaryNegation
+- uid: System.TimeSpan.op_UnaryPlus*
+  parent: System.TimeSpan
+  isExternal: false
+  name: op_UnaryPlus
+  nameWithType: TimeSpan.op_UnaryPlus
 - uid: System.TimeSpan.Parse*
   parent: System.TimeSpan
   isExternal: false
@@ -3232,11 +3399,51 @@ references:
   isExternal: false
   name: ParseExact
   nameWithType: TimeSpan.ParseExact
+- uid: System.TimeSpan.Seconds*
+  parent: System.TimeSpan
+  isExternal: false
+  name: Seconds
+  nameWithType: TimeSpan.Seconds
+- uid: System.TimeSpan.Subtract*
+  parent: System.TimeSpan
+  isExternal: false
+  name: Subtract
+  nameWithType: TimeSpan.Subtract
+- uid: System.TimeSpan.Ticks*
+  parent: System.TimeSpan
+  isExternal: false
+  name: Ticks
+  nameWithType: TimeSpan.Ticks
 - uid: System.TimeSpan.ToString*
   parent: System.TimeSpan
   isExternal: false
   name: ToString
   nameWithType: TimeSpan.ToString
+- uid: System.TimeSpan.TotalDays*
+  parent: System.TimeSpan
+  isExternal: false
+  name: TotalDays
+  nameWithType: TimeSpan.TotalDays
+- uid: System.TimeSpan.TotalHours*
+  parent: System.TimeSpan
+  isExternal: false
+  name: TotalHours
+  nameWithType: TimeSpan.TotalHours
+- uid: System.TimeSpan.TotalMilliseconds*
+  parent: System.TimeSpan
+  isExternal: false
+  name: TotalMilliseconds
+  nameWithType: TimeSpan.TotalMilliseconds
+- uid: System.TimeSpan.TotalMinutes*
+  parent: System.TimeSpan
+  isExternal: false
+  name: TotalMinutes
+  nameWithType: TimeSpan.TotalMinutes
+- uid: System.TimeSpan.TotalSeconds*
+  parent: System.TimeSpan
+  isExternal: false
+  name: TotalSeconds
+  nameWithType: TimeSpan.TotalSeconds
 - uid: System.TimeSpan.TryParse*
   parent: System.TimeSpan
   isExternal: false

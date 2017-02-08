@@ -228,6 +228,7 @@ items:
     return:
       type: System.IO.StreamWriter
       description: To be added.
+  overload: System.IO.File.AppendText*
   platform:
   - net-11
   - net-20
@@ -444,6 +445,7 @@ items:
     return:
       type: System.IO.StreamWriter
       description: To be added.
+  overload: System.IO.File.CreateText*
   platform:
   - net-11
   - net-20
@@ -468,6 +470,7 @@ items:
     - id: path
       type: System.String
       description: To be added.
+  overload: System.IO.File.Decrypt*
   platform:
   - net-11
   - net-20
@@ -492,6 +495,7 @@ items:
     - id: path
       type: System.String
       description: To be added.
+  overload: System.IO.File.Delete*
   platform:
   - net-11
   - net-20
@@ -516,6 +520,7 @@ items:
     - id: path
       type: System.String
       description: To be added.
+  overload: System.IO.File.Encrypt*
   platform:
   - net-11
   - net-20
@@ -543,6 +548,7 @@ items:
     return:
       type: System.Boolean
       description: To be added.
+  overload: System.IO.File.Exists*
   platform:
   - net-11
   - net-20
@@ -629,6 +635,7 @@ items:
     return:
       type: System.IO.FileAttributes
       description: To be added.
+  overload: System.IO.File.GetAttributes*
   platform:
   - net-11
   - net-20
@@ -656,6 +663,7 @@ items:
     return:
       type: System.DateTime
       description: To be added.
+  overload: System.IO.File.GetCreationTime*
   platform:
   - net-11
   - net-20
@@ -683,6 +691,7 @@ items:
     return:
       type: System.DateTime
       description: To be added.
+  overload: System.IO.File.GetCreationTimeUtc*
   platform:
   - net-11
   - net-20
@@ -710,6 +719,7 @@ items:
     return:
       type: System.DateTime
       description: To be added.
+  overload: System.IO.File.GetLastAccessTime*
   platform:
   - net-11
   - net-20
@@ -737,6 +747,7 @@ items:
     return:
       type: System.DateTime
       description: To be added.
+  overload: System.IO.File.GetLastAccessTimeUtc*
   platform:
   - net-11
   - net-20
@@ -764,6 +775,7 @@ items:
     return:
       type: System.DateTime
       description: To be added.
+  overload: System.IO.File.GetLastWriteTime*
   platform:
   - net-11
   - net-20
@@ -791,6 +803,7 @@ items:
     return:
       type: System.DateTime
       description: To be added.
+  overload: System.IO.File.GetLastWriteTimeUtc*
   platform:
   - net-11
   - net-20
@@ -818,6 +831,7 @@ items:
     - id: destFileName
       type: System.String
       description: To be added.
+  overload: System.IO.File.Move*
   platform:
   - net-11
   - net-20
@@ -947,6 +961,7 @@ items:
     return:
       type: System.IO.FileStream
       description: To be added.
+  overload: System.IO.File.OpenRead*
   platform:
   - net-11
   - net-20
@@ -974,6 +989,7 @@ items:
     return:
       type: System.IO.StreamReader
       description: To be added.
+  overload: System.IO.File.OpenText*
   platform:
   - net-11
   - net-20
@@ -1001,6 +1017,7 @@ items:
     return:
       type: System.IO.FileStream
       description: To be added.
+  overload: System.IO.File.OpenWrite*
   platform:
   - net-11
   - net-20
@@ -1028,6 +1045,7 @@ items:
     return:
       type: System.Byte[]
       description: To be added.
+  overload: System.IO.File.ReadAllBytes*
   platform:
   - net-11
   - net-20
@@ -1297,6 +1315,7 @@ items:
     - id: fileSecurity
       type: System.Security.AccessControl.FileSecurity
       description: To be added.
+  overload: System.IO.File.SetAccessControl*
   platform:
   - net-11
   - net-20
@@ -1324,6 +1343,7 @@ items:
     - id: fileAttributes
       type: System.IO.FileAttributes
       description: To be added.
+  overload: System.IO.File.SetAttributes*
   platform:
   - net-11
   - net-20
@@ -1351,6 +1371,7 @@ items:
     - id: creationTime
       type: System.DateTime
       description: To be added.
+  overload: System.IO.File.SetCreationTime*
   platform:
   - net-11
   - net-20
@@ -1378,6 +1399,7 @@ items:
     - id: creationTimeUtc
       type: System.DateTime
       description: To be added.
+  overload: System.IO.File.SetCreationTimeUtc*
   platform:
   - net-11
   - net-20
@@ -1405,6 +1427,7 @@ items:
     - id: lastAccessTime
       type: System.DateTime
       description: To be added.
+  overload: System.IO.File.SetLastAccessTime*
   platform:
   - net-11
   - net-20
@@ -1432,6 +1455,7 @@ items:
     - id: lastAccessTimeUtc
       type: System.DateTime
       description: To be added.
+  overload: System.IO.File.SetLastAccessTimeUtc*
   platform:
   - net-11
   - net-20
@@ -1459,6 +1483,7 @@ items:
     - id: lastWriteTime
       type: System.DateTime
       description: To be added.
+  overload: System.IO.File.SetLastWriteTime*
   platform:
   - net-11
   - net-20
@@ -1486,6 +1511,7 @@ items:
     - id: lastWriteTimeUtc
       type: System.DateTime
       description: To be added.
+  overload: System.IO.File.SetLastWriteTimeUtc*
   platform:
   - net-11
   - net-20
@@ -1513,6 +1539,7 @@ items:
     - id: bytes
       type: System.Byte[]
       description: To be added.
+  overload: System.IO.File.WriteAllBytes*
   platform:
   - net-11
   - net-20
@@ -2848,6 +2875,11 @@ references:
   isExternal: false
   name: AppendAllText
   nameWithType: File.AppendAllText
+- uid: System.IO.File.AppendText*
+  parent: System.IO.File
+  isExternal: false
+  name: AppendText
+  nameWithType: File.AppendText
 - uid: System.IO.File.Copy*
   parent: System.IO.File
   isExternal: false
@@ -2858,16 +2890,101 @@ references:
   isExternal: false
   name: Create
   nameWithType: File.Create
+- uid: System.IO.File.CreateText*
+  parent: System.IO.File
+  isExternal: false
+  name: CreateText
+  nameWithType: File.CreateText
+- uid: System.IO.File.Decrypt*
+  parent: System.IO.File
+  isExternal: false
+  name: Decrypt
+  nameWithType: File.Decrypt
+- uid: System.IO.File.Delete*
+  parent: System.IO.File
+  isExternal: false
+  name: Delete
+  nameWithType: File.Delete
+- uid: System.IO.File.Encrypt*
+  parent: System.IO.File
+  isExternal: false
+  name: Encrypt
+  nameWithType: File.Encrypt
+- uid: System.IO.File.Exists*
+  parent: System.IO.File
+  isExternal: false
+  name: Exists
+  nameWithType: File.Exists
 - uid: System.IO.File.GetAccessControl*
   parent: System.IO.File
   isExternal: false
   name: GetAccessControl
   nameWithType: File.GetAccessControl
+- uid: System.IO.File.GetAttributes*
+  parent: System.IO.File
+  isExternal: false
+  name: GetAttributes
+  nameWithType: File.GetAttributes
+- uid: System.IO.File.GetCreationTime*
+  parent: System.IO.File
+  isExternal: false
+  name: GetCreationTime
+  nameWithType: File.GetCreationTime
+- uid: System.IO.File.GetCreationTimeUtc*
+  parent: System.IO.File
+  isExternal: false
+  name: GetCreationTimeUtc
+  nameWithType: File.GetCreationTimeUtc
+- uid: System.IO.File.GetLastAccessTime*
+  parent: System.IO.File
+  isExternal: false
+  name: GetLastAccessTime
+  nameWithType: File.GetLastAccessTime
+- uid: System.IO.File.GetLastAccessTimeUtc*
+  parent: System.IO.File
+  isExternal: false
+  name: GetLastAccessTimeUtc
+  nameWithType: File.GetLastAccessTimeUtc
+- uid: System.IO.File.GetLastWriteTime*
+  parent: System.IO.File
+  isExternal: false
+  name: GetLastWriteTime
+  nameWithType: File.GetLastWriteTime
+- uid: System.IO.File.GetLastWriteTimeUtc*
+  parent: System.IO.File
+  isExternal: false
+  name: GetLastWriteTimeUtc
+  nameWithType: File.GetLastWriteTimeUtc
+- uid: System.IO.File.Move*
+  parent: System.IO.File
+  isExternal: false
+  name: Move
+  nameWithType: File.Move
 - uid: System.IO.File.Open*
   parent: System.IO.File
   isExternal: false
   name: Open
   nameWithType: File.Open
+- uid: System.IO.File.OpenRead*
+  parent: System.IO.File
+  isExternal: false
+  name: OpenRead
+  nameWithType: File.OpenRead
+- uid: System.IO.File.OpenText*
+  parent: System.IO.File
+  isExternal: false
+  name: OpenText
+  nameWithType: File.OpenText
+- uid: System.IO.File.OpenWrite*
+  parent: System.IO.File
+  isExternal: false
+  name: OpenWrite
+  nameWithType: File.OpenWrite
+- uid: System.IO.File.ReadAllBytes*
+  parent: System.IO.File
+  isExternal: false
+  name: ReadAllBytes
+  nameWithType: File.ReadAllBytes
 - uid: System.IO.File.ReadAllLines*
   parent: System.IO.File
   isExternal: false
@@ -2888,6 +3005,51 @@ references:
   isExternal: false
   name: Replace
   nameWithType: File.Replace
+- uid: System.IO.File.SetAccessControl*
+  parent: System.IO.File
+  isExternal: false
+  name: SetAccessControl
+  nameWithType: File.SetAccessControl
+- uid: System.IO.File.SetAttributes*
+  parent: System.IO.File
+  isExternal: false
+  name: SetAttributes
+  nameWithType: File.SetAttributes
+- uid: System.IO.File.SetCreationTime*
+  parent: System.IO.File
+  isExternal: false
+  name: SetCreationTime
+  nameWithType: File.SetCreationTime
+- uid: System.IO.File.SetCreationTimeUtc*
+  parent: System.IO.File
+  isExternal: false
+  name: SetCreationTimeUtc
+  nameWithType: File.SetCreationTimeUtc
+- uid: System.IO.File.SetLastAccessTime*
+  parent: System.IO.File
+  isExternal: false
+  name: SetLastAccessTime
+  nameWithType: File.SetLastAccessTime
+- uid: System.IO.File.SetLastAccessTimeUtc*
+  parent: System.IO.File
+  isExternal: false
+  name: SetLastAccessTimeUtc
+  nameWithType: File.SetLastAccessTimeUtc
+- uid: System.IO.File.SetLastWriteTime*
+  parent: System.IO.File
+  isExternal: false
+  name: SetLastWriteTime
+  nameWithType: File.SetLastWriteTime
+- uid: System.IO.File.SetLastWriteTimeUtc*
+  parent: System.IO.File
+  isExternal: false
+  name: SetLastWriteTimeUtc
+  nameWithType: File.SetLastWriteTimeUtc
+- uid: System.IO.File.WriteAllBytes*
+  parent: System.IO.File
+  isExternal: false
+  name: WriteAllBytes
+  nameWithType: File.WriteAllBytes
 - uid: System.IO.File.WriteAllLines*
   parent: System.IO.File
   isExternal: false

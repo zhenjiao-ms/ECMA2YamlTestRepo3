@@ -95,6 +95,7 @@ items:
     - id: culture
       type: System.Int32
       description: To be added.
+  overload: System.Globalization.CultureInfo.#ctor*
   platform:
   - net-11
   - net-20
@@ -119,6 +120,7 @@ items:
     - id: name
       type: System.String
       description: To be added.
+  overload: System.Globalization.CultureInfo.#ctor*
   platform:
   - net-11
   - net-20
@@ -146,6 +148,7 @@ items:
     - id: useUserOverride
       type: System.Boolean
       description: To be added.
+  overload: System.Globalization.CultureInfo.#ctor*
   platform:
   - net-11
   - net-20
@@ -173,6 +176,7 @@ items:
     - id: useUserOverride
       type: System.Boolean
       description: To be added.
+  overload: System.Globalization.CultureInfo.#ctor*
   platform:
   - net-11
   - net-20
@@ -196,6 +200,7 @@ items:
     return:
       type: System.Globalization.Calendar
       description: To be added.
+  overload: System.Globalization.CultureInfo.Calendar*
   platform:
   - net-11
   - net-20
@@ -217,6 +222,7 @@ items:
   syntax:
     content: public void ClearCachedData ();
     parameters: []
+  overload: System.Globalization.CultureInfo.ClearCachedData*
   platform:
   - net-11
   - net-20
@@ -241,6 +247,7 @@ items:
     return:
       type: System.Object
       description: To be added.
+  overload: System.Globalization.CultureInfo.Clone*
   platform:
   - net-11
   - net-20
@@ -264,6 +271,7 @@ items:
     return:
       type: System.Globalization.CompareInfo
       description: To be added.
+  overload: System.Globalization.CultureInfo.CompareInfo*
   platform:
   - net-11
   - net-20
@@ -291,6 +299,7 @@ items:
     return:
       type: System.Globalization.CultureInfo
       description: To be added.
+  overload: System.Globalization.CultureInfo.CreateSpecificCulture*
   platform:
   - net-11
   - net-20
@@ -314,6 +323,7 @@ items:
     return:
       type: System.Globalization.CultureTypes
       description: To be added.
+  overload: System.Globalization.CultureInfo.CultureTypes*
   platform:
   - net-11
   - net-20
@@ -337,6 +347,7 @@ items:
     return:
       type: System.Globalization.CultureInfo
       description: To be added.
+  overload: System.Globalization.CultureInfo.CurrentCulture*
   platform:
   - net-11
   - net-20
@@ -360,6 +371,7 @@ items:
     return:
       type: System.Globalization.CultureInfo
       description: To be added.
+  overload: System.Globalization.CultureInfo.CurrentUICulture*
   platform:
   - net-11
   - net-20
@@ -383,6 +395,7 @@ items:
     return:
       type: System.Globalization.DateTimeFormatInfo
       description: To be added.
+  overload: System.Globalization.CultureInfo.DateTimeFormat*
   platform:
   - net-11
   - net-20
@@ -406,6 +419,7 @@ items:
     return:
       type: System.Globalization.CultureInfo
       description: To be added.
+  overload: System.Globalization.CultureInfo.DefaultThreadCurrentCulture*
   platform:
   - net-11
   - net-20
@@ -429,6 +443,7 @@ items:
     return:
       type: System.Globalization.CultureInfo
       description: To be added.
+  overload: System.Globalization.CultureInfo.DefaultThreadCurrentUICulture*
   platform:
   - net-11
   - net-20
@@ -452,6 +467,7 @@ items:
     return:
       type: System.String
       description: To be added.
+  overload: System.Globalization.CultureInfo.DisplayName*
   platform:
   - net-11
   - net-20
@@ -475,6 +491,7 @@ items:
     return:
       type: System.String
       description: To be added.
+  overload: System.Globalization.CultureInfo.EnglishName*
   platform:
   - net-11
   - net-20
@@ -502,6 +519,7 @@ items:
     return:
       type: System.Boolean
       description: To be added.
+  overload: System.Globalization.CultureInfo.Equals*
   platform:
   - net-11
   - net-20
@@ -526,6 +544,7 @@ items:
     return:
       type: System.Globalization.CultureInfo
       description: To be added.
+  overload: System.Globalization.CultureInfo.GetConsoleFallbackUICulture*
   platform:
   - net-11
   - net-20
@@ -640,6 +659,7 @@ items:
     return:
       type: System.Globalization.CultureInfo
       description: To be added.
+  overload: System.Globalization.CultureInfo.GetCultureInfoByIetfLanguageTag*
   platform:
   - net-11
   - net-20
@@ -667,6 +687,7 @@ items:
     return:
       type: System.Globalization.CultureInfo[]
       description: To be added.
+  overload: System.Globalization.CultureInfo.GetCultures*
   platform:
   - net-11
   - net-20
@@ -694,6 +715,7 @@ items:
     return:
       type: System.Object
       description: To be added.
+  overload: System.Globalization.CultureInfo.GetFormat*
   platform:
   - net-11
   - net-20
@@ -718,6 +740,7 @@ items:
     return:
       type: System.Int32
       description: To be added.
+  overload: System.Globalization.CultureInfo.GetHashCode*
   platform:
   - net-11
   - net-20
@@ -741,6 +764,7 @@ items:
     return:
       type: System.String
       description: To be added.
+  overload: System.Globalization.CultureInfo.IetfLanguageTag*
   platform:
   - net-11
   - net-20
@@ -764,6 +788,7 @@ items:
     return:
       type: System.Globalization.CultureInfo
       description: To be added.
+  overload: System.Globalization.CultureInfo.InstalledUICulture*
   platform:
   - net-11
   - net-20
@@ -787,6 +812,7 @@ items:
     return:
       type: System.Globalization.CultureInfo
       description: To be added.
+  overload: System.Globalization.CultureInfo.InvariantCulture*
   platform:
   - net-11
   - net-20
@@ -810,6 +836,7 @@ items:
     return:
       type: System.Boolean
       description: To be added.
+  overload: System.Globalization.CultureInfo.IsNeutralCulture*
   platform:
   - net-11
   - net-20
@@ -833,6 +860,7 @@ items:
     return:
       type: System.Boolean
       description: To be added.
+  overload: System.Globalization.CultureInfo.IsReadOnly*
   platform:
   - net-11
   - net-20
@@ -856,6 +884,7 @@ items:
     return:
       type: System.Int32
       description: To be added.
+  overload: System.Globalization.CultureInfo.KeyboardLayoutId*
   platform:
   - net-11
   - net-20
@@ -879,6 +908,7 @@ items:
     return:
       type: System.Int32
       description: To be added.
+  overload: System.Globalization.CultureInfo.LCID*
   platform:
   - net-11
   - net-20
@@ -902,6 +932,7 @@ items:
     return:
       type: System.String
       description: To be added.
+  overload: System.Globalization.CultureInfo.Name*
   platform:
   - net-11
   - net-20
@@ -925,6 +956,7 @@ items:
     return:
       type: System.String
       description: To be added.
+  overload: System.Globalization.CultureInfo.NativeName*
   platform:
   - net-11
   - net-20
@@ -948,6 +980,7 @@ items:
     return:
       type: System.Globalization.NumberFormatInfo
       description: To be added.
+  overload: System.Globalization.CultureInfo.NumberFormat*
   platform:
   - net-11
   - net-20
@@ -971,6 +1004,7 @@ items:
     return:
       type: System.Globalization.Calendar[]
       description: To be added.
+  overload: System.Globalization.CultureInfo.OptionalCalendars*
   platform:
   - net-11
   - net-20
@@ -994,6 +1028,7 @@ items:
     return:
       type: System.Globalization.CultureInfo
       description: To be added.
+  overload: System.Globalization.CultureInfo.Parent*
   platform:
   - net-11
   - net-20
@@ -1021,6 +1056,7 @@ items:
     return:
       type: System.Globalization.CultureInfo
       description: To be added.
+  overload: System.Globalization.CultureInfo.ReadOnly*
   platform:
   - net-11
   - net-20
@@ -1044,6 +1080,7 @@ items:
     return:
       type: System.Globalization.TextInfo
       description: To be added.
+  overload: System.Globalization.CultureInfo.TextInfo*
   platform:
   - net-11
   - net-20
@@ -1067,6 +1104,7 @@ items:
     return:
       type: System.String
       description: To be added.
+  overload: System.Globalization.CultureInfo.ThreeLetterISOLanguageName*
   platform:
   - net-11
   - net-20
@@ -1090,6 +1128,7 @@ items:
     return:
       type: System.String
       description: To be added.
+  overload: System.Globalization.CultureInfo.ThreeLetterWindowsLanguageName*
   platform:
   - net-11
   - net-20
@@ -1114,6 +1153,7 @@ items:
     return:
       type: System.String
       description: To be added.
+  overload: System.Globalization.CultureInfo.ToString*
   platform:
   - net-11
   - net-20
@@ -1137,6 +1177,7 @@ items:
     return:
       type: System.String
       description: To be added.
+  overload: System.Globalization.CultureInfo.TwoLetterISOLanguageName*
   platform:
   - net-11
   - net-20
@@ -1160,6 +1201,7 @@ items:
     return:
       type: System.Boolean
       description: To be added.
+  overload: System.Globalization.CultureInfo.UseUserOverride*
   platform:
   - net-11
   - net-20
@@ -1774,8 +1816,203 @@ references:
   name: Boolean
   nameWithType: Boolean
   fullName: System.Boolean
+- uid: System.Globalization.CultureInfo.#ctor*
+  parent: System.Globalization.CultureInfo
+  isExternal: false
+  name: CultureInfo
+  nameWithType: CultureInfo.CultureInfo
+- uid: System.Globalization.CultureInfo.Calendar*
+  parent: System.Globalization.CultureInfo
+  isExternal: false
+  name: Calendar
+  nameWithType: CultureInfo.Calendar
+- uid: System.Globalization.CultureInfo.ClearCachedData*
+  parent: System.Globalization.CultureInfo
+  isExternal: false
+  name: ClearCachedData
+  nameWithType: CultureInfo.ClearCachedData
+- uid: System.Globalization.CultureInfo.Clone*
+  parent: System.Globalization.CultureInfo
+  isExternal: false
+  name: Clone
+  nameWithType: CultureInfo.Clone
+- uid: System.Globalization.CultureInfo.CompareInfo*
+  parent: System.Globalization.CultureInfo
+  isExternal: false
+  name: CompareInfo
+  nameWithType: CultureInfo.CompareInfo
+- uid: System.Globalization.CultureInfo.CreateSpecificCulture*
+  parent: System.Globalization.CultureInfo
+  isExternal: false
+  name: CreateSpecificCulture
+  nameWithType: CultureInfo.CreateSpecificCulture
+- uid: System.Globalization.CultureInfo.CultureTypes*
+  parent: System.Globalization.CultureInfo
+  isExternal: false
+  name: CultureTypes
+  nameWithType: CultureInfo.CultureTypes
+- uid: System.Globalization.CultureInfo.CurrentCulture*
+  parent: System.Globalization.CultureInfo
+  isExternal: false
+  name: CurrentCulture
+  nameWithType: CultureInfo.CurrentCulture
+- uid: System.Globalization.CultureInfo.CurrentUICulture*
+  parent: System.Globalization.CultureInfo
+  isExternal: false
+  name: CurrentUICulture
+  nameWithType: CultureInfo.CurrentUICulture
+- uid: System.Globalization.CultureInfo.DateTimeFormat*
+  parent: System.Globalization.CultureInfo
+  isExternal: false
+  name: DateTimeFormat
+  nameWithType: CultureInfo.DateTimeFormat
+- uid: System.Globalization.CultureInfo.DefaultThreadCurrentCulture*
+  parent: System.Globalization.CultureInfo
+  isExternal: false
+  name: DefaultThreadCurrentCulture
+  nameWithType: CultureInfo.DefaultThreadCurrentCulture
+- uid: System.Globalization.CultureInfo.DefaultThreadCurrentUICulture*
+  parent: System.Globalization.CultureInfo
+  isExternal: false
+  name: DefaultThreadCurrentUICulture
+  nameWithType: CultureInfo.DefaultThreadCurrentUICulture
+- uid: System.Globalization.CultureInfo.DisplayName*
+  parent: System.Globalization.CultureInfo
+  isExternal: false
+  name: DisplayName
+  nameWithType: CultureInfo.DisplayName
+- uid: System.Globalization.CultureInfo.EnglishName*
+  parent: System.Globalization.CultureInfo
+  isExternal: false
+  name: EnglishName
+  nameWithType: CultureInfo.EnglishName
+- uid: System.Globalization.CultureInfo.Equals*
+  parent: System.Globalization.CultureInfo
+  isExternal: false
+  name: Equals
+  nameWithType: CultureInfo.Equals
+- uid: System.Globalization.CultureInfo.GetConsoleFallbackUICulture*
+  parent: System.Globalization.CultureInfo
+  isExternal: false
+  name: GetConsoleFallbackUICulture
+  nameWithType: CultureInfo.GetConsoleFallbackUICulture
 - uid: System.Globalization.CultureInfo.GetCultureInfo*
   parent: System.Globalization.CultureInfo
   isExternal: false
   name: GetCultureInfo
   nameWithType: CultureInfo.GetCultureInfo
+- uid: System.Globalization.CultureInfo.GetCultureInfoByIetfLanguageTag*
+  parent: System.Globalization.CultureInfo
+  isExternal: false
+  name: GetCultureInfoByIetfLanguageTag
+  nameWithType: CultureInfo.GetCultureInfoByIetfLanguageTag
+- uid: System.Globalization.CultureInfo.GetCultures*
+  parent: System.Globalization.CultureInfo
+  isExternal: false
+  name: GetCultures
+  nameWithType: CultureInfo.GetCultures
+- uid: System.Globalization.CultureInfo.GetFormat*
+  parent: System.Globalization.CultureInfo
+  isExternal: false
+  name: GetFormat
+  nameWithType: CultureInfo.GetFormat
+- uid: System.Globalization.CultureInfo.GetHashCode*
+  parent: System.Globalization.CultureInfo
+  isExternal: false
+  name: GetHashCode
+  nameWithType: CultureInfo.GetHashCode
+- uid: System.Globalization.CultureInfo.IetfLanguageTag*
+  parent: System.Globalization.CultureInfo
+  isExternal: false
+  name: IetfLanguageTag
+  nameWithType: CultureInfo.IetfLanguageTag
+- uid: System.Globalization.CultureInfo.InstalledUICulture*
+  parent: System.Globalization.CultureInfo
+  isExternal: false
+  name: InstalledUICulture
+  nameWithType: CultureInfo.InstalledUICulture
+- uid: System.Globalization.CultureInfo.InvariantCulture*
+  parent: System.Globalization.CultureInfo
+  isExternal: false
+  name: InvariantCulture
+  nameWithType: CultureInfo.InvariantCulture
+- uid: System.Globalization.CultureInfo.IsNeutralCulture*
+  parent: System.Globalization.CultureInfo
+  isExternal: false
+  name: IsNeutralCulture
+  nameWithType: CultureInfo.IsNeutralCulture
+- uid: System.Globalization.CultureInfo.IsReadOnly*
+  parent: System.Globalization.CultureInfo
+  isExternal: false
+  name: IsReadOnly
+  nameWithType: CultureInfo.IsReadOnly
+- uid: System.Globalization.CultureInfo.KeyboardLayoutId*
+  parent: System.Globalization.CultureInfo
+  isExternal: false
+  name: KeyboardLayoutId
+  nameWithType: CultureInfo.KeyboardLayoutId
+- uid: System.Globalization.CultureInfo.LCID*
+  parent: System.Globalization.CultureInfo
+  isExternal: false
+  name: LCID
+  nameWithType: CultureInfo.LCID
+- uid: System.Globalization.CultureInfo.Name*
+  parent: System.Globalization.CultureInfo
+  isExternal: false
+  name: Name
+  nameWithType: CultureInfo.Name
+- uid: System.Globalization.CultureInfo.NativeName*
+  parent: System.Globalization.CultureInfo
+  isExternal: false
+  name: NativeName
+  nameWithType: CultureInfo.NativeName
+- uid: System.Globalization.CultureInfo.NumberFormat*
+  parent: System.Globalization.CultureInfo
+  isExternal: false
+  name: NumberFormat
+  nameWithType: CultureInfo.NumberFormat
+- uid: System.Globalization.CultureInfo.OptionalCalendars*
+  parent: System.Globalization.CultureInfo
+  isExternal: false
+  name: OptionalCalendars
+  nameWithType: CultureInfo.OptionalCalendars
+- uid: System.Globalization.CultureInfo.Parent*
+  parent: System.Globalization.CultureInfo
+  isExternal: false
+  name: Parent
+  nameWithType: CultureInfo.Parent
+- uid: System.Globalization.CultureInfo.ReadOnly*
+  parent: System.Globalization.CultureInfo
+  isExternal: false
+  name: ReadOnly
+  nameWithType: CultureInfo.ReadOnly
+- uid: System.Globalization.CultureInfo.TextInfo*
+  parent: System.Globalization.CultureInfo
+  isExternal: false
+  name: TextInfo
+  nameWithType: CultureInfo.TextInfo
+- uid: System.Globalization.CultureInfo.ThreeLetterISOLanguageName*
+  parent: System.Globalization.CultureInfo
+  isExternal: false
+  name: ThreeLetterISOLanguageName
+  nameWithType: CultureInfo.ThreeLetterISOLanguageName
+- uid: System.Globalization.CultureInfo.ThreeLetterWindowsLanguageName*
+  parent: System.Globalization.CultureInfo
+  isExternal: false
+  name: ThreeLetterWindowsLanguageName
+  nameWithType: CultureInfo.ThreeLetterWindowsLanguageName
+- uid: System.Globalization.CultureInfo.ToString*
+  parent: System.Globalization.CultureInfo
+  isExternal: false
+  name: ToString
+  nameWithType: CultureInfo.ToString
+- uid: System.Globalization.CultureInfo.TwoLetterISOLanguageName*
+  parent: System.Globalization.CultureInfo
+  isExternal: false
+  name: TwoLetterISOLanguageName
+  nameWithType: CultureInfo.TwoLetterISOLanguageName
+- uid: System.Globalization.CultureInfo.UseUserOverride*
+  parent: System.Globalization.CultureInfo
+  isExternal: false
+  name: UseUserOverride
+  nameWithType: CultureInfo.UseUserOverride

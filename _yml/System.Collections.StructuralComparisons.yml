@@ -49,6 +49,7 @@ items:
     return:
       type: System.Collections.IComparer
       description: To be added.
+  overload: System.Collections.StructuralComparisons.StructuralComparer*
   platform:
   - net-11
   - net-20
@@ -72,6 +73,7 @@ items:
     return:
       type: System.Collections.IEqualityComparer
       description: To be added.
+  overload: System.Collections.StructuralComparisons.StructuralEqualityComparer*
   platform:
   - net-11
   - net-20
@@ -104,3 +106,13 @@ references:
   name: IEqualityComparer
   nameWithType: IEqualityComparer
   fullName: System.Collections.IEqualityComparer
+- uid: System.Collections.StructuralComparisons.StructuralComparer*
+  parent: System.Collections.StructuralComparisons
+  isExternal: false
+  name: StructuralComparer
+  nameWithType: StructuralComparisons.StructuralComparer
+- uid: System.Collections.StructuralComparisons.StructuralEqualityComparer*
+  parent: System.Collections.StructuralComparisons
+  isExternal: false
+  name: StructuralEqualityComparer
+  nameWithType: StructuralComparisons.StructuralEqualityComparer

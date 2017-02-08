@@ -52,6 +52,7 @@ items:
     - id: stateMachine
       type: TStateMachine
       description: To be added.
+  overload: System.Runtime.CompilerServices.AsyncTaskMethodBuilder.AwaitOnCompleted<TAwaiter,TStateMachine>*
   platform:
   - net-11
   - net-20
@@ -79,6 +80,7 @@ items:
     - id: stateMachine
       type: TStateMachine
       description: To be added.
+  overload: System.Runtime.CompilerServices.AsyncTaskMethodBuilder.AwaitUnsafeOnCompleted<TAwaiter,TStateMachine>*
   platform:
   - net-11
   - net-20
@@ -103,6 +105,7 @@ items:
     return:
       type: System.Runtime.CompilerServices.AsyncTaskMethodBuilder
       description: To be added.
+  overload: System.Runtime.CompilerServices.AsyncTaskMethodBuilder.Create*
   platform:
   - net-11
   - net-20
@@ -127,6 +130,7 @@ items:
     - id: exception
       type: System.Exception
       description: To be added.
+  overload: System.Runtime.CompilerServices.AsyncTaskMethodBuilder.SetException*
   platform:
   - net-11
   - net-20
@@ -148,6 +152,7 @@ items:
   syntax:
     content: public void SetResult ();
     parameters: []
+  overload: System.Runtime.CompilerServices.AsyncTaskMethodBuilder.SetResult*
   platform:
   - net-11
   - net-20
@@ -172,6 +177,7 @@ items:
     - id: stateMachine
       type: System.Runtime.CompilerServices.IAsyncStateMachine
       description: To be added.
+  overload: System.Runtime.CompilerServices.AsyncTaskMethodBuilder.SetStateMachine*
   platform:
   - net-11
   - net-20
@@ -196,6 +202,7 @@ items:
     - id: stateMachine
       type: TStateMachine
       description: To be added.
+  overload: System.Runtime.CompilerServices.AsyncTaskMethodBuilder.Start<TStateMachine>*
   platform:
   - net-11
   - net-20
@@ -219,6 +226,7 @@ items:
     return:
       type: System.Threading.Tasks.Task
       description: To be added.
+  overload: System.Runtime.CompilerServices.AsyncTaskMethodBuilder.Task*
   platform:
   - net-11
   - net-20
@@ -329,3 +337,43 @@ references:
   name: Task
   nameWithType: Task
   fullName: System.Threading.Tasks.Task
+- uid: System.Runtime.CompilerServices.AsyncTaskMethodBuilder.AwaitOnCompleted<TAwaiter,TStateMachine>*
+  parent: System.Runtime.CompilerServices.AsyncTaskMethodBuilder
+  isExternal: false
+  name: AwaitOnCompleted<TAwaiter,TStateMachine>
+  nameWithType: AsyncTaskMethodBuilder.AwaitOnCompleted<TAwaiter,TStateMachine>
+- uid: System.Runtime.CompilerServices.AsyncTaskMethodBuilder.AwaitUnsafeOnCompleted<TAwaiter,TStateMachine>*
+  parent: System.Runtime.CompilerServices.AsyncTaskMethodBuilder
+  isExternal: false
+  name: AwaitUnsafeOnCompleted<TAwaiter,TStateMachine>
+  nameWithType: AsyncTaskMethodBuilder.AwaitUnsafeOnCompleted<TAwaiter,TStateMachine>
+- uid: System.Runtime.CompilerServices.AsyncTaskMethodBuilder.Create*
+  parent: System.Runtime.CompilerServices.AsyncTaskMethodBuilder
+  isExternal: false
+  name: Create
+  nameWithType: AsyncTaskMethodBuilder.Create
+- uid: System.Runtime.CompilerServices.AsyncTaskMethodBuilder.SetException*
+  parent: System.Runtime.CompilerServices.AsyncTaskMethodBuilder
+  isExternal: false
+  name: SetException
+  nameWithType: AsyncTaskMethodBuilder.SetException
+- uid: System.Runtime.CompilerServices.AsyncTaskMethodBuilder.SetResult*
+  parent: System.Runtime.CompilerServices.AsyncTaskMethodBuilder
+  isExternal: false
+  name: SetResult
+  nameWithType: AsyncTaskMethodBuilder.SetResult
+- uid: System.Runtime.CompilerServices.AsyncTaskMethodBuilder.SetStateMachine*
+  parent: System.Runtime.CompilerServices.AsyncTaskMethodBuilder
+  isExternal: false
+  name: SetStateMachine
+  nameWithType: AsyncTaskMethodBuilder.SetStateMachine
+- uid: System.Runtime.CompilerServices.AsyncTaskMethodBuilder.Start<TStateMachine>*
+  parent: System.Runtime.CompilerServices.AsyncTaskMethodBuilder
+  isExternal: false
+  name: Start<TStateMachine>
+  nameWithType: AsyncTaskMethodBuilder.Start<TStateMachine>
+- uid: System.Runtime.CompilerServices.AsyncTaskMethodBuilder.Task*
+  parent: System.Runtime.CompilerServices.AsyncTaskMethodBuilder
+  isExternal: false
+  name: Task
+  nameWithType: AsyncTaskMethodBuilder.Task

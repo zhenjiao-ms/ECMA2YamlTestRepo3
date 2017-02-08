@@ -80,6 +80,7 @@ items:
   syntax:
     content: protected Formatter ();
     parameters: []
+  overload: System.Runtime.Serialization.Formatter.#ctor*
   platform:
   - net-11
   - net-20
@@ -103,6 +104,7 @@ items:
     return:
       type: System.Runtime.Serialization.SerializationBinder
       description: To be added.
+  overload: System.Runtime.Serialization.Formatter.Binder*
   platform:
   - net-11
   - net-20
@@ -126,6 +128,7 @@ items:
     return:
       type: System.Runtime.Serialization.StreamingContext
       description: To be added.
+  overload: System.Runtime.Serialization.Formatter.Context*
   platform:
   - net-11
   - net-20
@@ -153,6 +156,7 @@ items:
     return:
       type: System.Object
       description: To be added.
+  overload: System.Runtime.Serialization.Formatter.Deserialize*
   platform:
   - net-11
   - net-20
@@ -180,6 +184,7 @@ items:
     return:
       type: System.Object
       description: To be added.
+  overload: System.Runtime.Serialization.Formatter.GetNext*
   platform:
   - net-11
   - net-20
@@ -253,6 +258,7 @@ items:
     return:
       type: System.Int64
       description: To be added.
+  overload: System.Runtime.Serialization.Formatter.Schedule*
   platform:
   - net-11
   - net-20
@@ -280,6 +286,7 @@ items:
     - id: graph
       type: System.Object
       description: To be added.
+  overload: System.Runtime.Serialization.Formatter.Serialize*
   platform:
   - net-11
   - net-20
@@ -303,6 +310,7 @@ items:
     return:
       type: System.Runtime.Serialization.ISurrogateSelector
       description: To be added.
+  overload: System.Runtime.Serialization.Formatter.SurrogateSelector*
   platform:
   - net-11
   - net-20
@@ -333,6 +341,7 @@ items:
     - id: memberType
       type: System.Type
       description: To be added.
+  overload: System.Runtime.Serialization.Formatter.WriteArray*
   platform:
   - net-11
   - net-20
@@ -360,6 +369,7 @@ items:
     - id: name
       type: System.String
       description: To be added.
+  overload: System.Runtime.Serialization.Formatter.WriteBoolean*
   platform:
   - net-11
   - net-20
@@ -387,6 +397,7 @@ items:
     - id: name
       type: System.String
       description: To be added.
+  overload: System.Runtime.Serialization.Formatter.WriteByte*
   platform:
   - net-11
   - net-20
@@ -414,6 +425,7 @@ items:
     - id: name
       type: System.String
       description: To be added.
+  overload: System.Runtime.Serialization.Formatter.WriteChar*
   platform:
   - net-11
   - net-20
@@ -441,6 +453,7 @@ items:
     - id: name
       type: System.String
       description: To be added.
+  overload: System.Runtime.Serialization.Formatter.WriteDateTime*
   platform:
   - net-11
   - net-20
@@ -468,6 +481,7 @@ items:
     - id: name
       type: System.String
       description: To be added.
+  overload: System.Runtime.Serialization.Formatter.WriteDecimal*
   platform:
   - net-11
   - net-20
@@ -495,6 +509,7 @@ items:
     - id: name
       type: System.String
       description: To be added.
+  overload: System.Runtime.Serialization.Formatter.WriteDouble*
   platform:
   - net-11
   - net-20
@@ -522,6 +537,7 @@ items:
     - id: name
       type: System.String
       description: To be added.
+  overload: System.Runtime.Serialization.Formatter.WriteInt16*
   platform:
   - net-11
   - net-20
@@ -549,6 +565,7 @@ items:
     - id: name
       type: System.String
       description: To be added.
+  overload: System.Runtime.Serialization.Formatter.WriteInt32*
   platform:
   - net-11
   - net-20
@@ -576,6 +593,7 @@ items:
     - id: name
       type: System.String
       description: To be added.
+  overload: System.Runtime.Serialization.Formatter.WriteInt64*
   platform:
   - net-11
   - net-20
@@ -603,6 +621,7 @@ items:
     - id: data
       type: System.Object
       description: To be added.
+  overload: System.Runtime.Serialization.Formatter.WriteMember*
   platform:
   - net-11
   - net-20
@@ -633,6 +652,7 @@ items:
     - id: memberType
       type: System.Type
       description: To be added.
+  overload: System.Runtime.Serialization.Formatter.WriteObjectRef*
   platform:
   - net-11
   - net-20
@@ -660,6 +680,7 @@ items:
     - id: name
       type: System.String
       description: To be added.
+  overload: System.Runtime.Serialization.Formatter.WriteSByte*
   platform:
   - net-11
   - net-20
@@ -687,6 +708,7 @@ items:
     - id: name
       type: System.String
       description: To be added.
+  overload: System.Runtime.Serialization.Formatter.WriteSingle*
   platform:
   - net-11
   - net-20
@@ -714,6 +736,7 @@ items:
     - id: name
       type: System.String
       description: To be added.
+  overload: System.Runtime.Serialization.Formatter.WriteTimeSpan*
   platform:
   - net-11
   - net-20
@@ -741,6 +764,7 @@ items:
     - id: name
       type: System.String
       description: To be added.
+  overload: System.Runtime.Serialization.Formatter.WriteUInt16*
   platform:
   - net-11
   - net-20
@@ -768,6 +792,7 @@ items:
     - id: name
       type: System.String
       description: To be added.
+  overload: System.Runtime.Serialization.Formatter.WriteUInt32*
   platform:
   - net-11
   - net-20
@@ -795,6 +820,7 @@ items:
     - id: name
       type: System.String
       description: To be added.
+  overload: System.Runtime.Serialization.Formatter.WriteUInt64*
   platform:
   - net-11
   - net-20
@@ -825,6 +851,7 @@ items:
     - id: memberType
       type: System.Type
       description: To be added.
+  overload: System.Runtime.Serialization.Formatter.WriteValueType*
   platform:
   - net-11
   - net-20
@@ -1331,3 +1358,138 @@ references:
   name: Type
   nameWithType: Type
   fullName: System.Type
+- uid: System.Runtime.Serialization.Formatter.#ctor*
+  parent: System.Runtime.Serialization.Formatter
+  isExternal: false
+  name: Formatter
+  nameWithType: Formatter.Formatter
+- uid: System.Runtime.Serialization.Formatter.Binder*
+  parent: System.Runtime.Serialization.Formatter
+  isExternal: false
+  name: Binder
+  nameWithType: Formatter.Binder
+- uid: System.Runtime.Serialization.Formatter.Context*
+  parent: System.Runtime.Serialization.Formatter
+  isExternal: false
+  name: Context
+  nameWithType: Formatter.Context
+- uid: System.Runtime.Serialization.Formatter.Deserialize*
+  parent: System.Runtime.Serialization.Formatter
+  isExternal: false
+  name: Deserialize
+  nameWithType: Formatter.Deserialize
+- uid: System.Runtime.Serialization.Formatter.GetNext*
+  parent: System.Runtime.Serialization.Formatter
+  isExternal: false
+  name: GetNext
+  nameWithType: Formatter.GetNext
+- uid: System.Runtime.Serialization.Formatter.Schedule*
+  parent: System.Runtime.Serialization.Formatter
+  isExternal: false
+  name: Schedule
+  nameWithType: Formatter.Schedule
+- uid: System.Runtime.Serialization.Formatter.Serialize*
+  parent: System.Runtime.Serialization.Formatter
+  isExternal: false
+  name: Serialize
+  nameWithType: Formatter.Serialize
+- uid: System.Runtime.Serialization.Formatter.SurrogateSelector*
+  parent: System.Runtime.Serialization.Formatter
+  isExternal: false
+  name: SurrogateSelector
+  nameWithType: Formatter.SurrogateSelector
+- uid: System.Runtime.Serialization.Formatter.WriteArray*
+  parent: System.Runtime.Serialization.Formatter
+  isExternal: false
+  name: WriteArray
+  nameWithType: Formatter.WriteArray
+- uid: System.Runtime.Serialization.Formatter.WriteBoolean*
+  parent: System.Runtime.Serialization.Formatter
+  isExternal: false
+  name: WriteBoolean
+  nameWithType: Formatter.WriteBoolean
+- uid: System.Runtime.Serialization.Formatter.WriteByte*
+  parent: System.Runtime.Serialization.Formatter
+  isExternal: false
+  name: WriteByte
+  nameWithType: Formatter.WriteByte
+- uid: System.Runtime.Serialization.Formatter.WriteChar*
+  parent: System.Runtime.Serialization.Formatter
+  isExternal: false
+  name: WriteChar
+  nameWithType: Formatter.WriteChar
+- uid: System.Runtime.Serialization.Formatter.WriteDateTime*
+  parent: System.Runtime.Serialization.Formatter
+  isExternal: false
+  name: WriteDateTime
+  nameWithType: Formatter.WriteDateTime
+- uid: System.Runtime.Serialization.Formatter.WriteDecimal*
+  parent: System.Runtime.Serialization.Formatter
+  isExternal: false
+  name: WriteDecimal
+  nameWithType: Formatter.WriteDecimal
+- uid: System.Runtime.Serialization.Formatter.WriteDouble*
+  parent: System.Runtime.Serialization.Formatter
+  isExternal: false
+  name: WriteDouble
+  nameWithType: Formatter.WriteDouble
+- uid: System.Runtime.Serialization.Formatter.WriteInt16*
+  parent: System.Runtime.Serialization.Formatter
+  isExternal: false
+  name: WriteInt16
+  nameWithType: Formatter.WriteInt16
+- uid: System.Runtime.Serialization.Formatter.WriteInt32*
+  parent: System.Runtime.Serialization.Formatter
+  isExternal: false
+  name: WriteInt32
+  nameWithType: Formatter.WriteInt32
+- uid: System.Runtime.Serialization.Formatter.WriteInt64*
+  parent: System.Runtime.Serialization.Formatter
+  isExternal: false
+  name: WriteInt64
+  nameWithType: Formatter.WriteInt64
+- uid: System.Runtime.Serialization.Formatter.WriteMember*
+  parent: System.Runtime.Serialization.Formatter
+  isExternal: false
+  name: WriteMember
+  nameWithType: Formatter.WriteMember
+- uid: System.Runtime.Serialization.Formatter.WriteObjectRef*
+  parent: System.Runtime.Serialization.Formatter
+  isExternal: false
+  name: WriteObjectRef
+  nameWithType: Formatter.WriteObjectRef
+- uid: System.Runtime.Serialization.Formatter.WriteSByte*
+  parent: System.Runtime.Serialization.Formatter
+  isExternal: false
+  name: WriteSByte
+  nameWithType: Formatter.WriteSByte
+- uid: System.Runtime.Serialization.Formatter.WriteSingle*
+  parent: System.Runtime.Serialization.Formatter
+  isExternal: false
+  name: WriteSingle
+  nameWithType: Formatter.WriteSingle
+- uid: System.Runtime.Serialization.Formatter.WriteTimeSpan*
+  parent: System.Runtime.Serialization.Formatter
+  isExternal: false
+  name: WriteTimeSpan
+  nameWithType: Formatter.WriteTimeSpan
+- uid: System.Runtime.Serialization.Formatter.WriteUInt16*
+  parent: System.Runtime.Serialization.Formatter
+  isExternal: false
+  name: WriteUInt16
+  nameWithType: Formatter.WriteUInt16
+- uid: System.Runtime.Serialization.Formatter.WriteUInt32*
+  parent: System.Runtime.Serialization.Formatter
+  isExternal: false
+  name: WriteUInt32
+  nameWithType: Formatter.WriteUInt32
+- uid: System.Runtime.Serialization.Formatter.WriteUInt64*
+  parent: System.Runtime.Serialization.Formatter
+  isExternal: false
+  name: WriteUInt64
+  nameWithType: Formatter.WriteUInt64
+- uid: System.Runtime.Serialization.Formatter.WriteValueType*
+  parent: System.Runtime.Serialization.Formatter
+  isExternal: false
+  name: WriteValueType
+  nameWithType: Formatter.WriteValueType

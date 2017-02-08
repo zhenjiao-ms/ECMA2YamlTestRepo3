@@ -85,6 +85,7 @@ items:
   syntax:
     content: public NumberFormatInfo ();
     parameters: []
+  overload: System.Globalization.NumberFormatInfo.#ctor*
   platform:
   - net-11
   - net-20
@@ -109,6 +110,7 @@ items:
     return:
       type: System.Object
       description: To be added.
+  overload: System.Globalization.NumberFormatInfo.Clone*
   platform:
   - net-11
   - net-20
@@ -132,6 +134,7 @@ items:
     return:
       type: System.Int32
       description: To be added.
+  overload: System.Globalization.NumberFormatInfo.CurrencyDecimalDigits*
   platform:
   - net-11
   - net-20
@@ -155,6 +158,7 @@ items:
     return:
       type: System.String
       description: To be added.
+  overload: System.Globalization.NumberFormatInfo.CurrencyDecimalSeparator*
   platform:
   - net-11
   - net-20
@@ -178,6 +182,7 @@ items:
     return:
       type: System.String
       description: To be added.
+  overload: System.Globalization.NumberFormatInfo.CurrencyGroupSeparator*
   platform:
   - net-11
   - net-20
@@ -201,6 +206,7 @@ items:
     return:
       type: System.Int32[]
       description: To be added.
+  overload: System.Globalization.NumberFormatInfo.CurrencyGroupSizes*
   platform:
   - net-11
   - net-20
@@ -224,6 +230,7 @@ items:
     return:
       type: System.Int32
       description: To be added.
+  overload: System.Globalization.NumberFormatInfo.CurrencyNegativePattern*
   platform:
   - net-11
   - net-20
@@ -247,6 +254,7 @@ items:
     return:
       type: System.Int32
       description: To be added.
+  overload: System.Globalization.NumberFormatInfo.CurrencyPositivePattern*
   platform:
   - net-11
   - net-20
@@ -270,6 +278,7 @@ items:
     return:
       type: System.String
       description: To be added.
+  overload: System.Globalization.NumberFormatInfo.CurrencySymbol*
   platform:
   - net-11
   - net-20
@@ -293,6 +302,7 @@ items:
     return:
       type: System.Globalization.NumberFormatInfo
       description: To be added.
+  overload: System.Globalization.NumberFormatInfo.CurrentInfo*
   platform:
   - net-11
   - net-20
@@ -316,6 +326,7 @@ items:
     return:
       type: System.Globalization.DigitShapes
       description: To be added.
+  overload: System.Globalization.NumberFormatInfo.DigitSubstitution*
   platform:
   - net-11
   - net-20
@@ -343,6 +354,7 @@ items:
     return:
       type: System.Object
       description: To be added.
+  overload: System.Globalization.NumberFormatInfo.GetFormat*
   platform:
   - net-11
   - net-20
@@ -370,6 +382,7 @@ items:
     return:
       type: System.Globalization.NumberFormatInfo
       description: To be added.
+  overload: System.Globalization.NumberFormatInfo.GetInstance*
   platform:
   - net-11
   - net-20
@@ -393,6 +406,7 @@ items:
     return:
       type: System.Globalization.NumberFormatInfo
       description: To be added.
+  overload: System.Globalization.NumberFormatInfo.InvariantInfo*
   platform:
   - net-11
   - net-20
@@ -416,6 +430,7 @@ items:
     return:
       type: System.Boolean
       description: To be added.
+  overload: System.Globalization.NumberFormatInfo.IsReadOnly*
   platform:
   - net-11
   - net-20
@@ -439,6 +454,7 @@ items:
     return:
       type: System.String
       description: To be added.
+  overload: System.Globalization.NumberFormatInfo.NaNSymbol*
   platform:
   - net-11
   - net-20
@@ -462,6 +478,7 @@ items:
     return:
       type: System.String[]
       description: To be added.
+  overload: System.Globalization.NumberFormatInfo.NativeDigits*
   platform:
   - net-11
   - net-20
@@ -485,6 +502,7 @@ items:
     return:
       type: System.String
       description: To be added.
+  overload: System.Globalization.NumberFormatInfo.NegativeInfinitySymbol*
   platform:
   - net-11
   - net-20
@@ -508,6 +526,7 @@ items:
     return:
       type: System.String
       description: To be added.
+  overload: System.Globalization.NumberFormatInfo.NegativeSign*
   platform:
   - net-11
   - net-20
@@ -531,6 +550,7 @@ items:
     return:
       type: System.Int32
       description: To be added.
+  overload: System.Globalization.NumberFormatInfo.NumberDecimalDigits*
   platform:
   - net-11
   - net-20
@@ -554,6 +574,7 @@ items:
     return:
       type: System.String
       description: To be added.
+  overload: System.Globalization.NumberFormatInfo.NumberDecimalSeparator*
   platform:
   - net-11
   - net-20
@@ -577,6 +598,7 @@ items:
     return:
       type: System.String
       description: To be added.
+  overload: System.Globalization.NumberFormatInfo.NumberGroupSeparator*
   platform:
   - net-11
   - net-20
@@ -600,6 +622,7 @@ items:
     return:
       type: System.Int32[]
       description: To be added.
+  overload: System.Globalization.NumberFormatInfo.NumberGroupSizes*
   platform:
   - net-11
   - net-20
@@ -623,6 +646,7 @@ items:
     return:
       type: System.Int32
       description: To be added.
+  overload: System.Globalization.NumberFormatInfo.NumberNegativePattern*
   platform:
   - net-11
   - net-20
@@ -646,6 +670,7 @@ items:
     return:
       type: System.Int32
       description: To be added.
+  overload: System.Globalization.NumberFormatInfo.PercentDecimalDigits*
   platform:
   - net-11
   - net-20
@@ -669,6 +694,7 @@ items:
     return:
       type: System.String
       description: To be added.
+  overload: System.Globalization.NumberFormatInfo.PercentDecimalSeparator*
   platform:
   - net-11
   - net-20
@@ -692,6 +718,7 @@ items:
     return:
       type: System.String
       description: To be added.
+  overload: System.Globalization.NumberFormatInfo.PercentGroupSeparator*
   platform:
   - net-11
   - net-20
@@ -715,6 +742,7 @@ items:
     return:
       type: System.Int32[]
       description: To be added.
+  overload: System.Globalization.NumberFormatInfo.PercentGroupSizes*
   platform:
   - net-11
   - net-20
@@ -738,6 +766,7 @@ items:
     return:
       type: System.Int32
       description: To be added.
+  overload: System.Globalization.NumberFormatInfo.PercentNegativePattern*
   platform:
   - net-11
   - net-20
@@ -761,6 +790,7 @@ items:
     return:
       type: System.Int32
       description: To be added.
+  overload: System.Globalization.NumberFormatInfo.PercentPositivePattern*
   platform:
   - net-11
   - net-20
@@ -784,6 +814,7 @@ items:
     return:
       type: System.String
       description: To be added.
+  overload: System.Globalization.NumberFormatInfo.PercentSymbol*
   platform:
   - net-11
   - net-20
@@ -807,6 +838,7 @@ items:
     return:
       type: System.String
       description: To be added.
+  overload: System.Globalization.NumberFormatInfo.PerMilleSymbol*
   platform:
   - net-11
   - net-20
@@ -830,6 +862,7 @@ items:
     return:
       type: System.String
       description: To be added.
+  overload: System.Globalization.NumberFormatInfo.PositiveInfinitySymbol*
   platform:
   - net-11
   - net-20
@@ -853,6 +886,7 @@ items:
     return:
       type: System.String
       description: To be added.
+  overload: System.Globalization.NumberFormatInfo.PositiveSign*
   platform:
   - net-11
   - net-20
@@ -880,6 +914,7 @@ items:
     return:
       type: System.Globalization.NumberFormatInfo
       description: To be added.
+  overload: System.Globalization.NumberFormatInfo.ReadOnly*
   platform:
   - net-11
   - net-20
@@ -1320,3 +1355,178 @@ references:
   name: NumberFormatInfo
   nameWithType: NumberFormatInfo
   fullName: System.Globalization.NumberFormatInfo
+- uid: System.Globalization.NumberFormatInfo.#ctor*
+  parent: System.Globalization.NumberFormatInfo
+  isExternal: false
+  name: NumberFormatInfo
+  nameWithType: NumberFormatInfo.NumberFormatInfo
+- uid: System.Globalization.NumberFormatInfo.Clone*
+  parent: System.Globalization.NumberFormatInfo
+  isExternal: false
+  name: Clone
+  nameWithType: NumberFormatInfo.Clone
+- uid: System.Globalization.NumberFormatInfo.CurrencyDecimalDigits*
+  parent: System.Globalization.NumberFormatInfo
+  isExternal: false
+  name: CurrencyDecimalDigits
+  nameWithType: NumberFormatInfo.CurrencyDecimalDigits
+- uid: System.Globalization.NumberFormatInfo.CurrencyDecimalSeparator*
+  parent: System.Globalization.NumberFormatInfo
+  isExternal: false
+  name: CurrencyDecimalSeparator
+  nameWithType: NumberFormatInfo.CurrencyDecimalSeparator
+- uid: System.Globalization.NumberFormatInfo.CurrencyGroupSeparator*
+  parent: System.Globalization.NumberFormatInfo
+  isExternal: false
+  name: CurrencyGroupSeparator
+  nameWithType: NumberFormatInfo.CurrencyGroupSeparator
+- uid: System.Globalization.NumberFormatInfo.CurrencyGroupSizes*
+  parent: System.Globalization.NumberFormatInfo
+  isExternal: false
+  name: CurrencyGroupSizes
+  nameWithType: NumberFormatInfo.CurrencyGroupSizes
+- uid: System.Globalization.NumberFormatInfo.CurrencyNegativePattern*
+  parent: System.Globalization.NumberFormatInfo
+  isExternal: false
+  name: CurrencyNegativePattern
+  nameWithType: NumberFormatInfo.CurrencyNegativePattern
+- uid: System.Globalization.NumberFormatInfo.CurrencyPositivePattern*
+  parent: System.Globalization.NumberFormatInfo
+  isExternal: false
+  name: CurrencyPositivePattern
+  nameWithType: NumberFormatInfo.CurrencyPositivePattern
+- uid: System.Globalization.NumberFormatInfo.CurrencySymbol*
+  parent: System.Globalization.NumberFormatInfo
+  isExternal: false
+  name: CurrencySymbol
+  nameWithType: NumberFormatInfo.CurrencySymbol
+- uid: System.Globalization.NumberFormatInfo.CurrentInfo*
+  parent: System.Globalization.NumberFormatInfo
+  isExternal: false
+  name: CurrentInfo
+  nameWithType: NumberFormatInfo.CurrentInfo
+- uid: System.Globalization.NumberFormatInfo.DigitSubstitution*
+  parent: System.Globalization.NumberFormatInfo
+  isExternal: false
+  name: DigitSubstitution
+  nameWithType: NumberFormatInfo.DigitSubstitution
+- uid: System.Globalization.NumberFormatInfo.GetFormat*
+  parent: System.Globalization.NumberFormatInfo
+  isExternal: false
+  name: GetFormat
+  nameWithType: NumberFormatInfo.GetFormat
+- uid: System.Globalization.NumberFormatInfo.GetInstance*
+  parent: System.Globalization.NumberFormatInfo
+  isExternal: false
+  name: GetInstance
+  nameWithType: NumberFormatInfo.GetInstance
+- uid: System.Globalization.NumberFormatInfo.InvariantInfo*
+  parent: System.Globalization.NumberFormatInfo
+  isExternal: false
+  name: InvariantInfo
+  nameWithType: NumberFormatInfo.InvariantInfo
+- uid: System.Globalization.NumberFormatInfo.IsReadOnly*
+  parent: System.Globalization.NumberFormatInfo
+  isExternal: false
+  name: IsReadOnly
+  nameWithType: NumberFormatInfo.IsReadOnly
+- uid: System.Globalization.NumberFormatInfo.NaNSymbol*
+  parent: System.Globalization.NumberFormatInfo
+  isExternal: false
+  name: NaNSymbol
+  nameWithType: NumberFormatInfo.NaNSymbol
+- uid: System.Globalization.NumberFormatInfo.NativeDigits*
+  parent: System.Globalization.NumberFormatInfo
+  isExternal: false
+  name: NativeDigits
+  nameWithType: NumberFormatInfo.NativeDigits
+- uid: System.Globalization.NumberFormatInfo.NegativeInfinitySymbol*
+  parent: System.Globalization.NumberFormatInfo
+  isExternal: false
+  name: NegativeInfinitySymbol
+  nameWithType: NumberFormatInfo.NegativeInfinitySymbol
+- uid: System.Globalization.NumberFormatInfo.NegativeSign*
+  parent: System.Globalization.NumberFormatInfo
+  isExternal: false
+  name: NegativeSign
+  nameWithType: NumberFormatInfo.NegativeSign
+- uid: System.Globalization.NumberFormatInfo.NumberDecimalDigits*
+  parent: System.Globalization.NumberFormatInfo
+  isExternal: false
+  name: NumberDecimalDigits
+  nameWithType: NumberFormatInfo.NumberDecimalDigits
+- uid: System.Globalization.NumberFormatInfo.NumberDecimalSeparator*
+  parent: System.Globalization.NumberFormatInfo
+  isExternal: false
+  name: NumberDecimalSeparator
+  nameWithType: NumberFormatInfo.NumberDecimalSeparator
+- uid: System.Globalization.NumberFormatInfo.NumberGroupSeparator*
+  parent: System.Globalization.NumberFormatInfo
+  isExternal: false
+  name: NumberGroupSeparator
+  nameWithType: NumberFormatInfo.NumberGroupSeparator
+- uid: System.Globalization.NumberFormatInfo.NumberGroupSizes*
+  parent: System.Globalization.NumberFormatInfo
+  isExternal: false
+  name: NumberGroupSizes
+  nameWithType: NumberFormatInfo.NumberGroupSizes
+- uid: System.Globalization.NumberFormatInfo.NumberNegativePattern*
+  parent: System.Globalization.NumberFormatInfo
+  isExternal: false
+  name: NumberNegativePattern
+  nameWithType: NumberFormatInfo.NumberNegativePattern
+- uid: System.Globalization.NumberFormatInfo.PercentDecimalDigits*
+  parent: System.Globalization.NumberFormatInfo
+  isExternal: false
+  name: PercentDecimalDigits
+  nameWithType: NumberFormatInfo.PercentDecimalDigits
+- uid: System.Globalization.NumberFormatInfo.PercentDecimalSeparator*
+  parent: System.Globalization.NumberFormatInfo
+  isExternal: false
+  name: PercentDecimalSeparator
+  nameWithType: NumberFormatInfo.PercentDecimalSeparator
+- uid: System.Globalization.NumberFormatInfo.PercentGroupSeparator*
+  parent: System.Globalization.NumberFormatInfo
+  isExternal: false
+  name: PercentGroupSeparator
+  nameWithType: NumberFormatInfo.PercentGroupSeparator
+- uid: System.Globalization.NumberFormatInfo.PercentGroupSizes*
+  parent: System.Globalization.NumberFormatInfo
+  isExternal: false
+  name: PercentGroupSizes
+  nameWithType: NumberFormatInfo.PercentGroupSizes
+- uid: System.Globalization.NumberFormatInfo.PercentNegativePattern*
+  parent: System.Globalization.NumberFormatInfo
+  isExternal: false
+  name: PercentNegativePattern
+  nameWithType: NumberFormatInfo.PercentNegativePattern
+- uid: System.Globalization.NumberFormatInfo.PercentPositivePattern*
+  parent: System.Globalization.NumberFormatInfo
+  isExternal: false
+  name: PercentPositivePattern
+  nameWithType: NumberFormatInfo.PercentPositivePattern
+- uid: System.Globalization.NumberFormatInfo.PercentSymbol*
+  parent: System.Globalization.NumberFormatInfo
+  isExternal: false
+  name: PercentSymbol
+  nameWithType: NumberFormatInfo.PercentSymbol
+- uid: System.Globalization.NumberFormatInfo.PerMilleSymbol*
+  parent: System.Globalization.NumberFormatInfo
+  isExternal: false
+  name: PerMilleSymbol
+  nameWithType: NumberFormatInfo.PerMilleSymbol
+- uid: System.Globalization.NumberFormatInfo.PositiveInfinitySymbol*
+  parent: System.Globalization.NumberFormatInfo
+  isExternal: false
+  name: PositiveInfinitySymbol
+  nameWithType: NumberFormatInfo.PositiveInfinitySymbol
+- uid: System.Globalization.NumberFormatInfo.PositiveSign*
+  parent: System.Globalization.NumberFormatInfo
+  isExternal: false
+  name: PositiveSign
+  nameWithType: NumberFormatInfo.PositiveSign
+- uid: System.Globalization.NumberFormatInfo.ReadOnly*
+  parent: System.Globalization.NumberFormatInfo
+  isExternal: false
+  name: ReadOnly
+  nameWithType: NumberFormatInfo.ReadOnly

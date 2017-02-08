@@ -178,6 +178,7 @@ items:
     return:
       type: System.String
       description: To be added.
+  overload: System.Char.ConvertFromUtf32*
   platform:
   - net-11
   - net-20
@@ -320,6 +321,7 @@ items:
     return:
       type: System.Int32
       description: To be added.
+  overload: System.Char.GetHashCode*
   platform:
   - net-11
   - net-20
@@ -403,6 +405,7 @@ items:
     return:
       type: System.TypeCode
       description: To be added.
+  overload: System.Char.GetTypeCode*
   platform:
   - net-11
   - net-20
@@ -1423,6 +1426,7 @@ items:
     return:
       type: System.Char
       description: To be added.
+  overload: System.Char.Parse*
   platform:
   - net-11
   - net-20
@@ -1451,6 +1455,7 @@ items:
     return:
       type: System.Boolean
       description: To be added.
+  overload: System.Char.System#IConvertible#ToBoolean*
   platform:
   - net-11
   - net-20
@@ -1479,6 +1484,7 @@ items:
     return:
       type: System.Byte
       description: To be added.
+  overload: System.Char.System#IConvertible#ToByte*
   platform:
   - net-11
   - net-20
@@ -1507,6 +1513,7 @@ items:
     return:
       type: System.Char
       description: To be added.
+  overload: System.Char.System#IConvertible#ToChar*
   platform:
   - net-11
   - net-20
@@ -1535,6 +1542,7 @@ items:
     return:
       type: System.DateTime
       description: To be added.
+  overload: System.Char.System#IConvertible#ToDateTime*
   platform:
   - net-11
   - net-20
@@ -1563,6 +1571,7 @@ items:
     return:
       type: System.Decimal
       description: To be added.
+  overload: System.Char.System#IConvertible#ToDecimal*
   platform:
   - net-11
   - net-20
@@ -1591,6 +1600,7 @@ items:
     return:
       type: System.Double
       description: To be added.
+  overload: System.Char.System#IConvertible#ToDouble*
   platform:
   - net-11
   - net-20
@@ -1619,6 +1629,7 @@ items:
     return:
       type: System.Int16
       description: To be added.
+  overload: System.Char.System#IConvertible#ToInt16*
   platform:
   - net-11
   - net-20
@@ -1647,6 +1658,7 @@ items:
     return:
       type: System.Int32
       description: To be added.
+  overload: System.Char.System#IConvertible#ToInt32*
   platform:
   - net-11
   - net-20
@@ -1675,6 +1687,7 @@ items:
     return:
       type: System.Int64
       description: To be added.
+  overload: System.Char.System#IConvertible#ToInt64*
   platform:
   - net-11
   - net-20
@@ -1703,6 +1716,7 @@ items:
     return:
       type: System.SByte
       description: To be added.
+  overload: System.Char.System#IConvertible#ToSByte*
   platform:
   - net-11
   - net-20
@@ -1731,6 +1745,7 @@ items:
     return:
       type: System.Single
       description: To be added.
+  overload: System.Char.System#IConvertible#ToSingle*
   platform:
   - net-11
   - net-20
@@ -1762,6 +1777,7 @@ items:
     return:
       type: System.Object
       description: To be added.
+  overload: System.Char.System#IConvertible#ToType*
   platform:
   - net-11
   - net-20
@@ -1790,6 +1806,7 @@ items:
     return:
       type: System.UInt16
       description: To be added.
+  overload: System.Char.System#IConvertible#ToUInt16*
   platform:
   - net-11
   - net-20
@@ -1818,6 +1835,7 @@ items:
     return:
       type: System.UInt32
       description: To be added.
+  overload: System.Char.System#IConvertible#ToUInt32*
   platform:
   - net-11
   - net-20
@@ -1846,6 +1864,7 @@ items:
     return:
       type: System.UInt64
       description: To be added.
+  overload: System.Char.System#IConvertible#ToUInt64*
   platform:
   - net-11
   - net-20
@@ -1932,6 +1951,7 @@ items:
     return:
       type: System.Char
       description: To be added.
+  overload: System.Char.ToLowerInvariant*
   platform:
   - net-11
   - net-20
@@ -2099,6 +2119,7 @@ items:
     return:
       type: System.Char
       description: To be added.
+  overload: System.Char.ToUpperInvariant*
   platform:
   - net-11
   - net-20
@@ -2129,6 +2150,7 @@ items:
     return:
       type: System.Boolean
       description: To be added.
+  overload: System.Char.TryParse*
   platform:
   - net-11
   - net-20
@@ -3534,6 +3556,11 @@ references:
   isExternal: false
   name: CompareTo
   nameWithType: Char.CompareTo
+- uid: System.Char.ConvertFromUtf32*
+  parent: System.Char
+  isExternal: false
+  name: ConvertFromUtf32
+  nameWithType: Char.ConvertFromUtf32
 - uid: System.Char.ConvertToUtf32*
   parent: System.Char
   isExternal: false
@@ -3544,11 +3571,21 @@ references:
   isExternal: false
   name: Equals
   nameWithType: Char.Equals
+- uid: System.Char.GetHashCode*
+  parent: System.Char
+  isExternal: false
+  name: GetHashCode
+  nameWithType: Char.GetHashCode
 - uid: System.Char.GetNumericValue*
   parent: System.Char
   isExternal: false
   name: GetNumericValue
   nameWithType: Char.GetNumericValue
+- uid: System.Char.GetTypeCode*
+  parent: System.Char
+  isExternal: false
+  name: GetTypeCode
+  nameWithType: Char.GetTypeCode
 - uid: System.Char.GetUnicodeCategory*
   parent: System.Char
   isExternal: false
@@ -3629,11 +3666,96 @@ references:
   isExternal: false
   name: IsWhiteSpace
   nameWithType: Char.IsWhiteSpace
+- uid: System.Char.Parse*
+  parent: System.Char
+  isExternal: false
+  name: Parse
+  nameWithType: Char.Parse
+- uid: System.Char.System#IConvertible#ToBoolean*
+  parent: System.Char
+  isExternal: false
+  name: System.IConvertible.ToBoolean
+  nameWithType: Char.System.IConvertible.ToBoolean
+- uid: System.Char.System#IConvertible#ToByte*
+  parent: System.Char
+  isExternal: false
+  name: System.IConvertible.ToByte
+  nameWithType: Char.System.IConvertible.ToByte
+- uid: System.Char.System#IConvertible#ToChar*
+  parent: System.Char
+  isExternal: false
+  name: System.IConvertible.ToChar
+  nameWithType: Char.System.IConvertible.ToChar
+- uid: System.Char.System#IConvertible#ToDateTime*
+  parent: System.Char
+  isExternal: false
+  name: System.IConvertible.ToDateTime
+  nameWithType: Char.System.IConvertible.ToDateTime
+- uid: System.Char.System#IConvertible#ToDecimal*
+  parent: System.Char
+  isExternal: false
+  name: System.IConvertible.ToDecimal
+  nameWithType: Char.System.IConvertible.ToDecimal
+- uid: System.Char.System#IConvertible#ToDouble*
+  parent: System.Char
+  isExternal: false
+  name: System.IConvertible.ToDouble
+  nameWithType: Char.System.IConvertible.ToDouble
+- uid: System.Char.System#IConvertible#ToInt16*
+  parent: System.Char
+  isExternal: false
+  name: System.IConvertible.ToInt16
+  nameWithType: Char.System.IConvertible.ToInt16
+- uid: System.Char.System#IConvertible#ToInt32*
+  parent: System.Char
+  isExternal: false
+  name: System.IConvertible.ToInt32
+  nameWithType: Char.System.IConvertible.ToInt32
+- uid: System.Char.System#IConvertible#ToInt64*
+  parent: System.Char
+  isExternal: false
+  name: System.IConvertible.ToInt64
+  nameWithType: Char.System.IConvertible.ToInt64
+- uid: System.Char.System#IConvertible#ToSByte*
+  parent: System.Char
+  isExternal: false
+  name: System.IConvertible.ToSByte
+  nameWithType: Char.System.IConvertible.ToSByte
+- uid: System.Char.System#IConvertible#ToSingle*
+  parent: System.Char
+  isExternal: false
+  name: System.IConvertible.ToSingle
+  nameWithType: Char.System.IConvertible.ToSingle
+- uid: System.Char.System#IConvertible#ToType*
+  parent: System.Char
+  isExternal: false
+  name: System.IConvertible.ToType
+  nameWithType: Char.System.IConvertible.ToType
+- uid: System.Char.System#IConvertible#ToUInt16*
+  parent: System.Char
+  isExternal: false
+  name: System.IConvertible.ToUInt16
+  nameWithType: Char.System.IConvertible.ToUInt16
+- uid: System.Char.System#IConvertible#ToUInt32*
+  parent: System.Char
+  isExternal: false
+  name: System.IConvertible.ToUInt32
+  nameWithType: Char.System.IConvertible.ToUInt32
+- uid: System.Char.System#IConvertible#ToUInt64*
+  parent: System.Char
+  isExternal: false
+  name: System.IConvertible.ToUInt64
+  nameWithType: Char.System.IConvertible.ToUInt64
 - uid: System.Char.ToLower*
   parent: System.Char
   isExternal: false
   name: ToLower
   nameWithType: Char.ToLower
+- uid: System.Char.ToLowerInvariant*
+  parent: System.Char
+  isExternal: false
+  name: ToLowerInvariant
+  nameWithType: Char.ToLowerInvariant
 - uid: System.Char.ToString*
   parent: System.Char
   isExternal: false
@@ -3644,3 +3766,13 @@ references:
   isExternal: false
   name: ToUpper
   nameWithType: Char.ToUpper
+- uid: System.Char.ToUpperInvariant*
+  parent: System.Char
+  isExternal: false
+  name: ToUpperInvariant
+  nameWithType: Char.ToUpperInvariant
+- uid: System.Char.TryParse*
+  parent: System.Char
+  isExternal: false
+  name: TryParse
+  nameWithType: Char.TryParse

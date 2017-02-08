@@ -124,6 +124,7 @@ items:
   syntax:
     content: public TaskFactory ();
     parameters: []
+  overload: System.Threading.Tasks.TaskFactory.#ctor*
   platform:
   - net-11
   - net-20
@@ -148,6 +149,7 @@ items:
     - id: cancellationToken
       type: System.Threading.CancellationToken
       description: To be added.
+  overload: System.Threading.Tasks.TaskFactory.#ctor*
   platform:
   - net-11
   - net-20
@@ -172,6 +174,7 @@ items:
     - id: scheduler
       type: System.Threading.Tasks.TaskScheduler
       description: To be added.
+  overload: System.Threading.Tasks.TaskFactory.#ctor*
   platform:
   - net-11
   - net-20
@@ -199,6 +202,7 @@ items:
     - id: continuationOptions
       type: System.Threading.Tasks.TaskContinuationOptions
       description: To be added.
+  overload: System.Threading.Tasks.TaskFactory.#ctor*
   platform:
   - net-11
   - net-20
@@ -232,6 +236,7 @@ items:
     - id: scheduler
       type: System.Threading.Tasks.TaskScheduler
       description: To be added.
+  overload: System.Threading.Tasks.TaskFactory.#ctor*
   platform:
   - net-11
   - net-20
@@ -255,6 +260,7 @@ items:
     return:
       type: System.Threading.CancellationToken
       description: To be added.
+  overload: System.Threading.Tasks.TaskFactory.CancellationToken*
   platform:
   - net-11
   - net-20
@@ -278,6 +284,7 @@ items:
     return:
       type: System.Threading.Tasks.TaskContinuationOptions
       description: To be added.
+  overload: System.Threading.Tasks.TaskFactory.ContinuationOptions*
   platform:
   - net-11
   - net-20
@@ -1413,6 +1420,7 @@ items:
     return:
       type: System.Threading.Tasks.TaskCreationOptions
       description: To be added.
+  overload: System.Threading.Tasks.TaskFactory.CreationOptions*
   platform:
   - net-11
   - net-20
@@ -2280,6 +2288,7 @@ items:
     return:
       type: System.Threading.Tasks.TaskScheduler
       description: To be added.
+  overload: System.Threading.Tasks.TaskFactory.Scheduler*
   platform:
   - net-11
   - net-20
@@ -5262,6 +5271,21 @@ references:
   name: TaskScheduler
   nameWithType: TaskScheduler
   fullName: System.Threading.Tasks.TaskScheduler
+- uid: System.Threading.Tasks.TaskFactory.#ctor*
+  parent: System.Threading.Tasks.TaskFactory
+  isExternal: false
+  name: TaskFactory
+  nameWithType: TaskFactory.TaskFactory
+- uid: System.Threading.Tasks.TaskFactory.CancellationToken*
+  parent: System.Threading.Tasks.TaskFactory
+  isExternal: false
+  name: CancellationToken
+  nameWithType: TaskFactory.CancellationToken
+- uid: System.Threading.Tasks.TaskFactory.ContinuationOptions*
+  parent: System.Threading.Tasks.TaskFactory
+  isExternal: false
+  name: ContinuationOptions
+  nameWithType: TaskFactory.ContinuationOptions
 - uid: System.Threading.Tasks.TaskFactory.ContinueWhenAll*
   parent: System.Threading.Tasks.TaskFactory
   isExternal: false
@@ -5302,6 +5326,11 @@ references:
   isExternal: false
   name: ContinueWhenAny<TAntecedentResult,TResult>
   nameWithType: TaskFactory.ContinueWhenAny<TAntecedentResult,TResult>
+- uid: System.Threading.Tasks.TaskFactory.CreationOptions*
+  parent: System.Threading.Tasks.TaskFactory
+  isExternal: false
+  name: CreationOptions
+  nameWithType: TaskFactory.CreationOptions
 - uid: System.Threading.Tasks.TaskFactory.FromAsync*
   parent: System.Threading.Tasks.TaskFactory
   isExternal: false
@@ -5342,6 +5371,11 @@ references:
   isExternal: false
   name: FromAsync<TArg1,TArg2,TArg3,TResult>
   nameWithType: TaskFactory.FromAsync<TArg1,TArg2,TArg3,TResult>
+- uid: System.Threading.Tasks.TaskFactory.Scheduler*
+  parent: System.Threading.Tasks.TaskFactory
+  isExternal: false
+  name: Scheduler
+  nameWithType: TaskFactory.Scheduler
 - uid: System.Threading.Tasks.TaskFactory.StartNew*
   parent: System.Threading.Tasks.TaskFactory
   isExternal: false

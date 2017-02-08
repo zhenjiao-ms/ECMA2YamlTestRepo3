@@ -99,6 +99,7 @@ items:
     - id: layoutKind
       type: System.Int16
       description: To be added.
+  overload: System.Runtime.InteropServices.StructLayoutAttribute.#ctor*
   platform:
   - net-11
   - net-20
@@ -123,6 +124,7 @@ items:
     - id: layoutKind
       type: System.Runtime.InteropServices.LayoutKind
       description: To be added.
+  overload: System.Runtime.InteropServices.StructLayoutAttribute.#ctor*
   platform:
   - net-11
   - net-20
@@ -215,6 +217,7 @@ items:
     return:
       type: System.Runtime.InteropServices.LayoutKind
       description: To be added.
+  overload: System.Runtime.InteropServices.StructLayoutAttribute.Value*
   platform:
   - net-11
   - net-20
@@ -295,3 +298,13 @@ references:
   name: LayoutKind
   nameWithType: LayoutKind
   fullName: System.Runtime.InteropServices.LayoutKind
+- uid: System.Runtime.InteropServices.StructLayoutAttribute.#ctor*
+  parent: System.Runtime.InteropServices.StructLayoutAttribute
+  isExternal: false
+  name: StructLayoutAttribute
+  nameWithType: StructLayoutAttribute.StructLayoutAttribute
+- uid: System.Runtime.InteropServices.StructLayoutAttribute.Value*
+  parent: System.Runtime.InteropServices.StructLayoutAttribute
+  isExternal: false
+  name: Value
+  nameWithType: StructLayoutAttribute.Value

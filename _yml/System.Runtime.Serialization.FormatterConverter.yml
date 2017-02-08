@@ -67,6 +67,7 @@ items:
   syntax:
     content: public FormatterConverter ();
     parameters: []
+  overload: System.Runtime.Serialization.FormatterConverter.#ctor*
   platform:
   - net-11
   - net-20
@@ -156,6 +157,7 @@ items:
     return:
       type: System.Boolean
       description: To be added.
+  overload: System.Runtime.Serialization.FormatterConverter.ToBoolean*
   platform:
   - net-11
   - net-20
@@ -183,6 +185,7 @@ items:
     return:
       type: System.Byte
       description: To be added.
+  overload: System.Runtime.Serialization.FormatterConverter.ToByte*
   platform:
   - net-11
   - net-20
@@ -210,6 +213,7 @@ items:
     return:
       type: System.Char
       description: To be added.
+  overload: System.Runtime.Serialization.FormatterConverter.ToChar*
   platform:
   - net-11
   - net-20
@@ -237,6 +241,7 @@ items:
     return:
       type: System.DateTime
       description: To be added.
+  overload: System.Runtime.Serialization.FormatterConverter.ToDateTime*
   platform:
   - net-11
   - net-20
@@ -264,6 +269,7 @@ items:
     return:
       type: System.Decimal
       description: To be added.
+  overload: System.Runtime.Serialization.FormatterConverter.ToDecimal*
   platform:
   - net-11
   - net-20
@@ -291,6 +297,7 @@ items:
     return:
       type: System.Double
       description: To be added.
+  overload: System.Runtime.Serialization.FormatterConverter.ToDouble*
   platform:
   - net-11
   - net-20
@@ -318,6 +325,7 @@ items:
     return:
       type: System.Int16
       description: To be added.
+  overload: System.Runtime.Serialization.FormatterConverter.ToInt16*
   platform:
   - net-11
   - net-20
@@ -345,6 +353,7 @@ items:
     return:
       type: System.Int32
       description: To be added.
+  overload: System.Runtime.Serialization.FormatterConverter.ToInt32*
   platform:
   - net-11
   - net-20
@@ -372,6 +381,7 @@ items:
     return:
       type: System.Int64
       description: To be added.
+  overload: System.Runtime.Serialization.FormatterConverter.ToInt64*
   platform:
   - net-11
   - net-20
@@ -399,6 +409,7 @@ items:
     return:
       type: System.SByte
       description: To be added.
+  overload: System.Runtime.Serialization.FormatterConverter.ToSByte*
   platform:
   - net-11
   - net-20
@@ -426,6 +437,7 @@ items:
     return:
       type: System.Single
       description: To be added.
+  overload: System.Runtime.Serialization.FormatterConverter.ToSingle*
   platform:
   - net-11
   - net-20
@@ -453,6 +465,7 @@ items:
     return:
       type: System.String
       description: To be added.
+  overload: System.Runtime.Serialization.FormatterConverter.ToString*
   platform:
   - net-11
   - net-20
@@ -480,6 +493,7 @@ items:
     return:
       type: System.UInt16
       description: To be added.
+  overload: System.Runtime.Serialization.FormatterConverter.ToUInt16*
   platform:
   - net-11
   - net-20
@@ -507,6 +521,7 @@ items:
     return:
       type: System.UInt32
       description: To be added.
+  overload: System.Runtime.Serialization.FormatterConverter.ToUInt32*
   platform:
   - net-11
   - net-20
@@ -534,6 +549,7 @@ items:
     return:
       type: System.UInt64
       description: To be added.
+  overload: System.Runtime.Serialization.FormatterConverter.ToUInt64*
   platform:
   - net-11
   - net-20
@@ -866,8 +882,88 @@ references:
   name: Object
   nameWithType: Object
   fullName: System.Object
+- uid: System.Runtime.Serialization.FormatterConverter.#ctor*
+  parent: System.Runtime.Serialization.FormatterConverter
+  isExternal: false
+  name: FormatterConverter
+  nameWithType: FormatterConverter.FormatterConverter
 - uid: System.Runtime.Serialization.FormatterConverter.Convert*
   parent: System.Runtime.Serialization.FormatterConverter
   isExternal: false
   name: Convert
   nameWithType: FormatterConverter.Convert
+- uid: System.Runtime.Serialization.FormatterConverter.ToBoolean*
+  parent: System.Runtime.Serialization.FormatterConverter
+  isExternal: false
+  name: ToBoolean
+  nameWithType: FormatterConverter.ToBoolean
+- uid: System.Runtime.Serialization.FormatterConverter.ToByte*
+  parent: System.Runtime.Serialization.FormatterConverter
+  isExternal: false
+  name: ToByte
+  nameWithType: FormatterConverter.ToByte
+- uid: System.Runtime.Serialization.FormatterConverter.ToChar*
+  parent: System.Runtime.Serialization.FormatterConverter
+  isExternal: false
+  name: ToChar
+  nameWithType: FormatterConverter.ToChar
+- uid: System.Runtime.Serialization.FormatterConverter.ToDateTime*
+  parent: System.Runtime.Serialization.FormatterConverter
+  isExternal: false
+  name: ToDateTime
+  nameWithType: FormatterConverter.ToDateTime
+- uid: System.Runtime.Serialization.FormatterConverter.ToDecimal*
+  parent: System.Runtime.Serialization.FormatterConverter
+  isExternal: false
+  name: ToDecimal
+  nameWithType: FormatterConverter.ToDecimal
+- uid: System.Runtime.Serialization.FormatterConverter.ToDouble*
+  parent: System.Runtime.Serialization.FormatterConverter
+  isExternal: false
+  name: ToDouble
+  nameWithType: FormatterConverter.ToDouble
+- uid: System.Runtime.Serialization.FormatterConverter.ToInt16*
+  parent: System.Runtime.Serialization.FormatterConverter
+  isExternal: false
+  name: ToInt16
+  nameWithType: FormatterConverter.ToInt16
+- uid: System.Runtime.Serialization.FormatterConverter.ToInt32*
+  parent: System.Runtime.Serialization.FormatterConverter
+  isExternal: false
+  name: ToInt32
+  nameWithType: FormatterConverter.ToInt32
+- uid: System.Runtime.Serialization.FormatterConverter.ToInt64*
+  parent: System.Runtime.Serialization.FormatterConverter
+  isExternal: false
+  name: ToInt64
+  nameWithType: FormatterConverter.ToInt64
+- uid: System.Runtime.Serialization.FormatterConverter.ToSByte*
+  parent: System.Runtime.Serialization.FormatterConverter
+  isExternal: false
+  name: ToSByte
+  nameWithType: FormatterConverter.ToSByte
+- uid: System.Runtime.Serialization.FormatterConverter.ToSingle*
+  parent: System.Runtime.Serialization.FormatterConverter
+  isExternal: false
+  name: ToSingle
+  nameWithType: FormatterConverter.ToSingle
+- uid: System.Runtime.Serialization.FormatterConverter.ToString*
+  parent: System.Runtime.Serialization.FormatterConverter
+  isExternal: false
+  name: ToString
+  nameWithType: FormatterConverter.ToString
+- uid: System.Runtime.Serialization.FormatterConverter.ToUInt16*
+  parent: System.Runtime.Serialization.FormatterConverter
+  isExternal: false
+  name: ToUInt16
+  nameWithType: FormatterConverter.ToUInt16
+- uid: System.Runtime.Serialization.FormatterConverter.ToUInt32*
+  parent: System.Runtime.Serialization.FormatterConverter
+  isExternal: false
+  name: ToUInt32
+  nameWithType: FormatterConverter.ToUInt32
+- uid: System.Runtime.Serialization.FormatterConverter.ToUInt64*
+  parent: System.Runtime.Serialization.FormatterConverter
+  isExternal: false
+  name: ToUInt64
+  nameWithType: FormatterConverter.ToUInt64

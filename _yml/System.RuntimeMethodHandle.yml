@@ -109,6 +109,7 @@ items:
     return:
       type: System.IntPtr
       description: To be added.
+  overload: System.RuntimeMethodHandle.GetFunctionPointer*
   platform:
   - net-11
   - net-20
@@ -133,6 +134,7 @@ items:
     return:
       type: System.Int32
       description: To be added.
+  overload: System.RuntimeMethodHandle.GetHashCode*
   platform:
   - net-11
   - net-20
@@ -160,6 +162,7 @@ items:
     - id: context
       type: System.Runtime.Serialization.StreamingContext
       description: To be added.
+  overload: System.RuntimeMethodHandle.GetObjectData*
   platform:
   - net-11
   - net-20
@@ -190,6 +193,7 @@ items:
     return:
       type: System.Boolean
       description: To be added.
+  overload: System.RuntimeMethodHandle.op_Equality*
   platform:
   - net-11
   - net-20
@@ -220,6 +224,7 @@ items:
     return:
       type: System.Boolean
       description: To be added.
+  overload: System.RuntimeMethodHandle.op_Inequality*
   platform:
   - net-11
   - net-20
@@ -243,6 +248,7 @@ items:
     return:
       type: System.IntPtr
       description: To be added.
+  overload: System.RuntimeMethodHandle.Value*
   platform:
   - net-11
   - net-20
@@ -394,3 +400,33 @@ references:
   isExternal: false
   name: Equals
   nameWithType: RuntimeMethodHandle.Equals
+- uid: System.RuntimeMethodHandle.GetFunctionPointer*
+  parent: System.RuntimeMethodHandle
+  isExternal: false
+  name: GetFunctionPointer
+  nameWithType: RuntimeMethodHandle.GetFunctionPointer
+- uid: System.RuntimeMethodHandle.GetHashCode*
+  parent: System.RuntimeMethodHandle
+  isExternal: false
+  name: GetHashCode
+  nameWithType: RuntimeMethodHandle.GetHashCode
+- uid: System.RuntimeMethodHandle.GetObjectData*
+  parent: System.RuntimeMethodHandle
+  isExternal: false
+  name: GetObjectData
+  nameWithType: RuntimeMethodHandle.GetObjectData
+- uid: System.RuntimeMethodHandle.op_Equality*
+  parent: System.RuntimeMethodHandle
+  isExternal: false
+  name: op_Equality
+  nameWithType: RuntimeMethodHandle.op_Equality
+- uid: System.RuntimeMethodHandle.op_Inequality*
+  parent: System.RuntimeMethodHandle
+  isExternal: false
+  name: op_Inequality
+  nameWithType: RuntimeMethodHandle.op_Inequality
+- uid: System.RuntimeMethodHandle.Value*
+  parent: System.RuntimeMethodHandle
+  isExternal: false
+  name: Value
+  nameWithType: RuntimeMethodHandle.Value

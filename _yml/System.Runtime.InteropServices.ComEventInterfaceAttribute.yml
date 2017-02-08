@@ -99,6 +99,7 @@ items:
     - id: EventProvider
       type: System.Type
       description: To be added.
+  overload: System.Runtime.InteropServices.ComEventInterfaceAttribute.#ctor*
   platform:
   - net-11
   - net-20
@@ -122,6 +123,7 @@ items:
     return:
       type: System.Type
       description: To be added.
+  overload: System.Runtime.InteropServices.ComEventInterfaceAttribute.EventProvider*
   platform:
   - net-11
   - net-20
@@ -145,6 +147,7 @@ items:
     return:
       type: System.Type
       description: To be added.
+  overload: System.Runtime.InteropServices.ComEventInterfaceAttribute.SourceInterface*
   platform:
   - net-11
   - net-20
@@ -195,3 +198,18 @@ references:
   name: Type
   nameWithType: Type
   fullName: System.Type
+- uid: System.Runtime.InteropServices.ComEventInterfaceAttribute.#ctor*
+  parent: System.Runtime.InteropServices.ComEventInterfaceAttribute
+  isExternal: false
+  name: ComEventInterfaceAttribute
+  nameWithType: ComEventInterfaceAttribute.ComEventInterfaceAttribute
+- uid: System.Runtime.InteropServices.ComEventInterfaceAttribute.EventProvider*
+  parent: System.Runtime.InteropServices.ComEventInterfaceAttribute
+  isExternal: false
+  name: EventProvider
+  nameWithType: ComEventInterfaceAttribute.EventProvider
+- uid: System.Runtime.InteropServices.ComEventInterfaceAttribute.SourceInterface*
+  parent: System.Runtime.InteropServices.ComEventInterfaceAttribute
+  isExternal: false
+  name: SourceInterface
+  nameWithType: ComEventInterfaceAttribute.SourceInterface

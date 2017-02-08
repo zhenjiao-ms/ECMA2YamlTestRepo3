@@ -70,6 +70,7 @@ items:
     - id: flags
       type: System.Security.AccessControl.AuditFlags
       description: To be added.
+  overload: System.Security.AccessControl.AuditRule`1.#ctor*
   platform:
   - net-11
   - net-20
@@ -100,6 +101,7 @@ items:
     - id: flags
       type: System.Security.AccessControl.AuditFlags
       description: To be added.
+  overload: System.Security.AccessControl.AuditRule`1.#ctor*
   platform:
   - net-11
   - net-20
@@ -136,6 +138,7 @@ items:
     - id: flags
       type: System.Security.AccessControl.AuditFlags
       description: To be added.
+  overload: System.Security.AccessControl.AuditRule`1.#ctor*
   platform:
   - net-11
   - net-20
@@ -172,6 +175,7 @@ items:
     - id: flags
       type: System.Security.AccessControl.AuditFlags
       description: To be added.
+  overload: System.Security.AccessControl.AuditRule`1.#ctor*
   platform:
   - net-11
   - net-20
@@ -195,6 +199,7 @@ items:
     return:
       type: T
       description: To be added.
+  overload: System.Security.AccessControl.AuditRule`1.Rights*
   platform:
   - net-11
   - net-20
@@ -335,3 +340,13 @@ references:
   name: T
   nameWithType: T
   fullName: T
+- uid: System.Security.AccessControl.AuditRule`1.#ctor*
+  parent: System.Security.AccessControl.AuditRule`1
+  isExternal: false
+  name: AuditRule<T>
+  nameWithType: AuditRule<T>.AuditRule<T>
+- uid: System.Security.AccessControl.AuditRule`1.Rights*
+  parent: System.Security.AccessControl.AuditRule`1
+  isExternal: false
+  name: Rights
+  nameWithType: AuditRule<T>.Rights

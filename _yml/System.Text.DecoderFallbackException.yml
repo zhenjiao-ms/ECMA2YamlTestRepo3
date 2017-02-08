@@ -66,6 +66,7 @@ items:
   syntax:
     content: public DecoderFallbackException ();
     parameters: []
+  overload: System.Text.DecoderFallbackException.#ctor*
   platform:
   - net-11
   - net-20
@@ -90,6 +91,7 @@ items:
     - id: message
       type: System.String
       description: To be added.
+  overload: System.Text.DecoderFallbackException.#ctor*
   platform:
   - net-11
   - net-20
@@ -117,6 +119,7 @@ items:
     - id: innerException
       type: System.Exception
       description: To be added.
+  overload: System.Text.DecoderFallbackException.#ctor*
   platform:
   - net-11
   - net-20
@@ -147,6 +150,7 @@ items:
     - id: index
       type: System.Int32
       description: To be added.
+  overload: System.Text.DecoderFallbackException.#ctor*
   platform:
   - net-11
   - net-20
@@ -170,6 +174,7 @@ items:
     return:
       type: System.Byte[]
       description: To be added.
+  overload: System.Text.DecoderFallbackException.BytesUnknown*
   platform:
   - net-11
   - net-20
@@ -193,6 +198,7 @@ items:
     return:
       type: System.Int32
       description: To be added.
+  overload: System.Text.DecoderFallbackException.Index*
   platform:
   - net-11
   - net-20
@@ -285,3 +291,18 @@ references:
   name: Int32
   nameWithType: Int32
   fullName: System.Int32
+- uid: System.Text.DecoderFallbackException.#ctor*
+  parent: System.Text.DecoderFallbackException
+  isExternal: false
+  name: DecoderFallbackException
+  nameWithType: DecoderFallbackException.DecoderFallbackException
+- uid: System.Text.DecoderFallbackException.BytesUnknown*
+  parent: System.Text.DecoderFallbackException
+  isExternal: false
+  name: BytesUnknown
+  nameWithType: DecoderFallbackException.BytesUnknown
+- uid: System.Text.DecoderFallbackException.Index*
+  parent: System.Text.DecoderFallbackException
+  isExternal: false
+  name: Index
+  nameWithType: DecoderFallbackException.Index

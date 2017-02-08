@@ -66,6 +66,7 @@ items:
   syntax:
     content: public ExecutionEngineException ();
     parameters: []
+  overload: System.ExecutionEngineException.#ctor*
   platform:
   - net-11
   - net-20
@@ -90,6 +91,7 @@ items:
     - id: message
       type: System.String
       description: To be added.
+  overload: System.ExecutionEngineException.#ctor*
   platform:
   - net-11
   - net-20
@@ -117,6 +119,7 @@ items:
     - id: innerException
       type: System.Exception
       description: To be added.
+  overload: System.ExecutionEngineException.#ctor*
   platform:
   - net-11
   - net-20
@@ -161,3 +164,8 @@ references:
   name: Exception
   nameWithType: Exception
   fullName: System.Exception
+- uid: System.ExecutionEngineException.#ctor*
+  parent: System.ExecutionEngineException
+  isExternal: false
+  name: ExecutionEngineException
+  nameWithType: ExecutionEngineException.ExecutionEngineException

@@ -43,6 +43,7 @@ items:
     return:
       type: System.Collections.Generic.IEnumerator`1
       description: To be added.
+  overload: System.Collections.Generic.IEnumerable`1.GetEnumerator*
   platform:
   - net-11
   - net-20
@@ -60,3 +61,8 @@ references:
   name: IEnumerator<T>
   nameWithType: IEnumerator<T>
   fullName: System.Collections.Generic.IEnumerator<T>
+- uid: System.Collections.Generic.IEnumerable`1.GetEnumerator*
+  parent: System.Collections.Generic.IEnumerable`1
+  isExternal: false
+  name: GetEnumerator
+  nameWithType: IEnumerable<T>.GetEnumerator

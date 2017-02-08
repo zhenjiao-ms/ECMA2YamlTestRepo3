@@ -165,6 +165,7 @@ items:
     - id: pset
       type: System.Security.PermissionSet
       description: To be added.
+  overload: System.Reflection.Emit.ConstructorBuilder.AddDeclarativeSecurity*
   platform:
   - net-11
   - net-20
@@ -188,6 +189,7 @@ items:
     return:
       type: System.Reflection.MethodAttributes
       description: To be added.
+  overload: System.Reflection.Emit.ConstructorBuilder.Attributes*
   platform:
   - net-11
   - net-20
@@ -211,6 +213,7 @@ items:
     return:
       type: System.Reflection.CallingConventions
       description: To be added.
+  overload: System.Reflection.Emit.ConstructorBuilder.CallingConvention*
   platform:
   - net-11
   - net-20
@@ -234,6 +237,7 @@ items:
     return:
       type: System.Type
       description: To be added.
+  overload: System.Reflection.Emit.ConstructorBuilder.DeclaringType*
   platform:
   - net-11
   - net-20
@@ -267,6 +271,7 @@ items:
     return:
       type: System.Reflection.Emit.ParameterBuilder
       description: To be added.
+  overload: System.Reflection.Emit.ConstructorBuilder.DefineParameter*
   platform:
   - net-11
   - net-20
@@ -403,6 +408,7 @@ items:
     return:
       type: System.Reflection.MethodImplAttributes
       description: To be added.
+  overload: System.Reflection.Emit.ConstructorBuilder.GetMethodImplementationFlags*
   platform:
   - net-11
   - net-20
@@ -427,6 +433,7 @@ items:
     return:
       type: System.Reflection.Module
       description: To be added.
+  overload: System.Reflection.Emit.ConstructorBuilder.GetModule*
   platform:
   - net-11
   - net-20
@@ -451,6 +458,7 @@ items:
     return:
       type: System.Reflection.ParameterInfo[]
       description: To be added.
+  overload: System.Reflection.Emit.ConstructorBuilder.GetParameters*
   platform:
   - net-11
   - net-20
@@ -475,6 +483,7 @@ items:
     return:
       type: System.Reflection.Emit.MethodToken
       description: To be added.
+  overload: System.Reflection.Emit.ConstructorBuilder.GetToken*
   platform:
   - net-11
   - net-20
@@ -498,6 +507,7 @@ items:
     return:
       type: System.Boolean
       description: To be added.
+  overload: System.Reflection.Emit.ConstructorBuilder.InitLocals*
   platform:
   - net-11
   - net-20
@@ -605,6 +615,7 @@ items:
     return:
       type: System.Boolean
       description: To be added.
+  overload: System.Reflection.Emit.ConstructorBuilder.IsDefined*
   platform:
   - net-11
   - net-20
@@ -628,6 +639,7 @@ items:
     return:
       type: System.RuntimeMethodHandle
       description: To be added.
+  overload: System.Reflection.Emit.ConstructorBuilder.MethodHandle*
   platform:
   - net-11
   - net-20
@@ -651,6 +663,7 @@ items:
     return:
       type: System.Reflection.Module
       description: To be added.
+  overload: System.Reflection.Emit.ConstructorBuilder.Module*
   platform:
   - net-11
   - net-20
@@ -674,6 +687,7 @@ items:
     return:
       type: System.String
       description: To be added.
+  overload: System.Reflection.Emit.ConstructorBuilder.Name*
   platform:
   - net-11
   - net-20
@@ -697,6 +711,7 @@ items:
     return:
       type: System.Type
       description: To be added.
+  overload: System.Reflection.Emit.ConstructorBuilder.ReflectedType*
   platform:
   - net-11
   - net-20
@@ -720,6 +735,7 @@ items:
     return:
       type: System.Type
       description: To be added.
+  overload: System.Reflection.Emit.ConstructorBuilder.ReturnType*
   platform:
   - net-11
   - net-20
@@ -797,6 +813,7 @@ items:
     - id: attributes
       type: System.Reflection.MethodImplAttributes
       description: To be added.
+  overload: System.Reflection.Emit.ConstructorBuilder.SetImplementationFlags*
   platform:
   - net-11
   - net-20
@@ -833,6 +850,7 @@ items:
     - id: tokenFixups
       type: System.Collections.Generic.IEnumerable{System.Int32}
       description: To be added.
+  overload: System.Reflection.Emit.ConstructorBuilder.SetMethodBody*
   platform:
   - net-11
   - net-20
@@ -860,6 +878,7 @@ items:
     - id: data
       type: System.Byte[]
       description: To be added.
+  overload: System.Reflection.Emit.ConstructorBuilder.SetSymCustomAttribute*
   platform:
   - net-11
   - net-20
@@ -883,6 +902,7 @@ items:
     return:
       type: System.String
       description: To be added.
+  overload: System.Reflection.Emit.ConstructorBuilder.Signature*
   platform:
   - net-11
   - net-20
@@ -920,6 +940,7 @@ items:
     - id: rgDispId
       type: System.IntPtr
       description: To be added.
+  overload: System.Reflection.Emit.ConstructorBuilder.System#Runtime#InteropServices#_ConstructorBuilder#GetIDsOfNames*
   platform:
   - net-11
   - net-20
@@ -951,6 +972,7 @@ items:
     - id: ppTInfo
       type: System.IntPtr
       description: To be added.
+  overload: System.Reflection.Emit.ConstructorBuilder.System#Runtime#InteropServices#_ConstructorBuilder#GetTypeInfo*
   platform:
   - net-11
   - net-20
@@ -976,6 +998,7 @@ items:
     - id: pcTInfo
       type: System.UInt32
       description: To be added.
+  overload: System.Reflection.Emit.ConstructorBuilder.System#Runtime#InteropServices#_ConstructorBuilder#GetTypeInfoCount*
   platform:
   - net-11
   - net-20
@@ -1022,6 +1045,7 @@ items:
     - id: puArgErr
       type: System.IntPtr
       description: To be added.
+  overload: System.Reflection.Emit.ConstructorBuilder.System#Runtime#InteropServices#_ConstructorBuilder#Invoke*
   platform:
   - net-11
   - net-20
@@ -1046,6 +1070,7 @@ items:
     return:
       type: System.String
       description: To be added.
+  overload: System.Reflection.Emit.ConstructorBuilder.ToString*
   platform:
   - net-11
   - net-20
@@ -1678,6 +1703,31 @@ references:
   name: String
   nameWithType: String
   fullName: System.String
+- uid: System.Reflection.Emit.ConstructorBuilder.AddDeclarativeSecurity*
+  parent: System.Reflection.Emit.ConstructorBuilder
+  isExternal: false
+  name: AddDeclarativeSecurity
+  nameWithType: ConstructorBuilder.AddDeclarativeSecurity
+- uid: System.Reflection.Emit.ConstructorBuilder.Attributes*
+  parent: System.Reflection.Emit.ConstructorBuilder
+  isExternal: false
+  name: Attributes
+  nameWithType: ConstructorBuilder.Attributes
+- uid: System.Reflection.Emit.ConstructorBuilder.CallingConvention*
+  parent: System.Reflection.Emit.ConstructorBuilder
+  isExternal: false
+  name: CallingConvention
+  nameWithType: ConstructorBuilder.CallingConvention
+- uid: System.Reflection.Emit.ConstructorBuilder.DeclaringType*
+  parent: System.Reflection.Emit.ConstructorBuilder
+  isExternal: false
+  name: DeclaringType
+  nameWithType: ConstructorBuilder.DeclaringType
+- uid: System.Reflection.Emit.ConstructorBuilder.DefineParameter*
+  parent: System.Reflection.Emit.ConstructorBuilder
+  isExternal: false
+  name: DefineParameter
+  nameWithType: ConstructorBuilder.DefineParameter
 - uid: System.Reflection.Emit.ConstructorBuilder.GetCustomAttributes*
   parent: System.Reflection.Emit.ConstructorBuilder
   isExternal: false
@@ -1688,13 +1738,113 @@ references:
   isExternal: false
   name: GetILGenerator
   nameWithType: ConstructorBuilder.GetILGenerator
+- uid: System.Reflection.Emit.ConstructorBuilder.GetMethodImplementationFlags*
+  parent: System.Reflection.Emit.ConstructorBuilder
+  isExternal: false
+  name: GetMethodImplementationFlags
+  nameWithType: ConstructorBuilder.GetMethodImplementationFlags
+- uid: System.Reflection.Emit.ConstructorBuilder.GetModule*
+  parent: System.Reflection.Emit.ConstructorBuilder
+  isExternal: false
+  name: GetModule
+  nameWithType: ConstructorBuilder.GetModule
+- uid: System.Reflection.Emit.ConstructorBuilder.GetParameters*
+  parent: System.Reflection.Emit.ConstructorBuilder
+  isExternal: false
+  name: GetParameters
+  nameWithType: ConstructorBuilder.GetParameters
+- uid: System.Reflection.Emit.ConstructorBuilder.GetToken*
+  parent: System.Reflection.Emit.ConstructorBuilder
+  isExternal: false
+  name: GetToken
+  nameWithType: ConstructorBuilder.GetToken
+- uid: System.Reflection.Emit.ConstructorBuilder.InitLocals*
+  parent: System.Reflection.Emit.ConstructorBuilder
+  isExternal: false
+  name: InitLocals
+  nameWithType: ConstructorBuilder.InitLocals
 - uid: System.Reflection.Emit.ConstructorBuilder.Invoke*
   parent: System.Reflection.Emit.ConstructorBuilder
   isExternal: false
   name: Invoke
   nameWithType: ConstructorBuilder.Invoke
+- uid: System.Reflection.Emit.ConstructorBuilder.IsDefined*
+  parent: System.Reflection.Emit.ConstructorBuilder
+  isExternal: false
+  name: IsDefined
+  nameWithType: ConstructorBuilder.IsDefined
+- uid: System.Reflection.Emit.ConstructorBuilder.MethodHandle*
+  parent: System.Reflection.Emit.ConstructorBuilder
+  isExternal: false
+  name: MethodHandle
+  nameWithType: ConstructorBuilder.MethodHandle
+- uid: System.Reflection.Emit.ConstructorBuilder.Module*
+  parent: System.Reflection.Emit.ConstructorBuilder
+  isExternal: false
+  name: Module
+  nameWithType: ConstructorBuilder.Module
+- uid: System.Reflection.Emit.ConstructorBuilder.Name*
+  parent: System.Reflection.Emit.ConstructorBuilder
+  isExternal: false
+  name: Name
+  nameWithType: ConstructorBuilder.Name
+- uid: System.Reflection.Emit.ConstructorBuilder.ReflectedType*
+  parent: System.Reflection.Emit.ConstructorBuilder
+  isExternal: false
+  name: ReflectedType
+  nameWithType: ConstructorBuilder.ReflectedType
+- uid: System.Reflection.Emit.ConstructorBuilder.ReturnType*
+  parent: System.Reflection.Emit.ConstructorBuilder
+  isExternal: false
+  name: ReturnType
+  nameWithType: ConstructorBuilder.ReturnType
 - uid: System.Reflection.Emit.ConstructorBuilder.SetCustomAttribute*
   parent: System.Reflection.Emit.ConstructorBuilder
   isExternal: false
   name: SetCustomAttribute
   nameWithType: ConstructorBuilder.SetCustomAttribute
+- uid: System.Reflection.Emit.ConstructorBuilder.SetImplementationFlags*
+  parent: System.Reflection.Emit.ConstructorBuilder
+  isExternal: false
+  name: SetImplementationFlags
+  nameWithType: ConstructorBuilder.SetImplementationFlags
+- uid: System.Reflection.Emit.ConstructorBuilder.SetMethodBody*
+  parent: System.Reflection.Emit.ConstructorBuilder
+  isExternal: false
+  name: SetMethodBody
+  nameWithType: ConstructorBuilder.SetMethodBody
+- uid: System.Reflection.Emit.ConstructorBuilder.SetSymCustomAttribute*
+  parent: System.Reflection.Emit.ConstructorBuilder
+  isExternal: false
+  name: SetSymCustomAttribute
+  nameWithType: ConstructorBuilder.SetSymCustomAttribute
+- uid: System.Reflection.Emit.ConstructorBuilder.Signature*
+  parent: System.Reflection.Emit.ConstructorBuilder
+  isExternal: false
+  name: Signature
+  nameWithType: ConstructorBuilder.Signature
+- uid: System.Reflection.Emit.ConstructorBuilder.System#Runtime#InteropServices#_ConstructorBuilder#GetIDsOfNames*
+  parent: System.Reflection.Emit.ConstructorBuilder
+  isExternal: false
+  name: System.Runtime.InteropServices._ConstructorBuilder.GetIDsOfNames
+  nameWithType: ConstructorBuilder.System.Runtime.InteropServices._ConstructorBuilder.GetIDsOfNames
+- uid: System.Reflection.Emit.ConstructorBuilder.System#Runtime#InteropServices#_ConstructorBuilder#GetTypeInfo*
+  parent: System.Reflection.Emit.ConstructorBuilder
+  isExternal: false
+  name: System.Runtime.InteropServices._ConstructorBuilder.GetTypeInfo
+  nameWithType: ConstructorBuilder.System.Runtime.InteropServices._ConstructorBuilder.GetTypeInfo
+- uid: System.Reflection.Emit.ConstructorBuilder.System#Runtime#InteropServices#_ConstructorBuilder#GetTypeInfoCount*
+  parent: System.Reflection.Emit.ConstructorBuilder
+  isExternal: false
+  name: System.Runtime.InteropServices._ConstructorBuilder.GetTypeInfoCount
+  nameWithType: ConstructorBuilder.System.Runtime.InteropServices._ConstructorBuilder.GetTypeInfoCount
+- uid: System.Reflection.Emit.ConstructorBuilder.System#Runtime#InteropServices#_ConstructorBuilder#Invoke*
+  parent: System.Reflection.Emit.ConstructorBuilder
+  isExternal: false
+  name: System.Runtime.InteropServices._ConstructorBuilder.Invoke
+  nameWithType: ConstructorBuilder.System.Runtime.InteropServices._ConstructorBuilder.Invoke
+- uid: System.Reflection.Emit.ConstructorBuilder.ToString*
+  parent: System.Reflection.Emit.ConstructorBuilder
+  isExternal: false
+  name: ToString
+  nameWithType: ConstructorBuilder.ToString

@@ -51,6 +51,7 @@ items:
     - id: stateMachine
       type: TStateMachine
       description: To be added.
+  overload: System.Runtime.CompilerServices.AsyncVoidMethodBuilder.AwaitOnCompleted<TAwaiter,TStateMachine>*
   platform:
   - net-11
   - net-20
@@ -78,6 +79,7 @@ items:
     - id: stateMachine
       type: TStateMachine
       description: To be added.
+  overload: System.Runtime.CompilerServices.AsyncVoidMethodBuilder.AwaitUnsafeOnCompleted<TAwaiter,TStateMachine>*
   platform:
   - net-11
   - net-20
@@ -102,6 +104,7 @@ items:
     return:
       type: System.Runtime.CompilerServices.AsyncVoidMethodBuilder
       description: To be added.
+  overload: System.Runtime.CompilerServices.AsyncVoidMethodBuilder.Create*
   platform:
   - net-11
   - net-20
@@ -126,6 +129,7 @@ items:
     - id: exception
       type: System.Exception
       description: To be added.
+  overload: System.Runtime.CompilerServices.AsyncVoidMethodBuilder.SetException*
   platform:
   - net-11
   - net-20
@@ -147,6 +151,7 @@ items:
   syntax:
     content: public void SetResult ();
     parameters: []
+  overload: System.Runtime.CompilerServices.AsyncVoidMethodBuilder.SetResult*
   platform:
   - net-11
   - net-20
@@ -171,6 +176,7 @@ items:
     - id: stateMachine
       type: System.Runtime.CompilerServices.IAsyncStateMachine
       description: To be added.
+  overload: System.Runtime.CompilerServices.AsyncVoidMethodBuilder.SetStateMachine*
   platform:
   - net-11
   - net-20
@@ -195,6 +201,7 @@ items:
     - id: stateMachine
       type: TStateMachine
       description: To be added.
+  overload: System.Runtime.CompilerServices.AsyncVoidMethodBuilder.Start<TStateMachine>*
   platform:
   - net-11
   - net-20
@@ -293,3 +300,38 @@ references:
   name: TStateMachine
   nameWithType: TStateMachine
   fullName: TStateMachine
+- uid: System.Runtime.CompilerServices.AsyncVoidMethodBuilder.AwaitOnCompleted<TAwaiter,TStateMachine>*
+  parent: System.Runtime.CompilerServices.AsyncVoidMethodBuilder
+  isExternal: false
+  name: AwaitOnCompleted<TAwaiter,TStateMachine>
+  nameWithType: AsyncVoidMethodBuilder.AwaitOnCompleted<TAwaiter,TStateMachine>
+- uid: System.Runtime.CompilerServices.AsyncVoidMethodBuilder.AwaitUnsafeOnCompleted<TAwaiter,TStateMachine>*
+  parent: System.Runtime.CompilerServices.AsyncVoidMethodBuilder
+  isExternal: false
+  name: AwaitUnsafeOnCompleted<TAwaiter,TStateMachine>
+  nameWithType: AsyncVoidMethodBuilder.AwaitUnsafeOnCompleted<TAwaiter,TStateMachine>
+- uid: System.Runtime.CompilerServices.AsyncVoidMethodBuilder.Create*
+  parent: System.Runtime.CompilerServices.AsyncVoidMethodBuilder
+  isExternal: false
+  name: Create
+  nameWithType: AsyncVoidMethodBuilder.Create
+- uid: System.Runtime.CompilerServices.AsyncVoidMethodBuilder.SetException*
+  parent: System.Runtime.CompilerServices.AsyncVoidMethodBuilder
+  isExternal: false
+  name: SetException
+  nameWithType: AsyncVoidMethodBuilder.SetException
+- uid: System.Runtime.CompilerServices.AsyncVoidMethodBuilder.SetResult*
+  parent: System.Runtime.CompilerServices.AsyncVoidMethodBuilder
+  isExternal: false
+  name: SetResult
+  nameWithType: AsyncVoidMethodBuilder.SetResult
+- uid: System.Runtime.CompilerServices.AsyncVoidMethodBuilder.SetStateMachine*
+  parent: System.Runtime.CompilerServices.AsyncVoidMethodBuilder
+  isExternal: false
+  name: SetStateMachine
+  nameWithType: AsyncVoidMethodBuilder.SetStateMachine
+- uid: System.Runtime.CompilerServices.AsyncVoidMethodBuilder.Start<TStateMachine>*
+  parent: System.Runtime.CompilerServices.AsyncVoidMethodBuilder
+  isExternal: false
+  name: Start<TStateMachine>
+  nameWithType: AsyncVoidMethodBuilder.Start<TStateMachine>

@@ -64,6 +64,7 @@ items:
     - id: invalidHandleValue
       type: System.IntPtr
       description: To be added.
+  overload: System.Runtime.InteropServices.CriticalHandle.#ctor*
   platform:
   - net-11
   - net-20
@@ -85,6 +86,7 @@ items:
   syntax:
     content: public void Close ();
     parameters: []
+  overload: System.Runtime.InteropServices.CriticalHandle.Close*
   platform:
   - net-11
   - net-20
@@ -153,6 +155,7 @@ items:
   syntax:
     content: ~CriticalHandle ();
     parameters: []
+  overload: System.Runtime.InteropServices.CriticalHandle.Finalize*
   platform:
   - net-11
   - net-20
@@ -199,6 +202,7 @@ items:
     return:
       type: System.Boolean
       description: To be added.
+  overload: System.Runtime.InteropServices.CriticalHandle.IsClosed*
   platform:
   - net-11
   - net-20
@@ -222,6 +226,7 @@ items:
     return:
       type: System.Boolean
       description: To be added.
+  overload: System.Runtime.InteropServices.CriticalHandle.IsInvalid*
   platform:
   - net-11
   - net-20
@@ -246,6 +251,7 @@ items:
     return:
       type: System.Boolean
       description: To be added.
+  overload: System.Runtime.InteropServices.CriticalHandle.ReleaseHandle*
   platform:
   - net-11
   - net-20
@@ -270,6 +276,7 @@ items:
     - id: handle
       type: System.IntPtr
       description: To be added.
+  overload: System.Runtime.InteropServices.CriticalHandle.SetHandle*
   platform:
   - net-11
   - net-20
@@ -291,6 +298,7 @@ items:
   syntax:
     content: public void SetHandleAsInvalid ();
     parameters: []
+  overload: System.Runtime.InteropServices.CriticalHandle.SetHandleAsInvalid*
   platform:
   - net-11
   - net-20
@@ -407,8 +415,48 @@ references:
   name: SetHandleAsInvalid()
   nameWithType: CriticalHandle.SetHandleAsInvalid()
   fullName: System.Runtime.InteropServices.CriticalHandle.SetHandleAsInvalid()
+- uid: System.Runtime.InteropServices.CriticalHandle.#ctor*
+  parent: System.Runtime.InteropServices.CriticalHandle
+  isExternal: false
+  name: CriticalHandle
+  nameWithType: CriticalHandle.CriticalHandle
+- uid: System.Runtime.InteropServices.CriticalHandle.Close*
+  parent: System.Runtime.InteropServices.CriticalHandle
+  isExternal: false
+  name: Close
+  nameWithType: CriticalHandle.Close
 - uid: System.Runtime.InteropServices.CriticalHandle.Dispose*
   parent: System.Runtime.InteropServices.CriticalHandle
   isExternal: false
   name: Dispose
   nameWithType: CriticalHandle.Dispose
+- uid: System.Runtime.InteropServices.CriticalHandle.Finalize*
+  parent: System.Runtime.InteropServices.CriticalHandle
+  isExternal: false
+  name: Finalize
+  nameWithType: CriticalHandle.Finalize
+- uid: System.Runtime.InteropServices.CriticalHandle.IsClosed*
+  parent: System.Runtime.InteropServices.CriticalHandle
+  isExternal: false
+  name: IsClosed
+  nameWithType: CriticalHandle.IsClosed
+- uid: System.Runtime.InteropServices.CriticalHandle.IsInvalid*
+  parent: System.Runtime.InteropServices.CriticalHandle
+  isExternal: false
+  name: IsInvalid
+  nameWithType: CriticalHandle.IsInvalid
+- uid: System.Runtime.InteropServices.CriticalHandle.ReleaseHandle*
+  parent: System.Runtime.InteropServices.CriticalHandle
+  isExternal: false
+  name: ReleaseHandle
+  nameWithType: CriticalHandle.ReleaseHandle
+- uid: System.Runtime.InteropServices.CriticalHandle.SetHandle*
+  parent: System.Runtime.InteropServices.CriticalHandle
+  isExternal: false
+  name: SetHandle
+  nameWithType: CriticalHandle.SetHandle
+- uid: System.Runtime.InteropServices.CriticalHandle.SetHandleAsInvalid*
+  parent: System.Runtime.InteropServices.CriticalHandle
+  isExternal: false
+  name: SetHandleAsInvalid
+  nameWithType: CriticalHandle.SetHandleAsInvalid

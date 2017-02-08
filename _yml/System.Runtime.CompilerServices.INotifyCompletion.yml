@@ -39,6 +39,7 @@ items:
     - id: continuation
       type: System.Action
       description: To be added.
+  overload: System.Runtime.CompilerServices.INotifyCompletion.OnCompleted*
   platform:
   - net-11
   - net-20
@@ -56,3 +57,8 @@ references:
   name: Action
   nameWithType: Action
   fullName: System.Action
+- uid: System.Runtime.CompilerServices.INotifyCompletion.OnCompleted*
+  parent: System.Runtime.CompilerServices.INotifyCompletion
+  isExternal: false
+  name: OnCompleted
+  nameWithType: INotifyCompletion.OnCompleted

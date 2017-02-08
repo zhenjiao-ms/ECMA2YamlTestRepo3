@@ -49,6 +49,7 @@ items:
     - id: pClassID
       type: System.Guid
       description: To be added.
+  overload: System.Runtime.InteropServices.ComTypes.IPersistFile.GetClassID*
   platform:
   - net-11
   - net-20
@@ -73,6 +74,7 @@ items:
     - id: ppszFileName
       type: System.String
       description: To be added.
+  overload: System.Runtime.InteropServices.ComTypes.IPersistFile.GetCurFile*
   platform:
   - net-11
   - net-20
@@ -97,6 +99,7 @@ items:
     return:
       type: System.Int32
       description: To be added.
+  overload: System.Runtime.InteropServices.ComTypes.IPersistFile.IsDirty*
   platform:
   - net-11
   - net-20
@@ -124,6 +127,7 @@ items:
     - id: dwMode
       type: System.Int32
       description: To be added.
+  overload: System.Runtime.InteropServices.ComTypes.IPersistFile.Load*
   platform:
   - net-11
   - net-20
@@ -151,6 +155,7 @@ items:
     - id: fRemember
       type: System.Boolean
       description: To be added.
+  overload: System.Runtime.InteropServices.ComTypes.IPersistFile.Save*
   platform:
   - net-11
   - net-20
@@ -175,6 +180,7 @@ items:
     - id: pszFileName
       type: System.String
       description: To be added.
+  overload: System.Runtime.InteropServices.ComTypes.IPersistFile.SaveCompleted*
   platform:
   - net-11
   - net-20
@@ -264,3 +270,33 @@ references:
   name: String
   nameWithType: String
   fullName: System.String
+- uid: System.Runtime.InteropServices.ComTypes.IPersistFile.GetClassID*
+  parent: System.Runtime.InteropServices.ComTypes.IPersistFile
+  isExternal: false
+  name: GetClassID
+  nameWithType: IPersistFile.GetClassID
+- uid: System.Runtime.InteropServices.ComTypes.IPersistFile.GetCurFile*
+  parent: System.Runtime.InteropServices.ComTypes.IPersistFile
+  isExternal: false
+  name: GetCurFile
+  nameWithType: IPersistFile.GetCurFile
+- uid: System.Runtime.InteropServices.ComTypes.IPersistFile.IsDirty*
+  parent: System.Runtime.InteropServices.ComTypes.IPersistFile
+  isExternal: false
+  name: IsDirty
+  nameWithType: IPersistFile.IsDirty
+- uid: System.Runtime.InteropServices.ComTypes.IPersistFile.Load*
+  parent: System.Runtime.InteropServices.ComTypes.IPersistFile
+  isExternal: false
+  name: Load
+  nameWithType: IPersistFile.Load
+- uid: System.Runtime.InteropServices.ComTypes.IPersistFile.Save*
+  parent: System.Runtime.InteropServices.ComTypes.IPersistFile
+  isExternal: false
+  name: Save
+  nameWithType: IPersistFile.Save
+- uid: System.Runtime.InteropServices.ComTypes.IPersistFile.SaveCompleted*
+  parent: System.Runtime.InteropServices.ComTypes.IPersistFile
+  isExternal: false
+  name: SaveCompleted
+  nameWithType: IPersistFile.SaveCompleted

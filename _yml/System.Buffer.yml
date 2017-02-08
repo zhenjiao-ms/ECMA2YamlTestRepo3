@@ -69,6 +69,7 @@ items:
     - id: count
       type: System.Int32
       description: To be added.
+  overload: System.Buffer.BlockCopy*
   platform:
   - net-11
   - net-20
@@ -96,6 +97,7 @@ items:
     return:
       type: System.Int32
       description: To be added.
+  overload: System.Buffer.ByteLength*
   platform:
   - net-11
   - net-20
@@ -126,6 +128,7 @@ items:
     return:
       type: System.Byte
       description: To be added.
+  overload: System.Buffer.GetByte*
   platform:
   - net-11
   - net-20
@@ -224,6 +227,7 @@ items:
     - id: value
       type: System.Byte
       description: To be added.
+  overload: System.Buffer.SetByte*
   platform:
   - net-11
   - net-20
@@ -370,8 +374,28 @@ references:
   name: Byte
   nameWithType: Byte
   fullName: System.Byte
+- uid: System.Buffer.BlockCopy*
+  parent: System.Buffer
+  isExternal: false
+  name: BlockCopy
+  nameWithType: Buffer.BlockCopy
+- uid: System.Buffer.ByteLength*
+  parent: System.Buffer
+  isExternal: false
+  name: ByteLength
+  nameWithType: Buffer.ByteLength
+- uid: System.Buffer.GetByte*
+  parent: System.Buffer
+  isExternal: false
+  name: GetByte
+  nameWithType: Buffer.GetByte
 - uid: System.Buffer.MemoryCopy*
   parent: System.Buffer
   isExternal: false
   name: MemoryCopy
   nameWithType: Buffer.MemoryCopy
+- uid: System.Buffer.SetByte*
+  parent: System.Buffer
+  isExternal: false
+  name: SetByte
+  nameWithType: Buffer.SetByte

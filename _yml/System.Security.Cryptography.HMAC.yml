@@ -77,6 +77,7 @@ items:
   syntax:
     content: protected HMAC ();
     parameters: []
+  overload: System.Security.Cryptography.HMAC.#ctor*
   platform:
   - net-11
   - net-20
@@ -100,6 +101,7 @@ items:
     return:
       type: System.Int32
       description: To be added.
+  overload: System.Security.Cryptography.HMAC.BlockSizeValue*
   platform:
   - net-11
   - net-20
@@ -177,6 +179,7 @@ items:
     - id: disposing
       type: System.Boolean
       description: To be added.
+  overload: System.Security.Cryptography.HMAC.Dispose*
   platform:
   - net-11
   - net-20
@@ -207,6 +210,7 @@ items:
     - id: cb
       type: System.Int32
       description: To be added.
+  overload: System.Security.Cryptography.HMAC.HashCore*
   platform:
   - net-11
   - net-20
@@ -231,6 +235,7 @@ items:
     return:
       type: System.Byte[]
       description: To be added.
+  overload: System.Security.Cryptography.HMAC.HashFinal*
   platform:
   - net-11
   - net-20
@@ -254,6 +259,7 @@ items:
     return:
       type: System.String
       description: To be added.
+  overload: System.Security.Cryptography.HMAC.HashName*
   platform:
   - net-11
   - net-20
@@ -275,6 +281,7 @@ items:
   syntax:
     content: public override void Initialize ();
     parameters: []
+  overload: System.Security.Cryptography.HMAC.Initialize*
   platform:
   - net-11
   - net-20
@@ -298,6 +305,7 @@ items:
     return:
       type: System.Byte[]
       description: To be added.
+  overload: System.Security.Cryptography.HMAC.Key*
   platform:
   - net-11
   - net-20
@@ -432,8 +440,48 @@ references:
   name: Byte
   nameWithType: Byte
   fullName: System.Byte[]
+- uid: System.Security.Cryptography.HMAC.#ctor*
+  parent: System.Security.Cryptography.HMAC
+  isExternal: false
+  name: HMAC
+  nameWithType: HMAC.HMAC
+- uid: System.Security.Cryptography.HMAC.BlockSizeValue*
+  parent: System.Security.Cryptography.HMAC
+  isExternal: false
+  name: BlockSizeValue
+  nameWithType: HMAC.BlockSizeValue
 - uid: System.Security.Cryptography.HMAC.Create*
   parent: System.Security.Cryptography.HMAC
   isExternal: false
   name: Create
   nameWithType: HMAC.Create
+- uid: System.Security.Cryptography.HMAC.Dispose*
+  parent: System.Security.Cryptography.HMAC
+  isExternal: false
+  name: Dispose
+  nameWithType: HMAC.Dispose
+- uid: System.Security.Cryptography.HMAC.HashCore*
+  parent: System.Security.Cryptography.HMAC
+  isExternal: false
+  name: HashCore
+  nameWithType: HMAC.HashCore
+- uid: System.Security.Cryptography.HMAC.HashFinal*
+  parent: System.Security.Cryptography.HMAC
+  isExternal: false
+  name: HashFinal
+  nameWithType: HMAC.HashFinal
+- uid: System.Security.Cryptography.HMAC.HashName*
+  parent: System.Security.Cryptography.HMAC
+  isExternal: false
+  name: HashName
+  nameWithType: HMAC.HashName
+- uid: System.Security.Cryptography.HMAC.Initialize*
+  parent: System.Security.Cryptography.HMAC
+  isExternal: false
+  name: Initialize
+  nameWithType: HMAC.Initialize
+- uid: System.Security.Cryptography.HMAC.Key*
+  parent: System.Security.Cryptography.HMAC
+  isExternal: false
+  name: Key
+  nameWithType: HMAC.Key

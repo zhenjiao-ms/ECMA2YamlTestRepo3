@@ -103,6 +103,7 @@ items:
     - id: checkId
       type: System.String
       description: To be added.
+  overload: System.Diagnostics.CodeAnalysis.SuppressMessageAttribute.#ctor*
   platform:
   - net-11
   - net-20
@@ -126,6 +127,7 @@ items:
     return:
       type: System.String
       description: To be added.
+  overload: System.Diagnostics.CodeAnalysis.SuppressMessageAttribute.Category*
   platform:
   - net-11
   - net-20
@@ -149,6 +151,7 @@ items:
     return:
       type: System.String
       description: To be added.
+  overload: System.Diagnostics.CodeAnalysis.SuppressMessageAttribute.CheckId*
   platform:
   - net-11
   - net-20
@@ -172,6 +175,7 @@ items:
     return:
       type: System.String
       description: To be added.
+  overload: System.Diagnostics.CodeAnalysis.SuppressMessageAttribute.Justification*
   platform:
   - net-11
   - net-20
@@ -195,6 +199,7 @@ items:
     return:
       type: System.String
       description: To be added.
+  overload: System.Diagnostics.CodeAnalysis.SuppressMessageAttribute.MessageId*
   platform:
   - net-11
   - net-20
@@ -218,6 +223,7 @@ items:
     return:
       type: System.String
       description: To be added.
+  overload: System.Diagnostics.CodeAnalysis.SuppressMessageAttribute.Scope*
   platform:
   - net-11
   - net-20
@@ -241,6 +247,7 @@ items:
     return:
       type: System.String
       description: To be added.
+  overload: System.Diagnostics.CodeAnalysis.SuppressMessageAttribute.Target*
   platform:
   - net-11
   - net-20
@@ -339,3 +346,38 @@ references:
   name: String
   nameWithType: String
   fullName: System.String
+- uid: System.Diagnostics.CodeAnalysis.SuppressMessageAttribute.#ctor*
+  parent: System.Diagnostics.CodeAnalysis.SuppressMessageAttribute
+  isExternal: false
+  name: SuppressMessageAttribute
+  nameWithType: SuppressMessageAttribute.SuppressMessageAttribute
+- uid: System.Diagnostics.CodeAnalysis.SuppressMessageAttribute.Category*
+  parent: System.Diagnostics.CodeAnalysis.SuppressMessageAttribute
+  isExternal: false
+  name: Category
+  nameWithType: SuppressMessageAttribute.Category
+- uid: System.Diagnostics.CodeAnalysis.SuppressMessageAttribute.CheckId*
+  parent: System.Diagnostics.CodeAnalysis.SuppressMessageAttribute
+  isExternal: false
+  name: CheckId
+  nameWithType: SuppressMessageAttribute.CheckId
+- uid: System.Diagnostics.CodeAnalysis.SuppressMessageAttribute.Justification*
+  parent: System.Diagnostics.CodeAnalysis.SuppressMessageAttribute
+  isExternal: false
+  name: Justification
+  nameWithType: SuppressMessageAttribute.Justification
+- uid: System.Diagnostics.CodeAnalysis.SuppressMessageAttribute.MessageId*
+  parent: System.Diagnostics.CodeAnalysis.SuppressMessageAttribute
+  isExternal: false
+  name: MessageId
+  nameWithType: SuppressMessageAttribute.MessageId
+- uid: System.Diagnostics.CodeAnalysis.SuppressMessageAttribute.Scope*
+  parent: System.Diagnostics.CodeAnalysis.SuppressMessageAttribute
+  isExternal: false
+  name: Scope
+  nameWithType: SuppressMessageAttribute.Scope
+- uid: System.Diagnostics.CodeAnalysis.SuppressMessageAttribute.Target*
+  parent: System.Diagnostics.CodeAnalysis.SuppressMessageAttribute
+  isExternal: false
+  name: Target
+  nameWithType: SuppressMessageAttribute.Target

@@ -168,6 +168,7 @@ items:
     - id: function
       type: System.Func`1
       description: To be added.
+  overload: System.Threading.Tasks.Task`1.#ctor*
   platform:
   - net-11
   - net-20
@@ -195,6 +196,7 @@ items:
     - id: state
       type: System.Object
       description: To be added.
+  overload: System.Threading.Tasks.Task`1.#ctor*
   platform:
   - net-11
   - net-20
@@ -222,6 +224,7 @@ items:
     - id: cancellationToken
       type: System.Threading.CancellationToken
       description: To be added.
+  overload: System.Threading.Tasks.Task`1.#ctor*
   platform:
   - net-11
   - net-20
@@ -249,6 +252,7 @@ items:
     - id: creationOptions
       type: System.Threading.Tasks.TaskCreationOptions
       description: To be added.
+  overload: System.Threading.Tasks.Task`1.#ctor*
   platform:
   - net-11
   - net-20
@@ -279,6 +283,7 @@ items:
     - id: cancellationToken
       type: System.Threading.CancellationToken
       description: To be added.
+  overload: System.Threading.Tasks.Task`1.#ctor*
   platform:
   - net-11
   - net-20
@@ -309,6 +314,7 @@ items:
     - id: creationOptions
       type: System.Threading.Tasks.TaskCreationOptions
       description: To be added.
+  overload: System.Threading.Tasks.Task`1.#ctor*
   platform:
   - net-11
   - net-20
@@ -339,6 +345,7 @@ items:
     - id: creationOptions
       type: System.Threading.Tasks.TaskCreationOptions
       description: To be added.
+  overload: System.Threading.Tasks.Task`1.#ctor*
   platform:
   - net-11
   - net-20
@@ -372,6 +379,7 @@ items:
     - id: creationOptions
       type: System.Threading.Tasks.TaskCreationOptions
       description: To be added.
+  overload: System.Threading.Tasks.Task`1.#ctor*
   platform:
   - net-11
   - net-20
@@ -399,6 +407,7 @@ items:
     return:
       type: System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1
       description: To be added.
+  overload: System.Threading.Tasks.Task`1.ConfigureAwait*
   platform:
   - net-11
   - net-20
@@ -1084,6 +1093,7 @@ items:
     return:
       type: System.Threading.Tasks.TaskFactory`1
       description: To be added.
+  overload: System.Threading.Tasks.Task`1.Factory*
   platform:
   - net-11
   - net-20
@@ -1108,6 +1118,7 @@ items:
     return:
       type: System.Runtime.CompilerServices.TaskAwaiter`1
       description: To be added.
+  overload: System.Threading.Tasks.Task`1.GetAwaiter*
   platform:
   - net-11
   - net-20
@@ -1131,6 +1142,7 @@ items:
     return:
       type: TResult
       description: To be added.
+  overload: System.Threading.Tasks.Task`1.Result*
   platform:
   - net-11
   - net-20
@@ -1925,6 +1937,16 @@ references:
   name: TResult
   nameWithType: TResult
   fullName: TResult
+- uid: System.Threading.Tasks.Task`1.#ctor*
+  parent: System.Threading.Tasks.Task`1
+  isExternal: false
+  name: Task<TResult>
+  nameWithType: Task<TResult>.Task<TResult>
+- uid: System.Threading.Tasks.Task`1.ConfigureAwait*
+  parent: System.Threading.Tasks.Task`1
+  isExternal: false
+  name: ConfigureAwait
+  nameWithType: Task<TResult>.ConfigureAwait
 - uid: System.Threading.Tasks.Task`1.ContinueWith*
   parent: System.Threading.Tasks.Task`1
   isExternal: false
@@ -1935,3 +1957,18 @@ references:
   isExternal: false
   name: ContinueWith<TNewResult>
   nameWithType: Task<TResult>.ContinueWith<TNewResult>
+- uid: System.Threading.Tasks.Task`1.Factory*
+  parent: System.Threading.Tasks.Task`1
+  isExternal: false
+  name: Factory
+  nameWithType: Task<TResult>.Factory
+- uid: System.Threading.Tasks.Task`1.GetAwaiter*
+  parent: System.Threading.Tasks.Task`1
+  isExternal: false
+  name: GetAwaiter
+  nameWithType: Task<TResult>.GetAwaiter
+- uid: System.Threading.Tasks.Task`1.Result*
+  parent: System.Threading.Tasks.Task`1
+  isExternal: false
+  name: Result
+  nameWithType: Task<TResult>.Result

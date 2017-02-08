@@ -94,6 +94,7 @@ items:
     - id: ruleSet
       type: System.Security.SecurityRuleSet
       description: To be added.
+  overload: System.Security.SecurityRulesAttribute.#ctor*
   platform:
   - net-11
   - net-20
@@ -117,6 +118,7 @@ items:
     return:
       type: System.Security.SecurityRuleSet
       description: To be added.
+  overload: System.Security.SecurityRulesAttribute.RuleSet*
   platform:
   - net-11
   - net-20
@@ -140,6 +142,7 @@ items:
     return:
       type: System.Boolean
       description: To be added.
+  overload: System.Security.SecurityRulesAttribute.SkipVerificationInFullTrust*
   platform:
   - net-11
   - net-20
@@ -184,3 +187,18 @@ references:
   name: Boolean
   nameWithType: Boolean
   fullName: System.Boolean
+- uid: System.Security.SecurityRulesAttribute.#ctor*
+  parent: System.Security.SecurityRulesAttribute
+  isExternal: false
+  name: SecurityRulesAttribute
+  nameWithType: SecurityRulesAttribute.SecurityRulesAttribute
+- uid: System.Security.SecurityRulesAttribute.RuleSet*
+  parent: System.Security.SecurityRulesAttribute
+  isExternal: false
+  name: RuleSet
+  nameWithType: SecurityRulesAttribute.RuleSet
+- uid: System.Security.SecurityRulesAttribute.SkipVerificationInFullTrust*
+  parent: System.Security.SecurityRulesAttribute
+  isExternal: false
+  name: SkipVerificationInFullTrust
+  nameWithType: SecurityRulesAttribute.SkipVerificationInFullTrust

@@ -55,6 +55,7 @@ items:
   syntax:
     content: public RSAPKCS1SignatureFormatter ();
     parameters: []
+  overload: System.Security.Cryptography.RSAPKCS1SignatureFormatter.#ctor*
   platform:
   - net-11
   - net-20
@@ -79,6 +80,7 @@ items:
     - id: key
       type: System.Security.Cryptography.AsymmetricAlgorithm
       description: To be added.
+  overload: System.Security.Cryptography.RSAPKCS1SignatureFormatter.#ctor*
   platform:
   - net-11
   - net-20
@@ -106,6 +108,7 @@ items:
     return:
       type: System.Byte[]
       description: To be added.
+  overload: System.Security.Cryptography.RSAPKCS1SignatureFormatter.CreateSignature*
   platform:
   - net-11
   - net-20
@@ -130,6 +133,7 @@ items:
     - id: strName
       type: System.String
       description: To be added.
+  overload: System.Security.Cryptography.RSAPKCS1SignatureFormatter.SetHashAlgorithm*
   platform:
   - net-11
   - net-20
@@ -154,6 +158,7 @@ items:
     - id: key
       type: System.Security.Cryptography.AsymmetricAlgorithm
       description: To be added.
+  overload: System.Security.Cryptography.RSAPKCS1SignatureFormatter.SetKey*
   platform:
   - net-11
   - net-20
@@ -222,3 +227,23 @@ references:
   name: AsymmetricAlgorithm
   nameWithType: AsymmetricAlgorithm
   fullName: System.Security.Cryptography.AsymmetricAlgorithm
+- uid: System.Security.Cryptography.RSAPKCS1SignatureFormatter.#ctor*
+  parent: System.Security.Cryptography.RSAPKCS1SignatureFormatter
+  isExternal: false
+  name: RSAPKCS1SignatureFormatter
+  nameWithType: RSAPKCS1SignatureFormatter.RSAPKCS1SignatureFormatter
+- uid: System.Security.Cryptography.RSAPKCS1SignatureFormatter.CreateSignature*
+  parent: System.Security.Cryptography.RSAPKCS1SignatureFormatter
+  isExternal: false
+  name: CreateSignature
+  nameWithType: RSAPKCS1SignatureFormatter.CreateSignature
+- uid: System.Security.Cryptography.RSAPKCS1SignatureFormatter.SetHashAlgorithm*
+  parent: System.Security.Cryptography.RSAPKCS1SignatureFormatter
+  isExternal: false
+  name: SetHashAlgorithm
+  nameWithType: RSAPKCS1SignatureFormatter.SetHashAlgorithm
+- uid: System.Security.Cryptography.RSAPKCS1SignatureFormatter.SetKey*
+  parent: System.Security.Cryptography.RSAPKCS1SignatureFormatter
+  isExternal: false
+  name: SetKey
+  nameWithType: RSAPKCS1SignatureFormatter.SetKey

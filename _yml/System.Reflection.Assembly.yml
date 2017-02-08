@@ -137,6 +137,7 @@ items:
   syntax:
     content: protected Assembly ();
     parameters: []
+  overload: System.Reflection.Assembly.#ctor*
   platform:
   - net-11
   - net-20
@@ -160,6 +161,7 @@ items:
     return:
       type: System.String
       description: To be added.
+  overload: System.Reflection.Assembly.CodeBase*
   platform:
   - net-11
   - net-20
@@ -295,6 +297,7 @@ items:
     return:
       type: System.String
       description: To be added.
+  overload: System.Reflection.Assembly.CreateQualifiedName*
   platform:
   - net-11
   - net-20
@@ -318,6 +321,7 @@ items:
     return:
       type: System.Collections.Generic.IEnumerable{System.Reflection.CustomAttributeData}
       description: To be added.
+  overload: System.Reflection.Assembly.CustomAttributes*
   platform:
   - net-11
   - net-20
@@ -341,6 +345,7 @@ items:
     return:
       type: System.Collections.Generic.IEnumerable{System.Reflection.TypeInfo}
       description: To be added.
+  overload: System.Reflection.Assembly.DefinedTypes*
   platform:
   - net-11
   - net-20
@@ -364,6 +369,7 @@ items:
     return:
       type: System.Reflection.MethodInfo
       description: To be added.
+  overload: System.Reflection.Assembly.EntryPoint*
   platform:
   - net-11
   - net-20
@@ -391,6 +397,7 @@ items:
     return:
       type: System.Boolean
       description: To be added.
+  overload: System.Reflection.Assembly.Equals*
   platform:
   - net-11
   - net-20
@@ -414,6 +421,7 @@ items:
     return:
       type: System.String
       description: To be added.
+  overload: System.Reflection.Assembly.EscapedCodeBase*
   platform:
   - net-11
   - net-20
@@ -437,6 +445,7 @@ items:
     return:
       type: System.Security.Policy.Evidence
       description: To be added.
+  overload: System.Reflection.Assembly.Evidence*
   platform:
   - net-11
   - net-20
@@ -460,6 +469,7 @@ items:
     return:
       type: System.Collections.Generic.IEnumerable{System.Type}
       description: To be added.
+  overload: System.Reflection.Assembly.ExportedTypes*
   platform:
   - net-11
   - net-20
@@ -483,6 +493,7 @@ items:
     return:
       type: System.String
       description: To be added.
+  overload: System.Reflection.Assembly.FullName*
   platform:
   - net-11
   - net-20
@@ -510,6 +521,7 @@ items:
     return:
       type: System.Reflection.Assembly
       description: To be added.
+  overload: System.Reflection.Assembly.GetAssembly*
   platform:
   - net-11
   - net-20
@@ -534,6 +546,7 @@ items:
     return:
       type: System.Reflection.Assembly
       description: To be added.
+  overload: System.Reflection.Assembly.GetCallingAssembly*
   platform:
   - net-11
   - net-20
@@ -617,6 +630,7 @@ items:
     return:
       type: System.Collections.Generic.IList{System.Reflection.CustomAttributeData}
       description: To be added.
+  overload: System.Reflection.Assembly.GetCustomAttributesData*
   platform:
   - net-11
   - net-20
@@ -641,6 +655,7 @@ items:
     return:
       type: System.Reflection.Assembly
       description: To be added.
+  overload: System.Reflection.Assembly.GetEntryAssembly*
   platform:
   - net-11
   - net-20
@@ -665,6 +680,7 @@ items:
     return:
       type: System.Reflection.Assembly
       description: To be added.
+  overload: System.Reflection.Assembly.GetExecutingAssembly*
   platform:
   - net-11
   - net-20
@@ -689,6 +705,7 @@ items:
     return:
       type: System.Type[]
       description: To be added.
+  overload: System.Reflection.Assembly.GetExportedTypes*
   platform:
   - net-11
   - net-20
@@ -716,6 +733,7 @@ items:
     return:
       type: System.IO.FileStream
       description: To be added.
+  overload: System.Reflection.Assembly.GetFile*
   platform:
   - net-11
   - net-20
@@ -793,6 +811,7 @@ items:
     return:
       type: System.Int32
       description: To be added.
+  overload: System.Reflection.Assembly.GetHashCode*
   platform:
   - net-11
   - net-20
@@ -873,6 +892,7 @@ items:
     return:
       type: System.Reflection.ManifestResourceInfo
       description: To be added.
+  overload: System.Reflection.Assembly.GetManifestResourceInfo*
   platform:
   - net-11
   - net-20
@@ -897,6 +917,7 @@ items:
     return:
       type: System.String[]
       description: To be added.
+  overload: System.Reflection.Assembly.GetManifestResourceNames*
   platform:
   - net-11
   - net-20
@@ -983,6 +1004,7 @@ items:
     return:
       type: System.Reflection.Module
       description: To be added.
+  overload: System.Reflection.Assembly.GetModule*
   platform:
   - net-11
   - net-20
@@ -1116,6 +1138,7 @@ items:
     - id: context
       type: System.Runtime.Serialization.StreamingContext
       description: To be added.
+  overload: System.Reflection.Assembly.GetObjectData*
   platform:
   - net-11
   - net-20
@@ -1140,6 +1163,7 @@ items:
     return:
       type: System.Reflection.AssemblyName[]
       description: To be added.
+  overload: System.Reflection.Assembly.GetReferencedAssemblies*
   platform:
   - net-11
   - net-20
@@ -1316,6 +1340,7 @@ items:
     return:
       type: System.Type[]
       description: To be added.
+  overload: System.Reflection.Assembly.GetTypes*
   platform:
   - net-11
   - net-20
@@ -1339,6 +1364,7 @@ items:
     return:
       type: System.Boolean
       description: To be added.
+  overload: System.Reflection.Assembly.GlobalAssemblyCache*
   platform:
   - net-11
   - net-20
@@ -1362,6 +1388,7 @@ items:
     return:
       type: System.Int64
       description: To be added.
+  overload: System.Reflection.Assembly.HostContext*
   platform:
   - net-11
   - net-20
@@ -1385,6 +1412,7 @@ items:
     return:
       type: System.String
       description: To be added.
+  overload: System.Reflection.Assembly.ImageRuntimeVersion*
   platform:
   - net-11
   - net-20
@@ -1415,6 +1443,7 @@ items:
     return:
       type: System.Boolean
       description: To be added.
+  overload: System.Reflection.Assembly.IsDefined*
   platform:
   - net-11
   - net-20
@@ -1438,6 +1467,7 @@ items:
     return:
       type: System.Boolean
       description: To be added.
+  overload: System.Reflection.Assembly.IsDynamic*
   platform:
   - net-11
   - net-20
@@ -1461,6 +1491,7 @@ items:
     return:
       type: System.Boolean
       description: To be added.
+  overload: System.Reflection.Assembly.IsFullyTrusted*
   platform:
   - net-11
   - net-20
@@ -2042,6 +2073,7 @@ items:
     return:
       type: System.String
       description: To be added.
+  overload: System.Reflection.Assembly.Location*
   platform:
   - net-11
   - net-20
@@ -2065,6 +2097,7 @@ items:
     return:
       type: System.Reflection.Module
       description: To be added.
+  overload: System.Reflection.Assembly.ManifestModule*
   platform:
   - net-11
   - net-20
@@ -2111,6 +2144,7 @@ items:
     return:
       type: System.Collections.Generic.IEnumerable{System.Reflection.Module}
       description: To be added.
+  overload: System.Reflection.Assembly.Modules*
   platform:
   - net-11
   - net-20
@@ -2141,6 +2175,7 @@ items:
     return:
       type: System.Boolean
       description: To be added.
+  overload: System.Reflection.Assembly.op_Equality*
   platform:
   - net-11
   - net-20
@@ -2171,6 +2206,7 @@ items:
     return:
       type: System.Boolean
       description: To be added.
+  overload: System.Reflection.Assembly.op_Inequality*
   platform:
   - net-11
   - net-20
@@ -2194,6 +2230,7 @@ items:
     return:
       type: System.Security.PermissionSet
       description: To be added.
+  overload: System.Reflection.Assembly.PermissionSet*
   platform:
   - net-11
   - net-20
@@ -2217,6 +2254,7 @@ items:
     return:
       type: System.Boolean
       description: To be added.
+  overload: System.Reflection.Assembly.ReflectionOnly*
   platform:
   - net-11
   - net-20
@@ -2300,6 +2338,7 @@ items:
     return:
       type: System.Reflection.Assembly
       description: To be added.
+  overload: System.Reflection.Assembly.ReflectionOnlyLoadFrom*
   platform:
   - net-11
   - net-20
@@ -2323,6 +2362,7 @@ items:
     return:
       type: System.Security.SecurityRuleSet
       description: To be added.
+  overload: System.Reflection.Assembly.SecurityRuleSet*
   platform:
   - net-11
   - net-20
@@ -2348,6 +2388,7 @@ items:
     return:
       type: System.Type
       description: To be added.
+  overload: System.Reflection.Assembly.System#Runtime#InteropServices#_Assembly#GetType*
   platform:
   - net-11
   - net-20
@@ -2372,6 +2413,7 @@ items:
     return:
       type: System.String
       description: To be added.
+  overload: System.Reflection.Assembly.ToString*
   platform:
   - net-11
   - net-20
@@ -2399,6 +2441,7 @@ items:
     return:
       type: System.Reflection.Assembly
       description: To be added.
+  overload: System.Reflection.Assembly.UnsafeLoadFrom*
   platform:
   - net-11
   - net-20
@@ -3907,31 +3950,141 @@ references:
   name: String
   nameWithType: String
   fullName: System.String
+- uid: System.Reflection.Assembly.#ctor*
+  parent: System.Reflection.Assembly
+  isExternal: false
+  name: Assembly
+  nameWithType: Assembly.Assembly
+- uid: System.Reflection.Assembly.CodeBase*
+  parent: System.Reflection.Assembly
+  isExternal: false
+  name: CodeBase
+  nameWithType: Assembly.CodeBase
 - uid: System.Reflection.Assembly.CreateInstance*
   parent: System.Reflection.Assembly
   isExternal: false
   name: CreateInstance
   nameWithType: Assembly.CreateInstance
+- uid: System.Reflection.Assembly.CreateQualifiedName*
+  parent: System.Reflection.Assembly
+  isExternal: false
+  name: CreateQualifiedName
+  nameWithType: Assembly.CreateQualifiedName
+- uid: System.Reflection.Assembly.CustomAttributes*
+  parent: System.Reflection.Assembly
+  isExternal: false
+  name: CustomAttributes
+  nameWithType: Assembly.CustomAttributes
+- uid: System.Reflection.Assembly.DefinedTypes*
+  parent: System.Reflection.Assembly
+  isExternal: false
+  name: DefinedTypes
+  nameWithType: Assembly.DefinedTypes
+- uid: System.Reflection.Assembly.EntryPoint*
+  parent: System.Reflection.Assembly
+  isExternal: false
+  name: EntryPoint
+  nameWithType: Assembly.EntryPoint
+- uid: System.Reflection.Assembly.Equals*
+  parent: System.Reflection.Assembly
+  isExternal: false
+  name: Equals
+  nameWithType: Assembly.Equals
+- uid: System.Reflection.Assembly.EscapedCodeBase*
+  parent: System.Reflection.Assembly
+  isExternal: false
+  name: EscapedCodeBase
+  nameWithType: Assembly.EscapedCodeBase
+- uid: System.Reflection.Assembly.Evidence*
+  parent: System.Reflection.Assembly
+  isExternal: false
+  name: Evidence
+  nameWithType: Assembly.Evidence
+- uid: System.Reflection.Assembly.ExportedTypes*
+  parent: System.Reflection.Assembly
+  isExternal: false
+  name: ExportedTypes
+  nameWithType: Assembly.ExportedTypes
+- uid: System.Reflection.Assembly.FullName*
+  parent: System.Reflection.Assembly
+  isExternal: false
+  name: FullName
+  nameWithType: Assembly.FullName
+- uid: System.Reflection.Assembly.GetAssembly*
+  parent: System.Reflection.Assembly
+  isExternal: false
+  name: GetAssembly
+  nameWithType: Assembly.GetAssembly
+- uid: System.Reflection.Assembly.GetCallingAssembly*
+  parent: System.Reflection.Assembly
+  isExternal: false
+  name: GetCallingAssembly
+  nameWithType: Assembly.GetCallingAssembly
 - uid: System.Reflection.Assembly.GetCustomAttributes*
   parent: System.Reflection.Assembly
   isExternal: false
   name: GetCustomAttributes
   nameWithType: Assembly.GetCustomAttributes
+- uid: System.Reflection.Assembly.GetCustomAttributesData*
+  parent: System.Reflection.Assembly
+  isExternal: false
+  name: GetCustomAttributesData
+  nameWithType: Assembly.GetCustomAttributesData
+- uid: System.Reflection.Assembly.GetEntryAssembly*
+  parent: System.Reflection.Assembly
+  isExternal: false
+  name: GetEntryAssembly
+  nameWithType: Assembly.GetEntryAssembly
+- uid: System.Reflection.Assembly.GetExecutingAssembly*
+  parent: System.Reflection.Assembly
+  isExternal: false
+  name: GetExecutingAssembly
+  nameWithType: Assembly.GetExecutingAssembly
+- uid: System.Reflection.Assembly.GetExportedTypes*
+  parent: System.Reflection.Assembly
+  isExternal: false
+  name: GetExportedTypes
+  nameWithType: Assembly.GetExportedTypes
+- uid: System.Reflection.Assembly.GetFile*
+  parent: System.Reflection.Assembly
+  isExternal: false
+  name: GetFile
+  nameWithType: Assembly.GetFile
 - uid: System.Reflection.Assembly.GetFiles*
   parent: System.Reflection.Assembly
   isExternal: false
   name: GetFiles
   nameWithType: Assembly.GetFiles
+- uid: System.Reflection.Assembly.GetHashCode*
+  parent: System.Reflection.Assembly
+  isExternal: false
+  name: GetHashCode
+  nameWithType: Assembly.GetHashCode
 - uid: System.Reflection.Assembly.GetLoadedModules*
   parent: System.Reflection.Assembly
   isExternal: false
   name: GetLoadedModules
   nameWithType: Assembly.GetLoadedModules
+- uid: System.Reflection.Assembly.GetManifestResourceInfo*
+  parent: System.Reflection.Assembly
+  isExternal: false
+  name: GetManifestResourceInfo
+  nameWithType: Assembly.GetManifestResourceInfo
+- uid: System.Reflection.Assembly.GetManifestResourceNames*
+  parent: System.Reflection.Assembly
+  isExternal: false
+  name: GetManifestResourceNames
+  nameWithType: Assembly.GetManifestResourceNames
 - uid: System.Reflection.Assembly.GetManifestResourceStream*
   parent: System.Reflection.Assembly
   isExternal: false
   name: GetManifestResourceStream
   nameWithType: Assembly.GetManifestResourceStream
+- uid: System.Reflection.Assembly.GetModule*
+  parent: System.Reflection.Assembly
+  isExternal: false
+  name: GetModule
+  nameWithType: Assembly.GetModule
 - uid: System.Reflection.Assembly.GetModules*
   parent: System.Reflection.Assembly
   isExternal: false
@@ -3942,6 +4095,16 @@ references:
   isExternal: false
   name: GetName
   nameWithType: Assembly.GetName
+- uid: System.Reflection.Assembly.GetObjectData*
+  parent: System.Reflection.Assembly
+  isExternal: false
+  name: GetObjectData
+  nameWithType: Assembly.GetObjectData
+- uid: System.Reflection.Assembly.GetReferencedAssemblies*
+  parent: System.Reflection.Assembly
+  isExternal: false
+  name: GetReferencedAssemblies
+  nameWithType: Assembly.GetReferencedAssemblies
 - uid: System.Reflection.Assembly.GetSatelliteAssembly*
   parent: System.Reflection.Assembly
   isExternal: false
@@ -3952,6 +4115,41 @@ references:
   isExternal: false
   name: GetType
   nameWithType: Assembly.GetType
+- uid: System.Reflection.Assembly.GetTypes*
+  parent: System.Reflection.Assembly
+  isExternal: false
+  name: GetTypes
+  nameWithType: Assembly.GetTypes
+- uid: System.Reflection.Assembly.GlobalAssemblyCache*
+  parent: System.Reflection.Assembly
+  isExternal: false
+  name: GlobalAssemblyCache
+  nameWithType: Assembly.GlobalAssemblyCache
+- uid: System.Reflection.Assembly.HostContext*
+  parent: System.Reflection.Assembly
+  isExternal: false
+  name: HostContext
+  nameWithType: Assembly.HostContext
+- uid: System.Reflection.Assembly.ImageRuntimeVersion*
+  parent: System.Reflection.Assembly
+  isExternal: false
+  name: ImageRuntimeVersion
+  nameWithType: Assembly.ImageRuntimeVersion
+- uid: System.Reflection.Assembly.IsDefined*
+  parent: System.Reflection.Assembly
+  isExternal: false
+  name: IsDefined
+  nameWithType: Assembly.IsDefined
+- uid: System.Reflection.Assembly.IsDynamic*
+  parent: System.Reflection.Assembly
+  isExternal: false
+  name: IsDynamic
+  nameWithType: Assembly.IsDynamic
+- uid: System.Reflection.Assembly.IsFullyTrusted*
+  parent: System.Reflection.Assembly
+  isExternal: false
+  name: IsFullyTrusted
+  nameWithType: Assembly.IsFullyTrusted
 - uid: System.Reflection.Assembly.Load*
   parent: System.Reflection.Assembly
   isExternal: false
@@ -3977,8 +4175,68 @@ references:
   isExternal: false
   name: LoadWithPartialName
   nameWithType: Assembly.LoadWithPartialName
+- uid: System.Reflection.Assembly.Location*
+  parent: System.Reflection.Assembly
+  isExternal: false
+  name: Location
+  nameWithType: Assembly.Location
+- uid: System.Reflection.Assembly.ManifestModule*
+  parent: System.Reflection.Assembly
+  isExternal: false
+  name: ManifestModule
+  nameWithType: Assembly.ManifestModule
+- uid: System.Reflection.Assembly.Modules*
+  parent: System.Reflection.Assembly
+  isExternal: false
+  name: Modules
+  nameWithType: Assembly.Modules
+- uid: System.Reflection.Assembly.op_Equality*
+  parent: System.Reflection.Assembly
+  isExternal: false
+  name: op_Equality
+  nameWithType: Assembly.op_Equality
+- uid: System.Reflection.Assembly.op_Inequality*
+  parent: System.Reflection.Assembly
+  isExternal: false
+  name: op_Inequality
+  nameWithType: Assembly.op_Inequality
+- uid: System.Reflection.Assembly.PermissionSet*
+  parent: System.Reflection.Assembly
+  isExternal: false
+  name: PermissionSet
+  nameWithType: Assembly.PermissionSet
+- uid: System.Reflection.Assembly.ReflectionOnly*
+  parent: System.Reflection.Assembly
+  isExternal: false
+  name: ReflectionOnly
+  nameWithType: Assembly.ReflectionOnly
 - uid: System.Reflection.Assembly.ReflectionOnlyLoad*
   parent: System.Reflection.Assembly
   isExternal: false
   name: ReflectionOnlyLoad
   nameWithType: Assembly.ReflectionOnlyLoad
+- uid: System.Reflection.Assembly.ReflectionOnlyLoadFrom*
+  parent: System.Reflection.Assembly
+  isExternal: false
+  name: ReflectionOnlyLoadFrom
+  nameWithType: Assembly.ReflectionOnlyLoadFrom
+- uid: System.Reflection.Assembly.SecurityRuleSet*
+  parent: System.Reflection.Assembly
+  isExternal: false
+  name: SecurityRuleSet
+  nameWithType: Assembly.SecurityRuleSet
+- uid: System.Reflection.Assembly.System#Runtime#InteropServices#_Assembly#GetType*
+  parent: System.Reflection.Assembly
+  isExternal: false
+  name: System.Runtime.InteropServices._Assembly.GetType
+  nameWithType: Assembly.System.Runtime.InteropServices._Assembly.GetType
+- uid: System.Reflection.Assembly.ToString*
+  parent: System.Reflection.Assembly
+  isExternal: false
+  name: ToString
+  nameWithType: Assembly.ToString
+- uid: System.Reflection.Assembly.UnsafeLoadFrom*
+  parent: System.Reflection.Assembly
+  isExternal: false
+  name: UnsafeLoadFrom
+  nameWithType: Assembly.UnsafeLoadFrom

@@ -68,6 +68,7 @@ items:
   syntax:
     content: public COMException ();
     parameters: []
+  overload: System.Runtime.InteropServices.COMException.#ctor*
   platform:
   - net-11
   - net-20
@@ -92,6 +93,7 @@ items:
     - id: message
       type: System.String
       description: To be added.
+  overload: System.Runtime.InteropServices.COMException.#ctor*
   platform:
   - net-11
   - net-20
@@ -119,6 +121,7 @@ items:
     - id: context
       type: System.Runtime.Serialization.StreamingContext
       description: To be added.
+  overload: System.Runtime.InteropServices.COMException.#ctor*
   platform:
   - net-11
   - net-20
@@ -146,6 +149,7 @@ items:
     - id: inner
       type: System.Exception
       description: To be added.
+  overload: System.Runtime.InteropServices.COMException.#ctor*
   platform:
   - net-11
   - net-20
@@ -173,6 +177,7 @@ items:
     - id: errorCode
       type: System.Int32
       description: To be added.
+  overload: System.Runtime.InteropServices.COMException.#ctor*
   platform:
   - net-11
   - net-20
@@ -197,6 +202,7 @@ items:
     return:
       type: System.String
       description: To be added.
+  overload: System.Runtime.InteropServices.COMException.ToString*
   platform:
   - net-11
   - net-20
@@ -289,3 +295,13 @@ references:
   name: String
   nameWithType: String
   fullName: System.String
+- uid: System.Runtime.InteropServices.COMException.#ctor*
+  parent: System.Runtime.InteropServices.COMException
+  isExternal: false
+  name: COMException
+  nameWithType: COMException.COMException
+- uid: System.Runtime.InteropServices.COMException.ToString*
+  parent: System.Runtime.InteropServices.COMException
+  isExternal: false
+  name: ToString
+  nameWithType: COMException.ToString

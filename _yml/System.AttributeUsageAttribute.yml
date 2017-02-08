@@ -97,6 +97,7 @@ items:
     - id: validOn
       type: System.AttributeTargets
       description: To be added.
+  overload: System.AttributeUsageAttribute.#ctor*
   platform:
   - net-11
   - net-20
@@ -120,6 +121,7 @@ items:
     return:
       type: System.Boolean
       description: To be added.
+  overload: System.AttributeUsageAttribute.AllowMultiple*
   platform:
   - net-11
   - net-20
@@ -143,6 +145,7 @@ items:
     return:
       type: System.Boolean
       description: To be added.
+  overload: System.AttributeUsageAttribute.Inherited*
   platform:
   - net-11
   - net-20
@@ -166,6 +169,7 @@ items:
     return:
       type: System.AttributeTargets
       description: To be added.
+  overload: System.AttributeUsageAttribute.ValidOn*
   platform:
   - net-11
   - net-20
@@ -222,3 +226,23 @@ references:
   name: AttributeTargets
   nameWithType: AttributeTargets
   fullName: System.AttributeTargets
+- uid: System.AttributeUsageAttribute.#ctor*
+  parent: System.AttributeUsageAttribute
+  isExternal: false
+  name: AttributeUsageAttribute
+  nameWithType: AttributeUsageAttribute.AttributeUsageAttribute
+- uid: System.AttributeUsageAttribute.AllowMultiple*
+  parent: System.AttributeUsageAttribute
+  isExternal: false
+  name: AllowMultiple
+  nameWithType: AttributeUsageAttribute.AllowMultiple
+- uid: System.AttributeUsageAttribute.Inherited*
+  parent: System.AttributeUsageAttribute
+  isExternal: false
+  name: Inherited
+  nameWithType: AttributeUsageAttribute.Inherited
+- uid: System.AttributeUsageAttribute.ValidOn*
+  parent: System.AttributeUsageAttribute
+  isExternal: false
+  name: ValidOn
+  nameWithType: AttributeUsageAttribute.ValidOn

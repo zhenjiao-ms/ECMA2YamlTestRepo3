@@ -43,6 +43,7 @@ items:
   syntax:
     content: public void GetResult ();
     parameters: []
+  overload: System.Runtime.CompilerServices.TaskAwaiter.GetResult*
   platform:
   - net-11
   - net-20
@@ -66,6 +67,7 @@ items:
     return:
       type: System.Boolean
       description: To be added.
+  overload: System.Runtime.CompilerServices.TaskAwaiter.IsCompleted*
   platform:
   - net-11
   - net-20
@@ -90,6 +92,7 @@ items:
     - id: continuation
       type: System.Action
       description: To be added.
+  overload: System.Runtime.CompilerServices.TaskAwaiter.OnCompleted*
   platform:
   - net-11
   - net-20
@@ -114,6 +117,7 @@ items:
     - id: continuation
       type: System.Action
       description: To be added.
+  overload: System.Runtime.CompilerServices.TaskAwaiter.UnsafeOnCompleted*
   platform:
   - net-11
   - net-20
@@ -164,3 +168,23 @@ references:
   name: Action
   nameWithType: Action
   fullName: System.Action
+- uid: System.Runtime.CompilerServices.TaskAwaiter.GetResult*
+  parent: System.Runtime.CompilerServices.TaskAwaiter
+  isExternal: false
+  name: GetResult
+  nameWithType: TaskAwaiter.GetResult
+- uid: System.Runtime.CompilerServices.TaskAwaiter.IsCompleted*
+  parent: System.Runtime.CompilerServices.TaskAwaiter
+  isExternal: false
+  name: IsCompleted
+  nameWithType: TaskAwaiter.IsCompleted
+- uid: System.Runtime.CompilerServices.TaskAwaiter.OnCompleted*
+  parent: System.Runtime.CompilerServices.TaskAwaiter
+  isExternal: false
+  name: OnCompleted
+  nameWithType: TaskAwaiter.OnCompleted
+- uid: System.Runtime.CompilerServices.TaskAwaiter.UnsafeOnCompleted*
+  parent: System.Runtime.CompilerServices.TaskAwaiter
+  isExternal: false
+  name: UnsafeOnCompleted
+  nameWithType: TaskAwaiter.UnsafeOnCompleted

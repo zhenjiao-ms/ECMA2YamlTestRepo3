@@ -105,6 +105,7 @@ items:
     return:
       type: System.Int32
       description: To be added.
+  overload: System.Reflection.Emit.Label.GetHashCode*
   platform:
   - net-11
   - net-20
@@ -135,6 +136,7 @@ items:
     return:
       type: System.Boolean
       description: To be added.
+  overload: System.Reflection.Emit.Label.op_Equality*
   platform:
   - net-11
   - net-20
@@ -165,6 +167,7 @@ items:
     return:
       type: System.Boolean
       description: To be added.
+  overload: System.Reflection.Emit.Label.op_Inequality*
   platform:
   - net-11
   - net-20
@@ -274,3 +277,18 @@ references:
   isExternal: false
   name: Equals
   nameWithType: Label.Equals
+- uid: System.Reflection.Emit.Label.GetHashCode*
+  parent: System.Reflection.Emit.Label
+  isExternal: false
+  name: GetHashCode
+  nameWithType: Label.GetHashCode
+- uid: System.Reflection.Emit.Label.op_Equality*
+  parent: System.Reflection.Emit.Label
+  isExternal: false
+  name: op_Equality
+  nameWithType: Label.op_Equality
+- uid: System.Reflection.Emit.Label.op_Inequality*
+  parent: System.Reflection.Emit.Label
+  isExternal: false
+  name: op_Inequality
+  nameWithType: Label.op_Inequality

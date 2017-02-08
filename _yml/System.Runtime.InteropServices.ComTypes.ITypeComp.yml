@@ -60,6 +60,7 @@ items:
     - id: pBindPtr
       type: System.Runtime.InteropServices.ComTypes.BINDPTR
       description: To be added.
+  overload: System.Runtime.InteropServices.ComTypes.ITypeComp.Bind*
   platform:
   - net-11
   - net-20
@@ -93,6 +94,7 @@ items:
     - id: ppTComp
       type: System.Runtime.InteropServices.ComTypes.ITypeComp
       description: To be added.
+  overload: System.Runtime.InteropServices.ComTypes.ITypeComp.BindType*
   platform:
   - net-11
   - net-20
@@ -170,3 +172,13 @@ references:
   name: ITypeComp
   nameWithType: ITypeComp
   fullName: System.Runtime.InteropServices.ComTypes.ITypeComp
+- uid: System.Runtime.InteropServices.ComTypes.ITypeComp.Bind*
+  parent: System.Runtime.InteropServices.ComTypes.ITypeComp
+  isExternal: false
+  name: Bind
+  nameWithType: ITypeComp.Bind
+- uid: System.Runtime.InteropServices.ComTypes.ITypeComp.BindType*
+  parent: System.Runtime.InteropServices.ComTypes.ITypeComp
+  isExternal: false
+  name: BindType
+  nameWithType: ITypeComp.BindType

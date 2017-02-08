@@ -103,6 +103,7 @@ items:
     - id: dllName
       type: System.String
       description: To be added.
+  overload: System.Runtime.InteropServices.DllImportAttribute.#ctor*
   platform:
   - net-11
   - net-20
@@ -310,6 +311,7 @@ items:
     return:
       type: System.String
       description: To be added.
+  overload: System.Runtime.InteropServices.DllImportAttribute.Value*
   platform:
   - net-11
   - net-20
@@ -438,3 +440,13 @@ references:
   name: String
   nameWithType: String
   fullName: System.String
+- uid: System.Runtime.InteropServices.DllImportAttribute.#ctor*
+  parent: System.Runtime.InteropServices.DllImportAttribute
+  isExternal: false
+  name: DllImportAttribute
+  nameWithType: DllImportAttribute.DllImportAttribute
+- uid: System.Runtime.InteropServices.DllImportAttribute.Value*
+  parent: System.Runtime.InteropServices.DllImportAttribute
+  isExternal: false
+  name: Value
+  nameWithType: DllImportAttribute.Value

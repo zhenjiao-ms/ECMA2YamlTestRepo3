@@ -121,6 +121,7 @@ items:
     - id: obj
       type: System.Object
       description: To be added.
+  overload: System.Threading.Monitor.Exit*
   platform:
   - net-11
   - net-20
@@ -148,6 +149,7 @@ items:
     return:
       type: System.Boolean
       description: To be added.
+  overload: System.Threading.Monitor.IsEntered*
   platform:
   - net-11
   - net-20
@@ -172,6 +174,7 @@ items:
     - id: obj
       type: System.Object
       description: To be added.
+  overload: System.Threading.Monitor.Pulse*
   platform:
   - net-11
   - net-20
@@ -196,6 +199,7 @@ items:
     - id: obj
       type: System.Object
       description: To be added.
+  overload: System.Threading.Monitor.PulseAll*
   platform:
   - net-11
   - net-20
@@ -889,6 +893,26 @@ references:
   isExternal: false
   name: Enter
   nameWithType: Monitor.Enter
+- uid: System.Threading.Monitor.Exit*
+  parent: System.Threading.Monitor
+  isExternal: false
+  name: Exit
+  nameWithType: Monitor.Exit
+- uid: System.Threading.Monitor.IsEntered*
+  parent: System.Threading.Monitor
+  isExternal: false
+  name: IsEntered
+  nameWithType: Monitor.IsEntered
+- uid: System.Threading.Monitor.Pulse*
+  parent: System.Threading.Monitor
+  isExternal: false
+  name: Pulse
+  nameWithType: Monitor.Pulse
+- uid: System.Threading.Monitor.PulseAll*
+  parent: System.Threading.Monitor
+  isExternal: false
+  name: PulseAll
+  nameWithType: Monitor.PulseAll
 - uid: System.Threading.Monitor.TryEnter*
   parent: System.Threading.Monitor
   isExternal: false

@@ -68,6 +68,7 @@ items:
     - id: originalException
       type: System.Exception
       description: To be added.
+  overload: System.Diagnostics.Contracts.ContractFailedEventArgs.#ctor*
   platform:
   - net-11
   - net-20
@@ -91,6 +92,7 @@ items:
     return:
       type: System.String
       description: To be added.
+  overload: System.Diagnostics.Contracts.ContractFailedEventArgs.Condition*
   platform:
   - net-11
   - net-20
@@ -114,6 +116,7 @@ items:
     return:
       type: System.Diagnostics.Contracts.ContractFailureKind
       description: To be added.
+  overload: System.Diagnostics.Contracts.ContractFailedEventArgs.FailureKind*
   platform:
   - net-11
   - net-20
@@ -137,6 +140,7 @@ items:
     return:
       type: System.Boolean
       description: To be added.
+  overload: System.Diagnostics.Contracts.ContractFailedEventArgs.Handled*
   platform:
   - net-11
   - net-20
@@ -160,6 +164,7 @@ items:
     return:
       type: System.String
       description: To be added.
+  overload: System.Diagnostics.Contracts.ContractFailedEventArgs.Message*
   platform:
   - net-11
   - net-20
@@ -183,6 +188,7 @@ items:
     return:
       type: System.Exception
       description: To be added.
+  overload: System.Diagnostics.Contracts.ContractFailedEventArgs.OriginalException*
   platform:
   - net-11
   - net-20
@@ -204,6 +210,7 @@ items:
   syntax:
     content: public void SetHandled ();
     parameters: []
+  overload: System.Diagnostics.Contracts.ContractFailedEventArgs.SetHandled*
   platform:
   - net-11
   - net-20
@@ -225,6 +232,7 @@ items:
   syntax:
     content: public void SetUnwind ();
     parameters: []
+  overload: System.Diagnostics.Contracts.ContractFailedEventArgs.SetUnwind*
   platform:
   - net-11
   - net-20
@@ -248,6 +256,7 @@ items:
     return:
       type: System.Boolean
       description: To be added.
+  overload: System.Diagnostics.Contracts.ContractFailedEventArgs.Unwind*
   platform:
   - net-11
   - net-20
@@ -370,3 +379,48 @@ references:
   name: Boolean
   nameWithType: Boolean
   fullName: System.Boolean
+- uid: System.Diagnostics.Contracts.ContractFailedEventArgs.#ctor*
+  parent: System.Diagnostics.Contracts.ContractFailedEventArgs
+  isExternal: false
+  name: ContractFailedEventArgs
+  nameWithType: ContractFailedEventArgs.ContractFailedEventArgs
+- uid: System.Diagnostics.Contracts.ContractFailedEventArgs.Condition*
+  parent: System.Diagnostics.Contracts.ContractFailedEventArgs
+  isExternal: false
+  name: Condition
+  nameWithType: ContractFailedEventArgs.Condition
+- uid: System.Diagnostics.Contracts.ContractFailedEventArgs.FailureKind*
+  parent: System.Diagnostics.Contracts.ContractFailedEventArgs
+  isExternal: false
+  name: FailureKind
+  nameWithType: ContractFailedEventArgs.FailureKind
+- uid: System.Diagnostics.Contracts.ContractFailedEventArgs.Handled*
+  parent: System.Diagnostics.Contracts.ContractFailedEventArgs
+  isExternal: false
+  name: Handled
+  nameWithType: ContractFailedEventArgs.Handled
+- uid: System.Diagnostics.Contracts.ContractFailedEventArgs.Message*
+  parent: System.Diagnostics.Contracts.ContractFailedEventArgs
+  isExternal: false
+  name: Message
+  nameWithType: ContractFailedEventArgs.Message
+- uid: System.Diagnostics.Contracts.ContractFailedEventArgs.OriginalException*
+  parent: System.Diagnostics.Contracts.ContractFailedEventArgs
+  isExternal: false
+  name: OriginalException
+  nameWithType: ContractFailedEventArgs.OriginalException
+- uid: System.Diagnostics.Contracts.ContractFailedEventArgs.SetHandled*
+  parent: System.Diagnostics.Contracts.ContractFailedEventArgs
+  isExternal: false
+  name: SetHandled
+  nameWithType: ContractFailedEventArgs.SetHandled
+- uid: System.Diagnostics.Contracts.ContractFailedEventArgs.SetUnwind*
+  parent: System.Diagnostics.Contracts.ContractFailedEventArgs
+  isExternal: false
+  name: SetUnwind
+  nameWithType: ContractFailedEventArgs.SetUnwind
+- uid: System.Diagnostics.Contracts.ContractFailedEventArgs.Unwind*
+  parent: System.Diagnostics.Contracts.ContractFailedEventArgs
+  isExternal: false
+  name: Unwind
+  nameWithType: ContractFailedEventArgs.Unwind

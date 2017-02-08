@@ -231,6 +231,7 @@ items:
     return:
       type: System.Int32
       description: To be added.
+  overload: System.Single.GetHashCode*
   platform:
   - net-11
   - net-20
@@ -255,6 +256,7 @@ items:
     return:
       type: System.TypeCode
       description: To be added.
+  overload: System.Single.GetTypeCode*
   platform:
   - net-11
   - net-20
@@ -282,6 +284,7 @@ items:
     return:
       type: System.Boolean
       description: To be added.
+  overload: System.Single.IsInfinity*
   platform:
   - net-11
   - net-20
@@ -309,6 +312,7 @@ items:
     return:
       type: System.Boolean
       description: To be added.
+  overload: System.Single.IsNaN*
   platform:
   - net-11
   - net-20
@@ -336,6 +340,7 @@ items:
     return:
       type: System.Boolean
       description: To be added.
+  overload: System.Single.IsNegativeInfinity*
   platform:
   - net-11
   - net-20
@@ -363,6 +368,7 @@ items:
     return:
       type: System.Boolean
       description: To be added.
+  overload: System.Single.IsPositiveInfinity*
   platform:
   - net-11
   - net-20
@@ -485,6 +491,7 @@ items:
     return:
       type: System.Boolean
       description: To be added.
+  overload: System.Single.op_Equality*
   platform:
   - net-11
   - net-20
@@ -515,6 +522,7 @@ items:
     return:
       type: System.Boolean
       description: To be added.
+  overload: System.Single.op_GreaterThan*
   platform:
   - net-11
   - net-20
@@ -545,6 +553,7 @@ items:
     return:
       type: System.Boolean
       description: To be added.
+  overload: System.Single.op_GreaterThanOrEqual*
   platform:
   - net-11
   - net-20
@@ -575,6 +584,7 @@ items:
     return:
       type: System.Boolean
       description: To be added.
+  overload: System.Single.op_Inequality*
   platform:
   - net-11
   - net-20
@@ -605,6 +615,7 @@ items:
     return:
       type: System.Boolean
       description: To be added.
+  overload: System.Single.op_LessThan*
   platform:
   - net-11
   - net-20
@@ -635,6 +646,7 @@ items:
     return:
       type: System.Boolean
       description: To be added.
+  overload: System.Single.op_LessThanOrEqual*
   platform:
   - net-11
   - net-20
@@ -810,6 +822,7 @@ items:
     return:
       type: System.Boolean
       description: To be added.
+  overload: System.Single.System#IConvertible#ToBoolean*
   platform:
   - net-11
   - net-20
@@ -838,6 +851,7 @@ items:
     return:
       type: System.Byte
       description: To be added.
+  overload: System.Single.System#IConvertible#ToByte*
   platform:
   - net-11
   - net-20
@@ -866,6 +880,7 @@ items:
     return:
       type: System.Char
       description: To be added.
+  overload: System.Single.System#IConvertible#ToChar*
   platform:
   - net-11
   - net-20
@@ -894,6 +909,7 @@ items:
     return:
       type: System.DateTime
       description: To be added.
+  overload: System.Single.System#IConvertible#ToDateTime*
   platform:
   - net-11
   - net-20
@@ -922,6 +938,7 @@ items:
     return:
       type: System.Decimal
       description: To be added.
+  overload: System.Single.System#IConvertible#ToDecimal*
   platform:
   - net-11
   - net-20
@@ -950,6 +967,7 @@ items:
     return:
       type: System.Double
       description: To be added.
+  overload: System.Single.System#IConvertible#ToDouble*
   platform:
   - net-11
   - net-20
@@ -978,6 +996,7 @@ items:
     return:
       type: System.Int16
       description: To be added.
+  overload: System.Single.System#IConvertible#ToInt16*
   platform:
   - net-11
   - net-20
@@ -1006,6 +1025,7 @@ items:
     return:
       type: System.Int32
       description: To be added.
+  overload: System.Single.System#IConvertible#ToInt32*
   platform:
   - net-11
   - net-20
@@ -1034,6 +1054,7 @@ items:
     return:
       type: System.Int64
       description: To be added.
+  overload: System.Single.System#IConvertible#ToInt64*
   platform:
   - net-11
   - net-20
@@ -1062,6 +1083,7 @@ items:
     return:
       type: System.SByte
       description: To be added.
+  overload: System.Single.System#IConvertible#ToSByte*
   platform:
   - net-11
   - net-20
@@ -1090,6 +1112,7 @@ items:
     return:
       type: System.Single
       description: To be added.
+  overload: System.Single.System#IConvertible#ToSingle*
   platform:
   - net-11
   - net-20
@@ -1121,6 +1144,7 @@ items:
     return:
       type: System.Object
       description: To be added.
+  overload: System.Single.System#IConvertible#ToType*
   platform:
   - net-11
   - net-20
@@ -1149,6 +1173,7 @@ items:
     return:
       type: System.UInt16
       description: To be added.
+  overload: System.Single.System#IConvertible#ToUInt16*
   platform:
   - net-11
   - net-20
@@ -1177,6 +1202,7 @@ items:
     return:
       type: System.UInt32
       description: To be added.
+  overload: System.Single.System#IConvertible#ToUInt32*
   platform:
   - net-11
   - net-20
@@ -1205,6 +1231,7 @@ items:
     return:
       type: System.UInt64
       description: To be added.
+  overload: System.Single.System#IConvertible#ToUInt64*
   platform:
   - net-11
   - net-20
@@ -2291,11 +2318,146 @@ references:
   isExternal: false
   name: Equals
   nameWithType: Single.Equals
+- uid: System.Single.GetHashCode*
+  parent: System.Single
+  isExternal: false
+  name: GetHashCode
+  nameWithType: Single.GetHashCode
+- uid: System.Single.GetTypeCode*
+  parent: System.Single
+  isExternal: false
+  name: GetTypeCode
+  nameWithType: Single.GetTypeCode
+- uid: System.Single.IsInfinity*
+  parent: System.Single
+  isExternal: false
+  name: IsInfinity
+  nameWithType: Single.IsInfinity
+- uid: System.Single.IsNaN*
+  parent: System.Single
+  isExternal: false
+  name: IsNaN
+  nameWithType: Single.IsNaN
+- uid: System.Single.IsNegativeInfinity*
+  parent: System.Single
+  isExternal: false
+  name: IsNegativeInfinity
+  nameWithType: Single.IsNegativeInfinity
+- uid: System.Single.IsPositiveInfinity*
+  parent: System.Single
+  isExternal: false
+  name: IsPositiveInfinity
+  nameWithType: Single.IsPositiveInfinity
+- uid: System.Single.op_Equality*
+  parent: System.Single
+  isExternal: false
+  name: op_Equality
+  nameWithType: Single.op_Equality
+- uid: System.Single.op_GreaterThan*
+  parent: System.Single
+  isExternal: false
+  name: op_GreaterThan
+  nameWithType: Single.op_GreaterThan
+- uid: System.Single.op_GreaterThanOrEqual*
+  parent: System.Single
+  isExternal: false
+  name: op_GreaterThanOrEqual
+  nameWithType: Single.op_GreaterThanOrEqual
+- uid: System.Single.op_Inequality*
+  parent: System.Single
+  isExternal: false
+  name: op_Inequality
+  nameWithType: Single.op_Inequality
+- uid: System.Single.op_LessThan*
+  parent: System.Single
+  isExternal: false
+  name: op_LessThan
+  nameWithType: Single.op_LessThan
+- uid: System.Single.op_LessThanOrEqual*
+  parent: System.Single
+  isExternal: false
+  name: op_LessThanOrEqual
+  nameWithType: Single.op_LessThanOrEqual
 - uid: System.Single.Parse*
   parent: System.Single
   isExternal: false
   name: Parse
   nameWithType: Single.Parse
+- uid: System.Single.System#IConvertible#ToBoolean*
+  parent: System.Single
+  isExternal: false
+  name: System.IConvertible.ToBoolean
+  nameWithType: Single.System.IConvertible.ToBoolean
+- uid: System.Single.System#IConvertible#ToByte*
+  parent: System.Single
+  isExternal: false
+  name: System.IConvertible.ToByte
+  nameWithType: Single.System.IConvertible.ToByte
+- uid: System.Single.System#IConvertible#ToChar*
+  parent: System.Single
+  isExternal: false
+  name: System.IConvertible.ToChar
+  nameWithType: Single.System.IConvertible.ToChar
+- uid: System.Single.System#IConvertible#ToDateTime*
+  parent: System.Single
+  isExternal: false
+  name: System.IConvertible.ToDateTime
+  nameWithType: Single.System.IConvertible.ToDateTime
+- uid: System.Single.System#IConvertible#ToDecimal*
+  parent: System.Single
+  isExternal: false
+  name: System.IConvertible.ToDecimal
+  nameWithType: Single.System.IConvertible.ToDecimal
+- uid: System.Single.System#IConvertible#ToDouble*
+  parent: System.Single
+  isExternal: false
+  name: System.IConvertible.ToDouble
+  nameWithType: Single.System.IConvertible.ToDouble
+- uid: System.Single.System#IConvertible#ToInt16*
+  parent: System.Single
+  isExternal: false
+  name: System.IConvertible.ToInt16
+  nameWithType: Single.System.IConvertible.ToInt16
+- uid: System.Single.System#IConvertible#ToInt32*
+  parent: System.Single
+  isExternal: false
+  name: System.IConvertible.ToInt32
+  nameWithType: Single.System.IConvertible.ToInt32
+- uid: System.Single.System#IConvertible#ToInt64*
+  parent: System.Single
+  isExternal: false
+  name: System.IConvertible.ToInt64
+  nameWithType: Single.System.IConvertible.ToInt64
+- uid: System.Single.System#IConvertible#ToSByte*
+  parent: System.Single
+  isExternal: false
+  name: System.IConvertible.ToSByte
+  nameWithType: Single.System.IConvertible.ToSByte
+- uid: System.Single.System#IConvertible#ToSingle*
+  parent: System.Single
+  isExternal: false
+  name: System.IConvertible.ToSingle
+  nameWithType: Single.System.IConvertible.ToSingle
+- uid: System.Single.System#IConvertible#ToType*
+  parent: System.Single
+  isExternal: false
+  name: System.IConvertible.ToType
+  nameWithType: Single.System.IConvertible.ToType
+- uid: System.Single.System#IConvertible#ToUInt16*
+  parent: System.Single
+  isExternal: false
+  name: System.IConvertible.ToUInt16
+  nameWithType: Single.System.IConvertible.ToUInt16
+- uid: System.Single.System#IConvertible#ToUInt32*
+  parent: System.Single
+  isExternal: false
+  name: System.IConvertible.ToUInt32
+  nameWithType: Single.System.IConvertible.ToUInt32
+- uid: System.Single.System#IConvertible#ToUInt64*
+  parent: System.Single
+  isExternal: false
+  name: System.IConvertible.ToUInt64
+  nameWithType: Single.System.IConvertible.ToUInt64
 - uid: System.Single.ToString*
   parent: System.Single
   isExternal: false

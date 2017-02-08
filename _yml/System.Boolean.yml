@@ -210,6 +210,7 @@ items:
     return:
       type: System.Int32
       description: To be added.
+  overload: System.Boolean.GetHashCode*
   platform:
   - net-11
   - net-20
@@ -234,6 +235,7 @@ items:
     return:
       type: System.TypeCode
       description: To be added.
+  overload: System.Boolean.GetTypeCode*
   platform:
   - net-11
   - net-20
@@ -261,6 +263,7 @@ items:
     return:
       type: System.Boolean
       description: To be added.
+  overload: System.Boolean.Parse*
   platform:
   - net-11
   - net-20
@@ -289,6 +292,7 @@ items:
     return:
       type: System.Boolean
       description: To be added.
+  overload: System.Boolean.System#IConvertible#ToBoolean*
   platform:
   - net-11
   - net-20
@@ -317,6 +321,7 @@ items:
     return:
       type: System.Byte
       description: To be added.
+  overload: System.Boolean.System#IConvertible#ToByte*
   platform:
   - net-11
   - net-20
@@ -345,6 +350,7 @@ items:
     return:
       type: System.Char
       description: To be added.
+  overload: System.Boolean.System#IConvertible#ToChar*
   platform:
   - net-11
   - net-20
@@ -373,6 +379,7 @@ items:
     return:
       type: System.DateTime
       description: To be added.
+  overload: System.Boolean.System#IConvertible#ToDateTime*
   platform:
   - net-11
   - net-20
@@ -401,6 +408,7 @@ items:
     return:
       type: System.Decimal
       description: To be added.
+  overload: System.Boolean.System#IConvertible#ToDecimal*
   platform:
   - net-11
   - net-20
@@ -429,6 +437,7 @@ items:
     return:
       type: System.Double
       description: To be added.
+  overload: System.Boolean.System#IConvertible#ToDouble*
   platform:
   - net-11
   - net-20
@@ -457,6 +466,7 @@ items:
     return:
       type: System.Int16
       description: To be added.
+  overload: System.Boolean.System#IConvertible#ToInt16*
   platform:
   - net-11
   - net-20
@@ -485,6 +495,7 @@ items:
     return:
       type: System.Int32
       description: To be added.
+  overload: System.Boolean.System#IConvertible#ToInt32*
   platform:
   - net-11
   - net-20
@@ -513,6 +524,7 @@ items:
     return:
       type: System.Int64
       description: To be added.
+  overload: System.Boolean.System#IConvertible#ToInt64*
   platform:
   - net-11
   - net-20
@@ -541,6 +553,7 @@ items:
     return:
       type: System.SByte
       description: To be added.
+  overload: System.Boolean.System#IConvertible#ToSByte*
   platform:
   - net-11
   - net-20
@@ -569,6 +582,7 @@ items:
     return:
       type: System.Single
       description: To be added.
+  overload: System.Boolean.System#IConvertible#ToSingle*
   platform:
   - net-11
   - net-20
@@ -600,6 +614,7 @@ items:
     return:
       type: System.Object
       description: To be added.
+  overload: System.Boolean.System#IConvertible#ToType*
   platform:
   - net-11
   - net-20
@@ -628,6 +643,7 @@ items:
     return:
       type: System.UInt16
       description: To be added.
+  overload: System.Boolean.System#IConvertible#ToUInt16*
   platform:
   - net-11
   - net-20
@@ -656,6 +672,7 @@ items:
     return:
       type: System.UInt32
       description: To be added.
+  overload: System.Boolean.System#IConvertible#ToUInt32*
   platform:
   - net-11
   - net-20
@@ -684,6 +701,7 @@ items:
     return:
       type: System.UInt64
       description: To be added.
+  overload: System.Boolean.System#IConvertible#ToUInt64*
   platform:
   - net-11
   - net-20
@@ -790,6 +808,7 @@ items:
     return:
       type: System.Boolean
       description: To be added.
+  overload: System.Boolean.TryParse*
   platform:
   - net-11
   - net-20
@@ -1276,8 +1295,103 @@ references:
   isExternal: false
   name: Equals
   nameWithType: Boolean.Equals
+- uid: System.Boolean.GetHashCode*
+  parent: System.Boolean
+  isExternal: false
+  name: GetHashCode
+  nameWithType: Boolean.GetHashCode
+- uid: System.Boolean.GetTypeCode*
+  parent: System.Boolean
+  isExternal: false
+  name: GetTypeCode
+  nameWithType: Boolean.GetTypeCode
+- uid: System.Boolean.Parse*
+  parent: System.Boolean
+  isExternal: false
+  name: Parse
+  nameWithType: Boolean.Parse
+- uid: System.Boolean.System#IConvertible#ToBoolean*
+  parent: System.Boolean
+  isExternal: false
+  name: System.IConvertible.ToBoolean
+  nameWithType: Boolean.System.IConvertible.ToBoolean
+- uid: System.Boolean.System#IConvertible#ToByte*
+  parent: System.Boolean
+  isExternal: false
+  name: System.IConvertible.ToByte
+  nameWithType: Boolean.System.IConvertible.ToByte
+- uid: System.Boolean.System#IConvertible#ToChar*
+  parent: System.Boolean
+  isExternal: false
+  name: System.IConvertible.ToChar
+  nameWithType: Boolean.System.IConvertible.ToChar
+- uid: System.Boolean.System#IConvertible#ToDateTime*
+  parent: System.Boolean
+  isExternal: false
+  name: System.IConvertible.ToDateTime
+  nameWithType: Boolean.System.IConvertible.ToDateTime
+- uid: System.Boolean.System#IConvertible#ToDecimal*
+  parent: System.Boolean
+  isExternal: false
+  name: System.IConvertible.ToDecimal
+  nameWithType: Boolean.System.IConvertible.ToDecimal
+- uid: System.Boolean.System#IConvertible#ToDouble*
+  parent: System.Boolean
+  isExternal: false
+  name: System.IConvertible.ToDouble
+  nameWithType: Boolean.System.IConvertible.ToDouble
+- uid: System.Boolean.System#IConvertible#ToInt16*
+  parent: System.Boolean
+  isExternal: false
+  name: System.IConvertible.ToInt16
+  nameWithType: Boolean.System.IConvertible.ToInt16
+- uid: System.Boolean.System#IConvertible#ToInt32*
+  parent: System.Boolean
+  isExternal: false
+  name: System.IConvertible.ToInt32
+  nameWithType: Boolean.System.IConvertible.ToInt32
+- uid: System.Boolean.System#IConvertible#ToInt64*
+  parent: System.Boolean
+  isExternal: false
+  name: System.IConvertible.ToInt64
+  nameWithType: Boolean.System.IConvertible.ToInt64
+- uid: System.Boolean.System#IConvertible#ToSByte*
+  parent: System.Boolean
+  isExternal: false
+  name: System.IConvertible.ToSByte
+  nameWithType: Boolean.System.IConvertible.ToSByte
+- uid: System.Boolean.System#IConvertible#ToSingle*
+  parent: System.Boolean
+  isExternal: false
+  name: System.IConvertible.ToSingle
+  nameWithType: Boolean.System.IConvertible.ToSingle
+- uid: System.Boolean.System#IConvertible#ToType*
+  parent: System.Boolean
+  isExternal: false
+  name: System.IConvertible.ToType
+  nameWithType: Boolean.System.IConvertible.ToType
+- uid: System.Boolean.System#IConvertible#ToUInt16*
+  parent: System.Boolean
+  isExternal: false
+  name: System.IConvertible.ToUInt16
+  nameWithType: Boolean.System.IConvertible.ToUInt16
+- uid: System.Boolean.System#IConvertible#ToUInt32*
+  parent: System.Boolean
+  isExternal: false
+  name: System.IConvertible.ToUInt32
+  nameWithType: Boolean.System.IConvertible.ToUInt32
+- uid: System.Boolean.System#IConvertible#ToUInt64*
+  parent: System.Boolean
+  isExternal: false
+  name: System.IConvertible.ToUInt64
+  nameWithType: Boolean.System.IConvertible.ToUInt64
 - uid: System.Boolean.ToString*
   parent: System.Boolean
   isExternal: false
   name: ToString
   nameWithType: Boolean.ToString
+- uid: System.Boolean.TryParse*
+  parent: System.Boolean
+  isExternal: false
+  name: TryParse
+  nameWithType: Boolean.TryParse

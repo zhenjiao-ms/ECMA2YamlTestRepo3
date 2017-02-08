@@ -54,6 +54,7 @@ items:
   syntax:
     content: public RSAOAEPKeyExchangeDeformatter ();
     parameters: []
+  overload: System.Security.Cryptography.RSAOAEPKeyExchangeDeformatter.#ctor*
   platform:
   - net-11
   - net-20
@@ -78,6 +79,7 @@ items:
     - id: key
       type: System.Security.Cryptography.AsymmetricAlgorithm
       description: To be added.
+  overload: System.Security.Cryptography.RSAOAEPKeyExchangeDeformatter.#ctor*
   platform:
   - net-11
   - net-20
@@ -105,6 +107,7 @@ items:
     return:
       type: System.Byte[]
       description: To be added.
+  overload: System.Security.Cryptography.RSAOAEPKeyExchangeDeformatter.DecryptKeyExchange*
   platform:
   - net-11
   - net-20
@@ -128,6 +131,7 @@ items:
     return:
       type: System.String
       description: To be added.
+  overload: System.Security.Cryptography.RSAOAEPKeyExchangeDeformatter.Parameters*
   platform:
   - net-11
   - net-20
@@ -152,6 +156,7 @@ items:
     - id: key
       type: System.Security.Cryptography.AsymmetricAlgorithm
       description: To be added.
+  overload: System.Security.Cryptography.RSAOAEPKeyExchangeDeformatter.SetKey*
   platform:
   - net-11
   - net-20
@@ -220,3 +225,23 @@ references:
   name: AsymmetricAlgorithm
   nameWithType: AsymmetricAlgorithm
   fullName: System.Security.Cryptography.AsymmetricAlgorithm
+- uid: System.Security.Cryptography.RSAOAEPKeyExchangeDeformatter.#ctor*
+  parent: System.Security.Cryptography.RSAOAEPKeyExchangeDeformatter
+  isExternal: false
+  name: RSAOAEPKeyExchangeDeformatter
+  nameWithType: RSAOAEPKeyExchangeDeformatter.RSAOAEPKeyExchangeDeformatter
+- uid: System.Security.Cryptography.RSAOAEPKeyExchangeDeformatter.DecryptKeyExchange*
+  parent: System.Security.Cryptography.RSAOAEPKeyExchangeDeformatter
+  isExternal: false
+  name: DecryptKeyExchange
+  nameWithType: RSAOAEPKeyExchangeDeformatter.DecryptKeyExchange
+- uid: System.Security.Cryptography.RSAOAEPKeyExchangeDeformatter.Parameters*
+  parent: System.Security.Cryptography.RSAOAEPKeyExchangeDeformatter
+  isExternal: false
+  name: Parameters
+  nameWithType: RSAOAEPKeyExchangeDeformatter.Parameters
+- uid: System.Security.Cryptography.RSAOAEPKeyExchangeDeformatter.SetKey*
+  parent: System.Security.Cryptography.RSAOAEPKeyExchangeDeformatter
+  isExternal: false
+  name: SetKey
+  nameWithType: RSAOAEPKeyExchangeDeformatter.SetKey

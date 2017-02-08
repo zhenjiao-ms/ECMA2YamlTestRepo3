@@ -75,6 +75,7 @@ items:
     - id: values
       type: System.Boolean[]
       description: To be added.
+  overload: System.Collections.BitArray.#ctor*
   platform:
   - net-11
   - net-20
@@ -99,6 +100,7 @@ items:
     - id: bytes
       type: System.Byte[]
       description: To be added.
+  overload: System.Collections.BitArray.#ctor*
   platform:
   - net-11
   - net-20
@@ -123,6 +125,7 @@ items:
     - id: bits
       type: System.Collections.BitArray
       description: To be added.
+  overload: System.Collections.BitArray.#ctor*
   platform:
   - net-11
   - net-20
@@ -147,6 +150,7 @@ items:
     - id: length
       type: System.Int32
       description: To be added.
+  overload: System.Collections.BitArray.#ctor*
   platform:
   - net-11
   - net-20
@@ -171,6 +175,7 @@ items:
     - id: values
       type: System.Int32[]
       description: To be added.
+  overload: System.Collections.BitArray.#ctor*
   platform:
   - net-11
   - net-20
@@ -198,6 +203,7 @@ items:
     - id: defaultValue
       type: System.Boolean
       description: To be added.
+  overload: System.Collections.BitArray.#ctor*
   platform:
   - net-11
   - net-20
@@ -225,6 +231,7 @@ items:
     return:
       type: System.Collections.BitArray
       description: To be added.
+  overload: System.Collections.BitArray.And*
   platform:
   - net-11
   - net-20
@@ -249,6 +256,7 @@ items:
     return:
       type: System.Object
       description: To be added.
+  overload: System.Collections.BitArray.Clone*
   platform:
   - net-11
   - net-20
@@ -276,6 +284,7 @@ items:
     - id: index
       type: System.Int32
       description: To be added.
+  overload: System.Collections.BitArray.CopyTo*
   platform:
   - net-11
   - net-20
@@ -299,6 +308,7 @@ items:
     return:
       type: System.Int32
       description: To be added.
+  overload: System.Collections.BitArray.Count*
   platform:
   - net-11
   - net-20
@@ -326,6 +336,7 @@ items:
     return:
       type: System.Boolean
       description: To be added.
+  overload: System.Collections.BitArray.Get*
   platform:
   - net-11
   - net-20
@@ -350,6 +361,7 @@ items:
     return:
       type: System.Collections.IEnumerator
       description: To be added.
+  overload: System.Collections.BitArray.GetEnumerator*
   platform:
   - net-11
   - net-20
@@ -373,6 +385,7 @@ items:
     return:
       type: System.Boolean
       description: To be added.
+  overload: System.Collections.BitArray.IsReadOnly*
   platform:
   - net-11
   - net-20
@@ -396,6 +409,7 @@ items:
     return:
       type: System.Boolean
       description: To be added.
+  overload: System.Collections.BitArray.IsSynchronized*
   platform:
   - net-11
   - net-20
@@ -423,6 +437,7 @@ items:
     return:
       type: System.Boolean
       description: To be added.
+  overload: System.Collections.BitArray.Item*
   platform:
   - net-11
   - net-20
@@ -446,6 +461,7 @@ items:
     return:
       type: System.Int32
       description: To be added.
+  overload: System.Collections.BitArray.Length*
   platform:
   - net-11
   - net-20
@@ -470,6 +486,7 @@ items:
     return:
       type: System.Collections.BitArray
       description: To be added.
+  overload: System.Collections.BitArray.Not*
   platform:
   - net-11
   - net-20
@@ -497,6 +514,7 @@ items:
     return:
       type: System.Collections.BitArray
       description: To be added.
+  overload: System.Collections.BitArray.Or*
   platform:
   - net-11
   - net-20
@@ -524,6 +542,7 @@ items:
     - id: value
       type: System.Boolean
       description: To be added.
+  overload: System.Collections.BitArray.Set*
   platform:
   - net-11
   - net-20
@@ -548,6 +567,7 @@ items:
     - id: value
       type: System.Boolean
       description: To be added.
+  overload: System.Collections.BitArray.SetAll*
   platform:
   - net-11
   - net-20
@@ -571,6 +591,7 @@ items:
     return:
       type: System.Object
       description: To be added.
+  overload: System.Collections.BitArray.SyncRoot*
   platform:
   - net-11
   - net-20
@@ -598,6 +619,7 @@ items:
     return:
       type: System.Collections.BitArray
       description: To be added.
+  overload: System.Collections.BitArray.Xor*
   platform:
   - net-11
   - net-20
@@ -918,3 +940,88 @@ references:
   name: BitArray
   nameWithType: BitArray
   fullName: System.Collections.BitArray
+- uid: System.Collections.BitArray.#ctor*
+  parent: System.Collections.BitArray
+  isExternal: false
+  name: BitArray
+  nameWithType: BitArray.BitArray
+- uid: System.Collections.BitArray.And*
+  parent: System.Collections.BitArray
+  isExternal: false
+  name: And
+  nameWithType: BitArray.And
+- uid: System.Collections.BitArray.Clone*
+  parent: System.Collections.BitArray
+  isExternal: false
+  name: Clone
+  nameWithType: BitArray.Clone
+- uid: System.Collections.BitArray.CopyTo*
+  parent: System.Collections.BitArray
+  isExternal: false
+  name: CopyTo
+  nameWithType: BitArray.CopyTo
+- uid: System.Collections.BitArray.Count*
+  parent: System.Collections.BitArray
+  isExternal: false
+  name: Count
+  nameWithType: BitArray.Count
+- uid: System.Collections.BitArray.Get*
+  parent: System.Collections.BitArray
+  isExternal: false
+  name: Get
+  nameWithType: BitArray.Get
+- uid: System.Collections.BitArray.GetEnumerator*
+  parent: System.Collections.BitArray
+  isExternal: false
+  name: GetEnumerator
+  nameWithType: BitArray.GetEnumerator
+- uid: System.Collections.BitArray.IsReadOnly*
+  parent: System.Collections.BitArray
+  isExternal: false
+  name: IsReadOnly
+  nameWithType: BitArray.IsReadOnly
+- uid: System.Collections.BitArray.IsSynchronized*
+  parent: System.Collections.BitArray
+  isExternal: false
+  name: IsSynchronized
+  nameWithType: BitArray.IsSynchronized
+- uid: System.Collections.BitArray.Item*
+  parent: System.Collections.BitArray
+  isExternal: false
+  name: Item
+  nameWithType: BitArray.Item
+- uid: System.Collections.BitArray.Length*
+  parent: System.Collections.BitArray
+  isExternal: false
+  name: Length
+  nameWithType: BitArray.Length
+- uid: System.Collections.BitArray.Not*
+  parent: System.Collections.BitArray
+  isExternal: false
+  name: Not
+  nameWithType: BitArray.Not
+- uid: System.Collections.BitArray.Or*
+  parent: System.Collections.BitArray
+  isExternal: false
+  name: Or
+  nameWithType: BitArray.Or
+- uid: System.Collections.BitArray.Set*
+  parent: System.Collections.BitArray
+  isExternal: false
+  name: Set
+  nameWithType: BitArray.Set
+- uid: System.Collections.BitArray.SetAll*
+  parent: System.Collections.BitArray
+  isExternal: false
+  name: SetAll
+  nameWithType: BitArray.SetAll
+- uid: System.Collections.BitArray.SyncRoot*
+  parent: System.Collections.BitArray
+  isExternal: false
+  name: SyncRoot
+  nameWithType: BitArray.SyncRoot
+- uid: System.Collections.BitArray.Xor*
+  parent: System.Collections.BitArray
+  isExternal: false
+  name: Xor
+  nameWithType: BitArray.Xor

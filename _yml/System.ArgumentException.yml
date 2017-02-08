@@ -68,6 +68,7 @@ items:
   syntax:
     content: public ArgumentException ();
     parameters: []
+  overload: System.ArgumentException.#ctor*
   platform:
   - net-11
   - net-20
@@ -92,6 +93,7 @@ items:
     - id: message
       type: System.String
       description: To be added.
+  overload: System.ArgumentException.#ctor*
   platform:
   - net-11
   - net-20
@@ -119,6 +121,7 @@ items:
     - id: context
       type: System.Runtime.Serialization.StreamingContext
       description: To be added.
+  overload: System.ArgumentException.#ctor*
   platform:
   - net-11
   - net-20
@@ -146,6 +149,7 @@ items:
     - id: innerException
       type: System.Exception
       description: To be added.
+  overload: System.ArgumentException.#ctor*
   platform:
   - net-11
   - net-20
@@ -173,6 +177,7 @@ items:
     - id: paramName
       type: System.String
       description: To be added.
+  overload: System.ArgumentException.#ctor*
   platform:
   - net-11
   - net-20
@@ -203,6 +208,7 @@ items:
     - id: innerException
       type: System.Exception
       description: To be added.
+  overload: System.ArgumentException.#ctor*
   platform:
   - net-11
   - net-20
@@ -230,6 +236,7 @@ items:
     - id: context
       type: System.Runtime.Serialization.StreamingContext
       description: To be added.
+  overload: System.ArgumentException.GetObjectData*
   platform:
   - net-11
   - net-20
@@ -253,6 +260,7 @@ items:
     return:
       type: System.String
       description: To be added.
+  overload: System.ArgumentException.Message*
   platform:
   - net-11
   - net-20
@@ -276,6 +284,7 @@ items:
     return:
       type: System.String
       description: To be added.
+  overload: System.ArgumentException.ParamName*
   platform:
   - net-11
   - net-20
@@ -422,3 +431,23 @@ references:
   name: String
   nameWithType: String
   fullName: System.String
+- uid: System.ArgumentException.#ctor*
+  parent: System.ArgumentException
+  isExternal: false
+  name: ArgumentException
+  nameWithType: ArgumentException.ArgumentException
+- uid: System.ArgumentException.GetObjectData*
+  parent: System.ArgumentException
+  isExternal: false
+  name: GetObjectData
+  nameWithType: ArgumentException.GetObjectData
+- uid: System.ArgumentException.Message*
+  parent: System.ArgumentException
+  isExternal: false
+  name: Message
+  nameWithType: ArgumentException.Message
+- uid: System.ArgumentException.ParamName*
+  parent: System.ArgumentException
+  isExternal: false
+  name: ParamName
+  nameWithType: ArgumentException.ParamName

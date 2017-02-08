@@ -102,6 +102,7 @@ items:
   syntax:
     content: public SoapTypeAttribute ();
     parameters: []
+  overload: System.Runtime.Remoting.Metadata.SoapTypeAttribute.#ctor*
   platform:
   - net-11
   - net-20
@@ -125,6 +126,7 @@ items:
     return:
       type: System.Runtime.Remoting.Metadata.SoapOption
       description: To be added.
+  overload: System.Runtime.Remoting.Metadata.SoapTypeAttribute.SoapOptions*
   platform:
   - net-11
   - net-20
@@ -148,6 +150,7 @@ items:
     return:
       type: System.Boolean
       description: To be added.
+  overload: System.Runtime.Remoting.Metadata.SoapTypeAttribute.UseAttribute*
   platform:
   - net-11
   - net-20
@@ -171,6 +174,7 @@ items:
     return:
       type: System.String
       description: To be added.
+  overload: System.Runtime.Remoting.Metadata.SoapTypeAttribute.XmlElementName*
   platform:
   - net-11
   - net-20
@@ -194,6 +198,7 @@ items:
     return:
       type: System.Runtime.Remoting.Metadata.XmlFieldOrderOption
       description: To be added.
+  overload: System.Runtime.Remoting.Metadata.SoapTypeAttribute.XmlFieldOrder*
   platform:
   - net-11
   - net-20
@@ -217,6 +222,7 @@ items:
     return:
       type: System.String
       description: To be added.
+  overload: System.Runtime.Remoting.Metadata.SoapTypeAttribute.XmlNamespace*
   platform:
   - net-11
   - net-20
@@ -240,6 +246,7 @@ items:
     return:
       type: System.String
       description: To be added.
+  overload: System.Runtime.Remoting.Metadata.SoapTypeAttribute.XmlTypeName*
   platform:
   - net-11
   - net-20
@@ -263,6 +270,7 @@ items:
     return:
       type: System.String
       description: To be added.
+  overload: System.Runtime.Remoting.Metadata.SoapTypeAttribute.XmlTypeNamespace*
   platform:
   - net-11
   - net-20
@@ -361,3 +369,43 @@ references:
   name: String
   nameWithType: String
   fullName: System.String
+- uid: System.Runtime.Remoting.Metadata.SoapTypeAttribute.#ctor*
+  parent: System.Runtime.Remoting.Metadata.SoapTypeAttribute
+  isExternal: false
+  name: SoapTypeAttribute
+  nameWithType: SoapTypeAttribute.SoapTypeAttribute
+- uid: System.Runtime.Remoting.Metadata.SoapTypeAttribute.SoapOptions*
+  parent: System.Runtime.Remoting.Metadata.SoapTypeAttribute
+  isExternal: false
+  name: SoapOptions
+  nameWithType: SoapTypeAttribute.SoapOptions
+- uid: System.Runtime.Remoting.Metadata.SoapTypeAttribute.UseAttribute*
+  parent: System.Runtime.Remoting.Metadata.SoapTypeAttribute
+  isExternal: false
+  name: UseAttribute
+  nameWithType: SoapTypeAttribute.UseAttribute
+- uid: System.Runtime.Remoting.Metadata.SoapTypeAttribute.XmlElementName*
+  parent: System.Runtime.Remoting.Metadata.SoapTypeAttribute
+  isExternal: false
+  name: XmlElementName
+  nameWithType: SoapTypeAttribute.XmlElementName
+- uid: System.Runtime.Remoting.Metadata.SoapTypeAttribute.XmlFieldOrder*
+  parent: System.Runtime.Remoting.Metadata.SoapTypeAttribute
+  isExternal: false
+  name: XmlFieldOrder
+  nameWithType: SoapTypeAttribute.XmlFieldOrder
+- uid: System.Runtime.Remoting.Metadata.SoapTypeAttribute.XmlNamespace*
+  parent: System.Runtime.Remoting.Metadata.SoapTypeAttribute
+  isExternal: false
+  name: XmlNamespace
+  nameWithType: SoapTypeAttribute.XmlNamespace
+- uid: System.Runtime.Remoting.Metadata.SoapTypeAttribute.XmlTypeName*
+  parent: System.Runtime.Remoting.Metadata.SoapTypeAttribute
+  isExternal: false
+  name: XmlTypeName
+  nameWithType: SoapTypeAttribute.XmlTypeName
+- uid: System.Runtime.Remoting.Metadata.SoapTypeAttribute.XmlTypeNamespace*
+  parent: System.Runtime.Remoting.Metadata.SoapTypeAttribute
+  isExternal: false
+  name: XmlTypeNamespace
+  nameWithType: SoapTypeAttribute.XmlTypeNamespace

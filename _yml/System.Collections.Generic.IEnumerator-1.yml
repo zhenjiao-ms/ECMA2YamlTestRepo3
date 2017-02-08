@@ -43,6 +43,7 @@ items:
     return:
       type: T
       description: To be added.
+  overload: System.Collections.Generic.IEnumerator`1.Current*
   platform:
   - net-11
   - net-20
@@ -60,3 +61,8 @@ references:
   name: T
   nameWithType: T
   fullName: T
+- uid: System.Collections.Generic.IEnumerator`1.Current*
+  parent: System.Collections.Generic.IEnumerator`1
+  isExternal: false
+  name: Current
+  nameWithType: IEnumerator<T>.Current

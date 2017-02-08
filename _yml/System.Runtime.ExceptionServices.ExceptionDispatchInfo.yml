@@ -54,6 +54,7 @@ items:
     return:
       type: System.Runtime.ExceptionServices.ExceptionDispatchInfo
       description: To be added.
+  overload: System.Runtime.ExceptionServices.ExceptionDispatchInfo.Capture*
   platform:
   - net-11
   - net-20
@@ -77,6 +78,7 @@ items:
     return:
       type: System.Exception
       description: To be added.
+  overload: System.Runtime.ExceptionServices.ExceptionDispatchInfo.SourceException*
   platform:
   - net-11
   - net-20
@@ -98,6 +100,7 @@ items:
   syntax:
     content: public void Throw ();
     parameters: []
+  overload: System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw*
   platform:
   - net-11
   - net-20
@@ -142,3 +145,18 @@ references:
   name: Throw()
   nameWithType: ExceptionDispatchInfo.Throw()
   fullName: System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+- uid: System.Runtime.ExceptionServices.ExceptionDispatchInfo.Capture*
+  parent: System.Runtime.ExceptionServices.ExceptionDispatchInfo
+  isExternal: false
+  name: Capture
+  nameWithType: ExceptionDispatchInfo.Capture
+- uid: System.Runtime.ExceptionServices.ExceptionDispatchInfo.SourceException*
+  parent: System.Runtime.ExceptionServices.ExceptionDispatchInfo
+  isExternal: false
+  name: SourceException
+  nameWithType: ExceptionDispatchInfo.SourceException
+- uid: System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw*
+  parent: System.Runtime.ExceptionServices.ExceptionDispatchInfo
+  isExternal: false
+  name: Throw
+  nameWithType: ExceptionDispatchInfo.Throw

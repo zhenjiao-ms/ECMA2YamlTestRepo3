@@ -99,6 +99,7 @@ items:
     - id: sourceInterfaces
       type: System.String
       description: To be added.
+  overload: System.Runtime.InteropServices.ComSourceInterfacesAttribute.#ctor*
   platform:
   - net-11
   - net-20
@@ -123,6 +124,7 @@ items:
     - id: sourceInterface
       type: System.Type
       description: To be added.
+  overload: System.Runtime.InteropServices.ComSourceInterfacesAttribute.#ctor*
   platform:
   - net-11
   - net-20
@@ -150,6 +152,7 @@ items:
     - id: sourceInterface2
       type: System.Type
       description: To be added.
+  overload: System.Runtime.InteropServices.ComSourceInterfacesAttribute.#ctor*
   platform:
   - net-11
   - net-20
@@ -180,6 +183,7 @@ items:
     - id: sourceInterface3
       type: System.Type
       description: To be added.
+  overload: System.Runtime.InteropServices.ComSourceInterfacesAttribute.#ctor*
   platform:
   - net-11
   - net-20
@@ -213,6 +217,7 @@ items:
     - id: sourceInterface4
       type: System.Type
       description: To be added.
+  overload: System.Runtime.InteropServices.ComSourceInterfacesAttribute.#ctor*
   platform:
   - net-11
   - net-20
@@ -236,6 +241,7 @@ items:
     return:
       type: System.String
       description: To be added.
+  overload: System.Runtime.InteropServices.ComSourceInterfacesAttribute.Value*
   platform:
   - net-11
   - net-20
@@ -352,3 +358,13 @@ references:
   name: String
   nameWithType: String
   fullName: System.String
+- uid: System.Runtime.InteropServices.ComSourceInterfacesAttribute.#ctor*
+  parent: System.Runtime.InteropServices.ComSourceInterfacesAttribute
+  isExternal: false
+  name: ComSourceInterfacesAttribute
+  nameWithType: ComSourceInterfacesAttribute.ComSourceInterfacesAttribute
+- uid: System.Runtime.InteropServices.ComSourceInterfacesAttribute.Value*
+  parent: System.Runtime.InteropServices.ComSourceInterfacesAttribute
+  isExternal: false
+  name: Value
+  nameWithType: ComSourceInterfacesAttribute.Value

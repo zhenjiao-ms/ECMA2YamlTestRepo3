@@ -57,6 +57,7 @@ items:
   syntax:
     content: protected CustomAttributeData ();
     parameters: []
+  overload: System.Reflection.CustomAttributeData.#ctor*
   platform:
   - net-11
   - net-20
@@ -80,6 +81,7 @@ items:
     return:
       type: System.Type
       description: To be added.
+  overload: System.Reflection.CustomAttributeData.AttributeType*
   platform:
   - net-11
   - net-20
@@ -103,6 +105,7 @@ items:
     return:
       type: System.Reflection.ConstructorInfo
       description: To be added.
+  overload: System.Reflection.CustomAttributeData.Constructor*
   platform:
   - net-11
   - net-20
@@ -126,6 +129,7 @@ items:
     return:
       type: System.Collections.Generic.IList{System.Reflection.CustomAttributeTypedArgument}
       description: To be added.
+  overload: System.Reflection.CustomAttributeData.ConstructorArguments*
   platform:
   - net-11
   - net-20
@@ -153,6 +157,7 @@ items:
     return:
       type: System.Boolean
       description: To be added.
+  overload: System.Reflection.CustomAttributeData.Equals*
   platform:
   - net-11
   - net-20
@@ -289,6 +294,7 @@ items:
     return:
       type: System.Int32
       description: To be added.
+  overload: System.Reflection.CustomAttributeData.GetHashCode*
   platform:
   - net-11
   - net-20
@@ -312,6 +318,7 @@ items:
     return:
       type: System.Collections.Generic.IList{System.Reflection.CustomAttributeNamedArgument}
       description: To be added.
+  overload: System.Reflection.CustomAttributeData.NamedArguments*
   platform:
   - net-11
   - net-20
@@ -336,6 +343,7 @@ items:
     return:
       type: System.String
       description: To be added.
+  overload: System.Reflection.CustomAttributeData.ToString*
   platform:
   - net-11
   - net-20
@@ -512,8 +520,48 @@ references:
   name: String
   nameWithType: String
   fullName: System.String
+- uid: System.Reflection.CustomAttributeData.#ctor*
+  parent: System.Reflection.CustomAttributeData
+  isExternal: false
+  name: CustomAttributeData
+  nameWithType: CustomAttributeData.CustomAttributeData
+- uid: System.Reflection.CustomAttributeData.AttributeType*
+  parent: System.Reflection.CustomAttributeData
+  isExternal: false
+  name: AttributeType
+  nameWithType: CustomAttributeData.AttributeType
+- uid: System.Reflection.CustomAttributeData.Constructor*
+  parent: System.Reflection.CustomAttributeData
+  isExternal: false
+  name: Constructor
+  nameWithType: CustomAttributeData.Constructor
+- uid: System.Reflection.CustomAttributeData.ConstructorArguments*
+  parent: System.Reflection.CustomAttributeData
+  isExternal: false
+  name: ConstructorArguments
+  nameWithType: CustomAttributeData.ConstructorArguments
+- uid: System.Reflection.CustomAttributeData.Equals*
+  parent: System.Reflection.CustomAttributeData
+  isExternal: false
+  name: Equals
+  nameWithType: CustomAttributeData.Equals
 - uid: System.Reflection.CustomAttributeData.GetCustomAttributes*
   parent: System.Reflection.CustomAttributeData
   isExternal: false
   name: GetCustomAttributes
   nameWithType: CustomAttributeData.GetCustomAttributes
+- uid: System.Reflection.CustomAttributeData.GetHashCode*
+  parent: System.Reflection.CustomAttributeData
+  isExternal: false
+  name: GetHashCode
+  nameWithType: CustomAttributeData.GetHashCode
+- uid: System.Reflection.CustomAttributeData.NamedArguments*
+  parent: System.Reflection.CustomAttributeData
+  isExternal: false
+  name: NamedArguments
+  nameWithType: CustomAttributeData.NamedArguments
+- uid: System.Reflection.CustomAttributeData.ToString*
+  parent: System.Reflection.CustomAttributeData
+  isExternal: false
+  name: ToString
+  nameWithType: CustomAttributeData.ToString

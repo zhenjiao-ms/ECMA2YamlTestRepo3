@@ -92,6 +92,7 @@ items:
   syntax:
     content: protected Stream ();
     parameters: []
+  overload: System.IO.Stream.#ctor*
   platform:
   - net-11
   - net-20
@@ -131,6 +132,7 @@ items:
     return:
       type: System.IAsyncResult
       description: To be added.
+  overload: System.IO.Stream.BeginRead*
   platform:
   - net-11
   - net-20
@@ -170,6 +172,7 @@ items:
     return:
       type: System.IAsyncResult
       description: To be added.
+  overload: System.IO.Stream.BeginWrite*
   platform:
   - net-11
   - net-20
@@ -193,6 +196,7 @@ items:
     return:
       type: System.Boolean
       description: To be added.
+  overload: System.IO.Stream.CanRead*
   platform:
   - net-11
   - net-20
@@ -216,6 +220,7 @@ items:
     return:
       type: System.Boolean
       description: To be added.
+  overload: System.IO.Stream.CanSeek*
   platform:
   - net-11
   - net-20
@@ -239,6 +244,7 @@ items:
     return:
       type: System.Boolean
       description: To be added.
+  overload: System.IO.Stream.CanTimeout*
   platform:
   - net-11
   - net-20
@@ -262,6 +268,7 @@ items:
     return:
       type: System.Boolean
       description: To be added.
+  overload: System.IO.Stream.CanWrite*
   platform:
   - net-11
   - net-20
@@ -283,6 +290,7 @@ items:
   syntax:
     content: public virtual void Close ();
     parameters: []
+  overload: System.IO.Stream.Close*
   platform:
   - net-11
   - net-20
@@ -453,6 +461,7 @@ items:
     return:
       type: System.Threading.WaitHandle
       description: To be added.
+  overload: System.IO.Stream.CreateWaitHandle*
   platform:
   - net-11
   - net-20
@@ -527,6 +536,7 @@ items:
     return:
       type: System.Int32
       description: To be added.
+  overload: System.IO.Stream.EndRead*
   platform:
   - net-11
   - net-20
@@ -551,6 +561,7 @@ items:
     - id: asyncResult
       type: System.IAsyncResult
       description: To be added.
+  overload: System.IO.Stream.EndWrite*
   platform:
   - net-11
   - net-20
@@ -572,6 +583,7 @@ items:
   syntax:
     content: public abstract void Flush ();
     parameters: []
+  overload: System.IO.Stream.Flush*
   platform:
   - net-11
   - net-20
@@ -648,6 +660,7 @@ items:
     return:
       type: System.Int64
       description: To be added.
+  overload: System.IO.Stream.Length*
   platform:
   - net-11
   - net-20
@@ -692,6 +705,7 @@ items:
   syntax:
     content: protected virtual void ObjectInvariant ();
     parameters: []
+  overload: System.IO.Stream.ObjectInvariant*
   platform:
   - net-11
   - net-20
@@ -715,6 +729,7 @@ items:
     return:
       type: System.Int64
       description: To be added.
+  overload: System.IO.Stream.Position*
   platform:
   - net-11
   - net-20
@@ -748,6 +763,7 @@ items:
     return:
       type: System.Int32
       description: To be added.
+  overload: System.IO.Stream.Read*
   platform:
   - net-11
   - net-20
@@ -843,6 +859,7 @@ items:
     return:
       type: System.Int32
       description: To be added.
+  overload: System.IO.Stream.ReadByte*
   platform:
   - net-11
   - net-20
@@ -866,6 +883,7 @@ items:
     return:
       type: System.Int32
       description: To be added.
+  overload: System.IO.Stream.ReadTimeout*
   platform:
   - net-11
   - net-20
@@ -896,6 +914,7 @@ items:
     return:
       type: System.Int64
       description: To be added.
+  overload: System.IO.Stream.Seek*
   platform:
   - net-11
   - net-20
@@ -920,6 +939,7 @@ items:
     - id: value
       type: System.Int64
       description: To be added.
+  overload: System.IO.Stream.SetLength*
   platform:
   - net-11
   - net-20
@@ -947,6 +967,7 @@ items:
     return:
       type: System.IO.Stream
       description: To be added.
+  overload: System.IO.Stream.Synchronized*
   platform:
   - net-11
   - net-20
@@ -977,6 +998,7 @@ items:
     - id: count
       type: System.Int32
       description: To be added.
+  overload: System.IO.Stream.Write*
   platform:
   - net-11
   - net-20
@@ -1072,6 +1094,7 @@ items:
     - id: value
       type: System.Byte
       description: To be added.
+  overload: System.IO.Stream.WriteByte*
   platform:
   - net-11
   - net-20
@@ -1095,6 +1118,7 @@ items:
     return:
       type: System.Int32
       description: To be added.
+  overload: System.IO.Stream.WriteTimeout*
   platform:
   - net-11
   - net-20
@@ -1775,6 +1799,46 @@ references:
   name: Int32
   nameWithType: Int32
   fullName: System.Int32
+- uid: System.IO.Stream.#ctor*
+  parent: System.IO.Stream
+  isExternal: false
+  name: Stream
+  nameWithType: Stream.Stream
+- uid: System.IO.Stream.BeginRead*
+  parent: System.IO.Stream
+  isExternal: false
+  name: BeginRead
+  nameWithType: Stream.BeginRead
+- uid: System.IO.Stream.BeginWrite*
+  parent: System.IO.Stream
+  isExternal: false
+  name: BeginWrite
+  nameWithType: Stream.BeginWrite
+- uid: System.IO.Stream.CanRead*
+  parent: System.IO.Stream
+  isExternal: false
+  name: CanRead
+  nameWithType: Stream.CanRead
+- uid: System.IO.Stream.CanSeek*
+  parent: System.IO.Stream
+  isExternal: false
+  name: CanSeek
+  nameWithType: Stream.CanSeek
+- uid: System.IO.Stream.CanTimeout*
+  parent: System.IO.Stream
+  isExternal: false
+  name: CanTimeout
+  nameWithType: Stream.CanTimeout
+- uid: System.IO.Stream.CanWrite*
+  parent: System.IO.Stream
+  isExternal: false
+  name: CanWrite
+  nameWithType: Stream.CanWrite
+- uid: System.IO.Stream.Close*
+  parent: System.IO.Stream
+  isExternal: false
+  name: Close
+  nameWithType: Stream.Close
 - uid: System.IO.Stream.CopyTo*
   parent: System.IO.Stream
   isExternal: false
@@ -1785,23 +1849,103 @@ references:
   isExternal: false
   name: CopyToAsync
   nameWithType: Stream.CopyToAsync
+- uid: System.IO.Stream.CreateWaitHandle*
+  parent: System.IO.Stream
+  isExternal: false
+  name: CreateWaitHandle
+  nameWithType: Stream.CreateWaitHandle
 - uid: System.IO.Stream.Dispose*
   parent: System.IO.Stream
   isExternal: false
   name: Dispose
   nameWithType: Stream.Dispose
+- uid: System.IO.Stream.EndRead*
+  parent: System.IO.Stream
+  isExternal: false
+  name: EndRead
+  nameWithType: Stream.EndRead
+- uid: System.IO.Stream.EndWrite*
+  parent: System.IO.Stream
+  isExternal: false
+  name: EndWrite
+  nameWithType: Stream.EndWrite
+- uid: System.IO.Stream.Flush*
+  parent: System.IO.Stream
+  isExternal: false
+  name: Flush
+  nameWithType: Stream.Flush
 - uid: System.IO.Stream.FlushAsync*
   parent: System.IO.Stream
   isExternal: false
   name: FlushAsync
   nameWithType: Stream.FlushAsync
+- uid: System.IO.Stream.Length*
+  parent: System.IO.Stream
+  isExternal: false
+  name: Length
+  nameWithType: Stream.Length
+- uid: System.IO.Stream.ObjectInvariant*
+  parent: System.IO.Stream
+  isExternal: false
+  name: ObjectInvariant
+  nameWithType: Stream.ObjectInvariant
+- uid: System.IO.Stream.Position*
+  parent: System.IO.Stream
+  isExternal: false
+  name: Position
+  nameWithType: Stream.Position
+- uid: System.IO.Stream.Read*
+  parent: System.IO.Stream
+  isExternal: false
+  name: Read
+  nameWithType: Stream.Read
 - uid: System.IO.Stream.ReadAsync*
   parent: System.IO.Stream
   isExternal: false
   name: ReadAsync
   nameWithType: Stream.ReadAsync
+- uid: System.IO.Stream.ReadByte*
+  parent: System.IO.Stream
+  isExternal: false
+  name: ReadByte
+  nameWithType: Stream.ReadByte
+- uid: System.IO.Stream.ReadTimeout*
+  parent: System.IO.Stream
+  isExternal: false
+  name: ReadTimeout
+  nameWithType: Stream.ReadTimeout
+- uid: System.IO.Stream.Seek*
+  parent: System.IO.Stream
+  isExternal: false
+  name: Seek
+  nameWithType: Stream.Seek
+- uid: System.IO.Stream.SetLength*
+  parent: System.IO.Stream
+  isExternal: false
+  name: SetLength
+  nameWithType: Stream.SetLength
+- uid: System.IO.Stream.Synchronized*
+  parent: System.IO.Stream
+  isExternal: false
+  name: Synchronized
+  nameWithType: Stream.Synchronized
+- uid: System.IO.Stream.Write*
+  parent: System.IO.Stream
+  isExternal: false
+  name: Write
+  nameWithType: Stream.Write
 - uid: System.IO.Stream.WriteAsync*
   parent: System.IO.Stream
   isExternal: false
   name: WriteAsync
   nameWithType: Stream.WriteAsync
+- uid: System.IO.Stream.WriteByte*
+  parent: System.IO.Stream
+  isExternal: false
+  name: WriteByte
+  nameWithType: Stream.WriteByte
+- uid: System.IO.Stream.WriteTimeout*
+  parent: System.IO.Stream
+  isExternal: false
+  name: WriteTimeout
+  nameWithType: Stream.WriteTimeout

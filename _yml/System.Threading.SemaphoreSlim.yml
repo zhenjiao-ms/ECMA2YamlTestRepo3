@@ -74,6 +74,7 @@ items:
     - id: initialCount
       type: System.Int32
       description: To be added.
+  overload: System.Threading.SemaphoreSlim.#ctor*
   platform:
   - net-11
   - net-20
@@ -101,6 +102,7 @@ items:
     - id: maxCount
       type: System.Int32
       description: To be added.
+  overload: System.Threading.SemaphoreSlim.#ctor*
   platform:
   - net-11
   - net-20
@@ -124,6 +126,7 @@ items:
     return:
       type: System.Threading.WaitHandle
       description: To be added.
+  overload: System.Threading.SemaphoreSlim.AvailableWaitHandle*
   platform:
   - net-11
   - net-20
@@ -147,6 +150,7 @@ items:
     return:
       type: System.Int32
       description: To be added.
+  overload: System.Threading.SemaphoreSlim.CurrentCount*
   platform:
   - net-11
   - net-20
@@ -909,6 +913,21 @@ references:
   name: CancellationToken
   nameWithType: CancellationToken
   fullName: System.Threading.CancellationToken
+- uid: System.Threading.SemaphoreSlim.#ctor*
+  parent: System.Threading.SemaphoreSlim
+  isExternal: false
+  name: SemaphoreSlim
+  nameWithType: SemaphoreSlim.SemaphoreSlim
+- uid: System.Threading.SemaphoreSlim.AvailableWaitHandle*
+  parent: System.Threading.SemaphoreSlim
+  isExternal: false
+  name: AvailableWaitHandle
+  nameWithType: SemaphoreSlim.AvailableWaitHandle
+- uid: System.Threading.SemaphoreSlim.CurrentCount*
+  parent: System.Threading.SemaphoreSlim
+  isExternal: false
+  name: CurrentCount
+  nameWithType: SemaphoreSlim.CurrentCount
 - uid: System.Threading.SemaphoreSlim.Dispose*
   parent: System.Threading.SemaphoreSlim
   isExternal: false

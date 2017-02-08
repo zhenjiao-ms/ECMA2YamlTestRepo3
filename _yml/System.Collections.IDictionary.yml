@@ -55,6 +55,7 @@ items:
     - id: value
       type: System.Object
       description: To be added.
+  overload: System.Collections.IDictionary.Add*
   platform:
   - net-11
   - net-20
@@ -76,6 +77,7 @@ items:
   syntax:
     content: public void Clear ();
     parameters: []
+  overload: System.Collections.IDictionary.Clear*
   platform:
   - net-11
   - net-20
@@ -103,6 +105,7 @@ items:
     return:
       type: System.Boolean
       description: To be added.
+  overload: System.Collections.IDictionary.Contains*
   platform:
   - net-11
   - net-20
@@ -127,6 +130,7 @@ items:
     return:
       type: System.Collections.IDictionaryEnumerator
       description: To be added.
+  overload: System.Collections.IDictionary.GetEnumerator*
   platform:
   - net-11
   - net-20
@@ -150,6 +154,7 @@ items:
     return:
       type: System.Boolean
       description: To be added.
+  overload: System.Collections.IDictionary.IsFixedSize*
   platform:
   - net-11
   - net-20
@@ -173,6 +178,7 @@ items:
     return:
       type: System.Boolean
       description: To be added.
+  overload: System.Collections.IDictionary.IsReadOnly*
   platform:
   - net-11
   - net-20
@@ -200,6 +206,7 @@ items:
     return:
       type: System.Object
       description: To be added.
+  overload: System.Collections.IDictionary.Item*
   platform:
   - net-11
   - net-20
@@ -223,6 +230,7 @@ items:
     return:
       type: System.Collections.ICollection
       description: To be added.
+  overload: System.Collections.IDictionary.Keys*
   platform:
   - net-11
   - net-20
@@ -247,6 +255,7 @@ items:
     - id: key
       type: System.Object
       description: To be added.
+  overload: System.Collections.IDictionary.Remove*
   platform:
   - net-11
   - net-20
@@ -270,6 +279,7 @@ items:
     return:
       type: System.Collections.ICollection
       description: To be added.
+  overload: System.Collections.IDictionary.Values*
   platform:
   - net-11
   - net-20
@@ -407,3 +417,53 @@ references:
   name: ICollection
   nameWithType: ICollection
   fullName: System.Collections.ICollection
+- uid: System.Collections.IDictionary.Add*
+  parent: System.Collections.IDictionary
+  isExternal: false
+  name: Add
+  nameWithType: IDictionary.Add
+- uid: System.Collections.IDictionary.Clear*
+  parent: System.Collections.IDictionary
+  isExternal: false
+  name: Clear
+  nameWithType: IDictionary.Clear
+- uid: System.Collections.IDictionary.Contains*
+  parent: System.Collections.IDictionary
+  isExternal: false
+  name: Contains
+  nameWithType: IDictionary.Contains
+- uid: System.Collections.IDictionary.GetEnumerator*
+  parent: System.Collections.IDictionary
+  isExternal: false
+  name: GetEnumerator
+  nameWithType: IDictionary.GetEnumerator
+- uid: System.Collections.IDictionary.IsFixedSize*
+  parent: System.Collections.IDictionary
+  isExternal: false
+  name: IsFixedSize
+  nameWithType: IDictionary.IsFixedSize
+- uid: System.Collections.IDictionary.IsReadOnly*
+  parent: System.Collections.IDictionary
+  isExternal: false
+  name: IsReadOnly
+  nameWithType: IDictionary.IsReadOnly
+- uid: System.Collections.IDictionary.Item*
+  parent: System.Collections.IDictionary
+  isExternal: false
+  name: Item
+  nameWithType: IDictionary.Item
+- uid: System.Collections.IDictionary.Keys*
+  parent: System.Collections.IDictionary
+  isExternal: false
+  name: Keys
+  nameWithType: IDictionary.Keys
+- uid: System.Collections.IDictionary.Remove*
+  parent: System.Collections.IDictionary
+  isExternal: false
+  name: Remove
+  nameWithType: IDictionary.Remove
+- uid: System.Collections.IDictionary.Values*
+  parent: System.Collections.IDictionary
+  isExternal: false
+  name: Values
+  nameWithType: IDictionary.Values

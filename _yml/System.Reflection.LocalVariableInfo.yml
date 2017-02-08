@@ -52,6 +52,7 @@ items:
   syntax:
     content: protected LocalVariableInfo ();
     parameters: []
+  overload: System.Reflection.LocalVariableInfo.#ctor*
   platform:
   - net-11
   - net-20
@@ -75,6 +76,7 @@ items:
     return:
       type: System.Boolean
       description: To be added.
+  overload: System.Reflection.LocalVariableInfo.IsPinned*
   platform:
   - net-11
   - net-20
@@ -98,6 +100,7 @@ items:
     return:
       type: System.Int32
       description: To be added.
+  overload: System.Reflection.LocalVariableInfo.LocalIndex*
   platform:
   - net-11
   - net-20
@@ -121,6 +124,7 @@ items:
     return:
       type: System.Type
       description: To be added.
+  overload: System.Reflection.LocalVariableInfo.LocalType*
   platform:
   - net-11
   - net-20
@@ -145,6 +149,7 @@ items:
     return:
       type: System.String
       description: To be added.
+  overload: System.Reflection.LocalVariableInfo.ToString*
   platform:
   - net-11
   - net-20
@@ -207,3 +212,28 @@ references:
   name: String
   nameWithType: String
   fullName: System.String
+- uid: System.Reflection.LocalVariableInfo.#ctor*
+  parent: System.Reflection.LocalVariableInfo
+  isExternal: false
+  name: LocalVariableInfo
+  nameWithType: LocalVariableInfo.LocalVariableInfo
+- uid: System.Reflection.LocalVariableInfo.IsPinned*
+  parent: System.Reflection.LocalVariableInfo
+  isExternal: false
+  name: IsPinned
+  nameWithType: LocalVariableInfo.IsPinned
+- uid: System.Reflection.LocalVariableInfo.LocalIndex*
+  parent: System.Reflection.LocalVariableInfo
+  isExternal: false
+  name: LocalIndex
+  nameWithType: LocalVariableInfo.LocalIndex
+- uid: System.Reflection.LocalVariableInfo.LocalType*
+  parent: System.Reflection.LocalVariableInfo
+  isExternal: false
+  name: LocalType
+  nameWithType: LocalVariableInfo.LocalType
+- uid: System.Reflection.LocalVariableInfo.ToString*
+  parent: System.Reflection.LocalVariableInfo
+  isExternal: false
+  name: ToString
+  nameWithType: LocalVariableInfo.ToString

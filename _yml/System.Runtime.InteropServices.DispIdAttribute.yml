@@ -95,6 +95,7 @@ items:
     - id: dispId
       type: System.Int32
       description: To be added.
+  overload: System.Runtime.InteropServices.DispIdAttribute.#ctor*
   platform:
   - net-11
   - net-20
@@ -118,6 +119,7 @@ items:
     return:
       type: System.Int32
       description: To be added.
+  overload: System.Runtime.InteropServices.DispIdAttribute.Value*
   platform:
   - net-11
   - net-20
@@ -150,3 +152,13 @@ references:
   name: Int32
   nameWithType: Int32
   fullName: System.Int32
+- uid: System.Runtime.InteropServices.DispIdAttribute.#ctor*
+  parent: System.Runtime.InteropServices.DispIdAttribute
+  isExternal: false
+  name: DispIdAttribute
+  nameWithType: DispIdAttribute.DispIdAttribute
+- uid: System.Runtime.InteropServices.DispIdAttribute.Value*
+  parent: System.Runtime.InteropServices.DispIdAttribute
+  isExternal: false
+  name: Value
+  nameWithType: DispIdAttribute.Value

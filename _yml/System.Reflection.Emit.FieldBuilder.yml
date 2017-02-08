@@ -120,6 +120,7 @@ items:
     return:
       type: System.Reflection.FieldAttributes
       description: To be added.
+  overload: System.Reflection.Emit.FieldBuilder.Attributes*
   platform:
   - net-11
   - net-20
@@ -143,6 +144,7 @@ items:
     return:
       type: System.Type
       description: To be added.
+  overload: System.Reflection.Emit.FieldBuilder.DeclaringType*
   platform:
   - net-11
   - net-20
@@ -166,6 +168,7 @@ items:
     return:
       type: System.RuntimeFieldHandle
       description: To be added.
+  overload: System.Reflection.Emit.FieldBuilder.FieldHandle*
   platform:
   - net-11
   - net-20
@@ -189,6 +192,7 @@ items:
     return:
       type: System.Type
       description: To be added.
+  overload: System.Reflection.Emit.FieldBuilder.FieldType*
   platform:
   - net-11
   - net-20
@@ -272,6 +276,7 @@ items:
     return:
       type: System.Reflection.Emit.FieldToken
       description: To be added.
+  overload: System.Reflection.Emit.FieldBuilder.GetToken*
   platform:
   - net-11
   - net-20
@@ -299,6 +304,7 @@ items:
     return:
       type: System.Object
       description: To be added.
+  overload: System.Reflection.Emit.FieldBuilder.GetValue*
   platform:
   - net-11
   - net-20
@@ -329,6 +335,7 @@ items:
     return:
       type: System.Boolean
       description: To be added.
+  overload: System.Reflection.Emit.FieldBuilder.IsDefined*
   platform:
   - net-11
   - net-20
@@ -352,6 +359,7 @@ items:
     return:
       type: System.Reflection.Module
       description: To be added.
+  overload: System.Reflection.Emit.FieldBuilder.Module*
   platform:
   - net-11
   - net-20
@@ -375,6 +383,7 @@ items:
     return:
       type: System.String
       description: To be added.
+  overload: System.Reflection.Emit.FieldBuilder.Name*
   platform:
   - net-11
   - net-20
@@ -398,6 +407,7 @@ items:
     return:
       type: System.Type
       description: To be added.
+  overload: System.Reflection.Emit.FieldBuilder.ReflectedType*
   platform:
   - net-11
   - net-20
@@ -422,6 +432,7 @@ items:
     - id: defaultValue
       type: System.Object
       description: To be added.
+  overload: System.Reflection.Emit.FieldBuilder.SetConstant*
   platform:
   - net-11
   - net-20
@@ -499,6 +510,7 @@ items:
     - id: unmanagedMarshal
       type: System.Reflection.Emit.UnmanagedMarshal
       description: To be added.
+  overload: System.Reflection.Emit.FieldBuilder.SetMarshal*
   platform:
   - net-11
   - net-20
@@ -523,6 +535,7 @@ items:
     - id: iOffset
       type: System.Int32
       description: To be added.
+  overload: System.Reflection.Emit.FieldBuilder.SetOffset*
   platform:
   - net-11
   - net-20
@@ -559,6 +572,7 @@ items:
     - id: culture
       type: System.Globalization.CultureInfo
       description: To be added.
+  overload: System.Reflection.Emit.FieldBuilder.SetValue*
   platform:
   - net-11
   - net-20
@@ -596,6 +610,7 @@ items:
     - id: rgDispId
       type: System.IntPtr
       description: To be added.
+  overload: System.Reflection.Emit.FieldBuilder.System#Runtime#InteropServices#_FieldBuilder#GetIDsOfNames*
   platform:
   - net-11
   - net-20
@@ -627,6 +642,7 @@ items:
     - id: ppTInfo
       type: System.IntPtr
       description: To be added.
+  overload: System.Reflection.Emit.FieldBuilder.System#Runtime#InteropServices#_FieldBuilder#GetTypeInfo*
   platform:
   - net-11
   - net-20
@@ -652,6 +668,7 @@ items:
     - id: pcTInfo
       type: System.UInt32
       description: To be added.
+  overload: System.Reflection.Emit.FieldBuilder.System#Runtime#InteropServices#_FieldBuilder#GetTypeInfoCount*
   platform:
   - net-11
   - net-20
@@ -698,6 +715,7 @@ items:
     - id: puArgErr
       type: System.IntPtr
       description: To be added.
+  overload: System.Reflection.Emit.FieldBuilder.System#Runtime#InteropServices#_FieldBuilder#Invoke*
   platform:
   - net-11
   - net-20
@@ -1114,13 +1132,103 @@ references:
   name: IntPtr
   nameWithType: IntPtr
   fullName: System.IntPtr
+- uid: System.Reflection.Emit.FieldBuilder.Attributes*
+  parent: System.Reflection.Emit.FieldBuilder
+  isExternal: false
+  name: Attributes
+  nameWithType: FieldBuilder.Attributes
+- uid: System.Reflection.Emit.FieldBuilder.DeclaringType*
+  parent: System.Reflection.Emit.FieldBuilder
+  isExternal: false
+  name: DeclaringType
+  nameWithType: FieldBuilder.DeclaringType
+- uid: System.Reflection.Emit.FieldBuilder.FieldHandle*
+  parent: System.Reflection.Emit.FieldBuilder
+  isExternal: false
+  name: FieldHandle
+  nameWithType: FieldBuilder.FieldHandle
+- uid: System.Reflection.Emit.FieldBuilder.FieldType*
+  parent: System.Reflection.Emit.FieldBuilder
+  isExternal: false
+  name: FieldType
+  nameWithType: FieldBuilder.FieldType
 - uid: System.Reflection.Emit.FieldBuilder.GetCustomAttributes*
   parent: System.Reflection.Emit.FieldBuilder
   isExternal: false
   name: GetCustomAttributes
   nameWithType: FieldBuilder.GetCustomAttributes
+- uid: System.Reflection.Emit.FieldBuilder.GetToken*
+  parent: System.Reflection.Emit.FieldBuilder
+  isExternal: false
+  name: GetToken
+  nameWithType: FieldBuilder.GetToken
+- uid: System.Reflection.Emit.FieldBuilder.GetValue*
+  parent: System.Reflection.Emit.FieldBuilder
+  isExternal: false
+  name: GetValue
+  nameWithType: FieldBuilder.GetValue
+- uid: System.Reflection.Emit.FieldBuilder.IsDefined*
+  parent: System.Reflection.Emit.FieldBuilder
+  isExternal: false
+  name: IsDefined
+  nameWithType: FieldBuilder.IsDefined
+- uid: System.Reflection.Emit.FieldBuilder.Module*
+  parent: System.Reflection.Emit.FieldBuilder
+  isExternal: false
+  name: Module
+  nameWithType: FieldBuilder.Module
+- uid: System.Reflection.Emit.FieldBuilder.Name*
+  parent: System.Reflection.Emit.FieldBuilder
+  isExternal: false
+  name: Name
+  nameWithType: FieldBuilder.Name
+- uid: System.Reflection.Emit.FieldBuilder.ReflectedType*
+  parent: System.Reflection.Emit.FieldBuilder
+  isExternal: false
+  name: ReflectedType
+  nameWithType: FieldBuilder.ReflectedType
+- uid: System.Reflection.Emit.FieldBuilder.SetConstant*
+  parent: System.Reflection.Emit.FieldBuilder
+  isExternal: false
+  name: SetConstant
+  nameWithType: FieldBuilder.SetConstant
 - uid: System.Reflection.Emit.FieldBuilder.SetCustomAttribute*
   parent: System.Reflection.Emit.FieldBuilder
   isExternal: false
   name: SetCustomAttribute
   nameWithType: FieldBuilder.SetCustomAttribute
+- uid: System.Reflection.Emit.FieldBuilder.SetMarshal*
+  parent: System.Reflection.Emit.FieldBuilder
+  isExternal: false
+  name: SetMarshal
+  nameWithType: FieldBuilder.SetMarshal
+- uid: System.Reflection.Emit.FieldBuilder.SetOffset*
+  parent: System.Reflection.Emit.FieldBuilder
+  isExternal: false
+  name: SetOffset
+  nameWithType: FieldBuilder.SetOffset
+- uid: System.Reflection.Emit.FieldBuilder.SetValue*
+  parent: System.Reflection.Emit.FieldBuilder
+  isExternal: false
+  name: SetValue
+  nameWithType: FieldBuilder.SetValue
+- uid: System.Reflection.Emit.FieldBuilder.System#Runtime#InteropServices#_FieldBuilder#GetIDsOfNames*
+  parent: System.Reflection.Emit.FieldBuilder
+  isExternal: false
+  name: System.Runtime.InteropServices._FieldBuilder.GetIDsOfNames
+  nameWithType: FieldBuilder.System.Runtime.InteropServices._FieldBuilder.GetIDsOfNames
+- uid: System.Reflection.Emit.FieldBuilder.System#Runtime#InteropServices#_FieldBuilder#GetTypeInfo*
+  parent: System.Reflection.Emit.FieldBuilder
+  isExternal: false
+  name: System.Runtime.InteropServices._FieldBuilder.GetTypeInfo
+  nameWithType: FieldBuilder.System.Runtime.InteropServices._FieldBuilder.GetTypeInfo
+- uid: System.Reflection.Emit.FieldBuilder.System#Runtime#InteropServices#_FieldBuilder#GetTypeInfoCount*
+  parent: System.Reflection.Emit.FieldBuilder
+  isExternal: false
+  name: System.Runtime.InteropServices._FieldBuilder.GetTypeInfoCount
+  nameWithType: FieldBuilder.System.Runtime.InteropServices._FieldBuilder.GetTypeInfoCount
+- uid: System.Reflection.Emit.FieldBuilder.System#Runtime#InteropServices#_FieldBuilder#Invoke*
+  parent: System.Reflection.Emit.FieldBuilder
+  isExternal: false
+  name: System.Runtime.InteropServices._FieldBuilder.Invoke
+  nameWithType: FieldBuilder.System.Runtime.InteropServices._FieldBuilder.Invoke

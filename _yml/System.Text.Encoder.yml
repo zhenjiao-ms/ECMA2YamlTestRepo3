@@ -58,6 +58,7 @@ items:
   syntax:
     content: protected Encoder ();
     parameters: []
+  overload: System.Text.Encoder.#ctor*
   platform:
   - net-11
   - net-20
@@ -179,6 +180,7 @@ items:
     return:
       type: System.Text.EncoderFallback
       description: To be added.
+  overload: System.Text.Encoder.Fallback*
   platform:
   - net-11
   - net-20
@@ -202,6 +204,7 @@ items:
     return:
       type: System.Text.EncoderFallbackBuffer
       description: To be added.
+  overload: System.Text.Encoder.FallbackBuffer*
   platform:
   - net-11
   - net-20
@@ -377,6 +380,7 @@ items:
   syntax:
     content: public virtual void Reset ();
     parameters: []
+  overload: System.Text.Encoder.Reset*
   platform:
   - net-11
   - net-20
@@ -667,11 +671,26 @@ references:
   name: Reset()
   nameWithType: Encoder.Reset()
   fullName: System.Text.Encoder.Reset()
+- uid: System.Text.Encoder.#ctor*
+  parent: System.Text.Encoder
+  isExternal: false
+  name: Encoder
+  nameWithType: Encoder.Encoder
 - uid: System.Text.Encoder.Convert*
   parent: System.Text.Encoder
   isExternal: false
   name: Convert
   nameWithType: Encoder.Convert
+- uid: System.Text.Encoder.Fallback*
+  parent: System.Text.Encoder
+  isExternal: false
+  name: Fallback
+  nameWithType: Encoder.Fallback
+- uid: System.Text.Encoder.FallbackBuffer*
+  parent: System.Text.Encoder
+  isExternal: false
+  name: FallbackBuffer
+  nameWithType: Encoder.FallbackBuffer
 - uid: System.Text.Encoder.GetByteCount*
   parent: System.Text.Encoder
   isExternal: false
@@ -682,3 +701,8 @@ references:
   isExternal: false
   name: GetBytes
   nameWithType: Encoder.GetBytes
+- uid: System.Text.Encoder.Reset*
+  parent: System.Text.Encoder
+  isExternal: false
+  name: Reset
+  nameWithType: Encoder.Reset

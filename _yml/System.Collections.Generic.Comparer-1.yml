@@ -55,6 +55,7 @@ items:
   syntax:
     content: protected Comparer ();
     parameters: []
+  overload: System.Collections.Generic.Comparer`1.#ctor*
   platform:
   - net-11
   - net-20
@@ -85,6 +86,7 @@ items:
     return:
       type: System.Int32
       description: To be added.
+  overload: System.Collections.Generic.Comparer`1.Compare*
   platform:
   - net-11
   - net-20
@@ -112,6 +114,7 @@ items:
     return:
       type: System.Collections.Generic.Comparer`1
       description: To be added.
+  overload: System.Collections.Generic.Comparer`1.Create*
   platform:
   - net-11
   - net-20
@@ -135,6 +138,7 @@ items:
     return:
       type: System.Collections.Generic.Comparer`1
       description: To be added.
+  overload: System.Collections.Generic.Comparer`1.Default*
   platform:
   - net-11
   - net-20
@@ -166,6 +170,7 @@ items:
     return:
       type: System.Int32
       description: To be added.
+  overload: System.Collections.Generic.Comparer`1.System#Collections#IComparer#Compare*
   platform:
   - net-11
   - net-20
@@ -258,3 +263,28 @@ references:
   name: Object
   nameWithType: Object
   fullName: System.Object
+- uid: System.Collections.Generic.Comparer`1.#ctor*
+  parent: System.Collections.Generic.Comparer`1
+  isExternal: false
+  name: Comparer<T>
+  nameWithType: Comparer<T>.Comparer<T>
+- uid: System.Collections.Generic.Comparer`1.Compare*
+  parent: System.Collections.Generic.Comparer`1
+  isExternal: false
+  name: Compare
+  nameWithType: Comparer<T>.Compare
+- uid: System.Collections.Generic.Comparer`1.Create*
+  parent: System.Collections.Generic.Comparer`1
+  isExternal: false
+  name: Create
+  nameWithType: Comparer<T>.Create
+- uid: System.Collections.Generic.Comparer`1.Default*
+  parent: System.Collections.Generic.Comparer`1
+  isExternal: false
+  name: Default
+  nameWithType: Comparer<T>.Default
+- uid: System.Collections.Generic.Comparer`1.System#Collections#IComparer#Compare*
+  parent: System.Collections.Generic.Comparer`1
+  isExternal: false
+  name: System.Collections.IComparer.Compare
+  nameWithType: Comparer<T>.System.Collections.IComparer.Compare

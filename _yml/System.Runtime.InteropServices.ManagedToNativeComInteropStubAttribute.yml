@@ -99,6 +99,7 @@ items:
     - id: methodName
       type: System.String
       description: To be added.
+  overload: System.Runtime.InteropServices.ManagedToNativeComInteropStubAttribute.#ctor*
   platform:
   - net-11
   - net-20
@@ -122,6 +123,7 @@ items:
     return:
       type: System.Type
       description: To be added.
+  overload: System.Runtime.InteropServices.ManagedToNativeComInteropStubAttribute.ClassType*
   platform:
   - net-11
   - net-20
@@ -145,6 +147,7 @@ items:
     return:
       type: System.String
       description: To be added.
+  overload: System.Runtime.InteropServices.ManagedToNativeComInteropStubAttribute.MethodName*
   platform:
   - net-11
   - net-20
@@ -195,3 +198,18 @@ references:
   name: String
   nameWithType: String
   fullName: System.String
+- uid: System.Runtime.InteropServices.ManagedToNativeComInteropStubAttribute.#ctor*
+  parent: System.Runtime.InteropServices.ManagedToNativeComInteropStubAttribute
+  isExternal: false
+  name: ManagedToNativeComInteropStubAttribute
+  nameWithType: ManagedToNativeComInteropStubAttribute.ManagedToNativeComInteropStubAttribute
+- uid: System.Runtime.InteropServices.ManagedToNativeComInteropStubAttribute.ClassType*
+  parent: System.Runtime.InteropServices.ManagedToNativeComInteropStubAttribute
+  isExternal: false
+  name: ClassType
+  nameWithType: ManagedToNativeComInteropStubAttribute.ClassType
+- uid: System.Runtime.InteropServices.ManagedToNativeComInteropStubAttribute.MethodName*
+  parent: System.Runtime.InteropServices.ManagedToNativeComInteropStubAttribute
+  isExternal: false
+  name: MethodName
+  nameWithType: ManagedToNativeComInteropStubAttribute.MethodName

@@ -53,6 +53,7 @@ items:
     - id: ppenum
       type: System.Runtime.InteropServices.ComTypes.IEnumString
       description: To be added.
+  overload: System.Runtime.InteropServices.ComTypes.IBindCtx.EnumObjectParam*
   platform:
   - net-11
   - net-20
@@ -77,6 +78,7 @@ items:
     - id: pbindopts
       type: System.Runtime.InteropServices.ComTypes.BIND_OPTS
       description: To be added.
+  overload: System.Runtime.InteropServices.ComTypes.IBindCtx.GetBindOptions*
   platform:
   - net-11
   - net-20
@@ -104,6 +106,7 @@ items:
     - id: ppunk
       type: System.Object
       description: To be added.
+  overload: System.Runtime.InteropServices.ComTypes.IBindCtx.GetObjectParam*
   platform:
   - net-11
   - net-20
@@ -128,6 +131,7 @@ items:
     - id: pprot
       type: System.Runtime.InteropServices.ComTypes.IRunningObjectTable
       description: To be added.
+  overload: System.Runtime.InteropServices.ComTypes.IBindCtx.GetRunningObjectTable*
   platform:
   - net-11
   - net-20
@@ -152,6 +156,7 @@ items:
     - id: punk
       type: System.Object
       description: To be added.
+  overload: System.Runtime.InteropServices.ComTypes.IBindCtx.RegisterObjectBound*
   platform:
   - net-11
   - net-20
@@ -179,6 +184,7 @@ items:
     - id: punk
       type: System.Object
       description: To be added.
+  overload: System.Runtime.InteropServices.ComTypes.IBindCtx.RegisterObjectParam*
   platform:
   - net-11
   - net-20
@@ -200,6 +206,7 @@ items:
   syntax:
     content: public void ReleaseBoundObjects ();
     parameters: []
+  overload: System.Runtime.InteropServices.ComTypes.IBindCtx.ReleaseBoundObjects*
   platform:
   - net-11
   - net-20
@@ -224,6 +231,7 @@ items:
     - id: punk
       type: System.Object
       description: To be added.
+  overload: System.Runtime.InteropServices.ComTypes.IBindCtx.RevokeObjectBound*
   platform:
   - net-11
   - net-20
@@ -251,6 +259,7 @@ items:
     return:
       type: System.Int32
       description: To be added.
+  overload: System.Runtime.InteropServices.ComTypes.IBindCtx.RevokeObjectParam*
   platform:
   - net-11
   - net-20
@@ -275,6 +284,7 @@ items:
     - id: pbindopts
       type: System.Runtime.InteropServices.ComTypes.BIND_OPTS
       description: To be added.
+  overload: System.Runtime.InteropServices.ComTypes.IBindCtx.SetBindOptions*
   platform:
   - net-11
   - net-20
@@ -412,3 +422,53 @@ references:
   name: BIND_OPTS
   nameWithType: BIND_OPTS
   fullName: System.Runtime.InteropServices.ComTypes.BIND_OPTS
+- uid: System.Runtime.InteropServices.ComTypes.IBindCtx.EnumObjectParam*
+  parent: System.Runtime.InteropServices.ComTypes.IBindCtx
+  isExternal: false
+  name: EnumObjectParam
+  nameWithType: IBindCtx.EnumObjectParam
+- uid: System.Runtime.InteropServices.ComTypes.IBindCtx.GetBindOptions*
+  parent: System.Runtime.InteropServices.ComTypes.IBindCtx
+  isExternal: false
+  name: GetBindOptions
+  nameWithType: IBindCtx.GetBindOptions
+- uid: System.Runtime.InteropServices.ComTypes.IBindCtx.GetObjectParam*
+  parent: System.Runtime.InteropServices.ComTypes.IBindCtx
+  isExternal: false
+  name: GetObjectParam
+  nameWithType: IBindCtx.GetObjectParam
+- uid: System.Runtime.InteropServices.ComTypes.IBindCtx.GetRunningObjectTable*
+  parent: System.Runtime.InteropServices.ComTypes.IBindCtx
+  isExternal: false
+  name: GetRunningObjectTable
+  nameWithType: IBindCtx.GetRunningObjectTable
+- uid: System.Runtime.InteropServices.ComTypes.IBindCtx.RegisterObjectBound*
+  parent: System.Runtime.InteropServices.ComTypes.IBindCtx
+  isExternal: false
+  name: RegisterObjectBound
+  nameWithType: IBindCtx.RegisterObjectBound
+- uid: System.Runtime.InteropServices.ComTypes.IBindCtx.RegisterObjectParam*
+  parent: System.Runtime.InteropServices.ComTypes.IBindCtx
+  isExternal: false
+  name: RegisterObjectParam
+  nameWithType: IBindCtx.RegisterObjectParam
+- uid: System.Runtime.InteropServices.ComTypes.IBindCtx.ReleaseBoundObjects*
+  parent: System.Runtime.InteropServices.ComTypes.IBindCtx
+  isExternal: false
+  name: ReleaseBoundObjects
+  nameWithType: IBindCtx.ReleaseBoundObjects
+- uid: System.Runtime.InteropServices.ComTypes.IBindCtx.RevokeObjectBound*
+  parent: System.Runtime.InteropServices.ComTypes.IBindCtx
+  isExternal: false
+  name: RevokeObjectBound
+  nameWithType: IBindCtx.RevokeObjectBound
+- uid: System.Runtime.InteropServices.ComTypes.IBindCtx.RevokeObjectParam*
+  parent: System.Runtime.InteropServices.ComTypes.IBindCtx
+  isExternal: false
+  name: RevokeObjectParam
+  nameWithType: IBindCtx.RevokeObjectParam
+- uid: System.Runtime.InteropServices.ComTypes.IBindCtx.SetBindOptions*
+  parent: System.Runtime.InteropServices.ComTypes.IBindCtx
+  isExternal: false
+  name: SetBindOptions
+  nameWithType: IBindCtx.SetBindOptions

@@ -59,6 +59,7 @@ items:
     - id: url
       type: System.String
       description: To be added.
+  overload: System.Security.Policy.UrlMembershipCondition.#ctor*
   platform:
   - net-11
   - net-20
@@ -86,6 +87,7 @@ items:
     return:
       type: System.Boolean
       description: To be added.
+  overload: System.Security.Policy.UrlMembershipCondition.Check*
   platform:
   - net-11
   - net-20
@@ -110,6 +112,7 @@ items:
     return:
       type: System.Security.Policy.IMembershipCondition
       description: To be added.
+  overload: System.Security.Policy.UrlMembershipCondition.Copy*
   platform:
   - net-11
   - net-20
@@ -137,6 +140,7 @@ items:
     return:
       type: System.Boolean
       description: To be added.
+  overload: System.Security.Policy.UrlMembershipCondition.Equals*
   platform:
   - net-11
   - net-20
@@ -214,6 +218,7 @@ items:
     return:
       type: System.Int32
       description: To be added.
+  overload: System.Security.Policy.UrlMembershipCondition.GetHashCode*
   platform:
   - net-11
   - net-20
@@ -238,6 +243,7 @@ items:
     return:
       type: System.String
       description: To be added.
+  overload: System.Security.Policy.UrlMembershipCondition.ToString*
   platform:
   - net-11
   - net-20
@@ -314,6 +320,7 @@ items:
     return:
       type: System.String
       description: To be added.
+  overload: System.Security.Policy.UrlMembershipCondition.Url*
   platform:
   - net-11
   - net-20
@@ -478,13 +485,48 @@ references:
   name: String
   nameWithType: String
   fullName: System.String
+- uid: System.Security.Policy.UrlMembershipCondition.#ctor*
+  parent: System.Security.Policy.UrlMembershipCondition
+  isExternal: false
+  name: UrlMembershipCondition
+  nameWithType: UrlMembershipCondition.UrlMembershipCondition
+- uid: System.Security.Policy.UrlMembershipCondition.Check*
+  parent: System.Security.Policy.UrlMembershipCondition
+  isExternal: false
+  name: Check
+  nameWithType: UrlMembershipCondition.Check
+- uid: System.Security.Policy.UrlMembershipCondition.Copy*
+  parent: System.Security.Policy.UrlMembershipCondition
+  isExternal: false
+  name: Copy
+  nameWithType: UrlMembershipCondition.Copy
+- uid: System.Security.Policy.UrlMembershipCondition.Equals*
+  parent: System.Security.Policy.UrlMembershipCondition
+  isExternal: false
+  name: Equals
+  nameWithType: UrlMembershipCondition.Equals
 - uid: System.Security.Policy.UrlMembershipCondition.FromXml*
   parent: System.Security.Policy.UrlMembershipCondition
   isExternal: false
   name: FromXml
   nameWithType: UrlMembershipCondition.FromXml
+- uid: System.Security.Policy.UrlMembershipCondition.GetHashCode*
+  parent: System.Security.Policy.UrlMembershipCondition
+  isExternal: false
+  name: GetHashCode
+  nameWithType: UrlMembershipCondition.GetHashCode
+- uid: System.Security.Policy.UrlMembershipCondition.ToString*
+  parent: System.Security.Policy.UrlMembershipCondition
+  isExternal: false
+  name: ToString
+  nameWithType: UrlMembershipCondition.ToString
 - uid: System.Security.Policy.UrlMembershipCondition.ToXml*
   parent: System.Security.Policy.UrlMembershipCondition
   isExternal: false
   name: ToXml
   nameWithType: UrlMembershipCondition.ToXml
+- uid: System.Security.Policy.UrlMembershipCondition.Url*
+  parent: System.Security.Policy.UrlMembershipCondition
+  isExternal: false
+  name: Url
+  nameWithType: UrlMembershipCondition.Url

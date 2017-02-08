@@ -57,6 +57,7 @@ items:
   syntax:
     content: public SynchronizationContext ();
     parameters: []
+  overload: System.Threading.SynchronizationContext.#ctor*
   platform:
   - net-11
   - net-20
@@ -81,6 +82,7 @@ items:
     return:
       type: System.Threading.SynchronizationContext
       description: To be added.
+  overload: System.Threading.SynchronizationContext.CreateCopy*
   platform:
   - net-11
   - net-20
@@ -104,6 +106,7 @@ items:
     return:
       type: System.Threading.SynchronizationContext
       description: To be added.
+  overload: System.Threading.SynchronizationContext.Current*
   platform:
   - net-11
   - net-20
@@ -128,6 +131,7 @@ items:
     return:
       type: System.Boolean
       description: To be added.
+  overload: System.Threading.SynchronizationContext.IsWaitNotificationRequired*
   platform:
   - net-11
   - net-20
@@ -149,6 +153,7 @@ items:
   syntax:
     content: public virtual void OperationCompleted ();
     parameters: []
+  overload: System.Threading.SynchronizationContext.OperationCompleted*
   platform:
   - net-11
   - net-20
@@ -170,6 +175,7 @@ items:
   syntax:
     content: public virtual void OperationStarted ();
     parameters: []
+  overload: System.Threading.SynchronizationContext.OperationStarted*
   platform:
   - net-11
   - net-20
@@ -197,6 +203,7 @@ items:
     - id: state
       type: System.Object
       description: To be added.
+  overload: System.Threading.SynchronizationContext.Post*
   platform:
   - net-11
   - net-20
@@ -224,6 +231,7 @@ items:
     - id: state
       type: System.Object
       description: To be added.
+  overload: System.Threading.SynchronizationContext.Send*
   platform:
   - net-11
   - net-20
@@ -248,6 +256,7 @@ items:
     - id: syncContext
       type: System.Threading.SynchronizationContext
       description: To be added.
+  overload: System.Threading.SynchronizationContext.SetSynchronizationContext*
   platform:
   - net-11
   - net-20
@@ -269,6 +278,7 @@ items:
   syntax:
     content: protected void SetWaitNotificationRequired ();
     parameters: []
+  overload: System.Threading.SynchronizationContext.SetWaitNotificationRequired*
   platform:
   - net-11
   - net-20
@@ -302,6 +312,7 @@ items:
     return:
       type: System.Int32
       description: To be added.
+  overload: System.Threading.SynchronizationContext.Wait*
   platform:
   - net-11
   - net-20
@@ -335,6 +346,7 @@ items:
     return:
       type: System.Int32
       description: To be added.
+  overload: System.Threading.SynchronizationContext.WaitHelper*
   platform:
   - net-11
   - net-20
@@ -511,3 +523,63 @@ references:
   name: Int32
   nameWithType: Int32
   fullName: System.Int32
+- uid: System.Threading.SynchronizationContext.#ctor*
+  parent: System.Threading.SynchronizationContext
+  isExternal: false
+  name: SynchronizationContext
+  nameWithType: SynchronizationContext.SynchronizationContext
+- uid: System.Threading.SynchronizationContext.CreateCopy*
+  parent: System.Threading.SynchronizationContext
+  isExternal: false
+  name: CreateCopy
+  nameWithType: SynchronizationContext.CreateCopy
+- uid: System.Threading.SynchronizationContext.Current*
+  parent: System.Threading.SynchronizationContext
+  isExternal: false
+  name: Current
+  nameWithType: SynchronizationContext.Current
+- uid: System.Threading.SynchronizationContext.IsWaitNotificationRequired*
+  parent: System.Threading.SynchronizationContext
+  isExternal: false
+  name: IsWaitNotificationRequired
+  nameWithType: SynchronizationContext.IsWaitNotificationRequired
+- uid: System.Threading.SynchronizationContext.OperationCompleted*
+  parent: System.Threading.SynchronizationContext
+  isExternal: false
+  name: OperationCompleted
+  nameWithType: SynchronizationContext.OperationCompleted
+- uid: System.Threading.SynchronizationContext.OperationStarted*
+  parent: System.Threading.SynchronizationContext
+  isExternal: false
+  name: OperationStarted
+  nameWithType: SynchronizationContext.OperationStarted
+- uid: System.Threading.SynchronizationContext.Post*
+  parent: System.Threading.SynchronizationContext
+  isExternal: false
+  name: Post
+  nameWithType: SynchronizationContext.Post
+- uid: System.Threading.SynchronizationContext.Send*
+  parent: System.Threading.SynchronizationContext
+  isExternal: false
+  name: Send
+  nameWithType: SynchronizationContext.Send
+- uid: System.Threading.SynchronizationContext.SetSynchronizationContext*
+  parent: System.Threading.SynchronizationContext
+  isExternal: false
+  name: SetSynchronizationContext
+  nameWithType: SynchronizationContext.SetSynchronizationContext
+- uid: System.Threading.SynchronizationContext.SetWaitNotificationRequired*
+  parent: System.Threading.SynchronizationContext
+  isExternal: false
+  name: SetWaitNotificationRequired
+  nameWithType: SynchronizationContext.SetWaitNotificationRequired
+- uid: System.Threading.SynchronizationContext.Wait*
+  parent: System.Threading.SynchronizationContext
+  isExternal: false
+  name: Wait
+  nameWithType: SynchronizationContext.Wait
+- uid: System.Threading.SynchronizationContext.WaitHelper*
+  parent: System.Threading.SynchronizationContext
+  isExternal: false
+  name: WaitHelper
+  nameWithType: SynchronizationContext.WaitHelper

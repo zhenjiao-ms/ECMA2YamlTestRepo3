@@ -44,6 +44,7 @@ items:
     return:
       type: System.Collections.IEnumerator
       description: To be added.
+  overload: System.Collections.IEnumerable.GetEnumerator*
   platform:
   - net-11
   - net-20
@@ -61,3 +62,8 @@ references:
   name: IEnumerator
   nameWithType: IEnumerator
   fullName: System.Collections.IEnumerator
+- uid: System.Collections.IEnumerable.GetEnumerator*
+  parent: System.Collections.IEnumerable
+  isExternal: false
+  name: GetEnumerator
+  nameWithType: IEnumerable.GetEnumerator

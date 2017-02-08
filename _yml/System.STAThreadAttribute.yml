@@ -91,6 +91,7 @@ items:
   syntax:
     content: public STAThreadAttribute ();
     parameters: []
+  overload: System.STAThreadAttribute.#ctor*
   platform:
   - net-11
   - net-20
@@ -105,3 +106,8 @@ references:
   name: STAThreadAttribute()
   nameWithType: STAThreadAttribute.STAThreadAttribute()
   fullName: System.STAThreadAttribute.STAThreadAttribute()
+- uid: System.STAThreadAttribute.#ctor*
+  parent: System.STAThreadAttribute
+  isExternal: false
+  name: STAThreadAttribute
+  nameWithType: STAThreadAttribute.STAThreadAttribute

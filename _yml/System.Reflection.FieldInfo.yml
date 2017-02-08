@@ -108,6 +108,7 @@ items:
   syntax:
     content: protected FieldInfo ();
     parameters: []
+  overload: System.Reflection.FieldInfo.#ctor*
   platform:
   - net-11
   - net-20
@@ -131,6 +132,7 @@ items:
     return:
       type: System.Reflection.FieldAttributes
       description: To be added.
+  overload: System.Reflection.FieldInfo.Attributes*
   platform:
   - net-11
   - net-20
@@ -158,6 +160,7 @@ items:
     return:
       type: System.Boolean
       description: To be added.
+  overload: System.Reflection.FieldInfo.Equals*
   platform:
   - net-11
   - net-20
@@ -181,6 +184,7 @@ items:
     return:
       type: System.RuntimeFieldHandle
       description: To be added.
+  overload: System.Reflection.FieldInfo.FieldHandle*
   platform:
   - net-11
   - net-20
@@ -204,6 +208,7 @@ items:
     return:
       type: System.Type
       description: To be added.
+  overload: System.Reflection.FieldInfo.FieldType*
   platform:
   - net-11
   - net-20
@@ -287,6 +292,7 @@ items:
     return:
       type: System.Int32
       description: To be added.
+  overload: System.Reflection.FieldInfo.GetHashCode*
   platform:
   - net-11
   - net-20
@@ -311,6 +317,7 @@ items:
     return:
       type: System.Type[]
       description: To be added.
+  overload: System.Reflection.FieldInfo.GetOptionalCustomModifiers*
   platform:
   - net-11
   - net-20
@@ -335,6 +342,7 @@ items:
     return:
       type: System.Object
       description: To be added.
+  overload: System.Reflection.FieldInfo.GetRawConstantValue*
   platform:
   - net-11
   - net-20
@@ -359,6 +367,7 @@ items:
     return:
       type: System.Type[]
       description: To be added.
+  overload: System.Reflection.FieldInfo.GetRequiredCustomModifiers*
   platform:
   - net-11
   - net-20
@@ -386,6 +395,7 @@ items:
     return:
       type: System.Object
       description: To be added.
+  overload: System.Reflection.FieldInfo.GetValue*
   platform:
   - net-11
   - net-20
@@ -413,6 +423,7 @@ items:
     return:
       type: System.Object
       description: To be added.
+  overload: System.Reflection.FieldInfo.GetValueDirect*
   platform:
   - net-11
   - net-20
@@ -436,6 +447,7 @@ items:
     return:
       type: System.Boolean
       description: To be added.
+  overload: System.Reflection.FieldInfo.IsAssembly*
   platform:
   - net-11
   - net-20
@@ -459,6 +471,7 @@ items:
     return:
       type: System.Boolean
       description: To be added.
+  overload: System.Reflection.FieldInfo.IsFamily*
   platform:
   - net-11
   - net-20
@@ -482,6 +495,7 @@ items:
     return:
       type: System.Boolean
       description: To be added.
+  overload: System.Reflection.FieldInfo.IsFamilyAndAssembly*
   platform:
   - net-11
   - net-20
@@ -505,6 +519,7 @@ items:
     return:
       type: System.Boolean
       description: To be added.
+  overload: System.Reflection.FieldInfo.IsFamilyOrAssembly*
   platform:
   - net-11
   - net-20
@@ -528,6 +543,7 @@ items:
     return:
       type: System.Boolean
       description: To be added.
+  overload: System.Reflection.FieldInfo.IsInitOnly*
   platform:
   - net-11
   - net-20
@@ -551,6 +567,7 @@ items:
     return:
       type: System.Boolean
       description: To be added.
+  overload: System.Reflection.FieldInfo.IsLiteral*
   platform:
   - net-11
   - net-20
@@ -574,6 +591,7 @@ items:
     return:
       type: System.Boolean
       description: To be added.
+  overload: System.Reflection.FieldInfo.IsNotSerialized*
   platform:
   - net-11
   - net-20
@@ -597,6 +615,7 @@ items:
     return:
       type: System.Boolean
       description: To be added.
+  overload: System.Reflection.FieldInfo.IsPinvokeImpl*
   platform:
   - net-11
   - net-20
@@ -620,6 +639,7 @@ items:
     return:
       type: System.Boolean
       description: To be added.
+  overload: System.Reflection.FieldInfo.IsPrivate*
   platform:
   - net-11
   - net-20
@@ -643,6 +663,7 @@ items:
     return:
       type: System.Boolean
       description: To be added.
+  overload: System.Reflection.FieldInfo.IsPublic*
   platform:
   - net-11
   - net-20
@@ -666,6 +687,7 @@ items:
     return:
       type: System.Boolean
       description: To be added.
+  overload: System.Reflection.FieldInfo.IsSecurityCritical*
   platform:
   - net-11
   - net-20
@@ -689,6 +711,7 @@ items:
     return:
       type: System.Boolean
       description: To be added.
+  overload: System.Reflection.FieldInfo.IsSecuritySafeCritical*
   platform:
   - net-11
   - net-20
@@ -712,6 +735,7 @@ items:
     return:
       type: System.Boolean
       description: To be added.
+  overload: System.Reflection.FieldInfo.IsSecurityTransparent*
   platform:
   - net-11
   - net-20
@@ -735,6 +759,7 @@ items:
     return:
       type: System.Boolean
       description: To be added.
+  overload: System.Reflection.FieldInfo.IsSpecialName*
   platform:
   - net-11
   - net-20
@@ -758,6 +783,7 @@ items:
     return:
       type: System.Boolean
       description: To be added.
+  overload: System.Reflection.FieldInfo.IsStatic*
   platform:
   - net-11
   - net-20
@@ -781,6 +807,7 @@ items:
     return:
       type: System.Reflection.MemberTypes
       description: To be added.
+  overload: System.Reflection.FieldInfo.MemberType*
   platform:
   - net-11
   - net-20
@@ -811,6 +838,7 @@ items:
     return:
       type: System.Boolean
       description: To be added.
+  overload: System.Reflection.FieldInfo.op_Equality*
   platform:
   - net-11
   - net-20
@@ -841,6 +869,7 @@ items:
     return:
       type: System.Boolean
       description: To be added.
+  overload: System.Reflection.FieldInfo.op_Inequality*
   platform:
   - net-11
   - net-20
@@ -933,6 +962,7 @@ items:
     - id: value
       type: System.Object
       description: To be added.
+  overload: System.Reflection.FieldInfo.SetValueDirect*
   platform:
   - net-11
   - net-20
@@ -970,6 +1000,7 @@ items:
     - id: rgDispId
       type: System.IntPtr
       description: To be added.
+  overload: System.Reflection.FieldInfo.System#Runtime#InteropServices#_FieldInfo#GetIDsOfNames*
   platform:
   - net-11
   - net-20
@@ -995,6 +1026,7 @@ items:
     return:
       type: System.Type
       description: To be added.
+  overload: System.Reflection.FieldInfo.System#Runtime#InteropServices#_FieldInfo#GetType*
   platform:
   - net-11
   - net-20
@@ -1026,6 +1058,7 @@ items:
     - id: ppTInfo
       type: System.IntPtr
       description: To be added.
+  overload: System.Reflection.FieldInfo.System#Runtime#InteropServices#_FieldInfo#GetTypeInfo*
   platform:
   - net-11
   - net-20
@@ -1051,6 +1084,7 @@ items:
     - id: pcTInfo
       type: System.UInt32
       description: To be added.
+  overload: System.Reflection.FieldInfo.System#Runtime#InteropServices#_FieldInfo#GetTypeInfoCount*
   platform:
   - net-11
   - net-20
@@ -1097,6 +1131,7 @@ items:
     - id: puArgErr
       type: System.IntPtr
       description: To be added.
+  overload: System.Reflection.FieldInfo.System#Runtime#InteropServices#_FieldInfo#Invoke*
   platform:
   - net-11
   - net-20
@@ -1741,13 +1776,188 @@ references:
   name: IntPtr
   nameWithType: IntPtr
   fullName: System.IntPtr
+- uid: System.Reflection.FieldInfo.#ctor*
+  parent: System.Reflection.FieldInfo
+  isExternal: false
+  name: FieldInfo
+  nameWithType: FieldInfo.FieldInfo
+- uid: System.Reflection.FieldInfo.Attributes*
+  parent: System.Reflection.FieldInfo
+  isExternal: false
+  name: Attributes
+  nameWithType: FieldInfo.Attributes
+- uid: System.Reflection.FieldInfo.Equals*
+  parent: System.Reflection.FieldInfo
+  isExternal: false
+  name: Equals
+  nameWithType: FieldInfo.Equals
+- uid: System.Reflection.FieldInfo.FieldHandle*
+  parent: System.Reflection.FieldInfo
+  isExternal: false
+  name: FieldHandle
+  nameWithType: FieldInfo.FieldHandle
+- uid: System.Reflection.FieldInfo.FieldType*
+  parent: System.Reflection.FieldInfo
+  isExternal: false
+  name: FieldType
+  nameWithType: FieldInfo.FieldType
 - uid: System.Reflection.FieldInfo.GetFieldFromHandle*
   parent: System.Reflection.FieldInfo
   isExternal: false
   name: GetFieldFromHandle
   nameWithType: FieldInfo.GetFieldFromHandle
+- uid: System.Reflection.FieldInfo.GetHashCode*
+  parent: System.Reflection.FieldInfo
+  isExternal: false
+  name: GetHashCode
+  nameWithType: FieldInfo.GetHashCode
+- uid: System.Reflection.FieldInfo.GetOptionalCustomModifiers*
+  parent: System.Reflection.FieldInfo
+  isExternal: false
+  name: GetOptionalCustomModifiers
+  nameWithType: FieldInfo.GetOptionalCustomModifiers
+- uid: System.Reflection.FieldInfo.GetRawConstantValue*
+  parent: System.Reflection.FieldInfo
+  isExternal: false
+  name: GetRawConstantValue
+  nameWithType: FieldInfo.GetRawConstantValue
+- uid: System.Reflection.FieldInfo.GetRequiredCustomModifiers*
+  parent: System.Reflection.FieldInfo
+  isExternal: false
+  name: GetRequiredCustomModifiers
+  nameWithType: FieldInfo.GetRequiredCustomModifiers
+- uid: System.Reflection.FieldInfo.GetValue*
+  parent: System.Reflection.FieldInfo
+  isExternal: false
+  name: GetValue
+  nameWithType: FieldInfo.GetValue
+- uid: System.Reflection.FieldInfo.GetValueDirect*
+  parent: System.Reflection.FieldInfo
+  isExternal: false
+  name: GetValueDirect
+  nameWithType: FieldInfo.GetValueDirect
+- uid: System.Reflection.FieldInfo.IsAssembly*
+  parent: System.Reflection.FieldInfo
+  isExternal: false
+  name: IsAssembly
+  nameWithType: FieldInfo.IsAssembly
+- uid: System.Reflection.FieldInfo.IsFamily*
+  parent: System.Reflection.FieldInfo
+  isExternal: false
+  name: IsFamily
+  nameWithType: FieldInfo.IsFamily
+- uid: System.Reflection.FieldInfo.IsFamilyAndAssembly*
+  parent: System.Reflection.FieldInfo
+  isExternal: false
+  name: IsFamilyAndAssembly
+  nameWithType: FieldInfo.IsFamilyAndAssembly
+- uid: System.Reflection.FieldInfo.IsFamilyOrAssembly*
+  parent: System.Reflection.FieldInfo
+  isExternal: false
+  name: IsFamilyOrAssembly
+  nameWithType: FieldInfo.IsFamilyOrAssembly
+- uid: System.Reflection.FieldInfo.IsInitOnly*
+  parent: System.Reflection.FieldInfo
+  isExternal: false
+  name: IsInitOnly
+  nameWithType: FieldInfo.IsInitOnly
+- uid: System.Reflection.FieldInfo.IsLiteral*
+  parent: System.Reflection.FieldInfo
+  isExternal: false
+  name: IsLiteral
+  nameWithType: FieldInfo.IsLiteral
+- uid: System.Reflection.FieldInfo.IsNotSerialized*
+  parent: System.Reflection.FieldInfo
+  isExternal: false
+  name: IsNotSerialized
+  nameWithType: FieldInfo.IsNotSerialized
+- uid: System.Reflection.FieldInfo.IsPinvokeImpl*
+  parent: System.Reflection.FieldInfo
+  isExternal: false
+  name: IsPinvokeImpl
+  nameWithType: FieldInfo.IsPinvokeImpl
+- uid: System.Reflection.FieldInfo.IsPrivate*
+  parent: System.Reflection.FieldInfo
+  isExternal: false
+  name: IsPrivate
+  nameWithType: FieldInfo.IsPrivate
+- uid: System.Reflection.FieldInfo.IsPublic*
+  parent: System.Reflection.FieldInfo
+  isExternal: false
+  name: IsPublic
+  nameWithType: FieldInfo.IsPublic
+- uid: System.Reflection.FieldInfo.IsSecurityCritical*
+  parent: System.Reflection.FieldInfo
+  isExternal: false
+  name: IsSecurityCritical
+  nameWithType: FieldInfo.IsSecurityCritical
+- uid: System.Reflection.FieldInfo.IsSecuritySafeCritical*
+  parent: System.Reflection.FieldInfo
+  isExternal: false
+  name: IsSecuritySafeCritical
+  nameWithType: FieldInfo.IsSecuritySafeCritical
+- uid: System.Reflection.FieldInfo.IsSecurityTransparent*
+  parent: System.Reflection.FieldInfo
+  isExternal: false
+  name: IsSecurityTransparent
+  nameWithType: FieldInfo.IsSecurityTransparent
+- uid: System.Reflection.FieldInfo.IsSpecialName*
+  parent: System.Reflection.FieldInfo
+  isExternal: false
+  name: IsSpecialName
+  nameWithType: FieldInfo.IsSpecialName
+- uid: System.Reflection.FieldInfo.IsStatic*
+  parent: System.Reflection.FieldInfo
+  isExternal: false
+  name: IsStatic
+  nameWithType: FieldInfo.IsStatic
+- uid: System.Reflection.FieldInfo.MemberType*
+  parent: System.Reflection.FieldInfo
+  isExternal: false
+  name: MemberType
+  nameWithType: FieldInfo.MemberType
+- uid: System.Reflection.FieldInfo.op_Equality*
+  parent: System.Reflection.FieldInfo
+  isExternal: false
+  name: op_Equality
+  nameWithType: FieldInfo.op_Equality
+- uid: System.Reflection.FieldInfo.op_Inequality*
+  parent: System.Reflection.FieldInfo
+  isExternal: false
+  name: op_Inequality
+  nameWithType: FieldInfo.op_Inequality
 - uid: System.Reflection.FieldInfo.SetValue*
   parent: System.Reflection.FieldInfo
   isExternal: false
   name: SetValue
   nameWithType: FieldInfo.SetValue
+- uid: System.Reflection.FieldInfo.SetValueDirect*
+  parent: System.Reflection.FieldInfo
+  isExternal: false
+  name: SetValueDirect
+  nameWithType: FieldInfo.SetValueDirect
+- uid: System.Reflection.FieldInfo.System#Runtime#InteropServices#_FieldInfo#GetIDsOfNames*
+  parent: System.Reflection.FieldInfo
+  isExternal: false
+  name: System.Runtime.InteropServices._FieldInfo.GetIDsOfNames
+  nameWithType: FieldInfo.System.Runtime.InteropServices._FieldInfo.GetIDsOfNames
+- uid: System.Reflection.FieldInfo.System#Runtime#InteropServices#_FieldInfo#GetType*
+  parent: System.Reflection.FieldInfo
+  isExternal: false
+  name: System.Runtime.InteropServices._FieldInfo.GetType
+  nameWithType: FieldInfo.System.Runtime.InteropServices._FieldInfo.GetType
+- uid: System.Reflection.FieldInfo.System#Runtime#InteropServices#_FieldInfo#GetTypeInfo*
+  parent: System.Reflection.FieldInfo
+  isExternal: false
+  name: System.Runtime.InteropServices._FieldInfo.GetTypeInfo
+  nameWithType: FieldInfo.System.Runtime.InteropServices._FieldInfo.GetTypeInfo
+- uid: System.Reflection.FieldInfo.System#Runtime#InteropServices#_FieldInfo#GetTypeInfoCount*
+  parent: System.Reflection.FieldInfo
+  isExternal: false
+  name: System.Runtime.InteropServices._FieldInfo.GetTypeInfoCount
+  nameWithType: FieldInfo.System.Runtime.InteropServices._FieldInfo.GetTypeInfoCount
+- uid: System.Reflection.FieldInfo.System#Runtime#InteropServices#_FieldInfo#Invoke*
+  parent: System.Reflection.FieldInfo
+  isExternal: false
+  name: System.Runtime.InteropServices._FieldInfo.Invoke
+  nameWithType: FieldInfo.System.Runtime.InteropServices._FieldInfo.Invoke

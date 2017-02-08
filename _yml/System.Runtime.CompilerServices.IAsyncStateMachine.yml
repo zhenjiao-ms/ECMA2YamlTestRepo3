@@ -37,6 +37,7 @@ items:
   syntax:
     content: public void MoveNext ();
     parameters: []
+  overload: System.Runtime.CompilerServices.IAsyncStateMachine.MoveNext*
   platform:
   - net-11
   - net-20
@@ -61,6 +62,7 @@ items:
     - id: stateMachine
       type: System.Runtime.CompilerServices.IAsyncStateMachine
       description: To be added.
+  overload: System.Runtime.CompilerServices.IAsyncStateMachine.SetStateMachine*
   platform:
   - net-11
   - net-20
@@ -84,3 +86,13 @@ references:
   name: IAsyncStateMachine
   nameWithType: IAsyncStateMachine
   fullName: System.Runtime.CompilerServices.IAsyncStateMachine
+- uid: System.Runtime.CompilerServices.IAsyncStateMachine.MoveNext*
+  parent: System.Runtime.CompilerServices.IAsyncStateMachine
+  isExternal: false
+  name: MoveNext
+  nameWithType: IAsyncStateMachine.MoveNext
+- uid: System.Runtime.CompilerServices.IAsyncStateMachine.SetStateMachine*
+  parent: System.Runtime.CompilerServices.IAsyncStateMachine
+  isExternal: false
+  name: SetStateMachine
+  nameWithType: IAsyncStateMachine.SetStateMachine

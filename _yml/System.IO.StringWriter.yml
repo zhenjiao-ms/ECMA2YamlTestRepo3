@@ -114,6 +114,7 @@ items:
   syntax:
     content: public StringWriter ();
     parameters: []
+  overload: System.IO.StringWriter.#ctor*
   platform:
   - net-11
   - net-20
@@ -138,6 +139,7 @@ items:
     - id: formatProvider
       type: System.IFormatProvider
       description: To be added.
+  overload: System.IO.StringWriter.#ctor*
   platform:
   - net-11
   - net-20
@@ -162,6 +164,7 @@ items:
     - id: sb
       type: System.Text.StringBuilder
       description: To be added.
+  overload: System.IO.StringWriter.#ctor*
   platform:
   - net-11
   - net-20
@@ -189,6 +192,7 @@ items:
     - id: formatProvider
       type: System.IFormatProvider
       description: To be added.
+  overload: System.IO.StringWriter.#ctor*
   platform:
   - net-11
   - net-20
@@ -210,6 +214,7 @@ items:
   syntax:
     content: public override void Close ();
     parameters: []
+  overload: System.IO.StringWriter.Close*
   platform:
   - net-11
   - net-20
@@ -234,6 +239,7 @@ items:
     - id: disposing
       type: System.Boolean
       description: To be added.
+  overload: System.IO.StringWriter.Dispose*
   platform:
   - net-11
   - net-20
@@ -257,6 +263,7 @@ items:
     return:
       type: System.Text.Encoding
       description: To be added.
+  overload: System.IO.StringWriter.Encoding*
   platform:
   - net-11
   - net-20
@@ -281,6 +288,7 @@ items:
     return:
       type: System.Threading.Tasks.Task
       description: To be added.
+  overload: System.IO.StringWriter.FlushAsync*
   platform:
   - net-11
   - net-20
@@ -305,6 +313,7 @@ items:
     return:
       type: System.Text.StringBuilder
       description: To be added.
+  overload: System.IO.StringWriter.GetStringBuilder*
   platform:
   - net-11
   - net-20
@@ -329,6 +338,7 @@ items:
     return:
       type: System.String
       description: To be added.
+  overload: System.IO.StringWriter.ToString*
   platform:
   - net-11
   - net-20
@@ -892,6 +902,41 @@ references:
   name: Int32
   nameWithType: Int32
   fullName: System.Int32
+- uid: System.IO.StringWriter.#ctor*
+  parent: System.IO.StringWriter
+  isExternal: false
+  name: StringWriter
+  nameWithType: StringWriter.StringWriter
+- uid: System.IO.StringWriter.Close*
+  parent: System.IO.StringWriter
+  isExternal: false
+  name: Close
+  nameWithType: StringWriter.Close
+- uid: System.IO.StringWriter.Dispose*
+  parent: System.IO.StringWriter
+  isExternal: false
+  name: Dispose
+  nameWithType: StringWriter.Dispose
+- uid: System.IO.StringWriter.Encoding*
+  parent: System.IO.StringWriter
+  isExternal: false
+  name: Encoding
+  nameWithType: StringWriter.Encoding
+- uid: System.IO.StringWriter.FlushAsync*
+  parent: System.IO.StringWriter
+  isExternal: false
+  name: FlushAsync
+  nameWithType: StringWriter.FlushAsync
+- uid: System.IO.StringWriter.GetStringBuilder*
+  parent: System.IO.StringWriter
+  isExternal: false
+  name: GetStringBuilder
+  nameWithType: StringWriter.GetStringBuilder
+- uid: System.IO.StringWriter.ToString*
+  parent: System.IO.StringWriter
+  isExternal: false
+  name: ToString
+  nameWithType: StringWriter.ToString
 - uid: System.IO.StringWriter.Write*
   parent: System.IO.StringWriter
   isExternal: false

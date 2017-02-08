@@ -54,6 +54,7 @@ items:
     - id: exception
       type: System.AggregateException
       description: To be added.
+  overload: System.Threading.Tasks.UnobservedTaskExceptionEventArgs.#ctor*
   platform:
   - net-11
   - net-20
@@ -77,6 +78,7 @@ items:
     return:
       type: System.AggregateException
       description: To be added.
+  overload: System.Threading.Tasks.UnobservedTaskExceptionEventArgs.Exception*
   platform:
   - net-11
   - net-20
@@ -100,6 +102,7 @@ items:
     return:
       type: System.Boolean
       description: To be added.
+  overload: System.Threading.Tasks.UnobservedTaskExceptionEventArgs.Observed*
   platform:
   - net-11
   - net-20
@@ -121,6 +124,7 @@ items:
   syntax:
     content: public void SetObserved ();
     parameters: []
+  overload: System.Threading.Tasks.UnobservedTaskExceptionEventArgs.SetObserved*
   platform:
   - net-11
   - net-20
@@ -171,3 +175,23 @@ references:
   name: SetObserved()
   nameWithType: UnobservedTaskExceptionEventArgs.SetObserved()
   fullName: System.Threading.Tasks.UnobservedTaskExceptionEventArgs.SetObserved()
+- uid: System.Threading.Tasks.UnobservedTaskExceptionEventArgs.#ctor*
+  parent: System.Threading.Tasks.UnobservedTaskExceptionEventArgs
+  isExternal: false
+  name: UnobservedTaskExceptionEventArgs
+  nameWithType: UnobservedTaskExceptionEventArgs.UnobservedTaskExceptionEventArgs
+- uid: System.Threading.Tasks.UnobservedTaskExceptionEventArgs.Exception*
+  parent: System.Threading.Tasks.UnobservedTaskExceptionEventArgs
+  isExternal: false
+  name: Exception
+  nameWithType: UnobservedTaskExceptionEventArgs.Exception
+- uid: System.Threading.Tasks.UnobservedTaskExceptionEventArgs.Observed*
+  parent: System.Threading.Tasks.UnobservedTaskExceptionEventArgs
+  isExternal: false
+  name: Observed
+  nameWithType: UnobservedTaskExceptionEventArgs.Observed
+- uid: System.Threading.Tasks.UnobservedTaskExceptionEventArgs.SetObserved*
+  parent: System.Threading.Tasks.UnobservedTaskExceptionEventArgs
+  isExternal: false
+  name: SetObserved
+  nameWithType: UnobservedTaskExceptionEventArgs.SetObserved

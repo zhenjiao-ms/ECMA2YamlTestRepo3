@@ -162,6 +162,7 @@ items:
     return:
       type: System.Object
       description: To be added.
+  overload: Microsoft.Win32.Registry.GetValue*
   platform:
   - net-11
   - net-20
@@ -472,6 +473,11 @@ references:
   name: RegistryKey
   nameWithType: RegistryKey
   fullName: Microsoft.Win32.RegistryKey
+- uid: Microsoft.Win32.Registry.GetValue*
+  parent: Microsoft.Win32.Registry
+  isExternal: false
+  name: GetValue
+  nameWithType: Registry.GetValue
 - uid: Microsoft.Win32.Registry.SetValue*
   parent: Microsoft.Win32.Registry
   isExternal: false

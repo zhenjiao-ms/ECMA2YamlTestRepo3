@@ -93,6 +93,7 @@ items:
     - id: name
       type: System.String
       description: To be added.
+  overload: System.Runtime.InteropServices.WindowsRuntime.ReturnValueNameAttribute.#ctor*
   platform:
   - net-11
   - net-20
@@ -116,6 +117,7 @@ items:
     return:
       type: System.String
       description: To be added.
+  overload: System.Runtime.InteropServices.WindowsRuntime.ReturnValueNameAttribute.Name*
   platform:
   - net-11
   - net-20
@@ -148,3 +150,13 @@ references:
   name: String
   nameWithType: String
   fullName: System.String
+- uid: System.Runtime.InteropServices.WindowsRuntime.ReturnValueNameAttribute.#ctor*
+  parent: System.Runtime.InteropServices.WindowsRuntime.ReturnValueNameAttribute
+  isExternal: false
+  name: ReturnValueNameAttribute
+  nameWithType: ReturnValueNameAttribute.ReturnValueNameAttribute
+- uid: System.Runtime.InteropServices.WindowsRuntime.ReturnValueNameAttribute.Name*
+  parent: System.Runtime.InteropServices.WindowsRuntime.ReturnValueNameAttribute
+  isExternal: false
+  name: Name
+  nameWithType: ReturnValueNameAttribute.Name

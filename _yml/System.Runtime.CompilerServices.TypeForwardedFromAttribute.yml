@@ -93,6 +93,7 @@ items:
     - id: assemblyFullName
       type: System.String
       description: To be added.
+  overload: System.Runtime.CompilerServices.TypeForwardedFromAttribute.#ctor*
   platform:
   - net-11
   - net-20
@@ -116,6 +117,7 @@ items:
     return:
       type: System.String
       description: To be added.
+  overload: System.Runtime.CompilerServices.TypeForwardedFromAttribute.AssemblyFullName*
   platform:
   - net-11
   - net-20
@@ -148,3 +150,13 @@ references:
   name: String
   nameWithType: String
   fullName: System.String
+- uid: System.Runtime.CompilerServices.TypeForwardedFromAttribute.#ctor*
+  parent: System.Runtime.CompilerServices.TypeForwardedFromAttribute
+  isExternal: false
+  name: TypeForwardedFromAttribute
+  nameWithType: TypeForwardedFromAttribute.TypeForwardedFromAttribute
+- uid: System.Runtime.CompilerServices.TypeForwardedFromAttribute.AssemblyFullName*
+  parent: System.Runtime.CompilerServices.TypeForwardedFromAttribute
+  isExternal: false
+  name: AssemblyFullName
+  nameWithType: TypeForwardedFromAttribute.AssemblyFullName

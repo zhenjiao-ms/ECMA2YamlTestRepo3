@@ -67,6 +67,7 @@ items:
     - id: version
       type: System.Version
       description: To be added.
+  overload: System.Security.Policy.StrongNameMembershipCondition.#ctor*
   platform:
   - net-11
   - net-20
@@ -94,6 +95,7 @@ items:
     return:
       type: System.Boolean
       description: To be added.
+  overload: System.Security.Policy.StrongNameMembershipCondition.Check*
   platform:
   - net-11
   - net-20
@@ -118,6 +120,7 @@ items:
     return:
       type: System.Security.Policy.IMembershipCondition
       description: To be added.
+  overload: System.Security.Policy.StrongNameMembershipCondition.Copy*
   platform:
   - net-11
   - net-20
@@ -145,6 +148,7 @@ items:
     return:
       type: System.Boolean
       description: To be added.
+  overload: System.Security.Policy.StrongNameMembershipCondition.Equals*
   platform:
   - net-11
   - net-20
@@ -222,6 +226,7 @@ items:
     return:
       type: System.Int32
       description: To be added.
+  overload: System.Security.Policy.StrongNameMembershipCondition.GetHashCode*
   platform:
   - net-11
   - net-20
@@ -245,6 +250,7 @@ items:
     return:
       type: System.String
       description: To be added.
+  overload: System.Security.Policy.StrongNameMembershipCondition.Name*
   platform:
   - net-11
   - net-20
@@ -268,6 +274,7 @@ items:
     return:
       type: System.Security.Permissions.StrongNamePublicKeyBlob
       description: To be added.
+  overload: System.Security.Policy.StrongNameMembershipCondition.PublicKey*
   platform:
   - net-11
   - net-20
@@ -292,6 +299,7 @@ items:
     return:
       type: System.String
       description: To be added.
+  overload: System.Security.Policy.StrongNameMembershipCondition.ToString*
   platform:
   - net-11
   - net-20
@@ -368,6 +376,7 @@ items:
     return:
       type: System.Version
       description: To be added.
+  overload: System.Security.Policy.StrongNameMembershipCondition.Version*
   platform:
   - net-11
   - net-20
@@ -568,13 +577,58 @@ references:
   name: Version
   nameWithType: Version
   fullName: System.Version
+- uid: System.Security.Policy.StrongNameMembershipCondition.#ctor*
+  parent: System.Security.Policy.StrongNameMembershipCondition
+  isExternal: false
+  name: StrongNameMembershipCondition
+  nameWithType: StrongNameMembershipCondition.StrongNameMembershipCondition
+- uid: System.Security.Policy.StrongNameMembershipCondition.Check*
+  parent: System.Security.Policy.StrongNameMembershipCondition
+  isExternal: false
+  name: Check
+  nameWithType: StrongNameMembershipCondition.Check
+- uid: System.Security.Policy.StrongNameMembershipCondition.Copy*
+  parent: System.Security.Policy.StrongNameMembershipCondition
+  isExternal: false
+  name: Copy
+  nameWithType: StrongNameMembershipCondition.Copy
+- uid: System.Security.Policy.StrongNameMembershipCondition.Equals*
+  parent: System.Security.Policy.StrongNameMembershipCondition
+  isExternal: false
+  name: Equals
+  nameWithType: StrongNameMembershipCondition.Equals
 - uid: System.Security.Policy.StrongNameMembershipCondition.FromXml*
   parent: System.Security.Policy.StrongNameMembershipCondition
   isExternal: false
   name: FromXml
   nameWithType: StrongNameMembershipCondition.FromXml
+- uid: System.Security.Policy.StrongNameMembershipCondition.GetHashCode*
+  parent: System.Security.Policy.StrongNameMembershipCondition
+  isExternal: false
+  name: GetHashCode
+  nameWithType: StrongNameMembershipCondition.GetHashCode
+- uid: System.Security.Policy.StrongNameMembershipCondition.Name*
+  parent: System.Security.Policy.StrongNameMembershipCondition
+  isExternal: false
+  name: Name
+  nameWithType: StrongNameMembershipCondition.Name
+- uid: System.Security.Policy.StrongNameMembershipCondition.PublicKey*
+  parent: System.Security.Policy.StrongNameMembershipCondition
+  isExternal: false
+  name: PublicKey
+  nameWithType: StrongNameMembershipCondition.PublicKey
+- uid: System.Security.Policy.StrongNameMembershipCondition.ToString*
+  parent: System.Security.Policy.StrongNameMembershipCondition
+  isExternal: false
+  name: ToString
+  nameWithType: StrongNameMembershipCondition.ToString
 - uid: System.Security.Policy.StrongNameMembershipCondition.ToXml*
   parent: System.Security.Policy.StrongNameMembershipCondition
   isExternal: false
   name: ToXml
   nameWithType: StrongNameMembershipCondition.ToXml
+- uid: System.Security.Policy.StrongNameMembershipCondition.Version*
+  parent: System.Security.Policy.StrongNameMembershipCondition
+  isExternal: false
+  name: Version
+  nameWithType: StrongNameMembershipCondition.Version

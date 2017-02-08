@@ -71,6 +71,7 @@ items:
     - id: exceptions
       type: System.Exception[]
       description: To be added.
+  overload: System.Reflection.ReflectionTypeLoadException.#ctor*
   platform:
   - net-11
   - net-20
@@ -101,6 +102,7 @@ items:
     - id: message
       type: System.String
       description: To be added.
+  overload: System.Reflection.ReflectionTypeLoadException.#ctor*
   platform:
   - net-11
   - net-20
@@ -128,6 +130,7 @@ items:
     - id: context
       type: System.Runtime.Serialization.StreamingContext
       description: To be added.
+  overload: System.Reflection.ReflectionTypeLoadException.GetObjectData*
   platform:
   - net-11
   - net-20
@@ -151,6 +154,7 @@ items:
     return:
       type: System.Exception[]
       description: To be added.
+  overload: System.Reflection.ReflectionTypeLoadException.LoaderExceptions*
   platform:
   - net-11
   - net-20
@@ -174,6 +178,7 @@ items:
     return:
       type: System.Type[]
       description: To be added.
+  overload: System.Reflection.ReflectionTypeLoadException.Types*
   platform:
   - net-11
   - net-20
@@ -266,3 +271,23 @@ references:
   name: Type
   nameWithType: Type
   fullName: System.Type[]
+- uid: System.Reflection.ReflectionTypeLoadException.#ctor*
+  parent: System.Reflection.ReflectionTypeLoadException
+  isExternal: false
+  name: ReflectionTypeLoadException
+  nameWithType: ReflectionTypeLoadException.ReflectionTypeLoadException
+- uid: System.Reflection.ReflectionTypeLoadException.GetObjectData*
+  parent: System.Reflection.ReflectionTypeLoadException
+  isExternal: false
+  name: GetObjectData
+  nameWithType: ReflectionTypeLoadException.GetObjectData
+- uid: System.Reflection.ReflectionTypeLoadException.LoaderExceptions*
+  parent: System.Reflection.ReflectionTypeLoadException
+  isExternal: false
+  name: LoaderExceptions
+  nameWithType: ReflectionTypeLoadException.LoaderExceptions
+- uid: System.Reflection.ReflectionTypeLoadException.Types*
+  parent: System.Reflection.ReflectionTypeLoadException
+  isExternal: false
+  name: Types
+  nameWithType: ReflectionTypeLoadException.Types

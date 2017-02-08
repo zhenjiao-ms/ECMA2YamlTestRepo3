@@ -70,6 +70,7 @@ items:
     - id: culture
       type: System.String
       description: To be added.
+  overload: System.ApplicationId.#ctor*
   platform:
   - net-11
   - net-20
@@ -94,6 +95,7 @@ items:
     return:
       type: System.ApplicationId
       description: To be added.
+  overload: System.ApplicationId.Copy*
   platform:
   - net-11
   - net-20
@@ -117,6 +119,7 @@ items:
     return:
       type: System.String
       description: To be added.
+  overload: System.ApplicationId.Culture*
   platform:
   - net-11
   - net-20
@@ -144,6 +147,7 @@ items:
     return:
       type: System.Boolean
       description: To be added.
+  overload: System.ApplicationId.Equals*
   platform:
   - net-11
   - net-20
@@ -168,6 +172,7 @@ items:
     return:
       type: System.Int32
       description: To be added.
+  overload: System.ApplicationId.GetHashCode*
   platform:
   - net-11
   - net-20
@@ -191,6 +196,7 @@ items:
     return:
       type: System.String
       description: To be added.
+  overload: System.ApplicationId.Name*
   platform:
   - net-11
   - net-20
@@ -214,6 +220,7 @@ items:
     return:
       type: System.String
       description: To be added.
+  overload: System.ApplicationId.ProcessorArchitecture*
   platform:
   - net-11
   - net-20
@@ -237,6 +244,7 @@ items:
     return:
       type: System.Byte[]
       description: To be added.
+  overload: System.ApplicationId.PublicKeyToken*
   platform:
   - net-11
   - net-20
@@ -261,6 +269,7 @@ items:
     return:
       type: System.String
       description: To be added.
+  overload: System.ApplicationId.ToString*
   platform:
   - net-11
   - net-20
@@ -284,6 +293,7 @@ items:
     return:
       type: System.Version
       description: To be added.
+  overload: System.ApplicationId.Version*
   platform:
   - net-11
   - net-20
@@ -442,3 +452,53 @@ references:
   name: Version
   nameWithType: Version
   fullName: System.Version
+- uid: System.ApplicationId.#ctor*
+  parent: System.ApplicationId
+  isExternal: false
+  name: ApplicationId
+  nameWithType: ApplicationId.ApplicationId
+- uid: System.ApplicationId.Copy*
+  parent: System.ApplicationId
+  isExternal: false
+  name: Copy
+  nameWithType: ApplicationId.Copy
+- uid: System.ApplicationId.Culture*
+  parent: System.ApplicationId
+  isExternal: false
+  name: Culture
+  nameWithType: ApplicationId.Culture
+- uid: System.ApplicationId.Equals*
+  parent: System.ApplicationId
+  isExternal: false
+  name: Equals
+  nameWithType: ApplicationId.Equals
+- uid: System.ApplicationId.GetHashCode*
+  parent: System.ApplicationId
+  isExternal: false
+  name: GetHashCode
+  nameWithType: ApplicationId.GetHashCode
+- uid: System.ApplicationId.Name*
+  parent: System.ApplicationId
+  isExternal: false
+  name: Name
+  nameWithType: ApplicationId.Name
+- uid: System.ApplicationId.ProcessorArchitecture*
+  parent: System.ApplicationId
+  isExternal: false
+  name: ProcessorArchitecture
+  nameWithType: ApplicationId.ProcessorArchitecture
+- uid: System.ApplicationId.PublicKeyToken*
+  parent: System.ApplicationId
+  isExternal: false
+  name: PublicKeyToken
+  nameWithType: ApplicationId.PublicKeyToken
+- uid: System.ApplicationId.ToString*
+  parent: System.ApplicationId
+  isExternal: false
+  name: ToString
+  nameWithType: ApplicationId.ToString
+- uid: System.ApplicationId.Version*
+  parent: System.ApplicationId
+  isExternal: false
+  name: Version
+  nameWithType: ApplicationId.Version

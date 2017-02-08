@@ -63,6 +63,7 @@ items:
   syntax:
     content: public Lazy ();
     parameters: []
+  overload: System.Lazy`1.#ctor*
   platform:
   - net-11
   - net-20
@@ -87,6 +88,7 @@ items:
     - id: isThreadSafe
       type: System.Boolean
       description: To be added.
+  overload: System.Lazy`1.#ctor*
   platform:
   - net-11
   - net-20
@@ -111,6 +113,7 @@ items:
     - id: valueFactory
       type: System.Func{T}
       description: To be added.
+  overload: System.Lazy`1.#ctor*
   platform:
   - net-11
   - net-20
@@ -135,6 +138,7 @@ items:
     - id: mode
       type: System.Threading.LazyThreadSafetyMode
       description: To be added.
+  overload: System.Lazy`1.#ctor*
   platform:
   - net-11
   - net-20
@@ -162,6 +166,7 @@ items:
     - id: isThreadSafe
       type: System.Boolean
       description: To be added.
+  overload: System.Lazy`1.#ctor*
   platform:
   - net-11
   - net-20
@@ -189,6 +194,7 @@ items:
     - id: mode
       type: System.Threading.LazyThreadSafetyMode
       description: To be added.
+  overload: System.Lazy`1.#ctor*
   platform:
   - net-11
   - net-20
@@ -212,6 +218,7 @@ items:
     return:
       type: System.Boolean
       description: To be added.
+  overload: System.Lazy`1.IsValueCreated*
   platform:
   - net-11
   - net-20
@@ -236,6 +243,7 @@ items:
     return:
       type: System.String
       description: To be added.
+  overload: System.Lazy`1.ToString*
   platform:
   - net-11
   - net-20
@@ -259,6 +267,7 @@ items:
     return:
       type: T
       description: To be added.
+  overload: System.Lazy`1.Value*
   platform:
   - net-11
   - net-20
@@ -381,3 +390,23 @@ references:
   name: T
   nameWithType: T
   fullName: T
+- uid: System.Lazy`1.#ctor*
+  parent: System.Lazy`1
+  isExternal: false
+  name: Lazy<T>
+  nameWithType: Lazy<T>.Lazy<T>
+- uid: System.Lazy`1.IsValueCreated*
+  parent: System.Lazy`1
+  isExternal: false
+  name: IsValueCreated
+  nameWithType: Lazy<T>.IsValueCreated
+- uid: System.Lazy`1.ToString*
+  parent: System.Lazy`1
+  isExternal: false
+  name: ToString
+  nameWithType: Lazy<T>.ToString
+- uid: System.Lazy`1.Value*
+  parent: System.Lazy`1
+  isExternal: false
+  name: Value
+  nameWithType: Lazy<T>.Value

@@ -73,6 +73,7 @@ items:
   syntax:
     content: protected MemberInfo ();
     parameters: []
+  overload: System.Reflection.MemberInfo.#ctor*
   platform:
   - net-11
   - net-20
@@ -96,6 +97,7 @@ items:
     return:
       type: System.Collections.Generic.IEnumerable{System.Reflection.CustomAttributeData}
       description: To be added.
+  overload: System.Reflection.MemberInfo.CustomAttributes*
   platform:
   - net-11
   - net-20
@@ -119,6 +121,7 @@ items:
     return:
       type: System.Type
       description: To be added.
+  overload: System.Reflection.MemberInfo.DeclaringType*
   platform:
   - net-11
   - net-20
@@ -146,6 +149,7 @@ items:
     return:
       type: System.Boolean
       description: To be added.
+  overload: System.Reflection.MemberInfo.Equals*
   platform:
   - net-11
   - net-20
@@ -229,6 +233,7 @@ items:
     return:
       type: System.Collections.Generic.IList{System.Reflection.CustomAttributeData}
       description: To be added.
+  overload: System.Reflection.MemberInfo.GetCustomAttributesData*
   platform:
   - net-11
   - net-20
@@ -253,6 +258,7 @@ items:
     return:
       type: System.Int32
       description: To be added.
+  overload: System.Reflection.MemberInfo.GetHashCode*
   platform:
   - net-11
   - net-20
@@ -283,6 +289,7 @@ items:
     return:
       type: System.Boolean
       description: To be added.
+  overload: System.Reflection.MemberInfo.IsDefined*
   platform:
   - net-11
   - net-20
@@ -306,6 +313,7 @@ items:
     return:
       type: System.Reflection.MemberTypes
       description: To be added.
+  overload: System.Reflection.MemberInfo.MemberType*
   platform:
   - net-11
   - net-20
@@ -329,6 +337,7 @@ items:
     return:
       type: System.Int32
       description: To be added.
+  overload: System.Reflection.MemberInfo.MetadataToken*
   platform:
   - net-11
   - net-20
@@ -352,6 +361,7 @@ items:
     return:
       type: System.Reflection.Module
       description: To be added.
+  overload: System.Reflection.MemberInfo.Module*
   platform:
   - net-11
   - net-20
@@ -375,6 +385,7 @@ items:
     return:
       type: System.String
       description: To be added.
+  overload: System.Reflection.MemberInfo.Name*
   platform:
   - net-11
   - net-20
@@ -405,6 +416,7 @@ items:
     return:
       type: System.Boolean
       description: To be added.
+  overload: System.Reflection.MemberInfo.op_Equality*
   platform:
   - net-11
   - net-20
@@ -435,6 +447,7 @@ items:
     return:
       type: System.Boolean
       description: To be added.
+  overload: System.Reflection.MemberInfo.op_Inequality*
   platform:
   - net-11
   - net-20
@@ -458,6 +471,7 @@ items:
     return:
       type: System.Type
       description: To be added.
+  overload: System.Reflection.MemberInfo.ReflectedType*
   platform:
   - net-11
   - net-20
@@ -495,6 +509,7 @@ items:
     - id: rgDispId
       type: System.IntPtr
       description: To be added.
+  overload: System.Reflection.MemberInfo.System#Runtime#InteropServices#_MemberInfo#GetIDsOfNames*
   platform:
   - net-11
   - net-20
@@ -520,6 +535,7 @@ items:
     return:
       type: System.Type
       description: To be added.
+  overload: System.Reflection.MemberInfo.System#Runtime#InteropServices#_MemberInfo#GetType*
   platform:
   - net-11
   - net-20
@@ -551,6 +567,7 @@ items:
     - id: ppTInfo
       type: System.IntPtr
       description: To be added.
+  overload: System.Reflection.MemberInfo.System#Runtime#InteropServices#_MemberInfo#GetTypeInfo*
   platform:
   - net-11
   - net-20
@@ -576,6 +593,7 @@ items:
     - id: pcTInfo
       type: System.UInt32
       description: To be added.
+  overload: System.Reflection.MemberInfo.System#Runtime#InteropServices#_MemberInfo#GetTypeInfoCount*
   platform:
   - net-11
   - net-20
@@ -622,6 +640,7 @@ items:
     - id: puArgErr
       type: System.IntPtr
       description: To be added.
+  overload: System.Reflection.MemberInfo.System#Runtime#InteropServices#_MemberInfo#Invoke*
   platform:
   - net-11
   - net-20
@@ -1014,8 +1033,103 @@ references:
   name: IntPtr
   nameWithType: IntPtr
   fullName: System.IntPtr
+- uid: System.Reflection.MemberInfo.#ctor*
+  parent: System.Reflection.MemberInfo
+  isExternal: false
+  name: MemberInfo
+  nameWithType: MemberInfo.MemberInfo
+- uid: System.Reflection.MemberInfo.CustomAttributes*
+  parent: System.Reflection.MemberInfo
+  isExternal: false
+  name: CustomAttributes
+  nameWithType: MemberInfo.CustomAttributes
+- uid: System.Reflection.MemberInfo.DeclaringType*
+  parent: System.Reflection.MemberInfo
+  isExternal: false
+  name: DeclaringType
+  nameWithType: MemberInfo.DeclaringType
+- uid: System.Reflection.MemberInfo.Equals*
+  parent: System.Reflection.MemberInfo
+  isExternal: false
+  name: Equals
+  nameWithType: MemberInfo.Equals
 - uid: System.Reflection.MemberInfo.GetCustomAttributes*
   parent: System.Reflection.MemberInfo
   isExternal: false
   name: GetCustomAttributes
   nameWithType: MemberInfo.GetCustomAttributes
+- uid: System.Reflection.MemberInfo.GetCustomAttributesData*
+  parent: System.Reflection.MemberInfo
+  isExternal: false
+  name: GetCustomAttributesData
+  nameWithType: MemberInfo.GetCustomAttributesData
+- uid: System.Reflection.MemberInfo.GetHashCode*
+  parent: System.Reflection.MemberInfo
+  isExternal: false
+  name: GetHashCode
+  nameWithType: MemberInfo.GetHashCode
+- uid: System.Reflection.MemberInfo.IsDefined*
+  parent: System.Reflection.MemberInfo
+  isExternal: false
+  name: IsDefined
+  nameWithType: MemberInfo.IsDefined
+- uid: System.Reflection.MemberInfo.MemberType*
+  parent: System.Reflection.MemberInfo
+  isExternal: false
+  name: MemberType
+  nameWithType: MemberInfo.MemberType
+- uid: System.Reflection.MemberInfo.MetadataToken*
+  parent: System.Reflection.MemberInfo
+  isExternal: false
+  name: MetadataToken
+  nameWithType: MemberInfo.MetadataToken
+- uid: System.Reflection.MemberInfo.Module*
+  parent: System.Reflection.MemberInfo
+  isExternal: false
+  name: Module
+  nameWithType: MemberInfo.Module
+- uid: System.Reflection.MemberInfo.Name*
+  parent: System.Reflection.MemberInfo
+  isExternal: false
+  name: Name
+  nameWithType: MemberInfo.Name
+- uid: System.Reflection.MemberInfo.op_Equality*
+  parent: System.Reflection.MemberInfo
+  isExternal: false
+  name: op_Equality
+  nameWithType: MemberInfo.op_Equality
+- uid: System.Reflection.MemberInfo.op_Inequality*
+  parent: System.Reflection.MemberInfo
+  isExternal: false
+  name: op_Inequality
+  nameWithType: MemberInfo.op_Inequality
+- uid: System.Reflection.MemberInfo.ReflectedType*
+  parent: System.Reflection.MemberInfo
+  isExternal: false
+  name: ReflectedType
+  nameWithType: MemberInfo.ReflectedType
+- uid: System.Reflection.MemberInfo.System#Runtime#InteropServices#_MemberInfo#GetIDsOfNames*
+  parent: System.Reflection.MemberInfo
+  isExternal: false
+  name: System.Runtime.InteropServices._MemberInfo.GetIDsOfNames
+  nameWithType: MemberInfo.System.Runtime.InteropServices._MemberInfo.GetIDsOfNames
+- uid: System.Reflection.MemberInfo.System#Runtime#InteropServices#_MemberInfo#GetType*
+  parent: System.Reflection.MemberInfo
+  isExternal: false
+  name: System.Runtime.InteropServices._MemberInfo.GetType
+  nameWithType: MemberInfo.System.Runtime.InteropServices._MemberInfo.GetType
+- uid: System.Reflection.MemberInfo.System#Runtime#InteropServices#_MemberInfo#GetTypeInfo*
+  parent: System.Reflection.MemberInfo
+  isExternal: false
+  name: System.Runtime.InteropServices._MemberInfo.GetTypeInfo
+  nameWithType: MemberInfo.System.Runtime.InteropServices._MemberInfo.GetTypeInfo
+- uid: System.Reflection.MemberInfo.System#Runtime#InteropServices#_MemberInfo#GetTypeInfoCount*
+  parent: System.Reflection.MemberInfo
+  isExternal: false
+  name: System.Runtime.InteropServices._MemberInfo.GetTypeInfoCount
+  nameWithType: MemberInfo.System.Runtime.InteropServices._MemberInfo.GetTypeInfoCount
+- uid: System.Reflection.MemberInfo.System#Runtime#InteropServices#_MemberInfo#Invoke*
+  parent: System.Reflection.MemberInfo
+  isExternal: false
+  name: System.Runtime.InteropServices._MemberInfo.Invoke
+  nameWithType: MemberInfo.System.Runtime.InteropServices._MemberInfo.Invoke

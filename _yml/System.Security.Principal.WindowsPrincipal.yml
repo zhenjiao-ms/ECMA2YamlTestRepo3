@@ -79,6 +79,7 @@ items:
     - id: ntIdentity
       type: System.Security.Principal.WindowsIdentity
       description: To be added.
+  overload: System.Security.Principal.WindowsPrincipal.#ctor*
   platform:
   - net-11
   - net-20
@@ -102,6 +103,7 @@ items:
     return:
       type: System.Collections.Generic.IEnumerable{System.Security.Claims.Claim}
       description: To be added.
+  overload: System.Security.Principal.WindowsPrincipal.DeviceClaims*
   platform:
   - net-11
   - net-20
@@ -125,6 +127,7 @@ items:
     return:
       type: System.Security.Principal.IIdentity
       description: To be added.
+  overload: System.Security.Principal.WindowsPrincipal.Identity*
   platform:
   - net-11
   - net-20
@@ -260,6 +263,7 @@ items:
     return:
       type: System.Collections.Generic.IEnumerable{System.Security.Claims.Claim}
       description: To be added.
+  overload: System.Security.Principal.WindowsPrincipal.UserClaims*
   platform:
   - net-11
   - net-20
@@ -388,8 +392,28 @@ references:
   name: IEnumerable<Claim>
   nameWithType: IEnumerable<Claim>
   fullName: System.Collections.Generic.IEnumerable<System.Security.Claims.Claim>
+- uid: System.Security.Principal.WindowsPrincipal.#ctor*
+  parent: System.Security.Principal.WindowsPrincipal
+  isExternal: false
+  name: WindowsPrincipal
+  nameWithType: WindowsPrincipal.WindowsPrincipal
+- uid: System.Security.Principal.WindowsPrincipal.DeviceClaims*
+  parent: System.Security.Principal.WindowsPrincipal
+  isExternal: false
+  name: DeviceClaims
+  nameWithType: WindowsPrincipal.DeviceClaims
+- uid: System.Security.Principal.WindowsPrincipal.Identity*
+  parent: System.Security.Principal.WindowsPrincipal
+  isExternal: false
+  name: Identity
+  nameWithType: WindowsPrincipal.Identity
 - uid: System.Security.Principal.WindowsPrincipal.IsInRole*
   parent: System.Security.Principal.WindowsPrincipal
   isExternal: false
   name: IsInRole
   nameWithType: WindowsPrincipal.IsInRole
+- uid: System.Security.Principal.WindowsPrincipal.UserClaims*
+  parent: System.Security.Principal.WindowsPrincipal
+  isExternal: false
+  name: UserClaims
+  nameWithType: WindowsPrincipal.UserClaims

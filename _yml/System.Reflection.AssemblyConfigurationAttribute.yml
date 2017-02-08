@@ -95,6 +95,7 @@ items:
     - id: configuration
       type: System.String
       description: To be added.
+  overload: System.Reflection.AssemblyConfigurationAttribute.#ctor*
   platform:
   - net-11
   - net-20
@@ -118,6 +119,7 @@ items:
     return:
       type: System.String
       description: To be added.
+  overload: System.Reflection.AssemblyConfigurationAttribute.Configuration*
   platform:
   - net-11
   - net-20
@@ -150,3 +152,13 @@ references:
   name: String
   nameWithType: String
   fullName: System.String
+- uid: System.Reflection.AssemblyConfigurationAttribute.#ctor*
+  parent: System.Reflection.AssemblyConfigurationAttribute
+  isExternal: false
+  name: AssemblyConfigurationAttribute
+  nameWithType: AssemblyConfigurationAttribute.AssemblyConfigurationAttribute
+- uid: System.Reflection.AssemblyConfigurationAttribute.Configuration*
+  parent: System.Reflection.AssemblyConfigurationAttribute
+  isExternal: false
+  name: Configuration
+  nameWithType: AssemblyConfigurationAttribute.Configuration

@@ -56,6 +56,7 @@ items:
     return:
       type: System.Object
       description: To be added.
+  overload: System.Globalization.TextElementEnumerator.Current*
   platform:
   - net-11
   - net-20
@@ -79,6 +80,7 @@ items:
     return:
       type: System.Int32
       description: To be added.
+  overload: System.Globalization.TextElementEnumerator.ElementIndex*
   platform:
   - net-11
   - net-20
@@ -103,6 +105,7 @@ items:
     return:
       type: System.String
       description: To be added.
+  overload: System.Globalization.TextElementEnumerator.GetTextElement*
   platform:
   - net-11
   - net-20
@@ -127,6 +130,7 @@ items:
     return:
       type: System.Boolean
       description: To be added.
+  overload: System.Globalization.TextElementEnumerator.MoveNext*
   platform:
   - net-11
   - net-20
@@ -148,6 +152,7 @@ items:
   syntax:
     content: public void Reset ();
     parameters: []
+  overload: System.Globalization.TextElementEnumerator.Reset*
   platform:
   - net-11
   - net-20
@@ -210,3 +215,28 @@ references:
   name: Reset()
   nameWithType: TextElementEnumerator.Reset()
   fullName: System.Globalization.TextElementEnumerator.Reset()
+- uid: System.Globalization.TextElementEnumerator.Current*
+  parent: System.Globalization.TextElementEnumerator
+  isExternal: false
+  name: Current
+  nameWithType: TextElementEnumerator.Current
+- uid: System.Globalization.TextElementEnumerator.ElementIndex*
+  parent: System.Globalization.TextElementEnumerator
+  isExternal: false
+  name: ElementIndex
+  nameWithType: TextElementEnumerator.ElementIndex
+- uid: System.Globalization.TextElementEnumerator.GetTextElement*
+  parent: System.Globalization.TextElementEnumerator
+  isExternal: false
+  name: GetTextElement
+  nameWithType: TextElementEnumerator.GetTextElement
+- uid: System.Globalization.TextElementEnumerator.MoveNext*
+  parent: System.Globalization.TextElementEnumerator
+  isExternal: false
+  name: MoveNext
+  nameWithType: TextElementEnumerator.MoveNext
+- uid: System.Globalization.TextElementEnumerator.Reset*
+  parent: System.Globalization.TextElementEnumerator
+  isExternal: false
+  name: Reset
+  nameWithType: TextElementEnumerator.Reset

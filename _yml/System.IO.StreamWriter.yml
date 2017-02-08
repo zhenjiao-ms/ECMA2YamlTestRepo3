@@ -122,6 +122,7 @@ items:
     - id: stream
       type: System.IO.Stream
       description: To be added.
+  overload: System.IO.StreamWriter.#ctor*
   platform:
   - net-11
   - net-20
@@ -146,6 +147,7 @@ items:
     - id: path
       type: System.String
       description: To be added.
+  overload: System.IO.StreamWriter.#ctor*
   platform:
   - net-11
   - net-20
@@ -173,6 +175,7 @@ items:
     - id: encoding
       type: System.Text.Encoding
       description: To be added.
+  overload: System.IO.StreamWriter.#ctor*
   platform:
   - net-11
   - net-20
@@ -200,6 +203,7 @@ items:
     - id: append
       type: System.Boolean
       description: To be added.
+  overload: System.IO.StreamWriter.#ctor*
   platform:
   - net-11
   - net-20
@@ -230,6 +234,7 @@ items:
     - id: bufferSize
       type: System.Int32
       description: To be added.
+  overload: System.IO.StreamWriter.#ctor*
   platform:
   - net-11
   - net-20
@@ -260,6 +265,7 @@ items:
     - id: encoding
       type: System.Text.Encoding
       description: To be added.
+  overload: System.IO.StreamWriter.#ctor*
   platform:
   - net-11
   - net-20
@@ -293,6 +299,7 @@ items:
     - id: leaveOpen
       type: System.Boolean
       description: To be added.
+  overload: System.IO.StreamWriter.#ctor*
   platform:
   - net-11
   - net-20
@@ -326,6 +333,7 @@ items:
     - id: bufferSize
       type: System.Int32
       description: To be added.
+  overload: System.IO.StreamWriter.#ctor*
   platform:
   - net-11
   - net-20
@@ -349,6 +357,7 @@ items:
     return:
       type: System.Boolean
       description: To be added.
+  overload: System.IO.StreamWriter.AutoFlush*
   platform:
   - net-11
   - net-20
@@ -372,6 +381,7 @@ items:
     return:
       type: System.IO.Stream
       description: To be added.
+  overload: System.IO.StreamWriter.BaseStream*
   platform:
   - net-11
   - net-20
@@ -393,6 +403,7 @@ items:
   syntax:
     content: public override void Close ();
     parameters: []
+  overload: System.IO.StreamWriter.Close*
   platform:
   - net-11
   - net-20
@@ -417,6 +428,7 @@ items:
     - id: disposing
       type: System.Boolean
       description: To be added.
+  overload: System.IO.StreamWriter.Dispose*
   platform:
   - net-11
   - net-20
@@ -440,6 +452,7 @@ items:
     return:
       type: System.Text.Encoding
       description: To be added.
+  overload: System.IO.StreamWriter.Encoding*
   platform:
   - net-11
   - net-20
@@ -461,6 +474,7 @@ items:
   syntax:
     content: public override void Flush ();
     parameters: []
+  overload: System.IO.StreamWriter.Flush*
   platform:
   - net-11
   - net-20
@@ -485,6 +499,7 @@ items:
     return:
       type: System.Threading.Tasks.Task
       description: To be added.
+  overload: System.IO.StreamWriter.FlushAsync*
   platform:
   - net-11
   - net-20
@@ -1283,6 +1298,46 @@ references:
   name: Int32
   nameWithType: Int32
   fullName: System.Int32
+- uid: System.IO.StreamWriter.#ctor*
+  parent: System.IO.StreamWriter
+  isExternal: false
+  name: StreamWriter
+  nameWithType: StreamWriter.StreamWriter
+- uid: System.IO.StreamWriter.AutoFlush*
+  parent: System.IO.StreamWriter
+  isExternal: false
+  name: AutoFlush
+  nameWithType: StreamWriter.AutoFlush
+- uid: System.IO.StreamWriter.BaseStream*
+  parent: System.IO.StreamWriter
+  isExternal: false
+  name: BaseStream
+  nameWithType: StreamWriter.BaseStream
+- uid: System.IO.StreamWriter.Close*
+  parent: System.IO.StreamWriter
+  isExternal: false
+  name: Close
+  nameWithType: StreamWriter.Close
+- uid: System.IO.StreamWriter.Dispose*
+  parent: System.IO.StreamWriter
+  isExternal: false
+  name: Dispose
+  nameWithType: StreamWriter.Dispose
+- uid: System.IO.StreamWriter.Encoding*
+  parent: System.IO.StreamWriter
+  isExternal: false
+  name: Encoding
+  nameWithType: StreamWriter.Encoding
+- uid: System.IO.StreamWriter.Flush*
+  parent: System.IO.StreamWriter
+  isExternal: false
+  name: Flush
+  nameWithType: StreamWriter.Flush
+- uid: System.IO.StreamWriter.FlushAsync*
+  parent: System.IO.StreamWriter
+  isExternal: false
+  name: FlushAsync
+  nameWithType: StreamWriter.FlushAsync
 - uid: System.IO.StreamWriter.Write*
   parent: System.IO.StreamWriter
   isExternal: false

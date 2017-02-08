@@ -42,6 +42,7 @@ items:
     return:
       type: System.Runtime.CompilerServices.YieldAwaitable.YieldAwaiter
       description: To be added.
+  overload: System.Runtime.CompilerServices.YieldAwaitable.GetAwaiter*
   platform:
   - net-11
   - net-20
@@ -62,3 +63,8 @@ references:
   name: YieldAwaitable+YieldAwaiter
   nameWithType: YieldAwaitable+YieldAwaiter
   fullName: System.Runtime.CompilerServices.YieldAwaitable+YieldAwaiter
+- uid: System.Runtime.CompilerServices.YieldAwaitable.GetAwaiter*
+  parent: System.Runtime.CompilerServices.YieldAwaitable
+  isExternal: false
+  name: GetAwaiter
+  nameWithType: YieldAwaitable.GetAwaiter

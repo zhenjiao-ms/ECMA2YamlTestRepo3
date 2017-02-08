@@ -59,6 +59,7 @@ items:
     - id: name
       type: System.String
       description: To be added.
+  overload: System.Security.Policy.Site.#ctor*
   platform:
   - net-11
   - net-20
@@ -83,6 +84,7 @@ items:
     return:
       type: System.Security.Policy.EvidenceBase
       description: To be added.
+  overload: System.Security.Policy.Site.Clone*
   platform:
   - net-11
   - net-20
@@ -107,6 +109,7 @@ items:
     return:
       type: System.Object
       description: To be added.
+  overload: System.Security.Policy.Site.Copy*
   platform:
   - net-11
   - net-20
@@ -134,6 +137,7 @@ items:
     return:
       type: System.Security.Policy.Site
       description: To be added.
+  overload: System.Security.Policy.Site.CreateFromUrl*
   platform:
   - net-11
   - net-20
@@ -161,6 +165,7 @@ items:
     return:
       type: System.Security.IPermission
       description: To be added.
+  overload: System.Security.Policy.Site.CreateIdentityPermission*
   platform:
   - net-11
   - net-20
@@ -188,6 +193,7 @@ items:
     return:
       type: System.Boolean
       description: To be added.
+  overload: System.Security.Policy.Site.Equals*
   platform:
   - net-11
   - net-20
@@ -212,6 +218,7 @@ items:
     return:
       type: System.Int32
       description: To be added.
+  overload: System.Security.Policy.Site.GetHashCode*
   platform:
   - net-11
   - net-20
@@ -235,6 +242,7 @@ items:
     return:
       type: System.String
       description: To be added.
+  overload: System.Security.Policy.Site.Name*
   platform:
   - net-11
   - net-20
@@ -259,6 +267,7 @@ items:
     return:
       type: System.String
       description: To be added.
+  overload: System.Security.Policy.Site.ToString*
   platform:
   - net-11
   - net-20
@@ -393,3 +402,48 @@ references:
   name: String
   nameWithType: String
   fullName: System.String
+- uid: System.Security.Policy.Site.#ctor*
+  parent: System.Security.Policy.Site
+  isExternal: false
+  name: Site
+  nameWithType: Site.Site
+- uid: System.Security.Policy.Site.Clone*
+  parent: System.Security.Policy.Site
+  isExternal: false
+  name: Clone
+  nameWithType: Site.Clone
+- uid: System.Security.Policy.Site.Copy*
+  parent: System.Security.Policy.Site
+  isExternal: false
+  name: Copy
+  nameWithType: Site.Copy
+- uid: System.Security.Policy.Site.CreateFromUrl*
+  parent: System.Security.Policy.Site
+  isExternal: false
+  name: CreateFromUrl
+  nameWithType: Site.CreateFromUrl
+- uid: System.Security.Policy.Site.CreateIdentityPermission*
+  parent: System.Security.Policy.Site
+  isExternal: false
+  name: CreateIdentityPermission
+  nameWithType: Site.CreateIdentityPermission
+- uid: System.Security.Policy.Site.Equals*
+  parent: System.Security.Policy.Site
+  isExternal: false
+  name: Equals
+  nameWithType: Site.Equals
+- uid: System.Security.Policy.Site.GetHashCode*
+  parent: System.Security.Policy.Site
+  isExternal: false
+  name: GetHashCode
+  nameWithType: Site.GetHashCode
+- uid: System.Security.Policy.Site.Name*
+  parent: System.Security.Policy.Site
+  isExternal: false
+  name: Name
+  nameWithType: Site.Name
+- uid: System.Security.Policy.Site.ToString*
+  parent: System.Security.Policy.Site
+  isExternal: false
+  name: ToString
+  nameWithType: Site.ToString

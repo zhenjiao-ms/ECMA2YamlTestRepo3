@@ -61,6 +61,7 @@ items:
     - id: resourceLocation
       type: System.Reflection.ResourceLocation
       description: To be added.
+  overload: System.Reflection.ManifestResourceInfo.#ctor*
   platform:
   - net-11
   - net-20
@@ -84,6 +85,7 @@ items:
     return:
       type: System.String
       description: To be added.
+  overload: System.Reflection.ManifestResourceInfo.FileName*
   platform:
   - net-11
   - net-20
@@ -107,6 +109,7 @@ items:
     return:
       type: System.Reflection.Assembly
       description: To be added.
+  overload: System.Reflection.ManifestResourceInfo.ReferencedAssembly*
   platform:
   - net-11
   - net-20
@@ -130,6 +133,7 @@ items:
     return:
       type: System.Reflection.ResourceLocation
       description: To be added.
+  overload: System.Reflection.ManifestResourceInfo.ResourceLocation*
   platform:
   - net-11
   - net-20
@@ -198,3 +202,23 @@ references:
   name: ResourceLocation
   nameWithType: ResourceLocation
   fullName: System.Reflection.ResourceLocation
+- uid: System.Reflection.ManifestResourceInfo.#ctor*
+  parent: System.Reflection.ManifestResourceInfo
+  isExternal: false
+  name: ManifestResourceInfo
+  nameWithType: ManifestResourceInfo.ManifestResourceInfo
+- uid: System.Reflection.ManifestResourceInfo.FileName*
+  parent: System.Reflection.ManifestResourceInfo
+  isExternal: false
+  name: FileName
+  nameWithType: ManifestResourceInfo.FileName
+- uid: System.Reflection.ManifestResourceInfo.ReferencedAssembly*
+  parent: System.Reflection.ManifestResourceInfo
+  isExternal: false
+  name: ReferencedAssembly
+  nameWithType: ManifestResourceInfo.ReferencedAssembly
+- uid: System.Reflection.ManifestResourceInfo.ResourceLocation*
+  parent: System.Reflection.ManifestResourceInfo
+  isExternal: false
+  name: ResourceLocation
+  nameWithType: ManifestResourceInfo.ResourceLocation

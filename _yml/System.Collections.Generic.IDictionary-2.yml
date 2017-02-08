@@ -55,6 +55,7 @@ items:
     - id: value
       type: TValue
       description: To be added.
+  overload: System.Collections.Generic.IDictionary`2.Add*
   platform:
   - net-11
   - net-20
@@ -82,6 +83,7 @@ items:
     return:
       type: System.Boolean
       description: To be added.
+  overload: System.Collections.Generic.IDictionary`2.ContainsKey*
   platform:
   - net-11
   - net-20
@@ -109,6 +111,7 @@ items:
     return:
       type: TValue
       description: To be added.
+  overload: System.Collections.Generic.IDictionary`2.Item*
   platform:
   - net-11
   - net-20
@@ -132,6 +135,7 @@ items:
     return:
       type: System.Collections.Generic.ICollection{TKey}
       description: To be added.
+  overload: System.Collections.Generic.IDictionary`2.Keys*
   platform:
   - net-11
   - net-20
@@ -159,6 +163,7 @@ items:
     return:
       type: System.Boolean
       description: To be added.
+  overload: System.Collections.Generic.IDictionary`2.Remove*
   platform:
   - net-11
   - net-20
@@ -189,6 +194,7 @@ items:
     return:
       type: System.Boolean
       description: To be added.
+  overload: System.Collections.Generic.IDictionary`2.TryGetValue*
   platform:
   - net-11
   - net-20
@@ -212,6 +218,7 @@ items:
     return:
       type: System.Collections.Generic.ICollection{TValue}
       description: To be added.
+  overload: System.Collections.Generic.IDictionary`2.Values*
   platform:
   - net-11
   - net-20
@@ -337,3 +344,38 @@ references:
   name: ICollection<TValue>
   nameWithType: ICollection<TValue>
   fullName: System.Collections.Generic.ICollection<TValue>
+- uid: System.Collections.Generic.IDictionary`2.Add*
+  parent: System.Collections.Generic.IDictionary`2
+  isExternal: false
+  name: Add
+  nameWithType: IDictionary<TKey,TValue>.Add
+- uid: System.Collections.Generic.IDictionary`2.ContainsKey*
+  parent: System.Collections.Generic.IDictionary`2
+  isExternal: false
+  name: ContainsKey
+  nameWithType: IDictionary<TKey,TValue>.ContainsKey
+- uid: System.Collections.Generic.IDictionary`2.Item*
+  parent: System.Collections.Generic.IDictionary`2
+  isExternal: false
+  name: Item
+  nameWithType: IDictionary<TKey,TValue>.Item
+- uid: System.Collections.Generic.IDictionary`2.Keys*
+  parent: System.Collections.Generic.IDictionary`2
+  isExternal: false
+  name: Keys
+  nameWithType: IDictionary<TKey,TValue>.Keys
+- uid: System.Collections.Generic.IDictionary`2.Remove*
+  parent: System.Collections.Generic.IDictionary`2
+  isExternal: false
+  name: Remove
+  nameWithType: IDictionary<TKey,TValue>.Remove
+- uid: System.Collections.Generic.IDictionary`2.TryGetValue*
+  parent: System.Collections.Generic.IDictionary`2
+  isExternal: false
+  name: TryGetValue
+  nameWithType: IDictionary<TKey,TValue>.TryGetValue
+- uid: System.Collections.Generic.IDictionary`2.Values*
+  parent: System.Collections.Generic.IDictionary`2
+  isExternal: false
+  name: Values
+  nameWithType: IDictionary<TKey,TValue>.Values

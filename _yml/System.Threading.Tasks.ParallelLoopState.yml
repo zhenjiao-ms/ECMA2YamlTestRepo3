@@ -54,6 +54,7 @@ items:
   syntax:
     content: public void Break ();
     parameters: []
+  overload: System.Threading.Tasks.ParallelLoopState.Break*
   platform:
   - net-11
   - net-20
@@ -77,6 +78,7 @@ items:
     return:
       type: System.Boolean
       description: To be added.
+  overload: System.Threading.Tasks.ParallelLoopState.IsExceptional*
   platform:
   - net-11
   - net-20
@@ -100,6 +102,7 @@ items:
     return:
       type: System.Boolean
       description: To be added.
+  overload: System.Threading.Tasks.ParallelLoopState.IsStopped*
   platform:
   - net-11
   - net-20
@@ -123,6 +126,7 @@ items:
     return:
       type: System.Nullable{System.Int64}
       description: To be added.
+  overload: System.Threading.Tasks.ParallelLoopState.LowestBreakIteration*
   platform:
   - net-11
   - net-20
@@ -146,6 +150,7 @@ items:
     return:
       type: System.Boolean
       description: To be added.
+  overload: System.Threading.Tasks.ParallelLoopState.ShouldExitCurrentIteration*
   platform:
   - net-11
   - net-20
@@ -167,6 +172,7 @@ items:
   syntax:
     content: public void Stop ();
     parameters: []
+  overload: System.Threading.Tasks.ParallelLoopState.Stop*
   platform:
   - net-11
   - net-20
@@ -235,3 +241,33 @@ references:
   name: Stop()
   nameWithType: ParallelLoopState.Stop()
   fullName: System.Threading.Tasks.ParallelLoopState.Stop()
+- uid: System.Threading.Tasks.ParallelLoopState.Break*
+  parent: System.Threading.Tasks.ParallelLoopState
+  isExternal: false
+  name: Break
+  nameWithType: ParallelLoopState.Break
+- uid: System.Threading.Tasks.ParallelLoopState.IsExceptional*
+  parent: System.Threading.Tasks.ParallelLoopState
+  isExternal: false
+  name: IsExceptional
+  nameWithType: ParallelLoopState.IsExceptional
+- uid: System.Threading.Tasks.ParallelLoopState.IsStopped*
+  parent: System.Threading.Tasks.ParallelLoopState
+  isExternal: false
+  name: IsStopped
+  nameWithType: ParallelLoopState.IsStopped
+- uid: System.Threading.Tasks.ParallelLoopState.LowestBreakIteration*
+  parent: System.Threading.Tasks.ParallelLoopState
+  isExternal: false
+  name: LowestBreakIteration
+  nameWithType: ParallelLoopState.LowestBreakIteration
+- uid: System.Threading.Tasks.ParallelLoopState.ShouldExitCurrentIteration*
+  parent: System.Threading.Tasks.ParallelLoopState
+  isExternal: false
+  name: ShouldExitCurrentIteration
+  nameWithType: ParallelLoopState.ShouldExitCurrentIteration
+- uid: System.Threading.Tasks.ParallelLoopState.Stop*
+  parent: System.Threading.Tasks.ParallelLoopState
+  isExternal: false
+  name: Stop
+  nameWithType: ParallelLoopState.Stop

@@ -53,6 +53,7 @@ items:
   syntax:
     content: public DecoderReplacementFallback ();
     parameters: []
+  overload: System.Text.DecoderReplacementFallback.#ctor*
   platform:
   - net-11
   - net-20
@@ -77,6 +78,7 @@ items:
     - id: replacement
       type: System.String
       description: To be added.
+  overload: System.Text.DecoderReplacementFallback.#ctor*
   platform:
   - net-11
   - net-20
@@ -101,6 +103,7 @@ items:
     return:
       type: System.Text.DecoderFallbackBuffer
       description: To be added.
+  overload: System.Text.DecoderReplacementFallback.CreateFallbackBuffer*
   platform:
   - net-11
   - net-20
@@ -124,6 +127,7 @@ items:
     return:
       type: System.String
       description: To be added.
+  overload: System.Text.DecoderReplacementFallback.DefaultString*
   platform:
   - net-11
   - net-20
@@ -151,6 +155,7 @@ items:
     return:
       type: System.Boolean
       description: To be added.
+  overload: System.Text.DecoderReplacementFallback.Equals*
   platform:
   - net-11
   - net-20
@@ -175,6 +180,7 @@ items:
     return:
       type: System.Int32
       description: To be added.
+  overload: System.Text.DecoderReplacementFallback.GetHashCode*
   platform:
   - net-11
   - net-20
@@ -198,6 +204,7 @@ items:
     return:
       type: System.Int32
       description: To be added.
+  overload: System.Text.DecoderReplacementFallback.MaxCharCount*
   platform:
   - net-11
   - net-20
@@ -290,3 +297,33 @@ references:
   name: Int32
   nameWithType: Int32
   fullName: System.Int32
+- uid: System.Text.DecoderReplacementFallback.#ctor*
+  parent: System.Text.DecoderReplacementFallback
+  isExternal: false
+  name: DecoderReplacementFallback
+  nameWithType: DecoderReplacementFallback.DecoderReplacementFallback
+- uid: System.Text.DecoderReplacementFallback.CreateFallbackBuffer*
+  parent: System.Text.DecoderReplacementFallback
+  isExternal: false
+  name: CreateFallbackBuffer
+  nameWithType: DecoderReplacementFallback.CreateFallbackBuffer
+- uid: System.Text.DecoderReplacementFallback.DefaultString*
+  parent: System.Text.DecoderReplacementFallback
+  isExternal: false
+  name: DefaultString
+  nameWithType: DecoderReplacementFallback.DefaultString
+- uid: System.Text.DecoderReplacementFallback.Equals*
+  parent: System.Text.DecoderReplacementFallback
+  isExternal: false
+  name: Equals
+  nameWithType: DecoderReplacementFallback.Equals
+- uid: System.Text.DecoderReplacementFallback.GetHashCode*
+  parent: System.Text.DecoderReplacementFallback
+  isExternal: false
+  name: GetHashCode
+  nameWithType: DecoderReplacementFallback.GetHashCode
+- uid: System.Text.DecoderReplacementFallback.MaxCharCount*
+  parent: System.Text.DecoderReplacementFallback
+  isExternal: false
+  name: MaxCharCount
+  nameWithType: DecoderReplacementFallback.MaxCharCount

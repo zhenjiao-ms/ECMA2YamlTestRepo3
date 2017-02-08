@@ -56,6 +56,7 @@ items:
   syntax:
     content: public SoapMessage ();
     parameters: []
+  overload: System.Runtime.Serialization.Formatters.SoapMessage.#ctor*
   platform:
   - net-11
   - net-20
@@ -79,6 +80,7 @@ items:
     return:
       type: System.Runtime.Remoting.Messaging.Header[]
       description: To be added.
+  overload: System.Runtime.Serialization.Formatters.SoapMessage.Headers*
   platform:
   - net-11
   - net-20
@@ -102,6 +104,7 @@ items:
     return:
       type: System.String
       description: To be added.
+  overload: System.Runtime.Serialization.Formatters.SoapMessage.MethodName*
   platform:
   - net-11
   - net-20
@@ -125,6 +128,7 @@ items:
     return:
       type: System.String[]
       description: To be added.
+  overload: System.Runtime.Serialization.Formatters.SoapMessage.ParamNames*
   platform:
   - net-11
   - net-20
@@ -148,6 +152,7 @@ items:
     return:
       type: System.Type[]
       description: To be added.
+  overload: System.Runtime.Serialization.Formatters.SoapMessage.ParamTypes*
   platform:
   - net-11
   - net-20
@@ -171,6 +176,7 @@ items:
     return:
       type: System.Object[]
       description: To be added.
+  overload: System.Runtime.Serialization.Formatters.SoapMessage.ParamValues*
   platform:
   - net-11
   - net-20
@@ -194,6 +200,7 @@ items:
     return:
       type: System.String
       description: To be added.
+  overload: System.Runtime.Serialization.Formatters.SoapMessage.XmlNameSpace*
   platform:
   - net-11
   - net-20
@@ -280,3 +287,38 @@ references:
   name: String
   nameWithType: String
   fullName: System.String
+- uid: System.Runtime.Serialization.Formatters.SoapMessage.#ctor*
+  parent: System.Runtime.Serialization.Formatters.SoapMessage
+  isExternal: false
+  name: SoapMessage
+  nameWithType: SoapMessage.SoapMessage
+- uid: System.Runtime.Serialization.Formatters.SoapMessage.Headers*
+  parent: System.Runtime.Serialization.Formatters.SoapMessage
+  isExternal: false
+  name: Headers
+  nameWithType: SoapMessage.Headers
+- uid: System.Runtime.Serialization.Formatters.SoapMessage.MethodName*
+  parent: System.Runtime.Serialization.Formatters.SoapMessage
+  isExternal: false
+  name: MethodName
+  nameWithType: SoapMessage.MethodName
+- uid: System.Runtime.Serialization.Formatters.SoapMessage.ParamNames*
+  parent: System.Runtime.Serialization.Formatters.SoapMessage
+  isExternal: false
+  name: ParamNames
+  nameWithType: SoapMessage.ParamNames
+- uid: System.Runtime.Serialization.Formatters.SoapMessage.ParamTypes*
+  parent: System.Runtime.Serialization.Formatters.SoapMessage
+  isExternal: false
+  name: ParamTypes
+  nameWithType: SoapMessage.ParamTypes
+- uid: System.Runtime.Serialization.Formatters.SoapMessage.ParamValues*
+  parent: System.Runtime.Serialization.Formatters.SoapMessage
+  isExternal: false
+  name: ParamValues
+  nameWithType: SoapMessage.ParamValues
+- uid: System.Runtime.Serialization.Formatters.SoapMessage.XmlNameSpace*
+  parent: System.Runtime.Serialization.Formatters.SoapMessage
+  isExternal: false
+  name: XmlNameSpace
+  nameWithType: SoapMessage.XmlNameSpace

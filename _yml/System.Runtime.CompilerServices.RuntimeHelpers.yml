@@ -60,6 +60,7 @@ items:
   syntax:
     content: public static void EnsureSufficientExecutionStack ();
     parameters: []
+  overload: System.Runtime.CompilerServices.RuntimeHelpers.EnsureSufficientExecutionStack*
   platform:
   - net-11
   - net-20
@@ -90,6 +91,7 @@ items:
     return:
       type: System.Boolean
       description: To be added.
+  overload: System.Runtime.CompilerServices.RuntimeHelpers.Equals*
   platform:
   - net-11
   - net-20
@@ -120,6 +122,7 @@ items:
     - id: userData
       type: System.Object
       description: To be added.
+  overload: System.Runtime.CompilerServices.RuntimeHelpers.ExecuteCodeWithGuaranteedCleanup*
   platform:
   - net-11
   - net-20
@@ -147,6 +150,7 @@ items:
     return:
       type: System.Int32
       description: To be added.
+  overload: System.Runtime.CompilerServices.RuntimeHelpers.GetHashCode*
   platform:
   - net-11
   - net-20
@@ -174,6 +178,7 @@ items:
     return:
       type: System.Object
       description: To be added.
+  overload: System.Runtime.CompilerServices.RuntimeHelpers.GetObjectValue*
   platform:
   - net-11
   - net-20
@@ -201,6 +206,7 @@ items:
     - id: fldHandle
       type: System.RuntimeFieldHandle
       description: To be added.
+  overload: System.Runtime.CompilerServices.RuntimeHelpers.InitializeArray*
   platform:
   - net-11
   - net-20
@@ -224,6 +230,7 @@ items:
     return:
       type: System.Int32
       description: To be added.
+  overload: System.Runtime.CompilerServices.RuntimeHelpers.OffsetToStringData*
   platform:
   - net-11
   - net-20
@@ -245,6 +252,7 @@ items:
   syntax:
     content: public static void PrepareConstrainedRegions ();
     parameters: []
+  overload: System.Runtime.CompilerServices.RuntimeHelpers.PrepareConstrainedRegions*
   platform:
   - net-11
   - net-20
@@ -266,6 +274,7 @@ items:
   syntax:
     content: public static void PrepareConstrainedRegionsNoOP ();
     parameters: []
+  overload: System.Runtime.CompilerServices.RuntimeHelpers.PrepareConstrainedRegionsNoOP*
   platform:
   - net-11
   - net-20
@@ -290,6 +299,7 @@ items:
     - id: d
       type: System.Delegate
       description: To be added.
+  overload: System.Runtime.CompilerServices.RuntimeHelpers.PrepareContractedDelegate*
   platform:
   - net-11
   - net-20
@@ -314,6 +324,7 @@ items:
     - id: d
       type: System.Delegate
       description: To be added.
+  overload: System.Runtime.CompilerServices.RuntimeHelpers.PrepareDelegate*
   platform:
   - net-11
   - net-20
@@ -388,6 +399,7 @@ items:
   syntax:
     content: public static void ProbeForSufficientStack ();
     parameters: []
+  overload: System.Runtime.CompilerServices.RuntimeHelpers.ProbeForSufficientStack*
   platform:
   - net-11
   - net-20
@@ -412,6 +424,7 @@ items:
     - id: type
       type: System.RuntimeTypeHandle
       description: To be added.
+  overload: System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor*
   platform:
   - net-11
   - net-20
@@ -436,6 +449,7 @@ items:
     - id: module
       type: System.ModuleHandle
       description: To be added.
+  overload: System.Runtime.CompilerServices.RuntimeHelpers.RunModuleConstructor*
   platform:
   - net-11
   - net-20
@@ -660,8 +674,78 @@ references:
   name: ModuleHandle
   nameWithType: ModuleHandle
   fullName: System.ModuleHandle
+- uid: System.Runtime.CompilerServices.RuntimeHelpers.EnsureSufficientExecutionStack*
+  parent: System.Runtime.CompilerServices.RuntimeHelpers
+  isExternal: false
+  name: EnsureSufficientExecutionStack
+  nameWithType: RuntimeHelpers.EnsureSufficientExecutionStack
+- uid: System.Runtime.CompilerServices.RuntimeHelpers.Equals*
+  parent: System.Runtime.CompilerServices.RuntimeHelpers
+  isExternal: false
+  name: Equals
+  nameWithType: RuntimeHelpers.Equals
+- uid: System.Runtime.CompilerServices.RuntimeHelpers.ExecuteCodeWithGuaranteedCleanup*
+  parent: System.Runtime.CompilerServices.RuntimeHelpers
+  isExternal: false
+  name: ExecuteCodeWithGuaranteedCleanup
+  nameWithType: RuntimeHelpers.ExecuteCodeWithGuaranteedCleanup
+- uid: System.Runtime.CompilerServices.RuntimeHelpers.GetHashCode*
+  parent: System.Runtime.CompilerServices.RuntimeHelpers
+  isExternal: false
+  name: GetHashCode
+  nameWithType: RuntimeHelpers.GetHashCode
+- uid: System.Runtime.CompilerServices.RuntimeHelpers.GetObjectValue*
+  parent: System.Runtime.CompilerServices.RuntimeHelpers
+  isExternal: false
+  name: GetObjectValue
+  nameWithType: RuntimeHelpers.GetObjectValue
+- uid: System.Runtime.CompilerServices.RuntimeHelpers.InitializeArray*
+  parent: System.Runtime.CompilerServices.RuntimeHelpers
+  isExternal: false
+  name: InitializeArray
+  nameWithType: RuntimeHelpers.InitializeArray
+- uid: System.Runtime.CompilerServices.RuntimeHelpers.OffsetToStringData*
+  parent: System.Runtime.CompilerServices.RuntimeHelpers
+  isExternal: false
+  name: OffsetToStringData
+  nameWithType: RuntimeHelpers.OffsetToStringData
+- uid: System.Runtime.CompilerServices.RuntimeHelpers.PrepareConstrainedRegions*
+  parent: System.Runtime.CompilerServices.RuntimeHelpers
+  isExternal: false
+  name: PrepareConstrainedRegions
+  nameWithType: RuntimeHelpers.PrepareConstrainedRegions
+- uid: System.Runtime.CompilerServices.RuntimeHelpers.PrepareConstrainedRegionsNoOP*
+  parent: System.Runtime.CompilerServices.RuntimeHelpers
+  isExternal: false
+  name: PrepareConstrainedRegionsNoOP
+  nameWithType: RuntimeHelpers.PrepareConstrainedRegionsNoOP
+- uid: System.Runtime.CompilerServices.RuntimeHelpers.PrepareContractedDelegate*
+  parent: System.Runtime.CompilerServices.RuntimeHelpers
+  isExternal: false
+  name: PrepareContractedDelegate
+  nameWithType: RuntimeHelpers.PrepareContractedDelegate
+- uid: System.Runtime.CompilerServices.RuntimeHelpers.PrepareDelegate*
+  parent: System.Runtime.CompilerServices.RuntimeHelpers
+  isExternal: false
+  name: PrepareDelegate
+  nameWithType: RuntimeHelpers.PrepareDelegate
 - uid: System.Runtime.CompilerServices.RuntimeHelpers.PrepareMethod*
   parent: System.Runtime.CompilerServices.RuntimeHelpers
   isExternal: false
   name: PrepareMethod
   nameWithType: RuntimeHelpers.PrepareMethod
+- uid: System.Runtime.CompilerServices.RuntimeHelpers.ProbeForSufficientStack*
+  parent: System.Runtime.CompilerServices.RuntimeHelpers
+  isExternal: false
+  name: ProbeForSufficientStack
+  nameWithType: RuntimeHelpers.ProbeForSufficientStack
+- uid: System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor*
+  parent: System.Runtime.CompilerServices.RuntimeHelpers
+  isExternal: false
+  name: RunClassConstructor
+  nameWithType: RuntimeHelpers.RunClassConstructor
+- uid: System.Runtime.CompilerServices.RuntimeHelpers.RunModuleConstructor*
+  parent: System.Runtime.CompilerServices.RuntimeHelpers
+  isExternal: false
+  name: RunModuleConstructor
+  nameWithType: RuntimeHelpers.RunModuleConstructor

@@ -55,6 +55,7 @@ items:
   syntax:
     content: public SoapBase64Binary ();
     parameters: []
+  overload: System.Runtime.Remoting.Metadata.W3cXsd2001.SoapBase64Binary.#ctor*
   platform:
   - net-11
   - net-20
@@ -79,6 +80,7 @@ items:
     - id: value
       type: System.Byte[]
       description: To be added.
+  overload: System.Runtime.Remoting.Metadata.W3cXsd2001.SoapBase64Binary.#ctor*
   platform:
   - net-11
   - net-20
@@ -103,6 +105,7 @@ items:
     return:
       type: System.String
       description: To be added.
+  overload: System.Runtime.Remoting.Metadata.W3cXsd2001.SoapBase64Binary.GetXsdType*
   platform:
   - net-11
   - net-20
@@ -130,6 +133,7 @@ items:
     return:
       type: System.Runtime.Remoting.Metadata.W3cXsd2001.SoapBase64Binary
       description: To be added.
+  overload: System.Runtime.Remoting.Metadata.W3cXsd2001.SoapBase64Binary.Parse*
   platform:
   - net-11
   - net-20
@@ -154,6 +158,7 @@ items:
     return:
       type: System.String
       description: To be added.
+  overload: System.Runtime.Remoting.Metadata.W3cXsd2001.SoapBase64Binary.ToString*
   platform:
   - net-11
   - net-20
@@ -177,6 +182,7 @@ items:
     return:
       type: System.Byte[]
       description: To be added.
+  overload: System.Runtime.Remoting.Metadata.W3cXsd2001.SoapBase64Binary.Value*
   platform:
   - net-11
   - net-20
@@ -200,6 +206,7 @@ items:
     return:
       type: System.String
       description: To be added.
+  overload: System.Runtime.Remoting.Metadata.W3cXsd2001.SoapBase64Binary.XsdType*
   platform:
   - net-11
   - net-20
@@ -292,3 +299,33 @@ references:
   name: String
   nameWithType: String
   fullName: System.String
+- uid: System.Runtime.Remoting.Metadata.W3cXsd2001.SoapBase64Binary.#ctor*
+  parent: System.Runtime.Remoting.Metadata.W3cXsd2001.SoapBase64Binary
+  isExternal: false
+  name: SoapBase64Binary
+  nameWithType: SoapBase64Binary.SoapBase64Binary
+- uid: System.Runtime.Remoting.Metadata.W3cXsd2001.SoapBase64Binary.GetXsdType*
+  parent: System.Runtime.Remoting.Metadata.W3cXsd2001.SoapBase64Binary
+  isExternal: false
+  name: GetXsdType
+  nameWithType: SoapBase64Binary.GetXsdType
+- uid: System.Runtime.Remoting.Metadata.W3cXsd2001.SoapBase64Binary.Parse*
+  parent: System.Runtime.Remoting.Metadata.W3cXsd2001.SoapBase64Binary
+  isExternal: false
+  name: Parse
+  nameWithType: SoapBase64Binary.Parse
+- uid: System.Runtime.Remoting.Metadata.W3cXsd2001.SoapBase64Binary.ToString*
+  parent: System.Runtime.Remoting.Metadata.W3cXsd2001.SoapBase64Binary
+  isExternal: false
+  name: ToString
+  nameWithType: SoapBase64Binary.ToString
+- uid: System.Runtime.Remoting.Metadata.W3cXsd2001.SoapBase64Binary.Value*
+  parent: System.Runtime.Remoting.Metadata.W3cXsd2001.SoapBase64Binary
+  isExternal: false
+  name: Value
+  nameWithType: SoapBase64Binary.Value
+- uid: System.Runtime.Remoting.Metadata.W3cXsd2001.SoapBase64Binary.XsdType*
+  parent: System.Runtime.Remoting.Metadata.W3cXsd2001.SoapBase64Binary
+  isExternal: false
+  name: XsdType
+  nameWithType: SoapBase64Binary.XsdType

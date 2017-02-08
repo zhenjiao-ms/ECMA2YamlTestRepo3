@@ -91,6 +91,7 @@ items:
   syntax:
     content: public Mutex ();
     parameters: []
+  overload: System.Threading.Mutex.#ctor*
   platform:
   - net-11
   - net-20
@@ -115,6 +116,7 @@ items:
     - id: initiallyOwned
       type: System.Boolean
       description: To be added.
+  overload: System.Threading.Mutex.#ctor*
   platform:
   - net-11
   - net-20
@@ -142,6 +144,7 @@ items:
     - id: name
       type: System.String
       description: To be added.
+  overload: System.Threading.Mutex.#ctor*
   platform:
   - net-11
   - net-20
@@ -172,6 +175,7 @@ items:
     - id: createdNew
       type: System.Boolean
       description: To be added.
+  overload: System.Threading.Mutex.#ctor*
   platform:
   - net-11
   - net-20
@@ -205,6 +209,7 @@ items:
     - id: mutexSecurity
       type: System.Security.AccessControl.MutexSecurity
       description: To be added.
+  overload: System.Threading.Mutex.#ctor*
   platform:
   - net-11
   - net-20
@@ -229,6 +234,7 @@ items:
     return:
       type: System.Security.AccessControl.MutexSecurity
       description: To be added.
+  overload: System.Threading.Mutex.GetAccessControl*
   platform:
   - net-11
   - net-20
@@ -309,6 +315,7 @@ items:
   syntax:
     content: public void ReleaseMutex ();
     parameters: []
+  overload: System.Threading.Mutex.ReleaseMutex*
   platform:
   - net-11
   - net-20
@@ -333,6 +340,7 @@ items:
     - id: mutexSecurity
       type: System.Security.AccessControl.MutexSecurity
       description: To be added.
+  overload: System.Threading.Mutex.SetAccessControl*
   platform:
   - net-11
   - net-20
@@ -622,11 +630,31 @@ references:
   name: Mutex
   nameWithType: Mutex
   fullName: System.Threading.Mutex
+- uid: System.Threading.Mutex.#ctor*
+  parent: System.Threading.Mutex
+  isExternal: false
+  name: Mutex
+  nameWithType: Mutex.Mutex
+- uid: System.Threading.Mutex.GetAccessControl*
+  parent: System.Threading.Mutex
+  isExternal: false
+  name: GetAccessControl
+  nameWithType: Mutex.GetAccessControl
 - uid: System.Threading.Mutex.OpenExisting*
   parent: System.Threading.Mutex
   isExternal: false
   name: OpenExisting
   nameWithType: Mutex.OpenExisting
+- uid: System.Threading.Mutex.ReleaseMutex*
+  parent: System.Threading.Mutex
+  isExternal: false
+  name: ReleaseMutex
+  nameWithType: Mutex.ReleaseMutex
+- uid: System.Threading.Mutex.SetAccessControl*
+  parent: System.Threading.Mutex
+  isExternal: false
+  name: SetAccessControl
+  nameWithType: Mutex.SetAccessControl
 - uid: System.Threading.Mutex.TryOpenExisting*
   parent: System.Threading.Mutex
   isExternal: false

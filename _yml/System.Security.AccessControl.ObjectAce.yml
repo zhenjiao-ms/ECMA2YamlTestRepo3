@@ -99,6 +99,7 @@ items:
     - id: opaque
       type: System.Byte[]
       description: To be added.
+  overload: System.Security.AccessControl.ObjectAce.#ctor*
   platform:
   - net-11
   - net-20
@@ -122,6 +123,7 @@ items:
     return:
       type: System.Int32
       description: To be added.
+  overload: System.Security.AccessControl.ObjectAce.BinaryLength*
   platform:
   - net-11
   - net-20
@@ -149,6 +151,7 @@ items:
     - id: offset
       type: System.Int32
       description: To be added.
+  overload: System.Security.AccessControl.ObjectAce.GetBinaryForm*
   platform:
   - net-11
   - net-20
@@ -172,6 +175,7 @@ items:
     return:
       type: System.Guid
       description: To be added.
+  overload: System.Security.AccessControl.ObjectAce.InheritedObjectAceType*
   platform:
   - net-11
   - net-20
@@ -199,6 +203,7 @@ items:
     return:
       type: System.Int32
       description: To be added.
+  overload: System.Security.AccessControl.ObjectAce.MaxOpaqueLength*
   platform:
   - net-11
   - net-20
@@ -222,6 +227,7 @@ items:
     return:
       type: System.Security.AccessControl.ObjectAceFlags
       description: To be added.
+  overload: System.Security.AccessControl.ObjectAce.ObjectAceFlags*
   platform:
   - net-11
   - net-20
@@ -245,6 +251,7 @@ items:
     return:
       type: System.Guid
       description: To be added.
+  overload: System.Security.AccessControl.ObjectAce.ObjectAceType*
   platform:
   - net-11
   - net-20
@@ -397,3 +404,38 @@ references:
   name: Guid
   nameWithType: Guid
   fullName: System.Guid
+- uid: System.Security.AccessControl.ObjectAce.#ctor*
+  parent: System.Security.AccessControl.ObjectAce
+  isExternal: false
+  name: ObjectAce
+  nameWithType: ObjectAce.ObjectAce
+- uid: System.Security.AccessControl.ObjectAce.BinaryLength*
+  parent: System.Security.AccessControl.ObjectAce
+  isExternal: false
+  name: BinaryLength
+  nameWithType: ObjectAce.BinaryLength
+- uid: System.Security.AccessControl.ObjectAce.GetBinaryForm*
+  parent: System.Security.AccessControl.ObjectAce
+  isExternal: false
+  name: GetBinaryForm
+  nameWithType: ObjectAce.GetBinaryForm
+- uid: System.Security.AccessControl.ObjectAce.InheritedObjectAceType*
+  parent: System.Security.AccessControl.ObjectAce
+  isExternal: false
+  name: InheritedObjectAceType
+  nameWithType: ObjectAce.InheritedObjectAceType
+- uid: System.Security.AccessControl.ObjectAce.MaxOpaqueLength*
+  parent: System.Security.AccessControl.ObjectAce
+  isExternal: false
+  name: MaxOpaqueLength
+  nameWithType: ObjectAce.MaxOpaqueLength
+- uid: System.Security.AccessControl.ObjectAce.ObjectAceFlags*
+  parent: System.Security.AccessControl.ObjectAce
+  isExternal: false
+  name: ObjectAceFlags
+  nameWithType: ObjectAce.ObjectAceFlags
+- uid: System.Security.AccessControl.ObjectAce.ObjectAceType*
+  parent: System.Security.AccessControl.ObjectAce
+  isExternal: false
+  name: ObjectAceType
+  nameWithType: ObjectAce.ObjectAceType

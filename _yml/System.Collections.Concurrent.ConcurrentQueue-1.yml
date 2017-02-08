@@ -74,6 +74,7 @@ items:
   syntax:
     content: public ConcurrentQueue ();
     parameters: []
+  overload: System.Collections.Concurrent.ConcurrentQueue`1.#ctor*
   platform:
   - net-11
   - net-20
@@ -98,6 +99,7 @@ items:
     - id: collection
       type: System.Collections.Generic.IEnumerable`1
       description: To be added.
+  overload: System.Collections.Concurrent.ConcurrentQueue`1.#ctor*
   platform:
   - net-11
   - net-20
@@ -125,6 +127,7 @@ items:
     - id: index
       type: System.Int32
       description: To be added.
+  overload: System.Collections.Concurrent.ConcurrentQueue`1.CopyTo*
   platform:
   - net-11
   - net-20
@@ -148,6 +151,7 @@ items:
     return:
       type: System.Int32
       description: To be added.
+  overload: System.Collections.Concurrent.ConcurrentQueue`1.Count*
   platform:
   - net-11
   - net-20
@@ -172,6 +176,7 @@ items:
     - id: item
       type: T
       description: To be added.
+  overload: System.Collections.Concurrent.ConcurrentQueue`1.Enqueue*
   platform:
   - net-11
   - net-20
@@ -196,6 +201,7 @@ items:
     return:
       type: System.Collections.Generic.IEnumerator`1
       description: To be added.
+  overload: System.Collections.Concurrent.ConcurrentQueue`1.GetEnumerator*
   platform:
   - net-11
   - net-20
@@ -219,6 +225,7 @@ items:
     return:
       type: System.Boolean
       description: To be added.
+  overload: System.Collections.Concurrent.ConcurrentQueue`1.IsEmpty*
   platform:
   - net-11
   - net-20
@@ -247,6 +254,7 @@ items:
     return:
       type: System.Boolean
       description: To be added.
+  overload: System.Collections.Concurrent.ConcurrentQueue`1.System#Collections#Concurrent#IProducerConsumerCollection<T>#TryAdd*
   platform:
   - net-11
   - net-20
@@ -275,6 +283,7 @@ items:
     return:
       type: System.Boolean
       description: To be added.
+  overload: System.Collections.Concurrent.ConcurrentQueue`1.System#Collections#Concurrent#IProducerConsumerCollection<T>#TryTake*
   platform:
   - net-11
   - net-20
@@ -303,6 +312,7 @@ items:
     - id: index
       type: System.Int32
       description: To be added.
+  overload: System.Collections.Concurrent.ConcurrentQueue`1.System#Collections#ICollection#CopyTo*
   platform:
   - net-11
   - net-20
@@ -327,6 +337,7 @@ items:
     return:
       type: System.Boolean
       description: To be added.
+  overload: System.Collections.Concurrent.ConcurrentQueue`1.System#Collections#ICollection#IsSynchronized*
   platform:
   - net-11
   - net-20
@@ -351,6 +362,7 @@ items:
     return:
       type: System.Object
       description: To be added.
+  overload: System.Collections.Concurrent.ConcurrentQueue`1.System#Collections#ICollection#SyncRoot*
   platform:
   - net-11
   - net-20
@@ -376,6 +388,7 @@ items:
     return:
       type: System.Collections.IEnumerator
       description: To be added.
+  overload: System.Collections.Concurrent.ConcurrentQueue`1.System#Collections#IEnumerable#GetEnumerator*
   platform:
   - net-11
   - net-20
@@ -400,6 +413,7 @@ items:
     return:
       type: T[]
       description: To be added.
+  overload: System.Collections.Concurrent.ConcurrentQueue`1.ToArray*
   platform:
   - net-11
   - net-20
@@ -427,6 +441,7 @@ items:
     return:
       type: System.Boolean
       description: To be added.
+  overload: System.Collections.Concurrent.ConcurrentQueue`1.TryDequeue*
   platform:
   - net-11
   - net-20
@@ -454,6 +469,7 @@ items:
     return:
       type: System.Boolean
       description: To be added.
+  overload: System.Collections.Concurrent.ConcurrentQueue`1.TryPeek*
   platform:
   - net-11
   - net-20
@@ -684,3 +700,78 @@ references:
   name: T
   nameWithType: T
   fullName: T
+- uid: System.Collections.Concurrent.ConcurrentQueue`1.#ctor*
+  parent: System.Collections.Concurrent.ConcurrentQueue`1
+  isExternal: false
+  name: ConcurrentQueue<T>
+  nameWithType: ConcurrentQueue<T>.ConcurrentQueue<T>
+- uid: System.Collections.Concurrent.ConcurrentQueue`1.CopyTo*
+  parent: System.Collections.Concurrent.ConcurrentQueue`1
+  isExternal: false
+  name: CopyTo
+  nameWithType: ConcurrentQueue<T>.CopyTo
+- uid: System.Collections.Concurrent.ConcurrentQueue`1.Count*
+  parent: System.Collections.Concurrent.ConcurrentQueue`1
+  isExternal: false
+  name: Count
+  nameWithType: ConcurrentQueue<T>.Count
+- uid: System.Collections.Concurrent.ConcurrentQueue`1.Enqueue*
+  parent: System.Collections.Concurrent.ConcurrentQueue`1
+  isExternal: false
+  name: Enqueue
+  nameWithType: ConcurrentQueue<T>.Enqueue
+- uid: System.Collections.Concurrent.ConcurrentQueue`1.GetEnumerator*
+  parent: System.Collections.Concurrent.ConcurrentQueue`1
+  isExternal: false
+  name: GetEnumerator
+  nameWithType: ConcurrentQueue<T>.GetEnumerator
+- uid: System.Collections.Concurrent.ConcurrentQueue`1.IsEmpty*
+  parent: System.Collections.Concurrent.ConcurrentQueue`1
+  isExternal: false
+  name: IsEmpty
+  nameWithType: ConcurrentQueue<T>.IsEmpty
+- uid: System.Collections.Concurrent.ConcurrentQueue`1.System#Collections#Concurrent#IProducerConsumerCollection<T>#TryAdd*
+  parent: System.Collections.Concurrent.ConcurrentQueue`1
+  isExternal: false
+  name: System.Collections.Concurrent.IProducerConsumerCollection<T>.TryAdd
+  nameWithType: ConcurrentQueue<T>.System.Collections.Concurrent.IProducerConsumerCollection<T>.TryAdd
+- uid: System.Collections.Concurrent.ConcurrentQueue`1.System#Collections#Concurrent#IProducerConsumerCollection<T>#TryTake*
+  parent: System.Collections.Concurrent.ConcurrentQueue`1
+  isExternal: false
+  name: System.Collections.Concurrent.IProducerConsumerCollection<T>.TryTake
+  nameWithType: ConcurrentQueue<T>.System.Collections.Concurrent.IProducerConsumerCollection<T>.TryTake
+- uid: System.Collections.Concurrent.ConcurrentQueue`1.System#Collections#ICollection#CopyTo*
+  parent: System.Collections.Concurrent.ConcurrentQueue`1
+  isExternal: false
+  name: System.Collections.ICollection.CopyTo
+  nameWithType: ConcurrentQueue<T>.System.Collections.ICollection.CopyTo
+- uid: System.Collections.Concurrent.ConcurrentQueue`1.System#Collections#ICollection#IsSynchronized*
+  parent: System.Collections.Concurrent.ConcurrentQueue`1
+  isExternal: false
+  name: System.Collections.ICollection.IsSynchronized
+  nameWithType: ConcurrentQueue<T>.System.Collections.ICollection.IsSynchronized
+- uid: System.Collections.Concurrent.ConcurrentQueue`1.System#Collections#ICollection#SyncRoot*
+  parent: System.Collections.Concurrent.ConcurrentQueue`1
+  isExternal: false
+  name: System.Collections.ICollection.SyncRoot
+  nameWithType: ConcurrentQueue<T>.System.Collections.ICollection.SyncRoot
+- uid: System.Collections.Concurrent.ConcurrentQueue`1.System#Collections#IEnumerable#GetEnumerator*
+  parent: System.Collections.Concurrent.ConcurrentQueue`1
+  isExternal: false
+  name: System.Collections.IEnumerable.GetEnumerator
+  nameWithType: ConcurrentQueue<T>.System.Collections.IEnumerable.GetEnumerator
+- uid: System.Collections.Concurrent.ConcurrentQueue`1.ToArray*
+  parent: System.Collections.Concurrent.ConcurrentQueue`1
+  isExternal: false
+  name: ToArray
+  nameWithType: ConcurrentQueue<T>.ToArray
+- uid: System.Collections.Concurrent.ConcurrentQueue`1.TryDequeue*
+  parent: System.Collections.Concurrent.ConcurrentQueue`1
+  isExternal: false
+  name: TryDequeue
+  nameWithType: ConcurrentQueue<T>.TryDequeue
+- uid: System.Collections.Concurrent.ConcurrentQueue`1.TryPeek*
+  parent: System.Collections.Concurrent.ConcurrentQueue`1
+  isExternal: false
+  name: TryPeek
+  nameWithType: ConcurrentQueue<T>.TryPeek

@@ -70,6 +70,7 @@ items:
     - id: b
       type: System.Byte[]
       description: To be added.
+  overload: System.Guid.#ctor*
   platform:
   - net-11
   - net-20
@@ -94,6 +95,7 @@ items:
     - id: g
       type: System.String
       description: To be added.
+  overload: System.Guid.#ctor*
   platform:
   - net-11
   - net-20
@@ -127,6 +129,7 @@ items:
     - id: d
       type: System.Byte[]
       description: To be added.
+  overload: System.Guid.#ctor*
   platform:
   - net-11
   - net-20
@@ -181,6 +184,7 @@ items:
     - id: k
       type: System.Byte
       description: To be added.
+  overload: System.Guid.#ctor*
   platform:
   - net-11
   - net-20
@@ -235,6 +239,7 @@ items:
     - id: k
       type: System.Byte
       description: To be added.
+  overload: System.Guid.#ctor*
   platform:
   - net-11
   - net-20
@@ -394,6 +399,7 @@ items:
     return:
       type: System.Int32
       description: To be added.
+  overload: System.Guid.GetHashCode*
   platform:
   - net-11
   - net-20
@@ -418,6 +424,7 @@ items:
     return:
       type: System.Guid
       description: To be added.
+  overload: System.Guid.NewGuid*
   platform:
   - net-11
   - net-20
@@ -448,6 +455,7 @@ items:
     return:
       type: System.Boolean
       description: To be added.
+  overload: System.Guid.op_Equality*
   platform:
   - net-11
   - net-20
@@ -478,6 +486,7 @@ items:
     return:
       type: System.Boolean
       description: To be added.
+  overload: System.Guid.op_Inequality*
   platform:
   - net-11
   - net-20
@@ -505,6 +514,7 @@ items:
     return:
       type: System.Guid
       description: To be added.
+  overload: System.Guid.Parse*
   platform:
   - net-11
   - net-20
@@ -535,6 +545,7 @@ items:
     return:
       type: System.Guid
       description: To be added.
+  overload: System.Guid.ParseExact*
   platform:
   - net-11
   - net-20
@@ -559,6 +570,7 @@ items:
     return:
       type: System.Byte[]
       description: To be added.
+  overload: System.Guid.ToByteArray*
   platform:
   - net-11
   - net-20
@@ -673,6 +685,7 @@ items:
     return:
       type: System.Boolean
       description: To be added.
+  overload: System.Guid.TryParse*
   platform:
   - net-11
   - net-20
@@ -706,6 +719,7 @@ items:
     return:
       type: System.Boolean
       description: To be added.
+  overload: System.Guid.TryParseExact*
   platform:
   - net-11
   - net-20
@@ -1230,6 +1244,11 @@ references:
   name: Guid
   nameWithType: Guid
   fullName: System.Guid
+- uid: System.Guid.#ctor*
+  parent: System.Guid
+  isExternal: false
+  name: Guid
+  nameWithType: Guid.Guid
 - uid: System.Guid.CompareTo*
   parent: System.Guid
   isExternal: false
@@ -1240,8 +1259,53 @@ references:
   isExternal: false
   name: Equals
   nameWithType: Guid.Equals
+- uid: System.Guid.GetHashCode*
+  parent: System.Guid
+  isExternal: false
+  name: GetHashCode
+  nameWithType: Guid.GetHashCode
+- uid: System.Guid.NewGuid*
+  parent: System.Guid
+  isExternal: false
+  name: NewGuid
+  nameWithType: Guid.NewGuid
+- uid: System.Guid.op_Equality*
+  parent: System.Guid
+  isExternal: false
+  name: op_Equality
+  nameWithType: Guid.op_Equality
+- uid: System.Guid.op_Inequality*
+  parent: System.Guid
+  isExternal: false
+  name: op_Inequality
+  nameWithType: Guid.op_Inequality
+- uid: System.Guid.Parse*
+  parent: System.Guid
+  isExternal: false
+  name: Parse
+  nameWithType: Guid.Parse
+- uid: System.Guid.ParseExact*
+  parent: System.Guid
+  isExternal: false
+  name: ParseExact
+  nameWithType: Guid.ParseExact
+- uid: System.Guid.ToByteArray*
+  parent: System.Guid
+  isExternal: false
+  name: ToByteArray
+  nameWithType: Guid.ToByteArray
 - uid: System.Guid.ToString*
   parent: System.Guid
   isExternal: false
   name: ToString
   nameWithType: Guid.ToString
+- uid: System.Guid.TryParse*
+  parent: System.Guid
+  isExternal: false
+  name: TryParse
+  nameWithType: Guid.TryParse
+- uid: System.Guid.TryParseExact*
+  parent: System.Guid
+  isExternal: false
+  name: TryParseExact
+  nameWithType: Guid.TryParseExact

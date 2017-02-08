@@ -100,6 +100,7 @@ items:
   syntax:
     content: public SoapFieldAttribute ();
     parameters: []
+  overload: System.Runtime.Remoting.Metadata.SoapFieldAttribute.#ctor*
   platform:
   - net-11
   - net-20
@@ -124,6 +125,7 @@ items:
     return:
       type: System.Boolean
       description: To be added.
+  overload: System.Runtime.Remoting.Metadata.SoapFieldAttribute.IsInteropXmlElement*
   platform:
   - net-11
   - net-20
@@ -147,6 +149,7 @@ items:
     return:
       type: System.Int32
       description: To be added.
+  overload: System.Runtime.Remoting.Metadata.SoapFieldAttribute.Order*
   platform:
   - net-11
   - net-20
@@ -170,6 +173,7 @@ items:
     return:
       type: System.String
       description: To be added.
+  overload: System.Runtime.Remoting.Metadata.SoapFieldAttribute.XmlElementName*
   platform:
   - net-11
   - net-20
@@ -220,3 +224,23 @@ references:
   name: String
   nameWithType: String
   fullName: System.String
+- uid: System.Runtime.Remoting.Metadata.SoapFieldAttribute.#ctor*
+  parent: System.Runtime.Remoting.Metadata.SoapFieldAttribute
+  isExternal: false
+  name: SoapFieldAttribute
+  nameWithType: SoapFieldAttribute.SoapFieldAttribute
+- uid: System.Runtime.Remoting.Metadata.SoapFieldAttribute.IsInteropXmlElement*
+  parent: System.Runtime.Remoting.Metadata.SoapFieldAttribute
+  isExternal: false
+  name: IsInteropXmlElement
+  nameWithType: SoapFieldAttribute.IsInteropXmlElement
+- uid: System.Runtime.Remoting.Metadata.SoapFieldAttribute.Order*
+  parent: System.Runtime.Remoting.Metadata.SoapFieldAttribute
+  isExternal: false
+  name: Order
+  nameWithType: SoapFieldAttribute.Order
+- uid: System.Runtime.Remoting.Metadata.SoapFieldAttribute.XmlElementName*
+  parent: System.Runtime.Remoting.Metadata.SoapFieldAttribute
+  isExternal: false
+  name: XmlElementName
+  nameWithType: SoapFieldAttribute.XmlElementName

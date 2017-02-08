@@ -80,6 +80,7 @@ items:
   syntax:
     content: protected BinaryWriter ();
     parameters: []
+  overload: System.IO.BinaryWriter.#ctor*
   platform:
   - net-11
   - net-20
@@ -104,6 +105,7 @@ items:
     - id: output
       type: System.IO.Stream
       description: To be added.
+  overload: System.IO.BinaryWriter.#ctor*
   platform:
   - net-11
   - net-20
@@ -131,6 +133,7 @@ items:
     - id: encoding
       type: System.Text.Encoding
       description: To be added.
+  overload: System.IO.BinaryWriter.#ctor*
   platform:
   - net-11
   - net-20
@@ -161,6 +164,7 @@ items:
     - id: leaveOpen
       type: System.Boolean
       description: To be added.
+  overload: System.IO.BinaryWriter.#ctor*
   platform:
   - net-11
   - net-20
@@ -184,6 +188,7 @@ items:
     return:
       type: System.IO.Stream
       description: To be added.
+  overload: System.IO.BinaryWriter.BaseStream*
   platform:
   - net-11
   - net-20
@@ -205,6 +210,7 @@ items:
   syntax:
     content: public virtual void Close ();
     parameters: []
+  overload: System.IO.BinaryWriter.Close*
   platform:
   - net-11
   - net-20
@@ -273,6 +279,7 @@ items:
   syntax:
     content: public virtual void Flush ();
     parameters: []
+  overload: System.IO.BinaryWriter.Flush*
   platform:
   - net-11
   - net-20
@@ -349,6 +356,7 @@ items:
     return:
       type: System.Int64
       description: To be added.
+  overload: System.IO.BinaryWriter.Seek*
   platform:
   - net-11
   - net-20
@@ -835,6 +843,7 @@ items:
     - id: value
       type: System.Int32
       description: To be added.
+  overload: System.IO.BinaryWriter.Write7BitEncodedInt*
   platform:
   - net-11
   - net-20
@@ -1245,13 +1254,43 @@ references:
   name: Int32
   nameWithType: Int32
   fullName: System.Int32
+- uid: System.IO.BinaryWriter.#ctor*
+  parent: System.IO.BinaryWriter
+  isExternal: false
+  name: BinaryWriter
+  nameWithType: BinaryWriter.BinaryWriter
+- uid: System.IO.BinaryWriter.BaseStream*
+  parent: System.IO.BinaryWriter
+  isExternal: false
+  name: BaseStream
+  nameWithType: BinaryWriter.BaseStream
+- uid: System.IO.BinaryWriter.Close*
+  parent: System.IO.BinaryWriter
+  isExternal: false
+  name: Close
+  nameWithType: BinaryWriter.Close
 - uid: System.IO.BinaryWriter.Dispose*
   parent: System.IO.BinaryWriter
   isExternal: false
   name: Dispose
   nameWithType: BinaryWriter.Dispose
+- uid: System.IO.BinaryWriter.Flush*
+  parent: System.IO.BinaryWriter
+  isExternal: false
+  name: Flush
+  nameWithType: BinaryWriter.Flush
+- uid: System.IO.BinaryWriter.Seek*
+  parent: System.IO.BinaryWriter
+  isExternal: false
+  name: Seek
+  nameWithType: BinaryWriter.Seek
 - uid: System.IO.BinaryWriter.Write*
   parent: System.IO.BinaryWriter
   isExternal: false
   name: Write
   nameWithType: BinaryWriter.Write
+- uid: System.IO.BinaryWriter.Write7BitEncodedInt*
+  parent: System.IO.BinaryWriter
+  isExternal: false
+  name: Write7BitEncodedInt
+  nameWithType: BinaryWriter.Write7BitEncodedInt

@@ -117,6 +117,7 @@ items:
     return:
       type: System.Type
       description: To be added.
+  overload: System.Security.AccessControl.FileSystemSecurity.AccessRightType*
   platform:
   - net-11
   - net-20
@@ -159,6 +160,7 @@ items:
     return:
       type: System.Security.AccessControl.AccessRule
       description: To be added.
+  overload: System.Security.AccessControl.FileSystemSecurity.AccessRuleFactory*
   platform:
   - net-11
   - net-20
@@ -182,6 +184,7 @@ items:
     return:
       type: System.Type
       description: To be added.
+  overload: System.Security.AccessControl.FileSystemSecurity.AccessRuleType*
   platform:
   - net-11
   - net-20
@@ -206,6 +209,7 @@ items:
     - id: rule
       type: System.Security.AccessControl.FileSystemAccessRule
       description: To be added.
+  overload: System.Security.AccessControl.FileSystemSecurity.AddAccessRule*
   platform:
   - net-11
   - net-20
@@ -230,6 +234,7 @@ items:
     - id: rule
       type: System.Security.AccessControl.FileSystemAuditRule
       description: To be added.
+  overload: System.Security.AccessControl.FileSystemSecurity.AddAuditRule*
   platform:
   - net-11
   - net-20
@@ -272,6 +277,7 @@ items:
     return:
       type: System.Security.AccessControl.AuditRule
       description: To be added.
+  overload: System.Security.AccessControl.FileSystemSecurity.AuditRuleFactory*
   platform:
   - net-11
   - net-20
@@ -295,6 +301,7 @@ items:
     return:
       type: System.Type
       description: To be added.
+  overload: System.Security.AccessControl.FileSystemSecurity.AuditRuleType*
   platform:
   - net-11
   - net-20
@@ -322,6 +329,7 @@ items:
     return:
       type: System.Boolean
       description: To be added.
+  overload: System.Security.AccessControl.FileSystemSecurity.RemoveAccessRule*
   platform:
   - net-11
   - net-20
@@ -346,6 +354,7 @@ items:
     - id: rule
       type: System.Security.AccessControl.FileSystemAccessRule
       description: To be added.
+  overload: System.Security.AccessControl.FileSystemSecurity.RemoveAccessRuleAll*
   platform:
   - net-11
   - net-20
@@ -370,6 +379,7 @@ items:
     - id: rule
       type: System.Security.AccessControl.FileSystemAccessRule
       description: To be added.
+  overload: System.Security.AccessControl.FileSystemSecurity.RemoveAccessRuleSpecific*
   platform:
   - net-11
   - net-20
@@ -397,6 +407,7 @@ items:
     return:
       type: System.Boolean
       description: To be added.
+  overload: System.Security.AccessControl.FileSystemSecurity.RemoveAuditRule*
   platform:
   - net-11
   - net-20
@@ -421,6 +432,7 @@ items:
     - id: rule
       type: System.Security.AccessControl.FileSystemAuditRule
       description: To be added.
+  overload: System.Security.AccessControl.FileSystemSecurity.RemoveAuditRuleAll*
   platform:
   - net-11
   - net-20
@@ -445,6 +457,7 @@ items:
     - id: rule
       type: System.Security.AccessControl.FileSystemAuditRule
       description: To be added.
+  overload: System.Security.AccessControl.FileSystemSecurity.RemoveAuditRuleSpecific*
   platform:
   - net-11
   - net-20
@@ -469,6 +482,7 @@ items:
     - id: rule
       type: System.Security.AccessControl.FileSystemAccessRule
       description: To be added.
+  overload: System.Security.AccessControl.FileSystemSecurity.ResetAccessRule*
   platform:
   - net-11
   - net-20
@@ -493,6 +507,7 @@ items:
     - id: rule
       type: System.Security.AccessControl.FileSystemAccessRule
       description: To be added.
+  overload: System.Security.AccessControl.FileSystemSecurity.SetAccessRule*
   platform:
   - net-11
   - net-20
@@ -517,6 +532,7 @@ items:
     - id: rule
       type: System.Security.AccessControl.FileSystemAuditRule
       description: To be added.
+  overload: System.Security.AccessControl.FileSystemSecurity.SetAuditRule*
   platform:
   - net-11
   - net-20
@@ -801,3 +817,83 @@ references:
   name: FileSystemAuditRule
   nameWithType: FileSystemAuditRule
   fullName: System.Security.AccessControl.FileSystemAuditRule
+- uid: System.Security.AccessControl.FileSystemSecurity.AccessRightType*
+  parent: System.Security.AccessControl.FileSystemSecurity
+  isExternal: false
+  name: AccessRightType
+  nameWithType: FileSystemSecurity.AccessRightType
+- uid: System.Security.AccessControl.FileSystemSecurity.AccessRuleFactory*
+  parent: System.Security.AccessControl.FileSystemSecurity
+  isExternal: false
+  name: AccessRuleFactory
+  nameWithType: FileSystemSecurity.AccessRuleFactory
+- uid: System.Security.AccessControl.FileSystemSecurity.AccessRuleType*
+  parent: System.Security.AccessControl.FileSystemSecurity
+  isExternal: false
+  name: AccessRuleType
+  nameWithType: FileSystemSecurity.AccessRuleType
+- uid: System.Security.AccessControl.FileSystemSecurity.AddAccessRule*
+  parent: System.Security.AccessControl.FileSystemSecurity
+  isExternal: false
+  name: AddAccessRule
+  nameWithType: FileSystemSecurity.AddAccessRule
+- uid: System.Security.AccessControl.FileSystemSecurity.AddAuditRule*
+  parent: System.Security.AccessControl.FileSystemSecurity
+  isExternal: false
+  name: AddAuditRule
+  nameWithType: FileSystemSecurity.AddAuditRule
+- uid: System.Security.AccessControl.FileSystemSecurity.AuditRuleFactory*
+  parent: System.Security.AccessControl.FileSystemSecurity
+  isExternal: false
+  name: AuditRuleFactory
+  nameWithType: FileSystemSecurity.AuditRuleFactory
+- uid: System.Security.AccessControl.FileSystemSecurity.AuditRuleType*
+  parent: System.Security.AccessControl.FileSystemSecurity
+  isExternal: false
+  name: AuditRuleType
+  nameWithType: FileSystemSecurity.AuditRuleType
+- uid: System.Security.AccessControl.FileSystemSecurity.RemoveAccessRule*
+  parent: System.Security.AccessControl.FileSystemSecurity
+  isExternal: false
+  name: RemoveAccessRule
+  nameWithType: FileSystemSecurity.RemoveAccessRule
+- uid: System.Security.AccessControl.FileSystemSecurity.RemoveAccessRuleAll*
+  parent: System.Security.AccessControl.FileSystemSecurity
+  isExternal: false
+  name: RemoveAccessRuleAll
+  nameWithType: FileSystemSecurity.RemoveAccessRuleAll
+- uid: System.Security.AccessControl.FileSystemSecurity.RemoveAccessRuleSpecific*
+  parent: System.Security.AccessControl.FileSystemSecurity
+  isExternal: false
+  name: RemoveAccessRuleSpecific
+  nameWithType: FileSystemSecurity.RemoveAccessRuleSpecific
+- uid: System.Security.AccessControl.FileSystemSecurity.RemoveAuditRule*
+  parent: System.Security.AccessControl.FileSystemSecurity
+  isExternal: false
+  name: RemoveAuditRule
+  nameWithType: FileSystemSecurity.RemoveAuditRule
+- uid: System.Security.AccessControl.FileSystemSecurity.RemoveAuditRuleAll*
+  parent: System.Security.AccessControl.FileSystemSecurity
+  isExternal: false
+  name: RemoveAuditRuleAll
+  nameWithType: FileSystemSecurity.RemoveAuditRuleAll
+- uid: System.Security.AccessControl.FileSystemSecurity.RemoveAuditRuleSpecific*
+  parent: System.Security.AccessControl.FileSystemSecurity
+  isExternal: false
+  name: RemoveAuditRuleSpecific
+  nameWithType: FileSystemSecurity.RemoveAuditRuleSpecific
+- uid: System.Security.AccessControl.FileSystemSecurity.ResetAccessRule*
+  parent: System.Security.AccessControl.FileSystemSecurity
+  isExternal: false
+  name: ResetAccessRule
+  nameWithType: FileSystemSecurity.ResetAccessRule
+- uid: System.Security.AccessControl.FileSystemSecurity.SetAccessRule*
+  parent: System.Security.AccessControl.FileSystemSecurity
+  isExternal: false
+  name: SetAccessRule
+  nameWithType: FileSystemSecurity.SetAccessRule
+- uid: System.Security.AccessControl.FileSystemSecurity.SetAuditRule*
+  parent: System.Security.AccessControl.FileSystemSecurity
+  isExternal: false
+  name: SetAuditRule
+  nameWithType: FileSystemSecurity.SetAuditRule

@@ -58,6 +58,7 @@ items:
     return:
       type: System.IntPtr
       description: To be added.
+  overload: System.Runtime.InteropServices.GCHandle.AddrOfPinnedObject*
   platform:
   - net-11
   - net-20
@@ -144,6 +145,7 @@ items:
     return:
       type: System.Boolean
       description: To be added.
+  overload: System.Runtime.InteropServices.GCHandle.Equals*
   platform:
   - net-11
   - net-20
@@ -165,6 +167,7 @@ items:
   syntax:
     content: public void Free ();
     parameters: []
+  overload: System.Runtime.InteropServices.GCHandle.Free*
   platform:
   - net-11
   - net-20
@@ -192,6 +195,7 @@ items:
     return:
       type: System.Runtime.InteropServices.GCHandle
       description: To be added.
+  overload: System.Runtime.InteropServices.GCHandle.FromIntPtr*
   platform:
   - net-11
   - net-20
@@ -216,6 +220,7 @@ items:
     return:
       type: System.Int32
       description: To be added.
+  overload: System.Runtime.InteropServices.GCHandle.GetHashCode*
   platform:
   - net-11
   - net-20
@@ -239,6 +244,7 @@ items:
     return:
       type: System.Boolean
       description: To be added.
+  overload: System.Runtime.InteropServices.GCHandle.IsAllocated*
   platform:
   - net-11
   - net-20
@@ -269,6 +275,7 @@ items:
     return:
       type: System.Boolean
       description: To be added.
+  overload: System.Runtime.InteropServices.GCHandle.op_Equality*
   platform:
   - net-11
   - net-20
@@ -296,6 +303,7 @@ items:
     return:
       type: System.Runtime.InteropServices.GCHandle
       description: To be added.
+  overload: System.Runtime.InteropServices.GCHandle.op_Explicit*
   platform:
   - net-11
   - net-20
@@ -323,6 +331,7 @@ items:
     return:
       type: System.IntPtr
       description: To be added.
+  overload: System.Runtime.InteropServices.GCHandle.op_Explicit*
   platform:
   - net-11
   - net-20
@@ -353,6 +362,7 @@ items:
     return:
       type: System.Boolean
       description: To be added.
+  overload: System.Runtime.InteropServices.GCHandle.op_Inequality*
   platform:
   - net-11
   - net-20
@@ -376,6 +386,7 @@ items:
     return:
       type: System.Object
       description: To be added.
+  overload: System.Runtime.InteropServices.GCHandle.Target*
   platform:
   - net-11
   - net-20
@@ -403,6 +414,7 @@ items:
     return:
       type: System.IntPtr
       description: To be added.
+  overload: System.Runtime.InteropServices.GCHandle.ToIntPtr*
   platform:
   - net-11
   - net-20
@@ -645,8 +657,63 @@ references:
   name: GCHandle
   nameWithType: GCHandle
   fullName: System.Runtime.InteropServices.GCHandle
+- uid: System.Runtime.InteropServices.GCHandle.AddrOfPinnedObject*
+  parent: System.Runtime.InteropServices.GCHandle
+  isExternal: false
+  name: AddrOfPinnedObject
+  nameWithType: GCHandle.AddrOfPinnedObject
 - uid: System.Runtime.InteropServices.GCHandle.Alloc*
   parent: System.Runtime.InteropServices.GCHandle
   isExternal: false
   name: Alloc
   nameWithType: GCHandle.Alloc
+- uid: System.Runtime.InteropServices.GCHandle.Equals*
+  parent: System.Runtime.InteropServices.GCHandle
+  isExternal: false
+  name: Equals
+  nameWithType: GCHandle.Equals
+- uid: System.Runtime.InteropServices.GCHandle.Free*
+  parent: System.Runtime.InteropServices.GCHandle
+  isExternal: false
+  name: Free
+  nameWithType: GCHandle.Free
+- uid: System.Runtime.InteropServices.GCHandle.FromIntPtr*
+  parent: System.Runtime.InteropServices.GCHandle
+  isExternal: false
+  name: FromIntPtr
+  nameWithType: GCHandle.FromIntPtr
+- uid: System.Runtime.InteropServices.GCHandle.GetHashCode*
+  parent: System.Runtime.InteropServices.GCHandle
+  isExternal: false
+  name: GetHashCode
+  nameWithType: GCHandle.GetHashCode
+- uid: System.Runtime.InteropServices.GCHandle.IsAllocated*
+  parent: System.Runtime.InteropServices.GCHandle
+  isExternal: false
+  name: IsAllocated
+  nameWithType: GCHandle.IsAllocated
+- uid: System.Runtime.InteropServices.GCHandle.op_Equality*
+  parent: System.Runtime.InteropServices.GCHandle
+  isExternal: false
+  name: op_Equality
+  nameWithType: GCHandle.op_Equality
+- uid: System.Runtime.InteropServices.GCHandle.op_Explicit*
+  parent: System.Runtime.InteropServices.GCHandle
+  isExternal: false
+  name: op_Explicit
+  nameWithType: GCHandle.op_Explicit
+- uid: System.Runtime.InteropServices.GCHandle.op_Inequality*
+  parent: System.Runtime.InteropServices.GCHandle
+  isExternal: false
+  name: op_Inequality
+  nameWithType: GCHandle.op_Inequality
+- uid: System.Runtime.InteropServices.GCHandle.Target*
+  parent: System.Runtime.InteropServices.GCHandle
+  isExternal: false
+  name: Target
+  nameWithType: GCHandle.Target
+- uid: System.Runtime.InteropServices.GCHandle.ToIntPtr*
+  parent: System.Runtime.InteropServices.GCHandle
+  isExternal: false
+  name: ToIntPtr
+  nameWithType: GCHandle.ToIntPtr

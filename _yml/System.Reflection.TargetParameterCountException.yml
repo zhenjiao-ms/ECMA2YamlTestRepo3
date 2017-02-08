@@ -64,6 +64,7 @@ items:
   syntax:
     content: public TargetParameterCountException ();
     parameters: []
+  overload: System.Reflection.TargetParameterCountException.#ctor*
   platform:
   - net-11
   - net-20
@@ -88,6 +89,7 @@ items:
     - id: message
       type: System.String
       description: To be added.
+  overload: System.Reflection.TargetParameterCountException.#ctor*
   platform:
   - net-11
   - net-20
@@ -115,6 +117,7 @@ items:
     - id: inner
       type: System.Exception
       description: To be added.
+  overload: System.Reflection.TargetParameterCountException.#ctor*
   platform:
   - net-11
   - net-20
@@ -159,3 +162,8 @@ references:
   name: Exception
   nameWithType: Exception
   fullName: System.Exception
+- uid: System.Reflection.TargetParameterCountException.#ctor*
+  parent: System.Reflection.TargetParameterCountException
+  isExternal: false
+  name: TargetParameterCountException
+  nameWithType: TargetParameterCountException.TargetParameterCountException

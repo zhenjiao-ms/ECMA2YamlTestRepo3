@@ -86,6 +86,7 @@ items:
     - id: method
       type: System.String
       description: To be added.
+  overload: System.Delegate.#ctor*
   platform:
   - net-11
   - net-20
@@ -113,6 +114,7 @@ items:
     - id: method
       type: System.String
       description: To be added.
+  overload: System.Delegate.#ctor*
   platform:
   - net-11
   - net-20
@@ -137,6 +139,7 @@ items:
     return:
       type: System.Object
       description: To be added.
+  overload: System.Delegate.Clone*
   platform:
   - net-11
   - net-20
@@ -223,6 +226,7 @@ items:
     return:
       type: System.Delegate
       description: To be added.
+  overload: System.Delegate.CombineImpl*
   platform:
   - net-11
   - net-20
@@ -608,6 +612,7 @@ items:
     return:
       type: System.Object
       description: To be added.
+  overload: System.Delegate.DynamicInvoke*
   platform:
   - net-11
   - net-20
@@ -635,6 +640,7 @@ items:
     return:
       type: System.Object
       description: To be added.
+  overload: System.Delegate.DynamicInvokeImpl*
   platform:
   - net-11
   - net-20
@@ -662,6 +668,7 @@ items:
     return:
       type: System.Boolean
       description: To be added.
+  overload: System.Delegate.Equals*
   platform:
   - net-11
   - net-20
@@ -686,6 +693,7 @@ items:
     return:
       type: System.Int32
       description: To be added.
+  overload: System.Delegate.GetHashCode*
   platform:
   - net-11
   - net-20
@@ -710,6 +718,7 @@ items:
     return:
       type: System.Delegate[]
       description: To be added.
+  overload: System.Delegate.GetInvocationList*
   platform:
   - net-11
   - net-20
@@ -734,6 +743,7 @@ items:
     return:
       type: System.Reflection.MethodInfo
       description: To be added.
+  overload: System.Delegate.GetMethodImpl*
   platform:
   - net-11
   - net-20
@@ -761,6 +771,7 @@ items:
     - id: context
       type: System.Runtime.Serialization.StreamingContext
       description: To be added.
+  overload: System.Delegate.GetObjectData*
   platform:
   - net-11
   - net-20
@@ -784,6 +795,7 @@ items:
     return:
       type: System.Reflection.MethodInfo
       description: To be added.
+  overload: System.Delegate.Method*
   platform:
   - net-11
   - net-20
@@ -814,6 +826,7 @@ items:
     return:
       type: System.Boolean
       description: To be added.
+  overload: System.Delegate.op_Equality*
   platform:
   - net-11
   - net-20
@@ -844,6 +857,7 @@ items:
     return:
       type: System.Boolean
       description: To be added.
+  overload: System.Delegate.op_Inequality*
   platform:
   - net-11
   - net-20
@@ -874,6 +888,7 @@ items:
     return:
       type: System.Delegate
       description: To be added.
+  overload: System.Delegate.Remove*
   platform:
   - net-11
   - net-20
@@ -904,6 +919,7 @@ items:
     return:
       type: System.Delegate
       description: To be added.
+  overload: System.Delegate.RemoveAll*
   platform:
   - net-11
   - net-20
@@ -931,6 +947,7 @@ items:
     return:
       type: System.Delegate
       description: To be added.
+  overload: System.Delegate.RemoveImpl*
   platform:
   - net-11
   - net-20
@@ -954,6 +971,7 @@ items:
     return:
       type: System.Object
       description: To be added.
+  overload: System.Delegate.Target*
   platform:
   - net-11
   - net-20
@@ -1652,13 +1670,98 @@ references:
   name: Object
   nameWithType: Object
   fullName: System.Object
+- uid: System.Delegate.#ctor*
+  parent: System.Delegate
+  isExternal: false
+  name: Delegate
+  nameWithType: Delegate.Delegate
+- uid: System.Delegate.Clone*
+  parent: System.Delegate
+  isExternal: false
+  name: Clone
+  nameWithType: Delegate.Clone
 - uid: System.Delegate.Combine*
   parent: System.Delegate
   isExternal: false
   name: Combine
   nameWithType: Delegate.Combine
+- uid: System.Delegate.CombineImpl*
+  parent: System.Delegate
+  isExternal: false
+  name: CombineImpl
+  nameWithType: Delegate.CombineImpl
 - uid: System.Delegate.CreateDelegate*
   parent: System.Delegate
   isExternal: false
   name: CreateDelegate
   nameWithType: Delegate.CreateDelegate
+- uid: System.Delegate.DynamicInvoke*
+  parent: System.Delegate
+  isExternal: false
+  name: DynamicInvoke
+  nameWithType: Delegate.DynamicInvoke
+- uid: System.Delegate.DynamicInvokeImpl*
+  parent: System.Delegate
+  isExternal: false
+  name: DynamicInvokeImpl
+  nameWithType: Delegate.DynamicInvokeImpl
+- uid: System.Delegate.Equals*
+  parent: System.Delegate
+  isExternal: false
+  name: Equals
+  nameWithType: Delegate.Equals
+- uid: System.Delegate.GetHashCode*
+  parent: System.Delegate
+  isExternal: false
+  name: GetHashCode
+  nameWithType: Delegate.GetHashCode
+- uid: System.Delegate.GetInvocationList*
+  parent: System.Delegate
+  isExternal: false
+  name: GetInvocationList
+  nameWithType: Delegate.GetInvocationList
+- uid: System.Delegate.GetMethodImpl*
+  parent: System.Delegate
+  isExternal: false
+  name: GetMethodImpl
+  nameWithType: Delegate.GetMethodImpl
+- uid: System.Delegate.GetObjectData*
+  parent: System.Delegate
+  isExternal: false
+  name: GetObjectData
+  nameWithType: Delegate.GetObjectData
+- uid: System.Delegate.Method*
+  parent: System.Delegate
+  isExternal: false
+  name: Method
+  nameWithType: Delegate.Method
+- uid: System.Delegate.op_Equality*
+  parent: System.Delegate
+  isExternal: false
+  name: op_Equality
+  nameWithType: Delegate.op_Equality
+- uid: System.Delegate.op_Inequality*
+  parent: System.Delegate
+  isExternal: false
+  name: op_Inequality
+  nameWithType: Delegate.op_Inequality
+- uid: System.Delegate.Remove*
+  parent: System.Delegate
+  isExternal: false
+  name: Remove
+  nameWithType: Delegate.Remove
+- uid: System.Delegate.RemoveAll*
+  parent: System.Delegate
+  isExternal: false
+  name: RemoveAll
+  nameWithType: Delegate.RemoveAll
+- uid: System.Delegate.RemoveImpl*
+  parent: System.Delegate
+  isExternal: false
+  name: RemoveImpl
+  nameWithType: Delegate.RemoveImpl
+- uid: System.Delegate.Target*
+  parent: System.Delegate
+  isExternal: false
+  name: Target
+  nameWithType: Delegate.Target

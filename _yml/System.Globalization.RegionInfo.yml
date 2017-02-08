@@ -67,6 +67,7 @@ items:
     - id: culture
       type: System.Int32
       description: To be added.
+  overload: System.Globalization.RegionInfo.#ctor*
   platform:
   - net-11
   - net-20
@@ -91,6 +92,7 @@ items:
     - id: name
       type: System.String
       description: To be added.
+  overload: System.Globalization.RegionInfo.#ctor*
   platform:
   - net-11
   - net-20
@@ -114,6 +116,7 @@ items:
     return:
       type: System.String
       description: To be added.
+  overload: System.Globalization.RegionInfo.CurrencyEnglishName*
   platform:
   - net-11
   - net-20
@@ -137,6 +140,7 @@ items:
     return:
       type: System.String
       description: To be added.
+  overload: System.Globalization.RegionInfo.CurrencyNativeName*
   platform:
   - net-11
   - net-20
@@ -160,6 +164,7 @@ items:
     return:
       type: System.String
       description: To be added.
+  overload: System.Globalization.RegionInfo.CurrencySymbol*
   platform:
   - net-11
   - net-20
@@ -183,6 +188,7 @@ items:
     return:
       type: System.Globalization.RegionInfo
       description: To be added.
+  overload: System.Globalization.RegionInfo.CurrentRegion*
   platform:
   - net-11
   - net-20
@@ -206,6 +212,7 @@ items:
     return:
       type: System.String
       description: To be added.
+  overload: System.Globalization.RegionInfo.DisplayName*
   platform:
   - net-11
   - net-20
@@ -229,6 +236,7 @@ items:
     return:
       type: System.String
       description: To be added.
+  overload: System.Globalization.RegionInfo.EnglishName*
   platform:
   - net-11
   - net-20
@@ -256,6 +264,7 @@ items:
     return:
       type: System.Boolean
       description: To be added.
+  overload: System.Globalization.RegionInfo.Equals*
   platform:
   - net-11
   - net-20
@@ -279,6 +288,7 @@ items:
     return:
       type: System.Int32
       description: To be added.
+  overload: System.Globalization.RegionInfo.GeoId*
   platform:
   - net-11
   - net-20
@@ -303,6 +313,7 @@ items:
     return:
       type: System.Int32
       description: To be added.
+  overload: System.Globalization.RegionInfo.GetHashCode*
   platform:
   - net-11
   - net-20
@@ -326,6 +337,7 @@ items:
     return:
       type: System.Boolean
       description: To be added.
+  overload: System.Globalization.RegionInfo.IsMetric*
   platform:
   - net-11
   - net-20
@@ -349,6 +361,7 @@ items:
     return:
       type: System.String
       description: To be added.
+  overload: System.Globalization.RegionInfo.ISOCurrencySymbol*
   platform:
   - net-11
   - net-20
@@ -372,6 +385,7 @@ items:
     return:
       type: System.String
       description: To be added.
+  overload: System.Globalization.RegionInfo.Name*
   platform:
   - net-11
   - net-20
@@ -395,6 +409,7 @@ items:
     return:
       type: System.String
       description: To be added.
+  overload: System.Globalization.RegionInfo.NativeName*
   platform:
   - net-11
   - net-20
@@ -418,6 +433,7 @@ items:
     return:
       type: System.String
       description: To be added.
+  overload: System.Globalization.RegionInfo.ThreeLetterISORegionName*
   platform:
   - net-11
   - net-20
@@ -441,6 +457,7 @@ items:
     return:
       type: System.String
       description: To be added.
+  overload: System.Globalization.RegionInfo.ThreeLetterWindowsRegionName*
   platform:
   - net-11
   - net-20
@@ -465,6 +482,7 @@ items:
     return:
       type: System.String
       description: To be added.
+  overload: System.Globalization.RegionInfo.ToString*
   platform:
   - net-11
   - net-20
@@ -488,6 +506,7 @@ items:
     return:
       type: System.String
       description: To be added.
+  overload: System.Globalization.RegionInfo.TwoLetterISORegionName*
   platform:
   - net-11
   - net-20
@@ -730,3 +749,93 @@ references:
   name: String
   nameWithType: String
   fullName: System.String
+- uid: System.Globalization.RegionInfo.#ctor*
+  parent: System.Globalization.RegionInfo
+  isExternal: false
+  name: RegionInfo
+  nameWithType: RegionInfo.RegionInfo
+- uid: System.Globalization.RegionInfo.CurrencyEnglishName*
+  parent: System.Globalization.RegionInfo
+  isExternal: false
+  name: CurrencyEnglishName
+  nameWithType: RegionInfo.CurrencyEnglishName
+- uid: System.Globalization.RegionInfo.CurrencyNativeName*
+  parent: System.Globalization.RegionInfo
+  isExternal: false
+  name: CurrencyNativeName
+  nameWithType: RegionInfo.CurrencyNativeName
+- uid: System.Globalization.RegionInfo.CurrencySymbol*
+  parent: System.Globalization.RegionInfo
+  isExternal: false
+  name: CurrencySymbol
+  nameWithType: RegionInfo.CurrencySymbol
+- uid: System.Globalization.RegionInfo.CurrentRegion*
+  parent: System.Globalization.RegionInfo
+  isExternal: false
+  name: CurrentRegion
+  nameWithType: RegionInfo.CurrentRegion
+- uid: System.Globalization.RegionInfo.DisplayName*
+  parent: System.Globalization.RegionInfo
+  isExternal: false
+  name: DisplayName
+  nameWithType: RegionInfo.DisplayName
+- uid: System.Globalization.RegionInfo.EnglishName*
+  parent: System.Globalization.RegionInfo
+  isExternal: false
+  name: EnglishName
+  nameWithType: RegionInfo.EnglishName
+- uid: System.Globalization.RegionInfo.Equals*
+  parent: System.Globalization.RegionInfo
+  isExternal: false
+  name: Equals
+  nameWithType: RegionInfo.Equals
+- uid: System.Globalization.RegionInfo.GeoId*
+  parent: System.Globalization.RegionInfo
+  isExternal: false
+  name: GeoId
+  nameWithType: RegionInfo.GeoId
+- uid: System.Globalization.RegionInfo.GetHashCode*
+  parent: System.Globalization.RegionInfo
+  isExternal: false
+  name: GetHashCode
+  nameWithType: RegionInfo.GetHashCode
+- uid: System.Globalization.RegionInfo.IsMetric*
+  parent: System.Globalization.RegionInfo
+  isExternal: false
+  name: IsMetric
+  nameWithType: RegionInfo.IsMetric
+- uid: System.Globalization.RegionInfo.ISOCurrencySymbol*
+  parent: System.Globalization.RegionInfo
+  isExternal: false
+  name: ISOCurrencySymbol
+  nameWithType: RegionInfo.ISOCurrencySymbol
+- uid: System.Globalization.RegionInfo.Name*
+  parent: System.Globalization.RegionInfo
+  isExternal: false
+  name: Name
+  nameWithType: RegionInfo.Name
+- uid: System.Globalization.RegionInfo.NativeName*
+  parent: System.Globalization.RegionInfo
+  isExternal: false
+  name: NativeName
+  nameWithType: RegionInfo.NativeName
+- uid: System.Globalization.RegionInfo.ThreeLetterISORegionName*
+  parent: System.Globalization.RegionInfo
+  isExternal: false
+  name: ThreeLetterISORegionName
+  nameWithType: RegionInfo.ThreeLetterISORegionName
+- uid: System.Globalization.RegionInfo.ThreeLetterWindowsRegionName*
+  parent: System.Globalization.RegionInfo
+  isExternal: false
+  name: ThreeLetterWindowsRegionName
+  nameWithType: RegionInfo.ThreeLetterWindowsRegionName
+- uid: System.Globalization.RegionInfo.ToString*
+  parent: System.Globalization.RegionInfo
+  isExternal: false
+  name: ToString
+  nameWithType: RegionInfo.ToString
+- uid: System.Globalization.RegionInfo.TwoLetterISORegionName*
+  parent: System.Globalization.RegionInfo
+  isExternal: false
+  name: TwoLetterISORegionName
+  nameWithType: RegionInfo.TwoLetterISORegionName

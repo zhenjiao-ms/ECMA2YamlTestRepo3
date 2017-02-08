@@ -50,6 +50,7 @@ items:
   syntax:
     content: protected DecoderFallback ();
     parameters: []
+  overload: System.Text.DecoderFallback.#ctor*
   platform:
   - net-11
   - net-20
@@ -74,6 +75,7 @@ items:
     return:
       type: System.Text.DecoderFallbackBuffer
       description: To be added.
+  overload: System.Text.DecoderFallback.CreateFallbackBuffer*
   platform:
   - net-11
   - net-20
@@ -97,6 +99,7 @@ items:
     return:
       type: System.Text.DecoderFallback
       description: To be added.
+  overload: System.Text.DecoderFallback.ExceptionFallback*
   platform:
   - net-11
   - net-20
@@ -120,6 +123,7 @@ items:
     return:
       type: System.Int32
       description: To be added.
+  overload: System.Text.DecoderFallback.MaxCharCount*
   platform:
   - net-11
   - net-20
@@ -143,6 +147,7 @@ items:
     return:
       type: System.Text.DecoderFallback
       description: To be added.
+  overload: System.Text.DecoderFallback.ReplacementFallback*
   platform:
   - net-11
   - net-20
@@ -205,3 +210,28 @@ references:
   name: DecoderFallback
   nameWithType: DecoderFallback
   fullName: System.Text.DecoderFallback
+- uid: System.Text.DecoderFallback.#ctor*
+  parent: System.Text.DecoderFallback
+  isExternal: false
+  name: DecoderFallback
+  nameWithType: DecoderFallback.DecoderFallback
+- uid: System.Text.DecoderFallback.CreateFallbackBuffer*
+  parent: System.Text.DecoderFallback
+  isExternal: false
+  name: CreateFallbackBuffer
+  nameWithType: DecoderFallback.CreateFallbackBuffer
+- uid: System.Text.DecoderFallback.ExceptionFallback*
+  parent: System.Text.DecoderFallback
+  isExternal: false
+  name: ExceptionFallback
+  nameWithType: DecoderFallback.ExceptionFallback
+- uid: System.Text.DecoderFallback.MaxCharCount*
+  parent: System.Text.DecoderFallback
+  isExternal: false
+  name: MaxCharCount
+  nameWithType: DecoderFallback.MaxCharCount
+- uid: System.Text.DecoderFallback.ReplacementFallback*
+  parent: System.Text.DecoderFallback
+  isExternal: false
+  name: ReplacementFallback
+  nameWithType: DecoderFallback.ReplacementFallback

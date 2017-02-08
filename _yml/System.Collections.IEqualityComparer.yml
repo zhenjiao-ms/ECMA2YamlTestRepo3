@@ -49,6 +49,7 @@ items:
     return:
       type: System.Boolean
       description: To be added.
+  overload: System.Collections.IEqualityComparer.Equals*
   platform:
   - net-11
   - net-20
@@ -76,6 +77,7 @@ items:
     return:
       type: System.Int32
       description: To be added.
+  overload: System.Collections.IEqualityComparer.GetHashCode*
   platform:
   - net-11
   - net-20
@@ -123,3 +125,13 @@ references:
   name: Object
   nameWithType: Object
   fullName: System.Object
+- uid: System.Collections.IEqualityComparer.Equals*
+  parent: System.Collections.IEqualityComparer
+  isExternal: false
+  name: Equals
+  nameWithType: IEqualityComparer.Equals
+- uid: System.Collections.IEqualityComparer.GetHashCode*
+  parent: System.Collections.IEqualityComparer
+  isExternal: false
+  name: GetHashCode
+  nameWithType: IEqualityComparer.GetHashCode

@@ -333,6 +333,7 @@ items:
     return:
       type: System.Boolean
       description: To be added.
+  overload: System.Globalization.CompareInfo.Equals*
   platform:
   - net-11
   - net-20
@@ -1627,6 +1628,7 @@ items:
     return:
       type: System.Int32
       description: To be added.
+  overload: System.Globalization.CompareInfo.LCID*
   platform:
   - net-11
   - net-20
@@ -1650,6 +1652,7 @@ items:
     return:
       type: System.String
       description: To be added.
+  overload: System.Globalization.CompareInfo.Name*
   platform:
   - net-11
   - net-20
@@ -1675,6 +1678,7 @@ items:
     - id: sender
       type: System.Object
       description: To be added.
+  overload: System.Globalization.CompareInfo.System#Runtime#Serialization#IDeserializationCallback#OnDeserialization*
   platform:
   - net-11
   - net-20
@@ -1699,6 +1703,7 @@ items:
     return:
       type: System.String
       description: To be added.
+  overload: System.Globalization.CompareInfo.ToString*
   platform:
   - net-11
   - net-20
@@ -1722,6 +1727,7 @@ items:
     return:
       type: System.Globalization.SortVersion
       description: To be added.
+  overload: System.Globalization.CompareInfo.Version*
   platform:
   - net-11
   - net-20
@@ -3145,6 +3151,11 @@ references:
   isExternal: false
   name: Compare
   nameWithType: CompareInfo.Compare
+- uid: System.Globalization.CompareInfo.Equals*
+  parent: System.Globalization.CompareInfo
+  isExternal: false
+  name: Equals
+  nameWithType: CompareInfo.Equals
 - uid: System.Globalization.CompareInfo.GetCompareInfo*
   parent: System.Globalization.CompareInfo
   isExternal: false
@@ -3185,3 +3196,28 @@ references:
   isExternal: false
   name: LastIndexOf
   nameWithType: CompareInfo.LastIndexOf
+- uid: System.Globalization.CompareInfo.LCID*
+  parent: System.Globalization.CompareInfo
+  isExternal: false
+  name: LCID
+  nameWithType: CompareInfo.LCID
+- uid: System.Globalization.CompareInfo.Name*
+  parent: System.Globalization.CompareInfo
+  isExternal: false
+  name: Name
+  nameWithType: CompareInfo.Name
+- uid: System.Globalization.CompareInfo.System#Runtime#Serialization#IDeserializationCallback#OnDeserialization*
+  parent: System.Globalization.CompareInfo
+  isExternal: false
+  name: System.Runtime.Serialization.IDeserializationCallback.OnDeserialization
+  nameWithType: CompareInfo.System.Runtime.Serialization.IDeserializationCallback.OnDeserialization
+- uid: System.Globalization.CompareInfo.ToString*
+  parent: System.Globalization.CompareInfo
+  isExternal: false
+  name: ToString
+  nameWithType: CompareInfo.ToString
+- uid: System.Globalization.CompareInfo.Version*
+  parent: System.Globalization.CompareInfo
+  isExternal: false
+  name: Version
+  nameWithType: CompareInfo.Version

@@ -99,6 +99,7 @@ items:
     - id: callingConvention
       type: System.Runtime.InteropServices.CallingConvention
       description: To be added.
+  overload: System.Runtime.InteropServices.UnmanagedFunctionPointerAttribute.#ctor*
   platform:
   - net-11
   - net-20
@@ -145,6 +146,7 @@ items:
     return:
       type: System.Runtime.InteropServices.CallingConvention
       description: To be added.
+  overload: System.Runtime.InteropServices.UnmanagedFunctionPointerAttribute.CallingConvention*
   platform:
   - net-11
   - net-20
@@ -294,3 +296,13 @@ references:
   name: Boolean
   nameWithType: Boolean
   fullName: System.Boolean
+- uid: System.Runtime.InteropServices.UnmanagedFunctionPointerAttribute.#ctor*
+  parent: System.Runtime.InteropServices.UnmanagedFunctionPointerAttribute
+  isExternal: false
+  name: UnmanagedFunctionPointerAttribute
+  nameWithType: UnmanagedFunctionPointerAttribute.UnmanagedFunctionPointerAttribute
+- uid: System.Runtime.InteropServices.UnmanagedFunctionPointerAttribute.CallingConvention*
+  parent: System.Runtime.InteropServices.UnmanagedFunctionPointerAttribute
+  isExternal: false
+  name: CallingConvention
+  nameWithType: UnmanagedFunctionPointerAttribute.CallingConvention

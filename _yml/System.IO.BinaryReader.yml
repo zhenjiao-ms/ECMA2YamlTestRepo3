@@ -81,6 +81,7 @@ items:
     - id: input
       type: System.IO.Stream
       description: To be added.
+  overload: System.IO.BinaryReader.#ctor*
   platform:
   - net-11
   - net-20
@@ -108,6 +109,7 @@ items:
     - id: encoding
       type: System.Text.Encoding
       description: To be added.
+  overload: System.IO.BinaryReader.#ctor*
   platform:
   - net-11
   - net-20
@@ -138,6 +140,7 @@ items:
     - id: leaveOpen
       type: System.Boolean
       description: To be added.
+  overload: System.IO.BinaryReader.#ctor*
   platform:
   - net-11
   - net-20
@@ -161,6 +164,7 @@ items:
     return:
       type: System.IO.Stream
       description: To be added.
+  overload: System.IO.BinaryReader.BaseStream*
   platform:
   - net-11
   - net-20
@@ -182,6 +186,7 @@ items:
   syntax:
     content: public virtual void Close ();
     parameters: []
+  overload: System.IO.BinaryReader.Close*
   platform:
   - net-11
   - net-20
@@ -253,6 +258,7 @@ items:
     - id: numBytes
       type: System.Int32
       description: To be added.
+  overload: System.IO.BinaryReader.FillBuffer*
   platform:
   - net-11
   - net-20
@@ -277,6 +283,7 @@ items:
     return:
       type: System.Int32
       description: To be added.
+  overload: System.IO.BinaryReader.PeekChar*
   platform:
   - net-11
   - net-20
@@ -394,6 +401,7 @@ items:
     return:
       type: System.Int32
       description: To be added.
+  overload: System.IO.BinaryReader.Read7BitEncodedInt*
   platform:
   - net-11
   - net-20
@@ -418,6 +426,7 @@ items:
     return:
       type: System.Boolean
       description: To be added.
+  overload: System.IO.BinaryReader.ReadBoolean*
   platform:
   - net-11
   - net-20
@@ -442,6 +451,7 @@ items:
     return:
       type: System.Byte
       description: To be added.
+  overload: System.IO.BinaryReader.ReadByte*
   platform:
   - net-11
   - net-20
@@ -469,6 +479,7 @@ items:
     return:
       type: System.Byte[]
       description: To be added.
+  overload: System.IO.BinaryReader.ReadBytes*
   platform:
   - net-11
   - net-20
@@ -493,6 +504,7 @@ items:
     return:
       type: System.Char
       description: To be added.
+  overload: System.IO.BinaryReader.ReadChar*
   platform:
   - net-11
   - net-20
@@ -520,6 +532,7 @@ items:
     return:
       type: System.Char[]
       description: To be added.
+  overload: System.IO.BinaryReader.ReadChars*
   platform:
   - net-11
   - net-20
@@ -544,6 +557,7 @@ items:
     return:
       type: System.Decimal
       description: To be added.
+  overload: System.IO.BinaryReader.ReadDecimal*
   platform:
   - net-11
   - net-20
@@ -568,6 +582,7 @@ items:
     return:
       type: System.Double
       description: To be added.
+  overload: System.IO.BinaryReader.ReadDouble*
   platform:
   - net-11
   - net-20
@@ -592,6 +607,7 @@ items:
     return:
       type: System.Int16
       description: To be added.
+  overload: System.IO.BinaryReader.ReadInt16*
   platform:
   - net-11
   - net-20
@@ -616,6 +632,7 @@ items:
     return:
       type: System.Int32
       description: To be added.
+  overload: System.IO.BinaryReader.ReadInt32*
   platform:
   - net-11
   - net-20
@@ -640,6 +657,7 @@ items:
     return:
       type: System.Int64
       description: To be added.
+  overload: System.IO.BinaryReader.ReadInt64*
   platform:
   - net-11
   - net-20
@@ -664,6 +682,7 @@ items:
     return:
       type: System.SByte
       description: To be added.
+  overload: System.IO.BinaryReader.ReadSByte*
   platform:
   - net-11
   - net-20
@@ -688,6 +707,7 @@ items:
     return:
       type: System.Single
       description: To be added.
+  overload: System.IO.BinaryReader.ReadSingle*
   platform:
   - net-11
   - net-20
@@ -712,6 +732,7 @@ items:
     return:
       type: System.String
       description: To be added.
+  overload: System.IO.BinaryReader.ReadString*
   platform:
   - net-11
   - net-20
@@ -736,6 +757,7 @@ items:
     return:
       type: System.UInt16
       description: To be added.
+  overload: System.IO.BinaryReader.ReadUInt16*
   platform:
   - net-11
   - net-20
@@ -760,6 +782,7 @@ items:
     return:
       type: System.UInt32
       description: To be added.
+  overload: System.IO.BinaryReader.ReadUInt32*
   platform:
   - net-11
   - net-20
@@ -784,6 +807,7 @@ items:
     return:
       type: System.UInt64
       description: To be added.
+  overload: System.IO.BinaryReader.ReadUInt64*
   platform:
   - net-11
   - net-20
@@ -1194,13 +1218,123 @@ references:
   name: UInt64
   nameWithType: UInt64
   fullName: System.UInt64
+- uid: System.IO.BinaryReader.#ctor*
+  parent: System.IO.BinaryReader
+  isExternal: false
+  name: BinaryReader
+  nameWithType: BinaryReader.BinaryReader
+- uid: System.IO.BinaryReader.BaseStream*
+  parent: System.IO.BinaryReader
+  isExternal: false
+  name: BaseStream
+  nameWithType: BinaryReader.BaseStream
+- uid: System.IO.BinaryReader.Close*
+  parent: System.IO.BinaryReader
+  isExternal: false
+  name: Close
+  nameWithType: BinaryReader.Close
 - uid: System.IO.BinaryReader.Dispose*
   parent: System.IO.BinaryReader
   isExternal: false
   name: Dispose
   nameWithType: BinaryReader.Dispose
+- uid: System.IO.BinaryReader.FillBuffer*
+  parent: System.IO.BinaryReader
+  isExternal: false
+  name: FillBuffer
+  nameWithType: BinaryReader.FillBuffer
+- uid: System.IO.BinaryReader.PeekChar*
+  parent: System.IO.BinaryReader
+  isExternal: false
+  name: PeekChar
+  nameWithType: BinaryReader.PeekChar
 - uid: System.IO.BinaryReader.Read*
   parent: System.IO.BinaryReader
   isExternal: false
   name: Read
   nameWithType: BinaryReader.Read
+- uid: System.IO.BinaryReader.Read7BitEncodedInt*
+  parent: System.IO.BinaryReader
+  isExternal: false
+  name: Read7BitEncodedInt
+  nameWithType: BinaryReader.Read7BitEncodedInt
+- uid: System.IO.BinaryReader.ReadBoolean*
+  parent: System.IO.BinaryReader
+  isExternal: false
+  name: ReadBoolean
+  nameWithType: BinaryReader.ReadBoolean
+- uid: System.IO.BinaryReader.ReadByte*
+  parent: System.IO.BinaryReader
+  isExternal: false
+  name: ReadByte
+  nameWithType: BinaryReader.ReadByte
+- uid: System.IO.BinaryReader.ReadBytes*
+  parent: System.IO.BinaryReader
+  isExternal: false
+  name: ReadBytes
+  nameWithType: BinaryReader.ReadBytes
+- uid: System.IO.BinaryReader.ReadChar*
+  parent: System.IO.BinaryReader
+  isExternal: false
+  name: ReadChar
+  nameWithType: BinaryReader.ReadChar
+- uid: System.IO.BinaryReader.ReadChars*
+  parent: System.IO.BinaryReader
+  isExternal: false
+  name: ReadChars
+  nameWithType: BinaryReader.ReadChars
+- uid: System.IO.BinaryReader.ReadDecimal*
+  parent: System.IO.BinaryReader
+  isExternal: false
+  name: ReadDecimal
+  nameWithType: BinaryReader.ReadDecimal
+- uid: System.IO.BinaryReader.ReadDouble*
+  parent: System.IO.BinaryReader
+  isExternal: false
+  name: ReadDouble
+  nameWithType: BinaryReader.ReadDouble
+- uid: System.IO.BinaryReader.ReadInt16*
+  parent: System.IO.BinaryReader
+  isExternal: false
+  name: ReadInt16
+  nameWithType: BinaryReader.ReadInt16
+- uid: System.IO.BinaryReader.ReadInt32*
+  parent: System.IO.BinaryReader
+  isExternal: false
+  name: ReadInt32
+  nameWithType: BinaryReader.ReadInt32
+- uid: System.IO.BinaryReader.ReadInt64*
+  parent: System.IO.BinaryReader
+  isExternal: false
+  name: ReadInt64
+  nameWithType: BinaryReader.ReadInt64
+- uid: System.IO.BinaryReader.ReadSByte*
+  parent: System.IO.BinaryReader
+  isExternal: false
+  name: ReadSByte
+  nameWithType: BinaryReader.ReadSByte
+- uid: System.IO.BinaryReader.ReadSingle*
+  parent: System.IO.BinaryReader
+  isExternal: false
+  name: ReadSingle
+  nameWithType: BinaryReader.ReadSingle
+- uid: System.IO.BinaryReader.ReadString*
+  parent: System.IO.BinaryReader
+  isExternal: false
+  name: ReadString
+  nameWithType: BinaryReader.ReadString
+- uid: System.IO.BinaryReader.ReadUInt16*
+  parent: System.IO.BinaryReader
+  isExternal: false
+  name: ReadUInt16
+  nameWithType: BinaryReader.ReadUInt16
+- uid: System.IO.BinaryReader.ReadUInt32*
+  parent: System.IO.BinaryReader
+  isExternal: false
+  name: ReadUInt32
+  nameWithType: BinaryReader.ReadUInt32
+- uid: System.IO.BinaryReader.ReadUInt64*
+  parent: System.IO.BinaryReader
+  isExternal: false
+  name: ReadUInt64
+  nameWithType: BinaryReader.ReadUInt64

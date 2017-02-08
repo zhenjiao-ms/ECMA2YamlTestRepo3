@@ -46,6 +46,7 @@ items:
     - id: parameterCount
       type: System.Int32
       description: To be added.
+  overload: System.Reflection.ParameterModifier.#ctor*
   platform:
   - net-11
   - net-20
@@ -73,6 +74,7 @@ items:
     return:
       type: System.Boolean
       description: To be added.
+  overload: System.Reflection.ParameterModifier.Item*
   platform:
   - net-11
   - net-20
@@ -111,3 +113,13 @@ references:
   name: Int32
   nameWithType: Int32
   fullName: System.Int32
+- uid: System.Reflection.ParameterModifier.#ctor*
+  parent: System.Reflection.ParameterModifier
+  isExternal: false
+  name: ParameterModifier
+  nameWithType: ParameterModifier.ParameterModifier
+- uid: System.Reflection.ParameterModifier.Item*
+  parent: System.Reflection.ParameterModifier
+  isExternal: false
+  name: Item
+  nameWithType: ParameterModifier.Item

@@ -97,6 +97,7 @@ items:
     - id: length
       type: System.Int32
       description: To be added.
+  overload: System.Runtime.CompilerServices.FixedBufferAttribute.#ctor*
   platform:
   - net-11
   - net-20
@@ -120,6 +121,7 @@ items:
     return:
       type: System.Type
       description: To be added.
+  overload: System.Runtime.CompilerServices.FixedBufferAttribute.ElementType*
   platform:
   - net-11
   - net-20
@@ -143,6 +145,7 @@ items:
     return:
       type: System.Int32
       description: To be added.
+  overload: System.Runtime.CompilerServices.FixedBufferAttribute.Length*
   platform:
   - net-11
   - net-20
@@ -193,3 +196,18 @@ references:
   name: Int32
   nameWithType: Int32
   fullName: System.Int32
+- uid: System.Runtime.CompilerServices.FixedBufferAttribute.#ctor*
+  parent: System.Runtime.CompilerServices.FixedBufferAttribute
+  isExternal: false
+  name: FixedBufferAttribute
+  nameWithType: FixedBufferAttribute.FixedBufferAttribute
+- uid: System.Runtime.CompilerServices.FixedBufferAttribute.ElementType*
+  parent: System.Runtime.CompilerServices.FixedBufferAttribute
+  isExternal: false
+  name: ElementType
+  nameWithType: FixedBufferAttribute.ElementType
+- uid: System.Runtime.CompilerServices.FixedBufferAttribute.Length*
+  parent: System.Runtime.CompilerServices.FixedBufferAttribute
+  isExternal: false
+  name: Length
+  nameWithType: FixedBufferAttribute.Length

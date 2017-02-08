@@ -55,6 +55,7 @@ items:
     - id: name
       type: System.String
       description: To be added.
+  overload: System.Security.Cryptography.HashAlgorithmName.#ctor*
   platform:
   - net-11
   - net-20
@@ -135,6 +136,7 @@ items:
     return:
       type: System.Int32
       description: To be added.
+  overload: System.Security.Cryptography.HashAlgorithmName.GetHashCode*
   platform:
   - net-11
   - net-20
@@ -158,6 +160,7 @@ items:
     return:
       type: System.Security.Cryptography.HashAlgorithmName
       description: To be added.
+  overload: System.Security.Cryptography.HashAlgorithmName.MD5*
   platform:
   - net-11
   - net-20
@@ -181,6 +184,7 @@ items:
     return:
       type: System.String
       description: To be added.
+  overload: System.Security.Cryptography.HashAlgorithmName.Name*
   platform:
   - net-11
   - net-20
@@ -211,6 +215,7 @@ items:
     return:
       type: System.Boolean
       description: To be added.
+  overload: System.Security.Cryptography.HashAlgorithmName.op_Equality*
   platform:
   - net-11
   - net-20
@@ -241,6 +246,7 @@ items:
     return:
       type: System.Boolean
       description: To be added.
+  overload: System.Security.Cryptography.HashAlgorithmName.op_Inequality*
   platform:
   - net-11
   - net-20
@@ -264,6 +270,7 @@ items:
     return:
       type: System.Security.Cryptography.HashAlgorithmName
       description: To be added.
+  overload: System.Security.Cryptography.HashAlgorithmName.SHA1*
   platform:
   - net-11
   - net-20
@@ -287,6 +294,7 @@ items:
     return:
       type: System.Security.Cryptography.HashAlgorithmName
       description: To be added.
+  overload: System.Security.Cryptography.HashAlgorithmName.SHA256*
   platform:
   - net-11
   - net-20
@@ -310,6 +318,7 @@ items:
     return:
       type: System.Security.Cryptography.HashAlgorithmName
       description: To be added.
+  overload: System.Security.Cryptography.HashAlgorithmName.SHA384*
   platform:
   - net-11
   - net-20
@@ -333,6 +342,7 @@ items:
     return:
       type: System.Security.Cryptography.HashAlgorithmName
       description: To be added.
+  overload: System.Security.Cryptography.HashAlgorithmName.SHA512*
   platform:
   - net-11
   - net-20
@@ -357,6 +367,7 @@ items:
     return:
       type: System.String
       description: To be added.
+  overload: System.Security.Cryptography.HashAlgorithmName.ToString*
   platform:
   - net-11
   - net-20
@@ -557,8 +568,63 @@ references:
   name: String
   nameWithType: String
   fullName: System.String
+- uid: System.Security.Cryptography.HashAlgorithmName.#ctor*
+  parent: System.Security.Cryptography.HashAlgorithmName
+  isExternal: false
+  name: HashAlgorithmName
+  nameWithType: HashAlgorithmName.HashAlgorithmName
 - uid: System.Security.Cryptography.HashAlgorithmName.Equals*
   parent: System.Security.Cryptography.HashAlgorithmName
   isExternal: false
   name: Equals
   nameWithType: HashAlgorithmName.Equals
+- uid: System.Security.Cryptography.HashAlgorithmName.GetHashCode*
+  parent: System.Security.Cryptography.HashAlgorithmName
+  isExternal: false
+  name: GetHashCode
+  nameWithType: HashAlgorithmName.GetHashCode
+- uid: System.Security.Cryptography.HashAlgorithmName.MD5*
+  parent: System.Security.Cryptography.HashAlgorithmName
+  isExternal: false
+  name: MD5
+  nameWithType: HashAlgorithmName.MD5
+- uid: System.Security.Cryptography.HashAlgorithmName.Name*
+  parent: System.Security.Cryptography.HashAlgorithmName
+  isExternal: false
+  name: Name
+  nameWithType: HashAlgorithmName.Name
+- uid: System.Security.Cryptography.HashAlgorithmName.op_Equality*
+  parent: System.Security.Cryptography.HashAlgorithmName
+  isExternal: false
+  name: op_Equality
+  nameWithType: HashAlgorithmName.op_Equality
+- uid: System.Security.Cryptography.HashAlgorithmName.op_Inequality*
+  parent: System.Security.Cryptography.HashAlgorithmName
+  isExternal: false
+  name: op_Inequality
+  nameWithType: HashAlgorithmName.op_Inequality
+- uid: System.Security.Cryptography.HashAlgorithmName.SHA1*
+  parent: System.Security.Cryptography.HashAlgorithmName
+  isExternal: false
+  name: SHA1
+  nameWithType: HashAlgorithmName.SHA1
+- uid: System.Security.Cryptography.HashAlgorithmName.SHA256*
+  parent: System.Security.Cryptography.HashAlgorithmName
+  isExternal: false
+  name: SHA256
+  nameWithType: HashAlgorithmName.SHA256
+- uid: System.Security.Cryptography.HashAlgorithmName.SHA384*
+  parent: System.Security.Cryptography.HashAlgorithmName
+  isExternal: false
+  name: SHA384
+  nameWithType: HashAlgorithmName.SHA384
+- uid: System.Security.Cryptography.HashAlgorithmName.SHA512*
+  parent: System.Security.Cryptography.HashAlgorithmName
+  isExternal: false
+  name: SHA512
+  nameWithType: HashAlgorithmName.SHA512
+- uid: System.Security.Cryptography.HashAlgorithmName.ToString*
+  parent: System.Security.Cryptography.HashAlgorithmName
+  isExternal: false
+  name: ToString
+  nameWithType: HashAlgorithmName.ToString

@@ -318,6 +318,7 @@ items:
     - id: pset
       type: System.Security.PermissionSet
       description: To be added.
+  overload: System.Reflection.Emit.TypeBuilder.AddDeclarativeSecurity*
   platform:
   - net-11
   - net-20
@@ -342,6 +343,7 @@ items:
     - id: interfaceType
       type: System.Type
       description: To be added.
+  overload: System.Reflection.Emit.TypeBuilder.AddInterfaceImplementation*
   platform:
   - net-11
   - net-20
@@ -365,6 +367,7 @@ items:
     return:
       type: System.Reflection.Assembly
       description: To be added.
+  overload: System.Reflection.Emit.TypeBuilder.Assembly*
   platform:
   - net-11
   - net-20
@@ -388,6 +391,7 @@ items:
     return:
       type: System.String
       description: To be added.
+  overload: System.Reflection.Emit.TypeBuilder.AssemblyQualifiedName*
   platform:
   - net-11
   - net-20
@@ -411,6 +415,7 @@ items:
     return:
       type: System.Type
       description: To be added.
+  overload: System.Reflection.Emit.TypeBuilder.BaseType*
   platform:
   - net-11
   - net-20
@@ -435,6 +440,7 @@ items:
     return:
       type: System.Type
       description: To be added.
+  overload: System.Reflection.Emit.TypeBuilder.CreateType*
   platform:
   - net-11
   - net-20
@@ -459,6 +465,7 @@ items:
     return:
       type: System.Reflection.TypeInfo
       description: To be added.
+  overload: System.Reflection.Emit.TypeBuilder.CreateTypeInfo*
   platform:
   - net-11
   - net-20
@@ -482,6 +489,7 @@ items:
     return:
       type: System.Reflection.MethodBase
       description: To be added.
+  overload: System.Reflection.Emit.TypeBuilder.DeclaringMethod*
   platform:
   - net-11
   - net-20
@@ -505,6 +513,7 @@ items:
     return:
       type: System.Type
       description: To be added.
+  overload: System.Reflection.Emit.TypeBuilder.DeclaringType*
   platform:
   - net-11
   - net-20
@@ -606,6 +615,7 @@ items:
     return:
       type: System.Reflection.Emit.ConstructorBuilder
       description: To be added.
+  overload: System.Reflection.Emit.TypeBuilder.DefineDefaultConstructor*
   platform:
   - net-11
   - net-20
@@ -639,6 +649,7 @@ items:
     return:
       type: System.Reflection.Emit.EventBuilder
       description: To be added.
+  overload: System.Reflection.Emit.TypeBuilder.DefineEvent*
   platform:
   - net-11
   - net-20
@@ -740,6 +751,7 @@ items:
     return:
       type: System.Reflection.Emit.GenericTypeParameterBuilder[]
       description: To be added.
+  overload: System.Reflection.Emit.TypeBuilder.DefineGenericParameters*
   platform:
   - net-11
   - net-20
@@ -773,6 +785,7 @@ items:
     return:
       type: System.Reflection.Emit.FieldBuilder
       description: To be added.
+  overload: System.Reflection.Emit.TypeBuilder.DefineInitializedData*
   platform:
   - net-11
   - net-20
@@ -994,6 +1007,7 @@ items:
     - id: methodInfoDeclaration
       type: System.Reflection.MethodInfo
       description: To be added.
+  overload: System.Reflection.Emit.TypeBuilder.DefineMethodOverride*
   platform:
   - net-11
   - net-20
@@ -1605,6 +1619,7 @@ items:
     return:
       type: System.Reflection.Emit.ConstructorBuilder
       description: To be added.
+  overload: System.Reflection.Emit.TypeBuilder.DefineTypeInitializer*
   platform:
   - net-11
   - net-20
@@ -1638,6 +1653,7 @@ items:
     return:
       type: System.Reflection.Emit.FieldBuilder
       description: To be added.
+  overload: System.Reflection.Emit.TypeBuilder.DefineUninitializedData*
   platform:
   - net-11
   - net-20
@@ -1661,6 +1677,7 @@ items:
     return:
       type: System.String
       description: To be added.
+  overload: System.Reflection.Emit.TypeBuilder.FullName*
   platform:
   - net-11
   - net-20
@@ -1684,6 +1701,7 @@ items:
     return:
       type: System.Reflection.GenericParameterAttributes
       description: To be added.
+  overload: System.Reflection.Emit.TypeBuilder.GenericParameterAttributes*
   platform:
   - net-11
   - net-20
@@ -1707,6 +1725,7 @@ items:
     return:
       type: System.Int32
       description: To be added.
+  overload: System.Reflection.Emit.TypeBuilder.GenericParameterPosition*
   platform:
   - net-11
   - net-20
@@ -1731,6 +1750,7 @@ items:
     return:
       type: System.Reflection.TypeAttributes
       description: To be added.
+  overload: System.Reflection.Emit.TypeBuilder.GetAttributeFlagsImpl*
   platform:
   - net-11
   - net-20
@@ -1761,6 +1781,7 @@ items:
     return:
       type: System.Reflection.ConstructorInfo
       description: To be added.
+  overload: System.Reflection.Emit.TypeBuilder.GetConstructor*
   platform:
   - net-11
   - net-20
@@ -1800,6 +1821,7 @@ items:
     return:
       type: System.Reflection.ConstructorInfo
       description: To be added.
+  overload: System.Reflection.Emit.TypeBuilder.GetConstructorImpl*
   platform:
   - net-11
   - net-20
@@ -1827,6 +1849,7 @@ items:
     return:
       type: System.Reflection.ConstructorInfo[]
       description: To be added.
+  overload: System.Reflection.Emit.TypeBuilder.GetConstructors*
   platform:
   - net-11
   - net-20
@@ -1910,6 +1933,7 @@ items:
     return:
       type: System.Type
       description: To be added.
+  overload: System.Reflection.Emit.TypeBuilder.GetElementType*
   platform:
   - net-11
   - net-20
@@ -1940,6 +1964,7 @@ items:
     return:
       type: System.Reflection.EventInfo
       description: To be added.
+  overload: System.Reflection.Emit.TypeBuilder.GetEvent*
   platform:
   - net-11
   - net-20
@@ -2082,6 +2107,7 @@ items:
     return:
       type: System.Reflection.FieldInfo[]
       description: To be added.
+  overload: System.Reflection.Emit.TypeBuilder.GetFields*
   platform:
   - net-11
   - net-20
@@ -2106,6 +2132,7 @@ items:
     return:
       type: System.Type[]
       description: To be added.
+  overload: System.Reflection.Emit.TypeBuilder.GetGenericArguments*
   platform:
   - net-11
   - net-20
@@ -2130,6 +2157,7 @@ items:
     return:
       type: System.Type
       description: To be added.
+  overload: System.Reflection.Emit.TypeBuilder.GetGenericTypeDefinition*
   platform:
   - net-11
   - net-20
@@ -2160,6 +2188,7 @@ items:
     return:
       type: System.Type
       description: To be added.
+  overload: System.Reflection.Emit.TypeBuilder.GetInterface*
   platform:
   - net-11
   - net-20
@@ -2187,6 +2216,7 @@ items:
     return:
       type: System.Reflection.InterfaceMapping
       description: To be added.
+  overload: System.Reflection.Emit.TypeBuilder.GetInterfaceMap*
   platform:
   - net-11
   - net-20
@@ -2211,6 +2241,7 @@ items:
     return:
       type: System.Type[]
       description: To be added.
+  overload: System.Reflection.Emit.TypeBuilder.GetInterfaces*
   platform:
   - net-11
   - net-20
@@ -2244,6 +2275,7 @@ items:
     return:
       type: System.Reflection.MemberInfo[]
       description: To be added.
+  overload: System.Reflection.Emit.TypeBuilder.GetMember*
   platform:
   - net-11
   - net-20
@@ -2271,6 +2303,7 @@ items:
     return:
       type: System.Reflection.MemberInfo[]
       description: To be added.
+  overload: System.Reflection.Emit.TypeBuilder.GetMembers*
   platform:
   - net-11
   - net-20
@@ -2301,6 +2334,7 @@ items:
     return:
       type: System.Reflection.MethodInfo
       description: To be added.
+  overload: System.Reflection.Emit.TypeBuilder.GetMethod*
   platform:
   - net-11
   - net-20
@@ -2343,6 +2377,7 @@ items:
     return:
       type: System.Reflection.MethodInfo
       description: To be added.
+  overload: System.Reflection.Emit.TypeBuilder.GetMethodImpl*
   platform:
   - net-11
   - net-20
@@ -2370,6 +2405,7 @@ items:
     return:
       type: System.Reflection.MethodInfo[]
       description: To be added.
+  overload: System.Reflection.Emit.TypeBuilder.GetMethods*
   platform:
   - net-11
   - net-20
@@ -2400,6 +2436,7 @@ items:
     return:
       type: System.Type
       description: To be added.
+  overload: System.Reflection.Emit.TypeBuilder.GetNestedType*
   platform:
   - net-11
   - net-20
@@ -2427,6 +2464,7 @@ items:
     return:
       type: System.Type[]
       description: To be added.
+  overload: System.Reflection.Emit.TypeBuilder.GetNestedTypes*
   platform:
   - net-11
   - net-20
@@ -2454,6 +2492,7 @@ items:
     return:
       type: System.Reflection.PropertyInfo[]
       description: To be added.
+  overload: System.Reflection.Emit.TypeBuilder.GetProperties*
   platform:
   - net-11
   - net-20
@@ -2496,6 +2535,7 @@ items:
     return:
       type: System.Reflection.PropertyInfo
       description: To be added.
+  overload: System.Reflection.Emit.TypeBuilder.GetPropertyImpl*
   platform:
   - net-11
   - net-20
@@ -2519,6 +2559,7 @@ items:
     return:
       type: System.Guid
       description: To be added.
+  overload: System.Reflection.Emit.TypeBuilder.GUID*
   platform:
   - net-11
   - net-20
@@ -2543,6 +2584,7 @@ items:
     return:
       type: System.Boolean
       description: To be added.
+  overload: System.Reflection.Emit.TypeBuilder.HasElementTypeImpl*
   platform:
   - net-11
   - net-20
@@ -2591,6 +2633,7 @@ items:
     return:
       type: System.Object
       description: To be added.
+  overload: System.Reflection.Emit.TypeBuilder.InvokeMember*
   platform:
   - net-11
   - net-20
@@ -2615,6 +2658,7 @@ items:
     return:
       type: System.Boolean
       description: To be added.
+  overload: System.Reflection.Emit.TypeBuilder.IsArrayImpl*
   platform:
   - net-11
   - net-20
@@ -2695,6 +2739,7 @@ items:
     return:
       type: System.Boolean
       description: To be added.
+  overload: System.Reflection.Emit.TypeBuilder.IsByRefImpl*
   platform:
   - net-11
   - net-20
@@ -2719,6 +2764,7 @@ items:
     return:
       type: System.Boolean
       description: To be added.
+  overload: System.Reflection.Emit.TypeBuilder.IsCOMObjectImpl*
   platform:
   - net-11
   - net-20
@@ -2742,6 +2788,7 @@ items:
     return:
       type: System.Boolean
       description: To be added.
+  overload: System.Reflection.Emit.TypeBuilder.IsConstructedGenericType*
   platform:
   - net-11
   - net-20
@@ -2766,6 +2813,7 @@ items:
     return:
       type: System.Boolean
       description: To be added.
+  overload: System.Reflection.Emit.TypeBuilder.IsCreated*
   platform:
   - net-11
   - net-20
@@ -2796,6 +2844,7 @@ items:
     return:
       type: System.Boolean
       description: To be added.
+  overload: System.Reflection.Emit.TypeBuilder.IsDefined*
   platform:
   - net-11
   - net-20
@@ -2819,6 +2868,7 @@ items:
     return:
       type: System.Boolean
       description: To be added.
+  overload: System.Reflection.Emit.TypeBuilder.IsGenericParameter*
   platform:
   - net-11
   - net-20
@@ -2842,6 +2892,7 @@ items:
     return:
       type: System.Boolean
       description: To be added.
+  overload: System.Reflection.Emit.TypeBuilder.IsGenericType*
   platform:
   - net-11
   - net-20
@@ -2865,6 +2916,7 @@ items:
     return:
       type: System.Boolean
       description: To be added.
+  overload: System.Reflection.Emit.TypeBuilder.IsGenericTypeDefinition*
   platform:
   - net-11
   - net-20
@@ -2889,6 +2941,7 @@ items:
     return:
       type: System.Boolean
       description: To be added.
+  overload: System.Reflection.Emit.TypeBuilder.IsPointerImpl*
   platform:
   - net-11
   - net-20
@@ -2913,6 +2966,7 @@ items:
     return:
       type: System.Boolean
       description: To be added.
+  overload: System.Reflection.Emit.TypeBuilder.IsPrimitiveImpl*
   platform:
   - net-11
   - net-20
@@ -2936,6 +2990,7 @@ items:
     return:
       type: System.Boolean
       description: To be added.
+  overload: System.Reflection.Emit.TypeBuilder.IsSecurityCritical*
   platform:
   - net-11
   - net-20
@@ -2959,6 +3014,7 @@ items:
     return:
       type: System.Boolean
       description: To be added.
+  overload: System.Reflection.Emit.TypeBuilder.IsSecuritySafeCritical*
   platform:
   - net-11
   - net-20
@@ -2982,6 +3038,7 @@ items:
     return:
       type: System.Boolean
       description: To be added.
+  overload: System.Reflection.Emit.TypeBuilder.IsSecurityTransparent*
   platform:
   - net-11
   - net-20
@@ -3009,6 +3066,7 @@ items:
     return:
       type: System.Boolean
       description: To be added.
+  overload: System.Reflection.Emit.TypeBuilder.IsSubclassOf*
   platform:
   - net-11
   - net-20
@@ -3086,6 +3144,7 @@ items:
     return:
       type: System.Type
       description: To be added.
+  overload: System.Reflection.Emit.TypeBuilder.MakeByRefType*
   platform:
   - net-11
   - net-20
@@ -3113,6 +3172,7 @@ items:
     return:
       type: System.Type
       description: To be added.
+  overload: System.Reflection.Emit.TypeBuilder.MakeGenericType*
   platform:
   - net-11
   - net-20
@@ -3137,6 +3197,7 @@ items:
     return:
       type: System.Type
       description: To be added.
+  overload: System.Reflection.Emit.TypeBuilder.MakePointerType*
   platform:
   - net-11
   - net-20
@@ -3160,6 +3221,7 @@ items:
     return:
       type: System.Reflection.Module
       description: To be added.
+  overload: System.Reflection.Emit.TypeBuilder.Module*
   platform:
   - net-11
   - net-20
@@ -3183,6 +3245,7 @@ items:
     return:
       type: System.String
       description: To be added.
+  overload: System.Reflection.Emit.TypeBuilder.Name*
   platform:
   - net-11
   - net-20
@@ -3206,6 +3269,7 @@ items:
     return:
       type: System.String
       description: To be added.
+  overload: System.Reflection.Emit.TypeBuilder.Namespace*
   platform:
   - net-11
   - net-20
@@ -3229,6 +3293,7 @@ items:
     return:
       type: System.Reflection.Emit.PackingSize
       description: To be added.
+  overload: System.Reflection.Emit.TypeBuilder.PackingSize*
   platform:
   - net-11
   - net-20
@@ -3252,6 +3317,7 @@ items:
     return:
       type: System.Type
       description: To be added.
+  overload: System.Reflection.Emit.TypeBuilder.ReflectedType*
   platform:
   - net-11
   - net-20
@@ -3329,6 +3395,7 @@ items:
     - id: parent
       type: System.Type
       description: To be added.
+  overload: System.Reflection.Emit.TypeBuilder.SetParent*
   platform:
   - net-11
   - net-20
@@ -3352,6 +3419,7 @@ items:
     return:
       type: System.Int32
       description: To be added.
+  overload: System.Reflection.Emit.TypeBuilder.Size*
   platform:
   - net-11
   - net-20
@@ -3389,6 +3457,7 @@ items:
     - id: rgDispId
       type: System.IntPtr
       description: To be added.
+  overload: System.Reflection.Emit.TypeBuilder.System#Runtime#InteropServices#_TypeBuilder#GetIDsOfNames*
   platform:
   - net-11
   - net-20
@@ -3420,6 +3489,7 @@ items:
     - id: ppTInfo
       type: System.IntPtr
       description: To be added.
+  overload: System.Reflection.Emit.TypeBuilder.System#Runtime#InteropServices#_TypeBuilder#GetTypeInfo*
   platform:
   - net-11
   - net-20
@@ -3445,6 +3515,7 @@ items:
     - id: pcTInfo
       type: System.UInt32
       description: To be added.
+  overload: System.Reflection.Emit.TypeBuilder.System#Runtime#InteropServices#_TypeBuilder#GetTypeInfoCount*
   platform:
   - net-11
   - net-20
@@ -3491,6 +3562,7 @@ items:
     - id: puArgErr
       type: System.IntPtr
       description: To be added.
+  overload: System.Reflection.Emit.TypeBuilder.System#Runtime#InteropServices#_TypeBuilder#Invoke*
   platform:
   - net-11
   - net-20
@@ -3515,6 +3587,7 @@ items:
     return:
       type: System.String
       description: To be added.
+  overload: System.Reflection.Emit.TypeBuilder.ToString*
   platform:
   - net-11
   - net-20
@@ -3538,6 +3611,7 @@ items:
     return:
       type: System.RuntimeTypeHandle
       description: To be added.
+  overload: System.Reflection.Emit.TypeBuilder.TypeHandle*
   platform:
   - net-11
   - net-20
@@ -3561,6 +3635,7 @@ items:
     return:
       type: System.Reflection.Emit.TypeToken
       description: To be added.
+  overload: System.Reflection.Emit.TypeBuilder.TypeToken*
   platform:
   - net-11
   - net-20
@@ -3584,6 +3659,7 @@ items:
     return:
       type: System.Type
       description: To be added.
+  overload: System.Reflection.Emit.TypeBuilder.UnderlyingSystemType*
   platform:
   - net-11
   - net-20
@@ -6189,21 +6265,91 @@ references:
   name: Int32
   nameWithType: Int32
   fullName: System.Int32
+- uid: System.Reflection.Emit.TypeBuilder.AddDeclarativeSecurity*
+  parent: System.Reflection.Emit.TypeBuilder
+  isExternal: false
+  name: AddDeclarativeSecurity
+  nameWithType: TypeBuilder.AddDeclarativeSecurity
+- uid: System.Reflection.Emit.TypeBuilder.AddInterfaceImplementation*
+  parent: System.Reflection.Emit.TypeBuilder
+  isExternal: false
+  name: AddInterfaceImplementation
+  nameWithType: TypeBuilder.AddInterfaceImplementation
+- uid: System.Reflection.Emit.TypeBuilder.Assembly*
+  parent: System.Reflection.Emit.TypeBuilder
+  isExternal: false
+  name: Assembly
+  nameWithType: TypeBuilder.Assembly
+- uid: System.Reflection.Emit.TypeBuilder.AssemblyQualifiedName*
+  parent: System.Reflection.Emit.TypeBuilder
+  isExternal: false
+  name: AssemblyQualifiedName
+  nameWithType: TypeBuilder.AssemblyQualifiedName
+- uid: System.Reflection.Emit.TypeBuilder.BaseType*
+  parent: System.Reflection.Emit.TypeBuilder
+  isExternal: false
+  name: BaseType
+  nameWithType: TypeBuilder.BaseType
+- uid: System.Reflection.Emit.TypeBuilder.CreateType*
+  parent: System.Reflection.Emit.TypeBuilder
+  isExternal: false
+  name: CreateType
+  nameWithType: TypeBuilder.CreateType
+- uid: System.Reflection.Emit.TypeBuilder.CreateTypeInfo*
+  parent: System.Reflection.Emit.TypeBuilder
+  isExternal: false
+  name: CreateTypeInfo
+  nameWithType: TypeBuilder.CreateTypeInfo
+- uid: System.Reflection.Emit.TypeBuilder.DeclaringMethod*
+  parent: System.Reflection.Emit.TypeBuilder
+  isExternal: false
+  name: DeclaringMethod
+  nameWithType: TypeBuilder.DeclaringMethod
+- uid: System.Reflection.Emit.TypeBuilder.DeclaringType*
+  parent: System.Reflection.Emit.TypeBuilder
+  isExternal: false
+  name: DeclaringType
+  nameWithType: TypeBuilder.DeclaringType
 - uid: System.Reflection.Emit.TypeBuilder.DefineConstructor*
   parent: System.Reflection.Emit.TypeBuilder
   isExternal: false
   name: DefineConstructor
   nameWithType: TypeBuilder.DefineConstructor
+- uid: System.Reflection.Emit.TypeBuilder.DefineDefaultConstructor*
+  parent: System.Reflection.Emit.TypeBuilder
+  isExternal: false
+  name: DefineDefaultConstructor
+  nameWithType: TypeBuilder.DefineDefaultConstructor
+- uid: System.Reflection.Emit.TypeBuilder.DefineEvent*
+  parent: System.Reflection.Emit.TypeBuilder
+  isExternal: false
+  name: DefineEvent
+  nameWithType: TypeBuilder.DefineEvent
 - uid: System.Reflection.Emit.TypeBuilder.DefineField*
   parent: System.Reflection.Emit.TypeBuilder
   isExternal: false
   name: DefineField
   nameWithType: TypeBuilder.DefineField
+- uid: System.Reflection.Emit.TypeBuilder.DefineGenericParameters*
+  parent: System.Reflection.Emit.TypeBuilder
+  isExternal: false
+  name: DefineGenericParameters
+  nameWithType: TypeBuilder.DefineGenericParameters
+- uid: System.Reflection.Emit.TypeBuilder.DefineInitializedData*
+  parent: System.Reflection.Emit.TypeBuilder
+  isExternal: false
+  name: DefineInitializedData
+  nameWithType: TypeBuilder.DefineInitializedData
 - uid: System.Reflection.Emit.TypeBuilder.DefineMethod*
   parent: System.Reflection.Emit.TypeBuilder
   isExternal: false
   name: DefineMethod
   nameWithType: TypeBuilder.DefineMethod
+- uid: System.Reflection.Emit.TypeBuilder.DefineMethodOverride*
+  parent: System.Reflection.Emit.TypeBuilder
+  isExternal: false
+  name: DefineMethodOverride
+  nameWithType: TypeBuilder.DefineMethodOverride
 - uid: System.Reflection.Emit.TypeBuilder.DefineNestedType*
   parent: System.Reflection.Emit.TypeBuilder
   isExternal: false
@@ -6219,11 +6365,66 @@ references:
   isExternal: false
   name: DefineProperty
   nameWithType: TypeBuilder.DefineProperty
+- uid: System.Reflection.Emit.TypeBuilder.DefineTypeInitializer*
+  parent: System.Reflection.Emit.TypeBuilder
+  isExternal: false
+  name: DefineTypeInitializer
+  nameWithType: TypeBuilder.DefineTypeInitializer
+- uid: System.Reflection.Emit.TypeBuilder.DefineUninitializedData*
+  parent: System.Reflection.Emit.TypeBuilder
+  isExternal: false
+  name: DefineUninitializedData
+  nameWithType: TypeBuilder.DefineUninitializedData
+- uid: System.Reflection.Emit.TypeBuilder.FullName*
+  parent: System.Reflection.Emit.TypeBuilder
+  isExternal: false
+  name: FullName
+  nameWithType: TypeBuilder.FullName
+- uid: System.Reflection.Emit.TypeBuilder.GenericParameterAttributes*
+  parent: System.Reflection.Emit.TypeBuilder
+  isExternal: false
+  name: GenericParameterAttributes
+  nameWithType: TypeBuilder.GenericParameterAttributes
+- uid: System.Reflection.Emit.TypeBuilder.GenericParameterPosition*
+  parent: System.Reflection.Emit.TypeBuilder
+  isExternal: false
+  name: GenericParameterPosition
+  nameWithType: TypeBuilder.GenericParameterPosition
+- uid: System.Reflection.Emit.TypeBuilder.GetAttributeFlagsImpl*
+  parent: System.Reflection.Emit.TypeBuilder
+  isExternal: false
+  name: GetAttributeFlagsImpl
+  nameWithType: TypeBuilder.GetAttributeFlagsImpl
+- uid: System.Reflection.Emit.TypeBuilder.GetConstructor*
+  parent: System.Reflection.Emit.TypeBuilder
+  isExternal: false
+  name: GetConstructor
+  nameWithType: TypeBuilder.GetConstructor
+- uid: System.Reflection.Emit.TypeBuilder.GetConstructorImpl*
+  parent: System.Reflection.Emit.TypeBuilder
+  isExternal: false
+  name: GetConstructorImpl
+  nameWithType: TypeBuilder.GetConstructorImpl
+- uid: System.Reflection.Emit.TypeBuilder.GetConstructors*
+  parent: System.Reflection.Emit.TypeBuilder
+  isExternal: false
+  name: GetConstructors
+  nameWithType: TypeBuilder.GetConstructors
 - uid: System.Reflection.Emit.TypeBuilder.GetCustomAttributes*
   parent: System.Reflection.Emit.TypeBuilder
   isExternal: false
   name: GetCustomAttributes
   nameWithType: TypeBuilder.GetCustomAttributes
+- uid: System.Reflection.Emit.TypeBuilder.GetElementType*
+  parent: System.Reflection.Emit.TypeBuilder
+  isExternal: false
+  name: GetElementType
+  nameWithType: TypeBuilder.GetElementType
+- uid: System.Reflection.Emit.TypeBuilder.GetEvent*
+  parent: System.Reflection.Emit.TypeBuilder
+  isExternal: false
+  name: GetEvent
+  nameWithType: TypeBuilder.GetEvent
 - uid: System.Reflection.Emit.TypeBuilder.GetEvents*
   parent: System.Reflection.Emit.TypeBuilder
   isExternal: false
@@ -6234,18 +6435,273 @@ references:
   isExternal: false
   name: GetField
   nameWithType: TypeBuilder.GetField
+- uid: System.Reflection.Emit.TypeBuilder.GetFields*
+  parent: System.Reflection.Emit.TypeBuilder
+  isExternal: false
+  name: GetFields
+  nameWithType: TypeBuilder.GetFields
+- uid: System.Reflection.Emit.TypeBuilder.GetGenericArguments*
+  parent: System.Reflection.Emit.TypeBuilder
+  isExternal: false
+  name: GetGenericArguments
+  nameWithType: TypeBuilder.GetGenericArguments
+- uid: System.Reflection.Emit.TypeBuilder.GetGenericTypeDefinition*
+  parent: System.Reflection.Emit.TypeBuilder
+  isExternal: false
+  name: GetGenericTypeDefinition
+  nameWithType: TypeBuilder.GetGenericTypeDefinition
+- uid: System.Reflection.Emit.TypeBuilder.GetInterface*
+  parent: System.Reflection.Emit.TypeBuilder
+  isExternal: false
+  name: GetInterface
+  nameWithType: TypeBuilder.GetInterface
+- uid: System.Reflection.Emit.TypeBuilder.GetInterfaceMap*
+  parent: System.Reflection.Emit.TypeBuilder
+  isExternal: false
+  name: GetInterfaceMap
+  nameWithType: TypeBuilder.GetInterfaceMap
+- uid: System.Reflection.Emit.TypeBuilder.GetInterfaces*
+  parent: System.Reflection.Emit.TypeBuilder
+  isExternal: false
+  name: GetInterfaces
+  nameWithType: TypeBuilder.GetInterfaces
+- uid: System.Reflection.Emit.TypeBuilder.GetMember*
+  parent: System.Reflection.Emit.TypeBuilder
+  isExternal: false
+  name: GetMember
+  nameWithType: TypeBuilder.GetMember
+- uid: System.Reflection.Emit.TypeBuilder.GetMembers*
+  parent: System.Reflection.Emit.TypeBuilder
+  isExternal: false
+  name: GetMembers
+  nameWithType: TypeBuilder.GetMembers
+- uid: System.Reflection.Emit.TypeBuilder.GetMethod*
+  parent: System.Reflection.Emit.TypeBuilder
+  isExternal: false
+  name: GetMethod
+  nameWithType: TypeBuilder.GetMethod
+- uid: System.Reflection.Emit.TypeBuilder.GetMethodImpl*
+  parent: System.Reflection.Emit.TypeBuilder
+  isExternal: false
+  name: GetMethodImpl
+  nameWithType: TypeBuilder.GetMethodImpl
+- uid: System.Reflection.Emit.TypeBuilder.GetMethods*
+  parent: System.Reflection.Emit.TypeBuilder
+  isExternal: false
+  name: GetMethods
+  nameWithType: TypeBuilder.GetMethods
+- uid: System.Reflection.Emit.TypeBuilder.GetNestedType*
+  parent: System.Reflection.Emit.TypeBuilder
+  isExternal: false
+  name: GetNestedType
+  nameWithType: TypeBuilder.GetNestedType
+- uid: System.Reflection.Emit.TypeBuilder.GetNestedTypes*
+  parent: System.Reflection.Emit.TypeBuilder
+  isExternal: false
+  name: GetNestedTypes
+  nameWithType: TypeBuilder.GetNestedTypes
+- uid: System.Reflection.Emit.TypeBuilder.GetProperties*
+  parent: System.Reflection.Emit.TypeBuilder
+  isExternal: false
+  name: GetProperties
+  nameWithType: TypeBuilder.GetProperties
+- uid: System.Reflection.Emit.TypeBuilder.GetPropertyImpl*
+  parent: System.Reflection.Emit.TypeBuilder
+  isExternal: false
+  name: GetPropertyImpl
+  nameWithType: TypeBuilder.GetPropertyImpl
+- uid: System.Reflection.Emit.TypeBuilder.GUID*
+  parent: System.Reflection.Emit.TypeBuilder
+  isExternal: false
+  name: GUID
+  nameWithType: TypeBuilder.GUID
+- uid: System.Reflection.Emit.TypeBuilder.HasElementTypeImpl*
+  parent: System.Reflection.Emit.TypeBuilder
+  isExternal: false
+  name: HasElementTypeImpl
+  nameWithType: TypeBuilder.HasElementTypeImpl
+- uid: System.Reflection.Emit.TypeBuilder.InvokeMember*
+  parent: System.Reflection.Emit.TypeBuilder
+  isExternal: false
+  name: InvokeMember
+  nameWithType: TypeBuilder.InvokeMember
+- uid: System.Reflection.Emit.TypeBuilder.IsArrayImpl*
+  parent: System.Reflection.Emit.TypeBuilder
+  isExternal: false
+  name: IsArrayImpl
+  nameWithType: TypeBuilder.IsArrayImpl
 - uid: System.Reflection.Emit.TypeBuilder.IsAssignableFrom*
   parent: System.Reflection.Emit.TypeBuilder
   isExternal: false
   name: IsAssignableFrom
   nameWithType: TypeBuilder.IsAssignableFrom
+- uid: System.Reflection.Emit.TypeBuilder.IsByRefImpl*
+  parent: System.Reflection.Emit.TypeBuilder
+  isExternal: false
+  name: IsByRefImpl
+  nameWithType: TypeBuilder.IsByRefImpl
+- uid: System.Reflection.Emit.TypeBuilder.IsCOMObjectImpl*
+  parent: System.Reflection.Emit.TypeBuilder
+  isExternal: false
+  name: IsCOMObjectImpl
+  nameWithType: TypeBuilder.IsCOMObjectImpl
+- uid: System.Reflection.Emit.TypeBuilder.IsConstructedGenericType*
+  parent: System.Reflection.Emit.TypeBuilder
+  isExternal: false
+  name: IsConstructedGenericType
+  nameWithType: TypeBuilder.IsConstructedGenericType
+- uid: System.Reflection.Emit.TypeBuilder.IsCreated*
+  parent: System.Reflection.Emit.TypeBuilder
+  isExternal: false
+  name: IsCreated
+  nameWithType: TypeBuilder.IsCreated
+- uid: System.Reflection.Emit.TypeBuilder.IsDefined*
+  parent: System.Reflection.Emit.TypeBuilder
+  isExternal: false
+  name: IsDefined
+  nameWithType: TypeBuilder.IsDefined
+- uid: System.Reflection.Emit.TypeBuilder.IsGenericParameter*
+  parent: System.Reflection.Emit.TypeBuilder
+  isExternal: false
+  name: IsGenericParameter
+  nameWithType: TypeBuilder.IsGenericParameter
+- uid: System.Reflection.Emit.TypeBuilder.IsGenericType*
+  parent: System.Reflection.Emit.TypeBuilder
+  isExternal: false
+  name: IsGenericType
+  nameWithType: TypeBuilder.IsGenericType
+- uid: System.Reflection.Emit.TypeBuilder.IsGenericTypeDefinition*
+  parent: System.Reflection.Emit.TypeBuilder
+  isExternal: false
+  name: IsGenericTypeDefinition
+  nameWithType: TypeBuilder.IsGenericTypeDefinition
+- uid: System.Reflection.Emit.TypeBuilder.IsPointerImpl*
+  parent: System.Reflection.Emit.TypeBuilder
+  isExternal: false
+  name: IsPointerImpl
+  nameWithType: TypeBuilder.IsPointerImpl
+- uid: System.Reflection.Emit.TypeBuilder.IsPrimitiveImpl*
+  parent: System.Reflection.Emit.TypeBuilder
+  isExternal: false
+  name: IsPrimitiveImpl
+  nameWithType: TypeBuilder.IsPrimitiveImpl
+- uid: System.Reflection.Emit.TypeBuilder.IsSecurityCritical*
+  parent: System.Reflection.Emit.TypeBuilder
+  isExternal: false
+  name: IsSecurityCritical
+  nameWithType: TypeBuilder.IsSecurityCritical
+- uid: System.Reflection.Emit.TypeBuilder.IsSecuritySafeCritical*
+  parent: System.Reflection.Emit.TypeBuilder
+  isExternal: false
+  name: IsSecuritySafeCritical
+  nameWithType: TypeBuilder.IsSecuritySafeCritical
+- uid: System.Reflection.Emit.TypeBuilder.IsSecurityTransparent*
+  parent: System.Reflection.Emit.TypeBuilder
+  isExternal: false
+  name: IsSecurityTransparent
+  nameWithType: TypeBuilder.IsSecurityTransparent
+- uid: System.Reflection.Emit.TypeBuilder.IsSubclassOf*
+  parent: System.Reflection.Emit.TypeBuilder
+  isExternal: false
+  name: IsSubclassOf
+  nameWithType: TypeBuilder.IsSubclassOf
 - uid: System.Reflection.Emit.TypeBuilder.MakeArrayType*
   parent: System.Reflection.Emit.TypeBuilder
   isExternal: false
   name: MakeArrayType
   nameWithType: TypeBuilder.MakeArrayType
+- uid: System.Reflection.Emit.TypeBuilder.MakeByRefType*
+  parent: System.Reflection.Emit.TypeBuilder
+  isExternal: false
+  name: MakeByRefType
+  nameWithType: TypeBuilder.MakeByRefType
+- uid: System.Reflection.Emit.TypeBuilder.MakeGenericType*
+  parent: System.Reflection.Emit.TypeBuilder
+  isExternal: false
+  name: MakeGenericType
+  nameWithType: TypeBuilder.MakeGenericType
+- uid: System.Reflection.Emit.TypeBuilder.MakePointerType*
+  parent: System.Reflection.Emit.TypeBuilder
+  isExternal: false
+  name: MakePointerType
+  nameWithType: TypeBuilder.MakePointerType
+- uid: System.Reflection.Emit.TypeBuilder.Module*
+  parent: System.Reflection.Emit.TypeBuilder
+  isExternal: false
+  name: Module
+  nameWithType: TypeBuilder.Module
+- uid: System.Reflection.Emit.TypeBuilder.Name*
+  parent: System.Reflection.Emit.TypeBuilder
+  isExternal: false
+  name: Name
+  nameWithType: TypeBuilder.Name
+- uid: System.Reflection.Emit.TypeBuilder.Namespace*
+  parent: System.Reflection.Emit.TypeBuilder
+  isExternal: false
+  name: Namespace
+  nameWithType: TypeBuilder.Namespace
+- uid: System.Reflection.Emit.TypeBuilder.PackingSize*
+  parent: System.Reflection.Emit.TypeBuilder
+  isExternal: false
+  name: PackingSize
+  nameWithType: TypeBuilder.PackingSize
+- uid: System.Reflection.Emit.TypeBuilder.ReflectedType*
+  parent: System.Reflection.Emit.TypeBuilder
+  isExternal: false
+  name: ReflectedType
+  nameWithType: TypeBuilder.ReflectedType
 - uid: System.Reflection.Emit.TypeBuilder.SetCustomAttribute*
   parent: System.Reflection.Emit.TypeBuilder
   isExternal: false
   name: SetCustomAttribute
   nameWithType: TypeBuilder.SetCustomAttribute
+- uid: System.Reflection.Emit.TypeBuilder.SetParent*
+  parent: System.Reflection.Emit.TypeBuilder
+  isExternal: false
+  name: SetParent
+  nameWithType: TypeBuilder.SetParent
+- uid: System.Reflection.Emit.TypeBuilder.Size*
+  parent: System.Reflection.Emit.TypeBuilder
+  isExternal: false
+  name: Size
+  nameWithType: TypeBuilder.Size
+- uid: System.Reflection.Emit.TypeBuilder.System#Runtime#InteropServices#_TypeBuilder#GetIDsOfNames*
+  parent: System.Reflection.Emit.TypeBuilder
+  isExternal: false
+  name: System.Runtime.InteropServices._TypeBuilder.GetIDsOfNames
+  nameWithType: TypeBuilder.System.Runtime.InteropServices._TypeBuilder.GetIDsOfNames
+- uid: System.Reflection.Emit.TypeBuilder.System#Runtime#InteropServices#_TypeBuilder#GetTypeInfo*
+  parent: System.Reflection.Emit.TypeBuilder
+  isExternal: false
+  name: System.Runtime.InteropServices._TypeBuilder.GetTypeInfo
+  nameWithType: TypeBuilder.System.Runtime.InteropServices._TypeBuilder.GetTypeInfo
+- uid: System.Reflection.Emit.TypeBuilder.System#Runtime#InteropServices#_TypeBuilder#GetTypeInfoCount*
+  parent: System.Reflection.Emit.TypeBuilder
+  isExternal: false
+  name: System.Runtime.InteropServices._TypeBuilder.GetTypeInfoCount
+  nameWithType: TypeBuilder.System.Runtime.InteropServices._TypeBuilder.GetTypeInfoCount
+- uid: System.Reflection.Emit.TypeBuilder.System#Runtime#InteropServices#_TypeBuilder#Invoke*
+  parent: System.Reflection.Emit.TypeBuilder
+  isExternal: false
+  name: System.Runtime.InteropServices._TypeBuilder.Invoke
+  nameWithType: TypeBuilder.System.Runtime.InteropServices._TypeBuilder.Invoke
+- uid: System.Reflection.Emit.TypeBuilder.ToString*
+  parent: System.Reflection.Emit.TypeBuilder
+  isExternal: false
+  name: ToString
+  nameWithType: TypeBuilder.ToString
+- uid: System.Reflection.Emit.TypeBuilder.TypeHandle*
+  parent: System.Reflection.Emit.TypeBuilder
+  isExternal: false
+  name: TypeHandle
+  nameWithType: TypeBuilder.TypeHandle
+- uid: System.Reflection.Emit.TypeBuilder.TypeToken*
+  parent: System.Reflection.Emit.TypeBuilder
+  isExternal: false
+  name: TypeToken
+  nameWithType: TypeBuilder.TypeToken
+- uid: System.Reflection.Emit.TypeBuilder.UnderlyingSystemType*
+  parent: System.Reflection.Emit.TypeBuilder
+  isExternal: false
+  name: UnderlyingSystemType
+  nameWithType: TypeBuilder.UnderlyingSystemType

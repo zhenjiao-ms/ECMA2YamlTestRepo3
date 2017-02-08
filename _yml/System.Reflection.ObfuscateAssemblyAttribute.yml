@@ -96,6 +96,7 @@ items:
     - id: assemblyIsPrivate
       type: System.Boolean
       description: To be added.
+  overload: System.Reflection.ObfuscateAssemblyAttribute.#ctor*
   platform:
   - net-11
   - net-20
@@ -119,6 +120,7 @@ items:
     return:
       type: System.Boolean
       description: To be added.
+  overload: System.Reflection.ObfuscateAssemblyAttribute.AssemblyIsPrivate*
   platform:
   - net-11
   - net-20
@@ -142,6 +144,7 @@ items:
     return:
       type: System.Boolean
       description: To be added.
+  overload: System.Reflection.ObfuscateAssemblyAttribute.StripAfterObfuscation*
   platform:
   - net-11
   - net-20
@@ -186,3 +189,18 @@ references:
   name: Boolean
   nameWithType: Boolean
   fullName: System.Boolean
+- uid: System.Reflection.ObfuscateAssemblyAttribute.#ctor*
+  parent: System.Reflection.ObfuscateAssemblyAttribute
+  isExternal: false
+  name: ObfuscateAssemblyAttribute
+  nameWithType: ObfuscateAssemblyAttribute.ObfuscateAssemblyAttribute
+- uid: System.Reflection.ObfuscateAssemblyAttribute.AssemblyIsPrivate*
+  parent: System.Reflection.ObfuscateAssemblyAttribute
+  isExternal: false
+  name: AssemblyIsPrivate
+  nameWithType: ObfuscateAssemblyAttribute.AssemblyIsPrivate
+- uid: System.Reflection.ObfuscateAssemblyAttribute.StripAfterObfuscation*
+  parent: System.Reflection.ObfuscateAssemblyAttribute
+  isExternal: false
+  name: StripAfterObfuscation
+  nameWithType: ObfuscateAssemblyAttribute.StripAfterObfuscation

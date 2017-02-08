@@ -57,6 +57,7 @@ items:
   syntax:
     content: public EventListener ();
     parameters: []
+  overload: System.Diagnostics.Tracing.EventListener.#ctor*
   platform:
   - net-11
   - net-20
@@ -81,6 +82,7 @@ items:
     - id: eventSource
       type: System.Diagnostics.Tracing.EventSource
       description: To be added.
+  overload: System.Diagnostics.Tracing.EventListener.DisableEvents*
   platform:
   - net-11
   - net-20
@@ -102,6 +104,7 @@ items:
   syntax:
     content: public virtual void Dispose ();
     parameters: []
+  overload: System.Diagnostics.Tracing.EventListener.Dispose*
   platform:
   - net-11
   - net-20
@@ -245,6 +248,7 @@ items:
     return:
       type: System.Int32
       description: To be added.
+  overload: System.Diagnostics.Tracing.EventListener.EventSourceIndex*
   platform:
   - net-11
   - net-20
@@ -292,6 +296,7 @@ items:
     - id: eventSource
       type: System.Diagnostics.Tracing.EventSource
       description: To be added.
+  overload: System.Diagnostics.Tracing.EventListener.OnEventSourceCreated*
   platform:
   - net-11
   - net-20
@@ -316,6 +321,7 @@ items:
     - id: eventData
       type: System.Diagnostics.Tracing.EventWrittenEventArgs
       description: To be added.
+  overload: System.Diagnostics.Tracing.EventListener.OnEventWritten*
   platform:
   - net-11
   - net-20
@@ -486,8 +492,38 @@ references:
   name: EventWrittenEventArgs
   nameWithType: EventWrittenEventArgs
   fullName: System.Diagnostics.Tracing.EventWrittenEventArgs
+- uid: System.Diagnostics.Tracing.EventListener.#ctor*
+  parent: System.Diagnostics.Tracing.EventListener
+  isExternal: false
+  name: EventListener
+  nameWithType: EventListener.EventListener
+- uid: System.Diagnostics.Tracing.EventListener.DisableEvents*
+  parent: System.Diagnostics.Tracing.EventListener
+  isExternal: false
+  name: DisableEvents
+  nameWithType: EventListener.DisableEvents
+- uid: System.Diagnostics.Tracing.EventListener.Dispose*
+  parent: System.Diagnostics.Tracing.EventListener
+  isExternal: false
+  name: Dispose
+  nameWithType: EventListener.Dispose
 - uid: System.Diagnostics.Tracing.EventListener.EnableEvents*
   parent: System.Diagnostics.Tracing.EventListener
   isExternal: false
   name: EnableEvents
   nameWithType: EventListener.EnableEvents
+- uid: System.Diagnostics.Tracing.EventListener.EventSourceIndex*
+  parent: System.Diagnostics.Tracing.EventListener
+  isExternal: false
+  name: EventSourceIndex
+  nameWithType: EventListener.EventSourceIndex
+- uid: System.Diagnostics.Tracing.EventListener.OnEventSourceCreated*
+  parent: System.Diagnostics.Tracing.EventListener
+  isExternal: false
+  name: OnEventSourceCreated
+  nameWithType: EventListener.OnEventSourceCreated
+- uid: System.Diagnostics.Tracing.EventListener.OnEventWritten*
+  parent: System.Diagnostics.Tracing.EventListener
+  isExternal: false
+  name: OnEventWritten
+  nameWithType: EventListener.OnEventWritten

@@ -59,6 +59,7 @@ items:
     - id: stream
       type: System.IO.Stream
       description: To be added.
+  overload: System.Resources.ResourceReader.#ctor*
   platform:
   - net-11
   - net-20
@@ -83,6 +84,7 @@ items:
     - id: fileName
       type: System.String
       description: To be added.
+  overload: System.Resources.ResourceReader.#ctor*
   platform:
   - net-11
   - net-20
@@ -104,6 +106,7 @@ items:
   syntax:
     content: public void Close ();
     parameters: []
+  overload: System.Resources.ResourceReader.Close*
   platform:
   - net-11
   - net-20
@@ -125,6 +128,7 @@ items:
   syntax:
     content: public void Dispose ();
     parameters: []
+  overload: System.Resources.ResourceReader.Dispose*
   platform:
   - net-11
   - net-20
@@ -149,6 +153,7 @@ items:
     return:
       type: System.Collections.IDictionaryEnumerator
       description: To be added.
+  overload: System.Resources.ResourceReader.GetEnumerator*
   platform:
   - net-11
   - net-20
@@ -179,6 +184,7 @@ items:
     - id: resourceData
       type: System.Byte[]
       description: To be added.
+  overload: System.Resources.ResourceReader.GetResourceData*
   platform:
   - net-11
   - net-20
@@ -204,6 +210,7 @@ items:
     return:
       type: System.Collections.IEnumerator
       description: To be added.
+  overload: System.Resources.ResourceReader.System#Collections#IEnumerable#GetEnumerator*
   platform:
   - net-11
   - net-20
@@ -296,3 +303,33 @@ references:
   name: IEnumerator
   nameWithType: IEnumerator
   fullName: System.Collections.IEnumerator
+- uid: System.Resources.ResourceReader.#ctor*
+  parent: System.Resources.ResourceReader
+  isExternal: false
+  name: ResourceReader
+  nameWithType: ResourceReader.ResourceReader
+- uid: System.Resources.ResourceReader.Close*
+  parent: System.Resources.ResourceReader
+  isExternal: false
+  name: Close
+  nameWithType: ResourceReader.Close
+- uid: System.Resources.ResourceReader.Dispose*
+  parent: System.Resources.ResourceReader
+  isExternal: false
+  name: Dispose
+  nameWithType: ResourceReader.Dispose
+- uid: System.Resources.ResourceReader.GetEnumerator*
+  parent: System.Resources.ResourceReader
+  isExternal: false
+  name: GetEnumerator
+  nameWithType: ResourceReader.GetEnumerator
+- uid: System.Resources.ResourceReader.GetResourceData*
+  parent: System.Resources.ResourceReader
+  isExternal: false
+  name: GetResourceData
+  nameWithType: ResourceReader.GetResourceData
+- uid: System.Resources.ResourceReader.System#Collections#IEnumerable#GetEnumerator*
+  parent: System.Resources.ResourceReader
+  isExternal: false
+  name: System.Collections.IEnumerable.GetEnumerator
+  nameWithType: ResourceReader.System.Collections.IEnumerable.GetEnumerator

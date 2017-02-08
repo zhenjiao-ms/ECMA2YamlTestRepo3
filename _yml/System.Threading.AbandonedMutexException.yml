@@ -70,6 +70,7 @@ items:
   syntax:
     content: public AbandonedMutexException ();
     parameters: []
+  overload: System.Threading.AbandonedMutexException.#ctor*
   platform:
   - net-11
   - net-20
@@ -94,6 +95,7 @@ items:
     - id: message
       type: System.String
       description: To be added.
+  overload: System.Threading.AbandonedMutexException.#ctor*
   platform:
   - net-11
   - net-20
@@ -121,6 +123,7 @@ items:
     - id: handle
       type: System.Threading.WaitHandle
       description: To be added.
+  overload: System.Threading.AbandonedMutexException.#ctor*
   platform:
   - net-11
   - net-20
@@ -148,6 +151,7 @@ items:
     - id: context
       type: System.Runtime.Serialization.StreamingContext
       description: To be added.
+  overload: System.Threading.AbandonedMutexException.#ctor*
   platform:
   - net-11
   - net-20
@@ -175,6 +179,7 @@ items:
     - id: inner
       type: System.Exception
       description: To be added.
+  overload: System.Threading.AbandonedMutexException.#ctor*
   platform:
   - net-11
   - net-20
@@ -205,6 +210,7 @@ items:
     - id: handle
       type: System.Threading.WaitHandle
       description: To be added.
+  overload: System.Threading.AbandonedMutexException.#ctor*
   platform:
   - net-11
   - net-20
@@ -238,6 +244,7 @@ items:
     - id: handle
       type: System.Threading.WaitHandle
       description: To be added.
+  overload: System.Threading.AbandonedMutexException.#ctor*
   platform:
   - net-11
   - net-20
@@ -261,6 +268,7 @@ items:
     return:
       type: System.Threading.Mutex
       description: To be added.
+  overload: System.Threading.AbandonedMutexException.Mutex*
   platform:
   - net-11
   - net-20
@@ -284,6 +292,7 @@ items:
     return:
       type: System.Int32
       description: To be added.
+  overload: System.Threading.AbandonedMutexException.MutexIndex*
   platform:
   - net-11
   - net-20
@@ -442,3 +451,18 @@ references:
   name: Int32
   nameWithType: Int32
   fullName: System.Int32
+- uid: System.Threading.AbandonedMutexException.#ctor*
+  parent: System.Threading.AbandonedMutexException
+  isExternal: false
+  name: AbandonedMutexException
+  nameWithType: AbandonedMutexException.AbandonedMutexException
+- uid: System.Threading.AbandonedMutexException.Mutex*
+  parent: System.Threading.AbandonedMutexException
+  isExternal: false
+  name: Mutex
+  nameWithType: AbandonedMutexException.Mutex
+- uid: System.Threading.AbandonedMutexException.MutexIndex*
+  parent: System.Threading.AbandonedMutexException
+  isExternal: false
+  name: MutexIndex
+  nameWithType: AbandonedMutexException.MutexIndex

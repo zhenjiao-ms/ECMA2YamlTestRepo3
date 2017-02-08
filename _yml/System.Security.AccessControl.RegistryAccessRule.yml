@@ -67,6 +67,7 @@ items:
     - id: type
       type: System.Security.AccessControl.AccessControlType
       description: To be added.
+  overload: System.Security.AccessControl.RegistryAccessRule.#ctor*
   platform:
   - net-11
   - net-20
@@ -97,6 +98,7 @@ items:
     - id: type
       type: System.Security.AccessControl.AccessControlType
       description: To be added.
+  overload: System.Security.AccessControl.RegistryAccessRule.#ctor*
   platform:
   - net-11
   - net-20
@@ -133,6 +135,7 @@ items:
     - id: type
       type: System.Security.AccessControl.AccessControlType
       description: To be added.
+  overload: System.Security.AccessControl.RegistryAccessRule.#ctor*
   platform:
   - net-11
   - net-20
@@ -169,6 +172,7 @@ items:
     - id: type
       type: System.Security.AccessControl.AccessControlType
       description: To be added.
+  overload: System.Security.AccessControl.RegistryAccessRule.#ctor*
   platform:
   - net-11
   - net-20
@@ -192,6 +196,7 @@ items:
     return:
       type: System.Security.AccessControl.RegistryRights
       description: To be added.
+  overload: System.Security.AccessControl.RegistryAccessRule.RegistryRights*
   platform:
   - net-11
   - net-20
@@ -332,3 +337,13 @@ references:
   name: RegistryRights
   nameWithType: RegistryRights
   fullName: System.Security.AccessControl.RegistryRights
+- uid: System.Security.AccessControl.RegistryAccessRule.#ctor*
+  parent: System.Security.AccessControl.RegistryAccessRule
+  isExternal: false
+  name: RegistryAccessRule
+  nameWithType: RegistryAccessRule.RegistryAccessRule
+- uid: System.Security.AccessControl.RegistryAccessRule.RegistryRights*
+  parent: System.Security.AccessControl.RegistryAccessRule
+  isExternal: false
+  name: RegistryRights
+  nameWithType: RegistryAccessRule.RegistryRights

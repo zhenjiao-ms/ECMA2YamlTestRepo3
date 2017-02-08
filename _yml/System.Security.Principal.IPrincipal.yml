@@ -42,6 +42,7 @@ items:
     return:
       type: System.Security.Principal.IIdentity
       description: To be added.
+  overload: System.Security.Principal.IPrincipal.Identity*
   platform:
   - net-11
   - net-20
@@ -69,6 +70,7 @@ items:
     return:
       type: System.Boolean
       description: To be added.
+  overload: System.Security.Principal.IPrincipal.IsInRole*
   platform:
   - net-11
   - net-20
@@ -104,3 +106,13 @@ references:
   name: String
   nameWithType: String
   fullName: System.String
+- uid: System.Security.Principal.IPrincipal.Identity*
+  parent: System.Security.Principal.IPrincipal
+  isExternal: false
+  name: Identity
+  nameWithType: IPrincipal.Identity
+- uid: System.Security.Principal.IPrincipal.IsInRole*
+  parent: System.Security.Principal.IPrincipal
+  isExternal: false
+  name: IsInRole
+  nameWithType: IPrincipal.IsInRole

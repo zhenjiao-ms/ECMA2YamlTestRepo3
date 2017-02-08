@@ -115,6 +115,7 @@ items:
     - id: mode
       type: System.IO.FileMode
       description: To be added.
+  overload: System.IO.IsolatedStorage.IsolatedStorageFileStream.#ctor*
   platform:
   - net-11
   - net-20
@@ -145,6 +146,7 @@ items:
     - id: access
       type: System.IO.FileAccess
       description: To be added.
+  overload: System.IO.IsolatedStorage.IsolatedStorageFileStream.#ctor*
   platform:
   - net-11
   - net-20
@@ -175,6 +177,7 @@ items:
     - id: isf
       type: System.IO.IsolatedStorage.IsolatedStorageFile
       description: To be added.
+  overload: System.IO.IsolatedStorage.IsolatedStorageFileStream.#ctor*
   platform:
   - net-11
   - net-20
@@ -208,6 +211,7 @@ items:
     - id: share
       type: System.IO.FileShare
       description: To be added.
+  overload: System.IO.IsolatedStorage.IsolatedStorageFileStream.#ctor*
   platform:
   - net-11
   - net-20
@@ -241,6 +245,7 @@ items:
     - id: isf
       type: System.IO.IsolatedStorage.IsolatedStorageFile
       description: To be added.
+  overload: System.IO.IsolatedStorage.IsolatedStorageFileStream.#ctor*
   platform:
   - net-11
   - net-20
@@ -277,6 +282,7 @@ items:
     - id: bufferSize
       type: System.Int32
       description: To be added.
+  overload: System.IO.IsolatedStorage.IsolatedStorageFileStream.#ctor*
   platform:
   - net-11
   - net-20
@@ -313,6 +319,7 @@ items:
     - id: isf
       type: System.IO.IsolatedStorage.IsolatedStorageFile
       description: To be added.
+  overload: System.IO.IsolatedStorage.IsolatedStorageFileStream.#ctor*
   platform:
   - net-11
   - net-20
@@ -352,6 +359,7 @@ items:
     - id: isf
       type: System.IO.IsolatedStorage.IsolatedStorageFile
       description: To be added.
+  overload: System.IO.IsolatedStorage.IsolatedStorageFileStream.#ctor*
   platform:
   - net-11
   - net-20
@@ -391,6 +399,7 @@ items:
     return:
       type: System.IAsyncResult
       description: To be added.
+  overload: System.IO.IsolatedStorage.IsolatedStorageFileStream.BeginRead*
   platform:
   - net-11
   - net-20
@@ -430,6 +439,7 @@ items:
     return:
       type: System.IAsyncResult
       description: To be added.
+  overload: System.IO.IsolatedStorage.IsolatedStorageFileStream.BeginWrite*
   platform:
   - net-11
   - net-20
@@ -453,6 +463,7 @@ items:
     return:
       type: System.Boolean
       description: To be added.
+  overload: System.IO.IsolatedStorage.IsolatedStorageFileStream.CanRead*
   platform:
   - net-11
   - net-20
@@ -476,6 +487,7 @@ items:
     return:
       type: System.Boolean
       description: To be added.
+  overload: System.IO.IsolatedStorage.IsolatedStorageFileStream.CanSeek*
   platform:
   - net-11
   - net-20
@@ -499,6 +511,7 @@ items:
     return:
       type: System.Boolean
       description: To be added.
+  overload: System.IO.IsolatedStorage.IsolatedStorageFileStream.CanWrite*
   platform:
   - net-11
   - net-20
@@ -523,6 +536,7 @@ items:
     - id: disposing
       type: System.Boolean
       description: To be added.
+  overload: System.IO.IsolatedStorage.IsolatedStorageFileStream.Dispose*
   platform:
   - net-11
   - net-20
@@ -550,6 +564,7 @@ items:
     return:
       type: System.Int32
       description: To be added.
+  overload: System.IO.IsolatedStorage.IsolatedStorageFileStream.EndRead*
   platform:
   - net-11
   - net-20
@@ -574,6 +589,7 @@ items:
     - id: asyncResult
       type: System.IAsyncResult
       description: To be added.
+  overload: System.IO.IsolatedStorage.IsolatedStorageFileStream.EndWrite*
   platform:
   - net-11
   - net-20
@@ -644,6 +660,7 @@ items:
     return:
       type: System.IntPtr
       description: To be added.
+  overload: System.IO.IsolatedStorage.IsolatedStorageFileStream.Handle*
   platform:
   - net-11
   - net-20
@@ -667,6 +684,7 @@ items:
     return:
       type: System.Boolean
       description: To be added.
+  overload: System.IO.IsolatedStorage.IsolatedStorageFileStream.IsAsync*
   platform:
   - net-11
   - net-20
@@ -690,6 +708,7 @@ items:
     return:
       type: System.Int64
       description: To be added.
+  overload: System.IO.IsolatedStorage.IsolatedStorageFileStream.Length*
   platform:
   - net-11
   - net-20
@@ -717,6 +736,7 @@ items:
     - id: length
       type: System.Int64
       description: To be added.
+  overload: System.IO.IsolatedStorage.IsolatedStorageFileStream.Lock*
   platform:
   - net-11
   - net-20
@@ -740,6 +760,7 @@ items:
     return:
       type: System.Int64
       description: To be added.
+  overload: System.IO.IsolatedStorage.IsolatedStorageFileStream.Position*
   platform:
   - net-11
   - net-20
@@ -773,6 +794,7 @@ items:
     return:
       type: System.Int32
       description: To be added.
+  overload: System.IO.IsolatedStorage.IsolatedStorageFileStream.Read*
   platform:
   - net-11
   - net-20
@@ -797,6 +819,7 @@ items:
     return:
       type: System.Int32
       description: To be added.
+  overload: System.IO.IsolatedStorage.IsolatedStorageFileStream.ReadByte*
   platform:
   - net-11
   - net-20
@@ -820,6 +843,7 @@ items:
     return:
       type: Microsoft.Win32.SafeHandles.SafeFileHandle
       description: To be added.
+  overload: System.IO.IsolatedStorage.IsolatedStorageFileStream.SafeFileHandle*
   platform:
   - net-11
   - net-20
@@ -850,6 +874,7 @@ items:
     return:
       type: System.Int64
       description: To be added.
+  overload: System.IO.IsolatedStorage.IsolatedStorageFileStream.Seek*
   platform:
   - net-11
   - net-20
@@ -874,6 +899,7 @@ items:
     - id: value
       type: System.Int64
       description: To be added.
+  overload: System.IO.IsolatedStorage.IsolatedStorageFileStream.SetLength*
   platform:
   - net-11
   - net-20
@@ -901,6 +927,7 @@ items:
     - id: length
       type: System.Int64
       description: To be added.
+  overload: System.IO.IsolatedStorage.IsolatedStorageFileStream.Unlock*
   platform:
   - net-11
   - net-20
@@ -931,6 +958,7 @@ items:
     - id: count
       type: System.Int32
       description: To be added.
+  overload: System.IO.IsolatedStorage.IsolatedStorageFileStream.Write*
   platform:
   - net-11
   - net-20
@@ -955,6 +983,7 @@ items:
     - id: value
       type: System.Byte
       description: To be added.
+  overload: System.IO.IsolatedStorage.IsolatedStorageFileStream.WriteByte*
   platform:
   - net-11
   - net-20
@@ -1593,8 +1622,118 @@ references:
   name: Byte
   nameWithType: Byte
   fullName: System.Byte
+- uid: System.IO.IsolatedStorage.IsolatedStorageFileStream.#ctor*
+  parent: System.IO.IsolatedStorage.IsolatedStorageFileStream
+  isExternal: false
+  name: IsolatedStorageFileStream
+  nameWithType: IsolatedStorageFileStream.IsolatedStorageFileStream
+- uid: System.IO.IsolatedStorage.IsolatedStorageFileStream.BeginRead*
+  parent: System.IO.IsolatedStorage.IsolatedStorageFileStream
+  isExternal: false
+  name: BeginRead
+  nameWithType: IsolatedStorageFileStream.BeginRead
+- uid: System.IO.IsolatedStorage.IsolatedStorageFileStream.BeginWrite*
+  parent: System.IO.IsolatedStorage.IsolatedStorageFileStream
+  isExternal: false
+  name: BeginWrite
+  nameWithType: IsolatedStorageFileStream.BeginWrite
+- uid: System.IO.IsolatedStorage.IsolatedStorageFileStream.CanRead*
+  parent: System.IO.IsolatedStorage.IsolatedStorageFileStream
+  isExternal: false
+  name: CanRead
+  nameWithType: IsolatedStorageFileStream.CanRead
+- uid: System.IO.IsolatedStorage.IsolatedStorageFileStream.CanSeek*
+  parent: System.IO.IsolatedStorage.IsolatedStorageFileStream
+  isExternal: false
+  name: CanSeek
+  nameWithType: IsolatedStorageFileStream.CanSeek
+- uid: System.IO.IsolatedStorage.IsolatedStorageFileStream.CanWrite*
+  parent: System.IO.IsolatedStorage.IsolatedStorageFileStream
+  isExternal: false
+  name: CanWrite
+  nameWithType: IsolatedStorageFileStream.CanWrite
+- uid: System.IO.IsolatedStorage.IsolatedStorageFileStream.Dispose*
+  parent: System.IO.IsolatedStorage.IsolatedStorageFileStream
+  isExternal: false
+  name: Dispose
+  nameWithType: IsolatedStorageFileStream.Dispose
+- uid: System.IO.IsolatedStorage.IsolatedStorageFileStream.EndRead*
+  parent: System.IO.IsolatedStorage.IsolatedStorageFileStream
+  isExternal: false
+  name: EndRead
+  nameWithType: IsolatedStorageFileStream.EndRead
+- uid: System.IO.IsolatedStorage.IsolatedStorageFileStream.EndWrite*
+  parent: System.IO.IsolatedStorage.IsolatedStorageFileStream
+  isExternal: false
+  name: EndWrite
+  nameWithType: IsolatedStorageFileStream.EndWrite
 - uid: System.IO.IsolatedStorage.IsolatedStorageFileStream.Flush*
   parent: System.IO.IsolatedStorage.IsolatedStorageFileStream
   isExternal: false
   name: Flush
   nameWithType: IsolatedStorageFileStream.Flush
+- uid: System.IO.IsolatedStorage.IsolatedStorageFileStream.Handle*
+  parent: System.IO.IsolatedStorage.IsolatedStorageFileStream
+  isExternal: false
+  name: Handle
+  nameWithType: IsolatedStorageFileStream.Handle
+- uid: System.IO.IsolatedStorage.IsolatedStorageFileStream.IsAsync*
+  parent: System.IO.IsolatedStorage.IsolatedStorageFileStream
+  isExternal: false
+  name: IsAsync
+  nameWithType: IsolatedStorageFileStream.IsAsync
+- uid: System.IO.IsolatedStorage.IsolatedStorageFileStream.Length*
+  parent: System.IO.IsolatedStorage.IsolatedStorageFileStream
+  isExternal: false
+  name: Length
+  nameWithType: IsolatedStorageFileStream.Length
+- uid: System.IO.IsolatedStorage.IsolatedStorageFileStream.Lock*
+  parent: System.IO.IsolatedStorage.IsolatedStorageFileStream
+  isExternal: false
+  name: Lock
+  nameWithType: IsolatedStorageFileStream.Lock
+- uid: System.IO.IsolatedStorage.IsolatedStorageFileStream.Position*
+  parent: System.IO.IsolatedStorage.IsolatedStorageFileStream
+  isExternal: false
+  name: Position
+  nameWithType: IsolatedStorageFileStream.Position
+- uid: System.IO.IsolatedStorage.IsolatedStorageFileStream.Read*
+  parent: System.IO.IsolatedStorage.IsolatedStorageFileStream
+  isExternal: false
+  name: Read
+  nameWithType: IsolatedStorageFileStream.Read
+- uid: System.IO.IsolatedStorage.IsolatedStorageFileStream.ReadByte*
+  parent: System.IO.IsolatedStorage.IsolatedStorageFileStream
+  isExternal: false
+  name: ReadByte
+  nameWithType: IsolatedStorageFileStream.ReadByte
+- uid: System.IO.IsolatedStorage.IsolatedStorageFileStream.SafeFileHandle*
+  parent: System.IO.IsolatedStorage.IsolatedStorageFileStream
+  isExternal: false
+  name: SafeFileHandle
+  nameWithType: IsolatedStorageFileStream.SafeFileHandle
+- uid: System.IO.IsolatedStorage.IsolatedStorageFileStream.Seek*
+  parent: System.IO.IsolatedStorage.IsolatedStorageFileStream
+  isExternal: false
+  name: Seek
+  nameWithType: IsolatedStorageFileStream.Seek
+- uid: System.IO.IsolatedStorage.IsolatedStorageFileStream.SetLength*
+  parent: System.IO.IsolatedStorage.IsolatedStorageFileStream
+  isExternal: false
+  name: SetLength
+  nameWithType: IsolatedStorageFileStream.SetLength
+- uid: System.IO.IsolatedStorage.IsolatedStorageFileStream.Unlock*
+  parent: System.IO.IsolatedStorage.IsolatedStorageFileStream
+  isExternal: false
+  name: Unlock
+  nameWithType: IsolatedStorageFileStream.Unlock
+- uid: System.IO.IsolatedStorage.IsolatedStorageFileStream.Write*
+  parent: System.IO.IsolatedStorage.IsolatedStorageFileStream
+  isExternal: false
+  name: Write
+  nameWithType: IsolatedStorageFileStream.Write
+- uid: System.IO.IsolatedStorage.IsolatedStorageFileStream.WriteByte*
+  parent: System.IO.IsolatedStorage.IsolatedStorageFileStream
+  isExternal: false
+  name: WriteByte
+  nameWithType: IsolatedStorageFileStream.WriteByte

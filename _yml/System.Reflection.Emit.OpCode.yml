@@ -113,6 +113,7 @@ items:
     return:
       type: System.Reflection.Emit.FlowControl
       description: To be added.
+  overload: System.Reflection.Emit.OpCode.FlowControl*
   platform:
   - net-11
   - net-20
@@ -137,6 +138,7 @@ items:
     return:
       type: System.Int32
       description: To be added.
+  overload: System.Reflection.Emit.OpCode.GetHashCode*
   platform:
   - net-11
   - net-20
@@ -160,6 +162,7 @@ items:
     return:
       type: System.String
       description: To be added.
+  overload: System.Reflection.Emit.OpCode.Name*
   platform:
   - net-11
   - net-20
@@ -190,6 +193,7 @@ items:
     return:
       type: System.Boolean
       description: To be added.
+  overload: System.Reflection.Emit.OpCode.op_Equality*
   platform:
   - net-11
   - net-20
@@ -220,6 +224,7 @@ items:
     return:
       type: System.Boolean
       description: To be added.
+  overload: System.Reflection.Emit.OpCode.op_Inequality*
   platform:
   - net-11
   - net-20
@@ -243,6 +248,7 @@ items:
     return:
       type: System.Reflection.Emit.OpCodeType
       description: To be added.
+  overload: System.Reflection.Emit.OpCode.OpCodeType*
   platform:
   - net-11
   - net-20
@@ -266,6 +272,7 @@ items:
     return:
       type: System.Reflection.Emit.OperandType
       description: To be added.
+  overload: System.Reflection.Emit.OpCode.OperandType*
   platform:
   - net-11
   - net-20
@@ -289,6 +296,7 @@ items:
     return:
       type: System.Int32
       description: To be added.
+  overload: System.Reflection.Emit.OpCode.Size*
   platform:
   - net-11
   - net-20
@@ -312,6 +320,7 @@ items:
     return:
       type: System.Reflection.Emit.StackBehaviour
       description: To be added.
+  overload: System.Reflection.Emit.OpCode.StackBehaviourPop*
   platform:
   - net-11
   - net-20
@@ -335,6 +344,7 @@ items:
     return:
       type: System.Reflection.Emit.StackBehaviour
       description: To be added.
+  overload: System.Reflection.Emit.OpCode.StackBehaviourPush*
   platform:
   - net-11
   - net-20
@@ -359,6 +369,7 @@ items:
     return:
       type: System.String
       description: To be added.
+  overload: System.Reflection.Emit.OpCode.ToString*
   platform:
   - net-11
   - net-20
@@ -382,6 +393,7 @@ items:
     return:
       type: System.Int16
       description: To be added.
+  overload: System.Reflection.Emit.OpCode.Value*
   platform:
   - net-11
   - net-20
@@ -599,3 +611,63 @@ references:
   isExternal: false
   name: Equals
   nameWithType: OpCode.Equals
+- uid: System.Reflection.Emit.OpCode.FlowControl*
+  parent: System.Reflection.Emit.OpCode
+  isExternal: false
+  name: FlowControl
+  nameWithType: OpCode.FlowControl
+- uid: System.Reflection.Emit.OpCode.GetHashCode*
+  parent: System.Reflection.Emit.OpCode
+  isExternal: false
+  name: GetHashCode
+  nameWithType: OpCode.GetHashCode
+- uid: System.Reflection.Emit.OpCode.Name*
+  parent: System.Reflection.Emit.OpCode
+  isExternal: false
+  name: Name
+  nameWithType: OpCode.Name
+- uid: System.Reflection.Emit.OpCode.op_Equality*
+  parent: System.Reflection.Emit.OpCode
+  isExternal: false
+  name: op_Equality
+  nameWithType: OpCode.op_Equality
+- uid: System.Reflection.Emit.OpCode.op_Inequality*
+  parent: System.Reflection.Emit.OpCode
+  isExternal: false
+  name: op_Inequality
+  nameWithType: OpCode.op_Inequality
+- uid: System.Reflection.Emit.OpCode.OpCodeType*
+  parent: System.Reflection.Emit.OpCode
+  isExternal: false
+  name: OpCodeType
+  nameWithType: OpCode.OpCodeType
+- uid: System.Reflection.Emit.OpCode.OperandType*
+  parent: System.Reflection.Emit.OpCode
+  isExternal: false
+  name: OperandType
+  nameWithType: OpCode.OperandType
+- uid: System.Reflection.Emit.OpCode.Size*
+  parent: System.Reflection.Emit.OpCode
+  isExternal: false
+  name: Size
+  nameWithType: OpCode.Size
+- uid: System.Reflection.Emit.OpCode.StackBehaviourPop*
+  parent: System.Reflection.Emit.OpCode
+  isExternal: false
+  name: StackBehaviourPop
+  nameWithType: OpCode.StackBehaviourPop
+- uid: System.Reflection.Emit.OpCode.StackBehaviourPush*
+  parent: System.Reflection.Emit.OpCode
+  isExternal: false
+  name: StackBehaviourPush
+  nameWithType: OpCode.StackBehaviourPush
+- uid: System.Reflection.Emit.OpCode.ToString*
+  parent: System.Reflection.Emit.OpCode
+  isExternal: false
+  name: ToString
+  nameWithType: OpCode.ToString
+- uid: System.Reflection.Emit.OpCode.Value*
+  parent: System.Reflection.Emit.OpCode
+  isExternal: false
+  name: Value
+  nameWithType: OpCode.Value

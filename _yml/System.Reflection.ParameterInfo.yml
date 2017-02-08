@@ -88,6 +88,7 @@ items:
   syntax:
     content: protected ParameterInfo ();
     parameters: []
+  overload: System.Reflection.ParameterInfo.#ctor*
   platform:
   - net-11
   - net-20
@@ -111,6 +112,7 @@ items:
     return:
       type: System.Reflection.ParameterAttributes
       description: To be added.
+  overload: System.Reflection.ParameterInfo.Attributes*
   platform:
   - net-11
   - net-20
@@ -180,6 +182,7 @@ items:
     return:
       type: System.Collections.Generic.IEnumerable{System.Reflection.CustomAttributeData}
       description: To be added.
+  overload: System.Reflection.ParameterInfo.CustomAttributes*
   platform:
   - net-11
   - net-20
@@ -203,6 +206,7 @@ items:
     return:
       type: System.Object
       description: To be added.
+  overload: System.Reflection.ParameterInfo.DefaultValue*
   platform:
   - net-11
   - net-20
@@ -309,6 +313,7 @@ items:
     return:
       type: System.Collections.Generic.IList{System.Reflection.CustomAttributeData}
       description: To be added.
+  overload: System.Reflection.ParameterInfo.GetCustomAttributesData*
   platform:
   - net-11
   - net-20
@@ -333,6 +338,7 @@ items:
     return:
       type: System.Type[]
       description: To be added.
+  overload: System.Reflection.ParameterInfo.GetOptionalCustomModifiers*
   platform:
   - net-11
   - net-20
@@ -360,6 +366,7 @@ items:
     return:
       type: System.Object
       description: To be added.
+  overload: System.Reflection.ParameterInfo.GetRealObject*
   platform:
   - net-11
   - net-20
@@ -384,6 +391,7 @@ items:
     return:
       type: System.Type[]
       description: To be added.
+  overload: System.Reflection.ParameterInfo.GetRequiredCustomModifiers*
   platform:
   - net-11
   - net-20
@@ -407,6 +415,7 @@ items:
     return:
       type: System.Boolean
       description: To be added.
+  overload: System.Reflection.ParameterInfo.HasDefaultValue*
   platform:
   - net-11
   - net-20
@@ -437,6 +446,7 @@ items:
     return:
       type: System.Boolean
       description: To be added.
+  overload: System.Reflection.ParameterInfo.IsDefined*
   platform:
   - net-11
   - net-20
@@ -460,6 +470,7 @@ items:
     return:
       type: System.Boolean
       description: To be added.
+  overload: System.Reflection.ParameterInfo.IsIn*
   platform:
   - net-11
   - net-20
@@ -483,6 +494,7 @@ items:
     return:
       type: System.Boolean
       description: To be added.
+  overload: System.Reflection.ParameterInfo.IsLcid*
   platform:
   - net-11
   - net-20
@@ -506,6 +518,7 @@ items:
     return:
       type: System.Boolean
       description: To be added.
+  overload: System.Reflection.ParameterInfo.IsOptional*
   platform:
   - net-11
   - net-20
@@ -529,6 +542,7 @@ items:
     return:
       type: System.Boolean
       description: To be added.
+  overload: System.Reflection.ParameterInfo.IsOut*
   platform:
   - net-11
   - net-20
@@ -552,6 +566,7 @@ items:
     return:
       type: System.Boolean
       description: To be added.
+  overload: System.Reflection.ParameterInfo.IsRetval*
   platform:
   - net-11
   - net-20
@@ -575,6 +590,7 @@ items:
     return:
       type: System.Reflection.MemberInfo
       description: To be added.
+  overload: System.Reflection.ParameterInfo.Member*
   platform:
   - net-11
   - net-20
@@ -621,6 +637,7 @@ items:
     return:
       type: System.Int32
       description: To be added.
+  overload: System.Reflection.ParameterInfo.MetadataToken*
   platform:
   - net-11
   - net-20
@@ -644,6 +661,7 @@ items:
     return:
       type: System.String
       description: To be added.
+  overload: System.Reflection.ParameterInfo.Name*
   platform:
   - net-11
   - net-20
@@ -690,6 +708,7 @@ items:
     return:
       type: System.Type
       description: To be added.
+  overload: System.Reflection.ParameterInfo.ParameterType*
   platform:
   - net-11
   - net-20
@@ -713,6 +732,7 @@ items:
     return:
       type: System.Int32
       description: To be added.
+  overload: System.Reflection.ParameterInfo.Position*
   platform:
   - net-11
   - net-20
@@ -759,6 +779,7 @@ items:
     return:
       type: System.Object
       description: To be added.
+  overload: System.Reflection.ParameterInfo.RawDefaultValue*
   platform:
   - net-11
   - net-20
@@ -796,6 +817,7 @@ items:
     - id: rgDispId
       type: System.IntPtr
       description: To be added.
+  overload: System.Reflection.ParameterInfo.System#Runtime#InteropServices#_ParameterInfo#GetIDsOfNames*
   platform:
   - net-11
   - net-20
@@ -827,6 +849,7 @@ items:
     - id: ppTInfo
       type: System.IntPtr
       description: To be added.
+  overload: System.Reflection.ParameterInfo.System#Runtime#InteropServices#_ParameterInfo#GetTypeInfo*
   platform:
   - net-11
   - net-20
@@ -852,6 +875,7 @@ items:
     - id: pcTInfo
       type: System.UInt32
       description: To be added.
+  overload: System.Reflection.ParameterInfo.System#Runtime#InteropServices#_ParameterInfo#GetTypeInfoCount*
   platform:
   - net-11
   - net-20
@@ -898,6 +922,7 @@ items:
     - id: puArgErr
       type: System.IntPtr
       description: To be added.
+  overload: System.Reflection.ParameterInfo.System#Runtime#InteropServices#_ParameterInfo#Invoke*
   platform:
   - net-11
   - net-20
@@ -922,6 +947,7 @@ items:
     return:
       type: System.String
       description: To be added.
+  overload: System.Reflection.ParameterInfo.ToString*
   platform:
   - net-11
   - net-20
@@ -1446,8 +1472,138 @@ references:
   name: String
   nameWithType: String
   fullName: System.String
+- uid: System.Reflection.ParameterInfo.#ctor*
+  parent: System.Reflection.ParameterInfo
+  isExternal: false
+  name: ParameterInfo
+  nameWithType: ParameterInfo.ParameterInfo
+- uid: System.Reflection.ParameterInfo.Attributes*
+  parent: System.Reflection.ParameterInfo
+  isExternal: false
+  name: Attributes
+  nameWithType: ParameterInfo.Attributes
+- uid: System.Reflection.ParameterInfo.CustomAttributes*
+  parent: System.Reflection.ParameterInfo
+  isExternal: false
+  name: CustomAttributes
+  nameWithType: ParameterInfo.CustomAttributes
+- uid: System.Reflection.ParameterInfo.DefaultValue*
+  parent: System.Reflection.ParameterInfo
+  isExternal: false
+  name: DefaultValue
+  nameWithType: ParameterInfo.DefaultValue
 - uid: System.Reflection.ParameterInfo.GetCustomAttributes*
   parent: System.Reflection.ParameterInfo
   isExternal: false
   name: GetCustomAttributes
   nameWithType: ParameterInfo.GetCustomAttributes
+- uid: System.Reflection.ParameterInfo.GetCustomAttributesData*
+  parent: System.Reflection.ParameterInfo
+  isExternal: false
+  name: GetCustomAttributesData
+  nameWithType: ParameterInfo.GetCustomAttributesData
+- uid: System.Reflection.ParameterInfo.GetOptionalCustomModifiers*
+  parent: System.Reflection.ParameterInfo
+  isExternal: false
+  name: GetOptionalCustomModifiers
+  nameWithType: ParameterInfo.GetOptionalCustomModifiers
+- uid: System.Reflection.ParameterInfo.GetRealObject*
+  parent: System.Reflection.ParameterInfo
+  isExternal: false
+  name: GetRealObject
+  nameWithType: ParameterInfo.GetRealObject
+- uid: System.Reflection.ParameterInfo.GetRequiredCustomModifiers*
+  parent: System.Reflection.ParameterInfo
+  isExternal: false
+  name: GetRequiredCustomModifiers
+  nameWithType: ParameterInfo.GetRequiredCustomModifiers
+- uid: System.Reflection.ParameterInfo.HasDefaultValue*
+  parent: System.Reflection.ParameterInfo
+  isExternal: false
+  name: HasDefaultValue
+  nameWithType: ParameterInfo.HasDefaultValue
+- uid: System.Reflection.ParameterInfo.IsDefined*
+  parent: System.Reflection.ParameterInfo
+  isExternal: false
+  name: IsDefined
+  nameWithType: ParameterInfo.IsDefined
+- uid: System.Reflection.ParameterInfo.IsIn*
+  parent: System.Reflection.ParameterInfo
+  isExternal: false
+  name: IsIn
+  nameWithType: ParameterInfo.IsIn
+- uid: System.Reflection.ParameterInfo.IsLcid*
+  parent: System.Reflection.ParameterInfo
+  isExternal: false
+  name: IsLcid
+  nameWithType: ParameterInfo.IsLcid
+- uid: System.Reflection.ParameterInfo.IsOptional*
+  parent: System.Reflection.ParameterInfo
+  isExternal: false
+  name: IsOptional
+  nameWithType: ParameterInfo.IsOptional
+- uid: System.Reflection.ParameterInfo.IsOut*
+  parent: System.Reflection.ParameterInfo
+  isExternal: false
+  name: IsOut
+  nameWithType: ParameterInfo.IsOut
+- uid: System.Reflection.ParameterInfo.IsRetval*
+  parent: System.Reflection.ParameterInfo
+  isExternal: false
+  name: IsRetval
+  nameWithType: ParameterInfo.IsRetval
+- uid: System.Reflection.ParameterInfo.Member*
+  parent: System.Reflection.ParameterInfo
+  isExternal: false
+  name: Member
+  nameWithType: ParameterInfo.Member
+- uid: System.Reflection.ParameterInfo.MetadataToken*
+  parent: System.Reflection.ParameterInfo
+  isExternal: false
+  name: MetadataToken
+  nameWithType: ParameterInfo.MetadataToken
+- uid: System.Reflection.ParameterInfo.Name*
+  parent: System.Reflection.ParameterInfo
+  isExternal: false
+  name: Name
+  nameWithType: ParameterInfo.Name
+- uid: System.Reflection.ParameterInfo.ParameterType*
+  parent: System.Reflection.ParameterInfo
+  isExternal: false
+  name: ParameterType
+  nameWithType: ParameterInfo.ParameterType
+- uid: System.Reflection.ParameterInfo.Position*
+  parent: System.Reflection.ParameterInfo
+  isExternal: false
+  name: Position
+  nameWithType: ParameterInfo.Position
+- uid: System.Reflection.ParameterInfo.RawDefaultValue*
+  parent: System.Reflection.ParameterInfo
+  isExternal: false
+  name: RawDefaultValue
+  nameWithType: ParameterInfo.RawDefaultValue
+- uid: System.Reflection.ParameterInfo.System#Runtime#InteropServices#_ParameterInfo#GetIDsOfNames*
+  parent: System.Reflection.ParameterInfo
+  isExternal: false
+  name: System.Runtime.InteropServices._ParameterInfo.GetIDsOfNames
+  nameWithType: ParameterInfo.System.Runtime.InteropServices._ParameterInfo.GetIDsOfNames
+- uid: System.Reflection.ParameterInfo.System#Runtime#InteropServices#_ParameterInfo#GetTypeInfo*
+  parent: System.Reflection.ParameterInfo
+  isExternal: false
+  name: System.Runtime.InteropServices._ParameterInfo.GetTypeInfo
+  nameWithType: ParameterInfo.System.Runtime.InteropServices._ParameterInfo.GetTypeInfo
+- uid: System.Reflection.ParameterInfo.System#Runtime#InteropServices#_ParameterInfo#GetTypeInfoCount*
+  parent: System.Reflection.ParameterInfo
+  isExternal: false
+  name: System.Runtime.InteropServices._ParameterInfo.GetTypeInfoCount
+  nameWithType: ParameterInfo.System.Runtime.InteropServices._ParameterInfo.GetTypeInfoCount
+- uid: System.Reflection.ParameterInfo.System#Runtime#InteropServices#_ParameterInfo#Invoke*
+  parent: System.Reflection.ParameterInfo
+  isExternal: false
+  name: System.Runtime.InteropServices._ParameterInfo.Invoke
+  nameWithType: ParameterInfo.System.Runtime.InteropServices._ParameterInfo.Invoke
+- uid: System.Reflection.ParameterInfo.ToString*
+  parent: System.Reflection.ParameterInfo
+  isExternal: false
+  name: ToString
+  nameWithType: ParameterInfo.ToString

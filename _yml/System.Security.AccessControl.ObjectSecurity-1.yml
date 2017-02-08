@@ -132,6 +132,7 @@ items:
     - id: resourceType
       type: System.Security.AccessControl.ResourceType
       description: To be added.
+  overload: System.Security.AccessControl.ObjectSecurity`1.#ctor*
   platform:
   - net-11
   - net-20
@@ -165,6 +166,7 @@ items:
     - id: includeSections
       type: System.Security.AccessControl.AccessControlSections
       description: To be added.
+  overload: System.Security.AccessControl.ObjectSecurity`1.#ctor*
   platform:
   - net-11
   - net-20
@@ -198,6 +200,7 @@ items:
     - id: includeSections
       type: System.Security.AccessControl.AccessControlSections
       description: To be added.
+  overload: System.Security.AccessControl.ObjectSecurity`1.#ctor*
   platform:
   - net-11
   - net-20
@@ -237,6 +240,7 @@ items:
     - id: exceptionContext
       type: System.Object
       description: To be added.
+  overload: System.Security.AccessControl.ObjectSecurity`1.#ctor*
   platform:
   - net-11
   - net-20
@@ -276,6 +280,7 @@ items:
     - id: exceptionContext
       type: System.Object
       description: To be added.
+  overload: System.Security.AccessControl.ObjectSecurity`1.#ctor*
   platform:
   - net-11
   - net-20
@@ -299,6 +304,7 @@ items:
     return:
       type: System.Type
       description: To be added.
+  overload: System.Security.AccessControl.ObjectSecurity`1.AccessRightType*
   platform:
   - net-11
   - net-20
@@ -341,6 +347,7 @@ items:
     return:
       type: System.Security.AccessControl.AccessRule
       description: To be added.
+  overload: System.Security.AccessControl.ObjectSecurity`1.AccessRuleFactory*
   platform:
   - net-11
   - net-20
@@ -364,6 +371,7 @@ items:
     return:
       type: System.Type
       description: To be added.
+  overload: System.Security.AccessControl.ObjectSecurity`1.AccessRuleType*
   platform:
   - net-11
   - net-20
@@ -388,6 +396,7 @@ items:
     - id: rule
       type: System.Security.AccessControl.AccessRule`1
       description: To be added.
+  overload: System.Security.AccessControl.ObjectSecurity`1.AddAccessRule*
   platform:
   - net-11
   - net-20
@@ -412,6 +421,7 @@ items:
     - id: rule
       type: System.Security.AccessControl.AuditRule`1
       description: To be added.
+  overload: System.Security.AccessControl.ObjectSecurity`1.AddAuditRule*
   platform:
   - net-11
   - net-20
@@ -454,6 +464,7 @@ items:
     return:
       type: System.Security.AccessControl.AuditRule
       description: To be added.
+  overload: System.Security.AccessControl.ObjectSecurity`1.AuditRuleFactory*
   platform:
   - net-11
   - net-20
@@ -477,6 +488,7 @@ items:
     return:
       type: System.Type
       description: To be added.
+  overload: System.Security.AccessControl.ObjectSecurity`1.AuditRuleType*
   platform:
   - net-11
   - net-20
@@ -554,6 +566,7 @@ items:
     return:
       type: System.Boolean
       description: To be added.
+  overload: System.Security.AccessControl.ObjectSecurity`1.RemoveAccessRule*
   platform:
   - net-11
   - net-20
@@ -578,6 +591,7 @@ items:
     - id: rule
       type: System.Security.AccessControl.AccessRule`1
       description: To be added.
+  overload: System.Security.AccessControl.ObjectSecurity`1.RemoveAccessRuleAll*
   platform:
   - net-11
   - net-20
@@ -602,6 +616,7 @@ items:
     - id: rule
       type: System.Security.AccessControl.AccessRule`1
       description: To be added.
+  overload: System.Security.AccessControl.ObjectSecurity`1.RemoveAccessRuleSpecific*
   platform:
   - net-11
   - net-20
@@ -629,6 +644,7 @@ items:
     return:
       type: System.Boolean
       description: To be added.
+  overload: System.Security.AccessControl.ObjectSecurity`1.RemoveAuditRule*
   platform:
   - net-11
   - net-20
@@ -653,6 +669,7 @@ items:
     - id: rule
       type: System.Security.AccessControl.AuditRule`1
       description: To be added.
+  overload: System.Security.AccessControl.ObjectSecurity`1.RemoveAuditRuleAll*
   platform:
   - net-11
   - net-20
@@ -677,6 +694,7 @@ items:
     - id: rule
       type: System.Security.AccessControl.AuditRule`1
       description: To be added.
+  overload: System.Security.AccessControl.ObjectSecurity`1.RemoveAuditRuleSpecific*
   platform:
   - net-11
   - net-20
@@ -701,6 +719,7 @@ items:
     - id: rule
       type: System.Security.AccessControl.AccessRule`1
       description: To be added.
+  overload: System.Security.AccessControl.ObjectSecurity`1.ResetAccessRule*
   platform:
   - net-11
   - net-20
@@ -725,6 +744,7 @@ items:
     - id: rule
       type: System.Security.AccessControl.AccessRule`1
       description: To be added.
+  overload: System.Security.AccessControl.ObjectSecurity`1.SetAccessRule*
   platform:
   - net-11
   - net-20
@@ -749,6 +769,7 @@ items:
     - id: rule
       type: System.Security.AccessControl.AuditRule`1
       description: To be added.
+  overload: System.Security.AccessControl.ObjectSecurity`1.SetAuditRule*
   platform:
   - net-11
   - net-20
@@ -1219,8 +1240,93 @@ references:
   name: AuditRule<T>
   nameWithType: AuditRule<T>
   fullName: System.Security.AccessControl.AuditRule<T>
+- uid: System.Security.AccessControl.ObjectSecurity`1.#ctor*
+  parent: System.Security.AccessControl.ObjectSecurity`1
+  isExternal: false
+  name: ObjectSecurity<T>
+  nameWithType: ObjectSecurity<T>.ObjectSecurity<T>
+- uid: System.Security.AccessControl.ObjectSecurity`1.AccessRightType*
+  parent: System.Security.AccessControl.ObjectSecurity`1
+  isExternal: false
+  name: AccessRightType
+  nameWithType: ObjectSecurity<T>.AccessRightType
+- uid: System.Security.AccessControl.ObjectSecurity`1.AccessRuleFactory*
+  parent: System.Security.AccessControl.ObjectSecurity`1
+  isExternal: false
+  name: AccessRuleFactory
+  nameWithType: ObjectSecurity<T>.AccessRuleFactory
+- uid: System.Security.AccessControl.ObjectSecurity`1.AccessRuleType*
+  parent: System.Security.AccessControl.ObjectSecurity`1
+  isExternal: false
+  name: AccessRuleType
+  nameWithType: ObjectSecurity<T>.AccessRuleType
+- uid: System.Security.AccessControl.ObjectSecurity`1.AddAccessRule*
+  parent: System.Security.AccessControl.ObjectSecurity`1
+  isExternal: false
+  name: AddAccessRule
+  nameWithType: ObjectSecurity<T>.AddAccessRule
+- uid: System.Security.AccessControl.ObjectSecurity`1.AddAuditRule*
+  parent: System.Security.AccessControl.ObjectSecurity`1
+  isExternal: false
+  name: AddAuditRule
+  nameWithType: ObjectSecurity<T>.AddAuditRule
+- uid: System.Security.AccessControl.ObjectSecurity`1.AuditRuleFactory*
+  parent: System.Security.AccessControl.ObjectSecurity`1
+  isExternal: false
+  name: AuditRuleFactory
+  nameWithType: ObjectSecurity<T>.AuditRuleFactory
+- uid: System.Security.AccessControl.ObjectSecurity`1.AuditRuleType*
+  parent: System.Security.AccessControl.ObjectSecurity`1
+  isExternal: false
+  name: AuditRuleType
+  nameWithType: ObjectSecurity<T>.AuditRuleType
 - uid: System.Security.AccessControl.ObjectSecurity`1.Persist*
   parent: System.Security.AccessControl.ObjectSecurity`1
   isExternal: false
   name: Persist
   nameWithType: ObjectSecurity<T>.Persist
+- uid: System.Security.AccessControl.ObjectSecurity`1.RemoveAccessRule*
+  parent: System.Security.AccessControl.ObjectSecurity`1
+  isExternal: false
+  name: RemoveAccessRule
+  nameWithType: ObjectSecurity<T>.RemoveAccessRule
+- uid: System.Security.AccessControl.ObjectSecurity`1.RemoveAccessRuleAll*
+  parent: System.Security.AccessControl.ObjectSecurity`1
+  isExternal: false
+  name: RemoveAccessRuleAll
+  nameWithType: ObjectSecurity<T>.RemoveAccessRuleAll
+- uid: System.Security.AccessControl.ObjectSecurity`1.RemoveAccessRuleSpecific*
+  parent: System.Security.AccessControl.ObjectSecurity`1
+  isExternal: false
+  name: RemoveAccessRuleSpecific
+  nameWithType: ObjectSecurity<T>.RemoveAccessRuleSpecific
+- uid: System.Security.AccessControl.ObjectSecurity`1.RemoveAuditRule*
+  parent: System.Security.AccessControl.ObjectSecurity`1
+  isExternal: false
+  name: RemoveAuditRule
+  nameWithType: ObjectSecurity<T>.RemoveAuditRule
+- uid: System.Security.AccessControl.ObjectSecurity`1.RemoveAuditRuleAll*
+  parent: System.Security.AccessControl.ObjectSecurity`1
+  isExternal: false
+  name: RemoveAuditRuleAll
+  nameWithType: ObjectSecurity<T>.RemoveAuditRuleAll
+- uid: System.Security.AccessControl.ObjectSecurity`1.RemoveAuditRuleSpecific*
+  parent: System.Security.AccessControl.ObjectSecurity`1
+  isExternal: false
+  name: RemoveAuditRuleSpecific
+  nameWithType: ObjectSecurity<T>.RemoveAuditRuleSpecific
+- uid: System.Security.AccessControl.ObjectSecurity`1.ResetAccessRule*
+  parent: System.Security.AccessControl.ObjectSecurity`1
+  isExternal: false
+  name: ResetAccessRule
+  nameWithType: ObjectSecurity<T>.ResetAccessRule
+- uid: System.Security.AccessControl.ObjectSecurity`1.SetAccessRule*
+  parent: System.Security.AccessControl.ObjectSecurity`1
+  isExternal: false
+  name: SetAccessRule
+  nameWithType: ObjectSecurity<T>.SetAccessRule
+- uid: System.Security.AccessControl.ObjectSecurity`1.SetAuditRule*
+  parent: System.Security.AccessControl.ObjectSecurity`1
+  isExternal: false
+  name: SetAuditRule
+  nameWithType: ObjectSecurity<T>.SetAuditRule

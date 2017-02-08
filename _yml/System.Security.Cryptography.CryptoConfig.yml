@@ -56,6 +56,7 @@ items:
   syntax:
     content: public CryptoConfig ();
     parameters: []
+  overload: System.Security.Cryptography.CryptoConfig.#ctor*
   platform:
   - net-11
   - net-20
@@ -83,6 +84,7 @@ items:
     - id: names
       type: System.String[]
       description: To be added.
+  overload: System.Security.Cryptography.CryptoConfig.AddAlgorithm*
   platform:
   - net-11
   - net-20
@@ -110,6 +112,7 @@ items:
     - id: names
       type: System.String[]
       description: To be added.
+  overload: System.Security.Cryptography.CryptoConfig.AddOID*
   platform:
   - net-11
   - net-20
@@ -133,6 +136,7 @@ items:
     return:
       type: System.Boolean
       description: To be added.
+  overload: System.Security.Cryptography.CryptoConfig.AllowOnlyFipsAlgorithms*
   platform:
   - net-11
   - net-20
@@ -219,6 +223,7 @@ items:
     return:
       type: System.Byte[]
       description: To be added.
+  overload: System.Security.Cryptography.CryptoConfig.EncodeOID*
   platform:
   - net-11
   - net-20
@@ -246,6 +251,7 @@ items:
     return:
       type: System.String
       description: To be added.
+  overload: System.Security.Cryptography.CryptoConfig.MapNameToOID*
   platform:
   - net-11
   - net-20
@@ -386,8 +392,38 @@ references:
   name: String
   nameWithType: String
   fullName: System.String
+- uid: System.Security.Cryptography.CryptoConfig.#ctor*
+  parent: System.Security.Cryptography.CryptoConfig
+  isExternal: false
+  name: CryptoConfig
+  nameWithType: CryptoConfig.CryptoConfig
+- uid: System.Security.Cryptography.CryptoConfig.AddAlgorithm*
+  parent: System.Security.Cryptography.CryptoConfig
+  isExternal: false
+  name: AddAlgorithm
+  nameWithType: CryptoConfig.AddAlgorithm
+- uid: System.Security.Cryptography.CryptoConfig.AddOID*
+  parent: System.Security.Cryptography.CryptoConfig
+  isExternal: false
+  name: AddOID
+  nameWithType: CryptoConfig.AddOID
+- uid: System.Security.Cryptography.CryptoConfig.AllowOnlyFipsAlgorithms*
+  parent: System.Security.Cryptography.CryptoConfig
+  isExternal: false
+  name: AllowOnlyFipsAlgorithms
+  nameWithType: CryptoConfig.AllowOnlyFipsAlgorithms
 - uid: System.Security.Cryptography.CryptoConfig.CreateFromName*
   parent: System.Security.Cryptography.CryptoConfig
   isExternal: false
   name: CreateFromName
   nameWithType: CryptoConfig.CreateFromName
+- uid: System.Security.Cryptography.CryptoConfig.EncodeOID*
+  parent: System.Security.Cryptography.CryptoConfig
+  isExternal: false
+  name: EncodeOID
+  nameWithType: CryptoConfig.EncodeOID
+- uid: System.Security.Cryptography.CryptoConfig.MapNameToOID*
+  parent: System.Security.Cryptography.CryptoConfig
+  isExternal: false
+  name: MapNameToOID
+  nameWithType: CryptoConfig.MapNameToOID

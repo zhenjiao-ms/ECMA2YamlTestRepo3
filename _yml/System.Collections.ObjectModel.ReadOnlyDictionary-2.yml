@@ -100,6 +100,7 @@ items:
     - id: dictionary
       type: System.Collections.Generic.IDictionary`2
       description: To be added.
+  overload: System.Collections.ObjectModel.ReadOnlyDictionary`2.#ctor*
   platform:
   - net-11
   - net-20
@@ -127,6 +128,7 @@ items:
     return:
       type: System.Boolean
       description: To be added.
+  overload: System.Collections.ObjectModel.ReadOnlyDictionary`2.ContainsKey*
   platform:
   - net-11
   - net-20
@@ -150,6 +152,7 @@ items:
     return:
       type: System.Int32
       description: To be added.
+  overload: System.Collections.ObjectModel.ReadOnlyDictionary`2.Count*
   platform:
   - net-11
   - net-20
@@ -173,6 +176,7 @@ items:
     return:
       type: System.Collections.Generic.IDictionary`2
       description: To be added.
+  overload: System.Collections.ObjectModel.ReadOnlyDictionary`2.Dictionary*
   platform:
   - net-11
   - net-20
@@ -197,6 +201,7 @@ items:
     return:
       type: System.Collections.Generic.IEnumerator{System.Collections.Generic.KeyValuePair{TKey,TValue}}
       description: To be added.
+  overload: System.Collections.ObjectModel.ReadOnlyDictionary`2.GetEnumerator*
   platform:
   - net-11
   - net-20
@@ -224,6 +229,7 @@ items:
     return:
       type: TValue
       description: To be added.
+  overload: System.Collections.ObjectModel.ReadOnlyDictionary`2.Item*
   platform:
   - net-11
   - net-20
@@ -247,6 +253,7 @@ items:
     return:
       type: System.Collections.ObjectModel.ReadOnlyDictionary`2.KeyCollection
       description: To be added.
+  overload: System.Collections.ObjectModel.ReadOnlyDictionary`2.Keys*
   platform:
   - net-11
   - net-20
@@ -272,6 +279,7 @@ items:
     - id: item
       type: System.Collections.Generic.KeyValuePair`2
       description: To be added.
+  overload: System.Collections.ObjectModel.ReadOnlyDictionary`2.System#Collections#Generic#ICollection<System#Collections#Generic#KeyValuePair<TKey,TValue>>#Add*
   platform:
   - net-11
   - net-20
@@ -294,6 +302,7 @@ items:
   syntax:
     content: void ICollection<KeyValuePair<TKey,TValue>>.Clear ();
     parameters: []
+  overload: System.Collections.ObjectModel.ReadOnlyDictionary`2.System#Collections#Generic#ICollection<System#Collections#Generic#KeyValuePair<TKey,TValue>>#Clear*
   platform:
   - net-11
   - net-20
@@ -322,6 +331,7 @@ items:
     return:
       type: System.Boolean
       description: To be added.
+  overload: System.Collections.ObjectModel.ReadOnlyDictionary`2.System#Collections#Generic#ICollection<System#Collections#Generic#KeyValuePair<TKey,TValue>>#Contains*
   platform:
   - net-11
   - net-20
@@ -350,6 +360,7 @@ items:
     - id: arrayIndex
       type: System.Int32
       description: To be added.
+  overload: System.Collections.ObjectModel.ReadOnlyDictionary`2.System#Collections#Generic#ICollection<System#Collections#Generic#KeyValuePair<TKey,TValue>>#CopyTo*
   platform:
   - net-11
   - net-20
@@ -374,6 +385,7 @@ items:
     return:
       type: System.Boolean
       description: To be added.
+  overload: System.Collections.ObjectModel.ReadOnlyDictionary`2.System#Collections#Generic#ICollection<System#Collections#Generic#KeyValuePair<TKey,TValue>>#IsReadOnly*
   platform:
   - net-11
   - net-20
@@ -402,6 +414,7 @@ items:
     return:
       type: System.Boolean
       description: To be added.
+  overload: System.Collections.ObjectModel.ReadOnlyDictionary`2.System#Collections#Generic#ICollection<System#Collections#Generic#KeyValuePair<TKey,TValue>>#Remove*
   platform:
   - net-11
   - net-20
@@ -430,6 +443,7 @@ items:
     - id: value
       type: TValue
       description: To be added.
+  overload: System.Collections.ObjectModel.ReadOnlyDictionary`2.System#Collections#Generic#IDictionary<TKey,TValue>#Add*
   platform:
   - net-11
   - net-20
@@ -458,6 +472,7 @@ items:
     return:
       type: TValue
       description: To be added.
+  overload: System.Collections.ObjectModel.ReadOnlyDictionary`2.System#Collections#Generic#IDictionary<TKey,TValue>#Item*
   platform:
   - net-11
   - net-20
@@ -482,6 +497,7 @@ items:
     return:
       type: System.Collections.Generic.ICollection{TKey}
       description: To be added.
+  overload: System.Collections.ObjectModel.ReadOnlyDictionary`2.System#Collections#Generic#IDictionary<TKey,TValue>#Keys*
   platform:
   - net-11
   - net-20
@@ -510,6 +526,7 @@ items:
     return:
       type: System.Boolean
       description: To be added.
+  overload: System.Collections.ObjectModel.ReadOnlyDictionary`2.System#Collections#Generic#IDictionary<TKey,TValue>#Remove*
   platform:
   - net-11
   - net-20
@@ -534,6 +551,7 @@ items:
     return:
       type: System.Collections.Generic.ICollection{TValue}
       description: To be added.
+  overload: System.Collections.ObjectModel.ReadOnlyDictionary`2.System#Collections#Generic#IDictionary<TKey,TValue>#Values*
   platform:
   - net-11
   - net-20
@@ -558,6 +576,7 @@ items:
     return:
       type: System.Collections.Generic.IEnumerable{TKey}
       description: To be added.
+  overload: System.Collections.ObjectModel.ReadOnlyDictionary`2.System#Collections#Generic#IReadOnlyDictionary<TKey,TValue>#Keys*
   platform:
   - net-11
   - net-20
@@ -582,6 +601,7 @@ items:
     return:
       type: System.Collections.Generic.IEnumerable{TValue}
       description: To be added.
+  overload: System.Collections.ObjectModel.ReadOnlyDictionary`2.System#Collections#Generic#IReadOnlyDictionary<TKey,TValue>#Values*
   platform:
   - net-11
   - net-20
@@ -610,6 +630,7 @@ items:
     - id: index
       type: System.Int32
       description: To be added.
+  overload: System.Collections.ObjectModel.ReadOnlyDictionary`2.System#Collections#ICollection#CopyTo*
   platform:
   - net-11
   - net-20
@@ -634,6 +655,7 @@ items:
     return:
       type: System.Boolean
       description: To be added.
+  overload: System.Collections.ObjectModel.ReadOnlyDictionary`2.System#Collections#ICollection#IsSynchronized*
   platform:
   - net-11
   - net-20
@@ -658,6 +680,7 @@ items:
     return:
       type: System.Object
       description: To be added.
+  overload: System.Collections.ObjectModel.ReadOnlyDictionary`2.System#Collections#ICollection#SyncRoot*
   platform:
   - net-11
   - net-20
@@ -686,6 +709,7 @@ items:
     - id: value
       type: System.Object
       description: To be added.
+  overload: System.Collections.ObjectModel.ReadOnlyDictionary`2.System#Collections#IDictionary#Add*
   platform:
   - net-11
   - net-20
@@ -708,6 +732,7 @@ items:
   syntax:
     content: void IDictionary.Clear ();
     parameters: []
+  overload: System.Collections.ObjectModel.ReadOnlyDictionary`2.System#Collections#IDictionary#Clear*
   platform:
   - net-11
   - net-20
@@ -736,6 +761,7 @@ items:
     return:
       type: System.Boolean
       description: To be added.
+  overload: System.Collections.ObjectModel.ReadOnlyDictionary`2.System#Collections#IDictionary#Contains*
   platform:
   - net-11
   - net-20
@@ -761,6 +787,7 @@ items:
     return:
       type: System.Collections.IDictionaryEnumerator
       description: To be added.
+  overload: System.Collections.ObjectModel.ReadOnlyDictionary`2.System#Collections#IDictionary#GetEnumerator*
   platform:
   - net-11
   - net-20
@@ -785,6 +812,7 @@ items:
     return:
       type: System.Boolean
       description: To be added.
+  overload: System.Collections.ObjectModel.ReadOnlyDictionary`2.System#Collections#IDictionary#IsFixedSize*
   platform:
   - net-11
   - net-20
@@ -809,6 +837,7 @@ items:
     return:
       type: System.Boolean
       description: To be added.
+  overload: System.Collections.ObjectModel.ReadOnlyDictionary`2.System#Collections#IDictionary#IsReadOnly*
   platform:
   - net-11
   - net-20
@@ -837,6 +866,7 @@ items:
     return:
       type: System.Object
       description: To be added.
+  overload: System.Collections.ObjectModel.ReadOnlyDictionary`2.System#Collections#IDictionary#Item*
   platform:
   - net-11
   - net-20
@@ -861,6 +891,7 @@ items:
     return:
       type: System.Collections.ICollection
       description: To be added.
+  overload: System.Collections.ObjectModel.ReadOnlyDictionary`2.System#Collections#IDictionary#Keys*
   platform:
   - net-11
   - net-20
@@ -886,6 +917,7 @@ items:
     - id: key
       type: System.Object
       description: To be added.
+  overload: System.Collections.ObjectModel.ReadOnlyDictionary`2.System#Collections#IDictionary#Remove*
   platform:
   - net-11
   - net-20
@@ -910,6 +942,7 @@ items:
     return:
       type: System.Collections.ICollection
       description: To be added.
+  overload: System.Collections.ObjectModel.ReadOnlyDictionary`2.System#Collections#IDictionary#Values*
   platform:
   - net-11
   - net-20
@@ -935,6 +968,7 @@ items:
     return:
       type: System.Collections.IEnumerator
       description: To be added.
+  overload: System.Collections.ObjectModel.ReadOnlyDictionary`2.System#Collections#IEnumerable#GetEnumerator*
   platform:
   - net-11
   - net-20
@@ -965,6 +999,7 @@ items:
     return:
       type: System.Boolean
       description: To be added.
+  overload: System.Collections.ObjectModel.ReadOnlyDictionary`2.TryGetValue*
   platform:
   - net-11
   - net-20
@@ -988,6 +1023,7 @@ items:
     return:
       type: System.Collections.ObjectModel.ReadOnlyDictionary`2.ValueCollection
       description: To be added.
+  overload: System.Collections.ObjectModel.ReadOnlyDictionary`2.Values*
   platform:
   - net-11
   - net-20
@@ -1500,3 +1536,183 @@ references:
   name: ReadOnlyDictionary<TKey,TValue>+ValueCollection
   nameWithType: ReadOnlyDictionary<TKey,TValue>+ValueCollection
   fullName: System.Collections.ObjectModel.ReadOnlyDictionary<TKey,TValue>+ValueCollection
+- uid: System.Collections.ObjectModel.ReadOnlyDictionary`2.#ctor*
+  parent: System.Collections.ObjectModel.ReadOnlyDictionary`2
+  isExternal: false
+  name: ReadOnlyDictionary<TKey,TValue>
+  nameWithType: ReadOnlyDictionary<TKey,TValue>.ReadOnlyDictionary<TKey,TValue>
+- uid: System.Collections.ObjectModel.ReadOnlyDictionary`2.ContainsKey*
+  parent: System.Collections.ObjectModel.ReadOnlyDictionary`2
+  isExternal: false
+  name: ContainsKey
+  nameWithType: ReadOnlyDictionary<TKey,TValue>.ContainsKey
+- uid: System.Collections.ObjectModel.ReadOnlyDictionary`2.Count*
+  parent: System.Collections.ObjectModel.ReadOnlyDictionary`2
+  isExternal: false
+  name: Count
+  nameWithType: ReadOnlyDictionary<TKey,TValue>.Count
+- uid: System.Collections.ObjectModel.ReadOnlyDictionary`2.Dictionary*
+  parent: System.Collections.ObjectModel.ReadOnlyDictionary`2
+  isExternal: false
+  name: Dictionary
+  nameWithType: ReadOnlyDictionary<TKey,TValue>.Dictionary
+- uid: System.Collections.ObjectModel.ReadOnlyDictionary`2.GetEnumerator*
+  parent: System.Collections.ObjectModel.ReadOnlyDictionary`2
+  isExternal: false
+  name: GetEnumerator
+  nameWithType: ReadOnlyDictionary<TKey,TValue>.GetEnumerator
+- uid: System.Collections.ObjectModel.ReadOnlyDictionary`2.Item*
+  parent: System.Collections.ObjectModel.ReadOnlyDictionary`2
+  isExternal: false
+  name: Item
+  nameWithType: ReadOnlyDictionary<TKey,TValue>.Item
+- uid: System.Collections.ObjectModel.ReadOnlyDictionary`2.Keys*
+  parent: System.Collections.ObjectModel.ReadOnlyDictionary`2
+  isExternal: false
+  name: Keys
+  nameWithType: ReadOnlyDictionary<TKey,TValue>.Keys
+- uid: System.Collections.ObjectModel.ReadOnlyDictionary`2.System#Collections#Generic#ICollection<System#Collections#Generic#KeyValuePair<TKey,TValue>>#Add*
+  parent: System.Collections.ObjectModel.ReadOnlyDictionary`2
+  isExternal: false
+  name: System.Collections.Generic.ICollection<System.Collections.Generic.KeyValuePair<TKey,TValue>>.Add
+  nameWithType: ReadOnlyDictionary<TKey,TValue>.System.Collections.Generic.ICollection<System.Collections.Generic.KeyValuePair<TKey,TValue>>.Add
+- uid: System.Collections.ObjectModel.ReadOnlyDictionary`2.System#Collections#Generic#ICollection<System#Collections#Generic#KeyValuePair<TKey,TValue>>#Clear*
+  parent: System.Collections.ObjectModel.ReadOnlyDictionary`2
+  isExternal: false
+  name: System.Collections.Generic.ICollection<System.Collections.Generic.KeyValuePair<TKey,TValue>>.Clear
+  nameWithType: ReadOnlyDictionary<TKey,TValue>.System.Collections.Generic.ICollection<System.Collections.Generic.KeyValuePair<TKey,TValue>>.Clear
+- uid: System.Collections.ObjectModel.ReadOnlyDictionary`2.System#Collections#Generic#ICollection<System#Collections#Generic#KeyValuePair<TKey,TValue>>#Contains*
+  parent: System.Collections.ObjectModel.ReadOnlyDictionary`2
+  isExternal: false
+  name: System.Collections.Generic.ICollection<System.Collections.Generic.KeyValuePair<TKey,TValue>>.Contains
+  nameWithType: ReadOnlyDictionary<TKey,TValue>.System.Collections.Generic.ICollection<System.Collections.Generic.KeyValuePair<TKey,TValue>>.Contains
+- uid: System.Collections.ObjectModel.ReadOnlyDictionary`2.System#Collections#Generic#ICollection<System#Collections#Generic#KeyValuePair<TKey,TValue>>#CopyTo*
+  parent: System.Collections.ObjectModel.ReadOnlyDictionary`2
+  isExternal: false
+  name: System.Collections.Generic.ICollection<System.Collections.Generic.KeyValuePair<TKey,TValue>>.CopyTo
+  nameWithType: ReadOnlyDictionary<TKey,TValue>.System.Collections.Generic.ICollection<System.Collections.Generic.KeyValuePair<TKey,TValue>>.CopyTo
+- uid: System.Collections.ObjectModel.ReadOnlyDictionary`2.System#Collections#Generic#ICollection<System#Collections#Generic#KeyValuePair<TKey,TValue>>#IsReadOnly*
+  parent: System.Collections.ObjectModel.ReadOnlyDictionary`2
+  isExternal: false
+  name: System.Collections.Generic.ICollection<System.Collections.Generic.KeyValuePair<TKey,TValue>>.IsReadOnly
+  nameWithType: ReadOnlyDictionary<TKey,TValue>.System.Collections.Generic.ICollection<System.Collections.Generic.KeyValuePair<TKey,TValue>>.IsReadOnly
+- uid: System.Collections.ObjectModel.ReadOnlyDictionary`2.System#Collections#Generic#ICollection<System#Collections#Generic#KeyValuePair<TKey,TValue>>#Remove*
+  parent: System.Collections.ObjectModel.ReadOnlyDictionary`2
+  isExternal: false
+  name: System.Collections.Generic.ICollection<System.Collections.Generic.KeyValuePair<TKey,TValue>>.Remove
+  nameWithType: ReadOnlyDictionary<TKey,TValue>.System.Collections.Generic.ICollection<System.Collections.Generic.KeyValuePair<TKey,TValue>>.Remove
+- uid: System.Collections.ObjectModel.ReadOnlyDictionary`2.System#Collections#Generic#IDictionary<TKey,TValue>#Add*
+  parent: System.Collections.ObjectModel.ReadOnlyDictionary`2
+  isExternal: false
+  name: System.Collections.Generic.IDictionary<TKey,TValue>.Add
+  nameWithType: ReadOnlyDictionary<TKey,TValue>.System.Collections.Generic.IDictionary<TKey,TValue>.Add
+- uid: System.Collections.ObjectModel.ReadOnlyDictionary`2.System#Collections#Generic#IDictionary<TKey,TValue>#Item*
+  parent: System.Collections.ObjectModel.ReadOnlyDictionary`2
+  isExternal: false
+  name: System.Collections.Generic.IDictionary<TKey,TValue>.Item
+  nameWithType: ReadOnlyDictionary<TKey,TValue>.System.Collections.Generic.IDictionary<TKey,TValue>.Item
+- uid: System.Collections.ObjectModel.ReadOnlyDictionary`2.System#Collections#Generic#IDictionary<TKey,TValue>#Keys*
+  parent: System.Collections.ObjectModel.ReadOnlyDictionary`2
+  isExternal: false
+  name: System.Collections.Generic.IDictionary<TKey,TValue>.Keys
+  nameWithType: ReadOnlyDictionary<TKey,TValue>.System.Collections.Generic.IDictionary<TKey,TValue>.Keys
+- uid: System.Collections.ObjectModel.ReadOnlyDictionary`2.System#Collections#Generic#IDictionary<TKey,TValue>#Remove*
+  parent: System.Collections.ObjectModel.ReadOnlyDictionary`2
+  isExternal: false
+  name: System.Collections.Generic.IDictionary<TKey,TValue>.Remove
+  nameWithType: ReadOnlyDictionary<TKey,TValue>.System.Collections.Generic.IDictionary<TKey,TValue>.Remove
+- uid: System.Collections.ObjectModel.ReadOnlyDictionary`2.System#Collections#Generic#IDictionary<TKey,TValue>#Values*
+  parent: System.Collections.ObjectModel.ReadOnlyDictionary`2
+  isExternal: false
+  name: System.Collections.Generic.IDictionary<TKey,TValue>.Values
+  nameWithType: ReadOnlyDictionary<TKey,TValue>.System.Collections.Generic.IDictionary<TKey,TValue>.Values
+- uid: System.Collections.ObjectModel.ReadOnlyDictionary`2.System#Collections#Generic#IReadOnlyDictionary<TKey,TValue>#Keys*
+  parent: System.Collections.ObjectModel.ReadOnlyDictionary`2
+  isExternal: false
+  name: System.Collections.Generic.IReadOnlyDictionary<TKey,TValue>.Keys
+  nameWithType: ReadOnlyDictionary<TKey,TValue>.System.Collections.Generic.IReadOnlyDictionary<TKey,TValue>.Keys
+- uid: System.Collections.ObjectModel.ReadOnlyDictionary`2.System#Collections#Generic#IReadOnlyDictionary<TKey,TValue>#Values*
+  parent: System.Collections.ObjectModel.ReadOnlyDictionary`2
+  isExternal: false
+  name: System.Collections.Generic.IReadOnlyDictionary<TKey,TValue>.Values
+  nameWithType: ReadOnlyDictionary<TKey,TValue>.System.Collections.Generic.IReadOnlyDictionary<TKey,TValue>.Values
+- uid: System.Collections.ObjectModel.ReadOnlyDictionary`2.System#Collections#ICollection#CopyTo*
+  parent: System.Collections.ObjectModel.ReadOnlyDictionary`2
+  isExternal: false
+  name: System.Collections.ICollection.CopyTo
+  nameWithType: ReadOnlyDictionary<TKey,TValue>.System.Collections.ICollection.CopyTo
+- uid: System.Collections.ObjectModel.ReadOnlyDictionary`2.System#Collections#ICollection#IsSynchronized*
+  parent: System.Collections.ObjectModel.ReadOnlyDictionary`2
+  isExternal: false
+  name: System.Collections.ICollection.IsSynchronized
+  nameWithType: ReadOnlyDictionary<TKey,TValue>.System.Collections.ICollection.IsSynchronized
+- uid: System.Collections.ObjectModel.ReadOnlyDictionary`2.System#Collections#ICollection#SyncRoot*
+  parent: System.Collections.ObjectModel.ReadOnlyDictionary`2
+  isExternal: false
+  name: System.Collections.ICollection.SyncRoot
+  nameWithType: ReadOnlyDictionary<TKey,TValue>.System.Collections.ICollection.SyncRoot
+- uid: System.Collections.ObjectModel.ReadOnlyDictionary`2.System#Collections#IDictionary#Add*
+  parent: System.Collections.ObjectModel.ReadOnlyDictionary`2
+  isExternal: false
+  name: System.Collections.IDictionary.Add
+  nameWithType: ReadOnlyDictionary<TKey,TValue>.System.Collections.IDictionary.Add
+- uid: System.Collections.ObjectModel.ReadOnlyDictionary`2.System#Collections#IDictionary#Clear*
+  parent: System.Collections.ObjectModel.ReadOnlyDictionary`2
+  isExternal: false
+  name: System.Collections.IDictionary.Clear
+  nameWithType: ReadOnlyDictionary<TKey,TValue>.System.Collections.IDictionary.Clear
+- uid: System.Collections.ObjectModel.ReadOnlyDictionary`2.System#Collections#IDictionary#Contains*
+  parent: System.Collections.ObjectModel.ReadOnlyDictionary`2
+  isExternal: false
+  name: System.Collections.IDictionary.Contains
+  nameWithType: ReadOnlyDictionary<TKey,TValue>.System.Collections.IDictionary.Contains
+- uid: System.Collections.ObjectModel.ReadOnlyDictionary`2.System#Collections#IDictionary#GetEnumerator*
+  parent: System.Collections.ObjectModel.ReadOnlyDictionary`2
+  isExternal: false
+  name: System.Collections.IDictionary.GetEnumerator
+  nameWithType: ReadOnlyDictionary<TKey,TValue>.System.Collections.IDictionary.GetEnumerator
+- uid: System.Collections.ObjectModel.ReadOnlyDictionary`2.System#Collections#IDictionary#IsFixedSize*
+  parent: System.Collections.ObjectModel.ReadOnlyDictionary`2
+  isExternal: false
+  name: System.Collections.IDictionary.IsFixedSize
+  nameWithType: ReadOnlyDictionary<TKey,TValue>.System.Collections.IDictionary.IsFixedSize
+- uid: System.Collections.ObjectModel.ReadOnlyDictionary`2.System#Collections#IDictionary#IsReadOnly*
+  parent: System.Collections.ObjectModel.ReadOnlyDictionary`2
+  isExternal: false
+  name: System.Collections.IDictionary.IsReadOnly
+  nameWithType: ReadOnlyDictionary<TKey,TValue>.System.Collections.IDictionary.IsReadOnly
+- uid: System.Collections.ObjectModel.ReadOnlyDictionary`2.System#Collections#IDictionary#Item*
+  parent: System.Collections.ObjectModel.ReadOnlyDictionary`2
+  isExternal: false
+  name: System.Collections.IDictionary.Item
+  nameWithType: ReadOnlyDictionary<TKey,TValue>.System.Collections.IDictionary.Item
+- uid: System.Collections.ObjectModel.ReadOnlyDictionary`2.System#Collections#IDictionary#Keys*
+  parent: System.Collections.ObjectModel.ReadOnlyDictionary`2
+  isExternal: false
+  name: System.Collections.IDictionary.Keys
+  nameWithType: ReadOnlyDictionary<TKey,TValue>.System.Collections.IDictionary.Keys
+- uid: System.Collections.ObjectModel.ReadOnlyDictionary`2.System#Collections#IDictionary#Remove*
+  parent: System.Collections.ObjectModel.ReadOnlyDictionary`2
+  isExternal: false
+  name: System.Collections.IDictionary.Remove
+  nameWithType: ReadOnlyDictionary<TKey,TValue>.System.Collections.IDictionary.Remove
+- uid: System.Collections.ObjectModel.ReadOnlyDictionary`2.System#Collections#IDictionary#Values*
+  parent: System.Collections.ObjectModel.ReadOnlyDictionary`2
+  isExternal: false
+  name: System.Collections.IDictionary.Values
+  nameWithType: ReadOnlyDictionary<TKey,TValue>.System.Collections.IDictionary.Values
+- uid: System.Collections.ObjectModel.ReadOnlyDictionary`2.System#Collections#IEnumerable#GetEnumerator*
+  parent: System.Collections.ObjectModel.ReadOnlyDictionary`2
+  isExternal: false
+  name: System.Collections.IEnumerable.GetEnumerator
+  nameWithType: ReadOnlyDictionary<TKey,TValue>.System.Collections.IEnumerable.GetEnumerator
+- uid: System.Collections.ObjectModel.ReadOnlyDictionary`2.TryGetValue*
+  parent: System.Collections.ObjectModel.ReadOnlyDictionary`2
+  isExternal: false
+  name: TryGetValue
+  nameWithType: ReadOnlyDictionary<TKey,TValue>.TryGetValue
+- uid: System.Collections.ObjectModel.ReadOnlyDictionary`2.Values*
+  parent: System.Collections.ObjectModel.ReadOnlyDictionary`2
+  isExternal: false
+  name: Values
+  nameWithType: ReadOnlyDictionary<TKey,TValue>.Values

@@ -54,6 +54,7 @@ items:
   syntax:
     content: public Progress ();
     parameters: []
+  overload: System.Progress`1.#ctor*
   platform:
   - net-11
   - net-20
@@ -78,6 +79,7 @@ items:
     - id: handler
       type: System.Action`1
       description: To be added.
+  overload: System.Progress`1.#ctor*
   platform:
   - net-11
   - net-20
@@ -102,6 +104,7 @@ items:
     - id: value
       type: T
       description: To be added.
+  overload: System.Progress`1.OnReport*
   platform:
   - net-11
   - net-20
@@ -150,6 +153,7 @@ items:
     - id: value
       type: T
       description: To be added.
+  overload: System.Progress`1.System#IProgress<T>#Report*
   platform:
   - net-11
   - net-20
@@ -212,3 +216,18 @@ references:
   name: T
   nameWithType: T
   fullName: T
+- uid: System.Progress`1.#ctor*
+  parent: System.Progress`1
+  isExternal: false
+  name: Progress<T>
+  nameWithType: Progress<T>.Progress<T>
+- uid: System.Progress`1.OnReport*
+  parent: System.Progress`1
+  isExternal: false
+  name: OnReport
+  nameWithType: Progress<T>.OnReport
+- uid: System.Progress`1.System#IProgress<T>#Report*
+  parent: System.Progress`1
+  isExternal: false
+  name: System.IProgress<T>.Report
+  nameWithType: Progress<T>.System.IProgress<T>.Report

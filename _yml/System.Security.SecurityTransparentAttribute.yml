@@ -89,6 +89,7 @@ items:
   syntax:
     content: public SecurityTransparentAttribute ();
     parameters: []
+  overload: System.Security.SecurityTransparentAttribute.#ctor*
   platform:
   - net-11
   - net-20
@@ -103,3 +104,8 @@ references:
   name: SecurityTransparentAttribute()
   nameWithType: SecurityTransparentAttribute.SecurityTransparentAttribute()
   fullName: System.Security.SecurityTransparentAttribute.SecurityTransparentAttribute()
+- uid: System.Security.SecurityTransparentAttribute.#ctor*
+  parent: System.Security.SecurityTransparentAttribute
+  isExternal: false
+  name: SecurityTransparentAttribute
+  nameWithType: SecurityTransparentAttribute.SecurityTransparentAttribute

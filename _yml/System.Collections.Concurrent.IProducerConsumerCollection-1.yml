@@ -50,6 +50,7 @@ items:
     - id: index
       type: System.Int32
       description: To be added.
+  overload: System.Collections.Concurrent.IProducerConsumerCollection`1.CopyTo*
   platform:
   - net-11
   - net-20
@@ -74,6 +75,7 @@ items:
     return:
       type: T[]
       description: To be added.
+  overload: System.Collections.Concurrent.IProducerConsumerCollection`1.ToArray*
   platform:
   - net-11
   - net-20
@@ -101,6 +103,7 @@ items:
     return:
       type: System.Boolean
       description: To be added.
+  overload: System.Collections.Concurrent.IProducerConsumerCollection`1.TryAdd*
   platform:
   - net-11
   - net-20
@@ -128,6 +131,7 @@ items:
     return:
       type: System.Boolean
       description: To be added.
+  overload: System.Collections.Concurrent.IProducerConsumerCollection`1.TryTake*
   platform:
   - net-11
   - net-20
@@ -199,3 +203,23 @@ references:
   name: T
   nameWithType: T
   fullName: T
+- uid: System.Collections.Concurrent.IProducerConsumerCollection`1.CopyTo*
+  parent: System.Collections.Concurrent.IProducerConsumerCollection`1
+  isExternal: false
+  name: CopyTo
+  nameWithType: IProducerConsumerCollection<T>.CopyTo
+- uid: System.Collections.Concurrent.IProducerConsumerCollection`1.ToArray*
+  parent: System.Collections.Concurrent.IProducerConsumerCollection`1
+  isExternal: false
+  name: ToArray
+  nameWithType: IProducerConsumerCollection<T>.ToArray
+- uid: System.Collections.Concurrent.IProducerConsumerCollection`1.TryAdd*
+  parent: System.Collections.Concurrent.IProducerConsumerCollection`1
+  isExternal: false
+  name: TryAdd
+  nameWithType: IProducerConsumerCollection<T>.TryAdd
+- uid: System.Collections.Concurrent.IProducerConsumerCollection`1.TryTake*
+  parent: System.Collections.Concurrent.IProducerConsumerCollection`1
+  isExternal: false
+  name: TryTake
+  nameWithType: IProducerConsumerCollection<T>.TryTake

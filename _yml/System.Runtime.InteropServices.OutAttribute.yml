@@ -91,6 +91,7 @@ items:
   syntax:
     content: public OutAttribute ();
     parameters: []
+  overload: System.Runtime.InteropServices.OutAttribute.#ctor*
   platform:
   - net-11
   - net-20
@@ -105,3 +106,8 @@ references:
   name: OutAttribute()
   nameWithType: OutAttribute.OutAttribute()
   fullName: System.Runtime.InteropServices.OutAttribute.OutAttribute()
+- uid: System.Runtime.InteropServices.OutAttribute.#ctor*
+  parent: System.Runtime.InteropServices.OutAttribute
+  isExternal: false
+  name: OutAttribute
+  nameWithType: OutAttribute.OutAttribute

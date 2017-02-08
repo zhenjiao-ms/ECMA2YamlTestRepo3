@@ -67,6 +67,7 @@ items:
     - id: constructorArgs
       type: System.Object[]
       description: To be added.
+  overload: System.Reflection.Emit.CustomAttributeBuilder.#ctor*
   platform:
   - net-11
   - net-20
@@ -100,6 +101,7 @@ items:
     - id: fieldValues
       type: System.Object[]
       description: To be added.
+  overload: System.Reflection.Emit.CustomAttributeBuilder.#ctor*
   platform:
   - net-11
   - net-20
@@ -133,6 +135,7 @@ items:
     - id: propertyValues
       type: System.Object[]
       description: To be added.
+  overload: System.Reflection.Emit.CustomAttributeBuilder.#ctor*
   platform:
   - net-11
   - net-20
@@ -172,6 +175,7 @@ items:
     - id: fieldValues
       type: System.Object[]
       description: To be added.
+  overload: System.Reflection.Emit.CustomAttributeBuilder.#ctor*
   platform:
   - net-11
   - net-20
@@ -209,6 +213,7 @@ items:
     - id: rgDispId
       type: System.IntPtr
       description: To be added.
+  overload: System.Reflection.Emit.CustomAttributeBuilder.System#Runtime#InteropServices#_CustomAttributeBuilder#GetIDsOfNames*
   platform:
   - net-11
   - net-20
@@ -240,6 +245,7 @@ items:
     - id: ppTInfo
       type: System.IntPtr
       description: To be added.
+  overload: System.Reflection.Emit.CustomAttributeBuilder.System#Runtime#InteropServices#_CustomAttributeBuilder#GetTypeInfo*
   platform:
   - net-11
   - net-20
@@ -265,6 +271,7 @@ items:
     - id: pcTInfo
       type: System.UInt32
       description: To be added.
+  overload: System.Reflection.Emit.CustomAttributeBuilder.System#Runtime#InteropServices#_CustomAttributeBuilder#GetTypeInfoCount*
   platform:
   - net-11
   - net-20
@@ -311,6 +318,7 @@ items:
     - id: puArgErr
       type: System.IntPtr
       description: To be added.
+  overload: System.Reflection.Emit.CustomAttributeBuilder.System#Runtime#InteropServices#_CustomAttributeBuilder#Invoke*
   platform:
   - net-11
   - net-20
@@ -565,3 +573,28 @@ references:
   name: IntPtr
   nameWithType: IntPtr
   fullName: System.IntPtr
+- uid: System.Reflection.Emit.CustomAttributeBuilder.#ctor*
+  parent: System.Reflection.Emit.CustomAttributeBuilder
+  isExternal: false
+  name: CustomAttributeBuilder
+  nameWithType: CustomAttributeBuilder.CustomAttributeBuilder
+- uid: System.Reflection.Emit.CustomAttributeBuilder.System#Runtime#InteropServices#_CustomAttributeBuilder#GetIDsOfNames*
+  parent: System.Reflection.Emit.CustomAttributeBuilder
+  isExternal: false
+  name: System.Runtime.InteropServices._CustomAttributeBuilder.GetIDsOfNames
+  nameWithType: CustomAttributeBuilder.System.Runtime.InteropServices._CustomAttributeBuilder.GetIDsOfNames
+- uid: System.Reflection.Emit.CustomAttributeBuilder.System#Runtime#InteropServices#_CustomAttributeBuilder#GetTypeInfo*
+  parent: System.Reflection.Emit.CustomAttributeBuilder
+  isExternal: false
+  name: System.Runtime.InteropServices._CustomAttributeBuilder.GetTypeInfo
+  nameWithType: CustomAttributeBuilder.System.Runtime.InteropServices._CustomAttributeBuilder.GetTypeInfo
+- uid: System.Reflection.Emit.CustomAttributeBuilder.System#Runtime#InteropServices#_CustomAttributeBuilder#GetTypeInfoCount*
+  parent: System.Reflection.Emit.CustomAttributeBuilder
+  isExternal: false
+  name: System.Runtime.InteropServices._CustomAttributeBuilder.GetTypeInfoCount
+  nameWithType: CustomAttributeBuilder.System.Runtime.InteropServices._CustomAttributeBuilder.GetTypeInfoCount
+- uid: System.Reflection.Emit.CustomAttributeBuilder.System#Runtime#InteropServices#_CustomAttributeBuilder#Invoke*
+  parent: System.Reflection.Emit.CustomAttributeBuilder
+  isExternal: false
+  name: System.Runtime.InteropServices._CustomAttributeBuilder.Invoke
+  nameWithType: CustomAttributeBuilder.System.Runtime.InteropServices._CustomAttributeBuilder.Invoke

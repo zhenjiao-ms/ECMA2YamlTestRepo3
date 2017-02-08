@@ -107,6 +107,7 @@ items:
   syntax:
     content: public ASCIIEncoding ();
     parameters: []
+  overload: System.Text.ASCIIEncoding.#ctor*
   platform:
   - net-11
   - net-20
@@ -483,6 +484,7 @@ items:
     return:
       type: System.Text.Decoder
       description: To be added.
+  overload: System.Text.ASCIIEncoding.GetDecoder*
   platform:
   - net-11
   - net-20
@@ -507,6 +509,7 @@ items:
     return:
       type: System.Text.Encoder
       description: To be added.
+  overload: System.Text.ASCIIEncoding.GetEncoder*
   platform:
   - net-11
   - net-20
@@ -534,6 +537,7 @@ items:
     return:
       type: System.Int32
       description: To be added.
+  overload: System.Text.ASCIIEncoding.GetMaxByteCount*
   platform:
   - net-11
   - net-20
@@ -561,6 +565,7 @@ items:
     return:
       type: System.Int32
       description: To be added.
+  overload: System.Text.ASCIIEncoding.GetMaxCharCount*
   platform:
   - net-11
   - net-20
@@ -594,6 +599,7 @@ items:
     return:
       type: System.String
       description: To be added.
+  overload: System.Text.ASCIIEncoding.GetString*
   platform:
   - net-11
   - net-20
@@ -617,6 +623,7 @@ items:
     return:
       type: System.Boolean
       description: To be added.
+  overload: System.Text.ASCIIEncoding.IsSingleByte*
   platform:
   - net-11
   - net-20
@@ -1021,6 +1028,11 @@ references:
   name: Boolean
   nameWithType: Boolean
   fullName: System.Boolean
+- uid: System.Text.ASCIIEncoding.#ctor*
+  parent: System.Text.ASCIIEncoding
+  isExternal: false
+  name: ASCIIEncoding
+  nameWithType: ASCIIEncoding.ASCIIEncoding
 - uid: System.Text.ASCIIEncoding.GetByteCount*
   parent: System.Text.ASCIIEncoding
   isExternal: false
@@ -1041,3 +1053,33 @@ references:
   isExternal: false
   name: GetChars
   nameWithType: ASCIIEncoding.GetChars
+- uid: System.Text.ASCIIEncoding.GetDecoder*
+  parent: System.Text.ASCIIEncoding
+  isExternal: false
+  name: GetDecoder
+  nameWithType: ASCIIEncoding.GetDecoder
+- uid: System.Text.ASCIIEncoding.GetEncoder*
+  parent: System.Text.ASCIIEncoding
+  isExternal: false
+  name: GetEncoder
+  nameWithType: ASCIIEncoding.GetEncoder
+- uid: System.Text.ASCIIEncoding.GetMaxByteCount*
+  parent: System.Text.ASCIIEncoding
+  isExternal: false
+  name: GetMaxByteCount
+  nameWithType: ASCIIEncoding.GetMaxByteCount
+- uid: System.Text.ASCIIEncoding.GetMaxCharCount*
+  parent: System.Text.ASCIIEncoding
+  isExternal: false
+  name: GetMaxCharCount
+  nameWithType: ASCIIEncoding.GetMaxCharCount
+- uid: System.Text.ASCIIEncoding.GetString*
+  parent: System.Text.ASCIIEncoding
+  isExternal: false
+  name: GetString
+  nameWithType: ASCIIEncoding.GetString
+- uid: System.Text.ASCIIEncoding.IsSingleByte*
+  parent: System.Text.ASCIIEncoding
+  isExternal: false
+  name: IsSingleByte
+  nameWithType: ASCIIEncoding.IsSingleByte

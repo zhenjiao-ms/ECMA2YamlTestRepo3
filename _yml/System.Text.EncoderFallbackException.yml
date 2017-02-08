@@ -68,6 +68,7 @@ items:
   syntax:
     content: public EncoderFallbackException ();
     parameters: []
+  overload: System.Text.EncoderFallbackException.#ctor*
   platform:
   - net-11
   - net-20
@@ -92,6 +93,7 @@ items:
     - id: message
       type: System.String
       description: To be added.
+  overload: System.Text.EncoderFallbackException.#ctor*
   platform:
   - net-11
   - net-20
@@ -119,6 +121,7 @@ items:
     - id: innerException
       type: System.Exception
       description: To be added.
+  overload: System.Text.EncoderFallbackException.#ctor*
   platform:
   - net-11
   - net-20
@@ -142,6 +145,7 @@ items:
     return:
       type: System.Char
       description: To be added.
+  overload: System.Text.EncoderFallbackException.CharUnknown*
   platform:
   - net-11
   - net-20
@@ -165,6 +169,7 @@ items:
     return:
       type: System.Char
       description: To be added.
+  overload: System.Text.EncoderFallbackException.CharUnknownHigh*
   platform:
   - net-11
   - net-20
@@ -188,6 +193,7 @@ items:
     return:
       type: System.Char
       description: To be added.
+  overload: System.Text.EncoderFallbackException.CharUnknownLow*
   platform:
   - net-11
   - net-20
@@ -211,6 +217,7 @@ items:
     return:
       type: System.Int32
       description: To be added.
+  overload: System.Text.EncoderFallbackException.Index*
   platform:
   - net-11
   - net-20
@@ -235,6 +242,7 @@ items:
     return:
       type: System.Boolean
       description: To be added.
+  overload: System.Text.EncoderFallbackException.IsUnknownSurrogate*
   platform:
   - net-11
   - net-20
@@ -339,3 +347,33 @@ references:
   name: Boolean
   nameWithType: Boolean
   fullName: System.Boolean
+- uid: System.Text.EncoderFallbackException.#ctor*
+  parent: System.Text.EncoderFallbackException
+  isExternal: false
+  name: EncoderFallbackException
+  nameWithType: EncoderFallbackException.EncoderFallbackException
+- uid: System.Text.EncoderFallbackException.CharUnknown*
+  parent: System.Text.EncoderFallbackException
+  isExternal: false
+  name: CharUnknown
+  nameWithType: EncoderFallbackException.CharUnknown
+- uid: System.Text.EncoderFallbackException.CharUnknownHigh*
+  parent: System.Text.EncoderFallbackException
+  isExternal: false
+  name: CharUnknownHigh
+  nameWithType: EncoderFallbackException.CharUnknownHigh
+- uid: System.Text.EncoderFallbackException.CharUnknownLow*
+  parent: System.Text.EncoderFallbackException
+  isExternal: false
+  name: CharUnknownLow
+  nameWithType: EncoderFallbackException.CharUnknownLow
+- uid: System.Text.EncoderFallbackException.Index*
+  parent: System.Text.EncoderFallbackException
+  isExternal: false
+  name: Index
+  nameWithType: EncoderFallbackException.Index
+- uid: System.Text.EncoderFallbackException.IsUnknownSurrogate*
+  parent: System.Text.EncoderFallbackException
+  isExternal: false
+  name: IsUnknownSurrogate
+  nameWithType: EncoderFallbackException.IsUnknownSurrogate

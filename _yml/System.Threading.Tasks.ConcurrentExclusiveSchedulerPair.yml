@@ -58,6 +58,7 @@ items:
   syntax:
     content: public ConcurrentExclusiveSchedulerPair ();
     parameters: []
+  overload: System.Threading.Tasks.ConcurrentExclusiveSchedulerPair.#ctor*
   platform:
   - net-11
   - net-20
@@ -82,6 +83,7 @@ items:
     - id: taskScheduler
       type: System.Threading.Tasks.TaskScheduler
       description: To be added.
+  overload: System.Threading.Tasks.ConcurrentExclusiveSchedulerPair.#ctor*
   platform:
   - net-11
   - net-20
@@ -109,6 +111,7 @@ items:
     - id: maxConcurrencyLevel
       type: System.Int32
       description: To be added.
+  overload: System.Threading.Tasks.ConcurrentExclusiveSchedulerPair.#ctor*
   platform:
   - net-11
   - net-20
@@ -139,6 +142,7 @@ items:
     - id: maxItemsPerTask
       type: System.Int32
       description: To be added.
+  overload: System.Threading.Tasks.ConcurrentExclusiveSchedulerPair.#ctor*
   platform:
   - net-11
   - net-20
@@ -160,6 +164,7 @@ items:
   syntax:
     content: public void Complete ();
     parameters: []
+  overload: System.Threading.Tasks.ConcurrentExclusiveSchedulerPair.Complete*
   platform:
   - net-11
   - net-20
@@ -183,6 +188,7 @@ items:
     return:
       type: System.Threading.Tasks.Task
       description: To be added.
+  overload: System.Threading.Tasks.ConcurrentExclusiveSchedulerPair.Completion*
   platform:
   - net-11
   - net-20
@@ -206,6 +212,7 @@ items:
     return:
       type: System.Threading.Tasks.TaskScheduler
       description: To be added.
+  overload: System.Threading.Tasks.ConcurrentExclusiveSchedulerPair.ConcurrentScheduler*
   platform:
   - net-11
   - net-20
@@ -229,6 +236,7 @@ items:
     return:
       type: System.Threading.Tasks.TaskScheduler
       description: To be added.
+  overload: System.Threading.Tasks.ConcurrentExclusiveSchedulerPair.ExclusiveScheduler*
   platform:
   - net-11
   - net-20
@@ -339,3 +347,28 @@ references:
   name: TaskScheduler
   nameWithType: TaskScheduler
   fullName: System.Threading.Tasks.TaskScheduler
+- uid: System.Threading.Tasks.ConcurrentExclusiveSchedulerPair.#ctor*
+  parent: System.Threading.Tasks.ConcurrentExclusiveSchedulerPair
+  isExternal: false
+  name: ConcurrentExclusiveSchedulerPair
+  nameWithType: ConcurrentExclusiveSchedulerPair.ConcurrentExclusiveSchedulerPair
+- uid: System.Threading.Tasks.ConcurrentExclusiveSchedulerPair.Complete*
+  parent: System.Threading.Tasks.ConcurrentExclusiveSchedulerPair
+  isExternal: false
+  name: Complete
+  nameWithType: ConcurrentExclusiveSchedulerPair.Complete
+- uid: System.Threading.Tasks.ConcurrentExclusiveSchedulerPair.Completion*
+  parent: System.Threading.Tasks.ConcurrentExclusiveSchedulerPair
+  isExternal: false
+  name: Completion
+  nameWithType: ConcurrentExclusiveSchedulerPair.Completion
+- uid: System.Threading.Tasks.ConcurrentExclusiveSchedulerPair.ConcurrentScheduler*
+  parent: System.Threading.Tasks.ConcurrentExclusiveSchedulerPair
+  isExternal: false
+  name: ConcurrentScheduler
+  nameWithType: ConcurrentExclusiveSchedulerPair.ConcurrentScheduler
+- uid: System.Threading.Tasks.ConcurrentExclusiveSchedulerPair.ExclusiveScheduler*
+  parent: System.Threading.Tasks.ConcurrentExclusiveSchedulerPair
+  isExternal: false
+  name: ExclusiveScheduler
+  nameWithType: ConcurrentExclusiveSchedulerPair.ExclusiveScheduler

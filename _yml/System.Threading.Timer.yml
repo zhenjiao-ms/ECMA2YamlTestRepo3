@@ -68,6 +68,7 @@ items:
     - id: callback
       type: System.Threading.TimerCallback
       description: To be added.
+  overload: System.Threading.Timer.#ctor*
   platform:
   - net-11
   - net-20
@@ -101,6 +102,7 @@ items:
     - id: period
       type: System.Int32
       description: To be added.
+  overload: System.Threading.Timer.#ctor*
   platform:
   - net-11
   - net-20
@@ -134,6 +136,7 @@ items:
     - id: period
       type: System.Int64
       description: To be added.
+  overload: System.Threading.Timer.#ctor*
   platform:
   - net-11
   - net-20
@@ -167,6 +170,7 @@ items:
     - id: period
       type: System.TimeSpan
       description: To be added.
+  overload: System.Threading.Timer.#ctor*
   platform:
   - net-11
   - net-20
@@ -200,6 +204,7 @@ items:
     - id: period
       type: System.UInt32
       description: To be added.
+  overload: System.Threading.Timer.#ctor*
   platform:
   - net-11
   - net-20
@@ -634,6 +639,11 @@ references:
   name: WaitHandle
   nameWithType: WaitHandle
   fullName: System.Threading.WaitHandle
+- uid: System.Threading.Timer.#ctor*
+  parent: System.Threading.Timer
+  isExternal: false
+  name: Timer
+  nameWithType: Timer.Timer
 - uid: System.Threading.Timer.Change*
   parent: System.Threading.Timer
   isExternal: false

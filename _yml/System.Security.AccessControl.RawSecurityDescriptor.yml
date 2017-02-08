@@ -64,6 +64,7 @@ items:
     - id: sddlForm
       type: System.String
       description: To be added.
+  overload: System.Security.AccessControl.RawSecurityDescriptor.#ctor*
   platform:
   - net-11
   - net-20
@@ -91,6 +92,7 @@ items:
     - id: offset
       type: System.Int32
       description: To be added.
+  overload: System.Security.AccessControl.RawSecurityDescriptor.#ctor*
   platform:
   - net-11
   - net-20
@@ -127,6 +129,7 @@ items:
     - id: discretionaryAcl
       type: System.Security.AccessControl.RawAcl
       description: To be added.
+  overload: System.Security.AccessControl.RawSecurityDescriptor.#ctor*
   platform:
   - net-11
   - net-20
@@ -150,6 +153,7 @@ items:
     return:
       type: System.Security.AccessControl.ControlFlags
       description: To be added.
+  overload: System.Security.AccessControl.RawSecurityDescriptor.ControlFlags*
   platform:
   - net-11
   - net-20
@@ -173,6 +177,7 @@ items:
     return:
       type: System.Security.AccessControl.RawAcl
       description: To be added.
+  overload: System.Security.AccessControl.RawSecurityDescriptor.DiscretionaryAcl*
   platform:
   - net-11
   - net-20
@@ -196,6 +201,7 @@ items:
     return:
       type: System.Security.Principal.SecurityIdentifier
       description: To be added.
+  overload: System.Security.AccessControl.RawSecurityDescriptor.Group*
   platform:
   - net-11
   - net-20
@@ -219,6 +225,7 @@ items:
     return:
       type: System.Security.Principal.SecurityIdentifier
       description: To be added.
+  overload: System.Security.AccessControl.RawSecurityDescriptor.Owner*
   platform:
   - net-11
   - net-20
@@ -242,6 +249,7 @@ items:
     return:
       type: System.Byte
       description: To be added.
+  overload: System.Security.AccessControl.RawSecurityDescriptor.ResourceManagerControl*
   platform:
   - net-11
   - net-20
@@ -266,6 +274,7 @@ items:
     - id: flags
       type: System.Security.AccessControl.ControlFlags
       description: To be added.
+  overload: System.Security.AccessControl.RawSecurityDescriptor.SetFlags*
   platform:
   - net-11
   - net-20
@@ -289,6 +298,7 @@ items:
     return:
       type: System.Security.AccessControl.RawAcl
       description: To be added.
+  overload: System.Security.AccessControl.RawSecurityDescriptor.SystemAcl*
   platform:
   - net-11
   - net-20
@@ -447,3 +457,43 @@ references:
   name: RawAcl
   nameWithType: RawAcl
   fullName: System.Security.AccessControl.RawAcl
+- uid: System.Security.AccessControl.RawSecurityDescriptor.#ctor*
+  parent: System.Security.AccessControl.RawSecurityDescriptor
+  isExternal: false
+  name: RawSecurityDescriptor
+  nameWithType: RawSecurityDescriptor.RawSecurityDescriptor
+- uid: System.Security.AccessControl.RawSecurityDescriptor.ControlFlags*
+  parent: System.Security.AccessControl.RawSecurityDescriptor
+  isExternal: false
+  name: ControlFlags
+  nameWithType: RawSecurityDescriptor.ControlFlags
+- uid: System.Security.AccessControl.RawSecurityDescriptor.DiscretionaryAcl*
+  parent: System.Security.AccessControl.RawSecurityDescriptor
+  isExternal: false
+  name: DiscretionaryAcl
+  nameWithType: RawSecurityDescriptor.DiscretionaryAcl
+- uid: System.Security.AccessControl.RawSecurityDescriptor.Group*
+  parent: System.Security.AccessControl.RawSecurityDescriptor
+  isExternal: false
+  name: Group
+  nameWithType: RawSecurityDescriptor.Group
+- uid: System.Security.AccessControl.RawSecurityDescriptor.Owner*
+  parent: System.Security.AccessControl.RawSecurityDescriptor
+  isExternal: false
+  name: Owner
+  nameWithType: RawSecurityDescriptor.Owner
+- uid: System.Security.AccessControl.RawSecurityDescriptor.ResourceManagerControl*
+  parent: System.Security.AccessControl.RawSecurityDescriptor
+  isExternal: false
+  name: ResourceManagerControl
+  nameWithType: RawSecurityDescriptor.ResourceManagerControl
+- uid: System.Security.AccessControl.RawSecurityDescriptor.SetFlags*
+  parent: System.Security.AccessControl.RawSecurityDescriptor
+  isExternal: false
+  name: SetFlags
+  nameWithType: RawSecurityDescriptor.SetFlags
+- uid: System.Security.AccessControl.RawSecurityDescriptor.SystemAcl*
+  parent: System.Security.AccessControl.RawSecurityDescriptor
+  isExternal: false
+  name: SystemAcl
+  nameWithType: RawSecurityDescriptor.SystemAcl

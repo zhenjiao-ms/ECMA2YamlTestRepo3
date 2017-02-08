@@ -55,6 +55,7 @@ items:
   syntax:
     content: public SoapEntities ();
     parameters: []
+  overload: System.Runtime.Remoting.Metadata.W3cXsd2001.SoapEntities.#ctor*
   platform:
   - net-11
   - net-20
@@ -79,6 +80,7 @@ items:
     - id: value
       type: System.String
       description: To be added.
+  overload: System.Runtime.Remoting.Metadata.W3cXsd2001.SoapEntities.#ctor*
   platform:
   - net-11
   - net-20
@@ -103,6 +105,7 @@ items:
     return:
       type: System.String
       description: To be added.
+  overload: System.Runtime.Remoting.Metadata.W3cXsd2001.SoapEntities.GetXsdType*
   platform:
   - net-11
   - net-20
@@ -130,6 +133,7 @@ items:
     return:
       type: System.Runtime.Remoting.Metadata.W3cXsd2001.SoapEntities
       description: To be added.
+  overload: System.Runtime.Remoting.Metadata.W3cXsd2001.SoapEntities.Parse*
   platform:
   - net-11
   - net-20
@@ -154,6 +158,7 @@ items:
     return:
       type: System.String
       description: To be added.
+  overload: System.Runtime.Remoting.Metadata.W3cXsd2001.SoapEntities.ToString*
   platform:
   - net-11
   - net-20
@@ -177,6 +182,7 @@ items:
     return:
       type: System.String
       description: To be added.
+  overload: System.Runtime.Remoting.Metadata.W3cXsd2001.SoapEntities.Value*
   platform:
   - net-11
   - net-20
@@ -200,6 +206,7 @@ items:
     return:
       type: System.String
       description: To be added.
+  overload: System.Runtime.Remoting.Metadata.W3cXsd2001.SoapEntities.XsdType*
   platform:
   - net-11
   - net-20
@@ -292,3 +299,33 @@ references:
   name: String
   nameWithType: String
   fullName: System.String
+- uid: System.Runtime.Remoting.Metadata.W3cXsd2001.SoapEntities.#ctor*
+  parent: System.Runtime.Remoting.Metadata.W3cXsd2001.SoapEntities
+  isExternal: false
+  name: SoapEntities
+  nameWithType: SoapEntities.SoapEntities
+- uid: System.Runtime.Remoting.Metadata.W3cXsd2001.SoapEntities.GetXsdType*
+  parent: System.Runtime.Remoting.Metadata.W3cXsd2001.SoapEntities
+  isExternal: false
+  name: GetXsdType
+  nameWithType: SoapEntities.GetXsdType
+- uid: System.Runtime.Remoting.Metadata.W3cXsd2001.SoapEntities.Parse*
+  parent: System.Runtime.Remoting.Metadata.W3cXsd2001.SoapEntities
+  isExternal: false
+  name: Parse
+  nameWithType: SoapEntities.Parse
+- uid: System.Runtime.Remoting.Metadata.W3cXsd2001.SoapEntities.ToString*
+  parent: System.Runtime.Remoting.Metadata.W3cXsd2001.SoapEntities
+  isExternal: false
+  name: ToString
+  nameWithType: SoapEntities.ToString
+- uid: System.Runtime.Remoting.Metadata.W3cXsd2001.SoapEntities.Value*
+  parent: System.Runtime.Remoting.Metadata.W3cXsd2001.SoapEntities
+  isExternal: false
+  name: Value
+  nameWithType: SoapEntities.Value
+- uid: System.Runtime.Remoting.Metadata.W3cXsd2001.SoapEntities.XsdType*
+  parent: System.Runtime.Remoting.Metadata.W3cXsd2001.SoapEntities
+  isExternal: false
+  name: XsdType
+  nameWithType: SoapEntities.XsdType

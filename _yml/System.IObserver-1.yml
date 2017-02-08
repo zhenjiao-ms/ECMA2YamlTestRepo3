@@ -41,6 +41,7 @@ items:
   syntax:
     content: public void OnCompleted ();
     parameters: []
+  overload: System.IObserver`1.OnCompleted*
   platform:
   - net-11
   - net-20
@@ -65,6 +66,7 @@ items:
     - id: error
       type: System.Exception
       description: To be added.
+  overload: System.IObserver`1.OnError*
   platform:
   - net-11
   - net-20
@@ -89,6 +91,7 @@ items:
     - id: value
       type: T
       description: To be added.
+  overload: System.IObserver`1.OnNext*
   platform:
   - net-11
   - net-20
@@ -124,3 +127,18 @@ references:
   name: T
   nameWithType: T
   fullName: T
+- uid: System.IObserver`1.OnCompleted*
+  parent: System.IObserver`1
+  isExternal: false
+  name: OnCompleted
+  nameWithType: IObserver<T>.OnCompleted
+- uid: System.IObserver`1.OnError*
+  parent: System.IObserver`1
+  isExternal: false
+  name: OnError
+  nameWithType: IObserver<T>.OnError
+- uid: System.IObserver`1.OnNext*
+  parent: System.IObserver`1
+  isExternal: false
+  name: OnNext
+  nameWithType: IObserver<T>.OnNext

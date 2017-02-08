@@ -95,6 +95,7 @@ items:
     - id: guid
       type: System.String
       description: To be added.
+  overload: System.Runtime.InteropServices.GuidAttribute.#ctor*
   platform:
   - net-11
   - net-20
@@ -118,6 +119,7 @@ items:
     return:
       type: System.String
       description: To be added.
+  overload: System.Runtime.InteropServices.GuidAttribute.Value*
   platform:
   - net-11
   - net-20
@@ -150,3 +152,13 @@ references:
   name: String
   nameWithType: String
   fullName: System.String
+- uid: System.Runtime.InteropServices.GuidAttribute.#ctor*
+  parent: System.Runtime.InteropServices.GuidAttribute
+  isExternal: false
+  name: GuidAttribute
+  nameWithType: GuidAttribute.GuidAttribute
+- uid: System.Runtime.InteropServices.GuidAttribute.Value*
+  parent: System.Runtime.InteropServices.GuidAttribute
+  isExternal: false
+  name: Value
+  nameWithType: GuidAttribute.Value

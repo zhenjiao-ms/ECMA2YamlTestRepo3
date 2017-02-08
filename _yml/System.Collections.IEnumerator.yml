@@ -45,6 +45,7 @@ items:
     return:
       type: System.Object
       description: To be added.
+  overload: System.Collections.IEnumerator.Current*
   platform:
   - net-11
   - net-20
@@ -69,6 +70,7 @@ items:
     return:
       type: System.Boolean
       description: To be added.
+  overload: System.Collections.IEnumerator.MoveNext*
   platform:
   - net-11
   - net-20
@@ -90,6 +92,7 @@ items:
   syntax:
     content: public void Reset ();
     parameters: []
+  overload: System.Collections.IEnumerator.Reset*
   platform:
   - net-11
   - net-20
@@ -125,3 +128,18 @@ references:
   name: Reset()
   nameWithType: IEnumerator.Reset()
   fullName: System.Collections.IEnumerator.Reset()
+- uid: System.Collections.IEnumerator.Current*
+  parent: System.Collections.IEnumerator
+  isExternal: false
+  name: Current
+  nameWithType: IEnumerator.Current
+- uid: System.Collections.IEnumerator.MoveNext*
+  parent: System.Collections.IEnumerator
+  isExternal: false
+  name: MoveNext
+  nameWithType: IEnumerator.MoveNext
+- uid: System.Collections.IEnumerator.Reset*
+  parent: System.Collections.IEnumerator
+  isExternal: false
+  name: Reset
+  nameWithType: IEnumerator.Reset

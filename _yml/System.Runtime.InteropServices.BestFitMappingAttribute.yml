@@ -96,6 +96,7 @@ items:
     - id: BestFitMapping
       type: System.Boolean
       description: To be added.
+  overload: System.Runtime.InteropServices.BestFitMappingAttribute.#ctor*
   platform:
   - net-11
   - net-20
@@ -119,6 +120,7 @@ items:
     return:
       type: System.Boolean
       description: To be added.
+  overload: System.Runtime.InteropServices.BestFitMappingAttribute.BestFitMapping*
   platform:
   - net-11
   - net-20
@@ -186,3 +188,13 @@ references:
   name: Boolean
   nameWithType: Boolean
   fullName: System.Boolean
+- uid: System.Runtime.InteropServices.BestFitMappingAttribute.#ctor*
+  parent: System.Runtime.InteropServices.BestFitMappingAttribute
+  isExternal: false
+  name: BestFitMappingAttribute
+  nameWithType: BestFitMappingAttribute.BestFitMappingAttribute
+- uid: System.Runtime.InteropServices.BestFitMappingAttribute.BestFitMapping*
+  parent: System.Runtime.InteropServices.BestFitMappingAttribute
+  isExternal: false
+  name: BestFitMapping
+  nameWithType: BestFitMappingAttribute.BestFitMapping

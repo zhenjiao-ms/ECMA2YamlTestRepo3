@@ -57,6 +57,7 @@ items:
   syntax:
     content: protected RandomNumberGenerator ();
     parameters: []
+  overload: System.Security.Cryptography.RandomNumberGenerator.#ctor*
   platform:
   - net-11
   - net-20
@@ -237,6 +238,7 @@ items:
     - id: data
       type: System.Byte[]
       description: To be added.
+  overload: System.Security.Cryptography.RandomNumberGenerator.GetNonZeroBytes*
   platform:
   - net-11
   - net-20
@@ -347,6 +349,11 @@ references:
   name: Byte
   nameWithType: Byte
   fullName: System.Byte[]
+- uid: System.Security.Cryptography.RandomNumberGenerator.#ctor*
+  parent: System.Security.Cryptography.RandomNumberGenerator
+  isExternal: false
+  name: RandomNumberGenerator
+  nameWithType: RandomNumberGenerator.RandomNumberGenerator
 - uid: System.Security.Cryptography.RandomNumberGenerator.Create*
   parent: System.Security.Cryptography.RandomNumberGenerator
   isExternal: false
@@ -362,3 +369,8 @@ references:
   isExternal: false
   name: GetBytes
   nameWithType: RandomNumberGenerator.GetBytes
+- uid: System.Security.Cryptography.RandomNumberGenerator.GetNonZeroBytes*
+  parent: System.Security.Cryptography.RandomNumberGenerator
+  isExternal: false
+  name: GetNonZeroBytes
+  nameWithType: RandomNumberGenerator.GetNonZeroBytes

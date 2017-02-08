@@ -93,6 +93,7 @@ items:
     - id: guarantees
       type: System.Runtime.Versioning.ComponentGuaranteesOptions
       description: To be added.
+  overload: System.Runtime.Versioning.ComponentGuaranteesAttribute.#ctor*
   platform:
   - net-11
   - net-20
@@ -116,6 +117,7 @@ items:
     return:
       type: System.Runtime.Versioning.ComponentGuaranteesOptions
       description: To be added.
+  overload: System.Runtime.Versioning.ComponentGuaranteesAttribute.Guarantees*
   platform:
   - net-11
   - net-20
@@ -148,3 +150,13 @@ references:
   name: ComponentGuaranteesOptions
   nameWithType: ComponentGuaranteesOptions
   fullName: System.Runtime.Versioning.ComponentGuaranteesOptions
+- uid: System.Runtime.Versioning.ComponentGuaranteesAttribute.#ctor*
+  parent: System.Runtime.Versioning.ComponentGuaranteesAttribute
+  isExternal: false
+  name: ComponentGuaranteesAttribute
+  nameWithType: ComponentGuaranteesAttribute.ComponentGuaranteesAttribute
+- uid: System.Runtime.Versioning.ComponentGuaranteesAttribute.Guarantees*
+  parent: System.Runtime.Versioning.ComponentGuaranteesAttribute
+  isExternal: false
+  name: Guarantees
+  nameWithType: ComponentGuaranteesAttribute.Guarantees

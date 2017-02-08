@@ -521,6 +521,7 @@ items:
     return:
       type: System.Byte[]
       description: To be added.
+  overload: System.Convert.FromBase64CharArray*
   platform:
   - net-11
   - net-20
@@ -548,6 +549,7 @@ items:
     return:
       type: System.Byte[]
       description: To be added.
+  overload: System.Convert.FromBase64String*
   platform:
   - net-11
   - net-20
@@ -575,6 +577,7 @@ items:
     return:
       type: System.TypeCode
       description: To be added.
+  overload: System.Convert.GetTypeCode*
   platform:
   - net-11
   - net-20
@@ -602,6 +605,7 @@ items:
     return:
       type: System.Boolean
       description: To be added.
+  overload: System.Convert.IsDBNull*
   platform:
   - net-11
   - net-20
@@ -15350,6 +15354,26 @@ references:
   isExternal: false
   name: ChangeType
   nameWithType: Convert.ChangeType
+- uid: System.Convert.FromBase64CharArray*
+  parent: System.Convert
+  isExternal: false
+  name: FromBase64CharArray
+  nameWithType: Convert.FromBase64CharArray
+- uid: System.Convert.FromBase64String*
+  parent: System.Convert
+  isExternal: false
+  name: FromBase64String
+  nameWithType: Convert.FromBase64String
+- uid: System.Convert.GetTypeCode*
+  parent: System.Convert
+  isExternal: false
+  name: GetTypeCode
+  nameWithType: Convert.GetTypeCode
+- uid: System.Convert.IsDBNull*
+  parent: System.Convert
+  isExternal: false
+  name: IsDBNull
+  nameWithType: Convert.IsDBNull
 - uid: System.Convert.ToBase64CharArray*
   parent: System.Convert
   isExternal: false

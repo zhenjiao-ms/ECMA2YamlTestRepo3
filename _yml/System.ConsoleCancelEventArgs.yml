@@ -51,6 +51,7 @@ items:
     return:
       type: System.Boolean
       description: To be added.
+  overload: System.ConsoleCancelEventArgs.Cancel*
   platform:
   - net-11
   - net-20
@@ -74,6 +75,7 @@ items:
     return:
       type: System.ConsoleSpecialKey
       description: To be added.
+  overload: System.ConsoleCancelEventArgs.SpecialKey*
   platform:
   - net-11
   - net-20
@@ -106,3 +108,13 @@ references:
   name: ConsoleSpecialKey
   nameWithType: ConsoleSpecialKey
   fullName: System.ConsoleSpecialKey
+- uid: System.ConsoleCancelEventArgs.Cancel*
+  parent: System.ConsoleCancelEventArgs
+  isExternal: false
+  name: Cancel
+  nameWithType: ConsoleCancelEventArgs.Cancel
+- uid: System.ConsoleCancelEventArgs.SpecialKey*
+  parent: System.ConsoleCancelEventArgs
+  isExternal: false
+  name: SpecialKey
+  nameWithType: ConsoleCancelEventArgs.SpecialKey

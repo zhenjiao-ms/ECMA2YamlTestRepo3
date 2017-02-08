@@ -79,6 +79,7 @@ items:
   syntax:
     content: public HMACMD5 ();
     parameters: []
+  overload: System.Security.Cryptography.HMACMD5.#ctor*
   platform:
   - net-11
   - net-20
@@ -103,6 +104,7 @@ items:
     - id: key
       type: System.Byte[]
       description: To be added.
+  overload: System.Security.Cryptography.HMACMD5.#ctor*
   platform:
   - net-11
   - net-20
@@ -129,3 +131,8 @@ references:
   name: Byte
   nameWithType: Byte
   fullName: System.Byte[]
+- uid: System.Security.Cryptography.HMACMD5.#ctor*
+  parent: System.Security.Cryptography.HMACMD5
+  isExternal: false
+  name: HMACMD5
+  nameWithType: HMACMD5.HMACMD5

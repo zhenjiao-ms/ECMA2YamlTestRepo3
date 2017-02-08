@@ -70,6 +70,7 @@ items:
     - id: value
       type: System.Int32
       description: To be added.
+  overload: System.IntPtr.#ctor*
   platform:
   - net-11
   - net-20
@@ -94,6 +95,7 @@ items:
     - id: value
       type: System.Int64
       description: To be added.
+  overload: System.IntPtr.#ctor*
   platform:
   - net-11
   - net-20
@@ -118,6 +120,7 @@ items:
     - id: value
       type: System.Void*
       description: To be added.
+  overload: System.IntPtr.#ctor*
   platform:
   - net-11
   - net-20
@@ -148,6 +151,7 @@ items:
     return:
       type: System.IntPtr
       description: To be added.
+  overload: System.IntPtr.Add*
   platform:
   - net-11
   - net-20
@@ -175,6 +179,7 @@ items:
     return:
       type: System.Boolean
       description: To be added.
+  overload: System.IntPtr.Equals*
   platform:
   - net-11
   - net-20
@@ -199,6 +204,7 @@ items:
     return:
       type: System.Int32
       description: To be added.
+  overload: System.IntPtr.GetHashCode*
   platform:
   - net-11
   - net-20
@@ -229,6 +235,7 @@ items:
     return:
       type: System.IntPtr
       description: To be added.
+  overload: System.IntPtr.op_Addition*
   platform:
   - net-11
   - net-20
@@ -259,6 +266,7 @@ items:
     return:
       type: System.Boolean
       description: To be added.
+  overload: System.IntPtr.op_Equality*
   platform:
   - net-11
   - net-20
@@ -286,6 +294,7 @@ items:
     return:
       type: System.IntPtr
       description: To be added.
+  overload: System.IntPtr.op_Explicit*
   platform:
   - net-11
   - net-20
@@ -313,6 +322,7 @@ items:
     return:
       type: System.IntPtr
       description: To be added.
+  overload: System.IntPtr.op_Explicit*
   platform:
   - net-11
   - net-20
@@ -340,6 +350,7 @@ items:
     return:
       type: System.Int32
       description: To be added.
+  overload: System.IntPtr.op_Explicit*
   platform:
   - net-11
   - net-20
@@ -367,6 +378,7 @@ items:
     return:
       type: System.Int64
       description: To be added.
+  overload: System.IntPtr.op_Explicit*
   platform:
   - net-11
   - net-20
@@ -394,6 +406,7 @@ items:
     return:
       type: System.Void*
       description: To be added.
+  overload: System.IntPtr.op_Explicit*
   platform:
   - net-11
   - net-20
@@ -421,6 +434,7 @@ items:
     return:
       type: System.IntPtr
       description: To be added.
+  overload: System.IntPtr.op_Explicit*
   platform:
   - net-11
   - net-20
@@ -451,6 +465,7 @@ items:
     return:
       type: System.Boolean
       description: To be added.
+  overload: System.IntPtr.op_Inequality*
   platform:
   - net-11
   - net-20
@@ -481,6 +496,7 @@ items:
     return:
       type: System.IntPtr
       description: To be added.
+  overload: System.IntPtr.op_Subtraction*
   platform:
   - net-11
   - net-20
@@ -504,6 +520,7 @@ items:
     return:
       type: System.Int32
       description: To be added.
+  overload: System.IntPtr.Size*
   platform:
   - net-11
   - net-20
@@ -534,6 +551,7 @@ items:
     return:
       type: System.IntPtr
       description: To be added.
+  overload: System.IntPtr.Subtract*
   platform:
   - net-11
   - net-20
@@ -562,6 +580,7 @@ items:
     - id: context
       type: System.Runtime.Serialization.StreamingContext
       description: To be added.
+  overload: System.IntPtr.System#Runtime#Serialization#ISerializable#GetObjectData*
   platform:
   - net-11
   - net-20
@@ -586,6 +605,7 @@ items:
     return:
       type: System.Int32
       description: To be added.
+  overload: System.IntPtr.ToInt32*
   platform:
   - net-11
   - net-20
@@ -610,6 +630,7 @@ items:
     return:
       type: System.Int64
       description: To be added.
+  overload: System.IntPtr.ToInt64*
   platform:
   - net-11
   - net-20
@@ -634,6 +655,7 @@ items:
     return:
       type: System.Void*
       description: To be added.
+  overload: System.IntPtr.ToPointer*
   platform:
   - net-11
   - net-20
@@ -1120,6 +1142,81 @@ references:
   name: IntPtr
   nameWithType: IntPtr
   fullName: System.IntPtr
+- uid: System.IntPtr.#ctor*
+  parent: System.IntPtr
+  isExternal: false
+  name: IntPtr
+  nameWithType: IntPtr.IntPtr
+- uid: System.IntPtr.Add*
+  parent: System.IntPtr
+  isExternal: false
+  name: Add
+  nameWithType: IntPtr.Add
+- uid: System.IntPtr.Equals*
+  parent: System.IntPtr
+  isExternal: false
+  name: Equals
+  nameWithType: IntPtr.Equals
+- uid: System.IntPtr.GetHashCode*
+  parent: System.IntPtr
+  isExternal: false
+  name: GetHashCode
+  nameWithType: IntPtr.GetHashCode
+- uid: System.IntPtr.op_Addition*
+  parent: System.IntPtr
+  isExternal: false
+  name: op_Addition
+  nameWithType: IntPtr.op_Addition
+- uid: System.IntPtr.op_Equality*
+  parent: System.IntPtr
+  isExternal: false
+  name: op_Equality
+  nameWithType: IntPtr.op_Equality
+- uid: System.IntPtr.op_Explicit*
+  parent: System.IntPtr
+  isExternal: false
+  name: op_Explicit
+  nameWithType: IntPtr.op_Explicit
+- uid: System.IntPtr.op_Inequality*
+  parent: System.IntPtr
+  isExternal: false
+  name: op_Inequality
+  nameWithType: IntPtr.op_Inequality
+- uid: System.IntPtr.op_Subtraction*
+  parent: System.IntPtr
+  isExternal: false
+  name: op_Subtraction
+  nameWithType: IntPtr.op_Subtraction
+- uid: System.IntPtr.Size*
+  parent: System.IntPtr
+  isExternal: false
+  name: Size
+  nameWithType: IntPtr.Size
+- uid: System.IntPtr.Subtract*
+  parent: System.IntPtr
+  isExternal: false
+  name: Subtract
+  nameWithType: IntPtr.Subtract
+- uid: System.IntPtr.System#Runtime#Serialization#ISerializable#GetObjectData*
+  parent: System.IntPtr
+  isExternal: false
+  name: System.Runtime.Serialization.ISerializable.GetObjectData
+  nameWithType: IntPtr.System.Runtime.Serialization.ISerializable.GetObjectData
+- uid: System.IntPtr.ToInt32*
+  parent: System.IntPtr
+  isExternal: false
+  name: ToInt32
+  nameWithType: IntPtr.ToInt32
+- uid: System.IntPtr.ToInt64*
+  parent: System.IntPtr
+  isExternal: false
+  name: ToInt64
+  nameWithType: IntPtr.ToInt64
+- uid: System.IntPtr.ToPointer*
+  parent: System.IntPtr
+  isExternal: false
+  name: ToPointer
+  nameWithType: IntPtr.ToPointer
 - uid: System.IntPtr.ToString*
   parent: System.IntPtr
   isExternal: false

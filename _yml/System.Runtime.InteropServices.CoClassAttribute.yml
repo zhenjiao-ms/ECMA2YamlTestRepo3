@@ -95,6 +95,7 @@ items:
     - id: coClass
       type: System.Type
       description: To be added.
+  overload: System.Runtime.InteropServices.CoClassAttribute.#ctor*
   platform:
   - net-11
   - net-20
@@ -118,6 +119,7 @@ items:
     return:
       type: System.Type
       description: To be added.
+  overload: System.Runtime.InteropServices.CoClassAttribute.CoClass*
   platform:
   - net-11
   - net-20
@@ -150,3 +152,13 @@ references:
   name: Type
   nameWithType: Type
   fullName: System.Type
+- uid: System.Runtime.InteropServices.CoClassAttribute.#ctor*
+  parent: System.Runtime.InteropServices.CoClassAttribute
+  isExternal: false
+  name: CoClassAttribute
+  nameWithType: CoClassAttribute.CoClassAttribute
+- uid: System.Runtime.InteropServices.CoClassAttribute.CoClass*
+  parent: System.Runtime.InteropServices.CoClassAttribute
+  isExternal: false
+  name: CoClass
+  nameWithType: CoClassAttribute.CoClass

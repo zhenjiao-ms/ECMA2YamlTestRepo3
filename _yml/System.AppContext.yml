@@ -50,6 +50,7 @@ items:
     return:
       type: System.String
       description: To be added.
+  overload: System.AppContext.BaseDirectory*
   platform:
   - net-11
   - net-20
@@ -77,6 +78,7 @@ items:
     - id: isEnabled
       type: System.Boolean
       description: To be added.
+  overload: System.AppContext.SetSwitch*
   platform:
   - net-11
   - net-20
@@ -107,6 +109,7 @@ items:
     return:
       type: System.Boolean
       description: To be added.
+  overload: System.AppContext.TryGetSwitch*
   platform:
   - net-11
   - net-20
@@ -169,3 +172,18 @@ references:
   name: Boolean
   nameWithType: Boolean
   fullName: System.Boolean
+- uid: System.AppContext.BaseDirectory*
+  parent: System.AppContext
+  isExternal: false
+  name: BaseDirectory
+  nameWithType: AppContext.BaseDirectory
+- uid: System.AppContext.SetSwitch*
+  parent: System.AppContext
+  isExternal: false
+  name: SetSwitch
+  nameWithType: AppContext.SetSwitch
+- uid: System.AppContext.TryGetSwitch*
+  parent: System.AppContext
+  isExternal: false
+  name: TryGetSwitch
+  nameWithType: AppContext.TryGetSwitch

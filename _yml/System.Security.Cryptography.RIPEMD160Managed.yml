@@ -73,6 +73,7 @@ items:
   syntax:
     content: public RIPEMD160Managed ();
     parameters: []
+  overload: System.Security.Cryptography.RIPEMD160Managed.#ctor*
   platform:
   - net-11
   - net-20
@@ -103,6 +104,7 @@ items:
     - id: cbSize
       type: System.Int32
       description: To be added.
+  overload: System.Security.Cryptography.RIPEMD160Managed.HashCore*
   platform:
   - net-11
   - net-20
@@ -127,6 +129,7 @@ items:
     return:
       type: System.Byte[]
       description: To be added.
+  overload: System.Security.Cryptography.RIPEMD160Managed.HashFinal*
   platform:
   - net-11
   - net-20
@@ -148,6 +151,7 @@ items:
   syntax:
     content: public override void Initialize ();
     parameters: []
+  overload: System.Security.Cryptography.RIPEMD160Managed.Initialize*
   platform:
   - net-11
   - net-20
@@ -204,3 +208,23 @@ references:
   name: Initialize()
   nameWithType: RIPEMD160Managed.Initialize()
   fullName: System.Security.Cryptography.RIPEMD160Managed.Initialize()
+- uid: System.Security.Cryptography.RIPEMD160Managed.#ctor*
+  parent: System.Security.Cryptography.RIPEMD160Managed
+  isExternal: false
+  name: RIPEMD160Managed
+  nameWithType: RIPEMD160Managed.RIPEMD160Managed
+- uid: System.Security.Cryptography.RIPEMD160Managed.HashCore*
+  parent: System.Security.Cryptography.RIPEMD160Managed
+  isExternal: false
+  name: HashCore
+  nameWithType: RIPEMD160Managed.HashCore
+- uid: System.Security.Cryptography.RIPEMD160Managed.HashFinal*
+  parent: System.Security.Cryptography.RIPEMD160Managed
+  isExternal: false
+  name: HashFinal
+  nameWithType: RIPEMD160Managed.HashFinal
+- uid: System.Security.Cryptography.RIPEMD160Managed.Initialize*
+  parent: System.Security.Cryptography.RIPEMD160Managed
+  isExternal: false
+  name: Initialize
+  nameWithType: RIPEMD160Managed.Initialize

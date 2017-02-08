@@ -61,6 +61,7 @@ items:
     return:
       type: System.Runtime.InteropServices.UnmanagedType
       description: To be added.
+  overload: System.Reflection.Emit.UnmanagedMarshal.BaseType*
   platform:
   - net-11
   - net-20
@@ -88,6 +89,7 @@ items:
     return:
       type: System.Reflection.Emit.UnmanagedMarshal
       description: To be added.
+  overload: System.Reflection.Emit.UnmanagedMarshal.DefineByValArray*
   platform:
   - net-11
   - net-20
@@ -115,6 +117,7 @@ items:
     return:
       type: System.Reflection.Emit.UnmanagedMarshal
       description: To be added.
+  overload: System.Reflection.Emit.UnmanagedMarshal.DefineByValTStr*
   platform:
   - net-11
   - net-20
@@ -142,6 +145,7 @@ items:
     return:
       type: System.Reflection.Emit.UnmanagedMarshal
       description: To be added.
+  overload: System.Reflection.Emit.UnmanagedMarshal.DefineLPArray*
   platform:
   - net-11
   - net-20
@@ -169,6 +173,7 @@ items:
     return:
       type: System.Reflection.Emit.UnmanagedMarshal
       description: To be added.
+  overload: System.Reflection.Emit.UnmanagedMarshal.DefineSafeArray*
   platform:
   - net-11
   - net-20
@@ -196,6 +201,7 @@ items:
     return:
       type: System.Reflection.Emit.UnmanagedMarshal
       description: To be added.
+  overload: System.Reflection.Emit.UnmanagedMarshal.DefineUnmanagedMarshal*
   platform:
   - net-11
   - net-20
@@ -219,6 +225,7 @@ items:
     return:
       type: System.Int32
       description: To be added.
+  overload: System.Reflection.Emit.UnmanagedMarshal.ElementCount*
   platform:
   - net-11
   - net-20
@@ -242,6 +249,7 @@ items:
     return:
       type: System.Runtime.InteropServices.UnmanagedType
       description: To be added.
+  overload: System.Reflection.Emit.UnmanagedMarshal.GetUnmanagedType*
   platform:
   - net-11
   - net-20
@@ -265,6 +273,7 @@ items:
     return:
       type: System.Guid
       description: To be added.
+  overload: System.Reflection.Emit.UnmanagedMarshal.IIDGuid*
   platform:
   - net-11
   - net-20
@@ -411,3 +420,48 @@ references:
   name: Guid
   nameWithType: Guid
   fullName: System.Guid
+- uid: System.Reflection.Emit.UnmanagedMarshal.BaseType*
+  parent: System.Reflection.Emit.UnmanagedMarshal
+  isExternal: false
+  name: BaseType
+  nameWithType: UnmanagedMarshal.BaseType
+- uid: System.Reflection.Emit.UnmanagedMarshal.DefineByValArray*
+  parent: System.Reflection.Emit.UnmanagedMarshal
+  isExternal: false
+  name: DefineByValArray
+  nameWithType: UnmanagedMarshal.DefineByValArray
+- uid: System.Reflection.Emit.UnmanagedMarshal.DefineByValTStr*
+  parent: System.Reflection.Emit.UnmanagedMarshal
+  isExternal: false
+  name: DefineByValTStr
+  nameWithType: UnmanagedMarshal.DefineByValTStr
+- uid: System.Reflection.Emit.UnmanagedMarshal.DefineLPArray*
+  parent: System.Reflection.Emit.UnmanagedMarshal
+  isExternal: false
+  name: DefineLPArray
+  nameWithType: UnmanagedMarshal.DefineLPArray
+- uid: System.Reflection.Emit.UnmanagedMarshal.DefineSafeArray*
+  parent: System.Reflection.Emit.UnmanagedMarshal
+  isExternal: false
+  name: DefineSafeArray
+  nameWithType: UnmanagedMarshal.DefineSafeArray
+- uid: System.Reflection.Emit.UnmanagedMarshal.DefineUnmanagedMarshal*
+  parent: System.Reflection.Emit.UnmanagedMarshal
+  isExternal: false
+  name: DefineUnmanagedMarshal
+  nameWithType: UnmanagedMarshal.DefineUnmanagedMarshal
+- uid: System.Reflection.Emit.UnmanagedMarshal.ElementCount*
+  parent: System.Reflection.Emit.UnmanagedMarshal
+  isExternal: false
+  name: ElementCount
+  nameWithType: UnmanagedMarshal.ElementCount
+- uid: System.Reflection.Emit.UnmanagedMarshal.GetUnmanagedType*
+  parent: System.Reflection.Emit.UnmanagedMarshal
+  isExternal: false
+  name: GetUnmanagedType
+  nameWithType: UnmanagedMarshal.GetUnmanagedType
+- uid: System.Reflection.Emit.UnmanagedMarshal.IIDGuid*
+  parent: System.Reflection.Emit.UnmanagedMarshal
+  isExternal: false
+  name: IIDGuid
+  nameWithType: UnmanagedMarshal.IIDGuid

@@ -50,6 +50,7 @@ items:
     - id: value
       type: System.Object
       description: To be added.
+  overload: System.Collections.DictionaryEntry.#ctor*
   platform:
   - net-11
   - net-20
@@ -73,6 +74,7 @@ items:
     return:
       type: System.Object
       description: To be added.
+  overload: System.Collections.DictionaryEntry.Key*
   platform:
   - net-11
   - net-20
@@ -96,6 +98,7 @@ items:
     return:
       type: System.Object
       description: To be added.
+  overload: System.Collections.DictionaryEntry.Value*
   platform:
   - net-11
   - net-20
@@ -146,3 +149,18 @@ references:
   name: Object
   nameWithType: Object
   fullName: System.Object
+- uid: System.Collections.DictionaryEntry.#ctor*
+  parent: System.Collections.DictionaryEntry
+  isExternal: false
+  name: DictionaryEntry
+  nameWithType: DictionaryEntry.DictionaryEntry
+- uid: System.Collections.DictionaryEntry.Key*
+  parent: System.Collections.DictionaryEntry
+  isExternal: false
+  name: Key
+  nameWithType: DictionaryEntry.Key
+- uid: System.Collections.DictionaryEntry.Value*
+  parent: System.Collections.DictionaryEntry
+  isExternal: false
+  name: Value
+  nameWithType: DictionaryEntry.Value

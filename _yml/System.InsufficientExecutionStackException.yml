@@ -61,6 +61,7 @@ items:
   syntax:
     content: public InsufficientExecutionStackException ();
     parameters: []
+  overload: System.InsufficientExecutionStackException.#ctor*
   platform:
   - net-11
   - net-20
@@ -85,6 +86,7 @@ items:
     - id: message
       type: System.String
       description: To be added.
+  overload: System.InsufficientExecutionStackException.#ctor*
   platform:
   - net-11
   - net-20
@@ -112,6 +114,7 @@ items:
     - id: innerException
       type: System.Exception
       description: To be added.
+  overload: System.InsufficientExecutionStackException.#ctor*
   platform:
   - net-11
   - net-20
@@ -156,3 +159,8 @@ references:
   name: Exception
   nameWithType: Exception
   fullName: System.Exception
+- uid: System.InsufficientExecutionStackException.#ctor*
+  parent: System.InsufficientExecutionStackException
+  isExternal: false
+  name: InsufficientExecutionStackException
+  nameWithType: InsufficientExecutionStackException.InsufficientExecutionStackException

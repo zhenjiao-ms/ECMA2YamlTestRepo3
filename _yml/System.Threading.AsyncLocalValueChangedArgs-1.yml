@@ -46,6 +46,7 @@ items:
     return:
       type: T
       description: To be added.
+  overload: System.Threading.AsyncLocalValueChangedArgs`1.CurrentValue*
   platform:
   - net-11
   - net-20
@@ -69,6 +70,7 @@ items:
     return:
       type: T
       description: To be added.
+  overload: System.Threading.AsyncLocalValueChangedArgs`1.PreviousValue*
   platform:
   - net-11
   - net-20
@@ -92,6 +94,7 @@ items:
     return:
       type: System.Boolean
       description: To be added.
+  overload: System.Threading.AsyncLocalValueChangedArgs`1.ThreadContextChanged*
   platform:
   - net-11
   - net-20
@@ -136,3 +139,18 @@ references:
   name: Boolean
   nameWithType: Boolean
   fullName: System.Boolean
+- uid: System.Threading.AsyncLocalValueChangedArgs`1.CurrentValue*
+  parent: System.Threading.AsyncLocalValueChangedArgs`1
+  isExternal: false
+  name: CurrentValue
+  nameWithType: AsyncLocalValueChangedArgs<T>.CurrentValue
+- uid: System.Threading.AsyncLocalValueChangedArgs`1.PreviousValue*
+  parent: System.Threading.AsyncLocalValueChangedArgs`1
+  isExternal: false
+  name: PreviousValue
+  nameWithType: AsyncLocalValueChangedArgs<T>.PreviousValue
+- uid: System.Threading.AsyncLocalValueChangedArgs`1.ThreadContextChanged*
+  parent: System.Threading.AsyncLocalValueChangedArgs`1
+  isExternal: false
+  name: ThreadContextChanged
+  nameWithType: AsyncLocalValueChangedArgs<T>.ThreadContextChanged

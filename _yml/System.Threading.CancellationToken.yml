@@ -61,6 +61,7 @@ items:
     - id: canceled
       type: System.Boolean
       description: To be added.
+  overload: System.Threading.CancellationToken.#ctor*
   platform:
   - net-11
   - net-20
@@ -84,6 +85,7 @@ items:
     return:
       type: System.Boolean
       description: To be added.
+  overload: System.Threading.CancellationToken.CanBeCanceled*
   platform:
   - net-11
   - net-20
@@ -164,6 +166,7 @@ items:
     return:
       type: System.Int32
       description: To be added.
+  overload: System.Threading.CancellationToken.GetHashCode*
   platform:
   - net-11
   - net-20
@@ -187,6 +190,7 @@ items:
     return:
       type: System.Boolean
       description: To be added.
+  overload: System.Threading.CancellationToken.IsCancellationRequested*
   platform:
   - net-11
   - net-20
@@ -210,6 +214,7 @@ items:
     return:
       type: System.Threading.CancellationToken
       description: To be added.
+  overload: System.Threading.CancellationToken.None*
   platform:
   - net-11
   - net-20
@@ -240,6 +245,7 @@ items:
     return:
       type: System.Boolean
       description: To be added.
+  overload: System.Threading.CancellationToken.op_Equality*
   platform:
   - net-11
   - net-20
@@ -270,6 +276,7 @@ items:
     return:
       type: System.Boolean
       description: To be added.
+  overload: System.Threading.CancellationToken.op_Inequality*
   platform:
   - net-11
   - net-20
@@ -415,6 +422,7 @@ items:
   syntax:
     content: public void ThrowIfCancellationRequested ();
     parameters: []
+  overload: System.Threading.CancellationToken.ThrowIfCancellationRequested*
   platform:
   - net-11
   - net-20
@@ -438,6 +446,7 @@ items:
     return:
       type: System.Threading.WaitHandle
       description: To be added.
+  overload: System.Threading.CancellationToken.WaitHandle*
   platform:
   - net-11
   - net-20
@@ -704,13 +713,58 @@ references:
   name: WaitHandle
   nameWithType: WaitHandle
   fullName: System.Threading.WaitHandle
+- uid: System.Threading.CancellationToken.#ctor*
+  parent: System.Threading.CancellationToken
+  isExternal: false
+  name: CancellationToken
+  nameWithType: CancellationToken.CancellationToken
+- uid: System.Threading.CancellationToken.CanBeCanceled*
+  parent: System.Threading.CancellationToken
+  isExternal: false
+  name: CanBeCanceled
+  nameWithType: CancellationToken.CanBeCanceled
 - uid: System.Threading.CancellationToken.Equals*
   parent: System.Threading.CancellationToken
   isExternal: false
   name: Equals
   nameWithType: CancellationToken.Equals
+- uid: System.Threading.CancellationToken.GetHashCode*
+  parent: System.Threading.CancellationToken
+  isExternal: false
+  name: GetHashCode
+  nameWithType: CancellationToken.GetHashCode
+- uid: System.Threading.CancellationToken.IsCancellationRequested*
+  parent: System.Threading.CancellationToken
+  isExternal: false
+  name: IsCancellationRequested
+  nameWithType: CancellationToken.IsCancellationRequested
+- uid: System.Threading.CancellationToken.None*
+  parent: System.Threading.CancellationToken
+  isExternal: false
+  name: None
+  nameWithType: CancellationToken.None
+- uid: System.Threading.CancellationToken.op_Equality*
+  parent: System.Threading.CancellationToken
+  isExternal: false
+  name: op_Equality
+  nameWithType: CancellationToken.op_Equality
+- uid: System.Threading.CancellationToken.op_Inequality*
+  parent: System.Threading.CancellationToken
+  isExternal: false
+  name: op_Inequality
+  nameWithType: CancellationToken.op_Inequality
 - uid: System.Threading.CancellationToken.Register*
   parent: System.Threading.CancellationToken
   isExternal: false
   name: Register
   nameWithType: CancellationToken.Register
+- uid: System.Threading.CancellationToken.ThrowIfCancellationRequested*
+  parent: System.Threading.CancellationToken
+  isExternal: false
+  name: ThrowIfCancellationRequested
+  nameWithType: CancellationToken.ThrowIfCancellationRequested
+- uid: System.Threading.CancellationToken.WaitHandle*
+  parent: System.Threading.CancellationToken
+  isExternal: false
+  name: WaitHandle
+  nameWithType: CancellationToken.WaitHandle

@@ -106,6 +106,7 @@ items:
   syntax:
     content: protected Module ();
     parameters: []
+  overload: System.Reflection.Module.#ctor*
   platform:
   - net-11
   - net-20
@@ -129,6 +130,7 @@ items:
     return:
       type: System.Reflection.Assembly
       description: To be added.
+  overload: System.Reflection.Module.Assembly*
   platform:
   - net-11
   - net-20
@@ -152,6 +154,7 @@ items:
     return:
       type: System.Collections.Generic.IEnumerable{System.Reflection.CustomAttributeData}
       description: To be added.
+  overload: System.Reflection.Module.CustomAttributes*
   platform:
   - net-11
   - net-20
@@ -179,6 +182,7 @@ items:
     return:
       type: System.Boolean
       description: To be added.
+  overload: System.Reflection.Module.Equals*
   platform:
   - net-11
   - net-20
@@ -255,6 +259,7 @@ items:
     return:
       type: System.Type[]
       description: To be added.
+  overload: System.Reflection.Module.FindTypes*
   platform:
   - net-11
   - net-20
@@ -278,6 +283,7 @@ items:
     return:
       type: System.String
       description: To be added.
+  overload: System.Reflection.Module.FullyQualifiedName*
   platform:
   - net-11
   - net-20
@@ -361,6 +367,7 @@ items:
     return:
       type: System.Collections.Generic.IList{System.Reflection.CustomAttributeData}
       description: To be added.
+  overload: System.Reflection.Module.GetCustomAttributesData*
   platform:
   - net-11
   - net-20
@@ -497,6 +504,7 @@ items:
     return:
       type: System.Int32
       description: To be added.
+  overload: System.Reflection.Module.GetHashCode*
   platform:
   - net-11
   - net-20
@@ -641,6 +649,7 @@ items:
     return:
       type: System.Reflection.MethodInfo
       description: To be added.
+  overload: System.Reflection.Module.GetMethodImpl*
   platform:
   - net-11
   - net-20
@@ -721,6 +730,7 @@ items:
     - id: context
       type: System.Runtime.Serialization.StreamingContext
       description: To be added.
+  overload: System.Reflection.Module.GetObjectData*
   platform:
   - net-11
   - net-20
@@ -748,6 +758,7 @@ items:
     - id: machine
       type: System.Reflection.ImageFileMachine
       description: To be added.
+  overload: System.Reflection.Module.GetPEKind*
   platform:
   - net-11
   - net-20
@@ -772,6 +783,7 @@ items:
     return:
       type: System.Security.Cryptography.X509Certificates.X509Certificate
       description: To be added.
+  overload: System.Reflection.Module.GetSignerCertificate*
   platform:
   - net-11
   - net-20
@@ -889,6 +901,7 @@ items:
     return:
       type: System.Type[]
       description: To be added.
+  overload: System.Reflection.Module.GetTypes*
   platform:
   - net-11
   - net-20
@@ -919,6 +932,7 @@ items:
     return:
       type: System.Boolean
       description: To be added.
+  overload: System.Reflection.Module.IsDefined*
   platform:
   - net-11
   - net-20
@@ -943,6 +957,7 @@ items:
     return:
       type: System.Boolean
       description: To be added.
+  overload: System.Reflection.Module.IsResource*
   platform:
   - net-11
   - net-20
@@ -966,6 +981,7 @@ items:
     return:
       type: System.Int32
       description: To be added.
+  overload: System.Reflection.Module.MDStreamVersion*
   platform:
   - net-11
   - net-20
@@ -989,6 +1005,7 @@ items:
     return:
       type: System.Int32
       description: To be added.
+  overload: System.Reflection.Module.MetadataToken*
   platform:
   - net-11
   - net-20
@@ -1012,6 +1029,7 @@ items:
     return:
       type: System.ModuleHandle
       description: To be added.
+  overload: System.Reflection.Module.ModuleHandle*
   platform:
   - net-11
   - net-20
@@ -1035,6 +1053,7 @@ items:
     return:
       type: System.Guid
       description: To be added.
+  overload: System.Reflection.Module.ModuleVersionId*
   platform:
   - net-11
   - net-20
@@ -1058,6 +1077,7 @@ items:
     return:
       type: System.String
       description: To be added.
+  overload: System.Reflection.Module.Name*
   platform:
   - net-11
   - net-20
@@ -1088,6 +1108,7 @@ items:
     return:
       type: System.Boolean
       description: To be added.
+  overload: System.Reflection.Module.op_Equality*
   platform:
   - net-11
   - net-20
@@ -1118,6 +1139,7 @@ items:
     return:
       type: System.Boolean
       description: To be added.
+  overload: System.Reflection.Module.op_Inequality*
   platform:
   - net-11
   - net-20
@@ -1331,6 +1353,7 @@ items:
     return:
       type: System.Byte[]
       description: To be added.
+  overload: System.Reflection.Module.ResolveSignature*
   platform:
   - net-11
   - net-20
@@ -1358,6 +1381,7 @@ items:
     return:
       type: System.String
       description: To be added.
+  overload: System.Reflection.Module.ResolveString*
   platform:
   - net-11
   - net-20
@@ -1443,6 +1467,7 @@ items:
     return:
       type: System.String
       description: To be added.
+  overload: System.Reflection.Module.ScopeName*
   platform:
   - net-11
   - net-20
@@ -1480,6 +1505,7 @@ items:
     - id: rgDispId
       type: System.IntPtr
       description: To be added.
+  overload: System.Reflection.Module.System#Runtime#InteropServices#_Module#GetIDsOfNames*
   platform:
   - net-11
   - net-20
@@ -1511,6 +1537,7 @@ items:
     - id: ppTInfo
       type: System.IntPtr
       description: To be added.
+  overload: System.Reflection.Module.System#Runtime#InteropServices#_Module#GetTypeInfo*
   platform:
   - net-11
   - net-20
@@ -1536,6 +1563,7 @@ items:
     - id: pcTInfo
       type: System.UInt32
       description: To be added.
+  overload: System.Reflection.Module.System#Runtime#InteropServices#_Module#GetTypeInfoCount*
   platform:
   - net-11
   - net-20
@@ -1582,6 +1610,7 @@ items:
     - id: puArgErr
       type: System.IntPtr
       description: To be added.
+  overload: System.Reflection.Module.System#Runtime#InteropServices#_Module#Invoke*
   platform:
   - net-11
   - net-20
@@ -1606,6 +1635,7 @@ items:
     return:
       type: System.String
       description: To be added.
+  overload: System.Reflection.Module.ToString*
   platform:
   - net-11
   - net-20
@@ -2682,11 +2712,46 @@ references:
   name: String
   nameWithType: String
   fullName: System.String
+- uid: System.Reflection.Module.#ctor*
+  parent: System.Reflection.Module
+  isExternal: false
+  name: Module
+  nameWithType: Module.Module
+- uid: System.Reflection.Module.Assembly*
+  parent: System.Reflection.Module
+  isExternal: false
+  name: Assembly
+  nameWithType: Module.Assembly
+- uid: System.Reflection.Module.CustomAttributes*
+  parent: System.Reflection.Module
+  isExternal: false
+  name: CustomAttributes
+  nameWithType: Module.CustomAttributes
+- uid: System.Reflection.Module.Equals*
+  parent: System.Reflection.Module
+  isExternal: false
+  name: Equals
+  nameWithType: Module.Equals
+- uid: System.Reflection.Module.FindTypes*
+  parent: System.Reflection.Module
+  isExternal: false
+  name: FindTypes
+  nameWithType: Module.FindTypes
+- uid: System.Reflection.Module.FullyQualifiedName*
+  parent: System.Reflection.Module
+  isExternal: false
+  name: FullyQualifiedName
+  nameWithType: Module.FullyQualifiedName
 - uid: System.Reflection.Module.GetCustomAttributes*
   parent: System.Reflection.Module
   isExternal: false
   name: GetCustomAttributes
   nameWithType: Module.GetCustomAttributes
+- uid: System.Reflection.Module.GetCustomAttributesData*
+  parent: System.Reflection.Module
+  isExternal: false
+  name: GetCustomAttributesData
+  nameWithType: Module.GetCustomAttributesData
 - uid: System.Reflection.Module.GetField*
   parent: System.Reflection.Module
   isExternal: false
@@ -2697,21 +2762,96 @@ references:
   isExternal: false
   name: GetFields
   nameWithType: Module.GetFields
+- uid: System.Reflection.Module.GetHashCode*
+  parent: System.Reflection.Module
+  isExternal: false
+  name: GetHashCode
+  nameWithType: Module.GetHashCode
 - uid: System.Reflection.Module.GetMethod*
   parent: System.Reflection.Module
   isExternal: false
   name: GetMethod
   nameWithType: Module.GetMethod
+- uid: System.Reflection.Module.GetMethodImpl*
+  parent: System.Reflection.Module
+  isExternal: false
+  name: GetMethodImpl
+  nameWithType: Module.GetMethodImpl
 - uid: System.Reflection.Module.GetMethods*
   parent: System.Reflection.Module
   isExternal: false
   name: GetMethods
   nameWithType: Module.GetMethods
+- uid: System.Reflection.Module.GetObjectData*
+  parent: System.Reflection.Module
+  isExternal: false
+  name: GetObjectData
+  nameWithType: Module.GetObjectData
+- uid: System.Reflection.Module.GetPEKind*
+  parent: System.Reflection.Module
+  isExternal: false
+  name: GetPEKind
+  nameWithType: Module.GetPEKind
+- uid: System.Reflection.Module.GetSignerCertificate*
+  parent: System.Reflection.Module
+  isExternal: false
+  name: GetSignerCertificate
+  nameWithType: Module.GetSignerCertificate
 - uid: System.Reflection.Module.GetType*
   parent: System.Reflection.Module
   isExternal: false
   name: GetType
   nameWithType: Module.GetType
+- uid: System.Reflection.Module.GetTypes*
+  parent: System.Reflection.Module
+  isExternal: false
+  name: GetTypes
+  nameWithType: Module.GetTypes
+- uid: System.Reflection.Module.IsDefined*
+  parent: System.Reflection.Module
+  isExternal: false
+  name: IsDefined
+  nameWithType: Module.IsDefined
+- uid: System.Reflection.Module.IsResource*
+  parent: System.Reflection.Module
+  isExternal: false
+  name: IsResource
+  nameWithType: Module.IsResource
+- uid: System.Reflection.Module.MDStreamVersion*
+  parent: System.Reflection.Module
+  isExternal: false
+  name: MDStreamVersion
+  nameWithType: Module.MDStreamVersion
+- uid: System.Reflection.Module.MetadataToken*
+  parent: System.Reflection.Module
+  isExternal: false
+  name: MetadataToken
+  nameWithType: Module.MetadataToken
+- uid: System.Reflection.Module.ModuleHandle*
+  parent: System.Reflection.Module
+  isExternal: false
+  name: ModuleHandle
+  nameWithType: Module.ModuleHandle
+- uid: System.Reflection.Module.ModuleVersionId*
+  parent: System.Reflection.Module
+  isExternal: false
+  name: ModuleVersionId
+  nameWithType: Module.ModuleVersionId
+- uid: System.Reflection.Module.Name*
+  parent: System.Reflection.Module
+  isExternal: false
+  name: Name
+  nameWithType: Module.Name
+- uid: System.Reflection.Module.op_Equality*
+  parent: System.Reflection.Module
+  isExternal: false
+  name: op_Equality
+  nameWithType: Module.op_Equality
+- uid: System.Reflection.Module.op_Inequality*
+  parent: System.Reflection.Module
+  isExternal: false
+  name: op_Inequality
+  nameWithType: Module.op_Inequality
 - uid: System.Reflection.Module.ResolveField*
   parent: System.Reflection.Module
   isExternal: false
@@ -2727,8 +2867,48 @@ references:
   isExternal: false
   name: ResolveMethod
   nameWithType: Module.ResolveMethod
+- uid: System.Reflection.Module.ResolveSignature*
+  parent: System.Reflection.Module
+  isExternal: false
+  name: ResolveSignature
+  nameWithType: Module.ResolveSignature
+- uid: System.Reflection.Module.ResolveString*
+  parent: System.Reflection.Module
+  isExternal: false
+  name: ResolveString
+  nameWithType: Module.ResolveString
 - uid: System.Reflection.Module.ResolveType*
   parent: System.Reflection.Module
   isExternal: false
   name: ResolveType
   nameWithType: Module.ResolveType
+- uid: System.Reflection.Module.ScopeName*
+  parent: System.Reflection.Module
+  isExternal: false
+  name: ScopeName
+  nameWithType: Module.ScopeName
+- uid: System.Reflection.Module.System#Runtime#InteropServices#_Module#GetIDsOfNames*
+  parent: System.Reflection.Module
+  isExternal: false
+  name: System.Runtime.InteropServices._Module.GetIDsOfNames
+  nameWithType: Module.System.Runtime.InteropServices._Module.GetIDsOfNames
+- uid: System.Reflection.Module.System#Runtime#InteropServices#_Module#GetTypeInfo*
+  parent: System.Reflection.Module
+  isExternal: false
+  name: System.Runtime.InteropServices._Module.GetTypeInfo
+  nameWithType: Module.System.Runtime.InteropServices._Module.GetTypeInfo
+- uid: System.Reflection.Module.System#Runtime#InteropServices#_Module#GetTypeInfoCount*
+  parent: System.Reflection.Module
+  isExternal: false
+  name: System.Runtime.InteropServices._Module.GetTypeInfoCount
+  nameWithType: Module.System.Runtime.InteropServices._Module.GetTypeInfoCount
+- uid: System.Reflection.Module.System#Runtime#InteropServices#_Module#Invoke*
+  parent: System.Reflection.Module
+  isExternal: false
+  name: System.Runtime.InteropServices._Module.Invoke
+  nameWithType: Module.System.Runtime.InteropServices._Module.Invoke
+- uid: System.Reflection.Module.ToString*
+  parent: System.Reflection.Module
+  isExternal: false
+  name: ToString
+  nameWithType: Module.ToString

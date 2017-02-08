@@ -97,6 +97,7 @@ items:
   syntax:
     content: protected KeyedCollection ();
     parameters: []
+  overload: System.Collections.ObjectModel.KeyedCollection`2.#ctor*
   platform:
   - net-11
   - net-20
@@ -121,6 +122,7 @@ items:
     - id: comparer
       type: System.Collections.Generic.IEqualityComparer{TKey}
       description: To be added.
+  overload: System.Collections.ObjectModel.KeyedCollection`2.#ctor*
   platform:
   - net-11
   - net-20
@@ -148,6 +150,7 @@ items:
     - id: dictionaryCreationThreshold
       type: System.Int32
       description: To be added.
+  overload: System.Collections.ObjectModel.KeyedCollection`2.#ctor*
   platform:
   - net-11
   - net-20
@@ -175,6 +178,7 @@ items:
     - id: newKey
       type: TKey
       description: To be added.
+  overload: System.Collections.ObjectModel.KeyedCollection`2.ChangeItemKey*
   platform:
   - net-11
   - net-20
@@ -196,6 +200,7 @@ items:
   syntax:
     content: protected override void ClearItems ();
     parameters: []
+  overload: System.Collections.ObjectModel.KeyedCollection`2.ClearItems*
   platform:
   - net-11
   - net-20
@@ -219,6 +224,7 @@ items:
     return:
       type: System.Collections.Generic.IEqualityComparer{TKey}
       description: To be added.
+  overload: System.Collections.ObjectModel.KeyedCollection`2.Comparer*
   platform:
   - net-11
   - net-20
@@ -246,6 +252,7 @@ items:
     return:
       type: System.Boolean
       description: To be added.
+  overload: System.Collections.ObjectModel.KeyedCollection`2.Contains*
   platform:
   - net-11
   - net-20
@@ -269,6 +276,7 @@ items:
     return:
       type: System.Collections.Generic.IDictionary{TKey,TItem}
       description: To be added.
+  overload: System.Collections.ObjectModel.KeyedCollection`2.Dictionary*
   platform:
   - net-11
   - net-20
@@ -296,6 +304,7 @@ items:
     return:
       type: TKey
       description: To be added.
+  overload: System.Collections.ObjectModel.KeyedCollection`2.GetKeyForItem*
   platform:
   - net-11
   - net-20
@@ -323,6 +332,7 @@ items:
     - id: item
       type: TItem
       description: To be added.
+  overload: System.Collections.ObjectModel.KeyedCollection`2.InsertItem*
   platform:
   - net-11
   - net-20
@@ -350,6 +360,7 @@ items:
     return:
       type: TItem
       description: To be added.
+  overload: System.Collections.ObjectModel.KeyedCollection`2.Item*
   platform:
   - net-11
   - net-20
@@ -377,6 +388,7 @@ items:
     return:
       type: System.Boolean
       description: To be added.
+  overload: System.Collections.ObjectModel.KeyedCollection`2.Remove*
   platform:
   - net-11
   - net-20
@@ -401,6 +413,7 @@ items:
     - id: index
       type: System.Int32
       description: To be added.
+  overload: System.Collections.ObjectModel.KeyedCollection`2.RemoveItem*
   platform:
   - net-11
   - net-20
@@ -428,6 +441,7 @@ items:
     - id: item
       type: TItem
       description: To be added.
+  overload: System.Collections.ObjectModel.KeyedCollection`2.SetItem*
   platform:
   - net-11
   - net-20
@@ -640,3 +654,63 @@ references:
   name: TItem
   nameWithType: TItem
   fullName: TItem
+- uid: System.Collections.ObjectModel.KeyedCollection`2.#ctor*
+  parent: System.Collections.ObjectModel.KeyedCollection`2
+  isExternal: false
+  name: KeyedCollection<TKey,TItem>
+  nameWithType: KeyedCollection<TKey,TItem>.KeyedCollection<TKey,TItem>
+- uid: System.Collections.ObjectModel.KeyedCollection`2.ChangeItemKey*
+  parent: System.Collections.ObjectModel.KeyedCollection`2
+  isExternal: false
+  name: ChangeItemKey
+  nameWithType: KeyedCollection<TKey,TItem>.ChangeItemKey
+- uid: System.Collections.ObjectModel.KeyedCollection`2.ClearItems*
+  parent: System.Collections.ObjectModel.KeyedCollection`2
+  isExternal: false
+  name: ClearItems
+  nameWithType: KeyedCollection<TKey,TItem>.ClearItems
+- uid: System.Collections.ObjectModel.KeyedCollection`2.Comparer*
+  parent: System.Collections.ObjectModel.KeyedCollection`2
+  isExternal: false
+  name: Comparer
+  nameWithType: KeyedCollection<TKey,TItem>.Comparer
+- uid: System.Collections.ObjectModel.KeyedCollection`2.Contains*
+  parent: System.Collections.ObjectModel.KeyedCollection`2
+  isExternal: false
+  name: Contains
+  nameWithType: KeyedCollection<TKey,TItem>.Contains
+- uid: System.Collections.ObjectModel.KeyedCollection`2.Dictionary*
+  parent: System.Collections.ObjectModel.KeyedCollection`2
+  isExternal: false
+  name: Dictionary
+  nameWithType: KeyedCollection<TKey,TItem>.Dictionary
+- uid: System.Collections.ObjectModel.KeyedCollection`2.GetKeyForItem*
+  parent: System.Collections.ObjectModel.KeyedCollection`2
+  isExternal: false
+  name: GetKeyForItem
+  nameWithType: KeyedCollection<TKey,TItem>.GetKeyForItem
+- uid: System.Collections.ObjectModel.KeyedCollection`2.InsertItem*
+  parent: System.Collections.ObjectModel.KeyedCollection`2
+  isExternal: false
+  name: InsertItem
+  nameWithType: KeyedCollection<TKey,TItem>.InsertItem
+- uid: System.Collections.ObjectModel.KeyedCollection`2.Item*
+  parent: System.Collections.ObjectModel.KeyedCollection`2
+  isExternal: false
+  name: Item
+  nameWithType: KeyedCollection<TKey,TItem>.Item
+- uid: System.Collections.ObjectModel.KeyedCollection`2.Remove*
+  parent: System.Collections.ObjectModel.KeyedCollection`2
+  isExternal: false
+  name: Remove
+  nameWithType: KeyedCollection<TKey,TItem>.Remove
+- uid: System.Collections.ObjectModel.KeyedCollection`2.RemoveItem*
+  parent: System.Collections.ObjectModel.KeyedCollection`2
+  isExternal: false
+  name: RemoveItem
+  nameWithType: KeyedCollection<TKey,TItem>.RemoveItem
+- uid: System.Collections.ObjectModel.KeyedCollection`2.SetItem*
+  parent: System.Collections.ObjectModel.KeyedCollection`2
+  isExternal: false
+  name: SetItem
+  nameWithType: KeyedCollection<TKey,TItem>.SetItem

@@ -72,6 +72,7 @@ items:
   syntax:
     content: public Evidence ();
     parameters: []
+  overload: System.Security.Policy.Evidence.#ctor*
   platform:
   - net-11
   - net-20
@@ -96,6 +97,7 @@ items:
     - id: evidence
       type: System.Security.Policy.Evidence
       description: To be added.
+  overload: System.Security.Policy.Evidence.#ctor*
   platform:
   - net-11
   - net-20
@@ -123,6 +125,7 @@ items:
     - id: assemblyEvidence
       type: System.Object[]
       description: To be added.
+  overload: System.Security.Policy.Evidence.#ctor*
   platform:
   - net-11
   - net-20
@@ -150,6 +153,7 @@ items:
     - id: assemblyEvidence
       type: System.Security.Policy.EvidenceBase[]
       description: To be added.
+  overload: System.Security.Policy.Evidence.#ctor*
   platform:
   - net-11
   - net-20
@@ -174,6 +178,7 @@ items:
     - id: id
       type: System.Object
       description: To be added.
+  overload: System.Security.Policy.Evidence.AddAssembly*
   platform:
   - net-11
   - net-20
@@ -198,6 +203,7 @@ items:
     - id: evidence
       type: T
       description: To be added.
+  overload: System.Security.Policy.Evidence.AddAssemblyEvidence<T>*
   platform:
   - net-11
   - net-20
@@ -222,6 +228,7 @@ items:
     - id: id
       type: System.Object
       description: To be added.
+  overload: System.Security.Policy.Evidence.AddHost*
   platform:
   - net-11
   - net-20
@@ -246,6 +253,7 @@ items:
     - id: evidence
       type: T
       description: To be added.
+  overload: System.Security.Policy.Evidence.AddHostEvidence<T>*
   platform:
   - net-11
   - net-20
@@ -267,6 +275,7 @@ items:
   syntax:
     content: public void Clear ();
     parameters: []
+  overload: System.Security.Policy.Evidence.Clear*
   platform:
   - net-11
   - net-20
@@ -291,6 +300,7 @@ items:
     return:
       type: System.Security.Policy.Evidence
       description: To be added.
+  overload: System.Security.Policy.Evidence.Clone*
   platform:
   - net-11
   - net-20
@@ -318,6 +328,7 @@ items:
     - id: index
       type: System.Int32
       description: To be added.
+  overload: System.Security.Policy.Evidence.CopyTo*
   platform:
   - net-11
   - net-20
@@ -341,6 +352,7 @@ items:
     return:
       type: System.Int32
       description: To be added.
+  overload: System.Security.Policy.Evidence.Count*
   platform:
   - net-11
   - net-20
@@ -365,6 +377,7 @@ items:
     return:
       type: System.Collections.IEnumerator
       description: To be added.
+  overload: System.Security.Policy.Evidence.GetAssemblyEnumerator*
   platform:
   - net-11
   - net-20
@@ -389,6 +402,7 @@ items:
     return:
       type: T
       description: To be added.
+  overload: System.Security.Policy.Evidence.GetAssemblyEvidence<T>*
   platform:
   - net-11
   - net-20
@@ -413,6 +427,7 @@ items:
     return:
       type: System.Collections.IEnumerator
       description: To be added.
+  overload: System.Security.Policy.Evidence.GetEnumerator*
   platform:
   - net-11
   - net-20
@@ -437,6 +452,7 @@ items:
     return:
       type: System.Collections.IEnumerator
       description: To be added.
+  overload: System.Security.Policy.Evidence.GetHostEnumerator*
   platform:
   - net-11
   - net-20
@@ -461,6 +477,7 @@ items:
     return:
       type: T
       description: To be added.
+  overload: System.Security.Policy.Evidence.GetHostEvidence<T>*
   platform:
   - net-11
   - net-20
@@ -484,6 +501,7 @@ items:
     return:
       type: System.Boolean
       description: To be added.
+  overload: System.Security.Policy.Evidence.IsReadOnly*
   platform:
   - net-11
   - net-20
@@ -507,6 +525,7 @@ items:
     return:
       type: System.Boolean
       description: To be added.
+  overload: System.Security.Policy.Evidence.IsSynchronized*
   platform:
   - net-11
   - net-20
@@ -530,6 +549,7 @@ items:
     return:
       type: System.Boolean
       description: To be added.
+  overload: System.Security.Policy.Evidence.Locked*
   platform:
   - net-11
   - net-20
@@ -554,6 +574,7 @@ items:
     - id: evidence
       type: System.Security.Policy.Evidence
       description: To be added.
+  overload: System.Security.Policy.Evidence.Merge*
   platform:
   - net-11
   - net-20
@@ -578,6 +599,7 @@ items:
     - id: t
       type: System.Type
       description: To be added.
+  overload: System.Security.Policy.Evidence.RemoveType*
   platform:
   - net-11
   - net-20
@@ -601,6 +623,7 @@ items:
     return:
       type: System.Object
       description: To be added.
+  overload: System.Security.Policy.Evidence.SyncRoot*
   platform:
   - net-11
   - net-20
@@ -891,3 +914,103 @@ references:
   name: Object
   nameWithType: Object
   fullName: System.Object
+- uid: System.Security.Policy.Evidence.#ctor*
+  parent: System.Security.Policy.Evidence
+  isExternal: false
+  name: Evidence
+  nameWithType: Evidence.Evidence
+- uid: System.Security.Policy.Evidence.AddAssembly*
+  parent: System.Security.Policy.Evidence
+  isExternal: false
+  name: AddAssembly
+  nameWithType: Evidence.AddAssembly
+- uid: System.Security.Policy.Evidence.AddAssemblyEvidence<T>*
+  parent: System.Security.Policy.Evidence
+  isExternal: false
+  name: AddAssemblyEvidence<T>
+  nameWithType: Evidence.AddAssemblyEvidence<T>
+- uid: System.Security.Policy.Evidence.AddHost*
+  parent: System.Security.Policy.Evidence
+  isExternal: false
+  name: AddHost
+  nameWithType: Evidence.AddHost
+- uid: System.Security.Policy.Evidence.AddHostEvidence<T>*
+  parent: System.Security.Policy.Evidence
+  isExternal: false
+  name: AddHostEvidence<T>
+  nameWithType: Evidence.AddHostEvidence<T>
+- uid: System.Security.Policy.Evidence.Clear*
+  parent: System.Security.Policy.Evidence
+  isExternal: false
+  name: Clear
+  nameWithType: Evidence.Clear
+- uid: System.Security.Policy.Evidence.Clone*
+  parent: System.Security.Policy.Evidence
+  isExternal: false
+  name: Clone
+  nameWithType: Evidence.Clone
+- uid: System.Security.Policy.Evidence.CopyTo*
+  parent: System.Security.Policy.Evidence
+  isExternal: false
+  name: CopyTo
+  nameWithType: Evidence.CopyTo
+- uid: System.Security.Policy.Evidence.Count*
+  parent: System.Security.Policy.Evidence
+  isExternal: false
+  name: Count
+  nameWithType: Evidence.Count
+- uid: System.Security.Policy.Evidence.GetAssemblyEnumerator*
+  parent: System.Security.Policy.Evidence
+  isExternal: false
+  name: GetAssemblyEnumerator
+  nameWithType: Evidence.GetAssemblyEnumerator
+- uid: System.Security.Policy.Evidence.GetAssemblyEvidence<T>*
+  parent: System.Security.Policy.Evidence
+  isExternal: false
+  name: GetAssemblyEvidence<T>
+  nameWithType: Evidence.GetAssemblyEvidence<T>
+- uid: System.Security.Policy.Evidence.GetEnumerator*
+  parent: System.Security.Policy.Evidence
+  isExternal: false
+  name: GetEnumerator
+  nameWithType: Evidence.GetEnumerator
+- uid: System.Security.Policy.Evidence.GetHostEnumerator*
+  parent: System.Security.Policy.Evidence
+  isExternal: false
+  name: GetHostEnumerator
+  nameWithType: Evidence.GetHostEnumerator
+- uid: System.Security.Policy.Evidence.GetHostEvidence<T>*
+  parent: System.Security.Policy.Evidence
+  isExternal: false
+  name: GetHostEvidence<T>
+  nameWithType: Evidence.GetHostEvidence<T>
+- uid: System.Security.Policy.Evidence.IsReadOnly*
+  parent: System.Security.Policy.Evidence
+  isExternal: false
+  name: IsReadOnly
+  nameWithType: Evidence.IsReadOnly
+- uid: System.Security.Policy.Evidence.IsSynchronized*
+  parent: System.Security.Policy.Evidence
+  isExternal: false
+  name: IsSynchronized
+  nameWithType: Evidence.IsSynchronized
+- uid: System.Security.Policy.Evidence.Locked*
+  parent: System.Security.Policy.Evidence
+  isExternal: false
+  name: Locked
+  nameWithType: Evidence.Locked
+- uid: System.Security.Policy.Evidence.Merge*
+  parent: System.Security.Policy.Evidence
+  isExternal: false
+  name: Merge
+  nameWithType: Evidence.Merge
+- uid: System.Security.Policy.Evidence.RemoveType*
+  parent: System.Security.Policy.Evidence
+  isExternal: false
+  name: RemoveType
+  nameWithType: Evidence.RemoveType
+- uid: System.Security.Policy.Evidence.SyncRoot*
+  parent: System.Security.Policy.Evidence
+  isExternal: false
+  name: SyncRoot
+  nameWithType: Evidence.SyncRoot

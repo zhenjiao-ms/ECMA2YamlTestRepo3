@@ -63,6 +63,7 @@ items:
     - id: assembly
       type: System.Reflection.Assembly
       description: To be added.
+  overload: System.Security.Policy.Hash.#ctor*
   platform:
   - net-11
   - net-20
@@ -87,6 +88,7 @@ items:
     return:
       type: System.Security.Policy.EvidenceBase
       description: To be added.
+  overload: System.Security.Policy.Hash.Clone*
   platform:
   - net-11
   - net-20
@@ -114,6 +116,7 @@ items:
     return:
       type: System.Security.Policy.Hash
       description: To be added.
+  overload: System.Security.Policy.Hash.CreateMD5*
   platform:
   - net-11
   - net-20
@@ -141,6 +144,7 @@ items:
     return:
       type: System.Security.Policy.Hash
       description: To be added.
+  overload: System.Security.Policy.Hash.CreateSHA1*
   platform:
   - net-11
   - net-20
@@ -168,6 +172,7 @@ items:
     return:
       type: System.Security.Policy.Hash
       description: To be added.
+  overload: System.Security.Policy.Hash.CreateSHA256*
   platform:
   - net-11
   - net-20
@@ -195,6 +200,7 @@ items:
     return:
       type: System.Byte[]
       description: To be added.
+  overload: System.Security.Policy.Hash.GenerateHash*
   platform:
   - net-11
   - net-20
@@ -222,6 +228,7 @@ items:
     - id: context
       type: System.Runtime.Serialization.StreamingContext
       description: To be added.
+  overload: System.Security.Policy.Hash.GetObjectData*
   platform:
   - net-11
   - net-20
@@ -245,6 +252,7 @@ items:
     return:
       type: System.Byte[]
       description: To be added.
+  overload: System.Security.Policy.Hash.MD5*
   platform:
   - net-11
   - net-20
@@ -268,6 +276,7 @@ items:
     return:
       type: System.Byte[]
       description: To be added.
+  overload: System.Security.Policy.Hash.SHA1*
   platform:
   - net-11
   - net-20
@@ -291,6 +300,7 @@ items:
     return:
       type: System.Byte[]
       description: To be added.
+  overload: System.Security.Policy.Hash.SHA256*
   platform:
   - net-11
   - net-20
@@ -315,6 +325,7 @@ items:
     return:
       type: System.String
       description: To be added.
+  overload: System.Security.Policy.Hash.ToString*
   platform:
   - net-11
   - net-20
@@ -485,3 +496,58 @@ references:
   name: String
   nameWithType: String
   fullName: System.String
+- uid: System.Security.Policy.Hash.#ctor*
+  parent: System.Security.Policy.Hash
+  isExternal: false
+  name: Hash
+  nameWithType: Hash.Hash
+- uid: System.Security.Policy.Hash.Clone*
+  parent: System.Security.Policy.Hash
+  isExternal: false
+  name: Clone
+  nameWithType: Hash.Clone
+- uid: System.Security.Policy.Hash.CreateMD5*
+  parent: System.Security.Policy.Hash
+  isExternal: false
+  name: CreateMD5
+  nameWithType: Hash.CreateMD5
+- uid: System.Security.Policy.Hash.CreateSHA1*
+  parent: System.Security.Policy.Hash
+  isExternal: false
+  name: CreateSHA1
+  nameWithType: Hash.CreateSHA1
+- uid: System.Security.Policy.Hash.CreateSHA256*
+  parent: System.Security.Policy.Hash
+  isExternal: false
+  name: CreateSHA256
+  nameWithType: Hash.CreateSHA256
+- uid: System.Security.Policy.Hash.GenerateHash*
+  parent: System.Security.Policy.Hash
+  isExternal: false
+  name: GenerateHash
+  nameWithType: Hash.GenerateHash
+- uid: System.Security.Policy.Hash.GetObjectData*
+  parent: System.Security.Policy.Hash
+  isExternal: false
+  name: GetObjectData
+  nameWithType: Hash.GetObjectData
+- uid: System.Security.Policy.Hash.MD5*
+  parent: System.Security.Policy.Hash
+  isExternal: false
+  name: MD5
+  nameWithType: Hash.MD5
+- uid: System.Security.Policy.Hash.SHA1*
+  parent: System.Security.Policy.Hash
+  isExternal: false
+  name: SHA1
+  nameWithType: Hash.SHA1
+- uid: System.Security.Policy.Hash.SHA256*
+  parent: System.Security.Policy.Hash
+  isExternal: false
+  name: SHA256
+  nameWithType: Hash.SHA256
+- uid: System.Security.Policy.Hash.ToString*
+  parent: System.Security.Policy.Hash
+  isExternal: false
+  name: ToString
+  nameWithType: Hash.ToString

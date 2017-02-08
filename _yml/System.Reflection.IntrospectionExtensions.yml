@@ -52,6 +52,7 @@ items:
     return:
       type: System.Reflection.TypeInfo
       description: To be added.
+  overload: System.Reflection.IntrospectionExtensions.GetTypeInfo*
   platform:
   - net-11
   - net-20
@@ -78,3 +79,8 @@ references:
   name: Type
   nameWithType: Type
   fullName: System.Type
+- uid: System.Reflection.IntrospectionExtensions.GetTypeInfo*
+  parent: System.Reflection.IntrospectionExtensions
+  isExternal: false
+  name: GetTypeInfo
+  nameWithType: IntrospectionExtensions.GetTypeInfo

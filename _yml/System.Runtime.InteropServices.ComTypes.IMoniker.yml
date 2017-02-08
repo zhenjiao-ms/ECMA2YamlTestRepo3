@@ -72,6 +72,7 @@ items:
     - id: ppvResult
       type: System.Object
       description: To be added.
+  overload: System.Runtime.InteropServices.ComTypes.IMoniker.BindToObject*
   platform:
   - net-11
   - net-20
@@ -105,6 +106,7 @@ items:
     - id: ppvObj
       type: System.Object
       description: To be added.
+  overload: System.Runtime.InteropServices.ComTypes.IMoniker.BindToStorage*
   platform:
   - net-11
   - net-20
@@ -132,6 +134,7 @@ items:
     - id: ppmkPrefix
       type: System.Runtime.InteropServices.ComTypes.IMoniker
       description: To be added.
+  overload: System.Runtime.InteropServices.ComTypes.IMoniker.CommonPrefixWith*
   platform:
   - net-11
   - net-20
@@ -162,6 +165,7 @@ items:
     - id: ppmkComposite
       type: System.Runtime.InteropServices.ComTypes.IMoniker
       description: To be added.
+  overload: System.Runtime.InteropServices.ComTypes.IMoniker.ComposeWith*
   platform:
   - net-11
   - net-20
@@ -189,6 +193,7 @@ items:
     - id: ppenumMoniker
       type: System.Runtime.InteropServices.ComTypes.IEnumMoniker
       description: To be added.
+  overload: System.Runtime.InteropServices.ComTypes.IMoniker.Enum*
   platform:
   - net-11
   - net-20
@@ -213,6 +218,7 @@ items:
     - id: pClassID
       type: System.Guid
       description: To be added.
+  overload: System.Runtime.InteropServices.ComTypes.IMoniker.GetClassID*
   platform:
   - net-11
   - net-20
@@ -243,6 +249,7 @@ items:
     - id: ppszDisplayName
       type: System.String
       description: To be added.
+  overload: System.Runtime.InteropServices.ComTypes.IMoniker.GetDisplayName*
   platform:
   - net-11
   - net-20
@@ -267,6 +274,7 @@ items:
     - id: pcbSize
       type: System.Int64
       description: To be added.
+  overload: System.Runtime.InteropServices.ComTypes.IMoniker.GetSizeMax*
   platform:
   - net-11
   - net-20
@@ -297,6 +305,7 @@ items:
     - id: pFileTime
       type: System.Runtime.InteropServices.ComTypes.FILETIME
       description: To be added.
+  overload: System.Runtime.InteropServices.ComTypes.IMoniker.GetTimeOfLastChange*
   platform:
   - net-11
   - net-20
@@ -321,6 +330,7 @@ items:
     - id: pdwHash
       type: System.Int32
       description: To be added.
+  overload: System.Runtime.InteropServices.ComTypes.IMoniker.Hash*
   platform:
   - net-11
   - net-20
@@ -345,6 +355,7 @@ items:
     - id: ppmk
       type: System.Runtime.InteropServices.ComTypes.IMoniker
       description: To be added.
+  overload: System.Runtime.InteropServices.ComTypes.IMoniker.Inverse*
   platform:
   - net-11
   - net-20
@@ -369,6 +380,7 @@ items:
     return:
       type: System.Int32
       description: To be added.
+  overload: System.Runtime.InteropServices.ComTypes.IMoniker.IsDirty*
   platform:
   - net-11
   - net-20
@@ -396,6 +408,7 @@ items:
     return:
       type: System.Int32
       description: To be added.
+  overload: System.Runtime.InteropServices.ComTypes.IMoniker.IsEqual*
   platform:
   - net-11
   - net-20
@@ -429,6 +442,7 @@ items:
     return:
       type: System.Int32
       description: To be added.
+  overload: System.Runtime.InteropServices.ComTypes.IMoniker.IsRunning*
   platform:
   - net-11
   - net-20
@@ -456,6 +470,7 @@ items:
     return:
       type: System.Int32
       description: To be added.
+  overload: System.Runtime.InteropServices.ComTypes.IMoniker.IsSystemMoniker*
   platform:
   - net-11
   - net-20
@@ -480,6 +495,7 @@ items:
     - id: pStm
       type: System.Runtime.InteropServices.ComTypes.IStream
       description: To be added.
+  overload: System.Runtime.InteropServices.ComTypes.IMoniker.Load*
   platform:
   - net-11
   - net-20
@@ -516,6 +532,7 @@ items:
     - id: ppmkOut
       type: System.Runtime.InteropServices.ComTypes.IMoniker
       description: To be added.
+  overload: System.Runtime.InteropServices.ComTypes.IMoniker.ParseDisplayName*
   platform:
   - net-11
   - net-20
@@ -549,6 +566,7 @@ items:
     - id: ppmkReduced
       type: System.Runtime.InteropServices.ComTypes.IMoniker
       description: To be added.
+  overload: System.Runtime.InteropServices.ComTypes.IMoniker.Reduce*
   platform:
   - net-11
   - net-20
@@ -576,6 +594,7 @@ items:
     - id: ppmkRelPath
       type: System.Runtime.InteropServices.ComTypes.IMoniker
       description: To be added.
+  overload: System.Runtime.InteropServices.ComTypes.IMoniker.RelativePathTo*
   platform:
   - net-11
   - net-20
@@ -603,6 +622,7 @@ items:
     - id: fClearDirty
       type: System.Boolean
       description: To be added.
+  overload: System.Runtime.InteropServices.ComTypes.IMoniker.Save*
   platform:
   - net-11
   - net-20
@@ -1016,3 +1036,103 @@ references:
   name: Boolean
   nameWithType: Boolean
   fullName: System.Boolean
+- uid: System.Runtime.InteropServices.ComTypes.IMoniker.BindToObject*
+  parent: System.Runtime.InteropServices.ComTypes.IMoniker
+  isExternal: false
+  name: BindToObject
+  nameWithType: IMoniker.BindToObject
+- uid: System.Runtime.InteropServices.ComTypes.IMoniker.BindToStorage*
+  parent: System.Runtime.InteropServices.ComTypes.IMoniker
+  isExternal: false
+  name: BindToStorage
+  nameWithType: IMoniker.BindToStorage
+- uid: System.Runtime.InteropServices.ComTypes.IMoniker.CommonPrefixWith*
+  parent: System.Runtime.InteropServices.ComTypes.IMoniker
+  isExternal: false
+  name: CommonPrefixWith
+  nameWithType: IMoniker.CommonPrefixWith
+- uid: System.Runtime.InteropServices.ComTypes.IMoniker.ComposeWith*
+  parent: System.Runtime.InteropServices.ComTypes.IMoniker
+  isExternal: false
+  name: ComposeWith
+  nameWithType: IMoniker.ComposeWith
+- uid: System.Runtime.InteropServices.ComTypes.IMoniker.Enum*
+  parent: System.Runtime.InteropServices.ComTypes.IMoniker
+  isExternal: false
+  name: Enum
+  nameWithType: IMoniker.Enum
+- uid: System.Runtime.InteropServices.ComTypes.IMoniker.GetClassID*
+  parent: System.Runtime.InteropServices.ComTypes.IMoniker
+  isExternal: false
+  name: GetClassID
+  nameWithType: IMoniker.GetClassID
+- uid: System.Runtime.InteropServices.ComTypes.IMoniker.GetDisplayName*
+  parent: System.Runtime.InteropServices.ComTypes.IMoniker
+  isExternal: false
+  name: GetDisplayName
+  nameWithType: IMoniker.GetDisplayName
+- uid: System.Runtime.InteropServices.ComTypes.IMoniker.GetSizeMax*
+  parent: System.Runtime.InteropServices.ComTypes.IMoniker
+  isExternal: false
+  name: GetSizeMax
+  nameWithType: IMoniker.GetSizeMax
+- uid: System.Runtime.InteropServices.ComTypes.IMoniker.GetTimeOfLastChange*
+  parent: System.Runtime.InteropServices.ComTypes.IMoniker
+  isExternal: false
+  name: GetTimeOfLastChange
+  nameWithType: IMoniker.GetTimeOfLastChange
+- uid: System.Runtime.InteropServices.ComTypes.IMoniker.Hash*
+  parent: System.Runtime.InteropServices.ComTypes.IMoniker
+  isExternal: false
+  name: Hash
+  nameWithType: IMoniker.Hash
+- uid: System.Runtime.InteropServices.ComTypes.IMoniker.Inverse*
+  parent: System.Runtime.InteropServices.ComTypes.IMoniker
+  isExternal: false
+  name: Inverse
+  nameWithType: IMoniker.Inverse
+- uid: System.Runtime.InteropServices.ComTypes.IMoniker.IsDirty*
+  parent: System.Runtime.InteropServices.ComTypes.IMoniker
+  isExternal: false
+  name: IsDirty
+  nameWithType: IMoniker.IsDirty
+- uid: System.Runtime.InteropServices.ComTypes.IMoniker.IsEqual*
+  parent: System.Runtime.InteropServices.ComTypes.IMoniker
+  isExternal: false
+  name: IsEqual
+  nameWithType: IMoniker.IsEqual
+- uid: System.Runtime.InteropServices.ComTypes.IMoniker.IsRunning*
+  parent: System.Runtime.InteropServices.ComTypes.IMoniker
+  isExternal: false
+  name: IsRunning
+  nameWithType: IMoniker.IsRunning
+- uid: System.Runtime.InteropServices.ComTypes.IMoniker.IsSystemMoniker*
+  parent: System.Runtime.InteropServices.ComTypes.IMoniker
+  isExternal: false
+  name: IsSystemMoniker
+  nameWithType: IMoniker.IsSystemMoniker
+- uid: System.Runtime.InteropServices.ComTypes.IMoniker.Load*
+  parent: System.Runtime.InteropServices.ComTypes.IMoniker
+  isExternal: false
+  name: Load
+  nameWithType: IMoniker.Load
+- uid: System.Runtime.InteropServices.ComTypes.IMoniker.ParseDisplayName*
+  parent: System.Runtime.InteropServices.ComTypes.IMoniker
+  isExternal: false
+  name: ParseDisplayName
+  nameWithType: IMoniker.ParseDisplayName
+- uid: System.Runtime.InteropServices.ComTypes.IMoniker.Reduce*
+  parent: System.Runtime.InteropServices.ComTypes.IMoniker
+  isExternal: false
+  name: Reduce
+  nameWithType: IMoniker.Reduce
+- uid: System.Runtime.InteropServices.ComTypes.IMoniker.RelativePathTo*
+  parent: System.Runtime.InteropServices.ComTypes.IMoniker
+  isExternal: false
+  name: RelativePathTo
+  nameWithType: IMoniker.RelativePathTo
+- uid: System.Runtime.InteropServices.ComTypes.IMoniker.Save*
+  parent: System.Runtime.InteropServices.ComTypes.IMoniker
+  isExternal: false
+  name: Save
+  nameWithType: IMoniker.Save

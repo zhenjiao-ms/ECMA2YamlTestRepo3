@@ -58,6 +58,7 @@ items:
   syntax:
     content: protected TimeZone ();
     parameters: []
+  overload: System.TimeZone.#ctor*
   platform:
   - net-11
   - net-20
@@ -81,6 +82,7 @@ items:
     return:
       type: System.TimeZone
       description: To be added.
+  overload: System.TimeZone.CurrentTimeZone*
   platform:
   - net-11
   - net-20
@@ -104,6 +106,7 @@ items:
     return:
       type: System.String
       description: To be added.
+  overload: System.TimeZone.DaylightName*
   platform:
   - net-11
   - net-20
@@ -131,6 +134,7 @@ items:
     return:
       type: System.Globalization.DaylightTime
       description: To be added.
+  overload: System.TimeZone.GetDaylightChanges*
   platform:
   - net-11
   - net-20
@@ -158,6 +162,7 @@ items:
     return:
       type: System.TimeSpan
       description: To be added.
+  overload: System.TimeZone.GetUtcOffset*
   platform:
   - net-11
   - net-20
@@ -240,6 +245,7 @@ items:
     return:
       type: System.String
       description: To be added.
+  overload: System.TimeZone.StandardName*
   platform:
   - net-11
   - net-20
@@ -267,6 +273,7 @@ items:
     return:
       type: System.DateTime
       description: To be added.
+  overload: System.TimeZone.ToLocalTime*
   platform:
   - net-11
   - net-20
@@ -294,6 +301,7 @@ items:
     return:
       type: System.DateTime
       description: To be added.
+  overload: System.TimeZone.ToUniversalTime*
   platform:
   - net-11
   - net-20
@@ -458,8 +466,48 @@ references:
   name: DateTime
   nameWithType: DateTime
   fullName: System.DateTime
+- uid: System.TimeZone.#ctor*
+  parent: System.TimeZone
+  isExternal: false
+  name: TimeZone
+  nameWithType: TimeZone.TimeZone
+- uid: System.TimeZone.CurrentTimeZone*
+  parent: System.TimeZone
+  isExternal: false
+  name: CurrentTimeZone
+  nameWithType: TimeZone.CurrentTimeZone
+- uid: System.TimeZone.DaylightName*
+  parent: System.TimeZone
+  isExternal: false
+  name: DaylightName
+  nameWithType: TimeZone.DaylightName
+- uid: System.TimeZone.GetDaylightChanges*
+  parent: System.TimeZone
+  isExternal: false
+  name: GetDaylightChanges
+  nameWithType: TimeZone.GetDaylightChanges
+- uid: System.TimeZone.GetUtcOffset*
+  parent: System.TimeZone
+  isExternal: false
+  name: GetUtcOffset
+  nameWithType: TimeZone.GetUtcOffset
 - uid: System.TimeZone.IsDaylightSavingTime*
   parent: System.TimeZone
   isExternal: false
   name: IsDaylightSavingTime
   nameWithType: TimeZone.IsDaylightSavingTime
+- uid: System.TimeZone.StandardName*
+  parent: System.TimeZone
+  isExternal: false
+  name: StandardName
+  nameWithType: TimeZone.StandardName
+- uid: System.TimeZone.ToLocalTime*
+  parent: System.TimeZone
+  isExternal: false
+  name: ToLocalTime
+  nameWithType: TimeZone.ToLocalTime
+- uid: System.TimeZone.ToUniversalTime*
+  parent: System.TimeZone
+  isExternal: false
+  name: ToUniversalTime
+  nameWithType: TimeZone.ToUniversalTime

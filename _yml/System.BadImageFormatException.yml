@@ -69,6 +69,7 @@ items:
   syntax:
     content: public BadImageFormatException ();
     parameters: []
+  overload: System.BadImageFormatException.#ctor*
   platform:
   - net-11
   - net-20
@@ -93,6 +94,7 @@ items:
     - id: message
       type: System.String
       description: To be added.
+  overload: System.BadImageFormatException.#ctor*
   platform:
   - net-11
   - net-20
@@ -120,6 +122,7 @@ items:
     - id: context
       type: System.Runtime.Serialization.StreamingContext
       description: To be added.
+  overload: System.BadImageFormatException.#ctor*
   platform:
   - net-11
   - net-20
@@ -147,6 +150,7 @@ items:
     - id: inner
       type: System.Exception
       description: To be added.
+  overload: System.BadImageFormatException.#ctor*
   platform:
   - net-11
   - net-20
@@ -174,6 +178,7 @@ items:
     - id: fileName
       type: System.String
       description: To be added.
+  overload: System.BadImageFormatException.#ctor*
   platform:
   - net-11
   - net-20
@@ -204,6 +209,7 @@ items:
     - id: inner
       type: System.Exception
       description: To be added.
+  overload: System.BadImageFormatException.#ctor*
   platform:
   - net-11
   - net-20
@@ -227,6 +233,7 @@ items:
     return:
       type: System.String
       description: To be added.
+  overload: System.BadImageFormatException.FileName*
   platform:
   - net-11
   - net-20
@@ -250,6 +257,7 @@ items:
     return:
       type: System.String
       description: To be added.
+  overload: System.BadImageFormatException.FusionLog*
   platform:
   - net-11
   - net-20
@@ -277,6 +285,7 @@ items:
     - id: context
       type: System.Runtime.Serialization.StreamingContext
       description: To be added.
+  overload: System.BadImageFormatException.GetObjectData*
   platform:
   - net-11
   - net-20
@@ -300,6 +309,7 @@ items:
     return:
       type: System.String
       description: To be added.
+  overload: System.BadImageFormatException.Message*
   platform:
   - net-11
   - net-20
@@ -324,6 +334,7 @@ items:
     return:
       type: System.String
       description: To be added.
+  overload: System.BadImageFormatException.ToString*
   platform:
   - net-11
   - net-20
@@ -494,3 +505,33 @@ references:
   name: String
   nameWithType: String
   fullName: System.String
+- uid: System.BadImageFormatException.#ctor*
+  parent: System.BadImageFormatException
+  isExternal: false
+  name: BadImageFormatException
+  nameWithType: BadImageFormatException.BadImageFormatException
+- uid: System.BadImageFormatException.FileName*
+  parent: System.BadImageFormatException
+  isExternal: false
+  name: FileName
+  nameWithType: BadImageFormatException.FileName
+- uid: System.BadImageFormatException.FusionLog*
+  parent: System.BadImageFormatException
+  isExternal: false
+  name: FusionLog
+  nameWithType: BadImageFormatException.FusionLog
+- uid: System.BadImageFormatException.GetObjectData*
+  parent: System.BadImageFormatException
+  isExternal: false
+  name: GetObjectData
+  nameWithType: BadImageFormatException.GetObjectData
+- uid: System.BadImageFormatException.Message*
+  parent: System.BadImageFormatException
+  isExternal: false
+  name: Message
+  nameWithType: BadImageFormatException.Message
+- uid: System.BadImageFormatException.ToString*
+  parent: System.BadImageFormatException
+  isExternal: false
+  name: ToString
+  nameWithType: BadImageFormatException.ToString

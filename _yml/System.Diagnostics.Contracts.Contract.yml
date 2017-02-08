@@ -197,6 +197,7 @@ items:
   syntax:
     content: public static void EndContractBlock ();
     parameters: []
+  overload: System.Diagnostics.Contracts.Contract.EndContractBlock*
   platform:
   - net-11
   - net-20
@@ -336,6 +337,7 @@ items:
     return:
       type: System.Boolean
       description: To be added.
+  overload: System.Diagnostics.Contracts.Contract.Exists*
   platform:
   - net-11
   - net-20
@@ -366,6 +368,7 @@ items:
     return:
       type: System.Boolean
       description: To be added.
+  overload: System.Diagnostics.Contracts.Contract.Exists<T>*
   platform:
   - net-11
   - net-20
@@ -399,6 +402,7 @@ items:
     return:
       type: System.Boolean
       description: To be added.
+  overload: System.Diagnostics.Contracts.Contract.ForAll*
   platform:
   - net-11
   - net-20
@@ -429,6 +433,7 @@ items:
     return:
       type: System.Boolean
       description: To be added.
+  overload: System.Diagnostics.Contracts.Contract.ForAll<T>*
   platform:
   - net-11
   - net-20
@@ -509,6 +514,7 @@ items:
     return:
       type: T
       description: To be added.
+  overload: System.Diagnostics.Contracts.Contract.OldValue<T>*
   platform:
   - net-11
   - net-20
@@ -639,6 +645,7 @@ items:
     return:
       type: T
       description: To be added.
+  overload: System.Diagnostics.Contracts.Contract.Result<T>*
   platform:
   - net-11
   - net-20
@@ -666,6 +673,7 @@ items:
     return:
       type: T
       description: To be added.
+  overload: System.Diagnostics.Contracts.Contract.ValueAtReturn<T>*
   platform:
   - net-11
   - net-20
@@ -1068,6 +1076,11 @@ references:
   isExternal: false
   name: Assume
   nameWithType: Contract.Assume
+- uid: System.Diagnostics.Contracts.Contract.EndContractBlock*
+  parent: System.Diagnostics.Contracts.Contract
+  isExternal: false
+  name: EndContractBlock
+  nameWithType: Contract.EndContractBlock
 - uid: System.Diagnostics.Contracts.Contract.Ensures*
   parent: System.Diagnostics.Contracts.Contract
   isExternal: false
@@ -1078,11 +1091,36 @@ references:
   isExternal: false
   name: EnsuresOnThrow<TException>
   nameWithType: Contract.EnsuresOnThrow<TException>
+- uid: System.Diagnostics.Contracts.Contract.Exists*
+  parent: System.Diagnostics.Contracts.Contract
+  isExternal: false
+  name: Exists
+  nameWithType: Contract.Exists
+- uid: System.Diagnostics.Contracts.Contract.Exists<T>*
+  parent: System.Diagnostics.Contracts.Contract
+  isExternal: false
+  name: Exists<T>
+  nameWithType: Contract.Exists<T>
+- uid: System.Diagnostics.Contracts.Contract.ForAll*
+  parent: System.Diagnostics.Contracts.Contract
+  isExternal: false
+  name: ForAll
+  nameWithType: Contract.ForAll
+- uid: System.Diagnostics.Contracts.Contract.ForAll<T>*
+  parent: System.Diagnostics.Contracts.Contract
+  isExternal: false
+  name: ForAll<T>
+  nameWithType: Contract.ForAll<T>
 - uid: System.Diagnostics.Contracts.Contract.Invariant*
   parent: System.Diagnostics.Contracts.Contract
   isExternal: false
   name: Invariant
   nameWithType: Contract.Invariant
+- uid: System.Diagnostics.Contracts.Contract.OldValue<T>*
+  parent: System.Diagnostics.Contracts.Contract
+  isExternal: false
+  name: OldValue<T>
+  nameWithType: Contract.OldValue<T>
 - uid: System.Diagnostics.Contracts.Contract.Requires*
   parent: System.Diagnostics.Contracts.Contract
   isExternal: false
@@ -1093,3 +1131,13 @@ references:
   isExternal: false
   name: Requires<TException>
   nameWithType: Contract.Requires<TException>
+- uid: System.Diagnostics.Contracts.Contract.Result<T>*
+  parent: System.Diagnostics.Contracts.Contract
+  isExternal: false
+  name: Result<T>
+  nameWithType: Contract.Result<T>
+- uid: System.Diagnostics.Contracts.Contract.ValueAtReturn<T>*
+  parent: System.Diagnostics.Contracts.Contract
+  isExternal: false
+  name: ValueAtReturn<T>
+  nameWithType: Contract.ValueAtReturn<T>

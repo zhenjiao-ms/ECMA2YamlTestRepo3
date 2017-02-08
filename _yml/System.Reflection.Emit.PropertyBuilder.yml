@@ -118,6 +118,7 @@ items:
     - id: mdBuilder
       type: System.Reflection.Emit.MethodBuilder
       description: To be added.
+  overload: System.Reflection.Emit.PropertyBuilder.AddOtherMethod*
   platform:
   - net-11
   - net-20
@@ -141,6 +142,7 @@ items:
     return:
       type: System.Reflection.PropertyAttributes
       description: To be added.
+  overload: System.Reflection.Emit.PropertyBuilder.Attributes*
   platform:
   - net-11
   - net-20
@@ -164,6 +166,7 @@ items:
     return:
       type: System.Boolean
       description: To be added.
+  overload: System.Reflection.Emit.PropertyBuilder.CanRead*
   platform:
   - net-11
   - net-20
@@ -187,6 +190,7 @@ items:
     return:
       type: System.Boolean
       description: To be added.
+  overload: System.Reflection.Emit.PropertyBuilder.CanWrite*
   platform:
   - net-11
   - net-20
@@ -210,6 +214,7 @@ items:
     return:
       type: System.Type
       description: To be added.
+  overload: System.Reflection.Emit.PropertyBuilder.DeclaringType*
   platform:
   - net-11
   - net-20
@@ -237,6 +242,7 @@ items:
     return:
       type: System.Reflection.MethodInfo[]
       description: To be added.
+  overload: System.Reflection.Emit.PropertyBuilder.GetAccessors*
   platform:
   - net-11
   - net-20
@@ -323,6 +329,7 @@ items:
     return:
       type: System.Reflection.MethodInfo
       description: To be added.
+  overload: System.Reflection.Emit.PropertyBuilder.GetGetMethod*
   platform:
   - net-11
   - net-20
@@ -347,6 +354,7 @@ items:
     return:
       type: System.Reflection.ParameterInfo[]
       description: To be added.
+  overload: System.Reflection.Emit.PropertyBuilder.GetIndexParameters*
   platform:
   - net-11
   - net-20
@@ -374,6 +382,7 @@ items:
     return:
       type: System.Reflection.MethodInfo
       description: To be added.
+  overload: System.Reflection.Emit.PropertyBuilder.GetSetMethod*
   platform:
   - net-11
   - net-20
@@ -475,6 +484,7 @@ items:
     return:
       type: System.Boolean
       description: To be added.
+  overload: System.Reflection.Emit.PropertyBuilder.IsDefined*
   platform:
   - net-11
   - net-20
@@ -498,6 +508,7 @@ items:
     return:
       type: System.Reflection.Module
       description: To be added.
+  overload: System.Reflection.Emit.PropertyBuilder.Module*
   platform:
   - net-11
   - net-20
@@ -521,6 +532,7 @@ items:
     return:
       type: System.String
       description: To be added.
+  overload: System.Reflection.Emit.PropertyBuilder.Name*
   platform:
   - net-11
   - net-20
@@ -544,6 +556,7 @@ items:
     return:
       type: System.Reflection.Emit.PropertyToken
       description: To be added.
+  overload: System.Reflection.Emit.PropertyBuilder.PropertyToken*
   platform:
   - net-11
   - net-20
@@ -567,6 +580,7 @@ items:
     return:
       type: System.Type
       description: To be added.
+  overload: System.Reflection.Emit.PropertyBuilder.PropertyType*
   platform:
   - net-11
   - net-20
@@ -590,6 +604,7 @@ items:
     return:
       type: System.Type
       description: To be added.
+  overload: System.Reflection.Emit.PropertyBuilder.ReflectedType*
   platform:
   - net-11
   - net-20
@@ -614,6 +629,7 @@ items:
     - id: defaultValue
       type: System.Object
       description: To be added.
+  overload: System.Reflection.Emit.PropertyBuilder.SetConstant*
   platform:
   - net-11
   - net-20
@@ -691,6 +707,7 @@ items:
     - id: mdBuilder
       type: System.Reflection.Emit.MethodBuilder
       description: To be added.
+  overload: System.Reflection.Emit.PropertyBuilder.SetGetMethod*
   platform:
   - net-11
   - net-20
@@ -715,6 +732,7 @@ items:
     - id: mdBuilder
       type: System.Reflection.Emit.MethodBuilder
       description: To be added.
+  overload: System.Reflection.Emit.PropertyBuilder.SetSetMethod*
   platform:
   - net-11
   - net-20
@@ -823,6 +841,7 @@ items:
     - id: rgDispId
       type: System.IntPtr
       description: To be added.
+  overload: System.Reflection.Emit.PropertyBuilder.System#Runtime#InteropServices#_PropertyBuilder#GetIDsOfNames*
   platform:
   - net-11
   - net-20
@@ -854,6 +873,7 @@ items:
     - id: ppTInfo
       type: System.IntPtr
       description: To be added.
+  overload: System.Reflection.Emit.PropertyBuilder.System#Runtime#InteropServices#_PropertyBuilder#GetTypeInfo*
   platform:
   - net-11
   - net-20
@@ -879,6 +899,7 @@ items:
     - id: pcTInfo
       type: System.UInt32
       description: To be added.
+  overload: System.Reflection.Emit.PropertyBuilder.System#Runtime#InteropServices#_PropertyBuilder#GetTypeInfoCount*
   platform:
   - net-11
   - net-20
@@ -925,6 +946,7 @@ items:
     - id: puArgErr
       type: System.IntPtr
       description: To be added.
+  overload: System.Reflection.Emit.PropertyBuilder.System#Runtime#InteropServices#_PropertyBuilder#Invoke*
   platform:
   - net-11
   - net-20
@@ -1509,23 +1531,133 @@ references:
   name: IntPtr
   nameWithType: IntPtr
   fullName: System.IntPtr
+- uid: System.Reflection.Emit.PropertyBuilder.AddOtherMethod*
+  parent: System.Reflection.Emit.PropertyBuilder
+  isExternal: false
+  name: AddOtherMethod
+  nameWithType: PropertyBuilder.AddOtherMethod
+- uid: System.Reflection.Emit.PropertyBuilder.Attributes*
+  parent: System.Reflection.Emit.PropertyBuilder
+  isExternal: false
+  name: Attributes
+  nameWithType: PropertyBuilder.Attributes
+- uid: System.Reflection.Emit.PropertyBuilder.CanRead*
+  parent: System.Reflection.Emit.PropertyBuilder
+  isExternal: false
+  name: CanRead
+  nameWithType: PropertyBuilder.CanRead
+- uid: System.Reflection.Emit.PropertyBuilder.CanWrite*
+  parent: System.Reflection.Emit.PropertyBuilder
+  isExternal: false
+  name: CanWrite
+  nameWithType: PropertyBuilder.CanWrite
+- uid: System.Reflection.Emit.PropertyBuilder.DeclaringType*
+  parent: System.Reflection.Emit.PropertyBuilder
+  isExternal: false
+  name: DeclaringType
+  nameWithType: PropertyBuilder.DeclaringType
+- uid: System.Reflection.Emit.PropertyBuilder.GetAccessors*
+  parent: System.Reflection.Emit.PropertyBuilder
+  isExternal: false
+  name: GetAccessors
+  nameWithType: PropertyBuilder.GetAccessors
 - uid: System.Reflection.Emit.PropertyBuilder.GetCustomAttributes*
   parent: System.Reflection.Emit.PropertyBuilder
   isExternal: false
   name: GetCustomAttributes
   nameWithType: PropertyBuilder.GetCustomAttributes
+- uid: System.Reflection.Emit.PropertyBuilder.GetGetMethod*
+  parent: System.Reflection.Emit.PropertyBuilder
+  isExternal: false
+  name: GetGetMethod
+  nameWithType: PropertyBuilder.GetGetMethod
+- uid: System.Reflection.Emit.PropertyBuilder.GetIndexParameters*
+  parent: System.Reflection.Emit.PropertyBuilder
+  isExternal: false
+  name: GetIndexParameters
+  nameWithType: PropertyBuilder.GetIndexParameters
+- uid: System.Reflection.Emit.PropertyBuilder.GetSetMethod*
+  parent: System.Reflection.Emit.PropertyBuilder
+  isExternal: false
+  name: GetSetMethod
+  nameWithType: PropertyBuilder.GetSetMethod
 - uid: System.Reflection.Emit.PropertyBuilder.GetValue*
   parent: System.Reflection.Emit.PropertyBuilder
   isExternal: false
   name: GetValue
   nameWithType: PropertyBuilder.GetValue
+- uid: System.Reflection.Emit.PropertyBuilder.IsDefined*
+  parent: System.Reflection.Emit.PropertyBuilder
+  isExternal: false
+  name: IsDefined
+  nameWithType: PropertyBuilder.IsDefined
+- uid: System.Reflection.Emit.PropertyBuilder.Module*
+  parent: System.Reflection.Emit.PropertyBuilder
+  isExternal: false
+  name: Module
+  nameWithType: PropertyBuilder.Module
+- uid: System.Reflection.Emit.PropertyBuilder.Name*
+  parent: System.Reflection.Emit.PropertyBuilder
+  isExternal: false
+  name: Name
+  nameWithType: PropertyBuilder.Name
+- uid: System.Reflection.Emit.PropertyBuilder.PropertyToken*
+  parent: System.Reflection.Emit.PropertyBuilder
+  isExternal: false
+  name: PropertyToken
+  nameWithType: PropertyBuilder.PropertyToken
+- uid: System.Reflection.Emit.PropertyBuilder.PropertyType*
+  parent: System.Reflection.Emit.PropertyBuilder
+  isExternal: false
+  name: PropertyType
+  nameWithType: PropertyBuilder.PropertyType
+- uid: System.Reflection.Emit.PropertyBuilder.ReflectedType*
+  parent: System.Reflection.Emit.PropertyBuilder
+  isExternal: false
+  name: ReflectedType
+  nameWithType: PropertyBuilder.ReflectedType
+- uid: System.Reflection.Emit.PropertyBuilder.SetConstant*
+  parent: System.Reflection.Emit.PropertyBuilder
+  isExternal: false
+  name: SetConstant
+  nameWithType: PropertyBuilder.SetConstant
 - uid: System.Reflection.Emit.PropertyBuilder.SetCustomAttribute*
   parent: System.Reflection.Emit.PropertyBuilder
   isExternal: false
   name: SetCustomAttribute
   nameWithType: PropertyBuilder.SetCustomAttribute
+- uid: System.Reflection.Emit.PropertyBuilder.SetGetMethod*
+  parent: System.Reflection.Emit.PropertyBuilder
+  isExternal: false
+  name: SetGetMethod
+  nameWithType: PropertyBuilder.SetGetMethod
+- uid: System.Reflection.Emit.PropertyBuilder.SetSetMethod*
+  parent: System.Reflection.Emit.PropertyBuilder
+  isExternal: false
+  name: SetSetMethod
+  nameWithType: PropertyBuilder.SetSetMethod
 - uid: System.Reflection.Emit.PropertyBuilder.SetValue*
   parent: System.Reflection.Emit.PropertyBuilder
   isExternal: false
   name: SetValue
   nameWithType: PropertyBuilder.SetValue
+- uid: System.Reflection.Emit.PropertyBuilder.System#Runtime#InteropServices#_PropertyBuilder#GetIDsOfNames*
+  parent: System.Reflection.Emit.PropertyBuilder
+  isExternal: false
+  name: System.Runtime.InteropServices._PropertyBuilder.GetIDsOfNames
+  nameWithType: PropertyBuilder.System.Runtime.InteropServices._PropertyBuilder.GetIDsOfNames
+- uid: System.Reflection.Emit.PropertyBuilder.System#Runtime#InteropServices#_PropertyBuilder#GetTypeInfo*
+  parent: System.Reflection.Emit.PropertyBuilder
+  isExternal: false
+  name: System.Runtime.InteropServices._PropertyBuilder.GetTypeInfo
+  nameWithType: PropertyBuilder.System.Runtime.InteropServices._PropertyBuilder.GetTypeInfo
+- uid: System.Reflection.Emit.PropertyBuilder.System#Runtime#InteropServices#_PropertyBuilder#GetTypeInfoCount*
+  parent: System.Reflection.Emit.PropertyBuilder
+  isExternal: false
+  name: System.Runtime.InteropServices._PropertyBuilder.GetTypeInfoCount
+  nameWithType: PropertyBuilder.System.Runtime.InteropServices._PropertyBuilder.GetTypeInfoCount
+- uid: System.Reflection.Emit.PropertyBuilder.System#Runtime#InteropServices#_PropertyBuilder#Invoke*
+  parent: System.Reflection.Emit.PropertyBuilder
+  isExternal: false
+  name: System.Runtime.InteropServices._PropertyBuilder.Invoke
+  nameWithType: PropertyBuilder.System.Runtime.InteropServices._PropertyBuilder.Invoke

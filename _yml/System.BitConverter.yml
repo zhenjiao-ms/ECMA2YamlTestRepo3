@@ -77,6 +77,7 @@ items:
     return:
       type: System.Int64
       description: To be added.
+  overload: System.BitConverter.DoubleToInt64Bits*
   platform:
   - net-11
   - net-20
@@ -384,6 +385,7 @@ items:
     return:
       type: System.Double
       description: To be added.
+  overload: System.BitConverter.Int64BitsToDouble*
   platform:
   - net-11
   - net-20
@@ -437,6 +439,7 @@ items:
     return:
       type: System.Boolean
       description: To be added.
+  overload: System.BitConverter.ToBoolean*
   platform:
   - net-11
   - net-20
@@ -467,6 +470,7 @@ items:
     return:
       type: System.Char
       description: To be added.
+  overload: System.BitConverter.ToChar*
   platform:
   - net-11
   - net-20
@@ -497,6 +501,7 @@ items:
     return:
       type: System.Double
       description: To be added.
+  overload: System.BitConverter.ToDouble*
   platform:
   - net-11
   - net-20
@@ -527,6 +532,7 @@ items:
     return:
       type: System.Int16
       description: To be added.
+  overload: System.BitConverter.ToInt16*
   platform:
   - net-11
   - net-20
@@ -557,6 +563,7 @@ items:
     return:
       type: System.Int32
       description: To be added.
+  overload: System.BitConverter.ToInt32*
   platform:
   - net-11
   - net-20
@@ -587,6 +594,7 @@ items:
     return:
       type: System.Int64
       description: To be added.
+  overload: System.BitConverter.ToInt64*
   platform:
   - net-11
   - net-20
@@ -617,6 +625,7 @@ items:
     return:
       type: System.Single
       description: To be added.
+  overload: System.BitConverter.ToSingle*
   platform:
   - net-11
   - net-20
@@ -740,6 +749,7 @@ items:
     return:
       type: System.UInt16
       description: To be added.
+  overload: System.BitConverter.ToUInt16*
   platform:
   - net-11
   - net-20
@@ -770,6 +780,7 @@ items:
     return:
       type: System.UInt32
       description: To be added.
+  overload: System.BitConverter.ToUInt32*
   platform:
   - net-11
   - net-20
@@ -800,6 +811,7 @@ items:
     return:
       type: System.UInt64
       description: To be added.
+  overload: System.BitConverter.ToUInt64*
   platform:
   - net-11
   - net-20
@@ -1348,13 +1360,73 @@ references:
   name: Int32
   nameWithType: Int32
   fullName: System.Int32
+- uid: System.BitConverter.DoubleToInt64Bits*
+  parent: System.BitConverter
+  isExternal: false
+  name: DoubleToInt64Bits
+  nameWithType: BitConverter.DoubleToInt64Bits
 - uid: System.BitConverter.GetBytes*
   parent: System.BitConverter
   isExternal: false
   name: GetBytes
   nameWithType: BitConverter.GetBytes
+- uid: System.BitConverter.Int64BitsToDouble*
+  parent: System.BitConverter
+  isExternal: false
+  name: Int64BitsToDouble
+  nameWithType: BitConverter.Int64BitsToDouble
+- uid: System.BitConverter.ToBoolean*
+  parent: System.BitConverter
+  isExternal: false
+  name: ToBoolean
+  nameWithType: BitConverter.ToBoolean
+- uid: System.BitConverter.ToChar*
+  parent: System.BitConverter
+  isExternal: false
+  name: ToChar
+  nameWithType: BitConverter.ToChar
+- uid: System.BitConverter.ToDouble*
+  parent: System.BitConverter
+  isExternal: false
+  name: ToDouble
+  nameWithType: BitConverter.ToDouble
+- uid: System.BitConverter.ToInt16*
+  parent: System.BitConverter
+  isExternal: false
+  name: ToInt16
+  nameWithType: BitConverter.ToInt16
+- uid: System.BitConverter.ToInt32*
+  parent: System.BitConverter
+  isExternal: false
+  name: ToInt32
+  nameWithType: BitConverter.ToInt32
+- uid: System.BitConverter.ToInt64*
+  parent: System.BitConverter
+  isExternal: false
+  name: ToInt64
+  nameWithType: BitConverter.ToInt64
+- uid: System.BitConverter.ToSingle*
+  parent: System.BitConverter
+  isExternal: false
+  name: ToSingle
+  nameWithType: BitConverter.ToSingle
 - uid: System.BitConverter.ToString*
   parent: System.BitConverter
   isExternal: false
   name: ToString
   nameWithType: BitConverter.ToString
+- uid: System.BitConverter.ToUInt16*
+  parent: System.BitConverter
+  isExternal: false
+  name: ToUInt16
+  nameWithType: BitConverter.ToUInt16
+- uid: System.BitConverter.ToUInt32*
+  parent: System.BitConverter
+  isExternal: false
+  name: ToUInt32
+  nameWithType: BitConverter.ToUInt32
+- uid: System.BitConverter.ToUInt64*
+  parent: System.BitConverter
+  isExternal: false
+  name: ToUInt64
+  nameWithType: BitConverter.ToUInt64

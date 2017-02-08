@@ -95,6 +95,7 @@ items:
     - id: product
       type: System.String
       description: To be added.
+  overload: System.Reflection.AssemblyProductAttribute.#ctor*
   platform:
   - net-11
   - net-20
@@ -118,6 +119,7 @@ items:
     return:
       type: System.String
       description: To be added.
+  overload: System.Reflection.AssemblyProductAttribute.Product*
   platform:
   - net-11
   - net-20
@@ -150,3 +152,13 @@ references:
   name: String
   nameWithType: String
   fullName: System.String
+- uid: System.Reflection.AssemblyProductAttribute.#ctor*
+  parent: System.Reflection.AssemblyProductAttribute
+  isExternal: false
+  name: AssemblyProductAttribute
+  nameWithType: AssemblyProductAttribute.AssemblyProductAttribute
+- uid: System.Reflection.AssemblyProductAttribute.Product*
+  parent: System.Reflection.AssemblyProductAttribute
+  isExternal: false
+  name: Product
+  nameWithType: AssemblyProductAttribute.Product

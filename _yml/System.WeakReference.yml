@@ -60,6 +60,7 @@ items:
     - id: target
       type: System.Object
       description: To be added.
+  overload: System.WeakReference.#ctor*
   platform:
   - net-11
   - net-20
@@ -87,6 +88,7 @@ items:
     - id: trackResurrection
       type: System.Boolean
       description: To be added.
+  overload: System.WeakReference.#ctor*
   platform:
   - net-11
   - net-20
@@ -114,6 +116,7 @@ items:
     - id: context
       type: System.Runtime.Serialization.StreamingContext
       description: To be added.
+  overload: System.WeakReference.#ctor*
   platform:
   - net-11
   - net-20
@@ -135,6 +138,7 @@ items:
   syntax:
     content: ~WeakReference ();
     parameters: []
+  overload: System.WeakReference.Finalize*
   platform:
   - net-11
   - net-20
@@ -162,6 +166,7 @@ items:
     - id: context
       type: System.Runtime.Serialization.StreamingContext
       description: To be added.
+  overload: System.WeakReference.GetObjectData*
   platform:
   - net-11
   - net-20
@@ -185,6 +190,7 @@ items:
     return:
       type: System.Boolean
       description: To be added.
+  overload: System.WeakReference.IsAlive*
   platform:
   - net-11
   - net-20
@@ -208,6 +214,7 @@ items:
     return:
       type: System.Object
       description: To be added.
+  overload: System.WeakReference.Target*
   platform:
   - net-11
   - net-20
@@ -231,6 +238,7 @@ items:
     return:
       type: System.Boolean
       description: To be added.
+  overload: System.WeakReference.TrackResurrection*
   platform:
   - net-11
   - net-20
@@ -347,3 +355,33 @@ references:
   name: Boolean
   nameWithType: Boolean
   fullName: System.Boolean
+- uid: System.WeakReference.#ctor*
+  parent: System.WeakReference
+  isExternal: false
+  name: WeakReference
+  nameWithType: WeakReference.WeakReference
+- uid: System.WeakReference.Finalize*
+  parent: System.WeakReference
+  isExternal: false
+  name: Finalize
+  nameWithType: WeakReference.Finalize
+- uid: System.WeakReference.GetObjectData*
+  parent: System.WeakReference
+  isExternal: false
+  name: GetObjectData
+  nameWithType: WeakReference.GetObjectData
+- uid: System.WeakReference.IsAlive*
+  parent: System.WeakReference
+  isExternal: false
+  name: IsAlive
+  nameWithType: WeakReference.IsAlive
+- uid: System.WeakReference.Target*
+  parent: System.WeakReference
+  isExternal: false
+  name: Target
+  nameWithType: WeakReference.Target
+- uid: System.WeakReference.TrackResurrection*
+  parent: System.WeakReference
+  isExternal: false
+  name: TrackResurrection
+  nameWithType: WeakReference.TrackResurrection

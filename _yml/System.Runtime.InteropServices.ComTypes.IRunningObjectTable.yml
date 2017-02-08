@@ -50,6 +50,7 @@ items:
     - id: ppenumMoniker
       type: System.Runtime.InteropServices.ComTypes.IEnumMoniker
       description: To be added.
+  overload: System.Runtime.InteropServices.ComTypes.IRunningObjectTable.EnumRunning*
   platform:
   - net-11
   - net-20
@@ -80,6 +81,7 @@ items:
     return:
       type: System.Int32
       description: To be added.
+  overload: System.Runtime.InteropServices.ComTypes.IRunningObjectTable.GetObject*
   platform:
   - net-11
   - net-20
@@ -110,6 +112,7 @@ items:
     return:
       type: System.Int32
       description: To be added.
+  overload: System.Runtime.InteropServices.ComTypes.IRunningObjectTable.GetTimeOfLastChange*
   platform:
   - net-11
   - net-20
@@ -137,6 +140,7 @@ items:
     return:
       type: System.Int32
       description: To be added.
+  overload: System.Runtime.InteropServices.ComTypes.IRunningObjectTable.IsRunning*
   platform:
   - net-11
   - net-20
@@ -164,6 +168,7 @@ items:
     - id: pfiletime
       type: System.Runtime.InteropServices.ComTypes.FILETIME
       description: To be added.
+  overload: System.Runtime.InteropServices.ComTypes.IRunningObjectTable.NoteChangeTime*
   platform:
   - net-11
   - net-20
@@ -197,6 +202,7 @@ items:
     return:
       type: System.Int32
       description: To be added.
+  overload: System.Runtime.InteropServices.ComTypes.IRunningObjectTable.Register*
   platform:
   - net-11
   - net-20
@@ -221,6 +227,7 @@ items:
     - id: dwRegister
       type: System.Int32
       description: To be added.
+  overload: System.Runtime.InteropServices.ComTypes.IRunningObjectTable.Revoke*
   platform:
   - net-11
   - net-20
@@ -364,3 +371,38 @@ references:
   name: Int32
   nameWithType: Int32
   fullName: System.Int32
+- uid: System.Runtime.InteropServices.ComTypes.IRunningObjectTable.EnumRunning*
+  parent: System.Runtime.InteropServices.ComTypes.IRunningObjectTable
+  isExternal: false
+  name: EnumRunning
+  nameWithType: IRunningObjectTable.EnumRunning
+- uid: System.Runtime.InteropServices.ComTypes.IRunningObjectTable.GetObject*
+  parent: System.Runtime.InteropServices.ComTypes.IRunningObjectTable
+  isExternal: false
+  name: GetObject
+  nameWithType: IRunningObjectTable.GetObject
+- uid: System.Runtime.InteropServices.ComTypes.IRunningObjectTable.GetTimeOfLastChange*
+  parent: System.Runtime.InteropServices.ComTypes.IRunningObjectTable
+  isExternal: false
+  name: GetTimeOfLastChange
+  nameWithType: IRunningObjectTable.GetTimeOfLastChange
+- uid: System.Runtime.InteropServices.ComTypes.IRunningObjectTable.IsRunning*
+  parent: System.Runtime.InteropServices.ComTypes.IRunningObjectTable
+  isExternal: false
+  name: IsRunning
+  nameWithType: IRunningObjectTable.IsRunning
+- uid: System.Runtime.InteropServices.ComTypes.IRunningObjectTable.NoteChangeTime*
+  parent: System.Runtime.InteropServices.ComTypes.IRunningObjectTable
+  isExternal: false
+  name: NoteChangeTime
+  nameWithType: IRunningObjectTable.NoteChangeTime
+- uid: System.Runtime.InteropServices.ComTypes.IRunningObjectTable.Register*
+  parent: System.Runtime.InteropServices.ComTypes.IRunningObjectTable
+  isExternal: false
+  name: Register
+  nameWithType: IRunningObjectTable.Register
+- uid: System.Runtime.InteropServices.ComTypes.IRunningObjectTable.Revoke*
+  parent: System.Runtime.InteropServices.ComTypes.IRunningObjectTable
+  isExternal: false
+  name: Revoke
+  nameWithType: IRunningObjectTable.Revoke

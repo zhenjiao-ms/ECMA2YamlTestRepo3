@@ -92,6 +92,7 @@ items:
     return:
       type: System.TimeSpan
       description: To be added.
+  overload: System.TimeZoneInfo.BaseUtcOffset*
   platform:
   - net-11
   - net-20
@@ -113,6 +114,7 @@ items:
   syntax:
     content: public static void ClearCachedData ();
     parameters: []
+  overload: System.TimeZoneInfo.ClearCachedData*
   platform:
   - net-11
   - net-20
@@ -335,6 +337,7 @@ items:
     return:
       type: System.DateTime
       description: To be added.
+  overload: System.TimeZoneInfo.ConvertTimeFromUtc*
   platform:
   - net-11
   - net-20
@@ -543,6 +546,7 @@ items:
     return:
       type: System.String
       description: To be added.
+  overload: System.TimeZoneInfo.DaylightName*
   platform:
   - net-11
   - net-20
@@ -566,6 +570,7 @@ items:
     return:
       type: System.String
       description: To be added.
+  overload: System.TimeZoneInfo.DisplayName*
   platform:
   - net-11
   - net-20
@@ -649,6 +654,7 @@ items:
     return:
       type: System.TimeZoneInfo
       description: To be added.
+  overload: System.TimeZoneInfo.FindSystemTimeZoneById*
   platform:
   - net-11
   - net-20
@@ -676,6 +682,7 @@ items:
     return:
       type: System.TimeZoneInfo
       description: To be added.
+  overload: System.TimeZoneInfo.FromSerializedString*
   platform:
   - net-11
   - net-20
@@ -700,6 +707,7 @@ items:
     return:
       type: System.TimeZoneInfo+AdjustmentRule[]
       description: To be added.
+  overload: System.TimeZoneInfo.GetAdjustmentRules*
   platform:
   - net-11
   - net-20
@@ -780,6 +788,7 @@ items:
     return:
       type: System.Int32
       description: To be added.
+  overload: System.TimeZoneInfo.GetHashCode*
   platform:
   - net-11
   - net-20
@@ -804,6 +813,7 @@ items:
     return:
       type: System.Collections.ObjectModel.ReadOnlyCollection{System.TimeZoneInfo}
       description: To be added.
+  overload: System.TimeZoneInfo.GetSystemTimeZones*
   platform:
   - net-11
   - net-20
@@ -887,6 +897,7 @@ items:
     return:
       type: System.Boolean
       description: To be added.
+  overload: System.TimeZoneInfo.HasSameRules*
   platform:
   - net-11
   - net-20
@@ -910,6 +921,7 @@ items:
     return:
       type: System.String
       description: To be added.
+  overload: System.TimeZoneInfo.Id*
   platform:
   - net-11
   - net-20
@@ -1049,6 +1061,7 @@ items:
     return:
       type: System.Boolean
       description: To be added.
+  overload: System.TimeZoneInfo.IsInvalidTime*
   platform:
   - net-11
   - net-20
@@ -1072,6 +1085,7 @@ items:
     return:
       type: System.TimeZoneInfo
       description: To be added.
+  overload: System.TimeZoneInfo.Local*
   platform:
   - net-11
   - net-20
@@ -1095,6 +1109,7 @@ items:
     return:
       type: System.String
       description: To be added.
+  overload: System.TimeZoneInfo.StandardName*
   platform:
   - net-11
   - net-20
@@ -1118,6 +1133,7 @@ items:
     return:
       type: System.Boolean
       description: To be added.
+  overload: System.TimeZoneInfo.SupportsDaylightSavingTime*
   platform:
   - net-11
   - net-20
@@ -1143,6 +1159,7 @@ items:
     - id: sender
       type: System.Object
       description: To be added.
+  overload: System.TimeZoneInfo.System#Runtime#Serialization#IDeserializationCallback#OnDeserialization*
   platform:
   - net-11
   - net-20
@@ -1171,6 +1188,7 @@ items:
     - id: context
       type: System.Runtime.Serialization.StreamingContext
       description: To be added.
+  overload: System.TimeZoneInfo.System#Runtime#Serialization#ISerializable#GetObjectData*
   platform:
   - net-11
   - net-20
@@ -1195,6 +1213,7 @@ items:
     return:
       type: System.String
       description: To be added.
+  overload: System.TimeZoneInfo.ToSerializedString*
   platform:
   - net-11
   - net-20
@@ -1219,6 +1238,7 @@ items:
     return:
       type: System.String
       description: To be added.
+  overload: System.TimeZoneInfo.ToString*
   platform:
   - net-11
   - net-20
@@ -1242,6 +1262,7 @@ items:
     return:
       type: System.TimeZoneInfo
       description: To be added.
+  overload: System.TimeZoneInfo.Utc*
   platform:
   - net-11
   - net-20
@@ -2054,6 +2075,16 @@ references:
   name: TimeZoneInfo
   nameWithType: TimeZoneInfo
   fullName: System.TimeZoneInfo
+- uid: System.TimeZoneInfo.BaseUtcOffset*
+  parent: System.TimeZoneInfo
+  isExternal: false
+  name: BaseUtcOffset
+  nameWithType: TimeZoneInfo.BaseUtcOffset
+- uid: System.TimeZoneInfo.ClearCachedData*
+  parent: System.TimeZoneInfo
+  isExternal: false
+  name: ClearCachedData
+  nameWithType: TimeZoneInfo.ClearCachedData
 - uid: System.TimeZoneInfo.ConvertTime*
   parent: System.TimeZoneInfo
   isExternal: false
@@ -2064,6 +2095,11 @@ references:
   isExternal: false
   name: ConvertTimeBySystemTimeZoneId
   nameWithType: TimeZoneInfo.ConvertTimeBySystemTimeZoneId
+- uid: System.TimeZoneInfo.ConvertTimeFromUtc*
+  parent: System.TimeZoneInfo
+  isExternal: false
+  name: ConvertTimeFromUtc
+  nameWithType: TimeZoneInfo.ConvertTimeFromUtc
 - uid: System.TimeZoneInfo.ConvertTimeToUtc*
   parent: System.TimeZoneInfo
   isExternal: false
@@ -2074,21 +2110,66 @@ references:
   isExternal: false
   name: CreateCustomTimeZone
   nameWithType: TimeZoneInfo.CreateCustomTimeZone
+- uid: System.TimeZoneInfo.DaylightName*
+  parent: System.TimeZoneInfo
+  isExternal: false
+  name: DaylightName
+  nameWithType: TimeZoneInfo.DaylightName
+- uid: System.TimeZoneInfo.DisplayName*
+  parent: System.TimeZoneInfo
+  isExternal: false
+  name: DisplayName
+  nameWithType: TimeZoneInfo.DisplayName
 - uid: System.TimeZoneInfo.Equals*
   parent: System.TimeZoneInfo
   isExternal: false
   name: Equals
   nameWithType: TimeZoneInfo.Equals
+- uid: System.TimeZoneInfo.FindSystemTimeZoneById*
+  parent: System.TimeZoneInfo
+  isExternal: false
+  name: FindSystemTimeZoneById
+  nameWithType: TimeZoneInfo.FindSystemTimeZoneById
+- uid: System.TimeZoneInfo.FromSerializedString*
+  parent: System.TimeZoneInfo
+  isExternal: false
+  name: FromSerializedString
+  nameWithType: TimeZoneInfo.FromSerializedString
+- uid: System.TimeZoneInfo.GetAdjustmentRules*
+  parent: System.TimeZoneInfo
+  isExternal: false
+  name: GetAdjustmentRules
+  nameWithType: TimeZoneInfo.GetAdjustmentRules
 - uid: System.TimeZoneInfo.GetAmbiguousTimeOffsets*
   parent: System.TimeZoneInfo
   isExternal: false
   name: GetAmbiguousTimeOffsets
   nameWithType: TimeZoneInfo.GetAmbiguousTimeOffsets
+- uid: System.TimeZoneInfo.GetHashCode*
+  parent: System.TimeZoneInfo
+  isExternal: false
+  name: GetHashCode
+  nameWithType: TimeZoneInfo.GetHashCode
+- uid: System.TimeZoneInfo.GetSystemTimeZones*
+  parent: System.TimeZoneInfo
+  isExternal: false
+  name: GetSystemTimeZones
+  nameWithType: TimeZoneInfo.GetSystemTimeZones
 - uid: System.TimeZoneInfo.GetUtcOffset*
   parent: System.TimeZoneInfo
   isExternal: false
   name: GetUtcOffset
   nameWithType: TimeZoneInfo.GetUtcOffset
+- uid: System.TimeZoneInfo.HasSameRules*
+  parent: System.TimeZoneInfo
+  isExternal: false
+  name: HasSameRules
+  nameWithType: TimeZoneInfo.HasSameRules
+- uid: System.TimeZoneInfo.Id*
+  parent: System.TimeZoneInfo
+  isExternal: false
+  name: Id
+  nameWithType: TimeZoneInfo.Id
 - uid: System.TimeZoneInfo.IsAmbiguousTime*
   parent: System.TimeZoneInfo
   isExternal: false
@@ -2099,3 +2180,48 @@ references:
   isExternal: false
   name: IsDaylightSavingTime
   nameWithType: TimeZoneInfo.IsDaylightSavingTime
+- uid: System.TimeZoneInfo.IsInvalidTime*
+  parent: System.TimeZoneInfo
+  isExternal: false
+  name: IsInvalidTime
+  nameWithType: TimeZoneInfo.IsInvalidTime
+- uid: System.TimeZoneInfo.Local*
+  parent: System.TimeZoneInfo
+  isExternal: false
+  name: Local
+  nameWithType: TimeZoneInfo.Local
+- uid: System.TimeZoneInfo.StandardName*
+  parent: System.TimeZoneInfo
+  isExternal: false
+  name: StandardName
+  nameWithType: TimeZoneInfo.StandardName
+- uid: System.TimeZoneInfo.SupportsDaylightSavingTime*
+  parent: System.TimeZoneInfo
+  isExternal: false
+  name: SupportsDaylightSavingTime
+  nameWithType: TimeZoneInfo.SupportsDaylightSavingTime
+- uid: System.TimeZoneInfo.System#Runtime#Serialization#IDeserializationCallback#OnDeserialization*
+  parent: System.TimeZoneInfo
+  isExternal: false
+  name: System.Runtime.Serialization.IDeserializationCallback.OnDeserialization
+  nameWithType: TimeZoneInfo.System.Runtime.Serialization.IDeserializationCallback.OnDeserialization
+- uid: System.TimeZoneInfo.System#Runtime#Serialization#ISerializable#GetObjectData*
+  parent: System.TimeZoneInfo
+  isExternal: false
+  name: System.Runtime.Serialization.ISerializable.GetObjectData
+  nameWithType: TimeZoneInfo.System.Runtime.Serialization.ISerializable.GetObjectData
+- uid: System.TimeZoneInfo.ToSerializedString*
+  parent: System.TimeZoneInfo
+  isExternal: false
+  name: ToSerializedString
+  nameWithType: TimeZoneInfo.ToSerializedString
+- uid: System.TimeZoneInfo.ToString*
+  parent: System.TimeZoneInfo
+  isExternal: false
+  name: ToString
+  nameWithType: TimeZoneInfo.ToString
+- uid: System.TimeZoneInfo.Utc*
+  parent: System.TimeZoneInfo
+  isExternal: false
+  name: Utc
+  nameWithType: TimeZoneInfo.Utc

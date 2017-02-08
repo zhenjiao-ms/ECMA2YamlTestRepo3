@@ -72,6 +72,7 @@ items:
     - id: array
       type: T[]
       description: To be added.
+  overload: System.ArraySegment`1.#ctor*
   platform:
   - net-11
   - net-20
@@ -102,6 +103,7 @@ items:
     - id: count
       type: System.Int32
       description: To be added.
+  overload: System.ArraySegment`1.#ctor*
   platform:
   - net-11
   - net-20
@@ -125,6 +127,7 @@ items:
     return:
       type: T[]
       description: To be added.
+  overload: System.ArraySegment`1.Array*
   platform:
   - net-11
   - net-20
@@ -148,6 +151,7 @@ items:
     return:
       type: System.Int32
       description: To be added.
+  overload: System.ArraySegment`1.Count*
   platform:
   - net-11
   - net-20
@@ -228,6 +232,7 @@ items:
     return:
       type: System.Int32
       description: To be added.
+  overload: System.ArraySegment`1.GetHashCode*
   platform:
   - net-11
   - net-20
@@ -251,6 +256,7 @@ items:
     return:
       type: System.Int32
       description: To be added.
+  overload: System.ArraySegment`1.Offset*
   platform:
   - net-11
   - net-20
@@ -281,6 +287,7 @@ items:
     return:
       type: System.Boolean
       description: To be added.
+  overload: System.ArraySegment`1.op_Equality*
   platform:
   - net-11
   - net-20
@@ -311,6 +318,7 @@ items:
     return:
       type: System.Boolean
       description: To be added.
+  overload: System.ArraySegment`1.op_Inequality*
   platform:
   - net-11
   - net-20
@@ -336,6 +344,7 @@ items:
     - id: item
       type: T
       description: To be added.
+  overload: System.ArraySegment`1.System#Collections#Generic#ICollection<T>#Add*
   platform:
   - net-11
   - net-20
@@ -358,6 +367,7 @@ items:
   syntax:
     content: void ICollection<T>.Clear ();
     parameters: []
+  overload: System.ArraySegment`1.System#Collections#Generic#ICollection<T>#Clear*
   platform:
   - net-11
   - net-20
@@ -386,6 +396,7 @@ items:
     return:
       type: System.Boolean
       description: To be added.
+  overload: System.ArraySegment`1.System#Collections#Generic#ICollection<T>#Contains*
   platform:
   - net-11
   - net-20
@@ -414,6 +425,7 @@ items:
     - id: arrayIndex
       type: System.Int32
       description: To be added.
+  overload: System.ArraySegment`1.System#Collections#Generic#ICollection<T>#CopyTo*
   platform:
   - net-11
   - net-20
@@ -438,6 +450,7 @@ items:
     return:
       type: System.Boolean
       description: To be added.
+  overload: System.ArraySegment`1.System#Collections#Generic#ICollection<T>#IsReadOnly*
   platform:
   - net-11
   - net-20
@@ -466,6 +479,7 @@ items:
     return:
       type: System.Boolean
       description: To be added.
+  overload: System.ArraySegment`1.System#Collections#Generic#ICollection<T>#Remove*
   platform:
   - net-11
   - net-20
@@ -491,6 +505,7 @@ items:
     return:
       type: System.Collections.Generic.IEnumerator`1
       description: To be added.
+  overload: System.ArraySegment`1.System#Collections#Generic#IEnumerable<T>#GetEnumerator*
   platform:
   - net-11
   - net-20
@@ -519,6 +534,7 @@ items:
     return:
       type: System.Int32
       description: To be added.
+  overload: System.ArraySegment`1.System#Collections#Generic#IList<T>#IndexOf*
   platform:
   - net-11
   - net-20
@@ -547,6 +563,7 @@ items:
     - id: item
       type: T
       description: To be added.
+  overload: System.ArraySegment`1.System#Collections#Generic#IList<T>#Insert*
   platform:
   - net-11
   - net-20
@@ -575,6 +592,7 @@ items:
     return:
       type: T
       description: To be added.
+  overload: System.ArraySegment`1.System#Collections#Generic#IList<T>#Item*
   platform:
   - net-11
   - net-20
@@ -600,6 +618,7 @@ items:
     - id: index
       type: System.Int32
       description: To be added.
+  overload: System.ArraySegment`1.System#Collections#Generic#IList<T>#RemoveAt*
   platform:
   - net-11
   - net-20
@@ -628,6 +647,7 @@ items:
     return:
       type: T
       description: To be added.
+  overload: System.ArraySegment`1.System#Collections#Generic#IReadOnlyList<T>#Item*
   platform:
   - net-11
   - net-20
@@ -653,6 +673,7 @@ items:
     return:
       type: System.Collections.IEnumerator
       description: To be added.
+  overload: System.ArraySegment`1.System#Collections#IEnumerable#GetEnumerator*
   platform:
   - net-11
   - net-20
@@ -1021,8 +1042,108 @@ references:
   name: IEnumerator
   nameWithType: IEnumerator
   fullName: System.Collections.IEnumerator
+- uid: System.ArraySegment`1.#ctor*
+  parent: System.ArraySegment`1
+  isExternal: false
+  name: ArraySegment<T>
+  nameWithType: ArraySegment<T>.ArraySegment<T>
+- uid: System.ArraySegment`1.Array*
+  parent: System.ArraySegment`1
+  isExternal: false
+  name: Array
+  nameWithType: ArraySegment<T>.Array
+- uid: System.ArraySegment`1.Count*
+  parent: System.ArraySegment`1
+  isExternal: false
+  name: Count
+  nameWithType: ArraySegment<T>.Count
 - uid: System.ArraySegment`1.Equals*
   parent: System.ArraySegment`1
   isExternal: false
   name: Equals
   nameWithType: ArraySegment<T>.Equals
+- uid: System.ArraySegment`1.GetHashCode*
+  parent: System.ArraySegment`1
+  isExternal: false
+  name: GetHashCode
+  nameWithType: ArraySegment<T>.GetHashCode
+- uid: System.ArraySegment`1.Offset*
+  parent: System.ArraySegment`1
+  isExternal: false
+  name: Offset
+  nameWithType: ArraySegment<T>.Offset
+- uid: System.ArraySegment`1.op_Equality*
+  parent: System.ArraySegment`1
+  isExternal: false
+  name: op_Equality
+  nameWithType: ArraySegment<T>.op_Equality
+- uid: System.ArraySegment`1.op_Inequality*
+  parent: System.ArraySegment`1
+  isExternal: false
+  name: op_Inequality
+  nameWithType: ArraySegment<T>.op_Inequality
+- uid: System.ArraySegment`1.System#Collections#Generic#ICollection<T>#Add*
+  parent: System.ArraySegment`1
+  isExternal: false
+  name: System.Collections.Generic.ICollection<T>.Add
+  nameWithType: ArraySegment<T>.System.Collections.Generic.ICollection<T>.Add
+- uid: System.ArraySegment`1.System#Collections#Generic#ICollection<T>#Clear*
+  parent: System.ArraySegment`1
+  isExternal: false
+  name: System.Collections.Generic.ICollection<T>.Clear
+  nameWithType: ArraySegment<T>.System.Collections.Generic.ICollection<T>.Clear
+- uid: System.ArraySegment`1.System#Collections#Generic#ICollection<T>#Contains*
+  parent: System.ArraySegment`1
+  isExternal: false
+  name: System.Collections.Generic.ICollection<T>.Contains
+  nameWithType: ArraySegment<T>.System.Collections.Generic.ICollection<T>.Contains
+- uid: System.ArraySegment`1.System#Collections#Generic#ICollection<T>#CopyTo*
+  parent: System.ArraySegment`1
+  isExternal: false
+  name: System.Collections.Generic.ICollection<T>.CopyTo
+  nameWithType: ArraySegment<T>.System.Collections.Generic.ICollection<T>.CopyTo
+- uid: System.ArraySegment`1.System#Collections#Generic#ICollection<T>#IsReadOnly*
+  parent: System.ArraySegment`1
+  isExternal: false
+  name: System.Collections.Generic.ICollection<T>.IsReadOnly
+  nameWithType: ArraySegment<T>.System.Collections.Generic.ICollection<T>.IsReadOnly
+- uid: System.ArraySegment`1.System#Collections#Generic#ICollection<T>#Remove*
+  parent: System.ArraySegment`1
+  isExternal: false
+  name: System.Collections.Generic.ICollection<T>.Remove
+  nameWithType: ArraySegment<T>.System.Collections.Generic.ICollection<T>.Remove
+- uid: System.ArraySegment`1.System#Collections#Generic#IEnumerable<T>#GetEnumerator*
+  parent: System.ArraySegment`1
+  isExternal: false
+  name: System.Collections.Generic.IEnumerable<T>.GetEnumerator
+  nameWithType: ArraySegment<T>.System.Collections.Generic.IEnumerable<T>.GetEnumerator
+- uid: System.ArraySegment`1.System#Collections#Generic#IList<T>#IndexOf*
+  parent: System.ArraySegment`1
+  isExternal: false
+  name: System.Collections.Generic.IList<T>.IndexOf
+  nameWithType: ArraySegment<T>.System.Collections.Generic.IList<T>.IndexOf
+- uid: System.ArraySegment`1.System#Collections#Generic#IList<T>#Insert*
+  parent: System.ArraySegment`1
+  isExternal: false
+  name: System.Collections.Generic.IList<T>.Insert
+  nameWithType: ArraySegment<T>.System.Collections.Generic.IList<T>.Insert
+- uid: System.ArraySegment`1.System#Collections#Generic#IList<T>#Item*
+  parent: System.ArraySegment`1
+  isExternal: false
+  name: System.Collections.Generic.IList<T>.Item
+  nameWithType: ArraySegment<T>.System.Collections.Generic.IList<T>.Item
+- uid: System.ArraySegment`1.System#Collections#Generic#IList<T>#RemoveAt*
+  parent: System.ArraySegment`1
+  isExternal: false
+  name: System.Collections.Generic.IList<T>.RemoveAt
+  nameWithType: ArraySegment<T>.System.Collections.Generic.IList<T>.RemoveAt
+- uid: System.ArraySegment`1.System#Collections#Generic#IReadOnlyList<T>#Item*
+  parent: System.ArraySegment`1
+  isExternal: false
+  name: System.Collections.Generic.IReadOnlyList<T>.Item
+  nameWithType: ArraySegment<T>.System.Collections.Generic.IReadOnlyList<T>.Item
+- uid: System.ArraySegment`1.System#Collections#IEnumerable#GetEnumerator*
+  parent: System.ArraySegment`1
+  isExternal: false
+  name: System.Collections.IEnumerable.GetEnumerator
+  nameWithType: ArraySegment<T>.System.Collections.IEnumerable.GetEnumerator

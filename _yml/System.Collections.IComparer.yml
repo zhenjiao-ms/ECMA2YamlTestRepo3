@@ -48,6 +48,7 @@ items:
     return:
       type: System.Int32
       description: To be added.
+  overload: System.Collections.IComparer.Compare*
   platform:
   - net-11
   - net-20
@@ -77,3 +78,8 @@ references:
   name: Object
   nameWithType: Object
   fullName: System.Object
+- uid: System.Collections.IComparer.Compare*
+  parent: System.Collections.IComparer
+  isExternal: false
+  name: Compare
+  nameWithType: IComparer.Compare

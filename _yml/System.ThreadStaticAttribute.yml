@@ -91,6 +91,7 @@ items:
   syntax:
     content: public ThreadStaticAttribute ();
     parameters: []
+  overload: System.ThreadStaticAttribute.#ctor*
   platform:
   - net-11
   - net-20
@@ -105,3 +106,8 @@ references:
   name: ThreadStaticAttribute()
   nameWithType: ThreadStaticAttribute.ThreadStaticAttribute()
   fullName: System.ThreadStaticAttribute.ThreadStaticAttribute()
+- uid: System.ThreadStaticAttribute.#ctor*
+  parent: System.ThreadStaticAttribute
+  isExternal: false
+  name: ThreadStaticAttribute
+  nameWithType: ThreadStaticAttribute.ThreadStaticAttribute

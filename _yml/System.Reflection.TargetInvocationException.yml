@@ -66,6 +66,7 @@ items:
     - id: inner
       type: System.Exception
       description: To be added.
+  overload: System.Reflection.TargetInvocationException.#ctor*
   platform:
   - net-11
   - net-20
@@ -93,6 +94,7 @@ items:
     - id: inner
       type: System.Exception
       description: To be added.
+  overload: System.Reflection.TargetInvocationException.#ctor*
   platform:
   - net-11
   - net-20
@@ -131,3 +133,8 @@ references:
   name: Exception
   nameWithType: Exception
   fullName: System.Exception
+- uid: System.Reflection.TargetInvocationException.#ctor*
+  parent: System.Reflection.TargetInvocationException
+  isExternal: false
+  name: TargetInvocationException
+  nameWithType: TargetInvocationException.TargetInvocationException

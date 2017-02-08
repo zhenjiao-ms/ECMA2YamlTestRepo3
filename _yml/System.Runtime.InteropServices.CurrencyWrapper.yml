@@ -54,6 +54,7 @@ items:
     - id: obj
       type: System.Decimal
       description: To be added.
+  overload: System.Runtime.InteropServices.CurrencyWrapper.#ctor*
   platform:
   - net-11
   - net-20
@@ -78,6 +79,7 @@ items:
     - id: obj
       type: System.Object
       description: To be added.
+  overload: System.Runtime.InteropServices.CurrencyWrapper.#ctor*
   platform:
   - net-11
   - net-20
@@ -101,6 +103,7 @@ items:
     return:
       type: System.Decimal
       description: To be added.
+  overload: System.Runtime.InteropServices.CurrencyWrapper.WrappedObject*
   platform:
   - net-11
   - net-20
@@ -145,3 +148,13 @@ references:
   name: Decimal
   nameWithType: Decimal
   fullName: System.Decimal
+- uid: System.Runtime.InteropServices.CurrencyWrapper.#ctor*
+  parent: System.Runtime.InteropServices.CurrencyWrapper
+  isExternal: false
+  name: CurrencyWrapper
+  nameWithType: CurrencyWrapper.CurrencyWrapper
+- uid: System.Runtime.InteropServices.CurrencyWrapper.WrappedObject*
+  parent: System.Runtime.InteropServices.CurrencyWrapper
+  isExternal: false
+  name: WrappedObject
+  nameWithType: CurrencyWrapper.WrappedObject

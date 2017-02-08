@@ -73,6 +73,7 @@ items:
     - id: state
       type: System.Security.Permissions.PermissionState
       description: To be added.
+  overload: System.Security.Permissions.EnvironmentPermission.#ctor*
   platform:
   - net-11
   - net-20
@@ -100,6 +101,7 @@ items:
     - id: pathList
       type: System.String
       description: To be added.
+  overload: System.Security.Permissions.EnvironmentPermission.#ctor*
   platform:
   - net-11
   - net-20
@@ -127,6 +129,7 @@ items:
     - id: pathList
       type: System.String
       description: To be added.
+  overload: System.Security.Permissions.EnvironmentPermission.AddPathList*
   platform:
   - net-11
   - net-20
@@ -151,6 +154,7 @@ items:
     return:
       type: System.Security.IPermission
       description: To be added.
+  overload: System.Security.Permissions.EnvironmentPermission.Copy*
   platform:
   - net-11
   - net-20
@@ -175,6 +179,7 @@ items:
     - id: esd
       type: System.Security.SecurityElement
       description: To be added.
+  overload: System.Security.Permissions.EnvironmentPermission.FromXml*
   platform:
   - net-11
   - net-20
@@ -202,6 +207,7 @@ items:
     return:
       type: System.String
       description: To be added.
+  overload: System.Security.Permissions.EnvironmentPermission.GetPathList*
   platform:
   - net-11
   - net-20
@@ -229,6 +235,7 @@ items:
     return:
       type: System.Security.IPermission
       description: To be added.
+  overload: System.Security.Permissions.EnvironmentPermission.Intersect*
   platform:
   - net-11
   - net-20
@@ -256,6 +263,7 @@ items:
     return:
       type: System.Boolean
       description: To be added.
+  overload: System.Security.Permissions.EnvironmentPermission.IsSubsetOf*
   platform:
   - net-11
   - net-20
@@ -280,6 +288,7 @@ items:
     return:
       type: System.Boolean
       description: To be added.
+  overload: System.Security.Permissions.EnvironmentPermission.IsUnrestricted*
   platform:
   - net-11
   - net-20
@@ -307,6 +316,7 @@ items:
     - id: pathList
       type: System.String
       description: To be added.
+  overload: System.Security.Permissions.EnvironmentPermission.SetPathList*
   platform:
   - net-11
   - net-20
@@ -331,6 +341,7 @@ items:
     return:
       type: System.Security.SecurityElement
       description: To be added.
+  overload: System.Security.Permissions.EnvironmentPermission.ToXml*
   platform:
   - net-11
   - net-20
@@ -358,6 +369,7 @@ items:
     return:
       type: System.Security.IPermission
       description: To be added.
+  overload: System.Security.Permissions.EnvironmentPermission.Union*
   platform:
   - net-11
   - net-20
@@ -552,3 +564,58 @@ references:
   name: IPermission
   nameWithType: IPermission
   fullName: System.Security.IPermission
+- uid: System.Security.Permissions.EnvironmentPermission.#ctor*
+  parent: System.Security.Permissions.EnvironmentPermission
+  isExternal: false
+  name: EnvironmentPermission
+  nameWithType: EnvironmentPermission.EnvironmentPermission
+- uid: System.Security.Permissions.EnvironmentPermission.AddPathList*
+  parent: System.Security.Permissions.EnvironmentPermission
+  isExternal: false
+  name: AddPathList
+  nameWithType: EnvironmentPermission.AddPathList
+- uid: System.Security.Permissions.EnvironmentPermission.Copy*
+  parent: System.Security.Permissions.EnvironmentPermission
+  isExternal: false
+  name: Copy
+  nameWithType: EnvironmentPermission.Copy
+- uid: System.Security.Permissions.EnvironmentPermission.FromXml*
+  parent: System.Security.Permissions.EnvironmentPermission
+  isExternal: false
+  name: FromXml
+  nameWithType: EnvironmentPermission.FromXml
+- uid: System.Security.Permissions.EnvironmentPermission.GetPathList*
+  parent: System.Security.Permissions.EnvironmentPermission
+  isExternal: false
+  name: GetPathList
+  nameWithType: EnvironmentPermission.GetPathList
+- uid: System.Security.Permissions.EnvironmentPermission.Intersect*
+  parent: System.Security.Permissions.EnvironmentPermission
+  isExternal: false
+  name: Intersect
+  nameWithType: EnvironmentPermission.Intersect
+- uid: System.Security.Permissions.EnvironmentPermission.IsSubsetOf*
+  parent: System.Security.Permissions.EnvironmentPermission
+  isExternal: false
+  name: IsSubsetOf
+  nameWithType: EnvironmentPermission.IsSubsetOf
+- uid: System.Security.Permissions.EnvironmentPermission.IsUnrestricted*
+  parent: System.Security.Permissions.EnvironmentPermission
+  isExternal: false
+  name: IsUnrestricted
+  nameWithType: EnvironmentPermission.IsUnrestricted
+- uid: System.Security.Permissions.EnvironmentPermission.SetPathList*
+  parent: System.Security.Permissions.EnvironmentPermission
+  isExternal: false
+  name: SetPathList
+  nameWithType: EnvironmentPermission.SetPathList
+- uid: System.Security.Permissions.EnvironmentPermission.ToXml*
+  parent: System.Security.Permissions.EnvironmentPermission
+  isExternal: false
+  name: ToXml
+  nameWithType: EnvironmentPermission.ToXml
+- uid: System.Security.Permissions.EnvironmentPermission.Union*
+  parent: System.Security.Permissions.EnvironmentPermission
+  isExternal: false
+  name: Union
+  nameWithType: EnvironmentPermission.Union

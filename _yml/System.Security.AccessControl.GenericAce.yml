@@ -59,6 +59,7 @@ items:
     return:
       type: System.Security.AccessControl.AceFlags
       description: To be added.
+  overload: System.Security.AccessControl.GenericAce.AceFlags*
   platform:
   - net-11
   - net-20
@@ -82,6 +83,7 @@ items:
     return:
       type: System.Security.AccessControl.AceType
       description: To be added.
+  overload: System.Security.AccessControl.GenericAce.AceType*
   platform:
   - net-11
   - net-20
@@ -105,6 +107,7 @@ items:
     return:
       type: System.Security.AccessControl.AuditFlags
       description: To be added.
+  overload: System.Security.AccessControl.GenericAce.AuditFlags*
   platform:
   - net-11
   - net-20
@@ -128,6 +131,7 @@ items:
     return:
       type: System.Int32
       description: To be added.
+  overload: System.Security.AccessControl.GenericAce.BinaryLength*
   platform:
   - net-11
   - net-20
@@ -152,6 +156,7 @@ items:
     return:
       type: System.Security.AccessControl.GenericAce
       description: To be added.
+  overload: System.Security.AccessControl.GenericAce.Copy*
   platform:
   - net-11
   - net-20
@@ -182,6 +187,7 @@ items:
     return:
       type: System.Security.AccessControl.GenericAce
       description: To be added.
+  overload: System.Security.AccessControl.GenericAce.CreateFromBinaryForm*
   platform:
   - net-11
   - net-20
@@ -209,6 +215,7 @@ items:
     return:
       type: System.Boolean
       description: To be added.
+  overload: System.Security.AccessControl.GenericAce.Equals*
   platform:
   - net-11
   - net-20
@@ -236,6 +243,7 @@ items:
     - id: offset
       type: System.Int32
       description: To be added.
+  overload: System.Security.AccessControl.GenericAce.GetBinaryForm*
   platform:
   - net-11
   - net-20
@@ -260,6 +268,7 @@ items:
     return:
       type: System.Int32
       description: To be added.
+  overload: System.Security.AccessControl.GenericAce.GetHashCode*
   platform:
   - net-11
   - net-20
@@ -283,6 +292,7 @@ items:
     return:
       type: System.Security.AccessControl.InheritanceFlags
       description: To be added.
+  overload: System.Security.AccessControl.GenericAce.InheritanceFlags*
   platform:
   - net-11
   - net-20
@@ -306,6 +316,7 @@ items:
     return:
       type: System.Boolean
       description: To be added.
+  overload: System.Security.AccessControl.GenericAce.IsInherited*
   platform:
   - net-11
   - net-20
@@ -336,6 +347,7 @@ items:
     return:
       type: System.Boolean
       description: To be added.
+  overload: System.Security.AccessControl.GenericAce.op_Equality*
   platform:
   - net-11
   - net-20
@@ -366,6 +378,7 @@ items:
     return:
       type: System.Boolean
       description: To be added.
+  overload: System.Security.AccessControl.GenericAce.op_Inequality*
   platform:
   - net-11
   - net-20
@@ -389,6 +402,7 @@ items:
     return:
       type: System.Security.AccessControl.PropagationFlags
       description: To be added.
+  overload: System.Security.AccessControl.GenericAce.PropagationFlags*
   platform:
   - net-11
   - net-20
@@ -613,3 +627,73 @@ references:
   name: PropagationFlags
   nameWithType: PropagationFlags
   fullName: System.Security.AccessControl.PropagationFlags
+- uid: System.Security.AccessControl.GenericAce.AceFlags*
+  parent: System.Security.AccessControl.GenericAce
+  isExternal: false
+  name: AceFlags
+  nameWithType: GenericAce.AceFlags
+- uid: System.Security.AccessControl.GenericAce.AceType*
+  parent: System.Security.AccessControl.GenericAce
+  isExternal: false
+  name: AceType
+  nameWithType: GenericAce.AceType
+- uid: System.Security.AccessControl.GenericAce.AuditFlags*
+  parent: System.Security.AccessControl.GenericAce
+  isExternal: false
+  name: AuditFlags
+  nameWithType: GenericAce.AuditFlags
+- uid: System.Security.AccessControl.GenericAce.BinaryLength*
+  parent: System.Security.AccessControl.GenericAce
+  isExternal: false
+  name: BinaryLength
+  nameWithType: GenericAce.BinaryLength
+- uid: System.Security.AccessControl.GenericAce.Copy*
+  parent: System.Security.AccessControl.GenericAce
+  isExternal: false
+  name: Copy
+  nameWithType: GenericAce.Copy
+- uid: System.Security.AccessControl.GenericAce.CreateFromBinaryForm*
+  parent: System.Security.AccessControl.GenericAce
+  isExternal: false
+  name: CreateFromBinaryForm
+  nameWithType: GenericAce.CreateFromBinaryForm
+- uid: System.Security.AccessControl.GenericAce.Equals*
+  parent: System.Security.AccessControl.GenericAce
+  isExternal: false
+  name: Equals
+  nameWithType: GenericAce.Equals
+- uid: System.Security.AccessControl.GenericAce.GetBinaryForm*
+  parent: System.Security.AccessControl.GenericAce
+  isExternal: false
+  name: GetBinaryForm
+  nameWithType: GenericAce.GetBinaryForm
+- uid: System.Security.AccessControl.GenericAce.GetHashCode*
+  parent: System.Security.AccessControl.GenericAce
+  isExternal: false
+  name: GetHashCode
+  nameWithType: GenericAce.GetHashCode
+- uid: System.Security.AccessControl.GenericAce.InheritanceFlags*
+  parent: System.Security.AccessControl.GenericAce
+  isExternal: false
+  name: InheritanceFlags
+  nameWithType: GenericAce.InheritanceFlags
+- uid: System.Security.AccessControl.GenericAce.IsInherited*
+  parent: System.Security.AccessControl.GenericAce
+  isExternal: false
+  name: IsInherited
+  nameWithType: GenericAce.IsInherited
+- uid: System.Security.AccessControl.GenericAce.op_Equality*
+  parent: System.Security.AccessControl.GenericAce
+  isExternal: false
+  name: op_Equality
+  nameWithType: GenericAce.op_Equality
+- uid: System.Security.AccessControl.GenericAce.op_Inequality*
+  parent: System.Security.AccessControl.GenericAce
+  isExternal: false
+  name: op_Inequality
+  nameWithType: GenericAce.op_Inequality
+- uid: System.Security.AccessControl.GenericAce.PropagationFlags*
+  parent: System.Security.AccessControl.GenericAce
+  isExternal: false
+  name: PropagationFlags
+  nameWithType: GenericAce.PropagationFlags

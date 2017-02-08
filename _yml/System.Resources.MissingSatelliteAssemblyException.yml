@@ -67,6 +67,7 @@ items:
   syntax:
     content: public MissingSatelliteAssemblyException ();
     parameters: []
+  overload: System.Resources.MissingSatelliteAssemblyException.#ctor*
   platform:
   - net-11
   - net-20
@@ -91,6 +92,7 @@ items:
     - id: message
       type: System.String
       description: To be added.
+  overload: System.Resources.MissingSatelliteAssemblyException.#ctor*
   platform:
   - net-11
   - net-20
@@ -118,6 +120,7 @@ items:
     - id: context
       type: System.Runtime.Serialization.StreamingContext
       description: To be added.
+  overload: System.Resources.MissingSatelliteAssemblyException.#ctor*
   platform:
   - net-11
   - net-20
@@ -145,6 +148,7 @@ items:
     - id: inner
       type: System.Exception
       description: To be added.
+  overload: System.Resources.MissingSatelliteAssemblyException.#ctor*
   platform:
   - net-11
   - net-20
@@ -172,6 +176,7 @@ items:
     - id: cultureName
       type: System.String
       description: To be added.
+  overload: System.Resources.MissingSatelliteAssemblyException.#ctor*
   platform:
   - net-11
   - net-20
@@ -195,6 +200,7 @@ items:
     return:
       type: System.String
       description: To be added.
+  overload: System.Resources.MissingSatelliteAssemblyException.CultureName*
   platform:
   - net-11
   - net-20
@@ -287,3 +293,13 @@ references:
   name: String
   nameWithType: String
   fullName: System.String
+- uid: System.Resources.MissingSatelliteAssemblyException.#ctor*
+  parent: System.Resources.MissingSatelliteAssemblyException
+  isExternal: false
+  name: MissingSatelliteAssemblyException
+  nameWithType: MissingSatelliteAssemblyException.MissingSatelliteAssemblyException
+- uid: System.Resources.MissingSatelliteAssemblyException.CultureName*
+  parent: System.Resources.MissingSatelliteAssemblyException
+  isExternal: false
+  name: CultureName
+  nameWithType: MissingSatelliteAssemblyException.CultureName

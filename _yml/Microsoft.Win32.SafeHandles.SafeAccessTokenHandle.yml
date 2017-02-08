@@ -67,6 +67,7 @@ items:
     - id: handle
       type: System.IntPtr
       description: To be added.
+  overload: Microsoft.Win32.SafeHandles.SafeAccessTokenHandle.#ctor*
   platform:
   - net-11
   - net-20
@@ -90,6 +91,7 @@ items:
     return:
       type: Microsoft.Win32.SafeHandles.SafeAccessTokenHandle
       description: To be added.
+  overload: Microsoft.Win32.SafeHandles.SafeAccessTokenHandle.InvalidHandle*
   platform:
   - net-11
   - net-20
@@ -113,6 +115,7 @@ items:
     return:
       type: System.Boolean
       description: To be added.
+  overload: Microsoft.Win32.SafeHandles.SafeAccessTokenHandle.IsInvalid*
   platform:
   - net-11
   - net-20
@@ -137,6 +140,7 @@ items:
     return:
       type: System.Boolean
       description: To be added.
+  overload: Microsoft.Win32.SafeHandles.SafeAccessTokenHandle.ReleaseHandle*
   platform:
   - net-11
   - net-20
@@ -193,3 +197,23 @@ references:
   name: Boolean
   nameWithType: Boolean
   fullName: System.Boolean
+- uid: Microsoft.Win32.SafeHandles.SafeAccessTokenHandle.#ctor*
+  parent: Microsoft.Win32.SafeHandles.SafeAccessTokenHandle
+  isExternal: false
+  name: SafeAccessTokenHandle
+  nameWithType: SafeAccessTokenHandle.SafeAccessTokenHandle
+- uid: Microsoft.Win32.SafeHandles.SafeAccessTokenHandle.InvalidHandle*
+  parent: Microsoft.Win32.SafeHandles.SafeAccessTokenHandle
+  isExternal: false
+  name: InvalidHandle
+  nameWithType: SafeAccessTokenHandle.InvalidHandle
+- uid: Microsoft.Win32.SafeHandles.SafeAccessTokenHandle.IsInvalid*
+  parent: Microsoft.Win32.SafeHandles.SafeAccessTokenHandle
+  isExternal: false
+  name: IsInvalid
+  nameWithType: SafeAccessTokenHandle.IsInvalid
+- uid: Microsoft.Win32.SafeHandles.SafeAccessTokenHandle.ReleaseHandle*
+  parent: Microsoft.Win32.SafeHandles.SafeAccessTokenHandle
+  isExternal: false
+  name: ReleaseHandle
+  nameWithType: SafeAccessTokenHandle.ReleaseHandle

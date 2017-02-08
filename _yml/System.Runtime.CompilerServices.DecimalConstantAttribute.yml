@@ -108,6 +108,7 @@ items:
     - id: low
       type: System.Int32
       description: To be added.
+  overload: System.Runtime.CompilerServices.DecimalConstantAttribute.#ctor*
   platform:
   - net-11
   - net-20
@@ -144,6 +145,7 @@ items:
     - id: low
       type: System.UInt32
       description: To be added.
+  overload: System.Runtime.CompilerServices.DecimalConstantAttribute.#ctor*
   platform:
   - net-11
   - net-20
@@ -167,6 +169,7 @@ items:
     return:
       type: System.Decimal
       description: To be added.
+  overload: System.Runtime.CompilerServices.DecimalConstantAttribute.Value*
   platform:
   - net-11
   - net-20
@@ -259,3 +262,13 @@ references:
   name: Decimal
   nameWithType: Decimal
   fullName: System.Decimal
+- uid: System.Runtime.CompilerServices.DecimalConstantAttribute.#ctor*
+  parent: System.Runtime.CompilerServices.DecimalConstantAttribute
+  isExternal: false
+  name: DecimalConstantAttribute
+  nameWithType: DecimalConstantAttribute.DecimalConstantAttribute
+- uid: System.Runtime.CompilerServices.DecimalConstantAttribute.Value*
+  parent: System.Runtime.CompilerServices.DecimalConstantAttribute
+  isExternal: false
+  name: Value
+  nameWithType: DecimalConstantAttribute.Value

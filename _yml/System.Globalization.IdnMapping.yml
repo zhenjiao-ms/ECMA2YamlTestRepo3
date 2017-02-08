@@ -54,6 +54,7 @@ items:
   syntax:
     content: public IdnMapping ();
     parameters: []
+  overload: System.Globalization.IdnMapping.#ctor*
   platform:
   - net-11
   - net-20
@@ -77,6 +78,7 @@ items:
     return:
       type: System.Boolean
       description: To be added.
+  overload: System.Globalization.IdnMapping.AllowUnassigned*
   platform:
   - net-11
   - net-20
@@ -104,6 +106,7 @@ items:
     return:
       type: System.Boolean
       description: To be added.
+  overload: System.Globalization.IdnMapping.Equals*
   platform:
   - net-11
   - net-20
@@ -221,6 +224,7 @@ items:
     return:
       type: System.Int32
       description: To be added.
+  overload: System.Globalization.IdnMapping.GetHashCode*
   platform:
   - net-11
   - net-20
@@ -337,6 +341,7 @@ items:
     return:
       type: System.Boolean
       description: To be added.
+  overload: System.Globalization.IdnMapping.UseStd3AsciiRules*
   platform:
   - net-11
   - net-20
@@ -549,13 +554,38 @@ references:
   name: Boolean
   nameWithType: Boolean
   fullName: System.Boolean
+- uid: System.Globalization.IdnMapping.#ctor*
+  parent: System.Globalization.IdnMapping
+  isExternal: false
+  name: IdnMapping
+  nameWithType: IdnMapping.IdnMapping
+- uid: System.Globalization.IdnMapping.AllowUnassigned*
+  parent: System.Globalization.IdnMapping
+  isExternal: false
+  name: AllowUnassigned
+  nameWithType: IdnMapping.AllowUnassigned
+- uid: System.Globalization.IdnMapping.Equals*
+  parent: System.Globalization.IdnMapping
+  isExternal: false
+  name: Equals
+  nameWithType: IdnMapping.Equals
 - uid: System.Globalization.IdnMapping.GetAscii*
   parent: System.Globalization.IdnMapping
   isExternal: false
   name: GetAscii
   nameWithType: IdnMapping.GetAscii
+- uid: System.Globalization.IdnMapping.GetHashCode*
+  parent: System.Globalization.IdnMapping
+  isExternal: false
+  name: GetHashCode
+  nameWithType: IdnMapping.GetHashCode
 - uid: System.Globalization.IdnMapping.GetUnicode*
   parent: System.Globalization.IdnMapping
   isExternal: false
   name: GetUnicode
   nameWithType: IdnMapping.GetUnicode
+- uid: System.Globalization.IdnMapping.UseStd3AsciiRules*
+  parent: System.Globalization.IdnMapping
+  isExternal: false
+  name: UseStd3AsciiRules
+  nameWithType: IdnMapping.UseStd3AsciiRules

@@ -59,6 +59,7 @@ items:
     - id: d
       type: System.Delegate
       description: To be added.
+  overload: System.Runtime.InteropServices.ComEventsHelper.Combine*
   platform:
   - net-11
   - net-20
@@ -95,6 +96,7 @@ items:
     return:
       type: System.Delegate
       description: To be added.
+  overload: System.Runtime.InteropServices.ComEventsHelper.Remove*
   platform:
   - net-11
   - net-20
@@ -169,3 +171,13 @@ references:
   name: Delegate
   nameWithType: Delegate
   fullName: System.Delegate
+- uid: System.Runtime.InteropServices.ComEventsHelper.Combine*
+  parent: System.Runtime.InteropServices.ComEventsHelper
+  isExternal: false
+  name: Combine
+  nameWithType: ComEventsHelper.Combine
+- uid: System.Runtime.InteropServices.ComEventsHelper.Remove*
+  parent: System.Runtime.InteropServices.ComEventsHelper
+  isExternal: false
+  name: Remove
+  nameWithType: ComEventsHelper.Remove

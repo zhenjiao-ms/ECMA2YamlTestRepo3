@@ -96,6 +96,7 @@ items:
     - id: classInterfaceType
       type: System.Int16
       description: To be added.
+  overload: System.Runtime.InteropServices.ClassInterfaceAttribute.#ctor*
   platform:
   - net-11
   - net-20
@@ -120,6 +121,7 @@ items:
     - id: classInterfaceType
       type: System.Runtime.InteropServices.ClassInterfaceType
       description: To be added.
+  overload: System.Runtime.InteropServices.ClassInterfaceAttribute.#ctor*
   platform:
   - net-11
   - net-20
@@ -143,6 +145,7 @@ items:
     return:
       type: System.Runtime.InteropServices.ClassInterfaceType
       description: To be added.
+  overload: System.Runtime.InteropServices.ClassInterfaceAttribute.Value*
   platform:
   - net-11
   - net-20
@@ -187,3 +190,13 @@ references:
   name: ClassInterfaceType
   nameWithType: ClassInterfaceType
   fullName: System.Runtime.InteropServices.ClassInterfaceType
+- uid: System.Runtime.InteropServices.ClassInterfaceAttribute.#ctor*
+  parent: System.Runtime.InteropServices.ClassInterfaceAttribute
+  isExternal: false
+  name: ClassInterfaceAttribute
+  nameWithType: ClassInterfaceAttribute.ClassInterfaceAttribute
+- uid: System.Runtime.InteropServices.ClassInterfaceAttribute.Value*
+  parent: System.Runtime.InteropServices.ClassInterfaceAttribute
+  isExternal: false
+  name: Value
+  nameWithType: ClassInterfaceAttribute.Value

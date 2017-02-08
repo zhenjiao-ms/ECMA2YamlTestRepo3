@@ -47,6 +47,7 @@ items:
     return:
       type: T
       description: To be added.
+  overload: System.Collections.Generic.IReadOnlyList`1.Item*
   platform:
   - net-11
   - net-20
@@ -70,3 +71,8 @@ references:
   name: Int32
   nameWithType: Int32
   fullName: System.Int32
+- uid: System.Collections.Generic.IReadOnlyList`1.Item*
+  parent: System.Collections.Generic.IReadOnlyList`1
+  isExternal: false
+  name: Item
+  nameWithType: IReadOnlyList<T>.Item

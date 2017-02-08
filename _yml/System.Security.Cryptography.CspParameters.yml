@@ -62,6 +62,7 @@ items:
   syntax:
     content: public CspParameters ();
     parameters: []
+  overload: System.Security.Cryptography.CspParameters.#ctor*
   platform:
   - net-11
   - net-20
@@ -86,6 +87,7 @@ items:
     - id: dwTypeIn
       type: System.Int32
       description: To be added.
+  overload: System.Security.Cryptography.CspParameters.#ctor*
   platform:
   - net-11
   - net-20
@@ -113,6 +115,7 @@ items:
     - id: strProviderNameIn
       type: System.String
       description: To be added.
+  overload: System.Security.Cryptography.CspParameters.#ctor*
   platform:
   - net-11
   - net-20
@@ -143,6 +146,7 @@ items:
     - id: strContainerNameIn
       type: System.String
       description: To be added.
+  overload: System.Security.Cryptography.CspParameters.#ctor*
   platform:
   - net-11
   - net-20
@@ -179,6 +183,7 @@ items:
     - id: parentWindowHandle
       type: System.IntPtr
       description: To be added.
+  overload: System.Security.Cryptography.CspParameters.#ctor*
   platform:
   - net-11
   - net-20
@@ -215,6 +220,7 @@ items:
     - id: keyPassword
       type: System.Security.SecureString
       description: To be added.
+  overload: System.Security.Cryptography.CspParameters.#ctor*
   platform:
   - net-11
   - net-20
@@ -238,6 +244,7 @@ items:
     return:
       type: System.Security.AccessControl.CryptoKeySecurity
       description: To be added.
+  overload: System.Security.Cryptography.CspParameters.CryptoKeySecurity*
   platform:
   - net-11
   - net-20
@@ -261,6 +268,7 @@ items:
     return:
       type: System.Security.Cryptography.CspProviderFlags
       description: To be added.
+  overload: System.Security.Cryptography.CspParameters.Flags*
   platform:
   - net-11
   - net-20
@@ -330,6 +338,7 @@ items:
     return:
       type: System.Security.SecureString
       description: To be added.
+  overload: System.Security.Cryptography.CspParameters.KeyPassword*
   platform:
   - net-11
   - net-20
@@ -353,6 +362,7 @@ items:
     return:
       type: System.IntPtr
       description: To be added.
+  overload: System.Security.Cryptography.CspParameters.ParentWindowHandle*
   platform:
   - net-11
   - net-20
@@ -635,3 +645,28 @@ references:
   name: Int32
   nameWithType: Int32
   fullName: System.Int32
+- uid: System.Security.Cryptography.CspParameters.#ctor*
+  parent: System.Security.Cryptography.CspParameters
+  isExternal: false
+  name: CspParameters
+  nameWithType: CspParameters.CspParameters
+- uid: System.Security.Cryptography.CspParameters.CryptoKeySecurity*
+  parent: System.Security.Cryptography.CspParameters
+  isExternal: false
+  name: CryptoKeySecurity
+  nameWithType: CspParameters.CryptoKeySecurity
+- uid: System.Security.Cryptography.CspParameters.Flags*
+  parent: System.Security.Cryptography.CspParameters
+  isExternal: false
+  name: Flags
+  nameWithType: CspParameters.Flags
+- uid: System.Security.Cryptography.CspParameters.KeyPassword*
+  parent: System.Security.Cryptography.CspParameters
+  isExternal: false
+  name: KeyPassword
+  nameWithType: CspParameters.KeyPassword
+- uid: System.Security.Cryptography.CspParameters.ParentWindowHandle*
+  parent: System.Security.Cryptography.CspParameters
+  isExternal: false
+  name: ParentWindowHandle
+  nameWithType: CspParameters.ParentWindowHandle

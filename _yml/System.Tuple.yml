@@ -59,6 +59,7 @@ items:
     return:
       type: System.Tuple`1
       description: To be added.
+  overload: System.Tuple.Create<T1>*
   platform:
   - net-11
   - net-20
@@ -89,6 +90,7 @@ items:
     return:
       type: System.Tuple`2
       description: To be added.
+  overload: System.Tuple.Create<T1,T2>*
   platform:
   - net-11
   - net-20
@@ -122,6 +124,7 @@ items:
     return:
       type: System.Tuple`3
       description: To be added.
+  overload: System.Tuple.Create<T1,T2,T3>*
   platform:
   - net-11
   - net-20
@@ -158,6 +161,7 @@ items:
     return:
       type: System.Tuple`4
       description: To be added.
+  overload: System.Tuple.Create<T1,T2,T3,T4>*
   platform:
   - net-11
   - net-20
@@ -197,6 +201,7 @@ items:
     return:
       type: System.Tuple`5
       description: To be added.
+  overload: System.Tuple.Create<T1,T2,T3,T4,T5>*
   platform:
   - net-11
   - net-20
@@ -239,6 +244,7 @@ items:
     return:
       type: System.Tuple`6
       description: To be added.
+  overload: System.Tuple.Create<T1,T2,T3,T4,T5,T6>*
   platform:
   - net-11
   - net-20
@@ -284,6 +290,7 @@ items:
     return:
       type: System.Tuple`7
       description: To be added.
+  overload: System.Tuple.Create<T1,T2,T3,T4,T5,T6,T7>*
   platform:
   - net-11
   - net-20
@@ -332,6 +339,7 @@ items:
     return:
       type: System.Tuple{T1,T2,T3,T4,T5,T6,T7,System.Tuple{T8}}
       description: To be added.
+  overload: System.Tuple.Create<T1,T2,T3,T4,T5,T6,T7,T8>*
   platform:
   - net-11
   - net-20
@@ -652,3 +660,43 @@ references:
   name: T8
   nameWithType: T8
   fullName: T8
+- uid: System.Tuple.Create<T1>*
+  parent: System.Tuple
+  isExternal: false
+  name: Create<T1>
+  nameWithType: Tuple.Create<T1>
+- uid: System.Tuple.Create<T1,T2>*
+  parent: System.Tuple
+  isExternal: false
+  name: Create<T1,T2>
+  nameWithType: Tuple.Create<T1,T2>
+- uid: System.Tuple.Create<T1,T2,T3>*
+  parent: System.Tuple
+  isExternal: false
+  name: Create<T1,T2,T3>
+  nameWithType: Tuple.Create<T1,T2,T3>
+- uid: System.Tuple.Create<T1,T2,T3,T4>*
+  parent: System.Tuple
+  isExternal: false
+  name: Create<T1,T2,T3,T4>
+  nameWithType: Tuple.Create<T1,T2,T3,T4>
+- uid: System.Tuple.Create<T1,T2,T3,T4,T5>*
+  parent: System.Tuple
+  isExternal: false
+  name: Create<T1,T2,T3,T4,T5>
+  nameWithType: Tuple.Create<T1,T2,T3,T4,T5>
+- uid: System.Tuple.Create<T1,T2,T3,T4,T5,T6>*
+  parent: System.Tuple
+  isExternal: false
+  name: Create<T1,T2,T3,T4,T5,T6>
+  nameWithType: Tuple.Create<T1,T2,T3,T4,T5,T6>
+- uid: System.Tuple.Create<T1,T2,T3,T4,T5,T6,T7>*
+  parent: System.Tuple
+  isExternal: false
+  name: Create<T1,T2,T3,T4,T5,T6,T7>
+  nameWithType: Tuple.Create<T1,T2,T3,T4,T5,T6,T7>
+- uid: System.Tuple.Create<T1,T2,T3,T4,T5,T6,T7,T8>*
+  parent: System.Tuple
+  isExternal: false
+  name: Create<T1,T2,T3,T4,T5,T6,T7,T8>
+  nameWithType: Tuple.Create<T1,T2,T3,T4,T5,T6,T7,T8>

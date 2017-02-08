@@ -106,6 +106,7 @@ items:
   syntax:
     content: public ArrayList ();
     parameters: []
+  overload: System.Collections.ArrayList.#ctor*
   platform:
   - net-11
   - net-20
@@ -130,6 +131,7 @@ items:
     - id: c
       type: System.Collections.ICollection
       description: To be added.
+  overload: System.Collections.ArrayList.#ctor*
   platform:
   - net-11
   - net-20
@@ -154,6 +156,7 @@ items:
     - id: capacity
       type: System.Int32
       description: To be added.
+  overload: System.Collections.ArrayList.#ctor*
   platform:
   - net-11
   - net-20
@@ -181,6 +184,7 @@ items:
     return:
       type: System.Collections.ArrayList
       description: To be added.
+  overload: System.Collections.ArrayList.Adapter*
   platform:
   - net-11
   - net-20
@@ -208,6 +212,7 @@ items:
     return:
       type: System.Int32
       description: To be added.
+  overload: System.Collections.ArrayList.Add*
   platform:
   - net-11
   - net-20
@@ -232,6 +237,7 @@ items:
     - id: c
       type: System.Collections.ICollection
       description: To be added.
+  overload: System.Collections.ArrayList.AddRange*
   platform:
   - net-11
   - net-20
@@ -351,6 +357,7 @@ items:
     return:
       type: System.Int32
       description: To be added.
+  overload: System.Collections.ArrayList.Capacity*
   platform:
   - net-11
   - net-20
@@ -372,6 +379,7 @@ items:
   syntax:
     content: public virtual void Clear ();
     parameters: []
+  overload: System.Collections.ArrayList.Clear*
   platform:
   - net-11
   - net-20
@@ -396,6 +404,7 @@ items:
     return:
       type: System.Object
       description: To be added.
+  overload: System.Collections.ArrayList.Clone*
   platform:
   - net-11
   - net-20
@@ -423,6 +432,7 @@ items:
     return:
       type: System.Boolean
       description: To be added.
+  overload: System.Collections.ArrayList.Contains*
   platform:
   - net-11
   - net-20
@@ -533,6 +543,7 @@ items:
     return:
       type: System.Int32
       description: To be added.
+  overload: System.Collections.ArrayList.Count*
   platform:
   - net-11
   - net-20
@@ -675,6 +686,7 @@ items:
     return:
       type: System.Collections.ArrayList
       description: To be added.
+  overload: System.Collections.ArrayList.GetRange*
   platform:
   - net-11
   - net-20
@@ -795,6 +807,7 @@ items:
     - id: value
       type: System.Object
       description: To be added.
+  overload: System.Collections.ArrayList.Insert*
   platform:
   - net-11
   - net-20
@@ -822,6 +835,7 @@ items:
     - id: c
       type: System.Collections.ICollection
       description: To be added.
+  overload: System.Collections.ArrayList.InsertRange*
   platform:
   - net-11
   - net-20
@@ -845,6 +859,7 @@ items:
     return:
       type: System.Boolean
       description: To be added.
+  overload: System.Collections.ArrayList.IsFixedSize*
   platform:
   - net-11
   - net-20
@@ -868,6 +883,7 @@ items:
     return:
       type: System.Boolean
       description: To be added.
+  overload: System.Collections.ArrayList.IsReadOnly*
   platform:
   - net-11
   - net-20
@@ -891,6 +907,7 @@ items:
     return:
       type: System.Boolean
       description: To be added.
+  overload: System.Collections.ArrayList.IsSynchronized*
   platform:
   - net-11
   - net-20
@@ -918,6 +935,7 @@ items:
     return:
       type: System.Object
       description: To be added.
+  overload: System.Collections.ArrayList.Item*
   platform:
   - net-11
   - net-20
@@ -1091,6 +1109,7 @@ items:
     - id: obj
       type: System.Object
       description: To be added.
+  overload: System.Collections.ArrayList.Remove*
   platform:
   - net-11
   - net-20
@@ -1115,6 +1134,7 @@ items:
     - id: index
       type: System.Int32
       description: To be added.
+  overload: System.Collections.ArrayList.RemoveAt*
   platform:
   - net-11
   - net-20
@@ -1142,6 +1162,7 @@ items:
     - id: count
       type: System.Int32
       description: To be added.
+  overload: System.Collections.ArrayList.RemoveRange*
   platform:
   - net-11
   - net-20
@@ -1172,6 +1193,7 @@ items:
     return:
       type: System.Collections.ArrayList
       description: To be added.
+  overload: System.Collections.ArrayList.Repeat*
   platform:
   - net-11
   - net-20
@@ -1249,6 +1271,7 @@ items:
     - id: c
       type: System.Collections.ICollection
       description: To be added.
+  overload: System.Collections.ArrayList.SetRange*
   platform:
   - net-11
   - net-20
@@ -1406,6 +1429,7 @@ items:
     return:
       type: System.Object
       description: To be added.
+  overload: System.Collections.ArrayList.SyncRoot*
   platform:
   - net-11
   - net-20
@@ -1480,6 +1504,7 @@ items:
   syntax:
     content: public virtual void TrimToSize ();
     parameters: []
+  overload: System.Collections.ArrayList.TrimToSize*
   platform:
   - net-11
   - net-20
@@ -2364,16 +2389,61 @@ references:
   name: TrimToSize()
   nameWithType: ArrayList.TrimToSize()
   fullName: System.Collections.ArrayList.TrimToSize()
+- uid: System.Collections.ArrayList.#ctor*
+  parent: System.Collections.ArrayList
+  isExternal: false
+  name: ArrayList
+  nameWithType: ArrayList.ArrayList
+- uid: System.Collections.ArrayList.Adapter*
+  parent: System.Collections.ArrayList
+  isExternal: false
+  name: Adapter
+  nameWithType: ArrayList.Adapter
+- uid: System.Collections.ArrayList.Add*
+  parent: System.Collections.ArrayList
+  isExternal: false
+  name: Add
+  nameWithType: ArrayList.Add
+- uid: System.Collections.ArrayList.AddRange*
+  parent: System.Collections.ArrayList
+  isExternal: false
+  name: AddRange
+  nameWithType: ArrayList.AddRange
 - uid: System.Collections.ArrayList.BinarySearch*
   parent: System.Collections.ArrayList
   isExternal: false
   name: BinarySearch
   nameWithType: ArrayList.BinarySearch
+- uid: System.Collections.ArrayList.Capacity*
+  parent: System.Collections.ArrayList
+  isExternal: false
+  name: Capacity
+  nameWithType: ArrayList.Capacity
+- uid: System.Collections.ArrayList.Clear*
+  parent: System.Collections.ArrayList
+  isExternal: false
+  name: Clear
+  nameWithType: ArrayList.Clear
+- uid: System.Collections.ArrayList.Clone*
+  parent: System.Collections.ArrayList
+  isExternal: false
+  name: Clone
+  nameWithType: ArrayList.Clone
+- uid: System.Collections.ArrayList.Contains*
+  parent: System.Collections.ArrayList
+  isExternal: false
+  name: Contains
+  nameWithType: ArrayList.Contains
 - uid: System.Collections.ArrayList.CopyTo*
   parent: System.Collections.ArrayList
   isExternal: false
   name: CopyTo
   nameWithType: ArrayList.CopyTo
+- uid: System.Collections.ArrayList.Count*
+  parent: System.Collections.ArrayList
+  isExternal: false
+  name: Count
+  nameWithType: ArrayList.Count
 - uid: System.Collections.ArrayList.FixedSize*
   parent: System.Collections.ArrayList
   isExternal: false
@@ -2384,11 +2454,46 @@ references:
   isExternal: false
   name: GetEnumerator
   nameWithType: ArrayList.GetEnumerator
+- uid: System.Collections.ArrayList.GetRange*
+  parent: System.Collections.ArrayList
+  isExternal: false
+  name: GetRange
+  nameWithType: ArrayList.GetRange
 - uid: System.Collections.ArrayList.IndexOf*
   parent: System.Collections.ArrayList
   isExternal: false
   name: IndexOf
   nameWithType: ArrayList.IndexOf
+- uid: System.Collections.ArrayList.Insert*
+  parent: System.Collections.ArrayList
+  isExternal: false
+  name: Insert
+  nameWithType: ArrayList.Insert
+- uid: System.Collections.ArrayList.InsertRange*
+  parent: System.Collections.ArrayList
+  isExternal: false
+  name: InsertRange
+  nameWithType: ArrayList.InsertRange
+- uid: System.Collections.ArrayList.IsFixedSize*
+  parent: System.Collections.ArrayList
+  isExternal: false
+  name: IsFixedSize
+  nameWithType: ArrayList.IsFixedSize
+- uid: System.Collections.ArrayList.IsReadOnly*
+  parent: System.Collections.ArrayList
+  isExternal: false
+  name: IsReadOnly
+  nameWithType: ArrayList.IsReadOnly
+- uid: System.Collections.ArrayList.IsSynchronized*
+  parent: System.Collections.ArrayList
+  isExternal: false
+  name: IsSynchronized
+  nameWithType: ArrayList.IsSynchronized
+- uid: System.Collections.ArrayList.Item*
+  parent: System.Collections.ArrayList
+  isExternal: false
+  name: Item
+  nameWithType: ArrayList.Item
 - uid: System.Collections.ArrayList.LastIndexOf*
   parent: System.Collections.ArrayList
   isExternal: false
@@ -2399,11 +2504,36 @@ references:
   isExternal: false
   name: ReadOnly
   nameWithType: ArrayList.ReadOnly
+- uid: System.Collections.ArrayList.Remove*
+  parent: System.Collections.ArrayList
+  isExternal: false
+  name: Remove
+  nameWithType: ArrayList.Remove
+- uid: System.Collections.ArrayList.RemoveAt*
+  parent: System.Collections.ArrayList
+  isExternal: false
+  name: RemoveAt
+  nameWithType: ArrayList.RemoveAt
+- uid: System.Collections.ArrayList.RemoveRange*
+  parent: System.Collections.ArrayList
+  isExternal: false
+  name: RemoveRange
+  nameWithType: ArrayList.RemoveRange
+- uid: System.Collections.ArrayList.Repeat*
+  parent: System.Collections.ArrayList
+  isExternal: false
+  name: Repeat
+  nameWithType: ArrayList.Repeat
 - uid: System.Collections.ArrayList.Reverse*
   parent: System.Collections.ArrayList
   isExternal: false
   name: Reverse
   nameWithType: ArrayList.Reverse
+- uid: System.Collections.ArrayList.SetRange*
+  parent: System.Collections.ArrayList
+  isExternal: false
+  name: SetRange
+  nameWithType: ArrayList.SetRange
 - uid: System.Collections.ArrayList.Sort*
   parent: System.Collections.ArrayList
   isExternal: false
@@ -2414,8 +2544,18 @@ references:
   isExternal: false
   name: Synchronized
   nameWithType: ArrayList.Synchronized
+- uid: System.Collections.ArrayList.SyncRoot*
+  parent: System.Collections.ArrayList
+  isExternal: false
+  name: SyncRoot
+  nameWithType: ArrayList.SyncRoot
 - uid: System.Collections.ArrayList.ToArray*
   parent: System.Collections.ArrayList
   isExternal: false
   name: ToArray
   nameWithType: ArrayList.ToArray
+- uid: System.Collections.ArrayList.TrimToSize*
+  parent: System.Collections.ArrayList
+  isExternal: false
+  name: TrimToSize
+  nameWithType: ArrayList.TrimToSize

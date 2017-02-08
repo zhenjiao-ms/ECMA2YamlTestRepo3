@@ -85,6 +85,7 @@ items:
     - id: method
       type: System.String
       description: To be added.
+  overload: System.MulticastDelegate.#ctor*
   platform:
   - net-11
   - net-20
@@ -112,6 +113,7 @@ items:
     - id: method
       type: System.String
       description: To be added.
+  overload: System.MulticastDelegate.#ctor*
   platform:
   - net-11
   - net-20
@@ -139,6 +141,7 @@ items:
     return:
       type: System.Delegate
       description: To be added.
+  overload: System.MulticastDelegate.CombineImpl*
   platform:
   - net-11
   - net-20
@@ -166,6 +169,7 @@ items:
     return:
       type: System.Boolean
       description: To be added.
+  overload: System.MulticastDelegate.Equals*
   platform:
   - net-11
   - net-20
@@ -190,6 +194,7 @@ items:
     return:
       type: System.Int32
       description: To be added.
+  overload: System.MulticastDelegate.GetHashCode*
   platform:
   - net-11
   - net-20
@@ -214,6 +219,7 @@ items:
     return:
       type: System.Delegate[]
       description: To be added.
+  overload: System.MulticastDelegate.GetInvocationList*
   platform:
   - net-11
   - net-20
@@ -238,6 +244,7 @@ items:
     return:
       type: System.Reflection.MethodInfo
       description: To be added.
+  overload: System.MulticastDelegate.GetMethodImpl*
   platform:
   - net-11
   - net-20
@@ -265,6 +272,7 @@ items:
     - id: context
       type: System.Runtime.Serialization.StreamingContext
       description: To be added.
+  overload: System.MulticastDelegate.GetObjectData*
   platform:
   - net-11
   - net-20
@@ -295,6 +303,7 @@ items:
     return:
       type: System.Boolean
       description: To be added.
+  overload: System.MulticastDelegate.op_Equality*
   platform:
   - net-11
   - net-20
@@ -325,6 +334,7 @@ items:
     return:
       type: System.Boolean
       description: To be added.
+  overload: System.MulticastDelegate.op_Inequality*
   platform:
   - net-11
   - net-20
@@ -352,6 +362,7 @@ items:
     return:
       type: System.Delegate
       description: To be added.
+  overload: System.MulticastDelegate.RemoveImpl*
   platform:
   - net-11
   - net-20
@@ -552,3 +563,53 @@ references:
   name: Delegate
   nameWithType: Delegate
   fullName: System.Delegate
+- uid: System.MulticastDelegate.#ctor*
+  parent: System.MulticastDelegate
+  isExternal: false
+  name: MulticastDelegate
+  nameWithType: MulticastDelegate.MulticastDelegate
+- uid: System.MulticastDelegate.CombineImpl*
+  parent: System.MulticastDelegate
+  isExternal: false
+  name: CombineImpl
+  nameWithType: MulticastDelegate.CombineImpl
+- uid: System.MulticastDelegate.Equals*
+  parent: System.MulticastDelegate
+  isExternal: false
+  name: Equals
+  nameWithType: MulticastDelegate.Equals
+- uid: System.MulticastDelegate.GetHashCode*
+  parent: System.MulticastDelegate
+  isExternal: false
+  name: GetHashCode
+  nameWithType: MulticastDelegate.GetHashCode
+- uid: System.MulticastDelegate.GetInvocationList*
+  parent: System.MulticastDelegate
+  isExternal: false
+  name: GetInvocationList
+  nameWithType: MulticastDelegate.GetInvocationList
+- uid: System.MulticastDelegate.GetMethodImpl*
+  parent: System.MulticastDelegate
+  isExternal: false
+  name: GetMethodImpl
+  nameWithType: MulticastDelegate.GetMethodImpl
+- uid: System.MulticastDelegate.GetObjectData*
+  parent: System.MulticastDelegate
+  isExternal: false
+  name: GetObjectData
+  nameWithType: MulticastDelegate.GetObjectData
+- uid: System.MulticastDelegate.op_Equality*
+  parent: System.MulticastDelegate
+  isExternal: false
+  name: op_Equality
+  nameWithType: MulticastDelegate.op_Equality
+- uid: System.MulticastDelegate.op_Inequality*
+  parent: System.MulticastDelegate
+  isExternal: false
+  name: op_Inequality
+  nameWithType: MulticastDelegate.op_Inequality
+- uid: System.MulticastDelegate.RemoveImpl*
+  parent: System.MulticastDelegate
+  isExternal: false
+  name: RemoveImpl
+  nameWithType: MulticastDelegate.RemoveImpl

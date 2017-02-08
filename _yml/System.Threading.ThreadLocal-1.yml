@@ -64,6 +64,7 @@ items:
   syntax:
     content: public ThreadLocal ();
     parameters: []
+  overload: System.Threading.ThreadLocal`1.#ctor*
   platform:
   - net-11
   - net-20
@@ -88,6 +89,7 @@ items:
     - id: trackAllValues
       type: System.Boolean
       description: To be added.
+  overload: System.Threading.ThreadLocal`1.#ctor*
   platform:
   - net-11
   - net-20
@@ -112,6 +114,7 @@ items:
     - id: valueFactory
       type: System.Func{T}
       description: To be added.
+  overload: System.Threading.ThreadLocal`1.#ctor*
   platform:
   - net-11
   - net-20
@@ -139,6 +142,7 @@ items:
     - id: trackAllValues
       type: System.Boolean
       description: To be added.
+  overload: System.Threading.ThreadLocal`1.#ctor*
   platform:
   - net-11
   - net-20
@@ -207,6 +211,7 @@ items:
   syntax:
     content: ~ThreadLocal`1 ();
     parameters: []
+  overload: System.Threading.ThreadLocal`1.Finalize*
   platform:
   - net-11
   - net-20
@@ -230,6 +235,7 @@ items:
     return:
       type: System.Boolean
       description: To be added.
+  overload: System.Threading.ThreadLocal`1.IsValueCreated*
   platform:
   - net-11
   - net-20
@@ -254,6 +260,7 @@ items:
     return:
       type: System.String
       description: To be added.
+  overload: System.Threading.ThreadLocal`1.ToString*
   platform:
   - net-11
   - net-20
@@ -277,6 +284,7 @@ items:
     return:
       type: T
       description: To be added.
+  overload: System.Threading.ThreadLocal`1.Value*
   platform:
   - net-11
   - net-20
@@ -300,6 +308,7 @@ items:
     return:
       type: System.Collections.Generic.IList`1
       description: To be added.
+  overload: System.Threading.ThreadLocal`1.Values*
   platform:
   - net-11
   - net-20
@@ -428,8 +437,38 @@ references:
   name: IList<T>
   nameWithType: IList<T>
   fullName: System.Collections.Generic.IList<T>
+- uid: System.Threading.ThreadLocal`1.#ctor*
+  parent: System.Threading.ThreadLocal`1
+  isExternal: false
+  name: ThreadLocal<T>
+  nameWithType: ThreadLocal<T>.ThreadLocal<T>
 - uid: System.Threading.ThreadLocal`1.Dispose*
   parent: System.Threading.ThreadLocal`1
   isExternal: false
   name: Dispose
   nameWithType: ThreadLocal<T>.Dispose
+- uid: System.Threading.ThreadLocal`1.Finalize*
+  parent: System.Threading.ThreadLocal`1
+  isExternal: false
+  name: Finalize
+  nameWithType: ThreadLocal<T>.Finalize
+- uid: System.Threading.ThreadLocal`1.IsValueCreated*
+  parent: System.Threading.ThreadLocal`1
+  isExternal: false
+  name: IsValueCreated
+  nameWithType: ThreadLocal<T>.IsValueCreated
+- uid: System.Threading.ThreadLocal`1.ToString*
+  parent: System.Threading.ThreadLocal`1
+  isExternal: false
+  name: ToString
+  nameWithType: ThreadLocal<T>.ToString
+- uid: System.Threading.ThreadLocal`1.Value*
+  parent: System.Threading.ThreadLocal`1
+  isExternal: false
+  name: Value
+  nameWithType: ThreadLocal<T>.Value
+- uid: System.Threading.ThreadLocal`1.Values*
+  parent: System.Threading.ThreadLocal`1
+  isExternal: false
+  name: Values
+  nameWithType: ThreadLocal<T>.Values

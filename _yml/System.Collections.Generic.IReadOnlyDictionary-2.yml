@@ -53,6 +53,7 @@ items:
     return:
       type: System.Boolean
       description: To be added.
+  overload: System.Collections.Generic.IReadOnlyDictionary`2.ContainsKey*
   platform:
   - net-11
   - net-20
@@ -80,6 +81,7 @@ items:
     return:
       type: TValue
       description: To be added.
+  overload: System.Collections.Generic.IReadOnlyDictionary`2.Item*
   platform:
   - net-11
   - net-20
@@ -103,6 +105,7 @@ items:
     return:
       type: System.Collections.Generic.IEnumerable{TKey}
       description: To be added.
+  overload: System.Collections.Generic.IReadOnlyDictionary`2.Keys*
   platform:
   - net-11
   - net-20
@@ -133,6 +136,7 @@ items:
     return:
       type: System.Boolean
       description: To be added.
+  overload: System.Collections.Generic.IReadOnlyDictionary`2.TryGetValue*
   platform:
   - net-11
   - net-20
@@ -156,6 +160,7 @@ items:
     return:
       type: System.Collections.Generic.IEnumerable{TValue}
       description: To be added.
+  overload: System.Collections.Generic.IReadOnlyDictionary`2.Values*
   platform:
   - net-11
   - net-20
@@ -245,3 +250,28 @@ references:
   name: IEnumerable<TValue>
   nameWithType: IEnumerable<TValue>
   fullName: System.Collections.Generic.IEnumerable<TValue>
+- uid: System.Collections.Generic.IReadOnlyDictionary`2.ContainsKey*
+  parent: System.Collections.Generic.IReadOnlyDictionary`2
+  isExternal: false
+  name: ContainsKey
+  nameWithType: IReadOnlyDictionary<TKey,TValue>.ContainsKey
+- uid: System.Collections.Generic.IReadOnlyDictionary`2.Item*
+  parent: System.Collections.Generic.IReadOnlyDictionary`2
+  isExternal: false
+  name: Item
+  nameWithType: IReadOnlyDictionary<TKey,TValue>.Item
+- uid: System.Collections.Generic.IReadOnlyDictionary`2.Keys*
+  parent: System.Collections.Generic.IReadOnlyDictionary`2
+  isExternal: false
+  name: Keys
+  nameWithType: IReadOnlyDictionary<TKey,TValue>.Keys
+- uid: System.Collections.Generic.IReadOnlyDictionary`2.TryGetValue*
+  parent: System.Collections.Generic.IReadOnlyDictionary`2
+  isExternal: false
+  name: TryGetValue
+  nameWithType: IReadOnlyDictionary<TKey,TValue>.TryGetValue
+- uid: System.Collections.Generic.IReadOnlyDictionary`2.Values*
+  parent: System.Collections.Generic.IReadOnlyDictionary`2
+  isExternal: false
+  name: Values
+  nameWithType: IReadOnlyDictionary<TKey,TValue>.Values

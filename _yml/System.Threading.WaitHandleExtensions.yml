@@ -53,6 +53,7 @@ items:
     return:
       type: Microsoft.Win32.SafeHandles.SafeWaitHandle
       description: To be added.
+  overload: System.Threading.WaitHandleExtensions.GetSafeWaitHandle*
   platform:
   - net-11
   - net-20
@@ -80,6 +81,7 @@ items:
     - id: value
       type: Microsoft.Win32.SafeHandles.SafeWaitHandle
       description: To be added.
+  overload: System.Threading.WaitHandleExtensions.SetSafeWaitHandle*
   platform:
   - net-11
   - net-20
@@ -124,3 +126,13 @@ references:
   name: SafeWaitHandle
   nameWithType: SafeWaitHandle
   fullName: Microsoft.Win32.SafeHandles.SafeWaitHandle
+- uid: System.Threading.WaitHandleExtensions.GetSafeWaitHandle*
+  parent: System.Threading.WaitHandleExtensions
+  isExternal: false
+  name: GetSafeWaitHandle
+  nameWithType: WaitHandleExtensions.GetSafeWaitHandle
+- uid: System.Threading.WaitHandleExtensions.SetSafeWaitHandle*
+  parent: System.Threading.WaitHandleExtensions
+  isExternal: false
+  name: SetSafeWaitHandle
+  nameWithType: WaitHandleExtensions.SetSafeWaitHandle

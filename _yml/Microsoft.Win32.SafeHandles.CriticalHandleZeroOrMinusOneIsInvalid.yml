@@ -60,6 +60,7 @@ items:
   syntax:
     content: protected CriticalHandleZeroOrMinusOneIsInvalid ();
     parameters: []
+  overload: Microsoft.Win32.SafeHandles.CriticalHandleZeroOrMinusOneIsInvalid.#ctor*
   platform:
   - net-11
   - net-20
@@ -83,6 +84,7 @@ items:
     return:
       type: System.Boolean
       description: To be added.
+  overload: Microsoft.Win32.SafeHandles.CriticalHandleZeroOrMinusOneIsInvalid.IsInvalid*
   platform:
   - net-11
   - net-20
@@ -109,3 +111,13 @@ references:
   name: Boolean
   nameWithType: Boolean
   fullName: System.Boolean
+- uid: Microsoft.Win32.SafeHandles.CriticalHandleZeroOrMinusOneIsInvalid.#ctor*
+  parent: Microsoft.Win32.SafeHandles.CriticalHandleZeroOrMinusOneIsInvalid
+  isExternal: false
+  name: CriticalHandleZeroOrMinusOneIsInvalid
+  nameWithType: CriticalHandleZeroOrMinusOneIsInvalid.CriticalHandleZeroOrMinusOneIsInvalid
+- uid: Microsoft.Win32.SafeHandles.CriticalHandleZeroOrMinusOneIsInvalid.IsInvalid*
+  parent: Microsoft.Win32.SafeHandles.CriticalHandleZeroOrMinusOneIsInvalid
+  isExternal: false
+  name: IsInvalid
+  nameWithType: CriticalHandleZeroOrMinusOneIsInvalid.IsInvalid

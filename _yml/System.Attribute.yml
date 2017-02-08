@@ -95,6 +95,7 @@ items:
   syntax:
     content: protected Attribute ();
     parameters: []
+  overload: System.Attribute.#ctor*
   platform:
   - net-11
   - net-20
@@ -122,6 +123,7 @@ items:
     return:
       type: System.Boolean
       description: To be added.
+  overload: System.Attribute.Equals*
   platform:
   - net-11
   - net-20
@@ -902,6 +904,7 @@ items:
     return:
       type: System.Int32
       description: To be added.
+  overload: System.Attribute.GetHashCode*
   platform:
   - net-11
   - net-20
@@ -926,6 +929,7 @@ items:
     return:
       type: System.Boolean
       description: To be added.
+  overload: System.Attribute.IsDefaultAttribute*
   platform:
   - net-11
   - net-20
@@ -1213,6 +1217,7 @@ items:
     return:
       type: System.Boolean
       description: To be added.
+  overload: System.Attribute.Match*
   platform:
   - net-11
   - net-20
@@ -1250,6 +1255,7 @@ items:
     - id: rgDispId
       type: System.IntPtr
       description: To be added.
+  overload: System.Attribute.System#Runtime#InteropServices#_Attribute#GetIDsOfNames*
   platform:
   - net-11
   - net-20
@@ -1281,6 +1287,7 @@ items:
     - id: ppTInfo
       type: System.IntPtr
       description: To be added.
+  overload: System.Attribute.System#Runtime#InteropServices#_Attribute#GetTypeInfo*
   platform:
   - net-11
   - net-20
@@ -1306,6 +1313,7 @@ items:
     - id: pcTInfo
       type: System.UInt32
       description: To be added.
+  overload: System.Attribute.System#Runtime#InteropServices#_Attribute#GetTypeInfoCount*
   platform:
   - net-11
   - net-20
@@ -1352,6 +1360,7 @@ items:
     - id: puArgErr
       type: System.IntPtr
       description: To be added.
+  overload: System.Attribute.System#Runtime#InteropServices#_Attribute#Invoke*
   platform:
   - net-11
   - net-20
@@ -1375,6 +1384,7 @@ items:
     return:
       type: System.Object
       description: To be added.
+  overload: System.Attribute.TypeId*
   platform:
   - net-11
   - net-20
@@ -2403,6 +2413,16 @@ references:
   name: Object
   nameWithType: Object
   fullName: System.Object
+- uid: System.Attribute.#ctor*
+  parent: System.Attribute
+  isExternal: false
+  name: Attribute
+  nameWithType: Attribute.Attribute
+- uid: System.Attribute.Equals*
+  parent: System.Attribute
+  isExternal: false
+  name: Equals
+  nameWithType: Attribute.Equals
 - uid: System.Attribute.GetCustomAttribute*
   parent: System.Attribute
   isExternal: false
@@ -2413,8 +2433,48 @@ references:
   isExternal: false
   name: GetCustomAttributes
   nameWithType: Attribute.GetCustomAttributes
+- uid: System.Attribute.GetHashCode*
+  parent: System.Attribute
+  isExternal: false
+  name: GetHashCode
+  nameWithType: Attribute.GetHashCode
+- uid: System.Attribute.IsDefaultAttribute*
+  parent: System.Attribute
+  isExternal: false
+  name: IsDefaultAttribute
+  nameWithType: Attribute.IsDefaultAttribute
 - uid: System.Attribute.IsDefined*
   parent: System.Attribute
   isExternal: false
   name: IsDefined
   nameWithType: Attribute.IsDefined
+- uid: System.Attribute.Match*
+  parent: System.Attribute
+  isExternal: false
+  name: Match
+  nameWithType: Attribute.Match
+- uid: System.Attribute.System#Runtime#InteropServices#_Attribute#GetIDsOfNames*
+  parent: System.Attribute
+  isExternal: false
+  name: System.Runtime.InteropServices._Attribute.GetIDsOfNames
+  nameWithType: Attribute.System.Runtime.InteropServices._Attribute.GetIDsOfNames
+- uid: System.Attribute.System#Runtime#InteropServices#_Attribute#GetTypeInfo*
+  parent: System.Attribute
+  isExternal: false
+  name: System.Runtime.InteropServices._Attribute.GetTypeInfo
+  nameWithType: Attribute.System.Runtime.InteropServices._Attribute.GetTypeInfo
+- uid: System.Attribute.System#Runtime#InteropServices#_Attribute#GetTypeInfoCount*
+  parent: System.Attribute
+  isExternal: false
+  name: System.Runtime.InteropServices._Attribute.GetTypeInfoCount
+  nameWithType: Attribute.System.Runtime.InteropServices._Attribute.GetTypeInfoCount
+- uid: System.Attribute.System#Runtime#InteropServices#_Attribute#Invoke*
+  parent: System.Attribute
+  isExternal: false
+  name: System.Runtime.InteropServices._Attribute.Invoke
+  nameWithType: Attribute.System.Runtime.InteropServices._Attribute.Invoke
+- uid: System.Attribute.TypeId*
+  parent: System.Attribute
+  isExternal: false
+  name: TypeId
+  nameWithType: Attribute.TypeId

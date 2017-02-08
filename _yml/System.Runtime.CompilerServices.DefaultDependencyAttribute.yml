@@ -93,6 +93,7 @@ items:
     - id: loadHintArgument
       type: System.Runtime.CompilerServices.LoadHint
       description: To be added.
+  overload: System.Runtime.CompilerServices.DefaultDependencyAttribute.#ctor*
   platform:
   - net-11
   - net-20
@@ -116,6 +117,7 @@ items:
     return:
       type: System.Runtime.CompilerServices.LoadHint
       description: To be added.
+  overload: System.Runtime.CompilerServices.DefaultDependencyAttribute.LoadHint*
   platform:
   - net-11
   - net-20
@@ -148,3 +150,13 @@ references:
   name: LoadHint
   nameWithType: LoadHint
   fullName: System.Runtime.CompilerServices.LoadHint
+- uid: System.Runtime.CompilerServices.DefaultDependencyAttribute.#ctor*
+  parent: System.Runtime.CompilerServices.DefaultDependencyAttribute
+  isExternal: false
+  name: DefaultDependencyAttribute
+  nameWithType: DefaultDependencyAttribute.DefaultDependencyAttribute
+- uid: System.Runtime.CompilerServices.DefaultDependencyAttribute.LoadHint*
+  parent: System.Runtime.CompilerServices.DefaultDependencyAttribute
+  isExternal: false
+  name: LoadHint
+  nameWithType: DefaultDependencyAttribute.LoadHint

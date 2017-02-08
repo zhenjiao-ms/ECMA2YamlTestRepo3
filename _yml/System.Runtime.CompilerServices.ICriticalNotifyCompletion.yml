@@ -40,6 +40,7 @@ items:
     - id: continuation
       type: System.Action
       description: To be added.
+  overload: System.Runtime.CompilerServices.ICriticalNotifyCompletion.UnsafeOnCompleted*
   platform:
   - net-11
   - net-20
@@ -57,3 +58,8 @@ references:
   name: Action
   nameWithType: Action
   fullName: System.Action
+- uid: System.Runtime.CompilerServices.ICriticalNotifyCompletion.UnsafeOnCompleted*
+  parent: System.Runtime.CompilerServices.ICriticalNotifyCompletion
+  isExternal: false
+  name: UnsafeOnCompleted
+  nameWithType: ICriticalNotifyCompletion.UnsafeOnCompleted

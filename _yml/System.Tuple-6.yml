@@ -90,6 +90,7 @@ items:
     - id: item6
       type: T6
       description: To be added.
+  overload: System.Tuple`6.#ctor*
   platform:
   - net-11
   - net-20
@@ -117,6 +118,7 @@ items:
     return:
       type: System.Boolean
       description: To be added.
+  overload: System.Tuple`6.Equals*
   platform:
   - net-11
   - net-20
@@ -141,6 +143,7 @@ items:
     return:
       type: System.Int32
       description: To be added.
+  overload: System.Tuple`6.GetHashCode*
   platform:
   - net-11
   - net-20
@@ -164,6 +167,7 @@ items:
     return:
       type: T1
       description: To be added.
+  overload: System.Tuple`6.Item1*
   platform:
   - net-11
   - net-20
@@ -187,6 +191,7 @@ items:
     return:
       type: T2
       description: To be added.
+  overload: System.Tuple`6.Item2*
   platform:
   - net-11
   - net-20
@@ -210,6 +215,7 @@ items:
     return:
       type: T3
       description: To be added.
+  overload: System.Tuple`6.Item3*
   platform:
   - net-11
   - net-20
@@ -233,6 +239,7 @@ items:
     return:
       type: T4
       description: To be added.
+  overload: System.Tuple`6.Item4*
   platform:
   - net-11
   - net-20
@@ -256,6 +263,7 @@ items:
     return:
       type: T5
       description: To be added.
+  overload: System.Tuple`6.Item5*
   platform:
   - net-11
   - net-20
@@ -279,6 +287,7 @@ items:
     return:
       type: T6
       description: To be added.
+  overload: System.Tuple`6.Item6*
   platform:
   - net-11
   - net-20
@@ -310,6 +319,7 @@ items:
     return:
       type: System.Int32
       description: To be added.
+  overload: System.Tuple`6.System#Collections#IStructuralComparable#CompareTo*
   platform:
   - net-11
   - net-20
@@ -341,6 +351,7 @@ items:
     return:
       type: System.Boolean
       description: To be added.
+  overload: System.Tuple`6.System#Collections#IStructuralEquatable#Equals*
   platform:
   - net-11
   - net-20
@@ -369,6 +380,7 @@ items:
     return:
       type: System.Int32
       description: To be added.
+  overload: System.Tuple`6.System#Collections#IStructuralEquatable#GetHashCode*
   platform:
   - net-11
   - net-20
@@ -397,6 +409,7 @@ items:
     return:
       type: System.Int32
       description: To be added.
+  overload: System.Tuple`6.System#IComparable#CompareTo*
   platform:
   - net-11
   - net-20
@@ -421,6 +434,7 @@ items:
     return:
       type: System.String
       description: To be added.
+  overload: System.Tuple`6.ToString*
   platform:
   - net-11
   - net-20
@@ -669,3 +683,73 @@ references:
   name: String
   nameWithType: String
   fullName: System.String
+- uid: System.Tuple`6.#ctor*
+  parent: System.Tuple`6
+  isExternal: false
+  name: Tuple<T1,T2,T3,T4,T5,T6>
+  nameWithType: Tuple<T1,T2,T3,T4,T5,T6>.Tuple<T1,T2,T3,T4,T5,T6>
+- uid: System.Tuple`6.Equals*
+  parent: System.Tuple`6
+  isExternal: false
+  name: Equals
+  nameWithType: Tuple<T1,T2,T3,T4,T5,T6>.Equals
+- uid: System.Tuple`6.GetHashCode*
+  parent: System.Tuple`6
+  isExternal: false
+  name: GetHashCode
+  nameWithType: Tuple<T1,T2,T3,T4,T5,T6>.GetHashCode
+- uid: System.Tuple`6.Item1*
+  parent: System.Tuple`6
+  isExternal: false
+  name: Item1
+  nameWithType: Tuple<T1,T2,T3,T4,T5,T6>.Item1
+- uid: System.Tuple`6.Item2*
+  parent: System.Tuple`6
+  isExternal: false
+  name: Item2
+  nameWithType: Tuple<T1,T2,T3,T4,T5,T6>.Item2
+- uid: System.Tuple`6.Item3*
+  parent: System.Tuple`6
+  isExternal: false
+  name: Item3
+  nameWithType: Tuple<T1,T2,T3,T4,T5,T6>.Item3
+- uid: System.Tuple`6.Item4*
+  parent: System.Tuple`6
+  isExternal: false
+  name: Item4
+  nameWithType: Tuple<T1,T2,T3,T4,T5,T6>.Item4
+- uid: System.Tuple`6.Item5*
+  parent: System.Tuple`6
+  isExternal: false
+  name: Item5
+  nameWithType: Tuple<T1,T2,T3,T4,T5,T6>.Item5
+- uid: System.Tuple`6.Item6*
+  parent: System.Tuple`6
+  isExternal: false
+  name: Item6
+  nameWithType: Tuple<T1,T2,T3,T4,T5,T6>.Item6
+- uid: System.Tuple`6.System#Collections#IStructuralComparable#CompareTo*
+  parent: System.Tuple`6
+  isExternal: false
+  name: System.Collections.IStructuralComparable.CompareTo
+  nameWithType: Tuple<T1,T2,T3,T4,T5,T6>.System.Collections.IStructuralComparable.CompareTo
+- uid: System.Tuple`6.System#Collections#IStructuralEquatable#Equals*
+  parent: System.Tuple`6
+  isExternal: false
+  name: System.Collections.IStructuralEquatable.Equals
+  nameWithType: Tuple<T1,T2,T3,T4,T5,T6>.System.Collections.IStructuralEquatable.Equals
+- uid: System.Tuple`6.System#Collections#IStructuralEquatable#GetHashCode*
+  parent: System.Tuple`6
+  isExternal: false
+  name: System.Collections.IStructuralEquatable.GetHashCode
+  nameWithType: Tuple<T1,T2,T3,T4,T5,T6>.System.Collections.IStructuralEquatable.GetHashCode
+- uid: System.Tuple`6.System#IComparable#CompareTo*
+  parent: System.Tuple`6
+  isExternal: false
+  name: System.IComparable.CompareTo
+  nameWithType: Tuple<T1,T2,T3,T4,T5,T6>.System.IComparable.CompareTo
+- uid: System.Tuple`6.ToString*
+  parent: System.Tuple`6
+  isExternal: false
+  name: ToString
+  nameWithType: Tuple<T1,T2,T3,T4,T5,T6>.ToString

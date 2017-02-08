@@ -95,6 +95,7 @@ items:
     - id: typeContractsAreFor
       type: System.Type
       description: To be added.
+  overload: System.Diagnostics.Contracts.ContractClassForAttribute.#ctor*
   platform:
   - net-11
   - net-20
@@ -118,6 +119,7 @@ items:
     return:
       type: System.Type
       description: To be added.
+  overload: System.Diagnostics.Contracts.ContractClassForAttribute.TypeContractsAreFor*
   platform:
   - net-11
   - net-20
@@ -150,3 +152,13 @@ references:
   name: Type
   nameWithType: Type
   fullName: System.Type
+- uid: System.Diagnostics.Contracts.ContractClassForAttribute.#ctor*
+  parent: System.Diagnostics.Contracts.ContractClassForAttribute
+  isExternal: false
+  name: ContractClassForAttribute
+  nameWithType: ContractClassForAttribute.ContractClassForAttribute
+- uid: System.Diagnostics.Contracts.ContractClassForAttribute.TypeContractsAreFor*
+  parent: System.Diagnostics.Contracts.ContractClassForAttribute
+  isExternal: false
+  name: TypeContractsAreFor
+  nameWithType: ContractClassForAttribute.TypeContractsAreFor
