@@ -1,0 +1,161 @@
+### YamlMime:ManagedReference
+items:
+- uid: System.InvalidProgramException
+  id: InvalidProgramException
+  children:
+  - System.InvalidProgramException.#ctor
+  - System.InvalidProgramException.#ctor(System.String)
+  - System.InvalidProgramException.#ctor(System.String,System.Exception)
+  langs:
+  - csharp
+  name: InvalidProgramException
+  nameWithType: InvalidProgramException
+  fullName: System.InvalidProgramException
+  type: Class
+  summary: To be added.
+  remarks: To be added.
+  syntax:
+    content: >-
+      [System.Runtime.InteropServices.ComVisible(true)]
+
+      public sealed class InvalidProgramException : SystemException
+  inheritance:
+  - System.Object
+  - System.Exception
+  - System.SystemException
+  implements: []
+  inheritedMembers:
+  - System.Exception.Data
+  - System.Exception.GetBaseException
+  - System.Exception.GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
+  - System.Exception.GetType
+  - System.Exception.HelpLink
+  - System.Exception.HResult
+  - System.Exception.InnerException
+  - System.Exception.Message
+  - System.Exception.SerializeObjectState
+  - System.Exception.Source
+  - System.Exception.StackTrace
+  - System.Exception.TargetSite
+  - System.Exception.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  platform:
+  - net-11
+  - net-20
+  - netcore-10
+- uid: System.InvalidProgramException.#ctor
+  id: '#ctor'
+  parent: System.InvalidProgramException
+  langs:
+  - csharp
+  name: InvalidProgramException()
+  nameWithType: InvalidProgramException.InvalidProgramException()
+  fullName: System.InvalidProgramException.InvalidProgramException()
+  type: Constructor
+  assemblies:
+  - mscorlib
+  namespace: System
+  summary: To be added.
+  remarks: To be added.
+  syntax:
+    content: public InvalidProgramException ();
+    parameters: []
+  platform:
+  - net-11
+  - net-20
+  - netcore-10
+- uid: System.InvalidProgramException.#ctor(System.String)
+  id: '#ctor(System.String)'
+  parent: System.InvalidProgramException
+  langs:
+  - csharp
+  name: InvalidProgramException(String)
+  nameWithType: InvalidProgramException.InvalidProgramException(String)
+  fullName: System.InvalidProgramException.InvalidProgramException(String)
+  type: Constructor
+  assemblies:
+  - mscorlib
+  namespace: System
+  summary: To be added.
+  remarks: To be added.
+  syntax:
+    content: public InvalidProgramException (string message);
+    parameters:
+    - id: message
+      type: System.String
+      description: To be added.
+  platform:
+  - net-11
+  - net-20
+  - netcore-10
+- uid: System.InvalidProgramException.#ctor(System.String,System.Exception)
+  id: '#ctor(System.String,System.Exception)'
+  parent: System.InvalidProgramException
+  langs:
+  - csharp
+  name: InvalidProgramException(String,Exception)
+  nameWithType: InvalidProgramException.InvalidProgramException(String,Exception)
+  fullName: System.InvalidProgramException.InvalidProgramException(String,Exception)
+  type: Constructor
+  assemblies:
+  - mscorlib
+  namespace: System
+  summary: To be added.
+  remarks: To be added.
+  syntax:
+    content: public InvalidProgramException (string message, Exception inner);
+    parameters:
+    - id: message
+      type: System.String
+      description: To be added.
+    - id: inner
+      type: System.Exception
+      description: To be added.
+  platform:
+  - net-11
+  - net-20
+  - netcore-10
+references:
+- uid: System.SystemException
+  isExternal: false
+  name: System.SystemException
+- uid: System.InvalidProgramException.#ctor
+  parent: System.InvalidProgramException
+  isExternal: false
+  name: InvalidProgramException()
+  nameWithType: InvalidProgramException.InvalidProgramException()
+  fullName: System.InvalidProgramException.InvalidProgramException()
+- uid: System.InvalidProgramException.#ctor(System.String)
+  parent: System.InvalidProgramException
+  isExternal: false
+  name: InvalidProgramException(String)
+  nameWithType: InvalidProgramException.InvalidProgramException(String)
+  fullName: System.InvalidProgramException.InvalidProgramException(String)
+- uid: System.String
+  parent: System
+  isExternal: false
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System.InvalidProgramException.#ctor(System.String,System.Exception)
+  parent: System.InvalidProgramException
+  isExternal: false
+  name: InvalidProgramException(String,Exception)
+  nameWithType: InvalidProgramException.InvalidProgramException(String,Exception)
+  fullName: System.InvalidProgramException.InvalidProgramException(String,Exception)
+- uid: System.String
+  parent: System
+  isExternal: false
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System.Exception
+  parent: System
+  isExternal: false
+  name: Exception
+  nameWithType: Exception
+  fullName: System.Exception

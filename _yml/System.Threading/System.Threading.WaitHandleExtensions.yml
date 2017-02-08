@@ -1,0 +1,126 @@
+### YamlMime:ManagedReference
+items:
+- uid: System.Threading.WaitHandleExtensions
+  id: WaitHandleExtensions
+  children:
+  - System.Threading.WaitHandleExtensions.GetSafeWaitHandle(System.Threading.WaitHandle@)
+  - System.Threading.WaitHandleExtensions.SetSafeWaitHandle(System.Threading.WaitHandle@,Microsoft.Win32.SafeHandles.SafeWaitHandle)
+  langs:
+  - csharp
+  name: WaitHandleExtensions
+  nameWithType: WaitHandleExtensions
+  fullName: System.Threading.WaitHandleExtensions
+  type: Class
+  summary: To be added.
+  remarks: To be added.
+  syntax:
+    content: public static class WaitHandleExtensions
+  inheritance:
+  - System.Object
+  implements: []
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  platform:
+  - net-11
+  - net-20
+  - netcore-10
+- uid: System.Threading.WaitHandleExtensions.GetSafeWaitHandle(System.Threading.WaitHandle@)
+  id: GetSafeWaitHandle(System.Threading.WaitHandle@)
+  parent: System.Threading.WaitHandleExtensions
+  langs:
+  - csharp
+  name: GetSafeWaitHandle(WaitHandle)
+  nameWithType: WaitHandleExtensions.GetSafeWaitHandle(WaitHandle)
+  fullName: System.Threading.WaitHandleExtensions.GetSafeWaitHandle(WaitHandle)
+  type: Method
+  assemblies:
+  - mscorlib
+  namespace: System.Threading
+  summary: To be added.
+  remarks: To be added.
+  syntax:
+    content: public static Microsoft.Win32.SafeHandles.SafeWaitHandle GetSafeWaitHandle (this System.Threading.WaitHandle waitHandle);
+    parameters:
+    - id: waitHandle
+      type: System.Threading.WaitHandle
+      description: To be added.
+    return:
+      type: Microsoft.Win32.SafeHandles.SafeWaitHandle
+      description: To be added.
+  platform:
+  - net-11
+  - net-20
+  - netcore-10
+- uid: System.Threading.WaitHandleExtensions.SetSafeWaitHandle(System.Threading.WaitHandle@,Microsoft.Win32.SafeHandles.SafeWaitHandle)
+  id: SetSafeWaitHandle(System.Threading.WaitHandle@,Microsoft.Win32.SafeHandles.SafeWaitHandle)
+  parent: System.Threading.WaitHandleExtensions
+  langs:
+  - csharp
+  name: SetSafeWaitHandle(WaitHandle,SafeWaitHandle)
+  nameWithType: WaitHandleExtensions.SetSafeWaitHandle(WaitHandle,SafeWaitHandle)
+  fullName: System.Threading.WaitHandleExtensions.SetSafeWaitHandle(WaitHandle,SafeWaitHandle)
+  type: Method
+  assemblies:
+  - mscorlib
+  namespace: System.Threading
+  summary: To be added.
+  remarks: To be added.
+  syntax:
+    content: public static void SetSafeWaitHandle (this System.Threading.WaitHandle waitHandle, Microsoft.Win32.SafeHandles.SafeWaitHandle value);
+    parameters:
+    - id: waitHandle
+      type: System.Threading.WaitHandle
+      description: To be added.
+    - id: value
+      type: Microsoft.Win32.SafeHandles.SafeWaitHandle
+      description: To be added.
+  platform:
+  - net-11
+  - net-20
+  - netcore-10
+references:
+- uid: System.Object
+  isExternal: false
+  name: System.Object
+- uid: System.Threading.WaitHandleExtensions.GetSafeWaitHandle(System.Threading.WaitHandle@)
+  parent: System.Threading.WaitHandleExtensions
+  isExternal: false
+  name: GetSafeWaitHandle(WaitHandle)
+  nameWithType: WaitHandleExtensions.GetSafeWaitHandle(WaitHandle)
+  fullName: System.Threading.WaitHandleExtensions.GetSafeWaitHandle(WaitHandle)
+- uid: Microsoft.Win32.SafeHandles.SafeWaitHandle
+  parent: Microsoft.Win32.SafeHandles
+  isExternal: false
+  name: SafeWaitHandle
+  nameWithType: SafeWaitHandle
+  fullName: Microsoft.Win32.SafeHandles.SafeWaitHandle
+- uid: System.Threading.WaitHandle
+  parent: System.Threading
+  isExternal: false
+  name: WaitHandle
+  nameWithType: WaitHandle
+  fullName: System.Threading.WaitHandle
+- uid: System.Threading.WaitHandleExtensions.SetSafeWaitHandle(System.Threading.WaitHandle@,Microsoft.Win32.SafeHandles.SafeWaitHandle)
+  parent: System.Threading.WaitHandleExtensions
+  isExternal: false
+  name: SetSafeWaitHandle(WaitHandle,SafeWaitHandle)
+  nameWithType: WaitHandleExtensions.SetSafeWaitHandle(WaitHandle,SafeWaitHandle)
+  fullName: System.Threading.WaitHandleExtensions.SetSafeWaitHandle(WaitHandle,SafeWaitHandle)
+- uid: System.Threading.WaitHandle
+  parent: System.Threading
+  isExternal: false
+  name: WaitHandle
+  nameWithType: WaitHandle
+  fullName: System.Threading.WaitHandle
+- uid: Microsoft.Win32.SafeHandles.SafeWaitHandle
+  parent: Microsoft.Win32.SafeHandles
+  isExternal: false
+  name: SafeWaitHandle
+  nameWithType: SafeWaitHandle
+  fullName: Microsoft.Win32.SafeHandles.SafeWaitHandle

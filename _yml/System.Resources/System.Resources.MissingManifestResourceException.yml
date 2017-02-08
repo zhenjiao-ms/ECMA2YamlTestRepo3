@@ -1,0 +1,207 @@
+### YamlMime:ManagedReference
+items:
+- uid: System.Resources.MissingManifestResourceException
+  id: MissingManifestResourceException
+  children:
+  - System.Resources.MissingManifestResourceException.#ctor
+  - System.Resources.MissingManifestResourceException.#ctor(System.String)
+  - System.Resources.MissingManifestResourceException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
+  - System.Resources.MissingManifestResourceException.#ctor(System.String,System.Exception)
+  langs:
+  - csharp
+  name: MissingManifestResourceException
+  nameWithType: MissingManifestResourceException
+  fullName: System.Resources.MissingManifestResourceException
+  type: Class
+  summary: To be added.
+  remarks: To be added.
+  syntax:
+    content: >-
+      [System.Runtime.InteropServices.ComVisible(true)]
+
+      public class MissingManifestResourceException : SystemException
+  inheritance:
+  - System.Object
+  - System.Exception
+  - System.SystemException
+  implements: []
+  inheritedMembers:
+  - System.Exception.Data
+  - System.Exception.GetBaseException
+  - System.Exception.GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
+  - System.Exception.GetType
+  - System.Exception.HelpLink
+  - System.Exception.HResult
+  - System.Exception.InnerException
+  - System.Exception.Message
+  - System.Exception.SerializeObjectState
+  - System.Exception.Source
+  - System.Exception.StackTrace
+  - System.Exception.TargetSite
+  - System.Exception.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  platform:
+  - net-11
+  - net-20
+  - netcore-10
+- uid: System.Resources.MissingManifestResourceException.#ctor
+  id: '#ctor'
+  parent: System.Resources.MissingManifestResourceException
+  langs:
+  - csharp
+  name: MissingManifestResourceException()
+  nameWithType: MissingManifestResourceException.MissingManifestResourceException()
+  fullName: System.Resources.MissingManifestResourceException.MissingManifestResourceException()
+  type: Constructor
+  assemblies:
+  - mscorlib
+  namespace: System.Resources
+  summary: To be added.
+  remarks: To be added.
+  syntax:
+    content: public MissingManifestResourceException ();
+    parameters: []
+  platform:
+  - net-11
+  - net-20
+  - netcore-10
+- uid: System.Resources.MissingManifestResourceException.#ctor(System.String)
+  id: '#ctor(System.String)'
+  parent: System.Resources.MissingManifestResourceException
+  langs:
+  - csharp
+  name: MissingManifestResourceException(String)
+  nameWithType: MissingManifestResourceException.MissingManifestResourceException(String)
+  fullName: System.Resources.MissingManifestResourceException.MissingManifestResourceException(String)
+  type: Constructor
+  assemblies:
+  - mscorlib
+  namespace: System.Resources
+  summary: To be added.
+  remarks: To be added.
+  syntax:
+    content: public MissingManifestResourceException (string message);
+    parameters:
+    - id: message
+      type: System.String
+      description: To be added.
+  platform:
+  - net-11
+  - net-20
+  - netcore-10
+- uid: System.Resources.MissingManifestResourceException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
+  id: '#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)'
+  parent: System.Resources.MissingManifestResourceException
+  langs:
+  - csharp
+  name: MissingManifestResourceException(SerializationInfo,StreamingContext)
+  nameWithType: MissingManifestResourceException.MissingManifestResourceException(SerializationInfo,StreamingContext)
+  fullName: System.Resources.MissingManifestResourceException.MissingManifestResourceException(SerializationInfo,StreamingContext)
+  type: Constructor
+  assemblies:
+  - mscorlib
+  namespace: System.Resources
+  summary: To be added.
+  remarks: To be added.
+  syntax:
+    content: protected MissingManifestResourceException (System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context);
+    parameters:
+    - id: info
+      type: System.Runtime.Serialization.SerializationInfo
+      description: To be added.
+    - id: context
+      type: System.Runtime.Serialization.StreamingContext
+      description: To be added.
+  platform:
+  - net-11
+  - net-20
+  - netcore-10
+- uid: System.Resources.MissingManifestResourceException.#ctor(System.String,System.Exception)
+  id: '#ctor(System.String,System.Exception)'
+  parent: System.Resources.MissingManifestResourceException
+  langs:
+  - csharp
+  name: MissingManifestResourceException(String,Exception)
+  nameWithType: MissingManifestResourceException.MissingManifestResourceException(String,Exception)
+  fullName: System.Resources.MissingManifestResourceException.MissingManifestResourceException(String,Exception)
+  type: Constructor
+  assemblies:
+  - mscorlib
+  namespace: System.Resources
+  summary: To be added.
+  remarks: To be added.
+  syntax:
+    content: public MissingManifestResourceException (string message, Exception inner);
+    parameters:
+    - id: message
+      type: System.String
+      description: To be added.
+    - id: inner
+      type: System.Exception
+      description: To be added.
+  platform:
+  - net-11
+  - net-20
+  - netcore-10
+references:
+- uid: System.SystemException
+  isExternal: false
+  name: System.SystemException
+- uid: System.Resources.MissingManifestResourceException.#ctor
+  parent: System.Resources.MissingManifestResourceException
+  isExternal: false
+  name: MissingManifestResourceException()
+  nameWithType: MissingManifestResourceException.MissingManifestResourceException()
+  fullName: System.Resources.MissingManifestResourceException.MissingManifestResourceException()
+- uid: System.Resources.MissingManifestResourceException.#ctor(System.String)
+  parent: System.Resources.MissingManifestResourceException
+  isExternal: false
+  name: MissingManifestResourceException(String)
+  nameWithType: MissingManifestResourceException.MissingManifestResourceException(String)
+  fullName: System.Resources.MissingManifestResourceException.MissingManifestResourceException(String)
+- uid: System.String
+  parent: System
+  isExternal: false
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System.Resources.MissingManifestResourceException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
+  parent: System.Resources.MissingManifestResourceException
+  isExternal: false
+  name: MissingManifestResourceException(SerializationInfo,StreamingContext)
+  nameWithType: MissingManifestResourceException.MissingManifestResourceException(SerializationInfo,StreamingContext)
+  fullName: System.Resources.MissingManifestResourceException.MissingManifestResourceException(SerializationInfo,StreamingContext)
+- uid: System.Runtime.Serialization.SerializationInfo
+  parent: System.Runtime.Serialization
+  isExternal: false
+  name: SerializationInfo
+  nameWithType: SerializationInfo
+  fullName: System.Runtime.Serialization.SerializationInfo
+- uid: System.Runtime.Serialization.StreamingContext
+  parent: System.Runtime.Serialization
+  isExternal: false
+  name: StreamingContext
+  nameWithType: StreamingContext
+  fullName: System.Runtime.Serialization.StreamingContext
+- uid: System.Resources.MissingManifestResourceException.#ctor(System.String,System.Exception)
+  parent: System.Resources.MissingManifestResourceException
+  isExternal: false
+  name: MissingManifestResourceException(String,Exception)
+  nameWithType: MissingManifestResourceException.MissingManifestResourceException(String,Exception)
+  fullName: System.Resources.MissingManifestResourceException.MissingManifestResourceException(String,Exception)
+- uid: System.String
+  parent: System
+  isExternal: false
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System.Exception
+  parent: System
+  isExternal: false
+  name: Exception
+  nameWithType: Exception
+  fullName: System.Exception

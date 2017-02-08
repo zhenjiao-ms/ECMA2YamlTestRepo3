@@ -1,0 +1,1711 @@
+### YamlMime:ManagedReference
+items:
+- uid: System.Reflection.PropertyInfo
+  id: PropertyInfo
+  children:
+  - System.Reflection.PropertyInfo.#ctor
+  - System.Reflection.PropertyInfo.Attributes
+  - System.Reflection.PropertyInfo.CanRead
+  - System.Reflection.PropertyInfo.CanWrite
+  - System.Reflection.PropertyInfo.Equals(System.Object)
+  - System.Reflection.PropertyInfo.GetAccessors
+  - System.Reflection.PropertyInfo.GetAccessors(System.Boolean)
+  - System.Reflection.PropertyInfo.GetConstantValue
+  - System.Reflection.PropertyInfo.GetGetMethod
+  - System.Reflection.PropertyInfo.GetGetMethod(System.Boolean)
+  - System.Reflection.PropertyInfo.GetHashCode
+  - System.Reflection.PropertyInfo.GetIndexParameters
+  - System.Reflection.PropertyInfo.GetMethod
+  - System.Reflection.PropertyInfo.GetOptionalCustomModifiers
+  - System.Reflection.PropertyInfo.GetRawConstantValue
+  - System.Reflection.PropertyInfo.GetRequiredCustomModifiers
+  - System.Reflection.PropertyInfo.GetSetMethod
+  - System.Reflection.PropertyInfo.GetSetMethod(System.Boolean)
+  - System.Reflection.PropertyInfo.GetValue(System.Object)
+  - System.Reflection.PropertyInfo.GetValue(System.Object,System.Object[])
+  - System.Reflection.PropertyInfo.GetValue(System.Object,System.Reflection.BindingFlags,System.Reflection.Binder,System.Object[],System.Globalization.CultureInfo)
+  - System.Reflection.PropertyInfo.IsSpecialName
+  - System.Reflection.PropertyInfo.MemberType
+  - System.Reflection.PropertyInfo.op_Equality(System.Reflection.PropertyInfo,System.Reflection.PropertyInfo)
+  - System.Reflection.PropertyInfo.op_Inequality(System.Reflection.PropertyInfo,System.Reflection.PropertyInfo)
+  - System.Reflection.PropertyInfo.PropertyType
+  - System.Reflection.PropertyInfo.SetMethod
+  - System.Reflection.PropertyInfo.SetValue(System.Object,System.Object)
+  - System.Reflection.PropertyInfo.SetValue(System.Object,System.Object,System.Object[])
+  - System.Reflection.PropertyInfo.SetValue(System.Object,System.Object,System.Reflection.BindingFlags,System.Reflection.Binder,System.Object[],System.Globalization.CultureInfo)
+  - System.Reflection.PropertyInfo.System#Runtime#InteropServices#_PropertyInfo#GetIDsOfNames(System.Guid@,System.IntPtr,System.UInt32,System.UInt32,System.IntPtr)
+  - System.Reflection.PropertyInfo.System#Runtime#InteropServices#_PropertyInfo#GetType
+  - System.Reflection.PropertyInfo.System#Runtime#InteropServices#_PropertyInfo#GetTypeInfo(System.UInt32,System.UInt32,System.IntPtr)
+  - System.Reflection.PropertyInfo.System#Runtime#InteropServices#_PropertyInfo#GetTypeInfoCount(System.UInt32@)
+  - System.Reflection.PropertyInfo.System#Runtime#InteropServices#_PropertyInfo#Invoke(System.UInt32,System.Guid@,System.UInt32,System.Int16,System.IntPtr,System.IntPtr,System.IntPtr,System.IntPtr)
+  langs:
+  - csharp
+  name: PropertyInfo
+  nameWithType: PropertyInfo
+  fullName: System.Reflection.PropertyInfo
+  type: Class
+  summary: To be added.
+  remarks: To be added.
+  syntax:
+    content: >-
+      [System.Runtime.InteropServices.ClassInterface(System.Runtime.InteropServices.ClassInterfaceType.None)]
+
+      [System.Runtime.InteropServices.ComDefaultInterface(typeof(System.Runtime.InteropServices._PropertyInfo))]
+
+      [System.Runtime.InteropServices.ComVisible(true)]
+
+      public abstract class PropertyInfo : System.Reflection.MemberInfo, System.Runtime.InteropServices._PropertyInfo
+  inheritance:
+  - System.Object
+  - System.Reflection.MemberInfo
+  implements:
+  - System.Runtime.InteropServices._PropertyInfo
+  inheritedMembers:
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  - System.Reflection.MemberInfo.CustomAttributes
+  - System.Reflection.MemberInfo.DeclaringType
+  - System.Reflection.MemberInfo.GetCustomAttributes(System.Boolean)
+  - System.Reflection.MemberInfo.GetCustomAttributes(System.Type,System.Boolean)
+  - System.Reflection.MemberInfo.GetCustomAttributesData
+  - System.Reflection.MemberInfo.IsDefined(System.Type,System.Boolean)
+  - System.Reflection.MemberInfo.MetadataToken
+  - System.Reflection.MemberInfo.Module
+  - System.Reflection.MemberInfo.Name
+  - System.Reflection.MemberInfo.op_Equality(System.Reflection.MemberInfo,System.Reflection.MemberInfo)
+  - System.Reflection.MemberInfo.op_Inequality(System.Reflection.MemberInfo,System.Reflection.MemberInfo)
+  - System.Reflection.MemberInfo.ReflectedType
+  - System.Reflection.MemberInfo.System#Runtime#InteropServices#_MemberInfo#GetIDsOfNames(System.Guid@,System.IntPtr,System.UInt32,System.UInt32,System.IntPtr)
+  - System.Reflection.MemberInfo.System#Runtime#InteropServices#_MemberInfo#GetType
+  - System.Reflection.MemberInfo.System#Runtime#InteropServices#_MemberInfo#GetTypeInfo(System.UInt32,System.UInt32,System.IntPtr)
+  - System.Reflection.MemberInfo.System#Runtime#InteropServices#_MemberInfo#GetTypeInfoCount(System.UInt32@)
+  - System.Reflection.MemberInfo.System#Runtime#InteropServices#_MemberInfo#Invoke(System.UInt32,System.Guid@,System.UInt32,System.Int16,System.IntPtr,System.IntPtr,System.IntPtr,System.IntPtr)
+  platform:
+  - net-11
+  - net-20
+  - netcore-10
+- uid: System.Reflection.PropertyInfo.#ctor
+  id: '#ctor'
+  parent: System.Reflection.PropertyInfo
+  langs:
+  - csharp
+  name: PropertyInfo()
+  nameWithType: PropertyInfo.PropertyInfo()
+  fullName: System.Reflection.PropertyInfo.PropertyInfo()
+  type: Constructor
+  assemblies:
+  - mscorlib
+  namespace: System.Reflection
+  summary: To be added.
+  remarks: To be added.
+  syntax:
+    content: protected PropertyInfo ();
+    parameters: []
+  platform:
+  - net-11
+  - net-20
+  - netcore-10
+- uid: System.Reflection.PropertyInfo.Attributes
+  id: Attributes
+  parent: System.Reflection.PropertyInfo
+  langs:
+  - csharp
+  name: Attributes
+  nameWithType: PropertyInfo.Attributes
+  fullName: System.Reflection.PropertyInfo.Attributes
+  type: Property
+  assemblies:
+  - mscorlib
+  namespace: System.Reflection
+  summary: To be added.
+  remarks: To be added.
+  syntax:
+    content: public abstract System.Reflection.PropertyAttributes Attributes { get; }
+    return:
+      type: System.Reflection.PropertyAttributes
+      description: To be added.
+  platform:
+  - net-11
+  - net-20
+  - netcore-10
+- uid: System.Reflection.PropertyInfo.CanRead
+  id: CanRead
+  parent: System.Reflection.PropertyInfo
+  langs:
+  - csharp
+  name: CanRead
+  nameWithType: PropertyInfo.CanRead
+  fullName: System.Reflection.PropertyInfo.CanRead
+  type: Property
+  assemblies:
+  - mscorlib
+  namespace: System.Reflection
+  summary: To be added.
+  remarks: To be added.
+  syntax:
+    content: public abstract bool CanRead { get; }
+    return:
+      type: System.Boolean
+      description: To be added.
+  platform:
+  - net-11
+  - net-20
+  - netcore-10
+- uid: System.Reflection.PropertyInfo.CanWrite
+  id: CanWrite
+  parent: System.Reflection.PropertyInfo
+  langs:
+  - csharp
+  name: CanWrite
+  nameWithType: PropertyInfo.CanWrite
+  fullName: System.Reflection.PropertyInfo.CanWrite
+  type: Property
+  assemblies:
+  - mscorlib
+  namespace: System.Reflection
+  summary: To be added.
+  remarks: To be added.
+  syntax:
+    content: public abstract bool CanWrite { get; }
+    return:
+      type: System.Boolean
+      description: To be added.
+  platform:
+  - net-11
+  - net-20
+  - netcore-10
+- uid: System.Reflection.PropertyInfo.Equals(System.Object)
+  id: Equals(System.Object)
+  parent: System.Reflection.PropertyInfo
+  langs:
+  - csharp
+  name: Equals(Object)
+  nameWithType: PropertyInfo.Equals(Object)
+  fullName: System.Reflection.PropertyInfo.Equals(Object)
+  type: Method
+  assemblies:
+  - mscorlib
+  namespace: System.Reflection
+  summary: To be added.
+  remarks: To be added.
+  syntax:
+    content: public override bool Equals (object obj);
+    parameters:
+    - id: obj
+      type: System.Object
+      description: To be added.
+    return:
+      type: System.Boolean
+      description: To be added.
+  platform:
+  - net-11
+  - net-20
+  - netcore-10
+- uid: System.Reflection.PropertyInfo.GetAccessors
+  id: GetAccessors
+  parent: System.Reflection.PropertyInfo
+  langs:
+  - csharp
+  name: GetAccessors()
+  nameWithType: PropertyInfo.GetAccessors()
+  fullName: System.Reflection.PropertyInfo.GetAccessors()
+  type: Method
+  assemblies:
+  - mscorlib
+  namespace: System.Reflection
+  summary: To be added.
+  remarks: To be added.
+  syntax:
+    content: public System.Reflection.MethodInfo[] GetAccessors ();
+    parameters: []
+    return:
+      type: System.Reflection.MethodInfo[]
+      description: To be added.
+  overload: System.Reflection.PropertyInfo.GetAccessors*
+  platform:
+  - net-11
+  - net-20
+  - netcore-10
+- uid: System.Reflection.PropertyInfo.GetAccessors(System.Boolean)
+  id: GetAccessors(System.Boolean)
+  parent: System.Reflection.PropertyInfo
+  langs:
+  - csharp
+  name: GetAccessors(Boolean)
+  nameWithType: PropertyInfo.GetAccessors(Boolean)
+  fullName: System.Reflection.PropertyInfo.GetAccessors(Boolean)
+  type: Method
+  assemblies:
+  - mscorlib
+  namespace: System.Reflection
+  summary: To be added.
+  remarks: To be added.
+  syntax:
+    content: public abstract System.Reflection.MethodInfo[] GetAccessors (bool nonPublic);
+    parameters:
+    - id: nonPublic
+      type: System.Boolean
+      description: To be added.
+    return:
+      type: System.Reflection.MethodInfo[]
+      description: To be added.
+  overload: System.Reflection.PropertyInfo.GetAccessors*
+  platform:
+  - net-11
+  - net-20
+  - netcore-10
+- uid: System.Reflection.PropertyInfo.GetConstantValue
+  id: GetConstantValue
+  parent: System.Reflection.PropertyInfo
+  langs:
+  - csharp
+  name: GetConstantValue()
+  nameWithType: PropertyInfo.GetConstantValue()
+  fullName: System.Reflection.PropertyInfo.GetConstantValue()
+  type: Method
+  assemblies:
+  - mscorlib
+  namespace: System.Reflection
+  summary: To be added.
+  remarks: To be added.
+  syntax:
+    content: public virtual object GetConstantValue ();
+    parameters: []
+    return:
+      type: System.Object
+      description: To be added.
+  platform:
+  - net-11
+  - net-20
+  - netcore-10
+- uid: System.Reflection.PropertyInfo.GetGetMethod
+  id: GetGetMethod
+  parent: System.Reflection.PropertyInfo
+  langs:
+  - csharp
+  name: GetGetMethod()
+  nameWithType: PropertyInfo.GetGetMethod()
+  fullName: System.Reflection.PropertyInfo.GetGetMethod()
+  type: Method
+  assemblies:
+  - mscorlib
+  namespace: System.Reflection
+  summary: To be added.
+  remarks: To be added.
+  syntax:
+    content: public System.Reflection.MethodInfo GetGetMethod ();
+    parameters: []
+    return:
+      type: System.Reflection.MethodInfo
+      description: To be added.
+  overload: System.Reflection.PropertyInfo.GetGetMethod*
+  platform:
+  - net-11
+  - net-20
+  - netcore-10
+- uid: System.Reflection.PropertyInfo.GetGetMethod(System.Boolean)
+  id: GetGetMethod(System.Boolean)
+  parent: System.Reflection.PropertyInfo
+  langs:
+  - csharp
+  name: GetGetMethod(Boolean)
+  nameWithType: PropertyInfo.GetGetMethod(Boolean)
+  fullName: System.Reflection.PropertyInfo.GetGetMethod(Boolean)
+  type: Method
+  assemblies:
+  - mscorlib
+  namespace: System.Reflection
+  summary: To be added.
+  remarks: To be added.
+  syntax:
+    content: public abstract System.Reflection.MethodInfo GetGetMethod (bool nonPublic);
+    parameters:
+    - id: nonPublic
+      type: System.Boolean
+      description: To be added.
+    return:
+      type: System.Reflection.MethodInfo
+      description: To be added.
+  overload: System.Reflection.PropertyInfo.GetGetMethod*
+  platform:
+  - net-11
+  - net-20
+  - netcore-10
+- uid: System.Reflection.PropertyInfo.GetHashCode
+  id: GetHashCode
+  parent: System.Reflection.PropertyInfo
+  langs:
+  - csharp
+  name: GetHashCode()
+  nameWithType: PropertyInfo.GetHashCode()
+  fullName: System.Reflection.PropertyInfo.GetHashCode()
+  type: Method
+  assemblies:
+  - mscorlib
+  namespace: System.Reflection
+  summary: To be added.
+  remarks: To be added.
+  syntax:
+    content: public override int GetHashCode ();
+    parameters: []
+    return:
+      type: System.Int32
+      description: To be added.
+  platform:
+  - net-11
+  - net-20
+  - netcore-10
+- uid: System.Reflection.PropertyInfo.GetIndexParameters
+  id: GetIndexParameters
+  parent: System.Reflection.PropertyInfo
+  langs:
+  - csharp
+  name: GetIndexParameters()
+  nameWithType: PropertyInfo.GetIndexParameters()
+  fullName: System.Reflection.PropertyInfo.GetIndexParameters()
+  type: Method
+  assemblies:
+  - mscorlib
+  namespace: System.Reflection
+  summary: To be added.
+  remarks: To be added.
+  syntax:
+    content: public abstract System.Reflection.ParameterInfo[] GetIndexParameters ();
+    parameters: []
+    return:
+      type: System.Reflection.ParameterInfo[]
+      description: To be added.
+  platform:
+  - net-11
+  - net-20
+  - netcore-10
+- uid: System.Reflection.PropertyInfo.GetMethod
+  id: GetMethod
+  parent: System.Reflection.PropertyInfo
+  langs:
+  - csharp
+  name: GetMethod
+  nameWithType: PropertyInfo.GetMethod
+  fullName: System.Reflection.PropertyInfo.GetMethod
+  type: Property
+  assemblies:
+  - mscorlib
+  namespace: System.Reflection
+  summary: To be added.
+  remarks: To be added.
+  syntax:
+    content: public virtual System.Reflection.MethodInfo GetMethod { get; }
+    return:
+      type: System.Reflection.MethodInfo
+      description: To be added.
+  platform:
+  - net-11
+  - net-20
+  - netcore-10
+- uid: System.Reflection.PropertyInfo.GetOptionalCustomModifiers
+  id: GetOptionalCustomModifiers
+  parent: System.Reflection.PropertyInfo
+  langs:
+  - csharp
+  name: GetOptionalCustomModifiers()
+  nameWithType: PropertyInfo.GetOptionalCustomModifiers()
+  fullName: System.Reflection.PropertyInfo.GetOptionalCustomModifiers()
+  type: Method
+  assemblies:
+  - mscorlib
+  namespace: System.Reflection
+  summary: To be added.
+  remarks: To be added.
+  syntax:
+    content: public virtual Type[] GetOptionalCustomModifiers ();
+    parameters: []
+    return:
+      type: System.Type[]
+      description: To be added.
+  platform:
+  - net-11
+  - net-20
+  - netcore-10
+- uid: System.Reflection.PropertyInfo.GetRawConstantValue
+  id: GetRawConstantValue
+  parent: System.Reflection.PropertyInfo
+  langs:
+  - csharp
+  name: GetRawConstantValue()
+  nameWithType: PropertyInfo.GetRawConstantValue()
+  fullName: System.Reflection.PropertyInfo.GetRawConstantValue()
+  type: Method
+  assemblies:
+  - mscorlib
+  namespace: System.Reflection
+  summary: To be added.
+  remarks: To be added.
+  syntax:
+    content: public virtual object GetRawConstantValue ();
+    parameters: []
+    return:
+      type: System.Object
+      description: To be added.
+  platform:
+  - net-11
+  - net-20
+  - netcore-10
+- uid: System.Reflection.PropertyInfo.GetRequiredCustomModifiers
+  id: GetRequiredCustomModifiers
+  parent: System.Reflection.PropertyInfo
+  langs:
+  - csharp
+  name: GetRequiredCustomModifiers()
+  nameWithType: PropertyInfo.GetRequiredCustomModifiers()
+  fullName: System.Reflection.PropertyInfo.GetRequiredCustomModifiers()
+  type: Method
+  assemblies:
+  - mscorlib
+  namespace: System.Reflection
+  summary: To be added.
+  remarks: To be added.
+  syntax:
+    content: public virtual Type[] GetRequiredCustomModifiers ();
+    parameters: []
+    return:
+      type: System.Type[]
+      description: To be added.
+  platform:
+  - net-11
+  - net-20
+  - netcore-10
+- uid: System.Reflection.PropertyInfo.GetSetMethod
+  id: GetSetMethod
+  parent: System.Reflection.PropertyInfo
+  langs:
+  - csharp
+  name: GetSetMethod()
+  nameWithType: PropertyInfo.GetSetMethod()
+  fullName: System.Reflection.PropertyInfo.GetSetMethod()
+  type: Method
+  assemblies:
+  - mscorlib
+  namespace: System.Reflection
+  summary: To be added.
+  remarks: To be added.
+  syntax:
+    content: public System.Reflection.MethodInfo GetSetMethod ();
+    parameters: []
+    return:
+      type: System.Reflection.MethodInfo
+      description: To be added.
+  overload: System.Reflection.PropertyInfo.GetSetMethod*
+  platform:
+  - net-11
+  - net-20
+  - netcore-10
+- uid: System.Reflection.PropertyInfo.GetSetMethod(System.Boolean)
+  id: GetSetMethod(System.Boolean)
+  parent: System.Reflection.PropertyInfo
+  langs:
+  - csharp
+  name: GetSetMethod(Boolean)
+  nameWithType: PropertyInfo.GetSetMethod(Boolean)
+  fullName: System.Reflection.PropertyInfo.GetSetMethod(Boolean)
+  type: Method
+  assemblies:
+  - mscorlib
+  namespace: System.Reflection
+  summary: To be added.
+  remarks: To be added.
+  syntax:
+    content: public abstract System.Reflection.MethodInfo GetSetMethod (bool nonPublic);
+    parameters:
+    - id: nonPublic
+      type: System.Boolean
+      description: To be added.
+    return:
+      type: System.Reflection.MethodInfo
+      description: To be added.
+  overload: System.Reflection.PropertyInfo.GetSetMethod*
+  platform:
+  - net-11
+  - net-20
+  - netcore-10
+- uid: System.Reflection.PropertyInfo.GetValue(System.Object)
+  id: GetValue(System.Object)
+  parent: System.Reflection.PropertyInfo
+  langs:
+  - csharp
+  name: GetValue(Object)
+  nameWithType: PropertyInfo.GetValue(Object)
+  fullName: System.Reflection.PropertyInfo.GetValue(Object)
+  type: Method
+  assemblies:
+  - mscorlib
+  namespace: System.Reflection
+  summary: To be added.
+  remarks: To be added.
+  syntax:
+    content: public object GetValue (object obj);
+    parameters:
+    - id: obj
+      type: System.Object
+      description: To be added.
+    return:
+      type: System.Object
+      description: To be added.
+  overload: System.Reflection.PropertyInfo.GetValue*
+  platform:
+  - net-11
+  - net-20
+  - netcore-10
+- uid: System.Reflection.PropertyInfo.GetValue(System.Object,System.Object[])
+  id: GetValue(System.Object,System.Object[])
+  parent: System.Reflection.PropertyInfo
+  langs:
+  - csharp
+  name: GetValue(Object,Object[])
+  nameWithType: PropertyInfo.GetValue(Object,Object[])
+  fullName: System.Reflection.PropertyInfo.GetValue(Object,Object[])
+  type: Method
+  assemblies:
+  - mscorlib
+  namespace: System.Reflection
+  summary: To be added.
+  remarks: To be added.
+  syntax:
+    content: public virtual object GetValue (object obj, object[] index);
+    parameters:
+    - id: obj
+      type: System.Object
+      description: To be added.
+    - id: index
+      type: System.Object[]
+      description: To be added.
+    return:
+      type: System.Object
+      description: To be added.
+  overload: System.Reflection.PropertyInfo.GetValue*
+  platform:
+  - net-11
+  - net-20
+  - netcore-10
+- uid: System.Reflection.PropertyInfo.GetValue(System.Object,System.Reflection.BindingFlags,System.Reflection.Binder,System.Object[],System.Globalization.CultureInfo)
+  id: GetValue(System.Object,System.Reflection.BindingFlags,System.Reflection.Binder,System.Object[],System.Globalization.CultureInfo)
+  parent: System.Reflection.PropertyInfo
+  langs:
+  - csharp
+  name: GetValue(Object,BindingFlags,Binder,Object[],CultureInfo)
+  nameWithType: PropertyInfo.GetValue(Object,BindingFlags,Binder,Object[],CultureInfo)
+  fullName: System.Reflection.PropertyInfo.GetValue(Object,BindingFlags,Binder,Object[],CultureInfo)
+  type: Method
+  assemblies:
+  - mscorlib
+  namespace: System.Reflection
+  summary: To be added.
+  remarks: To be added.
+  syntax:
+    content: public abstract object GetValue (object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, object[] index, System.Globalization.CultureInfo culture);
+    parameters:
+    - id: obj
+      type: System.Object
+      description: To be added.
+    - id: invokeAttr
+      type: System.Reflection.BindingFlags
+      description: To be added.
+    - id: binder
+      type: System.Reflection.Binder
+      description: To be added.
+    - id: index
+      type: System.Object[]
+      description: To be added.
+    - id: culture
+      type: System.Globalization.CultureInfo
+      description: To be added.
+    return:
+      type: System.Object
+      description: To be added.
+  overload: System.Reflection.PropertyInfo.GetValue*
+  platform:
+  - net-11
+  - net-20
+  - netcore-10
+- uid: System.Reflection.PropertyInfo.IsSpecialName
+  id: IsSpecialName
+  parent: System.Reflection.PropertyInfo
+  langs:
+  - csharp
+  name: IsSpecialName
+  nameWithType: PropertyInfo.IsSpecialName
+  fullName: System.Reflection.PropertyInfo.IsSpecialName
+  type: Property
+  assemblies:
+  - mscorlib
+  namespace: System.Reflection
+  summary: To be added.
+  remarks: To be added.
+  syntax:
+    content: public bool IsSpecialName { get; }
+    return:
+      type: System.Boolean
+      description: To be added.
+  platform:
+  - net-11
+  - net-20
+  - netcore-10
+- uid: System.Reflection.PropertyInfo.MemberType
+  id: MemberType
+  parent: System.Reflection.PropertyInfo
+  langs:
+  - csharp
+  name: MemberType
+  nameWithType: PropertyInfo.MemberType
+  fullName: System.Reflection.PropertyInfo.MemberType
+  type: Property
+  assemblies:
+  - mscorlib
+  namespace: System.Reflection
+  summary: To be added.
+  remarks: To be added.
+  syntax:
+    content: public override System.Reflection.MemberTypes MemberType { get; }
+    return:
+      type: System.Reflection.MemberTypes
+      description: To be added.
+  platform:
+  - net-11
+  - net-20
+  - netcore-10
+- uid: System.Reflection.PropertyInfo.op_Equality(System.Reflection.PropertyInfo,System.Reflection.PropertyInfo)
+  id: op_Equality(System.Reflection.PropertyInfo,System.Reflection.PropertyInfo)
+  parent: System.Reflection.PropertyInfo
+  langs:
+  - csharp
+  name: op_Equality(PropertyInfo,PropertyInfo)
+  nameWithType: PropertyInfo.op_Equality(PropertyInfo,PropertyInfo)
+  fullName: System.Reflection.PropertyInfo.op_Equality(PropertyInfo,PropertyInfo)
+  type: Operator
+  assemblies:
+  - mscorlib
+  namespace: System.Reflection
+  summary: To be added.
+  remarks: To be added.
+  syntax:
+    content: public static bool op_Equality (System.Reflection.PropertyInfo left, System.Reflection.PropertyInfo right);
+    parameters:
+    - id: left
+      type: System.Reflection.PropertyInfo
+      description: To be added.
+    - id: right
+      type: System.Reflection.PropertyInfo
+      description: To be added.
+    return:
+      type: System.Boolean
+      description: To be added.
+  platform:
+  - net-11
+  - net-20
+  - netcore-10
+- uid: System.Reflection.PropertyInfo.op_Inequality(System.Reflection.PropertyInfo,System.Reflection.PropertyInfo)
+  id: op_Inequality(System.Reflection.PropertyInfo,System.Reflection.PropertyInfo)
+  parent: System.Reflection.PropertyInfo
+  langs:
+  - csharp
+  name: op_Inequality(PropertyInfo,PropertyInfo)
+  nameWithType: PropertyInfo.op_Inequality(PropertyInfo,PropertyInfo)
+  fullName: System.Reflection.PropertyInfo.op_Inequality(PropertyInfo,PropertyInfo)
+  type: Operator
+  assemblies:
+  - mscorlib
+  namespace: System.Reflection
+  summary: To be added.
+  remarks: To be added.
+  syntax:
+    content: public static bool op_Inequality (System.Reflection.PropertyInfo left, System.Reflection.PropertyInfo right);
+    parameters:
+    - id: left
+      type: System.Reflection.PropertyInfo
+      description: To be added.
+    - id: right
+      type: System.Reflection.PropertyInfo
+      description: To be added.
+    return:
+      type: System.Boolean
+      description: To be added.
+  platform:
+  - net-11
+  - net-20
+  - netcore-10
+- uid: System.Reflection.PropertyInfo.PropertyType
+  id: PropertyType
+  parent: System.Reflection.PropertyInfo
+  langs:
+  - csharp
+  name: PropertyType
+  nameWithType: PropertyInfo.PropertyType
+  fullName: System.Reflection.PropertyInfo.PropertyType
+  type: Property
+  assemblies:
+  - mscorlib
+  namespace: System.Reflection
+  summary: To be added.
+  remarks: To be added.
+  syntax:
+    content: public abstract Type PropertyType { get; }
+    return:
+      type: System.Type
+      description: To be added.
+  platform:
+  - net-11
+  - net-20
+  - netcore-10
+- uid: System.Reflection.PropertyInfo.SetMethod
+  id: SetMethod
+  parent: System.Reflection.PropertyInfo
+  langs:
+  - csharp
+  name: SetMethod
+  nameWithType: PropertyInfo.SetMethod
+  fullName: System.Reflection.PropertyInfo.SetMethod
+  type: Property
+  assemblies:
+  - mscorlib
+  namespace: System.Reflection
+  summary: To be added.
+  remarks: To be added.
+  syntax:
+    content: public virtual System.Reflection.MethodInfo SetMethod { get; }
+    return:
+      type: System.Reflection.MethodInfo
+      description: To be added.
+  platform:
+  - net-11
+  - net-20
+  - netcore-10
+- uid: System.Reflection.PropertyInfo.SetValue(System.Object,System.Object)
+  id: SetValue(System.Object,System.Object)
+  parent: System.Reflection.PropertyInfo
+  langs:
+  - csharp
+  name: SetValue(Object,Object)
+  nameWithType: PropertyInfo.SetValue(Object,Object)
+  fullName: System.Reflection.PropertyInfo.SetValue(Object,Object)
+  type: Method
+  assemblies:
+  - mscorlib
+  namespace: System.Reflection
+  summary: To be added.
+  remarks: To be added.
+  syntax:
+    content: public void SetValue (object obj, object value);
+    parameters:
+    - id: obj
+      type: System.Object
+      description: To be added.
+    - id: value
+      type: System.Object
+      description: To be added.
+  overload: System.Reflection.PropertyInfo.SetValue*
+  platform:
+  - net-11
+  - net-20
+  - netcore-10
+- uid: System.Reflection.PropertyInfo.SetValue(System.Object,System.Object,System.Object[])
+  id: SetValue(System.Object,System.Object,System.Object[])
+  parent: System.Reflection.PropertyInfo
+  langs:
+  - csharp
+  name: SetValue(Object,Object,Object[])
+  nameWithType: PropertyInfo.SetValue(Object,Object,Object[])
+  fullName: System.Reflection.PropertyInfo.SetValue(Object,Object,Object[])
+  type: Method
+  assemblies:
+  - mscorlib
+  namespace: System.Reflection
+  summary: To be added.
+  remarks: To be added.
+  syntax:
+    content: public virtual void SetValue (object obj, object value, object[] index);
+    parameters:
+    - id: obj
+      type: System.Object
+      description: To be added.
+    - id: value
+      type: System.Object
+      description: To be added.
+    - id: index
+      type: System.Object[]
+      description: To be added.
+  overload: System.Reflection.PropertyInfo.SetValue*
+  platform:
+  - net-11
+  - net-20
+  - netcore-10
+- uid: System.Reflection.PropertyInfo.SetValue(System.Object,System.Object,System.Reflection.BindingFlags,System.Reflection.Binder,System.Object[],System.Globalization.CultureInfo)
+  id: SetValue(System.Object,System.Object,System.Reflection.BindingFlags,System.Reflection.Binder,System.Object[],System.Globalization.CultureInfo)
+  parent: System.Reflection.PropertyInfo
+  langs:
+  - csharp
+  name: SetValue(Object,Object,BindingFlags,Binder,Object[],CultureInfo)
+  nameWithType: PropertyInfo.SetValue(Object,Object,BindingFlags,Binder,Object[],CultureInfo)
+  fullName: System.Reflection.PropertyInfo.SetValue(Object,Object,BindingFlags,Binder,Object[],CultureInfo)
+  type: Method
+  assemblies:
+  - mscorlib
+  namespace: System.Reflection
+  summary: To be added.
+  remarks: To be added.
+  syntax:
+    content: public abstract void SetValue (object obj, object value, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, object[] index, System.Globalization.CultureInfo culture);
+    parameters:
+    - id: obj
+      type: System.Object
+      description: To be added.
+    - id: value
+      type: System.Object
+      description: To be added.
+    - id: invokeAttr
+      type: System.Reflection.BindingFlags
+      description: To be added.
+    - id: binder
+      type: System.Reflection.Binder
+      description: To be added.
+    - id: index
+      type: System.Object[]
+      description: To be added.
+    - id: culture
+      type: System.Globalization.CultureInfo
+      description: To be added.
+  overload: System.Reflection.PropertyInfo.SetValue*
+  platform:
+  - net-11
+  - net-20
+  - netcore-10
+- uid: System.Reflection.PropertyInfo.System#Runtime#InteropServices#_PropertyInfo#GetIDsOfNames(System.Guid@,System.IntPtr,System.UInt32,System.UInt32,System.IntPtr)
+  id: System#Runtime#InteropServices#_PropertyInfo#GetIDsOfNames(System.Guid@,System.IntPtr,System.UInt32,System.UInt32,System.IntPtr)
+  isEii: true
+  parent: System.Reflection.PropertyInfo
+  langs:
+  - csharp
+  name: System.Runtime.InteropServices._PropertyInfo.GetIDsOfNames(Guid,IntPtr,UInt32,UInt32,IntPtr)
+  nameWithType: PropertyInfo.System.Runtime.InteropServices._PropertyInfo.GetIDsOfNames(Guid,IntPtr,UInt32,UInt32,IntPtr)
+  fullName: System.Reflection.PropertyInfo.System.Runtime.InteropServices._PropertyInfo.GetIDsOfNames(Guid,IntPtr,UInt32,UInt32,IntPtr)
+  type: Method
+  assemblies:
+  - mscorlib
+  namespace: System.Reflection
+  summary: To be added.
+  remarks: To be added.
+  syntax:
+    content: void _PropertyInfo.GetIDsOfNames (ref Guid riid, IntPtr rgszNames, uint cNames, uint lcid, IntPtr rgDispId);
+    parameters:
+    - id: riid
+      type: System.Guid
+      description: To be added.
+    - id: rgszNames
+      type: System.IntPtr
+      description: To be added.
+    - id: cNames
+      type: System.UInt32
+      description: To be added.
+    - id: lcid
+      type: System.UInt32
+      description: To be added.
+    - id: rgDispId
+      type: System.IntPtr
+      description: To be added.
+  platform:
+  - net-11
+  - net-20
+  - netcore-10
+- uid: System.Reflection.PropertyInfo.System#Runtime#InteropServices#_PropertyInfo#GetType
+  id: System#Runtime#InteropServices#_PropertyInfo#GetType
+  isEii: true
+  parent: System.Reflection.PropertyInfo
+  langs:
+  - csharp
+  name: System.Runtime.InteropServices._PropertyInfo.GetType()
+  nameWithType: PropertyInfo.System.Runtime.InteropServices._PropertyInfo.GetType()
+  fullName: System.Reflection.PropertyInfo.System.Runtime.InteropServices._PropertyInfo.GetType()
+  type: Method
+  assemblies:
+  - mscorlib
+  namespace: System.Reflection
+  summary: To be added.
+  remarks: To be added.
+  syntax:
+    content: Type _PropertyInfo.GetType ();
+    parameters: []
+    return:
+      type: System.Type
+      description: To be added.
+  platform:
+  - net-11
+  - net-20
+  - netcore-10
+- uid: System.Reflection.PropertyInfo.System#Runtime#InteropServices#_PropertyInfo#GetTypeInfo(System.UInt32,System.UInt32,System.IntPtr)
+  id: System#Runtime#InteropServices#_PropertyInfo#GetTypeInfo(System.UInt32,System.UInt32,System.IntPtr)
+  isEii: true
+  parent: System.Reflection.PropertyInfo
+  langs:
+  - csharp
+  name: System.Runtime.InteropServices._PropertyInfo.GetTypeInfo(UInt32,UInt32,IntPtr)
+  nameWithType: PropertyInfo.System.Runtime.InteropServices._PropertyInfo.GetTypeInfo(UInt32,UInt32,IntPtr)
+  fullName: System.Reflection.PropertyInfo.System.Runtime.InteropServices._PropertyInfo.GetTypeInfo(UInt32,UInt32,IntPtr)
+  type: Method
+  assemblies:
+  - mscorlib
+  namespace: System.Reflection
+  summary: To be added.
+  remarks: To be added.
+  syntax:
+    content: void _PropertyInfo.GetTypeInfo (uint iTInfo, uint lcid, IntPtr ppTInfo);
+    parameters:
+    - id: iTInfo
+      type: System.UInt32
+      description: To be added.
+    - id: lcid
+      type: System.UInt32
+      description: To be added.
+    - id: ppTInfo
+      type: System.IntPtr
+      description: To be added.
+  platform:
+  - net-11
+  - net-20
+  - netcore-10
+- uid: System.Reflection.PropertyInfo.System#Runtime#InteropServices#_PropertyInfo#GetTypeInfoCount(System.UInt32@)
+  id: System#Runtime#InteropServices#_PropertyInfo#GetTypeInfoCount(System.UInt32@)
+  isEii: true
+  parent: System.Reflection.PropertyInfo
+  langs:
+  - csharp
+  name: System.Runtime.InteropServices._PropertyInfo.GetTypeInfoCount(UInt32)
+  nameWithType: PropertyInfo.System.Runtime.InteropServices._PropertyInfo.GetTypeInfoCount(UInt32)
+  fullName: System.Reflection.PropertyInfo.System.Runtime.InteropServices._PropertyInfo.GetTypeInfoCount(UInt32)
+  type: Method
+  assemblies:
+  - mscorlib
+  namespace: System.Reflection
+  summary: To be added.
+  remarks: To be added.
+  syntax:
+    content: void _PropertyInfo.GetTypeInfoCount (out uint pcTInfo);
+    parameters:
+    - id: pcTInfo
+      type: System.UInt32
+      description: To be added.
+  platform:
+  - net-11
+  - net-20
+  - netcore-10
+- uid: System.Reflection.PropertyInfo.System#Runtime#InteropServices#_PropertyInfo#Invoke(System.UInt32,System.Guid@,System.UInt32,System.Int16,System.IntPtr,System.IntPtr,System.IntPtr,System.IntPtr)
+  id: System#Runtime#InteropServices#_PropertyInfo#Invoke(System.UInt32,System.Guid@,System.UInt32,System.Int16,System.IntPtr,System.IntPtr,System.IntPtr,System.IntPtr)
+  isEii: true
+  parent: System.Reflection.PropertyInfo
+  langs:
+  - csharp
+  name: System.Runtime.InteropServices._PropertyInfo.Invoke(UInt32,Guid,UInt32,Int16,IntPtr,IntPtr,IntPtr,IntPtr)
+  nameWithType: PropertyInfo.System.Runtime.InteropServices._PropertyInfo.Invoke(UInt32,Guid,UInt32,Int16,IntPtr,IntPtr,IntPtr,IntPtr)
+  fullName: System.Reflection.PropertyInfo.System.Runtime.InteropServices._PropertyInfo.Invoke(UInt32,Guid,UInt32,Int16,IntPtr,IntPtr,IntPtr,IntPtr)
+  type: Method
+  assemblies:
+  - mscorlib
+  namespace: System.Reflection
+  summary: To be added.
+  remarks: To be added.
+  syntax:
+    content: void _PropertyInfo.Invoke (uint dispIdMember, ref Guid riid, uint lcid, short wFlags, IntPtr pDispParams, IntPtr pVarResult, IntPtr pExcepInfo, IntPtr puArgErr);
+    parameters:
+    - id: dispIdMember
+      type: System.UInt32
+      description: To be added.
+    - id: riid
+      type: System.Guid
+      description: To be added.
+    - id: lcid
+      type: System.UInt32
+      description: To be added.
+    - id: wFlags
+      type: System.Int16
+      description: To be added.
+    - id: pDispParams
+      type: System.IntPtr
+      description: To be added.
+    - id: pVarResult
+      type: System.IntPtr
+      description: To be added.
+    - id: pExcepInfo
+      type: System.IntPtr
+      description: To be added.
+    - id: puArgErr
+      type: System.IntPtr
+      description: To be added.
+  platform:
+  - net-11
+  - net-20
+  - netcore-10
+references:
+- uid: System.Reflection.MemberInfo
+  isExternal: false
+  name: System.Reflection.MemberInfo
+- uid: System.Reflection.PropertyInfo.#ctor
+  parent: System.Reflection.PropertyInfo
+  isExternal: false
+  name: PropertyInfo()
+  nameWithType: PropertyInfo.PropertyInfo()
+  fullName: System.Reflection.PropertyInfo.PropertyInfo()
+- uid: System.Reflection.PropertyInfo.Attributes
+  parent: System.Reflection.PropertyInfo
+  isExternal: false
+  name: Attributes
+  nameWithType: PropertyInfo.Attributes
+  fullName: System.Reflection.PropertyInfo.Attributes
+- uid: System.Reflection.PropertyAttributes
+  parent: System.Reflection
+  isExternal: false
+  name: PropertyAttributes
+  nameWithType: PropertyAttributes
+  fullName: System.Reflection.PropertyAttributes
+- uid: System.Reflection.PropertyInfo.CanRead
+  parent: System.Reflection.PropertyInfo
+  isExternal: false
+  name: CanRead
+  nameWithType: PropertyInfo.CanRead
+  fullName: System.Reflection.PropertyInfo.CanRead
+- uid: System.Boolean
+  parent: System
+  isExternal: false
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: System.Reflection.PropertyInfo.CanWrite
+  parent: System.Reflection.PropertyInfo
+  isExternal: false
+  name: CanWrite
+  nameWithType: PropertyInfo.CanWrite
+  fullName: System.Reflection.PropertyInfo.CanWrite
+- uid: System.Boolean
+  parent: System
+  isExternal: false
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: System.Reflection.PropertyInfo.Equals(System.Object)
+  parent: System.Reflection.PropertyInfo
+  isExternal: false
+  name: Equals(Object)
+  nameWithType: PropertyInfo.Equals(Object)
+  fullName: System.Reflection.PropertyInfo.Equals(Object)
+- uid: System.Boolean
+  parent: System
+  isExternal: false
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: System.Object
+  parent: System
+  isExternal: false
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Reflection.PropertyInfo.GetAccessors
+  parent: System.Reflection.PropertyInfo
+  isExternal: false
+  name: GetAccessors()
+  nameWithType: PropertyInfo.GetAccessors()
+  fullName: System.Reflection.PropertyInfo.GetAccessors()
+- uid: System.Reflection.MethodInfo
+  parent: System.Reflection
+  isExternal: false
+  name: MethodInfo
+  nameWithType: MethodInfo
+  fullName: System.Reflection.MethodInfo[]
+- uid: System.Reflection.PropertyInfo.GetAccessors(System.Boolean)
+  parent: System.Reflection.PropertyInfo
+  isExternal: false
+  name: GetAccessors(Boolean)
+  nameWithType: PropertyInfo.GetAccessors(Boolean)
+  fullName: System.Reflection.PropertyInfo.GetAccessors(Boolean)
+- uid: System.Reflection.MethodInfo
+  parent: System.Reflection
+  isExternal: false
+  name: MethodInfo
+  nameWithType: MethodInfo
+  fullName: System.Reflection.MethodInfo[]
+- uid: System.Boolean
+  parent: System
+  isExternal: false
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: System.Reflection.PropertyInfo.GetConstantValue
+  parent: System.Reflection.PropertyInfo
+  isExternal: false
+  name: GetConstantValue()
+  nameWithType: PropertyInfo.GetConstantValue()
+  fullName: System.Reflection.PropertyInfo.GetConstantValue()
+- uid: System.Object
+  parent: System
+  isExternal: false
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Reflection.PropertyInfo.GetGetMethod
+  parent: System.Reflection.PropertyInfo
+  isExternal: false
+  name: GetGetMethod()
+  nameWithType: PropertyInfo.GetGetMethod()
+  fullName: System.Reflection.PropertyInfo.GetGetMethod()
+- uid: System.Reflection.MethodInfo
+  parent: System.Reflection
+  isExternal: false
+  name: MethodInfo
+  nameWithType: MethodInfo
+  fullName: System.Reflection.MethodInfo
+- uid: System.Reflection.PropertyInfo.GetGetMethod(System.Boolean)
+  parent: System.Reflection.PropertyInfo
+  isExternal: false
+  name: GetGetMethod(Boolean)
+  nameWithType: PropertyInfo.GetGetMethod(Boolean)
+  fullName: System.Reflection.PropertyInfo.GetGetMethod(Boolean)
+- uid: System.Reflection.MethodInfo
+  parent: System.Reflection
+  isExternal: false
+  name: MethodInfo
+  nameWithType: MethodInfo
+  fullName: System.Reflection.MethodInfo
+- uid: System.Boolean
+  parent: System
+  isExternal: false
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: System.Reflection.PropertyInfo.GetHashCode
+  parent: System.Reflection.PropertyInfo
+  isExternal: false
+  name: GetHashCode()
+  nameWithType: PropertyInfo.GetHashCode()
+  fullName: System.Reflection.PropertyInfo.GetHashCode()
+- uid: System.Int32
+  parent: System
+  isExternal: false
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: System.Reflection.PropertyInfo.GetIndexParameters
+  parent: System.Reflection.PropertyInfo
+  isExternal: false
+  name: GetIndexParameters()
+  nameWithType: PropertyInfo.GetIndexParameters()
+  fullName: System.Reflection.PropertyInfo.GetIndexParameters()
+- uid: System.Reflection.ParameterInfo
+  parent: System.Reflection
+  isExternal: false
+  name: ParameterInfo
+  nameWithType: ParameterInfo
+  fullName: System.Reflection.ParameterInfo[]
+- uid: System.Reflection.PropertyInfo.GetMethod
+  parent: System.Reflection.PropertyInfo
+  isExternal: false
+  name: GetMethod
+  nameWithType: PropertyInfo.GetMethod
+  fullName: System.Reflection.PropertyInfo.GetMethod
+- uid: System.Reflection.MethodInfo
+  parent: System.Reflection
+  isExternal: false
+  name: MethodInfo
+  nameWithType: MethodInfo
+  fullName: System.Reflection.MethodInfo
+- uid: System.Reflection.PropertyInfo.GetOptionalCustomModifiers
+  parent: System.Reflection.PropertyInfo
+  isExternal: false
+  name: GetOptionalCustomModifiers()
+  nameWithType: PropertyInfo.GetOptionalCustomModifiers()
+  fullName: System.Reflection.PropertyInfo.GetOptionalCustomModifiers()
+- uid: System.Type
+  parent: System
+  isExternal: false
+  name: Type
+  nameWithType: Type
+  fullName: System.Type[]
+- uid: System.Reflection.PropertyInfo.GetRawConstantValue
+  parent: System.Reflection.PropertyInfo
+  isExternal: false
+  name: GetRawConstantValue()
+  nameWithType: PropertyInfo.GetRawConstantValue()
+  fullName: System.Reflection.PropertyInfo.GetRawConstantValue()
+- uid: System.Object
+  parent: System
+  isExternal: false
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Reflection.PropertyInfo.GetRequiredCustomModifiers
+  parent: System.Reflection.PropertyInfo
+  isExternal: false
+  name: GetRequiredCustomModifiers()
+  nameWithType: PropertyInfo.GetRequiredCustomModifiers()
+  fullName: System.Reflection.PropertyInfo.GetRequiredCustomModifiers()
+- uid: System.Type
+  parent: System
+  isExternal: false
+  name: Type
+  nameWithType: Type
+  fullName: System.Type[]
+- uid: System.Reflection.PropertyInfo.GetSetMethod
+  parent: System.Reflection.PropertyInfo
+  isExternal: false
+  name: GetSetMethod()
+  nameWithType: PropertyInfo.GetSetMethod()
+  fullName: System.Reflection.PropertyInfo.GetSetMethod()
+- uid: System.Reflection.MethodInfo
+  parent: System.Reflection
+  isExternal: false
+  name: MethodInfo
+  nameWithType: MethodInfo
+  fullName: System.Reflection.MethodInfo
+- uid: System.Reflection.PropertyInfo.GetSetMethod(System.Boolean)
+  parent: System.Reflection.PropertyInfo
+  isExternal: false
+  name: GetSetMethod(Boolean)
+  nameWithType: PropertyInfo.GetSetMethod(Boolean)
+  fullName: System.Reflection.PropertyInfo.GetSetMethod(Boolean)
+- uid: System.Reflection.MethodInfo
+  parent: System.Reflection
+  isExternal: false
+  name: MethodInfo
+  nameWithType: MethodInfo
+  fullName: System.Reflection.MethodInfo
+- uid: System.Boolean
+  parent: System
+  isExternal: false
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: System.Reflection.PropertyInfo.GetValue(System.Object)
+  parent: System.Reflection.PropertyInfo
+  isExternal: false
+  name: GetValue(Object)
+  nameWithType: PropertyInfo.GetValue(Object)
+  fullName: System.Reflection.PropertyInfo.GetValue(Object)
+- uid: System.Object
+  parent: System
+  isExternal: false
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object
+  parent: System
+  isExternal: false
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Reflection.PropertyInfo.GetValue(System.Object,System.Object[])
+  parent: System.Reflection.PropertyInfo
+  isExternal: false
+  name: GetValue(Object,Object[])
+  nameWithType: PropertyInfo.GetValue(Object,Object[])
+  fullName: System.Reflection.PropertyInfo.GetValue(Object,Object[])
+- uid: System.Object
+  parent: System
+  isExternal: false
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object
+  parent: System
+  isExternal: false
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object
+  parent: System
+  isExternal: false
+  name: Object
+  nameWithType: Object
+  fullName: System.Object[]
+- uid: System.Reflection.PropertyInfo.GetValue(System.Object,System.Reflection.BindingFlags,System.Reflection.Binder,System.Object[],System.Globalization.CultureInfo)
+  parent: System.Reflection.PropertyInfo
+  isExternal: false
+  name: GetValue(Object,BindingFlags,Binder,Object[],CultureInfo)
+  nameWithType: PropertyInfo.GetValue(Object,BindingFlags,Binder,Object[],CultureInfo)
+  fullName: System.Reflection.PropertyInfo.GetValue(Object,BindingFlags,Binder,Object[],CultureInfo)
+- uid: System.Object
+  parent: System
+  isExternal: false
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object
+  parent: System
+  isExternal: false
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Reflection.BindingFlags
+  parent: System.Reflection
+  isExternal: false
+  name: BindingFlags
+  nameWithType: BindingFlags
+  fullName: System.Reflection.BindingFlags
+- uid: System.Reflection.Binder
+  parent: System.Reflection
+  isExternal: false
+  name: Binder
+  nameWithType: Binder
+  fullName: System.Reflection.Binder
+- uid: System.Object
+  parent: System
+  isExternal: false
+  name: Object
+  nameWithType: Object
+  fullName: System.Object[]
+- uid: System.Globalization.CultureInfo
+  parent: System.Globalization
+  isExternal: false
+  name: CultureInfo
+  nameWithType: CultureInfo
+  fullName: System.Globalization.CultureInfo
+- uid: System.Reflection.PropertyInfo.IsSpecialName
+  parent: System.Reflection.PropertyInfo
+  isExternal: false
+  name: IsSpecialName
+  nameWithType: PropertyInfo.IsSpecialName
+  fullName: System.Reflection.PropertyInfo.IsSpecialName
+- uid: System.Boolean
+  parent: System
+  isExternal: false
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: System.Reflection.PropertyInfo.MemberType
+  parent: System.Reflection.PropertyInfo
+  isExternal: false
+  name: MemberType
+  nameWithType: PropertyInfo.MemberType
+  fullName: System.Reflection.PropertyInfo.MemberType
+- uid: System.Reflection.MemberTypes
+  parent: System.Reflection
+  isExternal: false
+  name: MemberTypes
+  nameWithType: MemberTypes
+  fullName: System.Reflection.MemberTypes
+- uid: System.Reflection.PropertyInfo.op_Equality(System.Reflection.PropertyInfo,System.Reflection.PropertyInfo)
+  parent: System.Reflection.PropertyInfo
+  isExternal: false
+  name: op_Equality(PropertyInfo,PropertyInfo)
+  nameWithType: PropertyInfo.op_Equality(PropertyInfo,PropertyInfo)
+  fullName: System.Reflection.PropertyInfo.op_Equality(PropertyInfo,PropertyInfo)
+- uid: System.Boolean
+  parent: System
+  isExternal: false
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: System.Reflection.PropertyInfo
+  parent: System.Reflection
+  isExternal: false
+  name: PropertyInfo
+  nameWithType: PropertyInfo
+  fullName: System.Reflection.PropertyInfo
+- uid: System.Reflection.PropertyInfo
+  parent: System.Reflection
+  isExternal: false
+  name: PropertyInfo
+  nameWithType: PropertyInfo
+  fullName: System.Reflection.PropertyInfo
+- uid: System.Reflection.PropertyInfo.op_Inequality(System.Reflection.PropertyInfo,System.Reflection.PropertyInfo)
+  parent: System.Reflection.PropertyInfo
+  isExternal: false
+  name: op_Inequality(PropertyInfo,PropertyInfo)
+  nameWithType: PropertyInfo.op_Inequality(PropertyInfo,PropertyInfo)
+  fullName: System.Reflection.PropertyInfo.op_Inequality(PropertyInfo,PropertyInfo)
+- uid: System.Boolean
+  parent: System
+  isExternal: false
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: System.Reflection.PropertyInfo
+  parent: System.Reflection
+  isExternal: false
+  name: PropertyInfo
+  nameWithType: PropertyInfo
+  fullName: System.Reflection.PropertyInfo
+- uid: System.Reflection.PropertyInfo
+  parent: System.Reflection
+  isExternal: false
+  name: PropertyInfo
+  nameWithType: PropertyInfo
+  fullName: System.Reflection.PropertyInfo
+- uid: System.Reflection.PropertyInfo.PropertyType
+  parent: System.Reflection.PropertyInfo
+  isExternal: false
+  name: PropertyType
+  nameWithType: PropertyInfo.PropertyType
+  fullName: System.Reflection.PropertyInfo.PropertyType
+- uid: System.Type
+  parent: System
+  isExternal: false
+  name: Type
+  nameWithType: Type
+  fullName: System.Type
+- uid: System.Reflection.PropertyInfo.SetMethod
+  parent: System.Reflection.PropertyInfo
+  isExternal: false
+  name: SetMethod
+  nameWithType: PropertyInfo.SetMethod
+  fullName: System.Reflection.PropertyInfo.SetMethod
+- uid: System.Reflection.MethodInfo
+  parent: System.Reflection
+  isExternal: false
+  name: MethodInfo
+  nameWithType: MethodInfo
+  fullName: System.Reflection.MethodInfo
+- uid: System.Reflection.PropertyInfo.SetValue(System.Object,System.Object)
+  parent: System.Reflection.PropertyInfo
+  isExternal: false
+  name: SetValue(Object,Object)
+  nameWithType: PropertyInfo.SetValue(Object,Object)
+  fullName: System.Reflection.PropertyInfo.SetValue(Object,Object)
+- uid: System.Object
+  parent: System
+  isExternal: false
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object
+  parent: System
+  isExternal: false
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Reflection.PropertyInfo.SetValue(System.Object,System.Object,System.Object[])
+  parent: System.Reflection.PropertyInfo
+  isExternal: false
+  name: SetValue(Object,Object,Object[])
+  nameWithType: PropertyInfo.SetValue(Object,Object,Object[])
+  fullName: System.Reflection.PropertyInfo.SetValue(Object,Object,Object[])
+- uid: System.Object
+  parent: System
+  isExternal: false
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object
+  parent: System
+  isExternal: false
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object
+  parent: System
+  isExternal: false
+  name: Object
+  nameWithType: Object
+  fullName: System.Object[]
+- uid: System.Reflection.PropertyInfo.SetValue(System.Object,System.Object,System.Reflection.BindingFlags,System.Reflection.Binder,System.Object[],System.Globalization.CultureInfo)
+  parent: System.Reflection.PropertyInfo
+  isExternal: false
+  name: SetValue(Object,Object,BindingFlags,Binder,Object[],CultureInfo)
+  nameWithType: PropertyInfo.SetValue(Object,Object,BindingFlags,Binder,Object[],CultureInfo)
+  fullName: System.Reflection.PropertyInfo.SetValue(Object,Object,BindingFlags,Binder,Object[],CultureInfo)
+- uid: System.Object
+  parent: System
+  isExternal: false
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object
+  parent: System
+  isExternal: false
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Reflection.BindingFlags
+  parent: System.Reflection
+  isExternal: false
+  name: BindingFlags
+  nameWithType: BindingFlags
+  fullName: System.Reflection.BindingFlags
+- uid: System.Reflection.Binder
+  parent: System.Reflection
+  isExternal: false
+  name: Binder
+  nameWithType: Binder
+  fullName: System.Reflection.Binder
+- uid: System.Object
+  parent: System
+  isExternal: false
+  name: Object
+  nameWithType: Object
+  fullName: System.Object[]
+- uid: System.Globalization.CultureInfo
+  parent: System.Globalization
+  isExternal: false
+  name: CultureInfo
+  nameWithType: CultureInfo
+  fullName: System.Globalization.CultureInfo
+- uid: System.Reflection.PropertyInfo.System#Runtime#InteropServices#_PropertyInfo#GetIDsOfNames(System.Guid@,System.IntPtr,System.UInt32,System.UInt32,System.IntPtr)
+  parent: System.Reflection.PropertyInfo
+  isExternal: false
+  name: System.Runtime.InteropServices._PropertyInfo.GetIDsOfNames(Guid,IntPtr,UInt32,UInt32,IntPtr)
+  nameWithType: PropertyInfo.System.Runtime.InteropServices._PropertyInfo.GetIDsOfNames(Guid,IntPtr,UInt32,UInt32,IntPtr)
+  fullName: System.Reflection.PropertyInfo.System.Runtime.InteropServices._PropertyInfo.GetIDsOfNames(Guid,IntPtr,UInt32,UInt32,IntPtr)
+- uid: System.Guid
+  parent: System
+  isExternal: false
+  name: Guid
+  nameWithType: Guid
+  fullName: System.Guid
+- uid: System.IntPtr
+  parent: System
+  isExternal: false
+  name: IntPtr
+  nameWithType: IntPtr
+  fullName: System.IntPtr
+- uid: System.UInt32
+  parent: System
+  isExternal: false
+  name: UInt32
+  nameWithType: UInt32
+  fullName: System.UInt32
+- uid: System.UInt32
+  parent: System
+  isExternal: false
+  name: UInt32
+  nameWithType: UInt32
+  fullName: System.UInt32
+- uid: System.IntPtr
+  parent: System
+  isExternal: false
+  name: IntPtr
+  nameWithType: IntPtr
+  fullName: System.IntPtr
+- uid: System.Reflection.PropertyInfo.System#Runtime#InteropServices#_PropertyInfo#GetType
+  parent: System.Reflection.PropertyInfo
+  isExternal: false
+  name: System.Runtime.InteropServices._PropertyInfo.GetType()
+  nameWithType: PropertyInfo.System.Runtime.InteropServices._PropertyInfo.GetType()
+  fullName: System.Reflection.PropertyInfo.System.Runtime.InteropServices._PropertyInfo.GetType()
+- uid: System.Type
+  parent: System
+  isExternal: false
+  name: Type
+  nameWithType: Type
+  fullName: System.Type
+- uid: System.Reflection.PropertyInfo.System#Runtime#InteropServices#_PropertyInfo#GetTypeInfo(System.UInt32,System.UInt32,System.IntPtr)
+  parent: System.Reflection.PropertyInfo
+  isExternal: false
+  name: System.Runtime.InteropServices._PropertyInfo.GetTypeInfo(UInt32,UInt32,IntPtr)
+  nameWithType: PropertyInfo.System.Runtime.InteropServices._PropertyInfo.GetTypeInfo(UInt32,UInt32,IntPtr)
+  fullName: System.Reflection.PropertyInfo.System.Runtime.InteropServices._PropertyInfo.GetTypeInfo(UInt32,UInt32,IntPtr)
+- uid: System.UInt32
+  parent: System
+  isExternal: false
+  name: UInt32
+  nameWithType: UInt32
+  fullName: System.UInt32
+- uid: System.UInt32
+  parent: System
+  isExternal: false
+  name: UInt32
+  nameWithType: UInt32
+  fullName: System.UInt32
+- uid: System.IntPtr
+  parent: System
+  isExternal: false
+  name: IntPtr
+  nameWithType: IntPtr
+  fullName: System.IntPtr
+- uid: System.Reflection.PropertyInfo.System#Runtime#InteropServices#_PropertyInfo#GetTypeInfoCount(System.UInt32@)
+  parent: System.Reflection.PropertyInfo
+  isExternal: false
+  name: System.Runtime.InteropServices._PropertyInfo.GetTypeInfoCount(UInt32)
+  nameWithType: PropertyInfo.System.Runtime.InteropServices._PropertyInfo.GetTypeInfoCount(UInt32)
+  fullName: System.Reflection.PropertyInfo.System.Runtime.InteropServices._PropertyInfo.GetTypeInfoCount(UInt32)
+- uid: System.UInt32
+  parent: System
+  isExternal: false
+  name: UInt32
+  nameWithType: UInt32
+  fullName: System.UInt32
+- uid: System.Reflection.PropertyInfo.System#Runtime#InteropServices#_PropertyInfo#Invoke(System.UInt32,System.Guid@,System.UInt32,System.Int16,System.IntPtr,System.IntPtr,System.IntPtr,System.IntPtr)
+  parent: System.Reflection.PropertyInfo
+  isExternal: false
+  name: System.Runtime.InteropServices._PropertyInfo.Invoke(UInt32,Guid,UInt32,Int16,IntPtr,IntPtr,IntPtr,IntPtr)
+  nameWithType: PropertyInfo.System.Runtime.InteropServices._PropertyInfo.Invoke(UInt32,Guid,UInt32,Int16,IntPtr,IntPtr,IntPtr,IntPtr)
+  fullName: System.Reflection.PropertyInfo.System.Runtime.InteropServices._PropertyInfo.Invoke(UInt32,Guid,UInt32,Int16,IntPtr,IntPtr,IntPtr,IntPtr)
+- uid: System.UInt32
+  parent: System
+  isExternal: false
+  name: UInt32
+  nameWithType: UInt32
+  fullName: System.UInt32
+- uid: System.Guid
+  parent: System
+  isExternal: false
+  name: Guid
+  nameWithType: Guid
+  fullName: System.Guid
+- uid: System.UInt32
+  parent: System
+  isExternal: false
+  name: UInt32
+  nameWithType: UInt32
+  fullName: System.UInt32
+- uid: System.Int16
+  parent: System
+  isExternal: false
+  name: Int16
+  nameWithType: Int16
+  fullName: System.Int16
+- uid: System.IntPtr
+  parent: System
+  isExternal: false
+  name: IntPtr
+  nameWithType: IntPtr
+  fullName: System.IntPtr
+- uid: System.IntPtr
+  parent: System
+  isExternal: false
+  name: IntPtr
+  nameWithType: IntPtr
+  fullName: System.IntPtr
+- uid: System.IntPtr
+  parent: System
+  isExternal: false
+  name: IntPtr
+  nameWithType: IntPtr
+  fullName: System.IntPtr
+- uid: System.IntPtr
+  parent: System
+  isExternal: false
+  name: IntPtr
+  nameWithType: IntPtr
+  fullName: System.IntPtr
+- uid: System.Reflection.PropertyInfo.GetAccessors*
+  parent: System.Reflection.PropertyInfo
+  isExternal: false
+  name: GetAccessors
+  nameWithType: PropertyInfo.GetAccessors
+- uid: System.Reflection.PropertyInfo.GetGetMethod*
+  parent: System.Reflection.PropertyInfo
+  isExternal: false
+  name: GetGetMethod
+  nameWithType: PropertyInfo.GetGetMethod
+- uid: System.Reflection.PropertyInfo.GetSetMethod*
+  parent: System.Reflection.PropertyInfo
+  isExternal: false
+  name: GetSetMethod
+  nameWithType: PropertyInfo.GetSetMethod
+- uid: System.Reflection.PropertyInfo.GetValue*
+  parent: System.Reflection.PropertyInfo
+  isExternal: false
+  name: GetValue
+  nameWithType: PropertyInfo.GetValue
+- uid: System.Reflection.PropertyInfo.SetValue*
+  parent: System.Reflection.PropertyInfo
+  isExternal: false
+  name: SetValue
+  nameWithType: PropertyInfo.SetValue

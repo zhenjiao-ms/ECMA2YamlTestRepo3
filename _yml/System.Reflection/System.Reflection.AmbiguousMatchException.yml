@@ -1,0 +1,161 @@
+### YamlMime:ManagedReference
+items:
+- uid: System.Reflection.AmbiguousMatchException
+  id: AmbiguousMatchException
+  children:
+  - System.Reflection.AmbiguousMatchException.#ctor
+  - System.Reflection.AmbiguousMatchException.#ctor(System.String)
+  - System.Reflection.AmbiguousMatchException.#ctor(System.String,System.Exception)
+  langs:
+  - csharp
+  name: AmbiguousMatchException
+  nameWithType: AmbiguousMatchException
+  fullName: System.Reflection.AmbiguousMatchException
+  type: Class
+  summary: To be added.
+  remarks: To be added.
+  syntax:
+    content: >-
+      [System.Runtime.InteropServices.ComVisible(true)]
+
+      public sealed class AmbiguousMatchException : SystemException
+  inheritance:
+  - System.Object
+  - System.Exception
+  - System.SystemException
+  implements: []
+  inheritedMembers:
+  - System.Exception.Data
+  - System.Exception.GetBaseException
+  - System.Exception.GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
+  - System.Exception.GetType
+  - System.Exception.HelpLink
+  - System.Exception.HResult
+  - System.Exception.InnerException
+  - System.Exception.Message
+  - System.Exception.SerializeObjectState
+  - System.Exception.Source
+  - System.Exception.StackTrace
+  - System.Exception.TargetSite
+  - System.Exception.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  platform:
+  - net-11
+  - net-20
+  - netcore-10
+- uid: System.Reflection.AmbiguousMatchException.#ctor
+  id: '#ctor'
+  parent: System.Reflection.AmbiguousMatchException
+  langs:
+  - csharp
+  name: AmbiguousMatchException()
+  nameWithType: AmbiguousMatchException.AmbiguousMatchException()
+  fullName: System.Reflection.AmbiguousMatchException.AmbiguousMatchException()
+  type: Constructor
+  assemblies:
+  - mscorlib
+  namespace: System.Reflection
+  summary: To be added.
+  remarks: To be added.
+  syntax:
+    content: public AmbiguousMatchException ();
+    parameters: []
+  platform:
+  - net-11
+  - net-20
+  - netcore-10
+- uid: System.Reflection.AmbiguousMatchException.#ctor(System.String)
+  id: '#ctor(System.String)'
+  parent: System.Reflection.AmbiguousMatchException
+  langs:
+  - csharp
+  name: AmbiguousMatchException(String)
+  nameWithType: AmbiguousMatchException.AmbiguousMatchException(String)
+  fullName: System.Reflection.AmbiguousMatchException.AmbiguousMatchException(String)
+  type: Constructor
+  assemblies:
+  - mscorlib
+  namespace: System.Reflection
+  summary: To be added.
+  remarks: To be added.
+  syntax:
+    content: public AmbiguousMatchException (string message);
+    parameters:
+    - id: message
+      type: System.String
+      description: To be added.
+  platform:
+  - net-11
+  - net-20
+  - netcore-10
+- uid: System.Reflection.AmbiguousMatchException.#ctor(System.String,System.Exception)
+  id: '#ctor(System.String,System.Exception)'
+  parent: System.Reflection.AmbiguousMatchException
+  langs:
+  - csharp
+  name: AmbiguousMatchException(String,Exception)
+  nameWithType: AmbiguousMatchException.AmbiguousMatchException(String,Exception)
+  fullName: System.Reflection.AmbiguousMatchException.AmbiguousMatchException(String,Exception)
+  type: Constructor
+  assemblies:
+  - mscorlib
+  namespace: System.Reflection
+  summary: To be added.
+  remarks: To be added.
+  syntax:
+    content: public AmbiguousMatchException (string message, Exception inner);
+    parameters:
+    - id: message
+      type: System.String
+      description: To be added.
+    - id: inner
+      type: System.Exception
+      description: To be added.
+  platform:
+  - net-11
+  - net-20
+  - netcore-10
+references:
+- uid: System.SystemException
+  isExternal: false
+  name: System.SystemException
+- uid: System.Reflection.AmbiguousMatchException.#ctor
+  parent: System.Reflection.AmbiguousMatchException
+  isExternal: false
+  name: AmbiguousMatchException()
+  nameWithType: AmbiguousMatchException.AmbiguousMatchException()
+  fullName: System.Reflection.AmbiguousMatchException.AmbiguousMatchException()
+- uid: System.Reflection.AmbiguousMatchException.#ctor(System.String)
+  parent: System.Reflection.AmbiguousMatchException
+  isExternal: false
+  name: AmbiguousMatchException(String)
+  nameWithType: AmbiguousMatchException.AmbiguousMatchException(String)
+  fullName: System.Reflection.AmbiguousMatchException.AmbiguousMatchException(String)
+- uid: System.String
+  parent: System
+  isExternal: false
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System.Reflection.AmbiguousMatchException.#ctor(System.String,System.Exception)
+  parent: System.Reflection.AmbiguousMatchException
+  isExternal: false
+  name: AmbiguousMatchException(String,Exception)
+  nameWithType: AmbiguousMatchException.AmbiguousMatchException(String,Exception)
+  fullName: System.Reflection.AmbiguousMatchException.AmbiguousMatchException(String,Exception)
+- uid: System.String
+  parent: System
+  isExternal: false
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System.Exception
+  parent: System
+  isExternal: false
+  name: Exception
+  nameWithType: Exception
+  fullName: System.Exception

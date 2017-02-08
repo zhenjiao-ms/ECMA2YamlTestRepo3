@@ -1,0 +1,28 @@
+### YamlMime:ManagedReference
+items:
+- uid: System.AsyncCallback
+  id: AsyncCallback
+  langs:
+  - csharp
+  name: AsyncCallback
+  nameWithType: AsyncCallback
+  fullName: System.AsyncCallback
+  type: Delegate
+  summary: To be added.
+  remarks: To be added.
+  syntax:
+    content: >-
+      [System.Runtime.InteropServices.ComVisible(true)]
+
+      public delegate void AsyncCallback(IAsyncResult ar);
+  inheritance:
+  - System.Object
+  - System.Delegate
+  platform:
+  - net-11
+  - net-20
+  - netcore-10
+references:
+- uid: System.Delegate
+  isExternal: false
+  name: System.Delegate

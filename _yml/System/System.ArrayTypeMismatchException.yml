@@ -1,0 +1,207 @@
+### YamlMime:ManagedReference
+items:
+- uid: System.ArrayTypeMismatchException
+  id: ArrayTypeMismatchException
+  children:
+  - System.ArrayTypeMismatchException.#ctor
+  - System.ArrayTypeMismatchException.#ctor(System.String)
+  - System.ArrayTypeMismatchException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
+  - System.ArrayTypeMismatchException.#ctor(System.String,System.Exception)
+  langs:
+  - csharp
+  name: ArrayTypeMismatchException
+  nameWithType: ArrayTypeMismatchException
+  fullName: System.ArrayTypeMismatchException
+  type: Class
+  summary: To be added.
+  remarks: To be added.
+  syntax:
+    content: >-
+      [System.Runtime.InteropServices.ComVisible(true)]
+
+      public class ArrayTypeMismatchException : SystemException
+  inheritance:
+  - System.Object
+  - System.Exception
+  - System.SystemException
+  implements: []
+  inheritedMembers:
+  - System.Exception.Data
+  - System.Exception.GetBaseException
+  - System.Exception.GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
+  - System.Exception.GetType
+  - System.Exception.HelpLink
+  - System.Exception.HResult
+  - System.Exception.InnerException
+  - System.Exception.Message
+  - System.Exception.SerializeObjectState
+  - System.Exception.Source
+  - System.Exception.StackTrace
+  - System.Exception.TargetSite
+  - System.Exception.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  platform:
+  - net-11
+  - net-20
+  - netcore-10
+- uid: System.ArrayTypeMismatchException.#ctor
+  id: '#ctor'
+  parent: System.ArrayTypeMismatchException
+  langs:
+  - csharp
+  name: ArrayTypeMismatchException()
+  nameWithType: ArrayTypeMismatchException.ArrayTypeMismatchException()
+  fullName: System.ArrayTypeMismatchException.ArrayTypeMismatchException()
+  type: Constructor
+  assemblies:
+  - mscorlib
+  namespace: System
+  summary: To be added.
+  remarks: To be added.
+  syntax:
+    content: public ArrayTypeMismatchException ();
+    parameters: []
+  platform:
+  - net-11
+  - net-20
+  - netcore-10
+- uid: System.ArrayTypeMismatchException.#ctor(System.String)
+  id: '#ctor(System.String)'
+  parent: System.ArrayTypeMismatchException
+  langs:
+  - csharp
+  name: ArrayTypeMismatchException(String)
+  nameWithType: ArrayTypeMismatchException.ArrayTypeMismatchException(String)
+  fullName: System.ArrayTypeMismatchException.ArrayTypeMismatchException(String)
+  type: Constructor
+  assemblies:
+  - mscorlib
+  namespace: System
+  summary: To be added.
+  remarks: To be added.
+  syntax:
+    content: public ArrayTypeMismatchException (string message);
+    parameters:
+    - id: message
+      type: System.String
+      description: To be added.
+  platform:
+  - net-11
+  - net-20
+  - netcore-10
+- uid: System.ArrayTypeMismatchException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
+  id: '#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)'
+  parent: System.ArrayTypeMismatchException
+  langs:
+  - csharp
+  name: ArrayTypeMismatchException(SerializationInfo,StreamingContext)
+  nameWithType: ArrayTypeMismatchException.ArrayTypeMismatchException(SerializationInfo,StreamingContext)
+  fullName: System.ArrayTypeMismatchException.ArrayTypeMismatchException(SerializationInfo,StreamingContext)
+  type: Constructor
+  assemblies:
+  - mscorlib
+  namespace: System
+  summary: To be added.
+  remarks: To be added.
+  syntax:
+    content: protected ArrayTypeMismatchException (System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context);
+    parameters:
+    - id: info
+      type: System.Runtime.Serialization.SerializationInfo
+      description: To be added.
+    - id: context
+      type: System.Runtime.Serialization.StreamingContext
+      description: To be added.
+  platform:
+  - net-11
+  - net-20
+  - netcore-10
+- uid: System.ArrayTypeMismatchException.#ctor(System.String,System.Exception)
+  id: '#ctor(System.String,System.Exception)'
+  parent: System.ArrayTypeMismatchException
+  langs:
+  - csharp
+  name: ArrayTypeMismatchException(String,Exception)
+  nameWithType: ArrayTypeMismatchException.ArrayTypeMismatchException(String,Exception)
+  fullName: System.ArrayTypeMismatchException.ArrayTypeMismatchException(String,Exception)
+  type: Constructor
+  assemblies:
+  - mscorlib
+  namespace: System
+  summary: To be added.
+  remarks: To be added.
+  syntax:
+    content: public ArrayTypeMismatchException (string message, Exception innerException);
+    parameters:
+    - id: message
+      type: System.String
+      description: To be added.
+    - id: innerException
+      type: System.Exception
+      description: To be added.
+  platform:
+  - net-11
+  - net-20
+  - netcore-10
+references:
+- uid: System.SystemException
+  isExternal: false
+  name: System.SystemException
+- uid: System.ArrayTypeMismatchException.#ctor
+  parent: System.ArrayTypeMismatchException
+  isExternal: false
+  name: ArrayTypeMismatchException()
+  nameWithType: ArrayTypeMismatchException.ArrayTypeMismatchException()
+  fullName: System.ArrayTypeMismatchException.ArrayTypeMismatchException()
+- uid: System.ArrayTypeMismatchException.#ctor(System.String)
+  parent: System.ArrayTypeMismatchException
+  isExternal: false
+  name: ArrayTypeMismatchException(String)
+  nameWithType: ArrayTypeMismatchException.ArrayTypeMismatchException(String)
+  fullName: System.ArrayTypeMismatchException.ArrayTypeMismatchException(String)
+- uid: System.String
+  parent: System
+  isExternal: false
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System.ArrayTypeMismatchException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
+  parent: System.ArrayTypeMismatchException
+  isExternal: false
+  name: ArrayTypeMismatchException(SerializationInfo,StreamingContext)
+  nameWithType: ArrayTypeMismatchException.ArrayTypeMismatchException(SerializationInfo,StreamingContext)
+  fullName: System.ArrayTypeMismatchException.ArrayTypeMismatchException(SerializationInfo,StreamingContext)
+- uid: System.Runtime.Serialization.SerializationInfo
+  parent: System.Runtime.Serialization
+  isExternal: false
+  name: SerializationInfo
+  nameWithType: SerializationInfo
+  fullName: System.Runtime.Serialization.SerializationInfo
+- uid: System.Runtime.Serialization.StreamingContext
+  parent: System.Runtime.Serialization
+  isExternal: false
+  name: StreamingContext
+  nameWithType: StreamingContext
+  fullName: System.Runtime.Serialization.StreamingContext
+- uid: System.ArrayTypeMismatchException.#ctor(System.String,System.Exception)
+  parent: System.ArrayTypeMismatchException
+  isExternal: false
+  name: ArrayTypeMismatchException(String,Exception)
+  nameWithType: ArrayTypeMismatchException.ArrayTypeMismatchException(String,Exception)
+  fullName: System.ArrayTypeMismatchException.ArrayTypeMismatchException(String,Exception)
+- uid: System.String
+  parent: System
+  isExternal: false
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System.Exception
+  parent: System
+  isExternal: false
+  name: Exception
+  nameWithType: Exception
+  fullName: System.Exception

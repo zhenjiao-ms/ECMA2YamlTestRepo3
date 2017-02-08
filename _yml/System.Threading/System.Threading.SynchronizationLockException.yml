@@ -1,0 +1,207 @@
+### YamlMime:ManagedReference
+items:
+- uid: System.Threading.SynchronizationLockException
+  id: SynchronizationLockException
+  children:
+  - System.Threading.SynchronizationLockException.#ctor
+  - System.Threading.SynchronizationLockException.#ctor(System.String)
+  - System.Threading.SynchronizationLockException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
+  - System.Threading.SynchronizationLockException.#ctor(System.String,System.Exception)
+  langs:
+  - csharp
+  name: SynchronizationLockException
+  nameWithType: SynchronizationLockException
+  fullName: System.Threading.SynchronizationLockException
+  type: Class
+  summary: To be added.
+  remarks: To be added.
+  syntax:
+    content: >-
+      [System.Runtime.InteropServices.ComVisible(true)]
+
+      public class SynchronizationLockException : SystemException
+  inheritance:
+  - System.Object
+  - System.Exception
+  - System.SystemException
+  implements: []
+  inheritedMembers:
+  - System.Exception.Data
+  - System.Exception.GetBaseException
+  - System.Exception.GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
+  - System.Exception.GetType
+  - System.Exception.HelpLink
+  - System.Exception.HResult
+  - System.Exception.InnerException
+  - System.Exception.Message
+  - System.Exception.SerializeObjectState
+  - System.Exception.Source
+  - System.Exception.StackTrace
+  - System.Exception.TargetSite
+  - System.Exception.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  platform:
+  - net-11
+  - net-20
+  - netcore-10
+- uid: System.Threading.SynchronizationLockException.#ctor
+  id: '#ctor'
+  parent: System.Threading.SynchronizationLockException
+  langs:
+  - csharp
+  name: SynchronizationLockException()
+  nameWithType: SynchronizationLockException.SynchronizationLockException()
+  fullName: System.Threading.SynchronizationLockException.SynchronizationLockException()
+  type: Constructor
+  assemblies:
+  - mscorlib
+  namespace: System.Threading
+  summary: To be added.
+  remarks: To be added.
+  syntax:
+    content: public SynchronizationLockException ();
+    parameters: []
+  platform:
+  - net-11
+  - net-20
+  - netcore-10
+- uid: System.Threading.SynchronizationLockException.#ctor(System.String)
+  id: '#ctor(System.String)'
+  parent: System.Threading.SynchronizationLockException
+  langs:
+  - csharp
+  name: SynchronizationLockException(String)
+  nameWithType: SynchronizationLockException.SynchronizationLockException(String)
+  fullName: System.Threading.SynchronizationLockException.SynchronizationLockException(String)
+  type: Constructor
+  assemblies:
+  - mscorlib
+  namespace: System.Threading
+  summary: To be added.
+  remarks: To be added.
+  syntax:
+    content: public SynchronizationLockException (string message);
+    parameters:
+    - id: message
+      type: System.String
+      description: To be added.
+  platform:
+  - net-11
+  - net-20
+  - netcore-10
+- uid: System.Threading.SynchronizationLockException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
+  id: '#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)'
+  parent: System.Threading.SynchronizationLockException
+  langs:
+  - csharp
+  name: SynchronizationLockException(SerializationInfo,StreamingContext)
+  nameWithType: SynchronizationLockException.SynchronizationLockException(SerializationInfo,StreamingContext)
+  fullName: System.Threading.SynchronizationLockException.SynchronizationLockException(SerializationInfo,StreamingContext)
+  type: Constructor
+  assemblies:
+  - mscorlib
+  namespace: System.Threading
+  summary: To be added.
+  remarks: To be added.
+  syntax:
+    content: protected SynchronizationLockException (System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context);
+    parameters:
+    - id: info
+      type: System.Runtime.Serialization.SerializationInfo
+      description: To be added.
+    - id: context
+      type: System.Runtime.Serialization.StreamingContext
+      description: To be added.
+  platform:
+  - net-11
+  - net-20
+  - netcore-10
+- uid: System.Threading.SynchronizationLockException.#ctor(System.String,System.Exception)
+  id: '#ctor(System.String,System.Exception)'
+  parent: System.Threading.SynchronizationLockException
+  langs:
+  - csharp
+  name: SynchronizationLockException(String,Exception)
+  nameWithType: SynchronizationLockException.SynchronizationLockException(String,Exception)
+  fullName: System.Threading.SynchronizationLockException.SynchronizationLockException(String,Exception)
+  type: Constructor
+  assemblies:
+  - mscorlib
+  namespace: System.Threading
+  summary: To be added.
+  remarks: To be added.
+  syntax:
+    content: public SynchronizationLockException (string message, Exception innerException);
+    parameters:
+    - id: message
+      type: System.String
+      description: To be added.
+    - id: innerException
+      type: System.Exception
+      description: To be added.
+  platform:
+  - net-11
+  - net-20
+  - netcore-10
+references:
+- uid: System.SystemException
+  isExternal: false
+  name: System.SystemException
+- uid: System.Threading.SynchronizationLockException.#ctor
+  parent: System.Threading.SynchronizationLockException
+  isExternal: false
+  name: SynchronizationLockException()
+  nameWithType: SynchronizationLockException.SynchronizationLockException()
+  fullName: System.Threading.SynchronizationLockException.SynchronizationLockException()
+- uid: System.Threading.SynchronizationLockException.#ctor(System.String)
+  parent: System.Threading.SynchronizationLockException
+  isExternal: false
+  name: SynchronizationLockException(String)
+  nameWithType: SynchronizationLockException.SynchronizationLockException(String)
+  fullName: System.Threading.SynchronizationLockException.SynchronizationLockException(String)
+- uid: System.String
+  parent: System
+  isExternal: false
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System.Threading.SynchronizationLockException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
+  parent: System.Threading.SynchronizationLockException
+  isExternal: false
+  name: SynchronizationLockException(SerializationInfo,StreamingContext)
+  nameWithType: SynchronizationLockException.SynchronizationLockException(SerializationInfo,StreamingContext)
+  fullName: System.Threading.SynchronizationLockException.SynchronizationLockException(SerializationInfo,StreamingContext)
+- uid: System.Runtime.Serialization.SerializationInfo
+  parent: System.Runtime.Serialization
+  isExternal: false
+  name: SerializationInfo
+  nameWithType: SerializationInfo
+  fullName: System.Runtime.Serialization.SerializationInfo
+- uid: System.Runtime.Serialization.StreamingContext
+  parent: System.Runtime.Serialization
+  isExternal: false
+  name: StreamingContext
+  nameWithType: StreamingContext
+  fullName: System.Runtime.Serialization.StreamingContext
+- uid: System.Threading.SynchronizationLockException.#ctor(System.String,System.Exception)
+  parent: System.Threading.SynchronizationLockException
+  isExternal: false
+  name: SynchronizationLockException(String,Exception)
+  nameWithType: SynchronizationLockException.SynchronizationLockException(String,Exception)
+  fullName: System.Threading.SynchronizationLockException.SynchronizationLockException(String,Exception)
+- uid: System.String
+  parent: System
+  isExternal: false
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System.Exception
+  parent: System
+  isExternal: false
+  name: Exception
+  nameWithType: Exception
+  fullName: System.Exception

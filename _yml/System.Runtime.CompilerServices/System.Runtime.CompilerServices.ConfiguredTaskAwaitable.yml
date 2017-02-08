@@ -1,0 +1,64 @@
+### YamlMime:ManagedReference
+items:
+- uid: System.Runtime.CompilerServices.ConfiguredTaskAwaitable
+  id: ConfiguredTaskAwaitable
+  children:
+  - System.Runtime.CompilerServices.ConfiguredTaskAwaitable.GetAwaiter
+  langs:
+  - csharp
+  name: ConfiguredTaskAwaitable
+  nameWithType: ConfiguredTaskAwaitable
+  fullName: System.Runtime.CompilerServices.ConfiguredTaskAwaitable
+  type: Struct
+  summary: To be added.
+  remarks: To be added.
+  syntax:
+    content: public struct ConfiguredTaskAwaitable
+  inheritance:
+  - System.Object
+  - System.ValueType
+  implements: []
+  platform:
+  - net-11
+  - net-20
+  - netcore-10
+- uid: System.Runtime.CompilerServices.ConfiguredTaskAwaitable.GetAwaiter
+  id: GetAwaiter
+  parent: System.Runtime.CompilerServices.ConfiguredTaskAwaitable
+  langs:
+  - csharp
+  name: GetAwaiter()
+  nameWithType: ConfiguredTaskAwaitable.GetAwaiter()
+  fullName: System.Runtime.CompilerServices.ConfiguredTaskAwaitable.GetAwaiter()
+  type: Method
+  assemblies:
+  - mscorlib
+  namespace: System.Runtime.CompilerServices
+  summary: To be added.
+  remarks: To be added.
+  syntax:
+    content: public System.Runtime.CompilerServices.ConfiguredTaskAwaitable.ConfiguredTaskAwaiter GetAwaiter ();
+    parameters: []
+    return:
+      type: System.Runtime.CompilerServices.ConfiguredTaskAwaitable.ConfiguredTaskAwaiter
+      description: To be added.
+  platform:
+  - net-11
+  - net-20
+  - netcore-10
+references:
+- uid: System.ValueType
+  isExternal: false
+  name: System.ValueType
+- uid: System.Runtime.CompilerServices.ConfiguredTaskAwaitable.GetAwaiter
+  parent: System.Runtime.CompilerServices.ConfiguredTaskAwaitable
+  isExternal: false
+  name: GetAwaiter()
+  nameWithType: ConfiguredTaskAwaitable.GetAwaiter()
+  fullName: System.Runtime.CompilerServices.ConfiguredTaskAwaitable.GetAwaiter()
+- uid: System.Runtime.CompilerServices.ConfiguredTaskAwaitable.ConfiguredTaskAwaiter
+  parent: System.Runtime.CompilerServices
+  isExternal: false
+  name: ConfiguredTaskAwaitable+ConfiguredTaskAwaiter
+  nameWithType: ConfiguredTaskAwaitable+ConfiguredTaskAwaiter
+  fullName: System.Runtime.CompilerServices.ConfiguredTaskAwaitable+ConfiguredTaskAwaiter

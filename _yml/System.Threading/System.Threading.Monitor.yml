@@ -1,0 +1,901 @@
+### YamlMime:ManagedReference
+items:
+- uid: System.Threading.Monitor
+  id: Monitor
+  children:
+  - System.Threading.Monitor.Enter(System.Object)
+  - System.Threading.Monitor.Enter(System.Object,System.Boolean@)
+  - System.Threading.Monitor.Exit(System.Object)
+  - System.Threading.Monitor.IsEntered(System.Object)
+  - System.Threading.Monitor.Pulse(System.Object)
+  - System.Threading.Monitor.PulseAll(System.Object)
+  - System.Threading.Monitor.TryEnter(System.Object)
+  - System.Threading.Monitor.TryEnter(System.Object,System.Boolean@)
+  - System.Threading.Monitor.TryEnter(System.Object,System.Int32)
+  - System.Threading.Monitor.TryEnter(System.Object,System.TimeSpan)
+  - System.Threading.Monitor.TryEnter(System.Object,System.Int32,System.Boolean@)
+  - System.Threading.Monitor.TryEnter(System.Object,System.TimeSpan,System.Boolean@)
+  - System.Threading.Monitor.Wait(System.Object)
+  - System.Threading.Monitor.Wait(System.Object,System.Int32)
+  - System.Threading.Monitor.Wait(System.Object,System.TimeSpan)
+  - System.Threading.Monitor.Wait(System.Object,System.Int32,System.Boolean)
+  - System.Threading.Monitor.Wait(System.Object,System.TimeSpan,System.Boolean)
+  langs:
+  - csharp
+  name: Monitor
+  nameWithType: Monitor
+  fullName: System.Threading.Monitor
+  type: Class
+  summary: To be added.
+  remarks: To be added.
+  syntax:
+    content: >-
+      [System.Runtime.InteropServices.ComVisible(true)]
+
+      public static class Monitor
+  inheritance:
+  - System.Object
+  implements: []
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  platform:
+  - net-11
+  - net-20
+  - netcore-10
+- uid: System.Threading.Monitor.Enter(System.Object)
+  id: Enter(System.Object)
+  parent: System.Threading.Monitor
+  langs:
+  - csharp
+  name: Enter(Object)
+  nameWithType: Monitor.Enter(Object)
+  fullName: System.Threading.Monitor.Enter(Object)
+  type: Method
+  assemblies:
+  - mscorlib
+  namespace: System.Threading
+  summary: To be added.
+  remarks: To be added.
+  syntax:
+    content: public static void Enter (object obj);
+    parameters:
+    - id: obj
+      type: System.Object
+      description: To be added.
+  overload: System.Threading.Monitor.Enter*
+  platform:
+  - net-11
+  - net-20
+  - netcore-10
+- uid: System.Threading.Monitor.Enter(System.Object,System.Boolean@)
+  id: Enter(System.Object,System.Boolean@)
+  parent: System.Threading.Monitor
+  langs:
+  - csharp
+  name: Enter(Object,Boolean)
+  nameWithType: Monitor.Enter(Object,Boolean)
+  fullName: System.Threading.Monitor.Enter(Object,Boolean)
+  type: Method
+  assemblies:
+  - mscorlib
+  namespace: System.Threading
+  summary: To be added.
+  remarks: To be added.
+  syntax:
+    content: public static void Enter (object obj, ref bool lockTaken);
+    parameters:
+    - id: obj
+      type: System.Object
+      description: To be added.
+    - id: lockTaken
+      type: System.Boolean
+      description: To be added.
+  overload: System.Threading.Monitor.Enter*
+  platform:
+  - net-11
+  - net-20
+  - netcore-10
+- uid: System.Threading.Monitor.Exit(System.Object)
+  id: Exit(System.Object)
+  parent: System.Threading.Monitor
+  langs:
+  - csharp
+  name: Exit(Object)
+  nameWithType: Monitor.Exit(Object)
+  fullName: System.Threading.Monitor.Exit(Object)
+  type: Method
+  assemblies:
+  - mscorlib
+  namespace: System.Threading
+  summary: To be added.
+  remarks: To be added.
+  syntax:
+    content: public static void Exit (object obj);
+    parameters:
+    - id: obj
+      type: System.Object
+      description: To be added.
+  platform:
+  - net-11
+  - net-20
+  - netcore-10
+- uid: System.Threading.Monitor.IsEntered(System.Object)
+  id: IsEntered(System.Object)
+  parent: System.Threading.Monitor
+  langs:
+  - csharp
+  name: IsEntered(Object)
+  nameWithType: Monitor.IsEntered(Object)
+  fullName: System.Threading.Monitor.IsEntered(Object)
+  type: Method
+  assemblies:
+  - mscorlib
+  namespace: System.Threading
+  summary: To be added.
+  remarks: To be added.
+  syntax:
+    content: public static bool IsEntered (object obj);
+    parameters:
+    - id: obj
+      type: System.Object
+      description: To be added.
+    return:
+      type: System.Boolean
+      description: To be added.
+  platform:
+  - net-11
+  - net-20
+  - netcore-10
+- uid: System.Threading.Monitor.Pulse(System.Object)
+  id: Pulse(System.Object)
+  parent: System.Threading.Monitor
+  langs:
+  - csharp
+  name: Pulse(Object)
+  nameWithType: Monitor.Pulse(Object)
+  fullName: System.Threading.Monitor.Pulse(Object)
+  type: Method
+  assemblies:
+  - mscorlib
+  namespace: System.Threading
+  summary: To be added.
+  remarks: To be added.
+  syntax:
+    content: public static void Pulse (object obj);
+    parameters:
+    - id: obj
+      type: System.Object
+      description: To be added.
+  platform:
+  - net-11
+  - net-20
+  - netcore-10
+- uid: System.Threading.Monitor.PulseAll(System.Object)
+  id: PulseAll(System.Object)
+  parent: System.Threading.Monitor
+  langs:
+  - csharp
+  name: PulseAll(Object)
+  nameWithType: Monitor.PulseAll(Object)
+  fullName: System.Threading.Monitor.PulseAll(Object)
+  type: Method
+  assemblies:
+  - mscorlib
+  namespace: System.Threading
+  summary: To be added.
+  remarks: To be added.
+  syntax:
+    content: public static void PulseAll (object obj);
+    parameters:
+    - id: obj
+      type: System.Object
+      description: To be added.
+  platform:
+  - net-11
+  - net-20
+  - netcore-10
+- uid: System.Threading.Monitor.TryEnter(System.Object)
+  id: TryEnter(System.Object)
+  parent: System.Threading.Monitor
+  langs:
+  - csharp
+  name: TryEnter(Object)
+  nameWithType: Monitor.TryEnter(Object)
+  fullName: System.Threading.Monitor.TryEnter(Object)
+  type: Method
+  assemblies:
+  - mscorlib
+  namespace: System.Threading
+  summary: To be added.
+  remarks: To be added.
+  syntax:
+    content: public static bool TryEnter (object obj);
+    parameters:
+    - id: obj
+      type: System.Object
+      description: To be added.
+    return:
+      type: System.Boolean
+      description: To be added.
+  overload: System.Threading.Monitor.TryEnter*
+  platform:
+  - net-11
+  - net-20
+  - netcore-10
+- uid: System.Threading.Monitor.TryEnter(System.Object,System.Boolean@)
+  id: TryEnter(System.Object,System.Boolean@)
+  parent: System.Threading.Monitor
+  langs:
+  - csharp
+  name: TryEnter(Object,Boolean)
+  nameWithType: Monitor.TryEnter(Object,Boolean)
+  fullName: System.Threading.Monitor.TryEnter(Object,Boolean)
+  type: Method
+  assemblies:
+  - mscorlib
+  namespace: System.Threading
+  summary: To be added.
+  remarks: To be added.
+  syntax:
+    content: public static void TryEnter (object obj, ref bool lockTaken);
+    parameters:
+    - id: obj
+      type: System.Object
+      description: To be added.
+    - id: lockTaken
+      type: System.Boolean
+      description: To be added.
+  overload: System.Threading.Monitor.TryEnter*
+  platform:
+  - net-11
+  - net-20
+  - netcore-10
+- uid: System.Threading.Monitor.TryEnter(System.Object,System.Int32)
+  id: TryEnter(System.Object,System.Int32)
+  parent: System.Threading.Monitor
+  langs:
+  - csharp
+  name: TryEnter(Object,Int32)
+  nameWithType: Monitor.TryEnter(Object,Int32)
+  fullName: System.Threading.Monitor.TryEnter(Object,Int32)
+  type: Method
+  assemblies:
+  - mscorlib
+  namespace: System.Threading
+  summary: To be added.
+  remarks: To be added.
+  syntax:
+    content: public static bool TryEnter (object obj, int millisecondsTimeout);
+    parameters:
+    - id: obj
+      type: System.Object
+      description: To be added.
+    - id: millisecondsTimeout
+      type: System.Int32
+      description: To be added.
+    return:
+      type: System.Boolean
+      description: To be added.
+  overload: System.Threading.Monitor.TryEnter*
+  platform:
+  - net-11
+  - net-20
+  - netcore-10
+- uid: System.Threading.Monitor.TryEnter(System.Object,System.TimeSpan)
+  id: TryEnter(System.Object,System.TimeSpan)
+  parent: System.Threading.Monitor
+  langs:
+  - csharp
+  name: TryEnter(Object,TimeSpan)
+  nameWithType: Monitor.TryEnter(Object,TimeSpan)
+  fullName: System.Threading.Monitor.TryEnter(Object,TimeSpan)
+  type: Method
+  assemblies:
+  - mscorlib
+  namespace: System.Threading
+  summary: To be added.
+  remarks: To be added.
+  syntax:
+    content: public static bool TryEnter (object obj, TimeSpan timeout);
+    parameters:
+    - id: obj
+      type: System.Object
+      description: To be added.
+    - id: timeout
+      type: System.TimeSpan
+      description: To be added.
+    return:
+      type: System.Boolean
+      description: To be added.
+  overload: System.Threading.Monitor.TryEnter*
+  platform:
+  - net-11
+  - net-20
+  - netcore-10
+- uid: System.Threading.Monitor.TryEnter(System.Object,System.Int32,System.Boolean@)
+  id: TryEnter(System.Object,System.Int32,System.Boolean@)
+  parent: System.Threading.Monitor
+  langs:
+  - csharp
+  name: TryEnter(Object,Int32,Boolean)
+  nameWithType: Monitor.TryEnter(Object,Int32,Boolean)
+  fullName: System.Threading.Monitor.TryEnter(Object,Int32,Boolean)
+  type: Method
+  assemblies:
+  - mscorlib
+  namespace: System.Threading
+  summary: To be added.
+  remarks: To be added.
+  syntax:
+    content: public static void TryEnter (object obj, int millisecondsTimeout, ref bool lockTaken);
+    parameters:
+    - id: obj
+      type: System.Object
+      description: To be added.
+    - id: millisecondsTimeout
+      type: System.Int32
+      description: To be added.
+    - id: lockTaken
+      type: System.Boolean
+      description: To be added.
+  overload: System.Threading.Monitor.TryEnter*
+  platform:
+  - net-11
+  - net-20
+  - netcore-10
+- uid: System.Threading.Monitor.TryEnter(System.Object,System.TimeSpan,System.Boolean@)
+  id: TryEnter(System.Object,System.TimeSpan,System.Boolean@)
+  parent: System.Threading.Monitor
+  langs:
+  - csharp
+  name: TryEnter(Object,TimeSpan,Boolean)
+  nameWithType: Monitor.TryEnter(Object,TimeSpan,Boolean)
+  fullName: System.Threading.Monitor.TryEnter(Object,TimeSpan,Boolean)
+  type: Method
+  assemblies:
+  - mscorlib
+  namespace: System.Threading
+  summary: To be added.
+  remarks: To be added.
+  syntax:
+    content: public static void TryEnter (object obj, TimeSpan timeout, ref bool lockTaken);
+    parameters:
+    - id: obj
+      type: System.Object
+      description: To be added.
+    - id: timeout
+      type: System.TimeSpan
+      description: To be added.
+    - id: lockTaken
+      type: System.Boolean
+      description: To be added.
+  overload: System.Threading.Monitor.TryEnter*
+  platform:
+  - net-11
+  - net-20
+  - netcore-10
+- uid: System.Threading.Monitor.Wait(System.Object)
+  id: Wait(System.Object)
+  parent: System.Threading.Monitor
+  langs:
+  - csharp
+  name: Wait(Object)
+  nameWithType: Monitor.Wait(Object)
+  fullName: System.Threading.Monitor.Wait(Object)
+  type: Method
+  assemblies:
+  - mscorlib
+  namespace: System.Threading
+  summary: To be added.
+  remarks: To be added.
+  syntax:
+    content: public static bool Wait (object obj);
+    parameters:
+    - id: obj
+      type: System.Object
+      description: To be added.
+    return:
+      type: System.Boolean
+      description: To be added.
+  overload: System.Threading.Monitor.Wait*
+  platform:
+  - net-11
+  - net-20
+  - netcore-10
+- uid: System.Threading.Monitor.Wait(System.Object,System.Int32)
+  id: Wait(System.Object,System.Int32)
+  parent: System.Threading.Monitor
+  langs:
+  - csharp
+  name: Wait(Object,Int32)
+  nameWithType: Monitor.Wait(Object,Int32)
+  fullName: System.Threading.Monitor.Wait(Object,Int32)
+  type: Method
+  assemblies:
+  - mscorlib
+  namespace: System.Threading
+  summary: To be added.
+  remarks: To be added.
+  syntax:
+    content: public static bool Wait (object obj, int millisecondsTimeout);
+    parameters:
+    - id: obj
+      type: System.Object
+      description: To be added.
+    - id: millisecondsTimeout
+      type: System.Int32
+      description: To be added.
+    return:
+      type: System.Boolean
+      description: To be added.
+  overload: System.Threading.Monitor.Wait*
+  platform:
+  - net-11
+  - net-20
+  - netcore-10
+- uid: System.Threading.Monitor.Wait(System.Object,System.TimeSpan)
+  id: Wait(System.Object,System.TimeSpan)
+  parent: System.Threading.Monitor
+  langs:
+  - csharp
+  name: Wait(Object,TimeSpan)
+  nameWithType: Monitor.Wait(Object,TimeSpan)
+  fullName: System.Threading.Monitor.Wait(Object,TimeSpan)
+  type: Method
+  assemblies:
+  - mscorlib
+  namespace: System.Threading
+  summary: To be added.
+  remarks: To be added.
+  syntax:
+    content: public static bool Wait (object obj, TimeSpan timeout);
+    parameters:
+    - id: obj
+      type: System.Object
+      description: To be added.
+    - id: timeout
+      type: System.TimeSpan
+      description: To be added.
+    return:
+      type: System.Boolean
+      description: To be added.
+  overload: System.Threading.Monitor.Wait*
+  platform:
+  - net-11
+  - net-20
+  - netcore-10
+- uid: System.Threading.Monitor.Wait(System.Object,System.Int32,System.Boolean)
+  id: Wait(System.Object,System.Int32,System.Boolean)
+  parent: System.Threading.Monitor
+  langs:
+  - csharp
+  name: Wait(Object,Int32,Boolean)
+  nameWithType: Monitor.Wait(Object,Int32,Boolean)
+  fullName: System.Threading.Monitor.Wait(Object,Int32,Boolean)
+  type: Method
+  assemblies:
+  - mscorlib
+  namespace: System.Threading
+  summary: To be added.
+  remarks: To be added.
+  syntax:
+    content: public static bool Wait (object obj, int millisecondsTimeout, bool exitContext);
+    parameters:
+    - id: obj
+      type: System.Object
+      description: To be added.
+    - id: millisecondsTimeout
+      type: System.Int32
+      description: To be added.
+    - id: exitContext
+      type: System.Boolean
+      description: To be added.
+    return:
+      type: System.Boolean
+      description: To be added.
+  overload: System.Threading.Monitor.Wait*
+  platform:
+  - net-11
+  - net-20
+  - netcore-10
+- uid: System.Threading.Monitor.Wait(System.Object,System.TimeSpan,System.Boolean)
+  id: Wait(System.Object,System.TimeSpan,System.Boolean)
+  parent: System.Threading.Monitor
+  langs:
+  - csharp
+  name: Wait(Object,TimeSpan,Boolean)
+  nameWithType: Monitor.Wait(Object,TimeSpan,Boolean)
+  fullName: System.Threading.Monitor.Wait(Object,TimeSpan,Boolean)
+  type: Method
+  assemblies:
+  - mscorlib
+  namespace: System.Threading
+  summary: To be added.
+  remarks: To be added.
+  syntax:
+    content: public static bool Wait (object obj, TimeSpan timeout, bool exitContext);
+    parameters:
+    - id: obj
+      type: System.Object
+      description: To be added.
+    - id: timeout
+      type: System.TimeSpan
+      description: To be added.
+    - id: exitContext
+      type: System.Boolean
+      description: To be added.
+    return:
+      type: System.Boolean
+      description: To be added.
+  overload: System.Threading.Monitor.Wait*
+  platform:
+  - net-11
+  - net-20
+  - netcore-10
+references:
+- uid: System.Object
+  isExternal: false
+  name: System.Object
+- uid: System.Threading.Monitor.Enter(System.Object)
+  parent: System.Threading.Monitor
+  isExternal: false
+  name: Enter(Object)
+  nameWithType: Monitor.Enter(Object)
+  fullName: System.Threading.Monitor.Enter(Object)
+- uid: System.Object
+  parent: System
+  isExternal: false
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Threading.Monitor.Enter(System.Object,System.Boolean@)
+  parent: System.Threading.Monitor
+  isExternal: false
+  name: Enter(Object,Boolean)
+  nameWithType: Monitor.Enter(Object,Boolean)
+  fullName: System.Threading.Monitor.Enter(Object,Boolean)
+- uid: System.Object
+  parent: System
+  isExternal: false
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Boolean
+  parent: System
+  isExternal: false
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: System.Threading.Monitor.Exit(System.Object)
+  parent: System.Threading.Monitor
+  isExternal: false
+  name: Exit(Object)
+  nameWithType: Monitor.Exit(Object)
+  fullName: System.Threading.Monitor.Exit(Object)
+- uid: System.Object
+  parent: System
+  isExternal: false
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Threading.Monitor.IsEntered(System.Object)
+  parent: System.Threading.Monitor
+  isExternal: false
+  name: IsEntered(Object)
+  nameWithType: Monitor.IsEntered(Object)
+  fullName: System.Threading.Monitor.IsEntered(Object)
+- uid: System.Boolean
+  parent: System
+  isExternal: false
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: System.Object
+  parent: System
+  isExternal: false
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Threading.Monitor.Pulse(System.Object)
+  parent: System.Threading.Monitor
+  isExternal: false
+  name: Pulse(Object)
+  nameWithType: Monitor.Pulse(Object)
+  fullName: System.Threading.Monitor.Pulse(Object)
+- uid: System.Object
+  parent: System
+  isExternal: false
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Threading.Monitor.PulseAll(System.Object)
+  parent: System.Threading.Monitor
+  isExternal: false
+  name: PulseAll(Object)
+  nameWithType: Monitor.PulseAll(Object)
+  fullName: System.Threading.Monitor.PulseAll(Object)
+- uid: System.Object
+  parent: System
+  isExternal: false
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Threading.Monitor.TryEnter(System.Object)
+  parent: System.Threading.Monitor
+  isExternal: false
+  name: TryEnter(Object)
+  nameWithType: Monitor.TryEnter(Object)
+  fullName: System.Threading.Monitor.TryEnter(Object)
+- uid: System.Boolean
+  parent: System
+  isExternal: false
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: System.Object
+  parent: System
+  isExternal: false
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Threading.Monitor.TryEnter(System.Object,System.Boolean@)
+  parent: System.Threading.Monitor
+  isExternal: false
+  name: TryEnter(Object,Boolean)
+  nameWithType: Monitor.TryEnter(Object,Boolean)
+  fullName: System.Threading.Monitor.TryEnter(Object,Boolean)
+- uid: System.Object
+  parent: System
+  isExternal: false
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Boolean
+  parent: System
+  isExternal: false
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: System.Threading.Monitor.TryEnter(System.Object,System.Int32)
+  parent: System.Threading.Monitor
+  isExternal: false
+  name: TryEnter(Object,Int32)
+  nameWithType: Monitor.TryEnter(Object,Int32)
+  fullName: System.Threading.Monitor.TryEnter(Object,Int32)
+- uid: System.Boolean
+  parent: System
+  isExternal: false
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: System.Object
+  parent: System
+  isExternal: false
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Int32
+  parent: System
+  isExternal: false
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: System.Threading.Monitor.TryEnter(System.Object,System.TimeSpan)
+  parent: System.Threading.Monitor
+  isExternal: false
+  name: TryEnter(Object,TimeSpan)
+  nameWithType: Monitor.TryEnter(Object,TimeSpan)
+  fullName: System.Threading.Monitor.TryEnter(Object,TimeSpan)
+- uid: System.Boolean
+  parent: System
+  isExternal: false
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: System.Object
+  parent: System
+  isExternal: false
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.TimeSpan
+  parent: System
+  isExternal: false
+  name: TimeSpan
+  nameWithType: TimeSpan
+  fullName: System.TimeSpan
+- uid: System.Threading.Monitor.TryEnter(System.Object,System.Int32,System.Boolean@)
+  parent: System.Threading.Monitor
+  isExternal: false
+  name: TryEnter(Object,Int32,Boolean)
+  nameWithType: Monitor.TryEnter(Object,Int32,Boolean)
+  fullName: System.Threading.Monitor.TryEnter(Object,Int32,Boolean)
+- uid: System.Object
+  parent: System
+  isExternal: false
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Int32
+  parent: System
+  isExternal: false
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: System.Boolean
+  parent: System
+  isExternal: false
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: System.Threading.Monitor.TryEnter(System.Object,System.TimeSpan,System.Boolean@)
+  parent: System.Threading.Monitor
+  isExternal: false
+  name: TryEnter(Object,TimeSpan,Boolean)
+  nameWithType: Monitor.TryEnter(Object,TimeSpan,Boolean)
+  fullName: System.Threading.Monitor.TryEnter(Object,TimeSpan,Boolean)
+- uid: System.Object
+  parent: System
+  isExternal: false
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.TimeSpan
+  parent: System
+  isExternal: false
+  name: TimeSpan
+  nameWithType: TimeSpan
+  fullName: System.TimeSpan
+- uid: System.Boolean
+  parent: System
+  isExternal: false
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: System.Threading.Monitor.Wait(System.Object)
+  parent: System.Threading.Monitor
+  isExternal: false
+  name: Wait(Object)
+  nameWithType: Monitor.Wait(Object)
+  fullName: System.Threading.Monitor.Wait(Object)
+- uid: System.Boolean
+  parent: System
+  isExternal: false
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: System.Object
+  parent: System
+  isExternal: false
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Threading.Monitor.Wait(System.Object,System.Int32)
+  parent: System.Threading.Monitor
+  isExternal: false
+  name: Wait(Object,Int32)
+  nameWithType: Monitor.Wait(Object,Int32)
+  fullName: System.Threading.Monitor.Wait(Object,Int32)
+- uid: System.Boolean
+  parent: System
+  isExternal: false
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: System.Object
+  parent: System
+  isExternal: false
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Int32
+  parent: System
+  isExternal: false
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: System.Threading.Monitor.Wait(System.Object,System.TimeSpan)
+  parent: System.Threading.Monitor
+  isExternal: false
+  name: Wait(Object,TimeSpan)
+  nameWithType: Monitor.Wait(Object,TimeSpan)
+  fullName: System.Threading.Monitor.Wait(Object,TimeSpan)
+- uid: System.Boolean
+  parent: System
+  isExternal: false
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: System.Object
+  parent: System
+  isExternal: false
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.TimeSpan
+  parent: System
+  isExternal: false
+  name: TimeSpan
+  nameWithType: TimeSpan
+  fullName: System.TimeSpan
+- uid: System.Threading.Monitor.Wait(System.Object,System.Int32,System.Boolean)
+  parent: System.Threading.Monitor
+  isExternal: false
+  name: Wait(Object,Int32,Boolean)
+  nameWithType: Monitor.Wait(Object,Int32,Boolean)
+  fullName: System.Threading.Monitor.Wait(Object,Int32,Boolean)
+- uid: System.Boolean
+  parent: System
+  isExternal: false
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: System.Object
+  parent: System
+  isExternal: false
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Int32
+  parent: System
+  isExternal: false
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: System.Boolean
+  parent: System
+  isExternal: false
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: System.Threading.Monitor.Wait(System.Object,System.TimeSpan,System.Boolean)
+  parent: System.Threading.Monitor
+  isExternal: false
+  name: Wait(Object,TimeSpan,Boolean)
+  nameWithType: Monitor.Wait(Object,TimeSpan,Boolean)
+  fullName: System.Threading.Monitor.Wait(Object,TimeSpan,Boolean)
+- uid: System.Boolean
+  parent: System
+  isExternal: false
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: System.Object
+  parent: System
+  isExternal: false
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.TimeSpan
+  parent: System
+  isExternal: false
+  name: TimeSpan
+  nameWithType: TimeSpan
+  fullName: System.TimeSpan
+- uid: System.Boolean
+  parent: System
+  isExternal: false
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: System.Threading.Monitor.Enter*
+  parent: System.Threading.Monitor
+  isExternal: false
+  name: Enter
+  nameWithType: Monitor.Enter
+- uid: System.Threading.Monitor.TryEnter*
+  parent: System.Threading.Monitor
+  isExternal: false
+  name: TryEnter
+  nameWithType: Monitor.TryEnter
+- uid: System.Threading.Monitor.Wait*
+  parent: System.Threading.Monitor
+  isExternal: false
+  name: Wait
+  nameWithType: Monitor.Wait

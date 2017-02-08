@@ -1,0 +1,426 @@
+### YamlMime:ManagedReference
+items:
+- uid: System.ArgumentOutOfRangeException
+  id: ArgumentOutOfRangeException
+  children:
+  - System.ArgumentOutOfRangeException.#ctor
+  - System.ArgumentOutOfRangeException.#ctor(System.String)
+  - System.ArgumentOutOfRangeException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
+  - System.ArgumentOutOfRangeException.#ctor(System.String,System.Exception)
+  - System.ArgumentOutOfRangeException.#ctor(System.String,System.String)
+  - System.ArgumentOutOfRangeException.#ctor(System.String,System.Object,System.String)
+  - System.ArgumentOutOfRangeException.ActualValue
+  - System.ArgumentOutOfRangeException.GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
+  - System.ArgumentOutOfRangeException.Message
+  langs:
+  - csharp
+  name: ArgumentOutOfRangeException
+  nameWithType: ArgumentOutOfRangeException
+  fullName: System.ArgumentOutOfRangeException
+  type: Class
+  summary: To be added.
+  remarks: To be added.
+  syntax:
+    content: >-
+      [System.Runtime.InteropServices.ComVisible(true)]
+
+      public class ArgumentOutOfRangeException : ArgumentException
+  inheritance:
+  - System.Object
+  - System.Exception
+  - System.SystemException
+  - System.ArgumentException
+  implements: []
+  inheritedMembers:
+  - System.ArgumentException.ParamName
+  - System.Exception.Data
+  - System.Exception.GetBaseException
+  - System.Exception.GetType
+  - System.Exception.HelpLink
+  - System.Exception.HResult
+  - System.Exception.InnerException
+  - System.Exception.SerializeObjectState
+  - System.Exception.Source
+  - System.Exception.StackTrace
+  - System.Exception.TargetSite
+  - System.Exception.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  platform:
+  - net-11
+  - net-20
+  - netcore-10
+- uid: System.ArgumentOutOfRangeException.#ctor
+  id: '#ctor'
+  parent: System.ArgumentOutOfRangeException
+  langs:
+  - csharp
+  name: ArgumentOutOfRangeException()
+  nameWithType: ArgumentOutOfRangeException.ArgumentOutOfRangeException()
+  fullName: System.ArgumentOutOfRangeException.ArgumentOutOfRangeException()
+  type: Constructor
+  assemblies:
+  - mscorlib
+  namespace: System
+  summary: To be added.
+  remarks: To be added.
+  syntax:
+    content: public ArgumentOutOfRangeException ();
+    parameters: []
+  platform:
+  - net-11
+  - net-20
+  - netcore-10
+- uid: System.ArgumentOutOfRangeException.#ctor(System.String)
+  id: '#ctor(System.String)'
+  parent: System.ArgumentOutOfRangeException
+  langs:
+  - csharp
+  name: ArgumentOutOfRangeException(String)
+  nameWithType: ArgumentOutOfRangeException.ArgumentOutOfRangeException(String)
+  fullName: System.ArgumentOutOfRangeException.ArgumentOutOfRangeException(String)
+  type: Constructor
+  assemblies:
+  - mscorlib
+  namespace: System
+  summary: To be added.
+  remarks: To be added.
+  syntax:
+    content: public ArgumentOutOfRangeException (string paramName);
+    parameters:
+    - id: paramName
+      type: System.String
+      description: To be added.
+  platform:
+  - net-11
+  - net-20
+  - netcore-10
+- uid: System.ArgumentOutOfRangeException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
+  id: '#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)'
+  parent: System.ArgumentOutOfRangeException
+  langs:
+  - csharp
+  name: ArgumentOutOfRangeException(SerializationInfo,StreamingContext)
+  nameWithType: ArgumentOutOfRangeException.ArgumentOutOfRangeException(SerializationInfo,StreamingContext)
+  fullName: System.ArgumentOutOfRangeException.ArgumentOutOfRangeException(SerializationInfo,StreamingContext)
+  type: Constructor
+  assemblies:
+  - mscorlib
+  namespace: System
+  summary: To be added.
+  remarks: To be added.
+  syntax:
+    content: protected ArgumentOutOfRangeException (System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context);
+    parameters:
+    - id: info
+      type: System.Runtime.Serialization.SerializationInfo
+      description: To be added.
+    - id: context
+      type: System.Runtime.Serialization.StreamingContext
+      description: To be added.
+  platform:
+  - net-11
+  - net-20
+  - netcore-10
+- uid: System.ArgumentOutOfRangeException.#ctor(System.String,System.Exception)
+  id: '#ctor(System.String,System.Exception)'
+  parent: System.ArgumentOutOfRangeException
+  langs:
+  - csharp
+  name: ArgumentOutOfRangeException(String,Exception)
+  nameWithType: ArgumentOutOfRangeException.ArgumentOutOfRangeException(String,Exception)
+  fullName: System.ArgumentOutOfRangeException.ArgumentOutOfRangeException(String,Exception)
+  type: Constructor
+  assemblies:
+  - mscorlib
+  namespace: System
+  summary: To be added.
+  remarks: To be added.
+  syntax:
+    content: public ArgumentOutOfRangeException (string message, Exception innerException);
+    parameters:
+    - id: message
+      type: System.String
+      description: To be added.
+    - id: innerException
+      type: System.Exception
+      description: To be added.
+  platform:
+  - net-11
+  - net-20
+  - netcore-10
+- uid: System.ArgumentOutOfRangeException.#ctor(System.String,System.String)
+  id: '#ctor(System.String,System.String)'
+  parent: System.ArgumentOutOfRangeException
+  langs:
+  - csharp
+  name: ArgumentOutOfRangeException(String,String)
+  nameWithType: ArgumentOutOfRangeException.ArgumentOutOfRangeException(String,String)
+  fullName: System.ArgumentOutOfRangeException.ArgumentOutOfRangeException(String,String)
+  type: Constructor
+  assemblies:
+  - mscorlib
+  namespace: System
+  summary: To be added.
+  remarks: To be added.
+  syntax:
+    content: public ArgumentOutOfRangeException (string paramName, string message);
+    parameters:
+    - id: paramName
+      type: System.String
+      description: To be added.
+    - id: message
+      type: System.String
+      description: To be added.
+  platform:
+  - net-11
+  - net-20
+  - netcore-10
+- uid: System.ArgumentOutOfRangeException.#ctor(System.String,System.Object,System.String)
+  id: '#ctor(System.String,System.Object,System.String)'
+  parent: System.ArgumentOutOfRangeException
+  langs:
+  - csharp
+  name: ArgumentOutOfRangeException(String,Object,String)
+  nameWithType: ArgumentOutOfRangeException.ArgumentOutOfRangeException(String,Object,String)
+  fullName: System.ArgumentOutOfRangeException.ArgumentOutOfRangeException(String,Object,String)
+  type: Constructor
+  assemblies:
+  - mscorlib
+  namespace: System
+  summary: To be added.
+  remarks: To be added.
+  syntax:
+    content: public ArgumentOutOfRangeException (string paramName, object actualValue, string message);
+    parameters:
+    - id: paramName
+      type: System.String
+      description: To be added.
+    - id: actualValue
+      type: System.Object
+      description: To be added.
+    - id: message
+      type: System.String
+      description: To be added.
+  platform:
+  - net-11
+  - net-20
+  - netcore-10
+- uid: System.ArgumentOutOfRangeException.ActualValue
+  id: ActualValue
+  parent: System.ArgumentOutOfRangeException
+  langs:
+  - csharp
+  name: ActualValue
+  nameWithType: ArgumentOutOfRangeException.ActualValue
+  fullName: System.ArgumentOutOfRangeException.ActualValue
+  type: Property
+  assemblies:
+  - mscorlib
+  namespace: System
+  summary: To be added.
+  remarks: To be added.
+  syntax:
+    content: public virtual object ActualValue { get; }
+    return:
+      type: System.Object
+      description: To be added.
+  platform:
+  - net-11
+  - net-20
+  - netcore-10
+- uid: System.ArgumentOutOfRangeException.GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
+  id: GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
+  parent: System.ArgumentOutOfRangeException
+  langs:
+  - csharp
+  name: GetObjectData(SerializationInfo,StreamingContext)
+  nameWithType: ArgumentOutOfRangeException.GetObjectData(SerializationInfo,StreamingContext)
+  fullName: System.ArgumentOutOfRangeException.GetObjectData(SerializationInfo,StreamingContext)
+  type: Method
+  assemblies:
+  - mscorlib
+  namespace: System
+  summary: To be added.
+  remarks: To be added.
+  syntax:
+    content: public override void GetObjectData (System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context);
+    parameters:
+    - id: info
+      type: System.Runtime.Serialization.SerializationInfo
+      description: To be added.
+    - id: context
+      type: System.Runtime.Serialization.StreamingContext
+      description: To be added.
+  platform:
+  - net-11
+  - net-20
+  - netcore-10
+- uid: System.ArgumentOutOfRangeException.Message
+  id: Message
+  parent: System.ArgumentOutOfRangeException
+  langs:
+  - csharp
+  name: Message
+  nameWithType: ArgumentOutOfRangeException.Message
+  fullName: System.ArgumentOutOfRangeException.Message
+  type: Property
+  assemblies:
+  - mscorlib
+  namespace: System
+  summary: To be added.
+  remarks: To be added.
+  syntax:
+    content: public override string Message { get; }
+    return:
+      type: System.String
+      description: To be added.
+  platform:
+  - net-11
+  - net-20
+  - netcore-10
+references:
+- uid: System.ArgumentException
+  isExternal: false
+  name: System.ArgumentException
+- uid: System.ArgumentOutOfRangeException.#ctor
+  parent: System.ArgumentOutOfRangeException
+  isExternal: false
+  name: ArgumentOutOfRangeException()
+  nameWithType: ArgumentOutOfRangeException.ArgumentOutOfRangeException()
+  fullName: System.ArgumentOutOfRangeException.ArgumentOutOfRangeException()
+- uid: System.ArgumentOutOfRangeException.#ctor(System.String)
+  parent: System.ArgumentOutOfRangeException
+  isExternal: false
+  name: ArgumentOutOfRangeException(String)
+  nameWithType: ArgumentOutOfRangeException.ArgumentOutOfRangeException(String)
+  fullName: System.ArgumentOutOfRangeException.ArgumentOutOfRangeException(String)
+- uid: System.String
+  parent: System
+  isExternal: false
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System.ArgumentOutOfRangeException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
+  parent: System.ArgumentOutOfRangeException
+  isExternal: false
+  name: ArgumentOutOfRangeException(SerializationInfo,StreamingContext)
+  nameWithType: ArgumentOutOfRangeException.ArgumentOutOfRangeException(SerializationInfo,StreamingContext)
+  fullName: System.ArgumentOutOfRangeException.ArgumentOutOfRangeException(SerializationInfo,StreamingContext)
+- uid: System.Runtime.Serialization.SerializationInfo
+  parent: System.Runtime.Serialization
+  isExternal: false
+  name: SerializationInfo
+  nameWithType: SerializationInfo
+  fullName: System.Runtime.Serialization.SerializationInfo
+- uid: System.Runtime.Serialization.StreamingContext
+  parent: System.Runtime.Serialization
+  isExternal: false
+  name: StreamingContext
+  nameWithType: StreamingContext
+  fullName: System.Runtime.Serialization.StreamingContext
+- uid: System.ArgumentOutOfRangeException.#ctor(System.String,System.Exception)
+  parent: System.ArgumentOutOfRangeException
+  isExternal: false
+  name: ArgumentOutOfRangeException(String,Exception)
+  nameWithType: ArgumentOutOfRangeException.ArgumentOutOfRangeException(String,Exception)
+  fullName: System.ArgumentOutOfRangeException.ArgumentOutOfRangeException(String,Exception)
+- uid: System.String
+  parent: System
+  isExternal: false
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System.Exception
+  parent: System
+  isExternal: false
+  name: Exception
+  nameWithType: Exception
+  fullName: System.Exception
+- uid: System.ArgumentOutOfRangeException.#ctor(System.String,System.String)
+  parent: System.ArgumentOutOfRangeException
+  isExternal: false
+  name: ArgumentOutOfRangeException(String,String)
+  nameWithType: ArgumentOutOfRangeException.ArgumentOutOfRangeException(String,String)
+  fullName: System.ArgumentOutOfRangeException.ArgumentOutOfRangeException(String,String)
+- uid: System.String
+  parent: System
+  isExternal: false
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System.String
+  parent: System
+  isExternal: false
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System.ArgumentOutOfRangeException.#ctor(System.String,System.Object,System.String)
+  parent: System.ArgumentOutOfRangeException
+  isExternal: false
+  name: ArgumentOutOfRangeException(String,Object,String)
+  nameWithType: ArgumentOutOfRangeException.ArgumentOutOfRangeException(String,Object,String)
+  fullName: System.ArgumentOutOfRangeException.ArgumentOutOfRangeException(String,Object,String)
+- uid: System.String
+  parent: System
+  isExternal: false
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System.Object
+  parent: System
+  isExternal: false
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.String
+  parent: System
+  isExternal: false
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System.ArgumentOutOfRangeException.ActualValue
+  parent: System.ArgumentOutOfRangeException
+  isExternal: false
+  name: ActualValue
+  nameWithType: ArgumentOutOfRangeException.ActualValue
+  fullName: System.ArgumentOutOfRangeException.ActualValue
+- uid: System.Object
+  parent: System
+  isExternal: false
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.ArgumentOutOfRangeException.GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
+  parent: System.ArgumentOutOfRangeException
+  isExternal: false
+  name: GetObjectData(SerializationInfo,StreamingContext)
+  nameWithType: ArgumentOutOfRangeException.GetObjectData(SerializationInfo,StreamingContext)
+  fullName: System.ArgumentOutOfRangeException.GetObjectData(SerializationInfo,StreamingContext)
+- uid: System.Runtime.Serialization.SerializationInfo
+  parent: System.Runtime.Serialization
+  isExternal: false
+  name: SerializationInfo
+  nameWithType: SerializationInfo
+  fullName: System.Runtime.Serialization.SerializationInfo
+- uid: System.Runtime.Serialization.StreamingContext
+  parent: System.Runtime.Serialization
+  isExternal: false
+  name: StreamingContext
+  nameWithType: StreamingContext
+  fullName: System.Runtime.Serialization.StreamingContext
+- uid: System.ArgumentOutOfRangeException.Message
+  parent: System.ArgumentOutOfRangeException
+  isExternal: false
+  name: Message
+  nameWithType: ArgumentOutOfRangeException.Message
+  fullName: System.ArgumentOutOfRangeException.Message
+- uid: System.String
+  parent: System
+  isExternal: false
+  name: String
+  nameWithType: String
+  fullName: System.String

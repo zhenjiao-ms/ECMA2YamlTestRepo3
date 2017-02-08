@@ -1,0 +1,425 @@
+### YamlMime:ManagedReference
+items:
+- uid: System.Threading.SpinLock
+  id: SpinLock
+  children:
+  - System.Threading.SpinLock.#ctor(System.Boolean)
+  - System.Threading.SpinLock.Enter(System.Boolean@)
+  - System.Threading.SpinLock.Exit
+  - System.Threading.SpinLock.Exit(System.Boolean)
+  - System.Threading.SpinLock.IsHeld
+  - System.Threading.SpinLock.IsHeldByCurrentThread
+  - System.Threading.SpinLock.IsThreadOwnerTrackingEnabled
+  - System.Threading.SpinLock.TryEnter(System.Boolean@)
+  - System.Threading.SpinLock.TryEnter(System.Int32,System.Boolean@)
+  - System.Threading.SpinLock.TryEnter(System.TimeSpan,System.Boolean@)
+  langs:
+  - csharp
+  name: SpinLock
+  nameWithType: SpinLock
+  fullName: System.Threading.SpinLock
+  type: Struct
+  summary: To be added.
+  remarks: To be added.
+  syntax:
+    content: >-
+      [System.Diagnostics.DebuggerDisplay("IsHeld = {IsHeld}")]
+
+      [System.Diagnostics.DebuggerTypeProxy(typeof(System.Threading.SpinLock/SystemThreading_SpinLockDebugView))]
+
+      [System.Runtime.InteropServices.ComVisible(false)]
+
+      public struct SpinLock
+  inheritance:
+  - System.Object
+  - System.ValueType
+  implements: []
+  platform:
+  - net-11
+  - net-20
+  - netcore-10
+- uid: System.Threading.SpinLock.#ctor(System.Boolean)
+  id: '#ctor(System.Boolean)'
+  parent: System.Threading.SpinLock
+  langs:
+  - csharp
+  name: SpinLock(Boolean)
+  nameWithType: SpinLock.SpinLock(Boolean)
+  fullName: System.Threading.SpinLock.SpinLock(Boolean)
+  type: Constructor
+  assemblies:
+  - mscorlib
+  namespace: System.Threading
+  summary: To be added.
+  remarks: To be added.
+  syntax:
+    content: public SpinLock (bool enableThreadOwnerTracking);
+    parameters:
+    - id: enableThreadOwnerTracking
+      type: System.Boolean
+      description: To be added.
+  platform:
+  - net-11
+  - net-20
+  - netcore-10
+- uid: System.Threading.SpinLock.Enter(System.Boolean@)
+  id: Enter(System.Boolean@)
+  parent: System.Threading.SpinLock
+  langs:
+  - csharp
+  name: Enter(Boolean)
+  nameWithType: SpinLock.Enter(Boolean)
+  fullName: System.Threading.SpinLock.Enter(Boolean)
+  type: Method
+  assemblies:
+  - mscorlib
+  namespace: System.Threading
+  summary: To be added.
+  remarks: To be added.
+  syntax:
+    content: public void Enter (ref bool lockTaken);
+    parameters:
+    - id: lockTaken
+      type: System.Boolean
+      description: To be added.
+  platform:
+  - net-11
+  - net-20
+  - netcore-10
+- uid: System.Threading.SpinLock.Exit
+  id: Exit
+  parent: System.Threading.SpinLock
+  langs:
+  - csharp
+  name: Exit()
+  nameWithType: SpinLock.Exit()
+  fullName: System.Threading.SpinLock.Exit()
+  type: Method
+  assemblies:
+  - mscorlib
+  namespace: System.Threading
+  summary: To be added.
+  remarks: To be added.
+  syntax:
+    content: public void Exit ();
+    parameters: []
+  overload: System.Threading.SpinLock.Exit*
+  platform:
+  - net-11
+  - net-20
+  - netcore-10
+- uid: System.Threading.SpinLock.Exit(System.Boolean)
+  id: Exit(System.Boolean)
+  parent: System.Threading.SpinLock
+  langs:
+  - csharp
+  name: Exit(Boolean)
+  nameWithType: SpinLock.Exit(Boolean)
+  fullName: System.Threading.SpinLock.Exit(Boolean)
+  type: Method
+  assemblies:
+  - mscorlib
+  namespace: System.Threading
+  summary: To be added.
+  remarks: To be added.
+  syntax:
+    content: public void Exit (bool useMemoryBarrier);
+    parameters:
+    - id: useMemoryBarrier
+      type: System.Boolean
+      description: To be added.
+  overload: System.Threading.SpinLock.Exit*
+  platform:
+  - net-11
+  - net-20
+  - netcore-10
+- uid: System.Threading.SpinLock.IsHeld
+  id: IsHeld
+  parent: System.Threading.SpinLock
+  langs:
+  - csharp
+  name: IsHeld
+  nameWithType: SpinLock.IsHeld
+  fullName: System.Threading.SpinLock.IsHeld
+  type: Property
+  assemblies:
+  - mscorlib
+  namespace: System.Threading
+  summary: To be added.
+  remarks: To be added.
+  syntax:
+    content: public bool IsHeld { get; }
+    return:
+      type: System.Boolean
+      description: To be added.
+  platform:
+  - net-11
+  - net-20
+  - netcore-10
+- uid: System.Threading.SpinLock.IsHeldByCurrentThread
+  id: IsHeldByCurrentThread
+  parent: System.Threading.SpinLock
+  langs:
+  - csharp
+  name: IsHeldByCurrentThread
+  nameWithType: SpinLock.IsHeldByCurrentThread
+  fullName: System.Threading.SpinLock.IsHeldByCurrentThread
+  type: Property
+  assemblies:
+  - mscorlib
+  namespace: System.Threading
+  summary: To be added.
+  remarks: To be added.
+  syntax:
+    content: public bool IsHeldByCurrentThread { get; }
+    return:
+      type: System.Boolean
+      description: To be added.
+  platform:
+  - net-11
+  - net-20
+  - netcore-10
+- uid: System.Threading.SpinLock.IsThreadOwnerTrackingEnabled
+  id: IsThreadOwnerTrackingEnabled
+  parent: System.Threading.SpinLock
+  langs:
+  - csharp
+  name: IsThreadOwnerTrackingEnabled
+  nameWithType: SpinLock.IsThreadOwnerTrackingEnabled
+  fullName: System.Threading.SpinLock.IsThreadOwnerTrackingEnabled
+  type: Property
+  assemblies:
+  - mscorlib
+  namespace: System.Threading
+  summary: To be added.
+  remarks: To be added.
+  syntax:
+    content: public bool IsThreadOwnerTrackingEnabled { get; }
+    return:
+      type: System.Boolean
+      description: To be added.
+  platform:
+  - net-11
+  - net-20
+  - netcore-10
+- uid: System.Threading.SpinLock.TryEnter(System.Boolean@)
+  id: TryEnter(System.Boolean@)
+  parent: System.Threading.SpinLock
+  langs:
+  - csharp
+  name: TryEnter(Boolean)
+  nameWithType: SpinLock.TryEnter(Boolean)
+  fullName: System.Threading.SpinLock.TryEnter(Boolean)
+  type: Method
+  assemblies:
+  - mscorlib
+  namespace: System.Threading
+  summary: To be added.
+  remarks: To be added.
+  syntax:
+    content: public void TryEnter (ref bool lockTaken);
+    parameters:
+    - id: lockTaken
+      type: System.Boolean
+      description: To be added.
+  overload: System.Threading.SpinLock.TryEnter*
+  platform:
+  - net-11
+  - net-20
+  - netcore-10
+- uid: System.Threading.SpinLock.TryEnter(System.Int32,System.Boolean@)
+  id: TryEnter(System.Int32,System.Boolean@)
+  parent: System.Threading.SpinLock
+  langs:
+  - csharp
+  name: TryEnter(Int32,Boolean)
+  nameWithType: SpinLock.TryEnter(Int32,Boolean)
+  fullName: System.Threading.SpinLock.TryEnter(Int32,Boolean)
+  type: Method
+  assemblies:
+  - mscorlib
+  namespace: System.Threading
+  summary: To be added.
+  remarks: To be added.
+  syntax:
+    content: public void TryEnter (int millisecondsTimeout, ref bool lockTaken);
+    parameters:
+    - id: millisecondsTimeout
+      type: System.Int32
+      description: To be added.
+    - id: lockTaken
+      type: System.Boolean
+      description: To be added.
+  overload: System.Threading.SpinLock.TryEnter*
+  platform:
+  - net-11
+  - net-20
+  - netcore-10
+- uid: System.Threading.SpinLock.TryEnter(System.TimeSpan,System.Boolean@)
+  id: TryEnter(System.TimeSpan,System.Boolean@)
+  parent: System.Threading.SpinLock
+  langs:
+  - csharp
+  name: TryEnter(TimeSpan,Boolean)
+  nameWithType: SpinLock.TryEnter(TimeSpan,Boolean)
+  fullName: System.Threading.SpinLock.TryEnter(TimeSpan,Boolean)
+  type: Method
+  assemblies:
+  - mscorlib
+  namespace: System.Threading
+  summary: To be added.
+  remarks: To be added.
+  syntax:
+    content: public void TryEnter (TimeSpan timeout, ref bool lockTaken);
+    parameters:
+    - id: timeout
+      type: System.TimeSpan
+      description: To be added.
+    - id: lockTaken
+      type: System.Boolean
+      description: To be added.
+  overload: System.Threading.SpinLock.TryEnter*
+  platform:
+  - net-11
+  - net-20
+  - netcore-10
+references:
+- uid: System.ValueType
+  isExternal: false
+  name: System.ValueType
+- uid: System.Threading.SpinLock.#ctor(System.Boolean)
+  parent: System.Threading.SpinLock
+  isExternal: false
+  name: SpinLock(Boolean)
+  nameWithType: SpinLock.SpinLock(Boolean)
+  fullName: System.Threading.SpinLock.SpinLock(Boolean)
+- uid: System.Boolean
+  parent: System
+  isExternal: false
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: System.Threading.SpinLock.Enter(System.Boolean@)
+  parent: System.Threading.SpinLock
+  isExternal: false
+  name: Enter(Boolean)
+  nameWithType: SpinLock.Enter(Boolean)
+  fullName: System.Threading.SpinLock.Enter(Boolean)
+- uid: System.Boolean
+  parent: System
+  isExternal: false
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: System.Threading.SpinLock.Exit
+  parent: System.Threading.SpinLock
+  isExternal: false
+  name: Exit()
+  nameWithType: SpinLock.Exit()
+  fullName: System.Threading.SpinLock.Exit()
+- uid: System.Threading.SpinLock.Exit(System.Boolean)
+  parent: System.Threading.SpinLock
+  isExternal: false
+  name: Exit(Boolean)
+  nameWithType: SpinLock.Exit(Boolean)
+  fullName: System.Threading.SpinLock.Exit(Boolean)
+- uid: System.Boolean
+  parent: System
+  isExternal: false
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: System.Threading.SpinLock.IsHeld
+  parent: System.Threading.SpinLock
+  isExternal: false
+  name: IsHeld
+  nameWithType: SpinLock.IsHeld
+  fullName: System.Threading.SpinLock.IsHeld
+- uid: System.Boolean
+  parent: System
+  isExternal: false
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: System.Threading.SpinLock.IsHeldByCurrentThread
+  parent: System.Threading.SpinLock
+  isExternal: false
+  name: IsHeldByCurrentThread
+  nameWithType: SpinLock.IsHeldByCurrentThread
+  fullName: System.Threading.SpinLock.IsHeldByCurrentThread
+- uid: System.Boolean
+  parent: System
+  isExternal: false
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: System.Threading.SpinLock.IsThreadOwnerTrackingEnabled
+  parent: System.Threading.SpinLock
+  isExternal: false
+  name: IsThreadOwnerTrackingEnabled
+  nameWithType: SpinLock.IsThreadOwnerTrackingEnabled
+  fullName: System.Threading.SpinLock.IsThreadOwnerTrackingEnabled
+- uid: System.Boolean
+  parent: System
+  isExternal: false
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: System.Threading.SpinLock.TryEnter(System.Boolean@)
+  parent: System.Threading.SpinLock
+  isExternal: false
+  name: TryEnter(Boolean)
+  nameWithType: SpinLock.TryEnter(Boolean)
+  fullName: System.Threading.SpinLock.TryEnter(Boolean)
+- uid: System.Boolean
+  parent: System
+  isExternal: false
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: System.Threading.SpinLock.TryEnter(System.Int32,System.Boolean@)
+  parent: System.Threading.SpinLock
+  isExternal: false
+  name: TryEnter(Int32,Boolean)
+  nameWithType: SpinLock.TryEnter(Int32,Boolean)
+  fullName: System.Threading.SpinLock.TryEnter(Int32,Boolean)
+- uid: System.Int32
+  parent: System
+  isExternal: false
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: System.Boolean
+  parent: System
+  isExternal: false
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: System.Threading.SpinLock.TryEnter(System.TimeSpan,System.Boolean@)
+  parent: System.Threading.SpinLock
+  isExternal: false
+  name: TryEnter(TimeSpan,Boolean)
+  nameWithType: SpinLock.TryEnter(TimeSpan,Boolean)
+  fullName: System.Threading.SpinLock.TryEnter(TimeSpan,Boolean)
+- uid: System.TimeSpan
+  parent: System
+  isExternal: false
+  name: TimeSpan
+  nameWithType: TimeSpan
+  fullName: System.TimeSpan
+- uid: System.Boolean
+  parent: System
+  isExternal: false
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: System.Threading.SpinLock.Exit*
+  parent: System.Threading.SpinLock
+  isExternal: false
+  name: Exit
+  nameWithType: SpinLock.Exit
+- uid: System.Threading.SpinLock.TryEnter*
+  parent: System.Threading.SpinLock
+  isExternal: false
+  name: TryEnter
+  nameWithType: SpinLock.TryEnter

@@ -1,0 +1,652 @@
+### YamlMime:ManagedReference
+items:
+- uid: System.Runtime.InteropServices.GCHandle
+  id: GCHandle
+  children:
+  - System.Runtime.InteropServices.GCHandle.AddrOfPinnedObject
+  - System.Runtime.InteropServices.GCHandle.Alloc(System.Object)
+  - System.Runtime.InteropServices.GCHandle.Alloc(System.Object,System.Runtime.InteropServices.GCHandleType)
+  - System.Runtime.InteropServices.GCHandle.Equals(System.Object)
+  - System.Runtime.InteropServices.GCHandle.Free
+  - System.Runtime.InteropServices.GCHandle.FromIntPtr(System.IntPtr)
+  - System.Runtime.InteropServices.GCHandle.GetHashCode
+  - System.Runtime.InteropServices.GCHandle.IsAllocated
+  - System.Runtime.InteropServices.GCHandle.op_Equality(System.Runtime.InteropServices.GCHandle,System.Runtime.InteropServices.GCHandle)
+  - System.Runtime.InteropServices.GCHandle.op_Explicit(System.IntPtr to System.Runtime.InteropServices.GCHandle)
+  - System.Runtime.InteropServices.GCHandle.op_Explicit(System.Runtime.InteropServices.GCHandle to System.IntPtr)
+  - System.Runtime.InteropServices.GCHandle.op_Inequality(System.Runtime.InteropServices.GCHandle,System.Runtime.InteropServices.GCHandle)
+  - System.Runtime.InteropServices.GCHandle.Target
+  - System.Runtime.InteropServices.GCHandle.ToIntPtr(System.Runtime.InteropServices.GCHandle)
+  langs:
+  - csharp
+  name: GCHandle
+  nameWithType: GCHandle
+  fullName: System.Runtime.InteropServices.GCHandle
+  type: Struct
+  summary: To be added.
+  remarks: To be added.
+  syntax:
+    content: >-
+      [System.Runtime.InteropServices.ComVisible(true)]
+
+      public struct GCHandle
+  inheritance:
+  - System.Object
+  - System.ValueType
+  implements: []
+  platform:
+  - net-11
+  - net-20
+  - netcore-10
+- uid: System.Runtime.InteropServices.GCHandle.AddrOfPinnedObject
+  id: AddrOfPinnedObject
+  parent: System.Runtime.InteropServices.GCHandle
+  langs:
+  - csharp
+  name: AddrOfPinnedObject()
+  nameWithType: GCHandle.AddrOfPinnedObject()
+  fullName: System.Runtime.InteropServices.GCHandle.AddrOfPinnedObject()
+  type: Method
+  assemblies:
+  - mscorlib
+  namespace: System.Runtime.InteropServices
+  summary: To be added.
+  remarks: To be added.
+  syntax:
+    content: public IntPtr AddrOfPinnedObject ();
+    parameters: []
+    return:
+      type: System.IntPtr
+      description: To be added.
+  platform:
+  - net-11
+  - net-20
+  - netcore-10
+- uid: System.Runtime.InteropServices.GCHandle.Alloc(System.Object)
+  id: Alloc(System.Object)
+  parent: System.Runtime.InteropServices.GCHandle
+  langs:
+  - csharp
+  name: Alloc(Object)
+  nameWithType: GCHandle.Alloc(Object)
+  fullName: System.Runtime.InteropServices.GCHandle.Alloc(Object)
+  type: Method
+  assemblies:
+  - mscorlib
+  namespace: System.Runtime.InteropServices
+  summary: To be added.
+  remarks: To be added.
+  syntax:
+    content: public static System.Runtime.InteropServices.GCHandle Alloc (object value);
+    parameters:
+    - id: value
+      type: System.Object
+      description: To be added.
+    return:
+      type: System.Runtime.InteropServices.GCHandle
+      description: To be added.
+  overload: System.Runtime.InteropServices.GCHandle.Alloc*
+  platform:
+  - net-11
+  - net-20
+  - netcore-10
+- uid: System.Runtime.InteropServices.GCHandle.Alloc(System.Object,System.Runtime.InteropServices.GCHandleType)
+  id: Alloc(System.Object,System.Runtime.InteropServices.GCHandleType)
+  parent: System.Runtime.InteropServices.GCHandle
+  langs:
+  - csharp
+  name: Alloc(Object,GCHandleType)
+  nameWithType: GCHandle.Alloc(Object,GCHandleType)
+  fullName: System.Runtime.InteropServices.GCHandle.Alloc(Object,GCHandleType)
+  type: Method
+  assemblies:
+  - mscorlib
+  namespace: System.Runtime.InteropServices
+  summary: To be added.
+  remarks: To be added.
+  syntax:
+    content: public static System.Runtime.InteropServices.GCHandle Alloc (object value, System.Runtime.InteropServices.GCHandleType type);
+    parameters:
+    - id: value
+      type: System.Object
+      description: To be added.
+    - id: type
+      type: System.Runtime.InteropServices.GCHandleType
+      description: To be added.
+    return:
+      type: System.Runtime.InteropServices.GCHandle
+      description: To be added.
+  overload: System.Runtime.InteropServices.GCHandle.Alloc*
+  platform:
+  - net-11
+  - net-20
+  - netcore-10
+- uid: System.Runtime.InteropServices.GCHandle.Equals(System.Object)
+  id: Equals(System.Object)
+  parent: System.Runtime.InteropServices.GCHandle
+  langs:
+  - csharp
+  name: Equals(Object)
+  nameWithType: GCHandle.Equals(Object)
+  fullName: System.Runtime.InteropServices.GCHandle.Equals(Object)
+  type: Method
+  assemblies:
+  - mscorlib
+  namespace: System.Runtime.InteropServices
+  summary: To be added.
+  remarks: To be added.
+  syntax:
+    content: public override bool Equals (object o);
+    parameters:
+    - id: o
+      type: System.Object
+      description: To be added.
+    return:
+      type: System.Boolean
+      description: To be added.
+  platform:
+  - net-11
+  - net-20
+  - netcore-10
+- uid: System.Runtime.InteropServices.GCHandle.Free
+  id: Free
+  parent: System.Runtime.InteropServices.GCHandle
+  langs:
+  - csharp
+  name: Free()
+  nameWithType: GCHandle.Free()
+  fullName: System.Runtime.InteropServices.GCHandle.Free()
+  type: Method
+  assemblies:
+  - mscorlib
+  namespace: System.Runtime.InteropServices
+  summary: To be added.
+  remarks: To be added.
+  syntax:
+    content: public void Free ();
+    parameters: []
+  platform:
+  - net-11
+  - net-20
+  - netcore-10
+- uid: System.Runtime.InteropServices.GCHandle.FromIntPtr(System.IntPtr)
+  id: FromIntPtr(System.IntPtr)
+  parent: System.Runtime.InteropServices.GCHandle
+  langs:
+  - csharp
+  name: FromIntPtr(IntPtr)
+  nameWithType: GCHandle.FromIntPtr(IntPtr)
+  fullName: System.Runtime.InteropServices.GCHandle.FromIntPtr(IntPtr)
+  type: Method
+  assemblies:
+  - mscorlib
+  namespace: System.Runtime.InteropServices
+  summary: To be added.
+  remarks: To be added.
+  syntax:
+    content: public static System.Runtime.InteropServices.GCHandle FromIntPtr (IntPtr value);
+    parameters:
+    - id: value
+      type: System.IntPtr
+      description: To be added.
+    return:
+      type: System.Runtime.InteropServices.GCHandle
+      description: To be added.
+  platform:
+  - net-11
+  - net-20
+  - netcore-10
+- uid: System.Runtime.InteropServices.GCHandle.GetHashCode
+  id: GetHashCode
+  parent: System.Runtime.InteropServices.GCHandle
+  langs:
+  - csharp
+  name: GetHashCode()
+  nameWithType: GCHandle.GetHashCode()
+  fullName: System.Runtime.InteropServices.GCHandle.GetHashCode()
+  type: Method
+  assemblies:
+  - mscorlib
+  namespace: System.Runtime.InteropServices
+  summary: To be added.
+  remarks: To be added.
+  syntax:
+    content: public override int GetHashCode ();
+    parameters: []
+    return:
+      type: System.Int32
+      description: To be added.
+  platform:
+  - net-11
+  - net-20
+  - netcore-10
+- uid: System.Runtime.InteropServices.GCHandle.IsAllocated
+  id: IsAllocated
+  parent: System.Runtime.InteropServices.GCHandle
+  langs:
+  - csharp
+  name: IsAllocated
+  nameWithType: GCHandle.IsAllocated
+  fullName: System.Runtime.InteropServices.GCHandle.IsAllocated
+  type: Property
+  assemblies:
+  - mscorlib
+  namespace: System.Runtime.InteropServices
+  summary: To be added.
+  remarks: To be added.
+  syntax:
+    content: public bool IsAllocated { get; }
+    return:
+      type: System.Boolean
+      description: To be added.
+  platform:
+  - net-11
+  - net-20
+  - netcore-10
+- uid: System.Runtime.InteropServices.GCHandle.op_Equality(System.Runtime.InteropServices.GCHandle,System.Runtime.InteropServices.GCHandle)
+  id: op_Equality(System.Runtime.InteropServices.GCHandle,System.Runtime.InteropServices.GCHandle)
+  parent: System.Runtime.InteropServices.GCHandle
+  langs:
+  - csharp
+  name: op_Equality(GCHandle,GCHandle)
+  nameWithType: GCHandle.op_Equality(GCHandle,GCHandle)
+  fullName: System.Runtime.InteropServices.GCHandle.op_Equality(GCHandle,GCHandle)
+  type: Operator
+  assemblies:
+  - mscorlib
+  namespace: System.Runtime.InteropServices
+  summary: To be added.
+  remarks: To be added.
+  syntax:
+    content: public static bool op_Equality (System.Runtime.InteropServices.GCHandle a, System.Runtime.InteropServices.GCHandle b);
+    parameters:
+    - id: a
+      type: System.Runtime.InteropServices.GCHandle
+      description: To be added.
+    - id: b
+      type: System.Runtime.InteropServices.GCHandle
+      description: To be added.
+    return:
+      type: System.Boolean
+      description: To be added.
+  platform:
+  - net-11
+  - net-20
+  - netcore-10
+- uid: System.Runtime.InteropServices.GCHandle.op_Explicit(System.IntPtr to System.Runtime.InteropServices.GCHandle)
+  id: op_Explicit(System.IntPtr to System.Runtime.InteropServices.GCHandle)
+  parent: System.Runtime.InteropServices.GCHandle
+  langs:
+  - csharp
+  name: op_Explicit(IntPtr)
+  nameWithType: GCHandle.op_Explicit(IntPtr)
+  fullName: System.Runtime.InteropServices.GCHandle.op_Explicit(IntPtr)
+  type: Operator
+  assemblies:
+  - mscorlib
+  namespace: System.Runtime.InteropServices
+  summary: To be added.
+  remarks: To be added.
+  syntax:
+    content: public static System.Runtime.InteropServices.GCHandle op_Explicit (IntPtr value);
+    parameters:
+    - id: value
+      type: System.IntPtr
+      description: To be added.
+    return:
+      type: System.Runtime.InteropServices.GCHandle
+      description: To be added.
+  platform:
+  - net-11
+  - net-20
+  - netcore-10
+- uid: System.Runtime.InteropServices.GCHandle.op_Explicit(System.Runtime.InteropServices.GCHandle to System.IntPtr)
+  id: op_Explicit(System.Runtime.InteropServices.GCHandle to System.IntPtr)
+  parent: System.Runtime.InteropServices.GCHandle
+  langs:
+  - csharp
+  name: op_Explicit(GCHandle)
+  nameWithType: GCHandle.op_Explicit(GCHandle)
+  fullName: System.Runtime.InteropServices.GCHandle.op_Explicit(GCHandle)
+  type: Operator
+  assemblies:
+  - mscorlib
+  namespace: System.Runtime.InteropServices
+  summary: To be added.
+  remarks: To be added.
+  syntax:
+    content: public static IntPtr op_Explicit (System.Runtime.InteropServices.GCHandle value);
+    parameters:
+    - id: value
+      type: System.Runtime.InteropServices.GCHandle
+      description: To be added.
+    return:
+      type: System.IntPtr
+      description: To be added.
+  platform:
+  - net-11
+  - net-20
+  - netcore-10
+- uid: System.Runtime.InteropServices.GCHandle.op_Inequality(System.Runtime.InteropServices.GCHandle,System.Runtime.InteropServices.GCHandle)
+  id: op_Inequality(System.Runtime.InteropServices.GCHandle,System.Runtime.InteropServices.GCHandle)
+  parent: System.Runtime.InteropServices.GCHandle
+  langs:
+  - csharp
+  name: op_Inequality(GCHandle,GCHandle)
+  nameWithType: GCHandle.op_Inequality(GCHandle,GCHandle)
+  fullName: System.Runtime.InteropServices.GCHandle.op_Inequality(GCHandle,GCHandle)
+  type: Operator
+  assemblies:
+  - mscorlib
+  namespace: System.Runtime.InteropServices
+  summary: To be added.
+  remarks: To be added.
+  syntax:
+    content: public static bool op_Inequality (System.Runtime.InteropServices.GCHandle a, System.Runtime.InteropServices.GCHandle b);
+    parameters:
+    - id: a
+      type: System.Runtime.InteropServices.GCHandle
+      description: To be added.
+    - id: b
+      type: System.Runtime.InteropServices.GCHandle
+      description: To be added.
+    return:
+      type: System.Boolean
+      description: To be added.
+  platform:
+  - net-11
+  - net-20
+  - netcore-10
+- uid: System.Runtime.InteropServices.GCHandle.Target
+  id: Target
+  parent: System.Runtime.InteropServices.GCHandle
+  langs:
+  - csharp
+  name: Target
+  nameWithType: GCHandle.Target
+  fullName: System.Runtime.InteropServices.GCHandle.Target
+  type: Property
+  assemblies:
+  - mscorlib
+  namespace: System.Runtime.InteropServices
+  summary: To be added.
+  remarks: To be added.
+  syntax:
+    content: public object Target { get; set; }
+    return:
+      type: System.Object
+      description: To be added.
+  platform:
+  - net-11
+  - net-20
+  - netcore-10
+- uid: System.Runtime.InteropServices.GCHandle.ToIntPtr(System.Runtime.InteropServices.GCHandle)
+  id: ToIntPtr(System.Runtime.InteropServices.GCHandle)
+  parent: System.Runtime.InteropServices.GCHandle
+  langs:
+  - csharp
+  name: ToIntPtr(GCHandle)
+  nameWithType: GCHandle.ToIntPtr(GCHandle)
+  fullName: System.Runtime.InteropServices.GCHandle.ToIntPtr(GCHandle)
+  type: Method
+  assemblies:
+  - mscorlib
+  namespace: System.Runtime.InteropServices
+  summary: To be added.
+  remarks: To be added.
+  syntax:
+    content: public static IntPtr ToIntPtr (System.Runtime.InteropServices.GCHandle value);
+    parameters:
+    - id: value
+      type: System.Runtime.InteropServices.GCHandle
+      description: To be added.
+    return:
+      type: System.IntPtr
+      description: To be added.
+  platform:
+  - net-11
+  - net-20
+  - netcore-10
+references:
+- uid: System.ValueType
+  isExternal: false
+  name: System.ValueType
+- uid: System.Runtime.InteropServices.GCHandle.AddrOfPinnedObject
+  parent: System.Runtime.InteropServices.GCHandle
+  isExternal: false
+  name: AddrOfPinnedObject()
+  nameWithType: GCHandle.AddrOfPinnedObject()
+  fullName: System.Runtime.InteropServices.GCHandle.AddrOfPinnedObject()
+- uid: System.IntPtr
+  parent: System
+  isExternal: false
+  name: IntPtr
+  nameWithType: IntPtr
+  fullName: System.IntPtr
+- uid: System.Runtime.InteropServices.GCHandle.Alloc(System.Object)
+  parent: System.Runtime.InteropServices.GCHandle
+  isExternal: false
+  name: Alloc(Object)
+  nameWithType: GCHandle.Alloc(Object)
+  fullName: System.Runtime.InteropServices.GCHandle.Alloc(Object)
+- uid: System.Runtime.InteropServices.GCHandle
+  parent: System.Runtime.InteropServices
+  isExternal: false
+  name: GCHandle
+  nameWithType: GCHandle
+  fullName: System.Runtime.InteropServices.GCHandle
+- uid: System.Object
+  parent: System
+  isExternal: false
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Runtime.InteropServices.GCHandle.Alloc(System.Object,System.Runtime.InteropServices.GCHandleType)
+  parent: System.Runtime.InteropServices.GCHandle
+  isExternal: false
+  name: Alloc(Object,GCHandleType)
+  nameWithType: GCHandle.Alloc(Object,GCHandleType)
+  fullName: System.Runtime.InteropServices.GCHandle.Alloc(Object,GCHandleType)
+- uid: System.Runtime.InteropServices.GCHandle
+  parent: System.Runtime.InteropServices
+  isExternal: false
+  name: GCHandle
+  nameWithType: GCHandle
+  fullName: System.Runtime.InteropServices.GCHandle
+- uid: System.Object
+  parent: System
+  isExternal: false
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Runtime.InteropServices.GCHandleType
+  parent: System.Runtime.InteropServices
+  isExternal: false
+  name: GCHandleType
+  nameWithType: GCHandleType
+  fullName: System.Runtime.InteropServices.GCHandleType
+- uid: System.Runtime.InteropServices.GCHandle.Equals(System.Object)
+  parent: System.Runtime.InteropServices.GCHandle
+  isExternal: false
+  name: Equals(Object)
+  nameWithType: GCHandle.Equals(Object)
+  fullName: System.Runtime.InteropServices.GCHandle.Equals(Object)
+- uid: System.Boolean
+  parent: System
+  isExternal: false
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: System.Object
+  parent: System
+  isExternal: false
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Runtime.InteropServices.GCHandle.Free
+  parent: System.Runtime.InteropServices.GCHandle
+  isExternal: false
+  name: Free()
+  nameWithType: GCHandle.Free()
+  fullName: System.Runtime.InteropServices.GCHandle.Free()
+- uid: System.Runtime.InteropServices.GCHandle.FromIntPtr(System.IntPtr)
+  parent: System.Runtime.InteropServices.GCHandle
+  isExternal: false
+  name: FromIntPtr(IntPtr)
+  nameWithType: GCHandle.FromIntPtr(IntPtr)
+  fullName: System.Runtime.InteropServices.GCHandle.FromIntPtr(IntPtr)
+- uid: System.Runtime.InteropServices.GCHandle
+  parent: System.Runtime.InteropServices
+  isExternal: false
+  name: GCHandle
+  nameWithType: GCHandle
+  fullName: System.Runtime.InteropServices.GCHandle
+- uid: System.IntPtr
+  parent: System
+  isExternal: false
+  name: IntPtr
+  nameWithType: IntPtr
+  fullName: System.IntPtr
+- uid: System.Runtime.InteropServices.GCHandle.GetHashCode
+  parent: System.Runtime.InteropServices.GCHandle
+  isExternal: false
+  name: GetHashCode()
+  nameWithType: GCHandle.GetHashCode()
+  fullName: System.Runtime.InteropServices.GCHandle.GetHashCode()
+- uid: System.Int32
+  parent: System
+  isExternal: false
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: System.Runtime.InteropServices.GCHandle.IsAllocated
+  parent: System.Runtime.InteropServices.GCHandle
+  isExternal: false
+  name: IsAllocated
+  nameWithType: GCHandle.IsAllocated
+  fullName: System.Runtime.InteropServices.GCHandle.IsAllocated
+- uid: System.Boolean
+  parent: System
+  isExternal: false
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: System.Runtime.InteropServices.GCHandle.op_Equality(System.Runtime.InteropServices.GCHandle,System.Runtime.InteropServices.GCHandle)
+  parent: System.Runtime.InteropServices.GCHandle
+  isExternal: false
+  name: op_Equality(GCHandle,GCHandle)
+  nameWithType: GCHandle.op_Equality(GCHandle,GCHandle)
+  fullName: System.Runtime.InteropServices.GCHandle.op_Equality(GCHandle,GCHandle)
+- uid: System.Boolean
+  parent: System
+  isExternal: false
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: System.Runtime.InteropServices.GCHandle
+  parent: System.Runtime.InteropServices
+  isExternal: false
+  name: GCHandle
+  nameWithType: GCHandle
+  fullName: System.Runtime.InteropServices.GCHandle
+- uid: System.Runtime.InteropServices.GCHandle
+  parent: System.Runtime.InteropServices
+  isExternal: false
+  name: GCHandle
+  nameWithType: GCHandle
+  fullName: System.Runtime.InteropServices.GCHandle
+- uid: System.Runtime.InteropServices.GCHandle.op_Explicit(System.IntPtr to System.Runtime.InteropServices.GCHandle)
+  parent: System.Runtime.InteropServices.GCHandle
+  isExternal: false
+  name: op_Explicit(IntPtr)
+  nameWithType: GCHandle.op_Explicit(IntPtr)
+  fullName: System.Runtime.InteropServices.GCHandle.op_Explicit(IntPtr)
+- uid: System.Runtime.InteropServices.GCHandle
+  parent: System.Runtime.InteropServices
+  isExternal: false
+  name: GCHandle
+  nameWithType: GCHandle
+  fullName: System.Runtime.InteropServices.GCHandle
+- uid: System.IntPtr
+  parent: System
+  isExternal: false
+  name: IntPtr
+  nameWithType: IntPtr
+  fullName: System.IntPtr
+- uid: System.Runtime.InteropServices.GCHandle.op_Explicit(System.Runtime.InteropServices.GCHandle to System.IntPtr)
+  parent: System.Runtime.InteropServices.GCHandle
+  isExternal: false
+  name: op_Explicit(GCHandle)
+  nameWithType: GCHandle.op_Explicit(GCHandle)
+  fullName: System.Runtime.InteropServices.GCHandle.op_Explicit(GCHandle)
+- uid: System.IntPtr
+  parent: System
+  isExternal: false
+  name: IntPtr
+  nameWithType: IntPtr
+  fullName: System.IntPtr
+- uid: System.Runtime.InteropServices.GCHandle
+  parent: System.Runtime.InteropServices
+  isExternal: false
+  name: GCHandle
+  nameWithType: GCHandle
+  fullName: System.Runtime.InteropServices.GCHandle
+- uid: System.Runtime.InteropServices.GCHandle.op_Inequality(System.Runtime.InteropServices.GCHandle,System.Runtime.InteropServices.GCHandle)
+  parent: System.Runtime.InteropServices.GCHandle
+  isExternal: false
+  name: op_Inequality(GCHandle,GCHandle)
+  nameWithType: GCHandle.op_Inequality(GCHandle,GCHandle)
+  fullName: System.Runtime.InteropServices.GCHandle.op_Inequality(GCHandle,GCHandle)
+- uid: System.Boolean
+  parent: System
+  isExternal: false
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: System.Runtime.InteropServices.GCHandle
+  parent: System.Runtime.InteropServices
+  isExternal: false
+  name: GCHandle
+  nameWithType: GCHandle
+  fullName: System.Runtime.InteropServices.GCHandle
+- uid: System.Runtime.InteropServices.GCHandle
+  parent: System.Runtime.InteropServices
+  isExternal: false
+  name: GCHandle
+  nameWithType: GCHandle
+  fullName: System.Runtime.InteropServices.GCHandle
+- uid: System.Runtime.InteropServices.GCHandle.Target
+  parent: System.Runtime.InteropServices.GCHandle
+  isExternal: false
+  name: Target
+  nameWithType: GCHandle.Target
+  fullName: System.Runtime.InteropServices.GCHandle.Target
+- uid: System.Object
+  parent: System
+  isExternal: false
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Runtime.InteropServices.GCHandle.ToIntPtr(System.Runtime.InteropServices.GCHandle)
+  parent: System.Runtime.InteropServices.GCHandle
+  isExternal: false
+  name: ToIntPtr(GCHandle)
+  nameWithType: GCHandle.ToIntPtr(GCHandle)
+  fullName: System.Runtime.InteropServices.GCHandle.ToIntPtr(GCHandle)
+- uid: System.IntPtr
+  parent: System
+  isExternal: false
+  name: IntPtr
+  nameWithType: IntPtr
+  fullName: System.IntPtr
+- uid: System.Runtime.InteropServices.GCHandle
+  parent: System.Runtime.InteropServices
+  isExternal: false
+  name: GCHandle
+  nameWithType: GCHandle
+  fullName: System.Runtime.InteropServices.GCHandle
+- uid: System.Runtime.InteropServices.GCHandle.Alloc*
+  parent: System.Runtime.InteropServices.GCHandle
+  isExternal: false
+  name: Alloc
+  nameWithType: GCHandle.Alloc

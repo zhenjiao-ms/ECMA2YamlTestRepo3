@@ -1,0 +1,100 @@
+### YamlMime:ManagedReference
+items:
+- uid: System.Reflection.AssemblyContentType
+  id: AssemblyContentType
+  children:
+  - System.Reflection.AssemblyContentType.Default
+  - System.Reflection.AssemblyContentType.WindowsRuntime
+  langs:
+  - csharp
+  name: AssemblyContentType
+  nameWithType: AssemblyContentType
+  fullName: System.Reflection.AssemblyContentType
+  type: Enum
+  summary: To be added.
+  remarks: To be added.
+  syntax:
+    content: >-
+      [System.Runtime.InteropServices.ComVisible(false)]
+
+      public enum AssemblyContentType
+  inheritance:
+  - System.Object
+  - System.ValueType
+  - System.Enum
+  platform:
+  - net-11
+  - net-20
+  - netcore-10
+- uid: System.Reflection.AssemblyContentType.Default
+  id: Default
+  parent: System.Reflection.AssemblyContentType
+  langs:
+  - csharp
+  name: Default
+  nameWithType: AssemblyContentType.Default
+  fullName: System.Reflection.AssemblyContentType.Default
+  type: Field
+  assemblies:
+  - mscorlib
+  namespace: System.Reflection
+  summary: To be added.
+  syntax:
+    content: Default
+    return:
+      type: System.Reflection.AssemblyContentType
+      description: To be added.
+  platform:
+  - net-11
+  - net-20
+  - netcore-10
+- uid: System.Reflection.AssemblyContentType.WindowsRuntime
+  id: WindowsRuntime
+  parent: System.Reflection.AssemblyContentType
+  langs:
+  - csharp
+  name: WindowsRuntime
+  nameWithType: AssemblyContentType.WindowsRuntime
+  fullName: System.Reflection.AssemblyContentType.WindowsRuntime
+  type: Field
+  assemblies:
+  - mscorlib
+  namespace: System.Reflection
+  summary: To be added.
+  syntax:
+    content: WindowsRuntime
+    return:
+      type: System.Reflection.AssemblyContentType
+      description: To be added.
+  platform:
+  - net-11
+  - net-20
+  - netcore-10
+references:
+- uid: System.Enum
+  isExternal: false
+  name: System.Enum
+- uid: System.Reflection.AssemblyContentType.Default
+  parent: System.Reflection.AssemblyContentType
+  isExternal: false
+  name: Default
+  nameWithType: AssemblyContentType.Default
+  fullName: System.Reflection.AssemblyContentType.Default
+- uid: System.Reflection.AssemblyContentType
+  parent: System.Reflection
+  isExternal: false
+  name: AssemblyContentType
+  nameWithType: AssemblyContentType
+  fullName: System.Reflection.AssemblyContentType
+- uid: System.Reflection.AssemblyContentType.WindowsRuntime
+  parent: System.Reflection.AssemblyContentType
+  isExternal: false
+  name: WindowsRuntime
+  nameWithType: AssemblyContentType.WindowsRuntime
+  fullName: System.Reflection.AssemblyContentType.WindowsRuntime
+- uid: System.Reflection.AssemblyContentType
+  parent: System.Reflection
+  isExternal: false
+  name: AssemblyContentType
+  nameWithType: AssemblyContentType
+  fullName: System.Reflection.AssemblyContentType

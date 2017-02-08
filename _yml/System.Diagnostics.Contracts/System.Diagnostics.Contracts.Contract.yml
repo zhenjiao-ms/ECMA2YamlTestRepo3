@@ -1,0 +1,1095 @@
+### YamlMime:ManagedReference
+items:
+- uid: System.Diagnostics.Contracts.Contract
+  id: Contract
+  children:
+  - System.Diagnostics.Contracts.Contract.Assert(System.Boolean)
+  - System.Diagnostics.Contracts.Contract.Assert(System.Boolean,System.String)
+  - System.Diagnostics.Contracts.Contract.Assume(System.Boolean)
+  - System.Diagnostics.Contracts.Contract.Assume(System.Boolean,System.String)
+  - System.Diagnostics.Contracts.Contract.ContractFailed
+  - System.Diagnostics.Contracts.Contract.EndContractBlock
+  - System.Diagnostics.Contracts.Contract.Ensures(System.Boolean)
+  - System.Diagnostics.Contracts.Contract.Ensures(System.Boolean,System.String)
+  - System.Diagnostics.Contracts.Contract.EnsuresOnThrow``1(System.Boolean)
+  - System.Diagnostics.Contracts.Contract.EnsuresOnThrow``1(System.Boolean,System.String)
+  - System.Diagnostics.Contracts.Contract.Exists(System.Int32,System.Int32,System.Predicate{System.Int32})
+  - System.Diagnostics.Contracts.Contract.Exists``1(System.Collections.Generic.IEnumerable`1,System.Predicate`1)
+  - System.Diagnostics.Contracts.Contract.ForAll(System.Int32,System.Int32,System.Predicate{System.Int32})
+  - System.Diagnostics.Contracts.Contract.ForAll``1(System.Collections.Generic.IEnumerable`1,System.Predicate`1)
+  - System.Diagnostics.Contracts.Contract.Invariant(System.Boolean)
+  - System.Diagnostics.Contracts.Contract.Invariant(System.Boolean,System.String)
+  - System.Diagnostics.Contracts.Contract.OldValue``1(``0)
+  - System.Diagnostics.Contracts.Contract.Requires(System.Boolean)
+  - System.Diagnostics.Contracts.Contract.Requires(System.Boolean,System.String)
+  - System.Diagnostics.Contracts.Contract.Requires``1(System.Boolean)
+  - System.Diagnostics.Contracts.Contract.Requires``1(System.Boolean,System.String)
+  - System.Diagnostics.Contracts.Contract.Result``1
+  - System.Diagnostics.Contracts.Contract.ValueAtReturn``1(``0@)
+  langs:
+  - csharp
+  name: Contract
+  nameWithType: Contract
+  fullName: System.Diagnostics.Contracts.Contract
+  type: Class
+  summary: To be added.
+  remarks: To be added.
+  syntax:
+    content: public static class Contract
+  inheritance:
+  - System.Object
+  implements: []
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  platform:
+  - net-11
+  - net-20
+  - netcore-10
+- uid: System.Diagnostics.Contracts.Contract.Assert(System.Boolean)
+  id: Assert(System.Boolean)
+  parent: System.Diagnostics.Contracts.Contract
+  langs:
+  - csharp
+  name: Assert(Boolean)
+  nameWithType: Contract.Assert(Boolean)
+  fullName: System.Diagnostics.Contracts.Contract.Assert(Boolean)
+  type: Method
+  assemblies:
+  - mscorlib
+  namespace: System.Diagnostics.Contracts
+  summary: To be added.
+  remarks: To be added.
+  syntax:
+    content: public static void Assert (bool condition);
+    parameters:
+    - id: condition
+      type: System.Boolean
+      description: To be added.
+  overload: System.Diagnostics.Contracts.Contract.Assert*
+  platform:
+  - net-11
+  - net-20
+  - netcore-10
+- uid: System.Diagnostics.Contracts.Contract.Assert(System.Boolean,System.String)
+  id: Assert(System.Boolean,System.String)
+  parent: System.Diagnostics.Contracts.Contract
+  langs:
+  - csharp
+  name: Assert(Boolean,String)
+  nameWithType: Contract.Assert(Boolean,String)
+  fullName: System.Diagnostics.Contracts.Contract.Assert(Boolean,String)
+  type: Method
+  assemblies:
+  - mscorlib
+  namespace: System.Diagnostics.Contracts
+  summary: To be added.
+  remarks: To be added.
+  syntax:
+    content: public static void Assert (bool condition, string userMessage);
+    parameters:
+    - id: condition
+      type: System.Boolean
+      description: To be added.
+    - id: userMessage
+      type: System.String
+      description: To be added.
+  overload: System.Diagnostics.Contracts.Contract.Assert*
+  platform:
+  - net-11
+  - net-20
+  - netcore-10
+- uid: System.Diagnostics.Contracts.Contract.Assume(System.Boolean)
+  id: Assume(System.Boolean)
+  parent: System.Diagnostics.Contracts.Contract
+  langs:
+  - csharp
+  name: Assume(Boolean)
+  nameWithType: Contract.Assume(Boolean)
+  fullName: System.Diagnostics.Contracts.Contract.Assume(Boolean)
+  type: Method
+  assemblies:
+  - mscorlib
+  namespace: System.Diagnostics.Contracts
+  summary: To be added.
+  remarks: To be added.
+  syntax:
+    content: public static void Assume (bool condition);
+    parameters:
+    - id: condition
+      type: System.Boolean
+      description: To be added.
+  overload: System.Diagnostics.Contracts.Contract.Assume*
+  platform:
+  - net-11
+  - net-20
+  - netcore-10
+- uid: System.Diagnostics.Contracts.Contract.Assume(System.Boolean,System.String)
+  id: Assume(System.Boolean,System.String)
+  parent: System.Diagnostics.Contracts.Contract
+  langs:
+  - csharp
+  name: Assume(Boolean,String)
+  nameWithType: Contract.Assume(Boolean,String)
+  fullName: System.Diagnostics.Contracts.Contract.Assume(Boolean,String)
+  type: Method
+  assemblies:
+  - mscorlib
+  namespace: System.Diagnostics.Contracts
+  summary: To be added.
+  remarks: To be added.
+  syntax:
+    content: public static void Assume (bool condition, string userMessage);
+    parameters:
+    - id: condition
+      type: System.Boolean
+      description: To be added.
+    - id: userMessage
+      type: System.String
+      description: To be added.
+  overload: System.Diagnostics.Contracts.Contract.Assume*
+  platform:
+  - net-11
+  - net-20
+  - netcore-10
+- uid: System.Diagnostics.Contracts.Contract.ContractFailed
+  id: ContractFailed
+  parent: System.Diagnostics.Contracts.Contract
+  langs:
+  - csharp
+  name: ContractFailed
+  nameWithType: Contract.ContractFailed
+  fullName: System.Diagnostics.Contracts.Contract.ContractFailed
+  type: Event
+  assemblies:
+  - mscorlib
+  namespace: System.Diagnostics.Contracts
+  summary: To be added.
+  remarks: To be added.
+  syntax:
+    content: public static event EventHandler<System.Diagnostics.Contracts.ContractFailedEventArgs> ContractFailed;
+    return:
+      type: System.EventHandler{System.Diagnostics.Contracts.ContractFailedEventArgs}
+      description: To be added.
+  platform:
+  - net-11
+  - net-20
+  - netcore-10
+- uid: System.Diagnostics.Contracts.Contract.EndContractBlock
+  id: EndContractBlock
+  parent: System.Diagnostics.Contracts.Contract
+  langs:
+  - csharp
+  name: EndContractBlock()
+  nameWithType: Contract.EndContractBlock()
+  fullName: System.Diagnostics.Contracts.Contract.EndContractBlock()
+  type: Method
+  assemblies:
+  - mscorlib
+  namespace: System.Diagnostics.Contracts
+  summary: To be added.
+  remarks: To be added.
+  syntax:
+    content: public static void EndContractBlock ();
+    parameters: []
+  platform:
+  - net-11
+  - net-20
+  - netcore-10
+- uid: System.Diagnostics.Contracts.Contract.Ensures(System.Boolean)
+  id: Ensures(System.Boolean)
+  parent: System.Diagnostics.Contracts.Contract
+  langs:
+  - csharp
+  name: Ensures(Boolean)
+  nameWithType: Contract.Ensures(Boolean)
+  fullName: System.Diagnostics.Contracts.Contract.Ensures(Boolean)
+  type: Method
+  assemblies:
+  - mscorlib
+  namespace: System.Diagnostics.Contracts
+  summary: To be added.
+  remarks: To be added.
+  syntax:
+    content: public static void Ensures (bool condition);
+    parameters:
+    - id: condition
+      type: System.Boolean
+      description: To be added.
+  overload: System.Diagnostics.Contracts.Contract.Ensures*
+  platform:
+  - net-11
+  - net-20
+  - netcore-10
+- uid: System.Diagnostics.Contracts.Contract.Ensures(System.Boolean,System.String)
+  id: Ensures(System.Boolean,System.String)
+  parent: System.Diagnostics.Contracts.Contract
+  langs:
+  - csharp
+  name: Ensures(Boolean,String)
+  nameWithType: Contract.Ensures(Boolean,String)
+  fullName: System.Diagnostics.Contracts.Contract.Ensures(Boolean,String)
+  type: Method
+  assemblies:
+  - mscorlib
+  namespace: System.Diagnostics.Contracts
+  summary: To be added.
+  remarks: To be added.
+  syntax:
+    content: public static void Ensures (bool condition, string userMessage);
+    parameters:
+    - id: condition
+      type: System.Boolean
+      description: To be added.
+    - id: userMessage
+      type: System.String
+      description: To be added.
+  overload: System.Diagnostics.Contracts.Contract.Ensures*
+  platform:
+  - net-11
+  - net-20
+  - netcore-10
+- uid: System.Diagnostics.Contracts.Contract.EnsuresOnThrow``1(System.Boolean)
+  id: EnsuresOnThrow``1(System.Boolean)
+  parent: System.Diagnostics.Contracts.Contract
+  langs:
+  - csharp
+  name: EnsuresOnThrow(Boolean)
+  nameWithType: Contract.EnsuresOnThrow(Boolean)
+  fullName: System.Diagnostics.Contracts.Contract.EnsuresOnThrow(Boolean)
+  type: Method
+  assemblies:
+  - mscorlib
+  namespace: System.Diagnostics.Contracts
+  summary: To be added.
+  remarks: To be added.
+  syntax:
+    content: 'public static void EnsuresOnThrow<TException> (bool condition) where TException : Exception;'
+    parameters:
+    - id: condition
+      type: System.Boolean
+      description: To be added.
+  overload: System.Diagnostics.Contracts.Contract.EnsuresOnThrow<TException>*
+  platform:
+  - net-11
+  - net-20
+  - netcore-10
+- uid: System.Diagnostics.Contracts.Contract.EnsuresOnThrow``1(System.Boolean,System.String)
+  id: EnsuresOnThrow``1(System.Boolean,System.String)
+  parent: System.Diagnostics.Contracts.Contract
+  langs:
+  - csharp
+  name: EnsuresOnThrow(Boolean,String)
+  nameWithType: Contract.EnsuresOnThrow(Boolean,String)
+  fullName: System.Diagnostics.Contracts.Contract.EnsuresOnThrow(Boolean,String)
+  type: Method
+  assemblies:
+  - mscorlib
+  namespace: System.Diagnostics.Contracts
+  summary: To be added.
+  remarks: To be added.
+  syntax:
+    content: 'public static void EnsuresOnThrow<TException> (bool condition, string userMessage) where TException : Exception;'
+    parameters:
+    - id: condition
+      type: System.Boolean
+      description: To be added.
+    - id: userMessage
+      type: System.String
+      description: To be added.
+  overload: System.Diagnostics.Contracts.Contract.EnsuresOnThrow<TException>*
+  platform:
+  - net-11
+  - net-20
+  - netcore-10
+- uid: System.Diagnostics.Contracts.Contract.Exists(System.Int32,System.Int32,System.Predicate{System.Int32})
+  id: Exists(System.Int32,System.Int32,System.Predicate{System.Int32})
+  parent: System.Diagnostics.Contracts.Contract
+  langs:
+  - csharp
+  name: Exists(Int32,Int32,Predicate<Int32>)
+  nameWithType: Contract.Exists(Int32,Int32,Predicate<Int32>)
+  fullName: System.Diagnostics.Contracts.Contract.Exists(Int32,Int32,Predicate<Int32>)
+  type: Method
+  assemblies:
+  - mscorlib
+  namespace: System.Diagnostics.Contracts
+  summary: To be added.
+  remarks: To be added.
+  syntax:
+    content: public static bool Exists (int fromInclusive, int toExclusive, Predicate<int> predicate);
+    parameters:
+    - id: fromInclusive
+      type: System.Int32
+      description: To be added.
+    - id: toExclusive
+      type: System.Int32
+      description: To be added.
+    - id: predicate
+      type: System.Predicate{System.Int32}
+      description: To be added.
+    return:
+      type: System.Boolean
+      description: To be added.
+  platform:
+  - net-11
+  - net-20
+  - netcore-10
+- uid: System.Diagnostics.Contracts.Contract.Exists``1(System.Collections.Generic.IEnumerable`1,System.Predicate`1)
+  id: Exists``1(System.Collections.Generic.IEnumerable`1,System.Predicate`1)
+  parent: System.Diagnostics.Contracts.Contract
+  langs:
+  - csharp
+  name: Exists(IEnumerable<T>,Predicate<T>)
+  nameWithType: Contract.Exists(IEnumerable<T>,Predicate<T>)
+  fullName: System.Diagnostics.Contracts.Contract.Exists(IEnumerable<T>,Predicate<T>)
+  type: Method
+  assemblies:
+  - mscorlib
+  namespace: System.Diagnostics.Contracts
+  summary: To be added.
+  remarks: To be added.
+  syntax:
+    content: public static bool Exists<T> (System.Collections.Generic.IEnumerable<T> collection, Predicate<T> predicate);
+    parameters:
+    - id: collection
+      type: System.Collections.Generic.IEnumerable`1
+      description: To be added.
+    - id: predicate
+      type: System.Predicate`1
+      description: To be added.
+    return:
+      type: System.Boolean
+      description: To be added.
+  platform:
+  - net-11
+  - net-20
+  - netcore-10
+- uid: System.Diagnostics.Contracts.Contract.ForAll(System.Int32,System.Int32,System.Predicate{System.Int32})
+  id: ForAll(System.Int32,System.Int32,System.Predicate{System.Int32})
+  parent: System.Diagnostics.Contracts.Contract
+  langs:
+  - csharp
+  name: ForAll(Int32,Int32,Predicate<Int32>)
+  nameWithType: Contract.ForAll(Int32,Int32,Predicate<Int32>)
+  fullName: System.Diagnostics.Contracts.Contract.ForAll(Int32,Int32,Predicate<Int32>)
+  type: Method
+  assemblies:
+  - mscorlib
+  namespace: System.Diagnostics.Contracts
+  summary: To be added.
+  remarks: To be added.
+  syntax:
+    content: public static bool ForAll (int fromInclusive, int toExclusive, Predicate<int> predicate);
+    parameters:
+    - id: fromInclusive
+      type: System.Int32
+      description: To be added.
+    - id: toExclusive
+      type: System.Int32
+      description: To be added.
+    - id: predicate
+      type: System.Predicate{System.Int32}
+      description: To be added.
+    return:
+      type: System.Boolean
+      description: To be added.
+  platform:
+  - net-11
+  - net-20
+  - netcore-10
+- uid: System.Diagnostics.Contracts.Contract.ForAll``1(System.Collections.Generic.IEnumerable`1,System.Predicate`1)
+  id: ForAll``1(System.Collections.Generic.IEnumerable`1,System.Predicate`1)
+  parent: System.Diagnostics.Contracts.Contract
+  langs:
+  - csharp
+  name: ForAll(IEnumerable<T>,Predicate<T>)
+  nameWithType: Contract.ForAll(IEnumerable<T>,Predicate<T>)
+  fullName: System.Diagnostics.Contracts.Contract.ForAll(IEnumerable<T>,Predicate<T>)
+  type: Method
+  assemblies:
+  - mscorlib
+  namespace: System.Diagnostics.Contracts
+  summary: To be added.
+  remarks: To be added.
+  syntax:
+    content: public static bool ForAll<T> (System.Collections.Generic.IEnumerable<T> collection, Predicate<T> predicate);
+    parameters:
+    - id: collection
+      type: System.Collections.Generic.IEnumerable`1
+      description: To be added.
+    - id: predicate
+      type: System.Predicate`1
+      description: To be added.
+    return:
+      type: System.Boolean
+      description: To be added.
+  platform:
+  - net-11
+  - net-20
+  - netcore-10
+- uid: System.Diagnostics.Contracts.Contract.Invariant(System.Boolean)
+  id: Invariant(System.Boolean)
+  parent: System.Diagnostics.Contracts.Contract
+  langs:
+  - csharp
+  name: Invariant(Boolean)
+  nameWithType: Contract.Invariant(Boolean)
+  fullName: System.Diagnostics.Contracts.Contract.Invariant(Boolean)
+  type: Method
+  assemblies:
+  - mscorlib
+  namespace: System.Diagnostics.Contracts
+  summary: To be added.
+  remarks: To be added.
+  syntax:
+    content: public static void Invariant (bool condition);
+    parameters:
+    - id: condition
+      type: System.Boolean
+      description: To be added.
+  overload: System.Diagnostics.Contracts.Contract.Invariant*
+  platform:
+  - net-11
+  - net-20
+  - netcore-10
+- uid: System.Diagnostics.Contracts.Contract.Invariant(System.Boolean,System.String)
+  id: Invariant(System.Boolean,System.String)
+  parent: System.Diagnostics.Contracts.Contract
+  langs:
+  - csharp
+  name: Invariant(Boolean,String)
+  nameWithType: Contract.Invariant(Boolean,String)
+  fullName: System.Diagnostics.Contracts.Contract.Invariant(Boolean,String)
+  type: Method
+  assemblies:
+  - mscorlib
+  namespace: System.Diagnostics.Contracts
+  summary: To be added.
+  remarks: To be added.
+  syntax:
+    content: public static void Invariant (bool condition, string userMessage);
+    parameters:
+    - id: condition
+      type: System.Boolean
+      description: To be added.
+    - id: userMessage
+      type: System.String
+      description: To be added.
+  overload: System.Diagnostics.Contracts.Contract.Invariant*
+  platform:
+  - net-11
+  - net-20
+  - netcore-10
+- uid: System.Diagnostics.Contracts.Contract.OldValue``1(``0)
+  id: OldValue``1(``0)
+  parent: System.Diagnostics.Contracts.Contract
+  langs:
+  - csharp
+  name: OldValue(T)
+  nameWithType: Contract.OldValue(T)
+  fullName: System.Diagnostics.Contracts.Contract.OldValue(T)
+  type: Method
+  assemblies:
+  - mscorlib
+  namespace: System.Diagnostics.Contracts
+  summary: To be added.
+  remarks: To be added.
+  syntax:
+    content: public static T OldValue<T> (T value);
+    parameters:
+    - id: value
+      type: T
+      description: To be added.
+    return:
+      type: T
+      description: To be added.
+  platform:
+  - net-11
+  - net-20
+  - netcore-10
+- uid: System.Diagnostics.Contracts.Contract.Requires(System.Boolean)
+  id: Requires(System.Boolean)
+  parent: System.Diagnostics.Contracts.Contract
+  langs:
+  - csharp
+  name: Requires(Boolean)
+  nameWithType: Contract.Requires(Boolean)
+  fullName: System.Diagnostics.Contracts.Contract.Requires(Boolean)
+  type: Method
+  assemblies:
+  - mscorlib
+  namespace: System.Diagnostics.Contracts
+  summary: To be added.
+  remarks: To be added.
+  syntax:
+    content: public static void Requires (bool condition);
+    parameters:
+    - id: condition
+      type: System.Boolean
+      description: To be added.
+  overload: System.Diagnostics.Contracts.Contract.Requires*
+  platform:
+  - net-11
+  - net-20
+  - netcore-10
+- uid: System.Diagnostics.Contracts.Contract.Requires(System.Boolean,System.String)
+  id: Requires(System.Boolean,System.String)
+  parent: System.Diagnostics.Contracts.Contract
+  langs:
+  - csharp
+  name: Requires(Boolean,String)
+  nameWithType: Contract.Requires(Boolean,String)
+  fullName: System.Diagnostics.Contracts.Contract.Requires(Boolean,String)
+  type: Method
+  assemblies:
+  - mscorlib
+  namespace: System.Diagnostics.Contracts
+  summary: To be added.
+  remarks: To be added.
+  syntax:
+    content: public static void Requires (bool condition, string userMessage);
+    parameters:
+    - id: condition
+      type: System.Boolean
+      description: To be added.
+    - id: userMessage
+      type: System.String
+      description: To be added.
+  overload: System.Diagnostics.Contracts.Contract.Requires*
+  platform:
+  - net-11
+  - net-20
+  - netcore-10
+- uid: System.Diagnostics.Contracts.Contract.Requires``1(System.Boolean)
+  id: Requires``1(System.Boolean)
+  parent: System.Diagnostics.Contracts.Contract
+  langs:
+  - csharp
+  name: Requires(Boolean)
+  nameWithType: Contract.Requires(Boolean)
+  fullName: System.Diagnostics.Contracts.Contract.Requires(Boolean)
+  type: Method
+  assemblies:
+  - mscorlib
+  namespace: System.Diagnostics.Contracts
+  summary: To be added.
+  remarks: To be added.
+  syntax:
+    content: 'public static void Requires<TException> (bool condition) where TException : Exception;'
+    parameters:
+    - id: condition
+      type: System.Boolean
+      description: To be added.
+  overload: System.Diagnostics.Contracts.Contract.Requires<TException>*
+  platform:
+  - net-11
+  - net-20
+  - netcore-10
+- uid: System.Diagnostics.Contracts.Contract.Requires``1(System.Boolean,System.String)
+  id: Requires``1(System.Boolean,System.String)
+  parent: System.Diagnostics.Contracts.Contract
+  langs:
+  - csharp
+  name: Requires(Boolean,String)
+  nameWithType: Contract.Requires(Boolean,String)
+  fullName: System.Diagnostics.Contracts.Contract.Requires(Boolean,String)
+  type: Method
+  assemblies:
+  - mscorlib
+  namespace: System.Diagnostics.Contracts
+  summary: To be added.
+  remarks: To be added.
+  syntax:
+    content: 'public static void Requires<TException> (bool condition, string userMessage) where TException : Exception;'
+    parameters:
+    - id: condition
+      type: System.Boolean
+      description: To be added.
+    - id: userMessage
+      type: System.String
+      description: To be added.
+  overload: System.Diagnostics.Contracts.Contract.Requires<TException>*
+  platform:
+  - net-11
+  - net-20
+  - netcore-10
+- uid: System.Diagnostics.Contracts.Contract.Result``1
+  id: Result``1
+  parent: System.Diagnostics.Contracts.Contract
+  langs:
+  - csharp
+  name: Result()
+  nameWithType: Contract.Result()
+  fullName: System.Diagnostics.Contracts.Contract.Result()
+  type: Method
+  assemblies:
+  - mscorlib
+  namespace: System.Diagnostics.Contracts
+  summary: To be added.
+  remarks: To be added.
+  syntax:
+    content: public static T Result<T> ();
+    parameters: []
+    return:
+      type: T
+      description: To be added.
+  platform:
+  - net-11
+  - net-20
+  - netcore-10
+- uid: System.Diagnostics.Contracts.Contract.ValueAtReturn``1(``0@)
+  id: ValueAtReturn``1(``0@)
+  parent: System.Diagnostics.Contracts.Contract
+  langs:
+  - csharp
+  name: ValueAtReturn(T)
+  nameWithType: Contract.ValueAtReturn(T)
+  fullName: System.Diagnostics.Contracts.Contract.ValueAtReturn(T)
+  type: Method
+  assemblies:
+  - mscorlib
+  namespace: System.Diagnostics.Contracts
+  summary: To be added.
+  remarks: To be added.
+  syntax:
+    content: public static T ValueAtReturn<T> (out T value);
+    parameters:
+    - id: value
+      type: T
+      description: To be added.
+    return:
+      type: T
+      description: To be added.
+  platform:
+  - net-11
+  - net-20
+  - netcore-10
+references:
+- uid: System.Object
+  isExternal: false
+  name: System.Object
+- uid: System.Diagnostics.Contracts.Contract.Assert(System.Boolean)
+  parent: System.Diagnostics.Contracts.Contract
+  isExternal: false
+  name: Assert(Boolean)
+  nameWithType: Contract.Assert(Boolean)
+  fullName: System.Diagnostics.Contracts.Contract.Assert(Boolean)
+- uid: System.Boolean
+  parent: System
+  isExternal: false
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: System.Diagnostics.Contracts.Contract.Assert(System.Boolean,System.String)
+  parent: System.Diagnostics.Contracts.Contract
+  isExternal: false
+  name: Assert(Boolean,String)
+  nameWithType: Contract.Assert(Boolean,String)
+  fullName: System.Diagnostics.Contracts.Contract.Assert(Boolean,String)
+- uid: System.Boolean
+  parent: System
+  isExternal: false
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: System.String
+  parent: System
+  isExternal: false
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System.Diagnostics.Contracts.Contract.Assume(System.Boolean)
+  parent: System.Diagnostics.Contracts.Contract
+  isExternal: false
+  name: Assume(Boolean)
+  nameWithType: Contract.Assume(Boolean)
+  fullName: System.Diagnostics.Contracts.Contract.Assume(Boolean)
+- uid: System.Boolean
+  parent: System
+  isExternal: false
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: System.Diagnostics.Contracts.Contract.Assume(System.Boolean,System.String)
+  parent: System.Diagnostics.Contracts.Contract
+  isExternal: false
+  name: Assume(Boolean,String)
+  nameWithType: Contract.Assume(Boolean,String)
+  fullName: System.Diagnostics.Contracts.Contract.Assume(Boolean,String)
+- uid: System.Boolean
+  parent: System
+  isExternal: false
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: System.String
+  parent: System
+  isExternal: false
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System.Diagnostics.Contracts.Contract.ContractFailed
+  parent: System.Diagnostics.Contracts.Contract
+  isExternal: false
+  name: ContractFailed
+  nameWithType: Contract.ContractFailed
+  fullName: System.Diagnostics.Contracts.Contract.ContractFailed
+- uid: System.EventHandler{System.Diagnostics.Contracts.ContractFailedEventArgs}
+  parent: System
+  isExternal: false
+  name: EventHandler<ContractFailedEventArgs>
+  nameWithType: EventHandler<ContractFailedEventArgs>
+  fullName: System.EventHandler<System.Diagnostics.Contracts.ContractFailedEventArgs>
+- uid: System.Diagnostics.Contracts.Contract.EndContractBlock
+  parent: System.Diagnostics.Contracts.Contract
+  isExternal: false
+  name: EndContractBlock()
+  nameWithType: Contract.EndContractBlock()
+  fullName: System.Diagnostics.Contracts.Contract.EndContractBlock()
+- uid: System.Diagnostics.Contracts.Contract.Ensures(System.Boolean)
+  parent: System.Diagnostics.Contracts.Contract
+  isExternal: false
+  name: Ensures(Boolean)
+  nameWithType: Contract.Ensures(Boolean)
+  fullName: System.Diagnostics.Contracts.Contract.Ensures(Boolean)
+- uid: System.Boolean
+  parent: System
+  isExternal: false
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: System.Diagnostics.Contracts.Contract.Ensures(System.Boolean,System.String)
+  parent: System.Diagnostics.Contracts.Contract
+  isExternal: false
+  name: Ensures(Boolean,String)
+  nameWithType: Contract.Ensures(Boolean,String)
+  fullName: System.Diagnostics.Contracts.Contract.Ensures(Boolean,String)
+- uid: System.Boolean
+  parent: System
+  isExternal: false
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: System.String
+  parent: System
+  isExternal: false
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System.Diagnostics.Contracts.Contract.EnsuresOnThrow``1(System.Boolean)
+  parent: System.Diagnostics.Contracts.Contract
+  isExternal: false
+  name: EnsuresOnThrow(Boolean)
+  nameWithType: Contract.EnsuresOnThrow(Boolean)
+  fullName: System.Diagnostics.Contracts.Contract.EnsuresOnThrow(Boolean)
+- uid: System.Boolean
+  parent: System
+  isExternal: false
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: System.Diagnostics.Contracts.Contract.EnsuresOnThrow``1(System.Boolean,System.String)
+  parent: System.Diagnostics.Contracts.Contract
+  isExternal: false
+  name: EnsuresOnThrow(Boolean,String)
+  nameWithType: Contract.EnsuresOnThrow(Boolean,String)
+  fullName: System.Diagnostics.Contracts.Contract.EnsuresOnThrow(Boolean,String)
+- uid: System.Boolean
+  parent: System
+  isExternal: false
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: System.String
+  parent: System
+  isExternal: false
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System.Diagnostics.Contracts.Contract.Exists(System.Int32,System.Int32,System.Predicate{System.Int32})
+  parent: System.Diagnostics.Contracts.Contract
+  isExternal: false
+  name: Exists(Int32,Int32,Predicate<Int32>)
+  nameWithType: Contract.Exists(Int32,Int32,Predicate<Int32>)
+  fullName: System.Diagnostics.Contracts.Contract.Exists(Int32,Int32,Predicate<Int32>)
+- uid: System.Boolean
+  parent: System
+  isExternal: false
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: System.Int32
+  parent: System
+  isExternal: false
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: System.Int32
+  parent: System
+  isExternal: false
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: System.Predicate{System.Int32}
+  parent: System
+  isExternal: false
+  name: Predicate<Int32>
+  nameWithType: Predicate<Int32>
+  fullName: System.Predicate<System.Int32>
+- uid: System.Diagnostics.Contracts.Contract.Exists``1(System.Collections.Generic.IEnumerable`1,System.Predicate`1)
+  parent: System.Diagnostics.Contracts.Contract
+  isExternal: false
+  name: Exists(IEnumerable<T>,Predicate<T>)
+  nameWithType: Contract.Exists(IEnumerable<T>,Predicate<T>)
+  fullName: System.Diagnostics.Contracts.Contract.Exists(IEnumerable<T>,Predicate<T>)
+- uid: System.Boolean
+  parent: System
+  isExternal: false
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: System.Collections.Generic.IEnumerable`1
+  parent: System.Collections.Generic
+  isExternal: false
+  name: IEnumerable<T>
+  nameWithType: IEnumerable<T>
+  fullName: System.Collections.Generic.IEnumerable<T>
+- uid: System.Predicate`1
+  parent: System
+  isExternal: false
+  name: Predicate<T>
+  nameWithType: Predicate<T>
+  fullName: System.Predicate<T>
+- uid: System.Diagnostics.Contracts.Contract.ForAll(System.Int32,System.Int32,System.Predicate{System.Int32})
+  parent: System.Diagnostics.Contracts.Contract
+  isExternal: false
+  name: ForAll(Int32,Int32,Predicate<Int32>)
+  nameWithType: Contract.ForAll(Int32,Int32,Predicate<Int32>)
+  fullName: System.Diagnostics.Contracts.Contract.ForAll(Int32,Int32,Predicate<Int32>)
+- uid: System.Boolean
+  parent: System
+  isExternal: false
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: System.Int32
+  parent: System
+  isExternal: false
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: System.Int32
+  parent: System
+  isExternal: false
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: System.Predicate{System.Int32}
+  parent: System
+  isExternal: false
+  name: Predicate<Int32>
+  nameWithType: Predicate<Int32>
+  fullName: System.Predicate<System.Int32>
+- uid: System.Diagnostics.Contracts.Contract.ForAll``1(System.Collections.Generic.IEnumerable`1,System.Predicate`1)
+  parent: System.Diagnostics.Contracts.Contract
+  isExternal: false
+  name: ForAll(IEnumerable<T>,Predicate<T>)
+  nameWithType: Contract.ForAll(IEnumerable<T>,Predicate<T>)
+  fullName: System.Diagnostics.Contracts.Contract.ForAll(IEnumerable<T>,Predicate<T>)
+- uid: System.Boolean
+  parent: System
+  isExternal: false
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: System.Collections.Generic.IEnumerable`1
+  parent: System.Collections.Generic
+  isExternal: false
+  name: IEnumerable<T>
+  nameWithType: IEnumerable<T>
+  fullName: System.Collections.Generic.IEnumerable<T>
+- uid: System.Predicate`1
+  parent: System
+  isExternal: false
+  name: Predicate<T>
+  nameWithType: Predicate<T>
+  fullName: System.Predicate<T>
+- uid: System.Diagnostics.Contracts.Contract.Invariant(System.Boolean)
+  parent: System.Diagnostics.Contracts.Contract
+  isExternal: false
+  name: Invariant(Boolean)
+  nameWithType: Contract.Invariant(Boolean)
+  fullName: System.Diagnostics.Contracts.Contract.Invariant(Boolean)
+- uid: System.Boolean
+  parent: System
+  isExternal: false
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: System.Diagnostics.Contracts.Contract.Invariant(System.Boolean,System.String)
+  parent: System.Diagnostics.Contracts.Contract
+  isExternal: false
+  name: Invariant(Boolean,String)
+  nameWithType: Contract.Invariant(Boolean,String)
+  fullName: System.Diagnostics.Contracts.Contract.Invariant(Boolean,String)
+- uid: System.Boolean
+  parent: System
+  isExternal: false
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: System.String
+  parent: System
+  isExternal: false
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System.Diagnostics.Contracts.Contract.OldValue``1(``0)
+  parent: System.Diagnostics.Contracts.Contract
+  isExternal: false
+  name: OldValue(T)
+  nameWithType: Contract.OldValue(T)
+  fullName: System.Diagnostics.Contracts.Contract.OldValue(T)
+- uid: T
+  parent: ''
+  isExternal: true
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: T
+  parent: ''
+  isExternal: true
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: System.Diagnostics.Contracts.Contract.Requires(System.Boolean)
+  parent: System.Diagnostics.Contracts.Contract
+  isExternal: false
+  name: Requires(Boolean)
+  nameWithType: Contract.Requires(Boolean)
+  fullName: System.Diagnostics.Contracts.Contract.Requires(Boolean)
+- uid: System.Boolean
+  parent: System
+  isExternal: false
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: System.Diagnostics.Contracts.Contract.Requires(System.Boolean,System.String)
+  parent: System.Diagnostics.Contracts.Contract
+  isExternal: false
+  name: Requires(Boolean,String)
+  nameWithType: Contract.Requires(Boolean,String)
+  fullName: System.Diagnostics.Contracts.Contract.Requires(Boolean,String)
+- uid: System.Boolean
+  parent: System
+  isExternal: false
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: System.String
+  parent: System
+  isExternal: false
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System.Diagnostics.Contracts.Contract.Requires``1(System.Boolean)
+  parent: System.Diagnostics.Contracts.Contract
+  isExternal: false
+  name: Requires(Boolean)
+  nameWithType: Contract.Requires(Boolean)
+  fullName: System.Diagnostics.Contracts.Contract.Requires(Boolean)
+- uid: System.Boolean
+  parent: System
+  isExternal: false
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: System.Diagnostics.Contracts.Contract.Requires``1(System.Boolean,System.String)
+  parent: System.Diagnostics.Contracts.Contract
+  isExternal: false
+  name: Requires(Boolean,String)
+  nameWithType: Contract.Requires(Boolean,String)
+  fullName: System.Diagnostics.Contracts.Contract.Requires(Boolean,String)
+- uid: System.Boolean
+  parent: System
+  isExternal: false
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: System.String
+  parent: System
+  isExternal: false
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System.Diagnostics.Contracts.Contract.Result``1
+  parent: System.Diagnostics.Contracts.Contract
+  isExternal: false
+  name: Result()
+  nameWithType: Contract.Result()
+  fullName: System.Diagnostics.Contracts.Contract.Result()
+- uid: T
+  parent: ''
+  isExternal: true
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: System.Diagnostics.Contracts.Contract.ValueAtReturn``1(``0@)
+  parent: System.Diagnostics.Contracts.Contract
+  isExternal: false
+  name: ValueAtReturn(T)
+  nameWithType: Contract.ValueAtReturn(T)
+  fullName: System.Diagnostics.Contracts.Contract.ValueAtReturn(T)
+- uid: T
+  parent: ''
+  isExternal: true
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: T
+  parent: ''
+  isExternal: true
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: System.Diagnostics.Contracts.Contract.Assert*
+  parent: System.Diagnostics.Contracts.Contract
+  isExternal: false
+  name: Assert
+  nameWithType: Contract.Assert
+- uid: System.Diagnostics.Contracts.Contract.Assume*
+  parent: System.Diagnostics.Contracts.Contract
+  isExternal: false
+  name: Assume
+  nameWithType: Contract.Assume
+- uid: System.Diagnostics.Contracts.Contract.Ensures*
+  parent: System.Diagnostics.Contracts.Contract
+  isExternal: false
+  name: Ensures
+  nameWithType: Contract.Ensures
+- uid: System.Diagnostics.Contracts.Contract.EnsuresOnThrow<TException>*
+  parent: System.Diagnostics.Contracts.Contract
+  isExternal: false
+  name: EnsuresOnThrow<TException>
+  nameWithType: Contract.EnsuresOnThrow<TException>
+- uid: System.Diagnostics.Contracts.Contract.Invariant*
+  parent: System.Diagnostics.Contracts.Contract
+  isExternal: false
+  name: Invariant
+  nameWithType: Contract.Invariant
+- uid: System.Diagnostics.Contracts.Contract.Requires*
+  parent: System.Diagnostics.Contracts.Contract
+  isExternal: false
+  name: Requires
+  nameWithType: Contract.Requires
+- uid: System.Diagnostics.Contracts.Contract.Requires<TException>*
+  parent: System.Diagnostics.Contracts.Contract
+  isExternal: false
+  name: Requires<TException>
+  nameWithType: Contract.Requires<TException>

@@ -1,0 +1,61 @@
+### YamlMime:ManagedReference
+items:
+- uid: System.Runtime.InteropServices.ICustomAdapter
+  id: ICustomAdapter
+  children:
+  - System.Runtime.InteropServices.ICustomAdapter.GetUnderlyingObject
+  langs:
+  - csharp
+  name: ICustomAdapter
+  nameWithType: ICustomAdapter
+  fullName: System.Runtime.InteropServices.ICustomAdapter
+  type: Interface
+  summary: To be added.
+  remarks: To be added.
+  syntax:
+    content: >-
+      [System.Runtime.InteropServices.ComVisible(true)]
+
+      public interface ICustomAdapter
+  implements: []
+  platform:
+  - net-11
+  - net-20
+  - netcore-10
+- uid: System.Runtime.InteropServices.ICustomAdapter.GetUnderlyingObject
+  id: GetUnderlyingObject
+  parent: System.Runtime.InteropServices.ICustomAdapter
+  langs:
+  - csharp
+  name: GetUnderlyingObject()
+  nameWithType: ICustomAdapter.GetUnderlyingObject()
+  fullName: System.Runtime.InteropServices.ICustomAdapter.GetUnderlyingObject()
+  type: Method
+  assemblies:
+  - mscorlib
+  namespace: System.Runtime.InteropServices
+  summary: To be added.
+  remarks: To be added.
+  syntax:
+    content: public object GetUnderlyingObject ();
+    parameters: []
+    return:
+      type: System.Object
+      description: To be added.
+  platform:
+  - net-11
+  - net-20
+  - netcore-10
+references:
+- uid: System.Runtime.InteropServices.ICustomAdapter.GetUnderlyingObject
+  parent: System.Runtime.InteropServices.ICustomAdapter
+  isExternal: false
+  name: GetUnderlyingObject()
+  nameWithType: ICustomAdapter.GetUnderlyingObject()
+  fullName: System.Runtime.InteropServices.ICustomAdapter.GetUnderlyingObject()
+- uid: System.Object
+  parent: System
+  isExternal: false
+  name: Object
+  nameWithType: Object
+  fullName: System.Object

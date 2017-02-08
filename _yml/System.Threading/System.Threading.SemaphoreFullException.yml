@@ -1,0 +1,209 @@
+### YamlMime:ManagedReference
+items:
+- uid: System.Threading.SemaphoreFullException
+  id: SemaphoreFullException
+  children:
+  - System.Threading.SemaphoreFullException.#ctor
+  - System.Threading.SemaphoreFullException.#ctor(System.String)
+  - System.Threading.SemaphoreFullException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
+  - System.Threading.SemaphoreFullException.#ctor(System.String,System.Exception)
+  langs:
+  - csharp
+  name: SemaphoreFullException
+  nameWithType: SemaphoreFullException
+  fullName: System.Threading.SemaphoreFullException
+  type: Class
+  summary: To be added.
+  remarks: To be added.
+  syntax:
+    content: >-
+      [System.Runtime.CompilerServices.TypeForwardedFrom("System, Version=2.0.0.0, Culture=Neutral, PublicKeyToken=b77a5c561934e089")]
+
+      [System.Runtime.InteropServices.ComVisible(false)]
+
+      public class SemaphoreFullException : SystemException
+  inheritance:
+  - System.Object
+  - System.Exception
+  - System.SystemException
+  implements: []
+  inheritedMembers:
+  - System.Exception.Data
+  - System.Exception.GetBaseException
+  - System.Exception.GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
+  - System.Exception.GetType
+  - System.Exception.HelpLink
+  - System.Exception.HResult
+  - System.Exception.InnerException
+  - System.Exception.Message
+  - System.Exception.SerializeObjectState
+  - System.Exception.Source
+  - System.Exception.StackTrace
+  - System.Exception.TargetSite
+  - System.Exception.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  platform:
+  - net-11
+  - net-20
+  - netcore-10
+- uid: System.Threading.SemaphoreFullException.#ctor
+  id: '#ctor'
+  parent: System.Threading.SemaphoreFullException
+  langs:
+  - csharp
+  name: SemaphoreFullException()
+  nameWithType: SemaphoreFullException.SemaphoreFullException()
+  fullName: System.Threading.SemaphoreFullException.SemaphoreFullException()
+  type: Constructor
+  assemblies:
+  - mscorlib
+  namespace: System.Threading
+  summary: To be added.
+  remarks: To be added.
+  syntax:
+    content: public SemaphoreFullException ();
+    parameters: []
+  platform:
+  - net-11
+  - net-20
+  - netcore-10
+- uid: System.Threading.SemaphoreFullException.#ctor(System.String)
+  id: '#ctor(System.String)'
+  parent: System.Threading.SemaphoreFullException
+  langs:
+  - csharp
+  name: SemaphoreFullException(String)
+  nameWithType: SemaphoreFullException.SemaphoreFullException(String)
+  fullName: System.Threading.SemaphoreFullException.SemaphoreFullException(String)
+  type: Constructor
+  assemblies:
+  - mscorlib
+  namespace: System.Threading
+  summary: To be added.
+  remarks: To be added.
+  syntax:
+    content: public SemaphoreFullException (string message);
+    parameters:
+    - id: message
+      type: System.String
+      description: To be added.
+  platform:
+  - net-11
+  - net-20
+  - netcore-10
+- uid: System.Threading.SemaphoreFullException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
+  id: '#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)'
+  parent: System.Threading.SemaphoreFullException
+  langs:
+  - csharp
+  name: SemaphoreFullException(SerializationInfo,StreamingContext)
+  nameWithType: SemaphoreFullException.SemaphoreFullException(SerializationInfo,StreamingContext)
+  fullName: System.Threading.SemaphoreFullException.SemaphoreFullException(SerializationInfo,StreamingContext)
+  type: Constructor
+  assemblies:
+  - mscorlib
+  namespace: System.Threading
+  summary: To be added.
+  remarks: To be added.
+  syntax:
+    content: protected SemaphoreFullException (System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context);
+    parameters:
+    - id: info
+      type: System.Runtime.Serialization.SerializationInfo
+      description: To be added.
+    - id: context
+      type: System.Runtime.Serialization.StreamingContext
+      description: To be added.
+  platform:
+  - net-11
+  - net-20
+  - netcore-10
+- uid: System.Threading.SemaphoreFullException.#ctor(System.String,System.Exception)
+  id: '#ctor(System.String,System.Exception)'
+  parent: System.Threading.SemaphoreFullException
+  langs:
+  - csharp
+  name: SemaphoreFullException(String,Exception)
+  nameWithType: SemaphoreFullException.SemaphoreFullException(String,Exception)
+  fullName: System.Threading.SemaphoreFullException.SemaphoreFullException(String,Exception)
+  type: Constructor
+  assemblies:
+  - mscorlib
+  namespace: System.Threading
+  summary: To be added.
+  remarks: To be added.
+  syntax:
+    content: public SemaphoreFullException (string message, Exception innerException);
+    parameters:
+    - id: message
+      type: System.String
+      description: To be added.
+    - id: innerException
+      type: System.Exception
+      description: To be added.
+  platform:
+  - net-11
+  - net-20
+  - netcore-10
+references:
+- uid: System.SystemException
+  isExternal: false
+  name: System.SystemException
+- uid: System.Threading.SemaphoreFullException.#ctor
+  parent: System.Threading.SemaphoreFullException
+  isExternal: false
+  name: SemaphoreFullException()
+  nameWithType: SemaphoreFullException.SemaphoreFullException()
+  fullName: System.Threading.SemaphoreFullException.SemaphoreFullException()
+- uid: System.Threading.SemaphoreFullException.#ctor(System.String)
+  parent: System.Threading.SemaphoreFullException
+  isExternal: false
+  name: SemaphoreFullException(String)
+  nameWithType: SemaphoreFullException.SemaphoreFullException(String)
+  fullName: System.Threading.SemaphoreFullException.SemaphoreFullException(String)
+- uid: System.String
+  parent: System
+  isExternal: false
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System.Threading.SemaphoreFullException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
+  parent: System.Threading.SemaphoreFullException
+  isExternal: false
+  name: SemaphoreFullException(SerializationInfo,StreamingContext)
+  nameWithType: SemaphoreFullException.SemaphoreFullException(SerializationInfo,StreamingContext)
+  fullName: System.Threading.SemaphoreFullException.SemaphoreFullException(SerializationInfo,StreamingContext)
+- uid: System.Runtime.Serialization.SerializationInfo
+  parent: System.Runtime.Serialization
+  isExternal: false
+  name: SerializationInfo
+  nameWithType: SerializationInfo
+  fullName: System.Runtime.Serialization.SerializationInfo
+- uid: System.Runtime.Serialization.StreamingContext
+  parent: System.Runtime.Serialization
+  isExternal: false
+  name: StreamingContext
+  nameWithType: StreamingContext
+  fullName: System.Runtime.Serialization.StreamingContext
+- uid: System.Threading.SemaphoreFullException.#ctor(System.String,System.Exception)
+  parent: System.Threading.SemaphoreFullException
+  isExternal: false
+  name: SemaphoreFullException(String,Exception)
+  nameWithType: SemaphoreFullException.SemaphoreFullException(String,Exception)
+  fullName: System.Threading.SemaphoreFullException.SemaphoreFullException(String,Exception)
+- uid: System.String
+  parent: System
+  isExternal: false
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System.Exception
+  parent: System
+  isExternal: false
+  name: Exception
+  nameWithType: Exception
+  fullName: System.Exception

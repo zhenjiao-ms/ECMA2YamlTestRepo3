@@ -1,0 +1,444 @@
+### YamlMime:ManagedReference
+items:
+- uid: System.Threading.AbandonedMutexException
+  id: AbandonedMutexException
+  children:
+  - System.Threading.AbandonedMutexException.#ctor
+  - System.Threading.AbandonedMutexException.#ctor(System.String)
+  - System.Threading.AbandonedMutexException.#ctor(System.Int32,System.Threading.WaitHandle)
+  - System.Threading.AbandonedMutexException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
+  - System.Threading.AbandonedMutexException.#ctor(System.String,System.Exception)
+  - System.Threading.AbandonedMutexException.#ctor(System.String,System.Int32,System.Threading.WaitHandle)
+  - System.Threading.AbandonedMutexException.#ctor(System.String,System.Exception,System.Int32,System.Threading.WaitHandle)
+  - System.Threading.AbandonedMutexException.Mutex
+  - System.Threading.AbandonedMutexException.MutexIndex
+  langs:
+  - csharp
+  name: AbandonedMutexException
+  nameWithType: AbandonedMutexException
+  fullName: System.Threading.AbandonedMutexException
+  type: Class
+  summary: To be added.
+  remarks: To be added.
+  syntax:
+    content: >-
+      [System.Runtime.InteropServices.ComVisible(false)]
+
+      public class AbandonedMutexException : SystemException
+  inheritance:
+  - System.Object
+  - System.Exception
+  - System.SystemException
+  implements: []
+  inheritedMembers:
+  - System.Exception.Data
+  - System.Exception.GetBaseException
+  - System.Exception.GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
+  - System.Exception.GetType
+  - System.Exception.HelpLink
+  - System.Exception.HResult
+  - System.Exception.InnerException
+  - System.Exception.Message
+  - System.Exception.SerializeObjectState
+  - System.Exception.Source
+  - System.Exception.StackTrace
+  - System.Exception.TargetSite
+  - System.Exception.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  platform:
+  - net-11
+  - net-20
+  - netcore-10
+- uid: System.Threading.AbandonedMutexException.#ctor
+  id: '#ctor'
+  parent: System.Threading.AbandonedMutexException
+  langs:
+  - csharp
+  name: AbandonedMutexException()
+  nameWithType: AbandonedMutexException.AbandonedMutexException()
+  fullName: System.Threading.AbandonedMutexException.AbandonedMutexException()
+  type: Constructor
+  assemblies:
+  - mscorlib
+  namespace: System.Threading
+  summary: To be added.
+  remarks: To be added.
+  syntax:
+    content: public AbandonedMutexException ();
+    parameters: []
+  platform:
+  - net-11
+  - net-20
+  - netcore-10
+- uid: System.Threading.AbandonedMutexException.#ctor(System.String)
+  id: '#ctor(System.String)'
+  parent: System.Threading.AbandonedMutexException
+  langs:
+  - csharp
+  name: AbandonedMutexException(String)
+  nameWithType: AbandonedMutexException.AbandonedMutexException(String)
+  fullName: System.Threading.AbandonedMutexException.AbandonedMutexException(String)
+  type: Constructor
+  assemblies:
+  - mscorlib
+  namespace: System.Threading
+  summary: To be added.
+  remarks: To be added.
+  syntax:
+    content: public AbandonedMutexException (string message);
+    parameters:
+    - id: message
+      type: System.String
+      description: To be added.
+  platform:
+  - net-11
+  - net-20
+  - netcore-10
+- uid: System.Threading.AbandonedMutexException.#ctor(System.Int32,System.Threading.WaitHandle)
+  id: '#ctor(System.Int32,System.Threading.WaitHandle)'
+  parent: System.Threading.AbandonedMutexException
+  langs:
+  - csharp
+  name: AbandonedMutexException(Int32,WaitHandle)
+  nameWithType: AbandonedMutexException.AbandonedMutexException(Int32,WaitHandle)
+  fullName: System.Threading.AbandonedMutexException.AbandonedMutexException(Int32,WaitHandle)
+  type: Constructor
+  assemblies:
+  - mscorlib
+  namespace: System.Threading
+  summary: To be added.
+  remarks: To be added.
+  syntax:
+    content: public AbandonedMutexException (int location, System.Threading.WaitHandle handle);
+    parameters:
+    - id: location
+      type: System.Int32
+      description: To be added.
+    - id: handle
+      type: System.Threading.WaitHandle
+      description: To be added.
+  platform:
+  - net-11
+  - net-20
+  - netcore-10
+- uid: System.Threading.AbandonedMutexException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
+  id: '#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)'
+  parent: System.Threading.AbandonedMutexException
+  langs:
+  - csharp
+  name: AbandonedMutexException(SerializationInfo,StreamingContext)
+  nameWithType: AbandonedMutexException.AbandonedMutexException(SerializationInfo,StreamingContext)
+  fullName: System.Threading.AbandonedMutexException.AbandonedMutexException(SerializationInfo,StreamingContext)
+  type: Constructor
+  assemblies:
+  - mscorlib
+  namespace: System.Threading
+  summary: To be added.
+  remarks: To be added.
+  syntax:
+    content: protected AbandonedMutexException (System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context);
+    parameters:
+    - id: info
+      type: System.Runtime.Serialization.SerializationInfo
+      description: To be added.
+    - id: context
+      type: System.Runtime.Serialization.StreamingContext
+      description: To be added.
+  platform:
+  - net-11
+  - net-20
+  - netcore-10
+- uid: System.Threading.AbandonedMutexException.#ctor(System.String,System.Exception)
+  id: '#ctor(System.String,System.Exception)'
+  parent: System.Threading.AbandonedMutexException
+  langs:
+  - csharp
+  name: AbandonedMutexException(String,Exception)
+  nameWithType: AbandonedMutexException.AbandonedMutexException(String,Exception)
+  fullName: System.Threading.AbandonedMutexException.AbandonedMutexException(String,Exception)
+  type: Constructor
+  assemblies:
+  - mscorlib
+  namespace: System.Threading
+  summary: To be added.
+  remarks: To be added.
+  syntax:
+    content: public AbandonedMutexException (string message, Exception inner);
+    parameters:
+    - id: message
+      type: System.String
+      description: To be added.
+    - id: inner
+      type: System.Exception
+      description: To be added.
+  platform:
+  - net-11
+  - net-20
+  - netcore-10
+- uid: System.Threading.AbandonedMutexException.#ctor(System.String,System.Int32,System.Threading.WaitHandle)
+  id: '#ctor(System.String,System.Int32,System.Threading.WaitHandle)'
+  parent: System.Threading.AbandonedMutexException
+  langs:
+  - csharp
+  name: AbandonedMutexException(String,Int32,WaitHandle)
+  nameWithType: AbandonedMutexException.AbandonedMutexException(String,Int32,WaitHandle)
+  fullName: System.Threading.AbandonedMutexException.AbandonedMutexException(String,Int32,WaitHandle)
+  type: Constructor
+  assemblies:
+  - mscorlib
+  namespace: System.Threading
+  summary: To be added.
+  remarks: To be added.
+  syntax:
+    content: public AbandonedMutexException (string message, int location, System.Threading.WaitHandle handle);
+    parameters:
+    - id: message
+      type: System.String
+      description: To be added.
+    - id: location
+      type: System.Int32
+      description: To be added.
+    - id: handle
+      type: System.Threading.WaitHandle
+      description: To be added.
+  platform:
+  - net-11
+  - net-20
+  - netcore-10
+- uid: System.Threading.AbandonedMutexException.#ctor(System.String,System.Exception,System.Int32,System.Threading.WaitHandle)
+  id: '#ctor(System.String,System.Exception,System.Int32,System.Threading.WaitHandle)'
+  parent: System.Threading.AbandonedMutexException
+  langs:
+  - csharp
+  name: AbandonedMutexException(String,Exception,Int32,WaitHandle)
+  nameWithType: AbandonedMutexException.AbandonedMutexException(String,Exception,Int32,WaitHandle)
+  fullName: System.Threading.AbandonedMutexException.AbandonedMutexException(String,Exception,Int32,WaitHandle)
+  type: Constructor
+  assemblies:
+  - mscorlib
+  namespace: System.Threading
+  summary: To be added.
+  remarks: To be added.
+  syntax:
+    content: public AbandonedMutexException (string message, Exception inner, int location, System.Threading.WaitHandle handle);
+    parameters:
+    - id: message
+      type: System.String
+      description: To be added.
+    - id: inner
+      type: System.Exception
+      description: To be added.
+    - id: location
+      type: System.Int32
+      description: To be added.
+    - id: handle
+      type: System.Threading.WaitHandle
+      description: To be added.
+  platform:
+  - net-11
+  - net-20
+  - netcore-10
+- uid: System.Threading.AbandonedMutexException.Mutex
+  id: Mutex
+  parent: System.Threading.AbandonedMutexException
+  langs:
+  - csharp
+  name: Mutex
+  nameWithType: AbandonedMutexException.Mutex
+  fullName: System.Threading.AbandonedMutexException.Mutex
+  type: Property
+  assemblies:
+  - mscorlib
+  namespace: System.Threading
+  summary: To be added.
+  remarks: To be added.
+  syntax:
+    content: public System.Threading.Mutex Mutex { get; }
+    return:
+      type: System.Threading.Mutex
+      description: To be added.
+  platform:
+  - net-11
+  - net-20
+  - netcore-10
+- uid: System.Threading.AbandonedMutexException.MutexIndex
+  id: MutexIndex
+  parent: System.Threading.AbandonedMutexException
+  langs:
+  - csharp
+  name: MutexIndex
+  nameWithType: AbandonedMutexException.MutexIndex
+  fullName: System.Threading.AbandonedMutexException.MutexIndex
+  type: Property
+  assemblies:
+  - mscorlib
+  namespace: System.Threading
+  summary: To be added.
+  remarks: To be added.
+  syntax:
+    content: public int MutexIndex { get; }
+    return:
+      type: System.Int32
+      description: To be added.
+  platform:
+  - net-11
+  - net-20
+  - netcore-10
+references:
+- uid: System.SystemException
+  isExternal: false
+  name: System.SystemException
+- uid: System.Threading.AbandonedMutexException.#ctor
+  parent: System.Threading.AbandonedMutexException
+  isExternal: false
+  name: AbandonedMutexException()
+  nameWithType: AbandonedMutexException.AbandonedMutexException()
+  fullName: System.Threading.AbandonedMutexException.AbandonedMutexException()
+- uid: System.Threading.AbandonedMutexException.#ctor(System.String)
+  parent: System.Threading.AbandonedMutexException
+  isExternal: false
+  name: AbandonedMutexException(String)
+  nameWithType: AbandonedMutexException.AbandonedMutexException(String)
+  fullName: System.Threading.AbandonedMutexException.AbandonedMutexException(String)
+- uid: System.String
+  parent: System
+  isExternal: false
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System.Threading.AbandonedMutexException.#ctor(System.Int32,System.Threading.WaitHandle)
+  parent: System.Threading.AbandonedMutexException
+  isExternal: false
+  name: AbandonedMutexException(Int32,WaitHandle)
+  nameWithType: AbandonedMutexException.AbandonedMutexException(Int32,WaitHandle)
+  fullName: System.Threading.AbandonedMutexException.AbandonedMutexException(Int32,WaitHandle)
+- uid: System.Int32
+  parent: System
+  isExternal: false
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: System.Threading.WaitHandle
+  parent: System.Threading
+  isExternal: false
+  name: WaitHandle
+  nameWithType: WaitHandle
+  fullName: System.Threading.WaitHandle
+- uid: System.Threading.AbandonedMutexException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
+  parent: System.Threading.AbandonedMutexException
+  isExternal: false
+  name: AbandonedMutexException(SerializationInfo,StreamingContext)
+  nameWithType: AbandonedMutexException.AbandonedMutexException(SerializationInfo,StreamingContext)
+  fullName: System.Threading.AbandonedMutexException.AbandonedMutexException(SerializationInfo,StreamingContext)
+- uid: System.Runtime.Serialization.SerializationInfo
+  parent: System.Runtime.Serialization
+  isExternal: false
+  name: SerializationInfo
+  nameWithType: SerializationInfo
+  fullName: System.Runtime.Serialization.SerializationInfo
+- uid: System.Runtime.Serialization.StreamingContext
+  parent: System.Runtime.Serialization
+  isExternal: false
+  name: StreamingContext
+  nameWithType: StreamingContext
+  fullName: System.Runtime.Serialization.StreamingContext
+- uid: System.Threading.AbandonedMutexException.#ctor(System.String,System.Exception)
+  parent: System.Threading.AbandonedMutexException
+  isExternal: false
+  name: AbandonedMutexException(String,Exception)
+  nameWithType: AbandonedMutexException.AbandonedMutexException(String,Exception)
+  fullName: System.Threading.AbandonedMutexException.AbandonedMutexException(String,Exception)
+- uid: System.String
+  parent: System
+  isExternal: false
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System.Exception
+  parent: System
+  isExternal: false
+  name: Exception
+  nameWithType: Exception
+  fullName: System.Exception
+- uid: System.Threading.AbandonedMutexException.#ctor(System.String,System.Int32,System.Threading.WaitHandle)
+  parent: System.Threading.AbandonedMutexException
+  isExternal: false
+  name: AbandonedMutexException(String,Int32,WaitHandle)
+  nameWithType: AbandonedMutexException.AbandonedMutexException(String,Int32,WaitHandle)
+  fullName: System.Threading.AbandonedMutexException.AbandonedMutexException(String,Int32,WaitHandle)
+- uid: System.String
+  parent: System
+  isExternal: false
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System.Int32
+  parent: System
+  isExternal: false
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: System.Threading.WaitHandle
+  parent: System.Threading
+  isExternal: false
+  name: WaitHandle
+  nameWithType: WaitHandle
+  fullName: System.Threading.WaitHandle
+- uid: System.Threading.AbandonedMutexException.#ctor(System.String,System.Exception,System.Int32,System.Threading.WaitHandle)
+  parent: System.Threading.AbandonedMutexException
+  isExternal: false
+  name: AbandonedMutexException(String,Exception,Int32,WaitHandle)
+  nameWithType: AbandonedMutexException.AbandonedMutexException(String,Exception,Int32,WaitHandle)
+  fullName: System.Threading.AbandonedMutexException.AbandonedMutexException(String,Exception,Int32,WaitHandle)
+- uid: System.String
+  parent: System
+  isExternal: false
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System.Exception
+  parent: System
+  isExternal: false
+  name: Exception
+  nameWithType: Exception
+  fullName: System.Exception
+- uid: System.Int32
+  parent: System
+  isExternal: false
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: System.Threading.WaitHandle
+  parent: System.Threading
+  isExternal: false
+  name: WaitHandle
+  nameWithType: WaitHandle
+  fullName: System.Threading.WaitHandle
+- uid: System.Threading.AbandonedMutexException.Mutex
+  parent: System.Threading.AbandonedMutexException
+  isExternal: false
+  name: Mutex
+  nameWithType: AbandonedMutexException.Mutex
+  fullName: System.Threading.AbandonedMutexException.Mutex
+- uid: System.Threading.Mutex
+  parent: System.Threading
+  isExternal: false
+  name: Mutex
+  nameWithType: Mutex
+  fullName: System.Threading.Mutex
+- uid: System.Threading.AbandonedMutexException.MutexIndex
+  parent: System.Threading.AbandonedMutexException
+  isExternal: false
+  name: MutexIndex
+  nameWithType: AbandonedMutexException.MutexIndex
+  fullName: System.Threading.AbandonedMutexException.MutexIndex
+- uid: System.Int32
+  parent: System
+  isExternal: false
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32

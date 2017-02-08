@@ -1,0 +1,208 @@
+### YamlMime:ManagedReference
+items:
+- uid: System.MethodAccessException
+  id: MethodAccessException
+  children:
+  - System.MethodAccessException.#ctor
+  - System.MethodAccessException.#ctor(System.String)
+  - System.MethodAccessException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
+  - System.MethodAccessException.#ctor(System.String,System.Exception)
+  langs:
+  - csharp
+  name: MethodAccessException
+  nameWithType: MethodAccessException
+  fullName: System.MethodAccessException
+  type: Class
+  summary: To be added.
+  remarks: To be added.
+  syntax:
+    content: >-
+      [System.Runtime.InteropServices.ComVisible(true)]
+
+      public class MethodAccessException : MemberAccessException
+  inheritance:
+  - System.Object
+  - System.Exception
+  - System.SystemException
+  - System.MemberAccessException
+  implements: []
+  inheritedMembers:
+  - System.Exception.Data
+  - System.Exception.GetBaseException
+  - System.Exception.GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
+  - System.Exception.GetType
+  - System.Exception.HelpLink
+  - System.Exception.HResult
+  - System.Exception.InnerException
+  - System.Exception.Message
+  - System.Exception.SerializeObjectState
+  - System.Exception.Source
+  - System.Exception.StackTrace
+  - System.Exception.TargetSite
+  - System.Exception.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  platform:
+  - net-11
+  - net-20
+  - netcore-10
+- uid: System.MethodAccessException.#ctor
+  id: '#ctor'
+  parent: System.MethodAccessException
+  langs:
+  - csharp
+  name: MethodAccessException()
+  nameWithType: MethodAccessException.MethodAccessException()
+  fullName: System.MethodAccessException.MethodAccessException()
+  type: Constructor
+  assemblies:
+  - mscorlib
+  namespace: System
+  summary: To be added.
+  remarks: To be added.
+  syntax:
+    content: public MethodAccessException ();
+    parameters: []
+  platform:
+  - net-11
+  - net-20
+  - netcore-10
+- uid: System.MethodAccessException.#ctor(System.String)
+  id: '#ctor(System.String)'
+  parent: System.MethodAccessException
+  langs:
+  - csharp
+  name: MethodAccessException(String)
+  nameWithType: MethodAccessException.MethodAccessException(String)
+  fullName: System.MethodAccessException.MethodAccessException(String)
+  type: Constructor
+  assemblies:
+  - mscorlib
+  namespace: System
+  summary: To be added.
+  remarks: To be added.
+  syntax:
+    content: public MethodAccessException (string message);
+    parameters:
+    - id: message
+      type: System.String
+      description: To be added.
+  platform:
+  - net-11
+  - net-20
+  - netcore-10
+- uid: System.MethodAccessException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
+  id: '#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)'
+  parent: System.MethodAccessException
+  langs:
+  - csharp
+  name: MethodAccessException(SerializationInfo,StreamingContext)
+  nameWithType: MethodAccessException.MethodAccessException(SerializationInfo,StreamingContext)
+  fullName: System.MethodAccessException.MethodAccessException(SerializationInfo,StreamingContext)
+  type: Constructor
+  assemblies:
+  - mscorlib
+  namespace: System
+  summary: To be added.
+  remarks: To be added.
+  syntax:
+    content: protected MethodAccessException (System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context);
+    parameters:
+    - id: info
+      type: System.Runtime.Serialization.SerializationInfo
+      description: To be added.
+    - id: context
+      type: System.Runtime.Serialization.StreamingContext
+      description: To be added.
+  platform:
+  - net-11
+  - net-20
+  - netcore-10
+- uid: System.MethodAccessException.#ctor(System.String,System.Exception)
+  id: '#ctor(System.String,System.Exception)'
+  parent: System.MethodAccessException
+  langs:
+  - csharp
+  name: MethodAccessException(String,Exception)
+  nameWithType: MethodAccessException.MethodAccessException(String,Exception)
+  fullName: System.MethodAccessException.MethodAccessException(String,Exception)
+  type: Constructor
+  assemblies:
+  - mscorlib
+  namespace: System
+  summary: To be added.
+  remarks: To be added.
+  syntax:
+    content: public MethodAccessException (string message, Exception inner);
+    parameters:
+    - id: message
+      type: System.String
+      description: To be added.
+    - id: inner
+      type: System.Exception
+      description: To be added.
+  platform:
+  - net-11
+  - net-20
+  - netcore-10
+references:
+- uid: System.MemberAccessException
+  isExternal: false
+  name: System.MemberAccessException
+- uid: System.MethodAccessException.#ctor
+  parent: System.MethodAccessException
+  isExternal: false
+  name: MethodAccessException()
+  nameWithType: MethodAccessException.MethodAccessException()
+  fullName: System.MethodAccessException.MethodAccessException()
+- uid: System.MethodAccessException.#ctor(System.String)
+  parent: System.MethodAccessException
+  isExternal: false
+  name: MethodAccessException(String)
+  nameWithType: MethodAccessException.MethodAccessException(String)
+  fullName: System.MethodAccessException.MethodAccessException(String)
+- uid: System.String
+  parent: System
+  isExternal: false
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System.MethodAccessException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
+  parent: System.MethodAccessException
+  isExternal: false
+  name: MethodAccessException(SerializationInfo,StreamingContext)
+  nameWithType: MethodAccessException.MethodAccessException(SerializationInfo,StreamingContext)
+  fullName: System.MethodAccessException.MethodAccessException(SerializationInfo,StreamingContext)
+- uid: System.Runtime.Serialization.SerializationInfo
+  parent: System.Runtime.Serialization
+  isExternal: false
+  name: SerializationInfo
+  nameWithType: SerializationInfo
+  fullName: System.Runtime.Serialization.SerializationInfo
+- uid: System.Runtime.Serialization.StreamingContext
+  parent: System.Runtime.Serialization
+  isExternal: false
+  name: StreamingContext
+  nameWithType: StreamingContext
+  fullName: System.Runtime.Serialization.StreamingContext
+- uid: System.MethodAccessException.#ctor(System.String,System.Exception)
+  parent: System.MethodAccessException
+  isExternal: false
+  name: MethodAccessException(String,Exception)
+  nameWithType: MethodAccessException.MethodAccessException(String,Exception)
+  fullName: System.MethodAccessException.MethodAccessException(String,Exception)
+- uid: System.String
+  parent: System
+  isExternal: false
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System.Exception
+  parent: System
+  isExternal: false
+  name: Exception
+  nameWithType: Exception
+  fullName: System.Exception

@@ -1,0 +1,207 @@
+### YamlMime:ManagedReference
+items:
+- uid: System.TimeoutException
+  id: TimeoutException
+  children:
+  - System.TimeoutException.#ctor
+  - System.TimeoutException.#ctor(System.String)
+  - System.TimeoutException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
+  - System.TimeoutException.#ctor(System.String,System.Exception)
+  langs:
+  - csharp
+  name: TimeoutException
+  nameWithType: TimeoutException
+  fullName: System.TimeoutException
+  type: Class
+  summary: To be added.
+  remarks: To be added.
+  syntax:
+    content: >-
+      [System.Runtime.InteropServices.ComVisible(true)]
+
+      public class TimeoutException : SystemException
+  inheritance:
+  - System.Object
+  - System.Exception
+  - System.SystemException
+  implements: []
+  inheritedMembers:
+  - System.Exception.Data
+  - System.Exception.GetBaseException
+  - System.Exception.GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
+  - System.Exception.GetType
+  - System.Exception.HelpLink
+  - System.Exception.HResult
+  - System.Exception.InnerException
+  - System.Exception.Message
+  - System.Exception.SerializeObjectState
+  - System.Exception.Source
+  - System.Exception.StackTrace
+  - System.Exception.TargetSite
+  - System.Exception.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  platform:
+  - net-11
+  - net-20
+  - netcore-10
+- uid: System.TimeoutException.#ctor
+  id: '#ctor'
+  parent: System.TimeoutException
+  langs:
+  - csharp
+  name: TimeoutException()
+  nameWithType: TimeoutException.TimeoutException()
+  fullName: System.TimeoutException.TimeoutException()
+  type: Constructor
+  assemblies:
+  - mscorlib
+  namespace: System
+  summary: To be added.
+  remarks: To be added.
+  syntax:
+    content: public TimeoutException ();
+    parameters: []
+  platform:
+  - net-11
+  - net-20
+  - netcore-10
+- uid: System.TimeoutException.#ctor(System.String)
+  id: '#ctor(System.String)'
+  parent: System.TimeoutException
+  langs:
+  - csharp
+  name: TimeoutException(String)
+  nameWithType: TimeoutException.TimeoutException(String)
+  fullName: System.TimeoutException.TimeoutException(String)
+  type: Constructor
+  assemblies:
+  - mscorlib
+  namespace: System
+  summary: To be added.
+  remarks: To be added.
+  syntax:
+    content: public TimeoutException (string message);
+    parameters:
+    - id: message
+      type: System.String
+      description: To be added.
+  platform:
+  - net-11
+  - net-20
+  - netcore-10
+- uid: System.TimeoutException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
+  id: '#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)'
+  parent: System.TimeoutException
+  langs:
+  - csharp
+  name: TimeoutException(SerializationInfo,StreamingContext)
+  nameWithType: TimeoutException.TimeoutException(SerializationInfo,StreamingContext)
+  fullName: System.TimeoutException.TimeoutException(SerializationInfo,StreamingContext)
+  type: Constructor
+  assemblies:
+  - mscorlib
+  namespace: System
+  summary: To be added.
+  remarks: To be added.
+  syntax:
+    content: protected TimeoutException (System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context);
+    parameters:
+    - id: info
+      type: System.Runtime.Serialization.SerializationInfo
+      description: To be added.
+    - id: context
+      type: System.Runtime.Serialization.StreamingContext
+      description: To be added.
+  platform:
+  - net-11
+  - net-20
+  - netcore-10
+- uid: System.TimeoutException.#ctor(System.String,System.Exception)
+  id: '#ctor(System.String,System.Exception)'
+  parent: System.TimeoutException
+  langs:
+  - csharp
+  name: TimeoutException(String,Exception)
+  nameWithType: TimeoutException.TimeoutException(String,Exception)
+  fullName: System.TimeoutException.TimeoutException(String,Exception)
+  type: Constructor
+  assemblies:
+  - mscorlib
+  namespace: System
+  summary: To be added.
+  remarks: To be added.
+  syntax:
+    content: public TimeoutException (string message, Exception innerException);
+    parameters:
+    - id: message
+      type: System.String
+      description: To be added.
+    - id: innerException
+      type: System.Exception
+      description: To be added.
+  platform:
+  - net-11
+  - net-20
+  - netcore-10
+references:
+- uid: System.SystemException
+  isExternal: false
+  name: System.SystemException
+- uid: System.TimeoutException.#ctor
+  parent: System.TimeoutException
+  isExternal: false
+  name: TimeoutException()
+  nameWithType: TimeoutException.TimeoutException()
+  fullName: System.TimeoutException.TimeoutException()
+- uid: System.TimeoutException.#ctor(System.String)
+  parent: System.TimeoutException
+  isExternal: false
+  name: TimeoutException(String)
+  nameWithType: TimeoutException.TimeoutException(String)
+  fullName: System.TimeoutException.TimeoutException(String)
+- uid: System.String
+  parent: System
+  isExternal: false
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System.TimeoutException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
+  parent: System.TimeoutException
+  isExternal: false
+  name: TimeoutException(SerializationInfo,StreamingContext)
+  nameWithType: TimeoutException.TimeoutException(SerializationInfo,StreamingContext)
+  fullName: System.TimeoutException.TimeoutException(SerializationInfo,StreamingContext)
+- uid: System.Runtime.Serialization.SerializationInfo
+  parent: System.Runtime.Serialization
+  isExternal: false
+  name: SerializationInfo
+  nameWithType: SerializationInfo
+  fullName: System.Runtime.Serialization.SerializationInfo
+- uid: System.Runtime.Serialization.StreamingContext
+  parent: System.Runtime.Serialization
+  isExternal: false
+  name: StreamingContext
+  nameWithType: StreamingContext
+  fullName: System.Runtime.Serialization.StreamingContext
+- uid: System.TimeoutException.#ctor(System.String,System.Exception)
+  parent: System.TimeoutException
+  isExternal: false
+  name: TimeoutException(String,Exception)
+  nameWithType: TimeoutException.TimeoutException(String,Exception)
+  fullName: System.TimeoutException.TimeoutException(String,Exception)
+- uid: System.String
+  parent: System
+  isExternal: false
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System.Exception
+  parent: System
+  isExternal: false
+  name: Exception
+  nameWithType: Exception
+  fullName: System.Exception

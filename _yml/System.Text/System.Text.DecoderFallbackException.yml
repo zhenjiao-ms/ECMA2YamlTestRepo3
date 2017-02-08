@@ -1,0 +1,287 @@
+### YamlMime:ManagedReference
+items:
+- uid: System.Text.DecoderFallbackException
+  id: DecoderFallbackException
+  children:
+  - System.Text.DecoderFallbackException.#ctor
+  - System.Text.DecoderFallbackException.#ctor(System.String)
+  - System.Text.DecoderFallbackException.#ctor(System.String,System.Exception)
+  - System.Text.DecoderFallbackException.#ctor(System.String,System.Byte[],System.Int32)
+  - System.Text.DecoderFallbackException.BytesUnknown
+  - System.Text.DecoderFallbackException.Index
+  langs:
+  - csharp
+  name: DecoderFallbackException
+  nameWithType: DecoderFallbackException
+  fullName: System.Text.DecoderFallbackException
+  type: Class
+  summary: To be added.
+  remarks: To be added.
+  syntax:
+    content: 'public sealed class DecoderFallbackException : ArgumentException'
+  inheritance:
+  - System.Object
+  - System.Exception
+  - System.SystemException
+  - System.ArgumentException
+  implements: []
+  inheritedMembers:
+  - System.ArgumentException.GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
+  - System.ArgumentException.Message
+  - System.ArgumentException.ParamName
+  - System.Exception.Data
+  - System.Exception.GetBaseException
+  - System.Exception.GetType
+  - System.Exception.HelpLink
+  - System.Exception.HResult
+  - System.Exception.InnerException
+  - System.Exception.SerializeObjectState
+  - System.Exception.Source
+  - System.Exception.StackTrace
+  - System.Exception.TargetSite
+  - System.Exception.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  platform:
+  - net-11
+  - net-20
+  - netcore-10
+- uid: System.Text.DecoderFallbackException.#ctor
+  id: '#ctor'
+  parent: System.Text.DecoderFallbackException
+  langs:
+  - csharp
+  name: DecoderFallbackException()
+  nameWithType: DecoderFallbackException.DecoderFallbackException()
+  fullName: System.Text.DecoderFallbackException.DecoderFallbackException()
+  type: Constructor
+  assemblies:
+  - mscorlib
+  namespace: System.Text
+  summary: To be added.
+  remarks: To be added.
+  syntax:
+    content: public DecoderFallbackException ();
+    parameters: []
+  platform:
+  - net-11
+  - net-20
+  - netcore-10
+- uid: System.Text.DecoderFallbackException.#ctor(System.String)
+  id: '#ctor(System.String)'
+  parent: System.Text.DecoderFallbackException
+  langs:
+  - csharp
+  name: DecoderFallbackException(String)
+  nameWithType: DecoderFallbackException.DecoderFallbackException(String)
+  fullName: System.Text.DecoderFallbackException.DecoderFallbackException(String)
+  type: Constructor
+  assemblies:
+  - mscorlib
+  namespace: System.Text
+  summary: To be added.
+  remarks: To be added.
+  syntax:
+    content: public DecoderFallbackException (string message);
+    parameters:
+    - id: message
+      type: System.String
+      description: To be added.
+  platform:
+  - net-11
+  - net-20
+  - netcore-10
+- uid: System.Text.DecoderFallbackException.#ctor(System.String,System.Exception)
+  id: '#ctor(System.String,System.Exception)'
+  parent: System.Text.DecoderFallbackException
+  langs:
+  - csharp
+  name: DecoderFallbackException(String,Exception)
+  nameWithType: DecoderFallbackException.DecoderFallbackException(String,Exception)
+  fullName: System.Text.DecoderFallbackException.DecoderFallbackException(String,Exception)
+  type: Constructor
+  assemblies:
+  - mscorlib
+  namespace: System.Text
+  summary: To be added.
+  remarks: To be added.
+  syntax:
+    content: public DecoderFallbackException (string message, Exception innerException);
+    parameters:
+    - id: message
+      type: System.String
+      description: To be added.
+    - id: innerException
+      type: System.Exception
+      description: To be added.
+  platform:
+  - net-11
+  - net-20
+  - netcore-10
+- uid: System.Text.DecoderFallbackException.#ctor(System.String,System.Byte[],System.Int32)
+  id: '#ctor(System.String,System.Byte[],System.Int32)'
+  parent: System.Text.DecoderFallbackException
+  langs:
+  - csharp
+  name: DecoderFallbackException(String,Byte[],Int32)
+  nameWithType: DecoderFallbackException.DecoderFallbackException(String,Byte[],Int32)
+  fullName: System.Text.DecoderFallbackException.DecoderFallbackException(String,Byte[],Int32)
+  type: Constructor
+  assemblies:
+  - mscorlib
+  namespace: System.Text
+  summary: To be added.
+  remarks: To be added.
+  syntax:
+    content: public DecoderFallbackException (string message, byte[] bytesUnknown, int index);
+    parameters:
+    - id: message
+      type: System.String
+      description: To be added.
+    - id: bytesUnknown
+      type: System.Byte[]
+      description: To be added.
+    - id: index
+      type: System.Int32
+      description: To be added.
+  platform:
+  - net-11
+  - net-20
+  - netcore-10
+- uid: System.Text.DecoderFallbackException.BytesUnknown
+  id: BytesUnknown
+  parent: System.Text.DecoderFallbackException
+  langs:
+  - csharp
+  name: BytesUnknown
+  nameWithType: DecoderFallbackException.BytesUnknown
+  fullName: System.Text.DecoderFallbackException.BytesUnknown
+  type: Property
+  assemblies:
+  - mscorlib
+  namespace: System.Text
+  summary: To be added.
+  remarks: To be added.
+  syntax:
+    content: public byte[] BytesUnknown { get; }
+    return:
+      type: System.Byte[]
+      description: To be added.
+  platform:
+  - net-11
+  - net-20
+  - netcore-10
+- uid: System.Text.DecoderFallbackException.Index
+  id: Index
+  parent: System.Text.DecoderFallbackException
+  langs:
+  - csharp
+  name: Index
+  nameWithType: DecoderFallbackException.Index
+  fullName: System.Text.DecoderFallbackException.Index
+  type: Property
+  assemblies:
+  - mscorlib
+  namespace: System.Text
+  summary: To be added.
+  remarks: To be added.
+  syntax:
+    content: public int Index { get; }
+    return:
+      type: System.Int32
+      description: To be added.
+  platform:
+  - net-11
+  - net-20
+  - netcore-10
+references:
+- uid: System.ArgumentException
+  isExternal: false
+  name: System.ArgumentException
+- uid: System.Text.DecoderFallbackException.#ctor
+  parent: System.Text.DecoderFallbackException
+  isExternal: false
+  name: DecoderFallbackException()
+  nameWithType: DecoderFallbackException.DecoderFallbackException()
+  fullName: System.Text.DecoderFallbackException.DecoderFallbackException()
+- uid: System.Text.DecoderFallbackException.#ctor(System.String)
+  parent: System.Text.DecoderFallbackException
+  isExternal: false
+  name: DecoderFallbackException(String)
+  nameWithType: DecoderFallbackException.DecoderFallbackException(String)
+  fullName: System.Text.DecoderFallbackException.DecoderFallbackException(String)
+- uid: System.String
+  parent: System
+  isExternal: false
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System.Text.DecoderFallbackException.#ctor(System.String,System.Exception)
+  parent: System.Text.DecoderFallbackException
+  isExternal: false
+  name: DecoderFallbackException(String,Exception)
+  nameWithType: DecoderFallbackException.DecoderFallbackException(String,Exception)
+  fullName: System.Text.DecoderFallbackException.DecoderFallbackException(String,Exception)
+- uid: System.String
+  parent: System
+  isExternal: false
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System.Exception
+  parent: System
+  isExternal: false
+  name: Exception
+  nameWithType: Exception
+  fullName: System.Exception
+- uid: System.Text.DecoderFallbackException.#ctor(System.String,System.Byte[],System.Int32)
+  parent: System.Text.DecoderFallbackException
+  isExternal: false
+  name: DecoderFallbackException(String,Byte[],Int32)
+  nameWithType: DecoderFallbackException.DecoderFallbackException(String,Byte[],Int32)
+  fullName: System.Text.DecoderFallbackException.DecoderFallbackException(String,Byte[],Int32)
+- uid: System.String
+  parent: System
+  isExternal: false
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System.Byte
+  parent: System
+  isExternal: false
+  name: Byte
+  nameWithType: Byte
+  fullName: System.Byte[]
+- uid: System.Int32
+  parent: System
+  isExternal: false
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: System.Text.DecoderFallbackException.BytesUnknown
+  parent: System.Text.DecoderFallbackException
+  isExternal: false
+  name: BytesUnknown
+  nameWithType: DecoderFallbackException.BytesUnknown
+  fullName: System.Text.DecoderFallbackException.BytesUnknown
+- uid: System.Byte
+  parent: System
+  isExternal: false
+  name: Byte
+  nameWithType: Byte
+  fullName: System.Byte[]
+- uid: System.Text.DecoderFallbackException.Index
+  parent: System.Text.DecoderFallbackException
+  isExternal: false
+  name: Index
+  nameWithType: DecoderFallbackException.Index
+  fullName: System.Text.DecoderFallbackException.Index
+- uid: System.Int32
+  parent: System
+  isExternal: false
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32

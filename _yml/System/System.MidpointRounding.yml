@@ -1,0 +1,100 @@
+### YamlMime:ManagedReference
+items:
+- uid: System.MidpointRounding
+  id: MidpointRounding
+  children:
+  - System.MidpointRounding.AwayFromZero
+  - System.MidpointRounding.ToEven
+  langs:
+  - csharp
+  name: MidpointRounding
+  nameWithType: MidpointRounding
+  fullName: System.MidpointRounding
+  type: Enum
+  summary: To be added.
+  remarks: To be added.
+  syntax:
+    content: >-
+      [System.Runtime.InteropServices.ComVisible(true)]
+
+      public enum MidpointRounding
+  inheritance:
+  - System.Object
+  - System.ValueType
+  - System.Enum
+  platform:
+  - net-11
+  - net-20
+  - netcore-10
+- uid: System.MidpointRounding.AwayFromZero
+  id: AwayFromZero
+  parent: System.MidpointRounding
+  langs:
+  - csharp
+  name: AwayFromZero
+  nameWithType: MidpointRounding.AwayFromZero
+  fullName: System.MidpointRounding.AwayFromZero
+  type: Field
+  assemblies:
+  - mscorlib
+  namespace: System
+  summary: To be added.
+  syntax:
+    content: AwayFromZero
+    return:
+      type: System.MidpointRounding
+      description: To be added.
+  platform:
+  - net-11
+  - net-20
+  - netcore-10
+- uid: System.MidpointRounding.ToEven
+  id: ToEven
+  parent: System.MidpointRounding
+  langs:
+  - csharp
+  name: ToEven
+  nameWithType: MidpointRounding.ToEven
+  fullName: System.MidpointRounding.ToEven
+  type: Field
+  assemblies:
+  - mscorlib
+  namespace: System
+  summary: To be added.
+  syntax:
+    content: ToEven
+    return:
+      type: System.MidpointRounding
+      description: To be added.
+  platform:
+  - net-11
+  - net-20
+  - netcore-10
+references:
+- uid: System.Enum
+  isExternal: false
+  name: System.Enum
+- uid: System.MidpointRounding.AwayFromZero
+  parent: System.MidpointRounding
+  isExternal: false
+  name: AwayFromZero
+  nameWithType: MidpointRounding.AwayFromZero
+  fullName: System.MidpointRounding.AwayFromZero
+- uid: System.MidpointRounding
+  parent: System
+  isExternal: false
+  name: MidpointRounding
+  nameWithType: MidpointRounding
+  fullName: System.MidpointRounding
+- uid: System.MidpointRounding.ToEven
+  parent: System.MidpointRounding
+  isExternal: false
+  name: ToEven
+  nameWithType: MidpointRounding.ToEven
+  fullName: System.MidpointRounding.ToEven
+- uid: System.MidpointRounding
+  parent: System
+  isExternal: false
+  name: MidpointRounding
+  nameWithType: MidpointRounding
+  fullName: System.MidpointRounding

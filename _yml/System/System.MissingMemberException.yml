@@ -1,0 +1,442 @@
+### YamlMime:ManagedReference
+items:
+- uid: System.MissingMemberException
+  id: MissingMemberException
+  children:
+  - System.MissingMemberException.#ctor
+  - System.MissingMemberException.#ctor(System.String)
+  - System.MissingMemberException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
+  - System.MissingMemberException.#ctor(System.String,System.Exception)
+  - System.MissingMemberException.#ctor(System.String,System.String)
+  - System.MissingMemberException.ClassName
+  - System.MissingMemberException.GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
+  - System.MissingMemberException.MemberName
+  - System.MissingMemberException.Message
+  - System.MissingMemberException.Signature
+  langs:
+  - csharp
+  name: MissingMemberException
+  nameWithType: MissingMemberException
+  fullName: System.MissingMemberException
+  type: Class
+  summary: To be added.
+  remarks: To be added.
+  syntax:
+    content: >-
+      [System.Runtime.InteropServices.ComVisible(true)]
+
+      public class MissingMemberException : MemberAccessException
+  inheritance:
+  - System.Object
+  - System.Exception
+  - System.SystemException
+  - System.MemberAccessException
+  implements: []
+  inheritedMembers:
+  - System.Exception.Data
+  - System.Exception.GetBaseException
+  - System.Exception.GetType
+  - System.Exception.HelpLink
+  - System.Exception.HResult
+  - System.Exception.InnerException
+  - System.Exception.SerializeObjectState
+  - System.Exception.Source
+  - System.Exception.StackTrace
+  - System.Exception.TargetSite
+  - System.Exception.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  platform:
+  - net-11
+  - net-20
+  - netcore-10
+- uid: System.MissingMemberException.#ctor
+  id: '#ctor'
+  parent: System.MissingMemberException
+  langs:
+  - csharp
+  name: MissingMemberException()
+  nameWithType: MissingMemberException.MissingMemberException()
+  fullName: System.MissingMemberException.MissingMemberException()
+  type: Constructor
+  assemblies:
+  - mscorlib
+  namespace: System
+  summary: To be added.
+  remarks: To be added.
+  syntax:
+    content: public MissingMemberException ();
+    parameters: []
+  platform:
+  - net-11
+  - net-20
+  - netcore-10
+- uid: System.MissingMemberException.#ctor(System.String)
+  id: '#ctor(System.String)'
+  parent: System.MissingMemberException
+  langs:
+  - csharp
+  name: MissingMemberException(String)
+  nameWithType: MissingMemberException.MissingMemberException(String)
+  fullName: System.MissingMemberException.MissingMemberException(String)
+  type: Constructor
+  assemblies:
+  - mscorlib
+  namespace: System
+  summary: To be added.
+  remarks: To be added.
+  syntax:
+    content: public MissingMemberException (string message);
+    parameters:
+    - id: message
+      type: System.String
+      description: To be added.
+  platform:
+  - net-11
+  - net-20
+  - netcore-10
+- uid: System.MissingMemberException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
+  id: '#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)'
+  parent: System.MissingMemberException
+  langs:
+  - csharp
+  name: MissingMemberException(SerializationInfo,StreamingContext)
+  nameWithType: MissingMemberException.MissingMemberException(SerializationInfo,StreamingContext)
+  fullName: System.MissingMemberException.MissingMemberException(SerializationInfo,StreamingContext)
+  type: Constructor
+  assemblies:
+  - mscorlib
+  namespace: System
+  summary: To be added.
+  remarks: To be added.
+  syntax:
+    content: protected MissingMemberException (System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context);
+    parameters:
+    - id: info
+      type: System.Runtime.Serialization.SerializationInfo
+      description: To be added.
+    - id: context
+      type: System.Runtime.Serialization.StreamingContext
+      description: To be added.
+  platform:
+  - net-11
+  - net-20
+  - netcore-10
+- uid: System.MissingMemberException.#ctor(System.String,System.Exception)
+  id: '#ctor(System.String,System.Exception)'
+  parent: System.MissingMemberException
+  langs:
+  - csharp
+  name: MissingMemberException(String,Exception)
+  nameWithType: MissingMemberException.MissingMemberException(String,Exception)
+  fullName: System.MissingMemberException.MissingMemberException(String,Exception)
+  type: Constructor
+  assemblies:
+  - mscorlib
+  namespace: System
+  summary: To be added.
+  remarks: To be added.
+  syntax:
+    content: public MissingMemberException (string message, Exception inner);
+    parameters:
+    - id: message
+      type: System.String
+      description: To be added.
+    - id: inner
+      type: System.Exception
+      description: To be added.
+  platform:
+  - net-11
+  - net-20
+  - netcore-10
+- uid: System.MissingMemberException.#ctor(System.String,System.String)
+  id: '#ctor(System.String,System.String)'
+  parent: System.MissingMemberException
+  langs:
+  - csharp
+  name: MissingMemberException(String,String)
+  nameWithType: MissingMemberException.MissingMemberException(String,String)
+  fullName: System.MissingMemberException.MissingMemberException(String,String)
+  type: Constructor
+  assemblies:
+  - mscorlib
+  namespace: System
+  summary: To be added.
+  remarks: To be added.
+  syntax:
+    content: public MissingMemberException (string className, string memberName);
+    parameters:
+    - id: className
+      type: System.String
+      description: To be added.
+    - id: memberName
+      type: System.String
+      description: To be added.
+  platform:
+  - net-11
+  - net-20
+  - netcore-10
+- uid: System.MissingMemberException.ClassName
+  id: ClassName
+  parent: System.MissingMemberException
+  langs:
+  - csharp
+  name: ClassName
+  nameWithType: MissingMemberException.ClassName
+  fullName: System.MissingMemberException.ClassName
+  type: Field
+  assemblies:
+  - mscorlib
+  namespace: System
+  summary: To be added.
+  remarks: To be added.
+  syntax:
+    content: protected string ClassName;
+    return:
+      type: System.String
+      description: To be added.
+  platform:
+  - net-11
+  - net-20
+  - netcore-10
+- uid: System.MissingMemberException.GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
+  id: GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
+  parent: System.MissingMemberException
+  langs:
+  - csharp
+  name: GetObjectData(SerializationInfo,StreamingContext)
+  nameWithType: MissingMemberException.GetObjectData(SerializationInfo,StreamingContext)
+  fullName: System.MissingMemberException.GetObjectData(SerializationInfo,StreamingContext)
+  type: Method
+  assemblies:
+  - mscorlib
+  namespace: System
+  summary: To be added.
+  remarks: To be added.
+  syntax:
+    content: public override void GetObjectData (System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context);
+    parameters:
+    - id: info
+      type: System.Runtime.Serialization.SerializationInfo
+      description: To be added.
+    - id: context
+      type: System.Runtime.Serialization.StreamingContext
+      description: To be added.
+  platform:
+  - net-11
+  - net-20
+  - netcore-10
+- uid: System.MissingMemberException.MemberName
+  id: MemberName
+  parent: System.MissingMemberException
+  langs:
+  - csharp
+  name: MemberName
+  nameWithType: MissingMemberException.MemberName
+  fullName: System.MissingMemberException.MemberName
+  type: Field
+  assemblies:
+  - mscorlib
+  namespace: System
+  summary: To be added.
+  remarks: To be added.
+  syntax:
+    content: protected string MemberName;
+    return:
+      type: System.String
+      description: To be added.
+  platform:
+  - net-11
+  - net-20
+  - netcore-10
+- uid: System.MissingMemberException.Message
+  id: Message
+  parent: System.MissingMemberException
+  langs:
+  - csharp
+  name: Message
+  nameWithType: MissingMemberException.Message
+  fullName: System.MissingMemberException.Message
+  type: Property
+  assemblies:
+  - mscorlib
+  namespace: System
+  summary: To be added.
+  remarks: To be added.
+  syntax:
+    content: public override string Message { get; }
+    return:
+      type: System.String
+      description: To be added.
+  platform:
+  - net-11
+  - net-20
+  - netcore-10
+- uid: System.MissingMemberException.Signature
+  id: Signature
+  parent: System.MissingMemberException
+  langs:
+  - csharp
+  name: Signature
+  nameWithType: MissingMemberException.Signature
+  fullName: System.MissingMemberException.Signature
+  type: Field
+  assemblies:
+  - mscorlib
+  namespace: System
+  summary: To be added.
+  remarks: To be added.
+  syntax:
+    content: protected byte[] Signature;
+    return:
+      type: System.Byte[]
+      description: To be added.
+  platform:
+  - net-11
+  - net-20
+  - netcore-10
+references:
+- uid: System.MemberAccessException
+  isExternal: false
+  name: System.MemberAccessException
+- uid: System.MissingMemberException.#ctor
+  parent: System.MissingMemberException
+  isExternal: false
+  name: MissingMemberException()
+  nameWithType: MissingMemberException.MissingMemberException()
+  fullName: System.MissingMemberException.MissingMemberException()
+- uid: System.MissingMemberException.#ctor(System.String)
+  parent: System.MissingMemberException
+  isExternal: false
+  name: MissingMemberException(String)
+  nameWithType: MissingMemberException.MissingMemberException(String)
+  fullName: System.MissingMemberException.MissingMemberException(String)
+- uid: System.String
+  parent: System
+  isExternal: false
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System.MissingMemberException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
+  parent: System.MissingMemberException
+  isExternal: false
+  name: MissingMemberException(SerializationInfo,StreamingContext)
+  nameWithType: MissingMemberException.MissingMemberException(SerializationInfo,StreamingContext)
+  fullName: System.MissingMemberException.MissingMemberException(SerializationInfo,StreamingContext)
+- uid: System.Runtime.Serialization.SerializationInfo
+  parent: System.Runtime.Serialization
+  isExternal: false
+  name: SerializationInfo
+  nameWithType: SerializationInfo
+  fullName: System.Runtime.Serialization.SerializationInfo
+- uid: System.Runtime.Serialization.StreamingContext
+  parent: System.Runtime.Serialization
+  isExternal: false
+  name: StreamingContext
+  nameWithType: StreamingContext
+  fullName: System.Runtime.Serialization.StreamingContext
+- uid: System.MissingMemberException.#ctor(System.String,System.Exception)
+  parent: System.MissingMemberException
+  isExternal: false
+  name: MissingMemberException(String,Exception)
+  nameWithType: MissingMemberException.MissingMemberException(String,Exception)
+  fullName: System.MissingMemberException.MissingMemberException(String,Exception)
+- uid: System.String
+  parent: System
+  isExternal: false
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System.Exception
+  parent: System
+  isExternal: false
+  name: Exception
+  nameWithType: Exception
+  fullName: System.Exception
+- uid: System.MissingMemberException.#ctor(System.String,System.String)
+  parent: System.MissingMemberException
+  isExternal: false
+  name: MissingMemberException(String,String)
+  nameWithType: MissingMemberException.MissingMemberException(String,String)
+  fullName: System.MissingMemberException.MissingMemberException(String,String)
+- uid: System.String
+  parent: System
+  isExternal: false
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System.String
+  parent: System
+  isExternal: false
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System.MissingMemberException.ClassName
+  parent: System.MissingMemberException
+  isExternal: false
+  name: ClassName
+  nameWithType: MissingMemberException.ClassName
+  fullName: System.MissingMemberException.ClassName
+- uid: System.String
+  parent: System
+  isExternal: false
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System.MissingMemberException.GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
+  parent: System.MissingMemberException
+  isExternal: false
+  name: GetObjectData(SerializationInfo,StreamingContext)
+  nameWithType: MissingMemberException.GetObjectData(SerializationInfo,StreamingContext)
+  fullName: System.MissingMemberException.GetObjectData(SerializationInfo,StreamingContext)
+- uid: System.Runtime.Serialization.SerializationInfo
+  parent: System.Runtime.Serialization
+  isExternal: false
+  name: SerializationInfo
+  nameWithType: SerializationInfo
+  fullName: System.Runtime.Serialization.SerializationInfo
+- uid: System.Runtime.Serialization.StreamingContext
+  parent: System.Runtime.Serialization
+  isExternal: false
+  name: StreamingContext
+  nameWithType: StreamingContext
+  fullName: System.Runtime.Serialization.StreamingContext
+- uid: System.MissingMemberException.MemberName
+  parent: System.MissingMemberException
+  isExternal: false
+  name: MemberName
+  nameWithType: MissingMemberException.MemberName
+  fullName: System.MissingMemberException.MemberName
+- uid: System.String
+  parent: System
+  isExternal: false
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System.MissingMemberException.Message
+  parent: System.MissingMemberException
+  isExternal: false
+  name: Message
+  nameWithType: MissingMemberException.Message
+  fullName: System.MissingMemberException.Message
+- uid: System.String
+  parent: System
+  isExternal: false
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System.MissingMemberException.Signature
+  parent: System.MissingMemberException
+  isExternal: false
+  name: Signature
+  nameWithType: MissingMemberException.Signature
+  fullName: System.MissingMemberException.Signature
+- uid: System.Byte
+  parent: System
+  isExternal: false
+  name: Byte
+  nameWithType: Byte
+  fullName: System.Byte[]

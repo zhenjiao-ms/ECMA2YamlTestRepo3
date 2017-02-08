@@ -1,0 +1,201 @@
+### YamlMime:ManagedReference
+items:
+- uid: System.Runtime.InteropServices.ComTypes.IEnumConnections
+  id: IEnumConnections
+  children:
+  - System.Runtime.InteropServices.ComTypes.IEnumConnections.Clone(System.Runtime.InteropServices.ComTypes.IEnumConnections@)
+  - System.Runtime.InteropServices.ComTypes.IEnumConnections.Next(System.Int32,System.Runtime.InteropServices.ComTypes.CONNECTDATA[],System.IntPtr)
+  - System.Runtime.InteropServices.ComTypes.IEnumConnections.Reset
+  - System.Runtime.InteropServices.ComTypes.IEnumConnections.Skip(System.Int32)
+  langs:
+  - csharp
+  name: IEnumConnections
+  nameWithType: IEnumConnections
+  fullName: System.Runtime.InteropServices.ComTypes.IEnumConnections
+  type: Interface
+  summary: To be added.
+  remarks: To be added.
+  syntax:
+    content: >-
+      [System.Runtime.InteropServices.Guid("B196B287-BAB4-101A-B69C-00AA00341D07")]
+
+      [System.Runtime.InteropServices.InterfaceType(System.Runtime.InteropServices.ComInterfaceType.InterfaceIsIUnknown)]
+
+      public interface IEnumConnections
+  implements: []
+  platform:
+  - net-11
+  - net-20
+  - netcore-10
+- uid: System.Runtime.InteropServices.ComTypes.IEnumConnections.Clone(System.Runtime.InteropServices.ComTypes.IEnumConnections@)
+  id: Clone(System.Runtime.InteropServices.ComTypes.IEnumConnections@)
+  parent: System.Runtime.InteropServices.ComTypes.IEnumConnections
+  langs:
+  - csharp
+  name: Clone(IEnumConnections)
+  nameWithType: IEnumConnections.Clone(IEnumConnections)
+  fullName: System.Runtime.InteropServices.ComTypes.IEnumConnections.Clone(IEnumConnections)
+  type: Method
+  assemblies:
+  - mscorlib
+  namespace: System.Runtime.InteropServices.ComTypes
+  summary: To be added.
+  remarks: To be added.
+  syntax:
+    content: public void Clone (out System.Runtime.InteropServices.ComTypes.IEnumConnections ppenum);
+    parameters:
+    - id: ppenum
+      type: System.Runtime.InteropServices.ComTypes.IEnumConnections
+      description: To be added.
+  platform:
+  - net-11
+  - net-20
+  - netcore-10
+- uid: System.Runtime.InteropServices.ComTypes.IEnumConnections.Next(System.Int32,System.Runtime.InteropServices.ComTypes.CONNECTDATA[],System.IntPtr)
+  id: Next(System.Int32,System.Runtime.InteropServices.ComTypes.CONNECTDATA[],System.IntPtr)
+  parent: System.Runtime.InteropServices.ComTypes.IEnumConnections
+  langs:
+  - csharp
+  name: Next(Int32,CONNECTDATA[],IntPtr)
+  nameWithType: IEnumConnections.Next(Int32,CONNECTDATA[],IntPtr)
+  fullName: System.Runtime.InteropServices.ComTypes.IEnumConnections.Next(Int32,CONNECTDATA[],IntPtr)
+  type: Method
+  assemblies:
+  - mscorlib
+  namespace: System.Runtime.InteropServices.ComTypes
+  summary: To be added.
+  remarks: To be added.
+  syntax:
+    content: public int Next (int celt, System.Runtime.InteropServices.ComTypes.CONNECTDATA[] rgelt, IntPtr pceltFetched);
+    parameters:
+    - id: celt
+      type: System.Int32
+      description: To be added.
+    - id: rgelt
+      type: System.Runtime.InteropServices.ComTypes.CONNECTDATA[]
+      description: To be added.
+    - id: pceltFetched
+      type: System.IntPtr
+      description: To be added.
+    return:
+      type: System.Int32
+      description: To be added.
+  platform:
+  - net-11
+  - net-20
+  - netcore-10
+- uid: System.Runtime.InteropServices.ComTypes.IEnumConnections.Reset
+  id: Reset
+  parent: System.Runtime.InteropServices.ComTypes.IEnumConnections
+  langs:
+  - csharp
+  name: Reset()
+  nameWithType: IEnumConnections.Reset()
+  fullName: System.Runtime.InteropServices.ComTypes.IEnumConnections.Reset()
+  type: Method
+  assemblies:
+  - mscorlib
+  namespace: System.Runtime.InteropServices.ComTypes
+  summary: To be added.
+  remarks: To be added.
+  syntax:
+    content: public void Reset ();
+    parameters: []
+  platform:
+  - net-11
+  - net-20
+  - netcore-10
+- uid: System.Runtime.InteropServices.ComTypes.IEnumConnections.Skip(System.Int32)
+  id: Skip(System.Int32)
+  parent: System.Runtime.InteropServices.ComTypes.IEnumConnections
+  langs:
+  - csharp
+  name: Skip(Int32)
+  nameWithType: IEnumConnections.Skip(Int32)
+  fullName: System.Runtime.InteropServices.ComTypes.IEnumConnections.Skip(Int32)
+  type: Method
+  assemblies:
+  - mscorlib
+  namespace: System.Runtime.InteropServices.ComTypes
+  summary: To be added.
+  remarks: To be added.
+  syntax:
+    content: public int Skip (int celt);
+    parameters:
+    - id: celt
+      type: System.Int32
+      description: To be added.
+    return:
+      type: System.Int32
+      description: To be added.
+  platform:
+  - net-11
+  - net-20
+  - netcore-10
+references:
+- uid: System.Runtime.InteropServices.ComTypes.IEnumConnections.Clone(System.Runtime.InteropServices.ComTypes.IEnumConnections@)
+  parent: System.Runtime.InteropServices.ComTypes.IEnumConnections
+  isExternal: false
+  name: Clone(IEnumConnections)
+  nameWithType: IEnumConnections.Clone(IEnumConnections)
+  fullName: System.Runtime.InteropServices.ComTypes.IEnumConnections.Clone(IEnumConnections)
+- uid: System.Runtime.InteropServices.ComTypes.IEnumConnections
+  parent: System.Runtime.InteropServices.ComTypes
+  isExternal: false
+  name: IEnumConnections
+  nameWithType: IEnumConnections
+  fullName: System.Runtime.InteropServices.ComTypes.IEnumConnections
+- uid: System.Runtime.InteropServices.ComTypes.IEnumConnections.Next(System.Int32,System.Runtime.InteropServices.ComTypes.CONNECTDATA[],System.IntPtr)
+  parent: System.Runtime.InteropServices.ComTypes.IEnumConnections
+  isExternal: false
+  name: Next(Int32,CONNECTDATA[],IntPtr)
+  nameWithType: IEnumConnections.Next(Int32,CONNECTDATA[],IntPtr)
+  fullName: System.Runtime.InteropServices.ComTypes.IEnumConnections.Next(Int32,CONNECTDATA[],IntPtr)
+- uid: System.Int32
+  parent: System
+  isExternal: false
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: System.Int32
+  parent: System
+  isExternal: false
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: System.Runtime.InteropServices.ComTypes.CONNECTDATA
+  parent: System.Runtime.InteropServices.ComTypes
+  isExternal: false
+  name: CONNECTDATA
+  nameWithType: CONNECTDATA
+  fullName: System.Runtime.InteropServices.ComTypes.CONNECTDATA[]
+- uid: System.IntPtr
+  parent: System
+  isExternal: false
+  name: IntPtr
+  nameWithType: IntPtr
+  fullName: System.IntPtr
+- uid: System.Runtime.InteropServices.ComTypes.IEnumConnections.Reset
+  parent: System.Runtime.InteropServices.ComTypes.IEnumConnections
+  isExternal: false
+  name: Reset()
+  nameWithType: IEnumConnections.Reset()
+  fullName: System.Runtime.InteropServices.ComTypes.IEnumConnections.Reset()
+- uid: System.Runtime.InteropServices.ComTypes.IEnumConnections.Skip(System.Int32)
+  parent: System.Runtime.InteropServices.ComTypes.IEnumConnections
+  isExternal: false
+  name: Skip(Int32)
+  nameWithType: IEnumConnections.Skip(Int32)
+  fullName: System.Runtime.InteropServices.ComTypes.IEnumConnections.Skip(Int32)
+- uid: System.Int32
+  parent: System
+  isExternal: false
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: System.Int32
+  parent: System
+  isExternal: false
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32

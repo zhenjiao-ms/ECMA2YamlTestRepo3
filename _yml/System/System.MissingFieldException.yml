@@ -1,0 +1,293 @@
+### YamlMime:ManagedReference
+items:
+- uid: System.MissingFieldException
+  id: MissingFieldException
+  children:
+  - System.MissingFieldException.#ctor
+  - System.MissingFieldException.#ctor(System.String)
+  - System.MissingFieldException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
+  - System.MissingFieldException.#ctor(System.String,System.Exception)
+  - System.MissingFieldException.#ctor(System.String,System.String)
+  - System.MissingFieldException.Message
+  langs:
+  - csharp
+  name: MissingFieldException
+  nameWithType: MissingFieldException
+  fullName: System.MissingFieldException
+  type: Class
+  summary: To be added.
+  remarks: To be added.
+  syntax:
+    content: >-
+      [System.Runtime.InteropServices.ComVisible(true)]
+
+      public class MissingFieldException : MissingMemberException
+  inheritance:
+  - System.Object
+  - System.Exception
+  - System.SystemException
+  - System.MemberAccessException
+  - System.MissingMemberException
+  implements: []
+  inheritedMembers:
+  - System.Exception.Data
+  - System.Exception.GetBaseException
+  - System.Exception.GetType
+  - System.Exception.HelpLink
+  - System.Exception.HResult
+  - System.Exception.InnerException
+  - System.Exception.SerializeObjectState
+  - System.Exception.Source
+  - System.Exception.StackTrace
+  - System.Exception.TargetSite
+  - System.Exception.ToString
+  - System.MissingMemberException.ClassName
+  - System.MissingMemberException.GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
+  - System.MissingMemberException.MemberName
+  - System.MissingMemberException.Signature
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  platform:
+  - net-11
+  - net-20
+  - netcore-10
+- uid: System.MissingFieldException.#ctor
+  id: '#ctor'
+  parent: System.MissingFieldException
+  langs:
+  - csharp
+  name: MissingFieldException()
+  nameWithType: MissingFieldException.MissingFieldException()
+  fullName: System.MissingFieldException.MissingFieldException()
+  type: Constructor
+  assemblies:
+  - mscorlib
+  namespace: System
+  summary: To be added.
+  remarks: To be added.
+  syntax:
+    content: public MissingFieldException ();
+    parameters: []
+  platform:
+  - net-11
+  - net-20
+  - netcore-10
+- uid: System.MissingFieldException.#ctor(System.String)
+  id: '#ctor(System.String)'
+  parent: System.MissingFieldException
+  langs:
+  - csharp
+  name: MissingFieldException(String)
+  nameWithType: MissingFieldException.MissingFieldException(String)
+  fullName: System.MissingFieldException.MissingFieldException(String)
+  type: Constructor
+  assemblies:
+  - mscorlib
+  namespace: System
+  summary: To be added.
+  remarks: To be added.
+  syntax:
+    content: public MissingFieldException (string message);
+    parameters:
+    - id: message
+      type: System.String
+      description: To be added.
+  platform:
+  - net-11
+  - net-20
+  - netcore-10
+- uid: System.MissingFieldException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
+  id: '#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)'
+  parent: System.MissingFieldException
+  langs:
+  - csharp
+  name: MissingFieldException(SerializationInfo,StreamingContext)
+  nameWithType: MissingFieldException.MissingFieldException(SerializationInfo,StreamingContext)
+  fullName: System.MissingFieldException.MissingFieldException(SerializationInfo,StreamingContext)
+  type: Constructor
+  assemblies:
+  - mscorlib
+  namespace: System
+  summary: To be added.
+  remarks: To be added.
+  syntax:
+    content: protected MissingFieldException (System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context);
+    parameters:
+    - id: info
+      type: System.Runtime.Serialization.SerializationInfo
+      description: To be added.
+    - id: context
+      type: System.Runtime.Serialization.StreamingContext
+      description: To be added.
+  platform:
+  - net-11
+  - net-20
+  - netcore-10
+- uid: System.MissingFieldException.#ctor(System.String,System.Exception)
+  id: '#ctor(System.String,System.Exception)'
+  parent: System.MissingFieldException
+  langs:
+  - csharp
+  name: MissingFieldException(String,Exception)
+  nameWithType: MissingFieldException.MissingFieldException(String,Exception)
+  fullName: System.MissingFieldException.MissingFieldException(String,Exception)
+  type: Constructor
+  assemblies:
+  - mscorlib
+  namespace: System
+  summary: To be added.
+  remarks: To be added.
+  syntax:
+    content: public MissingFieldException (string message, Exception inner);
+    parameters:
+    - id: message
+      type: System.String
+      description: To be added.
+    - id: inner
+      type: System.Exception
+      description: To be added.
+  platform:
+  - net-11
+  - net-20
+  - netcore-10
+- uid: System.MissingFieldException.#ctor(System.String,System.String)
+  id: '#ctor(System.String,System.String)'
+  parent: System.MissingFieldException
+  langs:
+  - csharp
+  name: MissingFieldException(String,String)
+  nameWithType: MissingFieldException.MissingFieldException(String,String)
+  fullName: System.MissingFieldException.MissingFieldException(String,String)
+  type: Constructor
+  assemblies:
+  - mscorlib
+  namespace: System
+  summary: To be added.
+  remarks: To be added.
+  syntax:
+    content: public MissingFieldException (string className, string fieldName);
+    parameters:
+    - id: className
+      type: System.String
+      description: To be added.
+    - id: fieldName
+      type: System.String
+      description: To be added.
+  platform:
+  - net-11
+  - net-20
+  - netcore-10
+- uid: System.MissingFieldException.Message
+  id: Message
+  parent: System.MissingFieldException
+  langs:
+  - csharp
+  name: Message
+  nameWithType: MissingFieldException.Message
+  fullName: System.MissingFieldException.Message
+  type: Property
+  assemblies:
+  - mscorlib
+  namespace: System
+  summary: To be added.
+  remarks: To be added.
+  syntax:
+    content: public override string Message { get; }
+    return:
+      type: System.String
+      description: To be added.
+  platform:
+  - net-11
+  - net-20
+  - netcore-10
+references:
+- uid: System.MissingMemberException
+  isExternal: false
+  name: System.MissingMemberException
+- uid: System.MissingFieldException.#ctor
+  parent: System.MissingFieldException
+  isExternal: false
+  name: MissingFieldException()
+  nameWithType: MissingFieldException.MissingFieldException()
+  fullName: System.MissingFieldException.MissingFieldException()
+- uid: System.MissingFieldException.#ctor(System.String)
+  parent: System.MissingFieldException
+  isExternal: false
+  name: MissingFieldException(String)
+  nameWithType: MissingFieldException.MissingFieldException(String)
+  fullName: System.MissingFieldException.MissingFieldException(String)
+- uid: System.String
+  parent: System
+  isExternal: false
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System.MissingFieldException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
+  parent: System.MissingFieldException
+  isExternal: false
+  name: MissingFieldException(SerializationInfo,StreamingContext)
+  nameWithType: MissingFieldException.MissingFieldException(SerializationInfo,StreamingContext)
+  fullName: System.MissingFieldException.MissingFieldException(SerializationInfo,StreamingContext)
+- uid: System.Runtime.Serialization.SerializationInfo
+  parent: System.Runtime.Serialization
+  isExternal: false
+  name: SerializationInfo
+  nameWithType: SerializationInfo
+  fullName: System.Runtime.Serialization.SerializationInfo
+- uid: System.Runtime.Serialization.StreamingContext
+  parent: System.Runtime.Serialization
+  isExternal: false
+  name: StreamingContext
+  nameWithType: StreamingContext
+  fullName: System.Runtime.Serialization.StreamingContext
+- uid: System.MissingFieldException.#ctor(System.String,System.Exception)
+  parent: System.MissingFieldException
+  isExternal: false
+  name: MissingFieldException(String,Exception)
+  nameWithType: MissingFieldException.MissingFieldException(String,Exception)
+  fullName: System.MissingFieldException.MissingFieldException(String,Exception)
+- uid: System.String
+  parent: System
+  isExternal: false
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System.Exception
+  parent: System
+  isExternal: false
+  name: Exception
+  nameWithType: Exception
+  fullName: System.Exception
+- uid: System.MissingFieldException.#ctor(System.String,System.String)
+  parent: System.MissingFieldException
+  isExternal: false
+  name: MissingFieldException(String,String)
+  nameWithType: MissingFieldException.MissingFieldException(String,String)
+  fullName: System.MissingFieldException.MissingFieldException(String,String)
+- uid: System.String
+  parent: System
+  isExternal: false
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System.String
+  parent: System
+  isExternal: false
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System.MissingFieldException.Message
+  parent: System.MissingFieldException
+  isExternal: false
+  name: Message
+  nameWithType: MissingFieldException.Message
+  fullName: System.MissingFieldException.Message
+- uid: System.String
+  parent: System
+  isExternal: false
+  name: String
+  nameWithType: String
+  fullName: System.String
