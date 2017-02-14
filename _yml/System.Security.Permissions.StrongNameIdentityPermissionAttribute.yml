@@ -103,6 +103,7 @@ items:
       type: System.Security.Permissions.SecurityAction
       description: To be added.
   overload: System.Security.Permissions.StrongNameIdentityPermissionAttribute.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -128,6 +129,7 @@ items:
       type: System.Security.IPermission
       description: To be added.
   overload: System.Security.Permissions.StrongNameIdentityPermissionAttribute.CreatePermission*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -152,6 +154,7 @@ items:
       type: System.String
       description: To be added.
   overload: System.Security.Permissions.StrongNameIdentityPermissionAttribute.Name*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -176,6 +179,7 @@ items:
       type: System.String
       description: To be added.
   overload: System.Security.Permissions.StrongNameIdentityPermissionAttribute.PublicKey*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -200,6 +204,7 @@ items:
       type: System.String
       description: To be added.
   overload: System.Security.Permissions.StrongNameIdentityPermissionAttribute.Version*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -250,24 +255,12 @@ references:
   name: PublicKey
   nameWithType: StrongNameIdentityPermissionAttribute.PublicKey
   fullName: System.Security.Permissions.StrongNameIdentityPermissionAttribute.PublicKey
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
 - uid: System.Security.Permissions.StrongNameIdentityPermissionAttribute.Version
   parent: System.Security.Permissions.StrongNameIdentityPermissionAttribute
   isExternal: false
   name: Version
   nameWithType: StrongNameIdentityPermissionAttribute.Version
   fullName: System.Security.Permissions.StrongNameIdentityPermissionAttribute.Version
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
 - uid: System.Security.Permissions.StrongNameIdentityPermissionAttribute.#ctor*
   parent: System.Security.Permissions.StrongNameIdentityPermissionAttribute
   isExternal: false

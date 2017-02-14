@@ -100,6 +100,7 @@ items:
       type: System.Int16
       description: To be added.
   overload: System.Runtime.InteropServices.StructLayoutAttribute.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -125,6 +126,7 @@ items:
       type: System.Runtime.InteropServices.LayoutKind
       description: To be added.
   overload: System.Runtime.InteropServices.StructLayoutAttribute.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -148,6 +150,7 @@ items:
     return:
       type: System.Runtime.InteropServices.CharSet
       description: To be added.
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -171,6 +174,7 @@ items:
     return:
       type: System.Int32
       description: To be added.
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -194,6 +198,7 @@ items:
     return:
       type: System.Int32
       description: To be added.
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -218,6 +223,7 @@ items:
       type: System.Runtime.InteropServices.LayoutKind
       description: To be added.
   overload: System.Runtime.InteropServices.StructLayoutAttribute.Value*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -280,24 +286,12 @@ references:
   name: Size
   nameWithType: StructLayoutAttribute.Size
   fullName: System.Runtime.InteropServices.StructLayoutAttribute.Size
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
 - uid: System.Runtime.InteropServices.StructLayoutAttribute.Value
   parent: System.Runtime.InteropServices.StructLayoutAttribute
   isExternal: false
   name: Value
   nameWithType: StructLayoutAttribute.Value
   fullName: System.Runtime.InteropServices.StructLayoutAttribute.Value
-- uid: System.Runtime.InteropServices.LayoutKind
-  parent: System.Runtime.InteropServices
-  isExternal: false
-  name: LayoutKind
-  nameWithType: LayoutKind
-  fullName: System.Runtime.InteropServices.LayoutKind
 - uid: System.Runtime.InteropServices.StructLayoutAttribute.#ctor*
   parent: System.Runtime.InteropServices.StructLayoutAttribute
   isExternal: false

@@ -47,6 +47,7 @@ items:
     return:
       type: System.Runtime.Remoting.Lifetime.LeaseState
       description: To be added.
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -69,6 +70,7 @@ items:
     return:
       type: System.Runtime.Remoting.Lifetime.LeaseState
       description: To be added.
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -91,6 +93,7 @@ items:
     return:
       type: System.Runtime.Remoting.Lifetime.LeaseState
       description: To be added.
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -113,6 +116,7 @@ items:
     return:
       type: System.Runtime.Remoting.Lifetime.LeaseState
       description: To be added.
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -135,6 +139,7 @@ items:
     return:
       type: System.Runtime.Remoting.Lifetime.LeaseState
       description: To be added.
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -161,45 +166,21 @@ references:
   name: Expired
   nameWithType: LeaseState.Expired
   fullName: System.Runtime.Remoting.Lifetime.LeaseState.Expired
-- uid: System.Runtime.Remoting.Lifetime.LeaseState
-  parent: System.Runtime.Remoting.Lifetime
-  isExternal: false
-  name: LeaseState
-  nameWithType: LeaseState
-  fullName: System.Runtime.Remoting.Lifetime.LeaseState
 - uid: System.Runtime.Remoting.Lifetime.LeaseState.Initial
   parent: System.Runtime.Remoting.Lifetime.LeaseState
   isExternal: false
   name: Initial
   nameWithType: LeaseState.Initial
   fullName: System.Runtime.Remoting.Lifetime.LeaseState.Initial
-- uid: System.Runtime.Remoting.Lifetime.LeaseState
-  parent: System.Runtime.Remoting.Lifetime
-  isExternal: false
-  name: LeaseState
-  nameWithType: LeaseState
-  fullName: System.Runtime.Remoting.Lifetime.LeaseState
 - uid: System.Runtime.Remoting.Lifetime.LeaseState.Null
   parent: System.Runtime.Remoting.Lifetime.LeaseState
   isExternal: false
   name: "Null"
   nameWithType: LeaseState.Null
   fullName: System.Runtime.Remoting.Lifetime.LeaseState.Null
-- uid: System.Runtime.Remoting.Lifetime.LeaseState
-  parent: System.Runtime.Remoting.Lifetime
-  isExternal: false
-  name: LeaseState
-  nameWithType: LeaseState
-  fullName: System.Runtime.Remoting.Lifetime.LeaseState
 - uid: System.Runtime.Remoting.Lifetime.LeaseState.Renewing
   parent: System.Runtime.Remoting.Lifetime.LeaseState
   isExternal: false
   name: Renewing
   nameWithType: LeaseState.Renewing
   fullName: System.Runtime.Remoting.Lifetime.LeaseState.Renewing
-- uid: System.Runtime.Remoting.Lifetime.LeaseState
-  parent: System.Runtime.Remoting.Lifetime
-  isExternal: false
-  name: LeaseState
-  nameWithType: LeaseState
-  fullName: System.Runtime.Remoting.Lifetime.LeaseState

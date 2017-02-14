@@ -67,6 +67,7 @@ items:
       type: System.Security.PermissionSet
       description: To be added.
   overload: System.Security.Policy.PermissionRequestEvidence.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -92,6 +93,7 @@ items:
       type: System.Security.Policy.EvidenceBase
       description: To be added.
   overload: System.Security.Policy.PermissionRequestEvidence.Clone*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -117,6 +119,7 @@ items:
       type: System.Security.Policy.PermissionRequestEvidence
       description: To be added.
   overload: System.Security.Policy.PermissionRequestEvidence.Copy*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -141,6 +144,7 @@ items:
       type: System.Security.PermissionSet
       description: To be added.
   overload: System.Security.Policy.PermissionRequestEvidence.DeniedPermissions*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -165,6 +169,7 @@ items:
       type: System.Security.PermissionSet
       description: To be added.
   overload: System.Security.Policy.PermissionRequestEvidence.OptionalPermissions*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -189,6 +194,7 @@ items:
       type: System.Security.PermissionSet
       description: To be added.
   overload: System.Security.Policy.PermissionRequestEvidence.RequestedPermissions*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -214,6 +220,7 @@ items:
       type: System.String
       description: To be added.
   overload: System.Security.Policy.PermissionRequestEvidence.ToString*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -234,30 +241,12 @@ references:
   name: PermissionSet
   nameWithType: PermissionSet
   fullName: System.Security.PermissionSet
-- uid: System.Security.PermissionSet
-  parent: System.Security
-  isExternal: false
-  name: PermissionSet
-  nameWithType: PermissionSet
-  fullName: System.Security.PermissionSet
-- uid: System.Security.PermissionSet
-  parent: System.Security
-  isExternal: false
-  name: PermissionSet
-  nameWithType: PermissionSet
-  fullName: System.Security.PermissionSet
 - uid: System.Security.Policy.PermissionRequestEvidence.Clone
   parent: System.Security.Policy.PermissionRequestEvidence
   isExternal: false
   name: Clone()
   nameWithType: PermissionRequestEvidence.Clone()
   fullName: System.Security.Policy.PermissionRequestEvidence.Clone()
-- uid: System.Security.Policy.EvidenceBase
-  parent: System.Security.Policy
-  isExternal: false
-  name: EvidenceBase
-  nameWithType: EvidenceBase
-  fullName: System.Security.Policy.EvidenceBase
 - uid: System.Security.Policy.PermissionRequestEvidence.Copy
   parent: System.Security.Policy.PermissionRequestEvidence
   isExternal: false
@@ -276,36 +265,18 @@ references:
   name: DeniedPermissions
   nameWithType: PermissionRequestEvidence.DeniedPermissions
   fullName: System.Security.Policy.PermissionRequestEvidence.DeniedPermissions
-- uid: System.Security.PermissionSet
-  parent: System.Security
-  isExternal: false
-  name: PermissionSet
-  nameWithType: PermissionSet
-  fullName: System.Security.PermissionSet
 - uid: System.Security.Policy.PermissionRequestEvidence.OptionalPermissions
   parent: System.Security.Policy.PermissionRequestEvidence
   isExternal: false
   name: OptionalPermissions
   nameWithType: PermissionRequestEvidence.OptionalPermissions
   fullName: System.Security.Policy.PermissionRequestEvidence.OptionalPermissions
-- uid: System.Security.PermissionSet
-  parent: System.Security
-  isExternal: false
-  name: PermissionSet
-  nameWithType: PermissionSet
-  fullName: System.Security.PermissionSet
 - uid: System.Security.Policy.PermissionRequestEvidence.RequestedPermissions
   parent: System.Security.Policy.PermissionRequestEvidence
   isExternal: false
   name: RequestedPermissions
   nameWithType: PermissionRequestEvidence.RequestedPermissions
   fullName: System.Security.Policy.PermissionRequestEvidence.RequestedPermissions
-- uid: System.Security.PermissionSet
-  parent: System.Security
-  isExternal: false
-  name: PermissionSet
-  nameWithType: PermissionSet
-  fullName: System.Security.PermissionSet
 - uid: System.Security.Policy.PermissionRequestEvidence.ToString
   parent: System.Security.Policy.PermissionRequestEvidence
   isExternal: false

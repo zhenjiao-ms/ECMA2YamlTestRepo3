@@ -54,6 +54,7 @@ items:
       type: TValue
       description: To be added.
   overload: System.Collections.Generic.KeyValuePair`2.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -78,6 +79,7 @@ items:
       type: TKey
       description: To be added.
   overload: System.Collections.Generic.KeyValuePair`2.Key*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -103,6 +105,7 @@ items:
       type: System.String
       description: To be added.
   overload: System.Collections.Generic.KeyValuePair`2.ToString*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -127,6 +130,7 @@ items:
       type: TValue
       description: To be added.
   overload: System.Collections.Generic.KeyValuePair`2.Value*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -142,13 +146,11 @@ references:
   nameWithType: KeyValuePair<TKey,TValue>.KeyValuePair(TKey,TValue)
   fullName: System.Collections.Generic.KeyValuePair<TKey,TValue>.KeyValuePair(TKey,TValue)
 - uid: TKey
-  parent: ''
   isExternal: true
   name: TKey
   nameWithType: TKey
   fullName: TKey
 - uid: TValue
-  parent: ''
   isExternal: true
   name: TValue
   nameWithType: TValue
@@ -159,12 +161,6 @@ references:
   name: Key
   nameWithType: KeyValuePair<TKey,TValue>.Key
   fullName: System.Collections.Generic.KeyValuePair<TKey,TValue>.Key
-- uid: TKey
-  parent: ''
-  isExternal: true
-  name: TKey
-  nameWithType: TKey
-  fullName: TKey
 - uid: System.Collections.Generic.KeyValuePair`2.ToString
   parent: System.Collections.Generic.KeyValuePair`2
   isExternal: false
@@ -183,12 +179,6 @@ references:
   name: Value
   nameWithType: KeyValuePair<TKey,TValue>.Value
   fullName: System.Collections.Generic.KeyValuePair<TKey,TValue>.Value
-- uid: TValue
-  parent: ''
-  isExternal: true
-  name: TValue
-  nameWithType: TValue
-  fullName: TValue
 - uid: System.Collections.Generic.KeyValuePair`2.#ctor*
   parent: System.Collections.Generic.KeyValuePair`2
   isExternal: false

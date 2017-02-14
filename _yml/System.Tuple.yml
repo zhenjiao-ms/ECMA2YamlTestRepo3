@@ -60,6 +60,7 @@ items:
       type: System.Tuple`1
       description: To be added.
   overload: System.Tuple.Create<T1>*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -91,6 +92,7 @@ items:
       type: System.Tuple`2
       description: To be added.
   overload: System.Tuple.Create<T1,T2>*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -125,6 +127,7 @@ items:
       type: System.Tuple`3
       description: To be added.
   overload: System.Tuple.Create<T1,T2,T3>*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -162,6 +165,7 @@ items:
       type: System.Tuple`4
       description: To be added.
   overload: System.Tuple.Create<T1,T2,T3,T4>*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -202,6 +206,7 @@ items:
       type: System.Tuple`5
       description: To be added.
   overload: System.Tuple.Create<T1,T2,T3,T4,T5>*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -245,6 +250,7 @@ items:
       type: System.Tuple`6
       description: To be added.
   overload: System.Tuple.Create<T1,T2,T3,T4,T5,T6>*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -291,6 +297,7 @@ items:
       type: System.Tuple`7
       description: To be added.
   overload: System.Tuple.Create<T1,T2,T3,T4,T5,T6,T7>*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -340,6 +347,7 @@ items:
       type: System.Tuple{T1,T2,T3,T4,T5,T6,T7,System.Tuple{T8}}
       description: To be added.
   overload: System.Tuple.Create<T1,T2,T3,T4,T5,T6,T7,T8>*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -361,7 +369,6 @@ references:
   nameWithType: Tuple<T1>
   fullName: System.Tuple<T1>
 - uid: T1
-  parent: ''
   isExternal: true
   name: T1
   nameWithType: T1
@@ -378,14 +385,7 @@ references:
   name: Tuple<T1,T2>
   nameWithType: Tuple<T1,T2>
   fullName: System.Tuple<T1,T2>
-- uid: T1
-  parent: ''
-  isExternal: true
-  name: T1
-  nameWithType: T1
-  fullName: T1
 - uid: T2
-  parent: ''
   isExternal: true
   name: T2
   nameWithType: T2
@@ -402,20 +402,7 @@ references:
   name: Tuple<T1,T2,T3>
   nameWithType: Tuple<T1,T2,T3>
   fullName: System.Tuple<T1,T2,T3>
-- uid: T1
-  parent: ''
-  isExternal: true
-  name: T1
-  nameWithType: T1
-  fullName: T1
-- uid: T2
-  parent: ''
-  isExternal: true
-  name: T2
-  nameWithType: T2
-  fullName: T2
 - uid: T3
-  parent: ''
   isExternal: true
   name: T3
   nameWithType: T3
@@ -432,26 +419,7 @@ references:
   name: Tuple<T1,T2,T3,T4>
   nameWithType: Tuple<T1,T2,T3,T4>
   fullName: System.Tuple<T1,T2,T3,T4>
-- uid: T1
-  parent: ''
-  isExternal: true
-  name: T1
-  nameWithType: T1
-  fullName: T1
-- uid: T2
-  parent: ''
-  isExternal: true
-  name: T2
-  nameWithType: T2
-  fullName: T2
-- uid: T3
-  parent: ''
-  isExternal: true
-  name: T3
-  nameWithType: T3
-  fullName: T3
 - uid: T4
-  parent: ''
   isExternal: true
   name: T4
   nameWithType: T4
@@ -468,32 +436,7 @@ references:
   name: Tuple<T1,T2,T3,T4,T5>
   nameWithType: Tuple<T1,T2,T3,T4,T5>
   fullName: System.Tuple<T1,T2,T3,T4,T5>
-- uid: T1
-  parent: ''
-  isExternal: true
-  name: T1
-  nameWithType: T1
-  fullName: T1
-- uid: T2
-  parent: ''
-  isExternal: true
-  name: T2
-  nameWithType: T2
-  fullName: T2
-- uid: T3
-  parent: ''
-  isExternal: true
-  name: T3
-  nameWithType: T3
-  fullName: T3
-- uid: T4
-  parent: ''
-  isExternal: true
-  name: T4
-  nameWithType: T4
-  fullName: T4
 - uid: T5
-  parent: ''
   isExternal: true
   name: T5
   nameWithType: T5
@@ -510,38 +453,7 @@ references:
   name: Tuple<T1,T2,T3,T4,T5,T6>
   nameWithType: Tuple<T1,T2,T3,T4,T5,T6>
   fullName: System.Tuple<T1,T2,T3,T4,T5,T6>
-- uid: T1
-  parent: ''
-  isExternal: true
-  name: T1
-  nameWithType: T1
-  fullName: T1
-- uid: T2
-  parent: ''
-  isExternal: true
-  name: T2
-  nameWithType: T2
-  fullName: T2
-- uid: T3
-  parent: ''
-  isExternal: true
-  name: T3
-  nameWithType: T3
-  fullName: T3
-- uid: T4
-  parent: ''
-  isExternal: true
-  name: T4
-  nameWithType: T4
-  fullName: T4
-- uid: T5
-  parent: ''
-  isExternal: true
-  name: T5
-  nameWithType: T5
-  fullName: T5
 - uid: T6
-  parent: ''
   isExternal: true
   name: T6
   nameWithType: T6
@@ -558,44 +470,7 @@ references:
   name: Tuple<T1,T2,T3,T4,T5,T6,T7>
   nameWithType: Tuple<T1,T2,T3,T4,T5,T6,T7>
   fullName: System.Tuple<T1,T2,T3,T4,T5,T6,T7>
-- uid: T1
-  parent: ''
-  isExternal: true
-  name: T1
-  nameWithType: T1
-  fullName: T1
-- uid: T2
-  parent: ''
-  isExternal: true
-  name: T2
-  nameWithType: T2
-  fullName: T2
-- uid: T3
-  parent: ''
-  isExternal: true
-  name: T3
-  nameWithType: T3
-  fullName: T3
-- uid: T4
-  parent: ''
-  isExternal: true
-  name: T4
-  nameWithType: T4
-  fullName: T4
-- uid: T5
-  parent: ''
-  isExternal: true
-  name: T5
-  nameWithType: T5
-  fullName: T5
-- uid: T6
-  parent: ''
-  isExternal: true
-  name: T6
-  nameWithType: T6
-  fullName: T6
 - uid: T7
-  parent: ''
   isExternal: true
   name: T7
   nameWithType: T7
@@ -612,50 +487,81 @@ references:
   name: Tuple<T1,T2,T3,T4,T5,T6,T7,Tuple<T8>>
   nameWithType: Tuple<T1,T2,T3,T4,T5,T6,T7,Tuple<T8>>
   fullName: System.Tuple<T1,T2,T3,T4,T5,T6,T7,System.Tuple<T8>>
-- uid: T1
-  parent: ''
-  isExternal: true
-  name: T1
-  nameWithType: T1
-  fullName: T1
-- uid: T2
-  parent: ''
-  isExternal: true
-  name: T2
-  nameWithType: T2
-  fullName: T2
-- uid: T3
-  parent: ''
-  isExternal: true
-  name: T3
-  nameWithType: T3
-  fullName: T3
-- uid: T4
-  parent: ''
-  isExternal: true
-  name: T4
-  nameWithType: T4
-  fullName: T4
-- uid: T5
-  parent: ''
-  isExternal: true
-  name: T5
-  nameWithType: T5
-  fullName: T5
-- uid: T6
-  parent: ''
-  isExternal: true
-  name: T6
-  nameWithType: T6
-  fullName: T6
-- uid: T7
-  parent: ''
-  isExternal: true
-  name: T7
-  nameWithType: T7
-  fullName: T7
+  spec.csharp:
+  - uid: System.Tuple`8
+    name: Tuple
+    nameWithType: Tuple
+    fullName: Tuple<T1,T2,T3,T4,T5,T6,T7,System.Tuple<T8>>
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: T1
+    name: T1
+    nameWithType: T1
+    fullName: T1
+  - name: ','
+    nameWithType: ','
+    fullName: ','
+  - uid: T2
+    name: T2
+    nameWithType: T2
+    fullName: T2
+  - name: ','
+    nameWithType: ','
+    fullName: ','
+  - uid: T3
+    name: T3
+    nameWithType: T3
+    fullName: T3
+  - name: ','
+    nameWithType: ','
+    fullName: ','
+  - uid: T4
+    name: T4
+    nameWithType: T4
+    fullName: T4
+  - name: ','
+    nameWithType: ','
+    fullName: ','
+  - uid: T5
+    name: T5
+    nameWithType: T5
+    fullName: T5
+  - name: ','
+    nameWithType: ','
+    fullName: ','
+  - uid: T6
+    name: T6
+    nameWithType: T6
+    fullName: T6
+  - name: ','
+    nameWithType: ','
+    fullName: ','
+  - uid: T7
+    name: T7
+    nameWithType: T7
+    fullName: T7
+  - name: ','
+    nameWithType: ','
+    fullName: ','
+  - uid: System.Tuple`1
+    name: Tuple
+    nameWithType: Tuple
+    fullName: Tuple<T8>
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: T8
+    name: T8
+    nameWithType: T8
+    fullName: T8
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
 - uid: T8
-  parent: ''
   isExternal: true
   name: T8
   nameWithType: T8

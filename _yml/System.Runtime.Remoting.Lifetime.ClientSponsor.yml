@@ -65,6 +65,7 @@ items:
     content: public ClientSponsor ();
     parameters: []
   overload: System.Runtime.Remoting.Lifetime.ClientSponsor.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -90,6 +91,7 @@ items:
       type: System.TimeSpan
       description: To be added.
   overload: System.Runtime.Remoting.Lifetime.ClientSponsor.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -112,6 +114,7 @@ items:
     content: public void Close ();
     parameters: []
   overload: System.Runtime.Remoting.Lifetime.ClientSponsor.Close*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -134,6 +137,7 @@ items:
     content: ~ClientSponsor ();
     parameters: []
   overload: System.Runtime.Remoting.Lifetime.ClientSponsor.Finalize*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -159,6 +163,7 @@ items:
       type: System.Object
       description: To be added.
   overload: System.Runtime.Remoting.Lifetime.ClientSponsor.InitializeLifetimeService*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -187,6 +192,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Runtime.Remoting.Lifetime.ClientSponsor.Register*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -215,6 +221,7 @@ items:
       type: System.TimeSpan
       description: To be added.
   overload: System.Runtime.Remoting.Lifetime.ClientSponsor.Renewal*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -239,6 +246,7 @@ items:
       type: System.TimeSpan
       description: To be added.
   overload: System.Runtime.Remoting.Lifetime.ClientSponsor.RenewalTime*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -264,6 +272,7 @@ items:
       type: System.MarshalByRefObject
       description: To be added.
   overload: System.Runtime.Remoting.Lifetime.ClientSponsor.Unregister*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -326,24 +335,12 @@ references:
   name: Boolean
   nameWithType: Boolean
   fullName: System.Boolean
-- uid: System.MarshalByRefObject
-  parent: System
-  isExternal: false
-  name: MarshalByRefObject
-  nameWithType: MarshalByRefObject
-  fullName: System.MarshalByRefObject
 - uid: System.Runtime.Remoting.Lifetime.ClientSponsor.Renewal(System.Runtime.Remoting.Lifetime.ILease)
   parent: System.Runtime.Remoting.Lifetime.ClientSponsor
   isExternal: false
   name: Renewal(ILease)
   nameWithType: ClientSponsor.Renewal(ILease)
   fullName: System.Runtime.Remoting.Lifetime.ClientSponsor.Renewal(ILease)
-- uid: System.TimeSpan
-  parent: System
-  isExternal: false
-  name: TimeSpan
-  nameWithType: TimeSpan
-  fullName: System.TimeSpan
 - uid: System.Runtime.Remoting.Lifetime.ILease
   parent: System.Runtime.Remoting.Lifetime
   isExternal: false
@@ -356,24 +353,12 @@ references:
   name: RenewalTime
   nameWithType: ClientSponsor.RenewalTime
   fullName: System.Runtime.Remoting.Lifetime.ClientSponsor.RenewalTime
-- uid: System.TimeSpan
-  parent: System
-  isExternal: false
-  name: TimeSpan
-  nameWithType: TimeSpan
-  fullName: System.TimeSpan
 - uid: System.Runtime.Remoting.Lifetime.ClientSponsor.Unregister(System.MarshalByRefObject)
   parent: System.Runtime.Remoting.Lifetime.ClientSponsor
   isExternal: false
   name: Unregister(MarshalByRefObject)
   nameWithType: ClientSponsor.Unregister(MarshalByRefObject)
   fullName: System.Runtime.Remoting.Lifetime.ClientSponsor.Unregister(MarshalByRefObject)
-- uid: System.MarshalByRefObject
-  parent: System
-  isExternal: false
-  name: MarshalByRefObject
-  nameWithType: MarshalByRefObject
-  fullName: System.MarshalByRefObject
 - uid: System.Runtime.Remoting.Lifetime.ClientSponsor.#ctor*
   parent: System.Runtime.Remoting.Lifetime.ClientSponsor
   isExternal: false

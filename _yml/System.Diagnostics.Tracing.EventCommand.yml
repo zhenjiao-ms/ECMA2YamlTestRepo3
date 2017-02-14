@@ -43,6 +43,7 @@ items:
     return:
       type: System.Diagnostics.Tracing.EventCommand
       description: To be added.
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -65,6 +66,7 @@ items:
     return:
       type: System.Diagnostics.Tracing.EventCommand
       description: To be added.
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -87,6 +89,7 @@ items:
     return:
       type: System.Diagnostics.Tracing.EventCommand
       description: To be added.
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -109,6 +112,7 @@ items:
     return:
       type: System.Diagnostics.Tracing.EventCommand
       description: To be added.
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -135,33 +139,15 @@ references:
   name: Enable
   nameWithType: EventCommand.Enable
   fullName: System.Diagnostics.Tracing.EventCommand.Enable
-- uid: System.Diagnostics.Tracing.EventCommand
-  parent: System.Diagnostics.Tracing
-  isExternal: false
-  name: EventCommand
-  nameWithType: EventCommand
-  fullName: System.Diagnostics.Tracing.EventCommand
 - uid: System.Diagnostics.Tracing.EventCommand.SendManifest
   parent: System.Diagnostics.Tracing.EventCommand
   isExternal: false
   name: SendManifest
   nameWithType: EventCommand.SendManifest
   fullName: System.Diagnostics.Tracing.EventCommand.SendManifest
-- uid: System.Diagnostics.Tracing.EventCommand
-  parent: System.Diagnostics.Tracing
-  isExternal: false
-  name: EventCommand
-  nameWithType: EventCommand
-  fullName: System.Diagnostics.Tracing.EventCommand
 - uid: System.Diagnostics.Tracing.EventCommand.Update
   parent: System.Diagnostics.Tracing.EventCommand
   isExternal: false
   name: Update
   nameWithType: EventCommand.Update
   fullName: System.Diagnostics.Tracing.EventCommand.Update
-- uid: System.Diagnostics.Tracing.EventCommand
-  parent: System.Diagnostics.Tracing
-  isExternal: false
-  name: EventCommand
-  nameWithType: EventCommand
-  fullName: System.Diagnostics.Tracing.EventCommand

@@ -63,6 +63,7 @@ items:
     content: public TaskCompletionSource ();
     parameters: []
   overload: System.Threading.Tasks.TaskCompletionSource`1.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -88,6 +89,7 @@ items:
       type: System.Object
       description: To be added.
   overload: System.Threading.Tasks.TaskCompletionSource`1.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -113,6 +115,7 @@ items:
       type: System.Threading.Tasks.TaskCreationOptions
       description: To be added.
   overload: System.Threading.Tasks.TaskCompletionSource`1.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -141,6 +144,7 @@ items:
       type: System.Threading.Tasks.TaskCreationOptions
       description: To be added.
   overload: System.Threading.Tasks.TaskCompletionSource`1.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -163,6 +167,7 @@ items:
     content: public void SetCanceled ();
     parameters: []
   overload: System.Threading.Tasks.TaskCompletionSource`1.SetCanceled*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -188,6 +193,7 @@ items:
       type: System.Collections.Generic.IEnumerable{System.Exception}
       description: To be added.
   overload: System.Threading.Tasks.TaskCompletionSource`1.SetException*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -213,6 +219,7 @@ items:
       type: System.Exception
       description: To be added.
   overload: System.Threading.Tasks.TaskCompletionSource`1.SetException*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -238,6 +245,7 @@ items:
       type: TResult
       description: To be added.
   overload: System.Threading.Tasks.TaskCompletionSource`1.SetResult*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -262,6 +270,7 @@ items:
       type: System.Threading.Tasks.Task`1
       description: To be added.
   overload: System.Threading.Tasks.TaskCompletionSource`1.Task*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -287,6 +296,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Threading.Tasks.TaskCompletionSource`1.TrySetCanceled*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -315,6 +325,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Threading.Tasks.TaskCompletionSource`1.TrySetCanceled*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -343,6 +354,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Threading.Tasks.TaskCompletionSource`1.TrySetException*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -371,6 +383,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Threading.Tasks.TaskCompletionSource`1.TrySetException*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -399,6 +412,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Threading.Tasks.TaskCompletionSource`1.TrySetResult*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -419,12 +433,6 @@ references:
   name: TaskCompletionSource(Object)
   nameWithType: TaskCompletionSource<TResult>.TaskCompletionSource(Object)
   fullName: System.Threading.Tasks.TaskCompletionSource<TResult>.TaskCompletionSource(Object)
-- uid: System.Object
-  parent: System
-  isExternal: false
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
 - uid: System.Threading.Tasks.TaskCompletionSource`1.#ctor(System.Threading.Tasks.TaskCreationOptions)
   parent: System.Threading.Tasks.TaskCompletionSource`1
   isExternal: false
@@ -443,18 +451,6 @@ references:
   name: TaskCompletionSource(Object,TaskCreationOptions)
   nameWithType: TaskCompletionSource<TResult>.TaskCompletionSource(Object,TaskCreationOptions)
   fullName: System.Threading.Tasks.TaskCompletionSource<TResult>.TaskCompletionSource(Object,TaskCreationOptions)
-- uid: System.Object
-  parent: System
-  isExternal: false
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
-- uid: System.Threading.Tasks.TaskCreationOptions
-  parent: System.Threading.Tasks
-  isExternal: false
-  name: TaskCreationOptions
-  nameWithType: TaskCreationOptions
-  fullName: System.Threading.Tasks.TaskCreationOptions
 - uid: System.Threading.Tasks.TaskCompletionSource`1.SetCanceled
   parent: System.Threading.Tasks.TaskCompletionSource`1
   isExternal: false
@@ -473,6 +469,21 @@ references:
   name: IEnumerable<Exception>
   nameWithType: IEnumerable<Exception>
   fullName: System.Collections.Generic.IEnumerable<System.Exception>
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: IEnumerable<System.Exception>
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Exception
+    name: Exception
+    nameWithType: Exception
+    fullName: Exception
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
 - uid: System.Threading.Tasks.TaskCompletionSource`1.SetException(System.Exception)
   parent: System.Threading.Tasks.TaskCompletionSource`1
   isExternal: false
@@ -492,7 +503,6 @@ references:
   nameWithType: TaskCompletionSource<TResult>.SetResult(TResult)
   fullName: System.Threading.Tasks.TaskCompletionSource<TResult>.SetResult(TResult)
 - uid: TResult
-  parent: ''
   isExternal: true
   name: TResult
   nameWithType: TResult
@@ -527,12 +537,6 @@ references:
   name: TrySetCanceled(CancellationToken)
   nameWithType: TaskCompletionSource<TResult>.TrySetCanceled(CancellationToken)
   fullName: System.Threading.Tasks.TaskCompletionSource<TResult>.TrySetCanceled(CancellationToken)
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
 - uid: System.Threading.CancellationToken
   parent: System.Threading
   isExternal: false
@@ -545,54 +549,18 @@ references:
   name: TrySetException(IEnumerable<Exception>)
   nameWithType: TaskCompletionSource<TResult>.TrySetException(IEnumerable<Exception>)
   fullName: System.Threading.Tasks.TaskCompletionSource<TResult>.TrySetException(IEnumerable<Exception>)
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
-- uid: System.Collections.Generic.IEnumerable{System.Exception}
-  parent: System.Collections.Generic
-  isExternal: false
-  name: IEnumerable<Exception>
-  nameWithType: IEnumerable<Exception>
-  fullName: System.Collections.Generic.IEnumerable<System.Exception>
 - uid: System.Threading.Tasks.TaskCompletionSource`1.TrySetException(System.Exception)
   parent: System.Threading.Tasks.TaskCompletionSource`1
   isExternal: false
   name: TrySetException(Exception)
   nameWithType: TaskCompletionSource<TResult>.TrySetException(Exception)
   fullName: System.Threading.Tasks.TaskCompletionSource<TResult>.TrySetException(Exception)
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
-- uid: System.Exception
-  parent: System
-  isExternal: false
-  name: Exception
-  nameWithType: Exception
-  fullName: System.Exception
 - uid: System.Threading.Tasks.TaskCompletionSource`1.TrySetResult(`0)
   parent: System.Threading.Tasks.TaskCompletionSource`1
   isExternal: false
   name: TrySetResult(TResult)
   nameWithType: TaskCompletionSource<TResult>.TrySetResult(TResult)
   fullName: System.Threading.Tasks.TaskCompletionSource<TResult>.TrySetResult(TResult)
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
-- uid: TResult
-  parent: ''
-  isExternal: true
-  name: TResult
-  nameWithType: TResult
-  fullName: TResult
 - uid: System.Threading.Tasks.TaskCompletionSource`1.#ctor*
   parent: System.Threading.Tasks.TaskCompletionSource`1
   isExternal: false

@@ -98,6 +98,7 @@ items:
       type: System.Security.Permissions.SecurityAction
       description: To be added.
   overload: System.Security.Permissions.SecurityAttribute.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -122,6 +123,7 @@ items:
       type: System.Security.Permissions.SecurityAction
       description: To be added.
   overload: System.Security.Permissions.SecurityAttribute.Action*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -147,6 +149,7 @@ items:
       type: System.Security.IPermission
       description: To be added.
   overload: System.Security.Permissions.SecurityAttribute.CreatePermission*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -171,6 +174,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Security.Permissions.SecurityAttribute.Unrestricted*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -197,12 +201,6 @@ references:
   name: Action
   nameWithType: SecurityAttribute.Action
   fullName: System.Security.Permissions.SecurityAttribute.Action
-- uid: System.Security.Permissions.SecurityAction
-  parent: System.Security.Permissions
-  isExternal: false
-  name: SecurityAction
-  nameWithType: SecurityAction
-  fullName: System.Security.Permissions.SecurityAction
 - uid: System.Security.Permissions.SecurityAttribute.CreatePermission
   parent: System.Security.Permissions.SecurityAttribute
   isExternal: false

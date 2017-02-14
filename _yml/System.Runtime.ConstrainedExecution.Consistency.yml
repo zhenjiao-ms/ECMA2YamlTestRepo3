@@ -43,6 +43,7 @@ items:
     return:
       type: System.Runtime.ConstrainedExecution.Consistency
       description: To be added.
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -65,6 +66,7 @@ items:
     return:
       type: System.Runtime.ConstrainedExecution.Consistency
       description: To be added.
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -87,6 +89,7 @@ items:
     return:
       type: System.Runtime.ConstrainedExecution.Consistency
       description: To be added.
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -109,6 +112,7 @@ items:
     return:
       type: System.Runtime.ConstrainedExecution.Consistency
       description: To be added.
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -135,33 +139,15 @@ references:
   name: MayCorruptInstance
   nameWithType: Consistency.MayCorruptInstance
   fullName: System.Runtime.ConstrainedExecution.Consistency.MayCorruptInstance
-- uid: System.Runtime.ConstrainedExecution.Consistency
-  parent: System.Runtime.ConstrainedExecution
-  isExternal: false
-  name: Consistency
-  nameWithType: Consistency
-  fullName: System.Runtime.ConstrainedExecution.Consistency
 - uid: System.Runtime.ConstrainedExecution.Consistency.MayCorruptProcess
   parent: System.Runtime.ConstrainedExecution.Consistency
   isExternal: false
   name: MayCorruptProcess
   nameWithType: Consistency.MayCorruptProcess
   fullName: System.Runtime.ConstrainedExecution.Consistency.MayCorruptProcess
-- uid: System.Runtime.ConstrainedExecution.Consistency
-  parent: System.Runtime.ConstrainedExecution
-  isExternal: false
-  name: Consistency
-  nameWithType: Consistency
-  fullName: System.Runtime.ConstrainedExecution.Consistency
 - uid: System.Runtime.ConstrainedExecution.Consistency.WillNotCorruptState
   parent: System.Runtime.ConstrainedExecution.Consistency
   isExternal: false
   name: WillNotCorruptState
   nameWithType: Consistency.WillNotCorruptState
   fullName: System.Runtime.ConstrainedExecution.Consistency.WillNotCorruptState
-- uid: System.Runtime.ConstrainedExecution.Consistency
-  parent: System.Runtime.ConstrainedExecution
-  isExternal: false
-  name: Consistency
-  nameWithType: Consistency
-  fullName: System.Runtime.ConstrainedExecution.Consistency

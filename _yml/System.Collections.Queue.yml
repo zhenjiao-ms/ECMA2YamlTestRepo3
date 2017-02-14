@@ -73,6 +73,7 @@ items:
     content: public Queue ();
     parameters: []
   overload: System.Collections.Queue.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -98,6 +99,7 @@ items:
       type: System.Collections.ICollection
       description: To be added.
   overload: System.Collections.Queue.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -123,6 +125,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.Collections.Queue.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -151,6 +154,7 @@ items:
       type: System.Single
       description: To be added.
   overload: System.Collections.Queue.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -173,6 +177,7 @@ items:
     content: public virtual void Clear ();
     parameters: []
   overload: System.Collections.Queue.Clear*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -198,6 +203,7 @@ items:
       type: System.Object
       description: To be added.
   overload: System.Collections.Queue.Clone*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -226,6 +232,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Collections.Queue.Contains*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -254,6 +261,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.Collections.Queue.CopyTo*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -278,6 +286,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.Collections.Queue.Count*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -303,6 +312,7 @@ items:
       type: System.Object
       description: To be added.
   overload: System.Collections.Queue.Dequeue*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -328,6 +338,7 @@ items:
       type: System.Object
       description: To be added.
   overload: System.Collections.Queue.Enqueue*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -353,6 +364,7 @@ items:
       type: System.Collections.IEnumerator
       description: To be added.
   overload: System.Collections.Queue.GetEnumerator*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -377,6 +389,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Collections.Queue.IsSynchronized*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -402,6 +415,7 @@ items:
       type: System.Object
       description: To be added.
   overload: System.Collections.Queue.Peek*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -430,6 +444,7 @@ items:
       type: System.Collections.Queue
       description: To be added.
   overload: System.Collections.Queue.Synchronized*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -454,6 +469,7 @@ items:
       type: System.Object
       description: To be added.
   overload: System.Collections.Queue.SyncRoot*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -479,6 +495,7 @@ items:
       type: System.Object[]
       description: To be added.
   overload: System.Collections.Queue.ToArray*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -501,6 +518,7 @@ items:
     content: public virtual void TrimToSize ();
     parameters: []
   overload: System.Collections.Queue.TrimToSize*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -545,12 +563,6 @@ references:
   name: Queue(Int32,Single)
   nameWithType: Queue.Queue(Int32,Single)
   fullName: System.Collections.Queue.Queue(Int32,Single)
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
 - uid: System.Single
   parent: System
   isExternal: false
@@ -569,12 +581,6 @@ references:
   name: Clone()
   nameWithType: Queue.Clone()
   fullName: System.Collections.Queue.Clone()
-- uid: System.Object
-  parent: System
-  isExternal: false
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
 - uid: System.Collections.Queue.Contains(System.Object)
   parent: System.Collections.Queue
   isExternal: false
@@ -587,12 +593,6 @@ references:
   name: Boolean
   nameWithType: Boolean
   fullName: System.Boolean
-- uid: System.Object
-  parent: System
-  isExternal: false
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
 - uid: System.Collections.Queue.CopyTo(System.Array,System.Int32)
   parent: System.Collections.Queue
   isExternal: false
@@ -605,48 +605,24 @@ references:
   name: Array
   nameWithType: Array
   fullName: System.Array
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
 - uid: System.Collections.Queue.Count
   parent: System.Collections.Queue
   isExternal: false
   name: Count
   nameWithType: Queue.Count
   fullName: System.Collections.Queue.Count
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
 - uid: System.Collections.Queue.Dequeue
   parent: System.Collections.Queue
   isExternal: false
   name: Dequeue()
   nameWithType: Queue.Dequeue()
   fullName: System.Collections.Queue.Dequeue()
-- uid: System.Object
-  parent: System
-  isExternal: false
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
 - uid: System.Collections.Queue.Enqueue(System.Object)
   parent: System.Collections.Queue
   isExternal: false
   name: Enqueue(Object)
   nameWithType: Queue.Enqueue(Object)
   fullName: System.Collections.Queue.Enqueue(Object)
-- uid: System.Object
-  parent: System
-  isExternal: false
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
 - uid: System.Collections.Queue.GetEnumerator
   parent: System.Collections.Queue
   isExternal: false
@@ -665,24 +641,12 @@ references:
   name: IsSynchronized
   nameWithType: Queue.IsSynchronized
   fullName: System.Collections.Queue.IsSynchronized
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
 - uid: System.Collections.Queue.Peek
   parent: System.Collections.Queue
   isExternal: false
   name: Peek()
   nameWithType: Queue.Peek()
   fullName: System.Collections.Queue.Peek()
-- uid: System.Object
-  parent: System
-  isExternal: false
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
 - uid: System.Collections.Queue.Synchronized(System.Collections.Queue)
   parent: System.Collections.Queue
   isExternal: false
@@ -695,36 +659,32 @@ references:
   name: Queue
   nameWithType: Queue
   fullName: System.Collections.Queue
-- uid: System.Collections.Queue
-  parent: System.Collections
-  isExternal: false
-  name: Queue
-  nameWithType: Queue
-  fullName: System.Collections.Queue
 - uid: System.Collections.Queue.SyncRoot
   parent: System.Collections.Queue
   isExternal: false
   name: SyncRoot
   nameWithType: Queue.SyncRoot
   fullName: System.Collections.Queue.SyncRoot
-- uid: System.Object
-  parent: System
-  isExternal: false
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
 - uid: System.Collections.Queue.ToArray
   parent: System.Collections.Queue
   isExternal: false
   name: ToArray()
   nameWithType: Queue.ToArray()
   fullName: System.Collections.Queue.ToArray()
-- uid: System.Object
+- uid: System.Object[]
   parent: System
   isExternal: false
   name: Object
   nameWithType: Object
   fullName: System.Object[]
+  spec.csharp:
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: Object[]
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
 - uid: System.Collections.Queue.TrimToSize
   parent: System.Collections.Queue
   isExternal: false

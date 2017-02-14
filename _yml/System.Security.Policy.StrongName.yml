@@ -67,6 +67,7 @@ items:
       type: System.Version
       description: To be added.
   overload: System.Security.Policy.StrongName.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -92,6 +93,7 @@ items:
       type: System.Security.Policy.EvidenceBase
       description: To be added.
   overload: System.Security.Policy.StrongName.Clone*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -117,6 +119,7 @@ items:
       type: System.Object
       description: To be added.
   overload: System.Security.Policy.StrongName.Copy*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -145,6 +148,7 @@ items:
       type: System.Security.IPermission
       description: To be added.
   overload: System.Security.Policy.StrongName.CreateIdentityPermission*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -173,6 +177,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Security.Policy.StrongName.Equals*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -198,6 +203,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.Security.Policy.StrongName.GetHashCode*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -222,6 +228,7 @@ items:
       type: System.String
       description: To be added.
   overload: System.Security.Policy.StrongName.Name*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -246,6 +253,7 @@ items:
       type: System.Security.Permissions.StrongNamePublicKeyBlob
       description: To be added.
   overload: System.Security.Policy.StrongName.PublicKey*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -271,6 +279,7 @@ items:
       type: System.String
       description: To be added.
   overload: System.Security.Policy.StrongName.ToString*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -295,6 +304,7 @@ items:
       type: System.Version
       description: To be added.
   overload: System.Security.Policy.StrongName.Version*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -333,12 +343,6 @@ references:
   name: Clone()
   nameWithType: StrongName.Clone()
   fullName: System.Security.Policy.StrongName.Clone()
-- uid: System.Security.Policy.EvidenceBase
-  parent: System.Security.Policy
-  isExternal: false
-  name: EvidenceBase
-  nameWithType: EvidenceBase
-  fullName: System.Security.Policy.EvidenceBase
 - uid: System.Security.Policy.StrongName.Copy
   parent: System.Security.Policy.StrongName
   isExternal: false
@@ -381,12 +385,6 @@ references:
   name: Boolean
   nameWithType: Boolean
   fullName: System.Boolean
-- uid: System.Object
-  parent: System
-  isExternal: false
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
 - uid: System.Security.Policy.StrongName.GetHashCode
   parent: System.Security.Policy.StrongName
   isExternal: false
@@ -405,48 +403,24 @@ references:
   name: Name
   nameWithType: StrongName.Name
   fullName: System.Security.Policy.StrongName.Name
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
 - uid: System.Security.Policy.StrongName.PublicKey
   parent: System.Security.Policy.StrongName
   isExternal: false
   name: PublicKey
   nameWithType: StrongName.PublicKey
   fullName: System.Security.Policy.StrongName.PublicKey
-- uid: System.Security.Permissions.StrongNamePublicKeyBlob
-  parent: System.Security.Permissions
-  isExternal: false
-  name: StrongNamePublicKeyBlob
-  nameWithType: StrongNamePublicKeyBlob
-  fullName: System.Security.Permissions.StrongNamePublicKeyBlob
 - uid: System.Security.Policy.StrongName.ToString
   parent: System.Security.Policy.StrongName
   isExternal: false
   name: ToString()
   nameWithType: StrongName.ToString()
   fullName: System.Security.Policy.StrongName.ToString()
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
 - uid: System.Security.Policy.StrongName.Version
   parent: System.Security.Policy.StrongName
   isExternal: false
   name: Version
   nameWithType: StrongName.Version
   fullName: System.Security.Policy.StrongName.Version
-- uid: System.Version
-  parent: System
-  isExternal: false
-  name: Version
-  nameWithType: Version
-  fullName: System.Version
 - uid: System.Security.Policy.StrongName.#ctor*
   parent: System.Security.Policy.StrongName
   isExternal: false

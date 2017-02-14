@@ -44,6 +44,7 @@ items:
       type: System.Security.SecurityElement
       description: To be added.
   overload: System.Security.ISecurityEncodable.FromXml*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -69,6 +70,7 @@ items:
       type: System.Security.SecurityElement
       description: To be added.
   overload: System.Security.ISecurityEncodable.ToXml*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -92,12 +94,6 @@ references:
   name: ToXml()
   nameWithType: ISecurityEncodable.ToXml()
   fullName: System.Security.ISecurityEncodable.ToXml()
-- uid: System.Security.SecurityElement
-  parent: System.Security
-  isExternal: false
-  name: SecurityElement
-  nameWithType: SecurityElement
-  fullName: System.Security.SecurityElement
 - uid: System.Security.ISecurityEncodable.FromXml*
   parent: System.Security.ISecurityEncodable
   isExternal: false

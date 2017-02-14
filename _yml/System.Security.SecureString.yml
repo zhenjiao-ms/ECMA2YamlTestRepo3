@@ -59,6 +59,7 @@ items:
     content: public SecureString ();
     parameters: []
   overload: System.Security.SecureString.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -87,6 +88,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.Security.SecureString.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -112,6 +114,7 @@ items:
       type: System.Char
       description: To be added.
   overload: System.Security.SecureString.AppendChar*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -134,6 +137,7 @@ items:
     content: public void Clear ();
     parameters: []
   overload: System.Security.SecureString.Clear*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -159,6 +163,7 @@ items:
       type: System.Security.SecureString
       description: To be added.
   overload: System.Security.SecureString.Copy*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -181,6 +186,7 @@ items:
     content: public void Dispose ();
     parameters: []
   overload: System.Security.SecureString.Dispose*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -209,6 +215,7 @@ items:
       type: System.Char
       description: To be added.
   overload: System.Security.SecureString.InsertAt*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -234,6 +241,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Security.SecureString.IsReadOnly*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -258,6 +266,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.Security.SecureString.Length*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -280,6 +289,7 @@ items:
     content: public void MakeReadOnly ();
     parameters: []
   overload: System.Security.SecureString.MakeReadOnly*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -305,6 +315,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.Security.SecureString.RemoveAt*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -333,6 +344,7 @@ items:
       type: System.Char
       description: To be added.
   overload: System.Security.SecureString.SetAt*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -401,18 +413,6 @@ references:
   name: InsertAt(Int32,Char)
   nameWithType: SecureString.InsertAt(Int32,Char)
   fullName: System.Security.SecureString.InsertAt(Int32,Char)
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: System.Char
-  parent: System
-  isExternal: false
-  name: Char
-  nameWithType: Char
-  fullName: System.Char
 - uid: System.Security.SecureString.IsReadOnly
   parent: System.Security.SecureString
   isExternal: false
@@ -431,12 +431,6 @@ references:
   name: Length
   nameWithType: SecureString.Length
   fullName: System.Security.SecureString.Length
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
 - uid: System.Security.SecureString.MakeReadOnly
   parent: System.Security.SecureString
   isExternal: false
@@ -449,30 +443,12 @@ references:
   name: RemoveAt(Int32)
   nameWithType: SecureString.RemoveAt(Int32)
   fullName: System.Security.SecureString.RemoveAt(Int32)
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
 - uid: System.Security.SecureString.SetAt(System.Int32,System.Char)
   parent: System.Security.SecureString
   isExternal: false
   name: SetAt(Int32,Char)
   nameWithType: SecureString.SetAt(Int32,Char)
   fullName: System.Security.SecureString.SetAt(Int32,Char)
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: System.Char
-  parent: System
-  isExternal: false
-  name: Char
-  nameWithType: Char
-  fullName: System.Char
 - uid: System.Security.SecureString.#ctor*
   parent: System.Security.SecureString
   isExternal: false

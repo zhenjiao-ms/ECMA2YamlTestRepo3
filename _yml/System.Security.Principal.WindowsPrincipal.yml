@@ -80,6 +80,7 @@ items:
       type: System.Security.Principal.WindowsIdentity
       description: To be added.
   overload: System.Security.Principal.WindowsPrincipal.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -104,6 +105,7 @@ items:
       type: System.Collections.Generic.IEnumerable{System.Security.Claims.Claim}
       description: To be added.
   overload: System.Security.Principal.WindowsPrincipal.DeviceClaims*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -128,6 +130,7 @@ items:
       type: System.Security.Principal.IIdentity
       description: To be added.
   overload: System.Security.Principal.WindowsPrincipal.Identity*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -156,6 +159,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Security.Principal.WindowsPrincipal.IsInRole*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -184,6 +188,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Security.Principal.WindowsPrincipal.IsInRole*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -212,6 +217,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Security.Principal.WindowsPrincipal.IsInRole*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -240,6 +246,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Security.Principal.WindowsPrincipal.IsInRole*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -264,6 +271,7 @@ items:
       type: System.Collections.Generic.IEnumerable{System.Security.Claims.Claim}
       description: To be added.
   overload: System.Security.Principal.WindowsPrincipal.UserClaims*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -296,6 +304,21 @@ references:
   name: IEnumerable<Claim>
   nameWithType: IEnumerable<Claim>
   fullName: System.Collections.Generic.IEnumerable<System.Security.Claims.Claim>
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: IEnumerable<System.Security.Claims.Claim>
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Security.Claims.Claim
+    name: Claim
+    nameWithType: Claim
+    fullName: Claim
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
 - uid: System.Security.Principal.WindowsPrincipal.Identity
   parent: System.Security.Principal.WindowsPrincipal
   isExternal: false
@@ -332,12 +355,6 @@ references:
   name: IsInRole(SecurityIdentifier)
   nameWithType: WindowsPrincipal.IsInRole(SecurityIdentifier)
   fullName: System.Security.Principal.WindowsPrincipal.IsInRole(SecurityIdentifier)
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
 - uid: System.Security.Principal.SecurityIdentifier
   parent: System.Security.Principal
   isExternal: false
@@ -350,12 +367,6 @@ references:
   name: IsInRole(WindowsBuiltInRole)
   nameWithType: WindowsPrincipal.IsInRole(WindowsBuiltInRole)
   fullName: System.Security.Principal.WindowsPrincipal.IsInRole(WindowsBuiltInRole)
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
 - uid: System.Security.Principal.WindowsBuiltInRole
   parent: System.Security.Principal
   isExternal: false
@@ -368,12 +379,6 @@ references:
   name: IsInRole(String)
   nameWithType: WindowsPrincipal.IsInRole(String)
   fullName: System.Security.Principal.WindowsPrincipal.IsInRole(String)
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
 - uid: System.String
   parent: System
   isExternal: false
@@ -386,12 +391,6 @@ references:
   name: UserClaims
   nameWithType: WindowsPrincipal.UserClaims
   fullName: System.Security.Principal.WindowsPrincipal.UserClaims
-- uid: System.Collections.Generic.IEnumerable{System.Security.Claims.Claim}
-  parent: System.Collections.Generic
-  isExternal: false
-  name: IEnumerable<Claim>
-  nameWithType: IEnumerable<Claim>
-  fullName: System.Collections.Generic.IEnumerable<System.Security.Claims.Claim>
 - uid: System.Security.Principal.WindowsPrincipal.#ctor*
   parent: System.Security.Principal.WindowsPrincipal
   isExternal: false

@@ -73,6 +73,7 @@ items:
     content: protected SHA512 ();
     parameters: []
   overload: System.Security.Cryptography.SHA512.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -98,6 +99,7 @@ items:
       type: System.Security.Cryptography.SHA512
       description: To be added.
   overload: System.Security.Cryptography.SHA512.Create*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -126,6 +128,7 @@ items:
       type: System.Security.Cryptography.SHA512
       description: To be added.
   overload: System.Security.Cryptography.SHA512.Create*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -158,12 +161,6 @@ references:
   name: Create(String)
   nameWithType: SHA512.Create(String)
   fullName: System.Security.Cryptography.SHA512.Create(String)
-- uid: System.Security.Cryptography.SHA512
-  parent: System.Security.Cryptography
-  isExternal: false
-  name: SHA512
-  nameWithType: SHA512
-  fullName: System.Security.Cryptography.SHA512
 - uid: System.String
   parent: System
   isExternal: false

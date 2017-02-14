@@ -60,6 +60,7 @@ items:
       type: System.Security.SecurityZone
       description: To be added.
   overload: System.Security.Policy.Zone.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -85,6 +86,7 @@ items:
       type: System.Security.Policy.EvidenceBase
       description: To be added.
   overload: System.Security.Policy.Zone.Clone*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -110,6 +112,7 @@ items:
       type: System.Object
       description: To be added.
   overload: System.Security.Policy.Zone.Copy*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -138,6 +141,7 @@ items:
       type: System.Security.Policy.Zone
       description: To be added.
   overload: System.Security.Policy.Zone.CreateFromUrl*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -166,6 +170,7 @@ items:
       type: System.Security.IPermission
       description: To be added.
   overload: System.Security.Policy.Zone.CreateIdentityPermission*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -194,6 +199,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Security.Policy.Zone.Equals*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -219,6 +225,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.Security.Policy.Zone.GetHashCode*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -243,6 +250,7 @@ items:
       type: System.Security.SecurityZone
       description: To be added.
   overload: System.Security.Policy.Zone.SecurityZone*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -268,6 +276,7 @@ items:
       type: System.String
       description: To be added.
   overload: System.Security.Policy.Zone.ToString*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -294,12 +303,6 @@ references:
   name: Clone()
   nameWithType: Zone.Clone()
   fullName: System.Security.Policy.Zone.Clone()
-- uid: System.Security.Policy.EvidenceBase
-  parent: System.Security.Policy
-  isExternal: false
-  name: EvidenceBase
-  nameWithType: EvidenceBase
-  fullName: System.Security.Policy.EvidenceBase
 - uid: System.Security.Policy.Zone.Copy
   parent: System.Security.Policy.Zone
   isExternal: false
@@ -360,12 +363,6 @@ references:
   name: Boolean
   nameWithType: Boolean
   fullName: System.Boolean
-- uid: System.Object
-  parent: System
-  isExternal: false
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
 - uid: System.Security.Policy.Zone.GetHashCode
   parent: System.Security.Policy.Zone
   isExternal: false
@@ -384,24 +381,12 @@ references:
   name: SecurityZone
   nameWithType: Zone.SecurityZone
   fullName: System.Security.Policy.Zone.SecurityZone
-- uid: System.Security.SecurityZone
-  parent: System.Security
-  isExternal: false
-  name: SecurityZone
-  nameWithType: SecurityZone
-  fullName: System.Security.SecurityZone
 - uid: System.Security.Policy.Zone.ToString
   parent: System.Security.Policy.Zone
   isExternal: false
   name: ToString()
   nameWithType: Zone.ToString()
   fullName: System.Security.Policy.Zone.ToString()
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
 - uid: System.Security.Policy.Zone.#ctor*
   parent: System.Security.Policy.Zone
   isExternal: false

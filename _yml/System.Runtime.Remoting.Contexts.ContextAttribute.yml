@@ -105,6 +105,7 @@ items:
       type: System.String
       description: To be added.
   overload: System.Runtime.Remoting.Contexts.ContextAttribute.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -128,6 +129,7 @@ items:
     return:
       type: System.String
       description: To be added.
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -156,6 +158,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Runtime.Remoting.Contexts.ContextAttribute.Equals*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -181,6 +184,7 @@ items:
       type: System.Runtime.Remoting.Contexts.Context
       description: To be added.
   overload: System.Runtime.Remoting.Contexts.ContextAttribute.Freeze*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -206,6 +210,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.Runtime.Remoting.Contexts.ContextAttribute.GetHashCode*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -231,6 +236,7 @@ items:
       type: System.Runtime.Remoting.Activation.IConstructionCallMessage
       description: To be added.
   overload: System.Runtime.Remoting.Contexts.ContextAttribute.GetPropertiesForNewContext*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -262,6 +268,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Runtime.Remoting.Contexts.ContextAttribute.IsContextOK*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -290,6 +297,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Runtime.Remoting.Contexts.ContextAttribute.IsNewContextOK*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -314,6 +322,7 @@ items:
       type: System.String
       description: To be added.
   overload: System.Runtime.Remoting.Contexts.ContextAttribute.Name*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -340,12 +349,6 @@ references:
   name: AttributeName
   nameWithType: ContextAttribute.AttributeName
   fullName: System.Runtime.Remoting.Contexts.ContextAttribute.AttributeName
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
 - uid: System.Runtime.Remoting.Contexts.ContextAttribute.Equals(System.Object)
   parent: System.Runtime.Remoting.Contexts.ContextAttribute
   isExternal: false
@@ -406,54 +409,18 @@ references:
   name: IsContextOK(Context,IConstructionCallMessage)
   nameWithType: ContextAttribute.IsContextOK(Context,IConstructionCallMessage)
   fullName: System.Runtime.Remoting.Contexts.ContextAttribute.IsContextOK(Context,IConstructionCallMessage)
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
-- uid: System.Runtime.Remoting.Contexts.Context
-  parent: System.Runtime.Remoting.Contexts
-  isExternal: false
-  name: Context
-  nameWithType: Context
-  fullName: System.Runtime.Remoting.Contexts.Context
-- uid: System.Runtime.Remoting.Activation.IConstructionCallMessage
-  parent: System.Runtime.Remoting.Activation
-  isExternal: false
-  name: IConstructionCallMessage
-  nameWithType: IConstructionCallMessage
-  fullName: System.Runtime.Remoting.Activation.IConstructionCallMessage
 - uid: System.Runtime.Remoting.Contexts.ContextAttribute.IsNewContextOK(System.Runtime.Remoting.Contexts.Context)
   parent: System.Runtime.Remoting.Contexts.ContextAttribute
   isExternal: false
   name: IsNewContextOK(Context)
   nameWithType: ContextAttribute.IsNewContextOK(Context)
   fullName: System.Runtime.Remoting.Contexts.ContextAttribute.IsNewContextOK(Context)
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
-- uid: System.Runtime.Remoting.Contexts.Context
-  parent: System.Runtime.Remoting.Contexts
-  isExternal: false
-  name: Context
-  nameWithType: Context
-  fullName: System.Runtime.Remoting.Contexts.Context
 - uid: System.Runtime.Remoting.Contexts.ContextAttribute.Name
   parent: System.Runtime.Remoting.Contexts.ContextAttribute
   isExternal: false
   name: Name
   nameWithType: ContextAttribute.Name
   fullName: System.Runtime.Remoting.Contexts.ContextAttribute.Name
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
 - uid: System.Runtime.Remoting.Contexts.ContextAttribute.#ctor*
   parent: System.Runtime.Remoting.Contexts.ContextAttribute
   isExternal: false

@@ -92,6 +92,7 @@ items:
     content: public Mutex ();
     parameters: []
   overload: System.Threading.Mutex.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -117,6 +118,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Threading.Mutex.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -145,6 +147,7 @@ items:
       type: System.String
       description: To be added.
   overload: System.Threading.Mutex.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -176,6 +179,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Threading.Mutex.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -210,6 +214,7 @@ items:
       type: System.Security.AccessControl.MutexSecurity
       description: To be added.
   overload: System.Threading.Mutex.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -235,6 +240,7 @@ items:
       type: System.Security.AccessControl.MutexSecurity
       description: To be added.
   overload: System.Threading.Mutex.GetAccessControl*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -263,6 +269,7 @@ items:
       type: System.Threading.Mutex
       description: To be added.
   overload: System.Threading.Mutex.OpenExisting*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -294,6 +301,7 @@ items:
       type: System.Threading.Mutex
       description: To be added.
   overload: System.Threading.Mutex.OpenExisting*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -316,6 +324,7 @@ items:
     content: public void ReleaseMutex ();
     parameters: []
   overload: System.Threading.Mutex.ReleaseMutex*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -341,6 +350,7 @@ items:
       type: System.Security.AccessControl.MutexSecurity
       description: To be added.
   overload: System.Threading.Mutex.SetAccessControl*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -372,6 +382,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Threading.Mutex.TryOpenExisting*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -406,6 +417,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Threading.Mutex.TryOpenExisting*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -438,12 +450,6 @@ references:
   name: Mutex(Boolean,String)
   nameWithType: Mutex.Mutex(Boolean,String)
   fullName: System.Threading.Mutex.Mutex(Boolean,String)
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
 - uid: System.String
   parent: System
   isExternal: false
@@ -456,48 +462,12 @@ references:
   name: Mutex(Boolean,String,Boolean)
   nameWithType: Mutex.Mutex(Boolean,String,Boolean)
   fullName: System.Threading.Mutex.Mutex(Boolean,String,Boolean)
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
 - uid: System.Threading.Mutex.#ctor(System.Boolean,System.String,System.Boolean@,System.Security.AccessControl.MutexSecurity)
   parent: System.Threading.Mutex
   isExternal: false
   name: Mutex(Boolean,String,Boolean,MutexSecurity)
   nameWithType: Mutex.Mutex(Boolean,String,Boolean,MutexSecurity)
   fullName: System.Threading.Mutex.Mutex(Boolean,String,Boolean,MutexSecurity)
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
 - uid: System.Security.AccessControl.MutexSecurity
   parent: System.Security.AccessControl
   isExternal: false
@@ -510,12 +480,6 @@ references:
   name: GetAccessControl()
   nameWithType: Mutex.GetAccessControl()
   fullName: System.Threading.Mutex.GetAccessControl()
-- uid: System.Security.AccessControl.MutexSecurity
-  parent: System.Security.AccessControl
-  isExternal: false
-  name: MutexSecurity
-  nameWithType: MutexSecurity
-  fullName: System.Security.AccessControl.MutexSecurity
 - uid: System.Threading.Mutex.OpenExisting(System.String)
   parent: System.Threading.Mutex
   isExternal: false
@@ -528,30 +492,12 @@ references:
   name: Mutex
   nameWithType: Mutex
   fullName: System.Threading.Mutex
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
 - uid: System.Threading.Mutex.OpenExisting(System.String,System.Security.AccessControl.MutexRights)
   parent: System.Threading.Mutex
   isExternal: false
   name: OpenExisting(String,MutexRights)
   nameWithType: Mutex.OpenExisting(String,MutexRights)
   fullName: System.Threading.Mutex.OpenExisting(String,MutexRights)
-- uid: System.Threading.Mutex
-  parent: System.Threading
-  isExternal: false
-  name: Mutex
-  nameWithType: Mutex
-  fullName: System.Threading.Mutex
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
 - uid: System.Security.AccessControl.MutexRights
   parent: System.Security.AccessControl
   isExternal: false
@@ -570,66 +516,18 @@ references:
   name: SetAccessControl(MutexSecurity)
   nameWithType: Mutex.SetAccessControl(MutexSecurity)
   fullName: System.Threading.Mutex.SetAccessControl(MutexSecurity)
-- uid: System.Security.AccessControl.MutexSecurity
-  parent: System.Security.AccessControl
-  isExternal: false
-  name: MutexSecurity
-  nameWithType: MutexSecurity
-  fullName: System.Security.AccessControl.MutexSecurity
 - uid: System.Threading.Mutex.TryOpenExisting(System.String,System.Threading.Mutex@)
   parent: System.Threading.Mutex
   isExternal: false
   name: TryOpenExisting(String,Mutex)
   nameWithType: Mutex.TryOpenExisting(String,Mutex)
   fullName: System.Threading.Mutex.TryOpenExisting(String,Mutex)
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
-- uid: System.Threading.Mutex
-  parent: System.Threading
-  isExternal: false
-  name: Mutex
-  nameWithType: Mutex
-  fullName: System.Threading.Mutex
 - uid: System.Threading.Mutex.TryOpenExisting(System.String,System.Security.AccessControl.MutexRights,System.Threading.Mutex@)
   parent: System.Threading.Mutex
   isExternal: false
   name: TryOpenExisting(String,MutexRights,Mutex)
   nameWithType: Mutex.TryOpenExisting(String,MutexRights,Mutex)
   fullName: System.Threading.Mutex.TryOpenExisting(String,MutexRights,Mutex)
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
-- uid: System.Security.AccessControl.MutexRights
-  parent: System.Security.AccessControl
-  isExternal: false
-  name: MutexRights
-  nameWithType: MutexRights
-  fullName: System.Security.AccessControl.MutexRights
-- uid: System.Threading.Mutex
-  parent: System.Threading
-  isExternal: false
-  name: Mutex
-  nameWithType: Mutex
-  fullName: System.Threading.Mutex
 - uid: System.Threading.Mutex.#ctor*
   parent: System.Threading.Mutex
   isExternal: false

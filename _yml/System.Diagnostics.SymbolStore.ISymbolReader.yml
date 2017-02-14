@@ -64,6 +64,7 @@ items:
       type: System.Diagnostics.SymbolStore.ISymbolDocument
       description: To be added.
   overload: System.Diagnostics.SymbolStore.ISymbolReader.GetDocument*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -89,6 +90,7 @@ items:
       type: System.Diagnostics.SymbolStore.ISymbolDocument[]
       description: To be added.
   overload: System.Diagnostics.SymbolStore.ISymbolReader.GetDocuments*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -114,6 +116,7 @@ items:
       type: System.Diagnostics.SymbolStore.ISymbolVariable[]
       description: To be added.
   overload: System.Diagnostics.SymbolStore.ISymbolReader.GetGlobalVariables*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -142,6 +145,7 @@ items:
       type: System.Diagnostics.SymbolStore.ISymbolMethod
       description: To be added.
   overload: System.Diagnostics.SymbolStore.ISymbolReader.GetMethod*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -173,6 +177,7 @@ items:
       type: System.Diagnostics.SymbolStore.ISymbolMethod
       description: To be added.
   overload: System.Diagnostics.SymbolStore.ISymbolReader.GetMethod*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -207,6 +212,7 @@ items:
       type: System.Diagnostics.SymbolStore.ISymbolMethod
       description: To be added.
   overload: System.Diagnostics.SymbolStore.ISymbolReader.GetMethodFromDocumentPosition*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -232,6 +238,7 @@ items:
       type: System.Diagnostics.SymbolStore.ISymbolNamespace[]
       description: To be added.
   overload: System.Diagnostics.SymbolStore.ISymbolReader.GetNamespaces*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -263,6 +270,7 @@ items:
       type: System.Byte[]
       description: To be added.
   overload: System.Diagnostics.SymbolStore.ISymbolReader.GetSymAttribute*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -291,6 +299,7 @@ items:
       type: System.Diagnostics.SymbolStore.ISymbolVariable[]
       description: To be added.
   overload: System.Diagnostics.SymbolStore.ISymbolReader.GetVariables*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -315,6 +324,7 @@ items:
       type: System.Diagnostics.SymbolStore.SymbolToken
       description: To be added.
   overload: System.Diagnostics.SymbolStore.ISymbolReader.UserEntryPoint*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -344,42 +354,46 @@ references:
   name: Guid
   nameWithType: Guid
   fullName: System.Guid
-- uid: System.Guid
-  parent: System
-  isExternal: false
-  name: Guid
-  nameWithType: Guid
-  fullName: System.Guid
-- uid: System.Guid
-  parent: System
-  isExternal: false
-  name: Guid
-  nameWithType: Guid
-  fullName: System.Guid
 - uid: System.Diagnostics.SymbolStore.ISymbolReader.GetDocuments
   parent: System.Diagnostics.SymbolStore.ISymbolReader
   isExternal: false
   name: GetDocuments()
   nameWithType: ISymbolReader.GetDocuments()
   fullName: System.Diagnostics.SymbolStore.ISymbolReader.GetDocuments()
-- uid: System.Diagnostics.SymbolStore.ISymbolDocument
+- uid: System.Diagnostics.SymbolStore.ISymbolDocument[]
   parent: System.Diagnostics.SymbolStore
   isExternal: false
   name: ISymbolDocument
   nameWithType: ISymbolDocument
   fullName: System.Diagnostics.SymbolStore.ISymbolDocument[]
+  spec.csharp:
+  - uid: System.Diagnostics.SymbolStore.ISymbolDocument
+    name: ISymbolDocument
+    nameWithType: ISymbolDocument
+    fullName: ISymbolDocument[]
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
 - uid: System.Diagnostics.SymbolStore.ISymbolReader.GetGlobalVariables
   parent: System.Diagnostics.SymbolStore.ISymbolReader
   isExternal: false
   name: GetGlobalVariables()
   nameWithType: ISymbolReader.GetGlobalVariables()
   fullName: System.Diagnostics.SymbolStore.ISymbolReader.GetGlobalVariables()
-- uid: System.Diagnostics.SymbolStore.ISymbolVariable
+- uid: System.Diagnostics.SymbolStore.ISymbolVariable[]
   parent: System.Diagnostics.SymbolStore
   isExternal: false
   name: ISymbolVariable
   nameWithType: ISymbolVariable
   fullName: System.Diagnostics.SymbolStore.ISymbolVariable[]
+  spec.csharp:
+  - uid: System.Diagnostics.SymbolStore.ISymbolVariable
+    name: ISymbolVariable
+    nameWithType: ISymbolVariable
+    fullName: ISymbolVariable[]
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
 - uid: System.Diagnostics.SymbolStore.ISymbolReader.GetMethod(System.Diagnostics.SymbolStore.SymbolToken)
   parent: System.Diagnostics.SymbolStore.ISymbolReader
   isExternal: false
@@ -404,18 +418,6 @@ references:
   name: GetMethod(SymbolToken,Int32)
   nameWithType: ISymbolReader.GetMethod(SymbolToken,Int32)
   fullName: System.Diagnostics.SymbolStore.ISymbolReader.GetMethod(SymbolToken,Int32)
-- uid: System.Diagnostics.SymbolStore.ISymbolMethod
-  parent: System.Diagnostics.SymbolStore
-  isExternal: false
-  name: ISymbolMethod
-  nameWithType: ISymbolMethod
-  fullName: System.Diagnostics.SymbolStore.ISymbolMethod
-- uid: System.Diagnostics.SymbolStore.SymbolToken
-  parent: System.Diagnostics.SymbolStore
-  isExternal: false
-  name: SymbolToken
-  nameWithType: SymbolToken
-  fullName: System.Diagnostics.SymbolStore.SymbolToken
 - uid: System.Int32
   parent: System
   isExternal: false
@@ -428,96 +430,58 @@ references:
   name: GetMethodFromDocumentPosition(ISymbolDocument,Int32,Int32)
   nameWithType: ISymbolReader.GetMethodFromDocumentPosition(ISymbolDocument,Int32,Int32)
   fullName: System.Diagnostics.SymbolStore.ISymbolReader.GetMethodFromDocumentPosition(ISymbolDocument,Int32,Int32)
-- uid: System.Diagnostics.SymbolStore.ISymbolMethod
-  parent: System.Diagnostics.SymbolStore
-  isExternal: false
-  name: ISymbolMethod
-  nameWithType: ISymbolMethod
-  fullName: System.Diagnostics.SymbolStore.ISymbolMethod
-- uid: System.Diagnostics.SymbolStore.ISymbolDocument
-  parent: System.Diagnostics.SymbolStore
-  isExternal: false
-  name: ISymbolDocument
-  nameWithType: ISymbolDocument
-  fullName: System.Diagnostics.SymbolStore.ISymbolDocument
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
 - uid: System.Diagnostics.SymbolStore.ISymbolReader.GetNamespaces
   parent: System.Diagnostics.SymbolStore.ISymbolReader
   isExternal: false
   name: GetNamespaces()
   nameWithType: ISymbolReader.GetNamespaces()
   fullName: System.Diagnostics.SymbolStore.ISymbolReader.GetNamespaces()
-- uid: System.Diagnostics.SymbolStore.ISymbolNamespace
+- uid: System.Diagnostics.SymbolStore.ISymbolNamespace[]
   parent: System.Diagnostics.SymbolStore
   isExternal: false
   name: ISymbolNamespace
   nameWithType: ISymbolNamespace
   fullName: System.Diagnostics.SymbolStore.ISymbolNamespace[]
+  spec.csharp:
+  - uid: System.Diagnostics.SymbolStore.ISymbolNamespace
+    name: ISymbolNamespace
+    nameWithType: ISymbolNamespace
+    fullName: ISymbolNamespace[]
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
 - uid: System.Diagnostics.SymbolStore.ISymbolReader.GetSymAttribute(System.Diagnostics.SymbolStore.SymbolToken,System.String)
   parent: System.Diagnostics.SymbolStore.ISymbolReader
   isExternal: false
   name: GetSymAttribute(SymbolToken,String)
   nameWithType: ISymbolReader.GetSymAttribute(SymbolToken,String)
   fullName: System.Diagnostics.SymbolStore.ISymbolReader.GetSymAttribute(SymbolToken,String)
-- uid: System.Byte
+- uid: System.Byte[]
   parent: System
   isExternal: false
   name: Byte
   nameWithType: Byte
   fullName: System.Byte[]
-- uid: System.Diagnostics.SymbolStore.SymbolToken
-  parent: System.Diagnostics.SymbolStore
-  isExternal: false
-  name: SymbolToken
-  nameWithType: SymbolToken
-  fullName: System.Diagnostics.SymbolStore.SymbolToken
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
+  spec.csharp:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: Byte[]
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
 - uid: System.Diagnostics.SymbolStore.ISymbolReader.GetVariables(System.Diagnostics.SymbolStore.SymbolToken)
   parent: System.Diagnostics.SymbolStore.ISymbolReader
   isExternal: false
   name: GetVariables(SymbolToken)
   nameWithType: ISymbolReader.GetVariables(SymbolToken)
   fullName: System.Diagnostics.SymbolStore.ISymbolReader.GetVariables(SymbolToken)
-- uid: System.Diagnostics.SymbolStore.ISymbolVariable
-  parent: System.Diagnostics.SymbolStore
-  isExternal: false
-  name: ISymbolVariable
-  nameWithType: ISymbolVariable
-  fullName: System.Diagnostics.SymbolStore.ISymbolVariable[]
-- uid: System.Diagnostics.SymbolStore.SymbolToken
-  parent: System.Diagnostics.SymbolStore
-  isExternal: false
-  name: SymbolToken
-  nameWithType: SymbolToken
-  fullName: System.Diagnostics.SymbolStore.SymbolToken
 - uid: System.Diagnostics.SymbolStore.ISymbolReader.UserEntryPoint
   parent: System.Diagnostics.SymbolStore.ISymbolReader
   isExternal: false
   name: UserEntryPoint
   nameWithType: ISymbolReader.UserEntryPoint
   fullName: System.Diagnostics.SymbolStore.ISymbolReader.UserEntryPoint
-- uid: System.Diagnostics.SymbolStore.SymbolToken
-  parent: System.Diagnostics.SymbolStore
-  isExternal: false
-  name: SymbolToken
-  nameWithType: SymbolToken
-  fullName: System.Diagnostics.SymbolStore.SymbolToken
 - uid: System.Diagnostics.SymbolStore.ISymbolReader.GetDocument*
   parent: System.Diagnostics.SymbolStore.ISymbolReader
   isExternal: false

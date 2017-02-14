@@ -80,6 +80,7 @@ items:
     content: protected RSA ();
     parameters: []
   overload: System.Security.Cryptography.RSA.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -105,6 +106,7 @@ items:
       type: System.Security.Cryptography.RSA
       description: To be added.
   overload: System.Security.Cryptography.RSA.Create*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -133,6 +135,7 @@ items:
       type: System.Security.Cryptography.RSA
       description: To be added.
   overload: System.Security.Cryptography.RSA.Create*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -164,6 +167,7 @@ items:
       type: System.Byte[]
       description: To be added.
   overload: System.Security.Cryptography.RSA.Decrypt*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -192,6 +196,7 @@ items:
       type: System.Byte[]
       description: To be added.
   overload: System.Security.Cryptography.RSA.DecryptValue*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -223,6 +228,7 @@ items:
       type: System.Byte[]
       description: To be added.
   overload: System.Security.Cryptography.RSA.Encrypt*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -251,6 +257,7 @@ items:
       type: System.Byte[]
       description: To be added.
   overload: System.Security.Cryptography.RSA.EncryptValue*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -279,6 +286,7 @@ items:
       type: System.Security.Cryptography.RSAParameters
       description: To be added.
   overload: System.Security.Cryptography.RSA.ExportParameters*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -304,6 +312,7 @@ items:
       type: System.String
       description: To be added.
   overload: System.Security.Cryptography.RSA.FromXmlString*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -335,6 +344,7 @@ items:
       type: System.Byte[]
       description: To be added.
   overload: System.Security.Cryptography.RSA.HashData*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -372,6 +382,7 @@ items:
       type: System.Byte[]
       description: To be added.
   overload: System.Security.Cryptography.RSA.HashData*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -397,6 +408,7 @@ items:
       type: System.Security.Cryptography.RSAParameters
       description: To be added.
   overload: System.Security.Cryptography.RSA.ImportParameters*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -421,6 +433,7 @@ items:
       type: System.String
       description: To be added.
   overload: System.Security.Cryptography.RSA.KeyExchangeAlgorithm*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -445,6 +458,7 @@ items:
       type: System.String
       description: To be added.
   overload: System.Security.Cryptography.RSA.SignatureAlgorithm*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -479,6 +493,7 @@ items:
       type: System.Byte[]
       description: To be added.
   overload: System.Security.Cryptography.RSA.SignData*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -513,6 +528,7 @@ items:
       type: System.Byte[]
       description: To be added.
   overload: System.Security.Cryptography.RSA.SignData*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -553,6 +569,7 @@ items:
       type: System.Byte[]
       description: To be added.
   overload: System.Security.Cryptography.RSA.SignData*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -587,6 +604,7 @@ items:
       type: System.Byte[]
       description: To be added.
   overload: System.Security.Cryptography.RSA.SignHash*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -615,6 +633,7 @@ items:
       type: System.String
       description: To be added.
   overload: System.Security.Cryptography.RSA.ToXmlString*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -652,6 +671,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Security.Cryptography.RSA.VerifyData*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -689,6 +709,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Security.Cryptography.RSA.VerifyData*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -732,6 +753,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Security.Cryptography.RSA.VerifyData*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -769,6 +791,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Security.Cryptography.RSA.VerifyHash*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -801,12 +824,6 @@ references:
   name: Create(String)
   nameWithType: RSA.Create(String)
   fullName: System.Security.Cryptography.RSA.Create(String)
-- uid: System.Security.Cryptography.RSA
-  parent: System.Security.Cryptography
-  isExternal: false
-  name: RSA
-  nameWithType: RSA
-  fullName: System.Security.Cryptography.RSA
 - uid: System.String
   parent: System
   isExternal: false
@@ -819,18 +836,20 @@ references:
   name: Decrypt(Byte[],RSAEncryptionPadding)
   nameWithType: RSA.Decrypt(Byte[],RSAEncryptionPadding)
   fullName: System.Security.Cryptography.RSA.Decrypt(Byte[],RSAEncryptionPadding)
-- uid: System.Byte
+- uid: System.Byte[]
   parent: System
   isExternal: false
   name: Byte
   nameWithType: Byte
   fullName: System.Byte[]
-- uid: System.Byte
-  parent: System
-  isExternal: false
-  name: Byte
-  nameWithType: Byte
-  fullName: System.Byte[]
+  spec.csharp:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: Byte[]
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
 - uid: System.Security.Cryptography.RSAEncryptionPadding
   parent: System.Security.Cryptography
   isExternal: false
@@ -843,60 +862,18 @@ references:
   name: DecryptValue(Byte[])
   nameWithType: RSA.DecryptValue(Byte[])
   fullName: System.Security.Cryptography.RSA.DecryptValue(Byte[])
-- uid: System.Byte
-  parent: System
-  isExternal: false
-  name: Byte
-  nameWithType: Byte
-  fullName: System.Byte[]
-- uid: System.Byte
-  parent: System
-  isExternal: false
-  name: Byte
-  nameWithType: Byte
-  fullName: System.Byte[]
 - uid: System.Security.Cryptography.RSA.Encrypt(System.Byte[],System.Security.Cryptography.RSAEncryptionPadding)
   parent: System.Security.Cryptography.RSA
   isExternal: false
   name: Encrypt(Byte[],RSAEncryptionPadding)
   nameWithType: RSA.Encrypt(Byte[],RSAEncryptionPadding)
   fullName: System.Security.Cryptography.RSA.Encrypt(Byte[],RSAEncryptionPadding)
-- uid: System.Byte
-  parent: System
-  isExternal: false
-  name: Byte
-  nameWithType: Byte
-  fullName: System.Byte[]
-- uid: System.Byte
-  parent: System
-  isExternal: false
-  name: Byte
-  nameWithType: Byte
-  fullName: System.Byte[]
-- uid: System.Security.Cryptography.RSAEncryptionPadding
-  parent: System.Security.Cryptography
-  isExternal: false
-  name: RSAEncryptionPadding
-  nameWithType: RSAEncryptionPadding
-  fullName: System.Security.Cryptography.RSAEncryptionPadding
 - uid: System.Security.Cryptography.RSA.EncryptValue(System.Byte[])
   parent: System.Security.Cryptography.RSA
   isExternal: false
   name: EncryptValue(Byte[])
   nameWithType: RSA.EncryptValue(Byte[])
   fullName: System.Security.Cryptography.RSA.EncryptValue(Byte[])
-- uid: System.Byte
-  parent: System
-  isExternal: false
-  name: Byte
-  nameWithType: Byte
-  fullName: System.Byte[]
-- uid: System.Byte
-  parent: System
-  isExternal: false
-  name: Byte
-  nameWithType: Byte
-  fullName: System.Byte[]
 - uid: System.Security.Cryptography.RSA.ExportParameters(System.Boolean)
   parent: System.Security.Cryptography.RSA
   isExternal: false
@@ -921,24 +898,12 @@ references:
   name: FromXmlString(String)
   nameWithType: RSA.FromXmlString(String)
   fullName: System.Security.Cryptography.RSA.FromXmlString(String)
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
 - uid: System.Security.Cryptography.RSA.HashData(System.IO.Stream,System.Security.Cryptography.HashAlgorithmName)
   parent: System.Security.Cryptography.RSA
   isExternal: false
   name: HashData(Stream,HashAlgorithmName)
   nameWithType: RSA.HashData(Stream,HashAlgorithmName)
   fullName: System.Security.Cryptography.RSA.HashData(Stream,HashAlgorithmName)
-- uid: System.Byte
-  parent: System
-  isExternal: false
-  name: Byte
-  nameWithType: Byte
-  fullName: System.Byte[]
 - uid: System.IO.Stream
   parent: System.IO
   isExternal: false
@@ -957,96 +922,36 @@ references:
   name: HashData(Byte[],Int32,Int32,HashAlgorithmName)
   nameWithType: RSA.HashData(Byte[],Int32,Int32,HashAlgorithmName)
   fullName: System.Security.Cryptography.RSA.HashData(Byte[],Int32,Int32,HashAlgorithmName)
-- uid: System.Byte
-  parent: System
-  isExternal: false
-  name: Byte
-  nameWithType: Byte
-  fullName: System.Byte[]
-- uid: System.Byte
-  parent: System
-  isExternal: false
-  name: Byte
-  nameWithType: Byte
-  fullName: System.Byte[]
 - uid: System.Int32
   parent: System
   isExternal: false
   name: Int32
   nameWithType: Int32
   fullName: System.Int32
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: System.Security.Cryptography.HashAlgorithmName
-  parent: System.Security.Cryptography
-  isExternal: false
-  name: HashAlgorithmName
-  nameWithType: HashAlgorithmName
-  fullName: System.Security.Cryptography.HashAlgorithmName
 - uid: System.Security.Cryptography.RSA.ImportParameters(System.Security.Cryptography.RSAParameters)
   parent: System.Security.Cryptography.RSA
   isExternal: false
   name: ImportParameters(RSAParameters)
   nameWithType: RSA.ImportParameters(RSAParameters)
   fullName: System.Security.Cryptography.RSA.ImportParameters(RSAParameters)
-- uid: System.Security.Cryptography.RSAParameters
-  parent: System.Security.Cryptography
-  isExternal: false
-  name: RSAParameters
-  nameWithType: RSAParameters
-  fullName: System.Security.Cryptography.RSAParameters
 - uid: System.Security.Cryptography.RSA.KeyExchangeAlgorithm
   parent: System.Security.Cryptography.RSA
   isExternal: false
   name: KeyExchangeAlgorithm
   nameWithType: RSA.KeyExchangeAlgorithm
   fullName: System.Security.Cryptography.RSA.KeyExchangeAlgorithm
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
 - uid: System.Security.Cryptography.RSA.SignatureAlgorithm
   parent: System.Security.Cryptography.RSA
   isExternal: false
   name: SignatureAlgorithm
   nameWithType: RSA.SignatureAlgorithm
   fullName: System.Security.Cryptography.RSA.SignatureAlgorithm
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
 - uid: System.Security.Cryptography.RSA.SignData(System.Byte[],System.Security.Cryptography.HashAlgorithmName,System.Security.Cryptography.RSASignaturePadding)
   parent: System.Security.Cryptography.RSA
   isExternal: false
   name: SignData(Byte[],HashAlgorithmName,RSASignaturePadding)
   nameWithType: RSA.SignData(Byte[],HashAlgorithmName,RSASignaturePadding)
   fullName: System.Security.Cryptography.RSA.SignData(Byte[],HashAlgorithmName,RSASignaturePadding)
-- uid: System.Byte
-  parent: System
-  isExternal: false
-  name: Byte
-  nameWithType: Byte
-  fullName: System.Byte[]
-- uid: System.Byte
-  parent: System
-  isExternal: false
-  name: Byte
-  nameWithType: Byte
-  fullName: System.Byte[]
-- uid: System.Security.Cryptography.HashAlgorithmName
-  parent: System.Security.Cryptography
-  isExternal: false
-  name: HashAlgorithmName
-  nameWithType: HashAlgorithmName
-  fullName: System.Security.Cryptography.HashAlgorithmName
 - uid: System.Security.Cryptography.RSASignaturePadding
   parent: System.Security.Cryptography
   isExternal: false
@@ -1059,276 +964,48 @@ references:
   name: SignData(Stream,HashAlgorithmName,RSASignaturePadding)
   nameWithType: RSA.SignData(Stream,HashAlgorithmName,RSASignaturePadding)
   fullName: System.Security.Cryptography.RSA.SignData(Stream,HashAlgorithmName,RSASignaturePadding)
-- uid: System.Byte
-  parent: System
-  isExternal: false
-  name: Byte
-  nameWithType: Byte
-  fullName: System.Byte[]
-- uid: System.IO.Stream
-  parent: System.IO
-  isExternal: false
-  name: Stream
-  nameWithType: Stream
-  fullName: System.IO.Stream
-- uid: System.Security.Cryptography.HashAlgorithmName
-  parent: System.Security.Cryptography
-  isExternal: false
-  name: HashAlgorithmName
-  nameWithType: HashAlgorithmName
-  fullName: System.Security.Cryptography.HashAlgorithmName
-- uid: System.Security.Cryptography.RSASignaturePadding
-  parent: System.Security.Cryptography
-  isExternal: false
-  name: RSASignaturePadding
-  nameWithType: RSASignaturePadding
-  fullName: System.Security.Cryptography.RSASignaturePadding
 - uid: System.Security.Cryptography.RSA.SignData(System.Byte[],System.Int32,System.Int32,System.Security.Cryptography.HashAlgorithmName,System.Security.Cryptography.RSASignaturePadding)
   parent: System.Security.Cryptography.RSA
   isExternal: false
   name: SignData(Byte[],Int32,Int32,HashAlgorithmName,RSASignaturePadding)
   nameWithType: RSA.SignData(Byte[],Int32,Int32,HashAlgorithmName,RSASignaturePadding)
   fullName: System.Security.Cryptography.RSA.SignData(Byte[],Int32,Int32,HashAlgorithmName,RSASignaturePadding)
-- uid: System.Byte
-  parent: System
-  isExternal: false
-  name: Byte
-  nameWithType: Byte
-  fullName: System.Byte[]
-- uid: System.Byte
-  parent: System
-  isExternal: false
-  name: Byte
-  nameWithType: Byte
-  fullName: System.Byte[]
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: System.Security.Cryptography.HashAlgorithmName
-  parent: System.Security.Cryptography
-  isExternal: false
-  name: HashAlgorithmName
-  nameWithType: HashAlgorithmName
-  fullName: System.Security.Cryptography.HashAlgorithmName
-- uid: System.Security.Cryptography.RSASignaturePadding
-  parent: System.Security.Cryptography
-  isExternal: false
-  name: RSASignaturePadding
-  nameWithType: RSASignaturePadding
-  fullName: System.Security.Cryptography.RSASignaturePadding
 - uid: System.Security.Cryptography.RSA.SignHash(System.Byte[],System.Security.Cryptography.HashAlgorithmName,System.Security.Cryptography.RSASignaturePadding)
   parent: System.Security.Cryptography.RSA
   isExternal: false
   name: SignHash(Byte[],HashAlgorithmName,RSASignaturePadding)
   nameWithType: RSA.SignHash(Byte[],HashAlgorithmName,RSASignaturePadding)
   fullName: System.Security.Cryptography.RSA.SignHash(Byte[],HashAlgorithmName,RSASignaturePadding)
-- uid: System.Byte
-  parent: System
-  isExternal: false
-  name: Byte
-  nameWithType: Byte
-  fullName: System.Byte[]
-- uid: System.Byte
-  parent: System
-  isExternal: false
-  name: Byte
-  nameWithType: Byte
-  fullName: System.Byte[]
-- uid: System.Security.Cryptography.HashAlgorithmName
-  parent: System.Security.Cryptography
-  isExternal: false
-  name: HashAlgorithmName
-  nameWithType: HashAlgorithmName
-  fullName: System.Security.Cryptography.HashAlgorithmName
-- uid: System.Security.Cryptography.RSASignaturePadding
-  parent: System.Security.Cryptography
-  isExternal: false
-  name: RSASignaturePadding
-  nameWithType: RSASignaturePadding
-  fullName: System.Security.Cryptography.RSASignaturePadding
 - uid: System.Security.Cryptography.RSA.ToXmlString(System.Boolean)
   parent: System.Security.Cryptography.RSA
   isExternal: false
   name: ToXmlString(Boolean)
   nameWithType: RSA.ToXmlString(Boolean)
   fullName: System.Security.Cryptography.RSA.ToXmlString(Boolean)
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
 - uid: System.Security.Cryptography.RSA.VerifyData(System.Byte[],System.Byte[],System.Security.Cryptography.HashAlgorithmName,System.Security.Cryptography.RSASignaturePadding)
   parent: System.Security.Cryptography.RSA
   isExternal: false
   name: VerifyData(Byte[],Byte[],HashAlgorithmName,RSASignaturePadding)
   nameWithType: RSA.VerifyData(Byte[],Byte[],HashAlgorithmName,RSASignaturePadding)
   fullName: System.Security.Cryptography.RSA.VerifyData(Byte[],Byte[],HashAlgorithmName,RSASignaturePadding)
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
-- uid: System.Byte
-  parent: System
-  isExternal: false
-  name: Byte
-  nameWithType: Byte
-  fullName: System.Byte[]
-- uid: System.Byte
-  parent: System
-  isExternal: false
-  name: Byte
-  nameWithType: Byte
-  fullName: System.Byte[]
-- uid: System.Security.Cryptography.HashAlgorithmName
-  parent: System.Security.Cryptography
-  isExternal: false
-  name: HashAlgorithmName
-  nameWithType: HashAlgorithmName
-  fullName: System.Security.Cryptography.HashAlgorithmName
-- uid: System.Security.Cryptography.RSASignaturePadding
-  parent: System.Security.Cryptography
-  isExternal: false
-  name: RSASignaturePadding
-  nameWithType: RSASignaturePadding
-  fullName: System.Security.Cryptography.RSASignaturePadding
 - uid: System.Security.Cryptography.RSA.VerifyData(System.IO.Stream,System.Byte[],System.Security.Cryptography.HashAlgorithmName,System.Security.Cryptography.RSASignaturePadding)
   parent: System.Security.Cryptography.RSA
   isExternal: false
   name: VerifyData(Stream,Byte[],HashAlgorithmName,RSASignaturePadding)
   nameWithType: RSA.VerifyData(Stream,Byte[],HashAlgorithmName,RSASignaturePadding)
   fullName: System.Security.Cryptography.RSA.VerifyData(Stream,Byte[],HashAlgorithmName,RSASignaturePadding)
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
-- uid: System.IO.Stream
-  parent: System.IO
-  isExternal: false
-  name: Stream
-  nameWithType: Stream
-  fullName: System.IO.Stream
-- uid: System.Byte
-  parent: System
-  isExternal: false
-  name: Byte
-  nameWithType: Byte
-  fullName: System.Byte[]
-- uid: System.Security.Cryptography.HashAlgorithmName
-  parent: System.Security.Cryptography
-  isExternal: false
-  name: HashAlgorithmName
-  nameWithType: HashAlgorithmName
-  fullName: System.Security.Cryptography.HashAlgorithmName
-- uid: System.Security.Cryptography.RSASignaturePadding
-  parent: System.Security.Cryptography
-  isExternal: false
-  name: RSASignaturePadding
-  nameWithType: RSASignaturePadding
-  fullName: System.Security.Cryptography.RSASignaturePadding
 - uid: System.Security.Cryptography.RSA.VerifyData(System.Byte[],System.Int32,System.Int32,System.Byte[],System.Security.Cryptography.HashAlgorithmName,System.Security.Cryptography.RSASignaturePadding)
   parent: System.Security.Cryptography.RSA
   isExternal: false
   name: VerifyData(Byte[],Int32,Int32,Byte[],HashAlgorithmName,RSASignaturePadding)
   nameWithType: RSA.VerifyData(Byte[],Int32,Int32,Byte[],HashAlgorithmName,RSASignaturePadding)
   fullName: System.Security.Cryptography.RSA.VerifyData(Byte[],Int32,Int32,Byte[],HashAlgorithmName,RSASignaturePadding)
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
-- uid: System.Byte
-  parent: System
-  isExternal: false
-  name: Byte
-  nameWithType: Byte
-  fullName: System.Byte[]
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: System.Byte
-  parent: System
-  isExternal: false
-  name: Byte
-  nameWithType: Byte
-  fullName: System.Byte[]
-- uid: System.Security.Cryptography.HashAlgorithmName
-  parent: System.Security.Cryptography
-  isExternal: false
-  name: HashAlgorithmName
-  nameWithType: HashAlgorithmName
-  fullName: System.Security.Cryptography.HashAlgorithmName
-- uid: System.Security.Cryptography.RSASignaturePadding
-  parent: System.Security.Cryptography
-  isExternal: false
-  name: RSASignaturePadding
-  nameWithType: RSASignaturePadding
-  fullName: System.Security.Cryptography.RSASignaturePadding
 - uid: System.Security.Cryptography.RSA.VerifyHash(System.Byte[],System.Byte[],System.Security.Cryptography.HashAlgorithmName,System.Security.Cryptography.RSASignaturePadding)
   parent: System.Security.Cryptography.RSA
   isExternal: false
   name: VerifyHash(Byte[],Byte[],HashAlgorithmName,RSASignaturePadding)
   nameWithType: RSA.VerifyHash(Byte[],Byte[],HashAlgorithmName,RSASignaturePadding)
   fullName: System.Security.Cryptography.RSA.VerifyHash(Byte[],Byte[],HashAlgorithmName,RSASignaturePadding)
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
-- uid: System.Byte
-  parent: System
-  isExternal: false
-  name: Byte
-  nameWithType: Byte
-  fullName: System.Byte[]
-- uid: System.Byte
-  parent: System
-  isExternal: false
-  name: Byte
-  nameWithType: Byte
-  fullName: System.Byte[]
-- uid: System.Security.Cryptography.HashAlgorithmName
-  parent: System.Security.Cryptography
-  isExternal: false
-  name: HashAlgorithmName
-  nameWithType: HashAlgorithmName
-  fullName: System.Security.Cryptography.HashAlgorithmName
-- uid: System.Security.Cryptography.RSASignaturePadding
-  parent: System.Security.Cryptography
-  isExternal: false
-  name: RSASignaturePadding
-  nameWithType: RSASignaturePadding
-  fullName: System.Security.Cryptography.RSASignaturePadding
 - uid: System.Security.Cryptography.RSA.#ctor*
   parent: System.Security.Cryptography.RSA
   isExternal: false

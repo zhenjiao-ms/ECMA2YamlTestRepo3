@@ -96,6 +96,7 @@ items:
       type: System.String
       description: To be added.
   overload: System.Reflection.AssemblyDescriptionAttribute.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -120,6 +121,7 @@ items:
       type: System.String
       description: To be added.
   overload: System.Reflection.AssemblyDescriptionAttribute.Description*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -146,12 +148,6 @@ references:
   name: Description
   nameWithType: AssemblyDescriptionAttribute.Description
   fullName: System.Reflection.AssemblyDescriptionAttribute.Description
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
 - uid: System.Reflection.AssemblyDescriptionAttribute.#ctor*
   parent: System.Reflection.AssemblyDescriptionAttribute
   isExternal: false

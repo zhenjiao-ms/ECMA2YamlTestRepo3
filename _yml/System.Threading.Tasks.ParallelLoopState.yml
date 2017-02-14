@@ -55,6 +55,7 @@ items:
     content: public void Break ();
     parameters: []
   overload: System.Threading.Tasks.ParallelLoopState.Break*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -79,6 +80,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Threading.Tasks.ParallelLoopState.IsExceptional*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -103,6 +105,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Threading.Tasks.ParallelLoopState.IsStopped*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -127,6 +130,7 @@ items:
       type: System.Nullable{System.Int64}
       description: To be added.
   overload: System.Threading.Tasks.ParallelLoopState.LowestBreakIteration*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -151,6 +155,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Threading.Tasks.ParallelLoopState.ShouldExitCurrentIteration*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -173,6 +178,7 @@ items:
     content: public void Stop ();
     parameters: []
   overload: System.Threading.Tasks.ParallelLoopState.Stop*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -205,12 +211,6 @@ references:
   name: IsStopped
   nameWithType: ParallelLoopState.IsStopped
   fullName: System.Threading.Tasks.ParallelLoopState.IsStopped
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
 - uid: System.Threading.Tasks.ParallelLoopState.LowestBreakIteration
   parent: System.Threading.Tasks.ParallelLoopState
   isExternal: false
@@ -223,18 +223,27 @@ references:
   name: Nullable<Int64>
   nameWithType: Nullable<Int64>
   fullName: System.Nullable<System.Int64>
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: Nullable<System.Int64>
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Int64
+    name: Int64
+    nameWithType: Int64
+    fullName: Int64
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
 - uid: System.Threading.Tasks.ParallelLoopState.ShouldExitCurrentIteration
   parent: System.Threading.Tasks.ParallelLoopState
   isExternal: false
   name: ShouldExitCurrentIteration
   nameWithType: ParallelLoopState.ShouldExitCurrentIteration
   fullName: System.Threading.Tasks.ParallelLoopState.ShouldExitCurrentIteration
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
 - uid: System.Threading.Tasks.ParallelLoopState.Stop
   parent: System.Threading.Tasks.ParallelLoopState
   isExternal: false

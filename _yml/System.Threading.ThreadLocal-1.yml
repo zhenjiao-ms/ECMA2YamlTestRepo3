@@ -65,6 +65,7 @@ items:
     content: public ThreadLocal ();
     parameters: []
   overload: System.Threading.ThreadLocal`1.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -90,6 +91,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Threading.ThreadLocal`1.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -115,6 +117,7 @@ items:
       type: System.Func{T}
       description: To be added.
   overload: System.Threading.ThreadLocal`1.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -143,6 +146,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Threading.ThreadLocal`1.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -165,6 +169,7 @@ items:
     content: public void Dispose ();
     parameters: []
   overload: System.Threading.ThreadLocal`1.Dispose*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -190,6 +195,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Threading.ThreadLocal`1.Dispose*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -212,6 +218,7 @@ items:
     content: ~ThreadLocal`1 ();
     parameters: []
   overload: System.Threading.ThreadLocal`1.Finalize*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -236,6 +243,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Threading.ThreadLocal`1.IsValueCreated*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -261,6 +269,7 @@ items:
       type: System.String
       description: To be added.
   overload: System.Threading.ThreadLocal`1.ToString*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -285,6 +294,7 @@ items:
       type: T
       description: To be added.
   overload: System.Threading.ThreadLocal`1.Value*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -309,6 +319,7 @@ items:
       type: System.Collections.Generic.IList`1
       description: To be added.
   overload: System.Threading.ThreadLocal`1.Values*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -347,24 +358,27 @@ references:
   name: Func<T>
   nameWithType: Func<T>
   fullName: System.Func<T>
+  spec.csharp:
+  - uid: System.Func`1
+    name: Func
+    nameWithType: Func
+    fullName: Func<T>
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: T
+    name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
 - uid: System.Threading.ThreadLocal`1.#ctor(System.Func{`0},System.Boolean)
   parent: System.Threading.ThreadLocal`1
   isExternal: false
   name: ThreadLocal(Func<T>,Boolean)
   nameWithType: ThreadLocal<T>.ThreadLocal(Func<T>,Boolean)
   fullName: System.Threading.ThreadLocal<T>.ThreadLocal(Func<T>,Boolean)
-- uid: System.Func{T}
-  parent: System
-  isExternal: false
-  name: Func<T>
-  nameWithType: Func<T>
-  fullName: System.Func<T>
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
 - uid: System.Threading.ThreadLocal`1.Dispose
   parent: System.Threading.ThreadLocal`1
   isExternal: false
@@ -377,12 +391,6 @@ references:
   name: Dispose(Boolean)
   nameWithType: ThreadLocal<T>.Dispose(Boolean)
   fullName: System.Threading.ThreadLocal<T>.Dispose(Boolean)
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
 - uid: System.Threading.ThreadLocal`1.Finalize
   parent: System.Threading.ThreadLocal`1
   isExternal: false
@@ -395,12 +403,6 @@ references:
   name: IsValueCreated
   nameWithType: ThreadLocal<T>.IsValueCreated
   fullName: System.Threading.ThreadLocal<T>.IsValueCreated
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
 - uid: System.Threading.ThreadLocal`1.ToString
   parent: System.Threading.ThreadLocal`1
   isExternal: false
@@ -420,7 +422,6 @@ references:
   nameWithType: ThreadLocal<T>.Value
   fullName: System.Threading.ThreadLocal<T>.Value
 - uid: T
-  parent: ''
   isExternal: true
   name: T
   nameWithType: T

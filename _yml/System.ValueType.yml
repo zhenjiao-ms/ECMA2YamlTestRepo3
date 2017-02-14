@@ -50,6 +50,7 @@ items:
     content: protected ValueType ();
     parameters: []
   overload: System.ValueType.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -78,6 +79,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.ValueType.Equals*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -103,6 +105,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.ValueType.GetHashCode*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -128,6 +131,7 @@ items:
       type: System.String
       description: To be added.
   overload: System.ValueType.ToString*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -154,12 +158,6 @@ references:
   name: Boolean
   nameWithType: Boolean
   fullName: System.Boolean
-- uid: System.Object
-  parent: System
-  isExternal: false
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
 - uid: System.ValueType.GetHashCode
   parent: System.ValueType
   isExternal: false

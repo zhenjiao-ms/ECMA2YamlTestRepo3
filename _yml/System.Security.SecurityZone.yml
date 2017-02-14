@@ -48,6 +48,7 @@ items:
     return:
       type: System.Security.SecurityZone
       description: To be added.
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -70,6 +71,7 @@ items:
     return:
       type: System.Security.SecurityZone
       description: To be added.
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -92,6 +94,7 @@ items:
     return:
       type: System.Security.SecurityZone
       description: To be added.
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -114,6 +117,7 @@ items:
     return:
       type: System.Security.SecurityZone
       description: To be added.
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -136,6 +140,7 @@ items:
     return:
       type: System.Security.SecurityZone
       description: To be added.
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -158,6 +163,7 @@ items:
     return:
       type: System.Security.SecurityZone
       description: To be added.
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -184,57 +190,27 @@ references:
   name: Intranet
   nameWithType: SecurityZone.Intranet
   fullName: System.Security.SecurityZone.Intranet
-- uid: System.Security.SecurityZone
-  parent: System.Security
-  isExternal: false
-  name: SecurityZone
-  nameWithType: SecurityZone
-  fullName: System.Security.SecurityZone
 - uid: System.Security.SecurityZone.MyComputer
   parent: System.Security.SecurityZone
   isExternal: false
   name: MyComputer
   nameWithType: SecurityZone.MyComputer
   fullName: System.Security.SecurityZone.MyComputer
-- uid: System.Security.SecurityZone
-  parent: System.Security
-  isExternal: false
-  name: SecurityZone
-  nameWithType: SecurityZone
-  fullName: System.Security.SecurityZone
 - uid: System.Security.SecurityZone.NoZone
   parent: System.Security.SecurityZone
   isExternal: false
   name: NoZone
   nameWithType: SecurityZone.NoZone
   fullName: System.Security.SecurityZone.NoZone
-- uid: System.Security.SecurityZone
-  parent: System.Security
-  isExternal: false
-  name: SecurityZone
-  nameWithType: SecurityZone
-  fullName: System.Security.SecurityZone
 - uid: System.Security.SecurityZone.Trusted
   parent: System.Security.SecurityZone
   isExternal: false
   name: Trusted
   nameWithType: SecurityZone.Trusted
   fullName: System.Security.SecurityZone.Trusted
-- uid: System.Security.SecurityZone
-  parent: System.Security
-  isExternal: false
-  name: SecurityZone
-  nameWithType: SecurityZone
-  fullName: System.Security.SecurityZone
 - uid: System.Security.SecurityZone.Untrusted
   parent: System.Security.SecurityZone
   isExternal: false
   name: Untrusted
   nameWithType: SecurityZone.Untrusted
   fullName: System.Security.SecurityZone.Untrusted
-- uid: System.Security.SecurityZone
-  parent: System.Security
-  isExternal: false
-  name: SecurityZone
-  nameWithType: SecurityZone
-  fullName: System.Security.SecurityZone

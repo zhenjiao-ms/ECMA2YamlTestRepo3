@@ -47,6 +47,7 @@ items:
     return:
       type: System.Int32
       description: To be added.
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -70,6 +71,7 @@ items:
     return:
       type: System.Int32
       description: To be added.
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -93,6 +95,7 @@ items:
     return:
       type: System.IntPtr
       description: To be added.
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -116,6 +119,7 @@ items:
     return:
       type: System.IntPtr
       description: To be added.
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -142,12 +146,6 @@ references:
   name: cNamedArgs
   nameWithType: DISPPARAMS.cNamedArgs
   fullName: System.Runtime.InteropServices.DISPPARAMS.cNamedArgs
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
 - uid: System.Runtime.InteropServices.DISPPARAMS.rgdispidNamedArgs
   parent: System.Runtime.InteropServices.DISPPARAMS
   isExternal: false
@@ -166,9 +164,3 @@ references:
   name: rgvarg
   nameWithType: DISPPARAMS.rgvarg
   fullName: System.Runtime.InteropServices.DISPPARAMS.rgvarg
-- uid: System.IntPtr
-  parent: System
-  isExternal: false
-  name: IntPtr
-  nameWithType: IntPtr
-  fullName: System.IntPtr

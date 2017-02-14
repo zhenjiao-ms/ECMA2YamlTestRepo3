@@ -56,6 +56,7 @@ items:
     content: protected Comparer ();
     parameters: []
   overload: System.Collections.Generic.Comparer`1.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -87,6 +88,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.Collections.Generic.Comparer`1.Compare*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -115,6 +117,7 @@ items:
       type: System.Collections.Generic.Comparer`1
       description: To be added.
   overload: System.Collections.Generic.Comparer`1.Create*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -139,6 +142,7 @@ items:
       type: System.Collections.Generic.Comparer`1
       description: To be added.
   overload: System.Collections.Generic.Comparer`1.Default*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -171,6 +175,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.Collections.Generic.Comparer`1.System#Collections#IComparer#Compare*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -198,13 +203,6 @@ references:
   nameWithType: Int32
   fullName: System.Int32
 - uid: T
-  parent: ''
-  isExternal: true
-  name: T
-  nameWithType: T
-  fullName: T
-- uid: T
-  parent: ''
   isExternal: true
   name: T
   nameWithType: T
@@ -233,36 +231,12 @@ references:
   name: Default
   nameWithType: Comparer<T>.Default
   fullName: System.Collections.Generic.Comparer<T>.Default
-- uid: System.Collections.Generic.Comparer`1
-  parent: System.Collections.Generic
-  isExternal: false
-  name: Comparer<T>
-  nameWithType: Comparer<T>
-  fullName: System.Collections.Generic.Comparer<T>
 - uid: System.Collections.Generic.Comparer`1.System#Collections#IComparer#Compare(System.Object,System.Object)
   parent: System.Collections.Generic.Comparer`1
   isExternal: false
   name: System.Collections.IComparer.Compare(Object,Object)
   nameWithType: Comparer<T>.System.Collections.IComparer.Compare(Object,Object)
   fullName: System.Collections.Generic.Comparer<T>.System.Collections.IComparer.Compare(Object,Object)
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: System.Object
-  parent: System
-  isExternal: false
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
-- uid: System.Object
-  parent: System
-  isExternal: false
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
 - uid: System.Collections.Generic.Comparer`1.#ctor*
   parent: System.Collections.Generic.Comparer`1
   isExternal: false

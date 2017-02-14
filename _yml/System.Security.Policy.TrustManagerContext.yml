@@ -57,6 +57,7 @@ items:
     content: public TrustManagerContext ();
     parameters: []
   overload: System.Security.Policy.TrustManagerContext.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -82,6 +83,7 @@ items:
       type: System.Security.Policy.TrustManagerUIContext
       description: To be added.
   overload: System.Security.Policy.TrustManagerContext.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -106,6 +108,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Security.Policy.TrustManagerContext.IgnorePersistedDecision*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -130,6 +133,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Security.Policy.TrustManagerContext.KeepAlive*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -154,6 +158,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Security.Policy.TrustManagerContext.NoPrompt*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -178,6 +183,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Security.Policy.TrustManagerContext.Persist*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -202,6 +208,7 @@ items:
       type: System.ApplicationIdentity
       description: To be added.
   overload: System.Security.Policy.TrustManagerContext.PreviousApplicationIdentity*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -226,6 +233,7 @@ items:
       type: System.Security.Policy.TrustManagerUIContext
       description: To be added.
   overload: System.Security.Policy.TrustManagerContext.UIContext*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -270,36 +278,18 @@ references:
   name: KeepAlive
   nameWithType: TrustManagerContext.KeepAlive
   fullName: System.Security.Policy.TrustManagerContext.KeepAlive
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
 - uid: System.Security.Policy.TrustManagerContext.NoPrompt
   parent: System.Security.Policy.TrustManagerContext
   isExternal: false
   name: NoPrompt
   nameWithType: TrustManagerContext.NoPrompt
   fullName: System.Security.Policy.TrustManagerContext.NoPrompt
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
 - uid: System.Security.Policy.TrustManagerContext.Persist
   parent: System.Security.Policy.TrustManagerContext
   isExternal: false
   name: Persist
   nameWithType: TrustManagerContext.Persist
   fullName: System.Security.Policy.TrustManagerContext.Persist
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
 - uid: System.Security.Policy.TrustManagerContext.PreviousApplicationIdentity
   parent: System.Security.Policy.TrustManagerContext
   isExternal: false
@@ -318,12 +308,6 @@ references:
   name: UIContext
   nameWithType: TrustManagerContext.UIContext
   fullName: System.Security.Policy.TrustManagerContext.UIContext
-- uid: System.Security.Policy.TrustManagerUIContext
-  parent: System.Security.Policy
-  isExternal: false
-  name: TrustManagerUIContext
-  nameWithType: TrustManagerUIContext
-  fullName: System.Security.Policy.TrustManagerUIContext
 - uid: System.Security.Policy.TrustManagerContext.#ctor*
   parent: System.Security.Policy.TrustManagerContext
   isExternal: false

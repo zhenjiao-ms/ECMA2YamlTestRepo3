@@ -52,6 +52,7 @@ items:
       type: System.Reflection.FieldInfo
       description: To be added.
   overload: System.Runtime.InteropServices.Expando.IExpando.AddField*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -83,6 +84,7 @@ items:
       type: System.Reflection.MethodInfo
       description: To be added.
   overload: System.Runtime.InteropServices.Expando.IExpando.AddMethod*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -111,6 +113,7 @@ items:
       type: System.Reflection.PropertyInfo
       description: To be added.
   overload: System.Runtime.InteropServices.Expando.IExpando.AddProperty*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -136,6 +139,7 @@ items:
       type: System.Reflection.MemberInfo
       description: To be added.
   overload: System.Runtime.InteropServices.Expando.IExpando.RemoveMember*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -171,12 +175,6 @@ references:
   name: MethodInfo
   nameWithType: MethodInfo
   fullName: System.Reflection.MethodInfo
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
 - uid: System.Delegate
   parent: System
   isExternal: false
@@ -195,12 +193,6 @@ references:
   name: PropertyInfo
   nameWithType: PropertyInfo
   fullName: System.Reflection.PropertyInfo
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
 - uid: System.Runtime.InteropServices.Expando.IExpando.RemoveMember(System.Reflection.MemberInfo)
   parent: System.Runtime.InteropServices.Expando.IExpando
   isExternal: false

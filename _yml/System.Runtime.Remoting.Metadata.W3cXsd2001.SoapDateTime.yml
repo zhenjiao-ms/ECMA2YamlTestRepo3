@@ -53,6 +53,7 @@ items:
     content: public SoapDateTime ();
     parameters: []
   overload: System.Runtime.Remoting.Metadata.W3cXsd2001.SoapDateTime.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -81,6 +82,7 @@ items:
       type: System.DateTime
       description: To be added.
   overload: System.Runtime.Remoting.Metadata.W3cXsd2001.SoapDateTime.Parse*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -109,6 +111,7 @@ items:
       type: System.String
       description: To be added.
   overload: System.Runtime.Remoting.Metadata.W3cXsd2001.SoapDateTime.ToString*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -133,6 +136,7 @@ items:
       type: System.String
       description: To be added.
   overload: System.Runtime.Remoting.Metadata.W3cXsd2001.SoapDateTime.XsdType*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -171,30 +175,12 @@ references:
   name: ToString(DateTime)
   nameWithType: SoapDateTime.ToString(DateTime)
   fullName: System.Runtime.Remoting.Metadata.W3cXsd2001.SoapDateTime.ToString(DateTime)
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
-- uid: System.DateTime
-  parent: System
-  isExternal: false
-  name: DateTime
-  nameWithType: DateTime
-  fullName: System.DateTime
 - uid: System.Runtime.Remoting.Metadata.W3cXsd2001.SoapDateTime.XsdType
   parent: System.Runtime.Remoting.Metadata.W3cXsd2001.SoapDateTime
   isExternal: false
   name: XsdType
   nameWithType: SoapDateTime.XsdType
   fullName: System.Runtime.Remoting.Metadata.W3cXsd2001.SoapDateTime.XsdType
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
 - uid: System.Runtime.Remoting.Metadata.W3cXsd2001.SoapDateTime.#ctor*
   parent: System.Runtime.Remoting.Metadata.W3cXsd2001.SoapDateTime
   isExternal: false

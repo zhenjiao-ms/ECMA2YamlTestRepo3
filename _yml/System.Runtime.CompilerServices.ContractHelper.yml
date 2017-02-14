@@ -63,6 +63,7 @@ items:
       type: System.String
       description: To be added.
   overload: System.Runtime.CompilerServices.ContractHelper.RaiseContractFailedEvent*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -100,6 +101,7 @@ items:
       type: System.Exception
       description: To be added.
   overload: System.Runtime.CompilerServices.ContractHelper.TriggerFailure*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -126,18 +128,6 @@ references:
   name: ContractFailureKind
   nameWithType: ContractFailureKind
   fullName: System.Diagnostics.Contracts.ContractFailureKind
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
 - uid: System.Exception
   parent: System
   isExternal: false
@@ -150,36 +140,6 @@ references:
   name: TriggerFailure(ContractFailureKind,String,String,String,Exception)
   nameWithType: ContractHelper.TriggerFailure(ContractFailureKind,String,String,String,Exception)
   fullName: System.Runtime.CompilerServices.ContractHelper.TriggerFailure(ContractFailureKind,String,String,String,Exception)
-- uid: System.Diagnostics.Contracts.ContractFailureKind
-  parent: System.Diagnostics.Contracts
-  isExternal: false
-  name: ContractFailureKind
-  nameWithType: ContractFailureKind
-  fullName: System.Diagnostics.Contracts.ContractFailureKind
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
-- uid: System.Exception
-  parent: System
-  isExternal: false
-  name: Exception
-  nameWithType: Exception
-  fullName: System.Exception
 - uid: System.Runtime.CompilerServices.ContractHelper.RaiseContractFailedEvent*
   parent: System.Runtime.CompilerServices.ContractHelper
   isExternal: false

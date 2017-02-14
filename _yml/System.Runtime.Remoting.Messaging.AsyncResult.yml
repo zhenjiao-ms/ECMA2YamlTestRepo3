@@ -64,6 +64,7 @@ items:
       type: System.Object
       description: To be added.
   overload: System.Runtime.Remoting.Messaging.AsyncResult.AsyncDelegate*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -95,6 +96,7 @@ items:
       type: System.Runtime.Remoting.Messaging.IMessageCtrl
       description: To be added.
   overload: System.Runtime.Remoting.Messaging.AsyncResult.AsyncProcessMessage*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -119,6 +121,7 @@ items:
       type: System.Object
       description: To be added.
   overload: System.Runtime.Remoting.Messaging.AsyncResult.AsyncState*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -143,6 +146,7 @@ items:
       type: System.Threading.WaitHandle
       description: To be added.
   overload: System.Runtime.Remoting.Messaging.AsyncResult.AsyncWaitHandle*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -167,6 +171,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Runtime.Remoting.Messaging.AsyncResult.CompletedSynchronously*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -191,6 +196,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Runtime.Remoting.Messaging.AsyncResult.EndInvokeCalled*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -216,6 +222,7 @@ items:
       type: System.Runtime.Remoting.Messaging.IMessage
       description: To be added.
   overload: System.Runtime.Remoting.Messaging.AsyncResult.GetReplyMessage*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -240,6 +247,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Runtime.Remoting.Messaging.AsyncResult.IsCompleted*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -264,6 +272,7 @@ items:
       type: System.Runtime.Remoting.Messaging.IMessageSink
       description: To be added.
   overload: System.Runtime.Remoting.Messaging.AsyncResult.NextSink*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -289,6 +298,7 @@ items:
       type: System.Runtime.Remoting.Messaging.IMessageCtrl
       description: To be added.
   overload: System.Runtime.Remoting.Messaging.AsyncResult.SetMessageCtrl*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -317,6 +327,7 @@ items:
       type: System.Runtime.Remoting.Messaging.IMessage
       description: To be added.
   overload: System.Runtime.Remoting.Messaging.AsyncResult.SyncProcessMessage*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -331,12 +342,6 @@ references:
   name: AsyncDelegate
   nameWithType: AsyncResult.AsyncDelegate
   fullName: System.Runtime.Remoting.Messaging.AsyncResult.AsyncDelegate
-- uid: System.Object
-  parent: System
-  isExternal: false
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
 - uid: System.Runtime.Remoting.Messaging.AsyncResult.AsyncProcessMessage(System.Runtime.Remoting.Messaging.IMessage,System.Runtime.Remoting.Messaging.IMessageSink)
   parent: System.Runtime.Remoting.Messaging.AsyncResult
   isExternal: false
@@ -367,12 +372,6 @@ references:
   name: AsyncState
   nameWithType: AsyncResult.AsyncState
   fullName: System.Runtime.Remoting.Messaging.AsyncResult.AsyncState
-- uid: System.Object
-  parent: System
-  isExternal: false
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
 - uid: System.Runtime.Remoting.Messaging.AsyncResult.AsyncWaitHandle
   parent: System.Runtime.Remoting.Messaging.AsyncResult
   isExternal: false
@@ -403,78 +402,36 @@ references:
   name: EndInvokeCalled
   nameWithType: AsyncResult.EndInvokeCalled
   fullName: System.Runtime.Remoting.Messaging.AsyncResult.EndInvokeCalled
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
 - uid: System.Runtime.Remoting.Messaging.AsyncResult.GetReplyMessage
   parent: System.Runtime.Remoting.Messaging.AsyncResult
   isExternal: false
   name: GetReplyMessage()
   nameWithType: AsyncResult.GetReplyMessage()
   fullName: System.Runtime.Remoting.Messaging.AsyncResult.GetReplyMessage()
-- uid: System.Runtime.Remoting.Messaging.IMessage
-  parent: System.Runtime.Remoting.Messaging
-  isExternal: false
-  name: IMessage
-  nameWithType: IMessage
-  fullName: System.Runtime.Remoting.Messaging.IMessage
 - uid: System.Runtime.Remoting.Messaging.AsyncResult.IsCompleted
   parent: System.Runtime.Remoting.Messaging.AsyncResult
   isExternal: false
   name: IsCompleted
   nameWithType: AsyncResult.IsCompleted
   fullName: System.Runtime.Remoting.Messaging.AsyncResult.IsCompleted
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
 - uid: System.Runtime.Remoting.Messaging.AsyncResult.NextSink
   parent: System.Runtime.Remoting.Messaging.AsyncResult
   isExternal: false
   name: NextSink
   nameWithType: AsyncResult.NextSink
   fullName: System.Runtime.Remoting.Messaging.AsyncResult.NextSink
-- uid: System.Runtime.Remoting.Messaging.IMessageSink
-  parent: System.Runtime.Remoting.Messaging
-  isExternal: false
-  name: IMessageSink
-  nameWithType: IMessageSink
-  fullName: System.Runtime.Remoting.Messaging.IMessageSink
 - uid: System.Runtime.Remoting.Messaging.AsyncResult.SetMessageCtrl(System.Runtime.Remoting.Messaging.IMessageCtrl)
   parent: System.Runtime.Remoting.Messaging.AsyncResult
   isExternal: false
   name: SetMessageCtrl(IMessageCtrl)
   nameWithType: AsyncResult.SetMessageCtrl(IMessageCtrl)
   fullName: System.Runtime.Remoting.Messaging.AsyncResult.SetMessageCtrl(IMessageCtrl)
-- uid: System.Runtime.Remoting.Messaging.IMessageCtrl
-  parent: System.Runtime.Remoting.Messaging
-  isExternal: false
-  name: IMessageCtrl
-  nameWithType: IMessageCtrl
-  fullName: System.Runtime.Remoting.Messaging.IMessageCtrl
 - uid: System.Runtime.Remoting.Messaging.AsyncResult.SyncProcessMessage(System.Runtime.Remoting.Messaging.IMessage)
   parent: System.Runtime.Remoting.Messaging.AsyncResult
   isExternal: false
   name: SyncProcessMessage(IMessage)
   nameWithType: AsyncResult.SyncProcessMessage(IMessage)
   fullName: System.Runtime.Remoting.Messaging.AsyncResult.SyncProcessMessage(IMessage)
-- uid: System.Runtime.Remoting.Messaging.IMessage
-  parent: System.Runtime.Remoting.Messaging
-  isExternal: false
-  name: IMessage
-  nameWithType: IMessage
-  fullName: System.Runtime.Remoting.Messaging.IMessage
-- uid: System.Runtime.Remoting.Messaging.IMessage
-  parent: System.Runtime.Remoting.Messaging
-  isExternal: false
-  name: IMessage
-  nameWithType: IMessage
-  fullName: System.Runtime.Remoting.Messaging.IMessage
 - uid: System.Runtime.Remoting.Messaging.AsyncResult.AsyncDelegate*
   parent: System.Runtime.Remoting.Messaging.AsyncResult
   isExternal: false

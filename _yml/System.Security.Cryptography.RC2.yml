@@ -83,6 +83,7 @@ items:
     content: protected RC2 ();
     parameters: []
   overload: System.Security.Cryptography.RC2.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -108,6 +109,7 @@ items:
       type: System.Security.Cryptography.RC2
       description: To be added.
   overload: System.Security.Cryptography.RC2.Create*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -136,6 +138,7 @@ items:
       type: System.Security.Cryptography.RC2
       description: To be added.
   overload: System.Security.Cryptography.RC2.Create*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -160,6 +163,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.Security.Cryptography.RC2.EffectiveKeySize*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -183,6 +187,7 @@ items:
     return:
       type: System.Int32
       description: To be added.
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -207,6 +212,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.Security.Cryptography.RC2.KeySize*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -239,12 +245,6 @@ references:
   name: Create(String)
   nameWithType: RC2.Create(String)
   fullName: System.Security.Cryptography.RC2.Create(String)
-- uid: System.Security.Cryptography.RC2
-  parent: System.Security.Cryptography
-  isExternal: false
-  name: RC2
-  nameWithType: RC2
-  fullName: System.Security.Cryptography.RC2
 - uid: System.String
   parent: System
   isExternal: false
@@ -269,24 +269,12 @@ references:
   name: EffectiveKeySizeValue
   nameWithType: RC2.EffectiveKeySizeValue
   fullName: System.Security.Cryptography.RC2.EffectiveKeySizeValue
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
 - uid: System.Security.Cryptography.RC2.KeySize
   parent: System.Security.Cryptography.RC2
   isExternal: false
   name: KeySize
   nameWithType: RC2.KeySize
   fullName: System.Security.Cryptography.RC2.KeySize
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
 - uid: System.Security.Cryptography.RC2.#ctor*
   parent: System.Security.Cryptography.RC2
   isExternal: false

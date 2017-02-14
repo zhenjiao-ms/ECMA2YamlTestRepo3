@@ -45,6 +45,7 @@ items:
     return:
       type: System.Security.AccessControl.PropagationFlags
       description: To be added.
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -67,6 +68,7 @@ items:
     return:
       type: System.Security.AccessControl.PropagationFlags
       description: To be added.
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -89,6 +91,7 @@ items:
     return:
       type: System.Security.AccessControl.PropagationFlags
       description: To be added.
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -115,21 +118,9 @@ references:
   name: None
   nameWithType: PropagationFlags.None
   fullName: System.Security.AccessControl.PropagationFlags.None
-- uid: System.Security.AccessControl.PropagationFlags
-  parent: System.Security.AccessControl
-  isExternal: false
-  name: PropagationFlags
-  nameWithType: PropagationFlags
-  fullName: System.Security.AccessControl.PropagationFlags
 - uid: System.Security.AccessControl.PropagationFlags.NoPropagateInherit
   parent: System.Security.AccessControl.PropagationFlags
   isExternal: false
   name: NoPropagateInherit
   nameWithType: PropagationFlags.NoPropagateInherit
   fullName: System.Security.AccessControl.PropagationFlags.NoPropagateInherit
-- uid: System.Security.AccessControl.PropagationFlags
-  parent: System.Security.AccessControl
-  isExternal: false
-  name: PropagationFlags
-  nameWithType: PropagationFlags
-  fullName: System.Security.AccessControl.PropagationFlags

@@ -51,6 +51,7 @@ items:
     return:
       type: System.String
       description: To be added.
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -74,6 +75,7 @@ items:
     return:
       type: System.String
       description: To be added.
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -97,6 +99,7 @@ items:
     return:
       type: System.String
       description: To be added.
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -120,6 +123,7 @@ items:
     return:
       type: System.Int32
       description: To be added.
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -143,6 +147,7 @@ items:
     return:
       type: System.IntPtr
       description: To be added.
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -166,6 +171,7 @@ items:
     return:
       type: System.IntPtr
       description: To be added.
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -189,6 +195,7 @@ items:
     return:
       type: System.Int16
       description: To be added.
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -212,6 +219,7 @@ items:
     return:
       type: System.Int16
       description: To be added.
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -238,24 +246,12 @@ references:
   name: bstrHelpFile
   nameWithType: EXCEPINFO.bstrHelpFile
   fullName: System.Runtime.InteropServices.EXCEPINFO.bstrHelpFile
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
 - uid: System.Runtime.InteropServices.EXCEPINFO.bstrSource
   parent: System.Runtime.InteropServices.EXCEPINFO
   isExternal: false
   name: bstrSource
   nameWithType: EXCEPINFO.bstrSource
   fullName: System.Runtime.InteropServices.EXCEPINFO.bstrSource
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
 - uid: System.Runtime.InteropServices.EXCEPINFO.dwHelpContext
   parent: System.Runtime.InteropServices.EXCEPINFO
   isExternal: false
@@ -286,12 +282,6 @@ references:
   name: pvReserved
   nameWithType: EXCEPINFO.pvReserved
   fullName: System.Runtime.InteropServices.EXCEPINFO.pvReserved
-- uid: System.IntPtr
-  parent: System
-  isExternal: false
-  name: IntPtr
-  nameWithType: IntPtr
-  fullName: System.IntPtr
 - uid: System.Runtime.InteropServices.EXCEPINFO.wCode
   parent: System.Runtime.InteropServices.EXCEPINFO
   isExternal: false
@@ -310,9 +300,3 @@ references:
   name: wReserved
   nameWithType: EXCEPINFO.wReserved
   fullName: System.Runtime.InteropServices.EXCEPINFO.wReserved
-- uid: System.Int16
-  parent: System
-  isExternal: false
-  name: Int16
-  nameWithType: Int16
-  fullName: System.Int16

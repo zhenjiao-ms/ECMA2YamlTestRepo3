@@ -51,6 +51,7 @@ items:
       type: System.Guid
       description: To be added.
   overload: System.Diagnostics.SymbolStore.ISymbolDocument.CheckSumAlgorithmId*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -75,6 +76,7 @@ items:
       type: System.Guid
       description: To be added.
   overload: System.Diagnostics.SymbolStore.ISymbolDocument.DocumentType*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -103,6 +105,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.Diagnostics.SymbolStore.ISymbolDocument.FindClosestLine*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -128,6 +131,7 @@ items:
       type: System.Byte[]
       description: To be added.
   overload: System.Diagnostics.SymbolStore.ISymbolDocument.GetCheckSum*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -165,6 +169,7 @@ items:
       type: System.Byte[]
       description: To be added.
   overload: System.Diagnostics.SymbolStore.ISymbolDocument.GetSourceRange*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -189,6 +194,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Diagnostics.SymbolStore.ISymbolDocument.HasEmbeddedSource*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -213,6 +219,7 @@ items:
       type: System.Guid
       description: To be added.
   overload: System.Diagnostics.SymbolStore.ISymbolDocument.Language*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -237,6 +244,7 @@ items:
       type: System.Guid
       description: To be added.
   overload: System.Diagnostics.SymbolStore.ISymbolDocument.LanguageVendor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -261,6 +269,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.Diagnostics.SymbolStore.ISymbolDocument.SourceLength*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -285,6 +294,7 @@ items:
       type: System.String
       description: To be added.
   overload: System.Diagnostics.SymbolStore.ISymbolDocument.URL*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -308,12 +318,6 @@ references:
   name: DocumentType
   nameWithType: ISymbolDocument.DocumentType
   fullName: System.Diagnostics.SymbolStore.ISymbolDocument.DocumentType
-- uid: System.Guid
-  parent: System
-  isExternal: false
-  name: Guid
-  nameWithType: Guid
-  fullName: System.Guid
 - uid: System.Diagnostics.SymbolStore.ISymbolDocument.FindClosestLine(System.Int32)
   parent: System.Diagnostics.SymbolStore.ISymbolDocument
   isExternal: false
@@ -326,60 +330,32 @@ references:
   name: Int32
   nameWithType: Int32
   fullName: System.Int32
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
 - uid: System.Diagnostics.SymbolStore.ISymbolDocument.GetCheckSum
   parent: System.Diagnostics.SymbolStore.ISymbolDocument
   isExternal: false
   name: GetCheckSum()
   nameWithType: ISymbolDocument.GetCheckSum()
   fullName: System.Diagnostics.SymbolStore.ISymbolDocument.GetCheckSum()
-- uid: System.Byte
+- uid: System.Byte[]
   parent: System
   isExternal: false
   name: Byte
   nameWithType: Byte
   fullName: System.Byte[]
+  spec.csharp:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: Byte[]
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
 - uid: System.Diagnostics.SymbolStore.ISymbolDocument.GetSourceRange(System.Int32,System.Int32,System.Int32,System.Int32)
   parent: System.Diagnostics.SymbolStore.ISymbolDocument
   isExternal: false
   name: GetSourceRange(Int32,Int32,Int32,Int32)
   nameWithType: ISymbolDocument.GetSourceRange(Int32,Int32,Int32,Int32)
   fullName: System.Diagnostics.SymbolStore.ISymbolDocument.GetSourceRange(Int32,Int32,Int32,Int32)
-- uid: System.Byte
-  parent: System
-  isExternal: false
-  name: Byte
-  nameWithType: Byte
-  fullName: System.Byte[]
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
 - uid: System.Diagnostics.SymbolStore.ISymbolDocument.HasEmbeddedSource
   parent: System.Diagnostics.SymbolStore.ISymbolDocument
   isExternal: false
@@ -398,36 +374,18 @@ references:
   name: Language
   nameWithType: ISymbolDocument.Language
   fullName: System.Diagnostics.SymbolStore.ISymbolDocument.Language
-- uid: System.Guid
-  parent: System
-  isExternal: false
-  name: Guid
-  nameWithType: Guid
-  fullName: System.Guid
 - uid: System.Diagnostics.SymbolStore.ISymbolDocument.LanguageVendor
   parent: System.Diagnostics.SymbolStore.ISymbolDocument
   isExternal: false
   name: LanguageVendor
   nameWithType: ISymbolDocument.LanguageVendor
   fullName: System.Diagnostics.SymbolStore.ISymbolDocument.LanguageVendor
-- uid: System.Guid
-  parent: System
-  isExternal: false
-  name: Guid
-  nameWithType: Guid
-  fullName: System.Guid
 - uid: System.Diagnostics.SymbolStore.ISymbolDocument.SourceLength
   parent: System.Diagnostics.SymbolStore.ISymbolDocument
   isExternal: false
   name: SourceLength
   nameWithType: ISymbolDocument.SourceLength
   fullName: System.Diagnostics.SymbolStore.ISymbolDocument.SourceLength
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
 - uid: System.Diagnostics.SymbolStore.ISymbolDocument.URL
   parent: System.Diagnostics.SymbolStore.ISymbolDocument
   isExternal: false

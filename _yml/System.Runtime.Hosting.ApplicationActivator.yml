@@ -53,6 +53,7 @@ items:
     content: public ApplicationActivator ();
     parameters: []
   overload: System.Runtime.Hosting.ApplicationActivator.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -81,6 +82,7 @@ items:
       type: System.Runtime.Remoting.ObjectHandle
       description: To be added.
   overload: System.Runtime.Hosting.ApplicationActivator.CreateInstance*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -112,6 +114,7 @@ items:
       type: System.Runtime.Remoting.ObjectHandle
       description: To be added.
   overload: System.Runtime.Hosting.ApplicationActivator.CreateInstance*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -140,6 +143,7 @@ items:
       type: System.Runtime.Remoting.ObjectHandle
       description: To be added.
   overload: System.Runtime.Hosting.ApplicationActivator.CreateInstanceHelper*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -178,36 +182,26 @@ references:
   name: CreateInstance(ActivationContext,String[])
   nameWithType: ApplicationActivator.CreateInstance(ActivationContext,String[])
   fullName: System.Runtime.Hosting.ApplicationActivator.CreateInstance(ActivationContext,String[])
-- uid: System.Runtime.Remoting.ObjectHandle
-  parent: System.Runtime.Remoting
-  isExternal: false
-  name: ObjectHandle
-  nameWithType: ObjectHandle
-  fullName: System.Runtime.Remoting.ObjectHandle
-- uid: System.ActivationContext
-  parent: System
-  isExternal: false
-  name: ActivationContext
-  nameWithType: ActivationContext
-  fullName: System.ActivationContext
-- uid: System.String
+- uid: System.String[]
   parent: System
   isExternal: false
   name: String
   nameWithType: String
   fullName: System.String[]
+  spec.csharp:
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: String[]
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
 - uid: System.Runtime.Hosting.ApplicationActivator.CreateInstanceHelper(System.AppDomainSetup)
   parent: System.Runtime.Hosting.ApplicationActivator
   isExternal: false
   name: CreateInstanceHelper(AppDomainSetup)
   nameWithType: ApplicationActivator.CreateInstanceHelper(AppDomainSetup)
   fullName: System.Runtime.Hosting.ApplicationActivator.CreateInstanceHelper(AppDomainSetup)
-- uid: System.Runtime.Remoting.ObjectHandle
-  parent: System.Runtime.Remoting
-  isExternal: false
-  name: ObjectHandle
-  nameWithType: ObjectHandle
-  fullName: System.Runtime.Remoting.ObjectHandle
 - uid: System.AppDomainSetup
   parent: System
   isExternal: false

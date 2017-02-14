@@ -58,6 +58,7 @@ items:
       type: System.String[]
       description: To be added.
   overload: System.Runtime.Remoting.Channels.ChannelDataStore.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -82,6 +83,7 @@ items:
       type: System.String[]
       description: To be added.
   overload: System.Runtime.Remoting.Channels.ChannelDataStore.ChannelUris*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -110,6 +112,7 @@ items:
       type: System.Object
       description: To be added.
   overload: System.Runtime.Remoting.Channels.ChannelDataStore.Item*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -124,42 +127,32 @@ references:
   name: ChannelDataStore(String[])
   nameWithType: ChannelDataStore.ChannelDataStore(String[])
   fullName: System.Runtime.Remoting.Channels.ChannelDataStore.ChannelDataStore(String[])
-- uid: System.String
+- uid: System.String[]
   parent: System
   isExternal: false
   name: String
   nameWithType: String
   fullName: System.String[]
+  spec.csharp:
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: String[]
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
 - uid: System.Runtime.Remoting.Channels.ChannelDataStore.ChannelUris
   parent: System.Runtime.Remoting.Channels.ChannelDataStore
   isExternal: false
   name: ChannelUris
   nameWithType: ChannelDataStore.ChannelUris
   fullName: System.Runtime.Remoting.Channels.ChannelDataStore.ChannelUris
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String[]
 - uid: System.Runtime.Remoting.Channels.ChannelDataStore.Item(System.Object)
   parent: System.Runtime.Remoting.Channels.ChannelDataStore
   isExternal: false
   name: Item(Object)
   nameWithType: ChannelDataStore.Item(Object)
   fullName: System.Runtime.Remoting.Channels.ChannelDataStore.Item(Object)
-- uid: System.Object
-  parent: System
-  isExternal: false
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
-- uid: System.Object
-  parent: System
-  isExternal: false
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
 - uid: System.Runtime.Remoting.Channels.ChannelDataStore.#ctor*
   parent: System.Runtime.Remoting.Channels.ChannelDataStore
   isExternal: false

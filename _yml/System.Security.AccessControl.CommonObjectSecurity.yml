@@ -105,6 +105,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Security.AccessControl.CommonObjectSecurity.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -130,6 +131,7 @@ items:
       type: System.Security.AccessControl.AccessRule
       description: To be added.
   overload: System.Security.AccessControl.CommonObjectSecurity.AddAccessRule*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -155,6 +157,7 @@ items:
       type: System.Security.AccessControl.AuditRule
       description: To be added.
   overload: System.Security.AccessControl.CommonObjectSecurity.AddAuditRule*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -189,6 +192,7 @@ items:
       type: System.Security.AccessControl.AuthorizationRuleCollection
       description: To be added.
   overload: System.Security.AccessControl.CommonObjectSecurity.GetAccessRules*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -223,6 +227,7 @@ items:
       type: System.Security.AccessControl.AuthorizationRuleCollection
       description: To be added.
   overload: System.Security.AccessControl.CommonObjectSecurity.GetAuditRules*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -257,6 +262,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Security.AccessControl.CommonObjectSecurity.ModifyAccess*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -291,6 +297,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Security.AccessControl.CommonObjectSecurity.ModifyAudit*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -319,6 +326,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Security.AccessControl.CommonObjectSecurity.RemoveAccessRule*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -344,6 +352,7 @@ items:
       type: System.Security.AccessControl.AccessRule
       description: To be added.
   overload: System.Security.AccessControl.CommonObjectSecurity.RemoveAccessRuleAll*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -369,6 +378,7 @@ items:
       type: System.Security.AccessControl.AccessRule
       description: To be added.
   overload: System.Security.AccessControl.CommonObjectSecurity.RemoveAccessRuleSpecific*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -397,6 +407,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Security.AccessControl.CommonObjectSecurity.RemoveAuditRule*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -422,6 +433,7 @@ items:
       type: System.Security.AccessControl.AuditRule
       description: To be added.
   overload: System.Security.AccessControl.CommonObjectSecurity.RemoveAuditRuleAll*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -447,6 +459,7 @@ items:
       type: System.Security.AccessControl.AuditRule
       description: To be added.
   overload: System.Security.AccessControl.CommonObjectSecurity.RemoveAuditRuleSpecific*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -472,6 +485,7 @@ items:
       type: System.Security.AccessControl.AccessRule
       description: To be added.
   overload: System.Security.AccessControl.CommonObjectSecurity.ResetAccessRule*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -497,6 +511,7 @@ items:
       type: System.Security.AccessControl.AccessRule
       description: To be added.
   overload: System.Security.AccessControl.CommonObjectSecurity.SetAccessRule*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -522,6 +537,7 @@ items:
       type: System.Security.AccessControl.AuditRule
       description: To be added.
   overload: System.Security.AccessControl.CommonObjectSecurity.SetAuditRule*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -578,18 +594,6 @@ references:
   name: AuthorizationRuleCollection
   nameWithType: AuthorizationRuleCollection
   fullName: System.Security.AccessControl.AuthorizationRuleCollection
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
 - uid: System.Type
   parent: System
   isExternal: false
@@ -602,210 +606,78 @@ references:
   name: GetAuditRules(Boolean,Boolean,Type)
   nameWithType: CommonObjectSecurity.GetAuditRules(Boolean,Boolean,Type)
   fullName: System.Security.AccessControl.CommonObjectSecurity.GetAuditRules(Boolean,Boolean,Type)
-- uid: System.Security.AccessControl.AuthorizationRuleCollection
-  parent: System.Security.AccessControl
-  isExternal: false
-  name: AuthorizationRuleCollection
-  nameWithType: AuthorizationRuleCollection
-  fullName: System.Security.AccessControl.AuthorizationRuleCollection
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
-- uid: System.Type
-  parent: System
-  isExternal: false
-  name: Type
-  nameWithType: Type
-  fullName: System.Type
 - uid: System.Security.AccessControl.CommonObjectSecurity.ModifyAccess(System.Security.AccessControl.AccessControlModification,System.Security.AccessControl.AccessRule,System.Boolean@)
   parent: System.Security.AccessControl.CommonObjectSecurity
   isExternal: false
   name: ModifyAccess(AccessControlModification,AccessRule,Boolean)
   nameWithType: CommonObjectSecurity.ModifyAccess(AccessControlModification,AccessRule,Boolean)
   fullName: System.Security.AccessControl.CommonObjectSecurity.ModifyAccess(AccessControlModification,AccessRule,Boolean)
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
 - uid: System.Security.AccessControl.AccessControlModification
   parent: System.Security.AccessControl
   isExternal: false
   name: AccessControlModification
   nameWithType: AccessControlModification
   fullName: System.Security.AccessControl.AccessControlModification
-- uid: System.Security.AccessControl.AccessRule
-  parent: System.Security.AccessControl
-  isExternal: false
-  name: AccessRule
-  nameWithType: AccessRule
-  fullName: System.Security.AccessControl.AccessRule
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
 - uid: System.Security.AccessControl.CommonObjectSecurity.ModifyAudit(System.Security.AccessControl.AccessControlModification,System.Security.AccessControl.AuditRule,System.Boolean@)
   parent: System.Security.AccessControl.CommonObjectSecurity
   isExternal: false
   name: ModifyAudit(AccessControlModification,AuditRule,Boolean)
   nameWithType: CommonObjectSecurity.ModifyAudit(AccessControlModification,AuditRule,Boolean)
   fullName: System.Security.AccessControl.CommonObjectSecurity.ModifyAudit(AccessControlModification,AuditRule,Boolean)
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
-- uid: System.Security.AccessControl.AccessControlModification
-  parent: System.Security.AccessControl
-  isExternal: false
-  name: AccessControlModification
-  nameWithType: AccessControlModification
-  fullName: System.Security.AccessControl.AccessControlModification
-- uid: System.Security.AccessControl.AuditRule
-  parent: System.Security.AccessControl
-  isExternal: false
-  name: AuditRule
-  nameWithType: AuditRule
-  fullName: System.Security.AccessControl.AuditRule
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
 - uid: System.Security.AccessControl.CommonObjectSecurity.RemoveAccessRule(System.Security.AccessControl.AccessRule)
   parent: System.Security.AccessControl.CommonObjectSecurity
   isExternal: false
   name: RemoveAccessRule(AccessRule)
   nameWithType: CommonObjectSecurity.RemoveAccessRule(AccessRule)
   fullName: System.Security.AccessControl.CommonObjectSecurity.RemoveAccessRule(AccessRule)
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
-- uid: System.Security.AccessControl.AccessRule
-  parent: System.Security.AccessControl
-  isExternal: false
-  name: AccessRule
-  nameWithType: AccessRule
-  fullName: System.Security.AccessControl.AccessRule
 - uid: System.Security.AccessControl.CommonObjectSecurity.RemoveAccessRuleAll(System.Security.AccessControl.AccessRule)
   parent: System.Security.AccessControl.CommonObjectSecurity
   isExternal: false
   name: RemoveAccessRuleAll(AccessRule)
   nameWithType: CommonObjectSecurity.RemoveAccessRuleAll(AccessRule)
   fullName: System.Security.AccessControl.CommonObjectSecurity.RemoveAccessRuleAll(AccessRule)
-- uid: System.Security.AccessControl.AccessRule
-  parent: System.Security.AccessControl
-  isExternal: false
-  name: AccessRule
-  nameWithType: AccessRule
-  fullName: System.Security.AccessControl.AccessRule
 - uid: System.Security.AccessControl.CommonObjectSecurity.RemoveAccessRuleSpecific(System.Security.AccessControl.AccessRule)
   parent: System.Security.AccessControl.CommonObjectSecurity
   isExternal: false
   name: RemoveAccessRuleSpecific(AccessRule)
   nameWithType: CommonObjectSecurity.RemoveAccessRuleSpecific(AccessRule)
   fullName: System.Security.AccessControl.CommonObjectSecurity.RemoveAccessRuleSpecific(AccessRule)
-- uid: System.Security.AccessControl.AccessRule
-  parent: System.Security.AccessControl
-  isExternal: false
-  name: AccessRule
-  nameWithType: AccessRule
-  fullName: System.Security.AccessControl.AccessRule
 - uid: System.Security.AccessControl.CommonObjectSecurity.RemoveAuditRule(System.Security.AccessControl.AuditRule)
   parent: System.Security.AccessControl.CommonObjectSecurity
   isExternal: false
   name: RemoveAuditRule(AuditRule)
   nameWithType: CommonObjectSecurity.RemoveAuditRule(AuditRule)
   fullName: System.Security.AccessControl.CommonObjectSecurity.RemoveAuditRule(AuditRule)
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
-- uid: System.Security.AccessControl.AuditRule
-  parent: System.Security.AccessControl
-  isExternal: false
-  name: AuditRule
-  nameWithType: AuditRule
-  fullName: System.Security.AccessControl.AuditRule
 - uid: System.Security.AccessControl.CommonObjectSecurity.RemoveAuditRuleAll(System.Security.AccessControl.AuditRule)
   parent: System.Security.AccessControl.CommonObjectSecurity
   isExternal: false
   name: RemoveAuditRuleAll(AuditRule)
   nameWithType: CommonObjectSecurity.RemoveAuditRuleAll(AuditRule)
   fullName: System.Security.AccessControl.CommonObjectSecurity.RemoveAuditRuleAll(AuditRule)
-- uid: System.Security.AccessControl.AuditRule
-  parent: System.Security.AccessControl
-  isExternal: false
-  name: AuditRule
-  nameWithType: AuditRule
-  fullName: System.Security.AccessControl.AuditRule
 - uid: System.Security.AccessControl.CommonObjectSecurity.RemoveAuditRuleSpecific(System.Security.AccessControl.AuditRule)
   parent: System.Security.AccessControl.CommonObjectSecurity
   isExternal: false
   name: RemoveAuditRuleSpecific(AuditRule)
   nameWithType: CommonObjectSecurity.RemoveAuditRuleSpecific(AuditRule)
   fullName: System.Security.AccessControl.CommonObjectSecurity.RemoveAuditRuleSpecific(AuditRule)
-- uid: System.Security.AccessControl.AuditRule
-  parent: System.Security.AccessControl
-  isExternal: false
-  name: AuditRule
-  nameWithType: AuditRule
-  fullName: System.Security.AccessControl.AuditRule
 - uid: System.Security.AccessControl.CommonObjectSecurity.ResetAccessRule(System.Security.AccessControl.AccessRule)
   parent: System.Security.AccessControl.CommonObjectSecurity
   isExternal: false
   name: ResetAccessRule(AccessRule)
   nameWithType: CommonObjectSecurity.ResetAccessRule(AccessRule)
   fullName: System.Security.AccessControl.CommonObjectSecurity.ResetAccessRule(AccessRule)
-- uid: System.Security.AccessControl.AccessRule
-  parent: System.Security.AccessControl
-  isExternal: false
-  name: AccessRule
-  nameWithType: AccessRule
-  fullName: System.Security.AccessControl.AccessRule
 - uid: System.Security.AccessControl.CommonObjectSecurity.SetAccessRule(System.Security.AccessControl.AccessRule)
   parent: System.Security.AccessControl.CommonObjectSecurity
   isExternal: false
   name: SetAccessRule(AccessRule)
   nameWithType: CommonObjectSecurity.SetAccessRule(AccessRule)
   fullName: System.Security.AccessControl.CommonObjectSecurity.SetAccessRule(AccessRule)
-- uid: System.Security.AccessControl.AccessRule
-  parent: System.Security.AccessControl
-  isExternal: false
-  name: AccessRule
-  nameWithType: AccessRule
-  fullName: System.Security.AccessControl.AccessRule
 - uid: System.Security.AccessControl.CommonObjectSecurity.SetAuditRule(System.Security.AccessControl.AuditRule)
   parent: System.Security.AccessControl.CommonObjectSecurity
   isExternal: false
   name: SetAuditRule(AuditRule)
   nameWithType: CommonObjectSecurity.SetAuditRule(AuditRule)
   fullName: System.Security.AccessControl.CommonObjectSecurity.SetAuditRule(AuditRule)
-- uid: System.Security.AccessControl.AuditRule
-  parent: System.Security.AccessControl
-  isExternal: false
-  name: AuditRule
-  nameWithType: AuditRule
-  fullName: System.Security.AccessControl.AuditRule
 - uid: System.Security.AccessControl.CommonObjectSecurity.#ctor*
   parent: System.Security.AccessControl.CommonObjectSecurity
   isExternal: false

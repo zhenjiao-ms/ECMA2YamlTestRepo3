@@ -58,6 +58,7 @@ items:
       type: System.String
       description: To be added.
   overload: System.Runtime.DesignerServices.WindowsRuntimeDesignerContext.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -86,6 +87,7 @@ items:
       type: System.Reflection.Assembly
       description: To be added.
   overload: System.Runtime.DesignerServices.WindowsRuntimeDesignerContext.GetAssembly*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -114,6 +116,7 @@ items:
       type: System.Type
       description: To be added.
   overload: System.Runtime.DesignerServices.WindowsRuntimeDesignerContext.GetType*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -139,6 +142,7 @@ items:
       type: System.Collections.Generic.IEnumerable{System.String}
       description: To be added.
   overload: System.Runtime.DesignerServices.WindowsRuntimeDesignerContext.InitializeSharedContext*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -163,6 +167,7 @@ items:
       type: System.String
       description: To be added.
   overload: System.Runtime.DesignerServices.WindowsRuntimeDesignerContext.Name*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -188,6 +193,7 @@ items:
       type: System.Runtime.DesignerServices.WindowsRuntimeDesignerContext
       description: To be added.
   overload: System.Runtime.DesignerServices.WindowsRuntimeDesignerContext.SetIterationContext*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -208,6 +214,21 @@ references:
   name: IEnumerable<String>
   nameWithType: IEnumerable<String>
   fullName: System.Collections.Generic.IEnumerable<System.String>
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: IEnumerable<System.String>
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: String
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
 - uid: System.String
   parent: System
   isExternal: false
@@ -226,12 +247,6 @@ references:
   name: Assembly
   nameWithType: Assembly
   fullName: System.Reflection.Assembly
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
 - uid: System.Runtime.DesignerServices.WindowsRuntimeDesignerContext.GetType(System.String)
   parent: System.Runtime.DesignerServices.WindowsRuntimeDesignerContext
   isExternal: false
@@ -244,36 +259,18 @@ references:
   name: Type
   nameWithType: Type
   fullName: System.Type
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
 - uid: System.Runtime.DesignerServices.WindowsRuntimeDesignerContext.InitializeSharedContext(System.Collections.Generic.IEnumerable{System.String})
   parent: System.Runtime.DesignerServices.WindowsRuntimeDesignerContext
   isExternal: false
   name: InitializeSharedContext(IEnumerable<String>)
   nameWithType: WindowsRuntimeDesignerContext.InitializeSharedContext(IEnumerable<String>)
   fullName: System.Runtime.DesignerServices.WindowsRuntimeDesignerContext.InitializeSharedContext(IEnumerable<String>)
-- uid: System.Collections.Generic.IEnumerable{System.String}
-  parent: System.Collections.Generic
-  isExternal: false
-  name: IEnumerable<String>
-  nameWithType: IEnumerable<String>
-  fullName: System.Collections.Generic.IEnumerable<System.String>
 - uid: System.Runtime.DesignerServices.WindowsRuntimeDesignerContext.Name
   parent: System.Runtime.DesignerServices.WindowsRuntimeDesignerContext
   isExternal: false
   name: Name
   nameWithType: WindowsRuntimeDesignerContext.Name
   fullName: System.Runtime.DesignerServices.WindowsRuntimeDesignerContext.Name
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
 - uid: System.Runtime.DesignerServices.WindowsRuntimeDesignerContext.SetIterationContext(System.Runtime.DesignerServices.WindowsRuntimeDesignerContext)
   parent: System.Runtime.DesignerServices.WindowsRuntimeDesignerContext
   isExternal: false

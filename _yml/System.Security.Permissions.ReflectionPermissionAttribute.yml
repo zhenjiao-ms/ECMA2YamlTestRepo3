@@ -105,6 +105,7 @@ items:
       type: System.Security.Permissions.SecurityAction
       description: To be added.
   overload: System.Security.Permissions.ReflectionPermissionAttribute.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -130,6 +131,7 @@ items:
       type: System.Security.IPermission
       description: To be added.
   overload: System.Security.Permissions.ReflectionPermissionAttribute.CreatePermission*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -154,6 +156,7 @@ items:
       type: System.Security.Permissions.ReflectionPermissionFlag
       description: To be added.
   overload: System.Security.Permissions.ReflectionPermissionAttribute.Flags*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -178,6 +181,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Security.Permissions.ReflectionPermissionAttribute.MemberAccess*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -202,6 +206,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Security.Permissions.ReflectionPermissionAttribute.ReflectionEmit*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -226,6 +231,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Security.Permissions.ReflectionPermissionAttribute.RestrictedMemberAccess*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -250,6 +256,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Security.Permissions.ReflectionPermissionAttribute.TypeInformation*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -312,36 +319,18 @@ references:
   name: ReflectionEmit
   nameWithType: ReflectionPermissionAttribute.ReflectionEmit
   fullName: System.Security.Permissions.ReflectionPermissionAttribute.ReflectionEmit
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
 - uid: System.Security.Permissions.ReflectionPermissionAttribute.RestrictedMemberAccess
   parent: System.Security.Permissions.ReflectionPermissionAttribute
   isExternal: false
   name: RestrictedMemberAccess
   nameWithType: ReflectionPermissionAttribute.RestrictedMemberAccess
   fullName: System.Security.Permissions.ReflectionPermissionAttribute.RestrictedMemberAccess
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
 - uid: System.Security.Permissions.ReflectionPermissionAttribute.TypeInformation
   parent: System.Security.Permissions.ReflectionPermissionAttribute
   isExternal: false
   name: TypeInformation
   nameWithType: ReflectionPermissionAttribute.TypeInformation
   fullName: System.Security.Permissions.ReflectionPermissionAttribute.TypeInformation
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
 - uid: System.Security.Permissions.ReflectionPermissionAttribute.#ctor*
   parent: System.Security.Permissions.ReflectionPermissionAttribute
   isExternal: false

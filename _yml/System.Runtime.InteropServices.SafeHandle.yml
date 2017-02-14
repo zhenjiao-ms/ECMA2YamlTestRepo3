@@ -71,6 +71,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Runtime.InteropServices.SafeHandle.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -93,6 +94,7 @@ items:
     content: public void Close ();
     parameters: []
   overload: System.Runtime.InteropServices.SafeHandle.Close*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -118,6 +120,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Runtime.InteropServices.SafeHandle.DangerousAddRef*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -143,6 +146,7 @@ items:
       type: System.IntPtr
       description: To be added.
   overload: System.Runtime.InteropServices.SafeHandle.DangerousGetHandle*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -165,6 +169,7 @@ items:
     content: public void DangerousRelease ();
     parameters: []
   overload: System.Runtime.InteropServices.SafeHandle.DangerousRelease*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -187,6 +192,7 @@ items:
     content: public void Dispose ();
     parameters: []
   overload: System.Runtime.InteropServices.SafeHandle.Dispose*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -212,6 +218,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Runtime.InteropServices.SafeHandle.Dispose*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -234,6 +241,7 @@ items:
     content: ~SafeHandle ();
     parameters: []
   overload: System.Runtime.InteropServices.SafeHandle.Finalize*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -257,6 +265,7 @@ items:
     return:
       type: System.IntPtr
       description: To be added.
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -281,6 +290,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Runtime.InteropServices.SafeHandle.IsClosed*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -305,6 +315,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Runtime.InteropServices.SafeHandle.IsInvalid*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -330,6 +341,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Runtime.InteropServices.SafeHandle.ReleaseHandle*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -355,6 +367,7 @@ items:
       type: System.IntPtr
       description: To be added.
   overload: System.Runtime.InteropServices.SafeHandle.SetHandle*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -377,6 +390,7 @@ items:
     content: public void SetHandleAsInvalid ();
     parameters: []
   overload: System.Runtime.InteropServices.SafeHandle.SetHandleAsInvalid*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -415,24 +429,12 @@ references:
   name: DangerousAddRef(Boolean)
   nameWithType: SafeHandle.DangerousAddRef(Boolean)
   fullName: System.Runtime.InteropServices.SafeHandle.DangerousAddRef(Boolean)
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
 - uid: System.Runtime.InteropServices.SafeHandle.DangerousGetHandle
   parent: System.Runtime.InteropServices.SafeHandle
   isExternal: false
   name: DangerousGetHandle()
   nameWithType: SafeHandle.DangerousGetHandle()
   fullName: System.Runtime.InteropServices.SafeHandle.DangerousGetHandle()
-- uid: System.IntPtr
-  parent: System
-  isExternal: false
-  name: IntPtr
-  nameWithType: IntPtr
-  fullName: System.IntPtr
 - uid: System.Runtime.InteropServices.SafeHandle.DangerousRelease
   parent: System.Runtime.InteropServices.SafeHandle
   isExternal: false
@@ -451,12 +453,6 @@ references:
   name: Dispose(Boolean)
   nameWithType: SafeHandle.Dispose(Boolean)
   fullName: System.Runtime.InteropServices.SafeHandle.Dispose(Boolean)
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
 - uid: System.Runtime.InteropServices.SafeHandle.Finalize
   parent: System.Runtime.InteropServices.SafeHandle
   isExternal: false
@@ -469,60 +465,30 @@ references:
   name: handle
   nameWithType: SafeHandle.handle
   fullName: System.Runtime.InteropServices.SafeHandle.handle
-- uid: System.IntPtr
-  parent: System
-  isExternal: false
-  name: IntPtr
-  nameWithType: IntPtr
-  fullName: System.IntPtr
 - uid: System.Runtime.InteropServices.SafeHandle.IsClosed
   parent: System.Runtime.InteropServices.SafeHandle
   isExternal: false
   name: IsClosed
   nameWithType: SafeHandle.IsClosed
   fullName: System.Runtime.InteropServices.SafeHandle.IsClosed
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
 - uid: System.Runtime.InteropServices.SafeHandle.IsInvalid
   parent: System.Runtime.InteropServices.SafeHandle
   isExternal: false
   name: IsInvalid
   nameWithType: SafeHandle.IsInvalid
   fullName: System.Runtime.InteropServices.SafeHandle.IsInvalid
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
 - uid: System.Runtime.InteropServices.SafeHandle.ReleaseHandle
   parent: System.Runtime.InteropServices.SafeHandle
   isExternal: false
   name: ReleaseHandle()
   nameWithType: SafeHandle.ReleaseHandle()
   fullName: System.Runtime.InteropServices.SafeHandle.ReleaseHandle()
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
 - uid: System.Runtime.InteropServices.SafeHandle.SetHandle(System.IntPtr)
   parent: System.Runtime.InteropServices.SafeHandle
   isExternal: false
   name: SetHandle(IntPtr)
   nameWithType: SafeHandle.SetHandle(IntPtr)
   fullName: System.Runtime.InteropServices.SafeHandle.SetHandle(IntPtr)
-- uid: System.IntPtr
-  parent: System
-  isExternal: false
-  name: IntPtr
-  nameWithType: IntPtr
-  fullName: System.IntPtr
 - uid: System.Runtime.InteropServices.SafeHandle.SetHandleAsInvalid
   parent: System.Runtime.InteropServices.SafeHandle
   isExternal: false

@@ -55,6 +55,7 @@ items:
     content: public RSAOAEPKeyExchangeDeformatter ();
     parameters: []
   overload: System.Security.Cryptography.RSAOAEPKeyExchangeDeformatter.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -80,6 +81,7 @@ items:
       type: System.Security.Cryptography.AsymmetricAlgorithm
       description: To be added.
   overload: System.Security.Cryptography.RSAOAEPKeyExchangeDeformatter.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -108,6 +110,7 @@ items:
       type: System.Byte[]
       description: To be added.
   overload: System.Security.Cryptography.RSAOAEPKeyExchangeDeformatter.DecryptKeyExchange*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -132,6 +135,7 @@ items:
       type: System.String
       description: To be added.
   overload: System.Security.Cryptography.RSAOAEPKeyExchangeDeformatter.Parameters*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -157,6 +161,7 @@ items:
       type: System.Security.Cryptography.AsymmetricAlgorithm
       description: To be added.
   overload: System.Security.Cryptography.RSAOAEPKeyExchangeDeformatter.SetKey*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -189,18 +194,20 @@ references:
   name: DecryptKeyExchange(Byte[])
   nameWithType: RSAOAEPKeyExchangeDeformatter.DecryptKeyExchange(Byte[])
   fullName: System.Security.Cryptography.RSAOAEPKeyExchangeDeformatter.DecryptKeyExchange(Byte[])
-- uid: System.Byte
+- uid: System.Byte[]
   parent: System
   isExternal: false
   name: Byte
   nameWithType: Byte
   fullName: System.Byte[]
-- uid: System.Byte
-  parent: System
-  isExternal: false
-  name: Byte
-  nameWithType: Byte
-  fullName: System.Byte[]
+  spec.csharp:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: Byte[]
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
 - uid: System.Security.Cryptography.RSAOAEPKeyExchangeDeformatter.Parameters
   parent: System.Security.Cryptography.RSAOAEPKeyExchangeDeformatter
   isExternal: false
@@ -219,12 +226,6 @@ references:
   name: SetKey(AsymmetricAlgorithm)
   nameWithType: RSAOAEPKeyExchangeDeformatter.SetKey(AsymmetricAlgorithm)
   fullName: System.Security.Cryptography.RSAOAEPKeyExchangeDeformatter.SetKey(AsymmetricAlgorithm)
-- uid: System.Security.Cryptography.AsymmetricAlgorithm
-  parent: System.Security.Cryptography
-  isExternal: false
-  name: AsymmetricAlgorithm
-  nameWithType: AsymmetricAlgorithm
-  fullName: System.Security.Cryptography.AsymmetricAlgorithm
 - uid: System.Security.Cryptography.RSAOAEPKeyExchangeDeformatter.#ctor*
   parent: System.Security.Cryptography.RSAOAEPKeyExchangeDeformatter
   isExternal: false

@@ -54,6 +54,7 @@ items:
       type: Microsoft.Win32.SafeHandles.SafeWaitHandle
       description: To be added.
   overload: System.Threading.WaitHandleExtensions.GetSafeWaitHandle*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -82,6 +83,7 @@ items:
       type: Microsoft.Win32.SafeHandles.SafeWaitHandle
       description: To be added.
   overload: System.Threading.WaitHandleExtensions.SetSafeWaitHandle*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -114,18 +116,6 @@ references:
   name: SetSafeWaitHandle(WaitHandle,SafeWaitHandle)
   nameWithType: WaitHandleExtensions.SetSafeWaitHandle(WaitHandle,SafeWaitHandle)
   fullName: System.Threading.WaitHandleExtensions.SetSafeWaitHandle(WaitHandle,SafeWaitHandle)
-- uid: System.Threading.WaitHandle
-  parent: System.Threading
-  isExternal: false
-  name: WaitHandle
-  nameWithType: WaitHandle
-  fullName: System.Threading.WaitHandle
-- uid: Microsoft.Win32.SafeHandles.SafeWaitHandle
-  parent: Microsoft.Win32.SafeHandles
-  isExternal: false
-  name: SafeWaitHandle
-  nameWithType: SafeWaitHandle
-  fullName: Microsoft.Win32.SafeHandles.SafeWaitHandle
 - uid: System.Threading.WaitHandleExtensions.GetSafeWaitHandle*
   parent: System.Threading.WaitHandleExtensions
   isExternal: false

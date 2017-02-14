@@ -66,6 +66,7 @@ items:
       type: System.IntPtr
       description: To be added.
   overload: System.Runtime.InteropServices._AssemblyName.GetIDsOfNames*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -97,6 +98,7 @@ items:
       type: System.IntPtr
       description: To be added.
   overload: System.Runtime.InteropServices._AssemblyName.GetTypeInfo*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -122,6 +124,7 @@ items:
       type: System.UInt32
       description: To be added.
   overload: System.Runtime.InteropServices._AssemblyName.GetTypeInfoCount*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -168,6 +171,7 @@ items:
       type: System.IntPtr
       description: To be added.
   overload: System.Runtime.InteropServices._AssemblyName.Invoke*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -197,108 +201,30 @@ references:
   name: UInt32
   nameWithType: UInt32
   fullName: System.UInt32
-- uid: System.UInt32
-  parent: System
-  isExternal: false
-  name: UInt32
-  nameWithType: UInt32
-  fullName: System.UInt32
-- uid: System.IntPtr
-  parent: System
-  isExternal: false
-  name: IntPtr
-  nameWithType: IntPtr
-  fullName: System.IntPtr
 - uid: System.Runtime.InteropServices._AssemblyName.GetTypeInfo(System.UInt32,System.UInt32,System.IntPtr)
   parent: System.Runtime.InteropServices._AssemblyName
   isExternal: false
   name: GetTypeInfo(UInt32,UInt32,IntPtr)
   nameWithType: _AssemblyName.GetTypeInfo(UInt32,UInt32,IntPtr)
   fullName: System.Runtime.InteropServices._AssemblyName.GetTypeInfo(UInt32,UInt32,IntPtr)
-- uid: System.UInt32
-  parent: System
-  isExternal: false
-  name: UInt32
-  nameWithType: UInt32
-  fullName: System.UInt32
-- uid: System.UInt32
-  parent: System
-  isExternal: false
-  name: UInt32
-  nameWithType: UInt32
-  fullName: System.UInt32
-- uid: System.IntPtr
-  parent: System
-  isExternal: false
-  name: IntPtr
-  nameWithType: IntPtr
-  fullName: System.IntPtr
 - uid: System.Runtime.InteropServices._AssemblyName.GetTypeInfoCount(System.UInt32@)
   parent: System.Runtime.InteropServices._AssemblyName
   isExternal: false
   name: GetTypeInfoCount(UInt32)
   nameWithType: _AssemblyName.GetTypeInfoCount(UInt32)
   fullName: System.Runtime.InteropServices._AssemblyName.GetTypeInfoCount(UInt32)
-- uid: System.UInt32
-  parent: System
-  isExternal: false
-  name: UInt32
-  nameWithType: UInt32
-  fullName: System.UInt32
 - uid: System.Runtime.InteropServices._AssemblyName.Invoke(System.UInt32,System.Guid@,System.UInt32,System.Int16,System.IntPtr,System.IntPtr,System.IntPtr,System.IntPtr)
   parent: System.Runtime.InteropServices._AssemblyName
   isExternal: false
   name: Invoke(UInt32,Guid,UInt32,Int16,IntPtr,IntPtr,IntPtr,IntPtr)
   nameWithType: _AssemblyName.Invoke(UInt32,Guid,UInt32,Int16,IntPtr,IntPtr,IntPtr,IntPtr)
   fullName: System.Runtime.InteropServices._AssemblyName.Invoke(UInt32,Guid,UInt32,Int16,IntPtr,IntPtr,IntPtr,IntPtr)
-- uid: System.UInt32
-  parent: System
-  isExternal: false
-  name: UInt32
-  nameWithType: UInt32
-  fullName: System.UInt32
-- uid: System.Guid
-  parent: System
-  isExternal: false
-  name: Guid
-  nameWithType: Guid
-  fullName: System.Guid
-- uid: System.UInt32
-  parent: System
-  isExternal: false
-  name: UInt32
-  nameWithType: UInt32
-  fullName: System.UInt32
 - uid: System.Int16
   parent: System
   isExternal: false
   name: Int16
   nameWithType: Int16
   fullName: System.Int16
-- uid: System.IntPtr
-  parent: System
-  isExternal: false
-  name: IntPtr
-  nameWithType: IntPtr
-  fullName: System.IntPtr
-- uid: System.IntPtr
-  parent: System
-  isExternal: false
-  name: IntPtr
-  nameWithType: IntPtr
-  fullName: System.IntPtr
-- uid: System.IntPtr
-  parent: System
-  isExternal: false
-  name: IntPtr
-  nameWithType: IntPtr
-  fullName: System.IntPtr
-- uid: System.IntPtr
-  parent: System
-  isExternal: false
-  name: IntPtr
-  nameWithType: IntPtr
-  fullName: System.IntPtr
 - uid: System.Runtime.InteropServices._AssemblyName.GetIDsOfNames*
   parent: System.Runtime.InteropServices._AssemblyName
   isExternal: false

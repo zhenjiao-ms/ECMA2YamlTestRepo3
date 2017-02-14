@@ -118,6 +118,7 @@ items:
     content: public CryptoKeySecurity ();
     parameters: []
   overload: System.Security.AccessControl.CryptoKeySecurity.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -143,6 +144,7 @@ items:
       type: System.Security.AccessControl.CommonSecurityDescriptor
       description: To be added.
   overload: System.Security.AccessControl.CryptoKeySecurity.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -167,6 +169,7 @@ items:
       type: System.Type
       description: To be added.
   overload: System.Security.AccessControl.CryptoKeySecurity.AccessRightType*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -210,6 +213,7 @@ items:
       type: System.Security.AccessControl.AccessRule
       description: To be added.
   overload: System.Security.AccessControl.CryptoKeySecurity.AccessRuleFactory*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -234,6 +238,7 @@ items:
       type: System.Type
       description: To be added.
   overload: System.Security.AccessControl.CryptoKeySecurity.AccessRuleType*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -259,6 +264,7 @@ items:
       type: System.Security.AccessControl.CryptoKeyAccessRule
       description: To be added.
   overload: System.Security.AccessControl.CryptoKeySecurity.AddAccessRule*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -284,6 +290,7 @@ items:
       type: System.Security.AccessControl.CryptoKeyAuditRule
       description: To be added.
   overload: System.Security.AccessControl.CryptoKeySecurity.AddAuditRule*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -327,6 +334,7 @@ items:
       type: System.Security.AccessControl.AuditRule
       description: To be added.
   overload: System.Security.AccessControl.CryptoKeySecurity.AuditRuleFactory*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -351,6 +359,7 @@ items:
       type: System.Type
       description: To be added.
   overload: System.Security.AccessControl.CryptoKeySecurity.AuditRuleType*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -379,6 +388,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Security.AccessControl.CryptoKeySecurity.RemoveAccessRule*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -404,6 +414,7 @@ items:
       type: System.Security.AccessControl.CryptoKeyAccessRule
       description: To be added.
   overload: System.Security.AccessControl.CryptoKeySecurity.RemoveAccessRuleAll*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -429,6 +440,7 @@ items:
       type: System.Security.AccessControl.CryptoKeyAccessRule
       description: To be added.
   overload: System.Security.AccessControl.CryptoKeySecurity.RemoveAccessRuleSpecific*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -457,6 +469,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Security.AccessControl.CryptoKeySecurity.RemoveAuditRule*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -482,6 +495,7 @@ items:
       type: System.Security.AccessControl.CryptoKeyAuditRule
       description: To be added.
   overload: System.Security.AccessControl.CryptoKeySecurity.RemoveAuditRuleAll*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -507,6 +521,7 @@ items:
       type: System.Security.AccessControl.CryptoKeyAuditRule
       description: To be added.
   overload: System.Security.AccessControl.CryptoKeySecurity.RemoveAuditRuleSpecific*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -532,6 +547,7 @@ items:
       type: System.Security.AccessControl.CryptoKeyAccessRule
       description: To be added.
   overload: System.Security.AccessControl.CryptoKeySecurity.ResetAccessRule*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -557,6 +573,7 @@ items:
       type: System.Security.AccessControl.CryptoKeyAccessRule
       description: To be added.
   overload: System.Security.AccessControl.CryptoKeySecurity.SetAccessRule*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -582,6 +599,7 @@ items:
       type: System.Security.AccessControl.CryptoKeyAuditRule
       description: To be added.
   overload: System.Security.AccessControl.CryptoKeySecurity.SetAuditRule*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -674,12 +692,6 @@ references:
   name: AccessRuleType
   nameWithType: CryptoKeySecurity.AccessRuleType
   fullName: System.Security.AccessControl.CryptoKeySecurity.AccessRuleType
-- uid: System.Type
-  parent: System
-  isExternal: false
-  name: Type
-  nameWithType: Type
-  fullName: System.Type
 - uid: System.Security.AccessControl.CryptoKeySecurity.AddAccessRule(System.Security.AccessControl.CryptoKeyAccessRule)
   parent: System.Security.AccessControl.CryptoKeySecurity
   isExternal: false
@@ -716,36 +728,6 @@ references:
   name: AuditRule
   nameWithType: AuditRule
   fullName: System.Security.AccessControl.AuditRule
-- uid: System.Security.Principal.IdentityReference
-  parent: System.Security.Principal
-  isExternal: false
-  name: IdentityReference
-  nameWithType: IdentityReference
-  fullName: System.Security.Principal.IdentityReference
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
-- uid: System.Security.AccessControl.InheritanceFlags
-  parent: System.Security.AccessControl
-  isExternal: false
-  name: InheritanceFlags
-  nameWithType: InheritanceFlags
-  fullName: System.Security.AccessControl.InheritanceFlags
-- uid: System.Security.AccessControl.PropagationFlags
-  parent: System.Security.AccessControl
-  isExternal: false
-  name: PropagationFlags
-  nameWithType: PropagationFlags
-  fullName: System.Security.AccessControl.PropagationFlags
 - uid: System.Security.AccessControl.AuditFlags
   parent: System.Security.AccessControl
   isExternal: false
@@ -758,132 +740,60 @@ references:
   name: AuditRuleType
   nameWithType: CryptoKeySecurity.AuditRuleType
   fullName: System.Security.AccessControl.CryptoKeySecurity.AuditRuleType
-- uid: System.Type
-  parent: System
-  isExternal: false
-  name: Type
-  nameWithType: Type
-  fullName: System.Type
 - uid: System.Security.AccessControl.CryptoKeySecurity.RemoveAccessRule(System.Security.AccessControl.CryptoKeyAccessRule)
   parent: System.Security.AccessControl.CryptoKeySecurity
   isExternal: false
   name: RemoveAccessRule(CryptoKeyAccessRule)
   nameWithType: CryptoKeySecurity.RemoveAccessRule(CryptoKeyAccessRule)
   fullName: System.Security.AccessControl.CryptoKeySecurity.RemoveAccessRule(CryptoKeyAccessRule)
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
-- uid: System.Security.AccessControl.CryptoKeyAccessRule
-  parent: System.Security.AccessControl
-  isExternal: false
-  name: CryptoKeyAccessRule
-  nameWithType: CryptoKeyAccessRule
-  fullName: System.Security.AccessControl.CryptoKeyAccessRule
 - uid: System.Security.AccessControl.CryptoKeySecurity.RemoveAccessRuleAll(System.Security.AccessControl.CryptoKeyAccessRule)
   parent: System.Security.AccessControl.CryptoKeySecurity
   isExternal: false
   name: RemoveAccessRuleAll(CryptoKeyAccessRule)
   nameWithType: CryptoKeySecurity.RemoveAccessRuleAll(CryptoKeyAccessRule)
   fullName: System.Security.AccessControl.CryptoKeySecurity.RemoveAccessRuleAll(CryptoKeyAccessRule)
-- uid: System.Security.AccessControl.CryptoKeyAccessRule
-  parent: System.Security.AccessControl
-  isExternal: false
-  name: CryptoKeyAccessRule
-  nameWithType: CryptoKeyAccessRule
-  fullName: System.Security.AccessControl.CryptoKeyAccessRule
 - uid: System.Security.AccessControl.CryptoKeySecurity.RemoveAccessRuleSpecific(System.Security.AccessControl.CryptoKeyAccessRule)
   parent: System.Security.AccessControl.CryptoKeySecurity
   isExternal: false
   name: RemoveAccessRuleSpecific(CryptoKeyAccessRule)
   nameWithType: CryptoKeySecurity.RemoveAccessRuleSpecific(CryptoKeyAccessRule)
   fullName: System.Security.AccessControl.CryptoKeySecurity.RemoveAccessRuleSpecific(CryptoKeyAccessRule)
-- uid: System.Security.AccessControl.CryptoKeyAccessRule
-  parent: System.Security.AccessControl
-  isExternal: false
-  name: CryptoKeyAccessRule
-  nameWithType: CryptoKeyAccessRule
-  fullName: System.Security.AccessControl.CryptoKeyAccessRule
 - uid: System.Security.AccessControl.CryptoKeySecurity.RemoveAuditRule(System.Security.AccessControl.CryptoKeyAuditRule)
   parent: System.Security.AccessControl.CryptoKeySecurity
   isExternal: false
   name: RemoveAuditRule(CryptoKeyAuditRule)
   nameWithType: CryptoKeySecurity.RemoveAuditRule(CryptoKeyAuditRule)
   fullName: System.Security.AccessControl.CryptoKeySecurity.RemoveAuditRule(CryptoKeyAuditRule)
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
-- uid: System.Security.AccessControl.CryptoKeyAuditRule
-  parent: System.Security.AccessControl
-  isExternal: false
-  name: CryptoKeyAuditRule
-  nameWithType: CryptoKeyAuditRule
-  fullName: System.Security.AccessControl.CryptoKeyAuditRule
 - uid: System.Security.AccessControl.CryptoKeySecurity.RemoveAuditRuleAll(System.Security.AccessControl.CryptoKeyAuditRule)
   parent: System.Security.AccessControl.CryptoKeySecurity
   isExternal: false
   name: RemoveAuditRuleAll(CryptoKeyAuditRule)
   nameWithType: CryptoKeySecurity.RemoveAuditRuleAll(CryptoKeyAuditRule)
   fullName: System.Security.AccessControl.CryptoKeySecurity.RemoveAuditRuleAll(CryptoKeyAuditRule)
-- uid: System.Security.AccessControl.CryptoKeyAuditRule
-  parent: System.Security.AccessControl
-  isExternal: false
-  name: CryptoKeyAuditRule
-  nameWithType: CryptoKeyAuditRule
-  fullName: System.Security.AccessControl.CryptoKeyAuditRule
 - uid: System.Security.AccessControl.CryptoKeySecurity.RemoveAuditRuleSpecific(System.Security.AccessControl.CryptoKeyAuditRule)
   parent: System.Security.AccessControl.CryptoKeySecurity
   isExternal: false
   name: RemoveAuditRuleSpecific(CryptoKeyAuditRule)
   nameWithType: CryptoKeySecurity.RemoveAuditRuleSpecific(CryptoKeyAuditRule)
   fullName: System.Security.AccessControl.CryptoKeySecurity.RemoveAuditRuleSpecific(CryptoKeyAuditRule)
-- uid: System.Security.AccessControl.CryptoKeyAuditRule
-  parent: System.Security.AccessControl
-  isExternal: false
-  name: CryptoKeyAuditRule
-  nameWithType: CryptoKeyAuditRule
-  fullName: System.Security.AccessControl.CryptoKeyAuditRule
 - uid: System.Security.AccessControl.CryptoKeySecurity.ResetAccessRule(System.Security.AccessControl.CryptoKeyAccessRule)
   parent: System.Security.AccessControl.CryptoKeySecurity
   isExternal: false
   name: ResetAccessRule(CryptoKeyAccessRule)
   nameWithType: CryptoKeySecurity.ResetAccessRule(CryptoKeyAccessRule)
   fullName: System.Security.AccessControl.CryptoKeySecurity.ResetAccessRule(CryptoKeyAccessRule)
-- uid: System.Security.AccessControl.CryptoKeyAccessRule
-  parent: System.Security.AccessControl
-  isExternal: false
-  name: CryptoKeyAccessRule
-  nameWithType: CryptoKeyAccessRule
-  fullName: System.Security.AccessControl.CryptoKeyAccessRule
 - uid: System.Security.AccessControl.CryptoKeySecurity.SetAccessRule(System.Security.AccessControl.CryptoKeyAccessRule)
   parent: System.Security.AccessControl.CryptoKeySecurity
   isExternal: false
   name: SetAccessRule(CryptoKeyAccessRule)
   nameWithType: CryptoKeySecurity.SetAccessRule(CryptoKeyAccessRule)
   fullName: System.Security.AccessControl.CryptoKeySecurity.SetAccessRule(CryptoKeyAccessRule)
-- uid: System.Security.AccessControl.CryptoKeyAccessRule
-  parent: System.Security.AccessControl
-  isExternal: false
-  name: CryptoKeyAccessRule
-  nameWithType: CryptoKeyAccessRule
-  fullName: System.Security.AccessControl.CryptoKeyAccessRule
 - uid: System.Security.AccessControl.CryptoKeySecurity.SetAuditRule(System.Security.AccessControl.CryptoKeyAuditRule)
   parent: System.Security.AccessControl.CryptoKeySecurity
   isExternal: false
   name: SetAuditRule(CryptoKeyAuditRule)
   nameWithType: CryptoKeySecurity.SetAuditRule(CryptoKeyAuditRule)
   fullName: System.Security.AccessControl.CryptoKeySecurity.SetAuditRule(CryptoKeyAuditRule)
-- uid: System.Security.AccessControl.CryptoKeyAuditRule
-  parent: System.Security.AccessControl
-  isExternal: false
-  name: CryptoKeyAuditRule
-  nameWithType: CryptoKeyAuditRule
-  fullName: System.Security.AccessControl.CryptoKeyAuditRule
 - uid: System.Security.AccessControl.CryptoKeySecurity.#ctor*
   parent: System.Security.AccessControl.CryptoKeySecurity
   isExternal: false

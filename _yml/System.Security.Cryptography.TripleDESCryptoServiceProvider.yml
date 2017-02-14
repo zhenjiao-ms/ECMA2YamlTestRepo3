@@ -83,6 +83,7 @@ items:
     content: public TripleDESCryptoServiceProvider ();
     parameters: []
   overload: System.Security.Cryptography.TripleDESCryptoServiceProvider.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -114,6 +115,7 @@ items:
       type: System.Security.Cryptography.ICryptoTransform
       description: To be added.
   overload: System.Security.Cryptography.TripleDESCryptoServiceProvider.CreateDecryptor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -145,6 +147,7 @@ items:
       type: System.Security.Cryptography.ICryptoTransform
       description: To be added.
   overload: System.Security.Cryptography.TripleDESCryptoServiceProvider.CreateEncryptor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -167,6 +170,7 @@ items:
     content: public override void GenerateIV ();
     parameters: []
   overload: System.Security.Cryptography.TripleDESCryptoServiceProvider.GenerateIV*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -189,6 +193,7 @@ items:
     content: public override void GenerateKey ();
     parameters: []
   overload: System.Security.Cryptography.TripleDESCryptoServiceProvider.GenerateKey*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -215,42 +220,26 @@ references:
   name: ICryptoTransform
   nameWithType: ICryptoTransform
   fullName: System.Security.Cryptography.ICryptoTransform
-- uid: System.Byte
+- uid: System.Byte[]
   parent: System
   isExternal: false
   name: Byte
   nameWithType: Byte
   fullName: System.Byte[]
-- uid: System.Byte
-  parent: System
-  isExternal: false
-  name: Byte
-  nameWithType: Byte
-  fullName: System.Byte[]
+  spec.csharp:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: Byte[]
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
 - uid: System.Security.Cryptography.TripleDESCryptoServiceProvider.CreateEncryptor(System.Byte[],System.Byte[])
   parent: System.Security.Cryptography.TripleDESCryptoServiceProvider
   isExternal: false
   name: CreateEncryptor(Byte[],Byte[])
   nameWithType: TripleDESCryptoServiceProvider.CreateEncryptor(Byte[],Byte[])
   fullName: System.Security.Cryptography.TripleDESCryptoServiceProvider.CreateEncryptor(Byte[],Byte[])
-- uid: System.Security.Cryptography.ICryptoTransform
-  parent: System.Security.Cryptography
-  isExternal: false
-  name: ICryptoTransform
-  nameWithType: ICryptoTransform
-  fullName: System.Security.Cryptography.ICryptoTransform
-- uid: System.Byte
-  parent: System
-  isExternal: false
-  name: Byte
-  nameWithType: Byte
-  fullName: System.Byte[]
-- uid: System.Byte
-  parent: System
-  isExternal: false
-  name: Byte
-  nameWithType: Byte
-  fullName: System.Byte[]
 - uid: System.Security.Cryptography.TripleDESCryptoServiceProvider.GenerateIV
   parent: System.Security.Cryptography.TripleDESCryptoServiceProvider
   isExternal: false

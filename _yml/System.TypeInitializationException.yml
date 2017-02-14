@@ -70,6 +70,7 @@ items:
       type: System.Exception
       description: To be added.
   overload: System.TypeInitializationException.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -98,6 +99,7 @@ items:
       type: System.Runtime.Serialization.StreamingContext
       description: To be added.
   overload: System.TypeInitializationException.GetObjectData*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -122,6 +124,7 @@ items:
       type: System.String
       description: To be added.
   overload: System.TypeInitializationException.TypeName*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -172,12 +175,6 @@ references:
   name: TypeName
   nameWithType: TypeInitializationException.TypeName
   fullName: System.TypeInitializationException.TypeName
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
 - uid: System.TypeInitializationException.#ctor*
   parent: System.TypeInitializationException
   isExternal: false

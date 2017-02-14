@@ -60,6 +60,7 @@ items:
     return:
       type: Microsoft.Win32.RegistryKey
       description: To be added.
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -83,6 +84,7 @@ items:
     return:
       type: Microsoft.Win32.RegistryKey
       description: To be added.
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -106,6 +108,7 @@ items:
     return:
       type: Microsoft.Win32.RegistryKey
       description: To be added.
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -129,6 +132,7 @@ items:
     return:
       type: Microsoft.Win32.RegistryKey
       description: To be added.
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -163,6 +167,7 @@ items:
       type: System.Object
       description: To be added.
   overload: Microsoft.Win32.Registry.GetValue*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -186,6 +191,7 @@ items:
     return:
       type: Microsoft.Win32.RegistryKey
       description: To be added.
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -209,6 +215,7 @@ items:
     return:
       type: Microsoft.Win32.RegistryKey
       description: To be added.
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -240,6 +247,7 @@ items:
       type: System.Object
       description: To be added.
   overload: Microsoft.Win32.Registry.SetValue*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -274,6 +282,7 @@ items:
       type: Microsoft.Win32.RegistryValueKind
       description: To be added.
   overload: Microsoft.Win32.Registry.SetValue*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -297,6 +306,7 @@ items:
     return:
       type: Microsoft.Win32.RegistryKey
       description: To be added.
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -323,138 +333,54 @@ references:
   name: CurrentConfig
   nameWithType: Registry.CurrentConfig
   fullName: Microsoft.Win32.Registry.CurrentConfig
-- uid: Microsoft.Win32.RegistryKey
-  parent: Microsoft.Win32
-  isExternal: false
-  name: RegistryKey
-  nameWithType: RegistryKey
-  fullName: Microsoft.Win32.RegistryKey
 - uid: Microsoft.Win32.Registry.CurrentUser
   parent: Microsoft.Win32.Registry
   isExternal: false
   name: CurrentUser
   nameWithType: Registry.CurrentUser
   fullName: Microsoft.Win32.Registry.CurrentUser
-- uid: Microsoft.Win32.RegistryKey
-  parent: Microsoft.Win32
-  isExternal: false
-  name: RegistryKey
-  nameWithType: RegistryKey
-  fullName: Microsoft.Win32.RegistryKey
 - uid: Microsoft.Win32.Registry.DynData
   parent: Microsoft.Win32.Registry
   isExternal: false
   name: DynData
   nameWithType: Registry.DynData
   fullName: Microsoft.Win32.Registry.DynData
-- uid: Microsoft.Win32.RegistryKey
-  parent: Microsoft.Win32
-  isExternal: false
-  name: RegistryKey
-  nameWithType: RegistryKey
-  fullName: Microsoft.Win32.RegistryKey
 - uid: Microsoft.Win32.Registry.GetValue(System.String,System.String,System.Object)
   parent: Microsoft.Win32.Registry
   isExternal: false
   name: GetValue(String,String,Object)
   nameWithType: Registry.GetValue(String,String,Object)
   fullName: Microsoft.Win32.Registry.GetValue(String,String,Object)
-- uid: System.Object
-  parent: System
-  isExternal: false
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
 - uid: System.String
   parent: System
   isExternal: false
   name: String
   nameWithType: String
   fullName: System.String
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
-- uid: System.Object
-  parent: System
-  isExternal: false
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
 - uid: Microsoft.Win32.Registry.LocalMachine
   parent: Microsoft.Win32.Registry
   isExternal: false
   name: LocalMachine
   nameWithType: Registry.LocalMachine
   fullName: Microsoft.Win32.Registry.LocalMachine
-- uid: Microsoft.Win32.RegistryKey
-  parent: Microsoft.Win32
-  isExternal: false
-  name: RegistryKey
-  nameWithType: RegistryKey
-  fullName: Microsoft.Win32.RegistryKey
 - uid: Microsoft.Win32.Registry.PerformanceData
   parent: Microsoft.Win32.Registry
   isExternal: false
   name: PerformanceData
   nameWithType: Registry.PerformanceData
   fullName: Microsoft.Win32.Registry.PerformanceData
-- uid: Microsoft.Win32.RegistryKey
-  parent: Microsoft.Win32
-  isExternal: false
-  name: RegistryKey
-  nameWithType: RegistryKey
-  fullName: Microsoft.Win32.RegistryKey
 - uid: Microsoft.Win32.Registry.SetValue(System.String,System.String,System.Object)
   parent: Microsoft.Win32.Registry
   isExternal: false
   name: SetValue(String,String,Object)
   nameWithType: Registry.SetValue(String,String,Object)
   fullName: Microsoft.Win32.Registry.SetValue(String,String,Object)
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
-- uid: System.Object
-  parent: System
-  isExternal: false
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
 - uid: Microsoft.Win32.Registry.SetValue(System.String,System.String,System.Object,Microsoft.Win32.RegistryValueKind)
   parent: Microsoft.Win32.Registry
   isExternal: false
   name: SetValue(String,String,Object,RegistryValueKind)
   nameWithType: Registry.SetValue(String,String,Object,RegistryValueKind)
   fullName: Microsoft.Win32.Registry.SetValue(String,String,Object,RegistryValueKind)
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
-- uid: System.Object
-  parent: System
-  isExternal: false
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
 - uid: Microsoft.Win32.RegistryValueKind
   parent: Microsoft.Win32
   isExternal: false
@@ -467,12 +393,6 @@ references:
   name: Users
   nameWithType: Registry.Users
   fullName: Microsoft.Win32.Registry.Users
-- uid: Microsoft.Win32.RegistryKey
-  parent: Microsoft.Win32
-  isExternal: false
-  name: RegistryKey
-  nameWithType: RegistryKey
-  fullName: Microsoft.Win32.RegistryKey
 - uid: Microsoft.Win32.Registry.GetValue*
   parent: Microsoft.Win32.Registry
   isExternal: false

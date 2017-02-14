@@ -55,6 +55,7 @@ items:
     content: public EventRegistrationTokenTable ();
     parameters: []
   overload: System.Runtime.InteropServices.WindowsRuntime.EventRegistrationTokenTable`1.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -83,6 +84,7 @@ items:
       type: System.Runtime.InteropServices.WindowsRuntime.EventRegistrationToken
       description: To be added.
   overload: System.Runtime.InteropServices.WindowsRuntime.EventRegistrationTokenTable`1.AddEventHandler*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -111,6 +113,7 @@ items:
       type: System.Runtime.InteropServices.WindowsRuntime.EventRegistrationTokenTable`1
       description: To be added.
   overload: System.Runtime.InteropServices.WindowsRuntime.EventRegistrationTokenTable`1.GetOrCreateEventRegistrationTokenTable*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -135,6 +138,7 @@ items:
       type: T
       description: To be added.
   overload: System.Runtime.InteropServices.WindowsRuntime.EventRegistrationTokenTable`1.InvocationList*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -160,6 +164,7 @@ items:
       type: System.Runtime.InteropServices.WindowsRuntime.EventRegistrationToken
       description: To be added.
   overload: System.Runtime.InteropServices.WindowsRuntime.EventRegistrationTokenTable`1.RemoveEventHandler*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -185,6 +190,7 @@ items:
       type: T
       description: To be added.
   overload: System.Runtime.InteropServices.WindowsRuntime.EventRegistrationTokenTable`1.RemoveEventHandler*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -212,7 +218,6 @@ references:
   nameWithType: EventRegistrationToken
   fullName: System.Runtime.InteropServices.WindowsRuntime.EventRegistrationToken
 - uid: T
-  parent: ''
   isExternal: true
   name: T
   nameWithType: T
@@ -229,48 +234,24 @@ references:
   name: EventRegistrationTokenTable<T>
   nameWithType: EventRegistrationTokenTable<T>
   fullName: System.Runtime.InteropServices.WindowsRuntime.EventRegistrationTokenTable<T>
-- uid: System.Runtime.InteropServices.WindowsRuntime.EventRegistrationTokenTable`1
-  parent: System.Runtime.InteropServices.WindowsRuntime
-  isExternal: false
-  name: EventRegistrationTokenTable<T>
-  nameWithType: EventRegistrationTokenTable<T>
-  fullName: System.Runtime.InteropServices.WindowsRuntime.EventRegistrationTokenTable<T>
 - uid: System.Runtime.InteropServices.WindowsRuntime.EventRegistrationTokenTable`1.InvocationList
   parent: System.Runtime.InteropServices.WindowsRuntime.EventRegistrationTokenTable`1
   isExternal: false
   name: InvocationList
   nameWithType: EventRegistrationTokenTable<T>.InvocationList
   fullName: System.Runtime.InteropServices.WindowsRuntime.EventRegistrationTokenTable<T>.InvocationList
-- uid: T
-  parent: ''
-  isExternal: true
-  name: T
-  nameWithType: T
-  fullName: T
 - uid: System.Runtime.InteropServices.WindowsRuntime.EventRegistrationTokenTable`1.RemoveEventHandler(System.Runtime.InteropServices.WindowsRuntime.EventRegistration`0oken)
   parent: System.Runtime.InteropServices.WindowsRuntime.EventRegistrationTokenTable`1
   isExternal: false
   name: RemoveEventHandler(EventRegistrationToken)
   nameWithType: EventRegistrationTokenTable<T>.RemoveEventHandler(EventRegistrationToken)
   fullName: System.Runtime.InteropServices.WindowsRuntime.EventRegistrationTokenTable<T>.RemoveEventHandler(EventRegistrationToken)
-- uid: System.Runtime.InteropServices.WindowsRuntime.EventRegistrationToken
-  parent: System.Runtime.InteropServices.WindowsRuntime
-  isExternal: false
-  name: EventRegistrationToken
-  nameWithType: EventRegistrationToken
-  fullName: System.Runtime.InteropServices.WindowsRuntime.EventRegistrationToken
 - uid: System.Runtime.InteropServices.WindowsRuntime.EventRegistrationTokenTable`1.RemoveEventHandler(`0)
   parent: System.Runtime.InteropServices.WindowsRuntime.EventRegistrationTokenTable`1
   isExternal: false
   name: RemoveEventHandler(T)
   nameWithType: EventRegistrationTokenTable<T>.RemoveEventHandler(T)
   fullName: System.Runtime.InteropServices.WindowsRuntime.EventRegistrationTokenTable<T>.RemoveEventHandler(T)
-- uid: T
-  parent: ''
-  isExternal: true
-  name: T
-  nameWithType: T
-  fullName: T
 - uid: System.Runtime.InteropServices.WindowsRuntime.EventRegistrationTokenTable`1.#ctor*
   parent: System.Runtime.InteropServices.WindowsRuntime.EventRegistrationTokenTable`1
   isExternal: false

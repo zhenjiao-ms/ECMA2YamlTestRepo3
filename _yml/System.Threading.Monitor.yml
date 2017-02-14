@@ -69,6 +69,7 @@ items:
       type: System.Object
       description: To be added.
   overload: System.Threading.Monitor.Enter*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -97,6 +98,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Threading.Monitor.Enter*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -122,6 +124,7 @@ items:
       type: System.Object
       description: To be added.
   overload: System.Threading.Monitor.Exit*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -150,6 +153,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Threading.Monitor.IsEntered*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -175,6 +179,7 @@ items:
       type: System.Object
       description: To be added.
   overload: System.Threading.Monitor.Pulse*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -200,6 +205,7 @@ items:
       type: System.Object
       description: To be added.
   overload: System.Threading.Monitor.PulseAll*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -228,6 +234,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Threading.Monitor.TryEnter*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -256,6 +263,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Threading.Monitor.TryEnter*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -287,6 +295,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Threading.Monitor.TryEnter*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -318,6 +327,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Threading.Monitor.TryEnter*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -349,6 +359,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Threading.Monitor.TryEnter*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -380,6 +391,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Threading.Monitor.TryEnter*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -408,6 +420,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Threading.Monitor.Wait*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -439,6 +452,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Threading.Monitor.Wait*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -470,6 +484,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Threading.Monitor.Wait*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -504,6 +519,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Threading.Monitor.Wait*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -538,6 +554,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Threading.Monitor.Wait*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -552,24 +569,12 @@ references:
   name: Enter(Object)
   nameWithType: Monitor.Enter(Object)
   fullName: System.Threading.Monitor.Enter(Object)
-- uid: System.Object
-  parent: System
-  isExternal: false
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
 - uid: System.Threading.Monitor.Enter(System.Object,System.Boolean@)
   parent: System.Threading.Monitor
   isExternal: false
   name: Enter(Object,Boolean)
   nameWithType: Monitor.Enter(Object,Boolean)
   fullName: System.Threading.Monitor.Enter(Object,Boolean)
-- uid: System.Object
-  parent: System
-  isExternal: false
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
 - uid: System.Boolean
   parent: System
   isExternal: false
@@ -582,108 +587,42 @@ references:
   name: Exit(Object)
   nameWithType: Monitor.Exit(Object)
   fullName: System.Threading.Monitor.Exit(Object)
-- uid: System.Object
-  parent: System
-  isExternal: false
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
 - uid: System.Threading.Monitor.IsEntered(System.Object)
   parent: System.Threading.Monitor
   isExternal: false
   name: IsEntered(Object)
   nameWithType: Monitor.IsEntered(Object)
   fullName: System.Threading.Monitor.IsEntered(Object)
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
-- uid: System.Object
-  parent: System
-  isExternal: false
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
 - uid: System.Threading.Monitor.Pulse(System.Object)
   parent: System.Threading.Monitor
   isExternal: false
   name: Pulse(Object)
   nameWithType: Monitor.Pulse(Object)
   fullName: System.Threading.Monitor.Pulse(Object)
-- uid: System.Object
-  parent: System
-  isExternal: false
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
 - uid: System.Threading.Monitor.PulseAll(System.Object)
   parent: System.Threading.Monitor
   isExternal: false
   name: PulseAll(Object)
   nameWithType: Monitor.PulseAll(Object)
   fullName: System.Threading.Monitor.PulseAll(Object)
-- uid: System.Object
-  parent: System
-  isExternal: false
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
 - uid: System.Threading.Monitor.TryEnter(System.Object)
   parent: System.Threading.Monitor
   isExternal: false
   name: TryEnter(Object)
   nameWithType: Monitor.TryEnter(Object)
   fullName: System.Threading.Monitor.TryEnter(Object)
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
-- uid: System.Object
-  parent: System
-  isExternal: false
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
 - uid: System.Threading.Monitor.TryEnter(System.Object,System.Boolean@)
   parent: System.Threading.Monitor
   isExternal: false
   name: TryEnter(Object,Boolean)
   nameWithType: Monitor.TryEnter(Object,Boolean)
   fullName: System.Threading.Monitor.TryEnter(Object,Boolean)
-- uid: System.Object
-  parent: System
-  isExternal: false
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
 - uid: System.Threading.Monitor.TryEnter(System.Object,System.Int32)
   parent: System.Threading.Monitor
   isExternal: false
   name: TryEnter(Object,Int32)
   nameWithType: Monitor.TryEnter(Object,Int32)
   fullName: System.Threading.Monitor.TryEnter(Object,Int32)
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
-- uid: System.Object
-  parent: System
-  isExternal: false
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
 - uid: System.Int32
   parent: System
   isExternal: false
@@ -696,18 +635,6 @@ references:
   name: TryEnter(Object,TimeSpan)
   nameWithType: Monitor.TryEnter(Object,TimeSpan)
   fullName: System.Threading.Monitor.TryEnter(Object,TimeSpan)
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
-- uid: System.Object
-  parent: System
-  isExternal: false
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
 - uid: System.TimeSpan
   parent: System
   isExternal: false
@@ -720,174 +647,42 @@ references:
   name: TryEnter(Object,Int32,Boolean)
   nameWithType: Monitor.TryEnter(Object,Int32,Boolean)
   fullName: System.Threading.Monitor.TryEnter(Object,Int32,Boolean)
-- uid: System.Object
-  parent: System
-  isExternal: false
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
 - uid: System.Threading.Monitor.TryEnter(System.Object,System.TimeSpan,System.Boolean@)
   parent: System.Threading.Monitor
   isExternal: false
   name: TryEnter(Object,TimeSpan,Boolean)
   nameWithType: Monitor.TryEnter(Object,TimeSpan,Boolean)
   fullName: System.Threading.Monitor.TryEnter(Object,TimeSpan,Boolean)
-- uid: System.Object
-  parent: System
-  isExternal: false
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
-- uid: System.TimeSpan
-  parent: System
-  isExternal: false
-  name: TimeSpan
-  nameWithType: TimeSpan
-  fullName: System.TimeSpan
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
 - uid: System.Threading.Monitor.Wait(System.Object)
   parent: System.Threading.Monitor
   isExternal: false
   name: Wait(Object)
   nameWithType: Monitor.Wait(Object)
   fullName: System.Threading.Monitor.Wait(Object)
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
-- uid: System.Object
-  parent: System
-  isExternal: false
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
 - uid: System.Threading.Monitor.Wait(System.Object,System.Int32)
   parent: System.Threading.Monitor
   isExternal: false
   name: Wait(Object,Int32)
   nameWithType: Monitor.Wait(Object,Int32)
   fullName: System.Threading.Monitor.Wait(Object,Int32)
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
-- uid: System.Object
-  parent: System
-  isExternal: false
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
 - uid: System.Threading.Monitor.Wait(System.Object,System.TimeSpan)
   parent: System.Threading.Monitor
   isExternal: false
   name: Wait(Object,TimeSpan)
   nameWithType: Monitor.Wait(Object,TimeSpan)
   fullName: System.Threading.Monitor.Wait(Object,TimeSpan)
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
-- uid: System.Object
-  parent: System
-  isExternal: false
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
-- uid: System.TimeSpan
-  parent: System
-  isExternal: false
-  name: TimeSpan
-  nameWithType: TimeSpan
-  fullName: System.TimeSpan
 - uid: System.Threading.Monitor.Wait(System.Object,System.Int32,System.Boolean)
   parent: System.Threading.Monitor
   isExternal: false
   name: Wait(Object,Int32,Boolean)
   nameWithType: Monitor.Wait(Object,Int32,Boolean)
   fullName: System.Threading.Monitor.Wait(Object,Int32,Boolean)
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
-- uid: System.Object
-  parent: System
-  isExternal: false
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
 - uid: System.Threading.Monitor.Wait(System.Object,System.TimeSpan,System.Boolean)
   parent: System.Threading.Monitor
   isExternal: false
   name: Wait(Object,TimeSpan,Boolean)
   nameWithType: Monitor.Wait(Object,TimeSpan,Boolean)
   fullName: System.Threading.Monitor.Wait(Object,TimeSpan,Boolean)
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
-- uid: System.Object
-  parent: System
-  isExternal: false
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
-- uid: System.TimeSpan
-  parent: System
-  isExternal: false
-  name: TimeSpan
-  nameWithType: TimeSpan
-  fullName: System.TimeSpan
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
 - uid: System.Threading.Monitor.Enter*
   parent: System.Threading.Monitor
   isExternal: false

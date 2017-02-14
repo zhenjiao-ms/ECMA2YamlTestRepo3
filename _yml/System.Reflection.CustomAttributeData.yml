@@ -58,6 +58,7 @@ items:
     content: protected CustomAttributeData ();
     parameters: []
   overload: System.Reflection.CustomAttributeData.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -82,6 +83,7 @@ items:
       type: System.Type
       description: To be added.
   overload: System.Reflection.CustomAttributeData.AttributeType*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -106,6 +108,7 @@ items:
       type: System.Reflection.ConstructorInfo
       description: To be added.
   overload: System.Reflection.CustomAttributeData.Constructor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -130,6 +133,7 @@ items:
       type: System.Collections.Generic.IList{System.Reflection.CustomAttributeTypedArgument}
       description: To be added.
   overload: System.Reflection.CustomAttributeData.ConstructorArguments*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -158,6 +162,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Reflection.CustomAttributeData.Equals*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -186,6 +191,7 @@ items:
       type: System.Collections.Generic.IList{System.Reflection.CustomAttributeData}
       description: To be added.
   overload: System.Reflection.CustomAttributeData.GetCustomAttributes*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -214,6 +220,7 @@ items:
       type: System.Collections.Generic.IList{System.Reflection.CustomAttributeData}
       description: To be added.
   overload: System.Reflection.CustomAttributeData.GetCustomAttributes*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -242,6 +249,7 @@ items:
       type: System.Collections.Generic.IList{System.Reflection.CustomAttributeData}
       description: To be added.
   overload: System.Reflection.CustomAttributeData.GetCustomAttributes*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -270,6 +278,7 @@ items:
       type: System.Collections.Generic.IList{System.Reflection.CustomAttributeData}
       description: To be added.
   overload: System.Reflection.CustomAttributeData.GetCustomAttributes*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -295,6 +304,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.Reflection.CustomAttributeData.GetHashCode*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -319,6 +329,7 @@ items:
       type: System.Collections.Generic.IList{System.Reflection.CustomAttributeNamedArgument}
       description: To be added.
   overload: System.Reflection.CustomAttributeData.NamedArguments*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -344,6 +355,7 @@ items:
       type: System.String
       description: To be added.
   overload: System.Reflection.CustomAttributeData.ToString*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -394,6 +406,21 @@ references:
   name: IList<CustomAttributeTypedArgument>
   nameWithType: IList<CustomAttributeTypedArgument>
   fullName: System.Collections.Generic.IList<System.Reflection.CustomAttributeTypedArgument>
+  spec.csharp:
+  - uid: System.Collections.Generic.IList`1
+    name: IList
+    nameWithType: IList
+    fullName: IList<System.Reflection.CustomAttributeTypedArgument>
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Reflection.CustomAttributeTypedArgument
+    name: CustomAttributeTypedArgument
+    nameWithType: CustomAttributeTypedArgument
+    fullName: CustomAttributeTypedArgument
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
 - uid: System.Reflection.CustomAttributeData.Equals(System.Object)
   parent: System.Reflection.CustomAttributeData
   isExternal: false
@@ -406,12 +433,6 @@ references:
   name: Boolean
   nameWithType: Boolean
   fullName: System.Boolean
-- uid: System.Object
-  parent: System
-  isExternal: false
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
 - uid: System.Reflection.CustomAttributeData.GetCustomAttributes(System.Reflection.Assembly)
   parent: System.Reflection.CustomAttributeData
   isExternal: false
@@ -424,6 +445,21 @@ references:
   name: IList<CustomAttributeData>
   nameWithType: IList<CustomAttributeData>
   fullName: System.Collections.Generic.IList<System.Reflection.CustomAttributeData>
+  spec.csharp:
+  - uid: System.Collections.Generic.IList`1
+    name: IList
+    nameWithType: IList
+    fullName: IList<System.Reflection.CustomAttributeData>
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Reflection.CustomAttributeData
+    name: CustomAttributeData
+    nameWithType: CustomAttributeData
+    fullName: CustomAttributeData
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
 - uid: System.Reflection.Assembly
   parent: System.Reflection
   isExternal: false
@@ -436,12 +472,6 @@ references:
   name: GetCustomAttributes(MemberInfo)
   nameWithType: CustomAttributeData.GetCustomAttributes(MemberInfo)
   fullName: System.Reflection.CustomAttributeData.GetCustomAttributes(MemberInfo)
-- uid: System.Collections.Generic.IList{System.Reflection.CustomAttributeData}
-  parent: System.Collections.Generic
-  isExternal: false
-  name: IList<CustomAttributeData>
-  nameWithType: IList<CustomAttributeData>
-  fullName: System.Collections.Generic.IList<System.Reflection.CustomAttributeData>
 - uid: System.Reflection.MemberInfo
   parent: System.Reflection
   isExternal: false
@@ -454,12 +484,6 @@ references:
   name: GetCustomAttributes(Module)
   nameWithType: CustomAttributeData.GetCustomAttributes(Module)
   fullName: System.Reflection.CustomAttributeData.GetCustomAttributes(Module)
-- uid: System.Collections.Generic.IList{System.Reflection.CustomAttributeData}
-  parent: System.Collections.Generic
-  isExternal: false
-  name: IList<CustomAttributeData>
-  nameWithType: IList<CustomAttributeData>
-  fullName: System.Collections.Generic.IList<System.Reflection.CustomAttributeData>
 - uid: System.Reflection.Module
   parent: System.Reflection
   isExternal: false
@@ -472,12 +496,6 @@ references:
   name: GetCustomAttributes(ParameterInfo)
   nameWithType: CustomAttributeData.GetCustomAttributes(ParameterInfo)
   fullName: System.Reflection.CustomAttributeData.GetCustomAttributes(ParameterInfo)
-- uid: System.Collections.Generic.IList{System.Reflection.CustomAttributeData}
-  parent: System.Collections.Generic
-  isExternal: false
-  name: IList<CustomAttributeData>
-  nameWithType: IList<CustomAttributeData>
-  fullName: System.Collections.Generic.IList<System.Reflection.CustomAttributeData>
 - uid: System.Reflection.ParameterInfo
   parent: System.Reflection
   isExternal: false
@@ -508,6 +526,21 @@ references:
   name: IList<CustomAttributeNamedArgument>
   nameWithType: IList<CustomAttributeNamedArgument>
   fullName: System.Collections.Generic.IList<System.Reflection.CustomAttributeNamedArgument>
+  spec.csharp:
+  - uid: System.Collections.Generic.IList`1
+    name: IList
+    nameWithType: IList
+    fullName: IList<System.Reflection.CustomAttributeNamedArgument>
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Reflection.CustomAttributeNamedArgument
+    name: CustomAttributeNamedArgument
+    nameWithType: CustomAttributeNamedArgument
+    fullName: CustomAttributeNamedArgument
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
 - uid: System.Reflection.CustomAttributeData.ToString
   parent: System.Reflection.CustomAttributeData
   isExternal: false

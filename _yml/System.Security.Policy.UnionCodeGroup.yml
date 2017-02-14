@@ -79,6 +79,7 @@ items:
       type: System.Security.Policy.PolicyStatement
       description: To be added.
   overload: System.Security.Policy.UnionCodeGroup.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -104,6 +105,7 @@ items:
       type: System.Security.Policy.CodeGroup
       description: To be added.
   overload: System.Security.Policy.UnionCodeGroup.Copy*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -128,6 +130,7 @@ items:
       type: System.String
       description: To be added.
   overload: System.Security.Policy.UnionCodeGroup.MergeLogic*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -156,6 +159,7 @@ items:
       type: System.Security.Policy.PolicyStatement
       description: To be added.
   overload: System.Security.Policy.UnionCodeGroup.Resolve*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -184,6 +188,7 @@ items:
       type: System.Security.Policy.CodeGroup
       description: To be added.
   overload: System.Security.Policy.UnionCodeGroup.ResolveMatchingCodeGroups*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -216,12 +221,6 @@ references:
   name: Copy()
   nameWithType: UnionCodeGroup.Copy()
   fullName: System.Security.Policy.UnionCodeGroup.Copy()
-- uid: System.Security.Policy.CodeGroup
-  parent: System.Security.Policy
-  isExternal: false
-  name: CodeGroup
-  nameWithType: CodeGroup
-  fullName: System.Security.Policy.CodeGroup
 - uid: System.Security.Policy.UnionCodeGroup.MergeLogic
   parent: System.Security.Policy.UnionCodeGroup
   isExternal: false
@@ -240,12 +239,6 @@ references:
   name: Resolve(Evidence)
   nameWithType: UnionCodeGroup.Resolve(Evidence)
   fullName: System.Security.Policy.UnionCodeGroup.Resolve(Evidence)
-- uid: System.Security.Policy.PolicyStatement
-  parent: System.Security.Policy
-  isExternal: false
-  name: PolicyStatement
-  nameWithType: PolicyStatement
-  fullName: System.Security.Policy.PolicyStatement
 - uid: System.Security.Policy.Evidence
   parent: System.Security.Policy
   isExternal: false
@@ -258,18 +251,6 @@ references:
   name: ResolveMatchingCodeGroups(Evidence)
   nameWithType: UnionCodeGroup.ResolveMatchingCodeGroups(Evidence)
   fullName: System.Security.Policy.UnionCodeGroup.ResolveMatchingCodeGroups(Evidence)
-- uid: System.Security.Policy.CodeGroup
-  parent: System.Security.Policy
-  isExternal: false
-  name: CodeGroup
-  nameWithType: CodeGroup
-  fullName: System.Security.Policy.CodeGroup
-- uid: System.Security.Policy.Evidence
-  parent: System.Security.Policy
-  isExternal: false
-  name: Evidence
-  nameWithType: Evidence
-  fullName: System.Security.Policy.Evidence
 - uid: System.Security.Policy.UnionCodeGroup.#ctor*
   parent: System.Security.Policy.UnionCodeGroup
   isExternal: false

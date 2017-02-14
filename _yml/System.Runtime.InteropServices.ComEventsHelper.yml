@@ -60,6 +60,7 @@ items:
       type: System.Delegate
       description: To be added.
   overload: System.Runtime.InteropServices.ComEventsHelper.Combine*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -97,6 +98,7 @@ items:
       type: System.Delegate
       description: To be added.
   overload: System.Runtime.InteropServices.ComEventsHelper.Remove*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -111,12 +113,6 @@ references:
   name: Combine(Object,Guid,Int32,Delegate)
   nameWithType: ComEventsHelper.Combine(Object,Guid,Int32,Delegate)
   fullName: System.Runtime.InteropServices.ComEventsHelper.Combine(Object,Guid,Int32,Delegate)
-- uid: System.Object
-  parent: System
-  isExternal: false
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
 - uid: System.Guid
   parent: System
   isExternal: false
@@ -141,36 +137,6 @@ references:
   name: Remove(Object,Guid,Int32,Delegate)
   nameWithType: ComEventsHelper.Remove(Object,Guid,Int32,Delegate)
   fullName: System.Runtime.InteropServices.ComEventsHelper.Remove(Object,Guid,Int32,Delegate)
-- uid: System.Delegate
-  parent: System
-  isExternal: false
-  name: Delegate
-  nameWithType: Delegate
-  fullName: System.Delegate
-- uid: System.Object
-  parent: System
-  isExternal: false
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
-- uid: System.Guid
-  parent: System
-  isExternal: false
-  name: Guid
-  nameWithType: Guid
-  fullName: System.Guid
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: System.Delegate
-  parent: System
-  isExternal: false
-  name: Delegate
-  nameWithType: Delegate
-  fullName: System.Delegate
 - uid: System.Runtime.InteropServices.ComEventsHelper.Combine*
   parent: System.Runtime.InteropServices.ComEventsHelper
   isExternal: false

@@ -99,6 +99,7 @@ items:
       type: System.Diagnostics.DebuggableAttribute.DebuggingModes
       description: To be added.
   overload: System.Diagnostics.DebuggableAttribute.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -127,6 +128,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Diagnostics.DebuggableAttribute.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -151,6 +153,7 @@ items:
       type: System.Diagnostics.DebuggableAttribute.DebuggingModes
       description: To be added.
   overload: System.Diagnostics.DebuggableAttribute.DebuggingFlags*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -175,6 +178,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Diagnostics.DebuggableAttribute.IsJITOptimizerDisabled*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -199,6 +203,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Diagnostics.DebuggableAttribute.IsJITTrackingEnabled*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -231,48 +236,24 @@ references:
   name: Boolean
   nameWithType: Boolean
   fullName: System.Boolean
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
 - uid: System.Diagnostics.DebuggableAttribute.DebuggingFlags
   parent: System.Diagnostics.DebuggableAttribute
   isExternal: false
   name: DebuggingFlags
   nameWithType: DebuggableAttribute.DebuggingFlags
   fullName: System.Diagnostics.DebuggableAttribute.DebuggingFlags
-- uid: System.Diagnostics.DebuggableAttribute.DebuggingModes
-  parent: System.Diagnostics
-  isExternal: false
-  name: DebuggableAttribute+DebuggingModes
-  nameWithType: DebuggableAttribute+DebuggingModes
-  fullName: System.Diagnostics.DebuggableAttribute+DebuggingModes
 - uid: System.Diagnostics.DebuggableAttribute.IsJITOptimizerDisabled
   parent: System.Diagnostics.DebuggableAttribute
   isExternal: false
   name: IsJITOptimizerDisabled
   nameWithType: DebuggableAttribute.IsJITOptimizerDisabled
   fullName: System.Diagnostics.DebuggableAttribute.IsJITOptimizerDisabled
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
 - uid: System.Diagnostics.DebuggableAttribute.IsJITTrackingEnabled
   parent: System.Diagnostics.DebuggableAttribute
   isExternal: false
   name: IsJITTrackingEnabled
   nameWithType: DebuggableAttribute.IsJITTrackingEnabled
   fullName: System.Diagnostics.DebuggableAttribute.IsJITTrackingEnabled
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
 - uid: System.Diagnostics.DebuggableAttribute.#ctor*
   parent: System.Diagnostics.DebuggableAttribute
   isExternal: false

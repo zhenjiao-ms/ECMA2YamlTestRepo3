@@ -107,6 +107,7 @@ items:
     content: public UTF32Encoding ();
     parameters: []
   overload: System.Text.UTF32Encoding.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -135,6 +136,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Text.UTF32Encoding.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -166,6 +168,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Text.UTF32Encoding.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -194,6 +197,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Text.UTF32Encoding.Equals*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -222,6 +226,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.Text.UTF32Encoding.GetByteCount*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -253,6 +258,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.Text.UTF32Encoding.GetByteCount*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -287,6 +293,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.Text.UTF32Encoding.GetByteCount*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -324,6 +331,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.Text.UTF32Encoding.GetBytes*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -364,6 +372,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.Text.UTF32Encoding.GetBytes*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -404,6 +413,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.Text.UTF32Encoding.GetBytes*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -435,6 +445,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.Text.UTF32Encoding.GetCharCount*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -469,6 +480,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.Text.UTF32Encoding.GetCharCount*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -506,6 +518,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.Text.UTF32Encoding.GetChars*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -546,6 +559,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.Text.UTF32Encoding.GetChars*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -571,6 +585,7 @@ items:
       type: System.Text.Decoder
       description: To be added.
   overload: System.Text.UTF32Encoding.GetDecoder*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -596,6 +611,7 @@ items:
       type: System.Text.Encoder
       description: To be added.
   overload: System.Text.UTF32Encoding.GetEncoder*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -621,6 +637,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.Text.UTF32Encoding.GetHashCode*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -649,6 +666,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.Text.UTF32Encoding.GetMaxByteCount*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -677,6 +695,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.Text.UTF32Encoding.GetMaxCharCount*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -702,6 +721,7 @@ items:
       type: System.Byte[]
       description: To be added.
   overload: System.Text.UTF32Encoding.GetPreamble*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -736,6 +756,7 @@ items:
       type: System.String
       description: To be added.
   overload: System.Text.UTF32Encoding.GetString*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -762,48 +783,18 @@ references:
   name: Boolean
   nameWithType: Boolean
   fullName: System.Boolean
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
 - uid: System.Text.UTF32Encoding.#ctor(System.Boolean,System.Boolean,System.Boolean)
   parent: System.Text.UTF32Encoding
   isExternal: false
   name: UTF32Encoding(Boolean,Boolean,Boolean)
   nameWithType: UTF32Encoding.UTF32Encoding(Boolean,Boolean,Boolean)
   fullName: System.Text.UTF32Encoding.UTF32Encoding(Boolean,Boolean,Boolean)
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
 - uid: System.Text.UTF32Encoding.Equals(System.Object)
   parent: System.Text.UTF32Encoding
   isExternal: false
   name: Equals(Object)
   nameWithType: UTF32Encoding.Equals(Object)
   fullName: System.Text.UTF32Encoding.Equals(Object)
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
 - uid: System.Object
   parent: System
   isExternal: false
@@ -834,270 +825,82 @@ references:
   name: GetByteCount(Char*,Int32)
   nameWithType: UTF32Encoding.GetByteCount(Char*,Int32)
   fullName: System.Text.UTF32Encoding.GetByteCount(Char*,Int32)
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
 - uid: System.Text.UTF32Encoding.GetByteCount(System.Char[],System.Int32,System.Int32)
   parent: System.Text.UTF32Encoding
   isExternal: false
   name: GetByteCount(Char[],Int32,Int32)
   nameWithType: UTF32Encoding.GetByteCount(Char[],Int32,Int32)
   fullName: System.Text.UTF32Encoding.GetByteCount(Char[],Int32,Int32)
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: System.Char
+- uid: System.Char[]
   parent: System
   isExternal: false
   name: Char
   nameWithType: Char
   fullName: System.Char[]
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
+  spec.csharp:
+  - uid: System.Char
+    name: Char
+    nameWithType: Char
+    fullName: Char[]
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
 - uid: System.Text.UTF32Encoding.GetBytes(System.Char*,System.Int32,System.Byte*,System.Int32)
   parent: System.Text.UTF32Encoding
   isExternal: false
   name: GetBytes(Char*,Int32,Byte*,Int32)
   nameWithType: UTF32Encoding.GetBytes(Char*,Int32,Byte*,Int32)
   fullName: System.Text.UTF32Encoding.GetBytes(Char*,Int32,Byte*,Int32)
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
 - uid: System.Text.UTF32Encoding.GetBytes(System.Char[],System.Int32,System.Int32,System.Byte[],System.Int32)
   parent: System.Text.UTF32Encoding
   isExternal: false
   name: GetBytes(Char[],Int32,Int32,Byte[],Int32)
   nameWithType: UTF32Encoding.GetBytes(Char[],Int32,Int32,Byte[],Int32)
   fullName: System.Text.UTF32Encoding.GetBytes(Char[],Int32,Int32,Byte[],Int32)
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: System.Char
-  parent: System
-  isExternal: false
-  name: Char
-  nameWithType: Char
-  fullName: System.Char[]
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: System.Byte
+- uid: System.Byte[]
   parent: System
   isExternal: false
   name: Byte
   nameWithType: Byte
   fullName: System.Byte[]
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
+  spec.csharp:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: Byte[]
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
 - uid: System.Text.UTF32Encoding.GetBytes(System.String,System.Int32,System.Int32,System.Byte[],System.Int32)
   parent: System.Text.UTF32Encoding
   isExternal: false
   name: GetBytes(String,Int32,Int32,Byte[],Int32)
   nameWithType: UTF32Encoding.GetBytes(String,Int32,Int32,Byte[],Int32)
   fullName: System.Text.UTF32Encoding.GetBytes(String,Int32,Int32,Byte[],Int32)
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: System.Byte
-  parent: System
-  isExternal: false
-  name: Byte
-  nameWithType: Byte
-  fullName: System.Byte[]
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
 - uid: System.Text.UTF32Encoding.GetCharCount(System.Byte*,System.Int32)
   parent: System.Text.UTF32Encoding
   isExternal: false
   name: GetCharCount(Byte*,Int32)
   nameWithType: UTF32Encoding.GetCharCount(Byte*,Int32)
   fullName: System.Text.UTF32Encoding.GetCharCount(Byte*,Int32)
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
 - uid: System.Text.UTF32Encoding.GetCharCount(System.Byte[],System.Int32,System.Int32)
   parent: System.Text.UTF32Encoding
   isExternal: false
   name: GetCharCount(Byte[],Int32,Int32)
   nameWithType: UTF32Encoding.GetCharCount(Byte[],Int32,Int32)
   fullName: System.Text.UTF32Encoding.GetCharCount(Byte[],Int32,Int32)
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: System.Byte
-  parent: System
-  isExternal: false
-  name: Byte
-  nameWithType: Byte
-  fullName: System.Byte[]
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
 - uid: System.Text.UTF32Encoding.GetChars(System.Byte*,System.Int32,System.Char*,System.Int32)
   parent: System.Text.UTF32Encoding
   isExternal: false
   name: GetChars(Byte*,Int32,Char*,Int32)
   nameWithType: UTF32Encoding.GetChars(Byte*,Int32,Char*,Int32)
   fullName: System.Text.UTF32Encoding.GetChars(Byte*,Int32,Char*,Int32)
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
 - uid: System.Text.UTF32Encoding.GetChars(System.Byte[],System.Int32,System.Int32,System.Char[],System.Int32)
   parent: System.Text.UTF32Encoding
   isExternal: false
   name: GetChars(Byte[],Int32,Int32,Char[],Int32)
   nameWithType: UTF32Encoding.GetChars(Byte[],Int32,Int32,Char[],Int32)
   fullName: System.Text.UTF32Encoding.GetChars(Byte[],Int32,Int32,Char[],Int32)
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: System.Byte
-  parent: System
-  isExternal: false
-  name: Byte
-  nameWithType: Byte
-  fullName: System.Byte[]
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: System.Char
-  parent: System
-  isExternal: false
-  name: Char
-  nameWithType: Char
-  fullName: System.Char[]
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
 - uid: System.Text.UTF32Encoding.GetDecoder
   parent: System.Text.UTF32Encoding
   isExternal: false
@@ -1128,90 +931,30 @@ references:
   name: GetHashCode()
   nameWithType: UTF32Encoding.GetHashCode()
   fullName: System.Text.UTF32Encoding.GetHashCode()
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
 - uid: System.Text.UTF32Encoding.GetMaxByteCount(System.Int32)
   parent: System.Text.UTF32Encoding
   isExternal: false
   name: GetMaxByteCount(Int32)
   nameWithType: UTF32Encoding.GetMaxByteCount(Int32)
   fullName: System.Text.UTF32Encoding.GetMaxByteCount(Int32)
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
 - uid: System.Text.UTF32Encoding.GetMaxCharCount(System.Int32)
   parent: System.Text.UTF32Encoding
   isExternal: false
   name: GetMaxCharCount(Int32)
   nameWithType: UTF32Encoding.GetMaxCharCount(Int32)
   fullName: System.Text.UTF32Encoding.GetMaxCharCount(Int32)
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
 - uid: System.Text.UTF32Encoding.GetPreamble
   parent: System.Text.UTF32Encoding
   isExternal: false
   name: GetPreamble()
   nameWithType: UTF32Encoding.GetPreamble()
   fullName: System.Text.UTF32Encoding.GetPreamble()
-- uid: System.Byte
-  parent: System
-  isExternal: false
-  name: Byte
-  nameWithType: Byte
-  fullName: System.Byte[]
 - uid: System.Text.UTF32Encoding.GetString(System.Byte[],System.Int32,System.Int32)
   parent: System.Text.UTF32Encoding
   isExternal: false
   name: GetString(Byte[],Int32,Int32)
   nameWithType: UTF32Encoding.GetString(Byte[],Int32,Int32)
   fullName: System.Text.UTF32Encoding.GetString(Byte[],Int32,Int32)
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
-- uid: System.Byte
-  parent: System
-  isExternal: false
-  name: Byte
-  nameWithType: Byte
-  fullName: System.Byte[]
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
 - uid: System.Text.UTF32Encoding.#ctor*
   parent: System.Text.UTF32Encoding
   isExternal: false

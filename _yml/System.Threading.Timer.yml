@@ -69,6 +69,7 @@ items:
       type: System.Threading.TimerCallback
       description: To be added.
   overload: System.Threading.Timer.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -103,6 +104,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.Threading.Timer.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -137,6 +139,7 @@ items:
       type: System.Int64
       description: To be added.
   overload: System.Threading.Timer.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -171,6 +174,7 @@ items:
       type: System.TimeSpan
       description: To be added.
   overload: System.Threading.Timer.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -205,6 +209,7 @@ items:
       type: System.UInt32
       description: To be added.
   overload: System.Threading.Timer.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -236,6 +241,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Threading.Timer.Change*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -267,6 +273,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Threading.Timer.Change*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -298,6 +305,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Threading.Timer.Change*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -329,6 +337,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Threading.Timer.Change*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -351,6 +360,7 @@ items:
     content: public void Dispose ();
     parameters: []
   overload: System.Threading.Timer.Dispose*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -379,6 +389,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Threading.Timer.Dispose*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -405,24 +416,12 @@ references:
   name: Timer(TimerCallback,Object,Int32,Int32)
   nameWithType: Timer.Timer(TimerCallback,Object,Int32,Int32)
   fullName: System.Threading.Timer.Timer(TimerCallback,Object,Int32,Int32)
-- uid: System.Threading.TimerCallback
-  parent: System.Threading
-  isExternal: false
-  name: TimerCallback
-  nameWithType: TimerCallback
-  fullName: System.Threading.TimerCallback
 - uid: System.Object
   parent: System
   isExternal: false
   name: Object
   nameWithType: Object
   fullName: System.Object
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
 - uid: System.Int32
   parent: System
   isExternal: false
@@ -435,24 +434,6 @@ references:
   name: Timer(TimerCallback,Object,Int64,Int64)
   nameWithType: Timer.Timer(TimerCallback,Object,Int64,Int64)
   fullName: System.Threading.Timer.Timer(TimerCallback,Object,Int64,Int64)
-- uid: System.Threading.TimerCallback
-  parent: System.Threading
-  isExternal: false
-  name: TimerCallback
-  nameWithType: TimerCallback
-  fullName: System.Threading.TimerCallback
-- uid: System.Object
-  parent: System
-  isExternal: false
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
-- uid: System.Int64
-  parent: System
-  isExternal: false
-  name: Int64
-  nameWithType: Int64
-  fullName: System.Int64
 - uid: System.Int64
   parent: System
   isExternal: false
@@ -465,24 +446,6 @@ references:
   name: Timer(TimerCallback,Object,TimeSpan,TimeSpan)
   nameWithType: Timer.Timer(TimerCallback,Object,TimeSpan,TimeSpan)
   fullName: System.Threading.Timer.Timer(TimerCallback,Object,TimeSpan,TimeSpan)
-- uid: System.Threading.TimerCallback
-  parent: System.Threading
-  isExternal: false
-  name: TimerCallback
-  nameWithType: TimerCallback
-  fullName: System.Threading.TimerCallback
-- uid: System.Object
-  parent: System
-  isExternal: false
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
-- uid: System.TimeSpan
-  parent: System
-  isExternal: false
-  name: TimeSpan
-  nameWithType: TimeSpan
-  fullName: System.TimeSpan
 - uid: System.TimeSpan
   parent: System
   isExternal: false
@@ -495,24 +458,6 @@ references:
   name: Timer(TimerCallback,Object,UInt32,UInt32)
   nameWithType: Timer.Timer(TimerCallback,Object,UInt32,UInt32)
   fullName: System.Threading.Timer.Timer(TimerCallback,Object,UInt32,UInt32)
-- uid: System.Threading.TimerCallback
-  parent: System.Threading
-  isExternal: false
-  name: TimerCallback
-  nameWithType: TimerCallback
-  fullName: System.Threading.TimerCallback
-- uid: System.Object
-  parent: System
-  isExternal: false
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
-- uid: System.UInt32
-  parent: System
-  isExternal: false
-  name: UInt32
-  nameWithType: UInt32
-  fullName: System.UInt32
 - uid: System.UInt32
   parent: System
   isExternal: false
@@ -531,90 +476,24 @@ references:
   name: Boolean
   nameWithType: Boolean
   fullName: System.Boolean
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
 - uid: System.Threading.Timer.Change(System.Int64,System.Int64)
   parent: System.Threading.Timer
   isExternal: false
   name: Change(Int64,Int64)
   nameWithType: Timer.Change(Int64,Int64)
   fullName: System.Threading.Timer.Change(Int64,Int64)
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
-- uid: System.Int64
-  parent: System
-  isExternal: false
-  name: Int64
-  nameWithType: Int64
-  fullName: System.Int64
-- uid: System.Int64
-  parent: System
-  isExternal: false
-  name: Int64
-  nameWithType: Int64
-  fullName: System.Int64
 - uid: System.Threading.Timer.Change(System.TimeSpan,System.TimeSpan)
   parent: System.Threading.Timer
   isExternal: false
   name: Change(TimeSpan,TimeSpan)
   nameWithType: Timer.Change(TimeSpan,TimeSpan)
   fullName: System.Threading.Timer.Change(TimeSpan,TimeSpan)
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
-- uid: System.TimeSpan
-  parent: System
-  isExternal: false
-  name: TimeSpan
-  nameWithType: TimeSpan
-  fullName: System.TimeSpan
-- uid: System.TimeSpan
-  parent: System
-  isExternal: false
-  name: TimeSpan
-  nameWithType: TimeSpan
-  fullName: System.TimeSpan
 - uid: System.Threading.Timer.Change(System.UInt32,System.UInt32)
   parent: System.Threading.Timer
   isExternal: false
   name: Change(UInt32,UInt32)
   nameWithType: Timer.Change(UInt32,UInt32)
   fullName: System.Threading.Timer.Change(UInt32,UInt32)
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
-- uid: System.UInt32
-  parent: System
-  isExternal: false
-  name: UInt32
-  nameWithType: UInt32
-  fullName: System.UInt32
-- uid: System.UInt32
-  parent: System
-  isExternal: false
-  name: UInt32
-  nameWithType: UInt32
-  fullName: System.UInt32
 - uid: System.Threading.Timer.Dispose
   parent: System.Threading.Timer
   isExternal: false
@@ -627,12 +506,6 @@ references:
   name: Dispose(WaitHandle)
   nameWithType: Timer.Dispose(WaitHandle)
   fullName: System.Threading.Timer.Dispose(WaitHandle)
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
 - uid: System.Threading.WaitHandle
   parent: System.Threading
   isExternal: false

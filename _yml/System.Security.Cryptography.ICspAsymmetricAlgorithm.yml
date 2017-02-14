@@ -44,6 +44,7 @@ items:
       type: System.Security.Cryptography.CspKeyContainerInfo
       description: To be added.
   overload: System.Security.Cryptography.ICspAsymmetricAlgorithm.CspKeyContainerInfo*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -72,6 +73,7 @@ items:
       type: System.Byte[]
       description: To be added.
   overload: System.Security.Cryptography.ICspAsymmetricAlgorithm.ExportCspBlob*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -97,6 +99,7 @@ items:
       type: System.Byte[]
       description: To be added.
   overload: System.Security.Cryptography.ICspAsymmetricAlgorithm.ImportCspBlob*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -120,12 +123,20 @@ references:
   name: ExportCspBlob(Boolean)
   nameWithType: ICspAsymmetricAlgorithm.ExportCspBlob(Boolean)
   fullName: System.Security.Cryptography.ICspAsymmetricAlgorithm.ExportCspBlob(Boolean)
-- uid: System.Byte
+- uid: System.Byte[]
   parent: System
   isExternal: false
   name: Byte
   nameWithType: Byte
   fullName: System.Byte[]
+  spec.csharp:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: Byte[]
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
 - uid: System.Boolean
   parent: System
   isExternal: false
@@ -138,12 +149,6 @@ references:
   name: ImportCspBlob(Byte[])
   nameWithType: ICspAsymmetricAlgorithm.ImportCspBlob(Byte[])
   fullName: System.Security.Cryptography.ICspAsymmetricAlgorithm.ImportCspBlob(Byte[])
-- uid: System.Byte
-  parent: System
-  isExternal: false
-  name: Byte
-  nameWithType: Byte
-  fullName: System.Byte[]
 - uid: System.Security.Cryptography.ICspAsymmetricAlgorithm.CspKeyContainerInfo*
   parent: System.Security.Cryptography.ICspAsymmetricAlgorithm
   isExternal: false

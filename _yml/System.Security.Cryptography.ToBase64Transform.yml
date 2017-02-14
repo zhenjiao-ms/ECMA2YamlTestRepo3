@@ -61,6 +61,7 @@ items:
     content: public ToBase64Transform ();
     parameters: []
   overload: System.Security.Cryptography.ToBase64Transform.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -85,6 +86,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Security.Cryptography.ToBase64Transform.CanReuseTransform*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -109,6 +111,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Security.Cryptography.ToBase64Transform.CanTransformMultipleBlocks*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -131,6 +134,7 @@ items:
     content: public void Clear ();
     parameters: []
   overload: System.Security.Cryptography.ToBase64Transform.Clear*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -153,6 +157,7 @@ items:
     content: public void Dispose ();
     parameters: []
   overload: System.Security.Cryptography.ToBase64Transform.Dispose*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -178,6 +183,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Security.Cryptography.ToBase64Transform.Dispose*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -200,6 +206,7 @@ items:
     content: ~ToBase64Transform ();
     parameters: []
   overload: System.Security.Cryptography.ToBase64Transform.Finalize*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -224,6 +231,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.Security.Cryptography.ToBase64Transform.InputBlockSize*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -248,6 +256,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.Security.Cryptography.ToBase64Transform.OutputBlockSize*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -288,6 +297,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.Security.Cryptography.ToBase64Transform.TransformBlock*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -322,6 +332,7 @@ items:
       type: System.Byte[]
       description: To be added.
   overload: System.Security.Cryptography.ToBase64Transform.TransformFinalBlock*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -354,12 +365,6 @@ references:
   name: CanTransformMultipleBlocks
   nameWithType: ToBase64Transform.CanTransformMultipleBlocks
   fullName: System.Security.Cryptography.ToBase64Transform.CanTransformMultipleBlocks
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
 - uid: System.Security.Cryptography.ToBase64Transform.Clear
   parent: System.Security.Cryptography.ToBase64Transform
   isExternal: false
@@ -378,12 +383,6 @@ references:
   name: Dispose(Boolean)
   nameWithType: ToBase64Transform.Dispose(Boolean)
   fullName: System.Security.Cryptography.ToBase64Transform.Dispose(Boolean)
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
 - uid: System.Security.Cryptography.ToBase64Transform.Finalize
   parent: System.Security.Cryptography.ToBase64Transform
   isExternal: false
@@ -408,84 +407,32 @@ references:
   name: OutputBlockSize
   nameWithType: ToBase64Transform.OutputBlockSize
   fullName: System.Security.Cryptography.ToBase64Transform.OutputBlockSize
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
 - uid: System.Security.Cryptography.ToBase64Transform.TransformBlock(System.Byte[],System.Int32,System.Int32,System.Byte[],System.Int32)
   parent: System.Security.Cryptography.ToBase64Transform
   isExternal: false
   name: TransformBlock(Byte[],Int32,Int32,Byte[],Int32)
   nameWithType: ToBase64Transform.TransformBlock(Byte[],Int32,Int32,Byte[],Int32)
   fullName: System.Security.Cryptography.ToBase64Transform.TransformBlock(Byte[],Int32,Int32,Byte[],Int32)
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: System.Byte
+- uid: System.Byte[]
   parent: System
   isExternal: false
   name: Byte
   nameWithType: Byte
   fullName: System.Byte[]
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: System.Byte
-  parent: System
-  isExternal: false
-  name: Byte
-  nameWithType: Byte
-  fullName: System.Byte[]
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
+  spec.csharp:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: Byte[]
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
 - uid: System.Security.Cryptography.ToBase64Transform.TransformFinalBlock(System.Byte[],System.Int32,System.Int32)
   parent: System.Security.Cryptography.ToBase64Transform
   isExternal: false
   name: TransformFinalBlock(Byte[],Int32,Int32)
   nameWithType: ToBase64Transform.TransformFinalBlock(Byte[],Int32,Int32)
   fullName: System.Security.Cryptography.ToBase64Transform.TransformFinalBlock(Byte[],Int32,Int32)
-- uid: System.Byte
-  parent: System
-  isExternal: false
-  name: Byte
-  nameWithType: Byte
-  fullName: System.Byte[]
-- uid: System.Byte
-  parent: System
-  isExternal: false
-  name: Byte
-  nameWithType: Byte
-  fullName: System.Byte[]
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
 - uid: System.Security.Cryptography.ToBase64Transform.#ctor*
   parent: System.Security.Cryptography.ToBase64Transform
   isExternal: false

@@ -48,6 +48,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.Threading.SpinWait.Count*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -72,6 +73,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Threading.SpinWait.NextSpinWillYield*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -94,6 +96,7 @@ items:
     content: public void Reset ();
     parameters: []
   overload: System.Threading.SpinWait.Reset*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -116,6 +119,7 @@ items:
     content: public void SpinOnce ();
     parameters: []
   overload: System.Threading.SpinWait.SpinOnce*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -141,6 +145,7 @@ items:
       type: System.Func{System.Boolean}
       description: To be added.
   overload: System.Threading.SpinWait.SpinUntil*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -172,6 +177,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Threading.SpinWait.SpinUntil*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -203,6 +209,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Threading.SpinWait.SpinUntil*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -259,48 +266,33 @@ references:
   name: Func<Boolean>
   nameWithType: Func<Boolean>
   fullName: System.Func<System.Boolean>
+  spec.csharp:
+  - uid: System.Func`1
+    name: Func
+    nameWithType: Func
+    fullName: Func<System.Boolean>
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: Boolean
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
 - uid: System.Threading.SpinWait.SpinUntil(System.Func{System.Boolean},System.Int32)
   parent: System.Threading.SpinWait
   isExternal: false
   name: SpinUntil(Func<Boolean>,Int32)
   nameWithType: SpinWait.SpinUntil(Func<Boolean>,Int32)
   fullName: System.Threading.SpinWait.SpinUntil(Func<Boolean>,Int32)
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
-- uid: System.Func{System.Boolean}
-  parent: System
-  isExternal: false
-  name: Func<Boolean>
-  nameWithType: Func<Boolean>
-  fullName: System.Func<System.Boolean>
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
 - uid: System.Threading.SpinWait.SpinUntil(System.Func{System.Boolean},System.TimeSpan)
   parent: System.Threading.SpinWait
   isExternal: false
   name: SpinUntil(Func<Boolean>,TimeSpan)
   nameWithType: SpinWait.SpinUntil(Func<Boolean>,TimeSpan)
   fullName: System.Threading.SpinWait.SpinUntil(Func<Boolean>,TimeSpan)
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
-- uid: System.Func{System.Boolean}
-  parent: System
-  isExternal: false
-  name: Func<Boolean>
-  nameWithType: Func<Boolean>
-  fullName: System.Func<System.Boolean>
 - uid: System.TimeSpan
   parent: System
   isExternal: false

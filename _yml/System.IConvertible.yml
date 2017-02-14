@@ -61,6 +61,7 @@ items:
       type: System.TypeCode
       description: To be added.
   overload: System.IConvertible.GetTypeCode*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -89,6 +90,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.IConvertible.ToBoolean*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -117,6 +119,7 @@ items:
       type: System.Byte
       description: To be added.
   overload: System.IConvertible.ToByte*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -145,6 +148,7 @@ items:
       type: System.Char
       description: To be added.
   overload: System.IConvertible.ToChar*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -173,6 +177,7 @@ items:
       type: System.DateTime
       description: To be added.
   overload: System.IConvertible.ToDateTime*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -201,6 +206,7 @@ items:
       type: System.Decimal
       description: To be added.
   overload: System.IConvertible.ToDecimal*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -229,6 +235,7 @@ items:
       type: System.Double
       description: To be added.
   overload: System.IConvertible.ToDouble*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -257,6 +264,7 @@ items:
       type: System.Int16
       description: To be added.
   overload: System.IConvertible.ToInt16*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -285,6 +293,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.IConvertible.ToInt32*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -313,6 +322,7 @@ items:
       type: System.Int64
       description: To be added.
   overload: System.IConvertible.ToInt64*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -341,6 +351,7 @@ items:
       type: System.SByte
       description: To be added.
   overload: System.IConvertible.ToSByte*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -369,6 +380,7 @@ items:
       type: System.Single
       description: To be added.
   overload: System.IConvertible.ToSingle*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -397,6 +409,7 @@ items:
       type: System.String
       description: To be added.
   overload: System.IConvertible.ToString*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -428,6 +441,7 @@ items:
       type: System.Object
       description: To be added.
   overload: System.IConvertible.ToType*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -456,6 +470,7 @@ items:
       type: System.UInt16
       description: To be added.
   overload: System.IConvertible.ToUInt16*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -484,6 +499,7 @@ items:
       type: System.UInt32
       description: To be added.
   overload: System.IConvertible.ToUInt32*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -512,6 +528,7 @@ items:
       type: System.UInt64
       description: To be added.
   overload: System.IConvertible.ToUInt64*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -559,12 +576,6 @@ references:
   name: Byte
   nameWithType: Byte
   fullName: System.Byte
-- uid: System.IFormatProvider
-  parent: System
-  isExternal: false
-  name: IFormatProvider
-  nameWithType: IFormatProvider
-  fullName: System.IFormatProvider
 - uid: System.IConvertible.ToChar(System.IFormatProvider)
   parent: System.IConvertible
   isExternal: false
@@ -577,12 +588,6 @@ references:
   name: Char
   nameWithType: Char
   fullName: System.Char
-- uid: System.IFormatProvider
-  parent: System
-  isExternal: false
-  name: IFormatProvider
-  nameWithType: IFormatProvider
-  fullName: System.IFormatProvider
 - uid: System.IConvertible.ToDateTime(System.IFormatProvider)
   parent: System.IConvertible
   isExternal: false
@@ -595,12 +600,6 @@ references:
   name: DateTime
   nameWithType: DateTime
   fullName: System.DateTime
-- uid: System.IFormatProvider
-  parent: System
-  isExternal: false
-  name: IFormatProvider
-  nameWithType: IFormatProvider
-  fullName: System.IFormatProvider
 - uid: System.IConvertible.ToDecimal(System.IFormatProvider)
   parent: System.IConvertible
   isExternal: false
@@ -613,12 +612,6 @@ references:
   name: Decimal
   nameWithType: Decimal
   fullName: System.Decimal
-- uid: System.IFormatProvider
-  parent: System
-  isExternal: false
-  name: IFormatProvider
-  nameWithType: IFormatProvider
-  fullName: System.IFormatProvider
 - uid: System.IConvertible.ToDouble(System.IFormatProvider)
   parent: System.IConvertible
   isExternal: false
@@ -631,12 +624,6 @@ references:
   name: Double
   nameWithType: Double
   fullName: System.Double
-- uid: System.IFormatProvider
-  parent: System
-  isExternal: false
-  name: IFormatProvider
-  nameWithType: IFormatProvider
-  fullName: System.IFormatProvider
 - uid: System.IConvertible.ToInt16(System.IFormatProvider)
   parent: System.IConvertible
   isExternal: false
@@ -649,12 +636,6 @@ references:
   name: Int16
   nameWithType: Int16
   fullName: System.Int16
-- uid: System.IFormatProvider
-  parent: System
-  isExternal: false
-  name: IFormatProvider
-  nameWithType: IFormatProvider
-  fullName: System.IFormatProvider
 - uid: System.IConvertible.ToInt32(System.IFormatProvider)
   parent: System.IConvertible
   isExternal: false
@@ -667,12 +648,6 @@ references:
   name: Int32
   nameWithType: Int32
   fullName: System.Int32
-- uid: System.IFormatProvider
-  parent: System
-  isExternal: false
-  name: IFormatProvider
-  nameWithType: IFormatProvider
-  fullName: System.IFormatProvider
 - uid: System.IConvertible.ToInt64(System.IFormatProvider)
   parent: System.IConvertible
   isExternal: false
@@ -685,12 +660,6 @@ references:
   name: Int64
   nameWithType: Int64
   fullName: System.Int64
-- uid: System.IFormatProvider
-  parent: System
-  isExternal: false
-  name: IFormatProvider
-  nameWithType: IFormatProvider
-  fullName: System.IFormatProvider
 - uid: System.IConvertible.ToSByte(System.IFormatProvider)
   parent: System.IConvertible
   isExternal: false
@@ -703,12 +672,6 @@ references:
   name: SByte
   nameWithType: SByte
   fullName: System.SByte
-- uid: System.IFormatProvider
-  parent: System
-  isExternal: false
-  name: IFormatProvider
-  nameWithType: IFormatProvider
-  fullName: System.IFormatProvider
 - uid: System.IConvertible.ToSingle(System.IFormatProvider)
   parent: System.IConvertible
   isExternal: false
@@ -721,12 +684,6 @@ references:
   name: Single
   nameWithType: Single
   fullName: System.Single
-- uid: System.IFormatProvider
-  parent: System
-  isExternal: false
-  name: IFormatProvider
-  nameWithType: IFormatProvider
-  fullName: System.IFormatProvider
 - uid: System.IConvertible.ToString(System.IFormatProvider)
   parent: System.IConvertible
   isExternal: false
@@ -739,12 +696,6 @@ references:
   name: String
   nameWithType: String
   fullName: System.String
-- uid: System.IFormatProvider
-  parent: System
-  isExternal: false
-  name: IFormatProvider
-  nameWithType: IFormatProvider
-  fullName: System.IFormatProvider
 - uid: System.IConvertible.ToType(System.Type,System.IFormatProvider)
   parent: System.IConvertible
   isExternal: false
@@ -763,12 +714,6 @@ references:
   name: Type
   nameWithType: Type
   fullName: System.Type
-- uid: System.IFormatProvider
-  parent: System
-  isExternal: false
-  name: IFormatProvider
-  nameWithType: IFormatProvider
-  fullName: System.IFormatProvider
 - uid: System.IConvertible.ToUInt16(System.IFormatProvider)
   parent: System.IConvertible
   isExternal: false
@@ -781,12 +726,6 @@ references:
   name: UInt16
   nameWithType: UInt16
   fullName: System.UInt16
-- uid: System.IFormatProvider
-  parent: System
-  isExternal: false
-  name: IFormatProvider
-  nameWithType: IFormatProvider
-  fullName: System.IFormatProvider
 - uid: System.IConvertible.ToUInt32(System.IFormatProvider)
   parent: System.IConvertible
   isExternal: false
@@ -799,12 +738,6 @@ references:
   name: UInt32
   nameWithType: UInt32
   fullName: System.UInt32
-- uid: System.IFormatProvider
-  parent: System
-  isExternal: false
-  name: IFormatProvider
-  nameWithType: IFormatProvider
-  fullName: System.IFormatProvider
 - uid: System.IConvertible.ToUInt64(System.IFormatProvider)
   parent: System.IConvertible
   isExternal: false
@@ -817,12 +750,6 @@ references:
   name: UInt64
   nameWithType: UInt64
   fullName: System.UInt64
-- uid: System.IFormatProvider
-  parent: System
-  isExternal: false
-  name: IFormatProvider
-  nameWithType: IFormatProvider
-  fullName: System.IFormatProvider
 - uid: System.IConvertible.GetTypeCode*
   parent: System.IConvertible
   isExternal: false

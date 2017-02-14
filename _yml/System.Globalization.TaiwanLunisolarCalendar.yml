@@ -98,6 +98,7 @@ items:
     content: public TaiwanLunisolarCalendar ();
     parameters: []
   overload: System.Globalization.TaiwanLunisolarCalendar.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -122,6 +123,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.Globalization.TaiwanLunisolarCalendar.DaysInYearBeforeMinSupportedYear*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -146,6 +148,7 @@ items:
       type: System.Int32[]
       description: To be added.
   overload: System.Globalization.TaiwanLunisolarCalendar.Eras*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -174,6 +177,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.Globalization.TaiwanLunisolarCalendar.GetEra*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -198,6 +202,7 @@ items:
       type: System.DateTime
       description: To be added.
   overload: System.Globalization.TaiwanLunisolarCalendar.MaxSupportedDateTime*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -222,6 +227,7 @@ items:
       type: System.DateTime
       description: To be added.
   overload: System.Globalization.TaiwanLunisolarCalendar.MinSupportedDateTime*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -254,24 +260,26 @@ references:
   name: Eras
   nameWithType: TaiwanLunisolarCalendar.Eras
   fullName: System.Globalization.TaiwanLunisolarCalendar.Eras
-- uid: System.Int32
+- uid: System.Int32[]
   parent: System
   isExternal: false
   name: Int32
   nameWithType: Int32
   fullName: System.Int32[]
+  spec.csharp:
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: Int32[]
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
 - uid: System.Globalization.TaiwanLunisolarCalendar.GetEra(System.DateTime)
   parent: System.Globalization.TaiwanLunisolarCalendar
   isExternal: false
   name: GetEra(DateTime)
   nameWithType: TaiwanLunisolarCalendar.GetEra(DateTime)
   fullName: System.Globalization.TaiwanLunisolarCalendar.GetEra(DateTime)
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
 - uid: System.DateTime
   parent: System
   isExternal: false
@@ -284,24 +292,12 @@ references:
   name: MaxSupportedDateTime
   nameWithType: TaiwanLunisolarCalendar.MaxSupportedDateTime
   fullName: System.Globalization.TaiwanLunisolarCalendar.MaxSupportedDateTime
-- uid: System.DateTime
-  parent: System
-  isExternal: false
-  name: DateTime
-  nameWithType: DateTime
-  fullName: System.DateTime
 - uid: System.Globalization.TaiwanLunisolarCalendar.MinSupportedDateTime
   parent: System.Globalization.TaiwanLunisolarCalendar
   isExternal: false
   name: MinSupportedDateTime
   nameWithType: TaiwanLunisolarCalendar.MinSupportedDateTime
   fullName: System.Globalization.TaiwanLunisolarCalendar.MinSupportedDateTime
-- uid: System.DateTime
-  parent: System
-  isExternal: false
-  name: DateTime
-  nameWithType: DateTime
-  fullName: System.DateTime
 - uid: System.Globalization.TaiwanLunisolarCalendar.#ctor*
   parent: System.Globalization.TaiwanLunisolarCalendar
   isExternal: false

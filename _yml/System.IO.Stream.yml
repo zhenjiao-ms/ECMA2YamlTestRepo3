@@ -93,6 +93,7 @@ items:
     content: protected Stream ();
     parameters: []
   overload: System.IO.Stream.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -133,6 +134,7 @@ items:
       type: System.IAsyncResult
       description: To be added.
   overload: System.IO.Stream.BeginRead*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -173,6 +175,7 @@ items:
       type: System.IAsyncResult
       description: To be added.
   overload: System.IO.Stream.BeginWrite*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -197,6 +200,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.IO.Stream.CanRead*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -221,6 +225,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.IO.Stream.CanSeek*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -245,6 +250,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.IO.Stream.CanTimeout*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -269,6 +275,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.IO.Stream.CanWrite*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -291,6 +298,7 @@ items:
     content: public virtual void Close ();
     parameters: []
   overload: System.IO.Stream.Close*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -316,6 +324,7 @@ items:
       type: System.IO.Stream
       description: To be added.
   overload: System.IO.Stream.CopyTo*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -344,6 +353,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.IO.Stream.CopyTo*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -372,6 +382,7 @@ items:
       type: System.Threading.Tasks.Task
       description: To be added.
   overload: System.IO.Stream.CopyToAsync*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -403,6 +414,7 @@ items:
       type: System.Threading.Tasks.Task
       description: To be added.
   overload: System.IO.Stream.CopyToAsync*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -437,6 +449,7 @@ items:
       type: System.Threading.Tasks.Task
       description: To be added.
   overload: System.IO.Stream.CopyToAsync*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -462,6 +475,7 @@ items:
       type: System.Threading.WaitHandle
       description: To be added.
   overload: System.IO.Stream.CreateWaitHandle*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -484,6 +498,7 @@ items:
     content: public void Dispose ();
     parameters: []
   overload: System.IO.Stream.Dispose*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -509,6 +524,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.IO.Stream.Dispose*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -537,6 +553,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.IO.Stream.EndRead*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -562,6 +579,7 @@ items:
       type: System.IAsyncResult
       description: To be added.
   overload: System.IO.Stream.EndWrite*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -584,6 +602,7 @@ items:
     content: public abstract void Flush ();
     parameters: []
   overload: System.IO.Stream.Flush*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -609,6 +628,7 @@ items:
       type: System.Threading.Tasks.Task
       description: To be added.
   overload: System.IO.Stream.FlushAsync*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -637,6 +657,7 @@ items:
       type: System.Threading.Tasks.Task
       description: To be added.
   overload: System.IO.Stream.FlushAsync*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -661,6 +682,7 @@ items:
       type: System.Int64
       description: To be added.
   overload: System.IO.Stream.Length*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -684,6 +706,7 @@ items:
     return:
       type: System.IO.Stream
       description: To be added.
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -706,6 +729,7 @@ items:
     content: protected virtual void ObjectInvariant ();
     parameters: []
   overload: System.IO.Stream.ObjectInvariant*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -730,6 +754,7 @@ items:
       type: System.Int64
       description: To be added.
   overload: System.IO.Stream.Position*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -764,6 +789,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.IO.Stream.Read*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -798,6 +824,7 @@ items:
       type: System.Threading.Tasks.Task{System.Int32}
       description: To be added.
   overload: System.IO.Stream.ReadAsync*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -835,6 +862,7 @@ items:
       type: System.Threading.Tasks.Task{System.Int32}
       description: To be added.
   overload: System.IO.Stream.ReadAsync*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -860,6 +888,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.IO.Stream.ReadByte*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -884,6 +913,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.IO.Stream.ReadTimeout*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -915,6 +945,7 @@ items:
       type: System.Int64
       description: To be added.
   overload: System.IO.Stream.Seek*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -940,6 +971,7 @@ items:
       type: System.Int64
       description: To be added.
   overload: System.IO.Stream.SetLength*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -968,6 +1000,7 @@ items:
       type: System.IO.Stream
       description: To be added.
   overload: System.IO.Stream.Synchronized*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -999,6 +1032,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.IO.Stream.Write*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -1033,6 +1067,7 @@ items:
       type: System.Threading.Tasks.Task
       description: To be added.
   overload: System.IO.Stream.WriteAsync*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -1070,6 +1105,7 @@ items:
       type: System.Threading.Tasks.Task
       description: To be added.
   overload: System.IO.Stream.WriteAsync*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -1095,6 +1131,7 @@ items:
       type: System.Byte
       description: To be added.
   overload: System.IO.Stream.WriteByte*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -1119,6 +1156,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.IO.Stream.WriteTimeout*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -1145,18 +1183,20 @@ references:
   name: IAsyncResult
   nameWithType: IAsyncResult
   fullName: System.IAsyncResult
-- uid: System.Byte
+- uid: System.Byte[]
   parent: System
   isExternal: false
   name: Byte
   nameWithType: Byte
   fullName: System.Byte[]
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
+  spec.csharp:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: Byte[]
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
 - uid: System.Int32
   parent: System
   isExternal: false
@@ -1181,42 +1221,6 @@ references:
   name: BeginWrite(Byte[],Int32,Int32,AsyncCallback,Object)
   nameWithType: Stream.BeginWrite(Byte[],Int32,Int32,AsyncCallback,Object)
   fullName: System.IO.Stream.BeginWrite(Byte[],Int32,Int32,AsyncCallback,Object)
-- uid: System.IAsyncResult
-  parent: System
-  isExternal: false
-  name: IAsyncResult
-  nameWithType: IAsyncResult
-  fullName: System.IAsyncResult
-- uid: System.Byte
-  parent: System
-  isExternal: false
-  name: Byte
-  nameWithType: Byte
-  fullName: System.Byte[]
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: System.AsyncCallback
-  parent: System
-  isExternal: false
-  name: AsyncCallback
-  nameWithType: AsyncCallback
-  fullName: System.AsyncCallback
-- uid: System.Object
-  parent: System
-  isExternal: false
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
 - uid: System.IO.Stream.CanRead
   parent: System.IO.Stream
   isExternal: false
@@ -1235,36 +1239,18 @@ references:
   name: CanSeek
   nameWithType: Stream.CanSeek
   fullName: System.IO.Stream.CanSeek
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
 - uid: System.IO.Stream.CanTimeout
   parent: System.IO.Stream
   isExternal: false
   name: CanTimeout
   nameWithType: Stream.CanTimeout
   fullName: System.IO.Stream.CanTimeout
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
 - uid: System.IO.Stream.CanWrite
   parent: System.IO.Stream
   isExternal: false
   name: CanWrite
   nameWithType: Stream.CanWrite
   fullName: System.IO.Stream.CanWrite
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
 - uid: System.IO.Stream.Close
   parent: System.IO.Stream
   isExternal: false
@@ -1289,18 +1275,6 @@ references:
   name: CopyTo(Stream,Int32)
   nameWithType: Stream.CopyTo(Stream,Int32)
   fullName: System.IO.Stream.CopyTo(Stream,Int32)
-- uid: System.IO.Stream
-  parent: System.IO
-  isExternal: false
-  name: Stream
-  nameWithType: Stream
-  fullName: System.IO.Stream
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
 - uid: System.IO.Stream.CopyToAsync(System.IO.Stream)
   parent: System.IO.Stream
   isExternal: false
@@ -1313,60 +1287,18 @@ references:
   name: Task
   nameWithType: Task
   fullName: System.Threading.Tasks.Task
-- uid: System.IO.Stream
-  parent: System.IO
-  isExternal: false
-  name: Stream
-  nameWithType: Stream
-  fullName: System.IO.Stream
 - uid: System.IO.Stream.CopyToAsync(System.IO.Stream,System.Int32)
   parent: System.IO.Stream
   isExternal: false
   name: CopyToAsync(Stream,Int32)
   nameWithType: Stream.CopyToAsync(Stream,Int32)
   fullName: System.IO.Stream.CopyToAsync(Stream,Int32)
-- uid: System.Threading.Tasks.Task
-  parent: System.Threading.Tasks
-  isExternal: false
-  name: Task
-  nameWithType: Task
-  fullName: System.Threading.Tasks.Task
-- uid: System.IO.Stream
-  parent: System.IO
-  isExternal: false
-  name: Stream
-  nameWithType: Stream
-  fullName: System.IO.Stream
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
 - uid: System.IO.Stream.CopyToAsync(System.IO.Stream,System.Int32,System.Threading.CancellationToken)
   parent: System.IO.Stream
   isExternal: false
   name: CopyToAsync(Stream,Int32,CancellationToken)
   nameWithType: Stream.CopyToAsync(Stream,Int32,CancellationToken)
   fullName: System.IO.Stream.CopyToAsync(Stream,Int32,CancellationToken)
-- uid: System.Threading.Tasks.Task
-  parent: System.Threading.Tasks
-  isExternal: false
-  name: Task
-  nameWithType: Task
-  fullName: System.Threading.Tasks.Task
-- uid: System.IO.Stream
-  parent: System.IO
-  isExternal: false
-  name: Stream
-  nameWithType: Stream
-  fullName: System.IO.Stream
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
 - uid: System.Threading.CancellationToken
   parent: System.Threading
   isExternal: false
@@ -1397,42 +1329,18 @@ references:
   name: Dispose(Boolean)
   nameWithType: Stream.Dispose(Boolean)
   fullName: System.IO.Stream.Dispose(Boolean)
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
 - uid: System.IO.Stream.EndRead(System.IAsyncResult)
   parent: System.IO.Stream
   isExternal: false
   name: EndRead(IAsyncResult)
   nameWithType: Stream.EndRead(IAsyncResult)
   fullName: System.IO.Stream.EndRead(IAsyncResult)
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: System.IAsyncResult
-  parent: System
-  isExternal: false
-  name: IAsyncResult
-  nameWithType: IAsyncResult
-  fullName: System.IAsyncResult
 - uid: System.IO.Stream.EndWrite(System.IAsyncResult)
   parent: System.IO.Stream
   isExternal: false
   name: EndWrite(IAsyncResult)
   nameWithType: Stream.EndWrite(IAsyncResult)
   fullName: System.IO.Stream.EndWrite(IAsyncResult)
-- uid: System.IAsyncResult
-  parent: System
-  isExternal: false
-  name: IAsyncResult
-  nameWithType: IAsyncResult
-  fullName: System.IAsyncResult
 - uid: System.IO.Stream.Flush
   parent: System.IO.Stream
   isExternal: false
@@ -1445,30 +1353,12 @@ references:
   name: FlushAsync()
   nameWithType: Stream.FlushAsync()
   fullName: System.IO.Stream.FlushAsync()
-- uid: System.Threading.Tasks.Task
-  parent: System.Threading.Tasks
-  isExternal: false
-  name: Task
-  nameWithType: Task
-  fullName: System.Threading.Tasks.Task
 - uid: System.IO.Stream.FlushAsync(System.Threading.CancellationToken)
   parent: System.IO.Stream
   isExternal: false
   name: FlushAsync(CancellationToken)
   nameWithType: Stream.FlushAsync(CancellationToken)
   fullName: System.IO.Stream.FlushAsync(CancellationToken)
-- uid: System.Threading.Tasks.Task
-  parent: System.Threading.Tasks
-  isExternal: false
-  name: Task
-  nameWithType: Task
-  fullName: System.Threading.Tasks.Task
-- uid: System.Threading.CancellationToken
-  parent: System.Threading
-  isExternal: false
-  name: CancellationToken
-  nameWithType: CancellationToken
-  fullName: System.Threading.CancellationToken
 - uid: System.IO.Stream.Length
   parent: System.IO.Stream
   isExternal: false
@@ -1487,12 +1377,6 @@ references:
   name: "Null"
   nameWithType: Stream.Null
   fullName: System.IO.Stream.Null
-- uid: System.IO.Stream
-  parent: System.IO
-  isExternal: false
-  name: Stream
-  nameWithType: Stream
-  fullName: System.IO.Stream
 - uid: System.IO.Stream.ObjectInvariant
   parent: System.IO.Stream
   isExternal: false
@@ -1505,42 +1389,12 @@ references:
   name: Position
   nameWithType: Stream.Position
   fullName: System.IO.Stream.Position
-- uid: System.Int64
-  parent: System
-  isExternal: false
-  name: Int64
-  nameWithType: Int64
-  fullName: System.Int64
 - uid: System.IO.Stream.Read(System.Byte[],System.Int32,System.Int32)
   parent: System.IO.Stream
   isExternal: false
   name: Read(Byte[],Int32,Int32)
   nameWithType: Stream.Read(Byte[],Int32,Int32)
   fullName: System.IO.Stream.Read(Byte[],Int32,Int32)
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: System.Byte
-  parent: System
-  isExternal: false
-  name: Byte
-  nameWithType: Byte
-  fullName: System.Byte[]
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
 - uid: System.IO.Stream.ReadAsync(System.Byte[],System.Int32,System.Int32)
   parent: System.IO.Stream
   isExternal: false
@@ -1553,102 +1407,45 @@ references:
   name: Task<Int32>
   nameWithType: Task<Int32>
   fullName: System.Threading.Tasks.Task<System.Int32>
-- uid: System.Byte
-  parent: System
-  isExternal: false
-  name: Byte
-  nameWithType: Byte
-  fullName: System.Byte[]
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: Task<System.Int32>
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: Int32
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
 - uid: System.IO.Stream.ReadAsync(System.Byte[],System.Int32,System.Int32,System.Threading.CancellationToken)
   parent: System.IO.Stream
   isExternal: false
   name: ReadAsync(Byte[],Int32,Int32,CancellationToken)
   nameWithType: Stream.ReadAsync(Byte[],Int32,Int32,CancellationToken)
   fullName: System.IO.Stream.ReadAsync(Byte[],Int32,Int32,CancellationToken)
-- uid: System.Threading.Tasks.Task{System.Int32}
-  parent: System.Threading.Tasks
-  isExternal: false
-  name: Task<Int32>
-  nameWithType: Task<Int32>
-  fullName: System.Threading.Tasks.Task<System.Int32>
-- uid: System.Byte
-  parent: System
-  isExternal: false
-  name: Byte
-  nameWithType: Byte
-  fullName: System.Byte[]
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: System.Threading.CancellationToken
-  parent: System.Threading
-  isExternal: false
-  name: CancellationToken
-  nameWithType: CancellationToken
-  fullName: System.Threading.CancellationToken
 - uid: System.IO.Stream.ReadByte
   parent: System.IO.Stream
   isExternal: false
   name: ReadByte()
   nameWithType: Stream.ReadByte()
   fullName: System.IO.Stream.ReadByte()
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
 - uid: System.IO.Stream.ReadTimeout
   parent: System.IO.Stream
   isExternal: false
   name: ReadTimeout
   nameWithType: Stream.ReadTimeout
   fullName: System.IO.Stream.ReadTimeout
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
 - uid: System.IO.Stream.Seek(System.Int64,System.IO.SeekOrigin)
   parent: System.IO.Stream
   isExternal: false
   name: Seek(Int64,SeekOrigin)
   nameWithType: Stream.Seek(Int64,SeekOrigin)
   fullName: System.IO.Stream.Seek(Int64,SeekOrigin)
-- uid: System.Int64
-  parent: System
-  isExternal: false
-  name: Int64
-  nameWithType: Int64
-  fullName: System.Int64
-- uid: System.Int64
-  parent: System
-  isExternal: false
-  name: Int64
-  nameWithType: Int64
-  fullName: System.Int64
 - uid: System.IO.SeekOrigin
   parent: System.IO
   isExternal: false
@@ -1661,120 +1458,30 @@ references:
   name: SetLength(Int64)
   nameWithType: Stream.SetLength(Int64)
   fullName: System.IO.Stream.SetLength(Int64)
-- uid: System.Int64
-  parent: System
-  isExternal: false
-  name: Int64
-  nameWithType: Int64
-  fullName: System.Int64
 - uid: System.IO.Stream.Synchronized(System.IO.Stream)
   parent: System.IO.Stream
   isExternal: false
   name: Synchronized(Stream)
   nameWithType: Stream.Synchronized(Stream)
   fullName: System.IO.Stream.Synchronized(Stream)
-- uid: System.IO.Stream
-  parent: System.IO
-  isExternal: false
-  name: Stream
-  nameWithType: Stream
-  fullName: System.IO.Stream
-- uid: System.IO.Stream
-  parent: System.IO
-  isExternal: false
-  name: Stream
-  nameWithType: Stream
-  fullName: System.IO.Stream
 - uid: System.IO.Stream.Write(System.Byte[],System.Int32,System.Int32)
   parent: System.IO.Stream
   isExternal: false
   name: Write(Byte[],Int32,Int32)
   nameWithType: Stream.Write(Byte[],Int32,Int32)
   fullName: System.IO.Stream.Write(Byte[],Int32,Int32)
-- uid: System.Byte
-  parent: System
-  isExternal: false
-  name: Byte
-  nameWithType: Byte
-  fullName: System.Byte[]
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
 - uid: System.IO.Stream.WriteAsync(System.Byte[],System.Int32,System.Int32)
   parent: System.IO.Stream
   isExternal: false
   name: WriteAsync(Byte[],Int32,Int32)
   nameWithType: Stream.WriteAsync(Byte[],Int32,Int32)
   fullName: System.IO.Stream.WriteAsync(Byte[],Int32,Int32)
-- uid: System.Threading.Tasks.Task
-  parent: System.Threading.Tasks
-  isExternal: false
-  name: Task
-  nameWithType: Task
-  fullName: System.Threading.Tasks.Task
-- uid: System.Byte
-  parent: System
-  isExternal: false
-  name: Byte
-  nameWithType: Byte
-  fullName: System.Byte[]
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
 - uid: System.IO.Stream.WriteAsync(System.Byte[],System.Int32,System.Int32,System.Threading.CancellationToken)
   parent: System.IO.Stream
   isExternal: false
   name: WriteAsync(Byte[],Int32,Int32,CancellationToken)
   nameWithType: Stream.WriteAsync(Byte[],Int32,Int32,CancellationToken)
   fullName: System.IO.Stream.WriteAsync(Byte[],Int32,Int32,CancellationToken)
-- uid: System.Threading.Tasks.Task
-  parent: System.Threading.Tasks
-  isExternal: false
-  name: Task
-  nameWithType: Task
-  fullName: System.Threading.Tasks.Task
-- uid: System.Byte
-  parent: System
-  isExternal: false
-  name: Byte
-  nameWithType: Byte
-  fullName: System.Byte[]
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: System.Threading.CancellationToken
-  parent: System.Threading
-  isExternal: false
-  name: CancellationToken
-  nameWithType: CancellationToken
-  fullName: System.Threading.CancellationToken
 - uid: System.IO.Stream.WriteByte(System.Byte)
   parent: System.IO.Stream
   isExternal: false
@@ -1793,12 +1500,6 @@ references:
   name: WriteTimeout
   nameWithType: Stream.WriteTimeout
   fullName: System.IO.Stream.WriteTimeout
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
 - uid: System.IO.Stream.#ctor*
   parent: System.IO.Stream
   isExternal: false

@@ -62,6 +62,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Security.Cryptography.CryptoAPITransform.CanReuseTransform*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -86,6 +87,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Security.Cryptography.CryptoAPITransform.CanTransformMultipleBlocks*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -108,6 +110,7 @@ items:
     content: public void Clear ();
     parameters: []
   overload: System.Security.Cryptography.CryptoAPITransform.Clear*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -130,6 +133,7 @@ items:
     content: public void Dispose ();
     parameters: []
   overload: System.Security.Cryptography.CryptoAPITransform.Dispose*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -154,6 +158,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.Security.Cryptography.CryptoAPITransform.InputBlockSize*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -178,6 +183,7 @@ items:
       type: System.IntPtr
       description: To be added.
   overload: System.Security.Cryptography.CryptoAPITransform.KeyHandle*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -202,6 +208,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.Security.Cryptography.CryptoAPITransform.OutputBlockSize*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -224,6 +231,7 @@ items:
     content: public void Reset ();
     parameters: []
   overload: System.Security.Cryptography.CryptoAPITransform.Reset*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -264,6 +272,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.Security.Cryptography.CryptoAPITransform.TransformBlock*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -298,6 +307,7 @@ items:
       type: System.Byte[]
       description: To be added.
   overload: System.Security.Cryptography.CryptoAPITransform.TransformFinalBlock*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -324,12 +334,6 @@ references:
   name: CanTransformMultipleBlocks
   nameWithType: CryptoAPITransform.CanTransformMultipleBlocks
   fullName: System.Security.Cryptography.CryptoAPITransform.CanTransformMultipleBlocks
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
 - uid: System.Security.Cryptography.CryptoAPITransform.Clear
   parent: System.Security.Cryptography.CryptoAPITransform
   isExternal: false
@@ -372,12 +376,6 @@ references:
   name: OutputBlockSize
   nameWithType: CryptoAPITransform.OutputBlockSize
   fullName: System.Security.Cryptography.CryptoAPITransform.OutputBlockSize
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
 - uid: System.Security.Cryptography.CryptoAPITransform.Reset
   parent: System.Security.Cryptography.CryptoAPITransform
   isExternal: false
@@ -390,72 +388,26 @@ references:
   name: TransformBlock(Byte[],Int32,Int32,Byte[],Int32)
   nameWithType: CryptoAPITransform.TransformBlock(Byte[],Int32,Int32,Byte[],Int32)
   fullName: System.Security.Cryptography.CryptoAPITransform.TransformBlock(Byte[],Int32,Int32,Byte[],Int32)
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: System.Byte
+- uid: System.Byte[]
   parent: System
   isExternal: false
   name: Byte
   nameWithType: Byte
   fullName: System.Byte[]
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: System.Byte
-  parent: System
-  isExternal: false
-  name: Byte
-  nameWithType: Byte
-  fullName: System.Byte[]
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
+  spec.csharp:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: Byte[]
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
 - uid: System.Security.Cryptography.CryptoAPITransform.TransformFinalBlock(System.Byte[],System.Int32,System.Int32)
   parent: System.Security.Cryptography.CryptoAPITransform
   isExternal: false
   name: TransformFinalBlock(Byte[],Int32,Int32)
   nameWithType: CryptoAPITransform.TransformFinalBlock(Byte[],Int32,Int32)
   fullName: System.Security.Cryptography.CryptoAPITransform.TransformFinalBlock(Byte[],Int32,Int32)
-- uid: System.Byte
-  parent: System
-  isExternal: false
-  name: Byte
-  nameWithType: Byte
-  fullName: System.Byte[]
-- uid: System.Byte
-  parent: System
-  isExternal: false
-  name: Byte
-  nameWithType: Byte
-  fullName: System.Byte[]
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
 - uid: System.Security.Cryptography.CryptoAPITransform.CanReuseTransform*
   parent: System.Security.Cryptography.CryptoAPITransform
   isExternal: false

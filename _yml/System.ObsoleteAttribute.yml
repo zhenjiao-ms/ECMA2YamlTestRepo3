@@ -96,6 +96,7 @@ items:
     content: public ObsoleteAttribute ();
     parameters: []
   overload: System.ObsoleteAttribute.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -121,6 +122,7 @@ items:
       type: System.String
       description: To be added.
   overload: System.ObsoleteAttribute.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -149,6 +151,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.ObsoleteAttribute.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -173,6 +176,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.ObsoleteAttribute.IsError*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -197,6 +201,7 @@ items:
       type: System.String
       description: To be added.
   overload: System.ObsoleteAttribute.Message*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -229,12 +234,6 @@ references:
   name: ObsoleteAttribute(String,Boolean)
   nameWithType: ObsoleteAttribute.ObsoleteAttribute(String,Boolean)
   fullName: System.ObsoleteAttribute.ObsoleteAttribute(String,Boolean)
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
 - uid: System.Boolean
   parent: System
   isExternal: false
@@ -247,24 +246,12 @@ references:
   name: IsError
   nameWithType: ObsoleteAttribute.IsError
   fullName: System.ObsoleteAttribute.IsError
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
 - uid: System.ObsoleteAttribute.Message
   parent: System.ObsoleteAttribute
   isExternal: false
   name: Message
   nameWithType: ObsoleteAttribute.Message
   fullName: System.ObsoleteAttribute.Message
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
 - uid: System.ObsoleteAttribute.#ctor*
   parent: System.ObsoleteAttribute
   isExternal: false

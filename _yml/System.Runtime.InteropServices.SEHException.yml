@@ -69,6 +69,7 @@ items:
     content: public SEHException ();
     parameters: []
   overload: System.Runtime.InteropServices.SEHException.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -94,6 +95,7 @@ items:
       type: System.String
       description: To be added.
   overload: System.Runtime.InteropServices.SEHException.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -122,6 +124,7 @@ items:
       type: System.Runtime.Serialization.StreamingContext
       description: To be added.
   overload: System.Runtime.InteropServices.SEHException.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -150,6 +153,7 @@ items:
       type: System.Exception
       description: To be added.
   overload: System.Runtime.InteropServices.SEHException.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -175,6 +179,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Runtime.InteropServices.SEHException.CanResume*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -225,12 +230,6 @@ references:
   name: SEHException(String,Exception)
   nameWithType: SEHException.SEHException(String,Exception)
   fullName: System.Runtime.InteropServices.SEHException.SEHException(String,Exception)
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
 - uid: System.Exception
   parent: System
   isExternal: false

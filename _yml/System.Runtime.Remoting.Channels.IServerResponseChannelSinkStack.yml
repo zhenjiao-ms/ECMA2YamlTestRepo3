@@ -50,6 +50,7 @@ items:
       type: System.IO.Stream
       description: To be added.
   overload: System.Runtime.Remoting.Channels.IServerResponseChannelSinkStack.AsyncProcessResponse*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -81,6 +82,7 @@ items:
       type: System.IO.Stream
       description: To be added.
   overload: System.Runtime.Remoting.Channels.IServerResponseChannelSinkStack.GetResponseStream*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -116,24 +118,6 @@ references:
   name: GetResponseStream(IMessage,ITransportHeaders)
   nameWithType: IServerResponseChannelSinkStack.GetResponseStream(IMessage,ITransportHeaders)
   fullName: System.Runtime.Remoting.Channels.IServerResponseChannelSinkStack.GetResponseStream(IMessage,ITransportHeaders)
-- uid: System.IO.Stream
-  parent: System.IO
-  isExternal: false
-  name: Stream
-  nameWithType: Stream
-  fullName: System.IO.Stream
-- uid: System.Runtime.Remoting.Messaging.IMessage
-  parent: System.Runtime.Remoting.Messaging
-  isExternal: false
-  name: IMessage
-  nameWithType: IMessage
-  fullName: System.Runtime.Remoting.Messaging.IMessage
-- uid: System.Runtime.Remoting.Channels.ITransportHeaders
-  parent: System.Runtime.Remoting.Channels
-  isExternal: false
-  name: ITransportHeaders
-  nameWithType: ITransportHeaders
-  fullName: System.Runtime.Remoting.Channels.ITransportHeaders
 - uid: System.Runtime.Remoting.Channels.IServerResponseChannelSinkStack.AsyncProcessResponse*
   parent: System.Runtime.Remoting.Channels.IServerResponseChannelSinkStack
   isExternal: false

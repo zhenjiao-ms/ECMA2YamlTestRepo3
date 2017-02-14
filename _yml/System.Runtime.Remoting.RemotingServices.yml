@@ -83,6 +83,7 @@ items:
       type: System.Object
       description: To be added.
   overload: System.Runtime.Remoting.RemotingServices.Connect*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -117,6 +118,7 @@ items:
       type: System.Object
       description: To be added.
   overload: System.Runtime.Remoting.RemotingServices.Connect*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -145,6 +147,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Runtime.Remoting.RemotingServices.Disconnect*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -176,6 +179,7 @@ items:
       type: System.Runtime.Remoting.Messaging.IMethodReturnMessage
       description: To be added.
   overload: System.Runtime.Remoting.RemotingServices.ExecuteMessage*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -204,6 +208,7 @@ items:
       type: System.Runtime.Remoting.Messaging.IMessageSink
       description: To be added.
   overload: System.Runtime.Remoting.RemotingServices.GetEnvoyChainForProxy*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -232,6 +237,7 @@ items:
       type: System.Object
       description: To be added.
   overload: System.Runtime.Remoting.RemotingServices.GetLifetimeService*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -260,6 +266,7 @@ items:
       type: System.Reflection.MethodBase
       description: To be added.
   overload: System.Runtime.Remoting.RemotingServices.GetMethodBaseFromMethodMessage*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -291,6 +298,7 @@ items:
       type: System.Runtime.Serialization.StreamingContext
       description: To be added.
   overload: System.Runtime.Remoting.RemotingServices.GetObjectData*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -319,6 +327,7 @@ items:
       type: System.String
       description: To be added.
   overload: System.Runtime.Remoting.RemotingServices.GetObjectUri*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -347,6 +356,7 @@ items:
       type: System.Runtime.Remoting.ObjRef
       description: To be added.
   overload: System.Runtime.Remoting.RemotingServices.GetObjRefForProxy*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -375,6 +385,7 @@ items:
       type: System.Runtime.Remoting.Proxies.RealProxy
       description: To be added.
   overload: System.Runtime.Remoting.RemotingServices.GetRealProxy*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -403,6 +414,7 @@ items:
       type: System.Type
       description: To be added.
   overload: System.Runtime.Remoting.RemotingServices.GetServerTypeForUri*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -431,6 +443,7 @@ items:
       type: System.String
       description: To be added.
   overload: System.Runtime.Remoting.RemotingServices.GetSessionIdForMethodMessage*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -459,6 +472,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Runtime.Remoting.RemotingServices.IsMethodOverloaded*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -487,6 +501,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Runtime.Remoting.RemotingServices.IsObjectOutOfAppDomain*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -515,6 +530,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Runtime.Remoting.RemotingServices.IsObjectOutOfContext*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -543,6 +559,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Runtime.Remoting.RemotingServices.IsOneWay*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -571,6 +588,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Runtime.Remoting.RemotingServices.IsTransparentProxy*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -596,6 +614,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.Runtime.Remoting.RemotingServices.LogRemotingStage*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -624,6 +643,7 @@ items:
       type: System.Runtime.Remoting.ObjRef
       description: To be added.
   overload: System.Runtime.Remoting.RemotingServices.Marshal*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -655,6 +675,7 @@ items:
       type: System.Runtime.Remoting.ObjRef
       description: To be added.
   overload: System.Runtime.Remoting.RemotingServices.Marshal*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -689,6 +710,7 @@ items:
       type: System.Runtime.Remoting.ObjRef
       description: To be added.
   overload: System.Runtime.Remoting.RemotingServices.Marshal*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -717,6 +739,7 @@ items:
       type: System.String
       description: To be added.
   overload: System.Runtime.Remoting.RemotingServices.SetObjectUriForMarshal*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -745,6 +768,7 @@ items:
       type: System.Object
       description: To be added.
   overload: System.Runtime.Remoting.RemotingServices.Unmarshal*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -776,6 +800,7 @@ items:
       type: System.Object
       description: To be added.
   overload: System.Runtime.Remoting.RemotingServices.Unmarshal*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -790,12 +815,6 @@ references:
   name: Connect(Type,String)
   nameWithType: RemotingServices.Connect(Type,String)
   fullName: System.Runtime.Remoting.RemotingServices.Connect(Type,String)
-- uid: System.Object
-  parent: System
-  isExternal: false
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
 - uid: System.Type
   parent: System
   isExternal: false
@@ -814,30 +833,6 @@ references:
   name: Connect(Type,String,Object)
   nameWithType: RemotingServices.Connect(Type,String,Object)
   fullName: System.Runtime.Remoting.RemotingServices.Connect(Type,String,Object)
-- uid: System.Object
-  parent: System
-  isExternal: false
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
-- uid: System.Type
-  parent: System
-  isExternal: false
-  name: Type
-  nameWithType: Type
-  fullName: System.Type
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
-- uid: System.Object
-  parent: System
-  isExternal: false
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
 - uid: System.Runtime.Remoting.RemotingServices.Disconnect(System.MarshalByRefObject)
   parent: System.Runtime.Remoting.RemotingServices
   isExternal: false
@@ -868,12 +863,6 @@ references:
   name: IMethodReturnMessage
   nameWithType: IMethodReturnMessage
   fullName: System.Runtime.Remoting.Messaging.IMethodReturnMessage
-- uid: System.MarshalByRefObject
-  parent: System
-  isExternal: false
-  name: MarshalByRefObject
-  nameWithType: MarshalByRefObject
-  fullName: System.MarshalByRefObject
 - uid: System.Runtime.Remoting.Messaging.IMethodCallMessage
   parent: System.Runtime.Remoting.Messaging
   isExternal: false
@@ -892,30 +881,12 @@ references:
   name: IMessageSink
   nameWithType: IMessageSink
   fullName: System.Runtime.Remoting.Messaging.IMessageSink
-- uid: System.MarshalByRefObject
-  parent: System
-  isExternal: false
-  name: MarshalByRefObject
-  nameWithType: MarshalByRefObject
-  fullName: System.MarshalByRefObject
 - uid: System.Runtime.Remoting.RemotingServices.GetLifetimeService(System.MarshalByRefObject)
   parent: System.Runtime.Remoting.RemotingServices
   isExternal: false
   name: GetLifetimeService(MarshalByRefObject)
   nameWithType: RemotingServices.GetLifetimeService(MarshalByRefObject)
   fullName: System.Runtime.Remoting.RemotingServices.GetLifetimeService(MarshalByRefObject)
-- uid: System.Object
-  parent: System
-  isExternal: false
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
-- uid: System.MarshalByRefObject
-  parent: System
-  isExternal: false
-  name: MarshalByRefObject
-  nameWithType: MarshalByRefObject
-  fullName: System.MarshalByRefObject
 - uid: System.Runtime.Remoting.RemotingServices.GetMethodBaseFromMethodMessage(System.Runtime.Remoting.Messaging.IMethodMessage)
   parent: System.Runtime.Remoting.RemotingServices
   isExternal: false
@@ -940,12 +911,6 @@ references:
   name: GetObjectData(Object,SerializationInfo,StreamingContext)
   nameWithType: RemotingServices.GetObjectData(Object,SerializationInfo,StreamingContext)
   fullName: System.Runtime.Remoting.RemotingServices.GetObjectData(Object,SerializationInfo,StreamingContext)
-- uid: System.Object
-  parent: System
-  isExternal: false
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
 - uid: System.Runtime.Serialization.SerializationInfo
   parent: System.Runtime.Serialization
   isExternal: false
@@ -964,18 +929,6 @@ references:
   name: GetObjectUri(MarshalByRefObject)
   nameWithType: RemotingServices.GetObjectUri(MarshalByRefObject)
   fullName: System.Runtime.Remoting.RemotingServices.GetObjectUri(MarshalByRefObject)
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
-- uid: System.MarshalByRefObject
-  parent: System
-  isExternal: false
-  name: MarshalByRefObject
-  nameWithType: MarshalByRefObject
-  fullName: System.MarshalByRefObject
 - uid: System.Runtime.Remoting.RemotingServices.GetObjRefForProxy(System.MarshalByRefObject)
   parent: System.Runtime.Remoting.RemotingServices
   isExternal: false
@@ -988,12 +941,6 @@ references:
   name: ObjRef
   nameWithType: ObjRef
   fullName: System.Runtime.Remoting.ObjRef
-- uid: System.MarshalByRefObject
-  parent: System
-  isExternal: false
-  name: MarshalByRefObject
-  nameWithType: MarshalByRefObject
-  fullName: System.MarshalByRefObject
 - uid: System.Runtime.Remoting.RemotingServices.GetRealProxy(System.Object)
   parent: System.Runtime.Remoting.RemotingServices
   isExternal: false
@@ -1006,138 +953,48 @@ references:
   name: RealProxy
   nameWithType: RealProxy
   fullName: System.Runtime.Remoting.Proxies.RealProxy
-- uid: System.Object
-  parent: System
-  isExternal: false
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
 - uid: System.Runtime.Remoting.RemotingServices.GetServerTypeForUri(System.String)
   parent: System.Runtime.Remoting.RemotingServices
   isExternal: false
   name: GetServerTypeForUri(String)
   nameWithType: RemotingServices.GetServerTypeForUri(String)
   fullName: System.Runtime.Remoting.RemotingServices.GetServerTypeForUri(String)
-- uid: System.Type
-  parent: System
-  isExternal: false
-  name: Type
-  nameWithType: Type
-  fullName: System.Type
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
 - uid: System.Runtime.Remoting.RemotingServices.GetSessionIdForMethodMessage(System.Runtime.Remoting.Messaging.IMethodMessage)
   parent: System.Runtime.Remoting.RemotingServices
   isExternal: false
   name: GetSessionIdForMethodMessage(IMethodMessage)
   nameWithType: RemotingServices.GetSessionIdForMethodMessage(IMethodMessage)
   fullName: System.Runtime.Remoting.RemotingServices.GetSessionIdForMethodMessage(IMethodMessage)
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
-- uid: System.Runtime.Remoting.Messaging.IMethodMessage
-  parent: System.Runtime.Remoting.Messaging
-  isExternal: false
-  name: IMethodMessage
-  nameWithType: IMethodMessage
-  fullName: System.Runtime.Remoting.Messaging.IMethodMessage
 - uid: System.Runtime.Remoting.RemotingServices.IsMethodOverloaded(System.Runtime.Remoting.Messaging.IMethodMessage)
   parent: System.Runtime.Remoting.RemotingServices
   isExternal: false
   name: IsMethodOverloaded(IMethodMessage)
   nameWithType: RemotingServices.IsMethodOverloaded(IMethodMessage)
   fullName: System.Runtime.Remoting.RemotingServices.IsMethodOverloaded(IMethodMessage)
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
-- uid: System.Runtime.Remoting.Messaging.IMethodMessage
-  parent: System.Runtime.Remoting.Messaging
-  isExternal: false
-  name: IMethodMessage
-  nameWithType: IMethodMessage
-  fullName: System.Runtime.Remoting.Messaging.IMethodMessage
 - uid: System.Runtime.Remoting.RemotingServices.IsObjectOutOfAppDomain(System.Object)
   parent: System.Runtime.Remoting.RemotingServices
   isExternal: false
   name: IsObjectOutOfAppDomain(Object)
   nameWithType: RemotingServices.IsObjectOutOfAppDomain(Object)
   fullName: System.Runtime.Remoting.RemotingServices.IsObjectOutOfAppDomain(Object)
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
-- uid: System.Object
-  parent: System
-  isExternal: false
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
 - uid: System.Runtime.Remoting.RemotingServices.IsObjectOutOfContext(System.Object)
   parent: System.Runtime.Remoting.RemotingServices
   isExternal: false
   name: IsObjectOutOfContext(Object)
   nameWithType: RemotingServices.IsObjectOutOfContext(Object)
   fullName: System.Runtime.Remoting.RemotingServices.IsObjectOutOfContext(Object)
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
-- uid: System.Object
-  parent: System
-  isExternal: false
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
 - uid: System.Runtime.Remoting.RemotingServices.IsOneWay(System.Reflection.MethodBase)
   parent: System.Runtime.Remoting.RemotingServices
   isExternal: false
   name: IsOneWay(MethodBase)
   nameWithType: RemotingServices.IsOneWay(MethodBase)
   fullName: System.Runtime.Remoting.RemotingServices.IsOneWay(MethodBase)
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
-- uid: System.Reflection.MethodBase
-  parent: System.Reflection
-  isExternal: false
-  name: MethodBase
-  nameWithType: MethodBase
-  fullName: System.Reflection.MethodBase
 - uid: System.Runtime.Remoting.RemotingServices.IsTransparentProxy(System.Object)
   parent: System.Runtime.Remoting.RemotingServices
   isExternal: false
   name: IsTransparentProxy(Object)
   nameWithType: RemotingServices.IsTransparentProxy(Object)
   fullName: System.Runtime.Remoting.RemotingServices.IsTransparentProxy(Object)
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
-- uid: System.Object
-  parent: System
-  isExternal: false
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
 - uid: System.Runtime.Remoting.RemotingServices.LogRemotingStage(System.Int32)
   parent: System.Runtime.Remoting.RemotingServices
   isExternal: false
@@ -1156,132 +1013,36 @@ references:
   name: Marshal(MarshalByRefObject)
   nameWithType: RemotingServices.Marshal(MarshalByRefObject)
   fullName: System.Runtime.Remoting.RemotingServices.Marshal(MarshalByRefObject)
-- uid: System.Runtime.Remoting.ObjRef
-  parent: System.Runtime.Remoting
-  isExternal: false
-  name: ObjRef
-  nameWithType: ObjRef
-  fullName: System.Runtime.Remoting.ObjRef
-- uid: System.MarshalByRefObject
-  parent: System
-  isExternal: false
-  name: MarshalByRefObject
-  nameWithType: MarshalByRefObject
-  fullName: System.MarshalByRefObject
 - uid: System.Runtime.Remoting.RemotingServices.Marshal(System.MarshalByRefObject,System.String)
   parent: System.Runtime.Remoting.RemotingServices
   isExternal: false
   name: Marshal(MarshalByRefObject,String)
   nameWithType: RemotingServices.Marshal(MarshalByRefObject,String)
   fullName: System.Runtime.Remoting.RemotingServices.Marshal(MarshalByRefObject,String)
-- uid: System.Runtime.Remoting.ObjRef
-  parent: System.Runtime.Remoting
-  isExternal: false
-  name: ObjRef
-  nameWithType: ObjRef
-  fullName: System.Runtime.Remoting.ObjRef
-- uid: System.MarshalByRefObject
-  parent: System
-  isExternal: false
-  name: MarshalByRefObject
-  nameWithType: MarshalByRefObject
-  fullName: System.MarshalByRefObject
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
 - uid: System.Runtime.Remoting.RemotingServices.Marshal(System.MarshalByRefObject,System.String,System.Type)
   parent: System.Runtime.Remoting.RemotingServices
   isExternal: false
   name: Marshal(MarshalByRefObject,String,Type)
   nameWithType: RemotingServices.Marshal(MarshalByRefObject,String,Type)
   fullName: System.Runtime.Remoting.RemotingServices.Marshal(MarshalByRefObject,String,Type)
-- uid: System.Runtime.Remoting.ObjRef
-  parent: System.Runtime.Remoting
-  isExternal: false
-  name: ObjRef
-  nameWithType: ObjRef
-  fullName: System.Runtime.Remoting.ObjRef
-- uid: System.MarshalByRefObject
-  parent: System
-  isExternal: false
-  name: MarshalByRefObject
-  nameWithType: MarshalByRefObject
-  fullName: System.MarshalByRefObject
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
-- uid: System.Type
-  parent: System
-  isExternal: false
-  name: Type
-  nameWithType: Type
-  fullName: System.Type
 - uid: System.Runtime.Remoting.RemotingServices.SetObjectUriForMarshal(System.MarshalByRefObject,System.String)
   parent: System.Runtime.Remoting.RemotingServices
   isExternal: false
   name: SetObjectUriForMarshal(MarshalByRefObject,String)
   nameWithType: RemotingServices.SetObjectUriForMarshal(MarshalByRefObject,String)
   fullName: System.Runtime.Remoting.RemotingServices.SetObjectUriForMarshal(MarshalByRefObject,String)
-- uid: System.MarshalByRefObject
-  parent: System
-  isExternal: false
-  name: MarshalByRefObject
-  nameWithType: MarshalByRefObject
-  fullName: System.MarshalByRefObject
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
 - uid: System.Runtime.Remoting.RemotingServices.Unmarshal(System.Runtime.Remoting.ObjRef)
   parent: System.Runtime.Remoting.RemotingServices
   isExternal: false
   name: Unmarshal(ObjRef)
   nameWithType: RemotingServices.Unmarshal(ObjRef)
   fullName: System.Runtime.Remoting.RemotingServices.Unmarshal(ObjRef)
-- uid: System.Object
-  parent: System
-  isExternal: false
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
-- uid: System.Runtime.Remoting.ObjRef
-  parent: System.Runtime.Remoting
-  isExternal: false
-  name: ObjRef
-  nameWithType: ObjRef
-  fullName: System.Runtime.Remoting.ObjRef
 - uid: System.Runtime.Remoting.RemotingServices.Unmarshal(System.Runtime.Remoting.ObjRef,System.Boolean)
   parent: System.Runtime.Remoting.RemotingServices
   isExternal: false
   name: Unmarshal(ObjRef,Boolean)
   nameWithType: RemotingServices.Unmarshal(ObjRef,Boolean)
   fullName: System.Runtime.Remoting.RemotingServices.Unmarshal(ObjRef,Boolean)
-- uid: System.Object
-  parent: System
-  isExternal: false
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
-- uid: System.Runtime.Remoting.ObjRef
-  parent: System.Runtime.Remoting
-  isExternal: false
-  name: ObjRef
-  nameWithType: ObjRef
-  fullName: System.Runtime.Remoting.ObjRef
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
 - uid: System.Runtime.Remoting.RemotingServices.Connect*
   parent: System.Runtime.Remoting.RemotingServices
   isExternal: false

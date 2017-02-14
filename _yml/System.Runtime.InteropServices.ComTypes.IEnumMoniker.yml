@@ -48,6 +48,7 @@ items:
       type: System.Runtime.InteropServices.ComTypes.IEnumMoniker
       description: To be added.
   overload: System.Runtime.InteropServices.ComTypes.IEnumMoniker.Clone*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -82,6 +83,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.Runtime.InteropServices.ComTypes.IEnumMoniker.Next*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -104,6 +106,7 @@ items:
     content: public void Reset ();
     parameters: []
   overload: System.Runtime.InteropServices.ComTypes.IEnumMoniker.Reset*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -132,6 +135,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.Runtime.InteropServices.ComTypes.IEnumMoniker.Skip*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -161,18 +165,20 @@ references:
   name: Int32
   nameWithType: Int32
   fullName: System.Int32
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: System.Runtime.InteropServices.ComTypes.IMoniker
+- uid: System.Runtime.InteropServices.ComTypes.IMoniker[]
   parent: System.Runtime.InteropServices.ComTypes
   isExternal: false
   name: IMoniker
   nameWithType: IMoniker
   fullName: System.Runtime.InteropServices.ComTypes.IMoniker[]
+  spec.csharp:
+  - uid: System.Runtime.InteropServices.ComTypes.IMoniker
+    name: IMoniker
+    nameWithType: IMoniker
+    fullName: IMoniker[]
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
 - uid: System.IntPtr
   parent: System
   isExternal: false
@@ -191,18 +197,6 @@ references:
   name: Skip(Int32)
   nameWithType: IEnumMoniker.Skip(Int32)
   fullName: System.Runtime.InteropServices.ComTypes.IEnumMoniker.Skip(Int32)
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
 - uid: System.Runtime.InteropServices.ComTypes.IEnumMoniker.Clone*
   parent: System.Runtime.InteropServices.ComTypes.IEnumMoniker
   isExternal: false

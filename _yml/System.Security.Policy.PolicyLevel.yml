@@ -74,6 +74,7 @@ items:
       type: System.Security.Policy.StrongName
       description: To be added.
   overload: System.Security.Policy.PolicyLevel.AddFullTrustAssembly*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -99,6 +100,7 @@ items:
       type: System.Security.Policy.StrongNameMembershipCondition
       description: To be added.
   overload: System.Security.Policy.PolicyLevel.AddFullTrustAssembly*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -124,6 +126,7 @@ items:
       type: System.Security.NamedPermissionSet
       description: To be added.
   overload: System.Security.Policy.PolicyLevel.AddNamedPermissionSet*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -155,6 +158,7 @@ items:
       type: System.Security.NamedPermissionSet
       description: To be added.
   overload: System.Security.Policy.PolicyLevel.ChangeNamedPermissionSet*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -180,6 +184,7 @@ items:
       type: System.Security.Policy.PolicyLevel
       description: To be added.
   overload: System.Security.Policy.PolicyLevel.CreateAppDomainLevel*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -205,6 +210,7 @@ items:
       type: System.Security.SecurityElement
       description: To be added.
   overload: System.Security.Policy.PolicyLevel.FromXml*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -229,6 +235,7 @@ items:
       type: System.Collections.IList
       description: To be added.
   overload: System.Security.Policy.PolicyLevel.FullTrustAssemblies*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -257,6 +264,7 @@ items:
       type: System.Security.NamedPermissionSet
       description: To be added.
   overload: System.Security.Policy.PolicyLevel.GetNamedPermissionSet*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -281,6 +289,7 @@ items:
       type: System.String
       description: To be added.
   overload: System.Security.Policy.PolicyLevel.Label*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -305,6 +314,7 @@ items:
       type: System.Collections.IList
       description: To be added.
   overload: System.Security.Policy.PolicyLevel.NamedPermissionSets*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -327,6 +337,7 @@ items:
     content: public void Recover ();
     parameters: []
   overload: System.Security.Policy.PolicyLevel.Recover*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -352,6 +363,7 @@ items:
       type: System.Security.Policy.StrongName
       description: To be added.
   overload: System.Security.Policy.PolicyLevel.RemoveFullTrustAssembly*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -377,6 +389,7 @@ items:
       type: System.Security.Policy.StrongNameMembershipCondition
       description: To be added.
   overload: System.Security.Policy.PolicyLevel.RemoveFullTrustAssembly*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -405,6 +418,7 @@ items:
       type: System.Security.NamedPermissionSet
       description: To be added.
   overload: System.Security.Policy.PolicyLevel.RemoveNamedPermissionSet*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -433,6 +447,7 @@ items:
       type: System.Security.NamedPermissionSet
       description: To be added.
   overload: System.Security.Policy.PolicyLevel.RemoveNamedPermissionSet*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -455,6 +470,7 @@ items:
     content: public void Reset ();
     parameters: []
   overload: System.Security.Policy.PolicyLevel.Reset*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -483,6 +499,7 @@ items:
       type: System.Security.Policy.PolicyStatement
       description: To be added.
   overload: System.Security.Policy.PolicyLevel.Resolve*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -511,6 +528,7 @@ items:
       type: System.Security.Policy.CodeGroup
       description: To be added.
   overload: System.Security.Policy.PolicyLevel.ResolveMatchingCodeGroups*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -535,6 +553,7 @@ items:
       type: System.Security.Policy.CodeGroup
       description: To be added.
   overload: System.Security.Policy.PolicyLevel.RootCodeGroup*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -559,6 +578,7 @@ items:
       type: System.String
       description: To be added.
   overload: System.Security.Policy.PolicyLevel.StoreLocation*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -584,6 +604,7 @@ items:
       type: System.Security.SecurityElement
       description: To be added.
   overload: System.Security.Policy.PolicyLevel.ToXml*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -608,6 +629,7 @@ items:
       type: System.Security.PolicyLevelType
       description: To be added.
   overload: System.Security.Policy.PolicyLevel.Type*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -658,12 +680,6 @@ references:
   name: ChangeNamedPermissionSet(String,PermissionSet)
   nameWithType: PolicyLevel.ChangeNamedPermissionSet(String,PermissionSet)
   fullName: System.Security.Policy.PolicyLevel.ChangeNamedPermissionSet(String,PermissionSet)
-- uid: System.Security.NamedPermissionSet
-  parent: System.Security
-  isExternal: false
-  name: NamedPermissionSet
-  nameWithType: NamedPermissionSet
-  fullName: System.Security.NamedPermissionSet
 - uid: System.String
   parent: System
   isExternal: false
@@ -718,42 +734,18 @@ references:
   name: GetNamedPermissionSet(String)
   nameWithType: PolicyLevel.GetNamedPermissionSet(String)
   fullName: System.Security.Policy.PolicyLevel.GetNamedPermissionSet(String)
-- uid: System.Security.NamedPermissionSet
-  parent: System.Security
-  isExternal: false
-  name: NamedPermissionSet
-  nameWithType: NamedPermissionSet
-  fullName: System.Security.NamedPermissionSet
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
 - uid: System.Security.Policy.PolicyLevel.Label
   parent: System.Security.Policy.PolicyLevel
   isExternal: false
   name: Label
   nameWithType: PolicyLevel.Label
   fullName: System.Security.Policy.PolicyLevel.Label
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
 - uid: System.Security.Policy.PolicyLevel.NamedPermissionSets
   parent: System.Security.Policy.PolicyLevel
   isExternal: false
   name: NamedPermissionSets
   nameWithType: PolicyLevel.NamedPermissionSets
   fullName: System.Security.Policy.PolicyLevel.NamedPermissionSets
-- uid: System.Collections.IList
-  parent: System.Collections
-  isExternal: false
-  name: IList
-  nameWithType: IList
-  fullName: System.Collections.IList
 - uid: System.Security.Policy.PolicyLevel.Recover
   parent: System.Security.Policy.PolicyLevel
   isExternal: false
@@ -766,60 +758,24 @@ references:
   name: RemoveFullTrustAssembly(StrongName)
   nameWithType: PolicyLevel.RemoveFullTrustAssembly(StrongName)
   fullName: System.Security.Policy.PolicyLevel.RemoveFullTrustAssembly(StrongName)
-- uid: System.Security.Policy.StrongName
-  parent: System.Security.Policy
-  isExternal: false
-  name: StrongName
-  nameWithType: StrongName
-  fullName: System.Security.Policy.StrongName
 - uid: System.Security.Policy.PolicyLevel.RemoveFullTrustAssembly(System.Security.Policy.StrongNameMembershipCondition)
   parent: System.Security.Policy.PolicyLevel
   isExternal: false
   name: RemoveFullTrustAssembly(StrongNameMembershipCondition)
   nameWithType: PolicyLevel.RemoveFullTrustAssembly(StrongNameMembershipCondition)
   fullName: System.Security.Policy.PolicyLevel.RemoveFullTrustAssembly(StrongNameMembershipCondition)
-- uid: System.Security.Policy.StrongNameMembershipCondition
-  parent: System.Security.Policy
-  isExternal: false
-  name: StrongNameMembershipCondition
-  nameWithType: StrongNameMembershipCondition
-  fullName: System.Security.Policy.StrongNameMembershipCondition
 - uid: System.Security.Policy.PolicyLevel.RemoveNamedPermissionSet(System.Security.NamedPermissionSet)
   parent: System.Security.Policy.PolicyLevel
   isExternal: false
   name: RemoveNamedPermissionSet(NamedPermissionSet)
   nameWithType: PolicyLevel.RemoveNamedPermissionSet(NamedPermissionSet)
   fullName: System.Security.Policy.PolicyLevel.RemoveNamedPermissionSet(NamedPermissionSet)
-- uid: System.Security.NamedPermissionSet
-  parent: System.Security
-  isExternal: false
-  name: NamedPermissionSet
-  nameWithType: NamedPermissionSet
-  fullName: System.Security.NamedPermissionSet
-- uid: System.Security.NamedPermissionSet
-  parent: System.Security
-  isExternal: false
-  name: NamedPermissionSet
-  nameWithType: NamedPermissionSet
-  fullName: System.Security.NamedPermissionSet
 - uid: System.Security.Policy.PolicyLevel.RemoveNamedPermissionSet(System.String)
   parent: System.Security.Policy.PolicyLevel
   isExternal: false
   name: RemoveNamedPermissionSet(String)
   nameWithType: PolicyLevel.RemoveNamedPermissionSet(String)
   fullName: System.Security.Policy.PolicyLevel.RemoveNamedPermissionSet(String)
-- uid: System.Security.NamedPermissionSet
-  parent: System.Security
-  isExternal: false
-  name: NamedPermissionSet
-  nameWithType: NamedPermissionSet
-  fullName: System.Security.NamedPermissionSet
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
 - uid: System.Security.Policy.PolicyLevel.Reset
   parent: System.Security.Policy.PolicyLevel
   isExternal: false
@@ -856,48 +812,24 @@ references:
   name: CodeGroup
   nameWithType: CodeGroup
   fullName: System.Security.Policy.CodeGroup
-- uid: System.Security.Policy.Evidence
-  parent: System.Security.Policy
-  isExternal: false
-  name: Evidence
-  nameWithType: Evidence
-  fullName: System.Security.Policy.Evidence
 - uid: System.Security.Policy.PolicyLevel.RootCodeGroup
   parent: System.Security.Policy.PolicyLevel
   isExternal: false
   name: RootCodeGroup
   nameWithType: PolicyLevel.RootCodeGroup
   fullName: System.Security.Policy.PolicyLevel.RootCodeGroup
-- uid: System.Security.Policy.CodeGroup
-  parent: System.Security.Policy
-  isExternal: false
-  name: CodeGroup
-  nameWithType: CodeGroup
-  fullName: System.Security.Policy.CodeGroup
 - uid: System.Security.Policy.PolicyLevel.StoreLocation
   parent: System.Security.Policy.PolicyLevel
   isExternal: false
   name: StoreLocation
   nameWithType: PolicyLevel.StoreLocation
   fullName: System.Security.Policy.PolicyLevel.StoreLocation
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
 - uid: System.Security.Policy.PolicyLevel.ToXml
   parent: System.Security.Policy.PolicyLevel
   isExternal: false
   name: ToXml()
   nameWithType: PolicyLevel.ToXml()
   fullName: System.Security.Policy.PolicyLevel.ToXml()
-- uid: System.Security.SecurityElement
-  parent: System.Security
-  isExternal: false
-  name: SecurityElement
-  nameWithType: SecurityElement
-  fullName: System.Security.SecurityElement
 - uid: System.Security.Policy.PolicyLevel.Type
   parent: System.Security.Policy.PolicyLevel
   isExternal: false

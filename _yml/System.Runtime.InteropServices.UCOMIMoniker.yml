@@ -75,6 +75,7 @@ items:
       type: System.Object
       description: To be added.
   overload: System.Runtime.InteropServices.UCOMIMoniker.BindToObject*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -109,6 +110,7 @@ items:
       type: System.Object
       description: To be added.
   overload: System.Runtime.InteropServices.UCOMIMoniker.BindToStorage*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -137,6 +139,7 @@ items:
       type: System.Runtime.InteropServices.UCOMIMoniker
       description: To be added.
   overload: System.Runtime.InteropServices.UCOMIMoniker.CommonPrefixWith*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -168,6 +171,7 @@ items:
       type: System.Runtime.InteropServices.UCOMIMoniker
       description: To be added.
   overload: System.Runtime.InteropServices.UCOMIMoniker.ComposeWith*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -196,6 +200,7 @@ items:
       type: System.Runtime.InteropServices.UCOMIEnumMoniker
       description: To be added.
   overload: System.Runtime.InteropServices.UCOMIMoniker.Enum*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -221,6 +226,7 @@ items:
       type: System.Guid
       description: To be added.
   overload: System.Runtime.InteropServices.UCOMIMoniker.GetClassID*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -252,6 +258,7 @@ items:
       type: System.String
       description: To be added.
   overload: System.Runtime.InteropServices.UCOMIMoniker.GetDisplayName*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -277,6 +284,7 @@ items:
       type: System.Int64
       description: To be added.
   overload: System.Runtime.InteropServices.UCOMIMoniker.GetSizeMax*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -308,6 +316,7 @@ items:
       type: System.Runtime.InteropServices.FILETIME
       description: To be added.
   overload: System.Runtime.InteropServices.UCOMIMoniker.GetTimeOfLastChange*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -333,6 +342,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.Runtime.InteropServices.UCOMIMoniker.Hash*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -358,6 +368,7 @@ items:
       type: System.Runtime.InteropServices.UCOMIMoniker
       description: To be added.
   overload: System.Runtime.InteropServices.UCOMIMoniker.Inverse*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -383,6 +394,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.Runtime.InteropServices.UCOMIMoniker.IsDirty*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -408,6 +420,7 @@ items:
       type: System.Runtime.InteropServices.UCOMIMoniker
       description: To be added.
   overload: System.Runtime.InteropServices.UCOMIMoniker.IsEqual*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -439,6 +452,7 @@ items:
       type: System.Runtime.InteropServices.UCOMIMoniker
       description: To be added.
   overload: System.Runtime.InteropServices.UCOMIMoniker.IsRunning*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -464,6 +478,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.Runtime.InteropServices.UCOMIMoniker.IsSystemMoniker*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -489,6 +504,7 @@ items:
       type: System.Runtime.InteropServices.UCOMIStream
       description: To be added.
   overload: System.Runtime.InteropServices.UCOMIMoniker.Load*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -526,6 +542,7 @@ items:
       type: System.Runtime.InteropServices.UCOMIMoniker
       description: To be added.
   overload: System.Runtime.InteropServices.UCOMIMoniker.ParseDisplayName*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -560,6 +577,7 @@ items:
       type: System.Runtime.InteropServices.UCOMIMoniker
       description: To be added.
   overload: System.Runtime.InteropServices.UCOMIMoniker.Reduce*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -588,6 +606,7 @@ items:
       type: System.Runtime.InteropServices.UCOMIMoniker
       description: To be added.
   overload: System.Runtime.InteropServices.UCOMIMoniker.RelativePathTo*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -616,6 +635,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Runtime.InteropServices.UCOMIMoniker.Save*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -657,84 +677,30 @@ references:
   name: BindToStorage(UCOMIBindCtx,UCOMIMoniker,Guid,Object)
   nameWithType: UCOMIMoniker.BindToStorage(UCOMIBindCtx,UCOMIMoniker,Guid,Object)
   fullName: System.Runtime.InteropServices.UCOMIMoniker.BindToStorage(UCOMIBindCtx,UCOMIMoniker,Guid,Object)
-- uid: System.Runtime.InteropServices.UCOMIBindCtx
-  parent: System.Runtime.InteropServices
-  isExternal: false
-  name: UCOMIBindCtx
-  nameWithType: UCOMIBindCtx
-  fullName: System.Runtime.InteropServices.UCOMIBindCtx
-- uid: System.Runtime.InteropServices.UCOMIMoniker
-  parent: System.Runtime.InteropServices
-  isExternal: false
-  name: UCOMIMoniker
-  nameWithType: UCOMIMoniker
-  fullName: System.Runtime.InteropServices.UCOMIMoniker
-- uid: System.Guid
-  parent: System
-  isExternal: false
-  name: Guid
-  nameWithType: Guid
-  fullName: System.Guid
-- uid: System.Object
-  parent: System
-  isExternal: false
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
 - uid: System.Runtime.InteropServices.UCOMIMoniker.CommonPrefixWith(System.Runtime.InteropServices.UCOMIMoniker,System.Runtime.InteropServices.UCOMIMoniker@)
   parent: System.Runtime.InteropServices.UCOMIMoniker
   isExternal: false
   name: CommonPrefixWith(UCOMIMoniker,UCOMIMoniker)
   nameWithType: UCOMIMoniker.CommonPrefixWith(UCOMIMoniker,UCOMIMoniker)
   fullName: System.Runtime.InteropServices.UCOMIMoniker.CommonPrefixWith(UCOMIMoniker,UCOMIMoniker)
-- uid: System.Runtime.InteropServices.UCOMIMoniker
-  parent: System.Runtime.InteropServices
-  isExternal: false
-  name: UCOMIMoniker
-  nameWithType: UCOMIMoniker
-  fullName: System.Runtime.InteropServices.UCOMIMoniker
-- uid: System.Runtime.InteropServices.UCOMIMoniker
-  parent: System.Runtime.InteropServices
-  isExternal: false
-  name: UCOMIMoniker
-  nameWithType: UCOMIMoniker
-  fullName: System.Runtime.InteropServices.UCOMIMoniker
 - uid: System.Runtime.InteropServices.UCOMIMoniker.ComposeWith(System.Runtime.InteropServices.UCOMIMoniker,System.Boolean,System.Runtime.InteropServices.UCOMIMoniker@)
   parent: System.Runtime.InteropServices.UCOMIMoniker
   isExternal: false
   name: ComposeWith(UCOMIMoniker,Boolean,UCOMIMoniker)
   nameWithType: UCOMIMoniker.ComposeWith(UCOMIMoniker,Boolean,UCOMIMoniker)
   fullName: System.Runtime.InteropServices.UCOMIMoniker.ComposeWith(UCOMIMoniker,Boolean,UCOMIMoniker)
-- uid: System.Runtime.InteropServices.UCOMIMoniker
-  parent: System.Runtime.InteropServices
-  isExternal: false
-  name: UCOMIMoniker
-  nameWithType: UCOMIMoniker
-  fullName: System.Runtime.InteropServices.UCOMIMoniker
 - uid: System.Boolean
   parent: System
   isExternal: false
   name: Boolean
   nameWithType: Boolean
   fullName: System.Boolean
-- uid: System.Runtime.InteropServices.UCOMIMoniker
-  parent: System.Runtime.InteropServices
-  isExternal: false
-  name: UCOMIMoniker
-  nameWithType: UCOMIMoniker
-  fullName: System.Runtime.InteropServices.UCOMIMoniker
 - uid: System.Runtime.InteropServices.UCOMIMoniker.Enum(System.Boolean,System.Runtime.InteropServices.UCOMIEnumMoniker@)
   parent: System.Runtime.InteropServices.UCOMIMoniker
   isExternal: false
   name: Enum(Boolean,UCOMIEnumMoniker)
   nameWithType: UCOMIMoniker.Enum(Boolean,UCOMIEnumMoniker)
   fullName: System.Runtime.InteropServices.UCOMIMoniker.Enum(Boolean,UCOMIEnumMoniker)
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
 - uid: System.Runtime.InteropServices.UCOMIEnumMoniker
   parent: System.Runtime.InteropServices
   isExternal: false
@@ -747,30 +713,12 @@ references:
   name: GetClassID(Guid)
   nameWithType: UCOMIMoniker.GetClassID(Guid)
   fullName: System.Runtime.InteropServices.UCOMIMoniker.GetClassID(Guid)
-- uid: System.Guid
-  parent: System
-  isExternal: false
-  name: Guid
-  nameWithType: Guid
-  fullName: System.Guid
 - uid: System.Runtime.InteropServices.UCOMIMoniker.GetDisplayName(System.Runtime.InteropServices.UCOMIBindCtx,System.Runtime.InteropServices.UCOMIMoniker,System.String@)
   parent: System.Runtime.InteropServices.UCOMIMoniker
   isExternal: false
   name: GetDisplayName(UCOMIBindCtx,UCOMIMoniker,String)
   nameWithType: UCOMIMoniker.GetDisplayName(UCOMIBindCtx,UCOMIMoniker,String)
   fullName: System.Runtime.InteropServices.UCOMIMoniker.GetDisplayName(UCOMIBindCtx,UCOMIMoniker,String)
-- uid: System.Runtime.InteropServices.UCOMIBindCtx
-  parent: System.Runtime.InteropServices
-  isExternal: false
-  name: UCOMIBindCtx
-  nameWithType: UCOMIBindCtx
-  fullName: System.Runtime.InteropServices.UCOMIBindCtx
-- uid: System.Runtime.InteropServices.UCOMIMoniker
-  parent: System.Runtime.InteropServices
-  isExternal: false
-  name: UCOMIMoniker
-  nameWithType: UCOMIMoniker
-  fullName: System.Runtime.InteropServices.UCOMIMoniker
 - uid: System.String
   parent: System
   isExternal: false
@@ -795,18 +743,6 @@ references:
   name: GetTimeOfLastChange(UCOMIBindCtx,UCOMIMoniker,FILETIME)
   nameWithType: UCOMIMoniker.GetTimeOfLastChange(UCOMIBindCtx,UCOMIMoniker,FILETIME)
   fullName: System.Runtime.InteropServices.UCOMIMoniker.GetTimeOfLastChange(UCOMIBindCtx,UCOMIMoniker,FILETIME)
-- uid: System.Runtime.InteropServices.UCOMIBindCtx
-  parent: System.Runtime.InteropServices
-  isExternal: false
-  name: UCOMIBindCtx
-  nameWithType: UCOMIBindCtx
-  fullName: System.Runtime.InteropServices.UCOMIBindCtx
-- uid: System.Runtime.InteropServices.UCOMIMoniker
-  parent: System.Runtime.InteropServices
-  isExternal: false
-  name: UCOMIMoniker
-  nameWithType: UCOMIMoniker
-  fullName: System.Runtime.InteropServices.UCOMIMoniker
 - uid: System.Runtime.InteropServices.FILETIME
   parent: System.Runtime.InteropServices
   isExternal: false
@@ -831,72 +767,30 @@ references:
   name: Inverse(UCOMIMoniker)
   nameWithType: UCOMIMoniker.Inverse(UCOMIMoniker)
   fullName: System.Runtime.InteropServices.UCOMIMoniker.Inverse(UCOMIMoniker)
-- uid: System.Runtime.InteropServices.UCOMIMoniker
-  parent: System.Runtime.InteropServices
-  isExternal: false
-  name: UCOMIMoniker
-  nameWithType: UCOMIMoniker
-  fullName: System.Runtime.InteropServices.UCOMIMoniker
 - uid: System.Runtime.InteropServices.UCOMIMoniker.IsDirty
   parent: System.Runtime.InteropServices.UCOMIMoniker
   isExternal: false
   name: IsDirty()
   nameWithType: UCOMIMoniker.IsDirty()
   fullName: System.Runtime.InteropServices.UCOMIMoniker.IsDirty()
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
 - uid: System.Runtime.InteropServices.UCOMIMoniker.IsEqual(System.Runtime.InteropServices.UCOMIMoniker)
   parent: System.Runtime.InteropServices.UCOMIMoniker
   isExternal: false
   name: IsEqual(UCOMIMoniker)
   nameWithType: UCOMIMoniker.IsEqual(UCOMIMoniker)
   fullName: System.Runtime.InteropServices.UCOMIMoniker.IsEqual(UCOMIMoniker)
-- uid: System.Runtime.InteropServices.UCOMIMoniker
-  parent: System.Runtime.InteropServices
-  isExternal: false
-  name: UCOMIMoniker
-  nameWithType: UCOMIMoniker
-  fullName: System.Runtime.InteropServices.UCOMIMoniker
 - uid: System.Runtime.InteropServices.UCOMIMoniker.IsRunning(System.Runtime.InteropServices.UCOMIBindCtx,System.Runtime.InteropServices.UCOMIMoniker,System.Runtime.InteropServices.UCOMIMoniker)
   parent: System.Runtime.InteropServices.UCOMIMoniker
   isExternal: false
   name: IsRunning(UCOMIBindCtx,UCOMIMoniker,UCOMIMoniker)
   nameWithType: UCOMIMoniker.IsRunning(UCOMIBindCtx,UCOMIMoniker,UCOMIMoniker)
   fullName: System.Runtime.InteropServices.UCOMIMoniker.IsRunning(UCOMIBindCtx,UCOMIMoniker,UCOMIMoniker)
-- uid: System.Runtime.InteropServices.UCOMIBindCtx
-  parent: System.Runtime.InteropServices
-  isExternal: false
-  name: UCOMIBindCtx
-  nameWithType: UCOMIBindCtx
-  fullName: System.Runtime.InteropServices.UCOMIBindCtx
-- uid: System.Runtime.InteropServices.UCOMIMoniker
-  parent: System.Runtime.InteropServices
-  isExternal: false
-  name: UCOMIMoniker
-  nameWithType: UCOMIMoniker
-  fullName: System.Runtime.InteropServices.UCOMIMoniker
-- uid: System.Runtime.InteropServices.UCOMIMoniker
-  parent: System.Runtime.InteropServices
-  isExternal: false
-  name: UCOMIMoniker
-  nameWithType: UCOMIMoniker
-  fullName: System.Runtime.InteropServices.UCOMIMoniker
 - uid: System.Runtime.InteropServices.UCOMIMoniker.IsSystemMoniker(System.Int32@)
   parent: System.Runtime.InteropServices.UCOMIMoniker
   isExternal: false
   name: IsSystemMoniker(Int32)
   nameWithType: UCOMIMoniker.IsSystemMoniker(Int32)
   fullName: System.Runtime.InteropServices.UCOMIMoniker.IsSystemMoniker(Int32)
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
 - uid: System.Runtime.InteropServices.UCOMIMoniker.Load(System.Runtime.InteropServices.UCOMIStream)
   parent: System.Runtime.InteropServices.UCOMIMoniker
   isExternal: false
@@ -915,102 +809,24 @@ references:
   name: ParseDisplayName(UCOMIBindCtx,UCOMIMoniker,String,Int32,UCOMIMoniker)
   nameWithType: UCOMIMoniker.ParseDisplayName(UCOMIBindCtx,UCOMIMoniker,String,Int32,UCOMIMoniker)
   fullName: System.Runtime.InteropServices.UCOMIMoniker.ParseDisplayName(UCOMIBindCtx,UCOMIMoniker,String,Int32,UCOMIMoniker)
-- uid: System.Runtime.InteropServices.UCOMIBindCtx
-  parent: System.Runtime.InteropServices
-  isExternal: false
-  name: UCOMIBindCtx
-  nameWithType: UCOMIBindCtx
-  fullName: System.Runtime.InteropServices.UCOMIBindCtx
-- uid: System.Runtime.InteropServices.UCOMIMoniker
-  parent: System.Runtime.InteropServices
-  isExternal: false
-  name: UCOMIMoniker
-  nameWithType: UCOMIMoniker
-  fullName: System.Runtime.InteropServices.UCOMIMoniker
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: System.Runtime.InteropServices.UCOMIMoniker
-  parent: System.Runtime.InteropServices
-  isExternal: false
-  name: UCOMIMoniker
-  nameWithType: UCOMIMoniker
-  fullName: System.Runtime.InteropServices.UCOMIMoniker
 - uid: System.Runtime.InteropServices.UCOMIMoniker.Reduce(System.Runtime.InteropServices.UCOMIBindCtx,System.Int32,System.Runtime.InteropServices.UCOMIMoniker@,System.Runtime.InteropServices.UCOMIMoniker@)
   parent: System.Runtime.InteropServices.UCOMIMoniker
   isExternal: false
   name: Reduce(UCOMIBindCtx,Int32,UCOMIMoniker,UCOMIMoniker)
   nameWithType: UCOMIMoniker.Reduce(UCOMIBindCtx,Int32,UCOMIMoniker,UCOMIMoniker)
   fullName: System.Runtime.InteropServices.UCOMIMoniker.Reduce(UCOMIBindCtx,Int32,UCOMIMoniker,UCOMIMoniker)
-- uid: System.Runtime.InteropServices.UCOMIBindCtx
-  parent: System.Runtime.InteropServices
-  isExternal: false
-  name: UCOMIBindCtx
-  nameWithType: UCOMIBindCtx
-  fullName: System.Runtime.InteropServices.UCOMIBindCtx
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: System.Runtime.InteropServices.UCOMIMoniker
-  parent: System.Runtime.InteropServices
-  isExternal: false
-  name: UCOMIMoniker
-  nameWithType: UCOMIMoniker
-  fullName: System.Runtime.InteropServices.UCOMIMoniker
-- uid: System.Runtime.InteropServices.UCOMIMoniker
-  parent: System.Runtime.InteropServices
-  isExternal: false
-  name: UCOMIMoniker
-  nameWithType: UCOMIMoniker
-  fullName: System.Runtime.InteropServices.UCOMIMoniker
 - uid: System.Runtime.InteropServices.UCOMIMoniker.RelativePathTo(System.Runtime.InteropServices.UCOMIMoniker,System.Runtime.InteropServices.UCOMIMoniker@)
   parent: System.Runtime.InteropServices.UCOMIMoniker
   isExternal: false
   name: RelativePathTo(UCOMIMoniker,UCOMIMoniker)
   nameWithType: UCOMIMoniker.RelativePathTo(UCOMIMoniker,UCOMIMoniker)
   fullName: System.Runtime.InteropServices.UCOMIMoniker.RelativePathTo(UCOMIMoniker,UCOMIMoniker)
-- uid: System.Runtime.InteropServices.UCOMIMoniker
-  parent: System.Runtime.InteropServices
-  isExternal: false
-  name: UCOMIMoniker
-  nameWithType: UCOMIMoniker
-  fullName: System.Runtime.InteropServices.UCOMIMoniker
-- uid: System.Runtime.InteropServices.UCOMIMoniker
-  parent: System.Runtime.InteropServices
-  isExternal: false
-  name: UCOMIMoniker
-  nameWithType: UCOMIMoniker
-  fullName: System.Runtime.InteropServices.UCOMIMoniker
 - uid: System.Runtime.InteropServices.UCOMIMoniker.Save(System.Runtime.InteropServices.UCOMIStream,System.Boolean)
   parent: System.Runtime.InteropServices.UCOMIMoniker
   isExternal: false
   name: Save(UCOMIStream,Boolean)
   nameWithType: UCOMIMoniker.Save(UCOMIStream,Boolean)
   fullName: System.Runtime.InteropServices.UCOMIMoniker.Save(UCOMIStream,Boolean)
-- uid: System.Runtime.InteropServices.UCOMIStream
-  parent: System.Runtime.InteropServices
-  isExternal: false
-  name: UCOMIStream
-  nameWithType: UCOMIStream
-  fullName: System.Runtime.InteropServices.UCOMIStream
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
 - uid: System.Runtime.InteropServices.UCOMIMoniker.BindToObject*
   parent: System.Runtime.InteropServices.UCOMIMoniker
   isExternal: false

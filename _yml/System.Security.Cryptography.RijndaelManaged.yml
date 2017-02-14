@@ -82,6 +82,7 @@ items:
     content: public RijndaelManaged ();
     parameters: []
   overload: System.Security.Cryptography.RijndaelManaged.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -113,6 +114,7 @@ items:
       type: System.Security.Cryptography.ICryptoTransform
       description: To be added.
   overload: System.Security.Cryptography.RijndaelManaged.CreateDecryptor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -144,6 +146,7 @@ items:
       type: System.Security.Cryptography.ICryptoTransform
       description: To be added.
   overload: System.Security.Cryptography.RijndaelManaged.CreateEncryptor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -166,6 +169,7 @@ items:
     content: public override void GenerateIV ();
     parameters: []
   overload: System.Security.Cryptography.RijndaelManaged.GenerateIV*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -188,6 +192,7 @@ items:
     content: public override void GenerateKey ();
     parameters: []
   overload: System.Security.Cryptography.RijndaelManaged.GenerateKey*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -214,42 +219,26 @@ references:
   name: ICryptoTransform
   nameWithType: ICryptoTransform
   fullName: System.Security.Cryptography.ICryptoTransform
-- uid: System.Byte
+- uid: System.Byte[]
   parent: System
   isExternal: false
   name: Byte
   nameWithType: Byte
   fullName: System.Byte[]
-- uid: System.Byte
-  parent: System
-  isExternal: false
-  name: Byte
-  nameWithType: Byte
-  fullName: System.Byte[]
+  spec.csharp:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: Byte[]
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
 - uid: System.Security.Cryptography.RijndaelManaged.CreateEncryptor(System.Byte[],System.Byte[])
   parent: System.Security.Cryptography.RijndaelManaged
   isExternal: false
   name: CreateEncryptor(Byte[],Byte[])
   nameWithType: RijndaelManaged.CreateEncryptor(Byte[],Byte[])
   fullName: System.Security.Cryptography.RijndaelManaged.CreateEncryptor(Byte[],Byte[])
-- uid: System.Security.Cryptography.ICryptoTransform
-  parent: System.Security.Cryptography
-  isExternal: false
-  name: ICryptoTransform
-  nameWithType: ICryptoTransform
-  fullName: System.Security.Cryptography.ICryptoTransform
-- uid: System.Byte
-  parent: System
-  isExternal: false
-  name: Byte
-  nameWithType: Byte
-  fullName: System.Byte[]
-- uid: System.Byte
-  parent: System
-  isExternal: false
-  name: Byte
-  nameWithType: Byte
-  fullName: System.Byte[]
 - uid: System.Security.Cryptography.RijndaelManaged.GenerateIV
   parent: System.Security.Cryptography.RijndaelManaged
   isExternal: false

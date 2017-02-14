@@ -91,6 +91,7 @@ items:
       type: System.Security.NamedPermissionSet
       description: To be added.
   overload: System.Security.NamedPermissionSet.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -116,6 +117,7 @@ items:
       type: System.String
       description: To be added.
   overload: System.Security.NamedPermissionSet.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -144,6 +146,7 @@ items:
       type: System.Security.Permissions.PermissionState
       description: To be added.
   overload: System.Security.NamedPermissionSet.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -172,6 +175,7 @@ items:
       type: System.Security.PermissionSet
       description: To be added.
   overload: System.Security.NamedPermissionSet.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -197,6 +201,7 @@ items:
       type: System.Security.PermissionSet
       description: To be added.
   overload: System.Security.NamedPermissionSet.Copy*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -225,6 +230,7 @@ items:
       type: System.Security.NamedPermissionSet
       description: To be added.
   overload: System.Security.NamedPermissionSet.Copy*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -249,6 +255,7 @@ items:
       type: System.String
       description: To be added.
   overload: System.Security.NamedPermissionSet.Description*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -277,6 +284,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Security.NamedPermissionSet.Equals*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -302,6 +310,7 @@ items:
       type: System.Security.SecurityElement
       description: To be added.
   overload: System.Security.NamedPermissionSet.FromXml*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -327,6 +336,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.Security.NamedPermissionSet.GetHashCode*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -351,6 +361,7 @@ items:
       type: System.String
       description: To be added.
   overload: System.Security.NamedPermissionSet.Name*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -376,6 +387,7 @@ items:
       type: System.Security.SecurityElement
       description: To be added.
   overload: System.Security.NamedPermissionSet.ToXml*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -414,12 +426,6 @@ references:
   name: NamedPermissionSet(String,PermissionState)
   nameWithType: NamedPermissionSet.NamedPermissionSet(String,PermissionState)
   fullName: System.Security.NamedPermissionSet.NamedPermissionSet(String,PermissionState)
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
 - uid: System.Security.Permissions.PermissionState
   parent: System.Security.Permissions
   isExternal: false
@@ -432,60 +438,24 @@ references:
   name: NamedPermissionSet(String,PermissionSet)
   nameWithType: NamedPermissionSet.NamedPermissionSet(String,PermissionSet)
   fullName: System.Security.NamedPermissionSet.NamedPermissionSet(String,PermissionSet)
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
-- uid: System.Security.PermissionSet
-  parent: System.Security
-  isExternal: false
-  name: PermissionSet
-  nameWithType: PermissionSet
-  fullName: System.Security.PermissionSet
 - uid: System.Security.NamedPermissionSet.Copy
   parent: System.Security.NamedPermissionSet
   isExternal: false
   name: Copy()
   nameWithType: NamedPermissionSet.Copy()
   fullName: System.Security.NamedPermissionSet.Copy()
-- uid: System.Security.PermissionSet
-  parent: System.Security
-  isExternal: false
-  name: PermissionSet
-  nameWithType: PermissionSet
-  fullName: System.Security.PermissionSet
 - uid: System.Security.NamedPermissionSet.Copy(System.String)
   parent: System.Security.NamedPermissionSet
   isExternal: false
   name: Copy(String)
   nameWithType: NamedPermissionSet.Copy(String)
   fullName: System.Security.NamedPermissionSet.Copy(String)
-- uid: System.Security.NamedPermissionSet
-  parent: System.Security
-  isExternal: false
-  name: NamedPermissionSet
-  nameWithType: NamedPermissionSet
-  fullName: System.Security.NamedPermissionSet
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
 - uid: System.Security.NamedPermissionSet.Description
   parent: System.Security.NamedPermissionSet
   isExternal: false
   name: Description
   nameWithType: NamedPermissionSet.Description
   fullName: System.Security.NamedPermissionSet.Description
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
 - uid: System.Security.NamedPermissionSet.Equals(System.Object)
   parent: System.Security.NamedPermissionSet
   isExternal: false
@@ -534,24 +504,12 @@ references:
   name: Name
   nameWithType: NamedPermissionSet.Name
   fullName: System.Security.NamedPermissionSet.Name
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
 - uid: System.Security.NamedPermissionSet.ToXml
   parent: System.Security.NamedPermissionSet
   isExternal: false
   name: ToXml()
   nameWithType: NamedPermissionSet.ToXml()
   fullName: System.Security.NamedPermissionSet.ToXml()
-- uid: System.Security.SecurityElement
-  parent: System.Security
-  isExternal: false
-  name: SecurityElement
-  nameWithType: SecurityElement
-  fullName: System.Security.SecurityElement
 - uid: System.Security.NamedPermissionSet.#ctor*
   parent: System.Security.NamedPermissionSet
   isExternal: false

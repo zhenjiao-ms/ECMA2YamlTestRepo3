@@ -83,6 +83,7 @@ items:
     content: public SecurityException ();
     parameters: []
   overload: System.Security.SecurityException.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -108,6 +109,7 @@ items:
       type: System.String
       description: To be added.
   overload: System.Security.SecurityException.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -136,6 +138,7 @@ items:
       type: System.Runtime.Serialization.StreamingContext
       description: To be added.
   overload: System.Security.SecurityException.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -164,6 +167,7 @@ items:
       type: System.Exception
       description: To be added.
   overload: System.Security.SecurityException.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -192,6 +196,7 @@ items:
       type: System.Type
       description: To be added.
   overload: System.Security.SecurityException.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -223,6 +228,7 @@ items:
       type: System.String
       description: To be added.
   overload: System.Security.SecurityException.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -263,6 +269,7 @@ items:
       type: System.Security.IPermission
       description: To be added.
   overload: System.Security.SecurityException.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -312,6 +319,7 @@ items:
       type: System.Security.Policy.Evidence
       description: To be added.
   overload: System.Security.SecurityException.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -336,6 +344,7 @@ items:
       type: System.Security.Permissions.SecurityAction
       description: To be added.
   overload: System.Security.SecurityException.Action*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -360,6 +369,7 @@ items:
       type: System.Object
       description: To be added.
   overload: System.Security.SecurityException.Demanded*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -384,6 +394,7 @@ items:
       type: System.Object
       description: To be added.
   overload: System.Security.SecurityException.DenySetInstance*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -408,6 +419,7 @@ items:
       type: System.Reflection.AssemblyName
       description: To be added.
   overload: System.Security.SecurityException.FailedAssemblyInfo*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -432,6 +444,7 @@ items:
       type: System.Security.IPermission
       description: To be added.
   overload: System.Security.SecurityException.FirstPermissionThatFailed*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -460,6 +473,7 @@ items:
       type: System.Runtime.Serialization.StreamingContext
       description: To be added.
   overload: System.Security.SecurityException.GetObjectData*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -484,6 +498,7 @@ items:
       type: System.String
       description: To be added.
   overload: System.Security.SecurityException.GrantedSet*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -508,6 +523,7 @@ items:
       type: System.Reflection.MethodInfo
       description: To be added.
   overload: System.Security.SecurityException.Method*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -532,6 +548,7 @@ items:
       type: System.String
       description: To be added.
   overload: System.Security.SecurityException.PermissionState*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -556,6 +573,7 @@ items:
       type: System.Type
       description: To be added.
   overload: System.Security.SecurityException.PermissionType*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -580,6 +598,7 @@ items:
       type: System.Object
       description: To be added.
   overload: System.Security.SecurityException.PermitOnlySetInstance*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -604,6 +623,7 @@ items:
       type: System.String
       description: To be added.
   overload: System.Security.SecurityException.RefusedSet*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -629,6 +649,7 @@ items:
       type: System.String
       description: To be added.
   overload: System.Security.SecurityException.ToString*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -653,6 +674,7 @@ items:
       type: System.String
       description: To be added.
   overload: System.Security.SecurityException.Url*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -677,6 +699,7 @@ items:
       type: System.Security.SecurityZone
       description: To be added.
   overload: System.Security.SecurityException.Zone*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -727,12 +750,6 @@ references:
   name: SecurityException(String,Exception)
   nameWithType: SecurityException.SecurityException(String,Exception)
   fullName: System.Security.SecurityException.SecurityException(String,Exception)
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
 - uid: System.Exception
   parent: System
   isExternal: false
@@ -745,12 +762,6 @@ references:
   name: SecurityException(String,Type)
   nameWithType: SecurityException.SecurityException(String,Type)
   fullName: System.Security.SecurityException.SecurityException(String,Type)
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
 - uid: System.Type
   parent: System
   isExternal: false
@@ -763,42 +774,12 @@ references:
   name: SecurityException(String,Type,String)
   nameWithType: SecurityException.SecurityException(String,Type,String)
   fullName: System.Security.SecurityException.SecurityException(String,Type,String)
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
-- uid: System.Type
-  parent: System
-  isExternal: false
-  name: Type
-  nameWithType: Type
-  fullName: System.Type
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
 - uid: System.Security.SecurityException.#ctor(System.String,System.Object,System.Object,System.Reflection.MethodInfo,System.Object,System.Security.IPermission)
   parent: System.Security.SecurityException
   isExternal: false
   name: SecurityException(String,Object,Object,MethodInfo,Object,IPermission)
   nameWithType: SecurityException.SecurityException(String,Object,Object,MethodInfo,Object,IPermission)
   fullName: System.Security.SecurityException.SecurityException(String,Object,Object,MethodInfo,Object,IPermission)
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
-- uid: System.Object
-  parent: System
-  isExternal: false
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
 - uid: System.Object
   parent: System
   isExternal: false
@@ -811,12 +792,6 @@ references:
   name: MethodInfo
   nameWithType: MethodInfo
   fullName: System.Reflection.MethodInfo
-- uid: System.Object
-  parent: System
-  isExternal: false
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
 - uid: System.Security.IPermission
   parent: System.Security
   isExternal: false
@@ -829,12 +804,6 @@ references:
   name: SecurityException(String,AssemblyName,PermissionSet,PermissionSet,MethodInfo,SecurityAction,Object,IPermission,Evidence)
   nameWithType: SecurityException.SecurityException(String,AssemblyName,PermissionSet,PermissionSet,MethodInfo,SecurityAction,Object,IPermission,Evidence)
   fullName: System.Security.SecurityException.SecurityException(String,AssemblyName,PermissionSet,PermissionSet,MethodInfo,SecurityAction,Object,IPermission,Evidence)
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
 - uid: System.Reflection.AssemblyName
   parent: System.Reflection
   isExternal: false
@@ -847,36 +816,12 @@ references:
   name: PermissionSet
   nameWithType: PermissionSet
   fullName: System.Security.PermissionSet
-- uid: System.Security.PermissionSet
-  parent: System.Security
-  isExternal: false
-  name: PermissionSet
-  nameWithType: PermissionSet
-  fullName: System.Security.PermissionSet
-- uid: System.Reflection.MethodInfo
-  parent: System.Reflection
-  isExternal: false
-  name: MethodInfo
-  nameWithType: MethodInfo
-  fullName: System.Reflection.MethodInfo
 - uid: System.Security.Permissions.SecurityAction
   parent: System.Security.Permissions
   isExternal: false
   name: SecurityAction
   nameWithType: SecurityAction
   fullName: System.Security.Permissions.SecurityAction
-- uid: System.Object
-  parent: System
-  isExternal: false
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
-- uid: System.Security.IPermission
-  parent: System.Security
-  isExternal: false
-  name: IPermission
-  nameWithType: IPermission
-  fullName: System.Security.IPermission
 - uid: System.Security.Policy.Evidence
   parent: System.Security.Policy
   isExternal: false
@@ -889,174 +834,84 @@ references:
   name: Action
   nameWithType: SecurityException.Action
   fullName: System.Security.SecurityException.Action
-- uid: System.Security.Permissions.SecurityAction
-  parent: System.Security.Permissions
-  isExternal: false
-  name: SecurityAction
-  nameWithType: SecurityAction
-  fullName: System.Security.Permissions.SecurityAction
 - uid: System.Security.SecurityException.Demanded
   parent: System.Security.SecurityException
   isExternal: false
   name: Demanded
   nameWithType: SecurityException.Demanded
   fullName: System.Security.SecurityException.Demanded
-- uid: System.Object
-  parent: System
-  isExternal: false
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
 - uid: System.Security.SecurityException.DenySetInstance
   parent: System.Security.SecurityException
   isExternal: false
   name: DenySetInstance
   nameWithType: SecurityException.DenySetInstance
   fullName: System.Security.SecurityException.DenySetInstance
-- uid: System.Object
-  parent: System
-  isExternal: false
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
 - uid: System.Security.SecurityException.FailedAssemblyInfo
   parent: System.Security.SecurityException
   isExternal: false
   name: FailedAssemblyInfo
   nameWithType: SecurityException.FailedAssemblyInfo
   fullName: System.Security.SecurityException.FailedAssemblyInfo
-- uid: System.Reflection.AssemblyName
-  parent: System.Reflection
-  isExternal: false
-  name: AssemblyName
-  nameWithType: AssemblyName
-  fullName: System.Reflection.AssemblyName
 - uid: System.Security.SecurityException.FirstPermissionThatFailed
   parent: System.Security.SecurityException
   isExternal: false
   name: FirstPermissionThatFailed
   nameWithType: SecurityException.FirstPermissionThatFailed
   fullName: System.Security.SecurityException.FirstPermissionThatFailed
-- uid: System.Security.IPermission
-  parent: System.Security
-  isExternal: false
-  name: IPermission
-  nameWithType: IPermission
-  fullName: System.Security.IPermission
 - uid: System.Security.SecurityException.GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
   parent: System.Security.SecurityException
   isExternal: false
   name: GetObjectData(SerializationInfo,StreamingContext)
   nameWithType: SecurityException.GetObjectData(SerializationInfo,StreamingContext)
   fullName: System.Security.SecurityException.GetObjectData(SerializationInfo,StreamingContext)
-- uid: System.Runtime.Serialization.SerializationInfo
-  parent: System.Runtime.Serialization
-  isExternal: false
-  name: SerializationInfo
-  nameWithType: SerializationInfo
-  fullName: System.Runtime.Serialization.SerializationInfo
-- uid: System.Runtime.Serialization.StreamingContext
-  parent: System.Runtime.Serialization
-  isExternal: false
-  name: StreamingContext
-  nameWithType: StreamingContext
-  fullName: System.Runtime.Serialization.StreamingContext
 - uid: System.Security.SecurityException.GrantedSet
   parent: System.Security.SecurityException
   isExternal: false
   name: GrantedSet
   nameWithType: SecurityException.GrantedSet
   fullName: System.Security.SecurityException.GrantedSet
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
 - uid: System.Security.SecurityException.Method
   parent: System.Security.SecurityException
   isExternal: false
   name: Method
   nameWithType: SecurityException.Method
   fullName: System.Security.SecurityException.Method
-- uid: System.Reflection.MethodInfo
-  parent: System.Reflection
-  isExternal: false
-  name: MethodInfo
-  nameWithType: MethodInfo
-  fullName: System.Reflection.MethodInfo
 - uid: System.Security.SecurityException.PermissionState
   parent: System.Security.SecurityException
   isExternal: false
   name: PermissionState
   nameWithType: SecurityException.PermissionState
   fullName: System.Security.SecurityException.PermissionState
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
 - uid: System.Security.SecurityException.PermissionType
   parent: System.Security.SecurityException
   isExternal: false
   name: PermissionType
   nameWithType: SecurityException.PermissionType
   fullName: System.Security.SecurityException.PermissionType
-- uid: System.Type
-  parent: System
-  isExternal: false
-  name: Type
-  nameWithType: Type
-  fullName: System.Type
 - uid: System.Security.SecurityException.PermitOnlySetInstance
   parent: System.Security.SecurityException
   isExternal: false
   name: PermitOnlySetInstance
   nameWithType: SecurityException.PermitOnlySetInstance
   fullName: System.Security.SecurityException.PermitOnlySetInstance
-- uid: System.Object
-  parent: System
-  isExternal: false
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
 - uid: System.Security.SecurityException.RefusedSet
   parent: System.Security.SecurityException
   isExternal: false
   name: RefusedSet
   nameWithType: SecurityException.RefusedSet
   fullName: System.Security.SecurityException.RefusedSet
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
 - uid: System.Security.SecurityException.ToString
   parent: System.Security.SecurityException
   isExternal: false
   name: ToString()
   nameWithType: SecurityException.ToString()
   fullName: System.Security.SecurityException.ToString()
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
 - uid: System.Security.SecurityException.Url
   parent: System.Security.SecurityException
   isExternal: false
   name: Url
   nameWithType: SecurityException.Url
   fullName: System.Security.SecurityException.Url
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
 - uid: System.Security.SecurityException.Zone
   parent: System.Security.SecurityException
   isExternal: false

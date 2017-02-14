@@ -75,6 +75,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.Threading.SemaphoreSlim.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -103,6 +104,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.Threading.SemaphoreSlim.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -127,6 +129,7 @@ items:
       type: System.Threading.WaitHandle
       description: To be added.
   overload: System.Threading.SemaphoreSlim.AvailableWaitHandle*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -151,6 +154,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.Threading.SemaphoreSlim.CurrentCount*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -173,6 +177,7 @@ items:
     content: public void Dispose ();
     parameters: []
   overload: System.Threading.SemaphoreSlim.Dispose*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -198,6 +203,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Threading.SemaphoreSlim.Dispose*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -223,6 +229,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.Threading.SemaphoreSlim.Release*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -251,6 +258,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.Threading.SemaphoreSlim.Release*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -273,6 +281,7 @@ items:
     content: public void Wait ();
     parameters: []
   overload: System.Threading.SemaphoreSlim.Wait*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -301,6 +310,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Threading.SemaphoreSlim.Wait*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -326,6 +336,7 @@ items:
       type: System.Threading.CancellationToken
       description: To be added.
   overload: System.Threading.SemaphoreSlim.Wait*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -354,6 +365,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Threading.SemaphoreSlim.Wait*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -385,6 +397,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Threading.SemaphoreSlim.Wait*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -416,6 +429,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Threading.SemaphoreSlim.Wait*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -441,6 +455,7 @@ items:
       type: System.Threading.Tasks.Task
       description: To be added.
   overload: System.Threading.SemaphoreSlim.WaitAsync*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -469,6 +484,7 @@ items:
       type: System.Threading.Tasks.Task{System.Boolean}
       description: To be added.
   overload: System.Threading.SemaphoreSlim.WaitAsync*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -497,6 +513,7 @@ items:
       type: System.Threading.Tasks.Task
       description: To be added.
   overload: System.Threading.SemaphoreSlim.WaitAsync*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -525,6 +542,7 @@ items:
       type: System.Threading.Tasks.Task{System.Boolean}
       description: To be added.
   overload: System.Threading.SemaphoreSlim.WaitAsync*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -556,6 +574,7 @@ items:
       type: System.Threading.Tasks.Task{System.Boolean}
       description: To be added.
   overload: System.Threading.SemaphoreSlim.WaitAsync*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -587,6 +606,7 @@ items:
       type: System.Threading.Tasks.Task{System.Boolean}
       description: To be added.
   overload: System.Threading.SemaphoreSlim.WaitAsync*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -613,18 +633,6 @@ references:
   name: SemaphoreSlim(Int32,Int32)
   nameWithType: SemaphoreSlim.SemaphoreSlim(Int32,Int32)
   fullName: System.Threading.SemaphoreSlim.SemaphoreSlim(Int32,Int32)
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
 - uid: System.Threading.SemaphoreSlim.AvailableWaitHandle
   parent: System.Threading.SemaphoreSlim
   isExternal: false
@@ -643,12 +651,6 @@ references:
   name: CurrentCount
   nameWithType: SemaphoreSlim.CurrentCount
   fullName: System.Threading.SemaphoreSlim.CurrentCount
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
 - uid: System.Threading.SemaphoreSlim.Dispose
   parent: System.Threading.SemaphoreSlim
   isExternal: false
@@ -673,30 +675,12 @@ references:
   name: Release()
   nameWithType: SemaphoreSlim.Release()
   fullName: System.Threading.SemaphoreSlim.Release()
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
 - uid: System.Threading.SemaphoreSlim.Release(System.Int32)
   parent: System.Threading.SemaphoreSlim
   isExternal: false
   name: Release(Int32)
   nameWithType: SemaphoreSlim.Release(Int32)
   fullName: System.Threading.SemaphoreSlim.Release(Int32)
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
 - uid: System.Threading.SemaphoreSlim.Wait
   parent: System.Threading.SemaphoreSlim
   isExternal: false
@@ -709,18 +693,6 @@ references:
   name: Wait(Int32)
   nameWithType: SemaphoreSlim.Wait(Int32)
   fullName: System.Threading.SemaphoreSlim.Wait(Int32)
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
 - uid: System.Threading.SemaphoreSlim.Wait(System.Threading.CancellationToken)
   parent: System.Threading.SemaphoreSlim
   isExternal: false
@@ -739,12 +711,6 @@ references:
   name: Wait(TimeSpan)
   nameWithType: SemaphoreSlim.Wait(TimeSpan)
   fullName: System.Threading.SemaphoreSlim.Wait(TimeSpan)
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
 - uid: System.TimeSpan
   parent: System
   isExternal: false
@@ -757,48 +723,12 @@ references:
   name: Wait(Int32,CancellationToken)
   nameWithType: SemaphoreSlim.Wait(Int32,CancellationToken)
   fullName: System.Threading.SemaphoreSlim.Wait(Int32,CancellationToken)
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: System.Threading.CancellationToken
-  parent: System.Threading
-  isExternal: false
-  name: CancellationToken
-  nameWithType: CancellationToken
-  fullName: System.Threading.CancellationToken
 - uid: System.Threading.SemaphoreSlim.Wait(System.TimeSpan,System.Threading.CancellationToken)
   parent: System.Threading.SemaphoreSlim
   isExternal: false
   name: Wait(TimeSpan,CancellationToken)
   nameWithType: SemaphoreSlim.Wait(TimeSpan,CancellationToken)
   fullName: System.Threading.SemaphoreSlim.Wait(TimeSpan,CancellationToken)
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
-- uid: System.TimeSpan
-  parent: System
-  isExternal: false
-  name: TimeSpan
-  nameWithType: TimeSpan
-  fullName: System.TimeSpan
-- uid: System.Threading.CancellationToken
-  parent: System.Threading
-  isExternal: false
-  name: CancellationToken
-  nameWithType: CancellationToken
-  fullName: System.Threading.CancellationToken
 - uid: System.Threading.SemaphoreSlim.WaitAsync
   parent: System.Threading.SemaphoreSlim
   isExternal: false
@@ -823,96 +753,45 @@ references:
   name: Task<Boolean>
   nameWithType: Task<Boolean>
   fullName: System.Threading.Tasks.Task<System.Boolean>
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: Task<System.Boolean>
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: Boolean
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
 - uid: System.Threading.SemaphoreSlim.WaitAsync(System.Threading.CancellationToken)
   parent: System.Threading.SemaphoreSlim
   isExternal: false
   name: WaitAsync(CancellationToken)
   nameWithType: SemaphoreSlim.WaitAsync(CancellationToken)
   fullName: System.Threading.SemaphoreSlim.WaitAsync(CancellationToken)
-- uid: System.Threading.Tasks.Task
-  parent: System.Threading.Tasks
-  isExternal: false
-  name: Task
-  nameWithType: Task
-  fullName: System.Threading.Tasks.Task
-- uid: System.Threading.CancellationToken
-  parent: System.Threading
-  isExternal: false
-  name: CancellationToken
-  nameWithType: CancellationToken
-  fullName: System.Threading.CancellationToken
 - uid: System.Threading.SemaphoreSlim.WaitAsync(System.TimeSpan)
   parent: System.Threading.SemaphoreSlim
   isExternal: false
   name: WaitAsync(TimeSpan)
   nameWithType: SemaphoreSlim.WaitAsync(TimeSpan)
   fullName: System.Threading.SemaphoreSlim.WaitAsync(TimeSpan)
-- uid: System.Threading.Tasks.Task{System.Boolean}
-  parent: System.Threading.Tasks
-  isExternal: false
-  name: Task<Boolean>
-  nameWithType: Task<Boolean>
-  fullName: System.Threading.Tasks.Task<System.Boolean>
-- uid: System.TimeSpan
-  parent: System
-  isExternal: false
-  name: TimeSpan
-  nameWithType: TimeSpan
-  fullName: System.TimeSpan
 - uid: System.Threading.SemaphoreSlim.WaitAsync(System.Int32,System.Threading.CancellationToken)
   parent: System.Threading.SemaphoreSlim
   isExternal: false
   name: WaitAsync(Int32,CancellationToken)
   nameWithType: SemaphoreSlim.WaitAsync(Int32,CancellationToken)
   fullName: System.Threading.SemaphoreSlim.WaitAsync(Int32,CancellationToken)
-- uid: System.Threading.Tasks.Task{System.Boolean}
-  parent: System.Threading.Tasks
-  isExternal: false
-  name: Task<Boolean>
-  nameWithType: Task<Boolean>
-  fullName: System.Threading.Tasks.Task<System.Boolean>
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: System.Threading.CancellationToken
-  parent: System.Threading
-  isExternal: false
-  name: CancellationToken
-  nameWithType: CancellationToken
-  fullName: System.Threading.CancellationToken
 - uid: System.Threading.SemaphoreSlim.WaitAsync(System.TimeSpan,System.Threading.CancellationToken)
   parent: System.Threading.SemaphoreSlim
   isExternal: false
   name: WaitAsync(TimeSpan,CancellationToken)
   nameWithType: SemaphoreSlim.WaitAsync(TimeSpan,CancellationToken)
   fullName: System.Threading.SemaphoreSlim.WaitAsync(TimeSpan,CancellationToken)
-- uid: System.Threading.Tasks.Task{System.Boolean}
-  parent: System.Threading.Tasks
-  isExternal: false
-  name: Task<Boolean>
-  nameWithType: Task<Boolean>
-  fullName: System.Threading.Tasks.Task<System.Boolean>
-- uid: System.TimeSpan
-  parent: System
-  isExternal: false
-  name: TimeSpan
-  nameWithType: TimeSpan
-  fullName: System.TimeSpan
-- uid: System.Threading.CancellationToken
-  parent: System.Threading
-  isExternal: false
-  name: CancellationToken
-  nameWithType: CancellationToken
-  fullName: System.Threading.CancellationToken
 - uid: System.Threading.SemaphoreSlim.#ctor*
   parent: System.Threading.SemaphoreSlim
   isExternal: false

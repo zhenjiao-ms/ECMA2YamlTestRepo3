@@ -56,6 +56,7 @@ items:
       type: System.Text.DecoderReplacementFallback
       description: To be added.
   overload: System.Text.DecoderReplacementFallbackBuffer.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -87,6 +88,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Text.DecoderReplacementFallbackBuffer.Fallback*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -112,6 +114,7 @@ items:
       type: System.Char
       description: To be added.
   overload: System.Text.DecoderReplacementFallbackBuffer.GetNextChar*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -137,6 +140,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Text.DecoderReplacementFallbackBuffer.MovePrevious*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -161,6 +165,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.Text.DecoderReplacementFallbackBuffer.Remaining*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -183,6 +188,7 @@ items:
     content: public override void Reset ();
     parameters: []
   overload: System.Text.DecoderReplacementFallbackBuffer.Reset*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -215,12 +221,20 @@ references:
   name: Boolean
   nameWithType: Boolean
   fullName: System.Boolean
-- uid: System.Byte
+- uid: System.Byte[]
   parent: System
   isExternal: false
   name: Byte
   nameWithType: Byte
   fullName: System.Byte[]
+  spec.csharp:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: Byte[]
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
 - uid: System.Int32
   parent: System
   isExternal: false
@@ -245,24 +259,12 @@ references:
   name: MovePrevious()
   nameWithType: DecoderReplacementFallbackBuffer.MovePrevious()
   fullName: System.Text.DecoderReplacementFallbackBuffer.MovePrevious()
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
 - uid: System.Text.DecoderReplacementFallbackBuffer.Remaining
   parent: System.Text.DecoderReplacementFallbackBuffer
   isExternal: false
   name: Remaining
   nameWithType: DecoderReplacementFallbackBuffer.Remaining
   fullName: System.Text.DecoderReplacementFallbackBuffer.Remaining
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
 - uid: System.Text.DecoderReplacementFallbackBuffer.Reset
   parent: System.Text.DecoderReplacementFallbackBuffer
   isExternal: false

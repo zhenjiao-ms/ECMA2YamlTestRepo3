@@ -50,6 +50,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Runtime.Remoting.Contexts.IDynamicMessageSink.ProcessMessageFinish*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -81,6 +82,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Runtime.Remoting.Contexts.IDynamicMessageSink.ProcessMessageStart*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -104,36 +106,12 @@ references:
   name: Boolean
   nameWithType: Boolean
   fullName: System.Boolean
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
 - uid: System.Runtime.Remoting.Contexts.IDynamicMessageSink.ProcessMessageStart(System.Runtime.Remoting.Messaging.IMessage,System.Boolean,System.Boolean)
   parent: System.Runtime.Remoting.Contexts.IDynamicMessageSink
   isExternal: false
   name: ProcessMessageStart(IMessage,Boolean,Boolean)
   nameWithType: IDynamicMessageSink.ProcessMessageStart(IMessage,Boolean,Boolean)
   fullName: System.Runtime.Remoting.Contexts.IDynamicMessageSink.ProcessMessageStart(IMessage,Boolean,Boolean)
-- uid: System.Runtime.Remoting.Messaging.IMessage
-  parent: System.Runtime.Remoting.Messaging
-  isExternal: false
-  name: IMessage
-  nameWithType: IMessage
-  fullName: System.Runtime.Remoting.Messaging.IMessage
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
 - uid: System.Runtime.Remoting.Contexts.IDynamicMessageSink.ProcessMessageFinish*
   parent: System.Runtime.Remoting.Contexts.IDynamicMessageSink
   isExternal: false

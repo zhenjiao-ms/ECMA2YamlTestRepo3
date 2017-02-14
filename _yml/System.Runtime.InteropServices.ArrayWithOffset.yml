@@ -56,6 +56,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.Runtime.InteropServices.ArrayWithOffset.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -84,6 +85,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Runtime.InteropServices.ArrayWithOffset.Equals*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -112,6 +114,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Runtime.InteropServices.ArrayWithOffset.Equals*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -137,6 +140,7 @@ items:
       type: System.Object
       description: To be added.
   overload: System.Runtime.InteropServices.ArrayWithOffset.GetArray*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -162,6 +166,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.Runtime.InteropServices.ArrayWithOffset.GetHashCode*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -187,6 +192,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.Runtime.InteropServices.ArrayWithOffset.GetOffset*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -218,6 +224,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Runtime.InteropServices.ArrayWithOffset.op_Equality*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -249,6 +256,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Runtime.InteropServices.ArrayWithOffset.op_Inequality*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -287,24 +295,12 @@ references:
   name: Boolean
   nameWithType: Boolean
   fullName: System.Boolean
-- uid: System.Object
-  parent: System
-  isExternal: false
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
 - uid: System.Runtime.InteropServices.ArrayWithOffset.Equals(System.Runtime.InteropServices.ArrayWithOffset)
   parent: System.Runtime.InteropServices.ArrayWithOffset
   isExternal: false
   name: Equals(ArrayWithOffset)
   nameWithType: ArrayWithOffset.Equals(ArrayWithOffset)
   fullName: System.Runtime.InteropServices.ArrayWithOffset.Equals(ArrayWithOffset)
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
 - uid: System.Runtime.InteropServices.ArrayWithOffset
   parent: System.Runtime.InteropServices
   isExternal: false
@@ -317,84 +313,30 @@ references:
   name: GetArray()
   nameWithType: ArrayWithOffset.GetArray()
   fullName: System.Runtime.InteropServices.ArrayWithOffset.GetArray()
-- uid: System.Object
-  parent: System
-  isExternal: false
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
 - uid: System.Runtime.InteropServices.ArrayWithOffset.GetHashCode
   parent: System.Runtime.InteropServices.ArrayWithOffset
   isExternal: false
   name: GetHashCode()
   nameWithType: ArrayWithOffset.GetHashCode()
   fullName: System.Runtime.InteropServices.ArrayWithOffset.GetHashCode()
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
 - uid: System.Runtime.InteropServices.ArrayWithOffset.GetOffset
   parent: System.Runtime.InteropServices.ArrayWithOffset
   isExternal: false
   name: GetOffset()
   nameWithType: ArrayWithOffset.GetOffset()
   fullName: System.Runtime.InteropServices.ArrayWithOffset.GetOffset()
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
 - uid: System.Runtime.InteropServices.ArrayWithOffset.op_Equality(System.Runtime.InteropServices.ArrayWithOffset,System.Runtime.InteropServices.ArrayWithOffset)
   parent: System.Runtime.InteropServices.ArrayWithOffset
   isExternal: false
   name: op_Equality(ArrayWithOffset,ArrayWithOffset)
   nameWithType: ArrayWithOffset.op_Equality(ArrayWithOffset,ArrayWithOffset)
   fullName: System.Runtime.InteropServices.ArrayWithOffset.op_Equality(ArrayWithOffset,ArrayWithOffset)
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
-- uid: System.Runtime.InteropServices.ArrayWithOffset
-  parent: System.Runtime.InteropServices
-  isExternal: false
-  name: ArrayWithOffset
-  nameWithType: ArrayWithOffset
-  fullName: System.Runtime.InteropServices.ArrayWithOffset
-- uid: System.Runtime.InteropServices.ArrayWithOffset
-  parent: System.Runtime.InteropServices
-  isExternal: false
-  name: ArrayWithOffset
-  nameWithType: ArrayWithOffset
-  fullName: System.Runtime.InteropServices.ArrayWithOffset
 - uid: System.Runtime.InteropServices.ArrayWithOffset.op_Inequality(System.Runtime.InteropServices.ArrayWithOffset,System.Runtime.InteropServices.ArrayWithOffset)
   parent: System.Runtime.InteropServices.ArrayWithOffset
   isExternal: false
   name: op_Inequality(ArrayWithOffset,ArrayWithOffset)
   nameWithType: ArrayWithOffset.op_Inequality(ArrayWithOffset,ArrayWithOffset)
   fullName: System.Runtime.InteropServices.ArrayWithOffset.op_Inequality(ArrayWithOffset,ArrayWithOffset)
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
-- uid: System.Runtime.InteropServices.ArrayWithOffset
-  parent: System.Runtime.InteropServices
-  isExternal: false
-  name: ArrayWithOffset
-  nameWithType: ArrayWithOffset
-  fullName: System.Runtime.InteropServices.ArrayWithOffset
-- uid: System.Runtime.InteropServices.ArrayWithOffset
-  parent: System.Runtime.InteropServices
-  isExternal: false
-  name: ArrayWithOffset
-  nameWithType: ArrayWithOffset
-  fullName: System.Runtime.InteropServices.ArrayWithOffset
 - uid: System.Runtime.InteropServices.ArrayWithOffset.#ctor*
   parent: System.Runtime.InteropServices.ArrayWithOffset
   isExternal: false

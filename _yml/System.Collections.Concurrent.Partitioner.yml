@@ -63,6 +63,7 @@ items:
       type: System.Collections.Concurrent.OrderablePartitioner{System.Tuple{System.Int32,System.Int32}}
       description: To be added.
   overload: System.Collections.Concurrent.Partitioner.Create*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -94,6 +95,7 @@ items:
       type: System.Collections.Concurrent.OrderablePartitioner{System.Tuple{System.Int64,System.Int64}}
       description: To be added.
   overload: System.Collections.Concurrent.Partitioner.Create*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -128,6 +130,7 @@ items:
       type: System.Collections.Concurrent.OrderablePartitioner{System.Tuple{System.Int32,System.Int32}}
       description: To be added.
   overload: System.Collections.Concurrent.Partitioner.Create*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -162,6 +165,7 @@ items:
       type: System.Collections.Concurrent.OrderablePartitioner{System.Tuple{System.Int64,System.Int64}}
       description: To be added.
   overload: System.Collections.Concurrent.Partitioner.Create*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -190,6 +194,7 @@ items:
       type: System.Collections.Concurrent.OrderablePartitioner`1
       description: To be added.
   overload: System.Collections.Concurrent.Partitioner.Create<TSource>*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -221,6 +226,7 @@ items:
       type: System.Collections.Concurrent.OrderablePartitioner`1
       description: To be added.
   overload: System.Collections.Concurrent.Partitioner.Create<TSource>*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -252,6 +258,7 @@ items:
       type: System.Collections.Concurrent.OrderablePartitioner`1
       description: To be added.
   overload: System.Collections.Concurrent.Partitioner.Create<TSource>*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -283,6 +290,7 @@ items:
       type: System.Collections.Concurrent.OrderablePartitioner`1
       description: To be added.
   overload: System.Collections.Concurrent.Partitioner.Create<TSource>*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -303,12 +311,38 @@ references:
   name: OrderablePartitioner<Tuple<Int32,Int32>>
   nameWithType: OrderablePartitioner<Tuple<Int32,Int32>>
   fullName: System.Collections.Concurrent.OrderablePartitioner<System.Tuple<System.Int32,System.Int32>>
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
+  spec.csharp:
+  - uid: System.Collections.Concurrent.OrderablePartitioner`1
+    name: OrderablePartitioner
+    nameWithType: OrderablePartitioner
+    fullName: OrderablePartitioner<System.Tuple<System.Int32,System.Int32>>
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Tuple`2
+    name: Tuple
+    nameWithType: Tuple
+    fullName: Tuple<System.Int32,System.Int32>
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: Int32
+  - name: ','
+    nameWithType: ','
+    fullName: ','
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: Int32
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
 - uid: System.Int32
   parent: System
   isExternal: false
@@ -327,12 +361,38 @@ references:
   name: OrderablePartitioner<Tuple<Int64,Int64>>
   nameWithType: OrderablePartitioner<Tuple<Int64,Int64>>
   fullName: System.Collections.Concurrent.OrderablePartitioner<System.Tuple<System.Int64,System.Int64>>
-- uid: System.Int64
-  parent: System
-  isExternal: false
-  name: Int64
-  nameWithType: Int64
-  fullName: System.Int64
+  spec.csharp:
+  - uid: System.Collections.Concurrent.OrderablePartitioner`1
+    name: OrderablePartitioner
+    nameWithType: OrderablePartitioner
+    fullName: OrderablePartitioner<System.Tuple<System.Int64,System.Int64>>
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Tuple`2
+    name: Tuple
+    nameWithType: Tuple
+    fullName: Tuple<System.Int64,System.Int64>
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Int64
+    name: Int64
+    nameWithType: Int64
+    fullName: Int64
+  - name: ','
+    nameWithType: ','
+    fullName: ','
+  - uid: System.Int64
+    name: Int64
+    nameWithType: Int64
+    fullName: Int64
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
 - uid: System.Int64
   parent: System
   isExternal: false
@@ -345,60 +405,12 @@ references:
   name: Create(Int32,Int32,Int32)
   nameWithType: Partitioner.Create(Int32,Int32,Int32)
   fullName: System.Collections.Concurrent.Partitioner.Create(Int32,Int32,Int32)
-- uid: System.Collections.Concurrent.OrderablePartitioner{System.Tuple{System.Int32,System.Int32}}
-  parent: System.Collections.Concurrent
-  isExternal: false
-  name: OrderablePartitioner<Tuple<Int32,Int32>>
-  nameWithType: OrderablePartitioner<Tuple<Int32,Int32>>
-  fullName: System.Collections.Concurrent.OrderablePartitioner<System.Tuple<System.Int32,System.Int32>>
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
 - uid: System.Collections.Concurrent.Partitioner.Create(System.Int64,System.Int64,System.Int64)
   parent: System.Collections.Concurrent.Partitioner
   isExternal: false
   name: Create(Int64,Int64,Int64)
   nameWithType: Partitioner.Create(Int64,Int64,Int64)
   fullName: System.Collections.Concurrent.Partitioner.Create(Int64,Int64,Int64)
-- uid: System.Collections.Concurrent.OrderablePartitioner{System.Tuple{System.Int64,System.Int64}}
-  parent: System.Collections.Concurrent
-  isExternal: false
-  name: OrderablePartitioner<Tuple<Int64,Int64>>
-  nameWithType: OrderablePartitioner<Tuple<Int64,Int64>>
-  fullName: System.Collections.Concurrent.OrderablePartitioner<System.Tuple<System.Int64,System.Int64>>
-- uid: System.Int64
-  parent: System
-  isExternal: false
-  name: Int64
-  nameWithType: Int64
-  fullName: System.Int64
-- uid: System.Int64
-  parent: System
-  isExternal: false
-  name: Int64
-  nameWithType: Int64
-  fullName: System.Int64
-- uid: System.Int64
-  parent: System
-  isExternal: false
-  name: Int64
-  nameWithType: Int64
-  fullName: System.Int64
 - uid: System.Collections.Concurrent.Partitioner.Create``1(System.Collections.Generic.IEnumerable{``0})
   parent: System.Collections.Concurrent.Partitioner
   isExternal: false
@@ -417,24 +429,27 @@ references:
   name: IEnumerable<TSource>
   nameWithType: IEnumerable<TSource>
   fullName: System.Collections.Generic.IEnumerable<TSource>
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: IEnumerable<TSource>
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: TSource
+    name: TSource
+    nameWithType: TSource
+    fullName: TSource
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
 - uid: System.Collections.Concurrent.Partitioner.Create``1(System.Collections.Generic.IEnumerable{``0},System.Collections.Concurrent.EnumerablePartitionerOptions)
   parent: System.Collections.Concurrent.Partitioner
   isExternal: false
   name: Create(IEnumerable<TSource>,EnumerablePartitionerOptions)
   nameWithType: Partitioner.Create(IEnumerable<TSource>,EnumerablePartitionerOptions)
   fullName: System.Collections.Concurrent.Partitioner.Create(IEnumerable<TSource>,EnumerablePartitionerOptions)
-- uid: System.Collections.Concurrent.OrderablePartitioner`1
-  parent: System.Collections.Concurrent
-  isExternal: false
-  name: OrderablePartitioner<TSource>
-  nameWithType: OrderablePartitioner<TSource>
-  fullName: System.Collections.Concurrent.OrderablePartitioner<TSource>
-- uid: System.Collections.Generic.IEnumerable{TSource}
-  parent: System.Collections.Generic
-  isExternal: false
-  name: IEnumerable<TSource>
-  nameWithType: IEnumerable<TSource>
-  fullName: System.Collections.Generic.IEnumerable<TSource>
 - uid: System.Collections.Concurrent.EnumerablePartitionerOptions
   parent: System.Collections.Concurrent
   isExternal: false
@@ -447,18 +462,27 @@ references:
   name: Create(IList<TSource>,Boolean)
   nameWithType: Partitioner.Create(IList<TSource>,Boolean)
   fullName: System.Collections.Concurrent.Partitioner.Create(IList<TSource>,Boolean)
-- uid: System.Collections.Concurrent.OrderablePartitioner`1
-  parent: System.Collections.Concurrent
-  isExternal: false
-  name: OrderablePartitioner<TSource>
-  nameWithType: OrderablePartitioner<TSource>
-  fullName: System.Collections.Concurrent.OrderablePartitioner<TSource>
 - uid: System.Collections.Generic.IList{TSource}
   parent: System.Collections.Generic
   isExternal: false
   name: IList<TSource>
   nameWithType: IList<TSource>
   fullName: System.Collections.Generic.IList<TSource>
+  spec.csharp:
+  - uid: System.Collections.Generic.IList`1
+    name: IList
+    nameWithType: IList
+    fullName: IList<TSource>
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: TSource
+    name: TSource
+    nameWithType: TSource
+    fullName: TSource
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
 - uid: System.Boolean
   parent: System
   isExternal: false
@@ -471,24 +495,19 @@ references:
   name: Create(TSource[],Boolean)
   nameWithType: Partitioner.Create(TSource[],Boolean)
   fullName: System.Collections.Concurrent.Partitioner.Create(TSource[],Boolean)
-- uid: System.Collections.Concurrent.OrderablePartitioner`1
-  parent: System.Collections.Concurrent
-  isExternal: false
-  name: OrderablePartitioner<TSource>
-  nameWithType: OrderablePartitioner<TSource>
-  fullName: System.Collections.Concurrent.OrderablePartitioner<TSource>
-- uid: TSource
-  parent: ''
+- uid: TSource[]
   isExternal: true
   name: TSource
   nameWithType: TSource
   fullName: TSource[]
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
+  spec.csharp:
+  - uid: TSource
+    name: TSource
+    nameWithType: TSource
+    fullName: TSource[]
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
 - uid: System.Collections.Concurrent.Partitioner.Create*
   parent: System.Collections.Concurrent.Partitioner
   isExternal: false

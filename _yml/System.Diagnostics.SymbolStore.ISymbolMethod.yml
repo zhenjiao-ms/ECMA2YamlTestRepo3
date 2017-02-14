@@ -52,6 +52,7 @@ items:
       type: System.Diagnostics.SymbolStore.ISymbolNamespace
       description: To be added.
   overload: System.Diagnostics.SymbolStore.ISymbolMethod.GetNamespace*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -86,6 +87,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.Diagnostics.SymbolStore.ISymbolMethod.GetOffset*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -111,6 +113,7 @@ items:
       type: System.Diagnostics.SymbolStore.ISymbolVariable[]
       description: To be added.
   overload: System.Diagnostics.SymbolStore.ISymbolMethod.GetParameters*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -145,6 +148,7 @@ items:
       type: System.Int32[]
       description: To be added.
   overload: System.Diagnostics.SymbolStore.ISymbolMethod.GetRanges*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -173,6 +177,7 @@ items:
       type: System.Diagnostics.SymbolStore.ISymbolScope
       description: To be added.
   overload: System.Diagnostics.SymbolStore.ISymbolMethod.GetScope*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -213,6 +218,7 @@ items:
       type: System.Int32[]
       description: To be added.
   overload: System.Diagnostics.SymbolStore.ISymbolMethod.GetSequencePoints*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -247,6 +253,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Diagnostics.SymbolStore.ISymbolMethod.GetSourceStartEnd*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -271,6 +278,7 @@ items:
       type: System.Diagnostics.SymbolStore.ISymbolScope
       description: To be added.
   overload: System.Diagnostics.SymbolStore.ISymbolMethod.RootScope*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -295,6 +303,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.Diagnostics.SymbolStore.ISymbolMethod.SequencePointCount*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -319,6 +328,7 @@ items:
       type: System.Diagnostics.SymbolStore.SymbolToken
       description: To be added.
   overload: System.Diagnostics.SymbolStore.ISymbolMethod.Token*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -354,60 +364,46 @@ references:
   name: ISymbolDocument
   nameWithType: ISymbolDocument
   fullName: System.Diagnostics.SymbolStore.ISymbolDocument
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
 - uid: System.Diagnostics.SymbolStore.ISymbolMethod.GetParameters
   parent: System.Diagnostics.SymbolStore.ISymbolMethod
   isExternal: false
   name: GetParameters()
   nameWithType: ISymbolMethod.GetParameters()
   fullName: System.Diagnostics.SymbolStore.ISymbolMethod.GetParameters()
-- uid: System.Diagnostics.SymbolStore.ISymbolVariable
+- uid: System.Diagnostics.SymbolStore.ISymbolVariable[]
   parent: System.Diagnostics.SymbolStore
   isExternal: false
   name: ISymbolVariable
   nameWithType: ISymbolVariable
   fullName: System.Diagnostics.SymbolStore.ISymbolVariable[]
+  spec.csharp:
+  - uid: System.Diagnostics.SymbolStore.ISymbolVariable
+    name: ISymbolVariable
+    nameWithType: ISymbolVariable
+    fullName: ISymbolVariable[]
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
 - uid: System.Diagnostics.SymbolStore.ISymbolMethod.GetRanges(System.Diagnostics.SymbolStore.ISymbolDocument,System.Int32,System.Int32)
   parent: System.Diagnostics.SymbolStore.ISymbolMethod
   isExternal: false
   name: GetRanges(ISymbolDocument,Int32,Int32)
   nameWithType: ISymbolMethod.GetRanges(ISymbolDocument,Int32,Int32)
   fullName: System.Diagnostics.SymbolStore.ISymbolMethod.GetRanges(ISymbolDocument,Int32,Int32)
-- uid: System.Int32
+- uid: System.Int32[]
   parent: System
   isExternal: false
   name: Int32
   nameWithType: Int32
   fullName: System.Int32[]
-- uid: System.Diagnostics.SymbolStore.ISymbolDocument
-  parent: System.Diagnostics.SymbolStore
-  isExternal: false
-  name: ISymbolDocument
-  nameWithType: ISymbolDocument
-  fullName: System.Diagnostics.SymbolStore.ISymbolDocument
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
+  spec.csharp:
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: Int32[]
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
 - uid: System.Diagnostics.SymbolStore.ISymbolMethod.GetScope(System.Int32)
   parent: System.Diagnostics.SymbolStore.ISymbolMethod
   isExternal: false
@@ -420,54 +416,26 @@ references:
   name: ISymbolScope
   nameWithType: ISymbolScope
   fullName: System.Diagnostics.SymbolStore.ISymbolScope
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
 - uid: System.Diagnostics.SymbolStore.ISymbolMethod.GetSequencePoints(System.Int32[],System.Diagnostics.SymbolStore.ISymbolDocument[],System.Int32[],System.Int32[],System.Int32[],System.Int32[])
   parent: System.Diagnostics.SymbolStore.ISymbolMethod
   isExternal: false
   name: GetSequencePoints(Int32[],ISymbolDocument[],Int32[],Int32[],Int32[],Int32[])
   nameWithType: ISymbolMethod.GetSequencePoints(Int32[],ISymbolDocument[],Int32[],Int32[],Int32[],Int32[])
   fullName: System.Diagnostics.SymbolStore.ISymbolMethod.GetSequencePoints(Int32[],ISymbolDocument[],Int32[],Int32[],Int32[],Int32[])
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32[]
-- uid: System.Diagnostics.SymbolStore.ISymbolDocument
+- uid: System.Diagnostics.SymbolStore.ISymbolDocument[]
   parent: System.Diagnostics.SymbolStore
   isExternal: false
   name: ISymbolDocument
   nameWithType: ISymbolDocument
   fullName: System.Diagnostics.SymbolStore.ISymbolDocument[]
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32[]
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32[]
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32[]
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32[]
+  spec.csharp:
+  - uid: System.Diagnostics.SymbolStore.ISymbolDocument
+    name: ISymbolDocument
+    nameWithType: ISymbolDocument
+    fullName: ISymbolDocument[]
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
 - uid: System.Diagnostics.SymbolStore.ISymbolMethod.GetSourceStartEnd(System.Diagnostics.SymbolStore.ISymbolDocument[],System.Int32[],System.Int32[])
   parent: System.Diagnostics.SymbolStore.ISymbolMethod
   isExternal: false
@@ -480,48 +448,18 @@ references:
   name: Boolean
   nameWithType: Boolean
   fullName: System.Boolean
-- uid: System.Diagnostics.SymbolStore.ISymbolDocument
-  parent: System.Diagnostics.SymbolStore
-  isExternal: false
-  name: ISymbolDocument
-  nameWithType: ISymbolDocument
-  fullName: System.Diagnostics.SymbolStore.ISymbolDocument[]
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32[]
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32[]
 - uid: System.Diagnostics.SymbolStore.ISymbolMethod.RootScope
   parent: System.Diagnostics.SymbolStore.ISymbolMethod
   isExternal: false
   name: RootScope
   nameWithType: ISymbolMethod.RootScope
   fullName: System.Diagnostics.SymbolStore.ISymbolMethod.RootScope
-- uid: System.Diagnostics.SymbolStore.ISymbolScope
-  parent: System.Diagnostics.SymbolStore
-  isExternal: false
-  name: ISymbolScope
-  nameWithType: ISymbolScope
-  fullName: System.Diagnostics.SymbolStore.ISymbolScope
 - uid: System.Diagnostics.SymbolStore.ISymbolMethod.SequencePointCount
   parent: System.Diagnostics.SymbolStore.ISymbolMethod
   isExternal: false
   name: SequencePointCount
   nameWithType: ISymbolMethod.SequencePointCount
   fullName: System.Diagnostics.SymbolStore.ISymbolMethod.SequencePointCount
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
 - uid: System.Diagnostics.SymbolStore.ISymbolMethod.Token
   parent: System.Diagnostics.SymbolStore.ISymbolMethod
   isExternal: false

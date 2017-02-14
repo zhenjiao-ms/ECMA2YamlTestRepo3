@@ -60,6 +60,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.Globalization.CharUnicodeInfo.GetDecimalDigitValue*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -91,6 +92,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.Globalization.CharUnicodeInfo.GetDecimalDigitValue*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -119,6 +121,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.Globalization.CharUnicodeInfo.GetDigitValue*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -150,6 +153,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.Globalization.CharUnicodeInfo.GetDigitValue*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -178,6 +182,7 @@ items:
       type: System.Double
       description: To be added.
   overload: System.Globalization.CharUnicodeInfo.GetNumericValue*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -209,6 +214,7 @@ items:
       type: System.Double
       description: To be added.
   overload: System.Globalization.CharUnicodeInfo.GetNumericValue*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -237,6 +243,7 @@ items:
       type: System.Globalization.UnicodeCategory
       description: To be added.
   overload: System.Globalization.CharUnicodeInfo.GetUnicodeCategory*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -268,6 +275,7 @@ items:
       type: System.Globalization.UnicodeCategory
       description: To be added.
   overload: System.Globalization.CharUnicodeInfo.GetUnicodeCategory*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -300,66 +308,24 @@ references:
   name: GetDecimalDigitValue(String,Int32)
   nameWithType: CharUnicodeInfo.GetDecimalDigitValue(String,Int32)
   fullName: System.Globalization.CharUnicodeInfo.GetDecimalDigitValue(String,Int32)
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
 - uid: System.String
   parent: System
   isExternal: false
   name: String
   nameWithType: String
   fullName: System.String
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
 - uid: System.Globalization.CharUnicodeInfo.GetDigitValue(System.Char)
   parent: System.Globalization.CharUnicodeInfo
   isExternal: false
   name: GetDigitValue(Char)
   nameWithType: CharUnicodeInfo.GetDigitValue(Char)
   fullName: System.Globalization.CharUnicodeInfo.GetDigitValue(Char)
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: System.Char
-  parent: System
-  isExternal: false
-  name: Char
-  nameWithType: Char
-  fullName: System.Char
 - uid: System.Globalization.CharUnicodeInfo.GetDigitValue(System.String,System.Int32)
   parent: System.Globalization.CharUnicodeInfo
   isExternal: false
   name: GetDigitValue(String,Int32)
   nameWithType: CharUnicodeInfo.GetDigitValue(String,Int32)
   fullName: System.Globalization.CharUnicodeInfo.GetDigitValue(String,Int32)
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
 - uid: System.Globalization.CharUnicodeInfo.GetNumericValue(System.Char)
   parent: System.Globalization.CharUnicodeInfo
   isExternal: false
@@ -372,36 +338,12 @@ references:
   name: Double
   nameWithType: Double
   fullName: System.Double
-- uid: System.Char
-  parent: System
-  isExternal: false
-  name: Char
-  nameWithType: Char
-  fullName: System.Char
 - uid: System.Globalization.CharUnicodeInfo.GetNumericValue(System.String,System.Int32)
   parent: System.Globalization.CharUnicodeInfo
   isExternal: false
   name: GetNumericValue(String,Int32)
   nameWithType: CharUnicodeInfo.GetNumericValue(String,Int32)
   fullName: System.Globalization.CharUnicodeInfo.GetNumericValue(String,Int32)
-- uid: System.Double
-  parent: System
-  isExternal: false
-  name: Double
-  nameWithType: Double
-  fullName: System.Double
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
 - uid: System.Globalization.CharUnicodeInfo.GetUnicodeCategory(System.Char)
   parent: System.Globalization.CharUnicodeInfo
   isExternal: false
@@ -414,36 +356,12 @@ references:
   name: UnicodeCategory
   nameWithType: UnicodeCategory
   fullName: System.Globalization.UnicodeCategory
-- uid: System.Char
-  parent: System
-  isExternal: false
-  name: Char
-  nameWithType: Char
-  fullName: System.Char
 - uid: System.Globalization.CharUnicodeInfo.GetUnicodeCategory(System.String,System.Int32)
   parent: System.Globalization.CharUnicodeInfo
   isExternal: false
   name: GetUnicodeCategory(String,Int32)
   nameWithType: CharUnicodeInfo.GetUnicodeCategory(String,Int32)
   fullName: System.Globalization.CharUnicodeInfo.GetUnicodeCategory(String,Int32)
-- uid: System.Globalization.UnicodeCategory
-  parent: System.Globalization
-  isExternal: false
-  name: UnicodeCategory
-  nameWithType: UnicodeCategory
-  fullName: System.Globalization.UnicodeCategory
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
 - uid: System.Globalization.CharUnicodeInfo.GetDecimalDigitValue*
   parent: System.Globalization.CharUnicodeInfo
   isExternal: false

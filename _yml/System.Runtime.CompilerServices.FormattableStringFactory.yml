@@ -56,6 +56,7 @@ items:
       type: System.FormattableString
       description: To be added.
   overload: System.Runtime.CompilerServices.FormattableStringFactory.Create*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -82,12 +83,20 @@ references:
   name: String
   nameWithType: String
   fullName: System.String
-- uid: System.Object
+- uid: System.Object[]
   parent: System
   isExternal: false
   name: Object
   nameWithType: Object
   fullName: System.Object[]
+  spec.csharp:
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: Object[]
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
 - uid: System.Runtime.CompilerServices.FormattableStringFactory.Create*
   parent: System.Runtime.CompilerServices.FormattableStringFactory
   isExternal: false

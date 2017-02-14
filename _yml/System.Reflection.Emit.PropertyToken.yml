@@ -50,6 +50,7 @@ items:
     return:
       type: System.Reflection.Emit.PropertyToken
       description: To be added.
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -78,6 +79,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Reflection.Emit.PropertyToken.Equals*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -106,6 +108,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Reflection.Emit.PropertyToken.Equals*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -131,6 +134,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.Reflection.Emit.PropertyToken.GetHashCode*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -162,6 +166,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Reflection.Emit.PropertyToken.op_Equality*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -193,6 +198,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Reflection.Emit.PropertyToken.op_Inequality*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -217,6 +223,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.Reflection.Emit.PropertyToken.Token*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -261,18 +268,6 @@ references:
   name: Equals(PropertyToken)
   nameWithType: PropertyToken.Equals(PropertyToken)
   fullName: System.Reflection.Emit.PropertyToken.Equals(PropertyToken)
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
-- uid: System.Reflection.Emit.PropertyToken
-  parent: System.Reflection.Emit
-  isExternal: false
-  name: PropertyToken
-  nameWithType: PropertyToken
-  fullName: System.Reflection.Emit.PropertyToken
 - uid: System.Reflection.Emit.PropertyToken.GetHashCode
   parent: System.Reflection.Emit.PropertyToken
   isExternal: false
@@ -291,60 +286,18 @@ references:
   name: op_Equality(PropertyToken,PropertyToken)
   nameWithType: PropertyToken.op_Equality(PropertyToken,PropertyToken)
   fullName: System.Reflection.Emit.PropertyToken.op_Equality(PropertyToken,PropertyToken)
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
-- uid: System.Reflection.Emit.PropertyToken
-  parent: System.Reflection.Emit
-  isExternal: false
-  name: PropertyToken
-  nameWithType: PropertyToken
-  fullName: System.Reflection.Emit.PropertyToken
-- uid: System.Reflection.Emit.PropertyToken
-  parent: System.Reflection.Emit
-  isExternal: false
-  name: PropertyToken
-  nameWithType: PropertyToken
-  fullName: System.Reflection.Emit.PropertyToken
 - uid: System.Reflection.Emit.PropertyToken.op_Inequality(System.Reflection.Emit.PropertyToken,System.Reflection.Emit.PropertyToken)
   parent: System.Reflection.Emit.PropertyToken
   isExternal: false
   name: op_Inequality(PropertyToken,PropertyToken)
   nameWithType: PropertyToken.op_Inequality(PropertyToken,PropertyToken)
   fullName: System.Reflection.Emit.PropertyToken.op_Inequality(PropertyToken,PropertyToken)
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
-- uid: System.Reflection.Emit.PropertyToken
-  parent: System.Reflection.Emit
-  isExternal: false
-  name: PropertyToken
-  nameWithType: PropertyToken
-  fullName: System.Reflection.Emit.PropertyToken
-- uid: System.Reflection.Emit.PropertyToken
-  parent: System.Reflection.Emit
-  isExternal: false
-  name: PropertyToken
-  nameWithType: PropertyToken
-  fullName: System.Reflection.Emit.PropertyToken
 - uid: System.Reflection.Emit.PropertyToken.Token
   parent: System.Reflection.Emit.PropertyToken
   isExternal: false
   name: Token
   nameWithType: PropertyToken.Token
   fullName: System.Reflection.Emit.PropertyToken.Token
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
 - uid: System.Reflection.Emit.PropertyToken.Equals*
   parent: System.Reflection.Emit.PropertyToken
   isExternal: false

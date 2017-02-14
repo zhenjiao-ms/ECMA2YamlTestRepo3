@@ -58,6 +58,7 @@ items:
     content: public SignatureDescription ();
     parameters: []
   overload: System.Security.Cryptography.SignatureDescription.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -83,6 +84,7 @@ items:
       type: System.Security.SecurityElement
       description: To be added.
   overload: System.Security.Cryptography.SignatureDescription.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -111,6 +113,7 @@ items:
       type: System.Security.Cryptography.AsymmetricSignatureDeformatter
       description: To be added.
   overload: System.Security.Cryptography.SignatureDescription.CreateDeformatter*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -136,6 +139,7 @@ items:
       type: System.Security.Cryptography.HashAlgorithm
       description: To be added.
   overload: System.Security.Cryptography.SignatureDescription.CreateDigest*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -164,6 +168,7 @@ items:
       type: System.Security.Cryptography.AsymmetricSignatureFormatter
       description: To be added.
   overload: System.Security.Cryptography.SignatureDescription.CreateFormatter*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -188,6 +193,7 @@ items:
       type: System.String
       description: To be added.
   overload: System.Security.Cryptography.SignatureDescription.DeformatterAlgorithm*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -212,6 +218,7 @@ items:
       type: System.String
       description: To be added.
   overload: System.Security.Cryptography.SignatureDescription.DigestAlgorithm*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -236,6 +243,7 @@ items:
       type: System.String
       description: To be added.
   overload: System.Security.Cryptography.SignatureDescription.FormatterAlgorithm*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -260,6 +268,7 @@ items:
       type: System.String
       description: To be added.
   overload: System.Security.Cryptography.SignatureDescription.KeyAlgorithm*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -328,12 +337,6 @@ references:
   name: AsymmetricSignatureFormatter
   nameWithType: AsymmetricSignatureFormatter
   fullName: System.Security.Cryptography.AsymmetricSignatureFormatter
-- uid: System.Security.Cryptography.AsymmetricAlgorithm
-  parent: System.Security.Cryptography
-  isExternal: false
-  name: AsymmetricAlgorithm
-  nameWithType: AsymmetricAlgorithm
-  fullName: System.Security.Cryptography.AsymmetricAlgorithm
 - uid: System.Security.Cryptography.SignatureDescription.DeformatterAlgorithm
   parent: System.Security.Cryptography.SignatureDescription
   isExternal: false
@@ -352,36 +355,18 @@ references:
   name: DigestAlgorithm
   nameWithType: SignatureDescription.DigestAlgorithm
   fullName: System.Security.Cryptography.SignatureDescription.DigestAlgorithm
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
 - uid: System.Security.Cryptography.SignatureDescription.FormatterAlgorithm
   parent: System.Security.Cryptography.SignatureDescription
   isExternal: false
   name: FormatterAlgorithm
   nameWithType: SignatureDescription.FormatterAlgorithm
   fullName: System.Security.Cryptography.SignatureDescription.FormatterAlgorithm
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
 - uid: System.Security.Cryptography.SignatureDescription.KeyAlgorithm
   parent: System.Security.Cryptography.SignatureDescription
   isExternal: false
   name: KeyAlgorithm
   nameWithType: SignatureDescription.KeyAlgorithm
   fullName: System.Security.Cryptography.SignatureDescription.KeyAlgorithm
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
 - uid: System.Security.Cryptography.SignatureDescription.#ctor*
   parent: System.Security.Cryptography.SignatureDescription
   isExternal: false

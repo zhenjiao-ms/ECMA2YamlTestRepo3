@@ -46,6 +46,7 @@ items:
     return:
       type: System.Security.Permissions.UIPermissionWindow
       description: To be added.
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -68,6 +69,7 @@ items:
     return:
       type: System.Security.Permissions.UIPermissionWindow
       description: To be added.
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -90,6 +92,7 @@ items:
     return:
       type: System.Security.Permissions.UIPermissionWindow
       description: To be added.
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -112,6 +115,7 @@ items:
     return:
       type: System.Security.Permissions.UIPermissionWindow
       description: To be added.
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -138,33 +142,15 @@ references:
   name: NoWindows
   nameWithType: UIPermissionWindow.NoWindows
   fullName: System.Security.Permissions.UIPermissionWindow.NoWindows
-- uid: System.Security.Permissions.UIPermissionWindow
-  parent: System.Security.Permissions
-  isExternal: false
-  name: UIPermissionWindow
-  nameWithType: UIPermissionWindow
-  fullName: System.Security.Permissions.UIPermissionWindow
 - uid: System.Security.Permissions.UIPermissionWindow.SafeSubWindows
   parent: System.Security.Permissions.UIPermissionWindow
   isExternal: false
   name: SafeSubWindows
   nameWithType: UIPermissionWindow.SafeSubWindows
   fullName: System.Security.Permissions.UIPermissionWindow.SafeSubWindows
-- uid: System.Security.Permissions.UIPermissionWindow
-  parent: System.Security.Permissions
-  isExternal: false
-  name: UIPermissionWindow
-  nameWithType: UIPermissionWindow
-  fullName: System.Security.Permissions.UIPermissionWindow
 - uid: System.Security.Permissions.UIPermissionWindow.SafeTopLevelWindows
   parent: System.Security.Permissions.UIPermissionWindow
   isExternal: false
   name: SafeTopLevelWindows
   nameWithType: UIPermissionWindow.SafeTopLevelWindows
   fullName: System.Security.Permissions.UIPermissionWindow.SafeTopLevelWindows
-- uid: System.Security.Permissions.UIPermissionWindow
-  parent: System.Security.Permissions
-  isExternal: false
-  name: UIPermissionWindow
-  nameWithType: UIPermissionWindow
-  fullName: System.Security.Permissions.UIPermissionWindow

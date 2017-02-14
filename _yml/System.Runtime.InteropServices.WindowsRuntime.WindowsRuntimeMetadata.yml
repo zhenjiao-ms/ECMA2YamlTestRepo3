@@ -51,6 +51,7 @@ items:
     return:
       type: System.EventHandler{System.Runtime.InteropServices.WindowsRuntime.DesignerNamespaceResolveEventArgs}
       description: To be added.
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -74,6 +75,7 @@ items:
     return:
       type: System.EventHandler{System.Runtime.InteropServices.WindowsRuntime.NamespaceResolveEventArgs}
       description: To be added.
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -105,6 +107,7 @@ items:
       type: System.Collections.Generic.IEnumerable{System.String}
       description: To be added.
   overload: System.Runtime.InteropServices.WindowsRuntime.WindowsRuntimeMetadata.ResolveNamespace*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -139,6 +142,7 @@ items:
       type: System.Collections.Generic.IEnumerable{System.String}
       description: To be added.
   overload: System.Runtime.InteropServices.WindowsRuntime.WindowsRuntimeMetadata.ResolveNamespace*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -159,6 +163,21 @@ references:
   name: EventHandler<DesignerNamespaceResolveEventArgs>
   nameWithType: EventHandler<DesignerNamespaceResolveEventArgs>
   fullName: System.EventHandler<System.Runtime.InteropServices.WindowsRuntime.DesignerNamespaceResolveEventArgs>
+  spec.csharp:
+  - uid: System.EventHandler`1
+    name: EventHandler
+    nameWithType: EventHandler
+    fullName: EventHandler<System.Runtime.InteropServices.WindowsRuntime.DesignerNamespaceResolveEventArgs>
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Runtime.InteropServices.WindowsRuntime.DesignerNamespaceResolveEventArgs
+    name: DesignerNamespaceResolveEventArgs
+    nameWithType: DesignerNamespaceResolveEventArgs
+    fullName: DesignerNamespaceResolveEventArgs
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
 - uid: System.Runtime.InteropServices.WindowsRuntime.WindowsRuntimeMetadata.ReflectionOnlyNamespaceResolve
   parent: System.Runtime.InteropServices.WindowsRuntime.WindowsRuntimeMetadata
   isExternal: false
@@ -171,6 +190,21 @@ references:
   name: EventHandler<NamespaceResolveEventArgs>
   nameWithType: EventHandler<NamespaceResolveEventArgs>
   fullName: System.EventHandler<System.Runtime.InteropServices.WindowsRuntime.NamespaceResolveEventArgs>
+  spec.csharp:
+  - uid: System.EventHandler`1
+    name: EventHandler
+    nameWithType: EventHandler
+    fullName: EventHandler<System.Runtime.InteropServices.WindowsRuntime.NamespaceResolveEventArgs>
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Runtime.InteropServices.WindowsRuntime.NamespaceResolveEventArgs
+    name: NamespaceResolveEventArgs
+    nameWithType: NamespaceResolveEventArgs
+    fullName: NamespaceResolveEventArgs
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
 - uid: System.Runtime.InteropServices.WindowsRuntime.WindowsRuntimeMetadata.ResolveNamespace(System.String,System.Collections.Generic.IEnumerable{System.String})
   parent: System.Runtime.InteropServices.WindowsRuntime.WindowsRuntimeMetadata
   isExternal: false
@@ -183,48 +217,33 @@ references:
   name: IEnumerable<String>
   nameWithType: IEnumerable<String>
   fullName: System.Collections.Generic.IEnumerable<System.String>
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: IEnumerable<System.String>
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: String
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
 - uid: System.String
   parent: System
   isExternal: false
   name: String
   nameWithType: String
   fullName: System.String
-- uid: System.Collections.Generic.IEnumerable{System.String}
-  parent: System.Collections.Generic
-  isExternal: false
-  name: IEnumerable<String>
-  nameWithType: IEnumerable<String>
-  fullName: System.Collections.Generic.IEnumerable<System.String>
 - uid: System.Runtime.InteropServices.WindowsRuntime.WindowsRuntimeMetadata.ResolveNamespace(System.String,System.String,System.Collections.Generic.IEnumerable{System.String})
   parent: System.Runtime.InteropServices.WindowsRuntime.WindowsRuntimeMetadata
   isExternal: false
   name: ResolveNamespace(String,String,IEnumerable<String>)
   nameWithType: WindowsRuntimeMetadata.ResolveNamespace(String,String,IEnumerable<String>)
   fullName: System.Runtime.InteropServices.WindowsRuntime.WindowsRuntimeMetadata.ResolveNamespace(String,String,IEnumerable<String>)
-- uid: System.Collections.Generic.IEnumerable{System.String}
-  parent: System.Collections.Generic
-  isExternal: false
-  name: IEnumerable<String>
-  nameWithType: IEnumerable<String>
-  fullName: System.Collections.Generic.IEnumerable<System.String>
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
-- uid: System.Collections.Generic.IEnumerable{System.String}
-  parent: System.Collections.Generic
-  isExternal: false
-  name: IEnumerable<String>
-  nameWithType: IEnumerable<String>
-  fullName: System.Collections.Generic.IEnumerable<System.String>
 - uid: System.Runtime.InteropServices.WindowsRuntime.WindowsRuntimeMetadata.ResolveNamespace*
   parent: System.Runtime.InteropServices.WindowsRuntime.WindowsRuntimeMetadata
   isExternal: false

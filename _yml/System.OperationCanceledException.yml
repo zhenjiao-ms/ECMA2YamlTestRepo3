@@ -70,6 +70,7 @@ items:
     content: public OperationCanceledException ();
     parameters: []
   overload: System.OperationCanceledException.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -95,6 +96,7 @@ items:
       type: System.String
       description: To be added.
   overload: System.OperationCanceledException.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -120,6 +122,7 @@ items:
       type: System.Threading.CancellationToken
       description: To be added.
   overload: System.OperationCanceledException.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -148,6 +151,7 @@ items:
       type: System.Runtime.Serialization.StreamingContext
       description: To be added.
   overload: System.OperationCanceledException.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -176,6 +180,7 @@ items:
       type: System.Exception
       description: To be added.
   overload: System.OperationCanceledException.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -204,6 +209,7 @@ items:
       type: System.Threading.CancellationToken
       description: To be added.
   overload: System.OperationCanceledException.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -235,6 +241,7 @@ items:
       type: System.Threading.CancellationToken
       description: To be added.
   overload: System.OperationCanceledException.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -259,6 +266,7 @@ items:
       type: System.Threading.CancellationToken
       description: To be added.
   overload: System.OperationCanceledException.CancellationToken*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -321,12 +329,6 @@ references:
   name: OperationCanceledException(String,Exception)
   nameWithType: OperationCanceledException.OperationCanceledException(String,Exception)
   fullName: System.OperationCanceledException.OperationCanceledException(String,Exception)
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
 - uid: System.Exception
   parent: System
   isExternal: false
@@ -339,54 +341,18 @@ references:
   name: OperationCanceledException(String,CancellationToken)
   nameWithType: OperationCanceledException.OperationCanceledException(String,CancellationToken)
   fullName: System.OperationCanceledException.OperationCanceledException(String,CancellationToken)
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
-- uid: System.Threading.CancellationToken
-  parent: System.Threading
-  isExternal: false
-  name: CancellationToken
-  nameWithType: CancellationToken
-  fullName: System.Threading.CancellationToken
 - uid: System.OperationCanceledException.#ctor(System.String,System.Exception,System.Threading.CancellationToken)
   parent: System.OperationCanceledException
   isExternal: false
   name: OperationCanceledException(String,Exception,CancellationToken)
   nameWithType: OperationCanceledException.OperationCanceledException(String,Exception,CancellationToken)
   fullName: System.OperationCanceledException.OperationCanceledException(String,Exception,CancellationToken)
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
-- uid: System.Exception
-  parent: System
-  isExternal: false
-  name: Exception
-  nameWithType: Exception
-  fullName: System.Exception
-- uid: System.Threading.CancellationToken
-  parent: System.Threading
-  isExternal: false
-  name: CancellationToken
-  nameWithType: CancellationToken
-  fullName: System.Threading.CancellationToken
 - uid: System.OperationCanceledException.CancellationToken
   parent: System.OperationCanceledException
   isExternal: false
   name: CancellationToken
   nameWithType: OperationCanceledException.CancellationToken
   fullName: System.OperationCanceledException.CancellationToken
-- uid: System.Threading.CancellationToken
-  parent: System.Threading
-  isExternal: false
-  name: CancellationToken
-  nameWithType: CancellationToken
-  fullName: System.Threading.CancellationToken
 - uid: System.OperationCanceledException.#ctor*
   parent: System.OperationCanceledException
   isExternal: false

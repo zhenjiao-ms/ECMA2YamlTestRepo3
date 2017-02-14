@@ -86,6 +86,7 @@ items:
       type: System.String
       description: To be added.
   overload: System.MulticastDelegate.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -114,6 +115,7 @@ items:
       type: System.String
       description: To be added.
   overload: System.MulticastDelegate.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -142,6 +144,7 @@ items:
       type: System.Delegate
       description: To be added.
   overload: System.MulticastDelegate.CombineImpl*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -170,6 +173,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.MulticastDelegate.Equals*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -195,6 +199,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.MulticastDelegate.GetHashCode*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -220,6 +225,7 @@ items:
       type: System.Delegate[]
       description: To be added.
   overload: System.MulticastDelegate.GetInvocationList*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -245,6 +251,7 @@ items:
       type: System.Reflection.MethodInfo
       description: To be added.
   overload: System.MulticastDelegate.GetMethodImpl*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -273,6 +280,7 @@ items:
       type: System.Runtime.Serialization.StreamingContext
       description: To be added.
   overload: System.MulticastDelegate.GetObjectData*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -304,6 +312,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.MulticastDelegate.op_Equality*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -335,6 +344,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.MulticastDelegate.op_Inequality*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -363,6 +373,7 @@ items:
       type: System.Delegate
       description: To be added.
   overload: System.MulticastDelegate.RemoveImpl*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -401,30 +412,12 @@ references:
   name: Type
   nameWithType: Type
   fullName: System.Type
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
 - uid: System.MulticastDelegate.CombineImpl(System.Delegate)
   parent: System.MulticastDelegate
   isExternal: false
   name: CombineImpl(Delegate)
   nameWithType: MulticastDelegate.CombineImpl(Delegate)
   fullName: System.MulticastDelegate.CombineImpl(Delegate)
-- uid: System.Delegate
-  parent: System
-  isExternal: false
-  name: Delegate
-  nameWithType: Delegate
-  fullName: System.Delegate
-- uid: System.Delegate
-  parent: System
-  isExternal: false
-  name: Delegate
-  nameWithType: Delegate
-  fullName: System.Delegate
 - uid: System.MulticastDelegate.Equals(System.Object)
   parent: System.MulticastDelegate
   isExternal: false
@@ -437,12 +430,6 @@ references:
   name: Boolean
   nameWithType: Boolean
   fullName: System.Boolean
-- uid: System.Object
-  parent: System
-  isExternal: false
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
 - uid: System.MulticastDelegate.GetHashCode
   parent: System.MulticastDelegate
   isExternal: false
@@ -461,12 +448,20 @@ references:
   name: GetInvocationList()
   nameWithType: MulticastDelegate.GetInvocationList()
   fullName: System.MulticastDelegate.GetInvocationList()
-- uid: System.Delegate
+- uid: System.Delegate[]
   parent: System
   isExternal: false
   name: Delegate
   nameWithType: Delegate
   fullName: System.Delegate[]
+  spec.csharp:
+  - uid: System.Delegate
+    name: Delegate
+    nameWithType: Delegate
+    fullName: Delegate[]
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
 - uid: System.MulticastDelegate.GetMethodImpl
   parent: System.MulticastDelegate
   isExternal: false
@@ -503,18 +498,6 @@ references:
   name: op_Equality(MulticastDelegate,MulticastDelegate)
   nameWithType: MulticastDelegate.op_Equality(MulticastDelegate,MulticastDelegate)
   fullName: System.MulticastDelegate.op_Equality(MulticastDelegate,MulticastDelegate)
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
-- uid: System.MulticastDelegate
-  parent: System
-  isExternal: false
-  name: MulticastDelegate
-  nameWithType: MulticastDelegate
-  fullName: System.MulticastDelegate
 - uid: System.MulticastDelegate
   parent: System
   isExternal: false
@@ -527,42 +510,12 @@ references:
   name: op_Inequality(MulticastDelegate,MulticastDelegate)
   nameWithType: MulticastDelegate.op_Inequality(MulticastDelegate,MulticastDelegate)
   fullName: System.MulticastDelegate.op_Inequality(MulticastDelegate,MulticastDelegate)
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
-- uid: System.MulticastDelegate
-  parent: System
-  isExternal: false
-  name: MulticastDelegate
-  nameWithType: MulticastDelegate
-  fullName: System.MulticastDelegate
-- uid: System.MulticastDelegate
-  parent: System
-  isExternal: false
-  name: MulticastDelegate
-  nameWithType: MulticastDelegate
-  fullName: System.MulticastDelegate
 - uid: System.MulticastDelegate.RemoveImpl(System.Delegate)
   parent: System.MulticastDelegate
   isExternal: false
   name: RemoveImpl(Delegate)
   nameWithType: MulticastDelegate.RemoveImpl(Delegate)
   fullName: System.MulticastDelegate.RemoveImpl(Delegate)
-- uid: System.Delegate
-  parent: System
-  isExternal: false
-  name: Delegate
-  nameWithType: Delegate
-  fullName: System.Delegate
-- uid: System.Delegate
-  parent: System
-  isExternal: false
-  name: Delegate
-  nameWithType: Delegate
-  fullName: System.Delegate
 - uid: System.MulticastDelegate.#ctor*
   parent: System.MulticastDelegate
   isExternal: false

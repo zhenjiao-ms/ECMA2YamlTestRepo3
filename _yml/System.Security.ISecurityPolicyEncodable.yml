@@ -47,6 +47,7 @@ items:
       type: System.Security.Policy.PolicyLevel
       description: To be added.
   overload: System.Security.ISecurityPolicyEncodable.FromXml*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -75,6 +76,7 @@ items:
       type: System.Security.SecurityElement
       description: To be added.
   overload: System.Security.ISecurityPolicyEncodable.ToXml*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -104,18 +106,6 @@ references:
   name: ToXml(PolicyLevel)
   nameWithType: ISecurityPolicyEncodable.ToXml(PolicyLevel)
   fullName: System.Security.ISecurityPolicyEncodable.ToXml(PolicyLevel)
-- uid: System.Security.SecurityElement
-  parent: System.Security
-  isExternal: false
-  name: SecurityElement
-  nameWithType: SecurityElement
-  fullName: System.Security.SecurityElement
-- uid: System.Security.Policy.PolicyLevel
-  parent: System.Security.Policy
-  isExternal: false
-  name: PolicyLevel
-  nameWithType: PolicyLevel
-  fullName: System.Security.Policy.PolicyLevel
 - uid: System.Security.ISecurityPolicyEncodable.FromXml*
   parent: System.Security.ISecurityPolicyEncodable
   isExternal: false

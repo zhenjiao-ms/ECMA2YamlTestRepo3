@@ -78,6 +78,7 @@ items:
       type: System.Int64
       description: To be added.
   overload: System.BitConverter.DoubleToInt64Bits*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -106,6 +107,7 @@ items:
       type: System.Byte[]
       description: To be added.
   overload: System.BitConverter.GetBytes*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -134,6 +136,7 @@ items:
       type: System.Byte[]
       description: To be added.
   overload: System.BitConverter.GetBytes*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -162,6 +165,7 @@ items:
       type: System.Byte[]
       description: To be added.
   overload: System.BitConverter.GetBytes*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -190,6 +194,7 @@ items:
       type: System.Byte[]
       description: To be added.
   overload: System.BitConverter.GetBytes*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -218,6 +223,7 @@ items:
       type: System.Byte[]
       description: To be added.
   overload: System.BitConverter.GetBytes*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -246,6 +252,7 @@ items:
       type: System.Byte[]
       description: To be added.
   overload: System.BitConverter.GetBytes*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -274,6 +281,7 @@ items:
       type: System.Byte[]
       description: To be added.
   overload: System.BitConverter.GetBytes*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -302,6 +310,7 @@ items:
       type: System.Byte[]
       description: To be added.
   overload: System.BitConverter.GetBytes*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -330,6 +339,7 @@ items:
       type: System.Byte[]
       description: To be added.
   overload: System.BitConverter.GetBytes*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -358,6 +368,7 @@ items:
       type: System.Byte[]
       description: To be added.
   overload: System.BitConverter.GetBytes*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -386,6 +397,7 @@ items:
       type: System.Double
       description: To be added.
   overload: System.BitConverter.Int64BitsToDouble*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -409,6 +421,7 @@ items:
     return:
       type: System.Boolean
       description: To be added.
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -440,6 +453,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.BitConverter.ToBoolean*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -471,6 +485,7 @@ items:
       type: System.Char
       description: To be added.
   overload: System.BitConverter.ToChar*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -502,6 +517,7 @@ items:
       type: System.Double
       description: To be added.
   overload: System.BitConverter.ToDouble*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -533,6 +549,7 @@ items:
       type: System.Int16
       description: To be added.
   overload: System.BitConverter.ToInt16*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -564,6 +581,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.BitConverter.ToInt32*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -595,6 +613,7 @@ items:
       type: System.Int64
       description: To be added.
   overload: System.BitConverter.ToInt64*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -626,6 +645,7 @@ items:
       type: System.Single
       description: To be added.
   overload: System.BitConverter.ToSingle*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -654,6 +674,7 @@ items:
       type: System.String
       description: To be added.
   overload: System.BitConverter.ToString*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -685,6 +706,7 @@ items:
       type: System.String
       description: To be added.
   overload: System.BitConverter.ToString*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -719,6 +741,7 @@ items:
       type: System.String
       description: To be added.
   overload: System.BitConverter.ToString*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -750,6 +773,7 @@ items:
       type: System.UInt16
       description: To be added.
   overload: System.BitConverter.ToUInt16*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -781,6 +805,7 @@ items:
       type: System.UInt32
       description: To be added.
   overload: System.BitConverter.ToUInt32*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -812,6 +837,7 @@ items:
       type: System.UInt64
       description: To be added.
   overload: System.BitConverter.ToUInt64*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -844,12 +870,20 @@ references:
   name: GetBytes(Boolean)
   nameWithType: BitConverter.GetBytes(Boolean)
   fullName: System.BitConverter.GetBytes(Boolean)
-- uid: System.Byte
+- uid: System.Byte[]
   parent: System
   isExternal: false
   name: Byte
   nameWithType: Byte
   fullName: System.Byte[]
+  spec.csharp:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: Byte[]
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
 - uid: System.Boolean
   parent: System
   isExternal: false
@@ -862,12 +896,6 @@ references:
   name: GetBytes(Char)
   nameWithType: BitConverter.GetBytes(Char)
   fullName: System.BitConverter.GetBytes(Char)
-- uid: System.Byte
-  parent: System
-  isExternal: false
-  name: Byte
-  nameWithType: Byte
-  fullName: System.Byte[]
 - uid: System.Char
   parent: System
   isExternal: false
@@ -880,30 +908,12 @@ references:
   name: GetBytes(Double)
   nameWithType: BitConverter.GetBytes(Double)
   fullName: System.BitConverter.GetBytes(Double)
-- uid: System.Byte
-  parent: System
-  isExternal: false
-  name: Byte
-  nameWithType: Byte
-  fullName: System.Byte[]
-- uid: System.Double
-  parent: System
-  isExternal: false
-  name: Double
-  nameWithType: Double
-  fullName: System.Double
 - uid: System.BitConverter.GetBytes(System.Int16)
   parent: System.BitConverter
   isExternal: false
   name: GetBytes(Int16)
   nameWithType: BitConverter.GetBytes(Int16)
   fullName: System.BitConverter.GetBytes(Int16)
-- uid: System.Byte
-  parent: System
-  isExternal: false
-  name: Byte
-  nameWithType: Byte
-  fullName: System.Byte[]
 - uid: System.Int16
   parent: System
   isExternal: false
@@ -916,12 +926,6 @@ references:
   name: GetBytes(Int32)
   nameWithType: BitConverter.GetBytes(Int32)
   fullName: System.BitConverter.GetBytes(Int32)
-- uid: System.Byte
-  parent: System
-  isExternal: false
-  name: Byte
-  nameWithType: Byte
-  fullName: System.Byte[]
 - uid: System.Int32
   parent: System
   isExternal: false
@@ -934,30 +938,12 @@ references:
   name: GetBytes(Int64)
   nameWithType: BitConverter.GetBytes(Int64)
   fullName: System.BitConverter.GetBytes(Int64)
-- uid: System.Byte
-  parent: System
-  isExternal: false
-  name: Byte
-  nameWithType: Byte
-  fullName: System.Byte[]
-- uid: System.Int64
-  parent: System
-  isExternal: false
-  name: Int64
-  nameWithType: Int64
-  fullName: System.Int64
 - uid: System.BitConverter.GetBytes(System.Single)
   parent: System.BitConverter
   isExternal: false
   name: GetBytes(Single)
   nameWithType: BitConverter.GetBytes(Single)
   fullName: System.BitConverter.GetBytes(Single)
-- uid: System.Byte
-  parent: System
-  isExternal: false
-  name: Byte
-  nameWithType: Byte
-  fullName: System.Byte[]
 - uid: System.Single
   parent: System
   isExternal: false
@@ -970,12 +956,6 @@ references:
   name: GetBytes(UInt16)
   nameWithType: BitConverter.GetBytes(UInt16)
   fullName: System.BitConverter.GetBytes(UInt16)
-- uid: System.Byte
-  parent: System
-  isExternal: false
-  name: Byte
-  nameWithType: Byte
-  fullName: System.Byte[]
 - uid: System.UInt16
   parent: System
   isExternal: false
@@ -988,12 +968,6 @@ references:
   name: GetBytes(UInt32)
   nameWithType: BitConverter.GetBytes(UInt32)
   fullName: System.BitConverter.GetBytes(UInt32)
-- uid: System.Byte
-  parent: System
-  isExternal: false
-  name: Byte
-  nameWithType: Byte
-  fullName: System.Byte[]
 - uid: System.UInt32
   parent: System
   isExternal: false
@@ -1006,12 +980,6 @@ references:
   name: GetBytes(UInt64)
   nameWithType: BitConverter.GetBytes(UInt64)
   fullName: System.BitConverter.GetBytes(UInt64)
-- uid: System.Byte
-  parent: System
-  isExternal: false
-  name: Byte
-  nameWithType: Byte
-  fullName: System.Byte[]
 - uid: System.UInt64
   parent: System
   isExternal: false
@@ -1024,198 +992,54 @@ references:
   name: Int64BitsToDouble(Int64)
   nameWithType: BitConverter.Int64BitsToDouble(Int64)
   fullName: System.BitConverter.Int64BitsToDouble(Int64)
-- uid: System.Double
-  parent: System
-  isExternal: false
-  name: Double
-  nameWithType: Double
-  fullName: System.Double
-- uid: System.Int64
-  parent: System
-  isExternal: false
-  name: Int64
-  nameWithType: Int64
-  fullName: System.Int64
 - uid: System.BitConverter.IsLittleEndian
   parent: System.BitConverter
   isExternal: false
   name: IsLittleEndian
   nameWithType: BitConverter.IsLittleEndian
   fullName: System.BitConverter.IsLittleEndian
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
 - uid: System.BitConverter.ToBoolean(System.Byte[],System.Int32)
   parent: System.BitConverter
   isExternal: false
   name: ToBoolean(Byte[],Int32)
   nameWithType: BitConverter.ToBoolean(Byte[],Int32)
   fullName: System.BitConverter.ToBoolean(Byte[],Int32)
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
-- uid: System.Byte
-  parent: System
-  isExternal: false
-  name: Byte
-  nameWithType: Byte
-  fullName: System.Byte[]
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
 - uid: System.BitConverter.ToChar(System.Byte[],System.Int32)
   parent: System.BitConverter
   isExternal: false
   name: ToChar(Byte[],Int32)
   nameWithType: BitConverter.ToChar(Byte[],Int32)
   fullName: System.BitConverter.ToChar(Byte[],Int32)
-- uid: System.Char
-  parent: System
-  isExternal: false
-  name: Char
-  nameWithType: Char
-  fullName: System.Char
-- uid: System.Byte
-  parent: System
-  isExternal: false
-  name: Byte
-  nameWithType: Byte
-  fullName: System.Byte[]
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
 - uid: System.BitConverter.ToDouble(System.Byte[],System.Int32)
   parent: System.BitConverter
   isExternal: false
   name: ToDouble(Byte[],Int32)
   nameWithType: BitConverter.ToDouble(Byte[],Int32)
   fullName: System.BitConverter.ToDouble(Byte[],Int32)
-- uid: System.Double
-  parent: System
-  isExternal: false
-  name: Double
-  nameWithType: Double
-  fullName: System.Double
-- uid: System.Byte
-  parent: System
-  isExternal: false
-  name: Byte
-  nameWithType: Byte
-  fullName: System.Byte[]
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
 - uid: System.BitConverter.ToInt16(System.Byte[],System.Int32)
   parent: System.BitConverter
   isExternal: false
   name: ToInt16(Byte[],Int32)
   nameWithType: BitConverter.ToInt16(Byte[],Int32)
   fullName: System.BitConverter.ToInt16(Byte[],Int32)
-- uid: System.Int16
-  parent: System
-  isExternal: false
-  name: Int16
-  nameWithType: Int16
-  fullName: System.Int16
-- uid: System.Byte
-  parent: System
-  isExternal: false
-  name: Byte
-  nameWithType: Byte
-  fullName: System.Byte[]
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
 - uid: System.BitConverter.ToInt32(System.Byte[],System.Int32)
   parent: System.BitConverter
   isExternal: false
   name: ToInt32(Byte[],Int32)
   nameWithType: BitConverter.ToInt32(Byte[],Int32)
   fullName: System.BitConverter.ToInt32(Byte[],Int32)
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: System.Byte
-  parent: System
-  isExternal: false
-  name: Byte
-  nameWithType: Byte
-  fullName: System.Byte[]
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
 - uid: System.BitConverter.ToInt64(System.Byte[],System.Int32)
   parent: System.BitConverter
   isExternal: false
   name: ToInt64(Byte[],Int32)
   nameWithType: BitConverter.ToInt64(Byte[],Int32)
   fullName: System.BitConverter.ToInt64(Byte[],Int32)
-- uid: System.Int64
-  parent: System
-  isExternal: false
-  name: Int64
-  nameWithType: Int64
-  fullName: System.Int64
-- uid: System.Byte
-  parent: System
-  isExternal: false
-  name: Byte
-  nameWithType: Byte
-  fullName: System.Byte[]
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
 - uid: System.BitConverter.ToSingle(System.Byte[],System.Int32)
   parent: System.BitConverter
   isExternal: false
   name: ToSingle(Byte[],Int32)
   nameWithType: BitConverter.ToSingle(Byte[],Int32)
   fullName: System.BitConverter.ToSingle(Byte[],Int32)
-- uid: System.Single
-  parent: System
-  isExternal: false
-  name: Single
-  nameWithType: Single
-  fullName: System.Single
-- uid: System.Byte
-  parent: System
-  isExternal: false
-  name: Byte
-  nameWithType: Byte
-  fullName: System.Byte[]
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
 - uid: System.BitConverter.ToString(System.Byte[])
   parent: System.BitConverter
   isExternal: false
@@ -1228,138 +1052,36 @@ references:
   name: String
   nameWithType: String
   fullName: System.String
-- uid: System.Byte
-  parent: System
-  isExternal: false
-  name: Byte
-  nameWithType: Byte
-  fullName: System.Byte[]
 - uid: System.BitConverter.ToString(System.Byte[],System.Int32)
   parent: System.BitConverter
   isExternal: false
   name: ToString(Byte[],Int32)
   nameWithType: BitConverter.ToString(Byte[],Int32)
   fullName: System.BitConverter.ToString(Byte[],Int32)
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
-- uid: System.Byte
-  parent: System
-  isExternal: false
-  name: Byte
-  nameWithType: Byte
-  fullName: System.Byte[]
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
 - uid: System.BitConverter.ToString(System.Byte[],System.Int32,System.Int32)
   parent: System.BitConverter
   isExternal: false
   name: ToString(Byte[],Int32,Int32)
   nameWithType: BitConverter.ToString(Byte[],Int32,Int32)
   fullName: System.BitConverter.ToString(Byte[],Int32,Int32)
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
-- uid: System.Byte
-  parent: System
-  isExternal: false
-  name: Byte
-  nameWithType: Byte
-  fullName: System.Byte[]
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
 - uid: System.BitConverter.ToUInt16(System.Byte[],System.Int32)
   parent: System.BitConverter
   isExternal: false
   name: ToUInt16(Byte[],Int32)
   nameWithType: BitConverter.ToUInt16(Byte[],Int32)
   fullName: System.BitConverter.ToUInt16(Byte[],Int32)
-- uid: System.UInt16
-  parent: System
-  isExternal: false
-  name: UInt16
-  nameWithType: UInt16
-  fullName: System.UInt16
-- uid: System.Byte
-  parent: System
-  isExternal: false
-  name: Byte
-  nameWithType: Byte
-  fullName: System.Byte[]
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
 - uid: System.BitConverter.ToUInt32(System.Byte[],System.Int32)
   parent: System.BitConverter
   isExternal: false
   name: ToUInt32(Byte[],Int32)
   nameWithType: BitConverter.ToUInt32(Byte[],Int32)
   fullName: System.BitConverter.ToUInt32(Byte[],Int32)
-- uid: System.UInt32
-  parent: System
-  isExternal: false
-  name: UInt32
-  nameWithType: UInt32
-  fullName: System.UInt32
-- uid: System.Byte
-  parent: System
-  isExternal: false
-  name: Byte
-  nameWithType: Byte
-  fullName: System.Byte[]
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
 - uid: System.BitConverter.ToUInt64(System.Byte[],System.Int32)
   parent: System.BitConverter
   isExternal: false
   name: ToUInt64(Byte[],Int32)
   nameWithType: BitConverter.ToUInt64(Byte[],Int32)
   fullName: System.BitConverter.ToUInt64(Byte[],Int32)
-- uid: System.UInt64
-  parent: System
-  isExternal: false
-  name: UInt64
-  nameWithType: UInt64
-  fullName: System.UInt64
-- uid: System.Byte
-  parent: System
-  isExternal: false
-  name: Byte
-  nameWithType: Byte
-  fullName: System.Byte[]
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
 - uid: System.BitConverter.DoubleToInt64Bits*
   parent: System.BitConverter
   isExternal: false

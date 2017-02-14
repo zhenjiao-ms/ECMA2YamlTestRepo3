@@ -68,6 +68,7 @@ items:
       type: System.Int16
       description: To be added.
   overload: System.Runtime.InteropServices.UCOMITypeLib.FindName*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -105,6 +106,7 @@ items:
       type: System.String
       description: To be added.
   overload: System.Runtime.InteropServices.UCOMITypeLib.GetDocumentation*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -130,6 +132,7 @@ items:
       type: System.IntPtr
       description: To be added.
   overload: System.Runtime.InteropServices.UCOMITypeLib.GetLibAttr*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -155,6 +158,7 @@ items:
       type: System.Runtime.InteropServices.UCOMITypeComp
       description: To be added.
   overload: System.Runtime.InteropServices.UCOMITypeLib.GetTypeComp*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -183,6 +187,7 @@ items:
       type: System.Runtime.InteropServices.UCOMITypeInfo
       description: To be added.
   overload: System.Runtime.InteropServices.UCOMITypeLib.GetTypeInfo*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -208,6 +213,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.Runtime.InteropServices.UCOMITypeLib.GetTypeInfoCount*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -236,6 +242,7 @@ items:
       type: System.Runtime.InteropServices.UCOMITypeInfo
       description: To be added.
   overload: System.Runtime.InteropServices.UCOMITypeLib.GetTypeInfoOfGuid*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -264,6 +271,7 @@ items:
       type: System.Runtime.InteropServices.TYPEKIND
       description: To be added.
   overload: System.Runtime.InteropServices.UCOMITypeLib.GetTypeInfoType*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -295,6 +303,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Runtime.InteropServices.UCOMITypeLib.IsName*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -320,6 +329,7 @@ items:
       type: System.IntPtr
       description: To be added.
   overload: System.Runtime.InteropServices.UCOMITypeLib.ReleaseTLibAttr*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -343,18 +353,34 @@ references:
   name: Int32
   nameWithType: Int32
   fullName: System.Int32
-- uid: System.Runtime.InteropServices.UCOMITypeInfo
+- uid: System.Runtime.InteropServices.UCOMITypeInfo[]
   parent: System.Runtime.InteropServices
   isExternal: false
   name: UCOMITypeInfo
   nameWithType: UCOMITypeInfo
   fullName: System.Runtime.InteropServices.UCOMITypeInfo[]
-- uid: System.Int32
+  spec.csharp:
+  - uid: System.Runtime.InteropServices.UCOMITypeInfo
+    name: UCOMITypeInfo
+    nameWithType: UCOMITypeInfo
+    fullName: UCOMITypeInfo[]
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+- uid: System.Int32[]
   parent: System
   isExternal: false
   name: Int32
   nameWithType: Int32
   fullName: System.Int32[]
+  spec.csharp:
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: Int32[]
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
 - uid: System.Int16
   parent: System
   isExternal: false
@@ -367,36 +393,6 @@ references:
   name: GetDocumentation(Int32,String,String,Int32,String)
   nameWithType: UCOMITypeLib.GetDocumentation(Int32,String,String,Int32,String)
   fullName: System.Runtime.InteropServices.UCOMITypeLib.GetDocumentation(Int32,String,String,Int32,String)
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
 - uid: System.Runtime.InteropServices.UCOMITypeLib.GetLibAttr(System.IntPtr@)
   parent: System.Runtime.InteropServices.UCOMITypeLib
   isExternal: false
@@ -427,12 +423,6 @@ references:
   name: GetTypeInfo(Int32,UCOMITypeInfo)
   nameWithType: UCOMITypeLib.GetTypeInfo(Int32,UCOMITypeInfo)
   fullName: System.Runtime.InteropServices.UCOMITypeLib.GetTypeInfo(Int32,UCOMITypeInfo)
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
 - uid: System.Runtime.InteropServices.UCOMITypeInfo
   parent: System.Runtime.InteropServices
   isExternal: false
@@ -445,12 +435,6 @@ references:
   name: GetTypeInfoCount()
   nameWithType: UCOMITypeLib.GetTypeInfoCount()
   fullName: System.Runtime.InteropServices.UCOMITypeLib.GetTypeInfoCount()
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
 - uid: System.Runtime.InteropServices.UCOMITypeLib.GetTypeInfoOfGuid(System.Guid@,System.Runtime.InteropServices.UCOMITypeInfo@)
   parent: System.Runtime.InteropServices.UCOMITypeLib
   isExternal: false
@@ -463,24 +447,12 @@ references:
   name: Guid
   nameWithType: Guid
   fullName: System.Guid
-- uid: System.Runtime.InteropServices.UCOMITypeInfo
-  parent: System.Runtime.InteropServices
-  isExternal: false
-  name: UCOMITypeInfo
-  nameWithType: UCOMITypeInfo
-  fullName: System.Runtime.InteropServices.UCOMITypeInfo
 - uid: System.Runtime.InteropServices.UCOMITypeLib.GetTypeInfoType(System.Int32,System.Runtime.InteropServices.TYPEKIND@)
   parent: System.Runtime.InteropServices.UCOMITypeLib
   isExternal: false
   name: GetTypeInfoType(Int32,TYPEKIND)
   nameWithType: UCOMITypeLib.GetTypeInfoType(Int32,TYPEKIND)
   fullName: System.Runtime.InteropServices.UCOMITypeLib.GetTypeInfoType(Int32,TYPEKIND)
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
 - uid: System.Runtime.InteropServices.TYPEKIND
   parent: System.Runtime.InteropServices
   isExternal: false
@@ -499,30 +471,12 @@ references:
   name: Boolean
   nameWithType: Boolean
   fullName: System.Boolean
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
 - uid: System.Runtime.InteropServices.UCOMITypeLib.ReleaseTLibAttr(System.IntPtr)
   parent: System.Runtime.InteropServices.UCOMITypeLib
   isExternal: false
   name: ReleaseTLibAttr(IntPtr)
   nameWithType: UCOMITypeLib.ReleaseTLibAttr(IntPtr)
   fullName: System.Runtime.InteropServices.UCOMITypeLib.ReleaseTLibAttr(IntPtr)
-- uid: System.IntPtr
-  parent: System
-  isExternal: false
-  name: IntPtr
-  nameWithType: IntPtr
-  fullName: System.IntPtr
 - uid: System.Runtime.InteropServices.UCOMITypeLib.FindName*
   parent: System.Runtime.InteropServices.UCOMITypeLib
   isExternal: false

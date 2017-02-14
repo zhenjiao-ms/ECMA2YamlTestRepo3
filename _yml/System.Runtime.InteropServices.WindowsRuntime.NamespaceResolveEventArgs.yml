@@ -61,6 +61,7 @@ items:
       type: System.Reflection.Assembly
       description: To be added.
   overload: System.Runtime.InteropServices.WindowsRuntime.NamespaceResolveEventArgs.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -85,6 +86,7 @@ items:
       type: System.String
       description: To be added.
   overload: System.Runtime.InteropServices.WindowsRuntime.NamespaceResolveEventArgs.NamespaceName*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -109,6 +111,7 @@ items:
       type: System.Reflection.Assembly
       description: To be added.
   overload: System.Runtime.InteropServices.WindowsRuntime.NamespaceResolveEventArgs.RequestingAssembly*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -133,6 +136,7 @@ items:
       type: System.Collections.ObjectModel.Collection{System.Reflection.Assembly}
       description: To be added.
   overload: System.Runtime.InteropServices.WindowsRuntime.NamespaceResolveEventArgs.ResolvedAssemblies*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -165,24 +169,12 @@ references:
   name: NamespaceName
   nameWithType: NamespaceResolveEventArgs.NamespaceName
   fullName: System.Runtime.InteropServices.WindowsRuntime.NamespaceResolveEventArgs.NamespaceName
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
 - uid: System.Runtime.InteropServices.WindowsRuntime.NamespaceResolveEventArgs.RequestingAssembly
   parent: System.Runtime.InteropServices.WindowsRuntime.NamespaceResolveEventArgs
   isExternal: false
   name: RequestingAssembly
   nameWithType: NamespaceResolveEventArgs.RequestingAssembly
   fullName: System.Runtime.InteropServices.WindowsRuntime.NamespaceResolveEventArgs.RequestingAssembly
-- uid: System.Reflection.Assembly
-  parent: System.Reflection
-  isExternal: false
-  name: Assembly
-  nameWithType: Assembly
-  fullName: System.Reflection.Assembly
 - uid: System.Runtime.InteropServices.WindowsRuntime.NamespaceResolveEventArgs.ResolvedAssemblies
   parent: System.Runtime.InteropServices.WindowsRuntime.NamespaceResolveEventArgs
   isExternal: false
@@ -195,6 +187,21 @@ references:
   name: Collection<Assembly>
   nameWithType: Collection<Assembly>
   fullName: System.Collections.ObjectModel.Collection<System.Reflection.Assembly>
+  spec.csharp:
+  - uid: System.Collections.ObjectModel.Collection`1
+    name: Collection
+    nameWithType: Collection
+    fullName: Collection<System.Reflection.Assembly>
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Reflection.Assembly
+    name: Assembly
+    nameWithType: Assembly
+    fullName: Assembly
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
 - uid: System.Runtime.InteropServices.WindowsRuntime.NamespaceResolveEventArgs.#ctor*
   parent: System.Runtime.InteropServices.WindowsRuntime.NamespaceResolveEventArgs
   isExternal: false

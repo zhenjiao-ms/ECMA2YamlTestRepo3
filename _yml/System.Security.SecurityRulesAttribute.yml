@@ -95,6 +95,7 @@ items:
       type: System.Security.SecurityRuleSet
       description: To be added.
   overload: System.Security.SecurityRulesAttribute.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -119,6 +120,7 @@ items:
       type: System.Security.SecurityRuleSet
       description: To be added.
   overload: System.Security.SecurityRulesAttribute.RuleSet*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -143,6 +145,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Security.SecurityRulesAttribute.SkipVerificationInFullTrust*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -169,12 +172,6 @@ references:
   name: RuleSet
   nameWithType: SecurityRulesAttribute.RuleSet
   fullName: System.Security.SecurityRulesAttribute.RuleSet
-- uid: System.Security.SecurityRuleSet
-  parent: System.Security
-  isExternal: false
-  name: SecurityRuleSet
-  nameWithType: SecurityRuleSet
-  fullName: System.Security.SecurityRuleSet
 - uid: System.Security.SecurityRulesAttribute.SkipVerificationInFullTrust
   parent: System.Security.SecurityRulesAttribute
   isExternal: false

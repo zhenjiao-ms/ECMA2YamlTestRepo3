@@ -73,6 +73,7 @@ items:
     content: protected HashAlgorithm ();
     parameters: []
   overload: System.Security.Cryptography.HashAlgorithm.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -97,6 +98,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Security.Cryptography.HashAlgorithm.CanReuseTransform*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -121,6 +123,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Security.Cryptography.HashAlgorithm.CanTransformMultipleBlocks*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -143,6 +146,7 @@ items:
     content: public void Clear ();
     parameters: []
   overload: System.Security.Cryptography.HashAlgorithm.Clear*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -171,6 +175,7 @@ items:
       type: System.Byte[]
       description: To be added.
   overload: System.Security.Cryptography.HashAlgorithm.ComputeHash*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -199,6 +204,7 @@ items:
       type: System.Byte[]
       description: To be added.
   overload: System.Security.Cryptography.HashAlgorithm.ComputeHash*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -233,6 +239,7 @@ items:
       type: System.Byte[]
       description: To be added.
   overload: System.Security.Cryptography.HashAlgorithm.ComputeHash*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -258,6 +265,7 @@ items:
       type: System.Security.Cryptography.HashAlgorithm
       description: To be added.
   overload: System.Security.Cryptography.HashAlgorithm.Create*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -286,6 +294,7 @@ items:
       type: System.Security.Cryptography.HashAlgorithm
       description: To be added.
   overload: System.Security.Cryptography.HashAlgorithm.Create*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -308,6 +317,7 @@ items:
     content: public void Dispose ();
     parameters: []
   overload: System.Security.Cryptography.HashAlgorithm.Dispose*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -333,6 +343,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Security.Cryptography.HashAlgorithm.Dispose*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -357,6 +368,7 @@ items:
       type: System.Byte[]
       description: To be added.
   overload: System.Security.Cryptography.HashAlgorithm.Hash*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -388,6 +400,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.Security.Cryptography.HashAlgorithm.HashCore*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -413,6 +426,7 @@ items:
       type: System.Byte[]
       description: To be added.
   overload: System.Security.Cryptography.HashAlgorithm.HashFinal*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -437,6 +451,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.Security.Cryptography.HashAlgorithm.HashSize*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -460,6 +475,7 @@ items:
     return:
       type: System.Int32
       description: To be added.
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -483,6 +499,7 @@ items:
     return:
       type: System.Byte[]
       description: To be added.
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -505,6 +522,7 @@ items:
     content: public abstract void Initialize ();
     parameters: []
   overload: System.Security.Cryptography.HashAlgorithm.Initialize*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -529,6 +547,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.Security.Cryptography.HashAlgorithm.InputBlockSize*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -553,6 +572,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.Security.Cryptography.HashAlgorithm.OutputBlockSize*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -576,6 +596,7 @@ items:
     return:
       type: System.Int32
       description: To be added.
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -616,6 +637,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.Security.Cryptography.HashAlgorithm.TransformBlock*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -650,6 +672,7 @@ items:
       type: System.Byte[]
       description: To be added.
   overload: System.Security.Cryptography.HashAlgorithm.TransformFinalBlock*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -682,12 +705,6 @@ references:
   name: CanTransformMultipleBlocks
   nameWithType: HashAlgorithm.CanTransformMultipleBlocks
   fullName: System.Security.Cryptography.HashAlgorithm.CanTransformMultipleBlocks
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
 - uid: System.Security.Cryptography.HashAlgorithm.Clear
   parent: System.Security.Cryptography.HashAlgorithm
   isExternal: false
@@ -700,30 +717,26 @@ references:
   name: ComputeHash(Byte[])
   nameWithType: HashAlgorithm.ComputeHash(Byte[])
   fullName: System.Security.Cryptography.HashAlgorithm.ComputeHash(Byte[])
-- uid: System.Byte
+- uid: System.Byte[]
   parent: System
   isExternal: false
   name: Byte
   nameWithType: Byte
   fullName: System.Byte[]
-- uid: System.Byte
-  parent: System
-  isExternal: false
-  name: Byte
-  nameWithType: Byte
-  fullName: System.Byte[]
+  spec.csharp:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: Byte[]
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
 - uid: System.Security.Cryptography.HashAlgorithm.ComputeHash(System.IO.Stream)
   parent: System.Security.Cryptography.HashAlgorithm
   isExternal: false
   name: ComputeHash(Stream)
   nameWithType: HashAlgorithm.ComputeHash(Stream)
   fullName: System.Security.Cryptography.HashAlgorithm.ComputeHash(Stream)
-- uid: System.Byte
-  parent: System
-  isExternal: false
-  name: Byte
-  nameWithType: Byte
-  fullName: System.Byte[]
 - uid: System.IO.Stream
   parent: System.IO
   isExternal: false
@@ -736,24 +749,6 @@ references:
   name: ComputeHash(Byte[],Int32,Int32)
   nameWithType: HashAlgorithm.ComputeHash(Byte[],Int32,Int32)
   fullName: System.Security.Cryptography.HashAlgorithm.ComputeHash(Byte[],Int32,Int32)
-- uid: System.Byte
-  parent: System
-  isExternal: false
-  name: Byte
-  nameWithType: Byte
-  fullName: System.Byte[]
-- uid: System.Byte
-  parent: System
-  isExternal: false
-  name: Byte
-  nameWithType: Byte
-  fullName: System.Byte[]
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
 - uid: System.Int32
   parent: System
   isExternal: false
@@ -778,12 +773,6 @@ references:
   name: Create(String)
   nameWithType: HashAlgorithm.Create(String)
   fullName: System.Security.Cryptography.HashAlgorithm.Create(String)
-- uid: System.Security.Cryptography.HashAlgorithm
-  parent: System.Security.Cryptography
-  isExternal: false
-  name: HashAlgorithm
-  nameWithType: HashAlgorithm
-  fullName: System.Security.Cryptography.HashAlgorithm
 - uid: System.String
   parent: System
   isExternal: false
@@ -802,96 +791,42 @@ references:
   name: Dispose(Boolean)
   nameWithType: HashAlgorithm.Dispose(Boolean)
   fullName: System.Security.Cryptography.HashAlgorithm.Dispose(Boolean)
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
 - uid: System.Security.Cryptography.HashAlgorithm.Hash
   parent: System.Security.Cryptography.HashAlgorithm
   isExternal: false
   name: Hash
   nameWithType: HashAlgorithm.Hash
   fullName: System.Security.Cryptography.HashAlgorithm.Hash
-- uid: System.Byte
-  parent: System
-  isExternal: false
-  name: Byte
-  nameWithType: Byte
-  fullName: System.Byte[]
 - uid: System.Security.Cryptography.HashAlgorithm.HashCore(System.Byte[],System.Int32,System.Int32)
   parent: System.Security.Cryptography.HashAlgorithm
   isExternal: false
   name: HashCore(Byte[],Int32,Int32)
   nameWithType: HashAlgorithm.HashCore(Byte[],Int32,Int32)
   fullName: System.Security.Cryptography.HashAlgorithm.HashCore(Byte[],Int32,Int32)
-- uid: System.Byte
-  parent: System
-  isExternal: false
-  name: Byte
-  nameWithType: Byte
-  fullName: System.Byte[]
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
 - uid: System.Security.Cryptography.HashAlgorithm.HashFinal
   parent: System.Security.Cryptography.HashAlgorithm
   isExternal: false
   name: HashFinal()
   nameWithType: HashAlgorithm.HashFinal()
   fullName: System.Security.Cryptography.HashAlgorithm.HashFinal()
-- uid: System.Byte
-  parent: System
-  isExternal: false
-  name: Byte
-  nameWithType: Byte
-  fullName: System.Byte[]
 - uid: System.Security.Cryptography.HashAlgorithm.HashSize
   parent: System.Security.Cryptography.HashAlgorithm
   isExternal: false
   name: HashSize
   nameWithType: HashAlgorithm.HashSize
   fullName: System.Security.Cryptography.HashAlgorithm.HashSize
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
 - uid: System.Security.Cryptography.HashAlgorithm.HashSizeValue
   parent: System.Security.Cryptography.HashAlgorithm
   isExternal: false
   name: HashSizeValue
   nameWithType: HashAlgorithm.HashSizeValue
   fullName: System.Security.Cryptography.HashAlgorithm.HashSizeValue
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
 - uid: System.Security.Cryptography.HashAlgorithm.HashValue
   parent: System.Security.Cryptography.HashAlgorithm
   isExternal: false
   name: HashValue
   nameWithType: HashAlgorithm.HashValue
   fullName: System.Security.Cryptography.HashAlgorithm.HashValue
-- uid: System.Byte
-  parent: System
-  isExternal: false
-  name: Byte
-  nameWithType: Byte
-  fullName: System.Byte[]
 - uid: System.Security.Cryptography.HashAlgorithm.Initialize
   parent: System.Security.Cryptography.HashAlgorithm
   isExternal: false
@@ -904,108 +839,30 @@ references:
   name: InputBlockSize
   nameWithType: HashAlgorithm.InputBlockSize
   fullName: System.Security.Cryptography.HashAlgorithm.InputBlockSize
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
 - uid: System.Security.Cryptography.HashAlgorithm.OutputBlockSize
   parent: System.Security.Cryptography.HashAlgorithm
   isExternal: false
   name: OutputBlockSize
   nameWithType: HashAlgorithm.OutputBlockSize
   fullName: System.Security.Cryptography.HashAlgorithm.OutputBlockSize
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
 - uid: System.Security.Cryptography.HashAlgorithm.State
   parent: System.Security.Cryptography.HashAlgorithm
   isExternal: false
   name: State
   nameWithType: HashAlgorithm.State
   fullName: System.Security.Cryptography.HashAlgorithm.State
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
 - uid: System.Security.Cryptography.HashAlgorithm.TransformBlock(System.Byte[],System.Int32,System.Int32,System.Byte[],System.Int32)
   parent: System.Security.Cryptography.HashAlgorithm
   isExternal: false
   name: TransformBlock(Byte[],Int32,Int32,Byte[],Int32)
   nameWithType: HashAlgorithm.TransformBlock(Byte[],Int32,Int32,Byte[],Int32)
   fullName: System.Security.Cryptography.HashAlgorithm.TransformBlock(Byte[],Int32,Int32,Byte[],Int32)
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: System.Byte
-  parent: System
-  isExternal: false
-  name: Byte
-  nameWithType: Byte
-  fullName: System.Byte[]
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: System.Byte
-  parent: System
-  isExternal: false
-  name: Byte
-  nameWithType: Byte
-  fullName: System.Byte[]
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
 - uid: System.Security.Cryptography.HashAlgorithm.TransformFinalBlock(System.Byte[],System.Int32,System.Int32)
   parent: System.Security.Cryptography.HashAlgorithm
   isExternal: false
   name: TransformFinalBlock(Byte[],Int32,Int32)
   nameWithType: HashAlgorithm.TransformFinalBlock(Byte[],Int32,Int32)
   fullName: System.Security.Cryptography.HashAlgorithm.TransformFinalBlock(Byte[],Int32,Int32)
-- uid: System.Byte
-  parent: System
-  isExternal: false
-  name: Byte
-  nameWithType: Byte
-  fullName: System.Byte[]
-- uid: System.Byte
-  parent: System
-  isExternal: false
-  name: Byte
-  nameWithType: Byte
-  fullName: System.Byte[]
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
 - uid: System.Security.Cryptography.HashAlgorithm.#ctor*
   parent: System.Security.Cryptography.HashAlgorithm
   isExternal: false

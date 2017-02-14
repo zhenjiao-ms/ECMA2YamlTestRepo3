@@ -65,6 +65,7 @@ items:
     content: public IdentityReferenceCollection ();
     parameters: []
   overload: System.Security.Principal.IdentityReferenceCollection.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -90,6 +91,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.Security.Principal.IdentityReferenceCollection.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -115,6 +117,7 @@ items:
       type: System.Security.Principal.IdentityReference
       description: To be added.
   overload: System.Security.Principal.IdentityReferenceCollection.Add*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -137,6 +140,7 @@ items:
     content: public void Clear ();
     parameters: []
   overload: System.Security.Principal.IdentityReferenceCollection.Clear*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -165,6 +169,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Security.Principal.IdentityReferenceCollection.Contains*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -193,6 +198,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.Security.Principal.IdentityReferenceCollection.CopyTo*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -217,6 +223,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.Security.Principal.IdentityReferenceCollection.Count*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -242,6 +249,7 @@ items:
       type: System.Collections.Generic.IEnumerator{System.Security.Principal.IdentityReference}
       description: To be added.
   overload: System.Security.Principal.IdentityReferenceCollection.GetEnumerator*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -266,6 +274,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Security.Principal.IdentityReferenceCollection.IsReadOnly*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -294,6 +303,7 @@ items:
       type: System.Security.Principal.IdentityReference
       description: To be added.
   overload: System.Security.Principal.IdentityReferenceCollection.Item*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -322,6 +332,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Security.Principal.IdentityReferenceCollection.Remove*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -348,6 +359,7 @@ items:
       type: System.Collections.IEnumerator
       description: To be added.
   overload: System.Security.Principal.IdentityReferenceCollection.System#Collections#IEnumerable#GetEnumerator*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -376,6 +388,7 @@ items:
       type: System.Security.Principal.IdentityReferenceCollection
       description: To be added.
   overload: System.Security.Principal.IdentityReferenceCollection.Translate*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -407,6 +420,7 @@ items:
       type: System.Security.Principal.IdentityReferenceCollection
       description: To be added.
   overload: System.Security.Principal.IdentityReferenceCollection.Translate*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -463,42 +477,32 @@ references:
   name: Boolean
   nameWithType: Boolean
   fullName: System.Boolean
-- uid: System.Security.Principal.IdentityReference
-  parent: System.Security.Principal
-  isExternal: false
-  name: IdentityReference
-  nameWithType: IdentityReference
-  fullName: System.Security.Principal.IdentityReference
 - uid: System.Security.Principal.IdentityReferenceCollection.CopyTo(System.Security.Principal.IdentityReference[],System.Int32)
   parent: System.Security.Principal.IdentityReferenceCollection
   isExternal: false
   name: CopyTo(IdentityReference[],Int32)
   nameWithType: IdentityReferenceCollection.CopyTo(IdentityReference[],Int32)
   fullName: System.Security.Principal.IdentityReferenceCollection.CopyTo(IdentityReference[],Int32)
-- uid: System.Security.Principal.IdentityReference
+- uid: System.Security.Principal.IdentityReference[]
   parent: System.Security.Principal
   isExternal: false
   name: IdentityReference
   nameWithType: IdentityReference
   fullName: System.Security.Principal.IdentityReference[]
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
+  spec.csharp:
+  - uid: System.Security.Principal.IdentityReference
+    name: IdentityReference
+    nameWithType: IdentityReference
+    fullName: IdentityReference[]
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
 - uid: System.Security.Principal.IdentityReferenceCollection.Count
   parent: System.Security.Principal.IdentityReferenceCollection
   isExternal: false
   name: Count
   nameWithType: IdentityReferenceCollection.Count
   fullName: System.Security.Principal.IdentityReferenceCollection.Count
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
 - uid: System.Security.Principal.IdentityReferenceCollection.GetEnumerator
   parent: System.Security.Principal.IdentityReferenceCollection
   isExternal: false
@@ -511,54 +515,39 @@ references:
   name: IEnumerator<IdentityReference>
   nameWithType: IEnumerator<IdentityReference>
   fullName: System.Collections.Generic.IEnumerator<System.Security.Principal.IdentityReference>
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerator`1
+    name: IEnumerator
+    nameWithType: IEnumerator
+    fullName: IEnumerator<System.Security.Principal.IdentityReference>
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Security.Principal.IdentityReference
+    name: IdentityReference
+    nameWithType: IdentityReference
+    fullName: IdentityReference
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
 - uid: System.Security.Principal.IdentityReferenceCollection.IsReadOnly
   parent: System.Security.Principal.IdentityReferenceCollection
   isExternal: false
   name: IsReadOnly
   nameWithType: IdentityReferenceCollection.IsReadOnly
   fullName: System.Security.Principal.IdentityReferenceCollection.IsReadOnly
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
 - uid: System.Security.Principal.IdentityReferenceCollection.Item(System.Int32)
   parent: System.Security.Principal.IdentityReferenceCollection
   isExternal: false
   name: Item(Int32)
   nameWithType: IdentityReferenceCollection.Item(Int32)
   fullName: System.Security.Principal.IdentityReferenceCollection.Item(Int32)
-- uid: System.Security.Principal.IdentityReference
-  parent: System.Security.Principal
-  isExternal: false
-  name: IdentityReference
-  nameWithType: IdentityReference
-  fullName: System.Security.Principal.IdentityReference
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
 - uid: System.Security.Principal.IdentityReferenceCollection.Remove(System.Security.Principal.IdentityReference)
   parent: System.Security.Principal.IdentityReferenceCollection
   isExternal: false
   name: Remove(IdentityReference)
   nameWithType: IdentityReferenceCollection.Remove(IdentityReference)
   fullName: System.Security.Principal.IdentityReferenceCollection.Remove(IdentityReference)
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
-- uid: System.Security.Principal.IdentityReference
-  parent: System.Security.Principal
-  isExternal: false
-  name: IdentityReference
-  nameWithType: IdentityReference
-  fullName: System.Security.Principal.IdentityReference
 - uid: System.Security.Principal.IdentityReferenceCollection.System#Collections#IEnumerable#GetEnumerator
   parent: System.Security.Principal.IdentityReferenceCollection
   isExternal: false
@@ -595,24 +584,6 @@ references:
   name: Translate(Type,Boolean)
   nameWithType: IdentityReferenceCollection.Translate(Type,Boolean)
   fullName: System.Security.Principal.IdentityReferenceCollection.Translate(Type,Boolean)
-- uid: System.Security.Principal.IdentityReferenceCollection
-  parent: System.Security.Principal
-  isExternal: false
-  name: IdentityReferenceCollection
-  nameWithType: IdentityReferenceCollection
-  fullName: System.Security.Principal.IdentityReferenceCollection
-- uid: System.Type
-  parent: System
-  isExternal: false
-  name: Type
-  nameWithType: Type
-  fullName: System.Type
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
 - uid: System.Security.Principal.IdentityReferenceCollection.#ctor*
   parent: System.Security.Principal.IdentityReferenceCollection
   isExternal: false

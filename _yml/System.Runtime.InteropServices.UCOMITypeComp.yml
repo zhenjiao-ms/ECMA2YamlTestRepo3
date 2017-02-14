@@ -63,6 +63,7 @@ items:
       type: System.Runtime.InteropServices.BINDPTR
       description: To be added.
   overload: System.Runtime.InteropServices.UCOMITypeComp.Bind*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -97,6 +98,7 @@ items:
       type: System.Runtime.InteropServices.UCOMITypeComp
       description: To be added.
   overload: System.Runtime.InteropServices.UCOMITypeComp.BindType*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -150,24 +152,6 @@ references:
   name: BindType(String,Int32,UCOMITypeInfo,UCOMITypeComp)
   nameWithType: UCOMITypeComp.BindType(String,Int32,UCOMITypeInfo,UCOMITypeComp)
   fullName: System.Runtime.InteropServices.UCOMITypeComp.BindType(String,Int32,UCOMITypeInfo,UCOMITypeComp)
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: System.Runtime.InteropServices.UCOMITypeInfo
-  parent: System.Runtime.InteropServices
-  isExternal: false
-  name: UCOMITypeInfo
-  nameWithType: UCOMITypeInfo
-  fullName: System.Runtime.InteropServices.UCOMITypeInfo
 - uid: System.Runtime.InteropServices.UCOMITypeComp
   parent: System.Runtime.InteropServices
   isExternal: false

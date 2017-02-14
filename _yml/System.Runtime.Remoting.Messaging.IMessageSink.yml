@@ -51,6 +51,7 @@ items:
       type: System.Runtime.Remoting.Messaging.IMessageCtrl
       description: To be added.
   overload: System.Runtime.Remoting.Messaging.IMessageSink.AsyncProcessMessage*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -75,6 +76,7 @@ items:
       type: System.Runtime.Remoting.Messaging.IMessageSink
       description: To be added.
   overload: System.Runtime.Remoting.Messaging.IMessageSink.NextSink*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -103,6 +105,7 @@ items:
       type: System.Runtime.Remoting.Messaging.IMessage
       description: To be added.
   overload: System.Runtime.Remoting.Messaging.IMessageSink.SyncProcessMessage*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -138,30 +141,12 @@ references:
   name: NextSink
   nameWithType: IMessageSink.NextSink
   fullName: System.Runtime.Remoting.Messaging.IMessageSink.NextSink
-- uid: System.Runtime.Remoting.Messaging.IMessageSink
-  parent: System.Runtime.Remoting.Messaging
-  isExternal: false
-  name: IMessageSink
-  nameWithType: IMessageSink
-  fullName: System.Runtime.Remoting.Messaging.IMessageSink
 - uid: System.Runtime.Remoting.Messaging.IMessageSink.SyncProcessMessage(System.Runtime.Remoting.Messaging.IMessage)
   parent: System.Runtime.Remoting.Messaging.IMessageSink
   isExternal: false
   name: SyncProcessMessage(IMessage)
   nameWithType: IMessageSink.SyncProcessMessage(IMessage)
   fullName: System.Runtime.Remoting.Messaging.IMessageSink.SyncProcessMessage(IMessage)
-- uid: System.Runtime.Remoting.Messaging.IMessage
-  parent: System.Runtime.Remoting.Messaging
-  isExternal: false
-  name: IMessage
-  nameWithType: IMessage
-  fullName: System.Runtime.Remoting.Messaging.IMessage
-- uid: System.Runtime.Remoting.Messaging.IMessage
-  parent: System.Runtime.Remoting.Messaging
-  isExternal: false
-  name: IMessage
-  nameWithType: IMessage
-  fullName: System.Runtime.Remoting.Messaging.IMessage
 - uid: System.Runtime.Remoting.Messaging.IMessageSink.AsyncProcessMessage*
   parent: System.Runtime.Remoting.Messaging.IMessageSink
   isExternal: false

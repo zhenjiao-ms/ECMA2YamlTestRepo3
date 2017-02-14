@@ -52,6 +52,7 @@ items:
     return:
       type: System.Diagnostics.SymbolStore.SymAddressKind
       description: To be added.
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -74,6 +75,7 @@ items:
     return:
       type: System.Diagnostics.SymbolStore.SymAddressKind
       description: To be added.
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -96,6 +98,7 @@ items:
     return:
       type: System.Diagnostics.SymbolStore.SymAddressKind
       description: To be added.
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -118,6 +121,7 @@ items:
     return:
       type: System.Diagnostics.SymbolStore.SymAddressKind
       description: To be added.
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -140,6 +144,7 @@ items:
     return:
       type: System.Diagnostics.SymbolStore.SymAddressKind
       description: To be added.
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -162,6 +167,7 @@ items:
     return:
       type: System.Diagnostics.SymbolStore.SymAddressKind
       description: To be added.
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -184,6 +190,7 @@ items:
     return:
       type: System.Diagnostics.SymbolStore.SymAddressKind
       description: To be added.
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -206,6 +213,7 @@ items:
     return:
       type: System.Diagnostics.SymbolStore.SymAddressKind
       description: To be added.
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -228,6 +236,7 @@ items:
     return:
       type: System.Diagnostics.SymbolStore.SymAddressKind
       description: To be added.
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -250,6 +259,7 @@ items:
     return:
       type: System.Diagnostics.SymbolStore.SymAddressKind
       description: To be added.
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -276,105 +286,51 @@ references:
   name: ILOffset
   nameWithType: SymAddressKind.ILOffset
   fullName: System.Diagnostics.SymbolStore.SymAddressKind.ILOffset
-- uid: System.Diagnostics.SymbolStore.SymAddressKind
-  parent: System.Diagnostics.SymbolStore
-  isExternal: false
-  name: SymAddressKind
-  nameWithType: SymAddressKind
-  fullName: System.Diagnostics.SymbolStore.SymAddressKind
 - uid: System.Diagnostics.SymbolStore.SymAddressKind.NativeOffset
   parent: System.Diagnostics.SymbolStore.SymAddressKind
   isExternal: false
   name: NativeOffset
   nameWithType: SymAddressKind.NativeOffset
   fullName: System.Diagnostics.SymbolStore.SymAddressKind.NativeOffset
-- uid: System.Diagnostics.SymbolStore.SymAddressKind
-  parent: System.Diagnostics.SymbolStore
-  isExternal: false
-  name: SymAddressKind
-  nameWithType: SymAddressKind
-  fullName: System.Diagnostics.SymbolStore.SymAddressKind
 - uid: System.Diagnostics.SymbolStore.SymAddressKind.NativeRegister
   parent: System.Diagnostics.SymbolStore.SymAddressKind
   isExternal: false
   name: NativeRegister
   nameWithType: SymAddressKind.NativeRegister
   fullName: System.Diagnostics.SymbolStore.SymAddressKind.NativeRegister
-- uid: System.Diagnostics.SymbolStore.SymAddressKind
-  parent: System.Diagnostics.SymbolStore
-  isExternal: false
-  name: SymAddressKind
-  nameWithType: SymAddressKind
-  fullName: System.Diagnostics.SymbolStore.SymAddressKind
 - uid: System.Diagnostics.SymbolStore.SymAddressKind.NativeRegisterRegister
   parent: System.Diagnostics.SymbolStore.SymAddressKind
   isExternal: false
   name: NativeRegisterRegister
   nameWithType: SymAddressKind.NativeRegisterRegister
   fullName: System.Diagnostics.SymbolStore.SymAddressKind.NativeRegisterRegister
-- uid: System.Diagnostics.SymbolStore.SymAddressKind
-  parent: System.Diagnostics.SymbolStore
-  isExternal: false
-  name: SymAddressKind
-  nameWithType: SymAddressKind
-  fullName: System.Diagnostics.SymbolStore.SymAddressKind
 - uid: System.Diagnostics.SymbolStore.SymAddressKind.NativeRegisterRelative
   parent: System.Diagnostics.SymbolStore.SymAddressKind
   isExternal: false
   name: NativeRegisterRelative
   nameWithType: SymAddressKind.NativeRegisterRelative
   fullName: System.Diagnostics.SymbolStore.SymAddressKind.NativeRegisterRelative
-- uid: System.Diagnostics.SymbolStore.SymAddressKind
-  parent: System.Diagnostics.SymbolStore
-  isExternal: false
-  name: SymAddressKind
-  nameWithType: SymAddressKind
-  fullName: System.Diagnostics.SymbolStore.SymAddressKind
 - uid: System.Diagnostics.SymbolStore.SymAddressKind.NativeRegisterStack
   parent: System.Diagnostics.SymbolStore.SymAddressKind
   isExternal: false
   name: NativeRegisterStack
   nameWithType: SymAddressKind.NativeRegisterStack
   fullName: System.Diagnostics.SymbolStore.SymAddressKind.NativeRegisterStack
-- uid: System.Diagnostics.SymbolStore.SymAddressKind
-  parent: System.Diagnostics.SymbolStore
-  isExternal: false
-  name: SymAddressKind
-  nameWithType: SymAddressKind
-  fullName: System.Diagnostics.SymbolStore.SymAddressKind
 - uid: System.Diagnostics.SymbolStore.SymAddressKind.NativeRVA
   parent: System.Diagnostics.SymbolStore.SymAddressKind
   isExternal: false
   name: NativeRVA
   nameWithType: SymAddressKind.NativeRVA
   fullName: System.Diagnostics.SymbolStore.SymAddressKind.NativeRVA
-- uid: System.Diagnostics.SymbolStore.SymAddressKind
-  parent: System.Diagnostics.SymbolStore
-  isExternal: false
-  name: SymAddressKind
-  nameWithType: SymAddressKind
-  fullName: System.Diagnostics.SymbolStore.SymAddressKind
 - uid: System.Diagnostics.SymbolStore.SymAddressKind.NativeSectionOffset
   parent: System.Diagnostics.SymbolStore.SymAddressKind
   isExternal: false
   name: NativeSectionOffset
   nameWithType: SymAddressKind.NativeSectionOffset
   fullName: System.Diagnostics.SymbolStore.SymAddressKind.NativeSectionOffset
-- uid: System.Diagnostics.SymbolStore.SymAddressKind
-  parent: System.Diagnostics.SymbolStore
-  isExternal: false
-  name: SymAddressKind
-  nameWithType: SymAddressKind
-  fullName: System.Diagnostics.SymbolStore.SymAddressKind
 - uid: System.Diagnostics.SymbolStore.SymAddressKind.NativeStackRegister
   parent: System.Diagnostics.SymbolStore.SymAddressKind
   isExternal: false
   name: NativeStackRegister
   nameWithType: SymAddressKind.NativeStackRegister
   fullName: System.Diagnostics.SymbolStore.SymAddressKind.NativeStackRegister
-- uid: System.Diagnostics.SymbolStore.SymAddressKind
-  parent: System.Diagnostics.SymbolStore
-  isExternal: false
-  name: SymAddressKind
-  nameWithType: SymAddressKind
-  fullName: System.Diagnostics.SymbolStore.SymAddressKind

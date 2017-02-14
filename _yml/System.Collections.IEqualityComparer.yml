@@ -50,6 +50,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Collections.IEqualityComparer.Equals*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -78,6 +79,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.Collections.IEqualityComparer.GetHashCode*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -101,12 +103,6 @@ references:
   name: Object
   nameWithType: Object
   fullName: System.Object
-- uid: System.Object
-  parent: System
-  isExternal: false
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
 - uid: System.Collections.IEqualityComparer.GetHashCode(System.Object)
   parent: System.Collections.IEqualityComparer
   isExternal: false
@@ -119,12 +115,6 @@ references:
   name: Int32
   nameWithType: Int32
   fullName: System.Int32
-- uid: System.Object
-  parent: System
-  isExternal: false
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
 - uid: System.Collections.IEqualityComparer.Equals*
   parent: System.Collections.IEqualityComparer
   isExternal: false

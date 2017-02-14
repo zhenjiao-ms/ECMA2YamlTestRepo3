@@ -63,6 +63,7 @@ items:
     content: public TaskSchedulerException ();
     parameters: []
   overload: System.Threading.Tasks.TaskSchedulerException.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -88,6 +89,7 @@ items:
       type: System.Exception
       description: To be added.
   overload: System.Threading.Tasks.TaskSchedulerException.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -113,6 +115,7 @@ items:
       type: System.String
       description: To be added.
   overload: System.Threading.Tasks.TaskSchedulerException.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -141,6 +144,7 @@ items:
       type: System.Runtime.Serialization.StreamingContext
       description: To be added.
   overload: System.Threading.Tasks.TaskSchedulerException.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -169,6 +173,7 @@ items:
       type: System.Exception
       description: To be added.
   overload: System.Threading.Tasks.TaskSchedulerException.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -189,12 +194,6 @@ references:
   name: TaskSchedulerException(Exception)
   nameWithType: TaskSchedulerException.TaskSchedulerException(Exception)
   fullName: System.Threading.Tasks.TaskSchedulerException.TaskSchedulerException(Exception)
-- uid: System.Exception
-  parent: System
-  isExternal: false
-  name: Exception
-  nameWithType: Exception
-  fullName: System.Exception
 - uid: System.Threading.Tasks.TaskSchedulerException.#ctor(System.String)
   parent: System.Threading.Tasks.TaskSchedulerException
   isExternal: false
@@ -231,18 +230,6 @@ references:
   name: TaskSchedulerException(String,Exception)
   nameWithType: TaskSchedulerException.TaskSchedulerException(String,Exception)
   fullName: System.Threading.Tasks.TaskSchedulerException.TaskSchedulerException(String,Exception)
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
-- uid: System.Exception
-  parent: System
-  isExternal: false
-  name: Exception
-  nameWithType: Exception
-  fullName: System.Exception
 - uid: System.Threading.Tasks.TaskSchedulerException.#ctor*
   parent: System.Threading.Tasks.TaskSchedulerException
   isExternal: false

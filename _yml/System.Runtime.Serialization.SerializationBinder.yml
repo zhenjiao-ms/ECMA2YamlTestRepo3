@@ -52,6 +52,7 @@ items:
     content: protected SerializationBinder ();
     parameters: []
   overload: System.Runtime.Serialization.SerializationBinder.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -83,6 +84,7 @@ items:
       type: System.String
       description: To be added.
   overload: System.Runtime.Serialization.SerializationBinder.BindToName*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -114,6 +116,7 @@ items:
       type: System.Type
       description: To be added.
   overload: System.Runtime.Serialization.SerializationBinder.BindToType*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -146,36 +149,12 @@ references:
   name: String
   nameWithType: String
   fullName: System.String
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
 - uid: System.Runtime.Serialization.SerializationBinder.BindToType(System.String,System.String)
   parent: System.Runtime.Serialization.SerializationBinder
   isExternal: false
   name: BindToType(String,String)
   nameWithType: SerializationBinder.BindToType(String,String)
   fullName: System.Runtime.Serialization.SerializationBinder.BindToType(String,String)
-- uid: System.Type
-  parent: System
-  isExternal: false
-  name: Type
-  nameWithType: Type
-  fullName: System.Type
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
 - uid: System.Runtime.Serialization.SerializationBinder.#ctor*
   parent: System.Runtime.Serialization.SerializationBinder
   isExternal: false

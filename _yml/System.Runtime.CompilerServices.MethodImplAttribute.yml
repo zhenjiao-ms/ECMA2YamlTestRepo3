@@ -96,6 +96,7 @@ items:
     content: public MethodImplAttribute ();
     parameters: []
   overload: System.Runtime.CompilerServices.MethodImplAttribute.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -121,6 +122,7 @@ items:
       type: System.Int16
       description: To be added.
   overload: System.Runtime.CompilerServices.MethodImplAttribute.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -146,6 +148,7 @@ items:
       type: System.Runtime.CompilerServices.MethodImplOptions
       description: To be added.
   overload: System.Runtime.CompilerServices.MethodImplAttribute.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -169,6 +172,7 @@ items:
     return:
       type: System.Runtime.CompilerServices.MethodCodeType
       description: To be added.
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -193,6 +197,7 @@ items:
       type: System.Runtime.CompilerServices.MethodImplOptions
       description: To be added.
   overload: System.Runtime.CompilerServices.MethodImplAttribute.Value*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -249,12 +254,6 @@ references:
   name: Value
   nameWithType: MethodImplAttribute.Value
   fullName: System.Runtime.CompilerServices.MethodImplAttribute.Value
-- uid: System.Runtime.CompilerServices.MethodImplOptions
-  parent: System.Runtime.CompilerServices
-  isExternal: false
-  name: MethodImplOptions
-  nameWithType: MethodImplOptions
-  fullName: System.Runtime.CompilerServices.MethodImplOptions
 - uid: System.Runtime.CompilerServices.MethodImplAttribute.#ctor*
   parent: System.Runtime.CompilerServices.MethodImplAttribute
   isExternal: false

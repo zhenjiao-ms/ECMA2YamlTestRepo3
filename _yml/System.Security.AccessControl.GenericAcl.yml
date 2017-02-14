@@ -62,6 +62,7 @@ items:
     content: protected GenericAcl ();
     parameters: []
   overload: System.Security.AccessControl.GenericAcl.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -85,6 +86,7 @@ items:
     return:
       type: System.Byte
       description: To be added.
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -108,6 +110,7 @@ items:
     return:
       type: System.Byte
       description: To be added.
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -132,6 +135,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.Security.AccessControl.GenericAcl.BinaryLength*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -160,6 +164,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.Security.AccessControl.GenericAcl.CopyTo*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -184,6 +189,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.Security.AccessControl.GenericAcl.Count*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -212,6 +218,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.Security.AccessControl.GenericAcl.GetBinaryForm*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -237,6 +244,7 @@ items:
       type: System.Security.AccessControl.AceEnumerator
       description: To be added.
   overload: System.Security.AccessControl.GenericAcl.GetEnumerator*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -261,6 +269,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Security.AccessControl.GenericAcl.IsSynchronized*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -289,6 +298,7 @@ items:
       type: System.Security.AccessControl.GenericAce
       description: To be added.
   overload: System.Security.AccessControl.GenericAcl.Item*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -312,6 +322,7 @@ items:
     return:
       type: System.Int32
       description: To be added.
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -336,6 +347,7 @@ items:
       type: System.Byte
       description: To be added.
   overload: System.Security.AccessControl.GenericAcl.Revision*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -360,6 +372,7 @@ items:
       type: System.Object
       description: To be added.
   overload: System.Security.AccessControl.GenericAcl.SyncRoot*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -389,6 +402,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.Security.AccessControl.GenericAcl.System#Collections#ICollection#CopyTo*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -415,6 +429,7 @@ items:
       type: System.Collections.IEnumerator
       description: To be added.
   overload: System.Security.AccessControl.GenericAcl.System#Collections#IEnumerable#GetEnumerator*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -447,12 +462,6 @@ references:
   name: AclRevisionDS
   nameWithType: GenericAcl.AclRevisionDS
   fullName: System.Security.AccessControl.GenericAcl.AclRevisionDS
-- uid: System.Byte
-  parent: System
-  isExternal: false
-  name: Byte
-  nameWithType: Byte
-  fullName: System.Byte
 - uid: System.Security.AccessControl.GenericAcl.BinaryLength
   parent: System.Security.AccessControl.GenericAcl
   isExternal: false
@@ -471,48 +480,46 @@ references:
   name: CopyTo(GenericAce[],Int32)
   nameWithType: GenericAcl.CopyTo(GenericAce[],Int32)
   fullName: System.Security.AccessControl.GenericAcl.CopyTo(GenericAce[],Int32)
-- uid: System.Security.AccessControl.GenericAce
+- uid: System.Security.AccessControl.GenericAce[]
   parent: System.Security.AccessControl
   isExternal: false
   name: GenericAce
   nameWithType: GenericAce
   fullName: System.Security.AccessControl.GenericAce[]
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
+  spec.csharp:
+  - uid: System.Security.AccessControl.GenericAce
+    name: GenericAce
+    nameWithType: GenericAce
+    fullName: GenericAce[]
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
 - uid: System.Security.AccessControl.GenericAcl.Count
   parent: System.Security.AccessControl.GenericAcl
   isExternal: false
   name: Count
   nameWithType: GenericAcl.Count
   fullName: System.Security.AccessControl.GenericAcl.Count
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
 - uid: System.Security.AccessControl.GenericAcl.GetBinaryForm(System.Byte[],System.Int32)
   parent: System.Security.AccessControl.GenericAcl
   isExternal: false
   name: GetBinaryForm(Byte[],Int32)
   nameWithType: GenericAcl.GetBinaryForm(Byte[],Int32)
   fullName: System.Security.AccessControl.GenericAcl.GetBinaryForm(Byte[],Int32)
-- uid: System.Byte
+- uid: System.Byte[]
   parent: System
   isExternal: false
   name: Byte
   nameWithType: Byte
   fullName: System.Byte[]
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
+  spec.csharp:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: Byte[]
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
 - uid: System.Security.AccessControl.GenericAcl.GetEnumerator
   parent: System.Security.AccessControl.GenericAcl
   isExternal: false
@@ -549,48 +556,24 @@ references:
   name: GenericAce
   nameWithType: GenericAce
   fullName: System.Security.AccessControl.GenericAce
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
 - uid: System.Security.AccessControl.GenericAcl.MaxBinaryLength
   parent: System.Security.AccessControl.GenericAcl
   isExternal: false
   name: MaxBinaryLength
   nameWithType: GenericAcl.MaxBinaryLength
   fullName: System.Security.AccessControl.GenericAcl.MaxBinaryLength
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
 - uid: System.Security.AccessControl.GenericAcl.Revision
   parent: System.Security.AccessControl.GenericAcl
   isExternal: false
   name: Revision
   nameWithType: GenericAcl.Revision
   fullName: System.Security.AccessControl.GenericAcl.Revision
-- uid: System.Byte
-  parent: System
-  isExternal: false
-  name: Byte
-  nameWithType: Byte
-  fullName: System.Byte
 - uid: System.Security.AccessControl.GenericAcl.SyncRoot
   parent: System.Security.AccessControl.GenericAcl
   isExternal: false
   name: SyncRoot
   nameWithType: GenericAcl.SyncRoot
   fullName: System.Security.AccessControl.GenericAcl.SyncRoot
-- uid: System.Object
-  parent: System
-  isExternal: false
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
 - uid: System.Security.AccessControl.GenericAcl.System#Collections#ICollection#CopyTo(System.Array,System.Int32)
   parent: System.Security.AccessControl.GenericAcl
   isExternal: false
@@ -603,12 +586,6 @@ references:
   name: Array
   nameWithType: Array
   fullName: System.Array
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
 - uid: System.Security.AccessControl.GenericAcl.System#Collections#IEnumerable#GetEnumerator
   parent: System.Security.AccessControl.GenericAcl
   isExternal: false

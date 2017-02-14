@@ -98,6 +98,7 @@ items:
       type: System.String
       description: To be added.
   overload: System.IO.FileInfo.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -123,6 +124,7 @@ items:
       type: System.IO.StreamWriter
       description: To be added.
   overload: System.IO.FileInfo.AppendText*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -151,6 +153,7 @@ items:
       type: System.IO.FileInfo
       description: To be added.
   overload: System.IO.FileInfo.CopyTo*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -182,6 +185,7 @@ items:
       type: System.IO.FileInfo
       description: To be added.
   overload: System.IO.FileInfo.CopyTo*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -207,6 +211,7 @@ items:
       type: System.IO.FileStream
       description: To be added.
   overload: System.IO.FileInfo.Create*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -232,6 +237,7 @@ items:
       type: System.IO.StreamWriter
       description: To be added.
   overload: System.IO.FileInfo.CreateText*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -254,6 +260,7 @@ items:
     content: public void Decrypt ();
     parameters: []
   overload: System.IO.FileInfo.Decrypt*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -276,6 +283,7 @@ items:
     content: public override void Delete ();
     parameters: []
   overload: System.IO.FileInfo.Delete*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -300,6 +308,7 @@ items:
       type: System.IO.DirectoryInfo
       description: To be added.
   overload: System.IO.FileInfo.Directory*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -324,6 +333,7 @@ items:
       type: System.String
       description: To be added.
   overload: System.IO.FileInfo.DirectoryName*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -346,6 +356,7 @@ items:
     content: public void Encrypt ();
     parameters: []
   overload: System.IO.FileInfo.Encrypt*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -370,6 +381,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.IO.FileInfo.Exists*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -395,6 +407,7 @@ items:
       type: System.Security.AccessControl.FileSecurity
       description: To be added.
   overload: System.IO.FileInfo.GetAccessControl*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -423,6 +436,7 @@ items:
       type: System.Security.AccessControl.FileSecurity
       description: To be added.
   overload: System.IO.FileInfo.GetAccessControl*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -447,6 +461,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.IO.FileInfo.IsReadOnly*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -471,6 +486,7 @@ items:
       type: System.Int64
       description: To be added.
   overload: System.IO.FileInfo.Length*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -496,6 +512,7 @@ items:
       type: System.String
       description: To be added.
   overload: System.IO.FileInfo.MoveTo*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -520,6 +537,7 @@ items:
       type: System.String
       description: To be added.
   overload: System.IO.FileInfo.Name*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -548,6 +566,7 @@ items:
       type: System.IO.FileStream
       description: To be added.
   overload: System.IO.FileInfo.Open*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -579,6 +598,7 @@ items:
       type: System.IO.FileStream
       description: To be added.
   overload: System.IO.FileInfo.Open*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -613,6 +633,7 @@ items:
       type: System.IO.FileStream
       description: To be added.
   overload: System.IO.FileInfo.Open*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -638,6 +659,7 @@ items:
       type: System.IO.FileStream
       description: To be added.
   overload: System.IO.FileInfo.OpenRead*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -663,6 +685,7 @@ items:
       type: System.IO.StreamReader
       description: To be added.
   overload: System.IO.FileInfo.OpenText*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -688,6 +711,7 @@ items:
       type: System.IO.FileStream
       description: To be added.
   overload: System.IO.FileInfo.OpenWrite*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -719,6 +743,7 @@ items:
       type: System.IO.FileInfo
       description: To be added.
   overload: System.IO.FileInfo.Replace*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -753,6 +778,7 @@ items:
       type: System.IO.FileInfo
       description: To be added.
   overload: System.IO.FileInfo.Replace*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -778,6 +804,7 @@ items:
       type: System.Security.AccessControl.FileSecurity
       description: To be added.
   overload: System.IO.FileInfo.SetAccessControl*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -803,6 +830,7 @@ items:
       type: System.String
       description: To be added.
   overload: System.IO.FileInfo.ToString*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -847,30 +875,12 @@ references:
   name: FileInfo
   nameWithType: FileInfo
   fullName: System.IO.FileInfo
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
 - uid: System.IO.FileInfo.CopyTo(System.String,System.Boolean)
   parent: System.IO.FileInfo
   isExternal: false
   name: CopyTo(String,Boolean)
   nameWithType: FileInfo.CopyTo(String,Boolean)
   fullName: System.IO.FileInfo.CopyTo(String,Boolean)
-- uid: System.IO.FileInfo
-  parent: System.IO
-  isExternal: false
-  name: FileInfo
-  nameWithType: FileInfo
-  fullName: System.IO.FileInfo
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
 - uid: System.Boolean
   parent: System
   isExternal: false
@@ -895,12 +905,6 @@ references:
   name: CreateText()
   nameWithType: FileInfo.CreateText()
   fullName: System.IO.FileInfo.CreateText()
-- uid: System.IO.StreamWriter
-  parent: System.IO
-  isExternal: false
-  name: StreamWriter
-  nameWithType: StreamWriter
-  fullName: System.IO.StreamWriter
 - uid: System.IO.FileInfo.Decrypt
   parent: System.IO.FileInfo
   isExternal: false
@@ -931,12 +935,6 @@ references:
   name: DirectoryName
   nameWithType: FileInfo.DirectoryName
   fullName: System.IO.FileInfo.DirectoryName
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
 - uid: System.IO.FileInfo.Encrypt
   parent: System.IO.FileInfo
   isExternal: false
@@ -949,12 +947,6 @@ references:
   name: Exists
   nameWithType: FileInfo.Exists
   fullName: System.IO.FileInfo.Exists
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
 - uid: System.IO.FileInfo.GetAccessControl
   parent: System.IO.FileInfo
   isExternal: false
@@ -973,12 +965,6 @@ references:
   name: GetAccessControl(AccessControlSections)
   nameWithType: FileInfo.GetAccessControl(AccessControlSections)
   fullName: System.IO.FileInfo.GetAccessControl(AccessControlSections)
-- uid: System.Security.AccessControl.FileSecurity
-  parent: System.Security.AccessControl
-  isExternal: false
-  name: FileSecurity
-  nameWithType: FileSecurity
-  fullName: System.Security.AccessControl.FileSecurity
 - uid: System.Security.AccessControl.AccessControlSections
   parent: System.Security.AccessControl
   isExternal: false
@@ -991,12 +977,6 @@ references:
   name: IsReadOnly
   nameWithType: FileInfo.IsReadOnly
   fullName: System.IO.FileInfo.IsReadOnly
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
 - uid: System.IO.FileInfo.Length
   parent: System.IO.FileInfo
   isExternal: false
@@ -1015,36 +995,18 @@ references:
   name: MoveTo(String)
   nameWithType: FileInfo.MoveTo(String)
   fullName: System.IO.FileInfo.MoveTo(String)
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
 - uid: System.IO.FileInfo.Name
   parent: System.IO.FileInfo
   isExternal: false
   name: Name
   nameWithType: FileInfo.Name
   fullName: System.IO.FileInfo.Name
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
 - uid: System.IO.FileInfo.Open(System.IO.FileMode)
   parent: System.IO.FileInfo
   isExternal: false
   name: Open(FileMode)
   nameWithType: FileInfo.Open(FileMode)
   fullName: System.IO.FileInfo.Open(FileMode)
-- uid: System.IO.FileStream
-  parent: System.IO
-  isExternal: false
-  name: FileStream
-  nameWithType: FileStream
-  fullName: System.IO.FileStream
 - uid: System.IO.FileMode
   parent: System.IO
   isExternal: false
@@ -1057,18 +1019,6 @@ references:
   name: Open(FileMode,FileAccess)
   nameWithType: FileInfo.Open(FileMode,FileAccess)
   fullName: System.IO.FileInfo.Open(FileMode,FileAccess)
-- uid: System.IO.FileStream
-  parent: System.IO
-  isExternal: false
-  name: FileStream
-  nameWithType: FileStream
-  fullName: System.IO.FileStream
-- uid: System.IO.FileMode
-  parent: System.IO
-  isExternal: false
-  name: FileMode
-  nameWithType: FileMode
-  fullName: System.IO.FileMode
 - uid: System.IO.FileAccess
   parent: System.IO
   isExternal: false
@@ -1081,24 +1031,6 @@ references:
   name: Open(FileMode,FileAccess,FileShare)
   nameWithType: FileInfo.Open(FileMode,FileAccess,FileShare)
   fullName: System.IO.FileInfo.Open(FileMode,FileAccess,FileShare)
-- uid: System.IO.FileStream
-  parent: System.IO
-  isExternal: false
-  name: FileStream
-  nameWithType: FileStream
-  fullName: System.IO.FileStream
-- uid: System.IO.FileMode
-  parent: System.IO
-  isExternal: false
-  name: FileMode
-  nameWithType: FileMode
-  fullName: System.IO.FileMode
-- uid: System.IO.FileAccess
-  parent: System.IO
-  isExternal: false
-  name: FileAccess
-  nameWithType: FileAccess
-  fullName: System.IO.FileAccess
 - uid: System.IO.FileShare
   parent: System.IO
   isExternal: false
@@ -1111,12 +1043,6 @@ references:
   name: OpenRead()
   nameWithType: FileInfo.OpenRead()
   fullName: System.IO.FileInfo.OpenRead()
-- uid: System.IO.FileStream
-  parent: System.IO
-  isExternal: false
-  name: FileStream
-  nameWithType: FileStream
-  fullName: System.IO.FileStream
 - uid: System.IO.FileInfo.OpenText
   parent: System.IO.FileInfo
   isExternal: false
@@ -1135,90 +1061,30 @@ references:
   name: OpenWrite()
   nameWithType: FileInfo.OpenWrite()
   fullName: System.IO.FileInfo.OpenWrite()
-- uid: System.IO.FileStream
-  parent: System.IO
-  isExternal: false
-  name: FileStream
-  nameWithType: FileStream
-  fullName: System.IO.FileStream
 - uid: System.IO.FileInfo.Replace(System.String,System.String)
   parent: System.IO.FileInfo
   isExternal: false
   name: Replace(String,String)
   nameWithType: FileInfo.Replace(String,String)
   fullName: System.IO.FileInfo.Replace(String,String)
-- uid: System.IO.FileInfo
-  parent: System.IO
-  isExternal: false
-  name: FileInfo
-  nameWithType: FileInfo
-  fullName: System.IO.FileInfo
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
 - uid: System.IO.FileInfo.Replace(System.String,System.String,System.Boolean)
   parent: System.IO.FileInfo
   isExternal: false
   name: Replace(String,String,Boolean)
   nameWithType: FileInfo.Replace(String,String,Boolean)
   fullName: System.IO.FileInfo.Replace(String,String,Boolean)
-- uid: System.IO.FileInfo
-  parent: System.IO
-  isExternal: false
-  name: FileInfo
-  nameWithType: FileInfo
-  fullName: System.IO.FileInfo
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
 - uid: System.IO.FileInfo.SetAccessControl(System.Security.AccessControl.FileSecurity)
   parent: System.IO.FileInfo
   isExternal: false
   name: SetAccessControl(FileSecurity)
   nameWithType: FileInfo.SetAccessControl(FileSecurity)
   fullName: System.IO.FileInfo.SetAccessControl(FileSecurity)
-- uid: System.Security.AccessControl.FileSecurity
-  parent: System.Security.AccessControl
-  isExternal: false
-  name: FileSecurity
-  nameWithType: FileSecurity
-  fullName: System.Security.AccessControl.FileSecurity
 - uid: System.IO.FileInfo.ToString
   parent: System.IO.FileInfo
   isExternal: false
   name: ToString()
   nameWithType: FileInfo.ToString()
   fullName: System.IO.FileInfo.ToString()
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
 - uid: System.IO.FileInfo.#ctor*
   parent: System.IO.FileInfo
   isExternal: false

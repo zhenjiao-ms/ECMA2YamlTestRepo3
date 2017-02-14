@@ -80,6 +80,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Threading.Volatile.Read*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -108,6 +109,7 @@ items:
       type: System.Byte
       description: To be added.
   overload: System.Threading.Volatile.Read*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -136,6 +138,7 @@ items:
       type: System.Double
       description: To be added.
   overload: System.Threading.Volatile.Read*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -164,6 +167,7 @@ items:
       type: System.Int16
       description: To be added.
   overload: System.Threading.Volatile.Read*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -192,6 +196,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.Threading.Volatile.Read*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -220,6 +225,7 @@ items:
       type: System.Int64
       description: To be added.
   overload: System.Threading.Volatile.Read*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -248,6 +254,7 @@ items:
       type: System.IntPtr
       description: To be added.
   overload: System.Threading.Volatile.Read*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -276,6 +283,7 @@ items:
       type: System.SByte
       description: To be added.
   overload: System.Threading.Volatile.Read*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -304,6 +312,7 @@ items:
       type: System.Single
       description: To be added.
   overload: System.Threading.Volatile.Read*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -332,6 +341,7 @@ items:
       type: System.UInt16
       description: To be added.
   overload: System.Threading.Volatile.Read*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -360,6 +370,7 @@ items:
       type: System.UInt32
       description: To be added.
   overload: System.Threading.Volatile.Read*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -388,6 +399,7 @@ items:
       type: System.UInt64
       description: To be added.
   overload: System.Threading.Volatile.Read*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -416,6 +428,7 @@ items:
       type: System.UIntPtr
       description: To be added.
   overload: System.Threading.Volatile.Read*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -444,6 +457,7 @@ items:
       type: T
       description: To be added.
   overload: System.Threading.Volatile.Read<T>*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -472,6 +486,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Threading.Volatile.Write*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -500,6 +515,7 @@ items:
       type: System.Byte
       description: To be added.
   overload: System.Threading.Volatile.Write*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -528,6 +544,7 @@ items:
       type: System.Double
       description: To be added.
   overload: System.Threading.Volatile.Write*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -556,6 +573,7 @@ items:
       type: System.Int16
       description: To be added.
   overload: System.Threading.Volatile.Write*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -584,6 +602,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.Threading.Volatile.Write*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -612,6 +631,7 @@ items:
       type: System.Int64
       description: To be added.
   overload: System.Threading.Volatile.Write*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -640,6 +660,7 @@ items:
       type: System.IntPtr
       description: To be added.
   overload: System.Threading.Volatile.Write*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -668,6 +689,7 @@ items:
       type: System.SByte
       description: To be added.
   overload: System.Threading.Volatile.Write*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -696,6 +718,7 @@ items:
       type: System.Single
       description: To be added.
   overload: System.Threading.Volatile.Write*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -724,6 +747,7 @@ items:
       type: System.UInt16
       description: To be added.
   overload: System.Threading.Volatile.Write*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -752,6 +776,7 @@ items:
       type: System.UInt32
       description: To be added.
   overload: System.Threading.Volatile.Write*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -780,6 +805,7 @@ items:
       type: System.UInt64
       description: To be added.
   overload: System.Threading.Volatile.Write*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -808,6 +834,7 @@ items:
       type: System.UIntPtr
       description: To be added.
   overload: System.Threading.Volatile.Write*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -836,6 +863,7 @@ items:
       type: T
       description: To be added.
   overload: System.Threading.Volatile.Write<T>*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -856,24 +884,12 @@ references:
   name: Boolean
   nameWithType: Boolean
   fullName: System.Boolean
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
 - uid: System.Threading.Volatile.Read(System.Byte@)
   parent: System.Threading.Volatile
   isExternal: false
   name: Read(Byte)
   nameWithType: Volatile.Read(Byte)
   fullName: System.Threading.Volatile.Read(Byte)
-- uid: System.Byte
-  parent: System
-  isExternal: false
-  name: Byte
-  nameWithType: Byte
-  fullName: System.Byte
 - uid: System.Byte
   parent: System
   isExternal: false
@@ -892,24 +908,12 @@ references:
   name: Double
   nameWithType: Double
   fullName: System.Double
-- uid: System.Double
-  parent: System
-  isExternal: false
-  name: Double
-  nameWithType: Double
-  fullName: System.Double
 - uid: System.Threading.Volatile.Read(System.Int16@)
   parent: System.Threading.Volatile
   isExternal: false
   name: Read(Int16)
   nameWithType: Volatile.Read(Int16)
   fullName: System.Threading.Volatile.Read(Int16)
-- uid: System.Int16
-  parent: System
-  isExternal: false
-  name: Int16
-  nameWithType: Int16
-  fullName: System.Int16
 - uid: System.Int16
   parent: System
   isExternal: false
@@ -928,24 +932,12 @@ references:
   name: Int32
   nameWithType: Int32
   fullName: System.Int32
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
 - uid: System.Threading.Volatile.Read(System.Int64@)
   parent: System.Threading.Volatile
   isExternal: false
   name: Read(Int64)
   nameWithType: Volatile.Read(Int64)
   fullName: System.Threading.Volatile.Read(Int64)
-- uid: System.Int64
-  parent: System
-  isExternal: false
-  name: Int64
-  nameWithType: Int64
-  fullName: System.Int64
 - uid: System.Int64
   parent: System
   isExternal: false
@@ -964,24 +956,12 @@ references:
   name: IntPtr
   nameWithType: IntPtr
   fullName: System.IntPtr
-- uid: System.IntPtr
-  parent: System
-  isExternal: false
-  name: IntPtr
-  nameWithType: IntPtr
-  fullName: System.IntPtr
 - uid: System.Threading.Volatile.Read(System.SByte@)
   parent: System.Threading.Volatile
   isExternal: false
   name: Read(SByte)
   nameWithType: Volatile.Read(SByte)
   fullName: System.Threading.Volatile.Read(SByte)
-- uid: System.SByte
-  parent: System
-  isExternal: false
-  name: SByte
-  nameWithType: SByte
-  fullName: System.SByte
 - uid: System.SByte
   parent: System
   isExternal: false
@@ -1000,24 +980,12 @@ references:
   name: Single
   nameWithType: Single
   fullName: System.Single
-- uid: System.Single
-  parent: System
-  isExternal: false
-  name: Single
-  nameWithType: Single
-  fullName: System.Single
 - uid: System.Threading.Volatile.Read(System.UInt16@)
   parent: System.Threading.Volatile
   isExternal: false
   name: Read(UInt16)
   nameWithType: Volatile.Read(UInt16)
   fullName: System.Threading.Volatile.Read(UInt16)
-- uid: System.UInt16
-  parent: System
-  isExternal: false
-  name: UInt16
-  nameWithType: UInt16
-  fullName: System.UInt16
 - uid: System.UInt16
   parent: System
   isExternal: false
@@ -1036,24 +1004,12 @@ references:
   name: UInt32
   nameWithType: UInt32
   fullName: System.UInt32
-- uid: System.UInt32
-  parent: System
-  isExternal: false
-  name: UInt32
-  nameWithType: UInt32
-  fullName: System.UInt32
 - uid: System.Threading.Volatile.Read(System.UInt64@)
   parent: System.Threading.Volatile
   isExternal: false
   name: Read(UInt64)
   nameWithType: Volatile.Read(UInt64)
   fullName: System.Threading.Volatile.Read(UInt64)
-- uid: System.UInt64
-  parent: System
-  isExternal: false
-  name: UInt64
-  nameWithType: UInt64
-  fullName: System.UInt64
 - uid: System.UInt64
   parent: System
   isExternal: false
@@ -1072,12 +1028,6 @@ references:
   name: UIntPtr
   nameWithType: UIntPtr
   fullName: System.UIntPtr
-- uid: System.UIntPtr
-  parent: System
-  isExternal: false
-  name: UIntPtr
-  nameWithType: UIntPtr
-  fullName: System.UIntPtr
 - uid: System.Threading.Volatile.Read``1(``0@)
   parent: System.Threading.Volatile
   isExternal: false
@@ -1085,13 +1035,6 @@ references:
   nameWithType: Volatile.Read(T)
   fullName: System.Threading.Volatile.Read(T)
 - uid: T
-  parent: ''
-  isExternal: true
-  name: T
-  nameWithType: T
-  fullName: T
-- uid: T
-  parent: ''
   isExternal: true
   name: T
   nameWithType: T
@@ -1102,252 +1045,84 @@ references:
   name: Write(Boolean,Boolean)
   nameWithType: Volatile.Write(Boolean,Boolean)
   fullName: System.Threading.Volatile.Write(Boolean,Boolean)
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
 - uid: System.Threading.Volatile.Write(System.Byte@,System.Byte)
   parent: System.Threading.Volatile
   isExternal: false
   name: Write(Byte,Byte)
   nameWithType: Volatile.Write(Byte,Byte)
   fullName: System.Threading.Volatile.Write(Byte,Byte)
-- uid: System.Byte
-  parent: System
-  isExternal: false
-  name: Byte
-  nameWithType: Byte
-  fullName: System.Byte
-- uid: System.Byte
-  parent: System
-  isExternal: false
-  name: Byte
-  nameWithType: Byte
-  fullName: System.Byte
 - uid: System.Threading.Volatile.Write(System.Double@,System.Double)
   parent: System.Threading.Volatile
   isExternal: false
   name: Write(Double,Double)
   nameWithType: Volatile.Write(Double,Double)
   fullName: System.Threading.Volatile.Write(Double,Double)
-- uid: System.Double
-  parent: System
-  isExternal: false
-  name: Double
-  nameWithType: Double
-  fullName: System.Double
-- uid: System.Double
-  parent: System
-  isExternal: false
-  name: Double
-  nameWithType: Double
-  fullName: System.Double
 - uid: System.Threading.Volatile.Write(System.Int16@,System.Int16)
   parent: System.Threading.Volatile
   isExternal: false
   name: Write(Int16,Int16)
   nameWithType: Volatile.Write(Int16,Int16)
   fullName: System.Threading.Volatile.Write(Int16,Int16)
-- uid: System.Int16
-  parent: System
-  isExternal: false
-  name: Int16
-  nameWithType: Int16
-  fullName: System.Int16
-- uid: System.Int16
-  parent: System
-  isExternal: false
-  name: Int16
-  nameWithType: Int16
-  fullName: System.Int16
 - uid: System.Threading.Volatile.Write(System.Int32@,System.Int32)
   parent: System.Threading.Volatile
   isExternal: false
   name: Write(Int32,Int32)
   nameWithType: Volatile.Write(Int32,Int32)
   fullName: System.Threading.Volatile.Write(Int32,Int32)
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
 - uid: System.Threading.Volatile.Write(System.Int64@,System.Int64)
   parent: System.Threading.Volatile
   isExternal: false
   name: Write(Int64,Int64)
   nameWithType: Volatile.Write(Int64,Int64)
   fullName: System.Threading.Volatile.Write(Int64,Int64)
-- uid: System.Int64
-  parent: System
-  isExternal: false
-  name: Int64
-  nameWithType: Int64
-  fullName: System.Int64
-- uid: System.Int64
-  parent: System
-  isExternal: false
-  name: Int64
-  nameWithType: Int64
-  fullName: System.Int64
 - uid: System.Threading.Volatile.Write(System.IntPtr@,System.IntPtr)
   parent: System.Threading.Volatile
   isExternal: false
   name: Write(IntPtr,IntPtr)
   nameWithType: Volatile.Write(IntPtr,IntPtr)
   fullName: System.Threading.Volatile.Write(IntPtr,IntPtr)
-- uid: System.IntPtr
-  parent: System
-  isExternal: false
-  name: IntPtr
-  nameWithType: IntPtr
-  fullName: System.IntPtr
-- uid: System.IntPtr
-  parent: System
-  isExternal: false
-  name: IntPtr
-  nameWithType: IntPtr
-  fullName: System.IntPtr
 - uid: System.Threading.Volatile.Write(System.SByte@,System.SByte)
   parent: System.Threading.Volatile
   isExternal: false
   name: Write(SByte,SByte)
   nameWithType: Volatile.Write(SByte,SByte)
   fullName: System.Threading.Volatile.Write(SByte,SByte)
-- uid: System.SByte
-  parent: System
-  isExternal: false
-  name: SByte
-  nameWithType: SByte
-  fullName: System.SByte
-- uid: System.SByte
-  parent: System
-  isExternal: false
-  name: SByte
-  nameWithType: SByte
-  fullName: System.SByte
 - uid: System.Threading.Volatile.Write(System.Single@,System.Single)
   parent: System.Threading.Volatile
   isExternal: false
   name: Write(Single,Single)
   nameWithType: Volatile.Write(Single,Single)
   fullName: System.Threading.Volatile.Write(Single,Single)
-- uid: System.Single
-  parent: System
-  isExternal: false
-  name: Single
-  nameWithType: Single
-  fullName: System.Single
-- uid: System.Single
-  parent: System
-  isExternal: false
-  name: Single
-  nameWithType: Single
-  fullName: System.Single
 - uid: System.Threading.Volatile.Write(System.UInt16@,System.UInt16)
   parent: System.Threading.Volatile
   isExternal: false
   name: Write(UInt16,UInt16)
   nameWithType: Volatile.Write(UInt16,UInt16)
   fullName: System.Threading.Volatile.Write(UInt16,UInt16)
-- uid: System.UInt16
-  parent: System
-  isExternal: false
-  name: UInt16
-  nameWithType: UInt16
-  fullName: System.UInt16
-- uid: System.UInt16
-  parent: System
-  isExternal: false
-  name: UInt16
-  nameWithType: UInt16
-  fullName: System.UInt16
 - uid: System.Threading.Volatile.Write(System.UInt32@,System.UInt32)
   parent: System.Threading.Volatile
   isExternal: false
   name: Write(UInt32,UInt32)
   nameWithType: Volatile.Write(UInt32,UInt32)
   fullName: System.Threading.Volatile.Write(UInt32,UInt32)
-- uid: System.UInt32
-  parent: System
-  isExternal: false
-  name: UInt32
-  nameWithType: UInt32
-  fullName: System.UInt32
-- uid: System.UInt32
-  parent: System
-  isExternal: false
-  name: UInt32
-  nameWithType: UInt32
-  fullName: System.UInt32
 - uid: System.Threading.Volatile.Write(System.UInt64@,System.UInt64)
   parent: System.Threading.Volatile
   isExternal: false
   name: Write(UInt64,UInt64)
   nameWithType: Volatile.Write(UInt64,UInt64)
   fullName: System.Threading.Volatile.Write(UInt64,UInt64)
-- uid: System.UInt64
-  parent: System
-  isExternal: false
-  name: UInt64
-  nameWithType: UInt64
-  fullName: System.UInt64
-- uid: System.UInt64
-  parent: System
-  isExternal: false
-  name: UInt64
-  nameWithType: UInt64
-  fullName: System.UInt64
 - uid: System.Threading.Volatile.Write(System.UIntPtr@,System.UIntPtr)
   parent: System.Threading.Volatile
   isExternal: false
   name: Write(UIntPtr,UIntPtr)
   nameWithType: Volatile.Write(UIntPtr,UIntPtr)
   fullName: System.Threading.Volatile.Write(UIntPtr,UIntPtr)
-- uid: System.UIntPtr
-  parent: System
-  isExternal: false
-  name: UIntPtr
-  nameWithType: UIntPtr
-  fullName: System.UIntPtr
-- uid: System.UIntPtr
-  parent: System
-  isExternal: false
-  name: UIntPtr
-  nameWithType: UIntPtr
-  fullName: System.UIntPtr
 - uid: System.Threading.Volatile.Write``1(``0@,``0)
   parent: System.Threading.Volatile
   isExternal: false
   name: Write(T,T)
   nameWithType: Volatile.Write(T,T)
   fullName: System.Threading.Volatile.Write(T,T)
-- uid: T
-  parent: ''
-  isExternal: true
-  name: T
-  nameWithType: T
-  fullName: T
-- uid: T
-  parent: ''
-  isExternal: true
-  name: T
-  nameWithType: T
-  fullName: T
 - uid: System.Threading.Volatile.Read*
   parent: System.Threading.Volatile
   isExternal: false

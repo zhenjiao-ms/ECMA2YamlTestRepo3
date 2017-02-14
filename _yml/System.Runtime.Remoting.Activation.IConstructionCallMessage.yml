@@ -47,6 +47,7 @@ items:
       type: System.Type
       description: To be added.
   overload: System.Runtime.Remoting.Activation.IConstructionCallMessage.ActivationType*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -71,6 +72,7 @@ items:
       type: System.String
       description: To be added.
   overload: System.Runtime.Remoting.Activation.IConstructionCallMessage.ActivationTypeName*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -95,6 +97,7 @@ items:
       type: System.Runtime.Remoting.Activation.IActivator
       description: To be added.
   overload: System.Runtime.Remoting.Activation.IConstructionCallMessage.Activator*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -119,6 +122,7 @@ items:
       type: System.Object[]
       description: To be added.
   overload: System.Runtime.Remoting.Activation.IConstructionCallMessage.CallSiteActivationAttributes*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -143,6 +147,7 @@ items:
       type: System.Collections.IList
       description: To be added.
   overload: System.Runtime.Remoting.Activation.IConstructionCallMessage.ContextProperties*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -190,12 +195,20 @@ references:
   name: CallSiteActivationAttributes
   nameWithType: IConstructionCallMessage.CallSiteActivationAttributes
   fullName: System.Runtime.Remoting.Activation.IConstructionCallMessage.CallSiteActivationAttributes
-- uid: System.Object
+- uid: System.Object[]
   parent: System
   isExternal: false
   name: Object
   nameWithType: Object
   fullName: System.Object[]
+  spec.csharp:
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: Object[]
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
 - uid: System.Runtime.Remoting.Activation.IConstructionCallMessage.ContextProperties
   parent: System.Runtime.Remoting.Activation.IConstructionCallMessage
   isExternal: false

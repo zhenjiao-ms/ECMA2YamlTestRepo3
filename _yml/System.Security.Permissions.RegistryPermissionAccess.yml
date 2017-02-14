@@ -49,6 +49,7 @@ items:
     return:
       type: System.Security.Permissions.RegistryPermissionAccess
       description: To be added.
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -71,6 +72,7 @@ items:
     return:
       type: System.Security.Permissions.RegistryPermissionAccess
       description: To be added.
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -93,6 +95,7 @@ items:
     return:
       type: System.Security.Permissions.RegistryPermissionAccess
       description: To be added.
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -115,6 +118,7 @@ items:
     return:
       type: System.Security.Permissions.RegistryPermissionAccess
       description: To be added.
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -137,6 +141,7 @@ items:
     return:
       type: System.Security.Permissions.RegistryPermissionAccess
       description: To be added.
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -163,45 +168,21 @@ references:
   name: Create
   nameWithType: RegistryPermissionAccess.Create
   fullName: System.Security.Permissions.RegistryPermissionAccess.Create
-- uid: System.Security.Permissions.RegistryPermissionAccess
-  parent: System.Security.Permissions
-  isExternal: false
-  name: RegistryPermissionAccess
-  nameWithType: RegistryPermissionAccess
-  fullName: System.Security.Permissions.RegistryPermissionAccess
 - uid: System.Security.Permissions.RegistryPermissionAccess.NoAccess
   parent: System.Security.Permissions.RegistryPermissionAccess
   isExternal: false
   name: NoAccess
   nameWithType: RegistryPermissionAccess.NoAccess
   fullName: System.Security.Permissions.RegistryPermissionAccess.NoAccess
-- uid: System.Security.Permissions.RegistryPermissionAccess
-  parent: System.Security.Permissions
-  isExternal: false
-  name: RegistryPermissionAccess
-  nameWithType: RegistryPermissionAccess
-  fullName: System.Security.Permissions.RegistryPermissionAccess
 - uid: System.Security.Permissions.RegistryPermissionAccess.Read
   parent: System.Security.Permissions.RegistryPermissionAccess
   isExternal: false
   name: Read
   nameWithType: RegistryPermissionAccess.Read
   fullName: System.Security.Permissions.RegistryPermissionAccess.Read
-- uid: System.Security.Permissions.RegistryPermissionAccess
-  parent: System.Security.Permissions
-  isExternal: false
-  name: RegistryPermissionAccess
-  nameWithType: RegistryPermissionAccess
-  fullName: System.Security.Permissions.RegistryPermissionAccess
 - uid: System.Security.Permissions.RegistryPermissionAccess.Write
   parent: System.Security.Permissions.RegistryPermissionAccess
   isExternal: false
   name: Write
   nameWithType: RegistryPermissionAccess.Write
   fullName: System.Security.Permissions.RegistryPermissionAccess.Write
-- uid: System.Security.Permissions.RegistryPermissionAccess
-  parent: System.Security.Permissions
-  isExternal: false
-  name: RegistryPermissionAccess
-  nameWithType: RegistryPermissionAccess
-  fullName: System.Security.Permissions.RegistryPermissionAccess

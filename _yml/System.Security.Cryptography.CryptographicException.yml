@@ -68,6 +68,7 @@ items:
     content: public CryptographicException ();
     parameters: []
   overload: System.Security.Cryptography.CryptographicException.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -93,6 +94,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.Security.Cryptography.CryptographicException.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -118,6 +120,7 @@ items:
       type: System.String
       description: To be added.
   overload: System.Security.Cryptography.CryptographicException.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -146,6 +149,7 @@ items:
       type: System.Runtime.Serialization.StreamingContext
       description: To be added.
   overload: System.Security.Cryptography.CryptographicException.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -174,6 +178,7 @@ items:
       type: System.Exception
       description: To be added.
   overload: System.Security.Cryptography.CryptographicException.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -202,6 +207,7 @@ items:
       type: System.String
       description: To be added.
   overload: System.Security.Cryptography.CryptographicException.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -264,12 +270,6 @@ references:
   name: CryptographicException(String,Exception)
   nameWithType: CryptographicException.CryptographicException(String,Exception)
   fullName: System.Security.Cryptography.CryptographicException.CryptographicException(String,Exception)
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
 - uid: System.Exception
   parent: System
   isExternal: false
@@ -282,18 +282,6 @@ references:
   name: CryptographicException(String,String)
   nameWithType: CryptographicException.CryptographicException(String,String)
   fullName: System.Security.Cryptography.CryptographicException.CryptographicException(String,String)
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
 - uid: System.Security.Cryptography.CryptographicException.#ctor*
   parent: System.Security.Cryptography.CryptographicException
   isExternal: false

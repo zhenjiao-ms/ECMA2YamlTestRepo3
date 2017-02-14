@@ -51,6 +51,7 @@ items:
     content: protected DecoderFallback ();
     parameters: []
   overload: System.Text.DecoderFallback.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -76,6 +77,7 @@ items:
       type: System.Text.DecoderFallbackBuffer
       description: To be added.
   overload: System.Text.DecoderFallback.CreateFallbackBuffer*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -100,6 +102,7 @@ items:
       type: System.Text.DecoderFallback
       description: To be added.
   overload: System.Text.DecoderFallback.ExceptionFallback*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -124,6 +127,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.Text.DecoderFallback.MaxCharCount*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -148,6 +152,7 @@ items:
       type: System.Text.DecoderFallback
       description: To be added.
   overload: System.Text.DecoderFallback.ReplacementFallback*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -204,12 +209,6 @@ references:
   name: ReplacementFallback
   nameWithType: DecoderFallback.ReplacementFallback
   fullName: System.Text.DecoderFallback.ReplacementFallback
-- uid: System.Text.DecoderFallback
-  parent: System.Text
-  isExternal: false
-  name: DecoderFallback
-  nameWithType: DecoderFallback
-  fullName: System.Text.DecoderFallback
 - uid: System.Text.DecoderFallback.#ctor*
   parent: System.Text.DecoderFallback
   isExternal: false

@@ -98,6 +98,7 @@ items:
       type: System.Runtime.CompilerServices.LoadHint
       description: To be added.
   overload: System.Runtime.CompilerServices.DependencyAttribute.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -122,6 +123,7 @@ items:
       type: System.String
       description: To be added.
   overload: System.Runtime.CompilerServices.DependencyAttribute.DependentAssembly*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -146,6 +148,7 @@ items:
       type: System.Runtime.CompilerServices.LoadHint
       description: To be added.
   overload: System.Runtime.CompilerServices.DependencyAttribute.LoadHint*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -178,24 +181,12 @@ references:
   name: DependentAssembly
   nameWithType: DependencyAttribute.DependentAssembly
   fullName: System.Runtime.CompilerServices.DependencyAttribute.DependentAssembly
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
 - uid: System.Runtime.CompilerServices.DependencyAttribute.LoadHint
   parent: System.Runtime.CompilerServices.DependencyAttribute
   isExternal: false
   name: LoadHint
   nameWithType: DependencyAttribute.LoadHint
   fullName: System.Runtime.CompilerServices.DependencyAttribute.LoadHint
-- uid: System.Runtime.CompilerServices.LoadHint
-  parent: System.Runtime.CompilerServices
-  isExternal: false
-  name: LoadHint
-  nameWithType: LoadHint
-  fullName: System.Runtime.CompilerServices.LoadHint
 - uid: System.Runtime.CompilerServices.DependencyAttribute.#ctor*
   parent: System.Runtime.CompilerServices.DependencyAttribute
   isExternal: false

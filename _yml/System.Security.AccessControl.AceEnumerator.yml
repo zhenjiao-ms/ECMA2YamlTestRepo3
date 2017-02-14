@@ -53,6 +53,7 @@ items:
       type: System.Security.AccessControl.GenericAce
       description: To be added.
   overload: System.Security.AccessControl.AceEnumerator.Current*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -78,6 +79,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Security.AccessControl.AceEnumerator.MoveNext*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -100,6 +102,7 @@ items:
     content: public void Reset ();
     parameters: []
   overload: System.Security.AccessControl.AceEnumerator.Reset*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -125,6 +128,7 @@ items:
       type: System.Object
       description: To be added.
   overload: System.Security.AccessControl.AceEnumerator.System#Collections#IEnumerator#Current*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -169,12 +173,6 @@ references:
   name: System.Collections.IEnumerator.Current
   nameWithType: AceEnumerator.System.Collections.IEnumerator.Current
   fullName: System.Security.AccessControl.AceEnumerator.System.Collections.IEnumerator.Current
-- uid: System.Object
-  parent: System
-  isExternal: false
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
 - uid: System.Security.AccessControl.AceEnumerator.Current*
   parent: System.Security.AccessControl.AceEnumerator
   isExternal: false

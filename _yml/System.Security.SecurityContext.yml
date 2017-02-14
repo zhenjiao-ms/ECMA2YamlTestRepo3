@@ -59,6 +59,7 @@ items:
       type: System.Security.SecurityContext
       description: To be added.
   overload: System.Security.SecurityContext.Capture*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -84,6 +85,7 @@ items:
       type: System.Security.SecurityContext
       description: To be added.
   overload: System.Security.SecurityContext.CreateCopy*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -106,6 +108,7 @@ items:
     content: public void Dispose ();
     parameters: []
   overload: System.Security.SecurityContext.Dispose*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -131,6 +134,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Security.SecurityContext.IsFlowSuppressed*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -156,6 +160,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Security.SecurityContext.IsWindowsIdentityFlowSuppressed*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -178,6 +183,7 @@ items:
     content: public static void RestoreFlow ();
     parameters: []
   overload: System.Security.SecurityContext.RestoreFlow*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -209,6 +215,7 @@ items:
       type: System.Object
       description: To be added.
   overload: System.Security.SecurityContext.Run*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -234,6 +241,7 @@ items:
       type: System.Threading.AsyncFlowControl
       description: To be added.
   overload: System.Security.SecurityContext.SuppressFlow*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -259,6 +267,7 @@ items:
       type: System.Threading.AsyncFlowControl
       description: To be added.
   overload: System.Security.SecurityContext.SuppressFlowWindowsIdentity*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -285,12 +294,6 @@ references:
   name: CreateCopy()
   nameWithType: SecurityContext.CreateCopy()
   fullName: System.Security.SecurityContext.CreateCopy()
-- uid: System.Security.SecurityContext
-  parent: System.Security
-  isExternal: false
-  name: SecurityContext
-  nameWithType: SecurityContext
-  fullName: System.Security.SecurityContext
 - uid: System.Security.SecurityContext.Dispose
   parent: System.Security.SecurityContext
   isExternal: false
@@ -315,12 +318,6 @@ references:
   name: IsWindowsIdentityFlowSuppressed()
   nameWithType: SecurityContext.IsWindowsIdentityFlowSuppressed()
   fullName: System.Security.SecurityContext.IsWindowsIdentityFlowSuppressed()
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
 - uid: System.Security.SecurityContext.RestoreFlow
   parent: System.Security.SecurityContext
   isExternal: false
@@ -333,24 +330,12 @@ references:
   name: Run(SecurityContext,ContextCallback,Object)
   nameWithType: SecurityContext.Run(SecurityContext,ContextCallback,Object)
   fullName: System.Security.SecurityContext.Run(SecurityContext,ContextCallback,Object)
-- uid: System.Security.SecurityContext
-  parent: System.Security
-  isExternal: false
-  name: SecurityContext
-  nameWithType: SecurityContext
-  fullName: System.Security.SecurityContext
 - uid: System.Threading.ContextCallback
   parent: System.Threading
   isExternal: false
   name: ContextCallback
   nameWithType: ContextCallback
   fullName: System.Threading.ContextCallback
-- uid: System.Object
-  parent: System
-  isExternal: false
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
 - uid: System.Security.SecurityContext.SuppressFlow
   parent: System.Security.SecurityContext
   isExternal: false
@@ -369,12 +354,6 @@ references:
   name: SuppressFlowWindowsIdentity()
   nameWithType: SecurityContext.SuppressFlowWindowsIdentity()
   fullName: System.Security.SecurityContext.SuppressFlowWindowsIdentity()
-- uid: System.Threading.AsyncFlowControl
-  parent: System.Threading
-  isExternal: false
-  name: AsyncFlowControl
-  nameWithType: AsyncFlowControl
-  fullName: System.Threading.AsyncFlowControl
 - uid: System.Security.SecurityContext.Capture*
   parent: System.Security.SecurityContext
   isExternal: false

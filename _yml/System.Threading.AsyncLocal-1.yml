@@ -52,6 +52,7 @@ items:
     content: public AsyncLocal ();
     parameters: []
   overload: System.Threading.AsyncLocal`1.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -77,6 +78,7 @@ items:
       type: System.Action{System.Threading.AsyncLocalValueChangedArgs{T}}
       description: To be added.
   overload: System.Threading.AsyncLocal`1.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -101,6 +103,7 @@ items:
       type: T
       description: To be added.
   overload: System.Threading.AsyncLocal`1.Value*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -127,6 +130,31 @@ references:
   name: Action<AsyncLocalValueChangedArgs<T>>
   nameWithType: Action<AsyncLocalValueChangedArgs<T>>
   fullName: System.Action<System.Threading.AsyncLocalValueChangedArgs<T>>
+  spec.csharp:
+  - uid: System.Action`1
+    name: Action
+    nameWithType: Action
+    fullName: Action<System.Threading.AsyncLocalValueChangedArgs<T>>
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Threading.AsyncLocalValueChangedArgs`1
+    name: AsyncLocalValueChangedArgs
+    nameWithType: AsyncLocalValueChangedArgs
+    fullName: AsyncLocalValueChangedArgs<T>
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: T
+    name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
 - uid: System.Threading.AsyncLocal`1.Value
   parent: System.Threading.AsyncLocal`1
   isExternal: false
@@ -134,7 +162,6 @@ references:
   nameWithType: AsyncLocal<T>.Value
   fullName: System.Threading.AsyncLocal<T>.Value
 - uid: T
-  parent: ''
   isExternal: true
   name: T
   nameWithType: T

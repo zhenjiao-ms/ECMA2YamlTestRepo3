@@ -69,6 +69,7 @@ items:
     content: public EncoderFallbackException ();
     parameters: []
   overload: System.Text.EncoderFallbackException.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -94,6 +95,7 @@ items:
       type: System.String
       description: To be added.
   overload: System.Text.EncoderFallbackException.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -122,6 +124,7 @@ items:
       type: System.Exception
       description: To be added.
   overload: System.Text.EncoderFallbackException.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -146,6 +149,7 @@ items:
       type: System.Char
       description: To be added.
   overload: System.Text.EncoderFallbackException.CharUnknown*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -170,6 +174,7 @@ items:
       type: System.Char
       description: To be added.
   overload: System.Text.EncoderFallbackException.CharUnknownHigh*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -194,6 +199,7 @@ items:
       type: System.Char
       description: To be added.
   overload: System.Text.EncoderFallbackException.CharUnknownLow*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -218,6 +224,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.Text.EncoderFallbackException.Index*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -243,6 +250,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Text.EncoderFallbackException.IsUnknownSurrogate*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -275,12 +283,6 @@ references:
   name: EncoderFallbackException(String,Exception)
   nameWithType: EncoderFallbackException.EncoderFallbackException(String,Exception)
   fullName: System.Text.EncoderFallbackException.EncoderFallbackException(String,Exception)
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
 - uid: System.Exception
   parent: System
   isExternal: false
@@ -305,24 +307,12 @@ references:
   name: CharUnknownHigh
   nameWithType: EncoderFallbackException.CharUnknownHigh
   fullName: System.Text.EncoderFallbackException.CharUnknownHigh
-- uid: System.Char
-  parent: System
-  isExternal: false
-  name: Char
-  nameWithType: Char
-  fullName: System.Char
 - uid: System.Text.EncoderFallbackException.CharUnknownLow
   parent: System.Text.EncoderFallbackException
   isExternal: false
   name: CharUnknownLow
   nameWithType: EncoderFallbackException.CharUnknownLow
   fullName: System.Text.EncoderFallbackException.CharUnknownLow
-- uid: System.Char
-  parent: System
-  isExternal: false
-  name: Char
-  nameWithType: Char
-  fullName: System.Char
 - uid: System.Text.EncoderFallbackException.Index
   parent: System.Text.EncoderFallbackException
   isExternal: false

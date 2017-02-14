@@ -42,6 +42,7 @@ items:
     return:
       type: System.Security.SecurityRuleSet
       description: To be added.
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -64,6 +65,7 @@ items:
     return:
       type: System.Security.SecurityRuleSet
       description: To be added.
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -86,6 +88,7 @@ items:
     return:
       type: System.Security.SecurityRuleSet
       description: To be added.
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -112,21 +115,9 @@ references:
   name: Level2
   nameWithType: SecurityRuleSet.Level2
   fullName: System.Security.SecurityRuleSet.Level2
-- uid: System.Security.SecurityRuleSet
-  parent: System.Security
-  isExternal: false
-  name: SecurityRuleSet
-  nameWithType: SecurityRuleSet
-  fullName: System.Security.SecurityRuleSet
 - uid: System.Security.SecurityRuleSet.None
   parent: System.Security.SecurityRuleSet
   isExternal: false
   name: None
   nameWithType: SecurityRuleSet.None
   fullName: System.Security.SecurityRuleSet.None
-- uid: System.Security.SecurityRuleSet
-  parent: System.Security
-  isExternal: false
-  name: SecurityRuleSet
-  nameWithType: SecurityRuleSet
-  fullName: System.Security.SecurityRuleSet

@@ -68,6 +68,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.Security.Permissions.KeyContainerPermissionAccessEntryCollection.Add*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -90,6 +91,7 @@ items:
     content: public void Clear ();
     parameters: []
   overload: System.Security.Permissions.KeyContainerPermissionAccessEntryCollection.Clear*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -118,6 +120,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.Security.Permissions.KeyContainerPermissionAccessEntryCollection.CopyTo*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -142,6 +145,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.Security.Permissions.KeyContainerPermissionAccessEntryCollection.Count*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -167,6 +171,7 @@ items:
       type: System.Security.Permissions.KeyContainerPermissionAccessEntryEnumerator
       description: To be added.
   overload: System.Security.Permissions.KeyContainerPermissionAccessEntryCollection.GetEnumerator*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -195,6 +200,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.Security.Permissions.KeyContainerPermissionAccessEntryCollection.IndexOf*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -219,6 +225,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Security.Permissions.KeyContainerPermissionAccessEntryCollection.IsSynchronized*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -247,6 +254,7 @@ items:
       type: System.Security.Permissions.KeyContainerPermissionAccessEntry
       description: To be added.
   overload: System.Security.Permissions.KeyContainerPermissionAccessEntryCollection.Item*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -272,6 +280,7 @@ items:
       type: System.Security.Permissions.KeyContainerPermissionAccessEntry
       description: To be added.
   overload: System.Security.Permissions.KeyContainerPermissionAccessEntryCollection.Remove*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -296,6 +305,7 @@ items:
       type: System.Object
       description: To be added.
   overload: System.Security.Permissions.KeyContainerPermissionAccessEntryCollection.SyncRoot*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -325,6 +335,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.Security.Permissions.KeyContainerPermissionAccessEntryCollection.System#Collections#ICollection#CopyTo*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -351,6 +362,7 @@ items:
       type: System.Collections.IEnumerator
       description: To be added.
   overload: System.Security.Permissions.KeyContainerPermissionAccessEntryCollection.System#Collections#IEnumerable#GetEnumerator*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -389,30 +401,26 @@ references:
   name: CopyTo(KeyContainerPermissionAccessEntry[],Int32)
   nameWithType: KeyContainerPermissionAccessEntryCollection.CopyTo(KeyContainerPermissionAccessEntry[],Int32)
   fullName: System.Security.Permissions.KeyContainerPermissionAccessEntryCollection.CopyTo(KeyContainerPermissionAccessEntry[],Int32)
-- uid: System.Security.Permissions.KeyContainerPermissionAccessEntry
+- uid: System.Security.Permissions.KeyContainerPermissionAccessEntry[]
   parent: System.Security.Permissions
   isExternal: false
   name: KeyContainerPermissionAccessEntry
   nameWithType: KeyContainerPermissionAccessEntry
   fullName: System.Security.Permissions.KeyContainerPermissionAccessEntry[]
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
+  spec.csharp:
+  - uid: System.Security.Permissions.KeyContainerPermissionAccessEntry
+    name: KeyContainerPermissionAccessEntry
+    nameWithType: KeyContainerPermissionAccessEntry
+    fullName: KeyContainerPermissionAccessEntry[]
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
 - uid: System.Security.Permissions.KeyContainerPermissionAccessEntryCollection.Count
   parent: System.Security.Permissions.KeyContainerPermissionAccessEntryCollection
   isExternal: false
   name: Count
   nameWithType: KeyContainerPermissionAccessEntryCollection.Count
   fullName: System.Security.Permissions.KeyContainerPermissionAccessEntryCollection.Count
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
 - uid: System.Security.Permissions.KeyContainerPermissionAccessEntryCollection.GetEnumerator
   parent: System.Security.Permissions.KeyContainerPermissionAccessEntryCollection
   isExternal: false
@@ -431,18 +439,6 @@ references:
   name: IndexOf(KeyContainerPermissionAccessEntry)
   nameWithType: KeyContainerPermissionAccessEntryCollection.IndexOf(KeyContainerPermissionAccessEntry)
   fullName: System.Security.Permissions.KeyContainerPermissionAccessEntryCollection.IndexOf(KeyContainerPermissionAccessEntry)
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: System.Security.Permissions.KeyContainerPermissionAccessEntry
-  parent: System.Security.Permissions
-  isExternal: false
-  name: KeyContainerPermissionAccessEntry
-  nameWithType: KeyContainerPermissionAccessEntry
-  fullName: System.Security.Permissions.KeyContainerPermissionAccessEntry
 - uid: System.Security.Permissions.KeyContainerPermissionAccessEntryCollection.IsSynchronized
   parent: System.Security.Permissions.KeyContainerPermissionAccessEntryCollection
   isExternal: false
@@ -461,42 +457,18 @@ references:
   name: Item(Int32)
   nameWithType: KeyContainerPermissionAccessEntryCollection.Item(Int32)
   fullName: System.Security.Permissions.KeyContainerPermissionAccessEntryCollection.Item(Int32)
-- uid: System.Security.Permissions.KeyContainerPermissionAccessEntry
-  parent: System.Security.Permissions
-  isExternal: false
-  name: KeyContainerPermissionAccessEntry
-  nameWithType: KeyContainerPermissionAccessEntry
-  fullName: System.Security.Permissions.KeyContainerPermissionAccessEntry
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
 - uid: System.Security.Permissions.KeyContainerPermissionAccessEntryCollection.Remove(System.Security.Permissions.KeyContainerPermissionAccessEntry)
   parent: System.Security.Permissions.KeyContainerPermissionAccessEntryCollection
   isExternal: false
   name: Remove(KeyContainerPermissionAccessEntry)
   nameWithType: KeyContainerPermissionAccessEntryCollection.Remove(KeyContainerPermissionAccessEntry)
   fullName: System.Security.Permissions.KeyContainerPermissionAccessEntryCollection.Remove(KeyContainerPermissionAccessEntry)
-- uid: System.Security.Permissions.KeyContainerPermissionAccessEntry
-  parent: System.Security.Permissions
-  isExternal: false
-  name: KeyContainerPermissionAccessEntry
-  nameWithType: KeyContainerPermissionAccessEntry
-  fullName: System.Security.Permissions.KeyContainerPermissionAccessEntry
 - uid: System.Security.Permissions.KeyContainerPermissionAccessEntryCollection.SyncRoot
   parent: System.Security.Permissions.KeyContainerPermissionAccessEntryCollection
   isExternal: false
   name: SyncRoot
   nameWithType: KeyContainerPermissionAccessEntryCollection.SyncRoot
   fullName: System.Security.Permissions.KeyContainerPermissionAccessEntryCollection.SyncRoot
-- uid: System.Object
-  parent: System
-  isExternal: false
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
 - uid: System.Security.Permissions.KeyContainerPermissionAccessEntryCollection.System#Collections#ICollection#CopyTo(System.Array,System.Int32)
   parent: System.Security.Permissions.KeyContainerPermissionAccessEntryCollection
   isExternal: false
@@ -509,12 +481,6 @@ references:
   name: Array
   nameWithType: Array
   fullName: System.Array
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
 - uid: System.Security.Permissions.KeyContainerPermissionAccessEntryCollection.System#Collections#IEnumerable#GetEnumerator
   parent: System.Security.Permissions.KeyContainerPermissionAccessEntryCollection
   isExternal: false

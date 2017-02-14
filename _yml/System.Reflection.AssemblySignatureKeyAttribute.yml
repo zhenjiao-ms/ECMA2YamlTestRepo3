@@ -98,6 +98,7 @@ items:
       type: System.String
       description: To be added.
   overload: System.Reflection.AssemblySignatureKeyAttribute.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -122,6 +123,7 @@ items:
       type: System.String
       description: To be added.
   overload: System.Reflection.AssemblySignatureKeyAttribute.Countersignature*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -146,6 +148,7 @@ items:
       type: System.String
       description: To be added.
   overload: System.Reflection.AssemblySignatureKeyAttribute.PublicKey*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -166,36 +169,18 @@ references:
   name: String
   nameWithType: String
   fullName: System.String
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
 - uid: System.Reflection.AssemblySignatureKeyAttribute.Countersignature
   parent: System.Reflection.AssemblySignatureKeyAttribute
   isExternal: false
   name: Countersignature
   nameWithType: AssemblySignatureKeyAttribute.Countersignature
   fullName: System.Reflection.AssemblySignatureKeyAttribute.Countersignature
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
 - uid: System.Reflection.AssemblySignatureKeyAttribute.PublicKey
   parent: System.Reflection.AssemblySignatureKeyAttribute
   isExternal: false
   name: PublicKey
   nameWithType: AssemblySignatureKeyAttribute.PublicKey
   fullName: System.Reflection.AssemblySignatureKeyAttribute.PublicKey
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
 - uid: System.Reflection.AssemblySignatureKeyAttribute.#ctor*
   parent: System.Reflection.AssemblySignatureKeyAttribute
   isExternal: false

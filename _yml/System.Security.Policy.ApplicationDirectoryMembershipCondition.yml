@@ -56,6 +56,7 @@ items:
     content: public ApplicationDirectoryMembershipCondition ();
     parameters: []
   overload: System.Security.Policy.ApplicationDirectoryMembershipCondition.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -84,6 +85,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Security.Policy.ApplicationDirectoryMembershipCondition.Check*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -109,6 +111,7 @@ items:
       type: System.Security.Policy.IMembershipCondition
       description: To be added.
   overload: System.Security.Policy.ApplicationDirectoryMembershipCondition.Copy*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -137,6 +140,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Security.Policy.ApplicationDirectoryMembershipCondition.Equals*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -162,6 +166,7 @@ items:
       type: System.Security.SecurityElement
       description: To be added.
   overload: System.Security.Policy.ApplicationDirectoryMembershipCondition.FromXml*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -190,6 +195,7 @@ items:
       type: System.Security.Policy.PolicyLevel
       description: To be added.
   overload: System.Security.Policy.ApplicationDirectoryMembershipCondition.FromXml*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -215,6 +221,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.Security.Policy.ApplicationDirectoryMembershipCondition.GetHashCode*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -240,6 +247,7 @@ items:
       type: System.String
       description: To be added.
   overload: System.Security.Policy.ApplicationDirectoryMembershipCondition.ToString*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -265,6 +273,7 @@ items:
       type: System.Security.SecurityElement
       description: To be added.
   overload: System.Security.Policy.ApplicationDirectoryMembershipCondition.ToXml*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -293,6 +302,7 @@ items:
       type: System.Security.SecurityElement
       description: To be added.
   overload: System.Security.Policy.ApplicationDirectoryMembershipCondition.ToXml*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -343,18 +353,6 @@ references:
   name: Equals(Object)
   nameWithType: ApplicationDirectoryMembershipCondition.Equals(Object)
   fullName: System.Security.Policy.ApplicationDirectoryMembershipCondition.Equals(Object)
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
-- uid: System.Object
-  parent: System
-  isExternal: false
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
 - uid: System.Security.Policy.ApplicationDirectoryMembershipCondition.FromXml(System.Security.SecurityElement)
   parent: System.Security.Policy.ApplicationDirectoryMembershipCondition
   isExternal: false
@@ -373,12 +371,6 @@ references:
   name: FromXml(SecurityElement,PolicyLevel)
   nameWithType: ApplicationDirectoryMembershipCondition.FromXml(SecurityElement,PolicyLevel)
   fullName: System.Security.Policy.ApplicationDirectoryMembershipCondition.FromXml(SecurityElement,PolicyLevel)
-- uid: System.Security.SecurityElement
-  parent: System.Security
-  isExternal: false
-  name: SecurityElement
-  nameWithType: SecurityElement
-  fullName: System.Security.SecurityElement
 - uid: System.Security.Policy.PolicyLevel
   parent: System.Security.Policy
   isExternal: false
@@ -415,30 +407,12 @@ references:
   name: ToXml()
   nameWithType: ApplicationDirectoryMembershipCondition.ToXml()
   fullName: System.Security.Policy.ApplicationDirectoryMembershipCondition.ToXml()
-- uid: System.Security.SecurityElement
-  parent: System.Security
-  isExternal: false
-  name: SecurityElement
-  nameWithType: SecurityElement
-  fullName: System.Security.SecurityElement
 - uid: System.Security.Policy.ApplicationDirectoryMembershipCondition.ToXml(System.Security.Policy.PolicyLevel)
   parent: System.Security.Policy.ApplicationDirectoryMembershipCondition
   isExternal: false
   name: ToXml(PolicyLevel)
   nameWithType: ApplicationDirectoryMembershipCondition.ToXml(PolicyLevel)
   fullName: System.Security.Policy.ApplicationDirectoryMembershipCondition.ToXml(PolicyLevel)
-- uid: System.Security.SecurityElement
-  parent: System.Security
-  isExternal: false
-  name: SecurityElement
-  nameWithType: SecurityElement
-  fullName: System.Security.SecurityElement
-- uid: System.Security.Policy.PolicyLevel
-  parent: System.Security.Policy
-  isExternal: false
-  name: PolicyLevel
-  nameWithType: PolicyLevel
-  fullName: System.Security.Policy.PolicyLevel
 - uid: System.Security.Policy.ApplicationDirectoryMembershipCondition.#ctor*
   parent: System.Security.Policy.ApplicationDirectoryMembershipCondition
   isExternal: false

@@ -62,6 +62,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Threading.CancellationToken.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -86,6 +87,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Threading.CancellationToken.CanBeCanceled*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -114,6 +116,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Threading.CancellationToken.Equals*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -142,6 +145,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Threading.CancellationToken.Equals*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -167,6 +171,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.Threading.CancellationToken.GetHashCode*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -191,6 +196,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Threading.CancellationToken.IsCancellationRequested*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -215,6 +221,7 @@ items:
       type: System.Threading.CancellationToken
       description: To be added.
   overload: System.Threading.CancellationToken.None*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -246,6 +253,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Threading.CancellationToken.op_Equality*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -277,6 +285,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Threading.CancellationToken.op_Inequality*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -305,6 +314,7 @@ items:
       type: System.Threading.CancellationTokenRegistration
       description: To be added.
   overload: System.Threading.CancellationToken.Register*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -336,6 +346,7 @@ items:
       type: System.Threading.CancellationTokenRegistration
       description: To be added.
   overload: System.Threading.CancellationToken.Register*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -367,6 +378,7 @@ items:
       type: System.Threading.CancellationTokenRegistration
       description: To be added.
   overload: System.Threading.CancellationToken.Register*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -401,6 +413,7 @@ items:
       type: System.Threading.CancellationTokenRegistration
       description: To be added.
   overload: System.Threading.CancellationToken.Register*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -423,6 +436,7 @@ items:
     content: public void ThrowIfCancellationRequested ();
     parameters: []
   overload: System.Threading.CancellationToken.ThrowIfCancellationRequested*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -447,6 +461,7 @@ items:
       type: System.Threading.WaitHandle
       description: To be added.
   overload: System.Threading.CancellationToken.WaitHandle*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -473,24 +488,12 @@ references:
   name: CanBeCanceled
   nameWithType: CancellationToken.CanBeCanceled
   fullName: System.Threading.CancellationToken.CanBeCanceled
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
 - uid: System.Threading.CancellationToken.Equals(System.Object)
   parent: System.Threading.CancellationToken
   isExternal: false
   name: Equals(Object)
   nameWithType: CancellationToken.Equals(Object)
   fullName: System.Threading.CancellationToken.Equals(Object)
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
 - uid: System.Object
   parent: System
   isExternal: false
@@ -503,12 +506,6 @@ references:
   name: Equals(CancellationToken)
   nameWithType: CancellationToken.Equals(CancellationToken)
   fullName: System.Threading.CancellationToken.Equals(CancellationToken)
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
 - uid: System.Threading.CancellationToken
   parent: System.Threading
   isExternal: false
@@ -533,72 +530,24 @@ references:
   name: IsCancellationRequested
   nameWithType: CancellationToken.IsCancellationRequested
   fullName: System.Threading.CancellationToken.IsCancellationRequested
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
 - uid: System.Threading.CancellationToken.None
   parent: System.Threading.CancellationToken
   isExternal: false
   name: None
   nameWithType: CancellationToken.None
   fullName: System.Threading.CancellationToken.None
-- uid: System.Threading.CancellationToken
-  parent: System.Threading
-  isExternal: false
-  name: CancellationToken
-  nameWithType: CancellationToken
-  fullName: System.Threading.CancellationToken
 - uid: System.Threading.CancellationToken.op_Equality(System.Threading.CancellationToken,System.Threading.CancellationToken)
   parent: System.Threading.CancellationToken
   isExternal: false
   name: op_Equality(CancellationToken,CancellationToken)
   nameWithType: CancellationToken.op_Equality(CancellationToken,CancellationToken)
   fullName: System.Threading.CancellationToken.op_Equality(CancellationToken,CancellationToken)
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
-- uid: System.Threading.CancellationToken
-  parent: System.Threading
-  isExternal: false
-  name: CancellationToken
-  nameWithType: CancellationToken
-  fullName: System.Threading.CancellationToken
-- uid: System.Threading.CancellationToken
-  parent: System.Threading
-  isExternal: false
-  name: CancellationToken
-  nameWithType: CancellationToken
-  fullName: System.Threading.CancellationToken
 - uid: System.Threading.CancellationToken.op_Inequality(System.Threading.CancellationToken,System.Threading.CancellationToken)
   parent: System.Threading.CancellationToken
   isExternal: false
   name: op_Inequality(CancellationToken,CancellationToken)
   nameWithType: CancellationToken.op_Inequality(CancellationToken,CancellationToken)
   fullName: System.Threading.CancellationToken.op_Inequality(CancellationToken,CancellationToken)
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
-- uid: System.Threading.CancellationToken
-  parent: System.Threading
-  isExternal: false
-  name: CancellationToken
-  nameWithType: CancellationToken
-  fullName: System.Threading.CancellationToken
-- uid: System.Threading.CancellationToken
-  parent: System.Threading
-  isExternal: false
-  name: CancellationToken
-  nameWithType: CancellationToken
-  fullName: System.Threading.CancellationToken
 - uid: System.Threading.CancellationToken.Register(System.Action)
   parent: System.Threading.CancellationToken
   isExternal: false
@@ -623,78 +572,39 @@ references:
   name: Register(Action,Boolean)
   nameWithType: CancellationToken.Register(Action,Boolean)
   fullName: System.Threading.CancellationToken.Register(Action,Boolean)
-- uid: System.Threading.CancellationTokenRegistration
-  parent: System.Threading
-  isExternal: false
-  name: CancellationTokenRegistration
-  nameWithType: CancellationTokenRegistration
-  fullName: System.Threading.CancellationTokenRegistration
-- uid: System.Action
-  parent: System
-  isExternal: false
-  name: Action
-  nameWithType: Action
-  fullName: System.Action
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
 - uid: System.Threading.CancellationToken.Register(System.Action{System.Object},System.Object)
   parent: System.Threading.CancellationToken
   isExternal: false
   name: Register(Action<Object>,Object)
   nameWithType: CancellationToken.Register(Action<Object>,Object)
   fullName: System.Threading.CancellationToken.Register(Action<Object>,Object)
-- uid: System.Threading.CancellationTokenRegistration
-  parent: System.Threading
-  isExternal: false
-  name: CancellationTokenRegistration
-  nameWithType: CancellationTokenRegistration
-  fullName: System.Threading.CancellationTokenRegistration
 - uid: System.Action{System.Object}
   parent: System
   isExternal: false
   name: Action<Object>
   nameWithType: Action<Object>
   fullName: System.Action<System.Object>
-- uid: System.Object
-  parent: System
-  isExternal: false
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
+  spec.csharp:
+  - uid: System.Action`1
+    name: Action
+    nameWithType: Action
+    fullName: Action<System.Object>
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: Object
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
 - uid: System.Threading.CancellationToken.Register(System.Action{System.Object},System.Object,System.Boolean)
   parent: System.Threading.CancellationToken
   isExternal: false
   name: Register(Action<Object>,Object,Boolean)
   nameWithType: CancellationToken.Register(Action<Object>,Object,Boolean)
   fullName: System.Threading.CancellationToken.Register(Action<Object>,Object,Boolean)
-- uid: System.Threading.CancellationTokenRegistration
-  parent: System.Threading
-  isExternal: false
-  name: CancellationTokenRegistration
-  nameWithType: CancellationTokenRegistration
-  fullName: System.Threading.CancellationTokenRegistration
-- uid: System.Action{System.Object}
-  parent: System
-  isExternal: false
-  name: Action<Object>
-  nameWithType: Action<Object>
-  fullName: System.Action<System.Object>
-- uid: System.Object
-  parent: System
-  isExternal: false
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
 - uid: System.Threading.CancellationToken.ThrowIfCancellationRequested
   parent: System.Threading.CancellationToken
   isExternal: false

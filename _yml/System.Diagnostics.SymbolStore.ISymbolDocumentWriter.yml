@@ -47,6 +47,7 @@ items:
       type: System.Byte[]
       description: To be added.
   overload: System.Diagnostics.SymbolStore.ISymbolDocumentWriter.SetCheckSum*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -72,6 +73,7 @@ items:
       type: System.Byte[]
       description: To be added.
   overload: System.Diagnostics.SymbolStore.ISymbolDocumentWriter.SetSource*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -89,24 +91,26 @@ references:
   name: Guid
   nameWithType: Guid
   fullName: System.Guid
-- uid: System.Byte
+- uid: System.Byte[]
   parent: System
   isExternal: false
   name: Byte
   nameWithType: Byte
   fullName: System.Byte[]
+  spec.csharp:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: Byte[]
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
 - uid: System.Diagnostics.SymbolStore.ISymbolDocumentWriter.SetSource(System.Byte[])
   parent: System.Diagnostics.SymbolStore.ISymbolDocumentWriter
   isExternal: false
   name: SetSource(Byte[])
   nameWithType: ISymbolDocumentWriter.SetSource(Byte[])
   fullName: System.Diagnostics.SymbolStore.ISymbolDocumentWriter.SetSource(Byte[])
-- uid: System.Byte
-  parent: System
-  isExternal: false
-  name: Byte
-  nameWithType: Byte
-  fullName: System.Byte[]
 - uid: System.Diagnostics.SymbolStore.ISymbolDocumentWriter.SetCheckSum*
   parent: System.Diagnostics.SymbolStore.ISymbolDocumentWriter
   isExternal: false

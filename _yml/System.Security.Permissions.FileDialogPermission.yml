@@ -72,6 +72,7 @@ items:
       type: System.Security.Permissions.FileDialogPermissionAccess
       description: To be added.
   overload: System.Security.Permissions.FileDialogPermission.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -97,6 +98,7 @@ items:
       type: System.Security.Permissions.PermissionState
       description: To be added.
   overload: System.Security.Permissions.FileDialogPermission.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -121,6 +123,7 @@ items:
       type: System.Security.Permissions.FileDialogPermissionAccess
       description: To be added.
   overload: System.Security.Permissions.FileDialogPermission.Access*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -146,6 +149,7 @@ items:
       type: System.Security.IPermission
       description: To be added.
   overload: System.Security.Permissions.FileDialogPermission.Copy*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -171,6 +175,7 @@ items:
       type: System.Security.SecurityElement
       description: To be added.
   overload: System.Security.Permissions.FileDialogPermission.FromXml*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -199,6 +204,7 @@ items:
       type: System.Security.IPermission
       description: To be added.
   overload: System.Security.Permissions.FileDialogPermission.Intersect*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -227,6 +233,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Security.Permissions.FileDialogPermission.IsSubsetOf*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -252,6 +259,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Security.Permissions.FileDialogPermission.IsUnrestricted*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -277,6 +285,7 @@ items:
       type: System.Security.SecurityElement
       description: To be added.
   overload: System.Security.Permissions.FileDialogPermission.ToXml*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -305,6 +314,7 @@ items:
       type: System.Security.IPermission
       description: To be added.
   overload: System.Security.Permissions.FileDialogPermission.Union*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -343,12 +353,6 @@ references:
   name: Access
   nameWithType: FileDialogPermission.Access
   fullName: System.Security.Permissions.FileDialogPermission.Access
-- uid: System.Security.Permissions.FileDialogPermissionAccess
-  parent: System.Security.Permissions
-  isExternal: false
-  name: FileDialogPermissionAccess
-  nameWithType: FileDialogPermissionAccess
-  fullName: System.Security.Permissions.FileDialogPermissionAccess
 - uid: System.Security.Permissions.FileDialogPermission.Copy
   parent: System.Security.Permissions.FileDialogPermission
   isExternal: false
@@ -379,18 +383,6 @@ references:
   name: Intersect(IPermission)
   nameWithType: FileDialogPermission.Intersect(IPermission)
   fullName: System.Security.Permissions.FileDialogPermission.Intersect(IPermission)
-- uid: System.Security.IPermission
-  parent: System.Security
-  isExternal: false
-  name: IPermission
-  nameWithType: IPermission
-  fullName: System.Security.IPermission
-- uid: System.Security.IPermission
-  parent: System.Security
-  isExternal: false
-  name: IPermission
-  nameWithType: IPermission
-  fullName: System.Security.IPermission
 - uid: System.Security.Permissions.FileDialogPermission.IsSubsetOf(System.Security.IPermission)
   parent: System.Security.Permissions.FileDialogPermission
   isExternal: false
@@ -403,54 +395,24 @@ references:
   name: Boolean
   nameWithType: Boolean
   fullName: System.Boolean
-- uid: System.Security.IPermission
-  parent: System.Security
-  isExternal: false
-  name: IPermission
-  nameWithType: IPermission
-  fullName: System.Security.IPermission
 - uid: System.Security.Permissions.FileDialogPermission.IsUnrestricted
   parent: System.Security.Permissions.FileDialogPermission
   isExternal: false
   name: IsUnrestricted()
   nameWithType: FileDialogPermission.IsUnrestricted()
   fullName: System.Security.Permissions.FileDialogPermission.IsUnrestricted()
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
 - uid: System.Security.Permissions.FileDialogPermission.ToXml
   parent: System.Security.Permissions.FileDialogPermission
   isExternal: false
   name: ToXml()
   nameWithType: FileDialogPermission.ToXml()
   fullName: System.Security.Permissions.FileDialogPermission.ToXml()
-- uid: System.Security.SecurityElement
-  parent: System.Security
-  isExternal: false
-  name: SecurityElement
-  nameWithType: SecurityElement
-  fullName: System.Security.SecurityElement
 - uid: System.Security.Permissions.FileDialogPermission.Union(System.Security.IPermission)
   parent: System.Security.Permissions.FileDialogPermission
   isExternal: false
   name: Union(IPermission)
   nameWithType: FileDialogPermission.Union(IPermission)
   fullName: System.Security.Permissions.FileDialogPermission.Union(IPermission)
-- uid: System.Security.IPermission
-  parent: System.Security
-  isExternal: false
-  name: IPermission
-  nameWithType: IPermission
-  fullName: System.Security.IPermission
-- uid: System.Security.IPermission
-  parent: System.Security
-  isExternal: false
-  name: IPermission
-  nameWithType: IPermission
-  fullName: System.Security.IPermission
 - uid: System.Security.Permissions.FileDialogPermission.#ctor*
   parent: System.Security.Permissions.FileDialogPermission
   isExternal: false

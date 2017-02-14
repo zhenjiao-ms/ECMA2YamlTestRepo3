@@ -55,6 +55,7 @@ items:
     content: public TrackingServices ();
     parameters: []
   overload: System.Runtime.Remoting.Services.TrackingServices.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -79,6 +80,7 @@ items:
       type: System.Runtime.Remoting.Services.ITrackingHandler[]
       description: To be added.
   overload: System.Runtime.Remoting.Services.TrackingServices.RegisteredHandlers*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -104,6 +106,7 @@ items:
       type: System.Runtime.Remoting.Services.ITrackingHandler
       description: To be added.
   overload: System.Runtime.Remoting.Services.TrackingServices.RegisterTrackingHandler*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -129,6 +132,7 @@ items:
       type: System.Runtime.Remoting.Services.ITrackingHandler
       description: To be added.
   overload: System.Runtime.Remoting.Services.TrackingServices.UnregisterTrackingHandler*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -149,12 +153,20 @@ references:
   name: RegisteredHandlers
   nameWithType: TrackingServices.RegisteredHandlers
   fullName: System.Runtime.Remoting.Services.TrackingServices.RegisteredHandlers
-- uid: System.Runtime.Remoting.Services.ITrackingHandler
+- uid: System.Runtime.Remoting.Services.ITrackingHandler[]
   parent: System.Runtime.Remoting.Services
   isExternal: false
   name: ITrackingHandler
   nameWithType: ITrackingHandler
   fullName: System.Runtime.Remoting.Services.ITrackingHandler[]
+  spec.csharp:
+  - uid: System.Runtime.Remoting.Services.ITrackingHandler
+    name: ITrackingHandler
+    nameWithType: ITrackingHandler
+    fullName: ITrackingHandler[]
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
 - uid: System.Runtime.Remoting.Services.TrackingServices.RegisterTrackingHandler(System.Runtime.Remoting.Services.ITrackingHandler)
   parent: System.Runtime.Remoting.Services.TrackingServices
   isExternal: false
@@ -173,12 +185,6 @@ references:
   name: UnregisterTrackingHandler(ITrackingHandler)
   nameWithType: TrackingServices.UnregisterTrackingHandler(ITrackingHandler)
   fullName: System.Runtime.Remoting.Services.TrackingServices.UnregisterTrackingHandler(ITrackingHandler)
-- uid: System.Runtime.Remoting.Services.ITrackingHandler
-  parent: System.Runtime.Remoting.Services
-  isExternal: false
-  name: ITrackingHandler
-  nameWithType: ITrackingHandler
-  fullName: System.Runtime.Remoting.Services.ITrackingHandler
 - uid: System.Runtime.Remoting.Services.TrackingServices.#ctor*
   parent: System.Runtime.Remoting.Services.TrackingServices
   isExternal: false

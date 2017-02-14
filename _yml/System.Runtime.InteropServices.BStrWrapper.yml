@@ -55,6 +55,7 @@ items:
       type: System.Object
       description: To be added.
   overload: System.Runtime.InteropServices.BStrWrapper.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -80,6 +81,7 @@ items:
       type: System.String
       description: To be added.
   overload: System.Runtime.InteropServices.BStrWrapper.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -104,6 +106,7 @@ items:
       type: System.String
       description: To be added.
   overload: System.Runtime.InteropServices.BStrWrapper.WrappedObject*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -118,12 +121,6 @@ references:
   name: BStrWrapper(Object)
   nameWithType: BStrWrapper.BStrWrapper(Object)
   fullName: System.Runtime.InteropServices.BStrWrapper.BStrWrapper(Object)
-- uid: System.Object
-  parent: System
-  isExternal: false
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
 - uid: System.Runtime.InteropServices.BStrWrapper.#ctor(System.String)
   parent: System.Runtime.InteropServices.BStrWrapper
   isExternal: false
@@ -142,12 +139,6 @@ references:
   name: WrappedObject
   nameWithType: BStrWrapper.WrappedObject
   fullName: System.Runtime.InteropServices.BStrWrapper.WrappedObject
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
 - uid: System.Runtime.InteropServices.BStrWrapper.#ctor*
   parent: System.Runtime.InteropServices.BStrWrapper
   isExternal: false

@@ -49,6 +49,7 @@ items:
     return:
       type: Microsoft.Win32.RegistryHive
       description: To be added.
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -71,6 +72,7 @@ items:
     return:
       type: Microsoft.Win32.RegistryHive
       description: To be added.
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -93,6 +95,7 @@ items:
     return:
       type: Microsoft.Win32.RegistryHive
       description: To be added.
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -115,6 +118,7 @@ items:
     return:
       type: Microsoft.Win32.RegistryHive
       description: To be added.
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -137,6 +141,7 @@ items:
     return:
       type: Microsoft.Win32.RegistryHive
       description: To be added.
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -159,6 +164,7 @@ items:
     return:
       type: Microsoft.Win32.RegistryHive
       description: To be added.
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -181,6 +187,7 @@ items:
     return:
       type: Microsoft.Win32.RegistryHive
       description: To be added.
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -207,69 +214,33 @@ references:
   name: CurrentConfig
   nameWithType: RegistryHive.CurrentConfig
   fullName: Microsoft.Win32.RegistryHive.CurrentConfig
-- uid: Microsoft.Win32.RegistryHive
-  parent: Microsoft.Win32
-  isExternal: false
-  name: RegistryHive
-  nameWithType: RegistryHive
-  fullName: Microsoft.Win32.RegistryHive
 - uid: Microsoft.Win32.RegistryHive.CurrentUser
   parent: Microsoft.Win32.RegistryHive
   isExternal: false
   name: CurrentUser
   nameWithType: RegistryHive.CurrentUser
   fullName: Microsoft.Win32.RegistryHive.CurrentUser
-- uid: Microsoft.Win32.RegistryHive
-  parent: Microsoft.Win32
-  isExternal: false
-  name: RegistryHive
-  nameWithType: RegistryHive
-  fullName: Microsoft.Win32.RegistryHive
 - uid: Microsoft.Win32.RegistryHive.DynData
   parent: Microsoft.Win32.RegistryHive
   isExternal: false
   name: DynData
   nameWithType: RegistryHive.DynData
   fullName: Microsoft.Win32.RegistryHive.DynData
-- uid: Microsoft.Win32.RegistryHive
-  parent: Microsoft.Win32
-  isExternal: false
-  name: RegistryHive
-  nameWithType: RegistryHive
-  fullName: Microsoft.Win32.RegistryHive
 - uid: Microsoft.Win32.RegistryHive.LocalMachine
   parent: Microsoft.Win32.RegistryHive
   isExternal: false
   name: LocalMachine
   nameWithType: RegistryHive.LocalMachine
   fullName: Microsoft.Win32.RegistryHive.LocalMachine
-- uid: Microsoft.Win32.RegistryHive
-  parent: Microsoft.Win32
-  isExternal: false
-  name: RegistryHive
-  nameWithType: RegistryHive
-  fullName: Microsoft.Win32.RegistryHive
 - uid: Microsoft.Win32.RegistryHive.PerformanceData
   parent: Microsoft.Win32.RegistryHive
   isExternal: false
   name: PerformanceData
   nameWithType: RegistryHive.PerformanceData
   fullName: Microsoft.Win32.RegistryHive.PerformanceData
-- uid: Microsoft.Win32.RegistryHive
-  parent: Microsoft.Win32
-  isExternal: false
-  name: RegistryHive
-  nameWithType: RegistryHive
-  fullName: Microsoft.Win32.RegistryHive
 - uid: Microsoft.Win32.RegistryHive.Users
   parent: Microsoft.Win32.RegistryHive
   isExternal: false
   name: Users
   nameWithType: RegistryHive.Users
   fullName: Microsoft.Win32.RegistryHive.Users
-- uid: Microsoft.Win32.RegistryHive
-  parent: Microsoft.Win32
-  isExternal: false
-  name: RegistryHive
-  nameWithType: RegistryHive
-  fullName: Microsoft.Win32.RegistryHive

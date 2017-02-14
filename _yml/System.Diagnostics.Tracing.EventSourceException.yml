@@ -62,6 +62,7 @@ items:
     content: public EventSourceException ();
     parameters: []
   overload: System.Diagnostics.Tracing.EventSourceException.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -87,6 +88,7 @@ items:
       type: System.String
       description: To be added.
   overload: System.Diagnostics.Tracing.EventSourceException.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -115,6 +117,7 @@ items:
       type: System.Runtime.Serialization.StreamingContext
       description: To be added.
   overload: System.Diagnostics.Tracing.EventSourceException.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -143,6 +146,7 @@ items:
       type: System.Exception
       description: To be added.
   overload: System.Diagnostics.Tracing.EventSourceException.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -193,18 +197,6 @@ references:
   name: EventSourceException(String,Exception)
   nameWithType: EventSourceException.EventSourceException(String,Exception)
   fullName: System.Diagnostics.Tracing.EventSourceException.EventSourceException(String,Exception)
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
-- uid: System.Exception
-  parent: System
-  isExternal: false
-  name: Exception
-  nameWithType: Exception
-  fullName: System.Exception
 - uid: System.Diagnostics.Tracing.EventSourceException.#ctor*
   parent: System.Diagnostics.Tracing.EventSourceException
   isExternal: false

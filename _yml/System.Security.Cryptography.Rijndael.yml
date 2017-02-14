@@ -81,6 +81,7 @@ items:
     content: protected Rijndael ();
     parameters: []
   overload: System.Security.Cryptography.Rijndael.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -106,6 +107,7 @@ items:
       type: System.Security.Cryptography.Rijndael
       description: To be added.
   overload: System.Security.Cryptography.Rijndael.Create*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -134,6 +136,7 @@ items:
       type: System.Security.Cryptography.Rijndael
       description: To be added.
   overload: System.Security.Cryptography.Rijndael.Create*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -166,12 +169,6 @@ references:
   name: Create(String)
   nameWithType: Rijndael.Create(String)
   fullName: System.Security.Cryptography.Rijndael.Create(String)
-- uid: System.Security.Cryptography.Rijndael
-  parent: System.Security.Cryptography
-  isExternal: false
-  name: Rijndael
-  nameWithType: Rijndael
-  fullName: System.Security.Cryptography.Rijndael
 - uid: System.String
   parent: System
   isExternal: false

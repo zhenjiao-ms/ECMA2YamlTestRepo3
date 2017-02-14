@@ -142,6 +142,7 @@ items:
     content: protected ConstructorInfo ();
     parameters: []
   overload: System.Reflection.ConstructorInfo.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -165,6 +166,7 @@ items:
     return:
       type: System.String
       description: To be added.
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -193,6 +195,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Reflection.ConstructorInfo.Equals*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -218,6 +221,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.Reflection.ConstructorInfo.GetHashCode*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -246,6 +250,7 @@ items:
       type: System.Object
       description: To be added.
   overload: System.Reflection.ConstructorInfo.Invoke*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -283,6 +288,7 @@ items:
       type: System.Object
       description: To be added.
   overload: System.Reflection.ConstructorInfo.Invoke*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -307,6 +313,7 @@ items:
       type: System.Reflection.MemberTypes
       description: To be added.
   overload: System.Reflection.ConstructorInfo.MemberType*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -338,6 +345,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Reflection.ConstructorInfo.op_Equality*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -369,6 +377,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Reflection.ConstructorInfo.op_Inequality*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -407,6 +416,7 @@ items:
       type: System.IntPtr
       description: To be added.
   overload: System.Reflection.ConstructorInfo.System#Runtime#InteropServices#_ConstructorInfo#GetIDsOfNames*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -433,6 +443,7 @@ items:
       type: System.Type
       description: To be added.
   overload: System.Reflection.ConstructorInfo.System#Runtime#InteropServices#_ConstructorInfo#GetType*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -465,6 +476,7 @@ items:
       type: System.IntPtr
       description: To be added.
   overload: System.Reflection.ConstructorInfo.System#Runtime#InteropServices#_ConstructorInfo#GetTypeInfo*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -491,6 +503,7 @@ items:
       type: System.UInt32
       description: To be added.
   overload: System.Reflection.ConstructorInfo.System#Runtime#InteropServices#_ConstructorInfo#GetTypeInfoCount*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -538,6 +551,7 @@ items:
       type: System.IntPtr
       description: To be added.
   overload: System.Reflection.ConstructorInfo.System#Runtime#InteropServices#_ConstructorInfo#Invoke*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -579,6 +593,7 @@ items:
       type: System.Object
       description: To be added.
   overload: System.Reflection.ConstructorInfo.System#Runtime#InteropServices#_ConstructorInfo#Invoke_2*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -611,6 +626,7 @@ items:
       type: System.Object
       description: To be added.
   overload: System.Reflection.ConstructorInfo.System#Runtime#InteropServices#_ConstructorInfo#Invoke_3*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -649,6 +665,7 @@ items:
       type: System.Object
       description: To be added.
   overload: System.Reflection.ConstructorInfo.System#Runtime#InteropServices#_ConstructorInfo#Invoke_4*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -678,6 +695,7 @@ items:
       type: System.Object
       description: To be added.
   overload: System.Reflection.ConstructorInfo.System#Runtime#InteropServices#_ConstructorInfo#Invoke_5*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -701,6 +719,7 @@ items:
     return:
       type: System.String
       description: To be added.
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -763,30 +782,26 @@ references:
   name: Invoke(Object[])
   nameWithType: ConstructorInfo.Invoke(Object[])
   fullName: System.Reflection.ConstructorInfo.Invoke(Object[])
-- uid: System.Object
-  parent: System
-  isExternal: false
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
-- uid: System.Object
+- uid: System.Object[]
   parent: System
   isExternal: false
   name: Object
   nameWithType: Object
   fullName: System.Object[]
+  spec.csharp:
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: Object[]
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
 - uid: System.Reflection.ConstructorInfo.Invoke(System.Reflection.BindingFlags,System.Reflection.Binder,System.Object[],System.Globalization.CultureInfo)
   parent: System.Reflection.ConstructorInfo
   isExternal: false
   name: Invoke(BindingFlags,Binder,Object[],CultureInfo)
   nameWithType: ConstructorInfo.Invoke(BindingFlags,Binder,Object[],CultureInfo)
   fullName: System.Reflection.ConstructorInfo.Invoke(BindingFlags,Binder,Object[],CultureInfo)
-- uid: System.Object
-  parent: System
-  isExternal: false
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
 - uid: System.Reflection.BindingFlags
   parent: System.Reflection
   isExternal: false
@@ -799,12 +814,6 @@ references:
   name: Binder
   nameWithType: Binder
   fullName: System.Reflection.Binder
-- uid: System.Object
-  parent: System
-  isExternal: false
-  name: Object
-  nameWithType: Object
-  fullName: System.Object[]
 - uid: System.Globalization.CultureInfo
   parent: System.Globalization
   isExternal: false
@@ -829,18 +838,6 @@ references:
   name: op_Equality(ConstructorInfo,ConstructorInfo)
   nameWithType: ConstructorInfo.op_Equality(ConstructorInfo,ConstructorInfo)
   fullName: System.Reflection.ConstructorInfo.op_Equality(ConstructorInfo,ConstructorInfo)
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
-- uid: System.Reflection.ConstructorInfo
-  parent: System.Reflection
-  isExternal: false
-  name: ConstructorInfo
-  nameWithType: ConstructorInfo
-  fullName: System.Reflection.ConstructorInfo
 - uid: System.Reflection.ConstructorInfo
   parent: System.Reflection
   isExternal: false
@@ -853,24 +850,6 @@ references:
   name: op_Inequality(ConstructorInfo,ConstructorInfo)
   nameWithType: ConstructorInfo.op_Inequality(ConstructorInfo,ConstructorInfo)
   fullName: System.Reflection.ConstructorInfo.op_Inequality(ConstructorInfo,ConstructorInfo)
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
-- uid: System.Reflection.ConstructorInfo
-  parent: System.Reflection
-  isExternal: false
-  name: ConstructorInfo
-  nameWithType: ConstructorInfo
-  fullName: System.Reflection.ConstructorInfo
-- uid: System.Reflection.ConstructorInfo
-  parent: System.Reflection
-  isExternal: false
-  name: ConstructorInfo
-  nameWithType: ConstructorInfo
-  fullName: System.Reflection.ConstructorInfo
 - uid: System.Reflection.ConstructorInfo.System#Runtime#InteropServices#_ConstructorInfo#GetIDsOfNames(System.Guid@,System.IntPtr,System.UInt32,System.UInt32,System.IntPtr)
   parent: System.Reflection.ConstructorInfo
   isExternal: false
@@ -895,18 +874,6 @@ references:
   name: UInt32
   nameWithType: UInt32
   fullName: System.UInt32
-- uid: System.UInt32
-  parent: System
-  isExternal: false
-  name: UInt32
-  nameWithType: UInt32
-  fullName: System.UInt32
-- uid: System.IntPtr
-  parent: System
-  isExternal: false
-  name: IntPtr
-  nameWithType: IntPtr
-  fullName: System.IntPtr
 - uid: System.Reflection.ConstructorInfo.System#Runtime#InteropServices#_ConstructorInfo#GetType
   parent: System.Reflection.ConstructorInfo
   isExternal: false
@@ -925,222 +892,54 @@ references:
   name: System.Runtime.InteropServices._ConstructorInfo.GetTypeInfo(UInt32,UInt32,IntPtr)
   nameWithType: ConstructorInfo.System.Runtime.InteropServices._ConstructorInfo.GetTypeInfo(UInt32,UInt32,IntPtr)
   fullName: System.Reflection.ConstructorInfo.System.Runtime.InteropServices._ConstructorInfo.GetTypeInfo(UInt32,UInt32,IntPtr)
-- uid: System.UInt32
-  parent: System
-  isExternal: false
-  name: UInt32
-  nameWithType: UInt32
-  fullName: System.UInt32
-- uid: System.UInt32
-  parent: System
-  isExternal: false
-  name: UInt32
-  nameWithType: UInt32
-  fullName: System.UInt32
-- uid: System.IntPtr
-  parent: System
-  isExternal: false
-  name: IntPtr
-  nameWithType: IntPtr
-  fullName: System.IntPtr
 - uid: System.Reflection.ConstructorInfo.System#Runtime#InteropServices#_ConstructorInfo#GetTypeInfoCount(System.UInt32@)
   parent: System.Reflection.ConstructorInfo
   isExternal: false
   name: System.Runtime.InteropServices._ConstructorInfo.GetTypeInfoCount(UInt32)
   nameWithType: ConstructorInfo.System.Runtime.InteropServices._ConstructorInfo.GetTypeInfoCount(UInt32)
   fullName: System.Reflection.ConstructorInfo.System.Runtime.InteropServices._ConstructorInfo.GetTypeInfoCount(UInt32)
-- uid: System.UInt32
-  parent: System
-  isExternal: false
-  name: UInt32
-  nameWithType: UInt32
-  fullName: System.UInt32
 - uid: System.Reflection.ConstructorInfo.System#Runtime#InteropServices#_ConstructorInfo#Invoke(System.UInt32,System.Guid@,System.UInt32,System.Int16,System.IntPtr,System.IntPtr,System.IntPtr,System.IntPtr)
   parent: System.Reflection.ConstructorInfo
   isExternal: false
   name: System.Runtime.InteropServices._ConstructorInfo.Invoke(UInt32,Guid,UInt32,Int16,IntPtr,IntPtr,IntPtr,IntPtr)
   nameWithType: ConstructorInfo.System.Runtime.InteropServices._ConstructorInfo.Invoke(UInt32,Guid,UInt32,Int16,IntPtr,IntPtr,IntPtr,IntPtr)
   fullName: System.Reflection.ConstructorInfo.System.Runtime.InteropServices._ConstructorInfo.Invoke(UInt32,Guid,UInt32,Int16,IntPtr,IntPtr,IntPtr,IntPtr)
-- uid: System.UInt32
-  parent: System
-  isExternal: false
-  name: UInt32
-  nameWithType: UInt32
-  fullName: System.UInt32
-- uid: System.Guid
-  parent: System
-  isExternal: false
-  name: Guid
-  nameWithType: Guid
-  fullName: System.Guid
-- uid: System.UInt32
-  parent: System
-  isExternal: false
-  name: UInt32
-  nameWithType: UInt32
-  fullName: System.UInt32
 - uid: System.Int16
   parent: System
   isExternal: false
   name: Int16
   nameWithType: Int16
   fullName: System.Int16
-- uid: System.IntPtr
-  parent: System
-  isExternal: false
-  name: IntPtr
-  nameWithType: IntPtr
-  fullName: System.IntPtr
-- uid: System.IntPtr
-  parent: System
-  isExternal: false
-  name: IntPtr
-  nameWithType: IntPtr
-  fullName: System.IntPtr
-- uid: System.IntPtr
-  parent: System
-  isExternal: false
-  name: IntPtr
-  nameWithType: IntPtr
-  fullName: System.IntPtr
-- uid: System.IntPtr
-  parent: System
-  isExternal: false
-  name: IntPtr
-  nameWithType: IntPtr
-  fullName: System.IntPtr
 - uid: System.Reflection.ConstructorInfo.System#Runtime#InteropServices#_ConstructorInfo#Invoke_2(System.Object,System.Reflection.BindingFlags,System.Reflection.Binder,System.Object[],System.Globalization.CultureInfo)
   parent: System.Reflection.ConstructorInfo
   isExternal: false
   name: System.Runtime.InteropServices._ConstructorInfo.Invoke_2(Object,BindingFlags,Binder,Object[],CultureInfo)
   nameWithType: ConstructorInfo.System.Runtime.InteropServices._ConstructorInfo.Invoke_2(Object,BindingFlags,Binder,Object[],CultureInfo)
   fullName: System.Reflection.ConstructorInfo.System.Runtime.InteropServices._ConstructorInfo.Invoke_2(Object,BindingFlags,Binder,Object[],CultureInfo)
-- uid: System.Object
-  parent: System
-  isExternal: false
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
-- uid: System.Object
-  parent: System
-  isExternal: false
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
-- uid: System.Reflection.BindingFlags
-  parent: System.Reflection
-  isExternal: false
-  name: BindingFlags
-  nameWithType: BindingFlags
-  fullName: System.Reflection.BindingFlags
-- uid: System.Reflection.Binder
-  parent: System.Reflection
-  isExternal: false
-  name: Binder
-  nameWithType: Binder
-  fullName: System.Reflection.Binder
-- uid: System.Object
-  parent: System
-  isExternal: false
-  name: Object
-  nameWithType: Object
-  fullName: System.Object[]
-- uid: System.Globalization.CultureInfo
-  parent: System.Globalization
-  isExternal: false
-  name: CultureInfo
-  nameWithType: CultureInfo
-  fullName: System.Globalization.CultureInfo
 - uid: System.Reflection.ConstructorInfo.System#Runtime#InteropServices#_ConstructorInfo#Invoke_3(System.Object,System.Object[])
   parent: System.Reflection.ConstructorInfo
   isExternal: false
   name: System.Runtime.InteropServices._ConstructorInfo.Invoke_3(Object,Object[])
   nameWithType: ConstructorInfo.System.Runtime.InteropServices._ConstructorInfo.Invoke_3(Object,Object[])
   fullName: System.Reflection.ConstructorInfo.System.Runtime.InteropServices._ConstructorInfo.Invoke_3(Object,Object[])
-- uid: System.Object
-  parent: System
-  isExternal: false
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
-- uid: System.Object
-  parent: System
-  isExternal: false
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
-- uid: System.Object
-  parent: System
-  isExternal: false
-  name: Object
-  nameWithType: Object
-  fullName: System.Object[]
 - uid: System.Reflection.ConstructorInfo.System#Runtime#InteropServices#_ConstructorInfo#Invoke_4(System.Reflection.BindingFlags,System.Reflection.Binder,System.Object[],System.Globalization.CultureInfo)
   parent: System.Reflection.ConstructorInfo
   isExternal: false
   name: System.Runtime.InteropServices._ConstructorInfo.Invoke_4(BindingFlags,Binder,Object[],CultureInfo)
   nameWithType: ConstructorInfo.System.Runtime.InteropServices._ConstructorInfo.Invoke_4(BindingFlags,Binder,Object[],CultureInfo)
   fullName: System.Reflection.ConstructorInfo.System.Runtime.InteropServices._ConstructorInfo.Invoke_4(BindingFlags,Binder,Object[],CultureInfo)
-- uid: System.Object
-  parent: System
-  isExternal: false
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
-- uid: System.Reflection.BindingFlags
-  parent: System.Reflection
-  isExternal: false
-  name: BindingFlags
-  nameWithType: BindingFlags
-  fullName: System.Reflection.BindingFlags
-- uid: System.Reflection.Binder
-  parent: System.Reflection
-  isExternal: false
-  name: Binder
-  nameWithType: Binder
-  fullName: System.Reflection.Binder
-- uid: System.Object
-  parent: System
-  isExternal: false
-  name: Object
-  nameWithType: Object
-  fullName: System.Object[]
-- uid: System.Globalization.CultureInfo
-  parent: System.Globalization
-  isExternal: false
-  name: CultureInfo
-  nameWithType: CultureInfo
-  fullName: System.Globalization.CultureInfo
 - uid: System.Reflection.ConstructorInfo.System#Runtime#InteropServices#_ConstructorInfo#Invoke_5(System.Object[])
   parent: System.Reflection.ConstructorInfo
   isExternal: false
   name: System.Runtime.InteropServices._ConstructorInfo.Invoke_5(Object[])
   nameWithType: ConstructorInfo.System.Runtime.InteropServices._ConstructorInfo.Invoke_5(Object[])
   fullName: System.Reflection.ConstructorInfo.System.Runtime.InteropServices._ConstructorInfo.Invoke_5(Object[])
-- uid: System.Object
-  parent: System
-  isExternal: false
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
-- uid: System.Object
-  parent: System
-  isExternal: false
-  name: Object
-  nameWithType: Object
-  fullName: System.Object[]
 - uid: System.Reflection.ConstructorInfo.TypeConstructorName
   parent: System.Reflection.ConstructorInfo
   isExternal: false
   name: TypeConstructorName
   nameWithType: ConstructorInfo.TypeConstructorName
   fullName: System.Reflection.ConstructorInfo.TypeConstructorName
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
 - uid: System.Reflection.ConstructorInfo.#ctor*
   parent: System.Reflection.ConstructorInfo
   isExternal: false

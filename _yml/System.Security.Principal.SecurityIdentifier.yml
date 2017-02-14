@@ -75,6 +75,7 @@ items:
       type: System.IntPtr
       description: To be added.
   overload: System.Security.Principal.SecurityIdentifier.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -100,6 +101,7 @@ items:
       type: System.String
       description: To be added.
   overload: System.Security.Principal.SecurityIdentifier.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -128,6 +130,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.Security.Principal.SecurityIdentifier.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -156,6 +159,7 @@ items:
       type: System.Security.Principal.SecurityIdentifier
       description: To be added.
   overload: System.Security.Principal.SecurityIdentifier.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -180,6 +184,7 @@ items:
       type: System.Security.Principal.SecurityIdentifier
       description: To be added.
   overload: System.Security.Principal.SecurityIdentifier.AccountDomainSid*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -204,6 +209,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.Security.Principal.SecurityIdentifier.BinaryLength*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -232,6 +238,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.Security.Principal.SecurityIdentifier.CompareTo*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -260,6 +267,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Security.Principal.SecurityIdentifier.Equals*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -288,6 +296,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Security.Principal.SecurityIdentifier.Equals*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -316,6 +325,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.Security.Principal.SecurityIdentifier.GetBinaryForm*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -341,6 +351,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.Security.Principal.SecurityIdentifier.GetHashCode*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -366,6 +377,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Security.Principal.SecurityIdentifier.IsAccountSid*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -394,6 +406,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Security.Principal.SecurityIdentifier.IsEqualDomainSid*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -422,6 +435,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Security.Principal.SecurityIdentifier.IsValidTargetType*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -450,6 +464,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Security.Principal.SecurityIdentifier.IsWellKnown*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -473,6 +488,7 @@ items:
     return:
       type: System.Int32
       description: To be added.
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -496,6 +512,7 @@ items:
     return:
       type: System.Int32
       description: To be added.
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -527,6 +544,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Security.Principal.SecurityIdentifier.op_Equality*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -558,6 +576,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Security.Principal.SecurityIdentifier.op_Inequality*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -583,6 +602,7 @@ items:
       type: System.String
       description: To be added.
   overload: System.Security.Principal.SecurityIdentifier.ToString*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -611,6 +631,7 @@ items:
       type: System.Security.Principal.IdentityReference
       description: To be added.
   overload: System.Security.Principal.SecurityIdentifier.Translate*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -635,6 +656,7 @@ items:
       type: System.String
       description: To be added.
   overload: System.Security.Principal.SecurityIdentifier.Value*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -673,12 +695,20 @@ references:
   name: SecurityIdentifier(Byte[],Int32)
   nameWithType: SecurityIdentifier.SecurityIdentifier(Byte[],Int32)
   fullName: System.Security.Principal.SecurityIdentifier.SecurityIdentifier(Byte[],Int32)
-- uid: System.Byte
+- uid: System.Byte[]
   parent: System
   isExternal: false
   name: Byte
   nameWithType: Byte
   fullName: System.Byte[]
+  spec.csharp:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: Byte[]
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
 - uid: System.Int32
   parent: System
   isExternal: false
@@ -709,42 +739,18 @@ references:
   name: AccountDomainSid
   nameWithType: SecurityIdentifier.AccountDomainSid
   fullName: System.Security.Principal.SecurityIdentifier.AccountDomainSid
-- uid: System.Security.Principal.SecurityIdentifier
-  parent: System.Security.Principal
-  isExternal: false
-  name: SecurityIdentifier
-  nameWithType: SecurityIdentifier
-  fullName: System.Security.Principal.SecurityIdentifier
 - uid: System.Security.Principal.SecurityIdentifier.BinaryLength
   parent: System.Security.Principal.SecurityIdentifier
   isExternal: false
   name: BinaryLength
   nameWithType: SecurityIdentifier.BinaryLength
   fullName: System.Security.Principal.SecurityIdentifier.BinaryLength
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
 - uid: System.Security.Principal.SecurityIdentifier.CompareTo(System.Security.Principal.SecurityIdentifier)
   parent: System.Security.Principal.SecurityIdentifier
   isExternal: false
   name: CompareTo(SecurityIdentifier)
   nameWithType: SecurityIdentifier.CompareTo(SecurityIdentifier)
   fullName: System.Security.Principal.SecurityIdentifier.CompareTo(SecurityIdentifier)
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: System.Security.Principal.SecurityIdentifier
-  parent: System.Security.Principal
-  isExternal: false
-  name: SecurityIdentifier
-  nameWithType: SecurityIdentifier
-  fullName: System.Security.Principal.SecurityIdentifier
 - uid: System.Security.Principal.SecurityIdentifier.Equals(System.Object)
   parent: System.Security.Principal.SecurityIdentifier
   isExternal: false
@@ -769,90 +775,36 @@ references:
   name: Equals(SecurityIdentifier)
   nameWithType: SecurityIdentifier.Equals(SecurityIdentifier)
   fullName: System.Security.Principal.SecurityIdentifier.Equals(SecurityIdentifier)
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
-- uid: System.Security.Principal.SecurityIdentifier
-  parent: System.Security.Principal
-  isExternal: false
-  name: SecurityIdentifier
-  nameWithType: SecurityIdentifier
-  fullName: System.Security.Principal.SecurityIdentifier
 - uid: System.Security.Principal.SecurityIdentifier.GetBinaryForm(System.Byte[],System.Int32)
   parent: System.Security.Principal.SecurityIdentifier
   isExternal: false
   name: GetBinaryForm(Byte[],Int32)
   nameWithType: SecurityIdentifier.GetBinaryForm(Byte[],Int32)
   fullName: System.Security.Principal.SecurityIdentifier.GetBinaryForm(Byte[],Int32)
-- uid: System.Byte
-  parent: System
-  isExternal: false
-  name: Byte
-  nameWithType: Byte
-  fullName: System.Byte[]
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
 - uid: System.Security.Principal.SecurityIdentifier.GetHashCode
   parent: System.Security.Principal.SecurityIdentifier
   isExternal: false
   name: GetHashCode()
   nameWithType: SecurityIdentifier.GetHashCode()
   fullName: System.Security.Principal.SecurityIdentifier.GetHashCode()
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
 - uid: System.Security.Principal.SecurityIdentifier.IsAccountSid
   parent: System.Security.Principal.SecurityIdentifier
   isExternal: false
   name: IsAccountSid()
   nameWithType: SecurityIdentifier.IsAccountSid()
   fullName: System.Security.Principal.SecurityIdentifier.IsAccountSid()
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
 - uid: System.Security.Principal.SecurityIdentifier.IsEqualDomainSid(System.Security.Principal.SecurityIdentifier)
   parent: System.Security.Principal.SecurityIdentifier
   isExternal: false
   name: IsEqualDomainSid(SecurityIdentifier)
   nameWithType: SecurityIdentifier.IsEqualDomainSid(SecurityIdentifier)
   fullName: System.Security.Principal.SecurityIdentifier.IsEqualDomainSid(SecurityIdentifier)
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
-- uid: System.Security.Principal.SecurityIdentifier
-  parent: System.Security.Principal
-  isExternal: false
-  name: SecurityIdentifier
-  nameWithType: SecurityIdentifier
-  fullName: System.Security.Principal.SecurityIdentifier
 - uid: System.Security.Principal.SecurityIdentifier.IsValidTargetType(System.Type)
   parent: System.Security.Principal.SecurityIdentifier
   isExternal: false
   name: IsValidTargetType(Type)
   nameWithType: SecurityIdentifier.IsValidTargetType(Type)
   fullName: System.Security.Principal.SecurityIdentifier.IsValidTargetType(Type)
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
 - uid: System.Type
   parent: System
   isExternal: false
@@ -865,132 +817,48 @@ references:
   name: IsWellKnown(WellKnownSidType)
   nameWithType: SecurityIdentifier.IsWellKnown(WellKnownSidType)
   fullName: System.Security.Principal.SecurityIdentifier.IsWellKnown(WellKnownSidType)
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
-- uid: System.Security.Principal.WellKnownSidType
-  parent: System.Security.Principal
-  isExternal: false
-  name: WellKnownSidType
-  nameWithType: WellKnownSidType
-  fullName: System.Security.Principal.WellKnownSidType
 - uid: System.Security.Principal.SecurityIdentifier.MaxBinaryLength
   parent: System.Security.Principal.SecurityIdentifier
   isExternal: false
   name: MaxBinaryLength
   nameWithType: SecurityIdentifier.MaxBinaryLength
   fullName: System.Security.Principal.SecurityIdentifier.MaxBinaryLength
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
 - uid: System.Security.Principal.SecurityIdentifier.MinBinaryLength
   parent: System.Security.Principal.SecurityIdentifier
   isExternal: false
   name: MinBinaryLength
   nameWithType: SecurityIdentifier.MinBinaryLength
   fullName: System.Security.Principal.SecurityIdentifier.MinBinaryLength
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
 - uid: System.Security.Principal.SecurityIdentifier.op_Equality(System.Security.Principal.SecurityIdentifier,System.Security.Principal.SecurityIdentifier)
   parent: System.Security.Principal.SecurityIdentifier
   isExternal: false
   name: op_Equality(SecurityIdentifier,SecurityIdentifier)
   nameWithType: SecurityIdentifier.op_Equality(SecurityIdentifier,SecurityIdentifier)
   fullName: System.Security.Principal.SecurityIdentifier.op_Equality(SecurityIdentifier,SecurityIdentifier)
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
-- uid: System.Security.Principal.SecurityIdentifier
-  parent: System.Security.Principal
-  isExternal: false
-  name: SecurityIdentifier
-  nameWithType: SecurityIdentifier
-  fullName: System.Security.Principal.SecurityIdentifier
-- uid: System.Security.Principal.SecurityIdentifier
-  parent: System.Security.Principal
-  isExternal: false
-  name: SecurityIdentifier
-  nameWithType: SecurityIdentifier
-  fullName: System.Security.Principal.SecurityIdentifier
 - uid: System.Security.Principal.SecurityIdentifier.op_Inequality(System.Security.Principal.SecurityIdentifier,System.Security.Principal.SecurityIdentifier)
   parent: System.Security.Principal.SecurityIdentifier
   isExternal: false
   name: op_Inequality(SecurityIdentifier,SecurityIdentifier)
   nameWithType: SecurityIdentifier.op_Inequality(SecurityIdentifier,SecurityIdentifier)
   fullName: System.Security.Principal.SecurityIdentifier.op_Inequality(SecurityIdentifier,SecurityIdentifier)
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
-- uid: System.Security.Principal.SecurityIdentifier
-  parent: System.Security.Principal
-  isExternal: false
-  name: SecurityIdentifier
-  nameWithType: SecurityIdentifier
-  fullName: System.Security.Principal.SecurityIdentifier
-- uid: System.Security.Principal.SecurityIdentifier
-  parent: System.Security.Principal
-  isExternal: false
-  name: SecurityIdentifier
-  nameWithType: SecurityIdentifier
-  fullName: System.Security.Principal.SecurityIdentifier
 - uid: System.Security.Principal.SecurityIdentifier.ToString
   parent: System.Security.Principal.SecurityIdentifier
   isExternal: false
   name: ToString()
   nameWithType: SecurityIdentifier.ToString()
   fullName: System.Security.Principal.SecurityIdentifier.ToString()
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
 - uid: System.Security.Principal.SecurityIdentifier.Translate(System.Type)
   parent: System.Security.Principal.SecurityIdentifier
   isExternal: false
   name: Translate(Type)
   nameWithType: SecurityIdentifier.Translate(Type)
   fullName: System.Security.Principal.SecurityIdentifier.Translate(Type)
-- uid: System.Security.Principal.IdentityReference
-  parent: System.Security.Principal
-  isExternal: false
-  name: IdentityReference
-  nameWithType: IdentityReference
-  fullName: System.Security.Principal.IdentityReference
-- uid: System.Type
-  parent: System
-  isExternal: false
-  name: Type
-  nameWithType: Type
-  fullName: System.Type
 - uid: System.Security.Principal.SecurityIdentifier.Value
   parent: System.Security.Principal.SecurityIdentifier
   isExternal: false
   name: Value
   nameWithType: SecurityIdentifier.Value
   fullName: System.Security.Principal.SecurityIdentifier.Value
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
 - uid: System.Security.Principal.SecurityIdentifier.#ctor*
   parent: System.Security.Principal.SecurityIdentifier
   isExternal: false

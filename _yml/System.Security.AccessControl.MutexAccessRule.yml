@@ -66,6 +66,7 @@ items:
       type: System.Security.AccessControl.AccessControlType
       description: To be added.
   overload: System.Security.AccessControl.MutexAccessRule.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -97,6 +98,7 @@ items:
       type: System.Security.AccessControl.AccessControlType
       description: To be added.
   overload: System.Security.AccessControl.MutexAccessRule.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -121,6 +123,7 @@ items:
       type: System.Security.AccessControl.MutexRights
       description: To be added.
   overload: System.Security.AccessControl.MutexAccessRule.MutexRights*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -165,30 +168,12 @@ references:
   name: String
   nameWithType: String
   fullName: System.String
-- uid: System.Security.AccessControl.MutexRights
-  parent: System.Security.AccessControl
-  isExternal: false
-  name: MutexRights
-  nameWithType: MutexRights
-  fullName: System.Security.AccessControl.MutexRights
-- uid: System.Security.AccessControl.AccessControlType
-  parent: System.Security.AccessControl
-  isExternal: false
-  name: AccessControlType
-  nameWithType: AccessControlType
-  fullName: System.Security.AccessControl.AccessControlType
 - uid: System.Security.AccessControl.MutexAccessRule.MutexRights
   parent: System.Security.AccessControl.MutexAccessRule
   isExternal: false
   name: MutexRights
   nameWithType: MutexAccessRule.MutexRights
   fullName: System.Security.AccessControl.MutexAccessRule.MutexRights
-- uid: System.Security.AccessControl.MutexRights
-  parent: System.Security.AccessControl
-  isExternal: false
-  name: MutexRights
-  nameWithType: MutexRights
-  fullName: System.Security.AccessControl.MutexRights
 - uid: System.Security.AccessControl.MutexAccessRule.#ctor*
   parent: System.Security.AccessControl.MutexAccessRule
   isExternal: false

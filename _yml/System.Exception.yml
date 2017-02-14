@@ -70,6 +70,7 @@ items:
     content: public Exception ();
     parameters: []
   overload: System.Exception.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -95,6 +96,7 @@ items:
       type: System.String
       description: To be added.
   overload: System.Exception.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -123,6 +125,7 @@ items:
       type: System.Runtime.Serialization.StreamingContext
       description: To be added.
   overload: System.Exception.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -151,6 +154,7 @@ items:
       type: System.Exception
       description: To be added.
   overload: System.Exception.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -175,6 +179,7 @@ items:
       type: System.Collections.IDictionary
       description: To be added.
   overload: System.Exception.Data*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -200,6 +205,7 @@ items:
       type: System.Exception
       description: To be added.
   overload: System.Exception.GetBaseException*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -228,6 +234,7 @@ items:
       type: System.Runtime.Serialization.StreamingContext
       description: To be added.
   overload: System.Exception.GetObjectData*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -253,6 +260,7 @@ items:
       type: System.Type
       description: To be added.
   overload: System.Exception.GetType*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -277,6 +285,7 @@ items:
       type: System.String
       description: To be added.
   overload: System.Exception.HelpLink*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -301,6 +310,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.Exception.HResult*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -325,6 +335,7 @@ items:
       type: System.Exception
       description: To be added.
   overload: System.Exception.InnerException*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -349,6 +360,7 @@ items:
       type: System.String
       description: To be added.
   overload: System.Exception.Message*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -372,6 +384,7 @@ items:
     return:
       type: System.EventHandler{System.Runtime.Serialization.SafeSerializationEventArgs}
       description: To be added.
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -396,6 +409,7 @@ items:
       type: System.String
       description: To be added.
   overload: System.Exception.Source*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -420,6 +434,7 @@ items:
       type: System.String
       description: To be added.
   overload: System.Exception.StackTrace*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -444,6 +459,7 @@ items:
       type: System.Reflection.MethodBase
       description: To be added.
   overload: System.Exception.TargetSite*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -469,6 +485,7 @@ items:
       type: System.String
       description: To be added.
   overload: System.Exception.ToString*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -519,12 +536,6 @@ references:
   name: Exception(String,Exception)
   nameWithType: Exception.Exception(String,Exception)
   fullName: System.Exception.Exception(String,Exception)
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
 - uid: System.Exception
   parent: System
   isExternal: false
@@ -549,30 +560,12 @@ references:
   name: GetBaseException()
   nameWithType: Exception.GetBaseException()
   fullName: System.Exception.GetBaseException()
-- uid: System.Exception
-  parent: System
-  isExternal: false
-  name: Exception
-  nameWithType: Exception
-  fullName: System.Exception
 - uid: System.Exception.GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
   parent: System.Exception
   isExternal: false
   name: GetObjectData(SerializationInfo,StreamingContext)
   nameWithType: Exception.GetObjectData(SerializationInfo,StreamingContext)
   fullName: System.Exception.GetObjectData(SerializationInfo,StreamingContext)
-- uid: System.Runtime.Serialization.SerializationInfo
-  parent: System.Runtime.Serialization
-  isExternal: false
-  name: SerializationInfo
-  nameWithType: SerializationInfo
-  fullName: System.Runtime.Serialization.SerializationInfo
-- uid: System.Runtime.Serialization.StreamingContext
-  parent: System.Runtime.Serialization
-  isExternal: false
-  name: StreamingContext
-  nameWithType: StreamingContext
-  fullName: System.Runtime.Serialization.StreamingContext
 - uid: System.Exception.GetType
   parent: System.Exception
   isExternal: false
@@ -591,12 +584,6 @@ references:
   name: HelpLink
   nameWithType: Exception.HelpLink
   fullName: System.Exception.HelpLink
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
 - uid: System.Exception.HResult
   parent: System.Exception
   isExternal: false
@@ -615,24 +602,12 @@ references:
   name: InnerException
   nameWithType: Exception.InnerException
   fullName: System.Exception.InnerException
-- uid: System.Exception
-  parent: System
-  isExternal: false
-  name: Exception
-  nameWithType: Exception
-  fullName: System.Exception
 - uid: System.Exception.Message
   parent: System.Exception
   isExternal: false
   name: Message
   nameWithType: Exception.Message
   fullName: System.Exception.Message
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
 - uid: System.Exception.SerializeObjectState
   parent: System.Exception
   isExternal: false
@@ -645,30 +620,33 @@ references:
   name: EventHandler<SafeSerializationEventArgs>
   nameWithType: EventHandler<SafeSerializationEventArgs>
   fullName: System.EventHandler<System.Runtime.Serialization.SafeSerializationEventArgs>
+  spec.csharp:
+  - uid: System.EventHandler`1
+    name: EventHandler
+    nameWithType: EventHandler
+    fullName: EventHandler<System.Runtime.Serialization.SafeSerializationEventArgs>
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Runtime.Serialization.SafeSerializationEventArgs
+    name: SafeSerializationEventArgs
+    nameWithType: SafeSerializationEventArgs
+    fullName: SafeSerializationEventArgs
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
 - uid: System.Exception.Source
   parent: System.Exception
   isExternal: false
   name: Source
   nameWithType: Exception.Source
   fullName: System.Exception.Source
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
 - uid: System.Exception.StackTrace
   parent: System.Exception
   isExternal: false
   name: StackTrace
   nameWithType: Exception.StackTrace
   fullName: System.Exception.StackTrace
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
 - uid: System.Exception.TargetSite
   parent: System.Exception
   isExternal: false
@@ -687,12 +665,6 @@ references:
   name: ToString()
   nameWithType: Exception.ToString()
   fullName: System.Exception.ToString()
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
 - uid: System.Exception.#ctor*
   parent: System.Exception
   isExternal: false

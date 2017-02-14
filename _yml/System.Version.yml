@@ -77,6 +77,7 @@ items:
     content: public Version ();
     parameters: []
   overload: System.Version.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -102,6 +103,7 @@ items:
       type: System.String
       description: To be added.
   overload: System.Version.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -130,6 +132,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.Version.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -161,6 +164,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.Version.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -195,6 +199,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.Version.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -219,6 +224,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.Version.Build*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -244,6 +250,7 @@ items:
       type: System.Object
       description: To be added.
   overload: System.Version.Clone*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -272,6 +279,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.Version.CompareTo*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -300,6 +308,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.Version.CompareTo*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -328,6 +337,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Version.Equals*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -356,6 +366,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Version.Equals*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -381,6 +392,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.Version.GetHashCode*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -405,6 +417,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.Version.Major*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -429,6 +442,7 @@ items:
       type: System.Int16
       description: To be added.
   overload: System.Version.MajorRevision*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -453,6 +467,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.Version.Minor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -477,6 +492,7 @@ items:
       type: System.Int16
       description: To be added.
   overload: System.Version.MinorRevision*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -508,6 +524,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Version.op_Equality*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -539,6 +556,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Version.op_GreaterThan*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -570,6 +588,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Version.op_GreaterThanOrEqual*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -601,6 +620,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Version.op_Inequality*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -632,6 +652,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Version.op_LessThan*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -663,6 +684,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Version.op_LessThanOrEqual*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -691,6 +713,7 @@ items:
       type: System.Version
       description: To be added.
   overload: System.Version.Parse*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -715,6 +738,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.Version.Revision*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -740,6 +764,7 @@ items:
       type: System.String
       description: To be added.
   overload: System.Version.ToString*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -768,6 +793,7 @@ items:
       type: System.String
       description: To be added.
   overload: System.Version.ToString*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -799,6 +825,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Version.TryParse*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -837,120 +864,42 @@ references:
   name: Int32
   nameWithType: Int32
   fullName: System.Int32
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
 - uid: System.Version.#ctor(System.Int32,System.Int32,System.Int32)
   parent: System.Version
   isExternal: false
   name: Version(Int32,Int32,Int32)
   nameWithType: Version.Version(Int32,Int32,Int32)
   fullName: System.Version.Version(Int32,Int32,Int32)
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
 - uid: System.Version.#ctor(System.Int32,System.Int32,System.Int32,System.Int32)
   parent: System.Version
   isExternal: false
   name: Version(Int32,Int32,Int32,Int32)
   nameWithType: Version.Version(Int32,Int32,Int32,Int32)
   fullName: System.Version.Version(Int32,Int32,Int32,Int32)
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
 - uid: System.Version.Build
   parent: System.Version
   isExternal: false
   name: Build
   nameWithType: Version.Build
   fullName: System.Version.Build
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
 - uid: System.Version.Clone
   parent: System.Version
   isExternal: false
   name: Clone()
   nameWithType: Version.Clone()
   fullName: System.Version.Clone()
-- uid: System.Object
-  parent: System
-  isExternal: false
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
 - uid: System.Version.CompareTo(System.Object)
   parent: System.Version
   isExternal: false
   name: CompareTo(Object)
   nameWithType: Version.CompareTo(Object)
   fullName: System.Version.CompareTo(Object)
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: System.Object
-  parent: System
-  isExternal: false
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
 - uid: System.Version.CompareTo(System.Version)
   parent: System.Version
   isExternal: false
   name: CompareTo(Version)
   nameWithType: Version.CompareTo(Version)
   fullName: System.Version.CompareTo(Version)
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
 - uid: System.Version
   parent: System
   isExternal: false
@@ -969,54 +918,24 @@ references:
   name: Boolean
   nameWithType: Boolean
   fullName: System.Boolean
-- uid: System.Object
-  parent: System
-  isExternal: false
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
 - uid: System.Version.Equals(System.Version)
   parent: System.Version
   isExternal: false
   name: Equals(Version)
   nameWithType: Version.Equals(Version)
   fullName: System.Version.Equals(Version)
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
-- uid: System.Version
-  parent: System
-  isExternal: false
-  name: Version
-  nameWithType: Version
-  fullName: System.Version
 - uid: System.Version.GetHashCode
   parent: System.Version
   isExternal: false
   name: GetHashCode()
   nameWithType: Version.GetHashCode()
   fullName: System.Version.GetHashCode()
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
 - uid: System.Version.Major
   parent: System.Version
   isExternal: false
   name: Major
   nameWithType: Version.Major
   fullName: System.Version.Major
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
 - uid: System.Version.MajorRevision
   parent: System.Version
   isExternal: false
@@ -1035,252 +954,78 @@ references:
   name: Minor
   nameWithType: Version.Minor
   fullName: System.Version.Minor
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
 - uid: System.Version.MinorRevision
   parent: System.Version
   isExternal: false
   name: MinorRevision
   nameWithType: Version.MinorRevision
   fullName: System.Version.MinorRevision
-- uid: System.Int16
-  parent: System
-  isExternal: false
-  name: Int16
-  nameWithType: Int16
-  fullName: System.Int16
 - uid: System.Version.op_Equality(System.Version,System.Version)
   parent: System.Version
   isExternal: false
   name: op_Equality(Version,Version)
   nameWithType: Version.op_Equality(Version,Version)
   fullName: System.Version.op_Equality(Version,Version)
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
-- uid: System.Version
-  parent: System
-  isExternal: false
-  name: Version
-  nameWithType: Version
-  fullName: System.Version
-- uid: System.Version
-  parent: System
-  isExternal: false
-  name: Version
-  nameWithType: Version
-  fullName: System.Version
 - uid: System.Version.op_GreaterThan(System.Version,System.Version)
   parent: System.Version
   isExternal: false
   name: op_GreaterThan(Version,Version)
   nameWithType: Version.op_GreaterThan(Version,Version)
   fullName: System.Version.op_GreaterThan(Version,Version)
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
-- uid: System.Version
-  parent: System
-  isExternal: false
-  name: Version
-  nameWithType: Version
-  fullName: System.Version
-- uid: System.Version
-  parent: System
-  isExternal: false
-  name: Version
-  nameWithType: Version
-  fullName: System.Version
 - uid: System.Version.op_GreaterThanOrEqual(System.Version,System.Version)
   parent: System.Version
   isExternal: false
   name: op_GreaterThanOrEqual(Version,Version)
   nameWithType: Version.op_GreaterThanOrEqual(Version,Version)
   fullName: System.Version.op_GreaterThanOrEqual(Version,Version)
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
-- uid: System.Version
-  parent: System
-  isExternal: false
-  name: Version
-  nameWithType: Version
-  fullName: System.Version
-- uid: System.Version
-  parent: System
-  isExternal: false
-  name: Version
-  nameWithType: Version
-  fullName: System.Version
 - uid: System.Version.op_Inequality(System.Version,System.Version)
   parent: System.Version
   isExternal: false
   name: op_Inequality(Version,Version)
   nameWithType: Version.op_Inequality(Version,Version)
   fullName: System.Version.op_Inequality(Version,Version)
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
-- uid: System.Version
-  parent: System
-  isExternal: false
-  name: Version
-  nameWithType: Version
-  fullName: System.Version
-- uid: System.Version
-  parent: System
-  isExternal: false
-  name: Version
-  nameWithType: Version
-  fullName: System.Version
 - uid: System.Version.op_LessThan(System.Version,System.Version)
   parent: System.Version
   isExternal: false
   name: op_LessThan(Version,Version)
   nameWithType: Version.op_LessThan(Version,Version)
   fullName: System.Version.op_LessThan(Version,Version)
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
-- uid: System.Version
-  parent: System
-  isExternal: false
-  name: Version
-  nameWithType: Version
-  fullName: System.Version
-- uid: System.Version
-  parent: System
-  isExternal: false
-  name: Version
-  nameWithType: Version
-  fullName: System.Version
 - uid: System.Version.op_LessThanOrEqual(System.Version,System.Version)
   parent: System.Version
   isExternal: false
   name: op_LessThanOrEqual(Version,Version)
   nameWithType: Version.op_LessThanOrEqual(Version,Version)
   fullName: System.Version.op_LessThanOrEqual(Version,Version)
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
-- uid: System.Version
-  parent: System
-  isExternal: false
-  name: Version
-  nameWithType: Version
-  fullName: System.Version
-- uid: System.Version
-  parent: System
-  isExternal: false
-  name: Version
-  nameWithType: Version
-  fullName: System.Version
 - uid: System.Version.Parse(System.String)
   parent: System.Version
   isExternal: false
   name: Parse(String)
   nameWithType: Version.Parse(String)
   fullName: System.Version.Parse(String)
-- uid: System.Version
-  parent: System
-  isExternal: false
-  name: Version
-  nameWithType: Version
-  fullName: System.Version
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
 - uid: System.Version.Revision
   parent: System.Version
   isExternal: false
   name: Revision
   nameWithType: Version.Revision
   fullName: System.Version.Revision
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
 - uid: System.Version.ToString
   parent: System.Version
   isExternal: false
   name: ToString()
   nameWithType: Version.ToString()
   fullName: System.Version.ToString()
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
 - uid: System.Version.ToString(System.Int32)
   parent: System.Version
   isExternal: false
   name: ToString(Int32)
   nameWithType: Version.ToString(Int32)
   fullName: System.Version.ToString(Int32)
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
 - uid: System.Version.TryParse(System.String,System.Version@)
   parent: System.Version
   isExternal: false
   name: TryParse(String,Version)
   nameWithType: Version.TryParse(String,Version)
   fullName: System.Version.TryParse(String,Version)
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
-- uid: System.Version
-  parent: System
-  isExternal: false
-  name: Version
-  nameWithType: Version
-  fullName: System.Version
 - uid: System.Version.#ctor*
   parent: System.Version
   isExternal: false

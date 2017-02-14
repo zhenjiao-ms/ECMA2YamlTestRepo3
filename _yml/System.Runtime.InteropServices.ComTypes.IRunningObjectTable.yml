@@ -51,6 +51,7 @@ items:
       type: System.Runtime.InteropServices.ComTypes.IEnumMoniker
       description: To be added.
   overload: System.Runtime.InteropServices.ComTypes.IRunningObjectTable.EnumRunning*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -82,6 +83,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.Runtime.InteropServices.ComTypes.IRunningObjectTable.GetObject*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -113,6 +115,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.Runtime.InteropServices.ComTypes.IRunningObjectTable.GetTimeOfLastChange*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -141,6 +144,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.Runtime.InteropServices.ComTypes.IRunningObjectTable.IsRunning*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -169,6 +173,7 @@ items:
       type: System.Runtime.InteropServices.ComTypes.FILETIME
       description: To be added.
   overload: System.Runtime.InteropServices.ComTypes.IRunningObjectTable.NoteChangeTime*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -203,6 +208,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.Runtime.InteropServices.ComTypes.IRunningObjectTable.Register*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -228,6 +234,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.Runtime.InteropServices.ComTypes.IRunningObjectTable.Revoke*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -275,18 +282,6 @@ references:
   name: GetTimeOfLastChange(IMoniker,FILETIME)
   nameWithType: IRunningObjectTable.GetTimeOfLastChange(IMoniker,FILETIME)
   fullName: System.Runtime.InteropServices.ComTypes.IRunningObjectTable.GetTimeOfLastChange(IMoniker,FILETIME)
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: System.Runtime.InteropServices.ComTypes.IMoniker
-  parent: System.Runtime.InteropServices.ComTypes
-  isExternal: false
-  name: IMoniker
-  nameWithType: IMoniker
-  fullName: System.Runtime.InteropServices.ComTypes.IMoniker
 - uid: System.Runtime.InteropServices.ComTypes.FILETIME
   parent: System.Runtime.InteropServices.ComTypes
   isExternal: false
@@ -299,78 +294,24 @@ references:
   name: IsRunning(IMoniker)
   nameWithType: IRunningObjectTable.IsRunning(IMoniker)
   fullName: System.Runtime.InteropServices.ComTypes.IRunningObjectTable.IsRunning(IMoniker)
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: System.Runtime.InteropServices.ComTypes.IMoniker
-  parent: System.Runtime.InteropServices.ComTypes
-  isExternal: false
-  name: IMoniker
-  nameWithType: IMoniker
-  fullName: System.Runtime.InteropServices.ComTypes.IMoniker
 - uid: System.Runtime.InteropServices.ComTypes.IRunningObjectTable.NoteChangeTime(System.Int32,System.Runtime.InteropServices.ComTypes.FILETIME@)
   parent: System.Runtime.InteropServices.ComTypes.IRunningObjectTable
   isExternal: false
   name: NoteChangeTime(Int32,FILETIME)
   nameWithType: IRunningObjectTable.NoteChangeTime(Int32,FILETIME)
   fullName: System.Runtime.InteropServices.ComTypes.IRunningObjectTable.NoteChangeTime(Int32,FILETIME)
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: System.Runtime.InteropServices.ComTypes.FILETIME
-  parent: System.Runtime.InteropServices.ComTypes
-  isExternal: false
-  name: FILETIME
-  nameWithType: FILETIME
-  fullName: System.Runtime.InteropServices.ComTypes.FILETIME
 - uid: System.Runtime.InteropServices.ComTypes.IRunningObjectTable.Register(System.Int32,System.Object,System.Runtime.InteropServices.ComTypes.IMoniker)
   parent: System.Runtime.InteropServices.ComTypes.IRunningObjectTable
   isExternal: false
   name: Register(Int32,Object,IMoniker)
   nameWithType: IRunningObjectTable.Register(Int32,Object,IMoniker)
   fullName: System.Runtime.InteropServices.ComTypes.IRunningObjectTable.Register(Int32,Object,IMoniker)
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: System.Object
-  parent: System
-  isExternal: false
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
-- uid: System.Runtime.InteropServices.ComTypes.IMoniker
-  parent: System.Runtime.InteropServices.ComTypes
-  isExternal: false
-  name: IMoniker
-  nameWithType: IMoniker
-  fullName: System.Runtime.InteropServices.ComTypes.IMoniker
 - uid: System.Runtime.InteropServices.ComTypes.IRunningObjectTable.Revoke(System.Int32)
   parent: System.Runtime.InteropServices.ComTypes.IRunningObjectTable
   isExternal: false
   name: Revoke(Int32)
   nameWithType: IRunningObjectTable.Revoke(Int32)
   fullName: System.Runtime.InteropServices.ComTypes.IRunningObjectTable.Revoke(Int32)
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
 - uid: System.Runtime.InteropServices.ComTypes.IRunningObjectTable.EnumRunning*
   parent: System.Runtime.InteropServices.ComTypes.IRunningObjectTable
   isExternal: false

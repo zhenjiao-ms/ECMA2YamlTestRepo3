@@ -44,6 +44,7 @@ items:
     return:
       type: System.Diagnostics.Tracing.EventChannel
       description: To be added.
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -66,6 +67,7 @@ items:
     return:
       type: System.Diagnostics.Tracing.EventChannel
       description: To be added.
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -88,6 +90,7 @@ items:
     return:
       type: System.Diagnostics.Tracing.EventChannel
       description: To be added.
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -110,6 +113,7 @@ items:
     return:
       type: System.Diagnostics.Tracing.EventChannel
       description: To be added.
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -132,6 +136,7 @@ items:
     return:
       type: System.Diagnostics.Tracing.EventChannel
       description: To be added.
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -158,45 +163,21 @@ references:
   name: Analytic
   nameWithType: EventChannel.Analytic
   fullName: System.Diagnostics.Tracing.EventChannel.Analytic
-- uid: System.Diagnostics.Tracing.EventChannel
-  parent: System.Diagnostics.Tracing
-  isExternal: false
-  name: EventChannel
-  nameWithType: EventChannel
-  fullName: System.Diagnostics.Tracing.EventChannel
 - uid: System.Diagnostics.Tracing.EventChannel.Debug
   parent: System.Diagnostics.Tracing.EventChannel
   isExternal: false
   name: Debug
   nameWithType: EventChannel.Debug
   fullName: System.Diagnostics.Tracing.EventChannel.Debug
-- uid: System.Diagnostics.Tracing.EventChannel
-  parent: System.Diagnostics.Tracing
-  isExternal: false
-  name: EventChannel
-  nameWithType: EventChannel
-  fullName: System.Diagnostics.Tracing.EventChannel
 - uid: System.Diagnostics.Tracing.EventChannel.None
   parent: System.Diagnostics.Tracing.EventChannel
   isExternal: false
   name: None
   nameWithType: EventChannel.None
   fullName: System.Diagnostics.Tracing.EventChannel.None
-- uid: System.Diagnostics.Tracing.EventChannel
-  parent: System.Diagnostics.Tracing
-  isExternal: false
-  name: EventChannel
-  nameWithType: EventChannel
-  fullName: System.Diagnostics.Tracing.EventChannel
 - uid: System.Diagnostics.Tracing.EventChannel.Operational
   parent: System.Diagnostics.Tracing.EventChannel
   isExternal: false
   name: Operational
   nameWithType: EventChannel.Operational
   fullName: System.Diagnostics.Tracing.EventChannel.Operational
-- uid: System.Diagnostics.Tracing.EventChannel
-  parent: System.Diagnostics.Tracing
-  isExternal: false
-  name: EventChannel
-  nameWithType: EventChannel
-  fullName: System.Diagnostics.Tracing.EventChannel

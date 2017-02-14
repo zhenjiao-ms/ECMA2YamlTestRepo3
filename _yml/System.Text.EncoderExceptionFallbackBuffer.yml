@@ -54,6 +54,7 @@ items:
     content: public EncoderExceptionFallbackBuffer ();
     parameters: []
   overload: System.Text.EncoderExceptionFallbackBuffer.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -85,6 +86,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Text.EncoderExceptionFallbackBuffer.Fallback*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -119,6 +121,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Text.EncoderExceptionFallbackBuffer.Fallback*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -144,6 +147,7 @@ items:
       type: System.Char
       description: To be added.
   overload: System.Text.EncoderExceptionFallbackBuffer.GetNextChar*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -169,6 +173,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Text.EncoderExceptionFallbackBuffer.MovePrevious*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -193,6 +198,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.Text.EncoderExceptionFallbackBuffer.Remaining*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -237,66 +243,24 @@ references:
   name: Fallback(Char,Char,Int32)
   nameWithType: EncoderExceptionFallbackBuffer.Fallback(Char,Char,Int32)
   fullName: System.Text.EncoderExceptionFallbackBuffer.Fallback(Char,Char,Int32)
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
-- uid: System.Char
-  parent: System
-  isExternal: false
-  name: Char
-  nameWithType: Char
-  fullName: System.Char
-- uid: System.Char
-  parent: System
-  isExternal: false
-  name: Char
-  nameWithType: Char
-  fullName: System.Char
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
 - uid: System.Text.EncoderExceptionFallbackBuffer.GetNextChar
   parent: System.Text.EncoderExceptionFallbackBuffer
   isExternal: false
   name: GetNextChar()
   nameWithType: EncoderExceptionFallbackBuffer.GetNextChar()
   fullName: System.Text.EncoderExceptionFallbackBuffer.GetNextChar()
-- uid: System.Char
-  parent: System
-  isExternal: false
-  name: Char
-  nameWithType: Char
-  fullName: System.Char
 - uid: System.Text.EncoderExceptionFallbackBuffer.MovePrevious
   parent: System.Text.EncoderExceptionFallbackBuffer
   isExternal: false
   name: MovePrevious()
   nameWithType: EncoderExceptionFallbackBuffer.MovePrevious()
   fullName: System.Text.EncoderExceptionFallbackBuffer.MovePrevious()
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
 - uid: System.Text.EncoderExceptionFallbackBuffer.Remaining
   parent: System.Text.EncoderExceptionFallbackBuffer
   isExternal: false
   name: Remaining
   nameWithType: EncoderExceptionFallbackBuffer.Remaining
   fullName: System.Text.EncoderExceptionFallbackBuffer.Remaining
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
 - uid: System.Text.EncoderExceptionFallbackBuffer.#ctor*
   parent: System.Text.EncoderExceptionFallbackBuffer
   isExternal: false

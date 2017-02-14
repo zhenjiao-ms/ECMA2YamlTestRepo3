@@ -72,6 +72,7 @@ items:
       type: System.Security.Permissions.PermissionState
       description: To be added.
   overload: System.Security.Permissions.IsolatedStoragePermission.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -97,6 +98,7 @@ items:
       type: System.Security.SecurityElement
       description: To be added.
   overload: System.Security.Permissions.IsolatedStoragePermission.FromXml*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -122,6 +124,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Security.Permissions.IsolatedStoragePermission.IsUnrestricted*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -147,6 +150,7 @@ items:
       type: System.Security.SecurityElement
       description: To be added.
   overload: System.Security.Permissions.IsolatedStoragePermission.ToXml*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -171,6 +175,7 @@ items:
       type: System.Security.Permissions.IsolatedStorageContainment
       description: To be added.
   overload: System.Security.Permissions.IsolatedStoragePermission.UsageAllowed*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -195,6 +200,7 @@ items:
       type: System.Int64
       description: To be added.
   overload: System.Security.Permissions.IsolatedStoragePermission.UserQuota*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -245,12 +251,6 @@ references:
   name: ToXml()
   nameWithType: IsolatedStoragePermission.ToXml()
   fullName: System.Security.Permissions.IsolatedStoragePermission.ToXml()
-- uid: System.Security.SecurityElement
-  parent: System.Security
-  isExternal: false
-  name: SecurityElement
-  nameWithType: SecurityElement
-  fullName: System.Security.SecurityElement
 - uid: System.Security.Permissions.IsolatedStoragePermission.UsageAllowed
   parent: System.Security.Permissions.IsolatedStoragePermission
   isExternal: false

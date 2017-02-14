@@ -65,6 +65,7 @@ items:
     content: public IndexOutOfRangeException ();
     parameters: []
   overload: System.IndexOutOfRangeException.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -90,6 +91,7 @@ items:
       type: System.String
       description: To be added.
   overload: System.IndexOutOfRangeException.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -118,6 +120,7 @@ items:
       type: System.Exception
       description: To be added.
   overload: System.IndexOutOfRangeException.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -150,12 +153,6 @@ references:
   name: IndexOutOfRangeException(String,Exception)
   nameWithType: IndexOutOfRangeException.IndexOutOfRangeException(String,Exception)
   fullName: System.IndexOutOfRangeException.IndexOutOfRangeException(String,Exception)
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
 - uid: System.Exception
   parent: System
   isExternal: false

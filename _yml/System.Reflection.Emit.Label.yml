@@ -53,6 +53,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Reflection.Emit.Label.Equals*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -81,6 +82,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Reflection.Emit.Label.Equals*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -106,6 +108,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.Reflection.Emit.Label.GetHashCode*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -137,6 +140,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Reflection.Emit.Label.op_Equality*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -168,6 +172,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Reflection.Emit.Label.op_Inequality*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -200,12 +205,6 @@ references:
   name: Equals(Label)
   nameWithType: Label.Equals(Label)
   fullName: System.Reflection.Emit.Label.Equals(Label)
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
 - uid: System.Reflection.Emit.Label
   parent: System.Reflection.Emit
   isExternal: false
@@ -230,48 +229,12 @@ references:
   name: op_Equality(Label,Label)
   nameWithType: Label.op_Equality(Label,Label)
   fullName: System.Reflection.Emit.Label.op_Equality(Label,Label)
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
-- uid: System.Reflection.Emit.Label
-  parent: System.Reflection.Emit
-  isExternal: false
-  name: Label
-  nameWithType: Label
-  fullName: System.Reflection.Emit.Label
-- uid: System.Reflection.Emit.Label
-  parent: System.Reflection.Emit
-  isExternal: false
-  name: Label
-  nameWithType: Label
-  fullName: System.Reflection.Emit.Label
 - uid: System.Reflection.Emit.Label.op_Inequality(System.Reflection.Emit.Label,System.Reflection.Emit.Label)
   parent: System.Reflection.Emit.Label
   isExternal: false
   name: op_Inequality(Label,Label)
   nameWithType: Label.op_Inequality(Label,Label)
   fullName: System.Reflection.Emit.Label.op_Inequality(Label,Label)
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
-- uid: System.Reflection.Emit.Label
-  parent: System.Reflection.Emit
-  isExternal: false
-  name: Label
-  nameWithType: Label
-  fullName: System.Reflection.Emit.Label
-- uid: System.Reflection.Emit.Label
-  parent: System.Reflection.Emit
-  isExternal: false
-  name: Label
-  nameWithType: Label
-  fullName: System.Reflection.Emit.Label
 - uid: System.Reflection.Emit.Label.Equals*
   parent: System.Reflection.Emit.Label
   isExternal: false

@@ -95,6 +95,7 @@ items:
     content: public SoapAttribute ();
     parameters: []
   overload: System.Runtime.Remoting.Metadata.SoapAttribute.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -119,6 +120,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Runtime.Remoting.Metadata.SoapAttribute.Embedded*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -142,6 +144,7 @@ items:
     return:
       type: System.String
       description: To be added.
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -165,6 +168,7 @@ items:
     return:
       type: System.Object
       description: To be added.
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -189,6 +193,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Runtime.Remoting.Metadata.SoapAttribute.UseAttribute*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -213,6 +218,7 @@ items:
       type: System.String
       description: To be added.
   overload: System.Runtime.Remoting.Metadata.SoapAttribute.XmlNamespace*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -269,24 +275,12 @@ references:
   name: UseAttribute
   nameWithType: SoapAttribute.UseAttribute
   fullName: System.Runtime.Remoting.Metadata.SoapAttribute.UseAttribute
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
 - uid: System.Runtime.Remoting.Metadata.SoapAttribute.XmlNamespace
   parent: System.Runtime.Remoting.Metadata.SoapAttribute
   isExternal: false
   name: XmlNamespace
   nameWithType: SoapAttribute.XmlNamespace
   fullName: System.Runtime.Remoting.Metadata.SoapAttribute.XmlNamespace
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
 - uid: System.Runtime.Remoting.Metadata.SoapAttribute.#ctor*
   parent: System.Runtime.Remoting.Metadata.SoapAttribute
   isExternal: false

@@ -57,6 +57,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.RuntimeMethodHandle.Equals*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -85,6 +86,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.RuntimeMethodHandle.Equals*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -110,6 +112,7 @@ items:
       type: System.IntPtr
       description: To be added.
   overload: System.RuntimeMethodHandle.GetFunctionPointer*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -135,6 +138,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.RuntimeMethodHandle.GetHashCode*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -163,6 +167,7 @@ items:
       type: System.Runtime.Serialization.StreamingContext
       description: To be added.
   overload: System.RuntimeMethodHandle.GetObjectData*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -194,6 +199,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.RuntimeMethodHandle.op_Equality*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -225,6 +231,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.RuntimeMethodHandle.op_Inequality*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -249,6 +256,7 @@ items:
       type: System.IntPtr
       description: To be added.
   overload: System.RuntimeMethodHandle.Value*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -281,12 +289,6 @@ references:
   name: Equals(RuntimeMethodHandle)
   nameWithType: RuntimeMethodHandle.Equals(RuntimeMethodHandle)
   fullName: System.RuntimeMethodHandle.Equals(RuntimeMethodHandle)
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
 - uid: System.RuntimeMethodHandle
   parent: System
   isExternal: false
@@ -341,60 +343,18 @@ references:
   name: op_Equality(RuntimeMethodHandle,RuntimeMethodHandle)
   nameWithType: RuntimeMethodHandle.op_Equality(RuntimeMethodHandle,RuntimeMethodHandle)
   fullName: System.RuntimeMethodHandle.op_Equality(RuntimeMethodHandle,RuntimeMethodHandle)
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
-- uid: System.RuntimeMethodHandle
-  parent: System
-  isExternal: false
-  name: RuntimeMethodHandle
-  nameWithType: RuntimeMethodHandle
-  fullName: System.RuntimeMethodHandle
-- uid: System.RuntimeMethodHandle
-  parent: System
-  isExternal: false
-  name: RuntimeMethodHandle
-  nameWithType: RuntimeMethodHandle
-  fullName: System.RuntimeMethodHandle
 - uid: System.RuntimeMethodHandle.op_Inequality(System.RuntimeMethodHandle,System.RuntimeMethodHandle)
   parent: System.RuntimeMethodHandle
   isExternal: false
   name: op_Inequality(RuntimeMethodHandle,RuntimeMethodHandle)
   nameWithType: RuntimeMethodHandle.op_Inequality(RuntimeMethodHandle,RuntimeMethodHandle)
   fullName: System.RuntimeMethodHandle.op_Inequality(RuntimeMethodHandle,RuntimeMethodHandle)
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
-- uid: System.RuntimeMethodHandle
-  parent: System
-  isExternal: false
-  name: RuntimeMethodHandle
-  nameWithType: RuntimeMethodHandle
-  fullName: System.RuntimeMethodHandle
-- uid: System.RuntimeMethodHandle
-  parent: System
-  isExternal: false
-  name: RuntimeMethodHandle
-  nameWithType: RuntimeMethodHandle
-  fullName: System.RuntimeMethodHandle
 - uid: System.RuntimeMethodHandle.Value
   parent: System.RuntimeMethodHandle
   isExternal: false
   name: Value
   nameWithType: RuntimeMethodHandle.Value
   fullName: System.RuntimeMethodHandle.Value
-- uid: System.IntPtr
-  parent: System
-  isExternal: false
-  name: IntPtr
-  nameWithType: IntPtr
-  fullName: System.IntPtr
 - uid: System.RuntimeMethodHandle.Equals*
   parent: System.RuntimeMethodHandle
   isExternal: false

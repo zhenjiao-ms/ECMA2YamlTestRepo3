@@ -71,6 +71,7 @@ items:
       type: System.String
       description: To be added.
   overload: System.Security.SecurityElement.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -99,6 +100,7 @@ items:
       type: System.String
       description: To be added.
   overload: System.Security.SecurityElement.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -127,6 +129,7 @@ items:
       type: System.String
       description: To be added.
   overload: System.Security.SecurityElement.AddAttribute*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -152,6 +155,7 @@ items:
       type: System.Security.SecurityElement
       description: To be added.
   overload: System.Security.SecurityElement.AddChild*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -180,6 +184,7 @@ items:
       type: System.String
       description: To be added.
   overload: System.Security.SecurityElement.Attribute*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -204,6 +209,7 @@ items:
       type: System.Collections.Hashtable
       description: To be added.
   overload: System.Security.SecurityElement.Attributes*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -228,6 +234,7 @@ items:
       type: System.Collections.ArrayList
       description: To be added.
   overload: System.Security.SecurityElement.Children*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -253,6 +260,7 @@ items:
       type: System.Security.SecurityElement
       description: To be added.
   overload: System.Security.SecurityElement.Copy*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -281,6 +289,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Security.SecurityElement.Equal*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -309,6 +318,7 @@ items:
       type: System.String
       description: To be added.
   overload: System.Security.SecurityElement.Escape*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -337,6 +347,7 @@ items:
       type: System.Security.SecurityElement
       description: To be added.
   overload: System.Security.SecurityElement.FromString*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -365,6 +376,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Security.SecurityElement.IsValidAttributeName*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -393,6 +405,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Security.SecurityElement.IsValidAttributeValue*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -421,6 +434,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Security.SecurityElement.IsValidTag*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -449,6 +463,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Security.SecurityElement.IsValidText*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -477,6 +492,7 @@ items:
       type: System.Security.SecurityElement
       description: To be added.
   overload: System.Security.SecurityElement.SearchForChildByTag*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -505,6 +521,7 @@ items:
       type: System.String
       description: To be added.
   overload: System.Security.SecurityElement.SearchForTextOfTag*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -529,6 +546,7 @@ items:
       type: System.String
       description: To be added.
   overload: System.Security.SecurityElement.Tag*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -553,6 +571,7 @@ items:
       type: System.String
       description: To be added.
   overload: System.Security.SecurityElement.Text*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -578,6 +597,7 @@ items:
       type: System.String
       description: To be added.
   overload: System.Security.SecurityElement.ToString*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -604,36 +624,12 @@ references:
   name: SecurityElement(String,String)
   nameWithType: SecurityElement.SecurityElement(String,String)
   fullName: System.Security.SecurityElement.SecurityElement(String,String)
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
 - uid: System.Security.SecurityElement.AddAttribute(System.String,System.String)
   parent: System.Security.SecurityElement
   isExternal: false
   name: AddAttribute(String,String)
   nameWithType: SecurityElement.AddAttribute(String,String)
   fullName: System.Security.SecurityElement.AddAttribute(String,String)
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
 - uid: System.Security.SecurityElement.AddChild(System.Security.SecurityElement)
   parent: System.Security.SecurityElement
   isExternal: false
@@ -652,18 +648,6 @@ references:
   name: Attribute(String)
   nameWithType: SecurityElement.Attribute(String)
   fullName: System.Security.SecurityElement.Attribute(String)
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
 - uid: System.Security.SecurityElement.Attributes
   parent: System.Security.SecurityElement
   isExternal: false
@@ -694,12 +678,6 @@ references:
   name: Copy()
   nameWithType: SecurityElement.Copy()
   fullName: System.Security.SecurityElement.Copy()
-- uid: System.Security.SecurityElement
-  parent: System.Security
-  isExternal: false
-  name: SecurityElement
-  nameWithType: SecurityElement
-  fullName: System.Security.SecurityElement
 - uid: System.Security.SecurityElement.Equal(System.Security.SecurityElement)
   parent: System.Security.SecurityElement
   isExternal: false
@@ -712,192 +690,72 @@ references:
   name: Boolean
   nameWithType: Boolean
   fullName: System.Boolean
-- uid: System.Security.SecurityElement
-  parent: System.Security
-  isExternal: false
-  name: SecurityElement
-  nameWithType: SecurityElement
-  fullName: System.Security.SecurityElement
 - uid: System.Security.SecurityElement.Escape(System.String)
   parent: System.Security.SecurityElement
   isExternal: false
   name: Escape(String)
   nameWithType: SecurityElement.Escape(String)
   fullName: System.Security.SecurityElement.Escape(String)
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
 - uid: System.Security.SecurityElement.FromString(System.String)
   parent: System.Security.SecurityElement
   isExternal: false
   name: FromString(String)
   nameWithType: SecurityElement.FromString(String)
   fullName: System.Security.SecurityElement.FromString(String)
-- uid: System.Security.SecurityElement
-  parent: System.Security
-  isExternal: false
-  name: SecurityElement
-  nameWithType: SecurityElement
-  fullName: System.Security.SecurityElement
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
 - uid: System.Security.SecurityElement.IsValidAttributeName(System.String)
   parent: System.Security.SecurityElement
   isExternal: false
   name: IsValidAttributeName(String)
   nameWithType: SecurityElement.IsValidAttributeName(String)
   fullName: System.Security.SecurityElement.IsValidAttributeName(String)
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
 - uid: System.Security.SecurityElement.IsValidAttributeValue(System.String)
   parent: System.Security.SecurityElement
   isExternal: false
   name: IsValidAttributeValue(String)
   nameWithType: SecurityElement.IsValidAttributeValue(String)
   fullName: System.Security.SecurityElement.IsValidAttributeValue(String)
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
 - uid: System.Security.SecurityElement.IsValidTag(System.String)
   parent: System.Security.SecurityElement
   isExternal: false
   name: IsValidTag(String)
   nameWithType: SecurityElement.IsValidTag(String)
   fullName: System.Security.SecurityElement.IsValidTag(String)
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
 - uid: System.Security.SecurityElement.IsValidText(System.String)
   parent: System.Security.SecurityElement
   isExternal: false
   name: IsValidText(String)
   nameWithType: SecurityElement.IsValidText(String)
   fullName: System.Security.SecurityElement.IsValidText(String)
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
 - uid: System.Security.SecurityElement.SearchForChildByTag(System.String)
   parent: System.Security.SecurityElement
   isExternal: false
   name: SearchForChildByTag(String)
   nameWithType: SecurityElement.SearchForChildByTag(String)
   fullName: System.Security.SecurityElement.SearchForChildByTag(String)
-- uid: System.Security.SecurityElement
-  parent: System.Security
-  isExternal: false
-  name: SecurityElement
-  nameWithType: SecurityElement
-  fullName: System.Security.SecurityElement
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
 - uid: System.Security.SecurityElement.SearchForTextOfTag(System.String)
   parent: System.Security.SecurityElement
   isExternal: false
   name: SearchForTextOfTag(String)
   nameWithType: SecurityElement.SearchForTextOfTag(String)
   fullName: System.Security.SecurityElement.SearchForTextOfTag(String)
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
 - uid: System.Security.SecurityElement.Tag
   parent: System.Security.SecurityElement
   isExternal: false
   name: Tag
   nameWithType: SecurityElement.Tag
   fullName: System.Security.SecurityElement.Tag
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
 - uid: System.Security.SecurityElement.Text
   parent: System.Security.SecurityElement
   isExternal: false
   name: Text
   nameWithType: SecurityElement.Text
   fullName: System.Security.SecurityElement.Text
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
 - uid: System.Security.SecurityElement.ToString
   parent: System.Security.SecurityElement
   isExternal: false
   name: ToString()
   nameWithType: SecurityElement.ToString()
   fullName: System.Security.SecurityElement.ToString()
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
 - uid: System.Security.SecurityElement.#ctor*
   parent: System.Security.SecurityElement
   isExternal: false

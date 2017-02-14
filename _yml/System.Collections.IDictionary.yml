@@ -56,6 +56,7 @@ items:
       type: System.Object
       description: To be added.
   overload: System.Collections.IDictionary.Add*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -78,6 +79,7 @@ items:
     content: public void Clear ();
     parameters: []
   overload: System.Collections.IDictionary.Clear*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -106,6 +108,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Collections.IDictionary.Contains*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -131,6 +134,7 @@ items:
       type: System.Collections.IDictionaryEnumerator
       description: To be added.
   overload: System.Collections.IDictionary.GetEnumerator*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -155,6 +159,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Collections.IDictionary.IsFixedSize*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -179,6 +184,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Collections.IDictionary.IsReadOnly*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -207,6 +213,7 @@ items:
       type: System.Object
       description: To be added.
   overload: System.Collections.IDictionary.Item*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -231,6 +238,7 @@ items:
       type: System.Collections.ICollection
       description: To be added.
   overload: System.Collections.IDictionary.Keys*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -256,6 +264,7 @@ items:
       type: System.Object
       description: To be added.
   overload: System.Collections.IDictionary.Remove*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -280,6 +289,7 @@ items:
       type: System.Collections.ICollection
       description: To be added.
   overload: System.Collections.IDictionary.Values*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -291,12 +301,6 @@ references:
   name: Add(Object,Object)
   nameWithType: IDictionary.Add(Object,Object)
   fullName: System.Collections.IDictionary.Add(Object,Object)
-- uid: System.Object
-  parent: System
-  isExternal: false
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
 - uid: System.Object
   parent: System
   isExternal: false
@@ -321,12 +325,6 @@ references:
   name: Boolean
   nameWithType: Boolean
   fullName: System.Boolean
-- uid: System.Object
-  parent: System
-  isExternal: false
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
 - uid: System.Collections.IDictionary.GetEnumerator
   parent: System.Collections.IDictionary
   isExternal: false
@@ -345,42 +343,18 @@ references:
   name: IsFixedSize
   nameWithType: IDictionary.IsFixedSize
   fullName: System.Collections.IDictionary.IsFixedSize
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
 - uid: System.Collections.IDictionary.IsReadOnly
   parent: System.Collections.IDictionary
   isExternal: false
   name: IsReadOnly
   nameWithType: IDictionary.IsReadOnly
   fullName: System.Collections.IDictionary.IsReadOnly
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
 - uid: System.Collections.IDictionary.Item(System.Object)
   parent: System.Collections.IDictionary
   isExternal: false
   name: Item(Object)
   nameWithType: IDictionary.Item(Object)
   fullName: System.Collections.IDictionary.Item(Object)
-- uid: System.Object
-  parent: System
-  isExternal: false
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
-- uid: System.Object
-  parent: System
-  isExternal: false
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
 - uid: System.Collections.IDictionary.Keys
   parent: System.Collections.IDictionary
   isExternal: false
@@ -399,24 +373,12 @@ references:
   name: Remove(Object)
   nameWithType: IDictionary.Remove(Object)
   fullName: System.Collections.IDictionary.Remove(Object)
-- uid: System.Object
-  parent: System
-  isExternal: false
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
 - uid: System.Collections.IDictionary.Values
   parent: System.Collections.IDictionary
   isExternal: false
   name: Values
   nameWithType: IDictionary.Values
   fullName: System.Collections.IDictionary.Values
-- uid: System.Collections.ICollection
-  parent: System.Collections
-  isExternal: false
-  name: ICollection
-  nameWithType: ICollection
-  fullName: System.Collections.ICollection
 - uid: System.Collections.IDictionary.Add*
   parent: System.Collections.IDictionary
   isExternal: false

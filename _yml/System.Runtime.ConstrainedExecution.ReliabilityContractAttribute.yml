@@ -98,6 +98,7 @@ items:
       type: System.Runtime.ConstrainedExecution.Cer
       description: To be added.
   overload: System.Runtime.ConstrainedExecution.ReliabilityContractAttribute.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -122,6 +123,7 @@ items:
       type: System.Runtime.ConstrainedExecution.Cer
       description: To be added.
   overload: System.Runtime.ConstrainedExecution.ReliabilityContractAttribute.Cer*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -146,6 +148,7 @@ items:
       type: System.Runtime.ConstrainedExecution.Consistency
       description: To be added.
   overload: System.Runtime.ConstrainedExecution.ReliabilityContractAttribute.ConsistencyGuarantee*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -178,24 +181,12 @@ references:
   name: Cer
   nameWithType: ReliabilityContractAttribute.Cer
   fullName: System.Runtime.ConstrainedExecution.ReliabilityContractAttribute.Cer
-- uid: System.Runtime.ConstrainedExecution.Cer
-  parent: System.Runtime.ConstrainedExecution
-  isExternal: false
-  name: Cer
-  nameWithType: Cer
-  fullName: System.Runtime.ConstrainedExecution.Cer
 - uid: System.Runtime.ConstrainedExecution.ReliabilityContractAttribute.ConsistencyGuarantee
   parent: System.Runtime.ConstrainedExecution.ReliabilityContractAttribute
   isExternal: false
   name: ConsistencyGuarantee
   nameWithType: ReliabilityContractAttribute.ConsistencyGuarantee
   fullName: System.Runtime.ConstrainedExecution.ReliabilityContractAttribute.ConsistencyGuarantee
-- uid: System.Runtime.ConstrainedExecution.Consistency
-  parent: System.Runtime.ConstrainedExecution
-  isExternal: false
-  name: Consistency
-  nameWithType: Consistency
-  fullName: System.Runtime.ConstrainedExecution.Consistency
 - uid: System.Runtime.ConstrainedExecution.ReliabilityContractAttribute.#ctor*
   parent: System.Runtime.ConstrainedExecution.ReliabilityContractAttribute
   isExternal: false

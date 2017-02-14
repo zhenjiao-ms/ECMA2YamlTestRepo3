@@ -66,6 +66,7 @@ items:
     content: public AppDomainManager ();
     parameters: []
   overload: System.AppDomainManager.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -90,6 +91,7 @@ items:
       type: System.Runtime.Hosting.ApplicationActivator
       description: To be added.
   overload: System.AppDomainManager.ApplicationActivator*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -118,6 +120,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.AppDomainManager.CheckSecuritySettings*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -152,6 +155,7 @@ items:
       type: System.AppDomain
       description: To be added.
   overload: System.AppDomainManager.CreateDomain*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -186,6 +190,7 @@ items:
       type: System.AppDomain
       description: To be added.
   overload: System.AppDomainManager.CreateDomainHelper*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -210,6 +215,7 @@ items:
       type: System.Reflection.Assembly
       description: To be added.
   overload: System.AppDomainManager.EntryAssembly*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -234,6 +240,7 @@ items:
       type: System.Threading.HostExecutionContextManager
       description: To be added.
   overload: System.AppDomainManager.HostExecutionContextManager*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -258,6 +265,7 @@ items:
       type: System.Security.HostSecurityManager
       description: To be added.
   overload: System.AppDomainManager.HostSecurityManager*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -282,6 +290,7 @@ items:
       type: System.AppDomainManagerInitializationOptions
       description: To be added.
   overload: System.AppDomainManager.InitializationFlags*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -307,6 +316,7 @@ items:
       type: System.AppDomainSetup
       description: To be added.
   overload: System.AppDomainManager.InitializeNewDomain*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -387,30 +397,6 @@ references:
   name: CreateDomainHelper(String,Evidence,AppDomainSetup)
   nameWithType: AppDomainManager.CreateDomainHelper(String,Evidence,AppDomainSetup)
   fullName: System.AppDomainManager.CreateDomainHelper(String,Evidence,AppDomainSetup)
-- uid: System.AppDomain
-  parent: System
-  isExternal: false
-  name: AppDomain
-  nameWithType: AppDomain
-  fullName: System.AppDomain
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
-- uid: System.Security.Policy.Evidence
-  parent: System.Security.Policy
-  isExternal: false
-  name: Evidence
-  nameWithType: Evidence
-  fullName: System.Security.Policy.Evidence
-- uid: System.AppDomainSetup
-  parent: System
-  isExternal: false
-  name: AppDomainSetup
-  nameWithType: AppDomainSetup
-  fullName: System.AppDomainSetup
 - uid: System.AppDomainManager.EntryAssembly
   parent: System.AppDomainManager
   isExternal: false
@@ -465,12 +451,6 @@ references:
   name: InitializeNewDomain(AppDomainSetup)
   nameWithType: AppDomainManager.InitializeNewDomain(AppDomainSetup)
   fullName: System.AppDomainManager.InitializeNewDomain(AppDomainSetup)
-- uid: System.AppDomainSetup
-  parent: System
-  isExternal: false
-  name: AppDomainSetup
-  nameWithType: AppDomainSetup
-  fullName: System.AppDomainSetup
 - uid: System.AppDomainManager.#ctor*
   parent: System.AppDomainManager
   isExternal: false

@@ -68,6 +68,7 @@ items:
       type: System.Byte[]
       description: To be added.
   overload: System.Security.Cryptography.Rfc2898DeriveBytes.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -96,6 +97,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.Security.Cryptography.Rfc2898DeriveBytes.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -127,6 +129,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.Security.Cryptography.Rfc2898DeriveBytes.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -158,6 +161,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.Security.Cryptography.Rfc2898DeriveBytes.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -189,6 +193,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.Security.Cryptography.Rfc2898DeriveBytes.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -226,6 +231,7 @@ items:
       type: System.Byte[]
       description: To be added.
   overload: System.Security.Cryptography.Rfc2898DeriveBytes.CryptDeriveKey*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -251,6 +257,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Security.Cryptography.Rfc2898DeriveBytes.Dispose*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -279,6 +286,7 @@ items:
       type: System.Byte[]
       description: To be added.
   overload: System.Security.Cryptography.Rfc2898DeriveBytes.GetBytes*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -303,6 +311,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.Security.Cryptography.Rfc2898DeriveBytes.IterationCount*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -325,6 +334,7 @@ items:
     content: public override void Reset ();
     parameters: []
   overload: System.Security.Cryptography.Rfc2898DeriveBytes.Reset*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -349,6 +359,7 @@ items:
       type: System.Byte[]
       description: To be added.
   overload: System.Security.Cryptography.Rfc2898DeriveBytes.Salt*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -369,24 +380,26 @@ references:
   name: String
   nameWithType: String
   fullName: System.String
-- uid: System.Byte
+- uid: System.Byte[]
   parent: System
   isExternal: false
   name: Byte
   nameWithType: Byte
   fullName: System.Byte[]
+  spec.csharp:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: Byte[]
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
 - uid: System.Security.Cryptography.Rfc2898DeriveBytes.#ctor(System.String,System.Int32)
   parent: System.Security.Cryptography.Rfc2898DeriveBytes
   isExternal: false
   name: Rfc2898DeriveBytes(String,Int32)
   nameWithType: Rfc2898DeriveBytes.Rfc2898DeriveBytes(String,Int32)
   fullName: System.Security.Cryptography.Rfc2898DeriveBytes.Rfc2898DeriveBytes(String,Int32)
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
 - uid: System.Int32
   parent: System
   isExternal: false
@@ -399,108 +412,24 @@ references:
   name: Rfc2898DeriveBytes(Byte[],Byte[],Int32)
   nameWithType: Rfc2898DeriveBytes.Rfc2898DeriveBytes(Byte[],Byte[],Int32)
   fullName: System.Security.Cryptography.Rfc2898DeriveBytes.Rfc2898DeriveBytes(Byte[],Byte[],Int32)
-- uid: System.Byte
-  parent: System
-  isExternal: false
-  name: Byte
-  nameWithType: Byte
-  fullName: System.Byte[]
-- uid: System.Byte
-  parent: System
-  isExternal: false
-  name: Byte
-  nameWithType: Byte
-  fullName: System.Byte[]
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
 - uid: System.Security.Cryptography.Rfc2898DeriveBytes.#ctor(System.String,System.Byte[],System.Int32)
   parent: System.Security.Cryptography.Rfc2898DeriveBytes
   isExternal: false
   name: Rfc2898DeriveBytes(String,Byte[],Int32)
   nameWithType: Rfc2898DeriveBytes.Rfc2898DeriveBytes(String,Byte[],Int32)
   fullName: System.Security.Cryptography.Rfc2898DeriveBytes.Rfc2898DeriveBytes(String,Byte[],Int32)
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
-- uid: System.Byte
-  parent: System
-  isExternal: false
-  name: Byte
-  nameWithType: Byte
-  fullName: System.Byte[]
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
 - uid: System.Security.Cryptography.Rfc2898DeriveBytes.#ctor(System.String,System.Int32,System.Int32)
   parent: System.Security.Cryptography.Rfc2898DeriveBytes
   isExternal: false
   name: Rfc2898DeriveBytes(String,Int32,Int32)
   nameWithType: Rfc2898DeriveBytes.Rfc2898DeriveBytes(String,Int32,Int32)
   fullName: System.Security.Cryptography.Rfc2898DeriveBytes.Rfc2898DeriveBytes(String,Int32,Int32)
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
 - uid: System.Security.Cryptography.Rfc2898DeriveBytes.CryptDeriveKey(System.String,System.String,System.Int32,System.Byte[])
   parent: System.Security.Cryptography.Rfc2898DeriveBytes
   isExternal: false
   name: CryptDeriveKey(String,String,Int32,Byte[])
   nameWithType: Rfc2898DeriveBytes.CryptDeriveKey(String,String,Int32,Byte[])
   fullName: System.Security.Cryptography.Rfc2898DeriveBytes.CryptDeriveKey(String,String,Int32,Byte[])
-- uid: System.Byte
-  parent: System
-  isExternal: false
-  name: Byte
-  nameWithType: Byte
-  fullName: System.Byte[]
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: System.Byte
-  parent: System
-  isExternal: false
-  name: Byte
-  nameWithType: Byte
-  fullName: System.Byte[]
 - uid: System.Security.Cryptography.Rfc2898DeriveBytes.Dispose(System.Boolean)
   parent: System.Security.Cryptography.Rfc2898DeriveBytes
   isExternal: false
@@ -519,30 +448,12 @@ references:
   name: GetBytes(Int32)
   nameWithType: Rfc2898DeriveBytes.GetBytes(Int32)
   fullName: System.Security.Cryptography.Rfc2898DeriveBytes.GetBytes(Int32)
-- uid: System.Byte
-  parent: System
-  isExternal: false
-  name: Byte
-  nameWithType: Byte
-  fullName: System.Byte[]
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
 - uid: System.Security.Cryptography.Rfc2898DeriveBytes.IterationCount
   parent: System.Security.Cryptography.Rfc2898DeriveBytes
   isExternal: false
   name: IterationCount
   nameWithType: Rfc2898DeriveBytes.IterationCount
   fullName: System.Security.Cryptography.Rfc2898DeriveBytes.IterationCount
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
 - uid: System.Security.Cryptography.Rfc2898DeriveBytes.Reset
   parent: System.Security.Cryptography.Rfc2898DeriveBytes
   isExternal: false
@@ -555,12 +466,6 @@ references:
   name: Salt
   nameWithType: Rfc2898DeriveBytes.Salt
   fullName: System.Security.Cryptography.Rfc2898DeriveBytes.Salt
-- uid: System.Byte
-  parent: System
-  isExternal: false
-  name: Byte
-  nameWithType: Byte
-  fullName: System.Byte[]
 - uid: System.Security.Cryptography.Rfc2898DeriveBytes.#ctor*
   parent: System.Security.Cryptography.Rfc2898DeriveBytes
   isExternal: false

@@ -57,6 +57,7 @@ items:
       type: System.String
       description: To be added.
   overload: System.ApplicationIdentity.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -81,6 +82,7 @@ items:
       type: System.String
       description: To be added.
   overload: System.ApplicationIdentity.CodeBase*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -105,6 +107,7 @@ items:
       type: System.String
       description: To be added.
   overload: System.ApplicationIdentity.FullName*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -134,6 +137,7 @@ items:
       type: System.Runtime.Serialization.StreamingContext
       description: To be added.
   overload: System.ApplicationIdentity.System#Runtime#Serialization#ISerializable#GetObjectData*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -159,6 +163,7 @@ items:
       type: System.String
       description: To be added.
   overload: System.ApplicationIdentity.ToString*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -185,24 +190,12 @@ references:
   name: CodeBase
   nameWithType: ApplicationIdentity.CodeBase
   fullName: System.ApplicationIdentity.CodeBase
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
 - uid: System.ApplicationIdentity.FullName
   parent: System.ApplicationIdentity
   isExternal: false
   name: FullName
   nameWithType: ApplicationIdentity.FullName
   fullName: System.ApplicationIdentity.FullName
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
 - uid: System.ApplicationIdentity.System#Runtime#Serialization#ISerializable#GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
   parent: System.ApplicationIdentity
   isExternal: false
@@ -227,12 +220,6 @@ references:
   name: ToString()
   nameWithType: ApplicationIdentity.ToString()
   fullName: System.ApplicationIdentity.ToString()
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
 - uid: System.ApplicationIdentity.#ctor*
   parent: System.ApplicationIdentity
   isExternal: false

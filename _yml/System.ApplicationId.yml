@@ -71,6 +71,7 @@ items:
       type: System.String
       description: To be added.
   overload: System.ApplicationId.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -96,6 +97,7 @@ items:
       type: System.ApplicationId
       description: To be added.
   overload: System.ApplicationId.Copy*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -120,6 +122,7 @@ items:
       type: System.String
       description: To be added.
   overload: System.ApplicationId.Culture*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -148,6 +151,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.ApplicationId.Equals*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -173,6 +177,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.ApplicationId.GetHashCode*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -197,6 +202,7 @@ items:
       type: System.String
       description: To be added.
   overload: System.ApplicationId.Name*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -221,6 +227,7 @@ items:
       type: System.String
       description: To be added.
   overload: System.ApplicationId.ProcessorArchitecture*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -245,6 +252,7 @@ items:
       type: System.Byte[]
       description: To be added.
   overload: System.ApplicationId.PublicKeyToken*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -270,6 +278,7 @@ items:
       type: System.String
       description: To be added.
   overload: System.ApplicationId.ToString*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -294,6 +303,7 @@ items:
       type: System.Version
       description: To be added.
   overload: System.ApplicationId.Version*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -308,12 +318,20 @@ references:
   name: ApplicationId(Byte[],String,Version,String,String)
   nameWithType: ApplicationId.ApplicationId(Byte[],String,Version,String,String)
   fullName: System.ApplicationId.ApplicationId(Byte[],String,Version,String,String)
-- uid: System.Byte
+- uid: System.Byte[]
   parent: System
   isExternal: false
   name: Byte
   nameWithType: Byte
   fullName: System.Byte[]
+  spec.csharp:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: Byte[]
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
 - uid: System.String
   parent: System
   isExternal: false
@@ -326,18 +344,6 @@ references:
   name: Version
   nameWithType: Version
   fullName: System.Version
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
 - uid: System.ApplicationId.Copy
   parent: System.ApplicationId
   isExternal: false
@@ -356,12 +362,6 @@ references:
   name: Culture
   nameWithType: ApplicationId.Culture
   fullName: System.ApplicationId.Culture
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
 - uid: System.ApplicationId.Equals(System.Object)
   parent: System.ApplicationId
   isExternal: false
@@ -374,12 +374,6 @@ references:
   name: Boolean
   nameWithType: Boolean
   fullName: System.Boolean
-- uid: System.Object
-  parent: System
-  isExternal: false
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
 - uid: System.ApplicationId.GetHashCode
   parent: System.ApplicationId
   isExternal: false
@@ -398,60 +392,30 @@ references:
   name: Name
   nameWithType: ApplicationId.Name
   fullName: System.ApplicationId.Name
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
 - uid: System.ApplicationId.ProcessorArchitecture
   parent: System.ApplicationId
   isExternal: false
   name: ProcessorArchitecture
   nameWithType: ApplicationId.ProcessorArchitecture
   fullName: System.ApplicationId.ProcessorArchitecture
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
 - uid: System.ApplicationId.PublicKeyToken
   parent: System.ApplicationId
   isExternal: false
   name: PublicKeyToken
   nameWithType: ApplicationId.PublicKeyToken
   fullName: System.ApplicationId.PublicKeyToken
-- uid: System.Byte
-  parent: System
-  isExternal: false
-  name: Byte
-  nameWithType: Byte
-  fullName: System.Byte[]
 - uid: System.ApplicationId.ToString
   parent: System.ApplicationId
   isExternal: false
   name: ToString()
   nameWithType: ApplicationId.ToString()
   fullName: System.ApplicationId.ToString()
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
 - uid: System.ApplicationId.Version
   parent: System.ApplicationId
   isExternal: false
   name: Version
   nameWithType: ApplicationId.Version
   fullName: System.ApplicationId.Version
-- uid: System.Version
-  parent: System
-  isExternal: false
-  name: Version
-  nameWithType: Version
-  fullName: System.Version
 - uid: System.ApplicationId.#ctor*
   parent: System.ApplicationId
   isExternal: false

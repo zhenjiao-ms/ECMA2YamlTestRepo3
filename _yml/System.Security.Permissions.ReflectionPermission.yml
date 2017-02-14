@@ -72,6 +72,7 @@ items:
       type: System.Security.Permissions.PermissionState
       description: To be added.
   overload: System.Security.Permissions.ReflectionPermission.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -97,6 +98,7 @@ items:
       type: System.Security.Permissions.ReflectionPermissionFlag
       description: To be added.
   overload: System.Security.Permissions.ReflectionPermission.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -122,6 +124,7 @@ items:
       type: System.Security.IPermission
       description: To be added.
   overload: System.Security.Permissions.ReflectionPermission.Copy*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -146,6 +149,7 @@ items:
       type: System.Security.Permissions.ReflectionPermissionFlag
       description: To be added.
   overload: System.Security.Permissions.ReflectionPermission.Flags*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -171,6 +175,7 @@ items:
       type: System.Security.SecurityElement
       description: To be added.
   overload: System.Security.Permissions.ReflectionPermission.FromXml*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -199,6 +204,7 @@ items:
       type: System.Security.IPermission
       description: To be added.
   overload: System.Security.Permissions.ReflectionPermission.Intersect*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -227,6 +233,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Security.Permissions.ReflectionPermission.IsSubsetOf*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -252,6 +259,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Security.Permissions.ReflectionPermission.IsUnrestricted*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -277,6 +285,7 @@ items:
       type: System.Security.SecurityElement
       description: To be added.
   overload: System.Security.Permissions.ReflectionPermission.ToXml*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -305,6 +314,7 @@ items:
       type: System.Security.IPermission
       description: To be added.
   overload: System.Security.Permissions.ReflectionPermission.Union*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -355,12 +365,6 @@ references:
   name: Flags
   nameWithType: ReflectionPermission.Flags
   fullName: System.Security.Permissions.ReflectionPermission.Flags
-- uid: System.Security.Permissions.ReflectionPermissionFlag
-  parent: System.Security.Permissions
-  isExternal: false
-  name: ReflectionPermissionFlag
-  nameWithType: ReflectionPermissionFlag
-  fullName: System.Security.Permissions.ReflectionPermissionFlag
 - uid: System.Security.Permissions.ReflectionPermission.FromXml(System.Security.SecurityElement)
   parent: System.Security.Permissions.ReflectionPermission
   isExternal: false
@@ -379,18 +383,6 @@ references:
   name: Intersect(IPermission)
   nameWithType: ReflectionPermission.Intersect(IPermission)
   fullName: System.Security.Permissions.ReflectionPermission.Intersect(IPermission)
-- uid: System.Security.IPermission
-  parent: System.Security
-  isExternal: false
-  name: IPermission
-  nameWithType: IPermission
-  fullName: System.Security.IPermission
-- uid: System.Security.IPermission
-  parent: System.Security
-  isExternal: false
-  name: IPermission
-  nameWithType: IPermission
-  fullName: System.Security.IPermission
 - uid: System.Security.Permissions.ReflectionPermission.IsSubsetOf(System.Security.IPermission)
   parent: System.Security.Permissions.ReflectionPermission
   isExternal: false
@@ -403,54 +395,24 @@ references:
   name: Boolean
   nameWithType: Boolean
   fullName: System.Boolean
-- uid: System.Security.IPermission
-  parent: System.Security
-  isExternal: false
-  name: IPermission
-  nameWithType: IPermission
-  fullName: System.Security.IPermission
 - uid: System.Security.Permissions.ReflectionPermission.IsUnrestricted
   parent: System.Security.Permissions.ReflectionPermission
   isExternal: false
   name: IsUnrestricted()
   nameWithType: ReflectionPermission.IsUnrestricted()
   fullName: System.Security.Permissions.ReflectionPermission.IsUnrestricted()
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
 - uid: System.Security.Permissions.ReflectionPermission.ToXml
   parent: System.Security.Permissions.ReflectionPermission
   isExternal: false
   name: ToXml()
   nameWithType: ReflectionPermission.ToXml()
   fullName: System.Security.Permissions.ReflectionPermission.ToXml()
-- uid: System.Security.SecurityElement
-  parent: System.Security
-  isExternal: false
-  name: SecurityElement
-  nameWithType: SecurityElement
-  fullName: System.Security.SecurityElement
 - uid: System.Security.Permissions.ReflectionPermission.Union(System.Security.IPermission)
   parent: System.Security.Permissions.ReflectionPermission
   isExternal: false
   name: Union(IPermission)
   nameWithType: ReflectionPermission.Union(IPermission)
   fullName: System.Security.Permissions.ReflectionPermission.Union(IPermission)
-- uid: System.Security.IPermission
-  parent: System.Security
-  isExternal: false
-  name: IPermission
-  nameWithType: IPermission
-  fullName: System.Security.IPermission
-- uid: System.Security.IPermission
-  parent: System.Security
-  isExternal: false
-  name: IPermission
-  nameWithType: IPermission
-  fullName: System.Security.IPermission
 - uid: System.Security.Permissions.ReflectionPermission.#ctor*
   parent: System.Security.Permissions.ReflectionPermission
   isExternal: false

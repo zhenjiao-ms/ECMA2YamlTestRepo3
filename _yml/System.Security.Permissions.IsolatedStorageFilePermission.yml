@@ -72,6 +72,7 @@ items:
       type: System.Security.Permissions.PermissionState
       description: To be added.
   overload: System.Security.Permissions.IsolatedStorageFilePermission.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -97,6 +98,7 @@ items:
       type: System.Security.IPermission
       description: To be added.
   overload: System.Security.Permissions.IsolatedStorageFilePermission.Copy*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -125,6 +127,7 @@ items:
       type: System.Security.IPermission
       description: To be added.
   overload: System.Security.Permissions.IsolatedStorageFilePermission.Intersect*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -153,6 +156,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Security.Permissions.IsolatedStorageFilePermission.IsSubsetOf*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -178,6 +182,7 @@ items:
       type: System.Security.SecurityElement
       description: To be added.
   overload: System.Security.Permissions.IsolatedStorageFilePermission.ToXml*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -206,6 +211,7 @@ items:
       type: System.Security.IPermission
       description: To be added.
   overload: System.Security.Permissions.IsolatedStorageFilePermission.Union*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -244,18 +250,6 @@ references:
   name: Intersect(IPermission)
   nameWithType: IsolatedStorageFilePermission.Intersect(IPermission)
   fullName: System.Security.Permissions.IsolatedStorageFilePermission.Intersect(IPermission)
-- uid: System.Security.IPermission
-  parent: System.Security
-  isExternal: false
-  name: IPermission
-  nameWithType: IPermission
-  fullName: System.Security.IPermission
-- uid: System.Security.IPermission
-  parent: System.Security
-  isExternal: false
-  name: IPermission
-  nameWithType: IPermission
-  fullName: System.Security.IPermission
 - uid: System.Security.Permissions.IsolatedStorageFilePermission.IsSubsetOf(System.Security.IPermission)
   parent: System.Security.Permissions.IsolatedStorageFilePermission
   isExternal: false
@@ -268,12 +262,6 @@ references:
   name: Boolean
   nameWithType: Boolean
   fullName: System.Boolean
-- uid: System.Security.IPermission
-  parent: System.Security
-  isExternal: false
-  name: IPermission
-  nameWithType: IPermission
-  fullName: System.Security.IPermission
 - uid: System.Security.Permissions.IsolatedStorageFilePermission.ToXml
   parent: System.Security.Permissions.IsolatedStorageFilePermission
   isExternal: false
@@ -292,18 +280,6 @@ references:
   name: Union(IPermission)
   nameWithType: IsolatedStorageFilePermission.Union(IPermission)
   fullName: System.Security.Permissions.IsolatedStorageFilePermission.Union(IPermission)
-- uid: System.Security.IPermission
-  parent: System.Security
-  isExternal: false
-  name: IPermission
-  nameWithType: IPermission
-  fullName: System.Security.IPermission
-- uid: System.Security.IPermission
-  parent: System.Security
-  isExternal: false
-  name: IPermission
-  nameWithType: IPermission
-  fullName: System.Security.IPermission
 - uid: System.Security.Permissions.IsolatedStorageFilePermission.#ctor*
   parent: System.Security.Permissions.IsolatedStorageFilePermission
   isExternal: false

@@ -55,6 +55,7 @@ items:
       type: System.Runtime.InteropServices.ComTypes.IStream
       description: To be added.
   overload: System.Runtime.InteropServices.ComTypes.IStream.Clone*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -80,6 +81,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.Runtime.InteropServices.ComTypes.IStream.Commit*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -114,6 +116,7 @@ items:
       type: System.IntPtr
       description: To be added.
   overload: System.Runtime.InteropServices.ComTypes.IStream.CopyTo*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -145,6 +148,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.Runtime.InteropServices.ComTypes.IStream.LockRegion*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -176,6 +180,7 @@ items:
       type: System.IntPtr
       description: To be added.
   overload: System.Runtime.InteropServices.ComTypes.IStream.Read*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -198,6 +203,7 @@ items:
     content: public void Revert ();
     parameters: []
   overload: System.Runtime.InteropServices.ComTypes.IStream.Revert*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -229,6 +235,7 @@ items:
       type: System.IntPtr
       description: To be added.
   overload: System.Runtime.InteropServices.ComTypes.IStream.Seek*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -254,6 +261,7 @@ items:
       type: System.Int64
       description: To be added.
   overload: System.Runtime.InteropServices.ComTypes.IStream.SetSize*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -282,6 +290,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.Runtime.InteropServices.ComTypes.IStream.Stat*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -313,6 +322,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.Runtime.InteropServices.ComTypes.IStream.UnlockRegion*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -344,6 +354,7 @@ items:
       type: System.IntPtr
       description: To be added.
   overload: System.Runtime.InteropServices.ComTypes.IStream.Write*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -379,24 +390,12 @@ references:
   name: CopyTo(IStream,Int64,IntPtr,IntPtr)
   nameWithType: IStream.CopyTo(IStream,Int64,IntPtr,IntPtr)
   fullName: System.Runtime.InteropServices.ComTypes.IStream.CopyTo(IStream,Int64,IntPtr,IntPtr)
-- uid: System.Runtime.InteropServices.ComTypes.IStream
-  parent: System.Runtime.InteropServices.ComTypes
-  isExternal: false
-  name: IStream
-  nameWithType: IStream
-  fullName: System.Runtime.InteropServices.ComTypes.IStream
 - uid: System.Int64
   parent: System
   isExternal: false
   name: Int64
   nameWithType: Int64
   fullName: System.Int64
-- uid: System.IntPtr
-  parent: System
-  isExternal: false
-  name: IntPtr
-  nameWithType: IntPtr
-  fullName: System.IntPtr
 - uid: System.IntPtr
   parent: System
   isExternal: false
@@ -409,48 +408,26 @@ references:
   name: LockRegion(Int64,Int64,Int32)
   nameWithType: IStream.LockRegion(Int64,Int64,Int32)
   fullName: System.Runtime.InteropServices.ComTypes.IStream.LockRegion(Int64,Int64,Int32)
-- uid: System.Int64
-  parent: System
-  isExternal: false
-  name: Int64
-  nameWithType: Int64
-  fullName: System.Int64
-- uid: System.Int64
-  parent: System
-  isExternal: false
-  name: Int64
-  nameWithType: Int64
-  fullName: System.Int64
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
 - uid: System.Runtime.InteropServices.ComTypes.IStream.Read(System.Byte[],System.Int32,System.IntPtr)
   parent: System.Runtime.InteropServices.ComTypes.IStream
   isExternal: false
   name: Read(Byte[],Int32,IntPtr)
   nameWithType: IStream.Read(Byte[],Int32,IntPtr)
   fullName: System.Runtime.InteropServices.ComTypes.IStream.Read(Byte[],Int32,IntPtr)
-- uid: System.Byte
+- uid: System.Byte[]
   parent: System
   isExternal: false
   name: Byte
   nameWithType: Byte
   fullName: System.Byte[]
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: System.IntPtr
-  parent: System
-  isExternal: false
-  name: IntPtr
-  nameWithType: IntPtr
-  fullName: System.IntPtr
+  spec.csharp:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: Byte[]
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
 - uid: System.Runtime.InteropServices.ComTypes.IStream.Revert
   parent: System.Runtime.InteropServices.ComTypes.IStream
   isExternal: false
@@ -463,36 +440,12 @@ references:
   name: Seek(Int64,Int32,IntPtr)
   nameWithType: IStream.Seek(Int64,Int32,IntPtr)
   fullName: System.Runtime.InteropServices.ComTypes.IStream.Seek(Int64,Int32,IntPtr)
-- uid: System.Int64
-  parent: System
-  isExternal: false
-  name: Int64
-  nameWithType: Int64
-  fullName: System.Int64
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: System.IntPtr
-  parent: System
-  isExternal: false
-  name: IntPtr
-  nameWithType: IntPtr
-  fullName: System.IntPtr
 - uid: System.Runtime.InteropServices.ComTypes.IStream.SetSize(System.Int64)
   parent: System.Runtime.InteropServices.ComTypes.IStream
   isExternal: false
   name: SetSize(Int64)
   nameWithType: IStream.SetSize(Int64)
   fullName: System.Runtime.InteropServices.ComTypes.IStream.SetSize(Int64)
-- uid: System.Int64
-  parent: System
-  isExternal: false
-  name: Int64
-  nameWithType: Int64
-  fullName: System.Int64
 - uid: System.Runtime.InteropServices.ComTypes.IStream.Stat(System.Runtime.InteropServices.ComTypes.STATSTG@,System.Int32)
   parent: System.Runtime.InteropServices.ComTypes.IStream
   isExternal: false
@@ -505,60 +458,18 @@ references:
   name: STATSTG
   nameWithType: STATSTG
   fullName: System.Runtime.InteropServices.ComTypes.STATSTG
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
 - uid: System.Runtime.InteropServices.ComTypes.IStream.UnlockRegion(System.Int64,System.Int64,System.Int32)
   parent: System.Runtime.InteropServices.ComTypes.IStream
   isExternal: false
   name: UnlockRegion(Int64,Int64,Int32)
   nameWithType: IStream.UnlockRegion(Int64,Int64,Int32)
   fullName: System.Runtime.InteropServices.ComTypes.IStream.UnlockRegion(Int64,Int64,Int32)
-- uid: System.Int64
-  parent: System
-  isExternal: false
-  name: Int64
-  nameWithType: Int64
-  fullName: System.Int64
-- uid: System.Int64
-  parent: System
-  isExternal: false
-  name: Int64
-  nameWithType: Int64
-  fullName: System.Int64
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
 - uid: System.Runtime.InteropServices.ComTypes.IStream.Write(System.Byte[],System.Int32,System.IntPtr)
   parent: System.Runtime.InteropServices.ComTypes.IStream
   isExternal: false
   name: Write(Byte[],Int32,IntPtr)
   nameWithType: IStream.Write(Byte[],Int32,IntPtr)
   fullName: System.Runtime.InteropServices.ComTypes.IStream.Write(Byte[],Int32,IntPtr)
-- uid: System.Byte
-  parent: System
-  isExternal: false
-  name: Byte
-  nameWithType: Byte
-  fullName: System.Byte[]
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: System.IntPtr
-  parent: System
-  isExternal: false
-  name: IntPtr
-  nameWithType: IntPtr
-  fullName: System.IntPtr
 - uid: System.Runtime.InteropServices.ComTypes.IStream.Clone*
   parent: System.Runtime.InteropServices.ComTypes.IStream
   isExternal: false

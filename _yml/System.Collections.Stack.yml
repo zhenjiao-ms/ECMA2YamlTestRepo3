@@ -71,6 +71,7 @@ items:
     content: public Stack ();
     parameters: []
   overload: System.Collections.Stack.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -96,6 +97,7 @@ items:
       type: System.Collections.ICollection
       description: To be added.
   overload: System.Collections.Stack.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -121,6 +123,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.Collections.Stack.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -143,6 +146,7 @@ items:
     content: public virtual void Clear ();
     parameters: []
   overload: System.Collections.Stack.Clear*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -168,6 +172,7 @@ items:
       type: System.Object
       description: To be added.
   overload: System.Collections.Stack.Clone*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -196,6 +201,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Collections.Stack.Contains*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -224,6 +230,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.Collections.Stack.CopyTo*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -248,6 +255,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.Collections.Stack.Count*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -273,6 +281,7 @@ items:
       type: System.Collections.IEnumerator
       description: To be added.
   overload: System.Collections.Stack.GetEnumerator*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -297,6 +306,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Collections.Stack.IsSynchronized*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -322,6 +332,7 @@ items:
       type: System.Object
       description: To be added.
   overload: System.Collections.Stack.Peek*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -347,6 +358,7 @@ items:
       type: System.Object
       description: To be added.
   overload: System.Collections.Stack.Pop*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -372,6 +384,7 @@ items:
       type: System.Object
       description: To be added.
   overload: System.Collections.Stack.Push*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -400,6 +413,7 @@ items:
       type: System.Collections.Stack
       description: To be added.
   overload: System.Collections.Stack.Synchronized*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -424,6 +438,7 @@ items:
       type: System.Object
       description: To be added.
   overload: System.Collections.Stack.SyncRoot*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -449,6 +464,7 @@ items:
       type: System.Object[]
       description: To be added.
   overload: System.Collections.Stack.ToArray*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -499,12 +515,6 @@ references:
   name: Clone()
   nameWithType: Stack.Clone()
   fullName: System.Collections.Stack.Clone()
-- uid: System.Object
-  parent: System
-  isExternal: false
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
 - uid: System.Collections.Stack.Contains(System.Object)
   parent: System.Collections.Stack
   isExternal: false
@@ -517,12 +527,6 @@ references:
   name: Boolean
   nameWithType: Boolean
   fullName: System.Boolean
-- uid: System.Object
-  parent: System
-  isExternal: false
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
 - uid: System.Collections.Stack.CopyTo(System.Array,System.Int32)
   parent: System.Collections.Stack
   isExternal: false
@@ -535,24 +539,12 @@ references:
   name: Array
   nameWithType: Array
   fullName: System.Array
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
 - uid: System.Collections.Stack.Count
   parent: System.Collections.Stack
   isExternal: false
   name: Count
   nameWithType: Stack.Count
   fullName: System.Collections.Stack.Count
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
 - uid: System.Collections.Stack.GetEnumerator
   parent: System.Collections.Stack
   isExternal: false
@@ -571,48 +563,24 @@ references:
   name: IsSynchronized
   nameWithType: Stack.IsSynchronized
   fullName: System.Collections.Stack.IsSynchronized
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
 - uid: System.Collections.Stack.Peek
   parent: System.Collections.Stack
   isExternal: false
   name: Peek()
   nameWithType: Stack.Peek()
   fullName: System.Collections.Stack.Peek()
-- uid: System.Object
-  parent: System
-  isExternal: false
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
 - uid: System.Collections.Stack.Pop
   parent: System.Collections.Stack
   isExternal: false
   name: Pop()
   nameWithType: Stack.Pop()
   fullName: System.Collections.Stack.Pop()
-- uid: System.Object
-  parent: System
-  isExternal: false
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
 - uid: System.Collections.Stack.Push(System.Object)
   parent: System.Collections.Stack
   isExternal: false
   name: Push(Object)
   nameWithType: Stack.Push(Object)
   fullName: System.Collections.Stack.Push(Object)
-- uid: System.Object
-  parent: System
-  isExternal: false
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
 - uid: System.Collections.Stack.Synchronized(System.Collections.Stack)
   parent: System.Collections.Stack
   isExternal: false
@@ -625,36 +593,32 @@ references:
   name: Stack
   nameWithType: Stack
   fullName: System.Collections.Stack
-- uid: System.Collections.Stack
-  parent: System.Collections
-  isExternal: false
-  name: Stack
-  nameWithType: Stack
-  fullName: System.Collections.Stack
 - uid: System.Collections.Stack.SyncRoot
   parent: System.Collections.Stack
   isExternal: false
   name: SyncRoot
   nameWithType: Stack.SyncRoot
   fullName: System.Collections.Stack.SyncRoot
-- uid: System.Object
-  parent: System
-  isExternal: false
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
 - uid: System.Collections.Stack.ToArray
   parent: System.Collections.Stack
   isExternal: false
   name: ToArray()
   nameWithType: Stack.ToArray()
   fullName: System.Collections.Stack.ToArray()
-- uid: System.Object
+- uid: System.Object[]
   parent: System
   isExternal: false
   name: Object
   nameWithType: Object
   fullName: System.Object[]
+  spec.csharp:
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: Object[]
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
 - uid: System.Collections.Stack.#ctor*
   parent: System.Collections.Stack
   isExternal: false

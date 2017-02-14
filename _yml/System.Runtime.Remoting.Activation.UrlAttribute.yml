@@ -103,6 +103,7 @@ items:
       type: System.String
       description: To be added.
   overload: System.Runtime.Remoting.Activation.UrlAttribute.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -131,6 +132,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Runtime.Remoting.Activation.UrlAttribute.Equals*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -156,6 +158,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.Runtime.Remoting.Activation.UrlAttribute.GetHashCode*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -181,6 +184,7 @@ items:
       type: System.Runtime.Remoting.Activation.IConstructionCallMessage
       description: To be added.
   overload: System.Runtime.Remoting.Activation.UrlAttribute.GetPropertiesForNewContext*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -212,6 +216,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Runtime.Remoting.Activation.UrlAttribute.IsContextOK*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -236,6 +241,7 @@ items:
       type: System.String
       description: To be added.
   overload: System.Runtime.Remoting.Activation.UrlAttribute.UrlValue*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -304,36 +310,18 @@ references:
   name: IsContextOK(Context,IConstructionCallMessage)
   nameWithType: UrlAttribute.IsContextOK(Context,IConstructionCallMessage)
   fullName: System.Runtime.Remoting.Activation.UrlAttribute.IsContextOK(Context,IConstructionCallMessage)
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
 - uid: System.Runtime.Remoting.Contexts.Context
   parent: System.Runtime.Remoting.Contexts
   isExternal: false
   name: Context
   nameWithType: Context
   fullName: System.Runtime.Remoting.Contexts.Context
-- uid: System.Runtime.Remoting.Activation.IConstructionCallMessage
-  parent: System.Runtime.Remoting.Activation
-  isExternal: false
-  name: IConstructionCallMessage
-  nameWithType: IConstructionCallMessage
-  fullName: System.Runtime.Remoting.Activation.IConstructionCallMessage
 - uid: System.Runtime.Remoting.Activation.UrlAttribute.UrlValue
   parent: System.Runtime.Remoting.Activation.UrlAttribute
   isExternal: false
   name: UrlValue
   nameWithType: UrlAttribute.UrlValue
   fullName: System.Runtime.Remoting.Activation.UrlAttribute.UrlValue
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
 - uid: System.Runtime.Remoting.Activation.UrlAttribute.#ctor*
   parent: System.Runtime.Remoting.Activation.UrlAttribute
   isExternal: false

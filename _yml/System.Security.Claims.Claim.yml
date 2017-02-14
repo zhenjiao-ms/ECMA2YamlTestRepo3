@@ -70,6 +70,7 @@ items:
       type: System.IO.BinaryReader
       description: To be added.
   overload: System.Security.Claims.Claim.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -95,6 +96,7 @@ items:
       type: System.Security.Claims.Claim
       description: To be added.
   overload: System.Security.Claims.Claim.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -123,6 +125,7 @@ items:
       type: System.Security.Claims.ClaimsIdentity
       description: To be added.
   overload: System.Security.Claims.Claim.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -151,6 +154,7 @@ items:
       type: System.Security.Claims.ClaimsIdentity
       description: To be added.
   overload: System.Security.Claims.Claim.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -179,6 +183,7 @@ items:
       type: System.String
       description: To be added.
   overload: System.Security.Claims.Claim.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -210,6 +215,7 @@ items:
       type: System.String
       description: To be added.
   overload: System.Security.Claims.Claim.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -244,6 +250,7 @@ items:
       type: System.String
       description: To be added.
   overload: System.Security.Claims.Claim.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -281,6 +288,7 @@ items:
       type: System.String
       description: To be added.
   overload: System.Security.Claims.Claim.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -321,6 +329,7 @@ items:
       type: System.Security.Claims.ClaimsIdentity
       description: To be added.
   overload: System.Security.Claims.Claim.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -346,6 +355,7 @@ items:
       type: System.Security.Claims.Claim
       description: To be added.
   overload: System.Security.Claims.Claim.Clone*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -374,6 +384,7 @@ items:
       type: System.Security.Claims.Claim
       description: To be added.
   overload: System.Security.Claims.Claim.Clone*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -398,6 +409,7 @@ items:
       type: System.Byte[]
       description: To be added.
   overload: System.Security.Claims.Claim.CustomSerializationData*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -422,6 +434,7 @@ items:
       type: System.String
       description: To be added.
   overload: System.Security.Claims.Claim.Issuer*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -446,6 +459,7 @@ items:
       type: System.String
       description: To be added.
   overload: System.Security.Claims.Claim.OriginalIssuer*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -470,6 +484,7 @@ items:
       type: System.Collections.Generic.IDictionary{System.String,System.String}
       description: To be added.
   overload: System.Security.Claims.Claim.Properties*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -494,6 +509,7 @@ items:
       type: System.Security.Claims.ClaimsIdentity
       description: To be added.
   overload: System.Security.Claims.Claim.Subject*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -519,6 +535,7 @@ items:
       type: System.String
       description: To be added.
   overload: System.Security.Claims.Claim.ToString*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -543,6 +560,7 @@ items:
       type: System.String
       description: To be added.
   overload: System.Security.Claims.Claim.Type*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -567,6 +585,7 @@ items:
       type: System.String
       description: To be added.
   overload: System.Security.Claims.Claim.Value*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -591,6 +610,7 @@ items:
       type: System.String
       description: To be added.
   overload: System.Security.Claims.Claim.ValueType*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -616,6 +636,7 @@ items:
       type: System.IO.BinaryWriter
       description: To be added.
   overload: System.Security.Claims.Claim.WriteTo*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -644,6 +665,7 @@ items:
       type: System.Byte[]
       description: To be added.
   overload: System.Security.Claims.Claim.WriteTo*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -682,12 +704,6 @@ references:
   name: Claim(BinaryReader,ClaimsIdentity)
   nameWithType: Claim.Claim(BinaryReader,ClaimsIdentity)
   fullName: System.Security.Claims.Claim.Claim(BinaryReader,ClaimsIdentity)
-- uid: System.IO.BinaryReader
-  parent: System.IO
-  isExternal: false
-  name: BinaryReader
-  nameWithType: BinaryReader
-  fullName: System.IO.BinaryReader
 - uid: System.Security.Claims.ClaimsIdentity
   parent: System.Security.Claims
   isExternal: false
@@ -700,18 +716,6 @@ references:
   name: Claim(Claim,ClaimsIdentity)
   nameWithType: Claim.Claim(Claim,ClaimsIdentity)
   fullName: System.Security.Claims.Claim.Claim(Claim,ClaimsIdentity)
-- uid: System.Security.Claims.Claim
-  parent: System.Security.Claims
-  isExternal: false
-  name: Claim
-  nameWithType: Claim
-  fullName: System.Security.Claims.Claim
-- uid: System.Security.Claims.ClaimsIdentity
-  parent: System.Security.Claims
-  isExternal: false
-  name: ClaimsIdentity
-  nameWithType: ClaimsIdentity
-  fullName: System.Security.Claims.ClaimsIdentity
 - uid: System.Security.Claims.Claim.#ctor(System.String,System.String)
   parent: System.Security.Claims.Claim
   isExternal: false
@@ -724,210 +728,74 @@ references:
   name: String
   nameWithType: String
   fullName: System.String
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
 - uid: System.Security.Claims.Claim.#ctor(System.String,System.String,System.String)
   parent: System.Security.Claims.Claim
   isExternal: false
   name: Claim(String,String,String)
   nameWithType: Claim.Claim(String,String,String)
   fullName: System.Security.Claims.Claim.Claim(String,String,String)
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
 - uid: System.Security.Claims.Claim.#ctor(System.String,System.String,System.String,System.String)
   parent: System.Security.Claims.Claim
   isExternal: false
   name: Claim(String,String,String,String)
   nameWithType: Claim.Claim(String,String,String,String)
   fullName: System.Security.Claims.Claim.Claim(String,String,String,String)
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
 - uid: System.Security.Claims.Claim.#ctor(System.String,System.String,System.String,System.String,System.String)
   parent: System.Security.Claims.Claim
   isExternal: false
   name: Claim(String,String,String,String,String)
   nameWithType: Claim.Claim(String,String,String,String,String)
   fullName: System.Security.Claims.Claim.Claim(String,String,String,String,String)
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
 - uid: System.Security.Claims.Claim.#ctor(System.String,System.String,System.String,System.String,System.String,System.Security.Claims.ClaimsIdentity)
   parent: System.Security.Claims.Claim
   isExternal: false
   name: Claim(String,String,String,String,String,ClaimsIdentity)
   nameWithType: Claim.Claim(String,String,String,String,String,ClaimsIdentity)
   fullName: System.Security.Claims.Claim.Claim(String,String,String,String,String,ClaimsIdentity)
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
-- uid: System.Security.Claims.ClaimsIdentity
-  parent: System.Security.Claims
-  isExternal: false
-  name: ClaimsIdentity
-  nameWithType: ClaimsIdentity
-  fullName: System.Security.Claims.ClaimsIdentity
 - uid: System.Security.Claims.Claim.Clone
   parent: System.Security.Claims.Claim
   isExternal: false
   name: Clone()
   nameWithType: Claim.Clone()
   fullName: System.Security.Claims.Claim.Clone()
-- uid: System.Security.Claims.Claim
-  parent: System.Security.Claims
-  isExternal: false
-  name: Claim
-  nameWithType: Claim
-  fullName: System.Security.Claims.Claim
 - uid: System.Security.Claims.Claim.Clone(System.Security.Claims.ClaimsIdentity)
   parent: System.Security.Claims.Claim
   isExternal: false
   name: Clone(ClaimsIdentity)
   nameWithType: Claim.Clone(ClaimsIdentity)
   fullName: System.Security.Claims.Claim.Clone(ClaimsIdentity)
-- uid: System.Security.Claims.Claim
-  parent: System.Security.Claims
-  isExternal: false
-  name: Claim
-  nameWithType: Claim
-  fullName: System.Security.Claims.Claim
-- uid: System.Security.Claims.ClaimsIdentity
-  parent: System.Security.Claims
-  isExternal: false
-  name: ClaimsIdentity
-  nameWithType: ClaimsIdentity
-  fullName: System.Security.Claims.ClaimsIdentity
 - uid: System.Security.Claims.Claim.CustomSerializationData
   parent: System.Security.Claims.Claim
   isExternal: false
   name: CustomSerializationData
   nameWithType: Claim.CustomSerializationData
   fullName: System.Security.Claims.Claim.CustomSerializationData
-- uid: System.Byte
+- uid: System.Byte[]
   parent: System
   isExternal: false
   name: Byte
   nameWithType: Byte
   fullName: System.Byte[]
+  spec.csharp:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: Byte[]
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
 - uid: System.Security.Claims.Claim.Issuer
   parent: System.Security.Claims.Claim
   isExternal: false
   name: Issuer
   nameWithType: Claim.Issuer
   fullName: System.Security.Claims.Claim.Issuer
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
 - uid: System.Security.Claims.Claim.OriginalIssuer
   parent: System.Security.Claims.Claim
   isExternal: false
   name: OriginalIssuer
   nameWithType: Claim.OriginalIssuer
   fullName: System.Security.Claims.Claim.OriginalIssuer
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
 - uid: System.Security.Claims.Claim.Properties
   parent: System.Security.Claims.Claim
   isExternal: false
@@ -940,66 +808,58 @@ references:
   name: IDictionary<String,String>
   nameWithType: IDictionary<String,String>
   fullName: System.Collections.Generic.IDictionary<System.String,System.String>
+  spec.csharp:
+  - uid: System.Collections.Generic.IDictionary`2
+    name: IDictionary
+    nameWithType: IDictionary
+    fullName: IDictionary<System.String,System.String>
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: String
+  - name: ','
+    nameWithType: ','
+    fullName: ','
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: String
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
 - uid: System.Security.Claims.Claim.Subject
   parent: System.Security.Claims.Claim
   isExternal: false
   name: Subject
   nameWithType: Claim.Subject
   fullName: System.Security.Claims.Claim.Subject
-- uid: System.Security.Claims.ClaimsIdentity
-  parent: System.Security.Claims
-  isExternal: false
-  name: ClaimsIdentity
-  nameWithType: ClaimsIdentity
-  fullName: System.Security.Claims.ClaimsIdentity
 - uid: System.Security.Claims.Claim.ToString
   parent: System.Security.Claims.Claim
   isExternal: false
   name: ToString()
   nameWithType: Claim.ToString()
   fullName: System.Security.Claims.Claim.ToString()
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
 - uid: System.Security.Claims.Claim.Type
   parent: System.Security.Claims.Claim
   isExternal: false
   name: Type
   nameWithType: Claim.Type
   fullName: System.Security.Claims.Claim.Type
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
 - uid: System.Security.Claims.Claim.Value
   parent: System.Security.Claims.Claim
   isExternal: false
   name: Value
   nameWithType: Claim.Value
   fullName: System.Security.Claims.Claim.Value
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
 - uid: System.Security.Claims.Claim.ValueType
   parent: System.Security.Claims.Claim
   isExternal: false
   name: ValueType
   nameWithType: Claim.ValueType
   fullName: System.Security.Claims.Claim.ValueType
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
 - uid: System.Security.Claims.Claim.WriteTo(System.IO.BinaryWriter)
   parent: System.Security.Claims.Claim
   isExternal: false
@@ -1018,18 +878,6 @@ references:
   name: WriteTo(BinaryWriter,Byte[])
   nameWithType: Claim.WriteTo(BinaryWriter,Byte[])
   fullName: System.Security.Claims.Claim.WriteTo(BinaryWriter,Byte[])
-- uid: System.IO.BinaryWriter
-  parent: System.IO
-  isExternal: false
-  name: BinaryWriter
-  nameWithType: BinaryWriter
-  fullName: System.IO.BinaryWriter
-- uid: System.Byte
-  parent: System
-  isExternal: false
-  name: Byte
-  nameWithType: Byte
-  fullName: System.Byte[]
 - uid: System.Security.Claims.Claim.#ctor*
   parent: System.Security.Claims.Claim
   isExternal: false

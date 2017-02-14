@@ -57,6 +57,7 @@ items:
       type: System.IO.Stream
       description: To be added.
   overload: System.Runtime.Remoting.Channels.IClientChannelSink.AsyncProcessRequest*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -91,6 +92,7 @@ items:
       type: System.IO.Stream
       description: To be added.
   overload: System.Runtime.Remoting.Channels.IClientChannelSink.AsyncProcessResponse*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -122,6 +124,7 @@ items:
       type: System.IO.Stream
       description: To be added.
   overload: System.Runtime.Remoting.Channels.IClientChannelSink.GetRequestStream*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -146,6 +149,7 @@ items:
       type: System.Runtime.Remoting.Channels.IClientChannelSink
       description: To be added.
   overload: System.Runtime.Remoting.Channels.IClientChannelSink.NextChannelSink*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -183,6 +187,7 @@ items:
       type: System.IO.Stream
       description: To be added.
   overload: System.Runtime.Remoting.Channels.IClientChannelSink.ProcessMessage*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -236,42 +241,12 @@ references:
   name: Object
   nameWithType: Object
   fullName: System.Object
-- uid: System.Runtime.Remoting.Channels.ITransportHeaders
-  parent: System.Runtime.Remoting.Channels
-  isExternal: false
-  name: ITransportHeaders
-  nameWithType: ITransportHeaders
-  fullName: System.Runtime.Remoting.Channels.ITransportHeaders
-- uid: System.IO.Stream
-  parent: System.IO
-  isExternal: false
-  name: Stream
-  nameWithType: Stream
-  fullName: System.IO.Stream
 - uid: System.Runtime.Remoting.Channels.IClientChannelSink.GetRequestStream(System.Runtime.Remoting.Messaging.IMessage,System.Runtime.Remoting.Channels.ITransportHeaders)
   parent: System.Runtime.Remoting.Channels.IClientChannelSink
   isExternal: false
   name: GetRequestStream(IMessage,ITransportHeaders)
   nameWithType: IClientChannelSink.GetRequestStream(IMessage,ITransportHeaders)
   fullName: System.Runtime.Remoting.Channels.IClientChannelSink.GetRequestStream(IMessage,ITransportHeaders)
-- uid: System.IO.Stream
-  parent: System.IO
-  isExternal: false
-  name: Stream
-  nameWithType: Stream
-  fullName: System.IO.Stream
-- uid: System.Runtime.Remoting.Messaging.IMessage
-  parent: System.Runtime.Remoting.Messaging
-  isExternal: false
-  name: IMessage
-  nameWithType: IMessage
-  fullName: System.Runtime.Remoting.Messaging.IMessage
-- uid: System.Runtime.Remoting.Channels.ITransportHeaders
-  parent: System.Runtime.Remoting.Channels
-  isExternal: false
-  name: ITransportHeaders
-  nameWithType: ITransportHeaders
-  fullName: System.Runtime.Remoting.Channels.ITransportHeaders
 - uid: System.Runtime.Remoting.Channels.IClientChannelSink.NextChannelSink
   parent: System.Runtime.Remoting.Channels.IClientChannelSink
   isExternal: false
@@ -290,36 +265,6 @@ references:
   name: ProcessMessage(IMessage,ITransportHeaders,Stream,ITransportHeaders,Stream)
   nameWithType: IClientChannelSink.ProcessMessage(IMessage,ITransportHeaders,Stream,ITransportHeaders,Stream)
   fullName: System.Runtime.Remoting.Channels.IClientChannelSink.ProcessMessage(IMessage,ITransportHeaders,Stream,ITransportHeaders,Stream)
-- uid: System.Runtime.Remoting.Messaging.IMessage
-  parent: System.Runtime.Remoting.Messaging
-  isExternal: false
-  name: IMessage
-  nameWithType: IMessage
-  fullName: System.Runtime.Remoting.Messaging.IMessage
-- uid: System.Runtime.Remoting.Channels.ITransportHeaders
-  parent: System.Runtime.Remoting.Channels
-  isExternal: false
-  name: ITransportHeaders
-  nameWithType: ITransportHeaders
-  fullName: System.Runtime.Remoting.Channels.ITransportHeaders
-- uid: System.IO.Stream
-  parent: System.IO
-  isExternal: false
-  name: Stream
-  nameWithType: Stream
-  fullName: System.IO.Stream
-- uid: System.Runtime.Remoting.Channels.ITransportHeaders
-  parent: System.Runtime.Remoting.Channels
-  isExternal: false
-  name: ITransportHeaders
-  nameWithType: ITransportHeaders
-  fullName: System.Runtime.Remoting.Channels.ITransportHeaders
-- uid: System.IO.Stream
-  parent: System.IO
-  isExternal: false
-  name: Stream
-  nameWithType: Stream
-  fullName: System.IO.Stream
 - uid: System.Runtime.Remoting.Channels.IClientChannelSink.AsyncProcessRequest*
   parent: System.Runtime.Remoting.Channels.IClientChannelSink
   isExternal: false

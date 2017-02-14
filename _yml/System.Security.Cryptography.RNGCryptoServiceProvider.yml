@@ -61,6 +61,7 @@ items:
     content: public RNGCryptoServiceProvider ();
     parameters: []
   overload: System.Security.Cryptography.RNGCryptoServiceProvider.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -86,6 +87,7 @@ items:
       type: System.Byte[]
       description: To be added.
   overload: System.Security.Cryptography.RNGCryptoServiceProvider.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -111,6 +113,7 @@ items:
       type: System.Security.Cryptography.CspParameters
       description: To be added.
   overload: System.Security.Cryptography.RNGCryptoServiceProvider.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -136,6 +139,7 @@ items:
       type: System.String
       description: To be added.
   overload: System.Security.Cryptography.RNGCryptoServiceProvider.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -161,6 +165,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Security.Cryptography.RNGCryptoServiceProvider.Dispose*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -186,6 +191,7 @@ items:
       type: System.Byte[]
       description: To be added.
   overload: System.Security.Cryptography.RNGCryptoServiceProvider.GetBytes*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -211,6 +217,7 @@ items:
       type: System.Byte[]
       description: To be added.
   overload: System.Security.Cryptography.RNGCryptoServiceProvider.GetNonZeroBytes*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -231,12 +238,20 @@ references:
   name: RNGCryptoServiceProvider(Byte[])
   nameWithType: RNGCryptoServiceProvider.RNGCryptoServiceProvider(Byte[])
   fullName: System.Security.Cryptography.RNGCryptoServiceProvider.RNGCryptoServiceProvider(Byte[])
-- uid: System.Byte
+- uid: System.Byte[]
   parent: System
   isExternal: false
   name: Byte
   nameWithType: Byte
   fullName: System.Byte[]
+  spec.csharp:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: Byte[]
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
 - uid: System.Security.Cryptography.RNGCryptoServiceProvider.#ctor(System.Security.Cryptography.CspParameters)
   parent: System.Security.Cryptography.RNGCryptoServiceProvider
   isExternal: false
@@ -279,24 +294,12 @@ references:
   name: GetBytes(Byte[])
   nameWithType: RNGCryptoServiceProvider.GetBytes(Byte[])
   fullName: System.Security.Cryptography.RNGCryptoServiceProvider.GetBytes(Byte[])
-- uid: System.Byte
-  parent: System
-  isExternal: false
-  name: Byte
-  nameWithType: Byte
-  fullName: System.Byte[]
 - uid: System.Security.Cryptography.RNGCryptoServiceProvider.GetNonZeroBytes(System.Byte[])
   parent: System.Security.Cryptography.RNGCryptoServiceProvider
   isExternal: false
   name: GetNonZeroBytes(Byte[])
   nameWithType: RNGCryptoServiceProvider.GetNonZeroBytes(Byte[])
   fullName: System.Security.Cryptography.RNGCryptoServiceProvider.GetNonZeroBytes(Byte[])
-- uid: System.Byte
-  parent: System
-  isExternal: false
-  name: Byte
-  nameWithType: Byte
-  fullName: System.Byte[]
 - uid: System.Security.Cryptography.RNGCryptoServiceProvider.#ctor*
   parent: System.Security.Cryptography.RNGCryptoServiceProvider
   isExternal: false

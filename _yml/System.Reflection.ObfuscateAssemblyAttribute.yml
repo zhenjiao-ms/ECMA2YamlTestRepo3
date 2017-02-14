@@ -97,6 +97,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Reflection.ObfuscateAssemblyAttribute.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -121,6 +122,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Reflection.ObfuscateAssemblyAttribute.AssemblyIsPrivate*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -145,6 +147,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Reflection.ObfuscateAssemblyAttribute.StripAfterObfuscation*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -171,24 +174,12 @@ references:
   name: AssemblyIsPrivate
   nameWithType: ObfuscateAssemblyAttribute.AssemblyIsPrivate
   fullName: System.Reflection.ObfuscateAssemblyAttribute.AssemblyIsPrivate
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
 - uid: System.Reflection.ObfuscateAssemblyAttribute.StripAfterObfuscation
   parent: System.Reflection.ObfuscateAssemblyAttribute
   isExternal: false
   name: StripAfterObfuscation
   nameWithType: ObfuscateAssemblyAttribute.StripAfterObfuscation
   fullName: System.Reflection.ObfuscateAssemblyAttribute.StripAfterObfuscation
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
 - uid: System.Reflection.ObfuscateAssemblyAttribute.#ctor*
   parent: System.Reflection.ObfuscateAssemblyAttribute
   isExternal: false

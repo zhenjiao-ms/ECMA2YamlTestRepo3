@@ -95,6 +95,7 @@ items:
     content: public UmAlQuraCalendar ();
     parameters: []
   overload: System.Globalization.UmAlQuraCalendar.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -126,6 +127,7 @@ items:
       type: System.DateTime
       description: To be added.
   overload: System.Globalization.UmAlQuraCalendar.AddMonths*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -157,6 +159,7 @@ items:
       type: System.DateTime
       description: To be added.
   overload: System.Globalization.UmAlQuraCalendar.AddYears*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -181,6 +184,7 @@ items:
       type: System.Globalization.CalendarAlgorithmType
       description: To be added.
   overload: System.Globalization.UmAlQuraCalendar.AlgorithmType*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -205,6 +209,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.Globalization.UmAlQuraCalendar.DaysInYearBeforeMinSupportedYear*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -229,6 +234,7 @@ items:
       type: System.Int32[]
       description: To be added.
   overload: System.Globalization.UmAlQuraCalendar.Eras*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -257,6 +263,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.Globalization.UmAlQuraCalendar.GetDayOfMonth*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -285,6 +292,7 @@ items:
       type: System.DayOfWeek
       description: To be added.
   overload: System.Globalization.UmAlQuraCalendar.GetDayOfWeek*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -313,6 +321,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.Globalization.UmAlQuraCalendar.GetDayOfYear*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -347,6 +356,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.Globalization.UmAlQuraCalendar.GetDaysInMonth*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -378,6 +388,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.Globalization.UmAlQuraCalendar.GetDaysInYear*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -406,6 +417,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.Globalization.UmAlQuraCalendar.GetEra*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -437,6 +449,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.Globalization.UmAlQuraCalendar.GetLeapMonth*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -465,6 +478,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.Globalization.UmAlQuraCalendar.GetMonth*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -496,6 +510,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.Globalization.UmAlQuraCalendar.GetMonthsInYear*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -524,6 +539,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.Globalization.UmAlQuraCalendar.GetYear*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -561,6 +577,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Globalization.UmAlQuraCalendar.IsLeapDay*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -595,6 +612,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Globalization.UmAlQuraCalendar.IsLeapMonth*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -626,6 +644,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Globalization.UmAlQuraCalendar.IsLeapYear*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -650,6 +669,7 @@ items:
       type: System.DateTime
       description: To be added.
   overload: System.Globalization.UmAlQuraCalendar.MaxSupportedDateTime*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -674,6 +694,7 @@ items:
       type: System.DateTime
       description: To be added.
   overload: System.Globalization.UmAlQuraCalendar.MinSupportedDateTime*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -723,6 +744,7 @@ items:
       type: System.DateTime
       description: To be added.
   overload: System.Globalization.UmAlQuraCalendar.ToDateTime*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -751,6 +773,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.Globalization.UmAlQuraCalendar.ToFourDigitYear*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -775,6 +798,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.Globalization.UmAlQuraCalendar.TwoDigitYearMax*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -798,6 +822,7 @@ items:
     return:
       type: System.Int32
       description: To be added.
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -824,12 +849,6 @@ references:
   name: DateTime
   nameWithType: DateTime
   fullName: System.DateTime
-- uid: System.DateTime
-  parent: System
-  isExternal: false
-  name: DateTime
-  nameWithType: DateTime
-  fullName: System.DateTime
 - uid: System.Int32
   parent: System
   isExternal: false
@@ -842,24 +861,6 @@ references:
   name: AddYears(DateTime,Int32)
   nameWithType: UmAlQuraCalendar.AddYears(DateTime,Int32)
   fullName: System.Globalization.UmAlQuraCalendar.AddYears(DateTime,Int32)
-- uid: System.DateTime
-  parent: System
-  isExternal: false
-  name: DateTime
-  nameWithType: DateTime
-  fullName: System.DateTime
-- uid: System.DateTime
-  parent: System
-  isExternal: false
-  name: DateTime
-  nameWithType: DateTime
-  fullName: System.DateTime
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
 - uid: System.Globalization.UmAlQuraCalendar.AlgorithmType
   parent: System.Globalization.UmAlQuraCalendar
   isExternal: false
@@ -878,42 +879,32 @@ references:
   name: DaysInYearBeforeMinSupportedYear
   nameWithType: UmAlQuraCalendar.DaysInYearBeforeMinSupportedYear
   fullName: System.Globalization.UmAlQuraCalendar.DaysInYearBeforeMinSupportedYear
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
 - uid: System.Globalization.UmAlQuraCalendar.Eras
   parent: System.Globalization.UmAlQuraCalendar
   isExternal: false
   name: Eras
   nameWithType: UmAlQuraCalendar.Eras
   fullName: System.Globalization.UmAlQuraCalendar.Eras
-- uid: System.Int32
+- uid: System.Int32[]
   parent: System
   isExternal: false
   name: Int32
   nameWithType: Int32
   fullName: System.Int32[]
+  spec.csharp:
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: Int32[]
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
 - uid: System.Globalization.UmAlQuraCalendar.GetDayOfMonth(System.DateTime)
   parent: System.Globalization.UmAlQuraCalendar
   isExternal: false
   name: GetDayOfMonth(DateTime)
   nameWithType: UmAlQuraCalendar.GetDayOfMonth(DateTime)
   fullName: System.Globalization.UmAlQuraCalendar.GetDayOfMonth(DateTime)
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: System.DateTime
-  parent: System
-  isExternal: false
-  name: DateTime
-  nameWithType: DateTime
-  fullName: System.DateTime
 - uid: System.Globalization.UmAlQuraCalendar.GetDayOfWeek(System.DateTime)
   parent: System.Globalization.UmAlQuraCalendar
   isExternal: false
@@ -926,186 +917,54 @@ references:
   name: DayOfWeek
   nameWithType: DayOfWeek
   fullName: System.DayOfWeek
-- uid: System.DateTime
-  parent: System
-  isExternal: false
-  name: DateTime
-  nameWithType: DateTime
-  fullName: System.DateTime
 - uid: System.Globalization.UmAlQuraCalendar.GetDayOfYear(System.DateTime)
   parent: System.Globalization.UmAlQuraCalendar
   isExternal: false
   name: GetDayOfYear(DateTime)
   nameWithType: UmAlQuraCalendar.GetDayOfYear(DateTime)
   fullName: System.Globalization.UmAlQuraCalendar.GetDayOfYear(DateTime)
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: System.DateTime
-  parent: System
-  isExternal: false
-  name: DateTime
-  nameWithType: DateTime
-  fullName: System.DateTime
 - uid: System.Globalization.UmAlQuraCalendar.GetDaysInMonth(System.Int32,System.Int32,System.Int32)
   parent: System.Globalization.UmAlQuraCalendar
   isExternal: false
   name: GetDaysInMonth(Int32,Int32,Int32)
   nameWithType: UmAlQuraCalendar.GetDaysInMonth(Int32,Int32,Int32)
   fullName: System.Globalization.UmAlQuraCalendar.GetDaysInMonth(Int32,Int32,Int32)
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
 - uid: System.Globalization.UmAlQuraCalendar.GetDaysInYear(System.Int32,System.Int32)
   parent: System.Globalization.UmAlQuraCalendar
   isExternal: false
   name: GetDaysInYear(Int32,Int32)
   nameWithType: UmAlQuraCalendar.GetDaysInYear(Int32,Int32)
   fullName: System.Globalization.UmAlQuraCalendar.GetDaysInYear(Int32,Int32)
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
 - uid: System.Globalization.UmAlQuraCalendar.GetEra(System.DateTime)
   parent: System.Globalization.UmAlQuraCalendar
   isExternal: false
   name: GetEra(DateTime)
   nameWithType: UmAlQuraCalendar.GetEra(DateTime)
   fullName: System.Globalization.UmAlQuraCalendar.GetEra(DateTime)
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: System.DateTime
-  parent: System
-  isExternal: false
-  name: DateTime
-  nameWithType: DateTime
-  fullName: System.DateTime
 - uid: System.Globalization.UmAlQuraCalendar.GetLeapMonth(System.Int32,System.Int32)
   parent: System.Globalization.UmAlQuraCalendar
   isExternal: false
   name: GetLeapMonth(Int32,Int32)
   nameWithType: UmAlQuraCalendar.GetLeapMonth(Int32,Int32)
   fullName: System.Globalization.UmAlQuraCalendar.GetLeapMonth(Int32,Int32)
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
 - uid: System.Globalization.UmAlQuraCalendar.GetMonth(System.DateTime)
   parent: System.Globalization.UmAlQuraCalendar
   isExternal: false
   name: GetMonth(DateTime)
   nameWithType: UmAlQuraCalendar.GetMonth(DateTime)
   fullName: System.Globalization.UmAlQuraCalendar.GetMonth(DateTime)
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: System.DateTime
-  parent: System
-  isExternal: false
-  name: DateTime
-  nameWithType: DateTime
-  fullName: System.DateTime
 - uid: System.Globalization.UmAlQuraCalendar.GetMonthsInYear(System.Int32,System.Int32)
   parent: System.Globalization.UmAlQuraCalendar
   isExternal: false
   name: GetMonthsInYear(Int32,Int32)
   nameWithType: UmAlQuraCalendar.GetMonthsInYear(Int32,Int32)
   fullName: System.Globalization.UmAlQuraCalendar.GetMonthsInYear(Int32,Int32)
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
 - uid: System.Globalization.UmAlQuraCalendar.GetYear(System.DateTime)
   parent: System.Globalization.UmAlQuraCalendar
   isExternal: false
   name: GetYear(DateTime)
   nameWithType: UmAlQuraCalendar.GetYear(DateTime)
   fullName: System.Globalization.UmAlQuraCalendar.GetYear(DateTime)
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: System.DateTime
-  parent: System
-  isExternal: false
-  name: DateTime
-  nameWithType: DateTime
-  fullName: System.DateTime
 - uid: System.Globalization.UmAlQuraCalendar.IsLeapDay(System.Int32,System.Int32,System.Int32,System.Int32)
   parent: System.Globalization.UmAlQuraCalendar
   isExternal: false
@@ -1118,210 +977,54 @@ references:
   name: Boolean
   nameWithType: Boolean
   fullName: System.Boolean
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
 - uid: System.Globalization.UmAlQuraCalendar.IsLeapMonth(System.Int32,System.Int32,System.Int32)
   parent: System.Globalization.UmAlQuraCalendar
   isExternal: false
   name: IsLeapMonth(Int32,Int32,Int32)
   nameWithType: UmAlQuraCalendar.IsLeapMonth(Int32,Int32,Int32)
   fullName: System.Globalization.UmAlQuraCalendar.IsLeapMonth(Int32,Int32,Int32)
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
 - uid: System.Globalization.UmAlQuraCalendar.IsLeapYear(System.Int32,System.Int32)
   parent: System.Globalization.UmAlQuraCalendar
   isExternal: false
   name: IsLeapYear(Int32,Int32)
   nameWithType: UmAlQuraCalendar.IsLeapYear(Int32,Int32)
   fullName: System.Globalization.UmAlQuraCalendar.IsLeapYear(Int32,Int32)
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
 - uid: System.Globalization.UmAlQuraCalendar.MaxSupportedDateTime
   parent: System.Globalization.UmAlQuraCalendar
   isExternal: false
   name: MaxSupportedDateTime
   nameWithType: UmAlQuraCalendar.MaxSupportedDateTime
   fullName: System.Globalization.UmAlQuraCalendar.MaxSupportedDateTime
-- uid: System.DateTime
-  parent: System
-  isExternal: false
-  name: DateTime
-  nameWithType: DateTime
-  fullName: System.DateTime
 - uid: System.Globalization.UmAlQuraCalendar.MinSupportedDateTime
   parent: System.Globalization.UmAlQuraCalendar
   isExternal: false
   name: MinSupportedDateTime
   nameWithType: UmAlQuraCalendar.MinSupportedDateTime
   fullName: System.Globalization.UmAlQuraCalendar.MinSupportedDateTime
-- uid: System.DateTime
-  parent: System
-  isExternal: false
-  name: DateTime
-  nameWithType: DateTime
-  fullName: System.DateTime
 - uid: System.Globalization.UmAlQuraCalendar.ToDateTime(System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32)
   parent: System.Globalization.UmAlQuraCalendar
   isExternal: false
   name: ToDateTime(Int32,Int32,Int32,Int32,Int32,Int32,Int32,Int32)
   nameWithType: UmAlQuraCalendar.ToDateTime(Int32,Int32,Int32,Int32,Int32,Int32,Int32,Int32)
   fullName: System.Globalization.UmAlQuraCalendar.ToDateTime(Int32,Int32,Int32,Int32,Int32,Int32,Int32,Int32)
-- uid: System.DateTime
-  parent: System
-  isExternal: false
-  name: DateTime
-  nameWithType: DateTime
-  fullName: System.DateTime
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
 - uid: System.Globalization.UmAlQuraCalendar.ToFourDigitYear(System.Int32)
   parent: System.Globalization.UmAlQuraCalendar
   isExternal: false
   name: ToFourDigitYear(Int32)
   nameWithType: UmAlQuraCalendar.ToFourDigitYear(Int32)
   fullName: System.Globalization.UmAlQuraCalendar.ToFourDigitYear(Int32)
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
 - uid: System.Globalization.UmAlQuraCalendar.TwoDigitYearMax
   parent: System.Globalization.UmAlQuraCalendar
   isExternal: false
   name: TwoDigitYearMax
   nameWithType: UmAlQuraCalendar.TwoDigitYearMax
   fullName: System.Globalization.UmAlQuraCalendar.TwoDigitYearMax
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
 - uid: System.Globalization.UmAlQuraCalendar.UmAlQuraEra
   parent: System.Globalization.UmAlQuraCalendar
   isExternal: false
   name: UmAlQuraEra
   nameWithType: UmAlQuraCalendar.UmAlQuraEra
   fullName: System.Globalization.UmAlQuraCalendar.UmAlQuraEra
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
 - uid: System.Globalization.UmAlQuraCalendar.#ctor*
   parent: System.Globalization.UmAlQuraCalendar
   isExternal: false

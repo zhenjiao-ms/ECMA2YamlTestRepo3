@@ -78,6 +78,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.Collections.ObjectModel.ReadOnlyDictionary`2.KeyCollection.CopyTo*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -102,6 +103,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.Collections.ObjectModel.ReadOnlyDictionary`2.KeyCollection.Count*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -127,6 +129,7 @@ items:
       type: System.Collections.Generic.IEnumerator{TKey}
       description: To be added.
   overload: System.Collections.ObjectModel.ReadOnlyDictionary`2.KeyCollection.GetEnumerator*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -153,6 +156,7 @@ items:
       type: TKey
       description: To be added.
   overload: System.Collections.ObjectModel.ReadOnlyDictionary`2.KeyCollection.System#Collections#Generic#ICollection<TKey>#Add*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -176,6 +180,7 @@ items:
     content: void ICollection<TKey>.Clear ();
     parameters: []
   overload: System.Collections.ObjectModel.ReadOnlyDictionary`2.KeyCollection.System#Collections#Generic#ICollection<TKey>#Clear*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -205,6 +210,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Collections.ObjectModel.ReadOnlyDictionary`2.KeyCollection.System#Collections#Generic#ICollection<TKey>#Contains*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -230,6 +236,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Collections.ObjectModel.ReadOnlyDictionary`2.KeyCollection.System#Collections#Generic#ICollection<TKey>#IsReadOnly*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -259,6 +266,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Collections.ObjectModel.ReadOnlyDictionary`2.KeyCollection.System#Collections#Generic#ICollection<TKey>#Remove*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -288,6 +296,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.Collections.ObjectModel.ReadOnlyDictionary`2.KeyCollection.System#Collections#ICollection#CopyTo*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -313,6 +322,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Collections.ObjectModel.ReadOnlyDictionary`2.KeyCollection.System#Collections#ICollection#IsSynchronized*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -338,6 +348,7 @@ items:
       type: System.Object
       description: To be added.
   overload: System.Collections.ObjectModel.ReadOnlyDictionary`2.KeyCollection.System#Collections#ICollection#SyncRoot*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -364,6 +375,7 @@ items:
       type: System.Collections.IEnumerator
       description: To be added.
   overload: System.Collections.ObjectModel.ReadOnlyDictionary`2.KeyCollection.System#Collections#IEnumerable#GetEnumerator*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -378,12 +390,19 @@ references:
   name: CopyTo(TKey[],Int32)
   nameWithType: ReadOnlyDictionary<TKey,TValue>+KeyCollection.CopyTo(TKey[],Int32)
   fullName: System.Collections.ObjectModel.ReadOnlyDictionary<TKey,TValue>+KeyCollection.CopyTo(TKey[],Int32)
-- uid: TKey
-  parent: ''
+- uid: TKey[]
   isExternal: true
   name: TKey
   nameWithType: TKey
   fullName: TKey[]
+  spec.csharp:
+  - uid: TKey
+    name: TKey
+    nameWithType: TKey
+    fullName: TKey[]
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
 - uid: System.Int32
   parent: System
   isExternal: false
@@ -396,12 +415,6 @@ references:
   name: Count
   nameWithType: ReadOnlyDictionary<TKey,TValue>+KeyCollection.Count
   fullName: System.Collections.ObjectModel.ReadOnlyDictionary<TKey,TValue>+KeyCollection.Count
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
 - uid: System.Collections.ObjectModel.ReadOnlyDictionary`2.KeyCollection.GetEnumerator
   parent: System.Collections.ObjectModel.ReadOnlyDictionary`2.KeyCollection
   isExternal: false
@@ -414,6 +427,21 @@ references:
   name: IEnumerator<TKey>
   nameWithType: IEnumerator<TKey>
   fullName: System.Collections.Generic.IEnumerator<TKey>
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerator`1
+    name: IEnumerator
+    nameWithType: IEnumerator
+    fullName: IEnumerator<TKey>
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: TKey
+    name: TKey
+    nameWithType: TKey
+    fullName: TKey
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
 - uid: System.Collections.ObjectModel.ReadOnlyDictionary`2.KeyCollection.System#Collections#Generic#ICollection{TKey}#Add(`0)
   parent: System.Collections.ObjectModel.ReadOnlyDictionary`2.KeyCollection
   isExternal: false
@@ -421,7 +449,6 @@ references:
   nameWithType: ReadOnlyDictionary<TKey,TValue>+KeyCollection.System.Collections.Generic.ICollection(TKey)
   fullName: System.Collections.ObjectModel.ReadOnlyDictionary<TKey,TValue>+KeyCollection.System.Collections.Generic.ICollection(TKey)
 - uid: TKey
-  parent: ''
   isExternal: true
   name: TKey
   nameWithType: TKey
@@ -444,42 +471,18 @@ references:
   name: Boolean
   nameWithType: Boolean
   fullName: System.Boolean
-- uid: TKey
-  parent: ''
-  isExternal: true
-  name: TKey
-  nameWithType: TKey
-  fullName: TKey
 - uid: System.Collections.ObjectModel.ReadOnlyDictionary`2.KeyCollection.System#Collections#Generic#ICollection{TKey}#IsReadOnly
   parent: System.Collections.ObjectModel.ReadOnlyDictionary`2.KeyCollection
   isExternal: false
   name: System.Collections.Generic.ICollection
   nameWithType: ReadOnlyDictionary<TKey,TValue>+KeyCollection.System.Collections.Generic.ICollection
   fullName: System.Collections.ObjectModel.ReadOnlyDictionary<TKey,TValue>+KeyCollection.System.Collections.Generic.ICollection
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
 - uid: System.Collections.ObjectModel.ReadOnlyDictionary`2.KeyCollection.System#Collections#Generic#ICollection{TKey}#Remove(`0)
   parent: System.Collections.ObjectModel.ReadOnlyDictionary`2.KeyCollection
   isExternal: false
   name: System.Collections.Generic.ICollection(TKey)
   nameWithType: ReadOnlyDictionary<TKey,TValue>+KeyCollection.System.Collections.Generic.ICollection(TKey)
   fullName: System.Collections.ObjectModel.ReadOnlyDictionary<TKey,TValue>+KeyCollection.System.Collections.Generic.ICollection(TKey)
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
-- uid: TKey
-  parent: ''
-  isExternal: true
-  name: TKey
-  nameWithType: TKey
-  fullName: TKey
 - uid: System.Collections.ObjectModel.ReadOnlyDictionary`2.KeyCollection.System#Collections#ICollection#CopyTo(System.Array,System.Int32)
   parent: System.Collections.ObjectModel.ReadOnlyDictionary`2.KeyCollection
   isExternal: false
@@ -492,36 +495,18 @@ references:
   name: Array
   nameWithType: Array
   fullName: System.Array
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
 - uid: System.Collections.ObjectModel.ReadOnlyDictionary`2.KeyCollection.System#Collections#ICollection#IsSynchronized
   parent: System.Collections.ObjectModel.ReadOnlyDictionary`2.KeyCollection
   isExternal: false
   name: System.Collections.ICollection.IsSynchronized
   nameWithType: ReadOnlyDictionary<TKey,TValue>+KeyCollection.System.Collections.ICollection.IsSynchronized
   fullName: System.Collections.ObjectModel.ReadOnlyDictionary<TKey,TValue>+KeyCollection.System.Collections.ICollection.IsSynchronized
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
 - uid: System.Collections.ObjectModel.ReadOnlyDictionary`2.KeyCollection.System#Collections#ICollection#SyncRoot
   parent: System.Collections.ObjectModel.ReadOnlyDictionary`2.KeyCollection
   isExternal: false
   name: System.Collections.ICollection.SyncRoot
   nameWithType: ReadOnlyDictionary<TKey,TValue>+KeyCollection.System.Collections.ICollection.SyncRoot
   fullName: System.Collections.ObjectModel.ReadOnlyDictionary<TKey,TValue>+KeyCollection.System.Collections.ICollection.SyncRoot
-- uid: System.Object
-  parent: System
-  isExternal: false
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
 - uid: System.Collections.ObjectModel.ReadOnlyDictionary`2.KeyCollection.System#Collections#IEnumerable#GetEnumerator
   parent: System.Collections.ObjectModel.ReadOnlyDictionary`2.KeyCollection
   isExternal: false

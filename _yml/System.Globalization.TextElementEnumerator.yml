@@ -57,6 +57,7 @@ items:
       type: System.Object
       description: To be added.
   overload: System.Globalization.TextElementEnumerator.Current*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -81,6 +82,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.Globalization.TextElementEnumerator.ElementIndex*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -106,6 +108,7 @@ items:
       type: System.String
       description: To be added.
   overload: System.Globalization.TextElementEnumerator.GetTextElement*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -131,6 +134,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Globalization.TextElementEnumerator.MoveNext*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -153,6 +157,7 @@ items:
     content: public void Reset ();
     parameters: []
   overload: System.Globalization.TextElementEnumerator.Reset*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -167,12 +172,6 @@ references:
   name: Current
   nameWithType: TextElementEnumerator.Current
   fullName: System.Globalization.TextElementEnumerator.Current
-- uid: System.Object
-  parent: System
-  isExternal: false
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
 - uid: System.Globalization.TextElementEnumerator.ElementIndex
   parent: System.Globalization.TextElementEnumerator
   isExternal: false

@@ -62,6 +62,7 @@ items:
       type: System.Object
       description: To be added.
   overload: System.Runtime.Remoting.ObjectHandle.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -87,6 +88,7 @@ items:
       type: System.Object
       description: To be added.
   overload: System.Runtime.Remoting.ObjectHandle.InitializeLifetimeService*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -112,6 +114,7 @@ items:
       type: System.Object
       description: To be added.
   overload: System.Runtime.Remoting.ObjectHandle.Unwrap*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -138,24 +141,12 @@ references:
   name: InitializeLifetimeService()
   nameWithType: ObjectHandle.InitializeLifetimeService()
   fullName: System.Runtime.Remoting.ObjectHandle.InitializeLifetimeService()
-- uid: System.Object
-  parent: System
-  isExternal: false
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
 - uid: System.Runtime.Remoting.ObjectHandle.Unwrap
   parent: System.Runtime.Remoting.ObjectHandle
   isExternal: false
   name: Unwrap()
   nameWithType: ObjectHandle.Unwrap()
   fullName: System.Runtime.Remoting.ObjectHandle.Unwrap()
-- uid: System.Object
-  parent: System
-  isExternal: false
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
 - uid: System.Runtime.Remoting.ObjectHandle.#ctor*
   parent: System.Runtime.Remoting.ObjectHandle
   isExternal: false

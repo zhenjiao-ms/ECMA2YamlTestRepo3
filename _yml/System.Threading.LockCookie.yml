@@ -53,6 +53,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Threading.LockCookie.Equals*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -81,6 +82,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Threading.LockCookie.Equals*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -106,6 +108,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.Threading.LockCookie.GetHashCode*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -137,6 +140,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Threading.LockCookie.op_Equality*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -168,6 +172,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Threading.LockCookie.op_Inequality*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -200,12 +205,6 @@ references:
   name: Equals(LockCookie)
   nameWithType: LockCookie.Equals(LockCookie)
   fullName: System.Threading.LockCookie.Equals(LockCookie)
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
 - uid: System.Threading.LockCookie
   parent: System.Threading
   isExternal: false
@@ -230,48 +229,12 @@ references:
   name: op_Equality(LockCookie,LockCookie)
   nameWithType: LockCookie.op_Equality(LockCookie,LockCookie)
   fullName: System.Threading.LockCookie.op_Equality(LockCookie,LockCookie)
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
-- uid: System.Threading.LockCookie
-  parent: System.Threading
-  isExternal: false
-  name: LockCookie
-  nameWithType: LockCookie
-  fullName: System.Threading.LockCookie
-- uid: System.Threading.LockCookie
-  parent: System.Threading
-  isExternal: false
-  name: LockCookie
-  nameWithType: LockCookie
-  fullName: System.Threading.LockCookie
 - uid: System.Threading.LockCookie.op_Inequality(System.Threading.LockCookie,System.Threading.LockCookie)
   parent: System.Threading.LockCookie
   isExternal: false
   name: op_Inequality(LockCookie,LockCookie)
   nameWithType: LockCookie.op_Inequality(LockCookie,LockCookie)
   fullName: System.Threading.LockCookie.op_Inequality(LockCookie,LockCookie)
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
-- uid: System.Threading.LockCookie
-  parent: System.Threading
-  isExternal: false
-  name: LockCookie
-  nameWithType: LockCookie
-  fullName: System.Threading.LockCookie
-- uid: System.Threading.LockCookie
-  parent: System.Threading
-  isExternal: false
-  name: LockCookie
-  nameWithType: LockCookie
-  fullName: System.Threading.LockCookie
 - uid: System.Threading.LockCookie.Equals*
   parent: System.Threading.LockCookie
   isExternal: false

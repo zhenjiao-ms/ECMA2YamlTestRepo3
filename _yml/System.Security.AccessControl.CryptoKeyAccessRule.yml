@@ -66,6 +66,7 @@ items:
       type: System.Security.AccessControl.AccessControlType
       description: To be added.
   overload: System.Security.AccessControl.CryptoKeyAccessRule.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -97,6 +98,7 @@ items:
       type: System.Security.AccessControl.AccessControlType
       description: To be added.
   overload: System.Security.AccessControl.CryptoKeyAccessRule.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -121,6 +123,7 @@ items:
       type: System.Security.AccessControl.CryptoKeyRights
       description: To be added.
   overload: System.Security.AccessControl.CryptoKeyAccessRule.CryptoKeyRights*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -165,30 +168,12 @@ references:
   name: String
   nameWithType: String
   fullName: System.String
-- uid: System.Security.AccessControl.CryptoKeyRights
-  parent: System.Security.AccessControl
-  isExternal: false
-  name: CryptoKeyRights
-  nameWithType: CryptoKeyRights
-  fullName: System.Security.AccessControl.CryptoKeyRights
-- uid: System.Security.AccessControl.AccessControlType
-  parent: System.Security.AccessControl
-  isExternal: false
-  name: AccessControlType
-  nameWithType: AccessControlType
-  fullName: System.Security.AccessControl.AccessControlType
 - uid: System.Security.AccessControl.CryptoKeyAccessRule.CryptoKeyRights
   parent: System.Security.AccessControl.CryptoKeyAccessRule
   isExternal: false
   name: CryptoKeyRights
   nameWithType: CryptoKeyAccessRule.CryptoKeyRights
   fullName: System.Security.AccessControl.CryptoKeyAccessRule.CryptoKeyRights
-- uid: System.Security.AccessControl.CryptoKeyRights
-  parent: System.Security.AccessControl
-  isExternal: false
-  name: CryptoKeyRights
-  nameWithType: CryptoKeyRights
-  fullName: System.Security.AccessControl.CryptoKeyRights
 - uid: System.Security.AccessControl.CryptoKeyAccessRule.#ctor*
   parent: System.Security.AccessControl.CryptoKeyAccessRule
   isExternal: false

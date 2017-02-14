@@ -59,6 +59,7 @@ items:
       type: System.Type
       description: To be added.
   overload: System.Runtime.Remoting.ActivatedServiceTypeEntry.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -87,6 +88,7 @@ items:
       type: System.String
       description: To be added.
   overload: System.Runtime.Remoting.ActivatedServiceTypeEntry.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -111,6 +113,7 @@ items:
       type: System.Runtime.Remoting.Contexts.IContextAttribute[]
       description: To be added.
   overload: System.Runtime.Remoting.ActivatedServiceTypeEntry.ContextAttributes*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -135,6 +138,7 @@ items:
       type: System.Type
       description: To be added.
   overload: System.Runtime.Remoting.ActivatedServiceTypeEntry.ObjectType*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -160,6 +164,7 @@ items:
       type: System.String
       description: To be added.
   overload: System.Runtime.Remoting.ActivatedServiceTypeEntry.ToString*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -192,48 +197,38 @@ references:
   name: String
   nameWithType: String
   fullName: System.String
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
 - uid: System.Runtime.Remoting.ActivatedServiceTypeEntry.ContextAttributes
   parent: System.Runtime.Remoting.ActivatedServiceTypeEntry
   isExternal: false
   name: ContextAttributes
   nameWithType: ActivatedServiceTypeEntry.ContextAttributes
   fullName: System.Runtime.Remoting.ActivatedServiceTypeEntry.ContextAttributes
-- uid: System.Runtime.Remoting.Contexts.IContextAttribute
+- uid: System.Runtime.Remoting.Contexts.IContextAttribute[]
   parent: System.Runtime.Remoting.Contexts
   isExternal: false
   name: IContextAttribute
   nameWithType: IContextAttribute
   fullName: System.Runtime.Remoting.Contexts.IContextAttribute[]
+  spec.csharp:
+  - uid: System.Runtime.Remoting.Contexts.IContextAttribute
+    name: IContextAttribute
+    nameWithType: IContextAttribute
+    fullName: IContextAttribute[]
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
 - uid: System.Runtime.Remoting.ActivatedServiceTypeEntry.ObjectType
   parent: System.Runtime.Remoting.ActivatedServiceTypeEntry
   isExternal: false
   name: ObjectType
   nameWithType: ActivatedServiceTypeEntry.ObjectType
   fullName: System.Runtime.Remoting.ActivatedServiceTypeEntry.ObjectType
-- uid: System.Type
-  parent: System
-  isExternal: false
-  name: Type
-  nameWithType: Type
-  fullName: System.Type
 - uid: System.Runtime.Remoting.ActivatedServiceTypeEntry.ToString
   parent: System.Runtime.Remoting.ActivatedServiceTypeEntry
   isExternal: false
   name: ToString()
   nameWithType: ActivatedServiceTypeEntry.ToString()
   fullName: System.Runtime.Remoting.ActivatedServiceTypeEntry.ToString()
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
 - uid: System.Runtime.Remoting.ActivatedServiceTypeEntry.#ctor*
   parent: System.Runtime.Remoting.ActivatedServiceTypeEntry
   isExternal: false

@@ -115,6 +115,7 @@ items:
     content: public StringWriter ();
     parameters: []
   overload: System.IO.StringWriter.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -140,6 +141,7 @@ items:
       type: System.IFormatProvider
       description: To be added.
   overload: System.IO.StringWriter.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -165,6 +167,7 @@ items:
       type: System.Text.StringBuilder
       description: To be added.
   overload: System.IO.StringWriter.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -193,6 +196,7 @@ items:
       type: System.IFormatProvider
       description: To be added.
   overload: System.IO.StringWriter.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -215,6 +219,7 @@ items:
     content: public override void Close ();
     parameters: []
   overload: System.IO.StringWriter.Close*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -240,6 +245,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.IO.StringWriter.Dispose*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -264,6 +270,7 @@ items:
       type: System.Text.Encoding
       description: To be added.
   overload: System.IO.StringWriter.Encoding*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -289,6 +296,7 @@ items:
       type: System.Threading.Tasks.Task
       description: To be added.
   overload: System.IO.StringWriter.FlushAsync*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -314,6 +322,7 @@ items:
       type: System.Text.StringBuilder
       description: To be added.
   overload: System.IO.StringWriter.GetStringBuilder*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -339,6 +348,7 @@ items:
       type: System.String
       description: To be added.
   overload: System.IO.StringWriter.ToString*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -364,6 +374,7 @@ items:
       type: System.Char
       description: To be added.
   overload: System.IO.StringWriter.Write*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -389,6 +400,7 @@ items:
       type: System.String
       description: To be added.
   overload: System.IO.StringWriter.Write*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -420,6 +432,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.IO.StringWriter.Write*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -448,6 +461,7 @@ items:
       type: System.Threading.Tasks.Task
       description: To be added.
   overload: System.IO.StringWriter.WriteAsync*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -476,6 +490,7 @@ items:
       type: System.Threading.Tasks.Task
       description: To be added.
   overload: System.IO.StringWriter.WriteAsync*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -510,6 +525,7 @@ items:
       type: System.Threading.Tasks.Task
       description: To be added.
   overload: System.IO.StringWriter.WriteAsync*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -538,6 +554,7 @@ items:
       type: System.Threading.Tasks.Task
       description: To be added.
   overload: System.IO.StringWriter.WriteLineAsync*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -566,6 +583,7 @@ items:
       type: System.Threading.Tasks.Task
       description: To be added.
   overload: System.IO.StringWriter.WriteLineAsync*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -600,6 +618,7 @@ items:
       type: System.Threading.Tasks.Task
       description: To be added.
   overload: System.IO.StringWriter.WriteLineAsync*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -644,18 +663,6 @@ references:
   name: StringWriter(StringBuilder,IFormatProvider)
   nameWithType: StringWriter.StringWriter(StringBuilder,IFormatProvider)
   fullName: System.IO.StringWriter.StringWriter(StringBuilder,IFormatProvider)
-- uid: System.Text.StringBuilder
-  parent: System.Text
-  isExternal: false
-  name: StringBuilder
-  nameWithType: StringBuilder
-  fullName: System.Text.StringBuilder
-- uid: System.IFormatProvider
-  parent: System
-  isExternal: false
-  name: IFormatProvider
-  nameWithType: IFormatProvider
-  fullName: System.IFormatProvider
 - uid: System.IO.StringWriter.Close
   parent: System.IO.StringWriter
   isExternal: false
@@ -704,12 +711,6 @@ references:
   name: GetStringBuilder()
   nameWithType: StringWriter.GetStringBuilder()
   fullName: System.IO.StringWriter.GetStringBuilder()
-- uid: System.Text.StringBuilder
-  parent: System.Text
-  isExternal: false
-  name: StringBuilder
-  nameWithType: StringBuilder
-  fullName: System.Text.StringBuilder
 - uid: System.IO.StringWriter.ToString
   parent: System.IO.StringWriter
   isExternal: false
@@ -740,30 +741,26 @@ references:
   name: Write(String)
   nameWithType: StringWriter.Write(String)
   fullName: System.IO.StringWriter.Write(String)
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
 - uid: System.IO.StringWriter.Write(System.Char[],System.Int32,System.Int32)
   parent: System.IO.StringWriter
   isExternal: false
   name: Write(Char[],Int32,Int32)
   nameWithType: StringWriter.Write(Char[],Int32,Int32)
   fullName: System.IO.StringWriter.Write(Char[],Int32,Int32)
-- uid: System.Char
+- uid: System.Char[]
   parent: System
   isExternal: false
   name: Char
   nameWithType: Char
   fullName: System.Char[]
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
+  spec.csharp:
+  - uid: System.Char
+    name: Char
+    nameWithType: Char
+    fullName: Char[]
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
 - uid: System.Int32
   parent: System
   isExternal: false
@@ -776,132 +773,36 @@ references:
   name: WriteAsync(Char)
   nameWithType: StringWriter.WriteAsync(Char)
   fullName: System.IO.StringWriter.WriteAsync(Char)
-- uid: System.Threading.Tasks.Task
-  parent: System.Threading.Tasks
-  isExternal: false
-  name: Task
-  nameWithType: Task
-  fullName: System.Threading.Tasks.Task
-- uid: System.Char
-  parent: System
-  isExternal: false
-  name: Char
-  nameWithType: Char
-  fullName: System.Char
 - uid: System.IO.StringWriter.WriteAsync(System.String)
   parent: System.IO.StringWriter
   isExternal: false
   name: WriteAsync(String)
   nameWithType: StringWriter.WriteAsync(String)
   fullName: System.IO.StringWriter.WriteAsync(String)
-- uid: System.Threading.Tasks.Task
-  parent: System.Threading.Tasks
-  isExternal: false
-  name: Task
-  nameWithType: Task
-  fullName: System.Threading.Tasks.Task
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
 - uid: System.IO.StringWriter.WriteAsync(System.Char[],System.Int32,System.Int32)
   parent: System.IO.StringWriter
   isExternal: false
   name: WriteAsync(Char[],Int32,Int32)
   nameWithType: StringWriter.WriteAsync(Char[],Int32,Int32)
   fullName: System.IO.StringWriter.WriteAsync(Char[],Int32,Int32)
-- uid: System.Threading.Tasks.Task
-  parent: System.Threading.Tasks
-  isExternal: false
-  name: Task
-  nameWithType: Task
-  fullName: System.Threading.Tasks.Task
-- uid: System.Char
-  parent: System
-  isExternal: false
-  name: Char
-  nameWithType: Char
-  fullName: System.Char[]
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
 - uid: System.IO.StringWriter.WriteLineAsync(System.Char)
   parent: System.IO.StringWriter
   isExternal: false
   name: WriteLineAsync(Char)
   nameWithType: StringWriter.WriteLineAsync(Char)
   fullName: System.IO.StringWriter.WriteLineAsync(Char)
-- uid: System.Threading.Tasks.Task
-  parent: System.Threading.Tasks
-  isExternal: false
-  name: Task
-  nameWithType: Task
-  fullName: System.Threading.Tasks.Task
-- uid: System.Char
-  parent: System
-  isExternal: false
-  name: Char
-  nameWithType: Char
-  fullName: System.Char
 - uid: System.IO.StringWriter.WriteLineAsync(System.String)
   parent: System.IO.StringWriter
   isExternal: false
   name: WriteLineAsync(String)
   nameWithType: StringWriter.WriteLineAsync(String)
   fullName: System.IO.StringWriter.WriteLineAsync(String)
-- uid: System.Threading.Tasks.Task
-  parent: System.Threading.Tasks
-  isExternal: false
-  name: Task
-  nameWithType: Task
-  fullName: System.Threading.Tasks.Task
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
 - uid: System.IO.StringWriter.WriteLineAsync(System.Char[],System.Int32,System.Int32)
   parent: System.IO.StringWriter
   isExternal: false
   name: WriteLineAsync(Char[],Int32,Int32)
   nameWithType: StringWriter.WriteLineAsync(Char[],Int32,Int32)
   fullName: System.IO.StringWriter.WriteLineAsync(Char[],Int32,Int32)
-- uid: System.Threading.Tasks.Task
-  parent: System.Threading.Tasks
-  isExternal: false
-  name: Task
-  nameWithType: Task
-  fullName: System.Threading.Tasks.Task
-- uid: System.Char
-  parent: System
-  isExternal: false
-  name: Char
-  nameWithType: Char
-  fullName: System.Char[]
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
 - uid: System.IO.StringWriter.#ctor*
   parent: System.IO.StringWriter
   isExternal: false

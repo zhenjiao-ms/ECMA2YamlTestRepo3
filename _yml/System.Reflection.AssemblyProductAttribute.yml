@@ -96,6 +96,7 @@ items:
       type: System.String
       description: To be added.
   overload: System.Reflection.AssemblyProductAttribute.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -120,6 +121,7 @@ items:
       type: System.String
       description: To be added.
   overload: System.Reflection.AssemblyProductAttribute.Product*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -146,12 +148,6 @@ references:
   name: Product
   nameWithType: AssemblyProductAttribute.Product
   fullName: System.Reflection.AssemblyProductAttribute.Product
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
 - uid: System.Reflection.AssemblyProductAttribute.#ctor*
   parent: System.Reflection.AssemblyProductAttribute
   isExternal: false

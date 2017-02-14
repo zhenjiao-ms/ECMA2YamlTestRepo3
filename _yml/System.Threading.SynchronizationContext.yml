@@ -58,6 +58,7 @@ items:
     content: public SynchronizationContext ();
     parameters: []
   overload: System.Threading.SynchronizationContext.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -83,6 +84,7 @@ items:
       type: System.Threading.SynchronizationContext
       description: To be added.
   overload: System.Threading.SynchronizationContext.CreateCopy*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -107,6 +109,7 @@ items:
       type: System.Threading.SynchronizationContext
       description: To be added.
   overload: System.Threading.SynchronizationContext.Current*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -132,6 +135,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Threading.SynchronizationContext.IsWaitNotificationRequired*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -154,6 +158,7 @@ items:
     content: public virtual void OperationCompleted ();
     parameters: []
   overload: System.Threading.SynchronizationContext.OperationCompleted*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -176,6 +181,7 @@ items:
     content: public virtual void OperationStarted ();
     parameters: []
   overload: System.Threading.SynchronizationContext.OperationStarted*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -204,6 +210,7 @@ items:
       type: System.Object
       description: To be added.
   overload: System.Threading.SynchronizationContext.Post*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -232,6 +239,7 @@ items:
       type: System.Object
       description: To be added.
   overload: System.Threading.SynchronizationContext.Send*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -257,6 +265,7 @@ items:
       type: System.Threading.SynchronizationContext
       description: To be added.
   overload: System.Threading.SynchronizationContext.SetSynchronizationContext*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -279,6 +288,7 @@ items:
     content: protected void SetWaitNotificationRequired ();
     parameters: []
   overload: System.Threading.SynchronizationContext.SetWaitNotificationRequired*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -313,6 +323,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.Threading.SynchronizationContext.Wait*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -347,6 +358,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.Threading.SynchronizationContext.WaitHelper*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -379,12 +391,6 @@ references:
   name: Current
   nameWithType: SynchronizationContext.Current
   fullName: System.Threading.SynchronizationContext.Current
-- uid: System.Threading.SynchronizationContext
-  parent: System.Threading
-  isExternal: false
-  name: SynchronizationContext
-  nameWithType: SynchronizationContext
-  fullName: System.Threading.SynchronizationContext
 - uid: System.Threading.SynchronizationContext.IsWaitNotificationRequired
   parent: System.Threading.SynchronizationContext
   isExternal: false
@@ -421,42 +427,18 @@ references:
   name: SendOrPostCallback
   nameWithType: SendOrPostCallback
   fullName: System.Threading.SendOrPostCallback
-- uid: System.Object
-  parent: System
-  isExternal: false
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
 - uid: System.Threading.SynchronizationContext.Send(System.Threading.SendOrPostCallback,System.Object)
   parent: System.Threading.SynchronizationContext
   isExternal: false
   name: Send(SendOrPostCallback,Object)
   nameWithType: SynchronizationContext.Send(SendOrPostCallback,Object)
   fullName: System.Threading.SynchronizationContext.Send(SendOrPostCallback,Object)
-- uid: System.Threading.SendOrPostCallback
-  parent: System.Threading
-  isExternal: false
-  name: SendOrPostCallback
-  nameWithType: SendOrPostCallback
-  fullName: System.Threading.SendOrPostCallback
-- uid: System.Object
-  parent: System
-  isExternal: false
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
 - uid: System.Threading.SynchronizationContext.SetSynchronizationContext(System.Threading.SynchronizationContext)
   parent: System.Threading.SynchronizationContext
   isExternal: false
   name: SetSynchronizationContext(SynchronizationContext)
   nameWithType: SynchronizationContext.SetSynchronizationContext(SynchronizationContext)
   fullName: System.Threading.SynchronizationContext.SetSynchronizationContext(SynchronizationContext)
-- uid: System.Threading.SynchronizationContext
-  parent: System.Threading
-  isExternal: false
-  name: SynchronizationContext
-  nameWithType: SynchronizationContext
-  fullName: System.Threading.SynchronizationContext
 - uid: System.Threading.SynchronizationContext.SetWaitNotificationRequired
   parent: System.Threading.SynchronizationContext
   isExternal: false
@@ -475,54 +457,26 @@ references:
   name: Int32
   nameWithType: Int32
   fullName: System.Int32
-- uid: System.IntPtr
+- uid: System.IntPtr[]
   parent: System
   isExternal: false
   name: IntPtr
   nameWithType: IntPtr
   fullName: System.IntPtr[]
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
+  spec.csharp:
+  - uid: System.IntPtr
+    name: IntPtr
+    nameWithType: IntPtr
+    fullName: IntPtr[]
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
 - uid: System.Threading.SynchronizationContext.WaitHelper(System.IntPtr[],System.Boolean,System.Int32)
   parent: System.Threading.SynchronizationContext
   isExternal: false
   name: WaitHelper(IntPtr[],Boolean,Int32)
   nameWithType: SynchronizationContext.WaitHelper(IntPtr[],Boolean,Int32)
   fullName: System.Threading.SynchronizationContext.WaitHelper(IntPtr[],Boolean,Int32)
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: System.IntPtr
-  parent: System
-  isExternal: false
-  name: IntPtr
-  nameWithType: IntPtr
-  fullName: System.IntPtr[]
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
 - uid: System.Threading.SynchronizationContext.#ctor*
   parent: System.Threading.SynchronizationContext
   isExternal: false

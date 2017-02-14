@@ -116,6 +116,7 @@ items:
       type: System.Security.AccessControl.ResourceType
       description: To be added.
   overload: System.Security.AccessControl.NativeObjectSecurity.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -150,6 +151,7 @@ items:
       type: System.Security.AccessControl.AccessControlSections
       description: To be added.
   overload: System.Security.AccessControl.NativeObjectSecurity.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -184,6 +186,7 @@ items:
       type: System.Object
       description: To be added.
   overload: System.Security.AccessControl.NativeObjectSecurity.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -218,6 +221,7 @@ items:
       type: System.Security.AccessControl.AccessControlSections
       description: To be added.
   overload: System.Security.AccessControl.NativeObjectSecurity.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -258,6 +262,7 @@ items:
       type: System.Object
       description: To be added.
   overload: System.Security.AccessControl.NativeObjectSecurity.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -298,6 +303,7 @@ items:
       type: System.Object
       description: To be added.
   overload: System.Security.AccessControl.NativeObjectSecurity.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -326,6 +332,7 @@ items:
       type: System.Security.AccessControl.AccessControlSections
       description: To be added.
   overload: System.Security.AccessControl.NativeObjectSecurity.Persist*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -354,6 +361,7 @@ items:
       type: System.Security.AccessControl.AccessControlSections
       description: To be added.
   overload: System.Security.AccessControl.NativeObjectSecurity.Persist*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -385,6 +393,7 @@ items:
       type: System.Object
       description: To be added.
   overload: System.Security.AccessControl.NativeObjectSecurity.Persist*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -416,6 +425,7 @@ items:
       type: System.Object
       description: To be added.
   overload: System.Security.AccessControl.NativeObjectSecurity.Persist*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -448,18 +458,6 @@ references:
   name: NativeObjectSecurity(Boolean,ResourceType,SafeHandle,AccessControlSections)
   nameWithType: NativeObjectSecurity.NativeObjectSecurity(Boolean,ResourceType,SafeHandle,AccessControlSections)
   fullName: System.Security.AccessControl.NativeObjectSecurity.NativeObjectSecurity(Boolean,ResourceType,SafeHandle,AccessControlSections)
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
-- uid: System.Security.AccessControl.ResourceType
-  parent: System.Security.AccessControl
-  isExternal: false
-  name: ResourceType
-  nameWithType: ResourceType
-  fullName: System.Security.AccessControl.ResourceType
 - uid: System.Runtime.InteropServices.SafeHandle
   parent: System.Runtime.InteropServices
   isExternal: false
@@ -478,18 +476,6 @@ references:
   name: NativeObjectSecurity(Boolean,ResourceType,NativeObjectSecurity+ExceptionFromErrorCode,Object)
   nameWithType: NativeObjectSecurity.NativeObjectSecurity(Boolean,ResourceType,NativeObjectSecurity+ExceptionFromErrorCode,Object)
   fullName: System.Security.AccessControl.NativeObjectSecurity.NativeObjectSecurity(Boolean,ResourceType,NativeObjectSecurity+ExceptionFromErrorCode,Object)
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
-- uid: System.Security.AccessControl.ResourceType
-  parent: System.Security.AccessControl
-  isExternal: false
-  name: ResourceType
-  nameWithType: ResourceType
-  fullName: System.Security.AccessControl.ResourceType
 - uid: System.Security.AccessControl.NativeObjectSecurity.ExceptionFromErrorCode
   parent: System.Security.AccessControl
   isExternal: false
@@ -508,198 +494,48 @@ references:
   name: NativeObjectSecurity(Boolean,ResourceType,String,AccessControlSections)
   nameWithType: NativeObjectSecurity.NativeObjectSecurity(Boolean,ResourceType,String,AccessControlSections)
   fullName: System.Security.AccessControl.NativeObjectSecurity.NativeObjectSecurity(Boolean,ResourceType,String,AccessControlSections)
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
-- uid: System.Security.AccessControl.ResourceType
-  parent: System.Security.AccessControl
-  isExternal: false
-  name: ResourceType
-  nameWithType: ResourceType
-  fullName: System.Security.AccessControl.ResourceType
 - uid: System.String
   parent: System
   isExternal: false
   name: String
   nameWithType: String
   fullName: System.String
-- uid: System.Security.AccessControl.AccessControlSections
-  parent: System.Security.AccessControl
-  isExternal: false
-  name: AccessControlSections
-  nameWithType: AccessControlSections
-  fullName: System.Security.AccessControl.AccessControlSections
 - uid: System.Security.AccessControl.NativeObjectSecurity.#ctor(System.Boolean,System.Security.AccessControl.ResourceType,System.Runtime.InteropServices.SafeHandle,System.Security.AccessControl.AccessControlSections,System.Security.AccessControl.NativeObjectSecurity.ExceptionFromErrorCode,System.Object)
   parent: System.Security.AccessControl.NativeObjectSecurity
   isExternal: false
   name: NativeObjectSecurity(Boolean,ResourceType,SafeHandle,AccessControlSections,NativeObjectSecurity+ExceptionFromErrorCode,Object)
   nameWithType: NativeObjectSecurity.NativeObjectSecurity(Boolean,ResourceType,SafeHandle,AccessControlSections,NativeObjectSecurity+ExceptionFromErrorCode,Object)
   fullName: System.Security.AccessControl.NativeObjectSecurity.NativeObjectSecurity(Boolean,ResourceType,SafeHandle,AccessControlSections,NativeObjectSecurity+ExceptionFromErrorCode,Object)
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
-- uid: System.Security.AccessControl.ResourceType
-  parent: System.Security.AccessControl
-  isExternal: false
-  name: ResourceType
-  nameWithType: ResourceType
-  fullName: System.Security.AccessControl.ResourceType
-- uid: System.Runtime.InteropServices.SafeHandle
-  parent: System.Runtime.InteropServices
-  isExternal: false
-  name: SafeHandle
-  nameWithType: SafeHandle
-  fullName: System.Runtime.InteropServices.SafeHandle
-- uid: System.Security.AccessControl.AccessControlSections
-  parent: System.Security.AccessControl
-  isExternal: false
-  name: AccessControlSections
-  nameWithType: AccessControlSections
-  fullName: System.Security.AccessControl.AccessControlSections
-- uid: System.Security.AccessControl.NativeObjectSecurity.ExceptionFromErrorCode
-  parent: System.Security.AccessControl
-  isExternal: false
-  name: NativeObjectSecurity+ExceptionFromErrorCode
-  nameWithType: NativeObjectSecurity+ExceptionFromErrorCode
-  fullName: System.Security.AccessControl.NativeObjectSecurity+ExceptionFromErrorCode
-- uid: System.Object
-  parent: System
-  isExternal: false
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
 - uid: System.Security.AccessControl.NativeObjectSecurity.#ctor(System.Boolean,System.Security.AccessControl.ResourceType,System.String,System.Security.AccessControl.AccessControlSections,System.Security.AccessControl.NativeObjectSecurity.ExceptionFromErrorCode,System.Object)
   parent: System.Security.AccessControl.NativeObjectSecurity
   isExternal: false
   name: NativeObjectSecurity(Boolean,ResourceType,String,AccessControlSections,NativeObjectSecurity+ExceptionFromErrorCode,Object)
   nameWithType: NativeObjectSecurity.NativeObjectSecurity(Boolean,ResourceType,String,AccessControlSections,NativeObjectSecurity+ExceptionFromErrorCode,Object)
   fullName: System.Security.AccessControl.NativeObjectSecurity.NativeObjectSecurity(Boolean,ResourceType,String,AccessControlSections,NativeObjectSecurity+ExceptionFromErrorCode,Object)
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
-- uid: System.Security.AccessControl.ResourceType
-  parent: System.Security.AccessControl
-  isExternal: false
-  name: ResourceType
-  nameWithType: ResourceType
-  fullName: System.Security.AccessControl.ResourceType
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
-- uid: System.Security.AccessControl.AccessControlSections
-  parent: System.Security.AccessControl
-  isExternal: false
-  name: AccessControlSections
-  nameWithType: AccessControlSections
-  fullName: System.Security.AccessControl.AccessControlSections
-- uid: System.Security.AccessControl.NativeObjectSecurity.ExceptionFromErrorCode
-  parent: System.Security.AccessControl
-  isExternal: false
-  name: NativeObjectSecurity+ExceptionFromErrorCode
-  nameWithType: NativeObjectSecurity+ExceptionFromErrorCode
-  fullName: System.Security.AccessControl.NativeObjectSecurity+ExceptionFromErrorCode
-- uid: System.Object
-  parent: System
-  isExternal: false
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
 - uid: System.Security.AccessControl.NativeObjectSecurity.Persist(System.Runtime.InteropServices.SafeHandle,System.Security.AccessControl.AccessControlSections)
   parent: System.Security.AccessControl.NativeObjectSecurity
   isExternal: false
   name: Persist(SafeHandle,AccessControlSections)
   nameWithType: NativeObjectSecurity.Persist(SafeHandle,AccessControlSections)
   fullName: System.Security.AccessControl.NativeObjectSecurity.Persist(SafeHandle,AccessControlSections)
-- uid: System.Runtime.InteropServices.SafeHandle
-  parent: System.Runtime.InteropServices
-  isExternal: false
-  name: SafeHandle
-  nameWithType: SafeHandle
-  fullName: System.Runtime.InteropServices.SafeHandle
-- uid: System.Security.AccessControl.AccessControlSections
-  parent: System.Security.AccessControl
-  isExternal: false
-  name: AccessControlSections
-  nameWithType: AccessControlSections
-  fullName: System.Security.AccessControl.AccessControlSections
 - uid: System.Security.AccessControl.NativeObjectSecurity.Persist(System.String,System.Security.AccessControl.AccessControlSections)
   parent: System.Security.AccessControl.NativeObjectSecurity
   isExternal: false
   name: Persist(String,AccessControlSections)
   nameWithType: NativeObjectSecurity.Persist(String,AccessControlSections)
   fullName: System.Security.AccessControl.NativeObjectSecurity.Persist(String,AccessControlSections)
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
-- uid: System.Security.AccessControl.AccessControlSections
-  parent: System.Security.AccessControl
-  isExternal: false
-  name: AccessControlSections
-  nameWithType: AccessControlSections
-  fullName: System.Security.AccessControl.AccessControlSections
 - uid: System.Security.AccessControl.NativeObjectSecurity.Persist(System.Runtime.InteropServices.SafeHandle,System.Security.AccessControl.AccessControlSections,System.Object)
   parent: System.Security.AccessControl.NativeObjectSecurity
   isExternal: false
   name: Persist(SafeHandle,AccessControlSections,Object)
   nameWithType: NativeObjectSecurity.Persist(SafeHandle,AccessControlSections,Object)
   fullName: System.Security.AccessControl.NativeObjectSecurity.Persist(SafeHandle,AccessControlSections,Object)
-- uid: System.Runtime.InteropServices.SafeHandle
-  parent: System.Runtime.InteropServices
-  isExternal: false
-  name: SafeHandle
-  nameWithType: SafeHandle
-  fullName: System.Runtime.InteropServices.SafeHandle
-- uid: System.Security.AccessControl.AccessControlSections
-  parent: System.Security.AccessControl
-  isExternal: false
-  name: AccessControlSections
-  nameWithType: AccessControlSections
-  fullName: System.Security.AccessControl.AccessControlSections
-- uid: System.Object
-  parent: System
-  isExternal: false
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
 - uid: System.Security.AccessControl.NativeObjectSecurity.Persist(System.String,System.Security.AccessControl.AccessControlSections,System.Object)
   parent: System.Security.AccessControl.NativeObjectSecurity
   isExternal: false
   name: Persist(String,AccessControlSections,Object)
   nameWithType: NativeObjectSecurity.Persist(String,AccessControlSections,Object)
   fullName: System.Security.AccessControl.NativeObjectSecurity.Persist(String,AccessControlSections,Object)
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
-- uid: System.Security.AccessControl.AccessControlSections
-  parent: System.Security.AccessControl
-  isExternal: false
-  name: AccessControlSections
-  nameWithType: AccessControlSections
-  fullName: System.Security.AccessControl.AccessControlSections
-- uid: System.Object
-  parent: System
-  isExternal: false
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
 - uid: System.Security.AccessControl.NativeObjectSecurity.#ctor*
   parent: System.Security.AccessControl.NativeObjectSecurity
   isExternal: false

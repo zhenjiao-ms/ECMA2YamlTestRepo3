@@ -99,6 +99,7 @@ items:
     content: public ChineseLunisolarCalendar ();
     parameters: []
   overload: System.Globalization.ChineseLunisolarCalendar.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -122,6 +123,7 @@ items:
     return:
       type: System.Int32
       description: To be added.
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -146,6 +148,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.Globalization.ChineseLunisolarCalendar.DaysInYearBeforeMinSupportedYear*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -170,6 +173,7 @@ items:
       type: System.Int32[]
       description: To be added.
   overload: System.Globalization.ChineseLunisolarCalendar.Eras*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -198,6 +202,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.Globalization.ChineseLunisolarCalendar.GetEra*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -222,6 +227,7 @@ items:
       type: System.DateTime
       description: To be added.
   overload: System.Globalization.ChineseLunisolarCalendar.MaxSupportedDateTime*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -246,6 +252,7 @@ items:
       type: System.DateTime
       description: To be added.
   overload: System.Globalization.ChineseLunisolarCalendar.MinSupportedDateTime*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -278,36 +285,32 @@ references:
   name: DaysInYearBeforeMinSupportedYear
   nameWithType: ChineseLunisolarCalendar.DaysInYearBeforeMinSupportedYear
   fullName: System.Globalization.ChineseLunisolarCalendar.DaysInYearBeforeMinSupportedYear
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
 - uid: System.Globalization.ChineseLunisolarCalendar.Eras
   parent: System.Globalization.ChineseLunisolarCalendar
   isExternal: false
   name: Eras
   nameWithType: ChineseLunisolarCalendar.Eras
   fullName: System.Globalization.ChineseLunisolarCalendar.Eras
-- uid: System.Int32
+- uid: System.Int32[]
   parent: System
   isExternal: false
   name: Int32
   nameWithType: Int32
   fullName: System.Int32[]
+  spec.csharp:
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: Int32[]
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
 - uid: System.Globalization.ChineseLunisolarCalendar.GetEra(System.DateTime)
   parent: System.Globalization.ChineseLunisolarCalendar
   isExternal: false
   name: GetEra(DateTime)
   nameWithType: ChineseLunisolarCalendar.GetEra(DateTime)
   fullName: System.Globalization.ChineseLunisolarCalendar.GetEra(DateTime)
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
 - uid: System.DateTime
   parent: System
   isExternal: false
@@ -320,24 +323,12 @@ references:
   name: MaxSupportedDateTime
   nameWithType: ChineseLunisolarCalendar.MaxSupportedDateTime
   fullName: System.Globalization.ChineseLunisolarCalendar.MaxSupportedDateTime
-- uid: System.DateTime
-  parent: System
-  isExternal: false
-  name: DateTime
-  nameWithType: DateTime
-  fullName: System.DateTime
 - uid: System.Globalization.ChineseLunisolarCalendar.MinSupportedDateTime
   parent: System.Globalization.ChineseLunisolarCalendar
   isExternal: false
   name: MinSupportedDateTime
   nameWithType: ChineseLunisolarCalendar.MinSupportedDateTime
   fullName: System.Globalization.ChineseLunisolarCalendar.MinSupportedDateTime
-- uid: System.DateTime
-  parent: System
-  isExternal: false
-  name: DateTime
-  nameWithType: DateTime
-  fullName: System.DateTime
 - uid: System.Globalization.ChineseLunisolarCalendar.#ctor*
   parent: System.Globalization.ChineseLunisolarCalendar
   isExternal: false

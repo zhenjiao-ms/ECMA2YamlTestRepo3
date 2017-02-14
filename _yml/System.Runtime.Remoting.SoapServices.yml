@@ -84,6 +84,7 @@ items:
       type: System.String
       description: To be added.
   overload: System.Runtime.Remoting.SoapServices.CodeXmlNamespaceForClrTypeNamespace*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -118,6 +119,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Runtime.Remoting.SoapServices.DecodeXmlNamespaceForClrTypeNamespace*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -155,6 +157,7 @@ items:
       type: System.String
       description: To be added.
   overload: System.Runtime.Remoting.SoapServices.GetInteropFieldTypeAndNameFromXmlAttribute*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -192,6 +195,7 @@ items:
       type: System.String
       description: To be added.
   overload: System.Runtime.Remoting.SoapServices.GetInteropFieldTypeAndNameFromXmlElement*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -223,6 +227,7 @@ items:
       type: System.Type
       description: To be added.
   overload: System.Runtime.Remoting.SoapServices.GetInteropTypeFromXmlElement*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -254,6 +259,7 @@ items:
       type: System.Type
       description: To be added.
   overload: System.Runtime.Remoting.SoapServices.GetInteropTypeFromXmlType*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -282,6 +288,7 @@ items:
       type: System.String
       description: To be added.
   overload: System.Runtime.Remoting.SoapServices.GetSoapActionFromMethodBase*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -316,6 +323,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Runtime.Remoting.SoapServices.GetTypeAndMethodNameFromSoapAction*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -350,6 +358,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Runtime.Remoting.SoapServices.GetXmlElementForInteropType*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -378,6 +387,7 @@ items:
       type: System.String
       description: To be added.
   overload: System.Runtime.Remoting.SoapServices.GetXmlNamespaceForMethodCall*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -406,6 +416,7 @@ items:
       type: System.String
       description: To be added.
   overload: System.Runtime.Remoting.SoapServices.GetXmlNamespaceForMethodResponse*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -440,6 +451,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Runtime.Remoting.SoapServices.GetXmlTypeForInteropType*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -468,6 +480,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Runtime.Remoting.SoapServices.IsClrTypeNamespace*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -499,6 +512,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Runtime.Remoting.SoapServices.IsSoapActionValidForMethodBase*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -524,6 +538,7 @@ items:
       type: System.Reflection.Assembly
       description: To be added.
   overload: System.Runtime.Remoting.SoapServices.PreLoad*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -549,6 +564,7 @@ items:
       type: System.Type
       description: To be added.
   overload: System.Runtime.Remoting.SoapServices.PreLoad*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -580,6 +596,7 @@ items:
       type: System.Type
       description: To be added.
   overload: System.Runtime.Remoting.SoapServices.RegisterInteropXmlElement*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -611,6 +628,7 @@ items:
       type: System.Type
       description: To be added.
   overload: System.Runtime.Remoting.SoapServices.RegisterInteropXmlType*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -636,6 +654,7 @@ items:
       type: System.Reflection.MethodBase
       description: To be added.
   overload: System.Runtime.Remoting.SoapServices.RegisterSoapActionForMethodBase*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -664,6 +683,7 @@ items:
       type: System.String
       description: To be added.
   overload: System.Runtime.Remoting.SoapServices.RegisterSoapActionForMethodBase*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -688,6 +708,7 @@ items:
       type: System.String
       description: To be added.
   overload: System.Runtime.Remoting.SoapServices.XmlNsForClrType*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -712,6 +733,7 @@ items:
       type: System.String
       description: To be added.
   overload: System.Runtime.Remoting.SoapServices.XmlNsForClrTypeWithAssembly*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -736,6 +758,7 @@ items:
       type: System.String
       description: To be added.
   overload: System.Runtime.Remoting.SoapServices.XmlNsForClrTypeWithNs*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -760,6 +783,7 @@ items:
       type: System.String
       description: To be added.
   overload: System.Runtime.Remoting.SoapServices.XmlNsForClrTypeWithNsAndAssembly*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -780,18 +804,6 @@ references:
   name: String
   nameWithType: String
   fullName: System.String
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
 - uid: System.Runtime.Remoting.SoapServices.DecodeXmlNamespaceForClrTypeNamespace(System.String,System.String@,System.String@)
   parent: System.Runtime.Remoting.SoapServices
   isExternal: false
@@ -804,24 +816,6 @@ references:
   name: Boolean
   nameWithType: Boolean
   fullName: System.Boolean
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
 - uid: System.Runtime.Remoting.SoapServices.GetInteropFieldTypeAndNameFromXmlAttribute(System.Type,System.String,System.String,System.Type@,System.String@)
   parent: System.Runtime.Remoting.SoapServices
   isExternal: false
@@ -834,126 +828,30 @@ references:
   name: Type
   nameWithType: Type
   fullName: System.Type
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
-- uid: System.Type
-  parent: System
-  isExternal: false
-  name: Type
-  nameWithType: Type
-  fullName: System.Type
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
 - uid: System.Runtime.Remoting.SoapServices.GetInteropFieldTypeAndNameFromXmlElement(System.Type,System.String,System.String,System.Type@,System.String@)
   parent: System.Runtime.Remoting.SoapServices
   isExternal: false
   name: GetInteropFieldTypeAndNameFromXmlElement(Type,String,String,Type,String)
   nameWithType: SoapServices.GetInteropFieldTypeAndNameFromXmlElement(Type,String,String,Type,String)
   fullName: System.Runtime.Remoting.SoapServices.GetInteropFieldTypeAndNameFromXmlElement(Type,String,String,Type,String)
-- uid: System.Type
-  parent: System
-  isExternal: false
-  name: Type
-  nameWithType: Type
-  fullName: System.Type
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
-- uid: System.Type
-  parent: System
-  isExternal: false
-  name: Type
-  nameWithType: Type
-  fullName: System.Type
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
 - uid: System.Runtime.Remoting.SoapServices.GetInteropTypeFromXmlElement(System.String,System.String)
   parent: System.Runtime.Remoting.SoapServices
   isExternal: false
   name: GetInteropTypeFromXmlElement(String,String)
   nameWithType: SoapServices.GetInteropTypeFromXmlElement(String,String)
   fullName: System.Runtime.Remoting.SoapServices.GetInteropTypeFromXmlElement(String,String)
-- uid: System.Type
-  parent: System
-  isExternal: false
-  name: Type
-  nameWithType: Type
-  fullName: System.Type
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
 - uid: System.Runtime.Remoting.SoapServices.GetInteropTypeFromXmlType(System.String,System.String)
   parent: System.Runtime.Remoting.SoapServices
   isExternal: false
   name: GetInteropTypeFromXmlType(String,String)
   nameWithType: SoapServices.GetInteropTypeFromXmlType(String,String)
   fullName: System.Runtime.Remoting.SoapServices.GetInteropTypeFromXmlType(String,String)
-- uid: System.Type
-  parent: System
-  isExternal: false
-  name: Type
-  nameWithType: Type
-  fullName: System.Type
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
 - uid: System.Runtime.Remoting.SoapServices.GetSoapActionFromMethodBase(System.Reflection.MethodBase)
   parent: System.Runtime.Remoting.SoapServices
   isExternal: false
   name: GetSoapActionFromMethodBase(MethodBase)
   nameWithType: SoapServices.GetSoapActionFromMethodBase(MethodBase)
   fullName: System.Runtime.Remoting.SoapServices.GetSoapActionFromMethodBase(MethodBase)
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
 - uid: System.Reflection.MethodBase
   parent: System.Reflection
   isExternal: false
@@ -966,168 +864,42 @@ references:
   name: GetTypeAndMethodNameFromSoapAction(String,String,String)
   nameWithType: SoapServices.GetTypeAndMethodNameFromSoapAction(String,String,String)
   fullName: System.Runtime.Remoting.SoapServices.GetTypeAndMethodNameFromSoapAction(String,String,String)
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
 - uid: System.Runtime.Remoting.SoapServices.GetXmlElementForInteropType(System.Type,System.String@,System.String@)
   parent: System.Runtime.Remoting.SoapServices
   isExternal: false
   name: GetXmlElementForInteropType(Type,String,String)
   nameWithType: SoapServices.GetXmlElementForInteropType(Type,String,String)
   fullName: System.Runtime.Remoting.SoapServices.GetXmlElementForInteropType(Type,String,String)
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
-- uid: System.Type
-  parent: System
-  isExternal: false
-  name: Type
-  nameWithType: Type
-  fullName: System.Type
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
 - uid: System.Runtime.Remoting.SoapServices.GetXmlNamespaceForMethodCall(System.Reflection.MethodBase)
   parent: System.Runtime.Remoting.SoapServices
   isExternal: false
   name: GetXmlNamespaceForMethodCall(MethodBase)
   nameWithType: SoapServices.GetXmlNamespaceForMethodCall(MethodBase)
   fullName: System.Runtime.Remoting.SoapServices.GetXmlNamespaceForMethodCall(MethodBase)
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
-- uid: System.Reflection.MethodBase
-  parent: System.Reflection
-  isExternal: false
-  name: MethodBase
-  nameWithType: MethodBase
-  fullName: System.Reflection.MethodBase
 - uid: System.Runtime.Remoting.SoapServices.GetXmlNamespaceForMethodResponse(System.Reflection.MethodBase)
   parent: System.Runtime.Remoting.SoapServices
   isExternal: false
   name: GetXmlNamespaceForMethodResponse(MethodBase)
   nameWithType: SoapServices.GetXmlNamespaceForMethodResponse(MethodBase)
   fullName: System.Runtime.Remoting.SoapServices.GetXmlNamespaceForMethodResponse(MethodBase)
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
-- uid: System.Reflection.MethodBase
-  parent: System.Reflection
-  isExternal: false
-  name: MethodBase
-  nameWithType: MethodBase
-  fullName: System.Reflection.MethodBase
 - uid: System.Runtime.Remoting.SoapServices.GetXmlTypeForInteropType(System.Type,System.String@,System.String@)
   parent: System.Runtime.Remoting.SoapServices
   isExternal: false
   name: GetXmlTypeForInteropType(Type,String,String)
   nameWithType: SoapServices.GetXmlTypeForInteropType(Type,String,String)
   fullName: System.Runtime.Remoting.SoapServices.GetXmlTypeForInteropType(Type,String,String)
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
-- uid: System.Type
-  parent: System
-  isExternal: false
-  name: Type
-  nameWithType: Type
-  fullName: System.Type
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
 - uid: System.Runtime.Remoting.SoapServices.IsClrTypeNamespace(System.String)
   parent: System.Runtime.Remoting.SoapServices
   isExternal: false
   name: IsClrTypeNamespace(String)
   nameWithType: SoapServices.IsClrTypeNamespace(String)
   fullName: System.Runtime.Remoting.SoapServices.IsClrTypeNamespace(String)
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
 - uid: System.Runtime.Remoting.SoapServices.IsSoapActionValidForMethodBase(System.String,System.Reflection.MethodBase)
   parent: System.Runtime.Remoting.SoapServices
   isExternal: false
   name: IsSoapActionValidForMethodBase(String,MethodBase)
   nameWithType: SoapServices.IsSoapActionValidForMethodBase(String,MethodBase)
   fullName: System.Runtime.Remoting.SoapServices.IsSoapActionValidForMethodBase(String,MethodBase)
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
-- uid: System.Reflection.MethodBase
-  parent: System.Reflection
-  isExternal: false
-  name: MethodBase
-  nameWithType: MethodBase
-  fullName: System.Reflection.MethodBase
 - uid: System.Runtime.Remoting.SoapServices.PreLoad(System.Reflection.Assembly)
   parent: System.Runtime.Remoting.SoapServices
   isExternal: false
@@ -1146,138 +918,54 @@ references:
   name: PreLoad(Type)
   nameWithType: SoapServices.PreLoad(Type)
   fullName: System.Runtime.Remoting.SoapServices.PreLoad(Type)
-- uid: System.Type
-  parent: System
-  isExternal: false
-  name: Type
-  nameWithType: Type
-  fullName: System.Type
 - uid: System.Runtime.Remoting.SoapServices.RegisterInteropXmlElement(System.String,System.String,System.Type)
   parent: System.Runtime.Remoting.SoapServices
   isExternal: false
   name: RegisterInteropXmlElement(String,String,Type)
   nameWithType: SoapServices.RegisterInteropXmlElement(String,String,Type)
   fullName: System.Runtime.Remoting.SoapServices.RegisterInteropXmlElement(String,String,Type)
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
-- uid: System.Type
-  parent: System
-  isExternal: false
-  name: Type
-  nameWithType: Type
-  fullName: System.Type
 - uid: System.Runtime.Remoting.SoapServices.RegisterInteropXmlType(System.String,System.String,System.Type)
   parent: System.Runtime.Remoting.SoapServices
   isExternal: false
   name: RegisterInteropXmlType(String,String,Type)
   nameWithType: SoapServices.RegisterInteropXmlType(String,String,Type)
   fullName: System.Runtime.Remoting.SoapServices.RegisterInteropXmlType(String,String,Type)
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
-- uid: System.Type
-  parent: System
-  isExternal: false
-  name: Type
-  nameWithType: Type
-  fullName: System.Type
 - uid: System.Runtime.Remoting.SoapServices.RegisterSoapActionForMethodBase(System.Reflection.MethodBase)
   parent: System.Runtime.Remoting.SoapServices
   isExternal: false
   name: RegisterSoapActionForMethodBase(MethodBase)
   nameWithType: SoapServices.RegisterSoapActionForMethodBase(MethodBase)
   fullName: System.Runtime.Remoting.SoapServices.RegisterSoapActionForMethodBase(MethodBase)
-- uid: System.Reflection.MethodBase
-  parent: System.Reflection
-  isExternal: false
-  name: MethodBase
-  nameWithType: MethodBase
-  fullName: System.Reflection.MethodBase
 - uid: System.Runtime.Remoting.SoapServices.RegisterSoapActionForMethodBase(System.Reflection.MethodBase,System.String)
   parent: System.Runtime.Remoting.SoapServices
   isExternal: false
   name: RegisterSoapActionForMethodBase(MethodBase,String)
   nameWithType: SoapServices.RegisterSoapActionForMethodBase(MethodBase,String)
   fullName: System.Runtime.Remoting.SoapServices.RegisterSoapActionForMethodBase(MethodBase,String)
-- uid: System.Reflection.MethodBase
-  parent: System.Reflection
-  isExternal: false
-  name: MethodBase
-  nameWithType: MethodBase
-  fullName: System.Reflection.MethodBase
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
 - uid: System.Runtime.Remoting.SoapServices.XmlNsForClrType
   parent: System.Runtime.Remoting.SoapServices
   isExternal: false
   name: XmlNsForClrType
   nameWithType: SoapServices.XmlNsForClrType
   fullName: System.Runtime.Remoting.SoapServices.XmlNsForClrType
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
 - uid: System.Runtime.Remoting.SoapServices.XmlNsForClrTypeWithAssembly
   parent: System.Runtime.Remoting.SoapServices
   isExternal: false
   name: XmlNsForClrTypeWithAssembly
   nameWithType: SoapServices.XmlNsForClrTypeWithAssembly
   fullName: System.Runtime.Remoting.SoapServices.XmlNsForClrTypeWithAssembly
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
 - uid: System.Runtime.Remoting.SoapServices.XmlNsForClrTypeWithNs
   parent: System.Runtime.Remoting.SoapServices
   isExternal: false
   name: XmlNsForClrTypeWithNs
   nameWithType: SoapServices.XmlNsForClrTypeWithNs
   fullName: System.Runtime.Remoting.SoapServices.XmlNsForClrTypeWithNs
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
 - uid: System.Runtime.Remoting.SoapServices.XmlNsForClrTypeWithNsAndAssembly
   parent: System.Runtime.Remoting.SoapServices
   isExternal: false
   name: XmlNsForClrTypeWithNsAndAssembly
   nameWithType: SoapServices.XmlNsForClrTypeWithNsAndAssembly
   fullName: System.Runtime.Remoting.SoapServices.XmlNsForClrTypeWithNsAndAssembly
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
 - uid: System.Runtime.Remoting.SoapServices.CodeXmlNamespaceForClrTypeNamespace*
   parent: System.Runtime.Remoting.SoapServices
   isExternal: false

@@ -59,6 +59,7 @@ items:
     content: public ClientChannelSinkStack ();
     parameters: []
   overload: System.Runtime.Remoting.Channels.ClientChannelSinkStack.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -84,6 +85,7 @@ items:
       type: System.Runtime.Remoting.Messaging.IMessageSink
       description: To be added.
   overload: System.Runtime.Remoting.Channels.ClientChannelSinkStack.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -112,6 +114,7 @@ items:
       type: System.IO.Stream
       description: To be added.
   overload: System.Runtime.Remoting.Channels.ClientChannelSinkStack.AsyncProcessResponse*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -137,6 +140,7 @@ items:
       type: System.Exception
       description: To be added.
   overload: System.Runtime.Remoting.Channels.ClientChannelSinkStack.DispatchException*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -162,6 +166,7 @@ items:
       type: System.Runtime.Remoting.Messaging.IMessage
       description: To be added.
   overload: System.Runtime.Remoting.Channels.ClientChannelSinkStack.DispatchReplyMessage*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -190,6 +195,7 @@ items:
       type: System.Object
       description: To be added.
   overload: System.Runtime.Remoting.Channels.ClientChannelSinkStack.Pop*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -218,6 +224,7 @@ items:
       type: System.Object
       description: To be added.
   overload: System.Runtime.Remoting.Channels.ClientChannelSinkStack.Push*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -292,12 +299,6 @@ references:
   name: Pop(IClientChannelSink)
   nameWithType: ClientChannelSinkStack.Pop(IClientChannelSink)
   fullName: System.Runtime.Remoting.Channels.ClientChannelSinkStack.Pop(IClientChannelSink)
-- uid: System.Object
-  parent: System
-  isExternal: false
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
 - uid: System.Runtime.Remoting.Channels.IClientChannelSink
   parent: System.Runtime.Remoting.Channels
   isExternal: false
@@ -310,18 +311,6 @@ references:
   name: Push(IClientChannelSink,Object)
   nameWithType: ClientChannelSinkStack.Push(IClientChannelSink,Object)
   fullName: System.Runtime.Remoting.Channels.ClientChannelSinkStack.Push(IClientChannelSink,Object)
-- uid: System.Runtime.Remoting.Channels.IClientChannelSink
-  parent: System.Runtime.Remoting.Channels
-  isExternal: false
-  name: IClientChannelSink
-  nameWithType: IClientChannelSink
-  fullName: System.Runtime.Remoting.Channels.IClientChannelSink
-- uid: System.Object
-  parent: System
-  isExternal: false
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
 - uid: System.Runtime.Remoting.Channels.ClientChannelSinkStack.#ctor*
   parent: System.Runtime.Remoting.Channels.ClientChannelSinkStack
   isExternal: false

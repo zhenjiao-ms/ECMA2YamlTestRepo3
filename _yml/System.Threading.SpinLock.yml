@@ -59,6 +59,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Threading.SpinLock.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -84,6 +85,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Threading.SpinLock.Enter*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -106,6 +108,7 @@ items:
     content: public void Exit ();
     parameters: []
   overload: System.Threading.SpinLock.Exit*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -131,6 +134,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Threading.SpinLock.Exit*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -155,6 +159,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Threading.SpinLock.IsHeld*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -179,6 +184,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Threading.SpinLock.IsHeldByCurrentThread*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -203,6 +209,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Threading.SpinLock.IsThreadOwnerTrackingEnabled*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -228,6 +235,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Threading.SpinLock.TryEnter*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -256,6 +264,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Threading.SpinLock.TryEnter*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -284,6 +293,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Threading.SpinLock.TryEnter*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -310,12 +320,6 @@ references:
   name: Enter(Boolean)
   nameWithType: SpinLock.Enter(Boolean)
   fullName: System.Threading.SpinLock.Enter(Boolean)
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
 - uid: System.Threading.SpinLock.Exit
   parent: System.Threading.SpinLock
   isExternal: false
@@ -328,60 +332,30 @@ references:
   name: Exit(Boolean)
   nameWithType: SpinLock.Exit(Boolean)
   fullName: System.Threading.SpinLock.Exit(Boolean)
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
 - uid: System.Threading.SpinLock.IsHeld
   parent: System.Threading.SpinLock
   isExternal: false
   name: IsHeld
   nameWithType: SpinLock.IsHeld
   fullName: System.Threading.SpinLock.IsHeld
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
 - uid: System.Threading.SpinLock.IsHeldByCurrentThread
   parent: System.Threading.SpinLock
   isExternal: false
   name: IsHeldByCurrentThread
   nameWithType: SpinLock.IsHeldByCurrentThread
   fullName: System.Threading.SpinLock.IsHeldByCurrentThread
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
 - uid: System.Threading.SpinLock.IsThreadOwnerTrackingEnabled
   parent: System.Threading.SpinLock
   isExternal: false
   name: IsThreadOwnerTrackingEnabled
   nameWithType: SpinLock.IsThreadOwnerTrackingEnabled
   fullName: System.Threading.SpinLock.IsThreadOwnerTrackingEnabled
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
 - uid: System.Threading.SpinLock.TryEnter(System.Boolean@)
   parent: System.Threading.SpinLock
   isExternal: false
   name: TryEnter(Boolean)
   nameWithType: SpinLock.TryEnter(Boolean)
   fullName: System.Threading.SpinLock.TryEnter(Boolean)
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
 - uid: System.Threading.SpinLock.TryEnter(System.Int32,System.Boolean@)
   parent: System.Threading.SpinLock
   isExternal: false
@@ -394,12 +368,6 @@ references:
   name: Int32
   nameWithType: Int32
   fullName: System.Int32
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
 - uid: System.Threading.SpinLock.TryEnter(System.TimeSpan,System.Boolean@)
   parent: System.Threading.SpinLock
   isExternal: false
@@ -412,12 +380,6 @@ references:
   name: TimeSpan
   nameWithType: TimeSpan
   fullName: System.TimeSpan
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
 - uid: System.Threading.SpinLock.#ctor*
   parent: System.Threading.SpinLock
   isExternal: false

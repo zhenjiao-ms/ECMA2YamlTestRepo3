@@ -75,6 +75,7 @@ items:
     content: protected ResourceManager ();
     parameters: []
   overload: System.Resources.ResourceManager.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -100,6 +101,7 @@ items:
       type: System.Type
       description: To be added.
   overload: System.Resources.ResourceManager.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -128,6 +130,7 @@ items:
       type: System.Reflection.Assembly
       description: To be added.
   overload: System.Resources.ResourceManager.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -159,6 +162,7 @@ items:
       type: System.Type
       description: To be added.
   overload: System.Resources.ResourceManager.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -183,6 +187,7 @@ items:
       type: System.String
       description: To be added.
   overload: System.Resources.ResourceManager.BaseName*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -206,6 +211,7 @@ items:
     return:
       type: System.String
       description: To be added.
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -240,6 +246,7 @@ items:
       type: System.Resources.ResourceManager
       description: To be added.
   overload: System.Resources.ResourceManager.CreateFileBasedResourceManager*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -264,6 +271,7 @@ items:
       type: System.Resources.UltimateResourceFallbackLocation
       description: To be added.
   overload: System.Resources.ResourceManager.FallbackLocation*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -292,6 +300,7 @@ items:
       type: System.Globalization.CultureInfo
       description: To be added.
   overload: System.Resources.ResourceManager.GetNeutralResourcesLanguage*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -320,6 +329,7 @@ items:
       type: System.Object
       description: To be added.
   overload: System.Resources.ResourceManager.GetObject*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -351,6 +361,7 @@ items:
       type: System.Object
       description: To be added.
   overload: System.Resources.ResourceManager.GetObject*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -379,6 +390,7 @@ items:
       type: System.String
       description: To be added.
   overload: System.Resources.ResourceManager.GetResourceFileName*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -413,6 +425,7 @@ items:
       type: System.Resources.ResourceSet
       description: To be added.
   overload: System.Resources.ResourceManager.GetResourceSet*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -441,6 +454,7 @@ items:
       type: System.Version
       description: To be added.
   overload: System.Resources.ResourceManager.GetSatelliteContractVersion*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -469,6 +483,7 @@ items:
       type: System.IO.UnmanagedMemoryStream
       description: To be added.
   overload: System.Resources.ResourceManager.GetStream*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -500,6 +515,7 @@ items:
       type: System.IO.UnmanagedMemoryStream
       description: To be added.
   overload: System.Resources.ResourceManager.GetStream*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -528,6 +544,7 @@ items:
       type: System.String
       description: To be added.
   overload: System.Resources.ResourceManager.GetString*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -559,6 +576,7 @@ items:
       type: System.String
       description: To be added.
   overload: System.Resources.ResourceManager.GetString*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -582,6 +600,7 @@ items:
     return:
       type: System.Int32
       description: To be added.
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -606,6 +625,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Resources.ResourceManager.IgnoreCase*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -640,6 +660,7 @@ items:
       type: System.Resources.ResourceSet
       description: To be added.
   overload: System.Resources.ResourceManager.InternalGetResourceSet*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -663,6 +684,7 @@ items:
     return:
       type: System.Int32
       description: To be added.
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -686,6 +708,7 @@ items:
     return:
       type: System.Reflection.Assembly
       description: To be added.
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -708,6 +731,7 @@ items:
     content: public virtual void ReleaseAllResources ();
     parameters: []
   overload: System.Resources.ResourceManager.ReleaseAllResources*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -731,6 +755,7 @@ items:
     return:
       type: System.Collections.Hashtable
       description: To be added.
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -755,6 +780,7 @@ items:
       type: System.Type
       description: To be added.
   overload: System.Resources.ResourceManager.ResourceSetType*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -805,48 +831,18 @@ references:
   name: ResourceManager(String,Assembly,Type)
   nameWithType: ResourceManager.ResourceManager(String,Assembly,Type)
   fullName: System.Resources.ResourceManager.ResourceManager(String,Assembly,Type)
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
-- uid: System.Reflection.Assembly
-  parent: System.Reflection
-  isExternal: false
-  name: Assembly
-  nameWithType: Assembly
-  fullName: System.Reflection.Assembly
-- uid: System.Type
-  parent: System
-  isExternal: false
-  name: Type
-  nameWithType: Type
-  fullName: System.Type
 - uid: System.Resources.ResourceManager.BaseName
   parent: System.Resources.ResourceManager
   isExternal: false
   name: BaseName
   nameWithType: ResourceManager.BaseName
   fullName: System.Resources.ResourceManager.BaseName
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
 - uid: System.Resources.ResourceManager.BaseNameField
   parent: System.Resources.ResourceManager
   isExternal: false
   name: BaseNameField
   nameWithType: ResourceManager.BaseNameField
   fullName: System.Resources.ResourceManager.BaseNameField
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
 - uid: System.Resources.ResourceManager.CreateFileBasedResourceManager(System.String,System.String,System.Type)
   parent: System.Resources.ResourceManager
   isExternal: false
@@ -859,24 +855,6 @@ references:
   name: ResourceManager
   nameWithType: ResourceManager
   fullName: System.Resources.ResourceManager
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
-- uid: System.Type
-  parent: System
-  isExternal: false
-  name: Type
-  nameWithType: Type
-  fullName: System.Type
 - uid: System.Resources.ResourceManager.FallbackLocation
   parent: System.Resources.ResourceManager
   isExternal: false
@@ -901,72 +879,24 @@ references:
   name: CultureInfo
   nameWithType: CultureInfo
   fullName: System.Globalization.CultureInfo
-- uid: System.Reflection.Assembly
-  parent: System.Reflection
-  isExternal: false
-  name: Assembly
-  nameWithType: Assembly
-  fullName: System.Reflection.Assembly
 - uid: System.Resources.ResourceManager.GetObject(System.String)
   parent: System.Resources.ResourceManager
   isExternal: false
   name: GetObject(String)
   nameWithType: ResourceManager.GetObject(String)
   fullName: System.Resources.ResourceManager.GetObject(String)
-- uid: System.Object
-  parent: System
-  isExternal: false
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
 - uid: System.Resources.ResourceManager.GetObject(System.String,System.Globalization.CultureInfo)
   parent: System.Resources.ResourceManager
   isExternal: false
   name: GetObject(String,CultureInfo)
   nameWithType: ResourceManager.GetObject(String,CultureInfo)
   fullName: System.Resources.ResourceManager.GetObject(String,CultureInfo)
-- uid: System.Object
-  parent: System
-  isExternal: false
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
-- uid: System.Globalization.CultureInfo
-  parent: System.Globalization
-  isExternal: false
-  name: CultureInfo
-  nameWithType: CultureInfo
-  fullName: System.Globalization.CultureInfo
 - uid: System.Resources.ResourceManager.GetResourceFileName(System.Globalization.CultureInfo)
   parent: System.Resources.ResourceManager
   isExternal: false
   name: GetResourceFileName(CultureInfo)
   nameWithType: ResourceManager.GetResourceFileName(CultureInfo)
   fullName: System.Resources.ResourceManager.GetResourceFileName(CultureInfo)
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
-- uid: System.Globalization.CultureInfo
-  parent: System.Globalization
-  isExternal: false
-  name: CultureInfo
-  nameWithType: CultureInfo
-  fullName: System.Globalization.CultureInfo
 - uid: System.Resources.ResourceManager.GetResourceSet(System.Globalization.CultureInfo,System.Boolean,System.Boolean)
   parent: System.Resources.ResourceManager
   isExternal: false
@@ -979,18 +909,6 @@ references:
   name: ResourceSet
   nameWithType: ResourceSet
   fullName: System.Resources.ResourceSet
-- uid: System.Globalization.CultureInfo
-  parent: System.Globalization
-  isExternal: false
-  name: CultureInfo
-  nameWithType: CultureInfo
-  fullName: System.Globalization.CultureInfo
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
 - uid: System.Boolean
   parent: System
   isExternal: false
@@ -1009,12 +927,6 @@ references:
   name: Version
   nameWithType: Version
   fullName: System.Version
-- uid: System.Reflection.Assembly
-  parent: System.Reflection
-  isExternal: false
-  name: Assembly
-  nameWithType: Assembly
-  fullName: System.Reflection.Assembly
 - uid: System.Resources.ResourceManager.GetStream(System.String)
   parent: System.Resources.ResourceManager
   isExternal: false
@@ -1027,78 +939,24 @@ references:
   name: UnmanagedMemoryStream
   nameWithType: UnmanagedMemoryStream
   fullName: System.IO.UnmanagedMemoryStream
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
 - uid: System.Resources.ResourceManager.GetStream(System.String,System.Globalization.CultureInfo)
   parent: System.Resources.ResourceManager
   isExternal: false
   name: GetStream(String,CultureInfo)
   nameWithType: ResourceManager.GetStream(String,CultureInfo)
   fullName: System.Resources.ResourceManager.GetStream(String,CultureInfo)
-- uid: System.IO.UnmanagedMemoryStream
-  parent: System.IO
-  isExternal: false
-  name: UnmanagedMemoryStream
-  nameWithType: UnmanagedMemoryStream
-  fullName: System.IO.UnmanagedMemoryStream
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
-- uid: System.Globalization.CultureInfo
-  parent: System.Globalization
-  isExternal: false
-  name: CultureInfo
-  nameWithType: CultureInfo
-  fullName: System.Globalization.CultureInfo
 - uid: System.Resources.ResourceManager.GetString(System.String)
   parent: System.Resources.ResourceManager
   isExternal: false
   name: GetString(String)
   nameWithType: ResourceManager.GetString(String)
   fullName: System.Resources.ResourceManager.GetString(String)
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
 - uid: System.Resources.ResourceManager.GetString(System.String,System.Globalization.CultureInfo)
   parent: System.Resources.ResourceManager
   isExternal: false
   name: GetString(String,CultureInfo)
   nameWithType: ResourceManager.GetString(String,CultureInfo)
   fullName: System.Resources.ResourceManager.GetString(String,CultureInfo)
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
-- uid: System.Globalization.CultureInfo
-  parent: System.Globalization
-  isExternal: false
-  name: CultureInfo
-  nameWithType: CultureInfo
-  fullName: System.Globalization.CultureInfo
 - uid: System.Resources.ResourceManager.HeaderVersionNumber
   parent: System.Resources.ResourceManager
   isExternal: false
@@ -1117,66 +975,24 @@ references:
   name: IgnoreCase
   nameWithType: ResourceManager.IgnoreCase
   fullName: System.Resources.ResourceManager.IgnoreCase
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
 - uid: System.Resources.ResourceManager.InternalGetResourceSet(System.Globalization.CultureInfo,System.Boolean,System.Boolean)
   parent: System.Resources.ResourceManager
   isExternal: false
   name: InternalGetResourceSet(CultureInfo,Boolean,Boolean)
   nameWithType: ResourceManager.InternalGetResourceSet(CultureInfo,Boolean,Boolean)
   fullName: System.Resources.ResourceManager.InternalGetResourceSet(CultureInfo,Boolean,Boolean)
-- uid: System.Resources.ResourceSet
-  parent: System.Resources
-  isExternal: false
-  name: ResourceSet
-  nameWithType: ResourceSet
-  fullName: System.Resources.ResourceSet
-- uid: System.Globalization.CultureInfo
-  parent: System.Globalization
-  isExternal: false
-  name: CultureInfo
-  nameWithType: CultureInfo
-  fullName: System.Globalization.CultureInfo
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
 - uid: System.Resources.ResourceManager.MagicNumber
   parent: System.Resources.ResourceManager
   isExternal: false
   name: MagicNumber
   nameWithType: ResourceManager.MagicNumber
   fullName: System.Resources.ResourceManager.MagicNumber
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
 - uid: System.Resources.ResourceManager.MainAssembly
   parent: System.Resources.ResourceManager
   isExternal: false
   name: MainAssembly
   nameWithType: ResourceManager.MainAssembly
   fullName: System.Resources.ResourceManager.MainAssembly
-- uid: System.Reflection.Assembly
-  parent: System.Reflection
-  isExternal: false
-  name: Assembly
-  nameWithType: Assembly
-  fullName: System.Reflection.Assembly
 - uid: System.Resources.ResourceManager.ReleaseAllResources
   parent: System.Resources.ResourceManager
   isExternal: false
@@ -1201,12 +1017,6 @@ references:
   name: ResourceSetType
   nameWithType: ResourceManager.ResourceSetType
   fullName: System.Resources.ResourceManager.ResourceSetType
-- uid: System.Type
-  parent: System
-  isExternal: false
-  name: Type
-  nameWithType: Type
-  fullName: System.Type
 - uid: System.Resources.ResourceManager.#ctor*
   parent: System.Resources.ResourceManager
   isExternal: false

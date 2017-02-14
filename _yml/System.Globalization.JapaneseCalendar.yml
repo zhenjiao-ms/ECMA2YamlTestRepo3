@@ -97,6 +97,7 @@ items:
     content: public JapaneseCalendar ();
     parameters: []
   overload: System.Globalization.JapaneseCalendar.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -128,6 +129,7 @@ items:
       type: System.DateTime
       description: To be added.
   overload: System.Globalization.JapaneseCalendar.AddMonths*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -159,6 +161,7 @@ items:
       type: System.DateTime
       description: To be added.
   overload: System.Globalization.JapaneseCalendar.AddYears*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -183,6 +186,7 @@ items:
       type: System.Globalization.CalendarAlgorithmType
       description: To be added.
   overload: System.Globalization.JapaneseCalendar.AlgorithmType*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -207,6 +211,7 @@ items:
       type: System.Int32[]
       description: To be added.
   overload: System.Globalization.JapaneseCalendar.Eras*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -235,6 +240,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.Globalization.JapaneseCalendar.GetDayOfMonth*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -263,6 +269,7 @@ items:
       type: System.DayOfWeek
       description: To be added.
   overload: System.Globalization.JapaneseCalendar.GetDayOfWeek*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -291,6 +298,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.Globalization.JapaneseCalendar.GetDayOfYear*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -325,6 +333,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.Globalization.JapaneseCalendar.GetDaysInMonth*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -356,6 +365,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.Globalization.JapaneseCalendar.GetDaysInYear*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -384,6 +394,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.Globalization.JapaneseCalendar.GetEra*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -415,6 +426,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.Globalization.JapaneseCalendar.GetLeapMonth*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -443,6 +455,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.Globalization.JapaneseCalendar.GetMonth*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -474,6 +487,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.Globalization.JapaneseCalendar.GetMonthsInYear*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -508,6 +522,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.Globalization.JapaneseCalendar.GetWeekOfYear*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -536,6 +551,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.Globalization.JapaneseCalendar.GetYear*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -573,6 +589,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Globalization.JapaneseCalendar.IsLeapDay*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -607,6 +624,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Globalization.JapaneseCalendar.IsLeapMonth*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -638,6 +656,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Globalization.JapaneseCalendar.IsLeapYear*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -662,6 +681,7 @@ items:
       type: System.DateTime
       description: To be added.
   overload: System.Globalization.JapaneseCalendar.MaxSupportedDateTime*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -686,6 +706,7 @@ items:
       type: System.DateTime
       description: To be added.
   overload: System.Globalization.JapaneseCalendar.MinSupportedDateTime*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -735,6 +756,7 @@ items:
       type: System.DateTime
       description: To be added.
   overload: System.Globalization.JapaneseCalendar.ToDateTime*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -763,6 +785,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.Globalization.JapaneseCalendar.ToFourDigitYear*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -787,6 +810,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.Globalization.JapaneseCalendar.TwoDigitYearMax*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -813,12 +837,6 @@ references:
   name: DateTime
   nameWithType: DateTime
   fullName: System.DateTime
-- uid: System.DateTime
-  parent: System
-  isExternal: false
-  name: DateTime
-  nameWithType: DateTime
-  fullName: System.DateTime
 - uid: System.Int32
   parent: System
   isExternal: false
@@ -831,24 +849,6 @@ references:
   name: AddYears(DateTime,Int32)
   nameWithType: JapaneseCalendar.AddYears(DateTime,Int32)
   fullName: System.Globalization.JapaneseCalendar.AddYears(DateTime,Int32)
-- uid: System.DateTime
-  parent: System
-  isExternal: false
-  name: DateTime
-  nameWithType: DateTime
-  fullName: System.DateTime
-- uid: System.DateTime
-  parent: System
-  isExternal: false
-  name: DateTime
-  nameWithType: DateTime
-  fullName: System.DateTime
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
 - uid: System.Globalization.JapaneseCalendar.AlgorithmType
   parent: System.Globalization.JapaneseCalendar
   isExternal: false
@@ -867,30 +867,26 @@ references:
   name: Eras
   nameWithType: JapaneseCalendar.Eras
   fullName: System.Globalization.JapaneseCalendar.Eras
-- uid: System.Int32
+- uid: System.Int32[]
   parent: System
   isExternal: false
   name: Int32
   nameWithType: Int32
   fullName: System.Int32[]
+  spec.csharp:
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: Int32[]
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
 - uid: System.Globalization.JapaneseCalendar.GetDayOfMonth(System.DateTime)
   parent: System.Globalization.JapaneseCalendar
   isExternal: false
   name: GetDayOfMonth(DateTime)
   nameWithType: JapaneseCalendar.GetDayOfMonth(DateTime)
   fullName: System.Globalization.JapaneseCalendar.GetDayOfMonth(DateTime)
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: System.DateTime
-  parent: System
-  isExternal: false
-  name: DateTime
-  nameWithType: DateTime
-  fullName: System.DateTime
 - uid: System.Globalization.JapaneseCalendar.GetDayOfWeek(System.DateTime)
   parent: System.Globalization.JapaneseCalendar
   isExternal: false
@@ -903,216 +899,66 @@ references:
   name: DayOfWeek
   nameWithType: DayOfWeek
   fullName: System.DayOfWeek
-- uid: System.DateTime
-  parent: System
-  isExternal: false
-  name: DateTime
-  nameWithType: DateTime
-  fullName: System.DateTime
 - uid: System.Globalization.JapaneseCalendar.GetDayOfYear(System.DateTime)
   parent: System.Globalization.JapaneseCalendar
   isExternal: false
   name: GetDayOfYear(DateTime)
   nameWithType: JapaneseCalendar.GetDayOfYear(DateTime)
   fullName: System.Globalization.JapaneseCalendar.GetDayOfYear(DateTime)
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: System.DateTime
-  parent: System
-  isExternal: false
-  name: DateTime
-  nameWithType: DateTime
-  fullName: System.DateTime
 - uid: System.Globalization.JapaneseCalendar.GetDaysInMonth(System.Int32,System.Int32,System.Int32)
   parent: System.Globalization.JapaneseCalendar
   isExternal: false
   name: GetDaysInMonth(Int32,Int32,Int32)
   nameWithType: JapaneseCalendar.GetDaysInMonth(Int32,Int32,Int32)
   fullName: System.Globalization.JapaneseCalendar.GetDaysInMonth(Int32,Int32,Int32)
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
 - uid: System.Globalization.JapaneseCalendar.GetDaysInYear(System.Int32,System.Int32)
   parent: System.Globalization.JapaneseCalendar
   isExternal: false
   name: GetDaysInYear(Int32,Int32)
   nameWithType: JapaneseCalendar.GetDaysInYear(Int32,Int32)
   fullName: System.Globalization.JapaneseCalendar.GetDaysInYear(Int32,Int32)
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
 - uid: System.Globalization.JapaneseCalendar.GetEra(System.DateTime)
   parent: System.Globalization.JapaneseCalendar
   isExternal: false
   name: GetEra(DateTime)
   nameWithType: JapaneseCalendar.GetEra(DateTime)
   fullName: System.Globalization.JapaneseCalendar.GetEra(DateTime)
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: System.DateTime
-  parent: System
-  isExternal: false
-  name: DateTime
-  nameWithType: DateTime
-  fullName: System.DateTime
 - uid: System.Globalization.JapaneseCalendar.GetLeapMonth(System.Int32,System.Int32)
   parent: System.Globalization.JapaneseCalendar
   isExternal: false
   name: GetLeapMonth(Int32,Int32)
   nameWithType: JapaneseCalendar.GetLeapMonth(Int32,Int32)
   fullName: System.Globalization.JapaneseCalendar.GetLeapMonth(Int32,Int32)
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
 - uid: System.Globalization.JapaneseCalendar.GetMonth(System.DateTime)
   parent: System.Globalization.JapaneseCalendar
   isExternal: false
   name: GetMonth(DateTime)
   nameWithType: JapaneseCalendar.GetMonth(DateTime)
   fullName: System.Globalization.JapaneseCalendar.GetMonth(DateTime)
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: System.DateTime
-  parent: System
-  isExternal: false
-  name: DateTime
-  nameWithType: DateTime
-  fullName: System.DateTime
 - uid: System.Globalization.JapaneseCalendar.GetMonthsInYear(System.Int32,System.Int32)
   parent: System.Globalization.JapaneseCalendar
   isExternal: false
   name: GetMonthsInYear(Int32,Int32)
   nameWithType: JapaneseCalendar.GetMonthsInYear(Int32,Int32)
   fullName: System.Globalization.JapaneseCalendar.GetMonthsInYear(Int32,Int32)
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
 - uid: System.Globalization.JapaneseCalendar.GetWeekOfYear(System.DateTime,System.Globalization.CalendarWeekRule,System.DayOfWeek)
   parent: System.Globalization.JapaneseCalendar
   isExternal: false
   name: GetWeekOfYear(DateTime,CalendarWeekRule,DayOfWeek)
   nameWithType: JapaneseCalendar.GetWeekOfYear(DateTime,CalendarWeekRule,DayOfWeek)
   fullName: System.Globalization.JapaneseCalendar.GetWeekOfYear(DateTime,CalendarWeekRule,DayOfWeek)
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: System.DateTime
-  parent: System
-  isExternal: false
-  name: DateTime
-  nameWithType: DateTime
-  fullName: System.DateTime
 - uid: System.Globalization.CalendarWeekRule
   parent: System.Globalization
   isExternal: false
   name: CalendarWeekRule
   nameWithType: CalendarWeekRule
   fullName: System.Globalization.CalendarWeekRule
-- uid: System.DayOfWeek
-  parent: System
-  isExternal: false
-  name: DayOfWeek
-  nameWithType: DayOfWeek
-  fullName: System.DayOfWeek
 - uid: System.Globalization.JapaneseCalendar.GetYear(System.DateTime)
   parent: System.Globalization.JapaneseCalendar
   isExternal: false
   name: GetYear(DateTime)
   nameWithType: JapaneseCalendar.GetYear(DateTime)
   fullName: System.Globalization.JapaneseCalendar.GetYear(DateTime)
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: System.DateTime
-  parent: System
-  isExternal: false
-  name: DateTime
-  nameWithType: DateTime
-  fullName: System.DateTime
 - uid: System.Globalization.JapaneseCalendar.IsLeapDay(System.Int32,System.Int32,System.Int32,System.Int32)
   parent: System.Globalization.JapaneseCalendar
   isExternal: false
@@ -1125,198 +971,48 @@ references:
   name: Boolean
   nameWithType: Boolean
   fullName: System.Boolean
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
 - uid: System.Globalization.JapaneseCalendar.IsLeapMonth(System.Int32,System.Int32,System.Int32)
   parent: System.Globalization.JapaneseCalendar
   isExternal: false
   name: IsLeapMonth(Int32,Int32,Int32)
   nameWithType: JapaneseCalendar.IsLeapMonth(Int32,Int32,Int32)
   fullName: System.Globalization.JapaneseCalendar.IsLeapMonth(Int32,Int32,Int32)
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
 - uid: System.Globalization.JapaneseCalendar.IsLeapYear(System.Int32,System.Int32)
   parent: System.Globalization.JapaneseCalendar
   isExternal: false
   name: IsLeapYear(Int32,Int32)
   nameWithType: JapaneseCalendar.IsLeapYear(Int32,Int32)
   fullName: System.Globalization.JapaneseCalendar.IsLeapYear(Int32,Int32)
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
 - uid: System.Globalization.JapaneseCalendar.MaxSupportedDateTime
   parent: System.Globalization.JapaneseCalendar
   isExternal: false
   name: MaxSupportedDateTime
   nameWithType: JapaneseCalendar.MaxSupportedDateTime
   fullName: System.Globalization.JapaneseCalendar.MaxSupportedDateTime
-- uid: System.DateTime
-  parent: System
-  isExternal: false
-  name: DateTime
-  nameWithType: DateTime
-  fullName: System.DateTime
 - uid: System.Globalization.JapaneseCalendar.MinSupportedDateTime
   parent: System.Globalization.JapaneseCalendar
   isExternal: false
   name: MinSupportedDateTime
   nameWithType: JapaneseCalendar.MinSupportedDateTime
   fullName: System.Globalization.JapaneseCalendar.MinSupportedDateTime
-- uid: System.DateTime
-  parent: System
-  isExternal: false
-  name: DateTime
-  nameWithType: DateTime
-  fullName: System.DateTime
 - uid: System.Globalization.JapaneseCalendar.ToDateTime(System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32)
   parent: System.Globalization.JapaneseCalendar
   isExternal: false
   name: ToDateTime(Int32,Int32,Int32,Int32,Int32,Int32,Int32,Int32)
   nameWithType: JapaneseCalendar.ToDateTime(Int32,Int32,Int32,Int32,Int32,Int32,Int32,Int32)
   fullName: System.Globalization.JapaneseCalendar.ToDateTime(Int32,Int32,Int32,Int32,Int32,Int32,Int32,Int32)
-- uid: System.DateTime
-  parent: System
-  isExternal: false
-  name: DateTime
-  nameWithType: DateTime
-  fullName: System.DateTime
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
 - uid: System.Globalization.JapaneseCalendar.ToFourDigitYear(System.Int32)
   parent: System.Globalization.JapaneseCalendar
   isExternal: false
   name: ToFourDigitYear(Int32)
   nameWithType: JapaneseCalendar.ToFourDigitYear(Int32)
   fullName: System.Globalization.JapaneseCalendar.ToFourDigitYear(Int32)
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
 - uid: System.Globalization.JapaneseCalendar.TwoDigitYearMax
   parent: System.Globalization.JapaneseCalendar
   isExternal: false
   name: TwoDigitYearMax
   nameWithType: JapaneseCalendar.TwoDigitYearMax
   fullName: System.Globalization.JapaneseCalendar.TwoDigitYearMax
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
 - uid: System.Globalization.JapaneseCalendar.#ctor*
   parent: System.Globalization.JapaneseCalendar
   isExternal: false

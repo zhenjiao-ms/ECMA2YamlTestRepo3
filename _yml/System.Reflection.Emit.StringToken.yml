@@ -54,6 +54,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Reflection.Emit.StringToken.Equals*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -82,6 +83,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Reflection.Emit.StringToken.Equals*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -107,6 +109,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.Reflection.Emit.StringToken.GetHashCode*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -138,6 +141,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Reflection.Emit.StringToken.op_Equality*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -169,6 +173,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Reflection.Emit.StringToken.op_Inequality*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -193,6 +198,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.Reflection.Emit.StringToken.Token*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -225,12 +231,6 @@ references:
   name: Equals(StringToken)
   nameWithType: StringToken.Equals(StringToken)
   fullName: System.Reflection.Emit.StringToken.Equals(StringToken)
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
 - uid: System.Reflection.Emit.StringToken
   parent: System.Reflection.Emit
   isExternal: false
@@ -255,60 +255,18 @@ references:
   name: op_Equality(StringToken,StringToken)
   nameWithType: StringToken.op_Equality(StringToken,StringToken)
   fullName: System.Reflection.Emit.StringToken.op_Equality(StringToken,StringToken)
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
-- uid: System.Reflection.Emit.StringToken
-  parent: System.Reflection.Emit
-  isExternal: false
-  name: StringToken
-  nameWithType: StringToken
-  fullName: System.Reflection.Emit.StringToken
-- uid: System.Reflection.Emit.StringToken
-  parent: System.Reflection.Emit
-  isExternal: false
-  name: StringToken
-  nameWithType: StringToken
-  fullName: System.Reflection.Emit.StringToken
 - uid: System.Reflection.Emit.StringToken.op_Inequality(System.Reflection.Emit.StringToken,System.Reflection.Emit.StringToken)
   parent: System.Reflection.Emit.StringToken
   isExternal: false
   name: op_Inequality(StringToken,StringToken)
   nameWithType: StringToken.op_Inequality(StringToken,StringToken)
   fullName: System.Reflection.Emit.StringToken.op_Inequality(StringToken,StringToken)
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
-- uid: System.Reflection.Emit.StringToken
-  parent: System.Reflection.Emit
-  isExternal: false
-  name: StringToken
-  nameWithType: StringToken
-  fullName: System.Reflection.Emit.StringToken
-- uid: System.Reflection.Emit.StringToken
-  parent: System.Reflection.Emit
-  isExternal: false
-  name: StringToken
-  nameWithType: StringToken
-  fullName: System.Reflection.Emit.StringToken
 - uid: System.Reflection.Emit.StringToken.Token
   parent: System.Reflection.Emit.StringToken
   isExternal: false
   name: Token
   nameWithType: StringToken.Token
   fullName: System.Reflection.Emit.StringToken.Token
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
 - uid: System.Reflection.Emit.StringToken.Equals*
   parent: System.Reflection.Emit.StringToken
   isExternal: false

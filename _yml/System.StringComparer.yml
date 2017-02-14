@@ -66,6 +66,7 @@ items:
     content: protected StringComparer ();
     parameters: []
   overload: System.StringComparer.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -97,6 +98,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.StringComparer.Compare*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -128,6 +130,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.StringComparer.Compare*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -159,6 +162,7 @@ items:
       type: System.StringComparer
       description: To be added.
   overload: System.StringComparer.Create*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -183,6 +187,7 @@ items:
       type: System.StringComparer
       description: To be added.
   overload: System.StringComparer.CurrentCulture*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -207,6 +212,7 @@ items:
       type: System.StringComparer
       description: To be added.
   overload: System.StringComparer.CurrentCultureIgnoreCase*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -238,6 +244,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.StringComparer.Equals*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -269,6 +276,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.StringComparer.Equals*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -297,6 +305,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.StringComparer.GetHashCode*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -325,6 +334,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.StringComparer.GetHashCode*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -349,6 +359,7 @@ items:
       type: System.StringComparer
       description: To be added.
   overload: System.StringComparer.InvariantCulture*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -373,6 +384,7 @@ items:
       type: System.StringComparer
       description: To be added.
   overload: System.StringComparer.InvariantCultureIgnoreCase*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -397,6 +409,7 @@ items:
       type: System.StringComparer
       description: To be added.
   overload: System.StringComparer.Ordinal*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -421,6 +434,7 @@ items:
       type: System.StringComparer
       description: To be added.
   overload: System.StringComparer.OrdinalIgnoreCase*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -447,36 +461,12 @@ references:
   name: Int32
   nameWithType: Int32
   fullName: System.Int32
-- uid: System.Object
-  parent: System
-  isExternal: false
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
-- uid: System.Object
-  parent: System
-  isExternal: false
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
 - uid: System.StringComparer.Compare(System.String,System.String)
   parent: System.StringComparer
   isExternal: false
   name: Compare(String,String)
   nameWithType: StringComparer.Compare(String,String)
   fullName: System.StringComparer.Compare(String,String)
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
 - uid: System.String
   parent: System
   isExternal: false
@@ -513,156 +503,60 @@ references:
   name: CurrentCulture
   nameWithType: StringComparer.CurrentCulture
   fullName: System.StringComparer.CurrentCulture
-- uid: System.StringComparer
-  parent: System
-  isExternal: false
-  name: StringComparer
-  nameWithType: StringComparer
-  fullName: System.StringComparer
 - uid: System.StringComparer.CurrentCultureIgnoreCase
   parent: System.StringComparer
   isExternal: false
   name: CurrentCultureIgnoreCase
   nameWithType: StringComparer.CurrentCultureIgnoreCase
   fullName: System.StringComparer.CurrentCultureIgnoreCase
-- uid: System.StringComparer
-  parent: System
-  isExternal: false
-  name: StringComparer
-  nameWithType: StringComparer
-  fullName: System.StringComparer
 - uid: System.StringComparer.Equals(System.Object,System.Object)
   parent: System.StringComparer
   isExternal: false
   name: Equals(Object,Object)
   nameWithType: StringComparer.Equals(Object,Object)
   fullName: System.StringComparer.Equals(Object,Object)
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
-- uid: System.Object
-  parent: System
-  isExternal: false
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
-- uid: System.Object
-  parent: System
-  isExternal: false
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
 - uid: System.StringComparer.Equals(System.String,System.String)
   parent: System.StringComparer
   isExternal: false
   name: Equals(String,String)
   nameWithType: StringComparer.Equals(String,String)
   fullName: System.StringComparer.Equals(String,String)
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
 - uid: System.StringComparer.GetHashCode(System.Object)
   parent: System.StringComparer
   isExternal: false
   name: GetHashCode(Object)
   nameWithType: StringComparer.GetHashCode(Object)
   fullName: System.StringComparer.GetHashCode(Object)
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: System.Object
-  parent: System
-  isExternal: false
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
 - uid: System.StringComparer.GetHashCode(System.String)
   parent: System.StringComparer
   isExternal: false
   name: GetHashCode(String)
   nameWithType: StringComparer.GetHashCode(String)
   fullName: System.StringComparer.GetHashCode(String)
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
 - uid: System.StringComparer.InvariantCulture
   parent: System.StringComparer
   isExternal: false
   name: InvariantCulture
   nameWithType: StringComparer.InvariantCulture
   fullName: System.StringComparer.InvariantCulture
-- uid: System.StringComparer
-  parent: System
-  isExternal: false
-  name: StringComparer
-  nameWithType: StringComparer
-  fullName: System.StringComparer
 - uid: System.StringComparer.InvariantCultureIgnoreCase
   parent: System.StringComparer
   isExternal: false
   name: InvariantCultureIgnoreCase
   nameWithType: StringComparer.InvariantCultureIgnoreCase
   fullName: System.StringComparer.InvariantCultureIgnoreCase
-- uid: System.StringComparer
-  parent: System
-  isExternal: false
-  name: StringComparer
-  nameWithType: StringComparer
-  fullName: System.StringComparer
 - uid: System.StringComparer.Ordinal
   parent: System.StringComparer
   isExternal: false
   name: Ordinal
   nameWithType: StringComparer.Ordinal
   fullName: System.StringComparer.Ordinal
-- uid: System.StringComparer
-  parent: System
-  isExternal: false
-  name: StringComparer
-  nameWithType: StringComparer
-  fullName: System.StringComparer
 - uid: System.StringComparer.OrdinalIgnoreCase
   parent: System.StringComparer
   isExternal: false
   name: OrdinalIgnoreCase
   nameWithType: StringComparer.OrdinalIgnoreCase
   fullName: System.StringComparer.OrdinalIgnoreCase
-- uid: System.StringComparer
-  parent: System
-  isExternal: false
-  name: StringComparer
-  nameWithType: StringComparer
-  fullName: System.StringComparer
 - uid: System.StringComparer.#ctor*
   parent: System.StringComparer
   isExternal: false

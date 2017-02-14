@@ -115,6 +115,7 @@ items:
       type: System.Security.Permissions.SecurityAction
       description: To be added.
   overload: System.Security.Permissions.SecurityPermissionAttribute.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -139,6 +140,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Security.Permissions.SecurityPermissionAttribute.Assertion*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -163,6 +165,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Security.Permissions.SecurityPermissionAttribute.BindingRedirects*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -187,6 +190,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Security.Permissions.SecurityPermissionAttribute.ControlAppDomain*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -211,6 +215,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Security.Permissions.SecurityPermissionAttribute.ControlDomainPolicy*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -235,6 +240,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Security.Permissions.SecurityPermissionAttribute.ControlEvidence*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -259,6 +265,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Security.Permissions.SecurityPermissionAttribute.ControlPolicy*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -283,6 +290,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Security.Permissions.SecurityPermissionAttribute.ControlPrincipal*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -307,6 +315,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Security.Permissions.SecurityPermissionAttribute.ControlThread*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -332,6 +341,7 @@ items:
       type: System.Security.IPermission
       description: To be added.
   overload: System.Security.Permissions.SecurityPermissionAttribute.CreatePermission*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -356,6 +366,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Security.Permissions.SecurityPermissionAttribute.Execution*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -380,6 +391,7 @@ items:
       type: System.Security.Permissions.SecurityPermissionFlag
       description: To be added.
   overload: System.Security.Permissions.SecurityPermissionAttribute.Flags*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -404,6 +416,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Security.Permissions.SecurityPermissionAttribute.Infrastructure*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -428,6 +441,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Security.Permissions.SecurityPermissionAttribute.RemotingConfiguration*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -452,6 +466,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Security.Permissions.SecurityPermissionAttribute.SerializationFormatter*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -476,6 +491,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Security.Permissions.SecurityPermissionAttribute.SkipVerification*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -500,6 +516,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Security.Permissions.SecurityPermissionAttribute.UnmanagedCode*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -538,84 +555,42 @@ references:
   name: BindingRedirects
   nameWithType: SecurityPermissionAttribute.BindingRedirects
   fullName: System.Security.Permissions.SecurityPermissionAttribute.BindingRedirects
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
 - uid: System.Security.Permissions.SecurityPermissionAttribute.ControlAppDomain
   parent: System.Security.Permissions.SecurityPermissionAttribute
   isExternal: false
   name: ControlAppDomain
   nameWithType: SecurityPermissionAttribute.ControlAppDomain
   fullName: System.Security.Permissions.SecurityPermissionAttribute.ControlAppDomain
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
 - uid: System.Security.Permissions.SecurityPermissionAttribute.ControlDomainPolicy
   parent: System.Security.Permissions.SecurityPermissionAttribute
   isExternal: false
   name: ControlDomainPolicy
   nameWithType: SecurityPermissionAttribute.ControlDomainPolicy
   fullName: System.Security.Permissions.SecurityPermissionAttribute.ControlDomainPolicy
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
 - uid: System.Security.Permissions.SecurityPermissionAttribute.ControlEvidence
   parent: System.Security.Permissions.SecurityPermissionAttribute
   isExternal: false
   name: ControlEvidence
   nameWithType: SecurityPermissionAttribute.ControlEvidence
   fullName: System.Security.Permissions.SecurityPermissionAttribute.ControlEvidence
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
 - uid: System.Security.Permissions.SecurityPermissionAttribute.ControlPolicy
   parent: System.Security.Permissions.SecurityPermissionAttribute
   isExternal: false
   name: ControlPolicy
   nameWithType: SecurityPermissionAttribute.ControlPolicy
   fullName: System.Security.Permissions.SecurityPermissionAttribute.ControlPolicy
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
 - uid: System.Security.Permissions.SecurityPermissionAttribute.ControlPrincipal
   parent: System.Security.Permissions.SecurityPermissionAttribute
   isExternal: false
   name: ControlPrincipal
   nameWithType: SecurityPermissionAttribute.ControlPrincipal
   fullName: System.Security.Permissions.SecurityPermissionAttribute.ControlPrincipal
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
 - uid: System.Security.Permissions.SecurityPermissionAttribute.ControlThread
   parent: System.Security.Permissions.SecurityPermissionAttribute
   isExternal: false
   name: ControlThread
   nameWithType: SecurityPermissionAttribute.ControlThread
   fullName: System.Security.Permissions.SecurityPermissionAttribute.ControlThread
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
 - uid: System.Security.Permissions.SecurityPermissionAttribute.CreatePermission
   parent: System.Security.Permissions.SecurityPermissionAttribute
   isExternal: false
@@ -634,12 +609,6 @@ references:
   name: Execution
   nameWithType: SecurityPermissionAttribute.Execution
   fullName: System.Security.Permissions.SecurityPermissionAttribute.Execution
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
 - uid: System.Security.Permissions.SecurityPermissionAttribute.Flags
   parent: System.Security.Permissions.SecurityPermissionAttribute
   isExternal: false
@@ -658,60 +627,30 @@ references:
   name: Infrastructure
   nameWithType: SecurityPermissionAttribute.Infrastructure
   fullName: System.Security.Permissions.SecurityPermissionAttribute.Infrastructure
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
 - uid: System.Security.Permissions.SecurityPermissionAttribute.RemotingConfiguration
   parent: System.Security.Permissions.SecurityPermissionAttribute
   isExternal: false
   name: RemotingConfiguration
   nameWithType: SecurityPermissionAttribute.RemotingConfiguration
   fullName: System.Security.Permissions.SecurityPermissionAttribute.RemotingConfiguration
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
 - uid: System.Security.Permissions.SecurityPermissionAttribute.SerializationFormatter
   parent: System.Security.Permissions.SecurityPermissionAttribute
   isExternal: false
   name: SerializationFormatter
   nameWithType: SecurityPermissionAttribute.SerializationFormatter
   fullName: System.Security.Permissions.SecurityPermissionAttribute.SerializationFormatter
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
 - uid: System.Security.Permissions.SecurityPermissionAttribute.SkipVerification
   parent: System.Security.Permissions.SecurityPermissionAttribute
   isExternal: false
   name: SkipVerification
   nameWithType: SecurityPermissionAttribute.SkipVerification
   fullName: System.Security.Permissions.SecurityPermissionAttribute.SkipVerification
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
 - uid: System.Security.Permissions.SecurityPermissionAttribute.UnmanagedCode
   parent: System.Security.Permissions.SecurityPermissionAttribute
   isExternal: false
   name: UnmanagedCode
   nameWithType: SecurityPermissionAttribute.UnmanagedCode
   fullName: System.Security.Permissions.SecurityPermissionAttribute.UnmanagedCode
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
 - uid: System.Security.Permissions.SecurityPermissionAttribute.#ctor*
   parent: System.Security.Permissions.SecurityPermissionAttribute
   isExternal: false

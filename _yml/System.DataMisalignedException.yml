@@ -65,6 +65,7 @@ items:
     content: public DataMisalignedException ();
     parameters: []
   overload: System.DataMisalignedException.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -90,6 +91,7 @@ items:
       type: System.String
       description: To be added.
   overload: System.DataMisalignedException.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -118,6 +120,7 @@ items:
       type: System.Exception
       description: To be added.
   overload: System.DataMisalignedException.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -150,12 +153,6 @@ references:
   name: DataMisalignedException(String,Exception)
   nameWithType: DataMisalignedException.DataMisalignedException(String,Exception)
   fullName: System.DataMisalignedException.DataMisalignedException(String,Exception)
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
 - uid: System.Exception
   parent: System
   isExternal: false

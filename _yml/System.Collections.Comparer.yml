@@ -59,6 +59,7 @@ items:
       type: System.Globalization.CultureInfo
       description: To be added.
   overload: System.Collections.Comparer.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -90,6 +91,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.Collections.Comparer.Compare*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -113,6 +115,7 @@ items:
     return:
       type: System.Collections.Comparer
       description: To be added.
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -136,6 +139,7 @@ items:
     return:
       type: System.Collections.Comparer
       description: To be added.
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -164,6 +168,7 @@ items:
       type: System.Runtime.Serialization.StreamingContext
       description: To be added.
   overload: System.Collections.Comparer.GetObjectData*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -196,18 +201,6 @@ references:
   name: Int32
   nameWithType: Int32
   fullName: System.Int32
-- uid: System.Object
-  parent: System
-  isExternal: false
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
-- uid: System.Object
-  parent: System
-  isExternal: false
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
 - uid: System.Collections.Comparer.Default
   parent: System.Collections.Comparer
   isExternal: false
@@ -226,12 +219,6 @@ references:
   name: DefaultInvariant
   nameWithType: Comparer.DefaultInvariant
   fullName: System.Collections.Comparer.DefaultInvariant
-- uid: System.Collections.Comparer
-  parent: System.Collections
-  isExternal: false
-  name: Comparer
-  nameWithType: Comparer
-  fullName: System.Collections.Comparer
 - uid: System.Collections.Comparer.GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
   parent: System.Collections.Comparer
   isExternal: false

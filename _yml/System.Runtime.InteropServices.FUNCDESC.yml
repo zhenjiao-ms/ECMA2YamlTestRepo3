@@ -55,6 +55,7 @@ items:
     return:
       type: System.Runtime.InteropServices.CALLCONV
       description: To be added.
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -78,6 +79,7 @@ items:
     return:
       type: System.Int16
       description: To be added.
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -101,6 +103,7 @@ items:
     return:
       type: System.Int16
       description: To be added.
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -124,6 +127,7 @@ items:
     return:
       type: System.Int16
       description: To be added.
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -147,6 +151,7 @@ items:
     return:
       type: System.Runtime.InteropServices.ELEMDESC
       description: To be added.
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -170,6 +175,7 @@ items:
     return:
       type: System.Runtime.InteropServices.FUNCKIND
       description: To be added.
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -193,6 +199,7 @@ items:
     return:
       type: System.Runtime.InteropServices.INVOKEKIND
       description: To be added.
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -216,6 +223,7 @@ items:
     return:
       type: System.IntPtr
       description: To be added.
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -239,6 +247,7 @@ items:
     return:
       type: System.IntPtr
       description: To be added.
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -262,6 +271,7 @@ items:
     return:
       type: System.Int32
       description: To be added.
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -285,6 +295,7 @@ items:
     return:
       type: System.Int16
       description: To be added.
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -308,6 +319,7 @@ items:
     return:
       type: System.Int16
       description: To be added.
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -346,24 +358,12 @@ references:
   name: cParamsOpt
   nameWithType: FUNCDESC.cParamsOpt
   fullName: System.Runtime.InteropServices.FUNCDESC.cParamsOpt
-- uid: System.Int16
-  parent: System
-  isExternal: false
-  name: Int16
-  nameWithType: Int16
-  fullName: System.Int16
 - uid: System.Runtime.InteropServices.FUNCDESC.cScodes
   parent: System.Runtime.InteropServices.FUNCDESC
   isExternal: false
   name: cScodes
   nameWithType: FUNCDESC.cScodes
   fullName: System.Runtime.InteropServices.FUNCDESC.cScodes
-- uid: System.Int16
-  parent: System
-  isExternal: false
-  name: Int16
-  nameWithType: Int16
-  fullName: System.Int16
 - uid: System.Runtime.InteropServices.FUNCDESC.elemdescFunc
   parent: System.Runtime.InteropServices.FUNCDESC
   isExternal: false
@@ -418,12 +418,6 @@ references:
   name: lprgscode
   nameWithType: FUNCDESC.lprgscode
   fullName: System.Runtime.InteropServices.FUNCDESC.lprgscode
-- uid: System.IntPtr
-  parent: System
-  isExternal: false
-  name: IntPtr
-  nameWithType: IntPtr
-  fullName: System.IntPtr
 - uid: System.Runtime.InteropServices.FUNCDESC.memid
   parent: System.Runtime.InteropServices.FUNCDESC
   isExternal: false
@@ -442,21 +436,9 @@ references:
   name: oVft
   nameWithType: FUNCDESC.oVft
   fullName: System.Runtime.InteropServices.FUNCDESC.oVft
-- uid: System.Int16
-  parent: System
-  isExternal: false
-  name: Int16
-  nameWithType: Int16
-  fullName: System.Int16
 - uid: System.Runtime.InteropServices.FUNCDESC.wFuncFlags
   parent: System.Runtime.InteropServices.FUNCDESC
   isExternal: false
   name: wFuncFlags
   nameWithType: FUNCDESC.wFuncFlags
   fullName: System.Runtime.InteropServices.FUNCDESC.wFuncFlags
-- uid: System.Int16
-  parent: System
-  isExternal: false
-  name: Int16
-  nameWithType: Int16
-  fullName: System.Int16

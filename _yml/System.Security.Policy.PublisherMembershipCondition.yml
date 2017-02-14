@@ -60,6 +60,7 @@ items:
       type: System.Security.Cryptography.X509Certificates.X509Certificate
       description: To be added.
   overload: System.Security.Policy.PublisherMembershipCondition.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -84,6 +85,7 @@ items:
       type: System.Security.Cryptography.X509Certificates.X509Certificate
       description: To be added.
   overload: System.Security.Policy.PublisherMembershipCondition.Certificate*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -112,6 +114,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Security.Policy.PublisherMembershipCondition.Check*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -137,6 +140,7 @@ items:
       type: System.Security.Policy.IMembershipCondition
       description: To be added.
   overload: System.Security.Policy.PublisherMembershipCondition.Copy*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -165,6 +169,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Security.Policy.PublisherMembershipCondition.Equals*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -190,6 +195,7 @@ items:
       type: System.Security.SecurityElement
       description: To be added.
   overload: System.Security.Policy.PublisherMembershipCondition.FromXml*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -218,6 +224,7 @@ items:
       type: System.Security.Policy.PolicyLevel
       description: To be added.
   overload: System.Security.Policy.PublisherMembershipCondition.FromXml*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -243,6 +250,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.Security.Policy.PublisherMembershipCondition.GetHashCode*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -268,6 +276,7 @@ items:
       type: System.String
       description: To be added.
   overload: System.Security.Policy.PublisherMembershipCondition.ToString*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -293,6 +302,7 @@ items:
       type: System.Security.SecurityElement
       description: To be added.
   overload: System.Security.Policy.PublisherMembershipCondition.ToXml*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -321,6 +331,7 @@ items:
       type: System.Security.SecurityElement
       description: To be added.
   overload: System.Security.Policy.PublisherMembershipCondition.ToXml*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -347,12 +358,6 @@ references:
   name: Certificate
   nameWithType: PublisherMembershipCondition.Certificate
   fullName: System.Security.Policy.PublisherMembershipCondition.Certificate
-- uid: System.Security.Cryptography.X509Certificates.X509Certificate
-  parent: System.Security.Cryptography.X509Certificates
-  isExternal: false
-  name: X509Certificate
-  nameWithType: X509Certificate
-  fullName: System.Security.Cryptography.X509Certificates.X509Certificate
 - uid: System.Security.Policy.PublisherMembershipCondition.Check(System.Security.Policy.Evidence)
   parent: System.Security.Policy.PublisherMembershipCondition
   isExternal: false
@@ -389,18 +394,6 @@ references:
   name: Equals(Object)
   nameWithType: PublisherMembershipCondition.Equals(Object)
   fullName: System.Security.Policy.PublisherMembershipCondition.Equals(Object)
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
-- uid: System.Object
-  parent: System
-  isExternal: false
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
 - uid: System.Security.Policy.PublisherMembershipCondition.FromXml(System.Security.SecurityElement)
   parent: System.Security.Policy.PublisherMembershipCondition
   isExternal: false
@@ -419,12 +412,6 @@ references:
   name: FromXml(SecurityElement,PolicyLevel)
   nameWithType: PublisherMembershipCondition.FromXml(SecurityElement,PolicyLevel)
   fullName: System.Security.Policy.PublisherMembershipCondition.FromXml(SecurityElement,PolicyLevel)
-- uid: System.Security.SecurityElement
-  parent: System.Security
-  isExternal: false
-  name: SecurityElement
-  nameWithType: SecurityElement
-  fullName: System.Security.SecurityElement
 - uid: System.Security.Policy.PolicyLevel
   parent: System.Security.Policy
   isExternal: false
@@ -461,30 +448,12 @@ references:
   name: ToXml()
   nameWithType: PublisherMembershipCondition.ToXml()
   fullName: System.Security.Policy.PublisherMembershipCondition.ToXml()
-- uid: System.Security.SecurityElement
-  parent: System.Security
-  isExternal: false
-  name: SecurityElement
-  nameWithType: SecurityElement
-  fullName: System.Security.SecurityElement
 - uid: System.Security.Policy.PublisherMembershipCondition.ToXml(System.Security.Policy.PolicyLevel)
   parent: System.Security.Policy.PublisherMembershipCondition
   isExternal: false
   name: ToXml(PolicyLevel)
   nameWithType: PublisherMembershipCondition.ToXml(PolicyLevel)
   fullName: System.Security.Policy.PublisherMembershipCondition.ToXml(PolicyLevel)
-- uid: System.Security.SecurityElement
-  parent: System.Security
-  isExternal: false
-  name: SecurityElement
-  nameWithType: SecurityElement
-  fullName: System.Security.SecurityElement
-- uid: System.Security.Policy.PolicyLevel
-  parent: System.Security.Policy
-  isExternal: false
-  name: PolicyLevel
-  nameWithType: PolicyLevel
-  fullName: System.Security.Policy.PolicyLevel
 - uid: System.Security.Policy.PublisherMembershipCondition.#ctor*
   parent: System.Security.Policy.PublisherMembershipCondition
   isExternal: false

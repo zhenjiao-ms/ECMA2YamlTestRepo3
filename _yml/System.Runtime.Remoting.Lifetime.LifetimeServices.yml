@@ -56,6 +56,7 @@ items:
     content: public LifetimeServices ();
     parameters: []
   overload: System.Runtime.Remoting.Lifetime.LifetimeServices.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -80,6 +81,7 @@ items:
       type: System.TimeSpan
       description: To be added.
   overload: System.Runtime.Remoting.Lifetime.LifetimeServices.LeaseManagerPollTime*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -104,6 +106,7 @@ items:
       type: System.TimeSpan
       description: To be added.
   overload: System.Runtime.Remoting.Lifetime.LifetimeServices.LeaseTime*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -128,6 +131,7 @@ items:
       type: System.TimeSpan
       description: To be added.
   overload: System.Runtime.Remoting.Lifetime.LifetimeServices.RenewOnCallTime*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -152,6 +156,7 @@ items:
       type: System.TimeSpan
       description: To be added.
   overload: System.Runtime.Remoting.Lifetime.LifetimeServices.SponsorshipTimeout*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -184,36 +189,18 @@ references:
   name: LeaseTime
   nameWithType: LifetimeServices.LeaseTime
   fullName: System.Runtime.Remoting.Lifetime.LifetimeServices.LeaseTime
-- uid: System.TimeSpan
-  parent: System
-  isExternal: false
-  name: TimeSpan
-  nameWithType: TimeSpan
-  fullName: System.TimeSpan
 - uid: System.Runtime.Remoting.Lifetime.LifetimeServices.RenewOnCallTime
   parent: System.Runtime.Remoting.Lifetime.LifetimeServices
   isExternal: false
   name: RenewOnCallTime
   nameWithType: LifetimeServices.RenewOnCallTime
   fullName: System.Runtime.Remoting.Lifetime.LifetimeServices.RenewOnCallTime
-- uid: System.TimeSpan
-  parent: System
-  isExternal: false
-  name: TimeSpan
-  nameWithType: TimeSpan
-  fullName: System.TimeSpan
 - uid: System.Runtime.Remoting.Lifetime.LifetimeServices.SponsorshipTimeout
   parent: System.Runtime.Remoting.Lifetime.LifetimeServices
   isExternal: false
   name: SponsorshipTimeout
   nameWithType: LifetimeServices.SponsorshipTimeout
   fullName: System.Runtime.Remoting.Lifetime.LifetimeServices.SponsorshipTimeout
-- uid: System.TimeSpan
-  parent: System
-  isExternal: false
-  name: TimeSpan
-  nameWithType: TimeSpan
-  fullName: System.TimeSpan
 - uid: System.Runtime.Remoting.Lifetime.LifetimeServices.#ctor*
   parent: System.Runtime.Remoting.Lifetime.LifetimeServices
   isExternal: false

@@ -71,6 +71,7 @@ items:
     content: protected IsolatedStorage ();
     parameters: []
   overload: System.IO.IsolatedStorage.IsolatedStorage.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -95,6 +96,7 @@ items:
       type: System.Object
       description: To be added.
   overload: System.IO.IsolatedStorage.IsolatedStorage.ApplicationIdentity*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -119,6 +121,7 @@ items:
       type: System.Object
       description: To be added.
   overload: System.IO.IsolatedStorage.IsolatedStorage.AssemblyIdentity*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -143,6 +146,7 @@ items:
       type: System.Int64
       description: To be added.
   overload: System.IO.IsolatedStorage.IsolatedStorage.AvailableFreeSpace*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -167,6 +171,7 @@ items:
       type: System.UInt64
       description: To be added.
   overload: System.IO.IsolatedStorage.IsolatedStorage.CurrentSize*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -191,6 +196,7 @@ items:
       type: System.Object
       description: To be added.
   overload: System.IO.IsolatedStorage.IsolatedStorage.DomainIdentity*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -219,6 +225,7 @@ items:
       type: System.Security.Permissions.IsolatedStoragePermission
       description: To be added.
   overload: System.IO.IsolatedStorage.IsolatedStorage.GetPermission*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -247,6 +254,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.IO.IsolatedStorage.IsolatedStorage.IncreaseQuotaTo*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -275,6 +283,7 @@ items:
       type: System.Type
       description: To be added.
   overload: System.IO.IsolatedStorage.IsolatedStorage.InitStore*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -306,6 +315,7 @@ items:
       type: System.Type
       description: To be added.
   overload: System.IO.IsolatedStorage.IsolatedStorage.InitStore*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -330,6 +340,7 @@ items:
       type: System.UInt64
       description: To be added.
   overload: System.IO.IsolatedStorage.IsolatedStorage.MaximumSize*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -354,6 +365,7 @@ items:
       type: System.Int64
       description: To be added.
   overload: System.IO.IsolatedStorage.IsolatedStorage.Quota*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -376,6 +388,7 @@ items:
     content: public abstract void Remove ();
     parameters: []
   overload: System.IO.IsolatedStorage.IsolatedStorage.Remove*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -400,6 +413,7 @@ items:
       type: System.IO.IsolatedStorage.IsolatedStorageScope
       description: To be added.
   overload: System.IO.IsolatedStorage.IsolatedStorage.Scope*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -424,6 +438,7 @@ items:
       type: System.Char
       description: To be added.
   overload: System.IO.IsolatedStorage.IsolatedStorage.SeparatorExternal*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -448,6 +463,7 @@ items:
       type: System.Char
       description: To be added.
   overload: System.IO.IsolatedStorage.IsolatedStorage.SeparatorInternal*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -472,6 +488,7 @@ items:
       type: System.Int64
       description: To be added.
   overload: System.IO.IsolatedStorage.IsolatedStorage.UsedSize*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -504,12 +521,6 @@ references:
   name: AssemblyIdentity
   nameWithType: IsolatedStorage.AssemblyIdentity
   fullName: System.IO.IsolatedStorage.IsolatedStorage.AssemblyIdentity
-- uid: System.Object
-  parent: System
-  isExternal: false
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
 - uid: System.IO.IsolatedStorage.IsolatedStorage.AvailableFreeSpace
   parent: System.IO.IsolatedStorage.IsolatedStorage
   isExternal: false
@@ -540,12 +551,6 @@ references:
   name: DomainIdentity
   nameWithType: IsolatedStorage.DomainIdentity
   fullName: System.IO.IsolatedStorage.IsolatedStorage.DomainIdentity
-- uid: System.Object
-  parent: System
-  isExternal: false
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
 - uid: System.IO.IsolatedStorage.IsolatedStorage.GetPermission(System.Security.PermissionSet)
   parent: System.IO.IsolatedStorage.IsolatedStorage
   isExternal: false
@@ -576,12 +581,6 @@ references:
   name: Boolean
   nameWithType: Boolean
   fullName: System.Boolean
-- uid: System.Int64
-  parent: System
-  isExternal: false
-  name: Int64
-  nameWithType: Int64
-  fullName: System.Int64
 - uid: System.IO.IsolatedStorage.IsolatedStorage.InitStore(System.IO.IsolatedStorage.IsolatedStorageScope,System.Type)
   parent: System.IO.IsolatedStorage.IsolatedStorage
   isExternal: false
@@ -606,48 +605,18 @@ references:
   name: InitStore(IsolatedStorageScope,Type,Type)
   nameWithType: IsolatedStorage.InitStore(IsolatedStorageScope,Type,Type)
   fullName: System.IO.IsolatedStorage.IsolatedStorage.InitStore(IsolatedStorageScope,Type,Type)
-- uid: System.IO.IsolatedStorage.IsolatedStorageScope
-  parent: System.IO.IsolatedStorage
-  isExternal: false
-  name: IsolatedStorageScope
-  nameWithType: IsolatedStorageScope
-  fullName: System.IO.IsolatedStorage.IsolatedStorageScope
-- uid: System.Type
-  parent: System
-  isExternal: false
-  name: Type
-  nameWithType: Type
-  fullName: System.Type
-- uid: System.Type
-  parent: System
-  isExternal: false
-  name: Type
-  nameWithType: Type
-  fullName: System.Type
 - uid: System.IO.IsolatedStorage.IsolatedStorage.MaximumSize
   parent: System.IO.IsolatedStorage.IsolatedStorage
   isExternal: false
   name: MaximumSize
   nameWithType: IsolatedStorage.MaximumSize
   fullName: System.IO.IsolatedStorage.IsolatedStorage.MaximumSize
-- uid: System.UInt64
-  parent: System
-  isExternal: false
-  name: UInt64
-  nameWithType: UInt64
-  fullName: System.UInt64
 - uid: System.IO.IsolatedStorage.IsolatedStorage.Quota
   parent: System.IO.IsolatedStorage.IsolatedStorage
   isExternal: false
   name: Quota
   nameWithType: IsolatedStorage.Quota
   fullName: System.IO.IsolatedStorage.IsolatedStorage.Quota
-- uid: System.Int64
-  parent: System
-  isExternal: false
-  name: Int64
-  nameWithType: Int64
-  fullName: System.Int64
 - uid: System.IO.IsolatedStorage.IsolatedStorage.Remove
   parent: System.IO.IsolatedStorage.IsolatedStorage
   isExternal: false
@@ -660,12 +629,6 @@ references:
   name: Scope
   nameWithType: IsolatedStorage.Scope
   fullName: System.IO.IsolatedStorage.IsolatedStorage.Scope
-- uid: System.IO.IsolatedStorage.IsolatedStorageScope
-  parent: System.IO.IsolatedStorage
-  isExternal: false
-  name: IsolatedStorageScope
-  nameWithType: IsolatedStorageScope
-  fullName: System.IO.IsolatedStorage.IsolatedStorageScope
 - uid: System.IO.IsolatedStorage.IsolatedStorage.SeparatorExternal
   parent: System.IO.IsolatedStorage.IsolatedStorage
   isExternal: false
@@ -684,24 +647,12 @@ references:
   name: SeparatorInternal
   nameWithType: IsolatedStorage.SeparatorInternal
   fullName: System.IO.IsolatedStorage.IsolatedStorage.SeparatorInternal
-- uid: System.Char
-  parent: System
-  isExternal: false
-  name: Char
-  nameWithType: Char
-  fullName: System.Char
 - uid: System.IO.IsolatedStorage.IsolatedStorage.UsedSize
   parent: System.IO.IsolatedStorage.IsolatedStorage
   isExternal: false
   name: UsedSize
   nameWithType: IsolatedStorage.UsedSize
   fullName: System.IO.IsolatedStorage.IsolatedStorage.UsedSize
-- uid: System.Int64
-  parent: System
-  isExternal: false
-  name: Int64
-  nameWithType: Int64
-  fullName: System.Int64
 - uid: System.IO.IsolatedStorage.IsolatedStorage.#ctor*
   parent: System.IO.IsolatedStorage.IsolatedStorage
   isExternal: false

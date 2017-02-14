@@ -59,6 +59,7 @@ items:
       type: System.IO.Stream
       description: To be added.
   overload: System.Runtime.Remoting.Channels.IServerChannelSink.AsyncProcessResponse*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -96,6 +97,7 @@ items:
       type: System.IO.Stream
       description: To be added.
   overload: System.Runtime.Remoting.Channels.IServerChannelSink.GetResponseStream*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -120,6 +122,7 @@ items:
       type: System.Runtime.Remoting.Channels.IServerChannelSink
       description: To be added.
   overload: System.Runtime.Remoting.Channels.IServerChannelSink.NextChannelSink*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -166,6 +169,7 @@ items:
       type: System.Runtime.Remoting.Channels.ServerProcessing
       description: To be added.
   overload: System.Runtime.Remoting.Channels.IServerChannelSink.ProcessMessage*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -213,36 +217,6 @@ references:
   name: GetResponseStream(IServerResponseChannelSinkStack,Object,IMessage,ITransportHeaders)
   nameWithType: IServerChannelSink.GetResponseStream(IServerResponseChannelSinkStack,Object,IMessage,ITransportHeaders)
   fullName: System.Runtime.Remoting.Channels.IServerChannelSink.GetResponseStream(IServerResponseChannelSinkStack,Object,IMessage,ITransportHeaders)
-- uid: System.IO.Stream
-  parent: System.IO
-  isExternal: false
-  name: Stream
-  nameWithType: Stream
-  fullName: System.IO.Stream
-- uid: System.Runtime.Remoting.Channels.IServerResponseChannelSinkStack
-  parent: System.Runtime.Remoting.Channels
-  isExternal: false
-  name: IServerResponseChannelSinkStack
-  nameWithType: IServerResponseChannelSinkStack
-  fullName: System.Runtime.Remoting.Channels.IServerResponseChannelSinkStack
-- uid: System.Object
-  parent: System
-  isExternal: false
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
-- uid: System.Runtime.Remoting.Messaging.IMessage
-  parent: System.Runtime.Remoting.Messaging
-  isExternal: false
-  name: IMessage
-  nameWithType: IMessage
-  fullName: System.Runtime.Remoting.Messaging.IMessage
-- uid: System.Runtime.Remoting.Channels.ITransportHeaders
-  parent: System.Runtime.Remoting.Channels
-  isExternal: false
-  name: ITransportHeaders
-  nameWithType: ITransportHeaders
-  fullName: System.Runtime.Remoting.Channels.ITransportHeaders
 - uid: System.Runtime.Remoting.Channels.IServerChannelSink.NextChannelSink
   parent: System.Runtime.Remoting.Channels.IServerChannelSink
   isExternal: false
@@ -273,42 +247,6 @@ references:
   name: IServerChannelSinkStack
   nameWithType: IServerChannelSinkStack
   fullName: System.Runtime.Remoting.Channels.IServerChannelSinkStack
-- uid: System.Runtime.Remoting.Messaging.IMessage
-  parent: System.Runtime.Remoting.Messaging
-  isExternal: false
-  name: IMessage
-  nameWithType: IMessage
-  fullName: System.Runtime.Remoting.Messaging.IMessage
-- uid: System.Runtime.Remoting.Channels.ITransportHeaders
-  parent: System.Runtime.Remoting.Channels
-  isExternal: false
-  name: ITransportHeaders
-  nameWithType: ITransportHeaders
-  fullName: System.Runtime.Remoting.Channels.ITransportHeaders
-- uid: System.IO.Stream
-  parent: System.IO
-  isExternal: false
-  name: Stream
-  nameWithType: Stream
-  fullName: System.IO.Stream
-- uid: System.Runtime.Remoting.Messaging.IMessage
-  parent: System.Runtime.Remoting.Messaging
-  isExternal: false
-  name: IMessage
-  nameWithType: IMessage
-  fullName: System.Runtime.Remoting.Messaging.IMessage
-- uid: System.Runtime.Remoting.Channels.ITransportHeaders
-  parent: System.Runtime.Remoting.Channels
-  isExternal: false
-  name: ITransportHeaders
-  nameWithType: ITransportHeaders
-  fullName: System.Runtime.Remoting.Channels.ITransportHeaders
-- uid: System.IO.Stream
-  parent: System.IO
-  isExternal: false
-  name: Stream
-  nameWithType: Stream
-  fullName: System.IO.Stream
 - uid: System.Runtime.Remoting.Channels.IServerChannelSink.AsyncProcessResponse*
   parent: System.Runtime.Remoting.Channels.IServerChannelSink
   isExternal: false

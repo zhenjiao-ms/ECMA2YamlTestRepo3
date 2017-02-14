@@ -54,6 +54,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Collections.Generic.IReadOnlyDictionary`2.ContainsKey*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -82,6 +83,7 @@ items:
       type: TValue
       description: To be added.
   overload: System.Collections.Generic.IReadOnlyDictionary`2.Item*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -106,6 +108,7 @@ items:
       type: System.Collections.Generic.IEnumerable{TKey}
       description: To be added.
   overload: System.Collections.Generic.IReadOnlyDictionary`2.Keys*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -137,6 +140,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Collections.Generic.IReadOnlyDictionary`2.TryGetValue*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -161,6 +165,7 @@ items:
       type: System.Collections.Generic.IEnumerable{TValue}
       description: To be added.
   overload: System.Collections.Generic.IReadOnlyDictionary`2.Values*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -179,7 +184,6 @@ references:
   nameWithType: Boolean
   fullName: System.Boolean
 - uid: TKey
-  parent: ''
   isExternal: true
   name: TKey
   nameWithType: TKey
@@ -191,17 +195,10 @@ references:
   nameWithType: IReadOnlyDictionary<TKey,TValue>.Item(TKey)
   fullName: System.Collections.Generic.IReadOnlyDictionary<TKey,TValue>.Item(TKey)
 - uid: TValue
-  parent: ''
   isExternal: true
   name: TValue
   nameWithType: TValue
   fullName: TValue
-- uid: TKey
-  parent: ''
-  isExternal: true
-  name: TKey
-  nameWithType: TKey
-  fullName: TKey
 - uid: System.Collections.Generic.IReadOnlyDictionary`2.Keys
   parent: System.Collections.Generic.IReadOnlyDictionary`2
   isExternal: false
@@ -214,30 +211,27 @@ references:
   name: IEnumerable<TKey>
   nameWithType: IEnumerable<TKey>
   fullName: System.Collections.Generic.IEnumerable<TKey>
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: IEnumerable<TKey>
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: TKey
+    name: TKey
+    nameWithType: TKey
+    fullName: TKey
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
 - uid: System.Collections.Generic.IReadOnlyDictionary`2.TryGetValue(`0,`1@)
   parent: System.Collections.Generic.IReadOnlyDictionary`2
   isExternal: false
   name: TryGetValue(TKey,TValue)
   nameWithType: IReadOnlyDictionary<TKey,TValue>.TryGetValue(TKey,TValue)
   fullName: System.Collections.Generic.IReadOnlyDictionary<TKey,TValue>.TryGetValue(TKey,TValue)
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
-- uid: TKey
-  parent: ''
-  isExternal: true
-  name: TKey
-  nameWithType: TKey
-  fullName: TKey
-- uid: TValue
-  parent: ''
-  isExternal: true
-  name: TValue
-  nameWithType: TValue
-  fullName: TValue
 - uid: System.Collections.Generic.IReadOnlyDictionary`2.Values
   parent: System.Collections.Generic.IReadOnlyDictionary`2
   isExternal: false
@@ -250,6 +244,21 @@ references:
   name: IEnumerable<TValue>
   nameWithType: IEnumerable<TValue>
   fullName: System.Collections.Generic.IEnumerable<TValue>
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: IEnumerable<TValue>
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: TValue
+    name: TValue
+    nameWithType: TValue
+    fullName: TValue
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
 - uid: System.Collections.Generic.IReadOnlyDictionary`2.ContainsKey*
   parent: System.Collections.Generic.IReadOnlyDictionary`2
   isExternal: false

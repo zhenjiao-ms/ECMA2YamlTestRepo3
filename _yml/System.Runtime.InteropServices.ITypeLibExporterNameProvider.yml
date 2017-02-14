@@ -47,6 +47,7 @@ items:
       type: System.String[]
       description: To be added.
   overload: System.Runtime.InteropServices.ITypeLibExporterNameProvider.GetNames*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -58,12 +59,20 @@ references:
   name: GetNames()
   nameWithType: ITypeLibExporterNameProvider.GetNames()
   fullName: System.Runtime.InteropServices.ITypeLibExporterNameProvider.GetNames()
-- uid: System.String
+- uid: System.String[]
   parent: System
   isExternal: false
   name: String
   nameWithType: String
   fullName: System.String[]
+  spec.csharp:
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: String[]
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
 - uid: System.Runtime.InteropServices.ITypeLibExporterNameProvider.GetNames*
   parent: System.Runtime.InteropServices.ITypeLibExporterNameProvider
   isExternal: false

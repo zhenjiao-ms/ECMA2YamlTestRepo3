@@ -68,6 +68,7 @@ items:
     content: public DllNotFoundException ();
     parameters: []
   overload: System.DllNotFoundException.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -93,6 +94,7 @@ items:
       type: System.String
       description: To be added.
   overload: System.DllNotFoundException.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -121,6 +123,7 @@ items:
       type: System.Runtime.Serialization.StreamingContext
       description: To be added.
   overload: System.DllNotFoundException.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -149,6 +152,7 @@ items:
       type: System.Exception
       description: To be added.
   overload: System.DllNotFoundException.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -199,12 +203,6 @@ references:
   name: DllNotFoundException(String,Exception)
   nameWithType: DllNotFoundException.DllNotFoundException(String,Exception)
   fullName: System.DllNotFoundException.DllNotFoundException(String,Exception)
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
 - uid: System.Exception
   parent: System
   isExternal: false

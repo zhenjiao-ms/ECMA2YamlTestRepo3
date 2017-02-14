@@ -50,6 +50,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.Collections.ICollection.CopyTo*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -74,6 +75,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.Collections.ICollection.Count*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -98,6 +100,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Collections.ICollection.IsSynchronized*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -122,6 +125,7 @@ items:
       type: System.Object
       description: To be added.
   overload: System.Collections.ICollection.SyncRoot*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -151,12 +155,6 @@ references:
   name: Count
   nameWithType: ICollection.Count
   fullName: System.Collections.ICollection.Count
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
 - uid: System.Collections.ICollection.IsSynchronized
   parent: System.Collections.ICollection
   isExternal: false

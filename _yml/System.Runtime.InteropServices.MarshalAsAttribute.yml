@@ -106,6 +106,7 @@ items:
       type: System.Int16
       description: To be added.
   overload: System.Runtime.InteropServices.MarshalAsAttribute.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -131,6 +132,7 @@ items:
       type: System.Runtime.InteropServices.UnmanagedType
       description: To be added.
   overload: System.Runtime.InteropServices.MarshalAsAttribute.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -154,6 +156,7 @@ items:
     return:
       type: System.Runtime.InteropServices.UnmanagedType
       description: To be added.
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -177,6 +180,7 @@ items:
     return:
       type: System.Int32
       description: To be added.
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -200,6 +204,7 @@ items:
     return:
       type: System.String
       description: To be added.
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -223,6 +228,7 @@ items:
     return:
       type: System.String
       description: To be added.
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -246,6 +252,7 @@ items:
     return:
       type: System.Type
       description: To be added.
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -269,6 +276,7 @@ items:
     return:
       type: System.Runtime.InteropServices.VarEnum
       description: To be added.
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -292,6 +300,7 @@ items:
     return:
       type: System.Type
       description: To be added.
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -315,6 +324,7 @@ items:
     return:
       type: System.Int32
       description: To be added.
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -338,6 +348,7 @@ items:
     return:
       type: System.Int16
       description: To be added.
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -362,6 +373,7 @@ items:
       type: System.Runtime.InteropServices.UnmanagedType
       description: To be added.
   overload: System.Runtime.InteropServices.MarshalAsAttribute.Value*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -400,12 +412,6 @@ references:
   name: ArraySubType
   nameWithType: MarshalAsAttribute.ArraySubType
   fullName: System.Runtime.InteropServices.MarshalAsAttribute.ArraySubType
-- uid: System.Runtime.InteropServices.UnmanagedType
-  parent: System.Runtime.InteropServices
-  isExternal: false
-  name: UnmanagedType
-  nameWithType: UnmanagedType
-  fullName: System.Runtime.InteropServices.UnmanagedType
 - uid: System.Runtime.InteropServices.MarshalAsAttribute.IidParameterIndex
   parent: System.Runtime.InteropServices.MarshalAsAttribute
   isExternal: false
@@ -436,12 +442,6 @@ references:
   name: MarshalType
   nameWithType: MarshalAsAttribute.MarshalType
   fullName: System.Runtime.InteropServices.MarshalAsAttribute.MarshalType
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
 - uid: System.Runtime.InteropServices.MarshalAsAttribute.MarshalTypeRef
   parent: System.Runtime.InteropServices.MarshalAsAttribute
   isExternal: false
@@ -472,48 +472,24 @@ references:
   name: SafeArrayUserDefinedSubType
   nameWithType: MarshalAsAttribute.SafeArrayUserDefinedSubType
   fullName: System.Runtime.InteropServices.MarshalAsAttribute.SafeArrayUserDefinedSubType
-- uid: System.Type
-  parent: System
-  isExternal: false
-  name: Type
-  nameWithType: Type
-  fullName: System.Type
 - uid: System.Runtime.InteropServices.MarshalAsAttribute.SizeConst
   parent: System.Runtime.InteropServices.MarshalAsAttribute
   isExternal: false
   name: SizeConst
   nameWithType: MarshalAsAttribute.SizeConst
   fullName: System.Runtime.InteropServices.MarshalAsAttribute.SizeConst
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
 - uid: System.Runtime.InteropServices.MarshalAsAttribute.SizeParamIndex
   parent: System.Runtime.InteropServices.MarshalAsAttribute
   isExternal: false
   name: SizeParamIndex
   nameWithType: MarshalAsAttribute.SizeParamIndex
   fullName: System.Runtime.InteropServices.MarshalAsAttribute.SizeParamIndex
-- uid: System.Int16
-  parent: System
-  isExternal: false
-  name: Int16
-  nameWithType: Int16
-  fullName: System.Int16
 - uid: System.Runtime.InteropServices.MarshalAsAttribute.Value
   parent: System.Runtime.InteropServices.MarshalAsAttribute
   isExternal: false
   name: Value
   nameWithType: MarshalAsAttribute.Value
   fullName: System.Runtime.InteropServices.MarshalAsAttribute.Value
-- uid: System.Runtime.InteropServices.UnmanagedType
-  parent: System.Runtime.InteropServices
-  isExternal: false
-  name: UnmanagedType
-  nameWithType: UnmanagedType
-  fullName: System.Runtime.InteropServices.UnmanagedType
 - uid: System.Runtime.InteropServices.MarshalAsAttribute.#ctor*
   parent: System.Runtime.InteropServices.MarshalAsAttribute
   isExternal: false

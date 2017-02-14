@@ -98,6 +98,7 @@ items:
     content: protected UnmanagedMemoryStream ();
     parameters: []
   overload: System.IO.UnmanagedMemoryStream.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -126,6 +127,7 @@ items:
       type: System.Int64
       description: To be added.
   overload: System.IO.UnmanagedMemoryStream.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -157,6 +159,7 @@ items:
       type: System.Int64
       description: To be added.
   overload: System.IO.UnmanagedMemoryStream.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -191,6 +194,7 @@ items:
       type: System.IO.FileAccess
       description: To be added.
   overload: System.IO.UnmanagedMemoryStream.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -225,6 +229,7 @@ items:
       type: System.IO.FileAccess
       description: To be added.
   overload: System.IO.UnmanagedMemoryStream.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -249,6 +254,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.IO.UnmanagedMemoryStream.CanRead*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -273,6 +279,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.IO.UnmanagedMemoryStream.CanSeek*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -297,6 +304,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.IO.UnmanagedMemoryStream.CanWrite*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -321,6 +329,7 @@ items:
       type: System.Int64
       description: To be added.
   overload: System.IO.UnmanagedMemoryStream.Capacity*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -346,6 +355,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.IO.UnmanagedMemoryStream.Dispose*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -368,6 +378,7 @@ items:
     content: public override void Flush ();
     parameters: []
   overload: System.IO.UnmanagedMemoryStream.Flush*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -396,6 +407,7 @@ items:
       type: System.Threading.Tasks.Task
       description: To be added.
   overload: System.IO.UnmanagedMemoryStream.FlushAsync*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -430,6 +442,7 @@ items:
       type: System.IO.FileAccess
       description: To be added.
   overload: System.IO.UnmanagedMemoryStream.Initialize*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -464,6 +477,7 @@ items:
       type: System.IO.FileAccess
       description: To be added.
   overload: System.IO.UnmanagedMemoryStream.Initialize*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -488,6 +502,7 @@ items:
       type: System.Int64
       description: To be added.
   overload: System.IO.UnmanagedMemoryStream.Length*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -512,6 +527,7 @@ items:
       type: System.Int64
       description: To be added.
   overload: System.IO.UnmanagedMemoryStream.Position*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -536,6 +552,7 @@ items:
       type: System.Byte*
       description: To be added.
   overload: System.IO.UnmanagedMemoryStream.PositionPointer*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -570,6 +587,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.IO.UnmanagedMemoryStream.Read*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -607,6 +625,7 @@ items:
       type: System.Threading.Tasks.Task{System.Int32}
       description: To be added.
   overload: System.IO.UnmanagedMemoryStream.ReadAsync*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -632,6 +651,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.IO.UnmanagedMemoryStream.ReadByte*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -663,6 +683,7 @@ items:
       type: System.Int64
       description: To be added.
   overload: System.IO.UnmanagedMemoryStream.Seek*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -688,6 +709,7 @@ items:
       type: System.Int64
       description: To be added.
   overload: System.IO.UnmanagedMemoryStream.SetLength*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -719,6 +741,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.IO.UnmanagedMemoryStream.Write*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -756,6 +779,7 @@ items:
       type: System.Threading.Tasks.Task
       description: To be added.
   overload: System.IO.UnmanagedMemoryStream.WriteAsync*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -781,6 +805,7 @@ items:
       type: System.Byte
       description: To be added.
   overload: System.IO.UnmanagedMemoryStream.WriteByte*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -819,36 +844,12 @@ references:
   name: SafeBuffer
   nameWithType: SafeBuffer
   fullName: System.Runtime.InteropServices.SafeBuffer
-- uid: System.Int64
-  parent: System
-  isExternal: false
-  name: Int64
-  nameWithType: Int64
-  fullName: System.Int64
-- uid: System.Int64
-  parent: System
-  isExternal: false
-  name: Int64
-  nameWithType: Int64
-  fullName: System.Int64
 - uid: System.IO.UnmanagedMemoryStream.#ctor(System.Byte*,System.Int64,System.Int64,System.IO.FileAccess)
   parent: System.IO.UnmanagedMemoryStream
   isExternal: false
   name: UnmanagedMemoryStream(Byte*,Int64,Int64,FileAccess)
   nameWithType: UnmanagedMemoryStream.UnmanagedMemoryStream(Byte*,Int64,Int64,FileAccess)
   fullName: System.IO.UnmanagedMemoryStream.UnmanagedMemoryStream(Byte*,Int64,Int64,FileAccess)
-- uid: System.Int64
-  parent: System
-  isExternal: false
-  name: Int64
-  nameWithType: Int64
-  fullName: System.Int64
-- uid: System.Int64
-  parent: System
-  isExternal: false
-  name: Int64
-  nameWithType: Int64
-  fullName: System.Int64
 - uid: System.IO.FileAccess
   parent: System.IO
   isExternal: false
@@ -861,30 +862,6 @@ references:
   name: UnmanagedMemoryStream(SafeBuffer,Int64,Int64,FileAccess)
   nameWithType: UnmanagedMemoryStream.UnmanagedMemoryStream(SafeBuffer,Int64,Int64,FileAccess)
   fullName: System.IO.UnmanagedMemoryStream.UnmanagedMemoryStream(SafeBuffer,Int64,Int64,FileAccess)
-- uid: System.Runtime.InteropServices.SafeBuffer
-  parent: System.Runtime.InteropServices
-  isExternal: false
-  name: SafeBuffer
-  nameWithType: SafeBuffer
-  fullName: System.Runtime.InteropServices.SafeBuffer
-- uid: System.Int64
-  parent: System
-  isExternal: false
-  name: Int64
-  nameWithType: Int64
-  fullName: System.Int64
-- uid: System.Int64
-  parent: System
-  isExternal: false
-  name: Int64
-  nameWithType: Int64
-  fullName: System.Int64
-- uid: System.IO.FileAccess
-  parent: System.IO
-  isExternal: false
-  name: FileAccess
-  nameWithType: FileAccess
-  fullName: System.IO.FileAccess
 - uid: System.IO.UnmanagedMemoryStream.CanRead
   parent: System.IO.UnmanagedMemoryStream
   isExternal: false
@@ -903,48 +880,24 @@ references:
   name: CanSeek
   nameWithType: UnmanagedMemoryStream.CanSeek
   fullName: System.IO.UnmanagedMemoryStream.CanSeek
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
 - uid: System.IO.UnmanagedMemoryStream.CanWrite
   parent: System.IO.UnmanagedMemoryStream
   isExternal: false
   name: CanWrite
   nameWithType: UnmanagedMemoryStream.CanWrite
   fullName: System.IO.UnmanagedMemoryStream.CanWrite
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
 - uid: System.IO.UnmanagedMemoryStream.Capacity
   parent: System.IO.UnmanagedMemoryStream
   isExternal: false
   name: Capacity
   nameWithType: UnmanagedMemoryStream.Capacity
   fullName: System.IO.UnmanagedMemoryStream.Capacity
-- uid: System.Int64
-  parent: System
-  isExternal: false
-  name: Int64
-  nameWithType: Int64
-  fullName: System.Int64
 - uid: System.IO.UnmanagedMemoryStream.Dispose(System.Boolean)
   parent: System.IO.UnmanagedMemoryStream
   isExternal: false
   name: Dispose(Boolean)
   nameWithType: UnmanagedMemoryStream.Dispose(Boolean)
   fullName: System.IO.UnmanagedMemoryStream.Dispose(Boolean)
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
 - uid: System.IO.UnmanagedMemoryStream.Flush
   parent: System.IO.UnmanagedMemoryStream
   isExternal: false
@@ -975,78 +928,24 @@ references:
   name: Initialize(Byte*,Int64,Int64,FileAccess)
   nameWithType: UnmanagedMemoryStream.Initialize(Byte*,Int64,Int64,FileAccess)
   fullName: System.IO.UnmanagedMemoryStream.Initialize(Byte*,Int64,Int64,FileAccess)
-- uid: System.Int64
-  parent: System
-  isExternal: false
-  name: Int64
-  nameWithType: Int64
-  fullName: System.Int64
-- uid: System.Int64
-  parent: System
-  isExternal: false
-  name: Int64
-  nameWithType: Int64
-  fullName: System.Int64
-- uid: System.IO.FileAccess
-  parent: System.IO
-  isExternal: false
-  name: FileAccess
-  nameWithType: FileAccess
-  fullName: System.IO.FileAccess
 - uid: System.IO.UnmanagedMemoryStream.Initialize(System.Runtime.InteropServices.SafeBuffer,System.Int64,System.Int64,System.IO.FileAccess)
   parent: System.IO.UnmanagedMemoryStream
   isExternal: false
   name: Initialize(SafeBuffer,Int64,Int64,FileAccess)
   nameWithType: UnmanagedMemoryStream.Initialize(SafeBuffer,Int64,Int64,FileAccess)
   fullName: System.IO.UnmanagedMemoryStream.Initialize(SafeBuffer,Int64,Int64,FileAccess)
-- uid: System.Runtime.InteropServices.SafeBuffer
-  parent: System.Runtime.InteropServices
-  isExternal: false
-  name: SafeBuffer
-  nameWithType: SafeBuffer
-  fullName: System.Runtime.InteropServices.SafeBuffer
-- uid: System.Int64
-  parent: System
-  isExternal: false
-  name: Int64
-  nameWithType: Int64
-  fullName: System.Int64
-- uid: System.Int64
-  parent: System
-  isExternal: false
-  name: Int64
-  nameWithType: Int64
-  fullName: System.Int64
-- uid: System.IO.FileAccess
-  parent: System.IO
-  isExternal: false
-  name: FileAccess
-  nameWithType: FileAccess
-  fullName: System.IO.FileAccess
 - uid: System.IO.UnmanagedMemoryStream.Length
   parent: System.IO.UnmanagedMemoryStream
   isExternal: false
   name: Length
   nameWithType: UnmanagedMemoryStream.Length
   fullName: System.IO.UnmanagedMemoryStream.Length
-- uid: System.Int64
-  parent: System
-  isExternal: false
-  name: Int64
-  nameWithType: Int64
-  fullName: System.Int64
 - uid: System.IO.UnmanagedMemoryStream.Position
   parent: System.IO.UnmanagedMemoryStream
   isExternal: false
   name: Position
   nameWithType: UnmanagedMemoryStream.Position
   fullName: System.IO.UnmanagedMemoryStream.Position
-- uid: System.Int64
-  parent: System
-  isExternal: false
-  name: Int64
-  nameWithType: Int64
-  fullName: System.Int64
 - uid: System.IO.UnmanagedMemoryStream.PositionPointer
   parent: System.IO.UnmanagedMemoryStream
   isExternal: false
@@ -1065,24 +964,20 @@ references:
   name: Int32
   nameWithType: Int32
   fullName: System.Int32
-- uid: System.Byte
+- uid: System.Byte[]
   parent: System
   isExternal: false
   name: Byte
   nameWithType: Byte
   fullName: System.Byte[]
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
+  spec.csharp:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: Byte[]
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
 - uid: System.IO.UnmanagedMemoryStream.ReadAsync(System.Byte[],System.Int32,System.Int32,System.Threading.CancellationToken)
   parent: System.IO.UnmanagedMemoryStream
   isExternal: false
@@ -1095,60 +990,33 @@ references:
   name: Task<Int32>
   nameWithType: Task<Int32>
   fullName: System.Threading.Tasks.Task<System.Int32>
-- uid: System.Byte
-  parent: System
-  isExternal: false
-  name: Byte
-  nameWithType: Byte
-  fullName: System.Byte[]
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: System.Threading.CancellationToken
-  parent: System.Threading
-  isExternal: false
-  name: CancellationToken
-  nameWithType: CancellationToken
-  fullName: System.Threading.CancellationToken
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: Task<System.Int32>
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: Int32
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
 - uid: System.IO.UnmanagedMemoryStream.ReadByte
   parent: System.IO.UnmanagedMemoryStream
   isExternal: false
   name: ReadByte()
   nameWithType: UnmanagedMemoryStream.ReadByte()
   fullName: System.IO.UnmanagedMemoryStream.ReadByte()
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
 - uid: System.IO.UnmanagedMemoryStream.Seek(System.Int64,System.IO.SeekOrigin)
   parent: System.IO.UnmanagedMemoryStream
   isExternal: false
   name: Seek(Int64,SeekOrigin)
   nameWithType: UnmanagedMemoryStream.Seek(Int64,SeekOrigin)
   fullName: System.IO.UnmanagedMemoryStream.Seek(Int64,SeekOrigin)
-- uid: System.Int64
-  parent: System
-  isExternal: false
-  name: Int64
-  nameWithType: Int64
-  fullName: System.Int64
-- uid: System.Int64
-  parent: System
-  isExternal: false
-  name: Int64
-  nameWithType: Int64
-  fullName: System.Int64
 - uid: System.IO.SeekOrigin
   parent: System.IO
   isExternal: false
@@ -1161,72 +1029,18 @@ references:
   name: SetLength(Int64)
   nameWithType: UnmanagedMemoryStream.SetLength(Int64)
   fullName: System.IO.UnmanagedMemoryStream.SetLength(Int64)
-- uid: System.Int64
-  parent: System
-  isExternal: false
-  name: Int64
-  nameWithType: Int64
-  fullName: System.Int64
 - uid: System.IO.UnmanagedMemoryStream.Write(System.Byte[],System.Int32,System.Int32)
   parent: System.IO.UnmanagedMemoryStream
   isExternal: false
   name: Write(Byte[],Int32,Int32)
   nameWithType: UnmanagedMemoryStream.Write(Byte[],Int32,Int32)
   fullName: System.IO.UnmanagedMemoryStream.Write(Byte[],Int32,Int32)
-- uid: System.Byte
-  parent: System
-  isExternal: false
-  name: Byte
-  nameWithType: Byte
-  fullName: System.Byte[]
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
 - uid: System.IO.UnmanagedMemoryStream.WriteAsync(System.Byte[],System.Int32,System.Int32,System.Threading.CancellationToken)
   parent: System.IO.UnmanagedMemoryStream
   isExternal: false
   name: WriteAsync(Byte[],Int32,Int32,CancellationToken)
   nameWithType: UnmanagedMemoryStream.WriteAsync(Byte[],Int32,Int32,CancellationToken)
   fullName: System.IO.UnmanagedMemoryStream.WriteAsync(Byte[],Int32,Int32,CancellationToken)
-- uid: System.Threading.Tasks.Task
-  parent: System.Threading.Tasks
-  isExternal: false
-  name: Task
-  nameWithType: Task
-  fullName: System.Threading.Tasks.Task
-- uid: System.Byte
-  parent: System
-  isExternal: false
-  name: Byte
-  nameWithType: Byte
-  fullName: System.Byte[]
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: System.Threading.CancellationToken
-  parent: System.Threading
-  isExternal: false
-  name: CancellationToken
-  nameWithType: CancellationToken
-  fullName: System.Threading.CancellationToken
 - uid: System.IO.UnmanagedMemoryStream.WriteByte(System.Byte)
   parent: System.IO.UnmanagedMemoryStream
   isExternal: false

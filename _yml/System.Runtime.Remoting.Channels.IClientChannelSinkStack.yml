@@ -48,6 +48,7 @@ items:
       type: System.Object
       description: To be added.
   overload: System.Runtime.Remoting.Channels.IClientChannelSinkStack.Pop*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -76,6 +77,7 @@ items:
       type: System.Object
       description: To be added.
   overload: System.Runtime.Remoting.Channels.IClientChannelSinkStack.Push*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -105,18 +107,6 @@ references:
   name: Push(IClientChannelSink,Object)
   nameWithType: IClientChannelSinkStack.Push(IClientChannelSink,Object)
   fullName: System.Runtime.Remoting.Channels.IClientChannelSinkStack.Push(IClientChannelSink,Object)
-- uid: System.Runtime.Remoting.Channels.IClientChannelSink
-  parent: System.Runtime.Remoting.Channels
-  isExternal: false
-  name: IClientChannelSink
-  nameWithType: IClientChannelSink
-  fullName: System.Runtime.Remoting.Channels.IClientChannelSink
-- uid: System.Object
-  parent: System
-  isExternal: false
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
 - uid: System.Runtime.Remoting.Channels.IClientChannelSinkStack.Pop*
   parent: System.Runtime.Remoting.Channels.IClientChannelSinkStack
   isExternal: false

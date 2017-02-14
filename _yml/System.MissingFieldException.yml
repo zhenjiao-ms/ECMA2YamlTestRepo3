@@ -72,6 +72,7 @@ items:
     content: public MissingFieldException ();
     parameters: []
   overload: System.MissingFieldException.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -97,6 +98,7 @@ items:
       type: System.String
       description: To be added.
   overload: System.MissingFieldException.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -125,6 +127,7 @@ items:
       type: System.Runtime.Serialization.StreamingContext
       description: To be added.
   overload: System.MissingFieldException.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -153,6 +156,7 @@ items:
       type: System.Exception
       description: To be added.
   overload: System.MissingFieldException.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -181,6 +185,7 @@ items:
       type: System.String
       description: To be added.
   overload: System.MissingFieldException.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -205,6 +210,7 @@ items:
       type: System.String
       description: To be added.
   overload: System.MissingFieldException.Message*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -255,12 +261,6 @@ references:
   name: MissingFieldException(String,Exception)
   nameWithType: MissingFieldException.MissingFieldException(String,Exception)
   fullName: System.MissingFieldException.MissingFieldException(String,Exception)
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
 - uid: System.Exception
   parent: System
   isExternal: false
@@ -273,30 +273,12 @@ references:
   name: MissingFieldException(String,String)
   nameWithType: MissingFieldException.MissingFieldException(String,String)
   fullName: System.MissingFieldException.MissingFieldException(String,String)
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
 - uid: System.MissingFieldException.Message
   parent: System.MissingFieldException
   isExternal: false
   name: Message
   nameWithType: MissingFieldException.Message
   fullName: System.MissingFieldException.Message
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
 - uid: System.MissingFieldException.#ctor*
   parent: System.MissingFieldException
   isExternal: false

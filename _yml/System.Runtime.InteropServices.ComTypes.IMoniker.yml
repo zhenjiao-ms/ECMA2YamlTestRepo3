@@ -73,6 +73,7 @@ items:
       type: System.Object
       description: To be added.
   overload: System.Runtime.InteropServices.ComTypes.IMoniker.BindToObject*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -107,6 +108,7 @@ items:
       type: System.Object
       description: To be added.
   overload: System.Runtime.InteropServices.ComTypes.IMoniker.BindToStorage*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -135,6 +137,7 @@ items:
       type: System.Runtime.InteropServices.ComTypes.IMoniker
       description: To be added.
   overload: System.Runtime.InteropServices.ComTypes.IMoniker.CommonPrefixWith*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -166,6 +169,7 @@ items:
       type: System.Runtime.InteropServices.ComTypes.IMoniker
       description: To be added.
   overload: System.Runtime.InteropServices.ComTypes.IMoniker.ComposeWith*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -194,6 +198,7 @@ items:
       type: System.Runtime.InteropServices.ComTypes.IEnumMoniker
       description: To be added.
   overload: System.Runtime.InteropServices.ComTypes.IMoniker.Enum*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -219,6 +224,7 @@ items:
       type: System.Guid
       description: To be added.
   overload: System.Runtime.InteropServices.ComTypes.IMoniker.GetClassID*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -250,6 +256,7 @@ items:
       type: System.String
       description: To be added.
   overload: System.Runtime.InteropServices.ComTypes.IMoniker.GetDisplayName*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -275,6 +282,7 @@ items:
       type: System.Int64
       description: To be added.
   overload: System.Runtime.InteropServices.ComTypes.IMoniker.GetSizeMax*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -306,6 +314,7 @@ items:
       type: System.Runtime.InteropServices.ComTypes.FILETIME
       description: To be added.
   overload: System.Runtime.InteropServices.ComTypes.IMoniker.GetTimeOfLastChange*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -331,6 +340,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.Runtime.InteropServices.ComTypes.IMoniker.Hash*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -356,6 +366,7 @@ items:
       type: System.Runtime.InteropServices.ComTypes.IMoniker
       description: To be added.
   overload: System.Runtime.InteropServices.ComTypes.IMoniker.Inverse*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -381,6 +392,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.Runtime.InteropServices.ComTypes.IMoniker.IsDirty*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -409,6 +421,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.Runtime.InteropServices.ComTypes.IMoniker.IsEqual*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -443,6 +456,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.Runtime.InteropServices.ComTypes.IMoniker.IsRunning*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -471,6 +485,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.Runtime.InteropServices.ComTypes.IMoniker.IsSystemMoniker*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -496,6 +511,7 @@ items:
       type: System.Runtime.InteropServices.ComTypes.IStream
       description: To be added.
   overload: System.Runtime.InteropServices.ComTypes.IMoniker.Load*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -533,6 +549,7 @@ items:
       type: System.Runtime.InteropServices.ComTypes.IMoniker
       description: To be added.
   overload: System.Runtime.InteropServices.ComTypes.IMoniker.ParseDisplayName*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -567,6 +584,7 @@ items:
       type: System.Runtime.InteropServices.ComTypes.IMoniker
       description: To be added.
   overload: System.Runtime.InteropServices.ComTypes.IMoniker.Reduce*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -595,6 +613,7 @@ items:
       type: System.Runtime.InteropServices.ComTypes.IMoniker
       description: To be added.
   overload: System.Runtime.InteropServices.ComTypes.IMoniker.RelativePathTo*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -623,6 +642,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Runtime.InteropServices.ComTypes.IMoniker.Save*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -664,84 +684,30 @@ references:
   name: BindToStorage(IBindCtx,IMoniker,Guid,Object)
   nameWithType: IMoniker.BindToStorage(IBindCtx,IMoniker,Guid,Object)
   fullName: System.Runtime.InteropServices.ComTypes.IMoniker.BindToStorage(IBindCtx,IMoniker,Guid,Object)
-- uid: System.Runtime.InteropServices.ComTypes.IBindCtx
-  parent: System.Runtime.InteropServices.ComTypes
-  isExternal: false
-  name: IBindCtx
-  nameWithType: IBindCtx
-  fullName: System.Runtime.InteropServices.ComTypes.IBindCtx
-- uid: System.Runtime.InteropServices.ComTypes.IMoniker
-  parent: System.Runtime.InteropServices.ComTypes
-  isExternal: false
-  name: IMoniker
-  nameWithType: IMoniker
-  fullName: System.Runtime.InteropServices.ComTypes.IMoniker
-- uid: System.Guid
-  parent: System
-  isExternal: false
-  name: Guid
-  nameWithType: Guid
-  fullName: System.Guid
-- uid: System.Object
-  parent: System
-  isExternal: false
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
 - uid: System.Runtime.InteropServices.ComTypes.IMoniker.CommonPrefixWith(System.Runtime.InteropServices.ComTypes.IMoniker,System.Runtime.InteropServices.ComTypes.IMoniker@)
   parent: System.Runtime.InteropServices.ComTypes.IMoniker
   isExternal: false
   name: CommonPrefixWith(IMoniker,IMoniker)
   nameWithType: IMoniker.CommonPrefixWith(IMoniker,IMoniker)
   fullName: System.Runtime.InteropServices.ComTypes.IMoniker.CommonPrefixWith(IMoniker,IMoniker)
-- uid: System.Runtime.InteropServices.ComTypes.IMoniker
-  parent: System.Runtime.InteropServices.ComTypes
-  isExternal: false
-  name: IMoniker
-  nameWithType: IMoniker
-  fullName: System.Runtime.InteropServices.ComTypes.IMoniker
-- uid: System.Runtime.InteropServices.ComTypes.IMoniker
-  parent: System.Runtime.InteropServices.ComTypes
-  isExternal: false
-  name: IMoniker
-  nameWithType: IMoniker
-  fullName: System.Runtime.InteropServices.ComTypes.IMoniker
 - uid: System.Runtime.InteropServices.ComTypes.IMoniker.ComposeWith(System.Runtime.InteropServices.ComTypes.IMoniker,System.Boolean,System.Runtime.InteropServices.ComTypes.IMoniker@)
   parent: System.Runtime.InteropServices.ComTypes.IMoniker
   isExternal: false
   name: ComposeWith(IMoniker,Boolean,IMoniker)
   nameWithType: IMoniker.ComposeWith(IMoniker,Boolean,IMoniker)
   fullName: System.Runtime.InteropServices.ComTypes.IMoniker.ComposeWith(IMoniker,Boolean,IMoniker)
-- uid: System.Runtime.InteropServices.ComTypes.IMoniker
-  parent: System.Runtime.InteropServices.ComTypes
-  isExternal: false
-  name: IMoniker
-  nameWithType: IMoniker
-  fullName: System.Runtime.InteropServices.ComTypes.IMoniker
 - uid: System.Boolean
   parent: System
   isExternal: false
   name: Boolean
   nameWithType: Boolean
   fullName: System.Boolean
-- uid: System.Runtime.InteropServices.ComTypes.IMoniker
-  parent: System.Runtime.InteropServices.ComTypes
-  isExternal: false
-  name: IMoniker
-  nameWithType: IMoniker
-  fullName: System.Runtime.InteropServices.ComTypes.IMoniker
 - uid: System.Runtime.InteropServices.ComTypes.IMoniker.Enum(System.Boolean,System.Runtime.InteropServices.ComTypes.IEnumMoniker@)
   parent: System.Runtime.InteropServices.ComTypes.IMoniker
   isExternal: false
   name: Enum(Boolean,IEnumMoniker)
   nameWithType: IMoniker.Enum(Boolean,IEnumMoniker)
   fullName: System.Runtime.InteropServices.ComTypes.IMoniker.Enum(Boolean,IEnumMoniker)
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
 - uid: System.Runtime.InteropServices.ComTypes.IEnumMoniker
   parent: System.Runtime.InteropServices.ComTypes
   isExternal: false
@@ -754,30 +720,12 @@ references:
   name: GetClassID(Guid)
   nameWithType: IMoniker.GetClassID(Guid)
   fullName: System.Runtime.InteropServices.ComTypes.IMoniker.GetClassID(Guid)
-- uid: System.Guid
-  parent: System
-  isExternal: false
-  name: Guid
-  nameWithType: Guid
-  fullName: System.Guid
 - uid: System.Runtime.InteropServices.ComTypes.IMoniker.GetDisplayName(System.Runtime.InteropServices.ComTypes.IBindCtx,System.Runtime.InteropServices.ComTypes.IMoniker,System.String@)
   parent: System.Runtime.InteropServices.ComTypes.IMoniker
   isExternal: false
   name: GetDisplayName(IBindCtx,IMoniker,String)
   nameWithType: IMoniker.GetDisplayName(IBindCtx,IMoniker,String)
   fullName: System.Runtime.InteropServices.ComTypes.IMoniker.GetDisplayName(IBindCtx,IMoniker,String)
-- uid: System.Runtime.InteropServices.ComTypes.IBindCtx
-  parent: System.Runtime.InteropServices.ComTypes
-  isExternal: false
-  name: IBindCtx
-  nameWithType: IBindCtx
-  fullName: System.Runtime.InteropServices.ComTypes.IBindCtx
-- uid: System.Runtime.InteropServices.ComTypes.IMoniker
-  parent: System.Runtime.InteropServices.ComTypes
-  isExternal: false
-  name: IMoniker
-  nameWithType: IMoniker
-  fullName: System.Runtime.InteropServices.ComTypes.IMoniker
 - uid: System.String
   parent: System
   isExternal: false
@@ -802,18 +750,6 @@ references:
   name: GetTimeOfLastChange(IBindCtx,IMoniker,FILETIME)
   nameWithType: IMoniker.GetTimeOfLastChange(IBindCtx,IMoniker,FILETIME)
   fullName: System.Runtime.InteropServices.ComTypes.IMoniker.GetTimeOfLastChange(IBindCtx,IMoniker,FILETIME)
-- uid: System.Runtime.InteropServices.ComTypes.IBindCtx
-  parent: System.Runtime.InteropServices.ComTypes
-  isExternal: false
-  name: IBindCtx
-  nameWithType: IBindCtx
-  fullName: System.Runtime.InteropServices.ComTypes.IBindCtx
-- uid: System.Runtime.InteropServices.ComTypes.IMoniker
-  parent: System.Runtime.InteropServices.ComTypes
-  isExternal: false
-  name: IMoniker
-  nameWithType: IMoniker
-  fullName: System.Runtime.InteropServices.ComTypes.IMoniker
 - uid: System.Runtime.InteropServices.ComTypes.FILETIME
   parent: System.Runtime.InteropServices.ComTypes
   isExternal: false
@@ -838,90 +774,30 @@ references:
   name: Inverse(IMoniker)
   nameWithType: IMoniker.Inverse(IMoniker)
   fullName: System.Runtime.InteropServices.ComTypes.IMoniker.Inverse(IMoniker)
-- uid: System.Runtime.InteropServices.ComTypes.IMoniker
-  parent: System.Runtime.InteropServices.ComTypes
-  isExternal: false
-  name: IMoniker
-  nameWithType: IMoniker
-  fullName: System.Runtime.InteropServices.ComTypes.IMoniker
 - uid: System.Runtime.InteropServices.ComTypes.IMoniker.IsDirty
   parent: System.Runtime.InteropServices.ComTypes.IMoniker
   isExternal: false
   name: IsDirty()
   nameWithType: IMoniker.IsDirty()
   fullName: System.Runtime.InteropServices.ComTypes.IMoniker.IsDirty()
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
 - uid: System.Runtime.InteropServices.ComTypes.IMoniker.IsEqual(System.Runtime.InteropServices.ComTypes.IMoniker)
   parent: System.Runtime.InteropServices.ComTypes.IMoniker
   isExternal: false
   name: IsEqual(IMoniker)
   nameWithType: IMoniker.IsEqual(IMoniker)
   fullName: System.Runtime.InteropServices.ComTypes.IMoniker.IsEqual(IMoniker)
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: System.Runtime.InteropServices.ComTypes.IMoniker
-  parent: System.Runtime.InteropServices.ComTypes
-  isExternal: false
-  name: IMoniker
-  nameWithType: IMoniker
-  fullName: System.Runtime.InteropServices.ComTypes.IMoniker
 - uid: System.Runtime.InteropServices.ComTypes.IMoniker.IsRunning(System.Runtime.InteropServices.ComTypes.IBindCtx,System.Runtime.InteropServices.ComTypes.IMoniker,System.Runtime.InteropServices.ComTypes.IMoniker)
   parent: System.Runtime.InteropServices.ComTypes.IMoniker
   isExternal: false
   name: IsRunning(IBindCtx,IMoniker,IMoniker)
   nameWithType: IMoniker.IsRunning(IBindCtx,IMoniker,IMoniker)
   fullName: System.Runtime.InteropServices.ComTypes.IMoniker.IsRunning(IBindCtx,IMoniker,IMoniker)
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: System.Runtime.InteropServices.ComTypes.IBindCtx
-  parent: System.Runtime.InteropServices.ComTypes
-  isExternal: false
-  name: IBindCtx
-  nameWithType: IBindCtx
-  fullName: System.Runtime.InteropServices.ComTypes.IBindCtx
-- uid: System.Runtime.InteropServices.ComTypes.IMoniker
-  parent: System.Runtime.InteropServices.ComTypes
-  isExternal: false
-  name: IMoniker
-  nameWithType: IMoniker
-  fullName: System.Runtime.InteropServices.ComTypes.IMoniker
-- uid: System.Runtime.InteropServices.ComTypes.IMoniker
-  parent: System.Runtime.InteropServices.ComTypes
-  isExternal: false
-  name: IMoniker
-  nameWithType: IMoniker
-  fullName: System.Runtime.InteropServices.ComTypes.IMoniker
 - uid: System.Runtime.InteropServices.ComTypes.IMoniker.IsSystemMoniker(System.Int32@)
   parent: System.Runtime.InteropServices.ComTypes.IMoniker
   isExternal: false
   name: IsSystemMoniker(Int32)
   nameWithType: IMoniker.IsSystemMoniker(Int32)
   fullName: System.Runtime.InteropServices.ComTypes.IMoniker.IsSystemMoniker(Int32)
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
 - uid: System.Runtime.InteropServices.ComTypes.IMoniker.Load(System.Runtime.InteropServices.ComTypes.IStream)
   parent: System.Runtime.InteropServices.ComTypes.IMoniker
   isExternal: false
@@ -940,102 +816,24 @@ references:
   name: ParseDisplayName(IBindCtx,IMoniker,String,Int32,IMoniker)
   nameWithType: IMoniker.ParseDisplayName(IBindCtx,IMoniker,String,Int32,IMoniker)
   fullName: System.Runtime.InteropServices.ComTypes.IMoniker.ParseDisplayName(IBindCtx,IMoniker,String,Int32,IMoniker)
-- uid: System.Runtime.InteropServices.ComTypes.IBindCtx
-  parent: System.Runtime.InteropServices.ComTypes
-  isExternal: false
-  name: IBindCtx
-  nameWithType: IBindCtx
-  fullName: System.Runtime.InteropServices.ComTypes.IBindCtx
-- uid: System.Runtime.InteropServices.ComTypes.IMoniker
-  parent: System.Runtime.InteropServices.ComTypes
-  isExternal: false
-  name: IMoniker
-  nameWithType: IMoniker
-  fullName: System.Runtime.InteropServices.ComTypes.IMoniker
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: System.Runtime.InteropServices.ComTypes.IMoniker
-  parent: System.Runtime.InteropServices.ComTypes
-  isExternal: false
-  name: IMoniker
-  nameWithType: IMoniker
-  fullName: System.Runtime.InteropServices.ComTypes.IMoniker
 - uid: System.Runtime.InteropServices.ComTypes.IMoniker.Reduce(System.Runtime.InteropServices.ComTypes.IBindCtx,System.Int32,System.Runtime.InteropServices.ComTypes.IMoniker@,System.Runtime.InteropServices.ComTypes.IMoniker@)
   parent: System.Runtime.InteropServices.ComTypes.IMoniker
   isExternal: false
   name: Reduce(IBindCtx,Int32,IMoniker,IMoniker)
   nameWithType: IMoniker.Reduce(IBindCtx,Int32,IMoniker,IMoniker)
   fullName: System.Runtime.InteropServices.ComTypes.IMoniker.Reduce(IBindCtx,Int32,IMoniker,IMoniker)
-- uid: System.Runtime.InteropServices.ComTypes.IBindCtx
-  parent: System.Runtime.InteropServices.ComTypes
-  isExternal: false
-  name: IBindCtx
-  nameWithType: IBindCtx
-  fullName: System.Runtime.InteropServices.ComTypes.IBindCtx
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: System.Runtime.InteropServices.ComTypes.IMoniker
-  parent: System.Runtime.InteropServices.ComTypes
-  isExternal: false
-  name: IMoniker
-  nameWithType: IMoniker
-  fullName: System.Runtime.InteropServices.ComTypes.IMoniker
-- uid: System.Runtime.InteropServices.ComTypes.IMoniker
-  parent: System.Runtime.InteropServices.ComTypes
-  isExternal: false
-  name: IMoniker
-  nameWithType: IMoniker
-  fullName: System.Runtime.InteropServices.ComTypes.IMoniker
 - uid: System.Runtime.InteropServices.ComTypes.IMoniker.RelativePathTo(System.Runtime.InteropServices.ComTypes.IMoniker,System.Runtime.InteropServices.ComTypes.IMoniker@)
   parent: System.Runtime.InteropServices.ComTypes.IMoniker
   isExternal: false
   name: RelativePathTo(IMoniker,IMoniker)
   nameWithType: IMoniker.RelativePathTo(IMoniker,IMoniker)
   fullName: System.Runtime.InteropServices.ComTypes.IMoniker.RelativePathTo(IMoniker,IMoniker)
-- uid: System.Runtime.InteropServices.ComTypes.IMoniker
-  parent: System.Runtime.InteropServices.ComTypes
-  isExternal: false
-  name: IMoniker
-  nameWithType: IMoniker
-  fullName: System.Runtime.InteropServices.ComTypes.IMoniker
-- uid: System.Runtime.InteropServices.ComTypes.IMoniker
-  parent: System.Runtime.InteropServices.ComTypes
-  isExternal: false
-  name: IMoniker
-  nameWithType: IMoniker
-  fullName: System.Runtime.InteropServices.ComTypes.IMoniker
 - uid: System.Runtime.InteropServices.ComTypes.IMoniker.Save(System.Runtime.InteropServices.ComTypes.IStream,System.Boolean)
   parent: System.Runtime.InteropServices.ComTypes.IMoniker
   isExternal: false
   name: Save(IStream,Boolean)
   nameWithType: IMoniker.Save(IStream,Boolean)
   fullName: System.Runtime.InteropServices.ComTypes.IMoniker.Save(IStream,Boolean)
-- uid: System.Runtime.InteropServices.ComTypes.IStream
-  parent: System.Runtime.InteropServices.ComTypes
-  isExternal: false
-  name: IStream
-  nameWithType: IStream
-  fullName: System.Runtime.InteropServices.ComTypes.IStream
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
 - uid: System.Runtime.InteropServices.ComTypes.IMoniker.BindToObject*
   parent: System.Runtime.InteropServices.ComTypes.IMoniker
   isExternal: false

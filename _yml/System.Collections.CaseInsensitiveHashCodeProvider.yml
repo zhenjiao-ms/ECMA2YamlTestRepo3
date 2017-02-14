@@ -57,6 +57,7 @@ items:
     content: public CaseInsensitiveHashCodeProvider ();
     parameters: []
   overload: System.Collections.CaseInsensitiveHashCodeProvider.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -82,6 +83,7 @@ items:
       type: System.Globalization.CultureInfo
       description: To be added.
   overload: System.Collections.CaseInsensitiveHashCodeProvider.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -106,6 +108,7 @@ items:
       type: System.Collections.CaseInsensitiveHashCodeProvider
       description: To be added.
   overload: System.Collections.CaseInsensitiveHashCodeProvider.Default*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -130,6 +133,7 @@ items:
       type: System.Collections.CaseInsensitiveHashCodeProvider
       description: To be added.
   overload: System.Collections.CaseInsensitiveHashCodeProvider.DefaultInvariant*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -158,6 +162,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.Collections.CaseInsensitiveHashCodeProvider.GetHashCode*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -202,12 +207,6 @@ references:
   name: DefaultInvariant
   nameWithType: CaseInsensitiveHashCodeProvider.DefaultInvariant
   fullName: System.Collections.CaseInsensitiveHashCodeProvider.DefaultInvariant
-- uid: System.Collections.CaseInsensitiveHashCodeProvider
-  parent: System.Collections
-  isExternal: false
-  name: CaseInsensitiveHashCodeProvider
-  nameWithType: CaseInsensitiveHashCodeProvider
-  fullName: System.Collections.CaseInsensitiveHashCodeProvider
 - uid: System.Collections.CaseInsensitiveHashCodeProvider.GetHashCode(System.Object)
   parent: System.Collections.CaseInsensitiveHashCodeProvider
   isExternal: false
@@ -220,12 +219,6 @@ references:
   name: Int32
   nameWithType: Int32
   fullName: System.Int32
-- uid: System.Object
-  parent: System
-  isExternal: false
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
 - uid: System.Collections.CaseInsensitiveHashCodeProvider.#ctor*
   parent: System.Collections.CaseInsensitiveHashCodeProvider
   isExternal: false

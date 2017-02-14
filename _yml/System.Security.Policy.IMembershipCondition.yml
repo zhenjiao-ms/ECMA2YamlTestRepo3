@@ -51,6 +51,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Security.Policy.IMembershipCondition.Check*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -76,6 +77,7 @@ items:
       type: System.Security.Policy.IMembershipCondition
       description: To be added.
   overload: System.Security.Policy.IMembershipCondition.Copy*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -104,6 +106,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Security.Policy.IMembershipCondition.Equals*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -129,6 +132,7 @@ items:
       type: System.String
       description: To be added.
   overload: System.Security.Policy.IMembershipCondition.ToString*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -170,12 +174,6 @@ references:
   name: Equals(Object)
   nameWithType: IMembershipCondition.Equals(Object)
   fullName: System.Security.Policy.IMembershipCondition.Equals(Object)
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
 - uid: System.Object
   parent: System
   isExternal: false

@@ -100,6 +100,7 @@ items:
       type: System.Runtime.InteropServices.CallingConvention
       description: To be added.
   overload: System.Runtime.InteropServices.UnmanagedFunctionPointerAttribute.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -123,6 +124,7 @@ items:
     return:
       type: System.Boolean
       description: To be added.
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -147,6 +149,7 @@ items:
       type: System.Runtime.InteropServices.CallingConvention
       description: To be added.
   overload: System.Runtime.InteropServices.UnmanagedFunctionPointerAttribute.CallingConvention*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -170,6 +173,7 @@ items:
     return:
       type: System.Runtime.InteropServices.CharSet
       description: To be added.
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -193,6 +197,7 @@ items:
     return:
       type: System.Boolean
       description: To be added.
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -216,6 +221,7 @@ items:
     return:
       type: System.Boolean
       description: To be added.
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -254,12 +260,6 @@ references:
   name: CallingConvention
   nameWithType: UnmanagedFunctionPointerAttribute.CallingConvention
   fullName: System.Runtime.InteropServices.UnmanagedFunctionPointerAttribute.CallingConvention
-- uid: System.Runtime.InteropServices.CallingConvention
-  parent: System.Runtime.InteropServices
-  isExternal: false
-  name: CallingConvention
-  nameWithType: CallingConvention
-  fullName: System.Runtime.InteropServices.CallingConvention
 - uid: System.Runtime.InteropServices.UnmanagedFunctionPointerAttribute.CharSet
   parent: System.Runtime.InteropServices.UnmanagedFunctionPointerAttribute
   isExternal: false
@@ -278,24 +278,12 @@ references:
   name: SetLastError
   nameWithType: UnmanagedFunctionPointerAttribute.SetLastError
   fullName: System.Runtime.InteropServices.UnmanagedFunctionPointerAttribute.SetLastError
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
 - uid: System.Runtime.InteropServices.UnmanagedFunctionPointerAttribute.ThrowOnUnmappableChar
   parent: System.Runtime.InteropServices.UnmanagedFunctionPointerAttribute
   isExternal: false
   name: ThrowOnUnmappableChar
   nameWithType: UnmanagedFunctionPointerAttribute.ThrowOnUnmappableChar
   fullName: System.Runtime.InteropServices.UnmanagedFunctionPointerAttribute.ThrowOnUnmappableChar
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
 - uid: System.Runtime.InteropServices.UnmanagedFunctionPointerAttribute.#ctor*
   parent: System.Runtime.InteropServices.UnmanagedFunctionPointerAttribute
   isExternal: false

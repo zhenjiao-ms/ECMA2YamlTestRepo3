@@ -65,6 +65,7 @@ items:
       type: System.Security.Permissions.PermissionState
       description: To be added.
   overload: System.Security.Permissions.PrincipalPermission.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -93,6 +94,7 @@ items:
       type: System.String
       description: To be added.
   overload: System.Security.Permissions.PrincipalPermission.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -124,6 +126,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Security.Permissions.PrincipalPermission.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -149,6 +152,7 @@ items:
       type: System.Security.IPermission
       description: To be added.
   overload: System.Security.Permissions.PrincipalPermission.Copy*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -171,6 +175,7 @@ items:
     content: public void Demand ();
     parameters: []
   overload: System.Security.Permissions.PrincipalPermission.Demand*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -199,6 +204,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Security.Permissions.PrincipalPermission.Equals*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -224,6 +230,7 @@ items:
       type: System.Security.SecurityElement
       description: To be added.
   overload: System.Security.Permissions.PrincipalPermission.FromXml*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -249,6 +256,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.Security.Permissions.PrincipalPermission.GetHashCode*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -277,6 +285,7 @@ items:
       type: System.Security.IPermission
       description: To be added.
   overload: System.Security.Permissions.PrincipalPermission.Intersect*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -305,6 +314,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Security.Permissions.PrincipalPermission.IsSubsetOf*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -330,6 +340,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Security.Permissions.PrincipalPermission.IsUnrestricted*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -355,6 +366,7 @@ items:
       type: System.String
       description: To be added.
   overload: System.Security.Permissions.PrincipalPermission.ToString*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -380,6 +392,7 @@ items:
       type: System.Security.SecurityElement
       description: To be added.
   overload: System.Security.Permissions.PrincipalPermission.ToXml*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -408,6 +421,7 @@ items:
       type: System.Security.IPermission
       description: To be added.
   overload: System.Security.Permissions.PrincipalPermission.Union*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -440,30 +454,12 @@ references:
   name: String
   nameWithType: String
   fullName: System.String
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
 - uid: System.Security.Permissions.PrincipalPermission.#ctor(System.String,System.String,System.Boolean)
   parent: System.Security.Permissions.PrincipalPermission
   isExternal: false
   name: PrincipalPermission(String,String,Boolean)
   nameWithType: PrincipalPermission.PrincipalPermission(String,String,Boolean)
   fullName: System.Security.Permissions.PrincipalPermission.PrincipalPermission(String,String,Boolean)
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
 - uid: System.Boolean
   parent: System
   isExternal: false
@@ -494,18 +490,6 @@ references:
   name: Equals(Object)
   nameWithType: PrincipalPermission.Equals(Object)
   fullName: System.Security.Permissions.PrincipalPermission.Equals(Object)
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
-- uid: System.Object
-  parent: System
-  isExternal: false
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
 - uid: System.Security.Permissions.PrincipalPermission.FromXml(System.Security.SecurityElement)
   parent: System.Security.Permissions.PrincipalPermission
   isExternal: false
@@ -536,90 +520,36 @@ references:
   name: Intersect(IPermission)
   nameWithType: PrincipalPermission.Intersect(IPermission)
   fullName: System.Security.Permissions.PrincipalPermission.Intersect(IPermission)
-- uid: System.Security.IPermission
-  parent: System.Security
-  isExternal: false
-  name: IPermission
-  nameWithType: IPermission
-  fullName: System.Security.IPermission
-- uid: System.Security.IPermission
-  parent: System.Security
-  isExternal: false
-  name: IPermission
-  nameWithType: IPermission
-  fullName: System.Security.IPermission
 - uid: System.Security.Permissions.PrincipalPermission.IsSubsetOf(System.Security.IPermission)
   parent: System.Security.Permissions.PrincipalPermission
   isExternal: false
   name: IsSubsetOf(IPermission)
   nameWithType: PrincipalPermission.IsSubsetOf(IPermission)
   fullName: System.Security.Permissions.PrincipalPermission.IsSubsetOf(IPermission)
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
-- uid: System.Security.IPermission
-  parent: System.Security
-  isExternal: false
-  name: IPermission
-  nameWithType: IPermission
-  fullName: System.Security.IPermission
 - uid: System.Security.Permissions.PrincipalPermission.IsUnrestricted
   parent: System.Security.Permissions.PrincipalPermission
   isExternal: false
   name: IsUnrestricted()
   nameWithType: PrincipalPermission.IsUnrestricted()
   fullName: System.Security.Permissions.PrincipalPermission.IsUnrestricted()
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
 - uid: System.Security.Permissions.PrincipalPermission.ToString
   parent: System.Security.Permissions.PrincipalPermission
   isExternal: false
   name: ToString()
   nameWithType: PrincipalPermission.ToString()
   fullName: System.Security.Permissions.PrincipalPermission.ToString()
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
 - uid: System.Security.Permissions.PrincipalPermission.ToXml
   parent: System.Security.Permissions.PrincipalPermission
   isExternal: false
   name: ToXml()
   nameWithType: PrincipalPermission.ToXml()
   fullName: System.Security.Permissions.PrincipalPermission.ToXml()
-- uid: System.Security.SecurityElement
-  parent: System.Security
-  isExternal: false
-  name: SecurityElement
-  nameWithType: SecurityElement
-  fullName: System.Security.SecurityElement
 - uid: System.Security.Permissions.PrincipalPermission.Union(System.Security.IPermission)
   parent: System.Security.Permissions.PrincipalPermission
   isExternal: false
   name: Union(IPermission)
   nameWithType: PrincipalPermission.Union(IPermission)
   fullName: System.Security.Permissions.PrincipalPermission.Union(IPermission)
-- uid: System.Security.IPermission
-  parent: System.Security
-  isExternal: false
-  name: IPermission
-  nameWithType: IPermission
-  fullName: System.Security.IPermission
-- uid: System.Security.IPermission
-  parent: System.Security
-  isExternal: false
-  name: IPermission
-  nameWithType: IPermission
-  fullName: System.Security.IPermission
 - uid: System.Security.Permissions.PrincipalPermission.#ctor*
   parent: System.Security.Permissions.PrincipalPermission
   isExternal: false

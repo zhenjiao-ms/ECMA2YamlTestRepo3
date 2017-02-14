@@ -78,6 +78,7 @@ items:
       type: System.String[]
       description: To be added.
   overload: System.Security.Principal.GenericPrincipal.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -102,6 +103,7 @@ items:
       type: System.Security.Principal.IIdentity
       description: To be added.
   overload: System.Security.Principal.GenericPrincipal.Identity*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -130,6 +132,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Security.Principal.GenericPrincipal.IsInRole*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -150,24 +153,26 @@ references:
   name: IIdentity
   nameWithType: IIdentity
   fullName: System.Security.Principal.IIdentity
-- uid: System.String
+- uid: System.String[]
   parent: System
   isExternal: false
   name: String
   nameWithType: String
   fullName: System.String[]
+  spec.csharp:
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: String[]
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
 - uid: System.Security.Principal.GenericPrincipal.Identity
   parent: System.Security.Principal.GenericPrincipal
   isExternal: false
   name: Identity
   nameWithType: GenericPrincipal.Identity
   fullName: System.Security.Principal.GenericPrincipal.Identity
-- uid: System.Security.Principal.IIdentity
-  parent: System.Security.Principal
-  isExternal: false
-  name: IIdentity
-  nameWithType: IIdentity
-  fullName: System.Security.Principal.IIdentity
 - uid: System.Security.Principal.GenericPrincipal.IsInRole(System.String)
   parent: System.Security.Principal.GenericPrincipal
   isExternal: false

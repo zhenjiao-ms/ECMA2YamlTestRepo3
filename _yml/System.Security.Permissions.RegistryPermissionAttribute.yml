@@ -107,6 +107,7 @@ items:
       type: System.Security.Permissions.SecurityAction
       description: To be added.
   overload: System.Security.Permissions.RegistryPermissionAttribute.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -131,6 +132,7 @@ items:
       type: System.String
       description: To be added.
   overload: System.Security.Permissions.RegistryPermissionAttribute.All*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -155,6 +157,7 @@ items:
       type: System.String
       description: To be added.
   overload: System.Security.Permissions.RegistryPermissionAttribute.ChangeAccessControl*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -179,6 +182,7 @@ items:
       type: System.String
       description: To be added.
   overload: System.Security.Permissions.RegistryPermissionAttribute.Create*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -204,6 +208,7 @@ items:
       type: System.Security.IPermission
       description: To be added.
   overload: System.Security.Permissions.RegistryPermissionAttribute.CreatePermission*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -228,6 +233,7 @@ items:
       type: System.String
       description: To be added.
   overload: System.Security.Permissions.RegistryPermissionAttribute.Read*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -252,6 +258,7 @@ items:
       type: System.String
       description: To be added.
   overload: System.Security.Permissions.RegistryPermissionAttribute.ViewAccessControl*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -276,6 +283,7 @@ items:
       type: System.String
       description: To be added.
   overload: System.Security.Permissions.RegistryPermissionAttribute.ViewAndModify*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -300,6 +308,7 @@ items:
       type: System.String
       description: To be added.
   overload: System.Security.Permissions.RegistryPermissionAttribute.Write*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -338,24 +347,12 @@ references:
   name: ChangeAccessControl
   nameWithType: RegistryPermissionAttribute.ChangeAccessControl
   fullName: System.Security.Permissions.RegistryPermissionAttribute.ChangeAccessControl
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
 - uid: System.Security.Permissions.RegistryPermissionAttribute.Create
   parent: System.Security.Permissions.RegistryPermissionAttribute
   isExternal: false
   name: Create
   nameWithType: RegistryPermissionAttribute.Create
   fullName: System.Security.Permissions.RegistryPermissionAttribute.Create
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
 - uid: System.Security.Permissions.RegistryPermissionAttribute.CreatePermission
   parent: System.Security.Permissions.RegistryPermissionAttribute
   isExternal: false
@@ -374,48 +371,24 @@ references:
   name: Read
   nameWithType: RegistryPermissionAttribute.Read
   fullName: System.Security.Permissions.RegistryPermissionAttribute.Read
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
 - uid: System.Security.Permissions.RegistryPermissionAttribute.ViewAccessControl
   parent: System.Security.Permissions.RegistryPermissionAttribute
   isExternal: false
   name: ViewAccessControl
   nameWithType: RegistryPermissionAttribute.ViewAccessControl
   fullName: System.Security.Permissions.RegistryPermissionAttribute.ViewAccessControl
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
 - uid: System.Security.Permissions.RegistryPermissionAttribute.ViewAndModify
   parent: System.Security.Permissions.RegistryPermissionAttribute
   isExternal: false
   name: ViewAndModify
   nameWithType: RegistryPermissionAttribute.ViewAndModify
   fullName: System.Security.Permissions.RegistryPermissionAttribute.ViewAndModify
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
 - uid: System.Security.Permissions.RegistryPermissionAttribute.Write
   parent: System.Security.Permissions.RegistryPermissionAttribute
   isExternal: false
   name: Write
   nameWithType: RegistryPermissionAttribute.Write
   fullName: System.Security.Permissions.RegistryPermissionAttribute.Write
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
 - uid: System.Security.Permissions.RegistryPermissionAttribute.#ctor*
   parent: System.Security.Permissions.RegistryPermissionAttribute
   isExternal: false

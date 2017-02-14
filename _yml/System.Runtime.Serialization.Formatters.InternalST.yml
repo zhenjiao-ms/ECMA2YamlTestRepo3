@@ -60,6 +60,7 @@ items:
       type: System.Object[]
       description: To be added.
   overload: System.Runtime.Serialization.Formatters.InternalST.InfoSoap*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -88,6 +89,7 @@ items:
       type: System.Reflection.Assembly
       description: To be added.
   overload: System.Runtime.Serialization.Formatters.InternalST.LoadAssemblyFromString*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -119,6 +121,7 @@ items:
       type: System.Object
       description: To be added.
   overload: System.Runtime.Serialization.Formatters.InternalST.SerializationSetValue*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -144,6 +147,7 @@ items:
       type: System.Object[]
       description: To be added.
   overload: System.Runtime.Serialization.Formatters.InternalST.Soap*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -172,6 +176,7 @@ items:
       type: System.String
       description: To be added.
   overload: System.Runtime.Serialization.Formatters.InternalST.SoapAssert*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -197,6 +202,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Runtime.Serialization.Formatters.InternalST.SoapCheckEnabled*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -211,12 +217,20 @@ references:
   name: InfoSoap(Object[])
   nameWithType: InternalST.InfoSoap(Object[])
   fullName: System.Runtime.Serialization.Formatters.InternalST.InfoSoap(Object[])
-- uid: System.Object
+- uid: System.Object[]
   parent: System
   isExternal: false
   name: Object
   nameWithType: Object
   fullName: System.Object[]
+  spec.csharp:
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: Object[]
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
 - uid: System.Runtime.Serialization.Formatters.InternalST.LoadAssemblyFromString(System.String)
   parent: System.Runtime.Serialization.Formatters.InternalST
   isExternal: false
@@ -247,30 +261,12 @@ references:
   name: FieldInfo
   nameWithType: FieldInfo
   fullName: System.Reflection.FieldInfo
-- uid: System.Object
-  parent: System
-  isExternal: false
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
-- uid: System.Object
-  parent: System
-  isExternal: false
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
 - uid: System.Runtime.Serialization.Formatters.InternalST.Soap(System.Object[])
   parent: System.Runtime.Serialization.Formatters.InternalST
   isExternal: false
   name: Soap(Object[])
   nameWithType: InternalST.Soap(Object[])
   fullName: System.Runtime.Serialization.Formatters.InternalST.Soap(Object[])
-- uid: System.Object
-  parent: System
-  isExternal: false
-  name: Object
-  nameWithType: Object
-  fullName: System.Object[]
 - uid: System.Runtime.Serialization.Formatters.InternalST.SoapAssert(System.Boolean,System.String)
   parent: System.Runtime.Serialization.Formatters.InternalST
   isExternal: false
@@ -283,24 +279,12 @@ references:
   name: Boolean
   nameWithType: Boolean
   fullName: System.Boolean
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
 - uid: System.Runtime.Serialization.Formatters.InternalST.SoapCheckEnabled
   parent: System.Runtime.Serialization.Formatters.InternalST
   isExternal: false
   name: SoapCheckEnabled()
   nameWithType: InternalST.SoapCheckEnabled()
   fullName: System.Runtime.Serialization.Formatters.InternalST.SoapCheckEnabled()
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
 - uid: System.Runtime.Serialization.Formatters.InternalST.InfoSoap*
   parent: System.Runtime.Serialization.Formatters.InternalST
   isExternal: false

@@ -50,6 +50,7 @@ items:
     return:
       type: System.Reflection.Emit.ParameterToken
       description: To be added.
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -78,6 +79,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Reflection.Emit.ParameterToken.Equals*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -106,6 +108,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Reflection.Emit.ParameterToken.Equals*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -131,6 +134,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.Reflection.Emit.ParameterToken.GetHashCode*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -162,6 +166,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Reflection.Emit.ParameterToken.op_Equality*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -193,6 +198,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Reflection.Emit.ParameterToken.op_Inequality*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -217,6 +223,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.Reflection.Emit.ParameterToken.Token*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -261,18 +268,6 @@ references:
   name: Equals(ParameterToken)
   nameWithType: ParameterToken.Equals(ParameterToken)
   fullName: System.Reflection.Emit.ParameterToken.Equals(ParameterToken)
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
-- uid: System.Reflection.Emit.ParameterToken
-  parent: System.Reflection.Emit
-  isExternal: false
-  name: ParameterToken
-  nameWithType: ParameterToken
-  fullName: System.Reflection.Emit.ParameterToken
 - uid: System.Reflection.Emit.ParameterToken.GetHashCode
   parent: System.Reflection.Emit.ParameterToken
   isExternal: false
@@ -291,60 +286,18 @@ references:
   name: op_Equality(ParameterToken,ParameterToken)
   nameWithType: ParameterToken.op_Equality(ParameterToken,ParameterToken)
   fullName: System.Reflection.Emit.ParameterToken.op_Equality(ParameterToken,ParameterToken)
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
-- uid: System.Reflection.Emit.ParameterToken
-  parent: System.Reflection.Emit
-  isExternal: false
-  name: ParameterToken
-  nameWithType: ParameterToken
-  fullName: System.Reflection.Emit.ParameterToken
-- uid: System.Reflection.Emit.ParameterToken
-  parent: System.Reflection.Emit
-  isExternal: false
-  name: ParameterToken
-  nameWithType: ParameterToken
-  fullName: System.Reflection.Emit.ParameterToken
 - uid: System.Reflection.Emit.ParameterToken.op_Inequality(System.Reflection.Emit.ParameterToken,System.Reflection.Emit.ParameterToken)
   parent: System.Reflection.Emit.ParameterToken
   isExternal: false
   name: op_Inequality(ParameterToken,ParameterToken)
   nameWithType: ParameterToken.op_Inequality(ParameterToken,ParameterToken)
   fullName: System.Reflection.Emit.ParameterToken.op_Inequality(ParameterToken,ParameterToken)
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
-- uid: System.Reflection.Emit.ParameterToken
-  parent: System.Reflection.Emit
-  isExternal: false
-  name: ParameterToken
-  nameWithType: ParameterToken
-  fullName: System.Reflection.Emit.ParameterToken
-- uid: System.Reflection.Emit.ParameterToken
-  parent: System.Reflection.Emit
-  isExternal: false
-  name: ParameterToken
-  nameWithType: ParameterToken
-  fullName: System.Reflection.Emit.ParameterToken
 - uid: System.Reflection.Emit.ParameterToken.Token
   parent: System.Reflection.Emit.ParameterToken
   isExternal: false
   name: Token
   nameWithType: ParameterToken.Token
   fullName: System.Reflection.Emit.ParameterToken.Token
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
 - uid: System.Reflection.Emit.ParameterToken.Equals*
   parent: System.Reflection.Emit.ParameterToken
   isExternal: false

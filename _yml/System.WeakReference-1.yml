@@ -59,6 +59,7 @@ items:
       type: T
       description: To be added.
   overload: System.WeakReference`1.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -87,6 +88,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.WeakReference`1.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -109,6 +111,7 @@ items:
     content: ~WeakReference`1 ();
     parameters: []
   overload: System.WeakReference`1.Finalize*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -137,6 +140,7 @@ items:
       type: System.Runtime.Serialization.StreamingContext
       description: To be added.
   overload: System.WeakReference`1.GetObjectData*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -162,6 +166,7 @@ items:
       type: T
       description: To be added.
   overload: System.WeakReference`1.SetTarget*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -190,6 +195,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.WeakReference`1.TryGetTarget*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -205,7 +211,6 @@ references:
   nameWithType: WeakReference<T>.WeakReference(T)
   fullName: System.WeakReference<T>.WeakReference(T)
 - uid: T
-  parent: ''
   isExternal: true
   name: T
   nameWithType: T
@@ -216,12 +221,6 @@ references:
   name: WeakReference(T,Boolean)
   nameWithType: WeakReference<T>.WeakReference(T,Boolean)
   fullName: System.WeakReference<T>.WeakReference(T,Boolean)
-- uid: T
-  parent: ''
-  isExternal: true
-  name: T
-  nameWithType: T
-  fullName: T
 - uid: System.Boolean
   parent: System
   isExternal: false
@@ -258,30 +257,12 @@ references:
   name: SetTarget(T)
   nameWithType: WeakReference<T>.SetTarget(T)
   fullName: System.WeakReference<T>.SetTarget(T)
-- uid: T
-  parent: ''
-  isExternal: true
-  name: T
-  nameWithType: T
-  fullName: T
 - uid: System.WeakReference`1.TryGetTarget(`0@)
   parent: System.WeakReference`1
   isExternal: false
   name: TryGetTarget(T)
   nameWithType: WeakReference<T>.TryGetTarget(T)
   fullName: System.WeakReference<T>.TryGetTarget(T)
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
-- uid: T
-  parent: ''
-  isExternal: true
-  name: T
-  nameWithType: T
-  fullName: T
 - uid: System.WeakReference`1.#ctor*
   parent: System.WeakReference`1
   isExternal: false

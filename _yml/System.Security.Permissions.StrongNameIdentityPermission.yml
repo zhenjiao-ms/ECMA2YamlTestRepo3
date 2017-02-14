@@ -72,6 +72,7 @@ items:
       type: System.Security.Permissions.PermissionState
       description: To be added.
   overload: System.Security.Permissions.StrongNameIdentityPermission.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -103,6 +104,7 @@ items:
       type: System.Version
       description: To be added.
   overload: System.Security.Permissions.StrongNameIdentityPermission.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -128,6 +130,7 @@ items:
       type: System.Security.IPermission
       description: To be added.
   overload: System.Security.Permissions.StrongNameIdentityPermission.Copy*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -153,6 +156,7 @@ items:
       type: System.Security.SecurityElement
       description: To be added.
   overload: System.Security.Permissions.StrongNameIdentityPermission.FromXml*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -181,6 +185,7 @@ items:
       type: System.Security.IPermission
       description: To be added.
   overload: System.Security.Permissions.StrongNameIdentityPermission.Intersect*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -209,6 +214,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Security.Permissions.StrongNameIdentityPermission.IsSubsetOf*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -233,6 +239,7 @@ items:
       type: System.String
       description: To be added.
   overload: System.Security.Permissions.StrongNameIdentityPermission.Name*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -257,6 +264,7 @@ items:
       type: System.Security.Permissions.StrongNamePublicKeyBlob
       description: To be added.
   overload: System.Security.Permissions.StrongNameIdentityPermission.PublicKey*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -282,6 +290,7 @@ items:
       type: System.Security.SecurityElement
       description: To be added.
   overload: System.Security.Permissions.StrongNameIdentityPermission.ToXml*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -310,6 +319,7 @@ items:
       type: System.Security.IPermission
       description: To be added.
   overload: System.Security.Permissions.StrongNameIdentityPermission.Union*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -334,6 +344,7 @@ items:
       type: System.Version
       description: To be added.
   overload: System.Security.Permissions.StrongNameIdentityPermission.Version*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -408,18 +419,6 @@ references:
   name: Intersect(IPermission)
   nameWithType: StrongNameIdentityPermission.Intersect(IPermission)
   fullName: System.Security.Permissions.StrongNameIdentityPermission.Intersect(IPermission)
-- uid: System.Security.IPermission
-  parent: System.Security
-  isExternal: false
-  name: IPermission
-  nameWithType: IPermission
-  fullName: System.Security.IPermission
-- uid: System.Security.IPermission
-  parent: System.Security
-  isExternal: false
-  name: IPermission
-  nameWithType: IPermission
-  fullName: System.Security.IPermission
 - uid: System.Security.Permissions.StrongNameIdentityPermission.IsSubsetOf(System.Security.IPermission)
   parent: System.Security.Permissions.StrongNameIdentityPermission
   isExternal: false
@@ -432,78 +431,36 @@ references:
   name: Boolean
   nameWithType: Boolean
   fullName: System.Boolean
-- uid: System.Security.IPermission
-  parent: System.Security
-  isExternal: false
-  name: IPermission
-  nameWithType: IPermission
-  fullName: System.Security.IPermission
 - uid: System.Security.Permissions.StrongNameIdentityPermission.Name
   parent: System.Security.Permissions.StrongNameIdentityPermission
   isExternal: false
   name: Name
   nameWithType: StrongNameIdentityPermission.Name
   fullName: System.Security.Permissions.StrongNameIdentityPermission.Name
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
 - uid: System.Security.Permissions.StrongNameIdentityPermission.PublicKey
   parent: System.Security.Permissions.StrongNameIdentityPermission
   isExternal: false
   name: PublicKey
   nameWithType: StrongNameIdentityPermission.PublicKey
   fullName: System.Security.Permissions.StrongNameIdentityPermission.PublicKey
-- uid: System.Security.Permissions.StrongNamePublicKeyBlob
-  parent: System.Security.Permissions
-  isExternal: false
-  name: StrongNamePublicKeyBlob
-  nameWithType: StrongNamePublicKeyBlob
-  fullName: System.Security.Permissions.StrongNamePublicKeyBlob
 - uid: System.Security.Permissions.StrongNameIdentityPermission.ToXml
   parent: System.Security.Permissions.StrongNameIdentityPermission
   isExternal: false
   name: ToXml()
   nameWithType: StrongNameIdentityPermission.ToXml()
   fullName: System.Security.Permissions.StrongNameIdentityPermission.ToXml()
-- uid: System.Security.SecurityElement
-  parent: System.Security
-  isExternal: false
-  name: SecurityElement
-  nameWithType: SecurityElement
-  fullName: System.Security.SecurityElement
 - uid: System.Security.Permissions.StrongNameIdentityPermission.Union(System.Security.IPermission)
   parent: System.Security.Permissions.StrongNameIdentityPermission
   isExternal: false
   name: Union(IPermission)
   nameWithType: StrongNameIdentityPermission.Union(IPermission)
   fullName: System.Security.Permissions.StrongNameIdentityPermission.Union(IPermission)
-- uid: System.Security.IPermission
-  parent: System.Security
-  isExternal: false
-  name: IPermission
-  nameWithType: IPermission
-  fullName: System.Security.IPermission
-- uid: System.Security.IPermission
-  parent: System.Security
-  isExternal: false
-  name: IPermission
-  nameWithType: IPermission
-  fullName: System.Security.IPermission
 - uid: System.Security.Permissions.StrongNameIdentityPermission.Version
   parent: System.Security.Permissions.StrongNameIdentityPermission
   isExternal: false
   name: Version
   nameWithType: StrongNameIdentityPermission.Version
   fullName: System.Security.Permissions.StrongNameIdentityPermission.Version
-- uid: System.Version
-  parent: System
-  isExternal: false
-  name: Version
-  nameWithType: Version
-  fullName: System.Version
 - uid: System.Security.Permissions.StrongNameIdentityPermission.#ctor*
   parent: System.Security.Permissions.StrongNameIdentityPermission
   isExternal: false

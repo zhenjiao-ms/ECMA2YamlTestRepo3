@@ -51,6 +51,7 @@ items:
     return:
       type: System.Security.Permissions.SecurityAction
       description: To be added.
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -73,6 +74,7 @@ items:
     return:
       type: System.Security.Permissions.SecurityAction
       description: To be added.
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -95,6 +97,7 @@ items:
     return:
       type: System.Security.Permissions.SecurityAction
       description: To be added.
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -117,6 +120,7 @@ items:
     return:
       type: System.Security.Permissions.SecurityAction
       description: To be added.
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -139,6 +143,7 @@ items:
     return:
       type: System.Security.Permissions.SecurityAction
       description: To be added.
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -161,6 +166,7 @@ items:
     return:
       type: System.Security.Permissions.SecurityAction
       description: To be added.
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -183,6 +189,7 @@ items:
     return:
       type: System.Security.Permissions.SecurityAction
       description: To be added.
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -205,6 +212,7 @@ items:
     return:
       type: System.Security.Permissions.SecurityAction
       description: To be added.
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -227,6 +235,7 @@ items:
     return:
       type: System.Security.Permissions.SecurityAction
       description: To be added.
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -253,93 +262,45 @@ references:
   name: Demand
   nameWithType: SecurityAction.Demand
   fullName: System.Security.Permissions.SecurityAction.Demand
-- uid: System.Security.Permissions.SecurityAction
-  parent: System.Security.Permissions
-  isExternal: false
-  name: SecurityAction
-  nameWithType: SecurityAction
-  fullName: System.Security.Permissions.SecurityAction
 - uid: System.Security.Permissions.SecurityAction.Deny
   parent: System.Security.Permissions.SecurityAction
   isExternal: false
   name: Deny
   nameWithType: SecurityAction.Deny
   fullName: System.Security.Permissions.SecurityAction.Deny
-- uid: System.Security.Permissions.SecurityAction
-  parent: System.Security.Permissions
-  isExternal: false
-  name: SecurityAction
-  nameWithType: SecurityAction
-  fullName: System.Security.Permissions.SecurityAction
 - uid: System.Security.Permissions.SecurityAction.InheritanceDemand
   parent: System.Security.Permissions.SecurityAction
   isExternal: false
   name: InheritanceDemand
   nameWithType: SecurityAction.InheritanceDemand
   fullName: System.Security.Permissions.SecurityAction.InheritanceDemand
-- uid: System.Security.Permissions.SecurityAction
-  parent: System.Security.Permissions
-  isExternal: false
-  name: SecurityAction
-  nameWithType: SecurityAction
-  fullName: System.Security.Permissions.SecurityAction
 - uid: System.Security.Permissions.SecurityAction.LinkDemand
   parent: System.Security.Permissions.SecurityAction
   isExternal: false
   name: LinkDemand
   nameWithType: SecurityAction.LinkDemand
   fullName: System.Security.Permissions.SecurityAction.LinkDemand
-- uid: System.Security.Permissions.SecurityAction
-  parent: System.Security.Permissions
-  isExternal: false
-  name: SecurityAction
-  nameWithType: SecurityAction
-  fullName: System.Security.Permissions.SecurityAction
 - uid: System.Security.Permissions.SecurityAction.PermitOnly
   parent: System.Security.Permissions.SecurityAction
   isExternal: false
   name: PermitOnly
   nameWithType: SecurityAction.PermitOnly
   fullName: System.Security.Permissions.SecurityAction.PermitOnly
-- uid: System.Security.Permissions.SecurityAction
-  parent: System.Security.Permissions
-  isExternal: false
-  name: SecurityAction
-  nameWithType: SecurityAction
-  fullName: System.Security.Permissions.SecurityAction
 - uid: System.Security.Permissions.SecurityAction.RequestMinimum
   parent: System.Security.Permissions.SecurityAction
   isExternal: false
   name: RequestMinimum
   nameWithType: SecurityAction.RequestMinimum
   fullName: System.Security.Permissions.SecurityAction.RequestMinimum
-- uid: System.Security.Permissions.SecurityAction
-  parent: System.Security.Permissions
-  isExternal: false
-  name: SecurityAction
-  nameWithType: SecurityAction
-  fullName: System.Security.Permissions.SecurityAction
 - uid: System.Security.Permissions.SecurityAction.RequestOptional
   parent: System.Security.Permissions.SecurityAction
   isExternal: false
   name: RequestOptional
   nameWithType: SecurityAction.RequestOptional
   fullName: System.Security.Permissions.SecurityAction.RequestOptional
-- uid: System.Security.Permissions.SecurityAction
-  parent: System.Security.Permissions
-  isExternal: false
-  name: SecurityAction
-  nameWithType: SecurityAction
-  fullName: System.Security.Permissions.SecurityAction
 - uid: System.Security.Permissions.SecurityAction.RequestRefuse
   parent: System.Security.Permissions.SecurityAction
   isExternal: false
   name: RequestRefuse
   nameWithType: SecurityAction.RequestRefuse
   fullName: System.Security.Permissions.SecurityAction.RequestRefuse
-- uid: System.Security.Permissions.SecurityAction
-  parent: System.Security.Permissions
-  isExternal: false
-  name: SecurityAction
-  nameWithType: SecurityAction
-  fullName: System.Security.Permissions.SecurityAction

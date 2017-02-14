@@ -43,6 +43,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Threading.Tasks.ParallelLoopResult.IsCompleted*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -67,6 +68,7 @@ items:
       type: System.Nullable{System.Int64}
       description: To be added.
   overload: System.Threading.Tasks.ParallelLoopResult.LowestBreakIteration*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -99,6 +101,21 @@ references:
   name: Nullable<Int64>
   nameWithType: Nullable<Int64>
   fullName: System.Nullable<System.Int64>
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: Nullable<System.Int64>
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Int64
+    name: Int64
+    nameWithType: Int64
+    fullName: Int64
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
 - uid: System.Threading.Tasks.ParallelLoopResult.IsCompleted*
   parent: System.Threading.Tasks.ParallelLoopResult
   isExternal: false

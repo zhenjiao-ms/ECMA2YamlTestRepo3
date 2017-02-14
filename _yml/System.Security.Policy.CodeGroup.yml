@@ -76,6 +76,7 @@ items:
       type: System.Security.Policy.PolicyStatement
       description: To be added.
   overload: System.Security.Policy.CodeGroup.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -101,6 +102,7 @@ items:
       type: System.Security.Policy.CodeGroup
       description: To be added.
   overload: System.Security.Policy.CodeGroup.AddChild*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -125,6 +127,7 @@ items:
       type: System.String
       description: To be added.
   overload: System.Security.Policy.CodeGroup.AttributeString*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -149,6 +152,7 @@ items:
       type: System.Collections.IList
       description: To be added.
   overload: System.Security.Policy.CodeGroup.Children*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -174,6 +178,7 @@ items:
       type: System.Security.Policy.CodeGroup
       description: To be added.
   overload: System.Security.Policy.CodeGroup.Copy*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -202,6 +207,7 @@ items:
       type: System.Security.Policy.PolicyLevel
       description: To be added.
   overload: System.Security.Policy.CodeGroup.CreateXml*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -226,6 +232,7 @@ items:
       type: System.String
       description: To be added.
   overload: System.Security.Policy.CodeGroup.Description*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -254,6 +261,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Security.Policy.CodeGroup.Equals*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -285,6 +293,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Security.Policy.CodeGroup.Equals*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -310,6 +319,7 @@ items:
       type: System.Security.SecurityElement
       description: To be added.
   overload: System.Security.Policy.CodeGroup.FromXml*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -338,6 +348,7 @@ items:
       type: System.Security.Policy.PolicyLevel
       description: To be added.
   overload: System.Security.Policy.CodeGroup.FromXml*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -363,6 +374,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.Security.Policy.CodeGroup.GetHashCode*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -387,6 +399,7 @@ items:
       type: System.Security.Policy.IMembershipCondition
       description: To be added.
   overload: System.Security.Policy.CodeGroup.MembershipCondition*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -411,6 +424,7 @@ items:
       type: System.String
       description: To be added.
   overload: System.Security.Policy.CodeGroup.MergeLogic*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -435,6 +449,7 @@ items:
       type: System.String
       description: To be added.
   overload: System.Security.Policy.CodeGroup.Name*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -463,6 +478,7 @@ items:
       type: System.Security.Policy.PolicyLevel
       description: To be added.
   overload: System.Security.Policy.CodeGroup.ParseXml*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -487,6 +503,7 @@ items:
       type: System.String
       description: To be added.
   overload: System.Security.Policy.CodeGroup.PermissionSetName*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -511,6 +528,7 @@ items:
       type: System.Security.Policy.PolicyStatement
       description: To be added.
   overload: System.Security.Policy.CodeGroup.PolicyStatement*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -536,6 +554,7 @@ items:
       type: System.Security.Policy.CodeGroup
       description: To be added.
   overload: System.Security.Policy.CodeGroup.RemoveChild*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -564,6 +583,7 @@ items:
       type: System.Security.Policy.PolicyStatement
       description: To be added.
   overload: System.Security.Policy.CodeGroup.Resolve*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -592,6 +612,7 @@ items:
       type: System.Security.Policy.CodeGroup
       description: To be added.
   overload: System.Security.Policy.CodeGroup.ResolveMatchingCodeGroups*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -617,6 +638,7 @@ items:
       type: System.Security.SecurityElement
       description: To be added.
   overload: System.Security.Policy.CodeGroup.ToXml*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -645,6 +667,7 @@ items:
       type: System.Security.SecurityElement
       description: To be added.
   overload: System.Security.Policy.CodeGroup.ToXml*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -713,12 +736,6 @@ references:
   name: Copy()
   nameWithType: CodeGroup.Copy()
   fullName: System.Security.Policy.CodeGroup.Copy()
-- uid: System.Security.Policy.CodeGroup
-  parent: System.Security.Policy
-  isExternal: false
-  name: CodeGroup
-  nameWithType: CodeGroup
-  fullName: System.Security.Policy.CodeGroup
 - uid: System.Security.Policy.CodeGroup.CreateXml(System.Security.SecurityElement,System.Security.Policy.PolicyLevel)
   parent: System.Security.Policy.CodeGroup
   isExternal: false
@@ -743,12 +760,6 @@ references:
   name: Description
   nameWithType: CodeGroup.Description
   fullName: System.Security.Policy.CodeGroup.Description
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
 - uid: System.Security.Policy.CodeGroup.Equals(System.Object)
   parent: System.Security.Policy.CodeGroup
   isExternal: false
@@ -761,66 +772,24 @@ references:
   name: Boolean
   nameWithType: Boolean
   fullName: System.Boolean
-- uid: System.Object
-  parent: System
-  isExternal: false
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
 - uid: System.Security.Policy.CodeGroup.Equals(System.Security.Policy.CodeGroup,System.Boolean)
   parent: System.Security.Policy.CodeGroup
   isExternal: false
   name: Equals(CodeGroup,Boolean)
   nameWithType: CodeGroup.Equals(CodeGroup,Boolean)
   fullName: System.Security.Policy.CodeGroup.Equals(CodeGroup,Boolean)
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
-- uid: System.Security.Policy.CodeGroup
-  parent: System.Security.Policy
-  isExternal: false
-  name: CodeGroup
-  nameWithType: CodeGroup
-  fullName: System.Security.Policy.CodeGroup
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
 - uid: System.Security.Policy.CodeGroup.FromXml(System.Security.SecurityElement)
   parent: System.Security.Policy.CodeGroup
   isExternal: false
   name: FromXml(SecurityElement)
   nameWithType: CodeGroup.FromXml(SecurityElement)
   fullName: System.Security.Policy.CodeGroup.FromXml(SecurityElement)
-- uid: System.Security.SecurityElement
-  parent: System.Security
-  isExternal: false
-  name: SecurityElement
-  nameWithType: SecurityElement
-  fullName: System.Security.SecurityElement
 - uid: System.Security.Policy.CodeGroup.FromXml(System.Security.SecurityElement,System.Security.Policy.PolicyLevel)
   parent: System.Security.Policy.CodeGroup
   isExternal: false
   name: FromXml(SecurityElement,PolicyLevel)
   nameWithType: CodeGroup.FromXml(SecurityElement,PolicyLevel)
   fullName: System.Security.Policy.CodeGroup.FromXml(SecurityElement,PolicyLevel)
-- uid: System.Security.SecurityElement
-  parent: System.Security
-  isExternal: false
-  name: SecurityElement
-  nameWithType: SecurityElement
-  fullName: System.Security.SecurityElement
-- uid: System.Security.Policy.PolicyLevel
-  parent: System.Security.Policy
-  isExternal: false
-  name: PolicyLevel
-  nameWithType: PolicyLevel
-  fullName: System.Security.Policy.PolicyLevel
 - uid: System.Security.Policy.CodeGroup.GetHashCode
   parent: System.Security.Policy.CodeGroup
   isExternal: false
@@ -839,102 +808,48 @@ references:
   name: MembershipCondition
   nameWithType: CodeGroup.MembershipCondition
   fullName: System.Security.Policy.CodeGroup.MembershipCondition
-- uid: System.Security.Policy.IMembershipCondition
-  parent: System.Security.Policy
-  isExternal: false
-  name: IMembershipCondition
-  nameWithType: IMembershipCondition
-  fullName: System.Security.Policy.IMembershipCondition
 - uid: System.Security.Policy.CodeGroup.MergeLogic
   parent: System.Security.Policy.CodeGroup
   isExternal: false
   name: MergeLogic
   nameWithType: CodeGroup.MergeLogic
   fullName: System.Security.Policy.CodeGroup.MergeLogic
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
 - uid: System.Security.Policy.CodeGroup.Name
   parent: System.Security.Policy.CodeGroup
   isExternal: false
   name: Name
   nameWithType: CodeGroup.Name
   fullName: System.Security.Policy.CodeGroup.Name
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
 - uid: System.Security.Policy.CodeGroup.ParseXml(System.Security.SecurityElement,System.Security.Policy.PolicyLevel)
   parent: System.Security.Policy.CodeGroup
   isExternal: false
   name: ParseXml(SecurityElement,PolicyLevel)
   nameWithType: CodeGroup.ParseXml(SecurityElement,PolicyLevel)
   fullName: System.Security.Policy.CodeGroup.ParseXml(SecurityElement,PolicyLevel)
-- uid: System.Security.SecurityElement
-  parent: System.Security
-  isExternal: false
-  name: SecurityElement
-  nameWithType: SecurityElement
-  fullName: System.Security.SecurityElement
-- uid: System.Security.Policy.PolicyLevel
-  parent: System.Security.Policy
-  isExternal: false
-  name: PolicyLevel
-  nameWithType: PolicyLevel
-  fullName: System.Security.Policy.PolicyLevel
 - uid: System.Security.Policy.CodeGroup.PermissionSetName
   parent: System.Security.Policy.CodeGroup
   isExternal: false
   name: PermissionSetName
   nameWithType: CodeGroup.PermissionSetName
   fullName: System.Security.Policy.CodeGroup.PermissionSetName
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
 - uid: System.Security.Policy.CodeGroup.PolicyStatement
   parent: System.Security.Policy.CodeGroup
   isExternal: false
   name: PolicyStatement
   nameWithType: CodeGroup.PolicyStatement
   fullName: System.Security.Policy.CodeGroup.PolicyStatement
-- uid: System.Security.Policy.PolicyStatement
-  parent: System.Security.Policy
-  isExternal: false
-  name: PolicyStatement
-  nameWithType: PolicyStatement
-  fullName: System.Security.Policy.PolicyStatement
 - uid: System.Security.Policy.CodeGroup.RemoveChild(System.Security.Policy.CodeGroup)
   parent: System.Security.Policy.CodeGroup
   isExternal: false
   name: RemoveChild(CodeGroup)
   nameWithType: CodeGroup.RemoveChild(CodeGroup)
   fullName: System.Security.Policy.CodeGroup.RemoveChild(CodeGroup)
-- uid: System.Security.Policy.CodeGroup
-  parent: System.Security.Policy
-  isExternal: false
-  name: CodeGroup
-  nameWithType: CodeGroup
-  fullName: System.Security.Policy.CodeGroup
 - uid: System.Security.Policy.CodeGroup.Resolve(System.Security.Policy.Evidence)
   parent: System.Security.Policy.CodeGroup
   isExternal: false
   name: Resolve(Evidence)
   nameWithType: CodeGroup.Resolve(Evidence)
   fullName: System.Security.Policy.CodeGroup.Resolve(Evidence)
-- uid: System.Security.Policy.PolicyStatement
-  parent: System.Security.Policy
-  isExternal: false
-  name: PolicyStatement
-  nameWithType: PolicyStatement
-  fullName: System.Security.Policy.PolicyStatement
 - uid: System.Security.Policy.Evidence
   parent: System.Security.Policy
   isExternal: false
@@ -947,48 +862,18 @@ references:
   name: ResolveMatchingCodeGroups(Evidence)
   nameWithType: CodeGroup.ResolveMatchingCodeGroups(Evidence)
   fullName: System.Security.Policy.CodeGroup.ResolveMatchingCodeGroups(Evidence)
-- uid: System.Security.Policy.CodeGroup
-  parent: System.Security.Policy
-  isExternal: false
-  name: CodeGroup
-  nameWithType: CodeGroup
-  fullName: System.Security.Policy.CodeGroup
-- uid: System.Security.Policy.Evidence
-  parent: System.Security.Policy
-  isExternal: false
-  name: Evidence
-  nameWithType: Evidence
-  fullName: System.Security.Policy.Evidence
 - uid: System.Security.Policy.CodeGroup.ToXml
   parent: System.Security.Policy.CodeGroup
   isExternal: false
   name: ToXml()
   nameWithType: CodeGroup.ToXml()
   fullName: System.Security.Policy.CodeGroup.ToXml()
-- uid: System.Security.SecurityElement
-  parent: System.Security
-  isExternal: false
-  name: SecurityElement
-  nameWithType: SecurityElement
-  fullName: System.Security.SecurityElement
 - uid: System.Security.Policy.CodeGroup.ToXml(System.Security.Policy.PolicyLevel)
   parent: System.Security.Policy.CodeGroup
   isExternal: false
   name: ToXml(PolicyLevel)
   nameWithType: CodeGroup.ToXml(PolicyLevel)
   fullName: System.Security.Policy.CodeGroup.ToXml(PolicyLevel)
-- uid: System.Security.SecurityElement
-  parent: System.Security
-  isExternal: false
-  name: SecurityElement
-  nameWithType: SecurityElement
-  fullName: System.Security.SecurityElement
-- uid: System.Security.Policy.PolicyLevel
-  parent: System.Security.Policy
-  isExternal: false
-  name: PolicyLevel
-  nameWithType: PolicyLevel
-  fullName: System.Security.Policy.PolicyLevel
 - uid: System.Security.Policy.CodeGroup.#ctor*
   parent: System.Security.Policy.CodeGroup
   isExternal: false

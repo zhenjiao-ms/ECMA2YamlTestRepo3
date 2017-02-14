@@ -70,6 +70,7 @@ items:
       type: System.Security.Permissions.PermissionState
       description: To be added.
   overload: System.Security.Permissions.ZoneIdentityPermission.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -95,6 +96,7 @@ items:
       type: System.Security.SecurityZone
       description: To be added.
   overload: System.Security.Permissions.ZoneIdentityPermission.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -120,6 +122,7 @@ items:
       type: System.Security.IPermission
       description: To be added.
   overload: System.Security.Permissions.ZoneIdentityPermission.Copy*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -145,6 +148,7 @@ items:
       type: System.Security.SecurityElement
       description: To be added.
   overload: System.Security.Permissions.ZoneIdentityPermission.FromXml*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -173,6 +177,7 @@ items:
       type: System.Security.IPermission
       description: To be added.
   overload: System.Security.Permissions.ZoneIdentityPermission.Intersect*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -201,6 +206,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Security.Permissions.ZoneIdentityPermission.IsSubsetOf*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -225,6 +231,7 @@ items:
       type: System.Security.SecurityZone
       description: To be added.
   overload: System.Security.Permissions.ZoneIdentityPermission.SecurityZone*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -250,6 +257,7 @@ items:
       type: System.Security.SecurityElement
       description: To be added.
   overload: System.Security.Permissions.ZoneIdentityPermission.ToXml*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -278,6 +286,7 @@ items:
       type: System.Security.IPermission
       description: To be added.
   overload: System.Security.Permissions.ZoneIdentityPermission.Union*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -340,18 +349,6 @@ references:
   name: Intersect(IPermission)
   nameWithType: ZoneIdentityPermission.Intersect(IPermission)
   fullName: System.Security.Permissions.ZoneIdentityPermission.Intersect(IPermission)
-- uid: System.Security.IPermission
-  parent: System.Security
-  isExternal: false
-  name: IPermission
-  nameWithType: IPermission
-  fullName: System.Security.IPermission
-- uid: System.Security.IPermission
-  parent: System.Security
-  isExternal: false
-  name: IPermission
-  nameWithType: IPermission
-  fullName: System.Security.IPermission
 - uid: System.Security.Permissions.ZoneIdentityPermission.IsSubsetOf(System.Security.IPermission)
   parent: System.Security.Permissions.ZoneIdentityPermission
   isExternal: false
@@ -364,54 +361,24 @@ references:
   name: Boolean
   nameWithType: Boolean
   fullName: System.Boolean
-- uid: System.Security.IPermission
-  parent: System.Security
-  isExternal: false
-  name: IPermission
-  nameWithType: IPermission
-  fullName: System.Security.IPermission
 - uid: System.Security.Permissions.ZoneIdentityPermission.SecurityZone
   parent: System.Security.Permissions.ZoneIdentityPermission
   isExternal: false
   name: SecurityZone
   nameWithType: ZoneIdentityPermission.SecurityZone
   fullName: System.Security.Permissions.ZoneIdentityPermission.SecurityZone
-- uid: System.Security.SecurityZone
-  parent: System.Security
-  isExternal: false
-  name: SecurityZone
-  nameWithType: SecurityZone
-  fullName: System.Security.SecurityZone
 - uid: System.Security.Permissions.ZoneIdentityPermission.ToXml
   parent: System.Security.Permissions.ZoneIdentityPermission
   isExternal: false
   name: ToXml()
   nameWithType: ZoneIdentityPermission.ToXml()
   fullName: System.Security.Permissions.ZoneIdentityPermission.ToXml()
-- uid: System.Security.SecurityElement
-  parent: System.Security
-  isExternal: false
-  name: SecurityElement
-  nameWithType: SecurityElement
-  fullName: System.Security.SecurityElement
 - uid: System.Security.Permissions.ZoneIdentityPermission.Union(System.Security.IPermission)
   parent: System.Security.Permissions.ZoneIdentityPermission
   isExternal: false
   name: Union(IPermission)
   nameWithType: ZoneIdentityPermission.Union(IPermission)
   fullName: System.Security.Permissions.ZoneIdentityPermission.Union(IPermission)
-- uid: System.Security.IPermission
-  parent: System.Security
-  isExternal: false
-  name: IPermission
-  nameWithType: IPermission
-  fullName: System.Security.IPermission
-- uid: System.Security.IPermission
-  parent: System.Security
-  isExternal: false
-  name: IPermission
-  nameWithType: IPermission
-  fullName: System.Security.IPermission
 - uid: System.Security.Permissions.ZoneIdentityPermission.#ctor*
   parent: System.Security.Permissions.ZoneIdentityPermission
   isExternal: false

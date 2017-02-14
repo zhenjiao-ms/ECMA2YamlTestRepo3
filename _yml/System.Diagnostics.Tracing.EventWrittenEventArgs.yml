@@ -65,6 +65,7 @@ items:
       type: System.Guid
       description: To be added.
   overload: System.Diagnostics.Tracing.EventWrittenEventArgs.ActivityId*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -89,6 +90,7 @@ items:
       type: System.Diagnostics.Tracing.EventChannel
       description: To be added.
   overload: System.Diagnostics.Tracing.EventWrittenEventArgs.Channel*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -113,6 +115,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.Diagnostics.Tracing.EventWrittenEventArgs.EventId*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -137,6 +140,7 @@ items:
       type: System.String
       description: To be added.
   overload: System.Diagnostics.Tracing.EventWrittenEventArgs.EventName*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -161,6 +165,7 @@ items:
       type: System.Diagnostics.Tracing.EventSource
       description: To be added.
   overload: System.Diagnostics.Tracing.EventWrittenEventArgs.EventSource*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -185,6 +190,7 @@ items:
       type: System.Diagnostics.Tracing.EventKeywords
       description: To be added.
   overload: System.Diagnostics.Tracing.EventWrittenEventArgs.Keywords*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -209,6 +215,7 @@ items:
       type: System.Diagnostics.Tracing.EventLevel
       description: To be added.
   overload: System.Diagnostics.Tracing.EventWrittenEventArgs.Level*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -233,6 +240,7 @@ items:
       type: System.String
       description: To be added.
   overload: System.Diagnostics.Tracing.EventWrittenEventArgs.Message*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -257,6 +265,7 @@ items:
       type: System.Diagnostics.Tracing.EventOpcode
       description: To be added.
   overload: System.Diagnostics.Tracing.EventWrittenEventArgs.Opcode*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -281,6 +290,7 @@ items:
       type: System.Collections.ObjectModel.ReadOnlyCollection{System.Object}
       description: To be added.
   overload: System.Diagnostics.Tracing.EventWrittenEventArgs.Payload*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -305,6 +315,7 @@ items:
       type: System.Collections.ObjectModel.ReadOnlyCollection{System.String}
       description: To be added.
   overload: System.Diagnostics.Tracing.EventWrittenEventArgs.PayloadNames*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -329,6 +340,7 @@ items:
       type: System.Guid
       description: To be added.
   overload: System.Diagnostics.Tracing.EventWrittenEventArgs.RelatedActivityId*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -353,6 +365,7 @@ items:
       type: System.Diagnostics.Tracing.EventTags
       description: To be added.
   overload: System.Diagnostics.Tracing.EventWrittenEventArgs.Tags*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -377,6 +390,7 @@ items:
       type: System.Diagnostics.Tracing.EventTask
       description: To be added.
   overload: System.Diagnostics.Tracing.EventWrittenEventArgs.Task*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -401,6 +415,7 @@ items:
       type: System.Byte
       description: To be added.
   overload: System.Diagnostics.Tracing.EventWrittenEventArgs.Version*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -499,12 +514,6 @@ references:
   name: Message
   nameWithType: EventWrittenEventArgs.Message
   fullName: System.Diagnostics.Tracing.EventWrittenEventArgs.Message
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
 - uid: System.Diagnostics.Tracing.EventWrittenEventArgs.Opcode
   parent: System.Diagnostics.Tracing.EventWrittenEventArgs
   isExternal: false
@@ -529,6 +538,21 @@ references:
   name: ReadOnlyCollection<Object>
   nameWithType: ReadOnlyCollection<Object>
   fullName: System.Collections.ObjectModel.ReadOnlyCollection<System.Object>
+  spec.csharp:
+  - uid: System.Collections.ObjectModel.ReadOnlyCollection`1
+    name: ReadOnlyCollection
+    nameWithType: ReadOnlyCollection
+    fullName: ReadOnlyCollection<System.Object>
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: Object
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
 - uid: System.Diagnostics.Tracing.EventWrittenEventArgs.PayloadNames
   parent: System.Diagnostics.Tracing.EventWrittenEventArgs
   isExternal: false
@@ -541,18 +565,27 @@ references:
   name: ReadOnlyCollection<String>
   nameWithType: ReadOnlyCollection<String>
   fullName: System.Collections.ObjectModel.ReadOnlyCollection<System.String>
+  spec.csharp:
+  - uid: System.Collections.ObjectModel.ReadOnlyCollection`1
+    name: ReadOnlyCollection
+    nameWithType: ReadOnlyCollection
+    fullName: ReadOnlyCollection<System.String>
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: String
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
 - uid: System.Diagnostics.Tracing.EventWrittenEventArgs.RelatedActivityId
   parent: System.Diagnostics.Tracing.EventWrittenEventArgs
   isExternal: false
   name: RelatedActivityId
   nameWithType: EventWrittenEventArgs.RelatedActivityId
   fullName: System.Diagnostics.Tracing.EventWrittenEventArgs.RelatedActivityId
-- uid: System.Guid
-  parent: System
-  isExternal: false
-  name: Guid
-  nameWithType: Guid
-  fullName: System.Guid
 - uid: System.Diagnostics.Tracing.EventWrittenEventArgs.Tags
   parent: System.Diagnostics.Tracing.EventWrittenEventArgs
   isExternal: false

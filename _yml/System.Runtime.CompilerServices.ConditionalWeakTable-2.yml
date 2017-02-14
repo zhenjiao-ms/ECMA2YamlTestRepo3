@@ -61,6 +61,7 @@ items:
     content: public ConditionalWeakTable ();
     parameters: []
   overload: System.Runtime.CompilerServices.ConditionalWeakTable`2.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -89,6 +90,7 @@ items:
       type: TValue
       description: To be added.
   overload: System.Runtime.CompilerServices.ConditionalWeakTable`2.Add*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -111,6 +113,7 @@ items:
     content: ~ConditionalWeakTable`2 ();
     parameters: []
   overload: System.Runtime.CompilerServices.ConditionalWeakTable`2.Finalize*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -139,6 +142,7 @@ items:
       type: TValue
       description: To be added.
   overload: System.Runtime.CompilerServices.ConditionalWeakTable`2.GetOrCreateValue*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -170,6 +174,7 @@ items:
       type: TValue
       description: To be added.
   overload: System.Runtime.CompilerServices.ConditionalWeakTable`2.GetValue*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -198,6 +203,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Runtime.CompilerServices.ConditionalWeakTable`2.Remove*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -229,6 +235,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Runtime.CompilerServices.ConditionalWeakTable`2.TryGetValue*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -250,13 +257,11 @@ references:
   nameWithType: ConditionalWeakTable<TKey,TValue>.Add(TKey,TValue)
   fullName: System.Runtime.CompilerServices.ConditionalWeakTable<TKey,TValue>.Add(TKey,TValue)
 - uid: TKey
-  parent: ''
   isExternal: true
   name: TKey
   nameWithType: TKey
   fullName: TKey
 - uid: TValue
-  parent: ''
   isExternal: true
   name: TValue
   nameWithType: TValue
@@ -273,36 +278,12 @@ references:
   name: GetOrCreateValue(TKey)
   nameWithType: ConditionalWeakTable<TKey,TValue>.GetOrCreateValue(TKey)
   fullName: System.Runtime.CompilerServices.ConditionalWeakTable<TKey,TValue>.GetOrCreateValue(TKey)
-- uid: TValue
-  parent: ''
-  isExternal: true
-  name: TValue
-  nameWithType: TValue
-  fullName: TValue
-- uid: TKey
-  parent: ''
-  isExternal: true
-  name: TKey
-  nameWithType: TKey
-  fullName: TKey
 - uid: System.Runtime.CompilerServices.ConditionalWeakTable`2.GetValue(`0,System.Runtime.CompilerServices.ConditionalWeakTable`2.CreateValueCallback)
   parent: System.Runtime.CompilerServices.ConditionalWeakTable`2
   isExternal: false
   name: GetValue(TKey,ConditionalWeakTable<TKey,TValue>)
   nameWithType: ConditionalWeakTable<TKey,TValue>.GetValue(TKey,ConditionalWeakTable<TKey,TValue>)
   fullName: System.Runtime.CompilerServices.ConditionalWeakTable<TKey,TValue>.GetValue(TKey,ConditionalWeakTable<TKey,TValue>)
-- uid: TValue
-  parent: ''
-  isExternal: true
-  name: TValue
-  nameWithType: TValue
-  fullName: TValue
-- uid: TKey
-  parent: ''
-  isExternal: true
-  name: TKey
-  nameWithType: TKey
-  fullName: TKey
 - uid: System.Runtime.CompilerServices.ConditionalWeakTable`2.CreateValueCallback
   parent: System.Runtime.CompilerServices
   isExternal: false
@@ -321,36 +302,12 @@ references:
   name: Boolean
   nameWithType: Boolean
   fullName: System.Boolean
-- uid: TKey
-  parent: ''
-  isExternal: true
-  name: TKey
-  nameWithType: TKey
-  fullName: TKey
 - uid: System.Runtime.CompilerServices.ConditionalWeakTable`2.TryGetValue(`0,`1@)
   parent: System.Runtime.CompilerServices.ConditionalWeakTable`2
   isExternal: false
   name: TryGetValue(TKey,TValue)
   nameWithType: ConditionalWeakTable<TKey,TValue>.TryGetValue(TKey,TValue)
   fullName: System.Runtime.CompilerServices.ConditionalWeakTable<TKey,TValue>.TryGetValue(TKey,TValue)
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
-- uid: TKey
-  parent: ''
-  isExternal: true
-  name: TKey
-  nameWithType: TKey
-  fullName: TKey
-- uid: TValue
-  parent: ''
-  isExternal: true
-  name: TValue
-  nameWithType: TValue
-  fullName: TValue
 - uid: System.Runtime.CompilerServices.ConditionalWeakTable`2.#ctor*
   parent: System.Runtime.CompilerServices.ConditionalWeakTable`2
   isExternal: false

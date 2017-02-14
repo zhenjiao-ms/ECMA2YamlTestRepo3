@@ -83,6 +83,7 @@ items:
     content: protected DES ();
     parameters: []
   overload: System.Security.Cryptography.DES.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -108,6 +109,7 @@ items:
       type: System.Security.Cryptography.DES
       description: To be added.
   overload: System.Security.Cryptography.DES.Create*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -136,6 +138,7 @@ items:
       type: System.Security.Cryptography.DES
       description: To be added.
   overload: System.Security.Cryptography.DES.Create*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -164,6 +167,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Security.Cryptography.DES.IsSemiWeakKey*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -192,6 +196,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Security.Cryptography.DES.IsWeakKey*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -216,6 +221,7 @@ items:
       type: System.Byte[]
       description: To be added.
   overload: System.Security.Cryptography.DES.Key*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -248,12 +254,6 @@ references:
   name: Create(String)
   nameWithType: DES.Create(String)
   fullName: System.Security.Cryptography.DES.Create(String)
-- uid: System.Security.Cryptography.DES
-  parent: System.Security.Cryptography
-  isExternal: false
-  name: DES
-  nameWithType: DES
-  fullName: System.Security.Cryptography.DES
 - uid: System.String
   parent: System
   isExternal: false
@@ -272,42 +272,32 @@ references:
   name: Boolean
   nameWithType: Boolean
   fullName: System.Boolean
-- uid: System.Byte
+- uid: System.Byte[]
   parent: System
   isExternal: false
   name: Byte
   nameWithType: Byte
   fullName: System.Byte[]
+  spec.csharp:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: Byte[]
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
 - uid: System.Security.Cryptography.DES.IsWeakKey(System.Byte[])
   parent: System.Security.Cryptography.DES
   isExternal: false
   name: IsWeakKey(Byte[])
   nameWithType: DES.IsWeakKey(Byte[])
   fullName: System.Security.Cryptography.DES.IsWeakKey(Byte[])
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
-- uid: System.Byte
-  parent: System
-  isExternal: false
-  name: Byte
-  nameWithType: Byte
-  fullName: System.Byte[]
 - uid: System.Security.Cryptography.DES.Key
   parent: System.Security.Cryptography.DES
   isExternal: false
   name: Key
   nameWithType: DES.Key
   fullName: System.Security.Cryptography.DES.Key
-- uid: System.Byte
-  parent: System
-  isExternal: false
-  name: Byte
-  nameWithType: Byte
-  fullName: System.Byte[]
 - uid: System.Security.Cryptography.DES.#ctor*
   parent: System.Security.Cryptography.DES
   isExternal: false

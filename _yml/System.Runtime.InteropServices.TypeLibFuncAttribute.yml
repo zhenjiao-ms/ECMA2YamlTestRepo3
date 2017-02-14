@@ -97,6 +97,7 @@ items:
       type: System.Int16
       description: To be added.
   overload: System.Runtime.InteropServices.TypeLibFuncAttribute.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -122,6 +123,7 @@ items:
       type: System.Runtime.InteropServices.TypeLibFuncFlags
       description: To be added.
   overload: System.Runtime.InteropServices.TypeLibFuncAttribute.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -146,6 +148,7 @@ items:
       type: System.Runtime.InteropServices.TypeLibFuncFlags
       description: To be added.
   overload: System.Runtime.InteropServices.TypeLibFuncAttribute.Value*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -184,12 +187,6 @@ references:
   name: Value
   nameWithType: TypeLibFuncAttribute.Value
   fullName: System.Runtime.InteropServices.TypeLibFuncAttribute.Value
-- uid: System.Runtime.InteropServices.TypeLibFuncFlags
-  parent: System.Runtime.InteropServices
-  isExternal: false
-  name: TypeLibFuncFlags
-  nameWithType: TypeLibFuncFlags
-  fullName: System.Runtime.InteropServices.TypeLibFuncFlags
 - uid: System.Runtime.InteropServices.TypeLibFuncAttribute.#ctor*
   parent: System.Runtime.InteropServices.TypeLibFuncAttribute
   isExternal: false

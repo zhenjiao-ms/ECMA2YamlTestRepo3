@@ -48,6 +48,7 @@ items:
       type: System.Runtime.InteropServices.ComTypes.IEnumVARIANT
       description: To be added.
   overload: System.Runtime.InteropServices.ComTypes.IEnumVARIANT.Clone*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -82,6 +83,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.Runtime.InteropServices.ComTypes.IEnumVARIANT.Next*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -107,6 +109,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.Runtime.InteropServices.ComTypes.IEnumVARIANT.Reset*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -135,6 +138,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.Runtime.InteropServices.ComTypes.IEnumVARIANT.Skip*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -164,18 +168,20 @@ references:
   name: Int32
   nameWithType: Int32
   fullName: System.Int32
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: System.Object
+- uid: System.Object[]
   parent: System
   isExternal: false
   name: Object
   nameWithType: Object
   fullName: System.Object[]
+  spec.csharp:
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: Object[]
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
 - uid: System.IntPtr
   parent: System
   isExternal: false
@@ -188,30 +194,12 @@ references:
   name: Reset()
   nameWithType: IEnumVARIANT.Reset()
   fullName: System.Runtime.InteropServices.ComTypes.IEnumVARIANT.Reset()
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
 - uid: System.Runtime.InteropServices.ComTypes.IEnumVARIANT.Skip(System.Int32)
   parent: System.Runtime.InteropServices.ComTypes.IEnumVARIANT
   isExternal: false
   name: Skip(Int32)
   nameWithType: IEnumVARIANT.Skip(Int32)
   fullName: System.Runtime.InteropServices.ComTypes.IEnumVARIANT.Skip(Int32)
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
 - uid: System.Runtime.InteropServices.ComTypes.IEnumVARIANT.Clone*
   parent: System.Runtime.InteropServices.ComTypes.IEnumVARIANT
   isExternal: false

@@ -54,6 +54,7 @@ items:
     content: public EncodingProvider ();
     parameters: []
   overload: System.Text.EncodingProvider.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -82,6 +83,7 @@ items:
       type: System.Text.Encoding
       description: To be added.
   overload: System.Text.EncodingProvider.GetEncoding*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -110,6 +112,7 @@ items:
       type: System.Text.Encoding
       description: To be added.
   overload: System.Text.EncodingProvider.GetEncoding*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -144,6 +147,7 @@ items:
       type: System.Text.Encoding
       description: To be added.
   overload: System.Text.EncodingProvider.GetEncoding*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -178,6 +182,7 @@ items:
       type: System.Text.Encoding
       description: To be added.
   overload: System.Text.EncodingProvider.GetEncoding*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -216,12 +221,6 @@ references:
   name: GetEncoding(String)
   nameWithType: EncodingProvider.GetEncoding(String)
   fullName: System.Text.EncodingProvider.GetEncoding(String)
-- uid: System.Text.Encoding
-  parent: System.Text
-  isExternal: false
-  name: Encoding
-  nameWithType: Encoding
-  fullName: System.Text.Encoding
 - uid: System.String
   parent: System
   isExternal: false
@@ -234,18 +233,6 @@ references:
   name: GetEncoding(Int32,EncoderFallback,DecoderFallback)
   nameWithType: EncodingProvider.GetEncoding(Int32,EncoderFallback,DecoderFallback)
   fullName: System.Text.EncodingProvider.GetEncoding(Int32,EncoderFallback,DecoderFallback)
-- uid: System.Text.Encoding
-  parent: System.Text
-  isExternal: false
-  name: Encoding
-  nameWithType: Encoding
-  fullName: System.Text.Encoding
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
 - uid: System.Text.EncoderFallback
   parent: System.Text
   isExternal: false
@@ -264,30 +251,6 @@ references:
   name: GetEncoding(String,EncoderFallback,DecoderFallback)
   nameWithType: EncodingProvider.GetEncoding(String,EncoderFallback,DecoderFallback)
   fullName: System.Text.EncodingProvider.GetEncoding(String,EncoderFallback,DecoderFallback)
-- uid: System.Text.Encoding
-  parent: System.Text
-  isExternal: false
-  name: Encoding
-  nameWithType: Encoding
-  fullName: System.Text.Encoding
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
-- uid: System.Text.EncoderFallback
-  parent: System.Text
-  isExternal: false
-  name: EncoderFallback
-  nameWithType: EncoderFallback
-  fullName: System.Text.EncoderFallback
-- uid: System.Text.DecoderFallback
-  parent: System.Text
-  isExternal: false
-  name: DecoderFallback
-  nameWithType: DecoderFallback
-  fullName: System.Text.DecoderFallback
 - uid: System.Text.EncodingProvider.#ctor*
   parent: System.Text.EncodingProvider
   isExternal: false

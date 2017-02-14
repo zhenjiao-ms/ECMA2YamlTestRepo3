@@ -65,6 +65,7 @@ items:
     content: public InvalidProgramException ();
     parameters: []
   overload: System.InvalidProgramException.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -90,6 +91,7 @@ items:
       type: System.String
       description: To be added.
   overload: System.InvalidProgramException.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -118,6 +120,7 @@ items:
       type: System.Exception
       description: To be added.
   overload: System.InvalidProgramException.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -150,12 +153,6 @@ references:
   name: InvalidProgramException(String,Exception)
   nameWithType: InvalidProgramException.InvalidProgramException(String,Exception)
   fullName: System.InvalidProgramException.InvalidProgramException(String,Exception)
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
 - uid: System.Exception
   parent: System
   isExternal: false

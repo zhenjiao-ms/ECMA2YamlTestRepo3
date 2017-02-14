@@ -66,6 +66,7 @@ items:
       type: System.Security.AccessControl.AccessControlType
       description: To be added.
   overload: System.Security.AccessControl.EventWaitHandleAccessRule.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -97,6 +98,7 @@ items:
       type: System.Security.AccessControl.AccessControlType
       description: To be added.
   overload: System.Security.AccessControl.EventWaitHandleAccessRule.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -121,6 +123,7 @@ items:
       type: System.Security.AccessControl.EventWaitHandleRights
       description: To be added.
   overload: System.Security.AccessControl.EventWaitHandleAccessRule.EventWaitHandleRights*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -165,30 +168,12 @@ references:
   name: String
   nameWithType: String
   fullName: System.String
-- uid: System.Security.AccessControl.EventWaitHandleRights
-  parent: System.Security.AccessControl
-  isExternal: false
-  name: EventWaitHandleRights
-  nameWithType: EventWaitHandleRights
-  fullName: System.Security.AccessControl.EventWaitHandleRights
-- uid: System.Security.AccessControl.AccessControlType
-  parent: System.Security.AccessControl
-  isExternal: false
-  name: AccessControlType
-  nameWithType: AccessControlType
-  fullName: System.Security.AccessControl.AccessControlType
 - uid: System.Security.AccessControl.EventWaitHandleAccessRule.EventWaitHandleRights
   parent: System.Security.AccessControl.EventWaitHandleAccessRule
   isExternal: false
   name: EventWaitHandleRights
   nameWithType: EventWaitHandleAccessRule.EventWaitHandleRights
   fullName: System.Security.AccessControl.EventWaitHandleAccessRule.EventWaitHandleRights
-- uid: System.Security.AccessControl.EventWaitHandleRights
-  parent: System.Security.AccessControl
-  isExternal: false
-  name: EventWaitHandleRights
-  nameWithType: EventWaitHandleRights
-  fullName: System.Security.AccessControl.EventWaitHandleRights
 - uid: System.Security.AccessControl.EventWaitHandleAccessRule.#ctor*
   parent: System.Security.AccessControl.EventWaitHandleAccessRule
   isExternal: false

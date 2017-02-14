@@ -65,6 +65,7 @@ items:
     content: public BinaryFormatter ();
     parameters: []
   overload: System.Runtime.Serialization.Formatters.Binary.BinaryFormatter.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -93,6 +94,7 @@ items:
       type: System.Runtime.Serialization.StreamingContext
       description: To be added.
   overload: System.Runtime.Serialization.Formatters.Binary.BinaryFormatter.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -117,6 +119,7 @@ items:
       type: System.Runtime.Serialization.Formatters.FormatterAssemblyStyle
       description: To be added.
   overload: System.Runtime.Serialization.Formatters.Binary.BinaryFormatter.AssemblyFormat*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -141,6 +144,7 @@ items:
       type: System.Runtime.Serialization.SerializationBinder
       description: To be added.
   overload: System.Runtime.Serialization.Formatters.Binary.BinaryFormatter.Binder*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -165,6 +169,7 @@ items:
       type: System.Runtime.Serialization.StreamingContext
       description: To be added.
   overload: System.Runtime.Serialization.Formatters.Binary.BinaryFormatter.Context*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -193,6 +198,7 @@ items:
       type: System.Object
       description: To be added.
   overload: System.Runtime.Serialization.Formatters.Binary.BinaryFormatter.Deserialize*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -224,6 +230,7 @@ items:
       type: System.Object
       description: To be added.
   overload: System.Runtime.Serialization.Formatters.Binary.BinaryFormatter.Deserialize*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -258,6 +265,7 @@ items:
       type: System.Object
       description: To be added.
   overload: System.Runtime.Serialization.Formatters.Binary.BinaryFormatter.DeserializeMethodResponse*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -282,6 +290,7 @@ items:
       type: System.Runtime.Serialization.Formatters.TypeFilterLevel
       description: To be added.
   overload: System.Runtime.Serialization.Formatters.Binary.BinaryFormatter.FilterLevel*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -310,6 +319,7 @@ items:
       type: System.Object
       description: To be added.
   overload: System.Runtime.Serialization.Formatters.Binary.BinaryFormatter.Serialize*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -341,6 +351,7 @@ items:
       type: System.Runtime.Remoting.Messaging.Header[]
       description: To be added.
   overload: System.Runtime.Serialization.Formatters.Binary.BinaryFormatter.Serialize*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -365,6 +376,7 @@ items:
       type: System.Runtime.Serialization.ISurrogateSelector
       description: To be added.
   overload: System.Runtime.Serialization.Formatters.Binary.BinaryFormatter.SurrogateSelector*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -389,6 +401,7 @@ items:
       type: System.Runtime.Serialization.Formatters.FormatterTypeStyle
       description: To be added.
   overload: System.Runtime.Serialization.Formatters.Binary.BinaryFormatter.TypeFormat*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -420,6 +433,7 @@ items:
       type: System.Object
       description: To be added.
   overload: System.Runtime.Serialization.Formatters.Binary.BinaryFormatter.UnsafeDeserialize*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -454,6 +468,7 @@ items:
       type: System.Object
       description: To be added.
   overload: System.Runtime.Serialization.Formatters.Binary.BinaryFormatter.UnsafeDeserializeMethodResponse*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -516,24 +531,12 @@ references:
   name: Context
   nameWithType: BinaryFormatter.Context
   fullName: System.Runtime.Serialization.Formatters.Binary.BinaryFormatter.Context
-- uid: System.Runtime.Serialization.StreamingContext
-  parent: System.Runtime.Serialization
-  isExternal: false
-  name: StreamingContext
-  nameWithType: StreamingContext
-  fullName: System.Runtime.Serialization.StreamingContext
 - uid: System.Runtime.Serialization.Formatters.Binary.BinaryFormatter.Deserialize(System.IO.Stream)
   parent: System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
   isExternal: false
   name: Deserialize(Stream)
   nameWithType: BinaryFormatter.Deserialize(Stream)
   fullName: System.Runtime.Serialization.Formatters.Binary.BinaryFormatter.Deserialize(Stream)
-- uid: System.Object
-  parent: System
-  isExternal: false
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
 - uid: System.IO.Stream
   parent: System.IO
   isExternal: false
@@ -546,18 +549,6 @@ references:
   name: Deserialize(Stream,HeaderHandler)
   nameWithType: BinaryFormatter.Deserialize(Stream,HeaderHandler)
   fullName: System.Runtime.Serialization.Formatters.Binary.BinaryFormatter.Deserialize(Stream,HeaderHandler)
-- uid: System.Object
-  parent: System
-  isExternal: false
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
-- uid: System.IO.Stream
-  parent: System.IO
-  isExternal: false
-  name: Stream
-  nameWithType: Stream
-  fullName: System.IO.Stream
 - uid: System.Runtime.Remoting.Messaging.HeaderHandler
   parent: System.Runtime.Remoting.Messaging
   isExternal: false
@@ -570,24 +561,6 @@ references:
   name: DeserializeMethodResponse(Stream,HeaderHandler,IMethodCallMessage)
   nameWithType: BinaryFormatter.DeserializeMethodResponse(Stream,HeaderHandler,IMethodCallMessage)
   fullName: System.Runtime.Serialization.Formatters.Binary.BinaryFormatter.DeserializeMethodResponse(Stream,HeaderHandler,IMethodCallMessage)
-- uid: System.Object
-  parent: System
-  isExternal: false
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
-- uid: System.IO.Stream
-  parent: System.IO
-  isExternal: false
-  name: Stream
-  nameWithType: Stream
-  fullName: System.IO.Stream
-- uid: System.Runtime.Remoting.Messaging.HeaderHandler
-  parent: System.Runtime.Remoting.Messaging
-  isExternal: false
-  name: HeaderHandler
-  nameWithType: HeaderHandler
-  fullName: System.Runtime.Remoting.Messaging.HeaderHandler
 - uid: System.Runtime.Remoting.Messaging.IMethodCallMessage
   parent: System.Runtime.Remoting.Messaging
   isExternal: false
@@ -612,54 +585,32 @@ references:
   name: Serialize(Stream,Object)
   nameWithType: BinaryFormatter.Serialize(Stream,Object)
   fullName: System.Runtime.Serialization.Formatters.Binary.BinaryFormatter.Serialize(Stream,Object)
-- uid: System.IO.Stream
-  parent: System.IO
-  isExternal: false
-  name: Stream
-  nameWithType: Stream
-  fullName: System.IO.Stream
-- uid: System.Object
-  parent: System
-  isExternal: false
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
 - uid: System.Runtime.Serialization.Formatters.Binary.BinaryFormatter.Serialize(System.IO.Stream,System.Object,System.Runtime.Remoting.Messaging.Header[])
   parent: System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
   isExternal: false
   name: Serialize(Stream,Object,Header[])
   nameWithType: BinaryFormatter.Serialize(Stream,Object,Header[])
   fullName: System.Runtime.Serialization.Formatters.Binary.BinaryFormatter.Serialize(Stream,Object,Header[])
-- uid: System.IO.Stream
-  parent: System.IO
-  isExternal: false
-  name: Stream
-  nameWithType: Stream
-  fullName: System.IO.Stream
-- uid: System.Object
-  parent: System
-  isExternal: false
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
-- uid: System.Runtime.Remoting.Messaging.Header
+- uid: System.Runtime.Remoting.Messaging.Header[]
   parent: System.Runtime.Remoting.Messaging
   isExternal: false
   name: Header
   nameWithType: Header
   fullName: System.Runtime.Remoting.Messaging.Header[]
+  spec.csharp:
+  - uid: System.Runtime.Remoting.Messaging.Header
+    name: Header
+    nameWithType: Header
+    fullName: Header[]
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
 - uid: System.Runtime.Serialization.Formatters.Binary.BinaryFormatter.SurrogateSelector
   parent: System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
   isExternal: false
   name: SurrogateSelector
   nameWithType: BinaryFormatter.SurrogateSelector
   fullName: System.Runtime.Serialization.Formatters.Binary.BinaryFormatter.SurrogateSelector
-- uid: System.Runtime.Serialization.ISurrogateSelector
-  parent: System.Runtime.Serialization
-  isExternal: false
-  name: ISurrogateSelector
-  nameWithType: ISurrogateSelector
-  fullName: System.Runtime.Serialization.ISurrogateSelector
 - uid: System.Runtime.Serialization.Formatters.Binary.BinaryFormatter.TypeFormat
   parent: System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
   isExternal: false
@@ -678,54 +629,12 @@ references:
   name: UnsafeDeserialize(Stream,HeaderHandler)
   nameWithType: BinaryFormatter.UnsafeDeserialize(Stream,HeaderHandler)
   fullName: System.Runtime.Serialization.Formatters.Binary.BinaryFormatter.UnsafeDeserialize(Stream,HeaderHandler)
-- uid: System.Object
-  parent: System
-  isExternal: false
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
-- uid: System.IO.Stream
-  parent: System.IO
-  isExternal: false
-  name: Stream
-  nameWithType: Stream
-  fullName: System.IO.Stream
-- uid: System.Runtime.Remoting.Messaging.HeaderHandler
-  parent: System.Runtime.Remoting.Messaging
-  isExternal: false
-  name: HeaderHandler
-  nameWithType: HeaderHandler
-  fullName: System.Runtime.Remoting.Messaging.HeaderHandler
 - uid: System.Runtime.Serialization.Formatters.Binary.BinaryFormatter.UnsafeDeserializeMethodResponse(System.IO.Stream,System.Runtime.Remoting.Messaging.HeaderHandler,System.Runtime.Remoting.Messaging.IMethodCallMessage)
   parent: System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
   isExternal: false
   name: UnsafeDeserializeMethodResponse(Stream,HeaderHandler,IMethodCallMessage)
   nameWithType: BinaryFormatter.UnsafeDeserializeMethodResponse(Stream,HeaderHandler,IMethodCallMessage)
   fullName: System.Runtime.Serialization.Formatters.Binary.BinaryFormatter.UnsafeDeserializeMethodResponse(Stream,HeaderHandler,IMethodCallMessage)
-- uid: System.Object
-  parent: System
-  isExternal: false
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
-- uid: System.IO.Stream
-  parent: System.IO
-  isExternal: false
-  name: Stream
-  nameWithType: Stream
-  fullName: System.IO.Stream
-- uid: System.Runtime.Remoting.Messaging.HeaderHandler
-  parent: System.Runtime.Remoting.Messaging
-  isExternal: false
-  name: HeaderHandler
-  nameWithType: HeaderHandler
-  fullName: System.Runtime.Remoting.Messaging.HeaderHandler
-- uid: System.Runtime.Remoting.Messaging.IMethodCallMessage
-  parent: System.Runtime.Remoting.Messaging
-  isExternal: false
-  name: IMethodCallMessage
-  nameWithType: IMethodCallMessage
-  fullName: System.Runtime.Remoting.Messaging.IMethodCallMessage
 - uid: System.Runtime.Serialization.Formatters.Binary.BinaryFormatter.#ctor*
   parent: System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
   isExternal: false

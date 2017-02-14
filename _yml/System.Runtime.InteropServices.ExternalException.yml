@@ -68,6 +68,7 @@ items:
     content: public ExternalException ();
     parameters: []
   overload: System.Runtime.InteropServices.ExternalException.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -93,6 +94,7 @@ items:
       type: System.String
       description: To be added.
   overload: System.Runtime.InteropServices.ExternalException.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -121,6 +123,7 @@ items:
       type: System.Runtime.Serialization.StreamingContext
       description: To be added.
   overload: System.Runtime.InteropServices.ExternalException.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -149,6 +152,7 @@ items:
       type: System.Exception
       description: To be added.
   overload: System.Runtime.InteropServices.ExternalException.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -177,6 +181,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.Runtime.InteropServices.ExternalException.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -201,6 +206,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.Runtime.InteropServices.ExternalException.ErrorCode*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -226,6 +232,7 @@ items:
       type: System.String
       description: To be added.
   overload: System.Runtime.InteropServices.ExternalException.ToString*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -276,12 +283,6 @@ references:
   name: ExternalException(String,Exception)
   nameWithType: ExternalException.ExternalException(String,Exception)
   fullName: System.Runtime.InteropServices.ExternalException.ExternalException(String,Exception)
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
 - uid: System.Exception
   parent: System
   isExternal: false
@@ -294,12 +295,6 @@ references:
   name: ExternalException(String,Int32)
   nameWithType: ExternalException.ExternalException(String,Int32)
   fullName: System.Runtime.InteropServices.ExternalException.ExternalException(String,Int32)
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
 - uid: System.Int32
   parent: System
   isExternal: false
@@ -312,24 +307,12 @@ references:
   name: ErrorCode
   nameWithType: ExternalException.ErrorCode
   fullName: System.Runtime.InteropServices.ExternalException.ErrorCode
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
 - uid: System.Runtime.InteropServices.ExternalException.ToString
   parent: System.Runtime.InteropServices.ExternalException
   isExternal: false
   name: ToString()
   nameWithType: ExternalException.ToString()
   fullName: System.Runtime.InteropServices.ExternalException.ToString()
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
 - uid: System.Runtime.InteropServices.ExternalException.#ctor*
   parent: System.Runtime.InteropServices.ExternalException
   isExternal: false

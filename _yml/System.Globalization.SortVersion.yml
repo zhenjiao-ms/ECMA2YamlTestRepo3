@@ -59,6 +59,7 @@ items:
       type: System.Guid
       description: To be added.
   overload: System.Globalization.SortVersion.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -87,6 +88,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Globalization.SortVersion.Equals*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -115,6 +117,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Globalization.SortVersion.Equals*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -139,6 +142,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.Globalization.SortVersion.FullVersion*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -164,6 +168,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.Globalization.SortVersion.GetHashCode*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -195,6 +200,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Globalization.SortVersion.op_Equality*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -226,6 +232,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Globalization.SortVersion.op_Inequality*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -250,6 +257,7 @@ items:
       type: System.Guid
       description: To be added.
   overload: System.Globalization.SortVersion.SortId*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -300,102 +308,36 @@ references:
   name: Equals(Object)
   nameWithType: SortVersion.Equals(Object)
   fullName: System.Globalization.SortVersion.Equals(Object)
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
-- uid: System.Object
-  parent: System
-  isExternal: false
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
 - uid: System.Globalization.SortVersion.FullVersion
   parent: System.Globalization.SortVersion
   isExternal: false
   name: FullVersion
   nameWithType: SortVersion.FullVersion
   fullName: System.Globalization.SortVersion.FullVersion
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
 - uid: System.Globalization.SortVersion.GetHashCode
   parent: System.Globalization.SortVersion
   isExternal: false
   name: GetHashCode()
   nameWithType: SortVersion.GetHashCode()
   fullName: System.Globalization.SortVersion.GetHashCode()
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
 - uid: System.Globalization.SortVersion.op_Equality(System.Globalization.SortVersion,System.Globalization.SortVersion)
   parent: System.Globalization.SortVersion
   isExternal: false
   name: op_Equality(SortVersion,SortVersion)
   nameWithType: SortVersion.op_Equality(SortVersion,SortVersion)
   fullName: System.Globalization.SortVersion.op_Equality(SortVersion,SortVersion)
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
-- uid: System.Globalization.SortVersion
-  parent: System.Globalization
-  isExternal: false
-  name: SortVersion
-  nameWithType: SortVersion
-  fullName: System.Globalization.SortVersion
-- uid: System.Globalization.SortVersion
-  parent: System.Globalization
-  isExternal: false
-  name: SortVersion
-  nameWithType: SortVersion
-  fullName: System.Globalization.SortVersion
 - uid: System.Globalization.SortVersion.op_Inequality(System.Globalization.SortVersion,System.Globalization.SortVersion)
   parent: System.Globalization.SortVersion
   isExternal: false
   name: op_Inequality(SortVersion,SortVersion)
   nameWithType: SortVersion.op_Inequality(SortVersion,SortVersion)
   fullName: System.Globalization.SortVersion.op_Inequality(SortVersion,SortVersion)
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
-- uid: System.Globalization.SortVersion
-  parent: System.Globalization
-  isExternal: false
-  name: SortVersion
-  nameWithType: SortVersion
-  fullName: System.Globalization.SortVersion
-- uid: System.Globalization.SortVersion
-  parent: System.Globalization
-  isExternal: false
-  name: SortVersion
-  nameWithType: SortVersion
-  fullName: System.Globalization.SortVersion
 - uid: System.Globalization.SortVersion.SortId
   parent: System.Globalization.SortVersion
   isExternal: false
   name: SortId
   nameWithType: SortVersion.SortId
   fullName: System.Globalization.SortVersion.SortId
-- uid: System.Guid
-  parent: System
-  isExternal: false
-  name: Guid
-  nameWithType: Guid
-  fullName: System.Guid
 - uid: System.Globalization.SortVersion.#ctor*
   parent: System.Globalization.SortVersion
   isExternal: false

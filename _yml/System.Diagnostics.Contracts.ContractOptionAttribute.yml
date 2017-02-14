@@ -106,6 +106,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Diagnostics.Contracts.ContractOptionAttribute.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -137,6 +138,7 @@ items:
       type: System.String
       description: To be added.
   overload: System.Diagnostics.Contracts.ContractOptionAttribute.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -161,6 +163,7 @@ items:
       type: System.String
       description: To be added.
   overload: System.Diagnostics.Contracts.ContractOptionAttribute.Category*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -185,6 +188,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Diagnostics.Contracts.ContractOptionAttribute.Enabled*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -209,6 +213,7 @@ items:
       type: System.String
       description: To be added.
   overload: System.Diagnostics.Contracts.ContractOptionAttribute.Setting*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -233,6 +238,7 @@ items:
       type: System.String
       description: To be added.
   overload: System.Diagnostics.Contracts.ContractOptionAttribute.Value*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -253,12 +259,6 @@ references:
   name: String
   nameWithType: String
   fullName: System.String
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
 - uid: System.Boolean
   parent: System
   isExternal: false
@@ -271,72 +271,30 @@ references:
   name: ContractOptionAttribute(String,String,String)
   nameWithType: ContractOptionAttribute.ContractOptionAttribute(String,String,String)
   fullName: System.Diagnostics.Contracts.ContractOptionAttribute.ContractOptionAttribute(String,String,String)
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
 - uid: System.Diagnostics.Contracts.ContractOptionAttribute.Category
   parent: System.Diagnostics.Contracts.ContractOptionAttribute
   isExternal: false
   name: Category
   nameWithType: ContractOptionAttribute.Category
   fullName: System.Diagnostics.Contracts.ContractOptionAttribute.Category
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
 - uid: System.Diagnostics.Contracts.ContractOptionAttribute.Enabled
   parent: System.Diagnostics.Contracts.ContractOptionAttribute
   isExternal: false
   name: Enabled
   nameWithType: ContractOptionAttribute.Enabled
   fullName: System.Diagnostics.Contracts.ContractOptionAttribute.Enabled
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
 - uid: System.Diagnostics.Contracts.ContractOptionAttribute.Setting
   parent: System.Diagnostics.Contracts.ContractOptionAttribute
   isExternal: false
   name: Setting
   nameWithType: ContractOptionAttribute.Setting
   fullName: System.Diagnostics.Contracts.ContractOptionAttribute.Setting
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
 - uid: System.Diagnostics.Contracts.ContractOptionAttribute.Value
   parent: System.Diagnostics.Contracts.ContractOptionAttribute
   isExternal: false
   name: Value
   nameWithType: ContractOptionAttribute.Value
   fullName: System.Diagnostics.Contracts.ContractOptionAttribute.Value
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
 - uid: System.Diagnostics.Contracts.ContractOptionAttribute.#ctor*
   parent: System.Diagnostics.Contracts.ContractOptionAttribute
   isExternal: false

@@ -99,6 +99,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.Reflection.AssemblyFlagsAttribute.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -124,6 +125,7 @@ items:
       type: System.Reflection.AssemblyNameFlags
       description: To be added.
   overload: System.Reflection.AssemblyFlagsAttribute.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -149,6 +151,7 @@ items:
       type: System.UInt32
       description: To be added.
   overload: System.Reflection.AssemblyFlagsAttribute.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -173,6 +176,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.Reflection.AssemblyFlagsAttribute.AssemblyFlags*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -197,6 +201,7 @@ items:
       type: System.UInt32
       description: To be added.
   overload: System.Reflection.AssemblyFlagsAttribute.Flags*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -247,24 +252,12 @@ references:
   name: AssemblyFlags
   nameWithType: AssemblyFlagsAttribute.AssemblyFlags
   fullName: System.Reflection.AssemblyFlagsAttribute.AssemblyFlags
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
 - uid: System.Reflection.AssemblyFlagsAttribute.Flags
   parent: System.Reflection.AssemblyFlagsAttribute
   isExternal: false
   name: Flags
   nameWithType: AssemblyFlagsAttribute.Flags
   fullName: System.Reflection.AssemblyFlagsAttribute.Flags
-- uid: System.UInt32
-  parent: System
-  isExternal: false
-  name: UInt32
-  nameWithType: UInt32
-  fullName: System.UInt32
 - uid: System.Reflection.AssemblyFlagsAttribute.#ctor*
   parent: System.Reflection.AssemblyFlagsAttribute
   isExternal: false

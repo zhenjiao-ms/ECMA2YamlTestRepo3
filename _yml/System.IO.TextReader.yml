@@ -71,6 +71,7 @@ items:
     content: protected TextReader ();
     parameters: []
   overload: System.IO.TextReader.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -93,6 +94,7 @@ items:
     content: public virtual void Close ();
     parameters: []
   overload: System.IO.TextReader.Close*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -115,6 +117,7 @@ items:
     content: public void Dispose ();
     parameters: []
   overload: System.IO.TextReader.Dispose*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -140,6 +143,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.IO.TextReader.Dispose*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -163,6 +167,7 @@ items:
     return:
       type: System.IO.TextReader
       description: To be added.
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -188,6 +193,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.IO.TextReader.Peek*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -213,6 +219,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.IO.TextReader.Read*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -247,6 +254,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.IO.TextReader.Read*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -281,6 +289,7 @@ items:
       type: System.Threading.Tasks.Task{System.Int32}
       description: To be added.
   overload: System.IO.TextReader.ReadAsync*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -315,6 +324,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.IO.TextReader.ReadBlock*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -349,6 +359,7 @@ items:
       type: System.Threading.Tasks.Task{System.Int32}
       description: To be added.
   overload: System.IO.TextReader.ReadBlockAsync*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -374,6 +385,7 @@ items:
       type: System.String
       description: To be added.
   overload: System.IO.TextReader.ReadLine*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -399,6 +411,7 @@ items:
       type: System.Threading.Tasks.Task{System.String}
       description: To be added.
   overload: System.IO.TextReader.ReadLineAsync*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -424,6 +437,7 @@ items:
       type: System.String
       description: To be added.
   overload: System.IO.TextReader.ReadToEnd*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -449,6 +463,7 @@ items:
       type: System.Threading.Tasks.Task{System.String}
       description: To be added.
   overload: System.IO.TextReader.ReadToEndAsync*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -477,6 +492,7 @@ items:
       type: System.IO.TextReader
       description: To be added.
   overload: System.IO.TextReader.Synchronized*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -545,42 +561,26 @@ references:
   name: Read()
   nameWithType: TextReader.Read()
   fullName: System.IO.TextReader.Read()
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
 - uid: System.IO.TextReader.Read(System.Char[],System.Int32,System.Int32)
   parent: System.IO.TextReader
   isExternal: false
   name: Read(Char[],Int32,Int32)
   nameWithType: TextReader.Read(Char[],Int32,Int32)
   fullName: System.IO.TextReader.Read(Char[],Int32,Int32)
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: System.Char
+- uid: System.Char[]
   parent: System
   isExternal: false
   name: Char
   nameWithType: Char
   fullName: System.Char[]
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
+  spec.csharp:
+  - uid: System.Char
+    name: Char
+    nameWithType: Char
+    fullName: Char[]
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
 - uid: System.IO.TextReader.ReadAsync(System.Char[],System.Int32,System.Int32)
   parent: System.IO.TextReader
   isExternal: false
@@ -593,84 +593,33 @@ references:
   name: Task<Int32>
   nameWithType: Task<Int32>
   fullName: System.Threading.Tasks.Task<System.Int32>
-- uid: System.Char
-  parent: System
-  isExternal: false
-  name: Char
-  nameWithType: Char
-  fullName: System.Char[]
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: Task<System.Int32>
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: Int32
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
 - uid: System.IO.TextReader.ReadBlock(System.Char[],System.Int32,System.Int32)
   parent: System.IO.TextReader
   isExternal: false
   name: ReadBlock(Char[],Int32,Int32)
   nameWithType: TextReader.ReadBlock(Char[],Int32,Int32)
   fullName: System.IO.TextReader.ReadBlock(Char[],Int32,Int32)
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: System.Char
-  parent: System
-  isExternal: false
-  name: Char
-  nameWithType: Char
-  fullName: System.Char[]
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
 - uid: System.IO.TextReader.ReadBlockAsync(System.Char[],System.Int32,System.Int32)
   parent: System.IO.TextReader
   isExternal: false
   name: ReadBlockAsync(Char[],Int32,Int32)
   nameWithType: TextReader.ReadBlockAsync(Char[],Int32,Int32)
   fullName: System.IO.TextReader.ReadBlockAsync(Char[],Int32,Int32)
-- uid: System.Threading.Tasks.Task{System.Int32}
-  parent: System.Threading.Tasks
-  isExternal: false
-  name: Task<Int32>
-  nameWithType: Task<Int32>
-  fullName: System.Threading.Tasks.Task<System.Int32>
-- uid: System.Char
-  parent: System
-  isExternal: false
-  name: Char
-  nameWithType: Char
-  fullName: System.Char[]
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
 - uid: System.IO.TextReader.ReadLine
   parent: System.IO.TextReader
   isExternal: false
@@ -695,48 +644,39 @@ references:
   name: Task<String>
   nameWithType: Task<String>
   fullName: System.Threading.Tasks.Task<System.String>
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: Task<System.String>
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: String
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
 - uid: System.IO.TextReader.ReadToEnd
   parent: System.IO.TextReader
   isExternal: false
   name: ReadToEnd()
   nameWithType: TextReader.ReadToEnd()
   fullName: System.IO.TextReader.ReadToEnd()
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
 - uid: System.IO.TextReader.ReadToEndAsync
   parent: System.IO.TextReader
   isExternal: false
   name: ReadToEndAsync()
   nameWithType: TextReader.ReadToEndAsync()
   fullName: System.IO.TextReader.ReadToEndAsync()
-- uid: System.Threading.Tasks.Task{System.String}
-  parent: System.Threading.Tasks
-  isExternal: false
-  name: Task<String>
-  nameWithType: Task<String>
-  fullName: System.Threading.Tasks.Task<System.String>
 - uid: System.IO.TextReader.Synchronized(System.IO.TextReader)
   parent: System.IO.TextReader
   isExternal: false
   name: Synchronized(TextReader)
   nameWithType: TextReader.Synchronized(TextReader)
   fullName: System.IO.TextReader.Synchronized(TextReader)
-- uid: System.IO.TextReader
-  parent: System.IO
-  isExternal: false
-  name: TextReader
-  nameWithType: TextReader
-  fullName: System.IO.TextReader
-- uid: System.IO.TextReader
-  parent: System.IO
-  isExternal: false
-  name: TextReader
-  nameWithType: TextReader
-  fullName: System.IO.TextReader
 - uid: System.IO.TextReader.#ctor*
   parent: System.IO.TextReader
   isExternal: false

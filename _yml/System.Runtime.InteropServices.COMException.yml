@@ -69,6 +69,7 @@ items:
     content: public COMException ();
     parameters: []
   overload: System.Runtime.InteropServices.COMException.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -94,6 +95,7 @@ items:
       type: System.String
       description: To be added.
   overload: System.Runtime.InteropServices.COMException.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -122,6 +124,7 @@ items:
       type: System.Runtime.Serialization.StreamingContext
       description: To be added.
   overload: System.Runtime.InteropServices.COMException.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -150,6 +153,7 @@ items:
       type: System.Exception
       description: To be added.
   overload: System.Runtime.InteropServices.COMException.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -178,6 +182,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.Runtime.InteropServices.COMException.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -203,6 +208,7 @@ items:
       type: System.String
       description: To be added.
   overload: System.Runtime.InteropServices.COMException.ToString*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -253,12 +259,6 @@ references:
   name: COMException(String,Exception)
   nameWithType: COMException.COMException(String,Exception)
   fullName: System.Runtime.InteropServices.COMException.COMException(String,Exception)
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
 - uid: System.Exception
   parent: System
   isExternal: false
@@ -271,12 +271,6 @@ references:
   name: COMException(String,Int32)
   nameWithType: COMException.COMException(String,Int32)
   fullName: System.Runtime.InteropServices.COMException.COMException(String,Int32)
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
 - uid: System.Int32
   parent: System
   isExternal: false
@@ -289,12 +283,6 @@ references:
   name: ToString()
   nameWithType: COMException.ToString()
   fullName: System.Runtime.InteropServices.COMException.ToString()
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
 - uid: System.Runtime.InteropServices.COMException.#ctor*
   parent: System.Runtime.InteropServices.COMException
   isExternal: false

@@ -74,6 +74,7 @@ items:
       type: System.String
       description: To be added.
   overload: System.IO.StringReader.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -96,6 +97,7 @@ items:
     content: public override void Close ();
     parameters: []
   overload: System.IO.StringReader.Close*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -121,6 +123,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.IO.StringReader.Dispose*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -146,6 +149,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.IO.StringReader.Peek*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -171,6 +175,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.IO.StringReader.Read*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -205,6 +210,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.IO.StringReader.Read*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -239,6 +245,7 @@ items:
       type: System.Threading.Tasks.Task{System.Int32}
       description: To be added.
   overload: System.IO.StringReader.ReadAsync*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -273,6 +280,7 @@ items:
       type: System.Threading.Tasks.Task{System.Int32}
       description: To be added.
   overload: System.IO.StringReader.ReadBlockAsync*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -298,6 +306,7 @@ items:
       type: System.String
       description: To be added.
   overload: System.IO.StringReader.ReadLine*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -323,6 +332,7 @@ items:
       type: System.Threading.Tasks.Task{System.String}
       description: To be added.
   overload: System.IO.StringReader.ReadLineAsync*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -348,6 +358,7 @@ items:
       type: System.String
       description: To be added.
   overload: System.IO.StringReader.ReadToEnd*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -373,6 +384,7 @@ items:
       type: System.Threading.Tasks.Task{System.String}
       description: To be added.
   overload: System.IO.StringReader.ReadToEndAsync*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -429,42 +441,26 @@ references:
   name: Read()
   nameWithType: StringReader.Read()
   fullName: System.IO.StringReader.Read()
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
 - uid: System.IO.StringReader.Read(System.Char[],System.Int32,System.Int32)
   parent: System.IO.StringReader
   isExternal: false
   name: Read(Char[],Int32,Int32)
   nameWithType: StringReader.Read(Char[],Int32,Int32)
   fullName: System.IO.StringReader.Read(Char[],Int32,Int32)
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: System.Char
+- uid: System.Char[]
   parent: System
   isExternal: false
   name: Char
   nameWithType: Char
   fullName: System.Char[]
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
+  spec.csharp:
+  - uid: System.Char
+    name: Char
+    nameWithType: Char
+    fullName: Char[]
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
 - uid: System.IO.StringReader.ReadAsync(System.Char[],System.Int32,System.Int32)
   parent: System.IO.StringReader
   isExternal: false
@@ -477,66 +473,33 @@ references:
   name: Task<Int32>
   nameWithType: Task<Int32>
   fullName: System.Threading.Tasks.Task<System.Int32>
-- uid: System.Char
-  parent: System
-  isExternal: false
-  name: Char
-  nameWithType: Char
-  fullName: System.Char[]
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: Task<System.Int32>
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: Int32
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
 - uid: System.IO.StringReader.ReadBlockAsync(System.Char[],System.Int32,System.Int32)
   parent: System.IO.StringReader
   isExternal: false
   name: ReadBlockAsync(Char[],Int32,Int32)
   nameWithType: StringReader.ReadBlockAsync(Char[],Int32,Int32)
   fullName: System.IO.StringReader.ReadBlockAsync(Char[],Int32,Int32)
-- uid: System.Threading.Tasks.Task{System.Int32}
-  parent: System.Threading.Tasks
-  isExternal: false
-  name: Task<Int32>
-  nameWithType: Task<Int32>
-  fullName: System.Threading.Tasks.Task<System.Int32>
-- uid: System.Char
-  parent: System
-  isExternal: false
-  name: Char
-  nameWithType: Char
-  fullName: System.Char[]
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
 - uid: System.IO.StringReader.ReadLine
   parent: System.IO.StringReader
   isExternal: false
   name: ReadLine()
   nameWithType: StringReader.ReadLine()
   fullName: System.IO.StringReader.ReadLine()
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
 - uid: System.IO.StringReader.ReadLineAsync
   parent: System.IO.StringReader
   isExternal: false
@@ -549,30 +512,33 @@ references:
   name: Task<String>
   nameWithType: Task<String>
   fullName: System.Threading.Tasks.Task<System.String>
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: Task<System.String>
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: String
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
 - uid: System.IO.StringReader.ReadToEnd
   parent: System.IO.StringReader
   isExternal: false
   name: ReadToEnd()
   nameWithType: StringReader.ReadToEnd()
   fullName: System.IO.StringReader.ReadToEnd()
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
 - uid: System.IO.StringReader.ReadToEndAsync
   parent: System.IO.StringReader
   isExternal: false
   name: ReadToEndAsync()
   nameWithType: StringReader.ReadToEndAsync()
   fullName: System.IO.StringReader.ReadToEndAsync()
-- uid: System.Threading.Tasks.Task{System.String}
-  parent: System.Threading.Tasks
-  isExternal: false
-  name: Task<String>
-  nameWithType: Task<String>
-  fullName: System.Threading.Tasks.Task<System.String>
 - uid: System.IO.StringReader.#ctor*
   parent: System.IO.StringReader
   isExternal: false

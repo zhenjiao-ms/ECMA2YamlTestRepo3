@@ -103,6 +103,7 @@ items:
       type: System.Security.Permissions.SecurityAction
       description: To be added.
   overload: System.Security.Permissions.EnvironmentPermissionAttribute.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -127,6 +128,7 @@ items:
       type: System.String
       description: To be added.
   overload: System.Security.Permissions.EnvironmentPermissionAttribute.All*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -152,6 +154,7 @@ items:
       type: System.Security.IPermission
       description: To be added.
   overload: System.Security.Permissions.EnvironmentPermissionAttribute.CreatePermission*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -176,6 +179,7 @@ items:
       type: System.String
       description: To be added.
   overload: System.Security.Permissions.EnvironmentPermissionAttribute.Read*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -200,6 +204,7 @@ items:
       type: System.String
       description: To be added.
   overload: System.Security.Permissions.EnvironmentPermissionAttribute.Write*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -250,24 +255,12 @@ references:
   name: Read
   nameWithType: EnvironmentPermissionAttribute.Read
   fullName: System.Security.Permissions.EnvironmentPermissionAttribute.Read
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
 - uid: System.Security.Permissions.EnvironmentPermissionAttribute.Write
   parent: System.Security.Permissions.EnvironmentPermissionAttribute
   isExternal: false
   name: Write
   nameWithType: EnvironmentPermissionAttribute.Write
   fullName: System.Security.Permissions.EnvironmentPermissionAttribute.Write
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
 - uid: System.Security.Permissions.EnvironmentPermissionAttribute.#ctor*
   parent: System.Security.Permissions.EnvironmentPermissionAttribute
   isExternal: false

@@ -105,6 +105,7 @@ items:
       type: System.Security.Cryptography.CryptoStreamMode
       description: To be added.
   overload: System.Security.Cryptography.CryptoStream.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -129,6 +130,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Security.Cryptography.CryptoStream.CanRead*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -153,6 +155,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Security.Cryptography.CryptoStream.CanSeek*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -177,6 +180,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Security.Cryptography.CryptoStream.CanWrite*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -199,6 +203,7 @@ items:
     content: public void Clear ();
     parameters: []
   overload: System.Security.Cryptography.CryptoStream.Clear*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -224,6 +229,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Security.Cryptography.CryptoStream.Dispose*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -246,6 +252,7 @@ items:
     content: public override void Flush ();
     parameters: []
   overload: System.Security.Cryptography.CryptoStream.Flush*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -274,6 +281,7 @@ items:
       type: System.Threading.Tasks.Task
       description: To be added.
   overload: System.Security.Cryptography.CryptoStream.FlushAsync*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -296,6 +304,7 @@ items:
     content: public void FlushFinalBlock ();
     parameters: []
   overload: System.Security.Cryptography.CryptoStream.FlushFinalBlock*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -320,6 +329,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Security.Cryptography.CryptoStream.HasFlushedFinalBlock*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -344,6 +354,7 @@ items:
       type: System.Int64
       description: To be added.
   overload: System.Security.Cryptography.CryptoStream.Length*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -368,6 +379,7 @@ items:
       type: System.Int64
       description: To be added.
   overload: System.Security.Cryptography.CryptoStream.Position*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -402,6 +414,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.Security.Cryptography.CryptoStream.Read*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -439,6 +452,7 @@ items:
       type: System.Threading.Tasks.Task{System.Int32}
       description: To be added.
   overload: System.Security.Cryptography.CryptoStream.ReadAsync*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -470,6 +484,7 @@ items:
       type: System.Int64
       description: To be added.
   overload: System.Security.Cryptography.CryptoStream.Seek*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -495,6 +510,7 @@ items:
       type: System.Int64
       description: To be added.
   overload: System.Security.Cryptography.CryptoStream.SetLength*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -526,6 +542,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.Security.Cryptography.CryptoStream.Write*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -563,6 +580,7 @@ items:
       type: System.Threading.Tasks.Task
       description: To be added.
   overload: System.Security.Cryptography.CryptoStream.WriteAsync*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -577,12 +595,6 @@ references:
   name: CryptoStream(Stream,ICryptoTransform,CryptoStreamMode)
   nameWithType: CryptoStream.CryptoStream(Stream,ICryptoTransform,CryptoStreamMode)
   fullName: System.Security.Cryptography.CryptoStream.CryptoStream(Stream,ICryptoTransform,CryptoStreamMode)
-- uid: System.IO.Stream
-  parent: System.IO
-  isExternal: false
-  name: Stream
-  nameWithType: Stream
-  fullName: System.IO.Stream
 - uid: System.Security.Cryptography.ICryptoTransform
   parent: System.Security.Cryptography
   isExternal: false
@@ -613,24 +625,12 @@ references:
   name: CanSeek
   nameWithType: CryptoStream.CanSeek
   fullName: System.Security.Cryptography.CryptoStream.CanSeek
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
 - uid: System.Security.Cryptography.CryptoStream.CanWrite
   parent: System.Security.Cryptography.CryptoStream
   isExternal: false
   name: CanWrite
   nameWithType: CryptoStream.CanWrite
   fullName: System.Security.Cryptography.CryptoStream.CanWrite
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
 - uid: System.Security.Cryptography.CryptoStream.Clear
   parent: System.Security.Cryptography.CryptoStream
   isExternal: false
@@ -643,12 +643,6 @@ references:
   name: Dispose(Boolean)
   nameWithType: CryptoStream.Dispose(Boolean)
   fullName: System.Security.Cryptography.CryptoStream.Dispose(Boolean)
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
 - uid: System.Security.Cryptography.CryptoStream.Flush
   parent: System.Security.Cryptography.CryptoStream
   isExternal: false
@@ -685,12 +679,6 @@ references:
   name: HasFlushedFinalBlock
   nameWithType: CryptoStream.HasFlushedFinalBlock
   fullName: System.Security.Cryptography.CryptoStream.HasFlushedFinalBlock
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
 - uid: System.Security.Cryptography.CryptoStream.Length
   parent: System.Security.Cryptography.CryptoStream
   isExternal: false
@@ -709,12 +697,6 @@ references:
   name: Position
   nameWithType: CryptoStream.Position
   fullName: System.Security.Cryptography.CryptoStream.Position
-- uid: System.Int64
-  parent: System
-  isExternal: false
-  name: Int64
-  nameWithType: Int64
-  fullName: System.Int64
 - uid: System.Security.Cryptography.CryptoStream.Read(System.Byte[],System.Int32,System.Int32)
   parent: System.Security.Cryptography.CryptoStream
   isExternal: false
@@ -727,24 +709,20 @@ references:
   name: Int32
   nameWithType: Int32
   fullName: System.Int32
-- uid: System.Byte
+- uid: System.Byte[]
   parent: System
   isExternal: false
   name: Byte
   nameWithType: Byte
   fullName: System.Byte[]
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
+  spec.csharp:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: Byte[]
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
 - uid: System.Security.Cryptography.CryptoStream.ReadAsync(System.Byte[],System.Int32,System.Int32,System.Threading.CancellationToken)
   parent: System.Security.Cryptography.CryptoStream
   isExternal: false
@@ -757,48 +735,27 @@ references:
   name: Task<Int32>
   nameWithType: Task<Int32>
   fullName: System.Threading.Tasks.Task<System.Int32>
-- uid: System.Byte
-  parent: System
-  isExternal: false
-  name: Byte
-  nameWithType: Byte
-  fullName: System.Byte[]
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: System.Threading.CancellationToken
-  parent: System.Threading
-  isExternal: false
-  name: CancellationToken
-  nameWithType: CancellationToken
-  fullName: System.Threading.CancellationToken
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: Task<System.Int32>
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: Int32
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
 - uid: System.Security.Cryptography.CryptoStream.Seek(System.Int64,System.IO.SeekOrigin)
   parent: System.Security.Cryptography.CryptoStream
   isExternal: false
   name: Seek(Int64,SeekOrigin)
   nameWithType: CryptoStream.Seek(Int64,SeekOrigin)
   fullName: System.Security.Cryptography.CryptoStream.Seek(Int64,SeekOrigin)
-- uid: System.Int64
-  parent: System
-  isExternal: false
-  name: Int64
-  nameWithType: Int64
-  fullName: System.Int64
-- uid: System.Int64
-  parent: System
-  isExternal: false
-  name: Int64
-  nameWithType: Int64
-  fullName: System.Int64
 - uid: System.IO.SeekOrigin
   parent: System.IO
   isExternal: false
@@ -811,72 +768,18 @@ references:
   name: SetLength(Int64)
   nameWithType: CryptoStream.SetLength(Int64)
   fullName: System.Security.Cryptography.CryptoStream.SetLength(Int64)
-- uid: System.Int64
-  parent: System
-  isExternal: false
-  name: Int64
-  nameWithType: Int64
-  fullName: System.Int64
 - uid: System.Security.Cryptography.CryptoStream.Write(System.Byte[],System.Int32,System.Int32)
   parent: System.Security.Cryptography.CryptoStream
   isExternal: false
   name: Write(Byte[],Int32,Int32)
   nameWithType: CryptoStream.Write(Byte[],Int32,Int32)
   fullName: System.Security.Cryptography.CryptoStream.Write(Byte[],Int32,Int32)
-- uid: System.Byte
-  parent: System
-  isExternal: false
-  name: Byte
-  nameWithType: Byte
-  fullName: System.Byte[]
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
 - uid: System.Security.Cryptography.CryptoStream.WriteAsync(System.Byte[],System.Int32,System.Int32,System.Threading.CancellationToken)
   parent: System.Security.Cryptography.CryptoStream
   isExternal: false
   name: WriteAsync(Byte[],Int32,Int32,CancellationToken)
   nameWithType: CryptoStream.WriteAsync(Byte[],Int32,Int32,CancellationToken)
   fullName: System.Security.Cryptography.CryptoStream.WriteAsync(Byte[],Int32,Int32,CancellationToken)
-- uid: System.Threading.Tasks.Task
-  parent: System.Threading.Tasks
-  isExternal: false
-  name: Task
-  nameWithType: Task
-  fullName: System.Threading.Tasks.Task
-- uid: System.Byte
-  parent: System
-  isExternal: false
-  name: Byte
-  nameWithType: Byte
-  fullName: System.Byte[]
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: System.Threading.CancellationToken
-  parent: System.Threading
-  isExternal: false
-  name: CancellationToken
-  nameWithType: CancellationToken
-  fullName: System.Threading.CancellationToken
 - uid: System.Security.Cryptography.CryptoStream.#ctor*
   parent: System.Security.Cryptography.CryptoStream
   isExternal: false

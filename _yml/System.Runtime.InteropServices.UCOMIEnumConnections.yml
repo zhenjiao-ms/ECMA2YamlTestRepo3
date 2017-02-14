@@ -50,6 +50,7 @@ items:
       type: System.Runtime.InteropServices.UCOMIEnumConnections
       description: To be added.
   overload: System.Runtime.InteropServices.UCOMIEnumConnections.Clone*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -84,6 +85,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.Runtime.InteropServices.UCOMIEnumConnections.Next*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -106,6 +108,7 @@ items:
     content: public void Reset ();
     parameters: []
   overload: System.Runtime.InteropServices.UCOMIEnumConnections.Reset*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -134,6 +137,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.Runtime.InteropServices.UCOMIEnumConnections.Skip*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -163,24 +167,20 @@ references:
   name: Int32
   nameWithType: Int32
   fullName: System.Int32
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: System.Runtime.InteropServices.CONNECTDATA
+- uid: System.Runtime.InteropServices.CONNECTDATA[]
   parent: System.Runtime.InteropServices
   isExternal: false
   name: CONNECTDATA
   nameWithType: CONNECTDATA
   fullName: System.Runtime.InteropServices.CONNECTDATA[]
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
+  spec.csharp:
+  - uid: System.Runtime.InteropServices.CONNECTDATA
+    name: CONNECTDATA
+    nameWithType: CONNECTDATA
+    fullName: CONNECTDATA[]
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
 - uid: System.Runtime.InteropServices.UCOMIEnumConnections.Reset
   parent: System.Runtime.InteropServices.UCOMIEnumConnections
   isExternal: false
@@ -193,18 +193,6 @@ references:
   name: Skip(Int32)
   nameWithType: UCOMIEnumConnections.Skip(Int32)
   fullName: System.Runtime.InteropServices.UCOMIEnumConnections.Skip(Int32)
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
 - uid: System.Runtime.InteropServices.UCOMIEnumConnections.Clone*
   parent: System.Runtime.InteropServices.UCOMIEnumConnections
   isExternal: false

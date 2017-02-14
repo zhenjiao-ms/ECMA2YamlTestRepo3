@@ -76,6 +76,7 @@ items:
     content: protected DSA ();
     parameters: []
   overload: System.Security.Cryptography.DSA.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -101,6 +102,7 @@ items:
       type: System.Security.Cryptography.DSA
       description: To be added.
   overload: System.Security.Cryptography.DSA.Create*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -129,6 +131,7 @@ items:
       type: System.Security.Cryptography.DSA
       description: To be added.
   overload: System.Security.Cryptography.DSA.Create*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -157,6 +160,7 @@ items:
       type: System.Byte[]
       description: To be added.
   overload: System.Security.Cryptography.DSA.CreateSignature*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -185,6 +189,7 @@ items:
       type: System.Security.Cryptography.DSAParameters
       description: To be added.
   overload: System.Security.Cryptography.DSA.ExportParameters*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -210,6 +215,7 @@ items:
       type: System.String
       description: To be added.
   overload: System.Security.Cryptography.DSA.FromXmlString*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -241,6 +247,7 @@ items:
       type: System.Byte[]
       description: To be added.
   overload: System.Security.Cryptography.DSA.HashData*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -278,6 +285,7 @@ items:
       type: System.Byte[]
       description: To be added.
   overload: System.Security.Cryptography.DSA.HashData*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -303,6 +311,7 @@ items:
       type: System.Security.Cryptography.DSAParameters
       description: To be added.
   overload: System.Security.Cryptography.DSA.ImportParameters*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -334,6 +343,7 @@ items:
       type: System.Byte[]
       description: To be added.
   overload: System.Security.Cryptography.DSA.SignData*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -365,6 +375,7 @@ items:
       type: System.Byte[]
       description: To be added.
   overload: System.Security.Cryptography.DSA.SignData*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -402,6 +413,7 @@ items:
       type: System.Byte[]
       description: To be added.
   overload: System.Security.Cryptography.DSA.SignData*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -430,6 +442,7 @@ items:
       type: System.String
       description: To be added.
   overload: System.Security.Cryptography.DSA.ToXmlString*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -464,6 +477,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Security.Cryptography.DSA.VerifyData*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -498,6 +512,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Security.Cryptography.DSA.VerifyData*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -538,6 +553,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Security.Cryptography.DSA.VerifyData*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -569,6 +585,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Security.Cryptography.DSA.VerifySignature*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -601,12 +618,6 @@ references:
   name: Create(String)
   nameWithType: DSA.Create(String)
   fullName: System.Security.Cryptography.DSA.Create(String)
-- uid: System.Security.Cryptography.DSA
-  parent: System.Security.Cryptography
-  isExternal: false
-  name: DSA
-  nameWithType: DSA
-  fullName: System.Security.Cryptography.DSA
 - uid: System.String
   parent: System
   isExternal: false
@@ -619,18 +630,20 @@ references:
   name: CreateSignature(Byte[])
   nameWithType: DSA.CreateSignature(Byte[])
   fullName: System.Security.Cryptography.DSA.CreateSignature(Byte[])
-- uid: System.Byte
+- uid: System.Byte[]
   parent: System
   isExternal: false
   name: Byte
   nameWithType: Byte
   fullName: System.Byte[]
-- uid: System.Byte
-  parent: System
-  isExternal: false
-  name: Byte
-  nameWithType: Byte
-  fullName: System.Byte[]
+  spec.csharp:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: Byte[]
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
 - uid: System.Security.Cryptography.DSA.ExportParameters(System.Boolean)
   parent: System.Security.Cryptography.DSA
   isExternal: false
@@ -655,24 +668,12 @@ references:
   name: FromXmlString(String)
   nameWithType: DSA.FromXmlString(String)
   fullName: System.Security.Cryptography.DSA.FromXmlString(String)
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
 - uid: System.Security.Cryptography.DSA.HashData(System.IO.Stream,System.Security.Cryptography.HashAlgorithmName)
   parent: System.Security.Cryptography.DSA
   isExternal: false
   name: HashData(Stream,HashAlgorithmName)
   nameWithType: DSA.HashData(Stream,HashAlgorithmName)
   fullName: System.Security.Cryptography.DSA.HashData(Stream,HashAlgorithmName)
-- uid: System.Byte
-  parent: System
-  isExternal: false
-  name: Byte
-  nameWithType: Byte
-  fullName: System.Byte[]
 - uid: System.IO.Stream
   parent: System.IO
   isExternal: false
@@ -691,276 +692,66 @@ references:
   name: HashData(Byte[],Int32,Int32,HashAlgorithmName)
   nameWithType: DSA.HashData(Byte[],Int32,Int32,HashAlgorithmName)
   fullName: System.Security.Cryptography.DSA.HashData(Byte[],Int32,Int32,HashAlgorithmName)
-- uid: System.Byte
-  parent: System
-  isExternal: false
-  name: Byte
-  nameWithType: Byte
-  fullName: System.Byte[]
-- uid: System.Byte
-  parent: System
-  isExternal: false
-  name: Byte
-  nameWithType: Byte
-  fullName: System.Byte[]
 - uid: System.Int32
   parent: System
   isExternal: false
   name: Int32
   nameWithType: Int32
   fullName: System.Int32
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: System.Security.Cryptography.HashAlgorithmName
-  parent: System.Security.Cryptography
-  isExternal: false
-  name: HashAlgorithmName
-  nameWithType: HashAlgorithmName
-  fullName: System.Security.Cryptography.HashAlgorithmName
 - uid: System.Security.Cryptography.DSA.ImportParameters(System.Security.Cryptography.DSAParameters)
   parent: System.Security.Cryptography.DSA
   isExternal: false
   name: ImportParameters(DSAParameters)
   nameWithType: DSA.ImportParameters(DSAParameters)
   fullName: System.Security.Cryptography.DSA.ImportParameters(DSAParameters)
-- uid: System.Security.Cryptography.DSAParameters
-  parent: System.Security.Cryptography
-  isExternal: false
-  name: DSAParameters
-  nameWithType: DSAParameters
-  fullName: System.Security.Cryptography.DSAParameters
 - uid: System.Security.Cryptography.DSA.SignData(System.Byte[],System.Security.Cryptography.HashAlgorithmName)
   parent: System.Security.Cryptography.DSA
   isExternal: false
   name: SignData(Byte[],HashAlgorithmName)
   nameWithType: DSA.SignData(Byte[],HashAlgorithmName)
   fullName: System.Security.Cryptography.DSA.SignData(Byte[],HashAlgorithmName)
-- uid: System.Byte
-  parent: System
-  isExternal: false
-  name: Byte
-  nameWithType: Byte
-  fullName: System.Byte[]
-- uid: System.Byte
-  parent: System
-  isExternal: false
-  name: Byte
-  nameWithType: Byte
-  fullName: System.Byte[]
-- uid: System.Security.Cryptography.HashAlgorithmName
-  parent: System.Security.Cryptography
-  isExternal: false
-  name: HashAlgorithmName
-  nameWithType: HashAlgorithmName
-  fullName: System.Security.Cryptography.HashAlgorithmName
 - uid: System.Security.Cryptography.DSA.SignData(System.IO.Stream,System.Security.Cryptography.HashAlgorithmName)
   parent: System.Security.Cryptography.DSA
   isExternal: false
   name: SignData(Stream,HashAlgorithmName)
   nameWithType: DSA.SignData(Stream,HashAlgorithmName)
   fullName: System.Security.Cryptography.DSA.SignData(Stream,HashAlgorithmName)
-- uid: System.Byte
-  parent: System
-  isExternal: false
-  name: Byte
-  nameWithType: Byte
-  fullName: System.Byte[]
-- uid: System.IO.Stream
-  parent: System.IO
-  isExternal: false
-  name: Stream
-  nameWithType: Stream
-  fullName: System.IO.Stream
-- uid: System.Security.Cryptography.HashAlgorithmName
-  parent: System.Security.Cryptography
-  isExternal: false
-  name: HashAlgorithmName
-  nameWithType: HashAlgorithmName
-  fullName: System.Security.Cryptography.HashAlgorithmName
 - uid: System.Security.Cryptography.DSA.SignData(System.Byte[],System.Int32,System.Int32,System.Security.Cryptography.HashAlgorithmName)
   parent: System.Security.Cryptography.DSA
   isExternal: false
   name: SignData(Byte[],Int32,Int32,HashAlgorithmName)
   nameWithType: DSA.SignData(Byte[],Int32,Int32,HashAlgorithmName)
   fullName: System.Security.Cryptography.DSA.SignData(Byte[],Int32,Int32,HashAlgorithmName)
-- uid: System.Byte
-  parent: System
-  isExternal: false
-  name: Byte
-  nameWithType: Byte
-  fullName: System.Byte[]
-- uid: System.Byte
-  parent: System
-  isExternal: false
-  name: Byte
-  nameWithType: Byte
-  fullName: System.Byte[]
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: System.Security.Cryptography.HashAlgorithmName
-  parent: System.Security.Cryptography
-  isExternal: false
-  name: HashAlgorithmName
-  nameWithType: HashAlgorithmName
-  fullName: System.Security.Cryptography.HashAlgorithmName
 - uid: System.Security.Cryptography.DSA.ToXmlString(System.Boolean)
   parent: System.Security.Cryptography.DSA
   isExternal: false
   name: ToXmlString(Boolean)
   nameWithType: DSA.ToXmlString(Boolean)
   fullName: System.Security.Cryptography.DSA.ToXmlString(Boolean)
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
 - uid: System.Security.Cryptography.DSA.VerifyData(System.Byte[],System.Byte[],System.Security.Cryptography.HashAlgorithmName)
   parent: System.Security.Cryptography.DSA
   isExternal: false
   name: VerifyData(Byte[],Byte[],HashAlgorithmName)
   nameWithType: DSA.VerifyData(Byte[],Byte[],HashAlgorithmName)
   fullName: System.Security.Cryptography.DSA.VerifyData(Byte[],Byte[],HashAlgorithmName)
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
-- uid: System.Byte
-  parent: System
-  isExternal: false
-  name: Byte
-  nameWithType: Byte
-  fullName: System.Byte[]
-- uid: System.Byte
-  parent: System
-  isExternal: false
-  name: Byte
-  nameWithType: Byte
-  fullName: System.Byte[]
-- uid: System.Security.Cryptography.HashAlgorithmName
-  parent: System.Security.Cryptography
-  isExternal: false
-  name: HashAlgorithmName
-  nameWithType: HashAlgorithmName
-  fullName: System.Security.Cryptography.HashAlgorithmName
 - uid: System.Security.Cryptography.DSA.VerifyData(System.IO.Stream,System.Byte[],System.Security.Cryptography.HashAlgorithmName)
   parent: System.Security.Cryptography.DSA
   isExternal: false
   name: VerifyData(Stream,Byte[],HashAlgorithmName)
   nameWithType: DSA.VerifyData(Stream,Byte[],HashAlgorithmName)
   fullName: System.Security.Cryptography.DSA.VerifyData(Stream,Byte[],HashAlgorithmName)
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
-- uid: System.IO.Stream
-  parent: System.IO
-  isExternal: false
-  name: Stream
-  nameWithType: Stream
-  fullName: System.IO.Stream
-- uid: System.Byte
-  parent: System
-  isExternal: false
-  name: Byte
-  nameWithType: Byte
-  fullName: System.Byte[]
-- uid: System.Security.Cryptography.HashAlgorithmName
-  parent: System.Security.Cryptography
-  isExternal: false
-  name: HashAlgorithmName
-  nameWithType: HashAlgorithmName
-  fullName: System.Security.Cryptography.HashAlgorithmName
 - uid: System.Security.Cryptography.DSA.VerifyData(System.Byte[],System.Int32,System.Int32,System.Byte[],System.Security.Cryptography.HashAlgorithmName)
   parent: System.Security.Cryptography.DSA
   isExternal: false
   name: VerifyData(Byte[],Int32,Int32,Byte[],HashAlgorithmName)
   nameWithType: DSA.VerifyData(Byte[],Int32,Int32,Byte[],HashAlgorithmName)
   fullName: System.Security.Cryptography.DSA.VerifyData(Byte[],Int32,Int32,Byte[],HashAlgorithmName)
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
-- uid: System.Byte
-  parent: System
-  isExternal: false
-  name: Byte
-  nameWithType: Byte
-  fullName: System.Byte[]
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: System.Byte
-  parent: System
-  isExternal: false
-  name: Byte
-  nameWithType: Byte
-  fullName: System.Byte[]
-- uid: System.Security.Cryptography.HashAlgorithmName
-  parent: System.Security.Cryptography
-  isExternal: false
-  name: HashAlgorithmName
-  nameWithType: HashAlgorithmName
-  fullName: System.Security.Cryptography.HashAlgorithmName
 - uid: System.Security.Cryptography.DSA.VerifySignature(System.Byte[],System.Byte[])
   parent: System.Security.Cryptography.DSA
   isExternal: false
   name: VerifySignature(Byte[],Byte[])
   nameWithType: DSA.VerifySignature(Byte[],Byte[])
   fullName: System.Security.Cryptography.DSA.VerifySignature(Byte[],Byte[])
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
-- uid: System.Byte
-  parent: System
-  isExternal: false
-  name: Byte
-  nameWithType: Byte
-  fullName: System.Byte[]
-- uid: System.Byte
-  parent: System
-  isExternal: false
-  name: Byte
-  nameWithType: Byte
-  fullName: System.Byte[]
 - uid: System.Security.Cryptography.DSA.#ctor*
   parent: System.Security.Cryptography.DSA
   isExternal: false

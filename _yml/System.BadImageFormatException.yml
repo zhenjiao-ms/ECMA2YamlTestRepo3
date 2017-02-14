@@ -70,6 +70,7 @@ items:
     content: public BadImageFormatException ();
     parameters: []
   overload: System.BadImageFormatException.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -95,6 +96,7 @@ items:
       type: System.String
       description: To be added.
   overload: System.BadImageFormatException.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -123,6 +125,7 @@ items:
       type: System.Runtime.Serialization.StreamingContext
       description: To be added.
   overload: System.BadImageFormatException.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -151,6 +154,7 @@ items:
       type: System.Exception
       description: To be added.
   overload: System.BadImageFormatException.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -179,6 +183,7 @@ items:
       type: System.String
       description: To be added.
   overload: System.BadImageFormatException.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -210,6 +215,7 @@ items:
       type: System.Exception
       description: To be added.
   overload: System.BadImageFormatException.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -234,6 +240,7 @@ items:
       type: System.String
       description: To be added.
   overload: System.BadImageFormatException.FileName*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -258,6 +265,7 @@ items:
       type: System.String
       description: To be added.
   overload: System.BadImageFormatException.FusionLog*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -286,6 +294,7 @@ items:
       type: System.Runtime.Serialization.StreamingContext
       description: To be added.
   overload: System.BadImageFormatException.GetObjectData*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -310,6 +319,7 @@ items:
       type: System.String
       description: To be added.
   overload: System.BadImageFormatException.Message*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -335,6 +345,7 @@ items:
       type: System.String
       description: To be added.
   overload: System.BadImageFormatException.ToString*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -385,12 +396,6 @@ references:
   name: BadImageFormatException(String,Exception)
   nameWithType: BadImageFormatException.BadImageFormatException(String,Exception)
   fullName: System.BadImageFormatException.BadImageFormatException(String,Exception)
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
 - uid: System.Exception
   parent: System
   isExternal: false
@@ -403,108 +408,42 @@ references:
   name: BadImageFormatException(String,String)
   nameWithType: BadImageFormatException.BadImageFormatException(String,String)
   fullName: System.BadImageFormatException.BadImageFormatException(String,String)
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
 - uid: System.BadImageFormatException.#ctor(System.String,System.String,System.Exception)
   parent: System.BadImageFormatException
   isExternal: false
   name: BadImageFormatException(String,String,Exception)
   nameWithType: BadImageFormatException.BadImageFormatException(String,String,Exception)
   fullName: System.BadImageFormatException.BadImageFormatException(String,String,Exception)
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
-- uid: System.Exception
-  parent: System
-  isExternal: false
-  name: Exception
-  nameWithType: Exception
-  fullName: System.Exception
 - uid: System.BadImageFormatException.FileName
   parent: System.BadImageFormatException
   isExternal: false
   name: FileName
   nameWithType: BadImageFormatException.FileName
   fullName: System.BadImageFormatException.FileName
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
 - uid: System.BadImageFormatException.FusionLog
   parent: System.BadImageFormatException
   isExternal: false
   name: FusionLog
   nameWithType: BadImageFormatException.FusionLog
   fullName: System.BadImageFormatException.FusionLog
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
 - uid: System.BadImageFormatException.GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
   parent: System.BadImageFormatException
   isExternal: false
   name: GetObjectData(SerializationInfo,StreamingContext)
   nameWithType: BadImageFormatException.GetObjectData(SerializationInfo,StreamingContext)
   fullName: System.BadImageFormatException.GetObjectData(SerializationInfo,StreamingContext)
-- uid: System.Runtime.Serialization.SerializationInfo
-  parent: System.Runtime.Serialization
-  isExternal: false
-  name: SerializationInfo
-  nameWithType: SerializationInfo
-  fullName: System.Runtime.Serialization.SerializationInfo
-- uid: System.Runtime.Serialization.StreamingContext
-  parent: System.Runtime.Serialization
-  isExternal: false
-  name: StreamingContext
-  nameWithType: StreamingContext
-  fullName: System.Runtime.Serialization.StreamingContext
 - uid: System.BadImageFormatException.Message
   parent: System.BadImageFormatException
   isExternal: false
   name: Message
   nameWithType: BadImageFormatException.Message
   fullName: System.BadImageFormatException.Message
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
 - uid: System.BadImageFormatException.ToString
   parent: System.BadImageFormatException
   isExternal: false
   name: ToString()
   nameWithType: BadImageFormatException.ToString()
   fullName: System.BadImageFormatException.ToString()
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
 - uid: System.BadImageFormatException.#ctor*
   parent: System.BadImageFormatException
   isExternal: false

@@ -54,6 +54,7 @@ items:
       type: System.Collections.Generic.IDictionary{System.String,System.String}
       description: To be added.
   overload: System.Diagnostics.Tracing.EventCommandEventArgs.Arguments*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -78,6 +79,7 @@ items:
       type: System.Diagnostics.Tracing.EventCommand
       description: To be added.
   overload: System.Diagnostics.Tracing.EventCommandEventArgs.Command*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -106,6 +108,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Diagnostics.Tracing.EventCommandEventArgs.DisableEvent*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -134,6 +137,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Diagnostics.Tracing.EventCommandEventArgs.EnableEvent*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -154,6 +158,28 @@ references:
   name: IDictionary<String,String>
   nameWithType: IDictionary<String,String>
   fullName: System.Collections.Generic.IDictionary<System.String,System.String>
+  spec.csharp:
+  - uid: System.Collections.Generic.IDictionary`2
+    name: IDictionary
+    nameWithType: IDictionary
+    fullName: IDictionary<System.String,System.String>
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: String
+  - name: ','
+    nameWithType: ','
+    fullName: ','
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: String
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
 - uid: System.Diagnostics.Tracing.EventCommandEventArgs.Command
   parent: System.Diagnostics.Tracing.EventCommandEventArgs
   isExternal: false
@@ -190,18 +216,6 @@ references:
   name: EnableEvent(Int32)
   nameWithType: EventCommandEventArgs.EnableEvent(Int32)
   fullName: System.Diagnostics.Tracing.EventCommandEventArgs.EnableEvent(Int32)
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
 - uid: System.Diagnostics.Tracing.EventCommandEventArgs.Arguments*
   parent: System.Diagnostics.Tracing.EventCommandEventArgs
   isExternal: false

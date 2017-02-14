@@ -55,6 +55,7 @@ items:
     content: protected FormattableString ();
     parameters: []
   overload: System.FormattableString.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -79,6 +80,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.FormattableString.ArgumentCount*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -103,6 +105,7 @@ items:
       type: System.String
       description: To be added.
   overload: System.FormattableString.Format*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -131,6 +134,7 @@ items:
       type: System.Object
       description: To be added.
   overload: System.FormattableString.GetArgument*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -156,6 +160,7 @@ items:
       type: System.Object[]
       description: To be added.
   overload: System.FormattableString.GetArguments*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -184,6 +189,7 @@ items:
       type: System.String
       description: To be added.
   overload: System.FormattableString.Invariant*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -216,6 +222,7 @@ items:
       type: System.String
       description: To be added.
   overload: System.FormattableString.System#IFormattable#ToString*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -241,6 +248,7 @@ items:
       type: System.String
       description: To be added.
   overload: System.FormattableString.ToString*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -269,6 +277,7 @@ items:
       type: System.String
       description: To be added.
   overload: System.FormattableString.ToString*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -313,42 +322,32 @@ references:
   name: GetArgument(Int32)
   nameWithType: FormattableString.GetArgument(Int32)
   fullName: System.FormattableString.GetArgument(Int32)
-- uid: System.Object
-  parent: System
-  isExternal: false
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
 - uid: System.FormattableString.GetArguments
   parent: System.FormattableString
   isExternal: false
   name: GetArguments()
   nameWithType: FormattableString.GetArguments()
   fullName: System.FormattableString.GetArguments()
-- uid: System.Object
+- uid: System.Object[]
   parent: System
   isExternal: false
   name: Object
   nameWithType: Object
   fullName: System.Object[]
+  spec.csharp:
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: Object[]
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
 - uid: System.FormattableString.Invariant(System.FormattableString)
   parent: System.FormattableString
   isExternal: false
   name: Invariant(FormattableString)
   nameWithType: FormattableString.Invariant(FormattableString)
   fullName: System.FormattableString.Invariant(FormattableString)
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
 - uid: System.FormattableString
   parent: System
   isExternal: false
@@ -361,18 +360,6 @@ references:
   name: System.IFormattable.ToString(String,IFormatProvider)
   nameWithType: FormattableString.System.IFormattable.ToString(String,IFormatProvider)
   fullName: System.FormattableString.System.IFormattable.ToString(String,IFormatProvider)
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
 - uid: System.IFormatProvider
   parent: System
   isExternal: false
@@ -385,30 +372,12 @@ references:
   name: ToString()
   nameWithType: FormattableString.ToString()
   fullName: System.FormattableString.ToString()
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
 - uid: System.FormattableString.ToString(System.IFormatProvider)
   parent: System.FormattableString
   isExternal: false
   name: ToString(IFormatProvider)
   nameWithType: FormattableString.ToString(IFormatProvider)
   fullName: System.FormattableString.ToString(IFormatProvider)
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
-- uid: System.IFormatProvider
-  parent: System
-  isExternal: false
-  name: IFormatProvider
-  nameWithType: IFormatProvider
-  fullName: System.IFormatProvider
 - uid: System.FormattableString.#ctor*
   parent: System.FormattableString
   isExternal: false

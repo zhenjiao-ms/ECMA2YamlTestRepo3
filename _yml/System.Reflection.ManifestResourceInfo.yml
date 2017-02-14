@@ -62,6 +62,7 @@ items:
       type: System.Reflection.ResourceLocation
       description: To be added.
   overload: System.Reflection.ManifestResourceInfo.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -86,6 +87,7 @@ items:
       type: System.String
       description: To be added.
   overload: System.Reflection.ManifestResourceInfo.FileName*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -110,6 +112,7 @@ items:
       type: System.Reflection.Assembly
       description: To be added.
   overload: System.Reflection.ManifestResourceInfo.ReferencedAssembly*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -134,6 +137,7 @@ items:
       type: System.Reflection.ResourceLocation
       description: To be added.
   overload: System.Reflection.ManifestResourceInfo.ResourceLocation*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -172,36 +176,18 @@ references:
   name: FileName
   nameWithType: ManifestResourceInfo.FileName
   fullName: System.Reflection.ManifestResourceInfo.FileName
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
 - uid: System.Reflection.ManifestResourceInfo.ReferencedAssembly
   parent: System.Reflection.ManifestResourceInfo
   isExternal: false
   name: ReferencedAssembly
   nameWithType: ManifestResourceInfo.ReferencedAssembly
   fullName: System.Reflection.ManifestResourceInfo.ReferencedAssembly
-- uid: System.Reflection.Assembly
-  parent: System.Reflection
-  isExternal: false
-  name: Assembly
-  nameWithType: Assembly
-  fullName: System.Reflection.Assembly
 - uid: System.Reflection.ManifestResourceInfo.ResourceLocation
   parent: System.Reflection.ManifestResourceInfo
   isExternal: false
   name: ResourceLocation
   nameWithType: ManifestResourceInfo.ResourceLocation
   fullName: System.Reflection.ManifestResourceInfo.ResourceLocation
-- uid: System.Reflection.ResourceLocation
-  parent: System.Reflection
-  isExternal: false
-  name: ResourceLocation
-  nameWithType: ResourceLocation
-  fullName: System.Reflection.ResourceLocation
 - uid: System.Reflection.ManifestResourceInfo.#ctor*
   parent: System.Reflection.ManifestResourceInfo
   isExternal: false

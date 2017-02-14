@@ -81,6 +81,7 @@ items:
     content: public HMACSHA1 ();
     parameters: []
   overload: System.Security.Cryptography.HMACSHA1.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -106,6 +107,7 @@ items:
       type: System.Byte[]
       description: To be added.
   overload: System.Security.Cryptography.HMACSHA1.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -134,6 +136,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Security.Cryptography.HMACSHA1.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -154,24 +157,26 @@ references:
   name: HMACSHA1(Byte[])
   nameWithType: HMACSHA1.HMACSHA1(Byte[])
   fullName: System.Security.Cryptography.HMACSHA1.HMACSHA1(Byte[])
-- uid: System.Byte
+- uid: System.Byte[]
   parent: System
   isExternal: false
   name: Byte
   nameWithType: Byte
   fullName: System.Byte[]
+  spec.csharp:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: Byte[]
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
 - uid: System.Security.Cryptography.HMACSHA1.#ctor(System.Byte[],System.Boolean)
   parent: System.Security.Cryptography.HMACSHA1
   isExternal: false
   name: HMACSHA1(Byte[],Boolean)
   nameWithType: HMACSHA1.HMACSHA1(Byte[],Boolean)
   fullName: System.Security.Cryptography.HMACSHA1.HMACSHA1(Byte[],Boolean)
-- uid: System.Byte
-  parent: System
-  isExternal: false
-  name: Byte
-  nameWithType: Byte
-  fullName: System.Byte[]
 - uid: System.Boolean
   parent: System
   isExternal: false

@@ -59,6 +59,7 @@ items:
     content: public ConcurrentExclusiveSchedulerPair ();
     parameters: []
   overload: System.Threading.Tasks.ConcurrentExclusiveSchedulerPair.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -84,6 +85,7 @@ items:
       type: System.Threading.Tasks.TaskScheduler
       description: To be added.
   overload: System.Threading.Tasks.ConcurrentExclusiveSchedulerPair.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -112,6 +114,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.Threading.Tasks.ConcurrentExclusiveSchedulerPair.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -143,6 +146,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.Threading.Tasks.ConcurrentExclusiveSchedulerPair.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -165,6 +169,7 @@ items:
     content: public void Complete ();
     parameters: []
   overload: System.Threading.Tasks.ConcurrentExclusiveSchedulerPair.Complete*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -189,6 +194,7 @@ items:
       type: System.Threading.Tasks.Task
       description: To be added.
   overload: System.Threading.Tasks.ConcurrentExclusiveSchedulerPair.Completion*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -213,6 +219,7 @@ items:
       type: System.Threading.Tasks.TaskScheduler
       description: To be added.
   overload: System.Threading.Tasks.ConcurrentExclusiveSchedulerPair.ConcurrentScheduler*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -237,6 +244,7 @@ items:
       type: System.Threading.Tasks.TaskScheduler
       description: To be added.
   overload: System.Threading.Tasks.ConcurrentExclusiveSchedulerPair.ExclusiveScheduler*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -269,12 +277,6 @@ references:
   name: ConcurrentExclusiveSchedulerPair(TaskScheduler,Int32)
   nameWithType: ConcurrentExclusiveSchedulerPair.ConcurrentExclusiveSchedulerPair(TaskScheduler,Int32)
   fullName: System.Threading.Tasks.ConcurrentExclusiveSchedulerPair.ConcurrentExclusiveSchedulerPair(TaskScheduler,Int32)
-- uid: System.Threading.Tasks.TaskScheduler
-  parent: System.Threading.Tasks
-  isExternal: false
-  name: TaskScheduler
-  nameWithType: TaskScheduler
-  fullName: System.Threading.Tasks.TaskScheduler
 - uid: System.Int32
   parent: System
   isExternal: false
@@ -287,24 +289,6 @@ references:
   name: ConcurrentExclusiveSchedulerPair(TaskScheduler,Int32,Int32)
   nameWithType: ConcurrentExclusiveSchedulerPair.ConcurrentExclusiveSchedulerPair(TaskScheduler,Int32,Int32)
   fullName: System.Threading.Tasks.ConcurrentExclusiveSchedulerPair.ConcurrentExclusiveSchedulerPair(TaskScheduler,Int32,Int32)
-- uid: System.Threading.Tasks.TaskScheduler
-  parent: System.Threading.Tasks
-  isExternal: false
-  name: TaskScheduler
-  nameWithType: TaskScheduler
-  fullName: System.Threading.Tasks.TaskScheduler
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
 - uid: System.Threading.Tasks.ConcurrentExclusiveSchedulerPair.Complete
   parent: System.Threading.Tasks.ConcurrentExclusiveSchedulerPair
   isExternal: false
@@ -329,24 +313,12 @@ references:
   name: ConcurrentScheduler
   nameWithType: ConcurrentExclusiveSchedulerPair.ConcurrentScheduler
   fullName: System.Threading.Tasks.ConcurrentExclusiveSchedulerPair.ConcurrentScheduler
-- uid: System.Threading.Tasks.TaskScheduler
-  parent: System.Threading.Tasks
-  isExternal: false
-  name: TaskScheduler
-  nameWithType: TaskScheduler
-  fullName: System.Threading.Tasks.TaskScheduler
 - uid: System.Threading.Tasks.ConcurrentExclusiveSchedulerPair.ExclusiveScheduler
   parent: System.Threading.Tasks.ConcurrentExclusiveSchedulerPair
   isExternal: false
   name: ExclusiveScheduler
   nameWithType: ConcurrentExclusiveSchedulerPair.ExclusiveScheduler
   fullName: System.Threading.Tasks.ConcurrentExclusiveSchedulerPair.ExclusiveScheduler
-- uid: System.Threading.Tasks.TaskScheduler
-  parent: System.Threading.Tasks
-  isExternal: false
-  name: TaskScheduler
-  nameWithType: TaskScheduler
-  fullName: System.Threading.Tasks.TaskScheduler
 - uid: System.Threading.Tasks.ConcurrentExclusiveSchedulerPair.#ctor*
   parent: System.Threading.Tasks.ConcurrentExclusiveSchedulerPair
   isExternal: false

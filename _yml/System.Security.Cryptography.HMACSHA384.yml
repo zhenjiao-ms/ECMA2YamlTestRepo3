@@ -81,6 +81,7 @@ items:
     content: public HMACSHA384 ();
     parameters: []
   overload: System.Security.Cryptography.HMACSHA384.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -106,6 +107,7 @@ items:
       type: System.Byte[]
       description: To be added.
   overload: System.Security.Cryptography.HMACSHA384.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -130,6 +132,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Security.Cryptography.HMACSHA384.ProduceLegacyHmacValues*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -150,12 +153,20 @@ references:
   name: HMACSHA384(Byte[])
   nameWithType: HMACSHA384.HMACSHA384(Byte[])
   fullName: System.Security.Cryptography.HMACSHA384.HMACSHA384(Byte[])
-- uid: System.Byte
+- uid: System.Byte[]
   parent: System
   isExternal: false
   name: Byte
   nameWithType: Byte
   fullName: System.Byte[]
+  spec.csharp:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: Byte[]
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
 - uid: System.Security.Cryptography.HMACSHA384.ProduceLegacyHmacValues
   parent: System.Security.Cryptography.HMACSHA384
   isExternal: false

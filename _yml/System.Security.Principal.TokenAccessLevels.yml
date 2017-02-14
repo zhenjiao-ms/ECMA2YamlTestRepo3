@@ -57,6 +57,7 @@ items:
     return:
       type: System.Security.Principal.TokenAccessLevels
       description: To be added.
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -79,6 +80,7 @@ items:
     return:
       type: System.Security.Principal.TokenAccessLevels
       description: To be added.
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -101,6 +103,7 @@ items:
     return:
       type: System.Security.Principal.TokenAccessLevels
       description: To be added.
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -123,6 +126,7 @@ items:
     return:
       type: System.Security.Principal.TokenAccessLevels
       description: To be added.
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -145,6 +149,7 @@ items:
     return:
       type: System.Security.Principal.TokenAccessLevels
       description: To be added.
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -167,6 +172,7 @@ items:
     return:
       type: System.Security.Principal.TokenAccessLevels
       description: To be added.
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -189,6 +195,7 @@ items:
     return:
       type: System.Security.Principal.TokenAccessLevels
       description: To be added.
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -211,6 +218,7 @@ items:
     return:
       type: System.Security.Principal.TokenAccessLevels
       description: To be added.
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -233,6 +241,7 @@ items:
     return:
       type: System.Security.Principal.TokenAccessLevels
       description: To be added.
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -255,6 +264,7 @@ items:
     return:
       type: System.Security.Principal.TokenAccessLevels
       description: To be added.
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -277,6 +287,7 @@ items:
     return:
       type: System.Security.Principal.TokenAccessLevels
       description: To be added.
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -299,6 +310,7 @@ items:
     return:
       type: System.Security.Principal.TokenAccessLevels
       description: To be added.
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -321,6 +333,7 @@ items:
     return:
       type: System.Security.Principal.TokenAccessLevels
       description: To be added.
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -347,141 +360,69 @@ references:
   name: AdjustGroups
   nameWithType: TokenAccessLevels.AdjustGroups
   fullName: System.Security.Principal.TokenAccessLevels.AdjustGroups
-- uid: System.Security.Principal.TokenAccessLevels
-  parent: System.Security.Principal
-  isExternal: false
-  name: TokenAccessLevels
-  nameWithType: TokenAccessLevels
-  fullName: System.Security.Principal.TokenAccessLevels
 - uid: System.Security.Principal.TokenAccessLevels.AdjustPrivileges
   parent: System.Security.Principal.TokenAccessLevels
   isExternal: false
   name: AdjustPrivileges
   nameWithType: TokenAccessLevels.AdjustPrivileges
   fullName: System.Security.Principal.TokenAccessLevels.AdjustPrivileges
-- uid: System.Security.Principal.TokenAccessLevels
-  parent: System.Security.Principal
-  isExternal: false
-  name: TokenAccessLevels
-  nameWithType: TokenAccessLevels
-  fullName: System.Security.Principal.TokenAccessLevels
 - uid: System.Security.Principal.TokenAccessLevels.AdjustSessionId
   parent: System.Security.Principal.TokenAccessLevels
   isExternal: false
   name: AdjustSessionId
   nameWithType: TokenAccessLevels.AdjustSessionId
   fullName: System.Security.Principal.TokenAccessLevels.AdjustSessionId
-- uid: System.Security.Principal.TokenAccessLevels
-  parent: System.Security.Principal
-  isExternal: false
-  name: TokenAccessLevels
-  nameWithType: TokenAccessLevels
-  fullName: System.Security.Principal.TokenAccessLevels
 - uid: System.Security.Principal.TokenAccessLevels.AllAccess
   parent: System.Security.Principal.TokenAccessLevels
   isExternal: false
   name: AllAccess
   nameWithType: TokenAccessLevels.AllAccess
   fullName: System.Security.Principal.TokenAccessLevels.AllAccess
-- uid: System.Security.Principal.TokenAccessLevels
-  parent: System.Security.Principal
-  isExternal: false
-  name: TokenAccessLevels
-  nameWithType: TokenAccessLevels
-  fullName: System.Security.Principal.TokenAccessLevels
 - uid: System.Security.Principal.TokenAccessLevels.AssignPrimary
   parent: System.Security.Principal.TokenAccessLevels
   isExternal: false
   name: AssignPrimary
   nameWithType: TokenAccessLevels.AssignPrimary
   fullName: System.Security.Principal.TokenAccessLevels.AssignPrimary
-- uid: System.Security.Principal.TokenAccessLevels
-  parent: System.Security.Principal
-  isExternal: false
-  name: TokenAccessLevels
-  nameWithType: TokenAccessLevels
-  fullName: System.Security.Principal.TokenAccessLevels
 - uid: System.Security.Principal.TokenAccessLevels.Duplicate
   parent: System.Security.Principal.TokenAccessLevels
   isExternal: false
   name: Duplicate
   nameWithType: TokenAccessLevels.Duplicate
   fullName: System.Security.Principal.TokenAccessLevels.Duplicate
-- uid: System.Security.Principal.TokenAccessLevels
-  parent: System.Security.Principal
-  isExternal: false
-  name: TokenAccessLevels
-  nameWithType: TokenAccessLevels
-  fullName: System.Security.Principal.TokenAccessLevels
 - uid: System.Security.Principal.TokenAccessLevels.Impersonate
   parent: System.Security.Principal.TokenAccessLevels
   isExternal: false
   name: Impersonate
   nameWithType: TokenAccessLevels.Impersonate
   fullName: System.Security.Principal.TokenAccessLevels.Impersonate
-- uid: System.Security.Principal.TokenAccessLevels
-  parent: System.Security.Principal
-  isExternal: false
-  name: TokenAccessLevels
-  nameWithType: TokenAccessLevels
-  fullName: System.Security.Principal.TokenAccessLevels
 - uid: System.Security.Principal.TokenAccessLevels.MaximumAllowed
   parent: System.Security.Principal.TokenAccessLevels
   isExternal: false
   name: MaximumAllowed
   nameWithType: TokenAccessLevels.MaximumAllowed
   fullName: System.Security.Principal.TokenAccessLevels.MaximumAllowed
-- uid: System.Security.Principal.TokenAccessLevels
-  parent: System.Security.Principal
-  isExternal: false
-  name: TokenAccessLevels
-  nameWithType: TokenAccessLevels
-  fullName: System.Security.Principal.TokenAccessLevels
 - uid: System.Security.Principal.TokenAccessLevels.Query
   parent: System.Security.Principal.TokenAccessLevels
   isExternal: false
   name: Query
   nameWithType: TokenAccessLevels.Query
   fullName: System.Security.Principal.TokenAccessLevels.Query
-- uid: System.Security.Principal.TokenAccessLevels
-  parent: System.Security.Principal
-  isExternal: false
-  name: TokenAccessLevels
-  nameWithType: TokenAccessLevels
-  fullName: System.Security.Principal.TokenAccessLevels
 - uid: System.Security.Principal.TokenAccessLevels.QuerySource
   parent: System.Security.Principal.TokenAccessLevels
   isExternal: false
   name: QuerySource
   nameWithType: TokenAccessLevels.QuerySource
   fullName: System.Security.Principal.TokenAccessLevels.QuerySource
-- uid: System.Security.Principal.TokenAccessLevels
-  parent: System.Security.Principal
-  isExternal: false
-  name: TokenAccessLevels
-  nameWithType: TokenAccessLevels
-  fullName: System.Security.Principal.TokenAccessLevels
 - uid: System.Security.Principal.TokenAccessLevels.Read
   parent: System.Security.Principal.TokenAccessLevels
   isExternal: false
   name: Read
   nameWithType: TokenAccessLevels.Read
   fullName: System.Security.Principal.TokenAccessLevels.Read
-- uid: System.Security.Principal.TokenAccessLevels
-  parent: System.Security.Principal
-  isExternal: false
-  name: TokenAccessLevels
-  nameWithType: TokenAccessLevels
-  fullName: System.Security.Principal.TokenAccessLevels
 - uid: System.Security.Principal.TokenAccessLevels.Write
   parent: System.Security.Principal.TokenAccessLevels
   isExternal: false
   name: Write
   nameWithType: TokenAccessLevels.Write
   fullName: System.Security.Principal.TokenAccessLevels.Write
-- uid: System.Security.Principal.TokenAccessLevels
-  parent: System.Security.Principal
-  isExternal: false
-  name: TokenAccessLevels
-  nameWithType: TokenAccessLevels
-  fullName: System.Security.Principal.TokenAccessLevels

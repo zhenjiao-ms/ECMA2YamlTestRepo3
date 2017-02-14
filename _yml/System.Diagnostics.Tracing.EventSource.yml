@@ -103,6 +103,7 @@ items:
     content: protected EventSource ();
     parameters: []
   overload: System.Diagnostics.Tracing.EventSource.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -128,6 +129,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Diagnostics.Tracing.EventSource.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -153,6 +155,7 @@ items:
       type: System.Diagnostics.Tracing.EventSourceSettings
       description: To be added.
   overload: System.Diagnostics.Tracing.EventSource.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -178,6 +181,7 @@ items:
       type: System.String
       description: To be added.
   overload: System.Diagnostics.Tracing.EventSource.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -206,6 +210,7 @@ items:
       type: System.String[]
       description: To be added.
   overload: System.Diagnostics.Tracing.EventSource.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -234,6 +239,7 @@ items:
       type: System.Diagnostics.Tracing.EventSourceSettings
       description: To be added.
   overload: System.Diagnostics.Tracing.EventSource.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -265,6 +271,7 @@ items:
       type: System.String[]
       description: To be added.
   overload: System.Diagnostics.Tracing.EventSource.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -289,6 +296,7 @@ items:
       type: System.Exception
       description: To be added.
   overload: System.Diagnostics.Tracing.EventSource.ConstructionException*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -313,6 +321,7 @@ items:
       type: System.Guid
       description: To be added.
   overload: System.Diagnostics.Tracing.EventSource.CurrentThreadActivityId*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -335,6 +344,7 @@ items:
     content: public void Dispose ();
     parameters: []
   overload: System.Diagnostics.Tracing.EventSource.Dispose*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -360,6 +370,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Diagnostics.Tracing.EventSource.Dispose*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -383,6 +394,7 @@ items:
     return:
       type: System.EventHandler{System.Diagnostics.Tracing.EventCommandEventArgs}
       description: To be added.
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -405,6 +417,7 @@ items:
     content: ~EventSource ();
     parameters: []
   overload: System.Diagnostics.Tracing.EventSource.Finalize*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -436,6 +449,7 @@ items:
       type: System.String
       description: To be added.
   overload: System.Diagnostics.Tracing.EventSource.GenerateManifest*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -470,6 +484,7 @@ items:
       type: System.String
       description: To be added.
   overload: System.Diagnostics.Tracing.EventSource.GenerateManifest*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -498,6 +513,7 @@ items:
       type: System.Guid
       description: To be added.
   overload: System.Diagnostics.Tracing.EventSource.GetGuid*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -526,6 +542,7 @@ items:
       type: System.String
       description: To be added.
   overload: System.Diagnostics.Tracing.EventSource.GetName*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -551,6 +568,7 @@ items:
       type: System.Collections.Generic.IEnumerable{System.Diagnostics.Tracing.EventSource}
       description: To be added.
   overload: System.Diagnostics.Tracing.EventSource.GetSources*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -579,6 +597,7 @@ items:
       type: System.String
       description: To be added.
   overload: System.Diagnostics.Tracing.EventSource.GetTrait*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -603,6 +622,7 @@ items:
       type: System.Guid
       description: To be added.
   overload: System.Diagnostics.Tracing.EventSource.Guid*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -628,6 +648,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Diagnostics.Tracing.EventSource.IsEnabled*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -659,6 +680,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Diagnostics.Tracing.EventSource.IsEnabled*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -693,6 +715,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Diagnostics.Tracing.EventSource.IsEnabled*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -717,6 +740,7 @@ items:
       type: System.String
       description: To be added.
   overload: System.Diagnostics.Tracing.EventSource.Name*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -742,6 +766,7 @@ items:
       type: System.Diagnostics.Tracing.EventCommandEventArgs
       description: To be added.
   overload: System.Diagnostics.Tracing.EventSource.OnEventCommand*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -773,6 +798,7 @@ items:
       type: System.Collections.Generic.IDictionary{System.String,System.String}
       description: To be added.
   overload: System.Diagnostics.Tracing.EventSource.SendCommand*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -798,6 +824,7 @@ items:
       type: System.Guid
       description: To be added.
   overload: System.Diagnostics.Tracing.EventSource.SetCurrentThreadActivityId*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -826,6 +853,7 @@ items:
       type: System.Guid
       description: To be added.
   overload: System.Diagnostics.Tracing.EventSource.SetCurrentThreadActivityId*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -850,6 +878,7 @@ items:
       type: System.Diagnostics.Tracing.EventSourceSettings
       description: To be added.
   overload: System.Diagnostics.Tracing.EventSource.Settings*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -875,6 +904,7 @@ items:
       type: System.String
       description: To be added.
   overload: System.Diagnostics.Tracing.EventSource.ToString*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -900,6 +930,7 @@ items:
       type: System.String
       description: To be added.
   overload: System.Diagnostics.Tracing.EventSource.Write*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -928,6 +959,7 @@ items:
       type: System.Diagnostics.Tracing.EventSourceOptions
       description: To be added.
   overload: System.Diagnostics.Tracing.EventSource.Write*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -956,6 +988,7 @@ items:
       type: T
       description: To be added.
   overload: System.Diagnostics.Tracing.EventSource.Write<T>*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -987,6 +1020,7 @@ items:
       type: T
       description: To be added.
   overload: System.Diagnostics.Tracing.EventSource.Write<T>*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -1018,6 +1052,7 @@ items:
       type: T
       description: To be added.
   overload: System.Diagnostics.Tracing.EventSource.Write<T>*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -1055,6 +1090,7 @@ items:
       type: T
       description: To be added.
   overload: System.Diagnostics.Tracing.EventSource.Write<T>*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -1080,6 +1116,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.Diagnostics.Tracing.EventSource.WriteEvent*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -1108,6 +1145,7 @@ items:
       type: System.Byte[]
       description: To be added.
   overload: System.Diagnostics.Tracing.EventSource.WriteEvent*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -1136,6 +1174,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.Diagnostics.Tracing.EventSource.WriteEvent*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -1164,6 +1203,7 @@ items:
       type: System.Int64
       description: To be added.
   overload: System.Diagnostics.Tracing.EventSource.WriteEvent*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -1192,6 +1232,7 @@ items:
       type: System.Object[]
       description: To be added.
   overload: System.Diagnostics.Tracing.EventSource.WriteEvent*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -1220,6 +1261,7 @@ items:
       type: System.String
       description: To be added.
   overload: System.Diagnostics.Tracing.EventSource.WriteEvent*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -1251,6 +1293,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.Diagnostics.Tracing.EventSource.WriteEvent*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -1282,6 +1325,7 @@ items:
       type: System.String
       description: To be added.
   overload: System.Diagnostics.Tracing.EventSource.WriteEvent*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -1313,6 +1357,7 @@ items:
       type: System.Byte[]
       description: To be added.
   overload: System.Diagnostics.Tracing.EventSource.WriteEvent*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -1344,6 +1389,7 @@ items:
       type: System.Int64
       description: To be added.
   overload: System.Diagnostics.Tracing.EventSource.WriteEvent*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -1375,6 +1421,7 @@ items:
       type: System.String
       description: To be added.
   overload: System.Diagnostics.Tracing.EventSource.WriteEvent*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -1406,6 +1453,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.Diagnostics.Tracing.EventSource.WriteEvent*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -1437,6 +1485,7 @@ items:
       type: System.Int64
       description: To be added.
   overload: System.Diagnostics.Tracing.EventSource.WriteEvent*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -1468,6 +1517,7 @@ items:
       type: System.String
       description: To be added.
   overload: System.Diagnostics.Tracing.EventSource.WriteEvent*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -1502,6 +1552,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.Diagnostics.Tracing.EventSource.WriteEvent*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -1536,6 +1587,7 @@ items:
       type: System.Int64
       description: To be added.
   overload: System.Diagnostics.Tracing.EventSource.WriteEvent*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -1570,6 +1622,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.Diagnostics.Tracing.EventSource.WriteEvent*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -1604,6 +1657,7 @@ items:
       type: System.String
       description: To be added.
   overload: System.Diagnostics.Tracing.EventSource.WriteEvent*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -1635,6 +1689,7 @@ items:
       type: System.Diagnostics.Tracing.EventSource+EventData*
       description: To be added.
   overload: System.Diagnostics.Tracing.EventSource.WriteEventCore*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -1666,6 +1721,7 @@ items:
       type: System.Object[]
       description: To be added.
   overload: System.Diagnostics.Tracing.EventSource.WriteEventWithRelatedActivityId*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -1700,6 +1756,7 @@ items:
       type: System.Diagnostics.Tracing.EventSource+EventData*
       description: To be added.
   overload: System.Diagnostics.Tracing.EventSource.WriteEventWithRelatedActivityIdCore*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -1756,60 +1813,32 @@ references:
   name: EventSource(EventSourceSettings,String[])
   nameWithType: EventSource.EventSource(EventSourceSettings,String[])
   fullName: System.Diagnostics.Tracing.EventSource.EventSource(EventSourceSettings,String[])
-- uid: System.Diagnostics.Tracing.EventSourceSettings
-  parent: System.Diagnostics.Tracing
-  isExternal: false
-  name: EventSourceSettings
-  nameWithType: EventSourceSettings
-  fullName: System.Diagnostics.Tracing.EventSourceSettings
-- uid: System.String
+- uid: System.String[]
   parent: System
   isExternal: false
   name: String
   nameWithType: String
   fullName: System.String[]
+  spec.csharp:
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: String[]
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
 - uid: System.Diagnostics.Tracing.EventSource.#ctor(System.String,System.Diagnostics.Tracing.EventSourceSettings)
   parent: System.Diagnostics.Tracing.EventSource
   isExternal: false
   name: EventSource(String,EventSourceSettings)
   nameWithType: EventSource.EventSource(String,EventSourceSettings)
   fullName: System.Diagnostics.Tracing.EventSource.EventSource(String,EventSourceSettings)
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
-- uid: System.Diagnostics.Tracing.EventSourceSettings
-  parent: System.Diagnostics.Tracing
-  isExternal: false
-  name: EventSourceSettings
-  nameWithType: EventSourceSettings
-  fullName: System.Diagnostics.Tracing.EventSourceSettings
 - uid: System.Diagnostics.Tracing.EventSource.#ctor(System.String,System.Diagnostics.Tracing.EventSourceSettings,System.String[])
   parent: System.Diagnostics.Tracing.EventSource
   isExternal: false
   name: EventSource(String,EventSourceSettings,String[])
   nameWithType: EventSource.EventSource(String,EventSourceSettings,String[])
   fullName: System.Diagnostics.Tracing.EventSource.EventSource(String,EventSourceSettings,String[])
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
-- uid: System.Diagnostics.Tracing.EventSourceSettings
-  parent: System.Diagnostics.Tracing
-  isExternal: false
-  name: EventSourceSettings
-  nameWithType: EventSourceSettings
-  fullName: System.Diagnostics.Tracing.EventSourceSettings
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String[]
 - uid: System.Diagnostics.Tracing.EventSource.ConstructionException
   parent: System.Diagnostics.Tracing.EventSource
   isExternal: false
@@ -1846,12 +1875,6 @@ references:
   name: Dispose(Boolean)
   nameWithType: EventSource.Dispose(Boolean)
   fullName: System.Diagnostics.Tracing.EventSource.Dispose(Boolean)
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
 - uid: System.Diagnostics.Tracing.EventSource.EventCommandExecuted
   parent: System.Diagnostics.Tracing.EventSource
   isExternal: false
@@ -1864,6 +1887,21 @@ references:
   name: EventHandler<EventCommandEventArgs>
   nameWithType: EventHandler<EventCommandEventArgs>
   fullName: System.EventHandler<System.Diagnostics.Tracing.EventCommandEventArgs>
+  spec.csharp:
+  - uid: System.EventHandler`1
+    name: EventHandler
+    nameWithType: EventHandler
+    fullName: EventHandler<System.Diagnostics.Tracing.EventCommandEventArgs>
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Diagnostics.Tracing.EventCommandEventArgs
+    name: EventCommandEventArgs
+    nameWithType: EventCommandEventArgs
+    fullName: EventCommandEventArgs
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
 - uid: System.Diagnostics.Tracing.EventSource.Finalize
   parent: System.Diagnostics.Tracing.EventSource
   isExternal: false
@@ -1876,48 +1914,18 @@ references:
   name: GenerateManifest(Type,String)
   nameWithType: EventSource.GenerateManifest(Type,String)
   fullName: System.Diagnostics.Tracing.EventSource.GenerateManifest(Type,String)
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
 - uid: System.Type
   parent: System
   isExternal: false
   name: Type
   nameWithType: Type
   fullName: System.Type
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
 - uid: System.Diagnostics.Tracing.EventSource.GenerateManifest(System.Type,System.String,System.Diagnostics.Tracing.EventManifestOptions)
   parent: System.Diagnostics.Tracing.EventSource
   isExternal: false
   name: GenerateManifest(Type,String,EventManifestOptions)
   nameWithType: EventSource.GenerateManifest(Type,String,EventManifestOptions)
   fullName: System.Diagnostics.Tracing.EventSource.GenerateManifest(Type,String,EventManifestOptions)
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
-- uid: System.Type
-  parent: System
-  isExternal: false
-  name: Type
-  nameWithType: Type
-  fullName: System.Type
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
 - uid: System.Diagnostics.Tracing.EventManifestOptions
   parent: System.Diagnostics.Tracing
   isExternal: false
@@ -1930,36 +1938,12 @@ references:
   name: GetGuid(Type)
   nameWithType: EventSource.GetGuid(Type)
   fullName: System.Diagnostics.Tracing.EventSource.GetGuid(Type)
-- uid: System.Guid
-  parent: System
-  isExternal: false
-  name: Guid
-  nameWithType: Guid
-  fullName: System.Guid
-- uid: System.Type
-  parent: System
-  isExternal: false
-  name: Type
-  nameWithType: Type
-  fullName: System.Type
 - uid: System.Diagnostics.Tracing.EventSource.GetName(System.Type)
   parent: System.Diagnostics.Tracing.EventSource
   isExternal: false
   name: GetName(Type)
   nameWithType: EventSource.GetName(Type)
   fullName: System.Diagnostics.Tracing.EventSource.GetName(Type)
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
-- uid: System.Type
-  parent: System
-  isExternal: false
-  name: Type
-  nameWithType: Type
-  fullName: System.Type
 - uid: System.Diagnostics.Tracing.EventSource.GetSources
   parent: System.Diagnostics.Tracing.EventSource
   isExternal: false
@@ -1972,60 +1956,45 @@ references:
   name: IEnumerable<EventSource>
   nameWithType: IEnumerable<EventSource>
   fullName: System.Collections.Generic.IEnumerable<System.Diagnostics.Tracing.EventSource>
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: IEnumerable<System.Diagnostics.Tracing.EventSource>
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Diagnostics.Tracing.EventSource
+    name: EventSource
+    nameWithType: EventSource
+    fullName: EventSource
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
 - uid: System.Diagnostics.Tracing.EventSource.GetTrait(System.String)
   parent: System.Diagnostics.Tracing.EventSource
   isExternal: false
   name: GetTrait(String)
   nameWithType: EventSource.GetTrait(String)
   fullName: System.Diagnostics.Tracing.EventSource.GetTrait(String)
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
 - uid: System.Diagnostics.Tracing.EventSource.Guid
   parent: System.Diagnostics.Tracing.EventSource
   isExternal: false
   name: Guid
   nameWithType: EventSource.Guid
   fullName: System.Diagnostics.Tracing.EventSource.Guid
-- uid: System.Guid
-  parent: System
-  isExternal: false
-  name: Guid
-  nameWithType: Guid
-  fullName: System.Guid
 - uid: System.Diagnostics.Tracing.EventSource.IsEnabled
   parent: System.Diagnostics.Tracing.EventSource
   isExternal: false
   name: IsEnabled()
   nameWithType: EventSource.IsEnabled()
   fullName: System.Diagnostics.Tracing.EventSource.IsEnabled()
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
 - uid: System.Diagnostics.Tracing.EventSource.IsEnabled(System.Diagnostics.Tracing.EventLevel,System.Diagnostics.Tracing.EventKeywords)
   parent: System.Diagnostics.Tracing.EventSource
   isExternal: false
   name: IsEnabled(EventLevel,EventKeywords)
   nameWithType: EventSource.IsEnabled(EventLevel,EventKeywords)
   fullName: System.Diagnostics.Tracing.EventSource.IsEnabled(EventLevel,EventKeywords)
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
 - uid: System.Diagnostics.Tracing.EventLevel
   parent: System.Diagnostics.Tracing
   isExternal: false
@@ -2044,24 +2013,6 @@ references:
   name: IsEnabled(EventLevel,EventKeywords,EventChannel)
   nameWithType: EventSource.IsEnabled(EventLevel,EventKeywords,EventChannel)
   fullName: System.Diagnostics.Tracing.EventSource.IsEnabled(EventLevel,EventKeywords,EventChannel)
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
-- uid: System.Diagnostics.Tracing.EventLevel
-  parent: System.Diagnostics.Tracing
-  isExternal: false
-  name: EventLevel
-  nameWithType: EventLevel
-  fullName: System.Diagnostics.Tracing.EventLevel
-- uid: System.Diagnostics.Tracing.EventKeywords
-  parent: System.Diagnostics.Tracing
-  isExternal: false
-  name: EventKeywords
-  nameWithType: EventKeywords
-  fullName: System.Diagnostics.Tracing.EventKeywords
 - uid: System.Diagnostics.Tracing.EventChannel
   parent: System.Diagnostics.Tracing
   isExternal: false
@@ -2074,12 +2025,6 @@ references:
   name: Name
   nameWithType: EventSource.Name
   fullName: System.Diagnostics.Tracing.EventSource.Name
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
 - uid: System.Diagnostics.Tracing.EventSource.OnEventCommand(System.Diagnostics.Tracing.EventCommandEventArgs)
   parent: System.Diagnostics.Tracing.EventSource
   isExternal: false
@@ -2116,84 +2061,64 @@ references:
   name: IDictionary<String,String>
   nameWithType: IDictionary<String,String>
   fullName: System.Collections.Generic.IDictionary<System.String,System.String>
+  spec.csharp:
+  - uid: System.Collections.Generic.IDictionary`2
+    name: IDictionary
+    nameWithType: IDictionary
+    fullName: IDictionary<System.String,System.String>
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: String
+  - name: ','
+    nameWithType: ','
+    fullName: ','
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: String
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
 - uid: System.Diagnostics.Tracing.EventSource.SetCurrentThreadActivityId(System.Guid)
   parent: System.Diagnostics.Tracing.EventSource
   isExternal: false
   name: SetCurrentThreadActivityId(Guid)
   nameWithType: EventSource.SetCurrentThreadActivityId(Guid)
   fullName: System.Diagnostics.Tracing.EventSource.SetCurrentThreadActivityId(Guid)
-- uid: System.Guid
-  parent: System
-  isExternal: false
-  name: Guid
-  nameWithType: Guid
-  fullName: System.Guid
 - uid: System.Diagnostics.Tracing.EventSource.SetCurrentThreadActivityId(System.Guid,System.Guid@)
   parent: System.Diagnostics.Tracing.EventSource
   isExternal: false
   name: SetCurrentThreadActivityId(Guid,Guid)
   nameWithType: EventSource.SetCurrentThreadActivityId(Guid,Guid)
   fullName: System.Diagnostics.Tracing.EventSource.SetCurrentThreadActivityId(Guid,Guid)
-- uid: System.Guid
-  parent: System
-  isExternal: false
-  name: Guid
-  nameWithType: Guid
-  fullName: System.Guid
-- uid: System.Guid
-  parent: System
-  isExternal: false
-  name: Guid
-  nameWithType: Guid
-  fullName: System.Guid
 - uid: System.Diagnostics.Tracing.EventSource.Settings
   parent: System.Diagnostics.Tracing.EventSource
   isExternal: false
   name: Settings
   nameWithType: EventSource.Settings
   fullName: System.Diagnostics.Tracing.EventSource.Settings
-- uid: System.Diagnostics.Tracing.EventSourceSettings
-  parent: System.Diagnostics.Tracing
-  isExternal: false
-  name: EventSourceSettings
-  nameWithType: EventSourceSettings
-  fullName: System.Diagnostics.Tracing.EventSourceSettings
 - uid: System.Diagnostics.Tracing.EventSource.ToString
   parent: System.Diagnostics.Tracing.EventSource
   isExternal: false
   name: ToString()
   nameWithType: EventSource.ToString()
   fullName: System.Diagnostics.Tracing.EventSource.ToString()
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
 - uid: System.Diagnostics.Tracing.EventSource.Write(System.String)
   parent: System.Diagnostics.Tracing.EventSource
   isExternal: false
   name: Write(String)
   nameWithType: EventSource.Write(String)
   fullName: System.Diagnostics.Tracing.EventSource.Write(String)
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
 - uid: System.Diagnostics.Tracing.EventSource.Write(System.String,System.Diagnostics.Tracing.EventSourceOptions)
   parent: System.Diagnostics.Tracing.EventSource
   isExternal: false
   name: Write(String,EventSourceOptions)
   nameWithType: EventSource.Write(String,EventSourceOptions)
   fullName: System.Diagnostics.Tracing.EventSource.Write(String,EventSourceOptions)
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
 - uid: System.Diagnostics.Tracing.EventSourceOptions
   parent: System.Diagnostics.Tracing
   isExternal: false
@@ -2206,14 +2131,7 @@ references:
   name: Write(String,T)
   nameWithType: EventSource.Write(String,T)
   fullName: System.Diagnostics.Tracing.EventSource.Write(String,T)
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
 - uid: T
-  parent: ''
   isExternal: true
   name: T
   nameWithType: T
@@ -2224,84 +2142,18 @@ references:
   name: Write(String,EventSourceOptions,T)
   nameWithType: EventSource.Write(String,EventSourceOptions,T)
   fullName: System.Diagnostics.Tracing.EventSource.Write(String,EventSourceOptions,T)
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
-- uid: System.Diagnostics.Tracing.EventSourceOptions
-  parent: System.Diagnostics.Tracing
-  isExternal: false
-  name: EventSourceOptions
-  nameWithType: EventSourceOptions
-  fullName: System.Diagnostics.Tracing.EventSourceOptions
-- uid: T
-  parent: ''
-  isExternal: true
-  name: T
-  nameWithType: T
-  fullName: T
 - uid: System.Diagnostics.Tracing.EventSource.Write``1(System.String,System.Diagnostics.``0racing.EventSourceOptions@,``0@)
   parent: System.Diagnostics.Tracing.EventSource
   isExternal: false
   name: Write(String,EventSourceOptions,T)
   nameWithType: EventSource.Write(String,EventSourceOptions,T)
   fullName: System.Diagnostics.Tracing.EventSource.Write(String,EventSourceOptions,T)
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
-- uid: System.Diagnostics.Tracing.EventSourceOptions
-  parent: System.Diagnostics.Tracing
-  isExternal: false
-  name: EventSourceOptions
-  nameWithType: EventSourceOptions
-  fullName: System.Diagnostics.Tracing.EventSourceOptions
-- uid: T
-  parent: ''
-  isExternal: true
-  name: T
-  nameWithType: T
-  fullName: T
 - uid: System.Diagnostics.Tracing.EventSource.Write``1(System.String,System.Diagnostics.``0racing.EventSourceOptions@,System.Guid@,System.Guid@,``0@)
   parent: System.Diagnostics.Tracing.EventSource
   isExternal: false
   name: Write(String,EventSourceOptions,Guid,Guid,T)
   nameWithType: EventSource.Write(String,EventSourceOptions,Guid,Guid,T)
   fullName: System.Diagnostics.Tracing.EventSource.Write(String,EventSourceOptions,Guid,Guid,T)
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
-- uid: System.Diagnostics.Tracing.EventSourceOptions
-  parent: System.Diagnostics.Tracing
-  isExternal: false
-  name: EventSourceOptions
-  nameWithType: EventSourceOptions
-  fullName: System.Diagnostics.Tracing.EventSourceOptions
-- uid: System.Guid
-  parent: System
-  isExternal: false
-  name: Guid
-  nameWithType: Guid
-  fullName: System.Guid
-- uid: System.Guid
-  parent: System
-  isExternal: false
-  name: Guid
-  nameWithType: Guid
-  fullName: System.Guid
-- uid: T
-  parent: ''
-  isExternal: true
-  name: T
-  nameWithType: T
-  fullName: T
 - uid: System.Diagnostics.Tracing.EventSource.WriteEvent(System.Int32)
   parent: System.Diagnostics.Tracing.EventSource
   isExternal: false
@@ -2320,48 +2172,32 @@ references:
   name: WriteEvent(Int32,Byte[])
   nameWithType: EventSource.WriteEvent(Int32,Byte[])
   fullName: System.Diagnostics.Tracing.EventSource.WriteEvent(Int32,Byte[])
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: System.Byte
+- uid: System.Byte[]
   parent: System
   isExternal: false
   name: Byte
   nameWithType: Byte
   fullName: System.Byte[]
+  spec.csharp:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: Byte[]
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
 - uid: System.Diagnostics.Tracing.EventSource.WriteEvent(System.Int32,System.Int32)
   parent: System.Diagnostics.Tracing.EventSource
   isExternal: false
   name: WriteEvent(Int32,Int32)
   nameWithType: EventSource.WriteEvent(Int32,Int32)
   fullName: System.Diagnostics.Tracing.EventSource.WriteEvent(Int32,Int32)
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
 - uid: System.Diagnostics.Tracing.EventSource.WriteEvent(System.Int32,System.Int64)
   parent: System.Diagnostics.Tracing.EventSource
   isExternal: false
   name: WriteEvent(Int32,Int64)
   nameWithType: EventSource.WriteEvent(Int32,Int64)
   fullName: System.Diagnostics.Tracing.EventSource.WriteEvent(Int32,Int64)
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
 - uid: System.Int64
   parent: System
   isExternal: false
@@ -2374,408 +2210,116 @@ references:
   name: WriteEvent(Int32,Object[])
   nameWithType: EventSource.WriteEvent(Int32,Object[])
   fullName: System.Diagnostics.Tracing.EventSource.WriteEvent(Int32,Object[])
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: System.Object
+- uid: System.Object[]
   parent: System
   isExternal: false
   name: Object
   nameWithType: Object
   fullName: System.Object[]
+  spec.csharp:
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: Object[]
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
 - uid: System.Diagnostics.Tracing.EventSource.WriteEvent(System.Int32,System.String)
   parent: System.Diagnostics.Tracing.EventSource
   isExternal: false
   name: WriteEvent(Int32,String)
   nameWithType: EventSource.WriteEvent(Int32,String)
   fullName: System.Diagnostics.Tracing.EventSource.WriteEvent(Int32,String)
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
 - uid: System.Diagnostics.Tracing.EventSource.WriteEvent(System.Int32,System.Int32,System.Int32)
   parent: System.Diagnostics.Tracing.EventSource
   isExternal: false
   name: WriteEvent(Int32,Int32,Int32)
   nameWithType: EventSource.WriteEvent(Int32,Int32,Int32)
   fullName: System.Diagnostics.Tracing.EventSource.WriteEvent(Int32,Int32,Int32)
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
 - uid: System.Diagnostics.Tracing.EventSource.WriteEvent(System.Int32,System.Int32,System.String)
   parent: System.Diagnostics.Tracing.EventSource
   isExternal: false
   name: WriteEvent(Int32,Int32,String)
   nameWithType: EventSource.WriteEvent(Int32,Int32,String)
   fullName: System.Diagnostics.Tracing.EventSource.WriteEvent(Int32,Int32,String)
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
 - uid: System.Diagnostics.Tracing.EventSource.WriteEvent(System.Int32,System.Int64,System.Byte[])
   parent: System.Diagnostics.Tracing.EventSource
   isExternal: false
   name: WriteEvent(Int32,Int64,Byte[])
   nameWithType: EventSource.WriteEvent(Int32,Int64,Byte[])
   fullName: System.Diagnostics.Tracing.EventSource.WriteEvent(Int32,Int64,Byte[])
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: System.Int64
-  parent: System
-  isExternal: false
-  name: Int64
-  nameWithType: Int64
-  fullName: System.Int64
-- uid: System.Byte
-  parent: System
-  isExternal: false
-  name: Byte
-  nameWithType: Byte
-  fullName: System.Byte[]
 - uid: System.Diagnostics.Tracing.EventSource.WriteEvent(System.Int32,System.Int64,System.Int64)
   parent: System.Diagnostics.Tracing.EventSource
   isExternal: false
   name: WriteEvent(Int32,Int64,Int64)
   nameWithType: EventSource.WriteEvent(Int32,Int64,Int64)
   fullName: System.Diagnostics.Tracing.EventSource.WriteEvent(Int32,Int64,Int64)
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: System.Int64
-  parent: System
-  isExternal: false
-  name: Int64
-  nameWithType: Int64
-  fullName: System.Int64
-- uid: System.Int64
-  parent: System
-  isExternal: false
-  name: Int64
-  nameWithType: Int64
-  fullName: System.Int64
 - uid: System.Diagnostics.Tracing.EventSource.WriteEvent(System.Int32,System.Int64,System.String)
   parent: System.Diagnostics.Tracing.EventSource
   isExternal: false
   name: WriteEvent(Int32,Int64,String)
   nameWithType: EventSource.WriteEvent(Int32,Int64,String)
   fullName: System.Diagnostics.Tracing.EventSource.WriteEvent(Int32,Int64,String)
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: System.Int64
-  parent: System
-  isExternal: false
-  name: Int64
-  nameWithType: Int64
-  fullName: System.Int64
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
 - uid: System.Diagnostics.Tracing.EventSource.WriteEvent(System.Int32,System.String,System.Int32)
   parent: System.Diagnostics.Tracing.EventSource
   isExternal: false
   name: WriteEvent(Int32,String,Int32)
   nameWithType: EventSource.WriteEvent(Int32,String,Int32)
   fullName: System.Diagnostics.Tracing.EventSource.WriteEvent(Int32,String,Int32)
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
 - uid: System.Diagnostics.Tracing.EventSource.WriteEvent(System.Int32,System.String,System.Int64)
   parent: System.Diagnostics.Tracing.EventSource
   isExternal: false
   name: WriteEvent(Int32,String,Int64)
   nameWithType: EventSource.WriteEvent(Int32,String,Int64)
   fullName: System.Diagnostics.Tracing.EventSource.WriteEvent(Int32,String,Int64)
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
-- uid: System.Int64
-  parent: System
-  isExternal: false
-  name: Int64
-  nameWithType: Int64
-  fullName: System.Int64
 - uid: System.Diagnostics.Tracing.EventSource.WriteEvent(System.Int32,System.String,System.String)
   parent: System.Diagnostics.Tracing.EventSource
   isExternal: false
   name: WriteEvent(Int32,String,String)
   nameWithType: EventSource.WriteEvent(Int32,String,String)
   fullName: System.Diagnostics.Tracing.EventSource.WriteEvent(Int32,String,String)
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
 - uid: System.Diagnostics.Tracing.EventSource.WriteEvent(System.Int32,System.Int32,System.Int32,System.Int32)
   parent: System.Diagnostics.Tracing.EventSource
   isExternal: false
   name: WriteEvent(Int32,Int32,Int32,Int32)
   nameWithType: EventSource.WriteEvent(Int32,Int32,Int32,Int32)
   fullName: System.Diagnostics.Tracing.EventSource.WriteEvent(Int32,Int32,Int32,Int32)
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
 - uid: System.Diagnostics.Tracing.EventSource.WriteEvent(System.Int32,System.Int64,System.Int64,System.Int64)
   parent: System.Diagnostics.Tracing.EventSource
   isExternal: false
   name: WriteEvent(Int32,Int64,Int64,Int64)
   nameWithType: EventSource.WriteEvent(Int32,Int64,Int64,Int64)
   fullName: System.Diagnostics.Tracing.EventSource.WriteEvent(Int32,Int64,Int64,Int64)
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: System.Int64
-  parent: System
-  isExternal: false
-  name: Int64
-  nameWithType: Int64
-  fullName: System.Int64
-- uid: System.Int64
-  parent: System
-  isExternal: false
-  name: Int64
-  nameWithType: Int64
-  fullName: System.Int64
-- uid: System.Int64
-  parent: System
-  isExternal: false
-  name: Int64
-  nameWithType: Int64
-  fullName: System.Int64
 - uid: System.Diagnostics.Tracing.EventSource.WriteEvent(System.Int32,System.String,System.Int32,System.Int32)
   parent: System.Diagnostics.Tracing.EventSource
   isExternal: false
   name: WriteEvent(Int32,String,Int32,Int32)
   nameWithType: EventSource.WriteEvent(Int32,String,Int32,Int32)
   fullName: System.Diagnostics.Tracing.EventSource.WriteEvent(Int32,String,Int32,Int32)
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
 - uid: System.Diagnostics.Tracing.EventSource.WriteEvent(System.Int32,System.String,System.String,System.String)
   parent: System.Diagnostics.Tracing.EventSource
   isExternal: false
   name: WriteEvent(Int32,String,String,String)
   nameWithType: EventSource.WriteEvent(Int32,String,String,String)
   fullName: System.Diagnostics.Tracing.EventSource.WriteEvent(Int32,String,String,String)
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
 - uid: System.Diagnostics.Tracing.EventSource.WriteEventCore(System.Int32,System.Int32,System.Diagnostics.Tracing.EventSource+EventData*)
   parent: System.Diagnostics.Tracing.EventSource
   isExternal: false
   name: WriteEventCore(Int32,Int32,EventSource+EventData*)
   nameWithType: EventSource.WriteEventCore(Int32,Int32,EventSource+EventData*)
   fullName: System.Diagnostics.Tracing.EventSource.WriteEventCore(Int32,Int32,EventSource+EventData*)
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
 - uid: System.Diagnostics.Tracing.EventSource.WriteEventWithRelatedActivityId(System.Int32,System.Guid,System.Object[])
   parent: System.Diagnostics.Tracing.EventSource
   isExternal: false
   name: WriteEventWithRelatedActivityId(Int32,Guid,Object[])
   nameWithType: EventSource.WriteEventWithRelatedActivityId(Int32,Guid,Object[])
   fullName: System.Diagnostics.Tracing.EventSource.WriteEventWithRelatedActivityId(Int32,Guid,Object[])
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: System.Guid
-  parent: System
-  isExternal: false
-  name: Guid
-  nameWithType: Guid
-  fullName: System.Guid
-- uid: System.Object
-  parent: System
-  isExternal: false
-  name: Object
-  nameWithType: Object
-  fullName: System.Object[]
 - uid: System.Diagnostics.Tracing.EventSource.WriteEventWithRelatedActivityIdCore(System.Int32,System.Guid*,System.Int32,System.Diagnostics.Tracing.EventSource+EventData*)
   parent: System.Diagnostics.Tracing.EventSource
   isExternal: false
   name: WriteEventWithRelatedActivityIdCore(Int32,Guid*,Int32,EventSource+EventData*)
   nameWithType: EventSource.WriteEventWithRelatedActivityIdCore(Int32,Guid*,Int32,EventSource+EventData*)
   fullName: System.Diagnostics.Tracing.EventSource.WriteEventWithRelatedActivityIdCore(Int32,Guid*,Int32,EventSource+EventData*)
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
 - uid: System.Diagnostics.Tracing.EventSource.#ctor*
   parent: System.Diagnostics.Tracing.EventSource
   isExternal: false

@@ -68,6 +68,7 @@ items:
     content: protected RealProxy ();
     parameters: []
   overload: System.Runtime.Remoting.Proxies.RealProxy.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -93,6 +94,7 @@ items:
       type: System.Type
       description: To be added.
   overload: System.Runtime.Remoting.Proxies.RealProxy.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -124,6 +126,7 @@ items:
       type: System.Object
       description: To be added.
   overload: System.Runtime.Remoting.Proxies.RealProxy.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -149,6 +152,7 @@ items:
       type: System.MarshalByRefObject
       description: To be added.
   overload: System.Runtime.Remoting.Proxies.RealProxy.AttachServer*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -177,6 +181,7 @@ items:
       type: System.Runtime.Remoting.ObjRef
       description: To be added.
   overload: System.Runtime.Remoting.Proxies.RealProxy.CreateObjRef*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -202,6 +207,7 @@ items:
       type: System.MarshalByRefObject
       description: To be added.
   overload: System.Runtime.Remoting.Proxies.RealProxy.DetachServer*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -230,6 +236,7 @@ items:
       type: System.IntPtr
       description: To be added.
   overload: System.Runtime.Remoting.Proxies.RealProxy.GetCOMIUnknown*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -258,6 +265,7 @@ items:
       type: System.Runtime.Serialization.StreamingContext
       description: To be added.
   overload: System.Runtime.Remoting.Proxies.RealProxy.GetObjectData*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -283,6 +291,7 @@ items:
       type: System.Type
       description: To be added.
   overload: System.Runtime.Remoting.Proxies.RealProxy.GetProxiedType*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -311,6 +320,7 @@ items:
       type: System.Object
       description: To be added.
   overload: System.Runtime.Remoting.Proxies.RealProxy.GetStubData*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -336,6 +346,7 @@ items:
       type: System.Object
       description: To be added.
   overload: System.Runtime.Remoting.Proxies.RealProxy.GetTransparentProxy*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -361,6 +372,7 @@ items:
       type: System.MarshalByRefObject
       description: To be added.
   overload: System.Runtime.Remoting.Proxies.RealProxy.GetUnwrappedServer*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -389,6 +401,7 @@ items:
       type: System.Runtime.Remoting.Activation.IConstructionReturnMessage
       description: To be added.
   overload: System.Runtime.Remoting.Proxies.RealProxy.InitializeServerObject*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -417,6 +430,7 @@ items:
       type: System.Runtime.Remoting.Messaging.IMessage
       description: To be added.
   overload: System.Runtime.Remoting.Proxies.RealProxy.Invoke*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -442,6 +456,7 @@ items:
       type: System.IntPtr
       description: To be added.
   overload: System.Runtime.Remoting.Proxies.RealProxy.SetCOMIUnknown*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -470,6 +485,7 @@ items:
       type: System.Object
       description: To be added.
   overload: System.Runtime.Remoting.Proxies.RealProxy.SetStubData*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -498,6 +514,7 @@ items:
       type: System.IntPtr
       description: To be added.
   overload: System.Runtime.Remoting.Proxies.RealProxy.SupportsInterface*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -530,24 +547,12 @@ references:
   name: RealProxy(Type,IntPtr,Object)
   nameWithType: RealProxy.RealProxy(Type,IntPtr,Object)
   fullName: System.Runtime.Remoting.Proxies.RealProxy.RealProxy(Type,IntPtr,Object)
-- uid: System.Type
-  parent: System
-  isExternal: false
-  name: Type
-  nameWithType: Type
-  fullName: System.Type
 - uid: System.IntPtr
   parent: System
   isExternal: false
   name: IntPtr
   nameWithType: IntPtr
   fullName: System.IntPtr
-- uid: System.Object
-  parent: System
-  isExternal: false
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
 - uid: System.Runtime.Remoting.Proxies.RealProxy.AttachServer(System.MarshalByRefObject)
   parent: System.Runtime.Remoting.Proxies.RealProxy
   isExternal: false
@@ -572,36 +577,18 @@ references:
   name: ObjRef
   nameWithType: ObjRef
   fullName: System.Runtime.Remoting.ObjRef
-- uid: System.Type
-  parent: System
-  isExternal: false
-  name: Type
-  nameWithType: Type
-  fullName: System.Type
 - uid: System.Runtime.Remoting.Proxies.RealProxy.DetachServer
   parent: System.Runtime.Remoting.Proxies.RealProxy
   isExternal: false
   name: DetachServer()
   nameWithType: RealProxy.DetachServer()
   fullName: System.Runtime.Remoting.Proxies.RealProxy.DetachServer()
-- uid: System.MarshalByRefObject
-  parent: System
-  isExternal: false
-  name: MarshalByRefObject
-  nameWithType: MarshalByRefObject
-  fullName: System.MarshalByRefObject
 - uid: System.Runtime.Remoting.Proxies.RealProxy.GetCOMIUnknown(System.Boolean)
   parent: System.Runtime.Remoting.Proxies.RealProxy
   isExternal: false
   name: GetCOMIUnknown(Boolean)
   nameWithType: RealProxy.GetCOMIUnknown(Boolean)
   fullName: System.Runtime.Remoting.Proxies.RealProxy.GetCOMIUnknown(Boolean)
-- uid: System.IntPtr
-  parent: System
-  isExternal: false
-  name: IntPtr
-  nameWithType: IntPtr
-  fullName: System.IntPtr
 - uid: System.Boolean
   parent: System
   isExternal: false
@@ -632,24 +619,12 @@ references:
   name: GetProxiedType()
   nameWithType: RealProxy.GetProxiedType()
   fullName: System.Runtime.Remoting.Proxies.RealProxy.GetProxiedType()
-- uid: System.Type
-  parent: System
-  isExternal: false
-  name: Type
-  nameWithType: Type
-  fullName: System.Type
 - uid: System.Runtime.Remoting.Proxies.RealProxy.GetStubData(System.Runtime.Remoting.Proxies.RealProxy)
   parent: System.Runtime.Remoting.Proxies.RealProxy
   isExternal: false
   name: GetStubData(RealProxy)
   nameWithType: RealProxy.GetStubData(RealProxy)
   fullName: System.Runtime.Remoting.Proxies.RealProxy.GetStubData(RealProxy)
-- uid: System.Object
-  parent: System
-  isExternal: false
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
 - uid: System.Runtime.Remoting.Proxies.RealProxy
   parent: System.Runtime.Remoting.Proxies
   isExternal: false
@@ -662,24 +637,12 @@ references:
   name: GetTransparentProxy()
   nameWithType: RealProxy.GetTransparentProxy()
   fullName: System.Runtime.Remoting.Proxies.RealProxy.GetTransparentProxy()
-- uid: System.Object
-  parent: System
-  isExternal: false
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
 - uid: System.Runtime.Remoting.Proxies.RealProxy.GetUnwrappedServer
   parent: System.Runtime.Remoting.Proxies.RealProxy
   isExternal: false
   name: GetUnwrappedServer()
   nameWithType: RealProxy.GetUnwrappedServer()
   fullName: System.Runtime.Remoting.Proxies.RealProxy.GetUnwrappedServer()
-- uid: System.MarshalByRefObject
-  parent: System
-  isExternal: false
-  name: MarshalByRefObject
-  nameWithType: MarshalByRefObject
-  fullName: System.MarshalByRefObject
 - uid: System.Runtime.Remoting.Proxies.RealProxy.InitializeServerObject(System.Runtime.Remoting.Activation.IConstructionCallMessage)
   parent: System.Runtime.Remoting.Proxies.RealProxy
   isExternal: false
@@ -710,54 +673,24 @@ references:
   name: IMessage
   nameWithType: IMessage
   fullName: System.Runtime.Remoting.Messaging.IMessage
-- uid: System.Runtime.Remoting.Messaging.IMessage
-  parent: System.Runtime.Remoting.Messaging
-  isExternal: false
-  name: IMessage
-  nameWithType: IMessage
-  fullName: System.Runtime.Remoting.Messaging.IMessage
 - uid: System.Runtime.Remoting.Proxies.RealProxy.SetCOMIUnknown(System.IntPtr)
   parent: System.Runtime.Remoting.Proxies.RealProxy
   isExternal: false
   name: SetCOMIUnknown(IntPtr)
   nameWithType: RealProxy.SetCOMIUnknown(IntPtr)
   fullName: System.Runtime.Remoting.Proxies.RealProxy.SetCOMIUnknown(IntPtr)
-- uid: System.IntPtr
-  parent: System
-  isExternal: false
-  name: IntPtr
-  nameWithType: IntPtr
-  fullName: System.IntPtr
 - uid: System.Runtime.Remoting.Proxies.RealProxy.SetStubData(System.Runtime.Remoting.Proxies.RealProxy,System.Object)
   parent: System.Runtime.Remoting.Proxies.RealProxy
   isExternal: false
   name: SetStubData(RealProxy,Object)
   nameWithType: RealProxy.SetStubData(RealProxy,Object)
   fullName: System.Runtime.Remoting.Proxies.RealProxy.SetStubData(RealProxy,Object)
-- uid: System.Runtime.Remoting.Proxies.RealProxy
-  parent: System.Runtime.Remoting.Proxies
-  isExternal: false
-  name: RealProxy
-  nameWithType: RealProxy
-  fullName: System.Runtime.Remoting.Proxies.RealProxy
-- uid: System.Object
-  parent: System
-  isExternal: false
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
 - uid: System.Runtime.Remoting.Proxies.RealProxy.SupportsInterface(System.Guid@)
   parent: System.Runtime.Remoting.Proxies.RealProxy
   isExternal: false
   name: SupportsInterface(Guid)
   nameWithType: RealProxy.SupportsInterface(Guid)
   fullName: System.Runtime.Remoting.Proxies.RealProxy.SupportsInterface(Guid)
-- uid: System.IntPtr
-  parent: System
-  isExternal: false
-  name: IntPtr
-  nameWithType: IntPtr
-  fullName: System.IntPtr
 - uid: System.Guid
   parent: System
   isExternal: false

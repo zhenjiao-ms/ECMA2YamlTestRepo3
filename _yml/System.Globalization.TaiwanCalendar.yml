@@ -97,6 +97,7 @@ items:
     content: public TaiwanCalendar ();
     parameters: []
   overload: System.Globalization.TaiwanCalendar.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -128,6 +129,7 @@ items:
       type: System.DateTime
       description: To be added.
   overload: System.Globalization.TaiwanCalendar.AddMonths*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -159,6 +161,7 @@ items:
       type: System.DateTime
       description: To be added.
   overload: System.Globalization.TaiwanCalendar.AddYears*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -183,6 +186,7 @@ items:
       type: System.Globalization.CalendarAlgorithmType
       description: To be added.
   overload: System.Globalization.TaiwanCalendar.AlgorithmType*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -207,6 +211,7 @@ items:
       type: System.Int32[]
       description: To be added.
   overload: System.Globalization.TaiwanCalendar.Eras*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -235,6 +240,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.Globalization.TaiwanCalendar.GetDayOfMonth*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -263,6 +269,7 @@ items:
       type: System.DayOfWeek
       description: To be added.
   overload: System.Globalization.TaiwanCalendar.GetDayOfWeek*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -291,6 +298,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.Globalization.TaiwanCalendar.GetDayOfYear*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -325,6 +333,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.Globalization.TaiwanCalendar.GetDaysInMonth*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -356,6 +365,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.Globalization.TaiwanCalendar.GetDaysInYear*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -384,6 +394,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.Globalization.TaiwanCalendar.GetEra*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -415,6 +426,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.Globalization.TaiwanCalendar.GetLeapMonth*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -443,6 +455,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.Globalization.TaiwanCalendar.GetMonth*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -474,6 +487,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.Globalization.TaiwanCalendar.GetMonthsInYear*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -508,6 +522,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.Globalization.TaiwanCalendar.GetWeekOfYear*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -536,6 +551,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.Globalization.TaiwanCalendar.GetYear*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -573,6 +589,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Globalization.TaiwanCalendar.IsLeapDay*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -607,6 +624,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Globalization.TaiwanCalendar.IsLeapMonth*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -638,6 +656,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Globalization.TaiwanCalendar.IsLeapYear*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -662,6 +681,7 @@ items:
       type: System.DateTime
       description: To be added.
   overload: System.Globalization.TaiwanCalendar.MaxSupportedDateTime*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -686,6 +706,7 @@ items:
       type: System.DateTime
       description: To be added.
   overload: System.Globalization.TaiwanCalendar.MinSupportedDateTime*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -735,6 +756,7 @@ items:
       type: System.DateTime
       description: To be added.
   overload: System.Globalization.TaiwanCalendar.ToDateTime*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -763,6 +785,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.Globalization.TaiwanCalendar.ToFourDigitYear*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -787,6 +810,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.Globalization.TaiwanCalendar.TwoDigitYearMax*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -813,12 +837,6 @@ references:
   name: DateTime
   nameWithType: DateTime
   fullName: System.DateTime
-- uid: System.DateTime
-  parent: System
-  isExternal: false
-  name: DateTime
-  nameWithType: DateTime
-  fullName: System.DateTime
 - uid: System.Int32
   parent: System
   isExternal: false
@@ -831,24 +849,6 @@ references:
   name: AddYears(DateTime,Int32)
   nameWithType: TaiwanCalendar.AddYears(DateTime,Int32)
   fullName: System.Globalization.TaiwanCalendar.AddYears(DateTime,Int32)
-- uid: System.DateTime
-  parent: System
-  isExternal: false
-  name: DateTime
-  nameWithType: DateTime
-  fullName: System.DateTime
-- uid: System.DateTime
-  parent: System
-  isExternal: false
-  name: DateTime
-  nameWithType: DateTime
-  fullName: System.DateTime
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
 - uid: System.Globalization.TaiwanCalendar.AlgorithmType
   parent: System.Globalization.TaiwanCalendar
   isExternal: false
@@ -867,30 +867,26 @@ references:
   name: Eras
   nameWithType: TaiwanCalendar.Eras
   fullName: System.Globalization.TaiwanCalendar.Eras
-- uid: System.Int32
+- uid: System.Int32[]
   parent: System
   isExternal: false
   name: Int32
   nameWithType: Int32
   fullName: System.Int32[]
+  spec.csharp:
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: Int32[]
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
 - uid: System.Globalization.TaiwanCalendar.GetDayOfMonth(System.DateTime)
   parent: System.Globalization.TaiwanCalendar
   isExternal: false
   name: GetDayOfMonth(DateTime)
   nameWithType: TaiwanCalendar.GetDayOfMonth(DateTime)
   fullName: System.Globalization.TaiwanCalendar.GetDayOfMonth(DateTime)
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: System.DateTime
-  parent: System
-  isExternal: false
-  name: DateTime
-  nameWithType: DateTime
-  fullName: System.DateTime
 - uid: System.Globalization.TaiwanCalendar.GetDayOfWeek(System.DateTime)
   parent: System.Globalization.TaiwanCalendar
   isExternal: false
@@ -903,216 +899,66 @@ references:
   name: DayOfWeek
   nameWithType: DayOfWeek
   fullName: System.DayOfWeek
-- uid: System.DateTime
-  parent: System
-  isExternal: false
-  name: DateTime
-  nameWithType: DateTime
-  fullName: System.DateTime
 - uid: System.Globalization.TaiwanCalendar.GetDayOfYear(System.DateTime)
   parent: System.Globalization.TaiwanCalendar
   isExternal: false
   name: GetDayOfYear(DateTime)
   nameWithType: TaiwanCalendar.GetDayOfYear(DateTime)
   fullName: System.Globalization.TaiwanCalendar.GetDayOfYear(DateTime)
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: System.DateTime
-  parent: System
-  isExternal: false
-  name: DateTime
-  nameWithType: DateTime
-  fullName: System.DateTime
 - uid: System.Globalization.TaiwanCalendar.GetDaysInMonth(System.Int32,System.Int32,System.Int32)
   parent: System.Globalization.TaiwanCalendar
   isExternal: false
   name: GetDaysInMonth(Int32,Int32,Int32)
   nameWithType: TaiwanCalendar.GetDaysInMonth(Int32,Int32,Int32)
   fullName: System.Globalization.TaiwanCalendar.GetDaysInMonth(Int32,Int32,Int32)
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
 - uid: System.Globalization.TaiwanCalendar.GetDaysInYear(System.Int32,System.Int32)
   parent: System.Globalization.TaiwanCalendar
   isExternal: false
   name: GetDaysInYear(Int32,Int32)
   nameWithType: TaiwanCalendar.GetDaysInYear(Int32,Int32)
   fullName: System.Globalization.TaiwanCalendar.GetDaysInYear(Int32,Int32)
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
 - uid: System.Globalization.TaiwanCalendar.GetEra(System.DateTime)
   parent: System.Globalization.TaiwanCalendar
   isExternal: false
   name: GetEra(DateTime)
   nameWithType: TaiwanCalendar.GetEra(DateTime)
   fullName: System.Globalization.TaiwanCalendar.GetEra(DateTime)
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: System.DateTime
-  parent: System
-  isExternal: false
-  name: DateTime
-  nameWithType: DateTime
-  fullName: System.DateTime
 - uid: System.Globalization.TaiwanCalendar.GetLeapMonth(System.Int32,System.Int32)
   parent: System.Globalization.TaiwanCalendar
   isExternal: false
   name: GetLeapMonth(Int32,Int32)
   nameWithType: TaiwanCalendar.GetLeapMonth(Int32,Int32)
   fullName: System.Globalization.TaiwanCalendar.GetLeapMonth(Int32,Int32)
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
 - uid: System.Globalization.TaiwanCalendar.GetMonth(System.DateTime)
   parent: System.Globalization.TaiwanCalendar
   isExternal: false
   name: GetMonth(DateTime)
   nameWithType: TaiwanCalendar.GetMonth(DateTime)
   fullName: System.Globalization.TaiwanCalendar.GetMonth(DateTime)
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: System.DateTime
-  parent: System
-  isExternal: false
-  name: DateTime
-  nameWithType: DateTime
-  fullName: System.DateTime
 - uid: System.Globalization.TaiwanCalendar.GetMonthsInYear(System.Int32,System.Int32)
   parent: System.Globalization.TaiwanCalendar
   isExternal: false
   name: GetMonthsInYear(Int32,Int32)
   nameWithType: TaiwanCalendar.GetMonthsInYear(Int32,Int32)
   fullName: System.Globalization.TaiwanCalendar.GetMonthsInYear(Int32,Int32)
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
 - uid: System.Globalization.TaiwanCalendar.GetWeekOfYear(System.DateTime,System.Globalization.CalendarWeekRule,System.DayOfWeek)
   parent: System.Globalization.TaiwanCalendar
   isExternal: false
   name: GetWeekOfYear(DateTime,CalendarWeekRule,DayOfWeek)
   nameWithType: TaiwanCalendar.GetWeekOfYear(DateTime,CalendarWeekRule,DayOfWeek)
   fullName: System.Globalization.TaiwanCalendar.GetWeekOfYear(DateTime,CalendarWeekRule,DayOfWeek)
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: System.DateTime
-  parent: System
-  isExternal: false
-  name: DateTime
-  nameWithType: DateTime
-  fullName: System.DateTime
 - uid: System.Globalization.CalendarWeekRule
   parent: System.Globalization
   isExternal: false
   name: CalendarWeekRule
   nameWithType: CalendarWeekRule
   fullName: System.Globalization.CalendarWeekRule
-- uid: System.DayOfWeek
-  parent: System
-  isExternal: false
-  name: DayOfWeek
-  nameWithType: DayOfWeek
-  fullName: System.DayOfWeek
 - uid: System.Globalization.TaiwanCalendar.GetYear(System.DateTime)
   parent: System.Globalization.TaiwanCalendar
   isExternal: false
   name: GetYear(DateTime)
   nameWithType: TaiwanCalendar.GetYear(DateTime)
   fullName: System.Globalization.TaiwanCalendar.GetYear(DateTime)
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: System.DateTime
-  parent: System
-  isExternal: false
-  name: DateTime
-  nameWithType: DateTime
-  fullName: System.DateTime
 - uid: System.Globalization.TaiwanCalendar.IsLeapDay(System.Int32,System.Int32,System.Int32,System.Int32)
   parent: System.Globalization.TaiwanCalendar
   isExternal: false
@@ -1125,198 +971,48 @@ references:
   name: Boolean
   nameWithType: Boolean
   fullName: System.Boolean
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
 - uid: System.Globalization.TaiwanCalendar.IsLeapMonth(System.Int32,System.Int32,System.Int32)
   parent: System.Globalization.TaiwanCalendar
   isExternal: false
   name: IsLeapMonth(Int32,Int32,Int32)
   nameWithType: TaiwanCalendar.IsLeapMonth(Int32,Int32,Int32)
   fullName: System.Globalization.TaiwanCalendar.IsLeapMonth(Int32,Int32,Int32)
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
 - uid: System.Globalization.TaiwanCalendar.IsLeapYear(System.Int32,System.Int32)
   parent: System.Globalization.TaiwanCalendar
   isExternal: false
   name: IsLeapYear(Int32,Int32)
   nameWithType: TaiwanCalendar.IsLeapYear(Int32,Int32)
   fullName: System.Globalization.TaiwanCalendar.IsLeapYear(Int32,Int32)
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
 - uid: System.Globalization.TaiwanCalendar.MaxSupportedDateTime
   parent: System.Globalization.TaiwanCalendar
   isExternal: false
   name: MaxSupportedDateTime
   nameWithType: TaiwanCalendar.MaxSupportedDateTime
   fullName: System.Globalization.TaiwanCalendar.MaxSupportedDateTime
-- uid: System.DateTime
-  parent: System
-  isExternal: false
-  name: DateTime
-  nameWithType: DateTime
-  fullName: System.DateTime
 - uid: System.Globalization.TaiwanCalendar.MinSupportedDateTime
   parent: System.Globalization.TaiwanCalendar
   isExternal: false
   name: MinSupportedDateTime
   nameWithType: TaiwanCalendar.MinSupportedDateTime
   fullName: System.Globalization.TaiwanCalendar.MinSupportedDateTime
-- uid: System.DateTime
-  parent: System
-  isExternal: false
-  name: DateTime
-  nameWithType: DateTime
-  fullName: System.DateTime
 - uid: System.Globalization.TaiwanCalendar.ToDateTime(System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32)
   parent: System.Globalization.TaiwanCalendar
   isExternal: false
   name: ToDateTime(Int32,Int32,Int32,Int32,Int32,Int32,Int32,Int32)
   nameWithType: TaiwanCalendar.ToDateTime(Int32,Int32,Int32,Int32,Int32,Int32,Int32,Int32)
   fullName: System.Globalization.TaiwanCalendar.ToDateTime(Int32,Int32,Int32,Int32,Int32,Int32,Int32,Int32)
-- uid: System.DateTime
-  parent: System
-  isExternal: false
-  name: DateTime
-  nameWithType: DateTime
-  fullName: System.DateTime
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
 - uid: System.Globalization.TaiwanCalendar.ToFourDigitYear(System.Int32)
   parent: System.Globalization.TaiwanCalendar
   isExternal: false
   name: ToFourDigitYear(Int32)
   nameWithType: TaiwanCalendar.ToFourDigitYear(Int32)
   fullName: System.Globalization.TaiwanCalendar.ToFourDigitYear(Int32)
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
 - uid: System.Globalization.TaiwanCalendar.TwoDigitYearMax
   parent: System.Globalization.TaiwanCalendar
   isExternal: false
   name: TwoDigitYearMax
   nameWithType: TaiwanCalendar.TwoDigitYearMax
   fullName: System.Globalization.TaiwanCalendar.TwoDigitYearMax
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
 - uid: System.Globalization.TaiwanCalendar.#ctor*
   parent: System.Globalization.TaiwanCalendar
   isExternal: false

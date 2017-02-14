@@ -62,6 +62,7 @@ items:
     content: public HostSecurityManager ();
     parameters: []
   overload: System.Security.HostSecurityManager.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -96,6 +97,7 @@ items:
       type: System.Security.Policy.ApplicationTrust
       description: To be added.
   overload: System.Security.HostSecurityManager.DetermineApplicationTrust*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -120,6 +122,7 @@ items:
       type: System.Security.Policy.PolicyLevel
       description: To be added.
   overload: System.Security.HostSecurityManager.DomainPolicy*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -144,6 +147,7 @@ items:
       type: System.Security.HostSecurityManagerOptions
       description: To be added.
   overload: System.Security.HostSecurityManager.Flags*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -172,6 +176,7 @@ items:
       type: System.Security.Policy.EvidenceBase
       description: To be added.
   overload: System.Security.HostSecurityManager.GenerateAppDomainEvidence*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -203,6 +208,7 @@ items:
       type: System.Security.Policy.EvidenceBase
       description: To be added.
   overload: System.Security.HostSecurityManager.GenerateAssemblyEvidence*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -228,6 +234,7 @@ items:
       type: System.Type[]
       description: To be added.
   overload: System.Security.HostSecurityManager.GetHostSuppliedAppDomainEvidenceTypes*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -256,6 +263,7 @@ items:
       type: System.Type[]
       description: To be added.
   overload: System.Security.HostSecurityManager.GetHostSuppliedAssemblyEvidenceTypes*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -284,6 +292,7 @@ items:
       type: System.Security.Policy.Evidence
       description: To be added.
   overload: System.Security.HostSecurityManager.ProvideAppDomainEvidence*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -315,6 +324,7 @@ items:
       type: System.Security.Policy.Evidence
       description: To be added.
   overload: System.Security.HostSecurityManager.ProvideAssemblyEvidence*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -343,6 +353,7 @@ items:
       type: System.Security.PermissionSet
       description: To be added.
   overload: System.Security.HostSecurityManager.ResolvePolicy*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -369,12 +380,6 @@ references:
   name: ApplicationTrust
   nameWithType: ApplicationTrust
   fullName: System.Security.Policy.ApplicationTrust
-- uid: System.Security.Policy.Evidence
-  parent: System.Security.Policy
-  isExternal: false
-  name: Evidence
-  nameWithType: Evidence
-  fullName: System.Security.Policy.Evidence
 - uid: System.Security.Policy.Evidence
   parent: System.Security.Policy
   isExternal: false
@@ -435,18 +440,6 @@ references:
   name: GenerateAssemblyEvidence(Type,Assembly)
   nameWithType: HostSecurityManager.GenerateAssemblyEvidence(Type,Assembly)
   fullName: System.Security.HostSecurityManager.GenerateAssemblyEvidence(Type,Assembly)
-- uid: System.Security.Policy.EvidenceBase
-  parent: System.Security.Policy
-  isExternal: false
-  name: EvidenceBase
-  nameWithType: EvidenceBase
-  fullName: System.Security.Policy.EvidenceBase
-- uid: System.Type
-  parent: System
-  isExternal: false
-  name: Type
-  nameWithType: Type
-  fullName: System.Type
 - uid: System.Reflection.Assembly
   parent: System.Reflection
   isExternal: false
@@ -459,72 +452,38 @@ references:
   name: GetHostSuppliedAppDomainEvidenceTypes()
   nameWithType: HostSecurityManager.GetHostSuppliedAppDomainEvidenceTypes()
   fullName: System.Security.HostSecurityManager.GetHostSuppliedAppDomainEvidenceTypes()
-- uid: System.Type
+- uid: System.Type[]
   parent: System
   isExternal: false
   name: Type
   nameWithType: Type
   fullName: System.Type[]
+  spec.csharp:
+  - uid: System.Type
+    name: Type
+    nameWithType: Type
+    fullName: Type[]
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
 - uid: System.Security.HostSecurityManager.GetHostSuppliedAssemblyEvidenceTypes(System.Reflection.Assembly)
   parent: System.Security.HostSecurityManager
   isExternal: false
   name: GetHostSuppliedAssemblyEvidenceTypes(Assembly)
   nameWithType: HostSecurityManager.GetHostSuppliedAssemblyEvidenceTypes(Assembly)
   fullName: System.Security.HostSecurityManager.GetHostSuppliedAssemblyEvidenceTypes(Assembly)
-- uid: System.Type
-  parent: System
-  isExternal: false
-  name: Type
-  nameWithType: Type
-  fullName: System.Type[]
-- uid: System.Reflection.Assembly
-  parent: System.Reflection
-  isExternal: false
-  name: Assembly
-  nameWithType: Assembly
-  fullName: System.Reflection.Assembly
 - uid: System.Security.HostSecurityManager.ProvideAppDomainEvidence(System.Security.Policy.Evidence)
   parent: System.Security.HostSecurityManager
   isExternal: false
   name: ProvideAppDomainEvidence(Evidence)
   nameWithType: HostSecurityManager.ProvideAppDomainEvidence(Evidence)
   fullName: System.Security.HostSecurityManager.ProvideAppDomainEvidence(Evidence)
-- uid: System.Security.Policy.Evidence
-  parent: System.Security.Policy
-  isExternal: false
-  name: Evidence
-  nameWithType: Evidence
-  fullName: System.Security.Policy.Evidence
-- uid: System.Security.Policy.Evidence
-  parent: System.Security.Policy
-  isExternal: false
-  name: Evidence
-  nameWithType: Evidence
-  fullName: System.Security.Policy.Evidence
 - uid: System.Security.HostSecurityManager.ProvideAssemblyEvidence(System.Reflection.Assembly,System.Security.Policy.Evidence)
   parent: System.Security.HostSecurityManager
   isExternal: false
   name: ProvideAssemblyEvidence(Assembly,Evidence)
   nameWithType: HostSecurityManager.ProvideAssemblyEvidence(Assembly,Evidence)
   fullName: System.Security.HostSecurityManager.ProvideAssemblyEvidence(Assembly,Evidence)
-- uid: System.Security.Policy.Evidence
-  parent: System.Security.Policy
-  isExternal: false
-  name: Evidence
-  nameWithType: Evidence
-  fullName: System.Security.Policy.Evidence
-- uid: System.Reflection.Assembly
-  parent: System.Reflection
-  isExternal: false
-  name: Assembly
-  nameWithType: Assembly
-  fullName: System.Reflection.Assembly
-- uid: System.Security.Policy.Evidence
-  parent: System.Security.Policy
-  isExternal: false
-  name: Evidence
-  nameWithType: Evidence
-  fullName: System.Security.Policy.Evidence
 - uid: System.Security.HostSecurityManager.ResolvePolicy(System.Security.Policy.Evidence)
   parent: System.Security.HostSecurityManager
   isExternal: false
@@ -537,12 +496,6 @@ references:
   name: PermissionSet
   nameWithType: PermissionSet
   fullName: System.Security.PermissionSet
-- uid: System.Security.Policy.Evidence
-  parent: System.Security.Policy
-  isExternal: false
-  name: Evidence
-  nameWithType: Evidence
-  fullName: System.Security.Policy.Evidence
 - uid: System.Security.HostSecurityManager.#ctor*
   parent: System.Security.HostSecurityManager
   isExternal: false

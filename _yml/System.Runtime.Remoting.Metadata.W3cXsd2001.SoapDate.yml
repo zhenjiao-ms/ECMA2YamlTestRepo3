@@ -58,6 +58,7 @@ items:
     content: public SoapDate ();
     parameters: []
   overload: System.Runtime.Remoting.Metadata.W3cXsd2001.SoapDate.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -83,6 +84,7 @@ items:
       type: System.DateTime
       description: To be added.
   overload: System.Runtime.Remoting.Metadata.W3cXsd2001.SoapDate.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -111,6 +113,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.Runtime.Remoting.Metadata.W3cXsd2001.SoapDate.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -136,6 +139,7 @@ items:
       type: System.String
       description: To be added.
   overload: System.Runtime.Remoting.Metadata.W3cXsd2001.SoapDate.GetXsdType*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -164,6 +168,7 @@ items:
       type: System.Runtime.Remoting.Metadata.W3cXsd2001.SoapDate
       description: To be added.
   overload: System.Runtime.Remoting.Metadata.W3cXsd2001.SoapDate.Parse*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -188,6 +193,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.Runtime.Remoting.Metadata.W3cXsd2001.SoapDate.Sign*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -213,6 +219,7 @@ items:
       type: System.String
       description: To be added.
   overload: System.Runtime.Remoting.Metadata.W3cXsd2001.SoapDate.ToString*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -237,6 +244,7 @@ items:
       type: System.DateTime
       description: To be added.
   overload: System.Runtime.Remoting.Metadata.W3cXsd2001.SoapDate.Value*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -261,6 +269,7 @@ items:
       type: System.String
       description: To be added.
   overload: System.Runtime.Remoting.Metadata.W3cXsd2001.SoapDate.XsdType*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -293,12 +302,6 @@ references:
   name: SoapDate(DateTime,Int32)
   nameWithType: SoapDate.SoapDate(DateTime,Int32)
   fullName: System.Runtime.Remoting.Metadata.W3cXsd2001.SoapDate.SoapDate(DateTime,Int32)
-- uid: System.DateTime
-  parent: System
-  isExternal: false
-  name: DateTime
-  nameWithType: DateTime
-  fullName: System.DateTime
 - uid: System.Int32
   parent: System
   isExternal: false
@@ -329,60 +332,30 @@ references:
   name: SoapDate
   nameWithType: SoapDate
   fullName: System.Runtime.Remoting.Metadata.W3cXsd2001.SoapDate
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
 - uid: System.Runtime.Remoting.Metadata.W3cXsd2001.SoapDate.Sign
   parent: System.Runtime.Remoting.Metadata.W3cXsd2001.SoapDate
   isExternal: false
   name: Sign
   nameWithType: SoapDate.Sign
   fullName: System.Runtime.Remoting.Metadata.W3cXsd2001.SoapDate.Sign
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
 - uid: System.Runtime.Remoting.Metadata.W3cXsd2001.SoapDate.ToString
   parent: System.Runtime.Remoting.Metadata.W3cXsd2001.SoapDate
   isExternal: false
   name: ToString()
   nameWithType: SoapDate.ToString()
   fullName: System.Runtime.Remoting.Metadata.W3cXsd2001.SoapDate.ToString()
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
 - uid: System.Runtime.Remoting.Metadata.W3cXsd2001.SoapDate.Value
   parent: System.Runtime.Remoting.Metadata.W3cXsd2001.SoapDate
   isExternal: false
   name: Value
   nameWithType: SoapDate.Value
   fullName: System.Runtime.Remoting.Metadata.W3cXsd2001.SoapDate.Value
-- uid: System.DateTime
-  parent: System
-  isExternal: false
-  name: DateTime
-  nameWithType: DateTime
-  fullName: System.DateTime
 - uid: System.Runtime.Remoting.Metadata.W3cXsd2001.SoapDate.XsdType
   parent: System.Runtime.Remoting.Metadata.W3cXsd2001.SoapDate
   isExternal: false
   name: XsdType
   nameWithType: SoapDate.XsdType
   fullName: System.Runtime.Remoting.Metadata.W3cXsd2001.SoapDate.XsdType
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
 - uid: System.Runtime.Remoting.Metadata.W3cXsd2001.SoapDate.#ctor*
   parent: System.Runtime.Remoting.Metadata.W3cXsd2001.SoapDate
   isExternal: false

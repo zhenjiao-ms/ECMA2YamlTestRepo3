@@ -57,6 +57,7 @@ items:
     content: public AuthorizationRuleCollection ();
     parameters: []
   overload: System.Security.AccessControl.AuthorizationRuleCollection.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -82,6 +83,7 @@ items:
       type: System.Security.AccessControl.AuthorizationRule
       description: To be added.
   overload: System.Security.AccessControl.AuthorizationRuleCollection.AddRule*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -110,6 +112,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.Security.AccessControl.AuthorizationRuleCollection.CopyTo*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -138,6 +141,7 @@ items:
       type: System.Security.AccessControl.AuthorizationRule
       description: To be added.
   overload: System.Security.AccessControl.AuthorizationRuleCollection.Item*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -170,12 +174,20 @@ references:
   name: CopyTo(AuthorizationRule[],Int32)
   nameWithType: AuthorizationRuleCollection.CopyTo(AuthorizationRule[],Int32)
   fullName: System.Security.AccessControl.AuthorizationRuleCollection.CopyTo(AuthorizationRule[],Int32)
-- uid: System.Security.AccessControl.AuthorizationRule
+- uid: System.Security.AccessControl.AuthorizationRule[]
   parent: System.Security.AccessControl
   isExternal: false
   name: AuthorizationRule
   nameWithType: AuthorizationRule
   fullName: System.Security.AccessControl.AuthorizationRule[]
+  spec.csharp:
+  - uid: System.Security.AccessControl.AuthorizationRule
+    name: AuthorizationRule
+    nameWithType: AuthorizationRule
+    fullName: AuthorizationRule[]
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
 - uid: System.Int32
   parent: System
   isExternal: false
@@ -188,18 +200,6 @@ references:
   name: Item(Int32)
   nameWithType: AuthorizationRuleCollection.Item(Int32)
   fullName: System.Security.AccessControl.AuthorizationRuleCollection.Item(Int32)
-- uid: System.Security.AccessControl.AuthorizationRule
-  parent: System.Security.AccessControl
-  isExternal: false
-  name: AuthorizationRule
-  nameWithType: AuthorizationRule
-  fullName: System.Security.AccessControl.AuthorizationRule
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
 - uid: System.Security.AccessControl.AuthorizationRuleCollection.#ctor*
   parent: System.Security.AccessControl.AuthorizationRuleCollection
   isExternal: false

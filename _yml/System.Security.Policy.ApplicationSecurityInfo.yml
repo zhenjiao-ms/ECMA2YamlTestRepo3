@@ -59,6 +59,7 @@ items:
       type: System.ActivationContext
       description: To be added.
   overload: System.Security.Policy.ApplicationSecurityInfo.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -83,6 +84,7 @@ items:
       type: System.Security.Policy.Evidence
       description: To be added.
   overload: System.Security.Policy.ApplicationSecurityInfo.ApplicationEvidence*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -107,6 +109,7 @@ items:
       type: System.ApplicationId
       description: To be added.
   overload: System.Security.Policy.ApplicationSecurityInfo.ApplicationId*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -131,6 +134,7 @@ items:
       type: System.Security.PermissionSet
       description: To be added.
   overload: System.Security.Policy.ApplicationSecurityInfo.DefaultRequestSet*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -155,6 +159,7 @@ items:
       type: System.ApplicationId
       description: To be added.
   overload: System.Security.Policy.ApplicationSecurityInfo.DeploymentId*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -217,12 +222,6 @@ references:
   name: DeploymentId
   nameWithType: ApplicationSecurityInfo.DeploymentId
   fullName: System.Security.Policy.ApplicationSecurityInfo.DeploymentId
-- uid: System.ApplicationId
-  parent: System
-  isExternal: false
-  name: ApplicationId
-  nameWithType: ApplicationId
-  fullName: System.ApplicationId
 - uid: System.Security.Policy.ApplicationSecurityInfo.#ctor*
   parent: System.Security.Policy.ApplicationSecurityInfo
   isExternal: false

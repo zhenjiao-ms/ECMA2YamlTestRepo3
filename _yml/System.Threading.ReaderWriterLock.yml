@@ -67,6 +67,7 @@ items:
     content: public ReaderWriterLock ();
     parameters: []
   overload: System.Threading.ReaderWriterLock.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -92,6 +93,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.Threading.ReaderWriterLock.AcquireReaderLock*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -117,6 +119,7 @@ items:
       type: System.TimeSpan
       description: To be added.
   overload: System.Threading.ReaderWriterLock.AcquireReaderLock*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -142,6 +145,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.Threading.ReaderWriterLock.AcquireWriterLock*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -167,6 +171,7 @@ items:
       type: System.TimeSpan
       description: To be added.
   overload: System.Threading.ReaderWriterLock.AcquireWriterLock*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -195,6 +200,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Threading.ReaderWriterLock.AnyWritersSince*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -220,6 +226,7 @@ items:
       type: System.Threading.LockCookie
       description: To be added.
   overload: System.Threading.ReaderWriterLock.DowngradeFromWriterLock*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -242,6 +249,7 @@ items:
     content: ~ReaderWriterLock ();
     parameters: []
   overload: System.Threading.ReaderWriterLock.Finalize*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -266,6 +274,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Threading.ReaderWriterLock.IsReaderLockHeld*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -290,6 +299,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Threading.ReaderWriterLock.IsWriterLockHeld*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -315,6 +325,7 @@ items:
       type: System.Threading.LockCookie
       description: To be added.
   overload: System.Threading.ReaderWriterLock.ReleaseLock*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -337,6 +348,7 @@ items:
     content: public void ReleaseReaderLock ();
     parameters: []
   overload: System.Threading.ReaderWriterLock.ReleaseReaderLock*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -359,6 +371,7 @@ items:
     content: public void ReleaseWriterLock ();
     parameters: []
   overload: System.Threading.ReaderWriterLock.ReleaseWriterLock*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -384,6 +397,7 @@ items:
       type: System.Threading.LockCookie
       description: To be added.
   overload: System.Threading.ReaderWriterLock.RestoreLock*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -412,6 +426,7 @@ items:
       type: System.Threading.LockCookie
       description: To be added.
   overload: System.Threading.ReaderWriterLock.UpgradeToWriterLock*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -440,6 +455,7 @@ items:
       type: System.Threading.LockCookie
       description: To be added.
   overload: System.Threading.ReaderWriterLock.UpgradeToWriterLock*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -464,6 +480,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.Threading.ReaderWriterLock.WriterSeqNum*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -508,24 +525,12 @@ references:
   name: AcquireWriterLock(Int32)
   nameWithType: ReaderWriterLock.AcquireWriterLock(Int32)
   fullName: System.Threading.ReaderWriterLock.AcquireWriterLock(Int32)
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
 - uid: System.Threading.ReaderWriterLock.AcquireWriterLock(System.TimeSpan)
   parent: System.Threading.ReaderWriterLock
   isExternal: false
   name: AcquireWriterLock(TimeSpan)
   nameWithType: ReaderWriterLock.AcquireWriterLock(TimeSpan)
   fullName: System.Threading.ReaderWriterLock.AcquireWriterLock(TimeSpan)
-- uid: System.TimeSpan
-  parent: System
-  isExternal: false
-  name: TimeSpan
-  nameWithType: TimeSpan
-  fullName: System.TimeSpan
 - uid: System.Threading.ReaderWriterLock.AnyWritersSince(System.Int32)
   parent: System.Threading.ReaderWriterLock
   isExternal: false
@@ -538,12 +543,6 @@ references:
   name: Boolean
   nameWithType: Boolean
   fullName: System.Boolean
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
 - uid: System.Threading.ReaderWriterLock.DowngradeFromWriterLock(System.Threading.LockCookie@)
   parent: System.Threading.ReaderWriterLock
   isExternal: false
@@ -568,36 +567,18 @@ references:
   name: IsReaderLockHeld
   nameWithType: ReaderWriterLock.IsReaderLockHeld
   fullName: System.Threading.ReaderWriterLock.IsReaderLockHeld
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
 - uid: System.Threading.ReaderWriterLock.IsWriterLockHeld
   parent: System.Threading.ReaderWriterLock
   isExternal: false
   name: IsWriterLockHeld
   nameWithType: ReaderWriterLock.IsWriterLockHeld
   fullName: System.Threading.ReaderWriterLock.IsWriterLockHeld
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
 - uid: System.Threading.ReaderWriterLock.ReleaseLock
   parent: System.Threading.ReaderWriterLock
   isExternal: false
   name: ReleaseLock()
   nameWithType: ReaderWriterLock.ReleaseLock()
   fullName: System.Threading.ReaderWriterLock.ReleaseLock()
-- uid: System.Threading.LockCookie
-  parent: System.Threading
-  isExternal: false
-  name: LockCookie
-  nameWithType: LockCookie
-  fullName: System.Threading.LockCookie
 - uid: System.Threading.ReaderWriterLock.ReleaseReaderLock
   parent: System.Threading.ReaderWriterLock
   isExternal: false
@@ -616,60 +597,24 @@ references:
   name: RestoreLock(LockCookie)
   nameWithType: ReaderWriterLock.RestoreLock(LockCookie)
   fullName: System.Threading.ReaderWriterLock.RestoreLock(LockCookie)
-- uid: System.Threading.LockCookie
-  parent: System.Threading
-  isExternal: false
-  name: LockCookie
-  nameWithType: LockCookie
-  fullName: System.Threading.LockCookie
 - uid: System.Threading.ReaderWriterLock.UpgradeToWriterLock(System.Int32)
   parent: System.Threading.ReaderWriterLock
   isExternal: false
   name: UpgradeToWriterLock(Int32)
   nameWithType: ReaderWriterLock.UpgradeToWriterLock(Int32)
   fullName: System.Threading.ReaderWriterLock.UpgradeToWriterLock(Int32)
-- uid: System.Threading.LockCookie
-  parent: System.Threading
-  isExternal: false
-  name: LockCookie
-  nameWithType: LockCookie
-  fullName: System.Threading.LockCookie
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
 - uid: System.Threading.ReaderWriterLock.UpgradeToWriterLock(System.TimeSpan)
   parent: System.Threading.ReaderWriterLock
   isExternal: false
   name: UpgradeToWriterLock(TimeSpan)
   nameWithType: ReaderWriterLock.UpgradeToWriterLock(TimeSpan)
   fullName: System.Threading.ReaderWriterLock.UpgradeToWriterLock(TimeSpan)
-- uid: System.Threading.LockCookie
-  parent: System.Threading
-  isExternal: false
-  name: LockCookie
-  nameWithType: LockCookie
-  fullName: System.Threading.LockCookie
-- uid: System.TimeSpan
-  parent: System
-  isExternal: false
-  name: TimeSpan
-  nameWithType: TimeSpan
-  fullName: System.TimeSpan
 - uid: System.Threading.ReaderWriterLock.WriterSeqNum
   parent: System.Threading.ReaderWriterLock
   isExternal: false
   name: WriterSeqNum
   nameWithType: ReaderWriterLock.WriterSeqNum
   fullName: System.Threading.ReaderWriterLock.WriterSeqNum
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
 - uid: System.Threading.ReaderWriterLock.#ctor*
   parent: System.Threading.ReaderWriterLock
   isExternal: false

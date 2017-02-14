@@ -50,6 +50,7 @@ items:
       type: System.Runtime.InteropServices.UCOMIEnumConnectionPoints
       description: To be added.
   overload: System.Runtime.InteropServices.UCOMIEnumConnectionPoints.Clone*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -84,6 +85,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.Runtime.InteropServices.UCOMIEnumConnectionPoints.Next*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -109,6 +111,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.Runtime.InteropServices.UCOMIEnumConnectionPoints.Reset*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -137,6 +140,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.Runtime.InteropServices.UCOMIEnumConnectionPoints.Skip*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -166,54 +170,32 @@ references:
   name: Int32
   nameWithType: Int32
   fullName: System.Int32
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: System.Runtime.InteropServices.UCOMIConnectionPoint
+- uid: System.Runtime.InteropServices.UCOMIConnectionPoint[]
   parent: System.Runtime.InteropServices
   isExternal: false
   name: UCOMIConnectionPoint
   nameWithType: UCOMIConnectionPoint
   fullName: System.Runtime.InteropServices.UCOMIConnectionPoint[]
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
+  spec.csharp:
+  - uid: System.Runtime.InteropServices.UCOMIConnectionPoint
+    name: UCOMIConnectionPoint
+    nameWithType: UCOMIConnectionPoint
+    fullName: UCOMIConnectionPoint[]
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
 - uid: System.Runtime.InteropServices.UCOMIEnumConnectionPoints.Reset
   parent: System.Runtime.InteropServices.UCOMIEnumConnectionPoints
   isExternal: false
   name: Reset()
   nameWithType: UCOMIEnumConnectionPoints.Reset()
   fullName: System.Runtime.InteropServices.UCOMIEnumConnectionPoints.Reset()
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
 - uid: System.Runtime.InteropServices.UCOMIEnumConnectionPoints.Skip(System.Int32)
   parent: System.Runtime.InteropServices.UCOMIEnumConnectionPoints
   isExternal: false
   name: Skip(Int32)
   nameWithType: UCOMIEnumConnectionPoints.Skip(Int32)
   fullName: System.Runtime.InteropServices.UCOMIEnumConnectionPoints.Skip(Int32)
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
 - uid: System.Runtime.InteropServices.UCOMIEnumConnectionPoints.Clone*
   parent: System.Runtime.InteropServices.UCOMIEnumConnectionPoints
   isExternal: false

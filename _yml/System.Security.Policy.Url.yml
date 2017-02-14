@@ -59,6 +59,7 @@ items:
       type: System.String
       description: To be added.
   overload: System.Security.Policy.Url.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -84,6 +85,7 @@ items:
       type: System.Security.Policy.EvidenceBase
       description: To be added.
   overload: System.Security.Policy.Url.Clone*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -109,6 +111,7 @@ items:
       type: System.Object
       description: To be added.
   overload: System.Security.Policy.Url.Copy*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -137,6 +140,7 @@ items:
       type: System.Security.IPermission
       description: To be added.
   overload: System.Security.Policy.Url.CreateIdentityPermission*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -165,6 +169,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Security.Policy.Url.Equals*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -190,6 +195,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.Security.Policy.Url.GetHashCode*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -215,6 +221,7 @@ items:
       type: System.String
       description: To be added.
   overload: System.Security.Policy.Url.ToString*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -239,6 +246,7 @@ items:
       type: System.String
       description: To be added.
   overload: System.Security.Policy.Url.Value*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -265,12 +273,6 @@ references:
   name: Clone()
   nameWithType: Url.Clone()
   fullName: System.Security.Policy.Url.Clone()
-- uid: System.Security.Policy.EvidenceBase
-  parent: System.Security.Policy
-  isExternal: false
-  name: EvidenceBase
-  nameWithType: EvidenceBase
-  fullName: System.Security.Policy.EvidenceBase
 - uid: System.Security.Policy.Url.Copy
   parent: System.Security.Policy.Url
   isExternal: false
@@ -313,12 +315,6 @@ references:
   name: Boolean
   nameWithType: Boolean
   fullName: System.Boolean
-- uid: System.Object
-  parent: System
-  isExternal: false
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
 - uid: System.Security.Policy.Url.GetHashCode
   parent: System.Security.Policy.Url
   isExternal: false
@@ -337,24 +333,12 @@ references:
   name: ToString()
   nameWithType: Url.ToString()
   fullName: System.Security.Policy.Url.ToString()
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
 - uid: System.Security.Policy.Url.Value
   parent: System.Security.Policy.Url
   isExternal: false
   name: Value
   nameWithType: Url.Value
   fullName: System.Security.Policy.Url.Value
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
 - uid: System.Security.Policy.Url.#ctor*
   parent: System.Security.Policy.Url
   isExternal: false

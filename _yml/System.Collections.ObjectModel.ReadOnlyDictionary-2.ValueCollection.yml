@@ -78,6 +78,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.Collections.ObjectModel.ReadOnlyDictionary`2.ValueCollection.CopyTo*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -102,6 +103,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.Collections.ObjectModel.ReadOnlyDictionary`2.ValueCollection.Count*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -127,6 +129,7 @@ items:
       type: System.Collections.Generic.IEnumerator{TValue}
       description: To be added.
   overload: System.Collections.ObjectModel.ReadOnlyDictionary`2.ValueCollection.GetEnumerator*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -153,6 +156,7 @@ items:
       type: TValue
       description: To be added.
   overload: System.Collections.ObjectModel.ReadOnlyDictionary`2.ValueCollection.System#Collections#Generic#ICollection<TValue>#Add*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -176,6 +180,7 @@ items:
     content: void ICollection<TValue>.Clear ();
     parameters: []
   overload: System.Collections.ObjectModel.ReadOnlyDictionary`2.ValueCollection.System#Collections#Generic#ICollection<TValue>#Clear*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -205,6 +210,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Collections.ObjectModel.ReadOnlyDictionary`2.ValueCollection.System#Collections#Generic#ICollection<TValue>#Contains*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -230,6 +236,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Collections.ObjectModel.ReadOnlyDictionary`2.ValueCollection.System#Collections#Generic#ICollection<TValue>#IsReadOnly*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -259,6 +266,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Collections.ObjectModel.ReadOnlyDictionary`2.ValueCollection.System#Collections#Generic#ICollection<TValue>#Remove*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -288,6 +296,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.Collections.ObjectModel.ReadOnlyDictionary`2.ValueCollection.System#Collections#ICollection#CopyTo*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -313,6 +322,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Collections.ObjectModel.ReadOnlyDictionary`2.ValueCollection.System#Collections#ICollection#IsSynchronized*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -338,6 +348,7 @@ items:
       type: System.Object
       description: To be added.
   overload: System.Collections.ObjectModel.ReadOnlyDictionary`2.ValueCollection.System#Collections#ICollection#SyncRoot*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -364,6 +375,7 @@ items:
       type: System.Collections.IEnumerator
       description: To be added.
   overload: System.Collections.ObjectModel.ReadOnlyDictionary`2.ValueCollection.System#Collections#IEnumerable#GetEnumerator*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -378,12 +390,19 @@ references:
   name: CopyTo(TValue[],Int32)
   nameWithType: ReadOnlyDictionary<TKey,TValue>+ValueCollection.CopyTo(TValue[],Int32)
   fullName: System.Collections.ObjectModel.ReadOnlyDictionary<TKey,TValue>+ValueCollection.CopyTo(TValue[],Int32)
-- uid: TValue
-  parent: ''
+- uid: TValue[]
   isExternal: true
   name: TValue
   nameWithType: TValue
   fullName: TValue[]
+  spec.csharp:
+  - uid: TValue
+    name: TValue
+    nameWithType: TValue
+    fullName: TValue[]
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
 - uid: System.Int32
   parent: System
   isExternal: false
@@ -396,12 +415,6 @@ references:
   name: Count
   nameWithType: ReadOnlyDictionary<TKey,TValue>+ValueCollection.Count
   fullName: System.Collections.ObjectModel.ReadOnlyDictionary<TKey,TValue>+ValueCollection.Count
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
 - uid: System.Collections.ObjectModel.ReadOnlyDictionary`2.ValueCollection.GetEnumerator
   parent: System.Collections.ObjectModel.ReadOnlyDictionary`2.ValueCollection
   isExternal: false
@@ -414,6 +427,21 @@ references:
   name: IEnumerator<TValue>
   nameWithType: IEnumerator<TValue>
   fullName: System.Collections.Generic.IEnumerator<TValue>
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerator`1
+    name: IEnumerator
+    nameWithType: IEnumerator
+    fullName: IEnumerator<TValue>
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: TValue
+    name: TValue
+    nameWithType: TValue
+    fullName: TValue
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
 - uid: System.Collections.ObjectModel.ReadOnlyDictionary`2.ValueCollection.System#Collections#Generic#ICollection{TValue}#Add(`1)
   parent: System.Collections.ObjectModel.ReadOnlyDictionary`2.ValueCollection
   isExternal: false
@@ -421,7 +449,6 @@ references:
   nameWithType: ReadOnlyDictionary<TKey,TValue>+ValueCollection.System.Collections.Generic.ICollection(TValue)
   fullName: System.Collections.ObjectModel.ReadOnlyDictionary<TKey,TValue>+ValueCollection.System.Collections.Generic.ICollection(TValue)
 - uid: TValue
-  parent: ''
   isExternal: true
   name: TValue
   nameWithType: TValue
@@ -444,42 +471,18 @@ references:
   name: Boolean
   nameWithType: Boolean
   fullName: System.Boolean
-- uid: TValue
-  parent: ''
-  isExternal: true
-  name: TValue
-  nameWithType: TValue
-  fullName: TValue
 - uid: System.Collections.ObjectModel.ReadOnlyDictionary`2.ValueCollection.System#Collections#Generic#ICollection{TValue}#IsReadOnly
   parent: System.Collections.ObjectModel.ReadOnlyDictionary`2.ValueCollection
   isExternal: false
   name: System.Collections.Generic.ICollection
   nameWithType: ReadOnlyDictionary<TKey,TValue>+ValueCollection.System.Collections.Generic.ICollection
   fullName: System.Collections.ObjectModel.ReadOnlyDictionary<TKey,TValue>+ValueCollection.System.Collections.Generic.ICollection
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
 - uid: System.Collections.ObjectModel.ReadOnlyDictionary`2.ValueCollection.System#Collections#Generic#ICollection{TValue}#Remove(`1)
   parent: System.Collections.ObjectModel.ReadOnlyDictionary`2.ValueCollection
   isExternal: false
   name: System.Collections.Generic.ICollection(TValue)
   nameWithType: ReadOnlyDictionary<TKey,TValue>+ValueCollection.System.Collections.Generic.ICollection(TValue)
   fullName: System.Collections.ObjectModel.ReadOnlyDictionary<TKey,TValue>+ValueCollection.System.Collections.Generic.ICollection(TValue)
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
-- uid: TValue
-  parent: ''
-  isExternal: true
-  name: TValue
-  nameWithType: TValue
-  fullName: TValue
 - uid: System.Collections.ObjectModel.ReadOnlyDictionary`2.ValueCollection.System#Collections#ICollection#CopyTo(System.Array,System.Int32)
   parent: System.Collections.ObjectModel.ReadOnlyDictionary`2.ValueCollection
   isExternal: false
@@ -492,36 +495,18 @@ references:
   name: Array
   nameWithType: Array
   fullName: System.Array
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
 - uid: System.Collections.ObjectModel.ReadOnlyDictionary`2.ValueCollection.System#Collections#ICollection#IsSynchronized
   parent: System.Collections.ObjectModel.ReadOnlyDictionary`2.ValueCollection
   isExternal: false
   name: System.Collections.ICollection.IsSynchronized
   nameWithType: ReadOnlyDictionary<TKey,TValue>+ValueCollection.System.Collections.ICollection.IsSynchronized
   fullName: System.Collections.ObjectModel.ReadOnlyDictionary<TKey,TValue>+ValueCollection.System.Collections.ICollection.IsSynchronized
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
 - uid: System.Collections.ObjectModel.ReadOnlyDictionary`2.ValueCollection.System#Collections#ICollection#SyncRoot
   parent: System.Collections.ObjectModel.ReadOnlyDictionary`2.ValueCollection
   isExternal: false
   name: System.Collections.ICollection.SyncRoot
   nameWithType: ReadOnlyDictionary<TKey,TValue>+ValueCollection.System.Collections.ICollection.SyncRoot
   fullName: System.Collections.ObjectModel.ReadOnlyDictionary<TKey,TValue>+ValueCollection.System.Collections.ICollection.SyncRoot
-- uid: System.Object
-  parent: System
-  isExternal: false
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
 - uid: System.Collections.ObjectModel.ReadOnlyDictionary`2.ValueCollection.System#Collections#IEnumerable#GetEnumerator
   parent: System.Collections.ObjectModel.ReadOnlyDictionary`2.ValueCollection
   isExternal: false

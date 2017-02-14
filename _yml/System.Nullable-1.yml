@@ -55,6 +55,7 @@ items:
       type: T
       description: To be added.
   overload: System.Nullable`1.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -83,6 +84,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Nullable`1.Equals*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -108,6 +110,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.Nullable`1.GetHashCode*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -133,6 +136,7 @@ items:
       type: T
       description: To be added.
   overload: System.Nullable`1.GetValueOrDefault*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -161,6 +165,7 @@ items:
       type: T
       description: To be added.
   overload: System.Nullable`1.GetValueOrDefault*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -185,6 +190,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Nullable`1.HasValue*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -213,6 +219,7 @@ items:
       type: T
       description: To be added.
   overload: System.Nullable`1.op_Explicit*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -241,6 +248,7 @@ items:
       type: System.Nullable`1
       description: To be added.
   overload: System.Nullable`1.op_Implicit*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -266,6 +274,7 @@ items:
       type: System.String
       description: To be added.
   overload: System.Nullable`1.ToString*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -290,6 +299,7 @@ items:
       type: T
       description: To be added.
   overload: System.Nullable`1.Value*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -305,7 +315,6 @@ references:
   nameWithType: Nullable<T>.Nullable(T)
   fullName: System.Nullable<T>.Nullable(T)
 - uid: T
-  parent: ''
   isExternal: true
   name: T
   nameWithType: T
@@ -346,54 +355,24 @@ references:
   name: GetValueOrDefault()
   nameWithType: Nullable<T>.GetValueOrDefault()
   fullName: System.Nullable<T>.GetValueOrDefault()
-- uid: T
-  parent: ''
-  isExternal: true
-  name: T
-  nameWithType: T
-  fullName: T
 - uid: System.Nullable`1.GetValueOrDefault(`0)
   parent: System.Nullable`1
   isExternal: false
   name: GetValueOrDefault(T)
   nameWithType: Nullable<T>.GetValueOrDefault(T)
   fullName: System.Nullable<T>.GetValueOrDefault(T)
-- uid: T
-  parent: ''
-  isExternal: true
-  name: T
-  nameWithType: T
-  fullName: T
-- uid: T
-  parent: ''
-  isExternal: true
-  name: T
-  nameWithType: T
-  fullName: T
 - uid: System.Nullable`1.HasValue
   parent: System.Nullable`1
   isExternal: false
   name: HasValue
   nameWithType: Nullable<T>.HasValue
   fullName: System.Nullable<T>.HasValue
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
 - uid: System.Nullable`1.op_Explicit(System.Nullable<T> to T)
   parent: System.Nullable`1
   isExternal: false
   name: op_Explicit(Nullable<T>)
   nameWithType: Nullable<T>.op_Explicit(Nullable<T>)
   fullName: System.Nullable<T>.op_Explicit(Nullable<T>)
-- uid: T
-  parent: ''
-  isExternal: true
-  name: T
-  nameWithType: T
-  fullName: T
 - uid: System.Nullable`1
   parent: System
   isExternal: false
@@ -406,18 +385,6 @@ references:
   name: op_Implicit(T)
   nameWithType: Nullable<T>.op_Implicit(T)
   fullName: System.Nullable<T>.op_Implicit(T)
-- uid: System.Nullable`1
-  parent: System
-  isExternal: false
-  name: Nullable<T>
-  nameWithType: Nullable<T>
-  fullName: System.Nullable<T>
-- uid: T
-  parent: ''
-  isExternal: true
-  name: T
-  nameWithType: T
-  fullName: T
 - uid: System.Nullable`1.ToString
   parent: System.Nullable`1
   isExternal: false
@@ -436,12 +403,6 @@ references:
   name: Value
   nameWithType: Nullable<T>.Value
   fullName: System.Nullable<T>.Value
-- uid: T
-  parent: ''
-  isExternal: true
-  name: T
-  nameWithType: T
-  fullName: T
 - uid: System.Nullable`1.#ctor*
   parent: System.Nullable`1
   isExternal: false

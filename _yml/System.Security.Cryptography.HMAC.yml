@@ -78,6 +78,7 @@ items:
     content: protected HMAC ();
     parameters: []
   overload: System.Security.Cryptography.HMAC.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -102,6 +103,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.Security.Cryptography.HMAC.BlockSizeValue*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -127,6 +129,7 @@ items:
       type: System.Security.Cryptography.HMAC
       description: To be added.
   overload: System.Security.Cryptography.HMAC.Create*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -155,6 +158,7 @@ items:
       type: System.Security.Cryptography.HMAC
       description: To be added.
   overload: System.Security.Cryptography.HMAC.Create*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -180,6 +184,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Security.Cryptography.HMAC.Dispose*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -211,6 +216,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.Security.Cryptography.HMAC.HashCore*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -236,6 +242,7 @@ items:
       type: System.Byte[]
       description: To be added.
   overload: System.Security.Cryptography.HMAC.HashFinal*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -260,6 +267,7 @@ items:
       type: System.String
       description: To be added.
   overload: System.Security.Cryptography.HMAC.HashName*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -282,6 +290,7 @@ items:
     content: public override void Initialize ();
     parameters: []
   overload: System.Security.Cryptography.HMAC.Initialize*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -306,6 +315,7 @@ items:
       type: System.Byte[]
       description: To be added.
   overload: System.Security.Cryptography.HMAC.Key*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -350,12 +360,6 @@ references:
   name: Create(String)
   nameWithType: HMAC.Create(String)
   fullName: System.Security.Cryptography.HMAC.Create(String)
-- uid: System.Security.Cryptography.HMAC
-  parent: System.Security.Cryptography
-  isExternal: false
-  name: HMAC
-  nameWithType: HMAC
-  fullName: System.Security.Cryptography.HMAC
 - uid: System.String
   parent: System
   isExternal: false
@@ -380,48 +384,32 @@ references:
   name: HashCore(Byte[],Int32,Int32)
   nameWithType: HMAC.HashCore(Byte[],Int32,Int32)
   fullName: System.Security.Cryptography.HMAC.HashCore(Byte[],Int32,Int32)
-- uid: System.Byte
+- uid: System.Byte[]
   parent: System
   isExternal: false
   name: Byte
   nameWithType: Byte
   fullName: System.Byte[]
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
+  spec.csharp:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: Byte[]
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
 - uid: System.Security.Cryptography.HMAC.HashFinal
   parent: System.Security.Cryptography.HMAC
   isExternal: false
   name: HashFinal()
   nameWithType: HMAC.HashFinal()
   fullName: System.Security.Cryptography.HMAC.HashFinal()
-- uid: System.Byte
-  parent: System
-  isExternal: false
-  name: Byte
-  nameWithType: Byte
-  fullName: System.Byte[]
 - uid: System.Security.Cryptography.HMAC.HashName
   parent: System.Security.Cryptography.HMAC
   isExternal: false
   name: HashName
   nameWithType: HMAC.HashName
   fullName: System.Security.Cryptography.HMAC.HashName
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
 - uid: System.Security.Cryptography.HMAC.Initialize
   parent: System.Security.Cryptography.HMAC
   isExternal: false
@@ -434,12 +422,6 @@ references:
   name: Key
   nameWithType: HMAC.Key
   fullName: System.Security.Cryptography.HMAC.Key
-- uid: System.Byte
-  parent: System
-  isExternal: false
-  name: Byte
-  nameWithType: Byte
-  fullName: System.Byte[]
 - uid: System.Security.Cryptography.HMAC.#ctor*
   parent: System.Security.Cryptography.HMAC
   isExternal: false

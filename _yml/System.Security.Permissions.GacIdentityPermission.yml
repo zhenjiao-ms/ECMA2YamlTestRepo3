@@ -66,6 +66,7 @@ items:
     content: public GacIdentityPermission ();
     parameters: []
   overload: System.Security.Permissions.GacIdentityPermission.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -91,6 +92,7 @@ items:
       type: System.Security.Permissions.PermissionState
       description: To be added.
   overload: System.Security.Permissions.GacIdentityPermission.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -116,6 +118,7 @@ items:
       type: System.Security.IPermission
       description: To be added.
   overload: System.Security.Permissions.GacIdentityPermission.Copy*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -141,6 +144,7 @@ items:
       type: System.Security.SecurityElement
       description: To be added.
   overload: System.Security.Permissions.GacIdentityPermission.FromXml*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -169,6 +173,7 @@ items:
       type: System.Security.IPermission
       description: To be added.
   overload: System.Security.Permissions.GacIdentityPermission.Intersect*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -197,6 +202,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Security.Permissions.GacIdentityPermission.IsSubsetOf*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -222,6 +228,7 @@ items:
       type: System.Security.SecurityElement
       description: To be added.
   overload: System.Security.Permissions.GacIdentityPermission.ToXml*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -250,6 +257,7 @@ items:
       type: System.Security.IPermission
       description: To be added.
   overload: System.Security.Permissions.GacIdentityPermission.Union*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -306,18 +314,6 @@ references:
   name: Intersect(IPermission)
   nameWithType: GacIdentityPermission.Intersect(IPermission)
   fullName: System.Security.Permissions.GacIdentityPermission.Intersect(IPermission)
-- uid: System.Security.IPermission
-  parent: System.Security
-  isExternal: false
-  name: IPermission
-  nameWithType: IPermission
-  fullName: System.Security.IPermission
-- uid: System.Security.IPermission
-  parent: System.Security
-  isExternal: false
-  name: IPermission
-  nameWithType: IPermission
-  fullName: System.Security.IPermission
 - uid: System.Security.Permissions.GacIdentityPermission.IsSubsetOf(System.Security.IPermission)
   parent: System.Security.Permissions.GacIdentityPermission
   isExternal: false
@@ -330,42 +326,18 @@ references:
   name: Boolean
   nameWithType: Boolean
   fullName: System.Boolean
-- uid: System.Security.IPermission
-  parent: System.Security
-  isExternal: false
-  name: IPermission
-  nameWithType: IPermission
-  fullName: System.Security.IPermission
 - uid: System.Security.Permissions.GacIdentityPermission.ToXml
   parent: System.Security.Permissions.GacIdentityPermission
   isExternal: false
   name: ToXml()
   nameWithType: GacIdentityPermission.ToXml()
   fullName: System.Security.Permissions.GacIdentityPermission.ToXml()
-- uid: System.Security.SecurityElement
-  parent: System.Security
-  isExternal: false
-  name: SecurityElement
-  nameWithType: SecurityElement
-  fullName: System.Security.SecurityElement
 - uid: System.Security.Permissions.GacIdentityPermission.Union(System.Security.IPermission)
   parent: System.Security.Permissions.GacIdentityPermission
   isExternal: false
   name: Union(IPermission)
   nameWithType: GacIdentityPermission.Union(IPermission)
   fullName: System.Security.Permissions.GacIdentityPermission.Union(IPermission)
-- uid: System.Security.IPermission
-  parent: System.Security
-  isExternal: false
-  name: IPermission
-  nameWithType: IPermission
-  fullName: System.Security.IPermission
-- uid: System.Security.IPermission
-  parent: System.Security
-  isExternal: false
-  name: IPermission
-  nameWithType: IPermission
-  fullName: System.Security.IPermission
 - uid: System.Security.Permissions.GacIdentityPermission.#ctor*
   parent: System.Security.Permissions.GacIdentityPermission
   isExternal: false

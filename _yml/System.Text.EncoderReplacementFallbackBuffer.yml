@@ -57,6 +57,7 @@ items:
       type: System.Text.EncoderReplacementFallback
       description: To be added.
   overload: System.Text.EncoderReplacementFallbackBuffer.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -88,6 +89,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Text.EncoderReplacementFallbackBuffer.Fallback*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -122,6 +124,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Text.EncoderReplacementFallbackBuffer.Fallback*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -147,6 +150,7 @@ items:
       type: System.Char
       description: To be added.
   overload: System.Text.EncoderReplacementFallbackBuffer.GetNextChar*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -172,6 +176,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Text.EncoderReplacementFallbackBuffer.MovePrevious*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -196,6 +201,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.Text.EncoderReplacementFallbackBuffer.Remaining*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -218,6 +224,7 @@ items:
     content: public override void Reset ();
     parameters: []
   overload: System.Text.EncoderReplacementFallbackBuffer.Reset*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -268,66 +275,24 @@ references:
   name: Fallback(Char,Char,Int32)
   nameWithType: EncoderReplacementFallbackBuffer.Fallback(Char,Char,Int32)
   fullName: System.Text.EncoderReplacementFallbackBuffer.Fallback(Char,Char,Int32)
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
-- uid: System.Char
-  parent: System
-  isExternal: false
-  name: Char
-  nameWithType: Char
-  fullName: System.Char
-- uid: System.Char
-  parent: System
-  isExternal: false
-  name: Char
-  nameWithType: Char
-  fullName: System.Char
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
 - uid: System.Text.EncoderReplacementFallbackBuffer.GetNextChar
   parent: System.Text.EncoderReplacementFallbackBuffer
   isExternal: false
   name: GetNextChar()
   nameWithType: EncoderReplacementFallbackBuffer.GetNextChar()
   fullName: System.Text.EncoderReplacementFallbackBuffer.GetNextChar()
-- uid: System.Char
-  parent: System
-  isExternal: false
-  name: Char
-  nameWithType: Char
-  fullName: System.Char
 - uid: System.Text.EncoderReplacementFallbackBuffer.MovePrevious
   parent: System.Text.EncoderReplacementFallbackBuffer
   isExternal: false
   name: MovePrevious()
   nameWithType: EncoderReplacementFallbackBuffer.MovePrevious()
   fullName: System.Text.EncoderReplacementFallbackBuffer.MovePrevious()
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
 - uid: System.Text.EncoderReplacementFallbackBuffer.Remaining
   parent: System.Text.EncoderReplacementFallbackBuffer
   isExternal: false
   name: Remaining
   nameWithType: EncoderReplacementFallbackBuffer.Remaining
   fullName: System.Text.EncoderReplacementFallbackBuffer.Remaining
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
 - uid: System.Text.EncoderReplacementFallbackBuffer.Reset
   parent: System.Text.EncoderReplacementFallbackBuffer
   isExternal: false

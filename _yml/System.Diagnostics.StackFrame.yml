@@ -62,6 +62,7 @@ items:
     content: public StackFrame ();
     parameters: []
   overload: System.Diagnostics.StackFrame.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -87,6 +88,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Diagnostics.StackFrame.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -112,6 +114,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.Diagnostics.StackFrame.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -140,6 +143,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Diagnostics.StackFrame.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -168,6 +172,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.Diagnostics.StackFrame.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -199,6 +204,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.Diagnostics.StackFrame.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -224,6 +230,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.Diagnostics.StackFrame.GetFileColumnNumber*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -249,6 +256,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.Diagnostics.StackFrame.GetFileLineNumber*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -274,6 +282,7 @@ items:
       type: System.String
       description: To be added.
   overload: System.Diagnostics.StackFrame.GetFileName*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -299,6 +308,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.Diagnostics.StackFrame.GetILOffset*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -324,6 +334,7 @@ items:
       type: System.Reflection.MethodBase
       description: To be added.
   overload: System.Diagnostics.StackFrame.GetMethod*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -349,6 +360,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.Diagnostics.StackFrame.GetNativeOffset*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -372,6 +384,7 @@ items:
     return:
       type: System.Int32
       description: To be added.
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -397,6 +410,7 @@ items:
       type: System.String
       description: To be added.
   overload: System.Diagnostics.StackFrame.ToString*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -441,18 +455,6 @@ references:
   name: StackFrame(Int32,Boolean)
   nameWithType: StackFrame.StackFrame(Int32,Boolean)
   fullName: System.Diagnostics.StackFrame.StackFrame(Int32,Boolean)
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
 - uid: System.Diagnostics.StackFrame.#ctor(System.String,System.Int32)
   parent: System.Diagnostics.StackFrame
   isExternal: false
@@ -465,84 +467,36 @@ references:
   name: String
   nameWithType: String
   fullName: System.String
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
 - uid: System.Diagnostics.StackFrame.#ctor(System.String,System.Int32,System.Int32)
   parent: System.Diagnostics.StackFrame
   isExternal: false
   name: StackFrame(String,Int32,Int32)
   nameWithType: StackFrame.StackFrame(String,Int32,Int32)
   fullName: System.Diagnostics.StackFrame.StackFrame(String,Int32,Int32)
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
 - uid: System.Diagnostics.StackFrame.GetFileColumnNumber
   parent: System.Diagnostics.StackFrame
   isExternal: false
   name: GetFileColumnNumber()
   nameWithType: StackFrame.GetFileColumnNumber()
   fullName: System.Diagnostics.StackFrame.GetFileColumnNumber()
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
 - uid: System.Diagnostics.StackFrame.GetFileLineNumber
   parent: System.Diagnostics.StackFrame
   isExternal: false
   name: GetFileLineNumber()
   nameWithType: StackFrame.GetFileLineNumber()
   fullName: System.Diagnostics.StackFrame.GetFileLineNumber()
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
 - uid: System.Diagnostics.StackFrame.GetFileName
   parent: System.Diagnostics.StackFrame
   isExternal: false
   name: GetFileName()
   nameWithType: StackFrame.GetFileName()
   fullName: System.Diagnostics.StackFrame.GetFileName()
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
 - uid: System.Diagnostics.StackFrame.GetILOffset
   parent: System.Diagnostics.StackFrame
   isExternal: false
   name: GetILOffset()
   nameWithType: StackFrame.GetILOffset()
   fullName: System.Diagnostics.StackFrame.GetILOffset()
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
 - uid: System.Diagnostics.StackFrame.GetMethod
   parent: System.Diagnostics.StackFrame
   isExternal: false
@@ -561,36 +515,18 @@ references:
   name: GetNativeOffset()
   nameWithType: StackFrame.GetNativeOffset()
   fullName: System.Diagnostics.StackFrame.GetNativeOffset()
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
 - uid: System.Diagnostics.StackFrame.OFFSET_UNKNOWN
   parent: System.Diagnostics.StackFrame
   isExternal: false
   name: OFFSET_UNKNOWN
   nameWithType: StackFrame.OFFSET_UNKNOWN
   fullName: System.Diagnostics.StackFrame.OFFSET_UNKNOWN
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
 - uid: System.Diagnostics.StackFrame.ToString
   parent: System.Diagnostics.StackFrame
   isExternal: false
   name: ToString()
   nameWithType: StackFrame.ToString()
   fullName: System.Diagnostics.StackFrame.ToString()
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
 - uid: System.Diagnostics.StackFrame.#ctor*
   parent: System.Diagnostics.StackFrame
   isExternal: false

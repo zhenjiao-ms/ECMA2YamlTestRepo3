@@ -117,6 +117,7 @@ items:
     content: public EventWaitHandleSecurity ();
     parameters: []
   overload: System.Security.AccessControl.EventWaitHandleSecurity.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -141,6 +142,7 @@ items:
       type: System.Type
       description: To be added.
   overload: System.Security.AccessControl.EventWaitHandleSecurity.AccessRightType*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -184,6 +186,7 @@ items:
       type: System.Security.AccessControl.AccessRule
       description: To be added.
   overload: System.Security.AccessControl.EventWaitHandleSecurity.AccessRuleFactory*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -208,6 +211,7 @@ items:
       type: System.Type
       description: To be added.
   overload: System.Security.AccessControl.EventWaitHandleSecurity.AccessRuleType*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -233,6 +237,7 @@ items:
       type: System.Security.AccessControl.EventWaitHandleAccessRule
       description: To be added.
   overload: System.Security.AccessControl.EventWaitHandleSecurity.AddAccessRule*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -258,6 +263,7 @@ items:
       type: System.Security.AccessControl.EventWaitHandleAuditRule
       description: To be added.
   overload: System.Security.AccessControl.EventWaitHandleSecurity.AddAuditRule*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -301,6 +307,7 @@ items:
       type: System.Security.AccessControl.AuditRule
       description: To be added.
   overload: System.Security.AccessControl.EventWaitHandleSecurity.AuditRuleFactory*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -325,6 +332,7 @@ items:
       type: System.Type
       description: To be added.
   overload: System.Security.AccessControl.EventWaitHandleSecurity.AuditRuleType*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -353,6 +361,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Security.AccessControl.EventWaitHandleSecurity.RemoveAccessRule*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -378,6 +387,7 @@ items:
       type: System.Security.AccessControl.EventWaitHandleAccessRule
       description: To be added.
   overload: System.Security.AccessControl.EventWaitHandleSecurity.RemoveAccessRuleAll*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -403,6 +413,7 @@ items:
       type: System.Security.AccessControl.EventWaitHandleAccessRule
       description: To be added.
   overload: System.Security.AccessControl.EventWaitHandleSecurity.RemoveAccessRuleSpecific*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -431,6 +442,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Security.AccessControl.EventWaitHandleSecurity.RemoveAuditRule*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -456,6 +468,7 @@ items:
       type: System.Security.AccessControl.EventWaitHandleAuditRule
       description: To be added.
   overload: System.Security.AccessControl.EventWaitHandleSecurity.RemoveAuditRuleAll*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -481,6 +494,7 @@ items:
       type: System.Security.AccessControl.EventWaitHandleAuditRule
       description: To be added.
   overload: System.Security.AccessControl.EventWaitHandleSecurity.RemoveAuditRuleSpecific*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -506,6 +520,7 @@ items:
       type: System.Security.AccessControl.EventWaitHandleAccessRule
       description: To be added.
   overload: System.Security.AccessControl.EventWaitHandleSecurity.ResetAccessRule*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -531,6 +546,7 @@ items:
       type: System.Security.AccessControl.EventWaitHandleAccessRule
       description: To be added.
   overload: System.Security.AccessControl.EventWaitHandleSecurity.SetAccessRule*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -556,6 +572,7 @@ items:
       type: System.Security.AccessControl.EventWaitHandleAuditRule
       description: To be added.
   overload: System.Security.AccessControl.EventWaitHandleSecurity.SetAuditRule*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -636,12 +653,6 @@ references:
   name: AccessRuleType
   nameWithType: EventWaitHandleSecurity.AccessRuleType
   fullName: System.Security.AccessControl.EventWaitHandleSecurity.AccessRuleType
-- uid: System.Type
-  parent: System
-  isExternal: false
-  name: Type
-  nameWithType: Type
-  fullName: System.Type
 - uid: System.Security.AccessControl.EventWaitHandleSecurity.AddAccessRule(System.Security.AccessControl.EventWaitHandleAccessRule)
   parent: System.Security.AccessControl.EventWaitHandleSecurity
   isExternal: false
@@ -678,36 +689,6 @@ references:
   name: AuditRule
   nameWithType: AuditRule
   fullName: System.Security.AccessControl.AuditRule
-- uid: System.Security.Principal.IdentityReference
-  parent: System.Security.Principal
-  isExternal: false
-  name: IdentityReference
-  nameWithType: IdentityReference
-  fullName: System.Security.Principal.IdentityReference
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
-- uid: System.Security.AccessControl.InheritanceFlags
-  parent: System.Security.AccessControl
-  isExternal: false
-  name: InheritanceFlags
-  nameWithType: InheritanceFlags
-  fullName: System.Security.AccessControl.InheritanceFlags
-- uid: System.Security.AccessControl.PropagationFlags
-  parent: System.Security.AccessControl
-  isExternal: false
-  name: PropagationFlags
-  nameWithType: PropagationFlags
-  fullName: System.Security.AccessControl.PropagationFlags
 - uid: System.Security.AccessControl.AuditFlags
   parent: System.Security.AccessControl
   isExternal: false
@@ -720,132 +701,60 @@ references:
   name: AuditRuleType
   nameWithType: EventWaitHandleSecurity.AuditRuleType
   fullName: System.Security.AccessControl.EventWaitHandleSecurity.AuditRuleType
-- uid: System.Type
-  parent: System
-  isExternal: false
-  name: Type
-  nameWithType: Type
-  fullName: System.Type
 - uid: System.Security.AccessControl.EventWaitHandleSecurity.RemoveAccessRule(System.Security.AccessControl.EventWaitHandleAccessRule)
   parent: System.Security.AccessControl.EventWaitHandleSecurity
   isExternal: false
   name: RemoveAccessRule(EventWaitHandleAccessRule)
   nameWithType: EventWaitHandleSecurity.RemoveAccessRule(EventWaitHandleAccessRule)
   fullName: System.Security.AccessControl.EventWaitHandleSecurity.RemoveAccessRule(EventWaitHandleAccessRule)
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
-- uid: System.Security.AccessControl.EventWaitHandleAccessRule
-  parent: System.Security.AccessControl
-  isExternal: false
-  name: EventWaitHandleAccessRule
-  nameWithType: EventWaitHandleAccessRule
-  fullName: System.Security.AccessControl.EventWaitHandleAccessRule
 - uid: System.Security.AccessControl.EventWaitHandleSecurity.RemoveAccessRuleAll(System.Security.AccessControl.EventWaitHandleAccessRule)
   parent: System.Security.AccessControl.EventWaitHandleSecurity
   isExternal: false
   name: RemoveAccessRuleAll(EventWaitHandleAccessRule)
   nameWithType: EventWaitHandleSecurity.RemoveAccessRuleAll(EventWaitHandleAccessRule)
   fullName: System.Security.AccessControl.EventWaitHandleSecurity.RemoveAccessRuleAll(EventWaitHandleAccessRule)
-- uid: System.Security.AccessControl.EventWaitHandleAccessRule
-  parent: System.Security.AccessControl
-  isExternal: false
-  name: EventWaitHandleAccessRule
-  nameWithType: EventWaitHandleAccessRule
-  fullName: System.Security.AccessControl.EventWaitHandleAccessRule
 - uid: System.Security.AccessControl.EventWaitHandleSecurity.RemoveAccessRuleSpecific(System.Security.AccessControl.EventWaitHandleAccessRule)
   parent: System.Security.AccessControl.EventWaitHandleSecurity
   isExternal: false
   name: RemoveAccessRuleSpecific(EventWaitHandleAccessRule)
   nameWithType: EventWaitHandleSecurity.RemoveAccessRuleSpecific(EventWaitHandleAccessRule)
   fullName: System.Security.AccessControl.EventWaitHandleSecurity.RemoveAccessRuleSpecific(EventWaitHandleAccessRule)
-- uid: System.Security.AccessControl.EventWaitHandleAccessRule
-  parent: System.Security.AccessControl
-  isExternal: false
-  name: EventWaitHandleAccessRule
-  nameWithType: EventWaitHandleAccessRule
-  fullName: System.Security.AccessControl.EventWaitHandleAccessRule
 - uid: System.Security.AccessControl.EventWaitHandleSecurity.RemoveAuditRule(System.Security.AccessControl.EventWaitHandleAuditRule)
   parent: System.Security.AccessControl.EventWaitHandleSecurity
   isExternal: false
   name: RemoveAuditRule(EventWaitHandleAuditRule)
   nameWithType: EventWaitHandleSecurity.RemoveAuditRule(EventWaitHandleAuditRule)
   fullName: System.Security.AccessControl.EventWaitHandleSecurity.RemoveAuditRule(EventWaitHandleAuditRule)
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
-- uid: System.Security.AccessControl.EventWaitHandleAuditRule
-  parent: System.Security.AccessControl
-  isExternal: false
-  name: EventWaitHandleAuditRule
-  nameWithType: EventWaitHandleAuditRule
-  fullName: System.Security.AccessControl.EventWaitHandleAuditRule
 - uid: System.Security.AccessControl.EventWaitHandleSecurity.RemoveAuditRuleAll(System.Security.AccessControl.EventWaitHandleAuditRule)
   parent: System.Security.AccessControl.EventWaitHandleSecurity
   isExternal: false
   name: RemoveAuditRuleAll(EventWaitHandleAuditRule)
   nameWithType: EventWaitHandleSecurity.RemoveAuditRuleAll(EventWaitHandleAuditRule)
   fullName: System.Security.AccessControl.EventWaitHandleSecurity.RemoveAuditRuleAll(EventWaitHandleAuditRule)
-- uid: System.Security.AccessControl.EventWaitHandleAuditRule
-  parent: System.Security.AccessControl
-  isExternal: false
-  name: EventWaitHandleAuditRule
-  nameWithType: EventWaitHandleAuditRule
-  fullName: System.Security.AccessControl.EventWaitHandleAuditRule
 - uid: System.Security.AccessControl.EventWaitHandleSecurity.RemoveAuditRuleSpecific(System.Security.AccessControl.EventWaitHandleAuditRule)
   parent: System.Security.AccessControl.EventWaitHandleSecurity
   isExternal: false
   name: RemoveAuditRuleSpecific(EventWaitHandleAuditRule)
   nameWithType: EventWaitHandleSecurity.RemoveAuditRuleSpecific(EventWaitHandleAuditRule)
   fullName: System.Security.AccessControl.EventWaitHandleSecurity.RemoveAuditRuleSpecific(EventWaitHandleAuditRule)
-- uid: System.Security.AccessControl.EventWaitHandleAuditRule
-  parent: System.Security.AccessControl
-  isExternal: false
-  name: EventWaitHandleAuditRule
-  nameWithType: EventWaitHandleAuditRule
-  fullName: System.Security.AccessControl.EventWaitHandleAuditRule
 - uid: System.Security.AccessControl.EventWaitHandleSecurity.ResetAccessRule(System.Security.AccessControl.EventWaitHandleAccessRule)
   parent: System.Security.AccessControl.EventWaitHandleSecurity
   isExternal: false
   name: ResetAccessRule(EventWaitHandleAccessRule)
   nameWithType: EventWaitHandleSecurity.ResetAccessRule(EventWaitHandleAccessRule)
   fullName: System.Security.AccessControl.EventWaitHandleSecurity.ResetAccessRule(EventWaitHandleAccessRule)
-- uid: System.Security.AccessControl.EventWaitHandleAccessRule
-  parent: System.Security.AccessControl
-  isExternal: false
-  name: EventWaitHandleAccessRule
-  nameWithType: EventWaitHandleAccessRule
-  fullName: System.Security.AccessControl.EventWaitHandleAccessRule
 - uid: System.Security.AccessControl.EventWaitHandleSecurity.SetAccessRule(System.Security.AccessControl.EventWaitHandleAccessRule)
   parent: System.Security.AccessControl.EventWaitHandleSecurity
   isExternal: false
   name: SetAccessRule(EventWaitHandleAccessRule)
   nameWithType: EventWaitHandleSecurity.SetAccessRule(EventWaitHandleAccessRule)
   fullName: System.Security.AccessControl.EventWaitHandleSecurity.SetAccessRule(EventWaitHandleAccessRule)
-- uid: System.Security.AccessControl.EventWaitHandleAccessRule
-  parent: System.Security.AccessControl
-  isExternal: false
-  name: EventWaitHandleAccessRule
-  nameWithType: EventWaitHandleAccessRule
-  fullName: System.Security.AccessControl.EventWaitHandleAccessRule
 - uid: System.Security.AccessControl.EventWaitHandleSecurity.SetAuditRule(System.Security.AccessControl.EventWaitHandleAuditRule)
   parent: System.Security.AccessControl.EventWaitHandleSecurity
   isExternal: false
   name: SetAuditRule(EventWaitHandleAuditRule)
   nameWithType: EventWaitHandleSecurity.SetAuditRule(EventWaitHandleAuditRule)
   fullName: System.Security.AccessControl.EventWaitHandleSecurity.SetAuditRule(EventWaitHandleAuditRule)
-- uid: System.Security.AccessControl.EventWaitHandleAuditRule
-  parent: System.Security.AccessControl
-  isExternal: false
-  name: EventWaitHandleAuditRule
-  nameWithType: EventWaitHandleAuditRule
-  fullName: System.Security.AccessControl.EventWaitHandleAuditRule
 - uid: System.Security.AccessControl.EventWaitHandleSecurity.#ctor*
   parent: System.Security.AccessControl.EventWaitHandleSecurity
   isExternal: false

@@ -58,6 +58,7 @@ items:
       type: System.String
       description: To be added.
   overload: System.ResolveEventArgs.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -86,6 +87,7 @@ items:
       type: System.Reflection.Assembly
       description: To be added.
   overload: System.ResolveEventArgs.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -110,6 +112,7 @@ items:
       type: System.String
       description: To be added.
   overload: System.ResolveEventArgs.Name*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -134,6 +137,7 @@ items:
       type: System.Reflection.Assembly
       description: To be added.
   overload: System.ResolveEventArgs.RequestingAssembly*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -160,12 +164,6 @@ references:
   name: ResolveEventArgs(String,Assembly)
   nameWithType: ResolveEventArgs.ResolveEventArgs(String,Assembly)
   fullName: System.ResolveEventArgs.ResolveEventArgs(String,Assembly)
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
 - uid: System.Reflection.Assembly
   parent: System.Reflection
   isExternal: false
@@ -178,24 +176,12 @@ references:
   name: Name
   nameWithType: ResolveEventArgs.Name
   fullName: System.ResolveEventArgs.Name
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
 - uid: System.ResolveEventArgs.RequestingAssembly
   parent: System.ResolveEventArgs
   isExternal: false
   name: RequestingAssembly
   nameWithType: ResolveEventArgs.RequestingAssembly
   fullName: System.ResolveEventArgs.RequestingAssembly
-- uid: System.Reflection.Assembly
-  parent: System.Reflection
-  isExternal: false
-  name: Assembly
-  nameWithType: Assembly
-  fullName: System.Reflection.Assembly
 - uid: System.ResolveEventArgs.#ctor*
   parent: System.ResolveEventArgs
   isExternal: false

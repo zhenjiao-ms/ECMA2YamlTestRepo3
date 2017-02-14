@@ -64,6 +64,7 @@ items:
     content: protected AsymmetricAlgorithm ();
     parameters: []
   overload: System.Security.Cryptography.AsymmetricAlgorithm.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -86,6 +87,7 @@ items:
     content: public void Clear ();
     parameters: []
   overload: System.Security.Cryptography.AsymmetricAlgorithm.Clear*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -111,6 +113,7 @@ items:
       type: System.Security.Cryptography.AsymmetricAlgorithm
       description: To be added.
   overload: System.Security.Cryptography.AsymmetricAlgorithm.Create*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -139,6 +142,7 @@ items:
       type: System.Security.Cryptography.AsymmetricAlgorithm
       description: To be added.
   overload: System.Security.Cryptography.AsymmetricAlgorithm.Create*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -161,6 +165,7 @@ items:
     content: public void Dispose ();
     parameters: []
   overload: System.Security.Cryptography.AsymmetricAlgorithm.Dispose*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -186,6 +191,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Security.Cryptography.AsymmetricAlgorithm.Dispose*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -211,6 +217,7 @@ items:
       type: System.String
       description: To be added.
   overload: System.Security.Cryptography.AsymmetricAlgorithm.FromXmlString*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -235,6 +242,7 @@ items:
       type: System.String
       description: To be added.
   overload: System.Security.Cryptography.AsymmetricAlgorithm.KeyExchangeAlgorithm*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -259,6 +267,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.Security.Cryptography.AsymmetricAlgorithm.KeySize*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -282,6 +291,7 @@ items:
     return:
       type: System.Int32
       description: To be added.
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -306,6 +316,7 @@ items:
       type: System.Security.Cryptography.KeySizes[]
       description: To be added.
   overload: System.Security.Cryptography.AsymmetricAlgorithm.LegalKeySizes*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -329,6 +340,7 @@ items:
     return:
       type: System.Security.Cryptography.KeySizes[]
       description: To be added.
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -353,6 +365,7 @@ items:
       type: System.String
       description: To be added.
   overload: System.Security.Cryptography.AsymmetricAlgorithm.SignatureAlgorithm*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -381,6 +394,7 @@ items:
       type: System.String
       description: To be added.
   overload: System.Security.Cryptography.AsymmetricAlgorithm.ToXmlString*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -419,12 +433,6 @@ references:
   name: Create(String)
   nameWithType: AsymmetricAlgorithm.Create(String)
   fullName: System.Security.Cryptography.AsymmetricAlgorithm.Create(String)
-- uid: System.Security.Cryptography.AsymmetricAlgorithm
-  parent: System.Security.Cryptography
-  isExternal: false
-  name: AsymmetricAlgorithm
-  nameWithType: AsymmetricAlgorithm
-  fullName: System.Security.Cryptography.AsymmetricAlgorithm
 - uid: System.String
   parent: System
   isExternal: false
@@ -455,24 +463,12 @@ references:
   name: FromXmlString(String)
   nameWithType: AsymmetricAlgorithm.FromXmlString(String)
   fullName: System.Security.Cryptography.AsymmetricAlgorithm.FromXmlString(String)
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
 - uid: System.Security.Cryptography.AsymmetricAlgorithm.KeyExchangeAlgorithm
   parent: System.Security.Cryptography.AsymmetricAlgorithm
   isExternal: false
   name: KeyExchangeAlgorithm
   nameWithType: AsymmetricAlgorithm.KeyExchangeAlgorithm
   fullName: System.Security.Cryptography.AsymmetricAlgorithm.KeyExchangeAlgorithm
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
 - uid: System.Security.Cryptography.AsymmetricAlgorithm.KeySize
   parent: System.Security.Cryptography.AsymmetricAlgorithm
   isExternal: false
@@ -491,66 +487,44 @@ references:
   name: KeySizeValue
   nameWithType: AsymmetricAlgorithm.KeySizeValue
   fullName: System.Security.Cryptography.AsymmetricAlgorithm.KeySizeValue
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
 - uid: System.Security.Cryptography.AsymmetricAlgorithm.LegalKeySizes
   parent: System.Security.Cryptography.AsymmetricAlgorithm
   isExternal: false
   name: LegalKeySizes
   nameWithType: AsymmetricAlgorithm.LegalKeySizes
   fullName: System.Security.Cryptography.AsymmetricAlgorithm.LegalKeySizes
-- uid: System.Security.Cryptography.KeySizes
+- uid: System.Security.Cryptography.KeySizes[]
   parent: System.Security.Cryptography
   isExternal: false
   name: KeySizes
   nameWithType: KeySizes
   fullName: System.Security.Cryptography.KeySizes[]
+  spec.csharp:
+  - uid: System.Security.Cryptography.KeySizes
+    name: KeySizes
+    nameWithType: KeySizes
+    fullName: KeySizes[]
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
 - uid: System.Security.Cryptography.AsymmetricAlgorithm.LegalKeySizesValue
   parent: System.Security.Cryptography.AsymmetricAlgorithm
   isExternal: false
   name: LegalKeySizesValue
   nameWithType: AsymmetricAlgorithm.LegalKeySizesValue
   fullName: System.Security.Cryptography.AsymmetricAlgorithm.LegalKeySizesValue
-- uid: System.Security.Cryptography.KeySizes
-  parent: System.Security.Cryptography
-  isExternal: false
-  name: KeySizes
-  nameWithType: KeySizes
-  fullName: System.Security.Cryptography.KeySizes[]
 - uid: System.Security.Cryptography.AsymmetricAlgorithm.SignatureAlgorithm
   parent: System.Security.Cryptography.AsymmetricAlgorithm
   isExternal: false
   name: SignatureAlgorithm
   nameWithType: AsymmetricAlgorithm.SignatureAlgorithm
   fullName: System.Security.Cryptography.AsymmetricAlgorithm.SignatureAlgorithm
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
 - uid: System.Security.Cryptography.AsymmetricAlgorithm.ToXmlString(System.Boolean)
   parent: System.Security.Cryptography.AsymmetricAlgorithm
   isExternal: false
   name: ToXmlString(Boolean)
   nameWithType: AsymmetricAlgorithm.ToXmlString(Boolean)
   fullName: System.Security.Cryptography.AsymmetricAlgorithm.ToXmlString(Boolean)
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
 - uid: System.Security.Cryptography.AsymmetricAlgorithm.#ctor*
   parent: System.Security.Cryptography.AsymmetricAlgorithm
   isExternal: false

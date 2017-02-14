@@ -110,6 +110,7 @@ items:
       type: System.Security.Permissions.SecurityAction
       description: To be added.
   overload: System.Security.Permissions.FileIOPermissionAttribute.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -134,6 +135,7 @@ items:
       type: System.String
       description: To be added.
   overload: System.Security.Permissions.FileIOPermissionAttribute.All*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -158,6 +160,7 @@ items:
       type: System.Security.Permissions.FileIOPermissionAccess
       description: To be added.
   overload: System.Security.Permissions.FileIOPermissionAttribute.AllFiles*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -182,6 +185,7 @@ items:
       type: System.Security.Permissions.FileIOPermissionAccess
       description: To be added.
   overload: System.Security.Permissions.FileIOPermissionAttribute.AllLocalFiles*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -206,6 +210,7 @@ items:
       type: System.String
       description: To be added.
   overload: System.Security.Permissions.FileIOPermissionAttribute.Append*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -230,6 +235,7 @@ items:
       type: System.String
       description: To be added.
   overload: System.Security.Permissions.FileIOPermissionAttribute.ChangeAccessControl*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -255,6 +261,7 @@ items:
       type: System.Security.IPermission
       description: To be added.
   overload: System.Security.Permissions.FileIOPermissionAttribute.CreatePermission*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -279,6 +286,7 @@ items:
       type: System.String
       description: To be added.
   overload: System.Security.Permissions.FileIOPermissionAttribute.PathDiscovery*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -303,6 +311,7 @@ items:
       type: System.String
       description: To be added.
   overload: System.Security.Permissions.FileIOPermissionAttribute.Read*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -327,6 +336,7 @@ items:
       type: System.String
       description: To be added.
   overload: System.Security.Permissions.FileIOPermissionAttribute.ViewAccessControl*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -351,6 +361,7 @@ items:
       type: System.String
       description: To be added.
   overload: System.Security.Permissions.FileIOPermissionAttribute.ViewAndModify*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -375,6 +386,7 @@ items:
       type: System.String
       description: To be added.
   overload: System.Security.Permissions.FileIOPermissionAttribute.Write*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -425,36 +437,18 @@ references:
   name: AllLocalFiles
   nameWithType: FileIOPermissionAttribute.AllLocalFiles
   fullName: System.Security.Permissions.FileIOPermissionAttribute.AllLocalFiles
-- uid: System.Security.Permissions.FileIOPermissionAccess
-  parent: System.Security.Permissions
-  isExternal: false
-  name: FileIOPermissionAccess
-  nameWithType: FileIOPermissionAccess
-  fullName: System.Security.Permissions.FileIOPermissionAccess
 - uid: System.Security.Permissions.FileIOPermissionAttribute.Append
   parent: System.Security.Permissions.FileIOPermissionAttribute
   isExternal: false
   name: Append
   nameWithType: FileIOPermissionAttribute.Append
   fullName: System.Security.Permissions.FileIOPermissionAttribute.Append
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
 - uid: System.Security.Permissions.FileIOPermissionAttribute.ChangeAccessControl
   parent: System.Security.Permissions.FileIOPermissionAttribute
   isExternal: false
   name: ChangeAccessControl
   nameWithType: FileIOPermissionAttribute.ChangeAccessControl
   fullName: System.Security.Permissions.FileIOPermissionAttribute.ChangeAccessControl
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
 - uid: System.Security.Permissions.FileIOPermissionAttribute.CreatePermission
   parent: System.Security.Permissions.FileIOPermissionAttribute
   isExternal: false
@@ -473,60 +467,30 @@ references:
   name: PathDiscovery
   nameWithType: FileIOPermissionAttribute.PathDiscovery
   fullName: System.Security.Permissions.FileIOPermissionAttribute.PathDiscovery
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
 - uid: System.Security.Permissions.FileIOPermissionAttribute.Read
   parent: System.Security.Permissions.FileIOPermissionAttribute
   isExternal: false
   name: Read
   nameWithType: FileIOPermissionAttribute.Read
   fullName: System.Security.Permissions.FileIOPermissionAttribute.Read
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
 - uid: System.Security.Permissions.FileIOPermissionAttribute.ViewAccessControl
   parent: System.Security.Permissions.FileIOPermissionAttribute
   isExternal: false
   name: ViewAccessControl
   nameWithType: FileIOPermissionAttribute.ViewAccessControl
   fullName: System.Security.Permissions.FileIOPermissionAttribute.ViewAccessControl
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
 - uid: System.Security.Permissions.FileIOPermissionAttribute.ViewAndModify
   parent: System.Security.Permissions.FileIOPermissionAttribute
   isExternal: false
   name: ViewAndModify
   nameWithType: FileIOPermissionAttribute.ViewAndModify
   fullName: System.Security.Permissions.FileIOPermissionAttribute.ViewAndModify
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
 - uid: System.Security.Permissions.FileIOPermissionAttribute.Write
   parent: System.Security.Permissions.FileIOPermissionAttribute
   isExternal: false
   name: Write
   nameWithType: FileIOPermissionAttribute.Write
   fullName: System.Security.Permissions.FileIOPermissionAttribute.Write
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
 - uid: System.Security.Permissions.FileIOPermissionAttribute.#ctor*
   parent: System.Security.Permissions.FileIOPermissionAttribute
   isExternal: false

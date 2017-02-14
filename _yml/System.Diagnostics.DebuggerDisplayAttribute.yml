@@ -100,6 +100,7 @@ items:
       type: System.String
       description: To be added.
   overload: System.Diagnostics.DebuggerDisplayAttribute.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -124,6 +125,7 @@ items:
       type: System.String
       description: To be added.
   overload: System.Diagnostics.DebuggerDisplayAttribute.Name*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -148,6 +150,7 @@ items:
       type: System.Type
       description: To be added.
   overload: System.Diagnostics.DebuggerDisplayAttribute.Target*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -172,6 +175,7 @@ items:
       type: System.String
       description: To be added.
   overload: System.Diagnostics.DebuggerDisplayAttribute.TargetTypeName*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -196,6 +200,7 @@ items:
       type: System.String
       description: To be added.
   overload: System.Diagnostics.DebuggerDisplayAttribute.Type*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -220,6 +225,7 @@ items:
       type: System.String
       description: To be added.
   overload: System.Diagnostics.DebuggerDisplayAttribute.Value*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -246,12 +252,6 @@ references:
   name: Name
   nameWithType: DebuggerDisplayAttribute.Name
   fullName: System.Diagnostics.DebuggerDisplayAttribute.Name
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
 - uid: System.Diagnostics.DebuggerDisplayAttribute.Target
   parent: System.Diagnostics.DebuggerDisplayAttribute
   isExternal: false
@@ -270,36 +270,18 @@ references:
   name: TargetTypeName
   nameWithType: DebuggerDisplayAttribute.TargetTypeName
   fullName: System.Diagnostics.DebuggerDisplayAttribute.TargetTypeName
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
 - uid: System.Diagnostics.DebuggerDisplayAttribute.Type
   parent: System.Diagnostics.DebuggerDisplayAttribute
   isExternal: false
   name: Type
   nameWithType: DebuggerDisplayAttribute.Type
   fullName: System.Diagnostics.DebuggerDisplayAttribute.Type
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
 - uid: System.Diagnostics.DebuggerDisplayAttribute.Value
   parent: System.Diagnostics.DebuggerDisplayAttribute
   isExternal: false
   name: Value
   nameWithType: DebuggerDisplayAttribute.Value
   fullName: System.Diagnostics.DebuggerDisplayAttribute.Value
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
 - uid: System.Diagnostics.DebuggerDisplayAttribute.#ctor*
   parent: System.Diagnostics.DebuggerDisplayAttribute
   isExternal: false

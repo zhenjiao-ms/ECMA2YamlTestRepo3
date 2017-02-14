@@ -73,6 +73,7 @@ items:
     content: protected SHA384 ();
     parameters: []
   overload: System.Security.Cryptography.SHA384.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -98,6 +99,7 @@ items:
       type: System.Security.Cryptography.SHA384
       description: To be added.
   overload: System.Security.Cryptography.SHA384.Create*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -126,6 +128,7 @@ items:
       type: System.Security.Cryptography.SHA384
       description: To be added.
   overload: System.Security.Cryptography.SHA384.Create*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -158,12 +161,6 @@ references:
   name: Create(String)
   nameWithType: SHA384.Create(String)
   fullName: System.Security.Cryptography.SHA384.Create(String)
-- uid: System.Security.Cryptography.SHA384
-  parent: System.Security.Cryptography
-  isExternal: false
-  name: SHA384
-  nameWithType: SHA384
-  fullName: System.Security.Cryptography.SHA384
 - uid: System.String
   parent: System
   isExternal: false

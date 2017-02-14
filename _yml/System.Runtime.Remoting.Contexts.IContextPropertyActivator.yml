@@ -47,6 +47,7 @@ items:
       type: System.Runtime.Remoting.Activation.IConstructionCallMessage
       description: To be added.
   overload: System.Runtime.Remoting.Contexts.IContextPropertyActivator.CollectFromClientContext*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -72,6 +73,7 @@ items:
       type: System.Runtime.Remoting.Activation.IConstructionReturnMessage
       description: To be added.
   overload: System.Runtime.Remoting.Contexts.IContextPropertyActivator.CollectFromServerContext*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -100,6 +102,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Runtime.Remoting.Contexts.IContextPropertyActivator.DeliverClientContextToServerContext*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -128,6 +131,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Runtime.Remoting.Contexts.IContextPropertyActivator.DeliverServerContextToClientContext*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -156,6 +160,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Runtime.Remoting.Contexts.IContextPropertyActivator.IsOKToActivate*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -197,48 +202,18 @@ references:
   name: Boolean
   nameWithType: Boolean
   fullName: System.Boolean
-- uid: System.Runtime.Remoting.Activation.IConstructionCallMessage
-  parent: System.Runtime.Remoting.Activation
-  isExternal: false
-  name: IConstructionCallMessage
-  nameWithType: IConstructionCallMessage
-  fullName: System.Runtime.Remoting.Activation.IConstructionCallMessage
 - uid: System.Runtime.Remoting.Contexts.IContextPropertyActivator.DeliverServerContextToClientContext(System.Runtime.Remoting.Activation.IConstructionReturnMessage)
   parent: System.Runtime.Remoting.Contexts.IContextPropertyActivator
   isExternal: false
   name: DeliverServerContextToClientContext(IConstructionReturnMessage)
   nameWithType: IContextPropertyActivator.DeliverServerContextToClientContext(IConstructionReturnMessage)
   fullName: System.Runtime.Remoting.Contexts.IContextPropertyActivator.DeliverServerContextToClientContext(IConstructionReturnMessage)
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
-- uid: System.Runtime.Remoting.Activation.IConstructionReturnMessage
-  parent: System.Runtime.Remoting.Activation
-  isExternal: false
-  name: IConstructionReturnMessage
-  nameWithType: IConstructionReturnMessage
-  fullName: System.Runtime.Remoting.Activation.IConstructionReturnMessage
 - uid: System.Runtime.Remoting.Contexts.IContextPropertyActivator.IsOKToActivate(System.Runtime.Remoting.Activation.IConstructionCallMessage)
   parent: System.Runtime.Remoting.Contexts.IContextPropertyActivator
   isExternal: false
   name: IsOKToActivate(IConstructionCallMessage)
   nameWithType: IContextPropertyActivator.IsOKToActivate(IConstructionCallMessage)
   fullName: System.Runtime.Remoting.Contexts.IContextPropertyActivator.IsOKToActivate(IConstructionCallMessage)
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
-- uid: System.Runtime.Remoting.Activation.IConstructionCallMessage
-  parent: System.Runtime.Remoting.Activation
-  isExternal: false
-  name: IConstructionCallMessage
-  nameWithType: IConstructionCallMessage
-  fullName: System.Runtime.Remoting.Activation.IConstructionCallMessage
 - uid: System.Runtime.Remoting.Contexts.IContextPropertyActivator.CollectFromClientContext*
   parent: System.Runtime.Remoting.Contexts.IContextPropertyActivator
   isExternal: false

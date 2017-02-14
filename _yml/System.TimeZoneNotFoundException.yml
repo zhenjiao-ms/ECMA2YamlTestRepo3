@@ -65,6 +65,7 @@ items:
     content: public TimeZoneNotFoundException ();
     parameters: []
   overload: System.TimeZoneNotFoundException.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -90,6 +91,7 @@ items:
       type: System.String
       description: To be added.
   overload: System.TimeZoneNotFoundException.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -118,6 +120,7 @@ items:
       type: System.Runtime.Serialization.StreamingContext
       description: To be added.
   overload: System.TimeZoneNotFoundException.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -146,6 +149,7 @@ items:
       type: System.Exception
       description: To be added.
   overload: System.TimeZoneNotFoundException.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -196,18 +200,6 @@ references:
   name: TimeZoneNotFoundException(String,Exception)
   nameWithType: TimeZoneNotFoundException.TimeZoneNotFoundException(String,Exception)
   fullName: System.TimeZoneNotFoundException.TimeZoneNotFoundException(String,Exception)
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
-- uid: System.Exception
-  parent: System
-  isExternal: false
-  name: Exception
-  nameWithType: Exception
-  fullName: System.Exception
 - uid: System.TimeZoneNotFoundException.#ctor*
   parent: System.TimeZoneNotFoundException
   isExternal: false

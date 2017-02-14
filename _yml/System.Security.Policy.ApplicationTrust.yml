@@ -63,6 +63,7 @@ items:
     content: public ApplicationTrust ();
     parameters: []
   overload: System.Security.Policy.ApplicationTrust.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -88,6 +89,7 @@ items:
       type: System.ApplicationIdentity
       description: To be added.
   overload: System.Security.Policy.ApplicationTrust.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -116,6 +118,7 @@ items:
       type: System.Collections.Generic.IEnumerable{System.Security.Policy.StrongName}
       description: To be added.
   overload: System.Security.Policy.ApplicationTrust.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -140,6 +143,7 @@ items:
       type: System.ApplicationIdentity
       description: To be added.
   overload: System.Security.Policy.ApplicationTrust.ApplicationIdentity*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -165,6 +169,7 @@ items:
       type: System.Security.Policy.EvidenceBase
       description: To be added.
   overload: System.Security.Policy.ApplicationTrust.Clone*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -189,6 +194,7 @@ items:
       type: System.Security.Policy.PolicyStatement
       description: To be added.
   overload: System.Security.Policy.ApplicationTrust.DefaultGrantSet*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -213,6 +219,7 @@ items:
       type: System.Object
       description: To be added.
   overload: System.Security.Policy.ApplicationTrust.ExtraInfo*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -238,6 +245,7 @@ items:
       type: System.Security.SecurityElement
       description: To be added.
   overload: System.Security.Policy.ApplicationTrust.FromXml*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -262,6 +270,7 @@ items:
       type: System.Collections.Generic.IList{System.Security.Policy.StrongName}
       description: To be added.
   overload: System.Security.Policy.ApplicationTrust.FullTrustAssemblies*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -286,6 +295,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Security.Policy.ApplicationTrust.IsApplicationTrustedToRun*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -310,6 +320,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Security.Policy.ApplicationTrust.Persist*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -335,6 +346,7 @@ items:
       type: System.Security.SecurityElement
       description: To be added.
   overload: System.Security.Policy.ApplicationTrust.ToXml*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -379,30 +391,33 @@ references:
   name: IEnumerable<StrongName>
   nameWithType: IEnumerable<StrongName>
   fullName: System.Collections.Generic.IEnumerable<System.Security.Policy.StrongName>
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: IEnumerable<System.Security.Policy.StrongName>
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Security.Policy.StrongName
+    name: StrongName
+    nameWithType: StrongName
+    fullName: StrongName
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
 - uid: System.Security.Policy.ApplicationTrust.ApplicationIdentity
   parent: System.Security.Policy.ApplicationTrust
   isExternal: false
   name: ApplicationIdentity
   nameWithType: ApplicationTrust.ApplicationIdentity
   fullName: System.Security.Policy.ApplicationTrust.ApplicationIdentity
-- uid: System.ApplicationIdentity
-  parent: System
-  isExternal: false
-  name: ApplicationIdentity
-  nameWithType: ApplicationIdentity
-  fullName: System.ApplicationIdentity
 - uid: System.Security.Policy.ApplicationTrust.Clone
   parent: System.Security.Policy.ApplicationTrust
   isExternal: false
   name: Clone()
   nameWithType: ApplicationTrust.Clone()
   fullName: System.Security.Policy.ApplicationTrust.Clone()
-- uid: System.Security.Policy.EvidenceBase
-  parent: System.Security.Policy
-  isExternal: false
-  name: EvidenceBase
-  nameWithType: EvidenceBase
-  fullName: System.Security.Policy.EvidenceBase
 - uid: System.Security.Policy.ApplicationTrust.DefaultGrantSet
   parent: System.Security.Policy.ApplicationTrust
   isExternal: false
@@ -451,6 +466,21 @@ references:
   name: IList<StrongName>
   nameWithType: IList<StrongName>
   fullName: System.Collections.Generic.IList<System.Security.Policy.StrongName>
+  spec.csharp:
+  - uid: System.Collections.Generic.IList`1
+    name: IList
+    nameWithType: IList
+    fullName: IList<System.Security.Policy.StrongName>
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Security.Policy.StrongName
+    name: StrongName
+    nameWithType: StrongName
+    fullName: StrongName
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
 - uid: System.Security.Policy.ApplicationTrust.IsApplicationTrustedToRun
   parent: System.Security.Policy.ApplicationTrust
   isExternal: false
@@ -469,24 +499,12 @@ references:
   name: Persist
   nameWithType: ApplicationTrust.Persist
   fullName: System.Security.Policy.ApplicationTrust.Persist
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
 - uid: System.Security.Policy.ApplicationTrust.ToXml
   parent: System.Security.Policy.ApplicationTrust
   isExternal: false
   name: ToXml()
   nameWithType: ApplicationTrust.ToXml()
   fullName: System.Security.Policy.ApplicationTrust.ToXml()
-- uid: System.Security.SecurityElement
-  parent: System.Security
-  isExternal: false
-  name: SecurityElement
-  nameWithType: SecurityElement
-  fullName: System.Security.SecurityElement
 - uid: System.Security.Policy.ApplicationTrust.#ctor*
   parent: System.Security.Policy.ApplicationTrust
   isExternal: false

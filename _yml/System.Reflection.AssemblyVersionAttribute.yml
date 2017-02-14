@@ -96,6 +96,7 @@ items:
       type: System.String
       description: To be added.
   overload: System.Reflection.AssemblyVersionAttribute.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -120,6 +121,7 @@ items:
       type: System.String
       description: To be added.
   overload: System.Reflection.AssemblyVersionAttribute.Version*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -146,12 +148,6 @@ references:
   name: Version
   nameWithType: AssemblyVersionAttribute.Version
   fullName: System.Reflection.AssemblyVersionAttribute.Version
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
 - uid: System.Reflection.AssemblyVersionAttribute.#ctor*
   parent: System.Reflection.AssemblyVersionAttribute
   isExternal: false

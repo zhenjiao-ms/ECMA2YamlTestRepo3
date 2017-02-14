@@ -57,6 +57,7 @@ items:
     content: public CryptoConfig ();
     parameters: []
   overload: System.Security.Cryptography.CryptoConfig.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -85,6 +86,7 @@ items:
       type: System.String[]
       description: To be added.
   overload: System.Security.Cryptography.CryptoConfig.AddAlgorithm*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -113,6 +115,7 @@ items:
       type: System.String[]
       description: To be added.
   overload: System.Security.Cryptography.CryptoConfig.AddOID*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -137,6 +140,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Security.Cryptography.CryptoConfig.AllowOnlyFipsAlgorithms*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -165,6 +169,7 @@ items:
       type: System.Object
       description: To be added.
   overload: System.Security.Cryptography.CryptoConfig.CreateFromName*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -196,6 +201,7 @@ items:
       type: System.Object
       description: To be added.
   overload: System.Security.Cryptography.CryptoConfig.CreateFromName*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -224,6 +230,7 @@ items:
       type: System.Byte[]
       description: To be added.
   overload: System.Security.Cryptography.CryptoConfig.EncodeOID*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -252,6 +259,7 @@ items:
       type: System.String
       description: To be added.
   overload: System.Security.Cryptography.CryptoConfig.MapNameToOID*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -278,12 +286,20 @@ references:
   name: Type
   nameWithType: Type
   fullName: System.Type
-- uid: System.String
+- uid: System.String[]
   parent: System
   isExternal: false
   name: String
   nameWithType: String
   fullName: System.String[]
+  spec.csharp:
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: String[]
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
 - uid: System.Security.Cryptography.CryptoConfig.AddOID(System.String,System.String[])
   parent: System.Security.Cryptography.CryptoConfig
   isExternal: false
@@ -296,12 +312,6 @@ references:
   name: String
   nameWithType: String
   fullName: System.String
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String[]
 - uid: System.Security.Cryptography.CryptoConfig.AllowOnlyFipsAlgorithms
   parent: System.Security.Cryptography.CryptoConfig
   isExternal: false
@@ -320,78 +330,52 @@ references:
   name: CreateFromName(String)
   nameWithType: CryptoConfig.CreateFromName(String)
   fullName: System.Security.Cryptography.CryptoConfig.CreateFromName(String)
-- uid: System.Object
-  parent: System
-  isExternal: false
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
 - uid: System.Security.Cryptography.CryptoConfig.CreateFromName(System.String,System.Object[])
   parent: System.Security.Cryptography.CryptoConfig
   isExternal: false
   name: CreateFromName(String,Object[])
   nameWithType: CryptoConfig.CreateFromName(String,Object[])
   fullName: System.Security.Cryptography.CryptoConfig.CreateFromName(String,Object[])
-- uid: System.Object
-  parent: System
-  isExternal: false
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
-- uid: System.Object
+- uid: System.Object[]
   parent: System
   isExternal: false
   name: Object
   nameWithType: Object
   fullName: System.Object[]
+  spec.csharp:
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: Object[]
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
 - uid: System.Security.Cryptography.CryptoConfig.EncodeOID(System.String)
   parent: System.Security.Cryptography.CryptoConfig
   isExternal: false
   name: EncodeOID(String)
   nameWithType: CryptoConfig.EncodeOID(String)
   fullName: System.Security.Cryptography.CryptoConfig.EncodeOID(String)
-- uid: System.Byte
+- uid: System.Byte[]
   parent: System
   isExternal: false
   name: Byte
   nameWithType: Byte
   fullName: System.Byte[]
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
+  spec.csharp:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: Byte[]
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
 - uid: System.Security.Cryptography.CryptoConfig.MapNameToOID(System.String)
   parent: System.Security.Cryptography.CryptoConfig
   isExternal: false
   name: MapNameToOID(String)
   nameWithType: CryptoConfig.MapNameToOID(String)
   fullName: System.Security.Cryptography.CryptoConfig.MapNameToOID(String)
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
 - uid: System.Security.Cryptography.CryptoConfig.#ctor*
   parent: System.Security.Cryptography.CryptoConfig
   isExternal: false

@@ -55,6 +55,7 @@ items:
       type: System.Byte[]
       description: To be added.
   overload: System.Configuration.Assemblies.AssemblyHash.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -83,6 +84,7 @@ items:
       type: System.Byte[]
       description: To be added.
   overload: System.Configuration.Assemblies.AssemblyHash.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -107,6 +109,7 @@ items:
       type: System.Configuration.Assemblies.AssemblyHashAlgorithm
       description: To be added.
   overload: System.Configuration.Assemblies.AssemblyHash.Algorithm*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -132,6 +135,7 @@ items:
       type: System.Object
       description: To be added.
   overload: System.Configuration.Assemblies.AssemblyHash.Clone*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -155,6 +159,7 @@ items:
     return:
       type: System.Configuration.Assemblies.AssemblyHash
       description: To be added.
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -180,6 +185,7 @@ items:
       type: System.Byte[]
       description: To be added.
   overload: System.Configuration.Assemblies.AssemblyHash.GetValue*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -205,6 +211,7 @@ items:
       type: System.Byte[]
       description: To be added.
   overload: System.Configuration.Assemblies.AssemblyHash.SetValue*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -219,12 +226,20 @@ references:
   name: AssemblyHash(Byte[])
   nameWithType: AssemblyHash.AssemblyHash(Byte[])
   fullName: System.Configuration.Assemblies.AssemblyHash.AssemblyHash(Byte[])
-- uid: System.Byte
+- uid: System.Byte[]
   parent: System
   isExternal: false
   name: Byte
   nameWithType: Byte
   fullName: System.Byte[]
+  spec.csharp:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: Byte[]
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
 - uid: System.Configuration.Assemblies.AssemblyHash.#ctor(System.Configuration.Assemblies.AssemblyHashAlgorithm,System.Byte[])
   parent: System.Configuration.Assemblies.AssemblyHash
   isExternal: false
@@ -237,24 +252,12 @@ references:
   name: AssemblyHashAlgorithm
   nameWithType: AssemblyHashAlgorithm
   fullName: System.Configuration.Assemblies.AssemblyHashAlgorithm
-- uid: System.Byte
-  parent: System
-  isExternal: false
-  name: Byte
-  nameWithType: Byte
-  fullName: System.Byte[]
 - uid: System.Configuration.Assemblies.AssemblyHash.Algorithm
   parent: System.Configuration.Assemblies.AssemblyHash
   isExternal: false
   name: Algorithm
   nameWithType: AssemblyHash.Algorithm
   fullName: System.Configuration.Assemblies.AssemblyHash.Algorithm
-- uid: System.Configuration.Assemblies.AssemblyHashAlgorithm
-  parent: System.Configuration.Assemblies
-  isExternal: false
-  name: AssemblyHashAlgorithm
-  nameWithType: AssemblyHashAlgorithm
-  fullName: System.Configuration.Assemblies.AssemblyHashAlgorithm
 - uid: System.Configuration.Assemblies.AssemblyHash.Clone
   parent: System.Configuration.Assemblies.AssemblyHash
   isExternal: false
@@ -285,24 +288,12 @@ references:
   name: GetValue()
   nameWithType: AssemblyHash.GetValue()
   fullName: System.Configuration.Assemblies.AssemblyHash.GetValue()
-- uid: System.Byte
-  parent: System
-  isExternal: false
-  name: Byte
-  nameWithType: Byte
-  fullName: System.Byte[]
 - uid: System.Configuration.Assemblies.AssemblyHash.SetValue(System.Byte[])
   parent: System.Configuration.Assemblies.AssemblyHash
   isExternal: false
   name: SetValue(Byte[])
   nameWithType: AssemblyHash.SetValue(Byte[])
   fullName: System.Configuration.Assemblies.AssemblyHash.SetValue(Byte[])
-- uid: System.Byte
-  parent: System
-  isExternal: false
-  name: Byte
-  nameWithType: Byte
-  fullName: System.Byte[]
 - uid: System.Configuration.Assemblies.AssemblyHash.#ctor*
   parent: System.Configuration.Assemblies.AssemblyHash
   isExternal: false

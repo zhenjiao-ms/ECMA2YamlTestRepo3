@@ -68,6 +68,7 @@ items:
       type: System.Runtime.Serialization.StreamingContext
       description: To be added.
   overload: System.Runtime.Serialization.ObjectManager.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -90,6 +91,7 @@ items:
     content: public virtual void DoFixups ();
     parameters: []
   overload: System.Runtime.Serialization.ObjectManager.DoFixups*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -118,6 +120,7 @@ items:
       type: System.Object
       description: To be added.
   overload: System.Runtime.Serialization.ObjectManager.GetObject*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -140,6 +143,7 @@ items:
     content: public virtual void RaiseDeserializationEvent ();
     parameters: []
   overload: System.Runtime.Serialization.ObjectManager.RaiseDeserializationEvent*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -165,6 +169,7 @@ items:
       type: System.Object
       description: To be added.
   overload: System.Runtime.Serialization.ObjectManager.RaiseOnDeserializingEvent*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -196,6 +201,7 @@ items:
       type: System.Int64
       description: To be added.
   overload: System.Runtime.Serialization.ObjectManager.RecordArrayElementFixup*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -227,6 +233,7 @@ items:
       type: System.Int64
       description: To be added.
   overload: System.Runtime.Serialization.ObjectManager.RecordArrayElementFixup*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -258,6 +265,7 @@ items:
       type: System.Int64
       description: To be added.
   overload: System.Runtime.Serialization.ObjectManager.RecordDelayedFixup*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -289,6 +297,7 @@ items:
       type: System.Int64
       description: To be added.
   overload: System.Runtime.Serialization.ObjectManager.RecordFixup*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -317,6 +326,7 @@ items:
       type: System.Int64
       description: To be added.
   overload: System.Runtime.Serialization.ObjectManager.RegisterObject*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -348,6 +358,7 @@ items:
       type: System.Runtime.Serialization.SerializationInfo
       description: To be added.
   overload: System.Runtime.Serialization.ObjectManager.RegisterObject*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -385,6 +396,7 @@ items:
       type: System.Reflection.MemberInfo
       description: To be added.
   overload: System.Runtime.Serialization.ObjectManager.RegisterObject*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -425,6 +437,7 @@ items:
       type: System.Int32[]
       description: To be added.
   overload: System.Runtime.Serialization.ObjectManager.RegisterObject*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -463,12 +476,6 @@ references:
   name: GetObject(Int64)
   nameWithType: ObjectManager.GetObject(Int64)
   fullName: System.Runtime.Serialization.ObjectManager.GetObject(Int64)
-- uid: System.Object
-  parent: System
-  isExternal: false
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
 - uid: System.Int64
   parent: System
   isExternal: false
@@ -487,144 +494,74 @@ references:
   name: RaiseOnDeserializingEvent(Object)
   nameWithType: ObjectManager.RaiseOnDeserializingEvent(Object)
   fullName: System.Runtime.Serialization.ObjectManager.RaiseOnDeserializingEvent(Object)
-- uid: System.Object
-  parent: System
-  isExternal: false
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
 - uid: System.Runtime.Serialization.ObjectManager.RecordArrayElementFixup(System.Int64,System.Int32,System.Int64)
   parent: System.Runtime.Serialization.ObjectManager
   isExternal: false
   name: RecordArrayElementFixup(Int64,Int32,Int64)
   nameWithType: ObjectManager.RecordArrayElementFixup(Int64,Int32,Int64)
   fullName: System.Runtime.Serialization.ObjectManager.RecordArrayElementFixup(Int64,Int32,Int64)
-- uid: System.Int64
-  parent: System
-  isExternal: false
-  name: Int64
-  nameWithType: Int64
-  fullName: System.Int64
 - uid: System.Int32
   parent: System
   isExternal: false
   name: Int32
   nameWithType: Int32
   fullName: System.Int32
-- uid: System.Int64
-  parent: System
-  isExternal: false
-  name: Int64
-  nameWithType: Int64
-  fullName: System.Int64
 - uid: System.Runtime.Serialization.ObjectManager.RecordArrayElementFixup(System.Int64,System.Int32[],System.Int64)
   parent: System.Runtime.Serialization.ObjectManager
   isExternal: false
   name: RecordArrayElementFixup(Int64,Int32[],Int64)
   nameWithType: ObjectManager.RecordArrayElementFixup(Int64,Int32[],Int64)
   fullName: System.Runtime.Serialization.ObjectManager.RecordArrayElementFixup(Int64,Int32[],Int64)
-- uid: System.Int64
-  parent: System
-  isExternal: false
-  name: Int64
-  nameWithType: Int64
-  fullName: System.Int64
-- uid: System.Int32
+- uid: System.Int32[]
   parent: System
   isExternal: false
   name: Int32
   nameWithType: Int32
   fullName: System.Int32[]
-- uid: System.Int64
-  parent: System
-  isExternal: false
-  name: Int64
-  nameWithType: Int64
-  fullName: System.Int64
+  spec.csharp:
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: Int32[]
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
 - uid: System.Runtime.Serialization.ObjectManager.RecordDelayedFixup(System.Int64,System.String,System.Int64)
   parent: System.Runtime.Serialization.ObjectManager
   isExternal: false
   name: RecordDelayedFixup(Int64,String,Int64)
   nameWithType: ObjectManager.RecordDelayedFixup(Int64,String,Int64)
   fullName: System.Runtime.Serialization.ObjectManager.RecordDelayedFixup(Int64,String,Int64)
-- uid: System.Int64
-  parent: System
-  isExternal: false
-  name: Int64
-  nameWithType: Int64
-  fullName: System.Int64
 - uid: System.String
   parent: System
   isExternal: false
   name: String
   nameWithType: String
   fullName: System.String
-- uid: System.Int64
-  parent: System
-  isExternal: false
-  name: Int64
-  nameWithType: Int64
-  fullName: System.Int64
 - uid: System.Runtime.Serialization.ObjectManager.RecordFixup(System.Int64,System.Reflection.MemberInfo,System.Int64)
   parent: System.Runtime.Serialization.ObjectManager
   isExternal: false
   name: RecordFixup(Int64,MemberInfo,Int64)
   nameWithType: ObjectManager.RecordFixup(Int64,MemberInfo,Int64)
   fullName: System.Runtime.Serialization.ObjectManager.RecordFixup(Int64,MemberInfo,Int64)
-- uid: System.Int64
-  parent: System
-  isExternal: false
-  name: Int64
-  nameWithType: Int64
-  fullName: System.Int64
 - uid: System.Reflection.MemberInfo
   parent: System.Reflection
   isExternal: false
   name: MemberInfo
   nameWithType: MemberInfo
   fullName: System.Reflection.MemberInfo
-- uid: System.Int64
-  parent: System
-  isExternal: false
-  name: Int64
-  nameWithType: Int64
-  fullName: System.Int64
 - uid: System.Runtime.Serialization.ObjectManager.RegisterObject(System.Object,System.Int64)
   parent: System.Runtime.Serialization.ObjectManager
   isExternal: false
   name: RegisterObject(Object,Int64)
   nameWithType: ObjectManager.RegisterObject(Object,Int64)
   fullName: System.Runtime.Serialization.ObjectManager.RegisterObject(Object,Int64)
-- uid: System.Object
-  parent: System
-  isExternal: false
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
-- uid: System.Int64
-  parent: System
-  isExternal: false
-  name: Int64
-  nameWithType: Int64
-  fullName: System.Int64
 - uid: System.Runtime.Serialization.ObjectManager.RegisterObject(System.Object,System.Int64,System.Runtime.Serialization.SerializationInfo)
   parent: System.Runtime.Serialization.ObjectManager
   isExternal: false
   name: RegisterObject(Object,Int64,SerializationInfo)
   nameWithType: ObjectManager.RegisterObject(Object,Int64,SerializationInfo)
   fullName: System.Runtime.Serialization.ObjectManager.RegisterObject(Object,Int64,SerializationInfo)
-- uid: System.Object
-  parent: System
-  isExternal: false
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
-- uid: System.Int64
-  parent: System
-  isExternal: false
-  name: Int64
-  nameWithType: Int64
-  fullName: System.Int64
 - uid: System.Runtime.Serialization.SerializationInfo
   parent: System.Runtime.Serialization
   isExternal: false
@@ -637,78 +574,12 @@ references:
   name: RegisterObject(Object,Int64,SerializationInfo,Int64,MemberInfo)
   nameWithType: ObjectManager.RegisterObject(Object,Int64,SerializationInfo,Int64,MemberInfo)
   fullName: System.Runtime.Serialization.ObjectManager.RegisterObject(Object,Int64,SerializationInfo,Int64,MemberInfo)
-- uid: System.Object
-  parent: System
-  isExternal: false
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
-- uid: System.Int64
-  parent: System
-  isExternal: false
-  name: Int64
-  nameWithType: Int64
-  fullName: System.Int64
-- uid: System.Runtime.Serialization.SerializationInfo
-  parent: System.Runtime.Serialization
-  isExternal: false
-  name: SerializationInfo
-  nameWithType: SerializationInfo
-  fullName: System.Runtime.Serialization.SerializationInfo
-- uid: System.Int64
-  parent: System
-  isExternal: false
-  name: Int64
-  nameWithType: Int64
-  fullName: System.Int64
-- uid: System.Reflection.MemberInfo
-  parent: System.Reflection
-  isExternal: false
-  name: MemberInfo
-  nameWithType: MemberInfo
-  fullName: System.Reflection.MemberInfo
 - uid: System.Runtime.Serialization.ObjectManager.RegisterObject(System.Object,System.Int64,System.Runtime.Serialization.SerializationInfo,System.Int64,System.Reflection.MemberInfo,System.Int32[])
   parent: System.Runtime.Serialization.ObjectManager
   isExternal: false
   name: RegisterObject(Object,Int64,SerializationInfo,Int64,MemberInfo,Int32[])
   nameWithType: ObjectManager.RegisterObject(Object,Int64,SerializationInfo,Int64,MemberInfo,Int32[])
   fullName: System.Runtime.Serialization.ObjectManager.RegisterObject(Object,Int64,SerializationInfo,Int64,MemberInfo,Int32[])
-- uid: System.Object
-  parent: System
-  isExternal: false
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
-- uid: System.Int64
-  parent: System
-  isExternal: false
-  name: Int64
-  nameWithType: Int64
-  fullName: System.Int64
-- uid: System.Runtime.Serialization.SerializationInfo
-  parent: System.Runtime.Serialization
-  isExternal: false
-  name: SerializationInfo
-  nameWithType: SerializationInfo
-  fullName: System.Runtime.Serialization.SerializationInfo
-- uid: System.Int64
-  parent: System
-  isExternal: false
-  name: Int64
-  nameWithType: Int64
-  fullName: System.Int64
-- uid: System.Reflection.MemberInfo
-  parent: System.Reflection
-  isExternal: false
-  name: MemberInfo
-  nameWithType: MemberInfo
-  fullName: System.Reflection.MemberInfo
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32[]
 - uid: System.Runtime.Serialization.ObjectManager.#ctor*
   parent: System.Runtime.Serialization.ObjectManager
   isExternal: false

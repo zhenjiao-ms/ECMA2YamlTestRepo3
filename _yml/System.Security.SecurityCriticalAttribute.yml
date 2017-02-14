@@ -92,6 +92,7 @@ items:
     content: public SecurityCriticalAttribute ();
     parameters: []
   overload: System.Security.SecurityCriticalAttribute.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -117,6 +118,7 @@ items:
       type: System.Security.SecurityCriticalScope
       description: To be added.
   overload: System.Security.SecurityCriticalAttribute.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -141,6 +143,7 @@ items:
       type: System.Security.SecurityCriticalScope
       description: To be added.
   overload: System.Security.SecurityCriticalAttribute.Scope*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -173,12 +176,6 @@ references:
   name: Scope
   nameWithType: SecurityCriticalAttribute.Scope
   fullName: System.Security.SecurityCriticalAttribute.Scope
-- uid: System.Security.SecurityCriticalScope
-  parent: System.Security
-  isExternal: false
-  name: SecurityCriticalScope
-  nameWithType: SecurityCriticalScope
-  fullName: System.Security.SecurityCriticalScope
 - uid: System.Security.SecurityCriticalAttribute.#ctor*
   parent: System.Security.SecurityCriticalAttribute
   isExternal: false

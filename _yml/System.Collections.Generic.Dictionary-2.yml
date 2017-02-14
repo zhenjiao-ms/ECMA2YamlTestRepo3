@@ -110,6 +110,7 @@ items:
     content: public Dictionary ();
     parameters: []
   overload: System.Collections.Generic.Dictionary`2.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -135,6 +136,7 @@ items:
       type: System.Collections.Generic.IDictionary`2
       description: To be added.
   overload: System.Collections.Generic.Dictionary`2.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -160,6 +162,7 @@ items:
       type: System.Collections.Generic.IEqualityComparer{TKey}
       description: To be added.
   overload: System.Collections.Generic.Dictionary`2.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -185,6 +188,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.Collections.Generic.Dictionary`2.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -213,6 +217,7 @@ items:
       type: System.Collections.Generic.IEqualityComparer{TKey}
       description: To be added.
   overload: System.Collections.Generic.Dictionary`2.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -241,6 +246,7 @@ items:
       type: System.Collections.Generic.IEqualityComparer{TKey}
       description: To be added.
   overload: System.Collections.Generic.Dictionary`2.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -269,6 +275,7 @@ items:
       type: System.Runtime.Serialization.StreamingContext
       description: To be added.
   overload: System.Collections.Generic.Dictionary`2.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -297,6 +304,7 @@ items:
       type: TValue
       description: To be added.
   overload: System.Collections.Generic.Dictionary`2.Add*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -319,6 +327,7 @@ items:
     content: public void Clear ();
     parameters: []
   overload: System.Collections.Generic.Dictionary`2.Clear*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -343,6 +352,7 @@ items:
       type: System.Collections.Generic.IEqualityComparer{TKey}
       description: To be added.
   overload: System.Collections.Generic.Dictionary`2.Comparer*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -371,6 +381,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Collections.Generic.Dictionary`2.ContainsKey*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -399,6 +410,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Collections.Generic.Dictionary`2.ContainsValue*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -423,6 +435,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.Collections.Generic.Dictionary`2.Count*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -448,6 +461,7 @@ items:
       type: System.Collections.Generic.Dictionary`2.Enumerator
       description: To be added.
   overload: System.Collections.Generic.Dictionary`2.GetEnumerator*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -476,6 +490,7 @@ items:
       type: System.Runtime.Serialization.StreamingContext
       description: To be added.
   overload: System.Collections.Generic.Dictionary`2.GetObjectData*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -504,6 +519,7 @@ items:
       type: TValue
       description: To be added.
   overload: System.Collections.Generic.Dictionary`2.Item*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -528,6 +544,7 @@ items:
       type: System.Collections.Generic.Dictionary`2.KeyCollection
       description: To be added.
   overload: System.Collections.Generic.Dictionary`2.Keys*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -553,6 +570,7 @@ items:
       type: System.Object
       description: To be added.
   overload: System.Collections.Generic.Dictionary`2.OnDeserialization*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -581,6 +599,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Collections.Generic.Dictionary`2.Remove*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -607,6 +626,7 @@ items:
       type: System.Collections.Generic.KeyValuePair`2
       description: To be added.
   overload: System.Collections.Generic.Dictionary`2.System#Collections#Generic#ICollection<System#Collections#Generic#KeyValuePair<TKey,TValue>>#Add*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -636,6 +656,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Collections.Generic.Dictionary`2.System#Collections#Generic#ICollection<System#Collections#Generic#KeyValuePair<TKey,TValue>>#Contains*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -659,12 +680,13 @@ items:
     content: void ICollection<KeyValuePair<TKey,TValue>>.CopyTo (System.Collections.Generic.KeyValuePair<TKey,TValue>[] array, int index);
     parameters:
     - id: array
-      type: System.Collections.Generic.KeyValuePair{TKey,TValue}
+      type: System.Collections.Generic.KeyValuePair{TKey,TValue}[]
       description: To be added.
     - id: index
       type: System.Int32
       description: To be added.
   overload: System.Collections.Generic.Dictionary`2.System#Collections#Generic#ICollection<System#Collections#Generic#KeyValuePair<TKey,TValue>>#CopyTo*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -690,6 +712,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Collections.Generic.Dictionary`2.System#Collections#Generic#ICollection<System#Collections#Generic#KeyValuePair<TKey,TValue>>#IsReadOnly*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -719,6 +742,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Collections.Generic.Dictionary`2.System#Collections#Generic#ICollection<System#Collections#Generic#KeyValuePair<TKey,TValue>>#Remove*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -744,6 +768,7 @@ items:
       type: System.Collections.Generic.ICollection{TKey}
       description: To be added.
   overload: System.Collections.Generic.Dictionary`2.System#Collections#Generic#IDictionary<TKey,TValue>#Keys*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -769,6 +794,7 @@ items:
       type: System.Collections.Generic.ICollection{TValue}
       description: To be added.
   overload: System.Collections.Generic.Dictionary`2.System#Collections#Generic#IDictionary<TKey,TValue>#Values*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -795,6 +821,7 @@ items:
       type: System.Collections.Generic.IEnumerator{System.Collections.Generic.KeyValuePair{TKey,TValue}}
       description: To be added.
   overload: System.Collections.Generic.Dictionary`2.System#Collections#Generic#IEnumerable<System#Collections#Generic#KeyValuePair<TKey,TValue>>#GetEnumerator*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -820,6 +847,7 @@ items:
       type: System.Collections.Generic.IEnumerable{TKey}
       description: To be added.
   overload: System.Collections.Generic.Dictionary`2.System#Collections#Generic#IReadOnlyDictionary<TKey,TValue>#Keys*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -845,6 +873,7 @@ items:
       type: System.Collections.Generic.IEnumerable{TValue}
       description: To be added.
   overload: System.Collections.Generic.Dictionary`2.System#Collections#Generic#IReadOnlyDictionary<TKey,TValue>#Values*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -874,6 +903,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.Collections.Generic.Dictionary`2.System#Collections#ICollection#CopyTo*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -899,6 +929,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Collections.Generic.Dictionary`2.System#Collections#ICollection#IsSynchronized*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -924,6 +955,7 @@ items:
       type: System.Object
       description: To be added.
   overload: System.Collections.Generic.Dictionary`2.System#Collections#ICollection#SyncRoot*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -953,6 +985,7 @@ items:
       type: System.Object
       description: To be added.
   overload: System.Collections.Generic.Dictionary`2.System#Collections#IDictionary#Add*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -982,6 +1015,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Collections.Generic.Dictionary`2.System#Collections#IDictionary#Contains*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -1008,6 +1042,7 @@ items:
       type: System.Collections.IDictionaryEnumerator
       description: To be added.
   overload: System.Collections.Generic.Dictionary`2.System#Collections#IDictionary#GetEnumerator*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -1033,6 +1068,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Collections.Generic.Dictionary`2.System#Collections#IDictionary#IsFixedSize*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -1058,6 +1094,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Collections.Generic.Dictionary`2.System#Collections#IDictionary#IsReadOnly*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -1087,6 +1124,7 @@ items:
       type: System.Object
       description: To be added.
   overload: System.Collections.Generic.Dictionary`2.System#Collections#IDictionary#Item*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -1112,6 +1150,7 @@ items:
       type: System.Collections.ICollection
       description: To be added.
   overload: System.Collections.Generic.Dictionary`2.System#Collections#IDictionary#Keys*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -1138,6 +1177,7 @@ items:
       type: System.Object
       description: To be added.
   overload: System.Collections.Generic.Dictionary`2.System#Collections#IDictionary#Remove*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -1163,6 +1203,7 @@ items:
       type: System.Collections.ICollection
       description: To be added.
   overload: System.Collections.Generic.Dictionary`2.System#Collections#IDictionary#Values*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -1189,6 +1230,7 @@ items:
       type: System.Collections.IEnumerator
       description: To be added.
   overload: System.Collections.Generic.Dictionary`2.System#Collections#IEnumerable#GetEnumerator*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -1220,6 +1262,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Collections.Generic.Dictionary`2.TryGetValue*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -1244,6 +1287,7 @@ items:
       type: System.Collections.Generic.Dictionary`2.ValueCollection
       description: To be added.
   overload: System.Collections.Generic.Dictionary`2.Values*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -1282,6 +1326,21 @@ references:
   name: IEqualityComparer<TKey>
   nameWithType: IEqualityComparer<TKey>
   fullName: System.Collections.Generic.IEqualityComparer<TKey>
+  spec.csharp:
+  - uid: System.Collections.Generic.IEqualityComparer`1
+    name: IEqualityComparer
+    nameWithType: IEqualityComparer
+    fullName: IEqualityComparer<TKey>
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: TKey
+    name: TKey
+    nameWithType: TKey
+    fullName: TKey
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
 - uid: System.Collections.Generic.Dictionary`2.#ctor(System.Int32)
   parent: System.Collections.Generic.Dictionary`2
   isExternal: false
@@ -1300,36 +1359,12 @@ references:
   name: Dictionary(IDictionary<TKey,TValue>,IEqualityComparer<TKey>)
   nameWithType: Dictionary<TKey,TValue>.Dictionary(IDictionary<TKey,TValue>,IEqualityComparer<TKey>)
   fullName: System.Collections.Generic.Dictionary<TKey,TValue>.Dictionary(IDictionary<TKey,TValue>,IEqualityComparer<TKey>)
-- uid: System.Collections.Generic.IDictionary`2
-  parent: System.Collections.Generic
-  isExternal: false
-  name: IDictionary<TKey,TValue>
-  nameWithType: IDictionary<TKey,TValue>
-  fullName: System.Collections.Generic.IDictionary<TKey,TValue>
-- uid: System.Collections.Generic.IEqualityComparer{TKey}
-  parent: System.Collections.Generic
-  isExternal: false
-  name: IEqualityComparer<TKey>
-  nameWithType: IEqualityComparer<TKey>
-  fullName: System.Collections.Generic.IEqualityComparer<TKey>
 - uid: System.Collections.Generic.Dictionary`2.#ctor(System.Int32,System.Collections.Generic.IEqualityComparer{`0})
   parent: System.Collections.Generic.Dictionary`2
   isExternal: false
   name: Dictionary(Int32,IEqualityComparer<TKey>)
   nameWithType: Dictionary<TKey,TValue>.Dictionary(Int32,IEqualityComparer<TKey>)
   fullName: System.Collections.Generic.Dictionary<TKey,TValue>.Dictionary(Int32,IEqualityComparer<TKey>)
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: System.Collections.Generic.IEqualityComparer{TKey}
-  parent: System.Collections.Generic
-  isExternal: false
-  name: IEqualityComparer<TKey>
-  nameWithType: IEqualityComparer<TKey>
-  fullName: System.Collections.Generic.IEqualityComparer<TKey>
 - uid: System.Collections.Generic.Dictionary`2.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
   parent: System.Collections.Generic.Dictionary`2
   isExternal: false
@@ -1355,13 +1390,11 @@ references:
   nameWithType: Dictionary<TKey,TValue>.Add(TKey,TValue)
   fullName: System.Collections.Generic.Dictionary<TKey,TValue>.Add(TKey,TValue)
 - uid: TKey
-  parent: ''
   isExternal: true
   name: TKey
   nameWithType: TKey
   fullName: TKey
 - uid: TValue
-  parent: ''
   isExternal: true
   name: TValue
   nameWithType: TValue
@@ -1378,12 +1411,6 @@ references:
   name: Comparer
   nameWithType: Dictionary<TKey,TValue>.Comparer
   fullName: System.Collections.Generic.Dictionary<TKey,TValue>.Comparer
-- uid: System.Collections.Generic.IEqualityComparer{TKey}
-  parent: System.Collections.Generic
-  isExternal: false
-  name: IEqualityComparer<TKey>
-  nameWithType: IEqualityComparer<TKey>
-  fullName: System.Collections.Generic.IEqualityComparer<TKey>
 - uid: System.Collections.Generic.Dictionary`2.ContainsKey(`0)
   parent: System.Collections.Generic.Dictionary`2
   isExternal: false
@@ -1396,42 +1423,18 @@ references:
   name: Boolean
   nameWithType: Boolean
   fullName: System.Boolean
-- uid: TKey
-  parent: ''
-  isExternal: true
-  name: TKey
-  nameWithType: TKey
-  fullName: TKey
 - uid: System.Collections.Generic.Dictionary`2.ContainsValue(`1)
   parent: System.Collections.Generic.Dictionary`2
   isExternal: false
   name: ContainsValue(TValue)
   nameWithType: Dictionary<TKey,TValue>.ContainsValue(TValue)
   fullName: System.Collections.Generic.Dictionary<TKey,TValue>.ContainsValue(TValue)
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
-- uid: TValue
-  parent: ''
-  isExternal: true
-  name: TValue
-  nameWithType: TValue
-  fullName: TValue
 - uid: System.Collections.Generic.Dictionary`2.Count
   parent: System.Collections.Generic.Dictionary`2
   isExternal: false
   name: Count
   nameWithType: Dictionary<TKey,TValue>.Count
   fullName: System.Collections.Generic.Dictionary<TKey,TValue>.Count
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
 - uid: System.Collections.Generic.Dictionary`2.GetEnumerator
   parent: System.Collections.Generic.Dictionary`2
   isExternal: false
@@ -1450,36 +1453,12 @@ references:
   name: GetObjectData(SerializationInfo,StreamingContext)
   nameWithType: Dictionary<TKey,TValue>.GetObjectData(SerializationInfo,StreamingContext)
   fullName: System.Collections.Generic.Dictionary<TKey,TValue>.GetObjectData(SerializationInfo,StreamingContext)
-- uid: System.Runtime.Serialization.SerializationInfo
-  parent: System.Runtime.Serialization
-  isExternal: false
-  name: SerializationInfo
-  nameWithType: SerializationInfo
-  fullName: System.Runtime.Serialization.SerializationInfo
-- uid: System.Runtime.Serialization.StreamingContext
-  parent: System.Runtime.Serialization
-  isExternal: false
-  name: StreamingContext
-  nameWithType: StreamingContext
-  fullName: System.Runtime.Serialization.StreamingContext
 - uid: System.Collections.Generic.Dictionary`2.Item(`0)
   parent: System.Collections.Generic.Dictionary`2
   isExternal: false
   name: Item(TKey)
   nameWithType: Dictionary<TKey,TValue>.Item(TKey)
   fullName: System.Collections.Generic.Dictionary<TKey,TValue>.Item(TKey)
-- uid: TValue
-  parent: ''
-  isExternal: true
-  name: TValue
-  nameWithType: TValue
-  fullName: TValue
-- uid: TKey
-  parent: ''
-  isExternal: true
-  name: TKey
-  nameWithType: TKey
-  fullName: TKey
 - uid: System.Collections.Generic.Dictionary`2.Keys
   parent: System.Collections.Generic.Dictionary`2
   isExternal: false
@@ -1498,30 +1477,12 @@ references:
   name: OnDeserialization(Object)
   nameWithType: Dictionary<TKey,TValue>.OnDeserialization(Object)
   fullName: System.Collections.Generic.Dictionary<TKey,TValue>.OnDeserialization(Object)
-- uid: System.Object
-  parent: System
-  isExternal: false
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
 - uid: System.Collections.Generic.Dictionary`2.Remove(`0)
   parent: System.Collections.Generic.Dictionary`2
   isExternal: false
   name: Remove(TKey)
   nameWithType: Dictionary<TKey,TValue>.Remove(TKey)
   fullName: System.Collections.Generic.Dictionary<TKey,TValue>.Remove(TKey)
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
-- uid: TKey
-  parent: ''
-  isExternal: true
-  name: TKey
-  nameWithType: TKey
-  fullName: TKey
 - uid: System.Collections.Generic.Dictionary`2.System#Collections#Generic#ICollection{System#Collections#Generic#KeyValuePair{TKey,TValue}}#Add(System.Collections.Generic.KeyValuePair`2)
   parent: System.Collections.Generic.Dictionary`2
   isExternal: false
@@ -1540,66 +1501,55 @@ references:
   name: System.Collections.Generic.ICollection(KeyValuePair<TKey,TValue>)
   nameWithType: Dictionary<TKey,TValue>.System.Collections.Generic.ICollection(KeyValuePair<TKey,TValue>)
   fullName: System.Collections.Generic.Dictionary<TKey,TValue>.System.Collections.Generic.ICollection(KeyValuePair<TKey,TValue>)
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
-- uid: System.Collections.Generic.KeyValuePair`2
-  parent: System.Collections.Generic
-  isExternal: false
-  name: KeyValuePair<TKey,TValue>
-  nameWithType: KeyValuePair<TKey,TValue>
-  fullName: System.Collections.Generic.KeyValuePair<TKey,TValue>
 - uid: System.Collections.Generic.Dictionary`2.System#Collections#Generic#ICollection{System#Collections#Generic#KeyValuePair{TKey,TValue}}#CopyTo(System.Collections.Generic.KeyValuePair{`0,`1}[],System.Int32)
   parent: System.Collections.Generic.Dictionary`2
   isExternal: false
   name: System.Collections.Generic.ICollection(KeyValuePair<TKey,TValue>,Int32)
   nameWithType: Dictionary<TKey,TValue>.System.Collections.Generic.ICollection(KeyValuePair<TKey,TValue>,Int32)
   fullName: System.Collections.Generic.Dictionary<TKey,TValue>.System.Collections.Generic.ICollection(KeyValuePair<TKey,TValue>,Int32)
-- uid: System.Collections.Generic.KeyValuePair{TKey,TValue}
+- uid: System.Collections.Generic.KeyValuePair{TKey,TValue}[]
   parent: System.Collections.Generic
   isExternal: false
   name: KeyValuePair<TKey,TValue>
   nameWithType: KeyValuePair<TKey,TValue>
   fullName: System.Collections.Generic.KeyValuePair<TKey,TValue>[]
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
+  spec.csharp:
+  - uid: System.Collections.Generic.KeyValuePair`2
+    name: KeyValuePair
+    nameWithType: KeyValuePair
+    fullName: KeyValuePair<TKey,TValue>[]
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: TKey
+    name: TKey
+    nameWithType: TKey
+    fullName: TKey
+  - name: ','
+    nameWithType: ','
+    fullName: ','
+  - uid: TValue
+    name: TValue
+    nameWithType: TValue
+    fullName: TValue
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
 - uid: System.Collections.Generic.Dictionary`2.System#Collections#Generic#ICollection{System#Collections#Generic#KeyValuePair{TKey,TValue}}#IsReadOnly
   parent: System.Collections.Generic.Dictionary`2
   isExternal: false
   name: System.Collections.Generic.ICollection
   nameWithType: Dictionary<TKey,TValue>.System.Collections.Generic.ICollection
   fullName: System.Collections.Generic.Dictionary<TKey,TValue>.System.Collections.Generic.ICollection
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
 - uid: System.Collections.Generic.Dictionary`2.System#Collections#Generic#ICollection{System#Collections#Generic#KeyValuePair{TKey,TValue}}#Remove(System.Collections.Generic.KeyValuePair`2)
   parent: System.Collections.Generic.Dictionary`2
   isExternal: false
   name: System.Collections.Generic.ICollection(KeyValuePair<TKey,TValue>)
   nameWithType: Dictionary<TKey,TValue>.System.Collections.Generic.ICollection(KeyValuePair<TKey,TValue>)
   fullName: System.Collections.Generic.Dictionary<TKey,TValue>.System.Collections.Generic.ICollection(KeyValuePair<TKey,TValue>)
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
-- uid: System.Collections.Generic.KeyValuePair`2
-  parent: System.Collections.Generic
-  isExternal: false
-  name: KeyValuePair<TKey,TValue>
-  nameWithType: KeyValuePair<TKey,TValue>
-  fullName: System.Collections.Generic.KeyValuePair<TKey,TValue>
 - uid: System.Collections.Generic.Dictionary`2.System#Collections#Generic#IDictionary{TKey,TValue}#Keys
   parent: System.Collections.Generic.Dictionary`2
   isExternal: false
@@ -1612,6 +1562,21 @@ references:
   name: ICollection<TKey>
   nameWithType: ICollection<TKey>
   fullName: System.Collections.Generic.ICollection<TKey>
+  spec.csharp:
+  - uid: System.Collections.Generic.ICollection`1
+    name: ICollection
+    nameWithType: ICollection
+    fullName: ICollection<TKey>
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: TKey
+    name: TKey
+    nameWithType: TKey
+    fullName: TKey
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
 - uid: System.Collections.Generic.Dictionary`2.System#Collections#Generic#IDictionary{TKey,TValue}#Values
   parent: System.Collections.Generic.Dictionary`2
   isExternal: false
@@ -1624,6 +1589,21 @@ references:
   name: ICollection<TValue>
   nameWithType: ICollection<TValue>
   fullName: System.Collections.Generic.ICollection<TValue>
+  spec.csharp:
+  - uid: System.Collections.Generic.ICollection`1
+    name: ICollection
+    nameWithType: ICollection
+    fullName: ICollection<TValue>
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: TValue
+    name: TValue
+    nameWithType: TValue
+    fullName: TValue
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
 - uid: System.Collections.Generic.Dictionary`2.System#Collections#Generic#IEnumerable{System#Collections#Generic#KeyValuePair{TKey,TValue}}#GetEnumerator
   parent: System.Collections.Generic.Dictionary`2
   isExternal: false
@@ -1636,6 +1616,38 @@ references:
   name: IEnumerator<KeyValuePair<TKey,TValue>>
   nameWithType: IEnumerator<KeyValuePair<TKey,TValue>>
   fullName: System.Collections.Generic.IEnumerator<System.Collections.Generic.KeyValuePair<TKey,TValue>>
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerator`1
+    name: IEnumerator
+    nameWithType: IEnumerator
+    fullName: IEnumerator<System.Collections.Generic.KeyValuePair<TKey,TValue>>
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Collections.Generic.KeyValuePair`2
+    name: KeyValuePair
+    nameWithType: KeyValuePair
+    fullName: KeyValuePair<TKey,TValue>
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: TKey
+    name: TKey
+    nameWithType: TKey
+    fullName: TKey
+  - name: ','
+    nameWithType: ','
+    fullName: ','
+  - uid: TValue
+    name: TValue
+    nameWithType: TValue
+    fullName: TValue
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
 - uid: System.Collections.Generic.Dictionary`2.System#Collections#Generic#IReadOnlyDictionary{TKey,TValue}#Keys
   parent: System.Collections.Generic.Dictionary`2
   isExternal: false
@@ -1648,6 +1660,21 @@ references:
   name: IEnumerable<TKey>
   nameWithType: IEnumerable<TKey>
   fullName: System.Collections.Generic.IEnumerable<TKey>
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: IEnumerable<TKey>
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: TKey
+    name: TKey
+    nameWithType: TKey
+    fullName: TKey
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
 - uid: System.Collections.Generic.Dictionary`2.System#Collections#Generic#IReadOnlyDictionary{TKey,TValue}#Values
   parent: System.Collections.Generic.Dictionary`2
   isExternal: false
@@ -1660,6 +1687,21 @@ references:
   name: IEnumerable<TValue>
   nameWithType: IEnumerable<TValue>
   fullName: System.Collections.Generic.IEnumerable<TValue>
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: IEnumerable<TValue>
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: TValue
+    name: TValue
+    nameWithType: TValue
+    fullName: TValue
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
 - uid: System.Collections.Generic.Dictionary`2.System#Collections#ICollection#CopyTo(System.Array,System.Int32)
   parent: System.Collections.Generic.Dictionary`2
   isExternal: false
@@ -1672,72 +1714,30 @@ references:
   name: Array
   nameWithType: Array
   fullName: System.Array
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
 - uid: System.Collections.Generic.Dictionary`2.System#Collections#ICollection#IsSynchronized
   parent: System.Collections.Generic.Dictionary`2
   isExternal: false
   name: System.Collections.ICollection.IsSynchronized
   nameWithType: Dictionary<TKey,TValue>.System.Collections.ICollection.IsSynchronized
   fullName: System.Collections.Generic.Dictionary<TKey,TValue>.System.Collections.ICollection.IsSynchronized
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
 - uid: System.Collections.Generic.Dictionary`2.System#Collections#ICollection#SyncRoot
   parent: System.Collections.Generic.Dictionary`2
   isExternal: false
   name: System.Collections.ICollection.SyncRoot
   nameWithType: Dictionary<TKey,TValue>.System.Collections.ICollection.SyncRoot
   fullName: System.Collections.Generic.Dictionary<TKey,TValue>.System.Collections.ICollection.SyncRoot
-- uid: System.Object
-  parent: System
-  isExternal: false
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
 - uid: System.Collections.Generic.Dictionary`2.System#Collections#IDictionary#Add(System.Object,System.Object)
   parent: System.Collections.Generic.Dictionary`2
   isExternal: false
   name: System.Collections.IDictionary.Add(Object,Object)
   nameWithType: Dictionary<TKey,TValue>.System.Collections.IDictionary.Add(Object,Object)
   fullName: System.Collections.Generic.Dictionary<TKey,TValue>.System.Collections.IDictionary.Add(Object,Object)
-- uid: System.Object
-  parent: System
-  isExternal: false
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
-- uid: System.Object
-  parent: System
-  isExternal: false
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
 - uid: System.Collections.Generic.Dictionary`2.System#Collections#IDictionary#Contains(System.Object)
   parent: System.Collections.Generic.Dictionary`2
   isExternal: false
   name: System.Collections.IDictionary.Contains(Object)
   nameWithType: Dictionary<TKey,TValue>.System.Collections.IDictionary.Contains(Object)
   fullName: System.Collections.Generic.Dictionary<TKey,TValue>.System.Collections.IDictionary.Contains(Object)
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
-- uid: System.Object
-  parent: System
-  isExternal: false
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
 - uid: System.Collections.Generic.Dictionary`2.System#Collections#IDictionary#GetEnumerator
   parent: System.Collections.Generic.Dictionary`2
   isExternal: false
@@ -1756,42 +1756,18 @@ references:
   name: System.Collections.IDictionary.IsFixedSize
   nameWithType: Dictionary<TKey,TValue>.System.Collections.IDictionary.IsFixedSize
   fullName: System.Collections.Generic.Dictionary<TKey,TValue>.System.Collections.IDictionary.IsFixedSize
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
 - uid: System.Collections.Generic.Dictionary`2.System#Collections#IDictionary#IsReadOnly
   parent: System.Collections.Generic.Dictionary`2
   isExternal: false
   name: System.Collections.IDictionary.IsReadOnly
   nameWithType: Dictionary<TKey,TValue>.System.Collections.IDictionary.IsReadOnly
   fullName: System.Collections.Generic.Dictionary<TKey,TValue>.System.Collections.IDictionary.IsReadOnly
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
 - uid: System.Collections.Generic.Dictionary`2.System#Collections#IDictionary#Item(System.Object)
   parent: System.Collections.Generic.Dictionary`2
   isExternal: false
   name: System.Collections.IDictionary.Item(Object)
   nameWithType: Dictionary<TKey,TValue>.System.Collections.IDictionary.Item(Object)
   fullName: System.Collections.Generic.Dictionary<TKey,TValue>.System.Collections.IDictionary.Item(Object)
-- uid: System.Object
-  parent: System
-  isExternal: false
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
-- uid: System.Object
-  parent: System
-  isExternal: false
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
 - uid: System.Collections.Generic.Dictionary`2.System#Collections#IDictionary#Keys
   parent: System.Collections.Generic.Dictionary`2
   isExternal: false
@@ -1810,24 +1786,12 @@ references:
   name: System.Collections.IDictionary.Remove(Object)
   nameWithType: Dictionary<TKey,TValue>.System.Collections.IDictionary.Remove(Object)
   fullName: System.Collections.Generic.Dictionary<TKey,TValue>.System.Collections.IDictionary.Remove(Object)
-- uid: System.Object
-  parent: System
-  isExternal: false
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
 - uid: System.Collections.Generic.Dictionary`2.System#Collections#IDictionary#Values
   parent: System.Collections.Generic.Dictionary`2
   isExternal: false
   name: System.Collections.IDictionary.Values
   nameWithType: Dictionary<TKey,TValue>.System.Collections.IDictionary.Values
   fullName: System.Collections.Generic.Dictionary<TKey,TValue>.System.Collections.IDictionary.Values
-- uid: System.Collections.ICollection
-  parent: System.Collections
-  isExternal: false
-  name: ICollection
-  nameWithType: ICollection
-  fullName: System.Collections.ICollection
 - uid: System.Collections.Generic.Dictionary`2.System#Collections#IEnumerable#GetEnumerator
   parent: System.Collections.Generic.Dictionary`2
   isExternal: false
@@ -1846,24 +1810,6 @@ references:
   name: TryGetValue(TKey,TValue)
   nameWithType: Dictionary<TKey,TValue>.TryGetValue(TKey,TValue)
   fullName: System.Collections.Generic.Dictionary<TKey,TValue>.TryGetValue(TKey,TValue)
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
-- uid: TKey
-  parent: ''
-  isExternal: true
-  name: TKey
-  nameWithType: TKey
-  fullName: TKey
-- uid: TValue
-  parent: ''
-  isExternal: true
-  name: TValue
-  nameWithType: TValue
-  fullName: TValue
 - uid: System.Collections.Generic.Dictionary`2.Values
   parent: System.Collections.Generic.Dictionary`2
   isExternal: false

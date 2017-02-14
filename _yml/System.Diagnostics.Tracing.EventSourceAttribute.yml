@@ -93,6 +93,7 @@ items:
     content: public EventSourceAttribute ();
     parameters: []
   overload: System.Diagnostics.Tracing.EventSourceAttribute.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -117,6 +118,7 @@ items:
       type: System.String
       description: To be added.
   overload: System.Diagnostics.Tracing.EventSourceAttribute.Guid*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -141,6 +143,7 @@ items:
       type: System.String
       description: To be added.
   overload: System.Diagnostics.Tracing.EventSourceAttribute.LocalizationResources*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -165,6 +168,7 @@ items:
       type: System.String
       description: To be added.
   overload: System.Diagnostics.Tracing.EventSourceAttribute.Name*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -197,24 +201,12 @@ references:
   name: LocalizationResources
   nameWithType: EventSourceAttribute.LocalizationResources
   fullName: System.Diagnostics.Tracing.EventSourceAttribute.LocalizationResources
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
 - uid: System.Diagnostics.Tracing.EventSourceAttribute.Name
   parent: System.Diagnostics.Tracing.EventSourceAttribute
   isExternal: false
   name: Name
   nameWithType: EventSourceAttribute.Name
   fullName: System.Diagnostics.Tracing.EventSourceAttribute.Name
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
 - uid: System.Diagnostics.Tracing.EventSourceAttribute.#ctor*
   parent: System.Diagnostics.Tracing.EventSourceAttribute
   isExternal: false

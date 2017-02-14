@@ -41,6 +41,7 @@ items:
     return:
       type: System.Security.AccessControl.AccessControlType
       description: To be added.
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -63,6 +64,7 @@ items:
     return:
       type: System.Security.AccessControl.AccessControlType
       description: To be added.
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -89,9 +91,3 @@ references:
   name: Deny
   nameWithType: AccessControlType.Deny
   fullName: System.Security.AccessControl.AccessControlType.Deny
-- uid: System.Security.AccessControl.AccessControlType
-  parent: System.Security.AccessControl
-  isExternal: false
-  name: AccessControlType
-  nameWithType: AccessControlType
-  fullName: System.Security.AccessControl.AccessControlType

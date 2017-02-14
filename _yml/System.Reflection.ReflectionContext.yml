@@ -50,6 +50,7 @@ items:
     content: protected ReflectionContext ();
     parameters: []
   overload: System.Reflection.ReflectionContext.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -78,6 +79,7 @@ items:
       type: System.Reflection.TypeInfo
       description: To be added.
   overload: System.Reflection.ReflectionContext.GetTypeForObject*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -106,6 +108,7 @@ items:
       type: System.Reflection.Assembly
       description: To be added.
   overload: System.Reflection.ReflectionContext.MapAssembly*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -134,6 +137,7 @@ items:
       type: System.Reflection.TypeInfo
       description: To be added.
   overload: System.Reflection.ReflectionContext.MapType*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -160,12 +164,6 @@ references:
   name: TypeInfo
   nameWithType: TypeInfo
   fullName: System.Reflection.TypeInfo
-- uid: System.Object
-  parent: System
-  isExternal: false
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
 - uid: System.Reflection.ReflectionContext.MapAssembly(System.Reflection.Assembly)
   parent: System.Reflection.ReflectionContext
   isExternal: false
@@ -178,30 +176,12 @@ references:
   name: Assembly
   nameWithType: Assembly
   fullName: System.Reflection.Assembly
-- uid: System.Reflection.Assembly
-  parent: System.Reflection
-  isExternal: false
-  name: Assembly
-  nameWithType: Assembly
-  fullName: System.Reflection.Assembly
 - uid: System.Reflection.ReflectionContext.MapType(System.Reflection.TypeInfo)
   parent: System.Reflection.ReflectionContext
   isExternal: false
   name: MapType(TypeInfo)
   nameWithType: ReflectionContext.MapType(TypeInfo)
   fullName: System.Reflection.ReflectionContext.MapType(TypeInfo)
-- uid: System.Reflection.TypeInfo
-  parent: System.Reflection
-  isExternal: false
-  name: TypeInfo
-  nameWithType: TypeInfo
-  fullName: System.Reflection.TypeInfo
-- uid: System.Reflection.TypeInfo
-  parent: System.Reflection
-  isExternal: false
-  name: TypeInfo
-  nameWithType: TypeInfo
-  fullName: System.Reflection.TypeInfo
 - uid: System.Reflection.ReflectionContext.#ctor*
   parent: System.Reflection.ReflectionContext
   isExternal: false

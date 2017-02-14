@@ -95,6 +95,7 @@ items:
       type: System.String
       description: To be added.
   overload: System.Runtime.Versioning.TargetFrameworkAttribute.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -119,6 +120,7 @@ items:
       type: System.String
       description: To be added.
   overload: System.Runtime.Versioning.TargetFrameworkAttribute.FrameworkDisplayName*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -143,6 +145,7 @@ items:
       type: System.String
       description: To be added.
   overload: System.Runtime.Versioning.TargetFrameworkAttribute.FrameworkName*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -169,24 +172,12 @@ references:
   name: FrameworkDisplayName
   nameWithType: TargetFrameworkAttribute.FrameworkDisplayName
   fullName: System.Runtime.Versioning.TargetFrameworkAttribute.FrameworkDisplayName
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
 - uid: System.Runtime.Versioning.TargetFrameworkAttribute.FrameworkName
   parent: System.Runtime.Versioning.TargetFrameworkAttribute
   isExternal: false
   name: FrameworkName
   nameWithType: TargetFrameworkAttribute.FrameworkName
   fullName: System.Runtime.Versioning.TargetFrameworkAttribute.FrameworkName
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
 - uid: System.Runtime.Versioning.TargetFrameworkAttribute.#ctor*
   parent: System.Runtime.Versioning.TargetFrameworkAttribute
   isExternal: false

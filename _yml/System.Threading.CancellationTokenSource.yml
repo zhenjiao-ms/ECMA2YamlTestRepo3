@@ -63,6 +63,7 @@ items:
     content: public CancellationTokenSource ();
     parameters: []
   overload: System.Threading.CancellationTokenSource.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -88,6 +89,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.Threading.CancellationTokenSource.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -113,6 +115,7 @@ items:
       type: System.TimeSpan
       description: To be added.
   overload: System.Threading.CancellationTokenSource.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -135,6 +138,7 @@ items:
     content: public void Cancel ();
     parameters: []
   overload: System.Threading.CancellationTokenSource.Cancel*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -160,6 +164,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Threading.CancellationTokenSource.Cancel*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -185,6 +190,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.Threading.CancellationTokenSource.CancelAfter*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -210,6 +216,7 @@ items:
       type: System.TimeSpan
       description: To be added.
   overload: System.Threading.CancellationTokenSource.CancelAfter*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -238,6 +245,7 @@ items:
       type: System.Threading.CancellationTokenSource
       description: To be added.
   overload: System.Threading.CancellationTokenSource.CreateLinkedTokenSource*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -269,6 +277,7 @@ items:
       type: System.Threading.CancellationTokenSource
       description: To be added.
   overload: System.Threading.CancellationTokenSource.CreateLinkedTokenSource*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -291,6 +300,7 @@ items:
     content: public void Dispose ();
     parameters: []
   overload: System.Threading.CancellationTokenSource.Dispose*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -316,6 +326,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Threading.CancellationTokenSource.Dispose*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -340,6 +351,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Threading.CancellationTokenSource.IsCancellationRequested*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -364,6 +376,7 @@ items:
       type: System.Threading.CancellationToken
       description: To be added.
   overload: System.Threading.CancellationTokenSource.Token*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -426,24 +439,12 @@ references:
   name: CancelAfter(Int32)
   nameWithType: CancellationTokenSource.CancelAfter(Int32)
   fullName: System.Threading.CancellationTokenSource.CancelAfter(Int32)
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
 - uid: System.Threading.CancellationTokenSource.CancelAfter(System.TimeSpan)
   parent: System.Threading.CancellationTokenSource
   isExternal: false
   name: CancelAfter(TimeSpan)
   nameWithType: CancellationTokenSource.CancelAfter(TimeSpan)
   fullName: System.Threading.CancellationTokenSource.CancelAfter(TimeSpan)
-- uid: System.TimeSpan
-  parent: System
-  isExternal: false
-  name: TimeSpan
-  nameWithType: TimeSpan
-  fullName: System.TimeSpan
 - uid: System.Threading.CancellationTokenSource.CreateLinkedTokenSource(System.Threading.CancellationToken[])
   parent: System.Threading.CancellationTokenSource
   isExternal: false
@@ -456,30 +457,26 @@ references:
   name: CancellationTokenSource
   nameWithType: CancellationTokenSource
   fullName: System.Threading.CancellationTokenSource
-- uid: System.Threading.CancellationToken
+- uid: System.Threading.CancellationToken[]
   parent: System.Threading
   isExternal: false
   name: CancellationToken
   nameWithType: CancellationToken
   fullName: System.Threading.CancellationToken[]
+  spec.csharp:
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    nameWithType: CancellationToken
+    fullName: CancellationToken[]
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
 - uid: System.Threading.CancellationTokenSource.CreateLinkedTokenSource(System.Threading.CancellationToken,System.Threading.CancellationToken)
   parent: System.Threading.CancellationTokenSource
   isExternal: false
   name: CreateLinkedTokenSource(CancellationToken,CancellationToken)
   nameWithType: CancellationTokenSource.CreateLinkedTokenSource(CancellationToken,CancellationToken)
   fullName: System.Threading.CancellationTokenSource.CreateLinkedTokenSource(CancellationToken,CancellationToken)
-- uid: System.Threading.CancellationTokenSource
-  parent: System.Threading
-  isExternal: false
-  name: CancellationTokenSource
-  nameWithType: CancellationTokenSource
-  fullName: System.Threading.CancellationTokenSource
-- uid: System.Threading.CancellationToken
-  parent: System.Threading
-  isExternal: false
-  name: CancellationToken
-  nameWithType: CancellationToken
-  fullName: System.Threading.CancellationToken
 - uid: System.Threading.CancellationToken
   parent: System.Threading
   isExternal: false
@@ -498,36 +495,18 @@ references:
   name: Dispose(Boolean)
   nameWithType: CancellationTokenSource.Dispose(Boolean)
   fullName: System.Threading.CancellationTokenSource.Dispose(Boolean)
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
 - uid: System.Threading.CancellationTokenSource.IsCancellationRequested
   parent: System.Threading.CancellationTokenSource
   isExternal: false
   name: IsCancellationRequested
   nameWithType: CancellationTokenSource.IsCancellationRequested
   fullName: System.Threading.CancellationTokenSource.IsCancellationRequested
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
 - uid: System.Threading.CancellationTokenSource.Token
   parent: System.Threading.CancellationTokenSource
   isExternal: false
   name: Token
   nameWithType: CancellationTokenSource.Token
   fullName: System.Threading.CancellationTokenSource.Token
-- uid: System.Threading.CancellationToken
-  parent: System.Threading
-  isExternal: false
-  name: CancellationToken
-  nameWithType: CancellationToken
-  fullName: System.Threading.CancellationToken
 - uid: System.Threading.CancellationTokenSource.#ctor*
   parent: System.Threading.CancellationTokenSource
   isExternal: false

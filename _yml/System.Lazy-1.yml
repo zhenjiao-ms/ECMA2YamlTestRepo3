@@ -64,6 +64,7 @@ items:
     content: public Lazy ();
     parameters: []
   overload: System.Lazy`1.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -89,6 +90,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Lazy`1.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -114,6 +116,7 @@ items:
       type: System.Func{T}
       description: To be added.
   overload: System.Lazy`1.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -139,6 +142,7 @@ items:
       type: System.Threading.LazyThreadSafetyMode
       description: To be added.
   overload: System.Lazy`1.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -167,6 +171,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Lazy`1.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -195,6 +200,7 @@ items:
       type: System.Threading.LazyThreadSafetyMode
       description: To be added.
   overload: System.Lazy`1.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -219,6 +225,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Lazy`1.IsValueCreated*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -244,6 +251,7 @@ items:
       type: System.String
       description: To be added.
   overload: System.Lazy`1.ToString*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -268,6 +276,7 @@ items:
       type: T
       description: To be added.
   overload: System.Lazy`1.Value*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -306,6 +315,21 @@ references:
   name: Func<T>
   nameWithType: Func<T>
   fullName: System.Func<T>
+  spec.csharp:
+  - uid: System.Func`1
+    name: Func
+    nameWithType: Func
+    fullName: Func<T>
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: T
+    name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
 - uid: System.Lazy`1.#ctor(System.`0hreading.Lazy`0hreadSafetyMode)
   parent: System.Lazy`1
   isExternal: false
@@ -324,48 +348,18 @@ references:
   name: Lazy(Func<T>,Boolean)
   nameWithType: Lazy<T>.Lazy(Func<T>,Boolean)
   fullName: System.Lazy<T>.Lazy(Func<T>,Boolean)
-- uid: System.Func{T}
-  parent: System
-  isExternal: false
-  name: Func<T>
-  nameWithType: Func<T>
-  fullName: System.Func<T>
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
 - uid: System.Lazy`1.#ctor(System.Func{`0},System.`0hreading.Lazy`0hreadSafetyMode)
   parent: System.Lazy`1
   isExternal: false
   name: Lazy(Func<T>,LazyThreadSafetyMode)
   nameWithType: Lazy<T>.Lazy(Func<T>,LazyThreadSafetyMode)
   fullName: System.Lazy<T>.Lazy(Func<T>,LazyThreadSafetyMode)
-- uid: System.Func{T}
-  parent: System
-  isExternal: false
-  name: Func<T>
-  nameWithType: Func<T>
-  fullName: System.Func<T>
-- uid: System.Threading.LazyThreadSafetyMode
-  parent: System.Threading
-  isExternal: false
-  name: LazyThreadSafetyMode
-  nameWithType: LazyThreadSafetyMode
-  fullName: System.Threading.LazyThreadSafetyMode
 - uid: System.Lazy`1.IsValueCreated
   parent: System.Lazy`1
   isExternal: false
   name: IsValueCreated
   nameWithType: Lazy<T>.IsValueCreated
   fullName: System.Lazy<T>.IsValueCreated
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
 - uid: System.Lazy`1.ToString
   parent: System.Lazy`1
   isExternal: false
@@ -385,7 +379,6 @@ references:
   nameWithType: Lazy<T>.Value
   fullName: System.Lazy<T>.Value
 - uid: T
-  parent: ''
   isExternal: true
   name: T
   nameWithType: T

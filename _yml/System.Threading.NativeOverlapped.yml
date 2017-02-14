@@ -48,6 +48,7 @@ items:
     return:
       type: System.IntPtr
       description: To be added.
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -71,6 +72,7 @@ items:
     return:
       type: System.IntPtr
       description: To be added.
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -94,6 +96,7 @@ items:
     return:
       type: System.IntPtr
       description: To be added.
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -117,6 +120,7 @@ items:
     return:
       type: System.Int32
       description: To be added.
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -140,6 +144,7 @@ items:
     return:
       type: System.Int32
       description: To be added.
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -166,24 +171,12 @@ references:
   name: InternalHigh
   nameWithType: NativeOverlapped.InternalHigh
   fullName: System.Threading.NativeOverlapped.InternalHigh
-- uid: System.IntPtr
-  parent: System
-  isExternal: false
-  name: IntPtr
-  nameWithType: IntPtr
-  fullName: System.IntPtr
 - uid: System.Threading.NativeOverlapped.InternalLow
   parent: System.Threading.NativeOverlapped
   isExternal: false
   name: InternalLow
   nameWithType: NativeOverlapped.InternalLow
   fullName: System.Threading.NativeOverlapped.InternalLow
-- uid: System.IntPtr
-  parent: System
-  isExternal: false
-  name: IntPtr
-  nameWithType: IntPtr
-  fullName: System.IntPtr
 - uid: System.Threading.NativeOverlapped.OffsetHigh
   parent: System.Threading.NativeOverlapped
   isExternal: false
@@ -202,9 +195,3 @@ references:
   name: OffsetLow
   nameWithType: NativeOverlapped.OffsetLow
   fullName: System.Threading.NativeOverlapped.OffsetLow
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32

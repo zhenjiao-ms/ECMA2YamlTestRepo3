@@ -71,6 +71,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.Reflection.Emit.ParameterBuilder.Attributes*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -96,6 +97,7 @@ items:
       type: System.Reflection.Emit.ParameterToken
       description: To be added.
   overload: System.Reflection.Emit.ParameterBuilder.GetToken*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -120,6 +122,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Reflection.Emit.ParameterBuilder.IsIn*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -144,6 +147,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Reflection.Emit.ParameterBuilder.IsOptional*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -168,6 +172,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Reflection.Emit.ParameterBuilder.IsOut*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -192,6 +197,7 @@ items:
       type: System.String
       description: To be added.
   overload: System.Reflection.Emit.ParameterBuilder.Name*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -216,6 +222,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.Reflection.Emit.ParameterBuilder.Position*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -241,6 +248,7 @@ items:
       type: System.Object
       description: To be added.
   overload: System.Reflection.Emit.ParameterBuilder.SetConstant*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -266,6 +274,7 @@ items:
       type: System.Reflection.Emit.CustomAttributeBuilder
       description: To be added.
   overload: System.Reflection.Emit.ParameterBuilder.SetCustomAttribute*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -294,6 +303,7 @@ items:
       type: System.Byte[]
       description: To be added.
   overload: System.Reflection.Emit.ParameterBuilder.SetCustomAttribute*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -319,6 +329,7 @@ items:
       type: System.Reflection.Emit.UnmanagedMarshal
       description: To be added.
   overload: System.Reflection.Emit.ParameterBuilder.SetMarshal*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -357,6 +368,7 @@ items:
       type: System.IntPtr
       description: To be added.
   overload: System.Reflection.Emit.ParameterBuilder.System#Runtime#InteropServices#_ParameterBuilder#GetIDsOfNames*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -389,6 +401,7 @@ items:
       type: System.IntPtr
       description: To be added.
   overload: System.Reflection.Emit.ParameterBuilder.System#Runtime#InteropServices#_ParameterBuilder#GetTypeInfo*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -415,6 +428,7 @@ items:
       type: System.UInt32
       description: To be added.
   overload: System.Reflection.Emit.ParameterBuilder.System#Runtime#InteropServices#_ParameterBuilder#GetTypeInfoCount*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -462,6 +476,7 @@ items:
       type: System.IntPtr
       description: To be added.
   overload: System.Reflection.Emit.ParameterBuilder.System#Runtime#InteropServices#_ParameterBuilder#Invoke*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -512,24 +527,12 @@ references:
   name: IsOptional
   nameWithType: ParameterBuilder.IsOptional
   fullName: System.Reflection.Emit.ParameterBuilder.IsOptional
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
 - uid: System.Reflection.Emit.ParameterBuilder.IsOut
   parent: System.Reflection.Emit.ParameterBuilder
   isExternal: false
   name: IsOut
   nameWithType: ParameterBuilder.IsOut
   fullName: System.Reflection.Emit.ParameterBuilder.IsOut
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
 - uid: System.Reflection.Emit.ParameterBuilder.Name
   parent: System.Reflection.Emit.ParameterBuilder
   isExternal: false
@@ -548,24 +551,12 @@ references:
   name: Position
   nameWithType: ParameterBuilder.Position
   fullName: System.Reflection.Emit.ParameterBuilder.Position
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
 - uid: System.Reflection.Emit.ParameterBuilder.SetConstant(System.Object)
   parent: System.Reflection.Emit.ParameterBuilder
   isExternal: false
   name: SetConstant(Object)
   nameWithType: ParameterBuilder.SetConstant(Object)
   fullName: System.Reflection.Emit.ParameterBuilder.SetConstant(Object)
-- uid: System.Object
-  parent: System
-  isExternal: false
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
 - uid: System.Reflection.Emit.ParameterBuilder.SetCustomAttribute(System.Reflection.Emit.CustomAttributeBuilder)
   parent: System.Reflection.Emit.ParameterBuilder
   isExternal: false
@@ -590,12 +581,20 @@ references:
   name: ConstructorInfo
   nameWithType: ConstructorInfo
   fullName: System.Reflection.ConstructorInfo
-- uid: System.Byte
+- uid: System.Byte[]
   parent: System
   isExternal: false
   name: Byte
   nameWithType: Byte
   fullName: System.Byte[]
+  spec.csharp:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: Byte[]
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
 - uid: System.Reflection.Emit.ParameterBuilder.SetMarshal(System.Reflection.Emit.UnmanagedMarshal)
   parent: System.Reflection.Emit.ParameterBuilder
   isExternal: false
@@ -632,108 +631,30 @@ references:
   name: UInt32
   nameWithType: UInt32
   fullName: System.UInt32
-- uid: System.UInt32
-  parent: System
-  isExternal: false
-  name: UInt32
-  nameWithType: UInt32
-  fullName: System.UInt32
-- uid: System.IntPtr
-  parent: System
-  isExternal: false
-  name: IntPtr
-  nameWithType: IntPtr
-  fullName: System.IntPtr
 - uid: System.Reflection.Emit.ParameterBuilder.System#Runtime#InteropServices#_ParameterBuilder#GetTypeInfo(System.UInt32,System.UInt32,System.IntPtr)
   parent: System.Reflection.Emit.ParameterBuilder
   isExternal: false
   name: System.Runtime.InteropServices._ParameterBuilder.GetTypeInfo(UInt32,UInt32,IntPtr)
   nameWithType: ParameterBuilder.System.Runtime.InteropServices._ParameterBuilder.GetTypeInfo(UInt32,UInt32,IntPtr)
   fullName: System.Reflection.Emit.ParameterBuilder.System.Runtime.InteropServices._ParameterBuilder.GetTypeInfo(UInt32,UInt32,IntPtr)
-- uid: System.UInt32
-  parent: System
-  isExternal: false
-  name: UInt32
-  nameWithType: UInt32
-  fullName: System.UInt32
-- uid: System.UInt32
-  parent: System
-  isExternal: false
-  name: UInt32
-  nameWithType: UInt32
-  fullName: System.UInt32
-- uid: System.IntPtr
-  parent: System
-  isExternal: false
-  name: IntPtr
-  nameWithType: IntPtr
-  fullName: System.IntPtr
 - uid: System.Reflection.Emit.ParameterBuilder.System#Runtime#InteropServices#_ParameterBuilder#GetTypeInfoCount(System.UInt32@)
   parent: System.Reflection.Emit.ParameterBuilder
   isExternal: false
   name: System.Runtime.InteropServices._ParameterBuilder.GetTypeInfoCount(UInt32)
   nameWithType: ParameterBuilder.System.Runtime.InteropServices._ParameterBuilder.GetTypeInfoCount(UInt32)
   fullName: System.Reflection.Emit.ParameterBuilder.System.Runtime.InteropServices._ParameterBuilder.GetTypeInfoCount(UInt32)
-- uid: System.UInt32
-  parent: System
-  isExternal: false
-  name: UInt32
-  nameWithType: UInt32
-  fullName: System.UInt32
 - uid: System.Reflection.Emit.ParameterBuilder.System#Runtime#InteropServices#_ParameterBuilder#Invoke(System.UInt32,System.Guid@,System.UInt32,System.Int16,System.IntPtr,System.IntPtr,System.IntPtr,System.IntPtr)
   parent: System.Reflection.Emit.ParameterBuilder
   isExternal: false
   name: System.Runtime.InteropServices._ParameterBuilder.Invoke(UInt32,Guid,UInt32,Int16,IntPtr,IntPtr,IntPtr,IntPtr)
   nameWithType: ParameterBuilder.System.Runtime.InteropServices._ParameterBuilder.Invoke(UInt32,Guid,UInt32,Int16,IntPtr,IntPtr,IntPtr,IntPtr)
   fullName: System.Reflection.Emit.ParameterBuilder.System.Runtime.InteropServices._ParameterBuilder.Invoke(UInt32,Guid,UInt32,Int16,IntPtr,IntPtr,IntPtr,IntPtr)
-- uid: System.UInt32
-  parent: System
-  isExternal: false
-  name: UInt32
-  nameWithType: UInt32
-  fullName: System.UInt32
-- uid: System.Guid
-  parent: System
-  isExternal: false
-  name: Guid
-  nameWithType: Guid
-  fullName: System.Guid
-- uid: System.UInt32
-  parent: System
-  isExternal: false
-  name: UInt32
-  nameWithType: UInt32
-  fullName: System.UInt32
 - uid: System.Int16
   parent: System
   isExternal: false
   name: Int16
   nameWithType: Int16
   fullName: System.Int16
-- uid: System.IntPtr
-  parent: System
-  isExternal: false
-  name: IntPtr
-  nameWithType: IntPtr
-  fullName: System.IntPtr
-- uid: System.IntPtr
-  parent: System
-  isExternal: false
-  name: IntPtr
-  nameWithType: IntPtr
-  fullName: System.IntPtr
-- uid: System.IntPtr
-  parent: System
-  isExternal: false
-  name: IntPtr
-  nameWithType: IntPtr
-  fullName: System.IntPtr
-- uid: System.IntPtr
-  parent: System
-  isExternal: false
-  name: IntPtr
-  nameWithType: IntPtr
-  fullName: System.IntPtr
 - uid: System.Reflection.Emit.ParameterBuilder.Attributes*
   parent: System.Reflection.Emit.ParameterBuilder
   isExternal: false

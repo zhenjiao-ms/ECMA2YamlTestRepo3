@@ -66,6 +66,7 @@ items:
       type: System.Security.Cryptography.CspParameters
       description: To be added.
   overload: System.Security.Cryptography.CspKeyContainerInfo.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -90,6 +91,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Security.Cryptography.CspKeyContainerInfo.Accessible*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -114,6 +116,7 @@ items:
       type: System.Security.AccessControl.CryptoKeySecurity
       description: To be added.
   overload: System.Security.Cryptography.CspKeyContainerInfo.CryptoKeySecurity*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -138,6 +141,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Security.Cryptography.CspKeyContainerInfo.Exportable*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -162,6 +166,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Security.Cryptography.CspKeyContainerInfo.HardwareDevice*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -186,6 +191,7 @@ items:
       type: System.String
       description: To be added.
   overload: System.Security.Cryptography.CspKeyContainerInfo.KeyContainerName*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -210,6 +216,7 @@ items:
       type: System.Security.Cryptography.KeyNumber
       description: To be added.
   overload: System.Security.Cryptography.CspKeyContainerInfo.KeyNumber*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -234,6 +241,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Security.Cryptography.CspKeyContainerInfo.MachineKeyStore*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -258,6 +266,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Security.Cryptography.CspKeyContainerInfo.Protected*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -282,6 +291,7 @@ items:
       type: System.String
       description: To be added.
   overload: System.Security.Cryptography.CspKeyContainerInfo.ProviderName*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -306,6 +316,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.Security.Cryptography.CspKeyContainerInfo.ProviderType*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -330,6 +341,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Security.Cryptography.CspKeyContainerInfo.RandomlyGenerated*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -354,6 +366,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Security.Cryptography.CspKeyContainerInfo.Removable*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -378,6 +391,7 @@ items:
       type: System.String
       description: To be added.
   overload: System.Security.Cryptography.CspKeyContainerInfo.UniqueKeyContainerName*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -428,24 +442,12 @@ references:
   name: Exportable
   nameWithType: CspKeyContainerInfo.Exportable
   fullName: System.Security.Cryptography.CspKeyContainerInfo.Exportable
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
 - uid: System.Security.Cryptography.CspKeyContainerInfo.HardwareDevice
   parent: System.Security.Cryptography.CspKeyContainerInfo
   isExternal: false
   name: HardwareDevice
   nameWithType: CspKeyContainerInfo.HardwareDevice
   fullName: System.Security.Cryptography.CspKeyContainerInfo.HardwareDevice
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
 - uid: System.Security.Cryptography.CspKeyContainerInfo.KeyContainerName
   parent: System.Security.Cryptography.CspKeyContainerInfo
   isExternal: false
@@ -476,36 +478,18 @@ references:
   name: MachineKeyStore
   nameWithType: CspKeyContainerInfo.MachineKeyStore
   fullName: System.Security.Cryptography.CspKeyContainerInfo.MachineKeyStore
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
 - uid: System.Security.Cryptography.CspKeyContainerInfo.Protected
   parent: System.Security.Cryptography.CspKeyContainerInfo
   isExternal: false
   name: Protected
   nameWithType: CspKeyContainerInfo.Protected
   fullName: System.Security.Cryptography.CspKeyContainerInfo.Protected
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
 - uid: System.Security.Cryptography.CspKeyContainerInfo.ProviderName
   parent: System.Security.Cryptography.CspKeyContainerInfo
   isExternal: false
   name: ProviderName
   nameWithType: CspKeyContainerInfo.ProviderName
   fullName: System.Security.Cryptography.CspKeyContainerInfo.ProviderName
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
 - uid: System.Security.Cryptography.CspKeyContainerInfo.ProviderType
   parent: System.Security.Cryptography.CspKeyContainerInfo
   isExternal: false
@@ -524,36 +508,18 @@ references:
   name: RandomlyGenerated
   nameWithType: CspKeyContainerInfo.RandomlyGenerated
   fullName: System.Security.Cryptography.CspKeyContainerInfo.RandomlyGenerated
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
 - uid: System.Security.Cryptography.CspKeyContainerInfo.Removable
   parent: System.Security.Cryptography.CspKeyContainerInfo
   isExternal: false
   name: Removable
   nameWithType: CspKeyContainerInfo.Removable
   fullName: System.Security.Cryptography.CspKeyContainerInfo.Removable
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
 - uid: System.Security.Cryptography.CspKeyContainerInfo.UniqueKeyContainerName
   parent: System.Security.Cryptography.CspKeyContainerInfo
   isExternal: false
   name: UniqueKeyContainerName
   nameWithType: CspKeyContainerInfo.UniqueKeyContainerName
   fullName: System.Security.Cryptography.CspKeyContainerInfo.UniqueKeyContainerName
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
 - uid: System.Security.Cryptography.CspKeyContainerInfo.#ctor*
   parent: System.Security.Cryptography.CspKeyContainerInfo
   isExternal: false

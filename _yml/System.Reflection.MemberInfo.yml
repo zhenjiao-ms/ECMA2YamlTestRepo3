@@ -74,6 +74,7 @@ items:
     content: protected MemberInfo ();
     parameters: []
   overload: System.Reflection.MemberInfo.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -98,6 +99,7 @@ items:
       type: System.Collections.Generic.IEnumerable{System.Reflection.CustomAttributeData}
       description: To be added.
   overload: System.Reflection.MemberInfo.CustomAttributes*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -122,6 +124,7 @@ items:
       type: System.Type
       description: To be added.
   overload: System.Reflection.MemberInfo.DeclaringType*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -150,6 +153,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Reflection.MemberInfo.Equals*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -178,6 +182,7 @@ items:
       type: System.Object[]
       description: To be added.
   overload: System.Reflection.MemberInfo.GetCustomAttributes*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -209,6 +214,7 @@ items:
       type: System.Object[]
       description: To be added.
   overload: System.Reflection.MemberInfo.GetCustomAttributes*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -234,6 +240,7 @@ items:
       type: System.Collections.Generic.IList{System.Reflection.CustomAttributeData}
       description: To be added.
   overload: System.Reflection.MemberInfo.GetCustomAttributesData*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -259,6 +266,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.Reflection.MemberInfo.GetHashCode*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -290,6 +298,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Reflection.MemberInfo.IsDefined*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -314,6 +323,7 @@ items:
       type: System.Reflection.MemberTypes
       description: To be added.
   overload: System.Reflection.MemberInfo.MemberType*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -338,6 +348,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.Reflection.MemberInfo.MetadataToken*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -362,6 +373,7 @@ items:
       type: System.Reflection.Module
       description: To be added.
   overload: System.Reflection.MemberInfo.Module*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -386,6 +398,7 @@ items:
       type: System.String
       description: To be added.
   overload: System.Reflection.MemberInfo.Name*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -417,6 +430,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Reflection.MemberInfo.op_Equality*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -448,6 +462,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Reflection.MemberInfo.op_Inequality*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -472,6 +487,7 @@ items:
       type: System.Type
       description: To be added.
   overload: System.Reflection.MemberInfo.ReflectedType*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -510,6 +526,7 @@ items:
       type: System.IntPtr
       description: To be added.
   overload: System.Reflection.MemberInfo.System#Runtime#InteropServices#_MemberInfo#GetIDsOfNames*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -536,6 +553,7 @@ items:
       type: System.Type
       description: To be added.
   overload: System.Reflection.MemberInfo.System#Runtime#InteropServices#_MemberInfo#GetType*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -568,6 +586,7 @@ items:
       type: System.IntPtr
       description: To be added.
   overload: System.Reflection.MemberInfo.System#Runtime#InteropServices#_MemberInfo#GetTypeInfo*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -594,6 +613,7 @@ items:
       type: System.UInt32
       description: To be added.
   overload: System.Reflection.MemberInfo.System#Runtime#InteropServices#_MemberInfo#GetTypeInfoCount*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -641,6 +661,7 @@ items:
       type: System.IntPtr
       description: To be added.
   overload: System.Reflection.MemberInfo.System#Runtime#InteropServices#_MemberInfo#Invoke*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -667,6 +688,21 @@ references:
   name: IEnumerable<CustomAttributeData>
   nameWithType: IEnumerable<CustomAttributeData>
   fullName: System.Collections.Generic.IEnumerable<System.Reflection.CustomAttributeData>
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: IEnumerable<System.Reflection.CustomAttributeData>
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Reflection.CustomAttributeData
+    name: CustomAttributeData
+    nameWithType: CustomAttributeData
+    fullName: CustomAttributeData
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
 - uid: System.Reflection.MemberInfo.DeclaringType
   parent: System.Reflection.MemberInfo
   isExternal: false
@@ -691,54 +727,32 @@ references:
   name: Boolean
   nameWithType: Boolean
   fullName: System.Boolean
-- uid: System.Object
-  parent: System
-  isExternal: false
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
 - uid: System.Reflection.MemberInfo.GetCustomAttributes(System.Boolean)
   parent: System.Reflection.MemberInfo
   isExternal: false
   name: GetCustomAttributes(Boolean)
   nameWithType: MemberInfo.GetCustomAttributes(Boolean)
   fullName: System.Reflection.MemberInfo.GetCustomAttributes(Boolean)
-- uid: System.Object
+- uid: System.Object[]
   parent: System
   isExternal: false
   name: Object
   nameWithType: Object
   fullName: System.Object[]
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
+  spec.csharp:
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: Object[]
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
 - uid: System.Reflection.MemberInfo.GetCustomAttributes(System.Type,System.Boolean)
   parent: System.Reflection.MemberInfo
   isExternal: false
   name: GetCustomAttributes(Type,Boolean)
   nameWithType: MemberInfo.GetCustomAttributes(Type,Boolean)
   fullName: System.Reflection.MemberInfo.GetCustomAttributes(Type,Boolean)
-- uid: System.Object
-  parent: System
-  isExternal: false
-  name: Object
-  nameWithType: Object
-  fullName: System.Object[]
-- uid: System.Type
-  parent: System
-  isExternal: false
-  name: Type
-  nameWithType: Type
-  fullName: System.Type
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
 - uid: System.Reflection.MemberInfo.GetCustomAttributesData
   parent: System.Reflection.MemberInfo
   isExternal: false
@@ -751,6 +765,21 @@ references:
   name: IList<CustomAttributeData>
   nameWithType: IList<CustomAttributeData>
   fullName: System.Collections.Generic.IList<System.Reflection.CustomAttributeData>
+  spec.csharp:
+  - uid: System.Collections.Generic.IList`1
+    name: IList
+    nameWithType: IList
+    fullName: IList<System.Reflection.CustomAttributeData>
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Reflection.CustomAttributeData
+    name: CustomAttributeData
+    nameWithType: CustomAttributeData
+    fullName: CustomAttributeData
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
 - uid: System.Reflection.MemberInfo.GetHashCode
   parent: System.Reflection.MemberInfo
   isExternal: false
@@ -769,24 +798,6 @@ references:
   name: IsDefined(Type,Boolean)
   nameWithType: MemberInfo.IsDefined(Type,Boolean)
   fullName: System.Reflection.MemberInfo.IsDefined(Type,Boolean)
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
-- uid: System.Type
-  parent: System
-  isExternal: false
-  name: Type
-  nameWithType: Type
-  fullName: System.Type
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
 - uid: System.Reflection.MemberInfo.MemberType
   parent: System.Reflection.MemberInfo
   isExternal: false
@@ -805,12 +816,6 @@ references:
   name: MetadataToken
   nameWithType: MemberInfo.MetadataToken
   fullName: System.Reflection.MemberInfo.MetadataToken
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
 - uid: System.Reflection.MemberInfo.Module
   parent: System.Reflection.MemberInfo
   isExternal: false
@@ -841,18 +846,6 @@ references:
   name: op_Equality(MemberInfo,MemberInfo)
   nameWithType: MemberInfo.op_Equality(MemberInfo,MemberInfo)
   fullName: System.Reflection.MemberInfo.op_Equality(MemberInfo,MemberInfo)
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
-- uid: System.Reflection.MemberInfo
-  parent: System.Reflection
-  isExternal: false
-  name: MemberInfo
-  nameWithType: MemberInfo
-  fullName: System.Reflection.MemberInfo
 - uid: System.Reflection.MemberInfo
   parent: System.Reflection
   isExternal: false
@@ -865,36 +858,12 @@ references:
   name: op_Inequality(MemberInfo,MemberInfo)
   nameWithType: MemberInfo.op_Inequality(MemberInfo,MemberInfo)
   fullName: System.Reflection.MemberInfo.op_Inequality(MemberInfo,MemberInfo)
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
-- uid: System.Reflection.MemberInfo
-  parent: System.Reflection
-  isExternal: false
-  name: MemberInfo
-  nameWithType: MemberInfo
-  fullName: System.Reflection.MemberInfo
-- uid: System.Reflection.MemberInfo
-  parent: System.Reflection
-  isExternal: false
-  name: MemberInfo
-  nameWithType: MemberInfo
-  fullName: System.Reflection.MemberInfo
 - uid: System.Reflection.MemberInfo.ReflectedType
   parent: System.Reflection.MemberInfo
   isExternal: false
   name: ReflectedType
   nameWithType: MemberInfo.ReflectedType
   fullName: System.Reflection.MemberInfo.ReflectedType
-- uid: System.Type
-  parent: System
-  isExternal: false
-  name: Type
-  nameWithType: Type
-  fullName: System.Type
 - uid: System.Reflection.MemberInfo.System#Runtime#InteropServices#_MemberInfo#GetIDsOfNames(System.Guid@,System.IntPtr,System.UInt32,System.UInt32,System.IntPtr)
   parent: System.Reflection.MemberInfo
   isExternal: false
@@ -919,120 +888,36 @@ references:
   name: UInt32
   nameWithType: UInt32
   fullName: System.UInt32
-- uid: System.UInt32
-  parent: System
-  isExternal: false
-  name: UInt32
-  nameWithType: UInt32
-  fullName: System.UInt32
-- uid: System.IntPtr
-  parent: System
-  isExternal: false
-  name: IntPtr
-  nameWithType: IntPtr
-  fullName: System.IntPtr
 - uid: System.Reflection.MemberInfo.System#Runtime#InteropServices#_MemberInfo#GetType
   parent: System.Reflection.MemberInfo
   isExternal: false
   name: System.Runtime.InteropServices._MemberInfo.GetType()
   nameWithType: MemberInfo.System.Runtime.InteropServices._MemberInfo.GetType()
   fullName: System.Reflection.MemberInfo.System.Runtime.InteropServices._MemberInfo.GetType()
-- uid: System.Type
-  parent: System
-  isExternal: false
-  name: Type
-  nameWithType: Type
-  fullName: System.Type
 - uid: System.Reflection.MemberInfo.System#Runtime#InteropServices#_MemberInfo#GetTypeInfo(System.UInt32,System.UInt32,System.IntPtr)
   parent: System.Reflection.MemberInfo
   isExternal: false
   name: System.Runtime.InteropServices._MemberInfo.GetTypeInfo(UInt32,UInt32,IntPtr)
   nameWithType: MemberInfo.System.Runtime.InteropServices._MemberInfo.GetTypeInfo(UInt32,UInt32,IntPtr)
   fullName: System.Reflection.MemberInfo.System.Runtime.InteropServices._MemberInfo.GetTypeInfo(UInt32,UInt32,IntPtr)
-- uid: System.UInt32
-  parent: System
-  isExternal: false
-  name: UInt32
-  nameWithType: UInt32
-  fullName: System.UInt32
-- uid: System.UInt32
-  parent: System
-  isExternal: false
-  name: UInt32
-  nameWithType: UInt32
-  fullName: System.UInt32
-- uid: System.IntPtr
-  parent: System
-  isExternal: false
-  name: IntPtr
-  nameWithType: IntPtr
-  fullName: System.IntPtr
 - uid: System.Reflection.MemberInfo.System#Runtime#InteropServices#_MemberInfo#GetTypeInfoCount(System.UInt32@)
   parent: System.Reflection.MemberInfo
   isExternal: false
   name: System.Runtime.InteropServices._MemberInfo.GetTypeInfoCount(UInt32)
   nameWithType: MemberInfo.System.Runtime.InteropServices._MemberInfo.GetTypeInfoCount(UInt32)
   fullName: System.Reflection.MemberInfo.System.Runtime.InteropServices._MemberInfo.GetTypeInfoCount(UInt32)
-- uid: System.UInt32
-  parent: System
-  isExternal: false
-  name: UInt32
-  nameWithType: UInt32
-  fullName: System.UInt32
 - uid: System.Reflection.MemberInfo.System#Runtime#InteropServices#_MemberInfo#Invoke(System.UInt32,System.Guid@,System.UInt32,System.Int16,System.IntPtr,System.IntPtr,System.IntPtr,System.IntPtr)
   parent: System.Reflection.MemberInfo
   isExternal: false
   name: System.Runtime.InteropServices._MemberInfo.Invoke(UInt32,Guid,UInt32,Int16,IntPtr,IntPtr,IntPtr,IntPtr)
   nameWithType: MemberInfo.System.Runtime.InteropServices._MemberInfo.Invoke(UInt32,Guid,UInt32,Int16,IntPtr,IntPtr,IntPtr,IntPtr)
   fullName: System.Reflection.MemberInfo.System.Runtime.InteropServices._MemberInfo.Invoke(UInt32,Guid,UInt32,Int16,IntPtr,IntPtr,IntPtr,IntPtr)
-- uid: System.UInt32
-  parent: System
-  isExternal: false
-  name: UInt32
-  nameWithType: UInt32
-  fullName: System.UInt32
-- uid: System.Guid
-  parent: System
-  isExternal: false
-  name: Guid
-  nameWithType: Guid
-  fullName: System.Guid
-- uid: System.UInt32
-  parent: System
-  isExternal: false
-  name: UInt32
-  nameWithType: UInt32
-  fullName: System.UInt32
 - uid: System.Int16
   parent: System
   isExternal: false
   name: Int16
   nameWithType: Int16
   fullName: System.Int16
-- uid: System.IntPtr
-  parent: System
-  isExternal: false
-  name: IntPtr
-  nameWithType: IntPtr
-  fullName: System.IntPtr
-- uid: System.IntPtr
-  parent: System
-  isExternal: false
-  name: IntPtr
-  nameWithType: IntPtr
-  fullName: System.IntPtr
-- uid: System.IntPtr
-  parent: System
-  isExternal: false
-  name: IntPtr
-  nameWithType: IntPtr
-  fullName: System.IntPtr
-- uid: System.IntPtr
-  parent: System
-  isExternal: false
-  name: IntPtr
-  nameWithType: IntPtr
-  fullName: System.IntPtr
 - uid: System.Reflection.MemberInfo.#ctor*
   parent: System.Reflection.MemberInfo
   isExternal: false

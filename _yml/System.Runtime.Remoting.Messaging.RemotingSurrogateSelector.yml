@@ -60,6 +60,7 @@ items:
     content: public RemotingSurrogateSelector ();
     parameters: []
   overload: System.Runtime.Remoting.Messaging.RemotingSurrogateSelector.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -85,6 +86,7 @@ items:
       type: System.Runtime.Serialization.ISurrogateSelector
       description: To be added.
   overload: System.Runtime.Remoting.Messaging.RemotingSurrogateSelector.ChainSelector*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -109,6 +111,7 @@ items:
       type: System.Runtime.Remoting.Messaging.MessageSurrogateFilter
       description: To be added.
   overload: System.Runtime.Remoting.Messaging.RemotingSurrogateSelector.Filter*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -134,6 +137,7 @@ items:
       type: System.Runtime.Serialization.ISurrogateSelector
       description: To be added.
   overload: System.Runtime.Remoting.Messaging.RemotingSurrogateSelector.GetNextSelector*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -159,6 +163,7 @@ items:
       type: System.Object
       description: To be added.
   overload: System.Runtime.Remoting.Messaging.RemotingSurrogateSelector.GetRootObject*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -193,6 +198,7 @@ items:
       type: System.Runtime.Serialization.ISerializationSurrogate
       description: To be added.
   overload: System.Runtime.Remoting.Messaging.RemotingSurrogateSelector.GetSurrogate*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -218,6 +224,7 @@ items:
       type: System.Object
       description: To be added.
   overload: System.Runtime.Remoting.Messaging.RemotingSurrogateSelector.SetRootObject*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -240,6 +247,7 @@ items:
     content: public virtual void UseSoapFormat ();
     parameters: []
   overload: System.Runtime.Remoting.Messaging.RemotingSurrogateSelector.UseSoapFormat*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -284,24 +292,12 @@ references:
   name: GetNextSelector()
   nameWithType: RemotingSurrogateSelector.GetNextSelector()
   fullName: System.Runtime.Remoting.Messaging.RemotingSurrogateSelector.GetNextSelector()
-- uid: System.Runtime.Serialization.ISurrogateSelector
-  parent: System.Runtime.Serialization
-  isExternal: false
-  name: ISurrogateSelector
-  nameWithType: ISurrogateSelector
-  fullName: System.Runtime.Serialization.ISurrogateSelector
 - uid: System.Runtime.Remoting.Messaging.RemotingSurrogateSelector.GetRootObject
   parent: System.Runtime.Remoting.Messaging.RemotingSurrogateSelector
   isExternal: false
   name: GetRootObject()
   nameWithType: RemotingSurrogateSelector.GetRootObject()
   fullName: System.Runtime.Remoting.Messaging.RemotingSurrogateSelector.GetRootObject()
-- uid: System.Object
-  parent: System
-  isExternal: false
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
 - uid: System.Runtime.Remoting.Messaging.RemotingSurrogateSelector.GetSurrogate(System.Type,System.Runtime.Serialization.StreamingContext,System.Runtime.Serialization.ISurrogateSelector@)
   parent: System.Runtime.Remoting.Messaging.RemotingSurrogateSelector
   isExternal: false
@@ -326,24 +322,12 @@ references:
   name: StreamingContext
   nameWithType: StreamingContext
   fullName: System.Runtime.Serialization.StreamingContext
-- uid: System.Runtime.Serialization.ISurrogateSelector
-  parent: System.Runtime.Serialization
-  isExternal: false
-  name: ISurrogateSelector
-  nameWithType: ISurrogateSelector
-  fullName: System.Runtime.Serialization.ISurrogateSelector
 - uid: System.Runtime.Remoting.Messaging.RemotingSurrogateSelector.SetRootObject(System.Object)
   parent: System.Runtime.Remoting.Messaging.RemotingSurrogateSelector
   isExternal: false
   name: SetRootObject(Object)
   nameWithType: RemotingSurrogateSelector.SetRootObject(Object)
   fullName: System.Runtime.Remoting.Messaging.RemotingSurrogateSelector.SetRootObject(Object)
-- uid: System.Object
-  parent: System
-  isExternal: false
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
 - uid: System.Runtime.Remoting.Messaging.RemotingSurrogateSelector.UseSoapFormat
   parent: System.Runtime.Remoting.Messaging.RemotingSurrogateSelector
   isExternal: false

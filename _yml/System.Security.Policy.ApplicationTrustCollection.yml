@@ -76,6 +76,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.Security.Policy.ApplicationTrustCollection.Add*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -101,6 +102,7 @@ items:
       type: System.Security.Policy.ApplicationTrust[]
       description: To be added.
   overload: System.Security.Policy.ApplicationTrustCollection.AddRange*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -126,6 +128,7 @@ items:
       type: System.Security.Policy.ApplicationTrustCollection
       description: To be added.
   overload: System.Security.Policy.ApplicationTrustCollection.AddRange*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -148,6 +151,7 @@ items:
     content: public void Clear ();
     parameters: []
   overload: System.Security.Policy.ApplicationTrustCollection.Clear*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -176,6 +180,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.Security.Policy.ApplicationTrustCollection.CopyTo*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -200,6 +205,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.Security.Policy.ApplicationTrustCollection.Count*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -231,6 +237,7 @@ items:
       type: System.Security.Policy.ApplicationTrustCollection
       description: To be added.
   overload: System.Security.Policy.ApplicationTrustCollection.Find*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -256,6 +263,7 @@ items:
       type: System.Security.Policy.ApplicationTrustEnumerator
       description: To be added.
   overload: System.Security.Policy.ApplicationTrustCollection.GetEnumerator*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -280,6 +288,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Security.Policy.ApplicationTrustCollection.IsSynchronized*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -308,6 +317,7 @@ items:
       type: System.Security.Policy.ApplicationTrust
       description: To be added.
   overload: System.Security.Policy.ApplicationTrustCollection.Item*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -336,6 +346,7 @@ items:
       type: System.Security.Policy.ApplicationTrust
       description: To be added.
   overload: System.Security.Policy.ApplicationTrustCollection.Item*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -361,6 +372,7 @@ items:
       type: System.Security.Policy.ApplicationTrust
       description: To be added.
   overload: System.Security.Policy.ApplicationTrustCollection.Remove*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -389,6 +401,7 @@ items:
       type: System.Security.Policy.ApplicationVersionMatch
       description: To be added.
   overload: System.Security.Policy.ApplicationTrustCollection.Remove*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -414,6 +427,7 @@ items:
       type: System.Security.Policy.ApplicationTrust[]
       description: To be added.
   overload: System.Security.Policy.ApplicationTrustCollection.RemoveRange*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -439,6 +453,7 @@ items:
       type: System.Security.Policy.ApplicationTrustCollection
       description: To be added.
   overload: System.Security.Policy.ApplicationTrustCollection.RemoveRange*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -463,6 +478,7 @@ items:
       type: System.Object
       description: To be added.
   overload: System.Security.Policy.ApplicationTrustCollection.SyncRoot*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -492,6 +508,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.Security.Policy.ApplicationTrustCollection.System#Collections#ICollection#CopyTo*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -518,6 +535,7 @@ items:
       type: System.Collections.IEnumerator
       description: To be added.
   overload: System.Security.Policy.ApplicationTrustCollection.System#Collections#IEnumerable#GetEnumerator*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -550,12 +568,20 @@ references:
   name: AddRange(ApplicationTrust[])
   nameWithType: ApplicationTrustCollection.AddRange(ApplicationTrust[])
   fullName: System.Security.Policy.ApplicationTrustCollection.AddRange(ApplicationTrust[])
-- uid: System.Security.Policy.ApplicationTrust
+- uid: System.Security.Policy.ApplicationTrust[]
   parent: System.Security.Policy
   isExternal: false
   name: ApplicationTrust
   nameWithType: ApplicationTrust
   fullName: System.Security.Policy.ApplicationTrust[]
+  spec.csharp:
+  - uid: System.Security.Policy.ApplicationTrust
+    name: ApplicationTrust
+    nameWithType: ApplicationTrust
+    fullName: ApplicationTrust[]
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
 - uid: System.Security.Policy.ApplicationTrustCollection.AddRange(System.Security.Policy.ApplicationTrustCollection)
   parent: System.Security.Policy.ApplicationTrustCollection
   isExternal: false
@@ -580,42 +606,18 @@ references:
   name: CopyTo(ApplicationTrust[],Int32)
   nameWithType: ApplicationTrustCollection.CopyTo(ApplicationTrust[],Int32)
   fullName: System.Security.Policy.ApplicationTrustCollection.CopyTo(ApplicationTrust[],Int32)
-- uid: System.Security.Policy.ApplicationTrust
-  parent: System.Security.Policy
-  isExternal: false
-  name: ApplicationTrust
-  nameWithType: ApplicationTrust
-  fullName: System.Security.Policy.ApplicationTrust[]
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
 - uid: System.Security.Policy.ApplicationTrustCollection.Count
   parent: System.Security.Policy.ApplicationTrustCollection
   isExternal: false
   name: Count
   nameWithType: ApplicationTrustCollection.Count
   fullName: System.Security.Policy.ApplicationTrustCollection.Count
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
 - uid: System.Security.Policy.ApplicationTrustCollection.Find(System.ApplicationIdentity,System.Security.Policy.ApplicationVersionMatch)
   parent: System.Security.Policy.ApplicationTrustCollection
   isExternal: false
   name: Find(ApplicationIdentity,ApplicationVersionMatch)
   nameWithType: ApplicationTrustCollection.Find(ApplicationIdentity,ApplicationVersionMatch)
   fullName: System.Security.Policy.ApplicationTrustCollection.Find(ApplicationIdentity,ApplicationVersionMatch)
-- uid: System.Security.Policy.ApplicationTrustCollection
-  parent: System.Security.Policy
-  isExternal: false
-  name: ApplicationTrustCollection
-  nameWithType: ApplicationTrustCollection
-  fullName: System.Security.Policy.ApplicationTrustCollection
 - uid: System.ApplicationIdentity
   parent: System
   isExternal: false
@@ -658,30 +660,12 @@ references:
   name: Item(Int32)
   nameWithType: ApplicationTrustCollection.Item(Int32)
   fullName: System.Security.Policy.ApplicationTrustCollection.Item(Int32)
-- uid: System.Security.Policy.ApplicationTrust
-  parent: System.Security.Policy
-  isExternal: false
-  name: ApplicationTrust
-  nameWithType: ApplicationTrust
-  fullName: System.Security.Policy.ApplicationTrust
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
 - uid: System.Security.Policy.ApplicationTrustCollection.Item(System.String)
   parent: System.Security.Policy.ApplicationTrustCollection
   isExternal: false
   name: Item(String)
   nameWithType: ApplicationTrustCollection.Item(String)
   fullName: System.Security.Policy.ApplicationTrustCollection.Item(String)
-- uid: System.Security.Policy.ApplicationTrust
-  parent: System.Security.Policy
-  isExternal: false
-  name: ApplicationTrust
-  nameWithType: ApplicationTrust
-  fullName: System.Security.Policy.ApplicationTrust
 - uid: System.String
   parent: System
   isExternal: false
@@ -694,66 +678,30 @@ references:
   name: Remove(ApplicationTrust)
   nameWithType: ApplicationTrustCollection.Remove(ApplicationTrust)
   fullName: System.Security.Policy.ApplicationTrustCollection.Remove(ApplicationTrust)
-- uid: System.Security.Policy.ApplicationTrust
-  parent: System.Security.Policy
-  isExternal: false
-  name: ApplicationTrust
-  nameWithType: ApplicationTrust
-  fullName: System.Security.Policy.ApplicationTrust
 - uid: System.Security.Policy.ApplicationTrustCollection.Remove(System.ApplicationIdentity,System.Security.Policy.ApplicationVersionMatch)
   parent: System.Security.Policy.ApplicationTrustCollection
   isExternal: false
   name: Remove(ApplicationIdentity,ApplicationVersionMatch)
   nameWithType: ApplicationTrustCollection.Remove(ApplicationIdentity,ApplicationVersionMatch)
   fullName: System.Security.Policy.ApplicationTrustCollection.Remove(ApplicationIdentity,ApplicationVersionMatch)
-- uid: System.ApplicationIdentity
-  parent: System
-  isExternal: false
-  name: ApplicationIdentity
-  nameWithType: ApplicationIdentity
-  fullName: System.ApplicationIdentity
-- uid: System.Security.Policy.ApplicationVersionMatch
-  parent: System.Security.Policy
-  isExternal: false
-  name: ApplicationVersionMatch
-  nameWithType: ApplicationVersionMatch
-  fullName: System.Security.Policy.ApplicationVersionMatch
 - uid: System.Security.Policy.ApplicationTrustCollection.RemoveRange(System.Security.Policy.ApplicationTrust[])
   parent: System.Security.Policy.ApplicationTrustCollection
   isExternal: false
   name: RemoveRange(ApplicationTrust[])
   nameWithType: ApplicationTrustCollection.RemoveRange(ApplicationTrust[])
   fullName: System.Security.Policy.ApplicationTrustCollection.RemoveRange(ApplicationTrust[])
-- uid: System.Security.Policy.ApplicationTrust
-  parent: System.Security.Policy
-  isExternal: false
-  name: ApplicationTrust
-  nameWithType: ApplicationTrust
-  fullName: System.Security.Policy.ApplicationTrust[]
 - uid: System.Security.Policy.ApplicationTrustCollection.RemoveRange(System.Security.Policy.ApplicationTrustCollection)
   parent: System.Security.Policy.ApplicationTrustCollection
   isExternal: false
   name: RemoveRange(ApplicationTrustCollection)
   nameWithType: ApplicationTrustCollection.RemoveRange(ApplicationTrustCollection)
   fullName: System.Security.Policy.ApplicationTrustCollection.RemoveRange(ApplicationTrustCollection)
-- uid: System.Security.Policy.ApplicationTrustCollection
-  parent: System.Security.Policy
-  isExternal: false
-  name: ApplicationTrustCollection
-  nameWithType: ApplicationTrustCollection
-  fullName: System.Security.Policy.ApplicationTrustCollection
 - uid: System.Security.Policy.ApplicationTrustCollection.SyncRoot
   parent: System.Security.Policy.ApplicationTrustCollection
   isExternal: false
   name: SyncRoot
   nameWithType: ApplicationTrustCollection.SyncRoot
   fullName: System.Security.Policy.ApplicationTrustCollection.SyncRoot
-- uid: System.Object
-  parent: System
-  isExternal: false
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
 - uid: System.Security.Policy.ApplicationTrustCollection.System#Collections#ICollection#CopyTo(System.Array,System.Int32)
   parent: System.Security.Policy.ApplicationTrustCollection
   isExternal: false
@@ -766,12 +714,6 @@ references:
   name: Array
   nameWithType: Array
   fullName: System.Array
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
 - uid: System.Security.Policy.ApplicationTrustCollection.System#Collections#IEnumerable#GetEnumerator
   parent: System.Security.Policy.ApplicationTrustCollection
   isExternal: false

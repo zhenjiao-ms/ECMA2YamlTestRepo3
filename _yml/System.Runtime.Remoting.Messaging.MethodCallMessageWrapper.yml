@@ -74,6 +74,7 @@ items:
       type: System.Runtime.Remoting.Messaging.IMethodCallMessage
       description: To be added.
   overload: System.Runtime.Remoting.Messaging.MethodCallMessageWrapper.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -98,6 +99,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.Runtime.Remoting.Messaging.MethodCallMessageWrapper.ArgCount*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -122,6 +124,7 @@ items:
       type: System.Object[]
       description: To be added.
   overload: System.Runtime.Remoting.Messaging.MethodCallMessageWrapper.Args*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -150,6 +153,7 @@ items:
       type: System.Object
       description: To be added.
   overload: System.Runtime.Remoting.Messaging.MethodCallMessageWrapper.GetArg*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -178,6 +182,7 @@ items:
       type: System.String
       description: To be added.
   overload: System.Runtime.Remoting.Messaging.MethodCallMessageWrapper.GetArgName*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -206,6 +211,7 @@ items:
       type: System.Object
       description: To be added.
   overload: System.Runtime.Remoting.Messaging.MethodCallMessageWrapper.GetInArg*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -234,6 +240,7 @@ items:
       type: System.String
       description: To be added.
   overload: System.Runtime.Remoting.Messaging.MethodCallMessageWrapper.GetInArgName*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -258,6 +265,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Runtime.Remoting.Messaging.MethodCallMessageWrapper.HasVarArgs*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -282,6 +290,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.Runtime.Remoting.Messaging.MethodCallMessageWrapper.InArgCount*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -306,6 +315,7 @@ items:
       type: System.Object[]
       description: To be added.
   overload: System.Runtime.Remoting.Messaging.MethodCallMessageWrapper.InArgs*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -330,6 +340,7 @@ items:
       type: System.Runtime.Remoting.Messaging.LogicalCallContext
       description: To be added.
   overload: System.Runtime.Remoting.Messaging.MethodCallMessageWrapper.LogicalCallContext*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -354,6 +365,7 @@ items:
       type: System.Reflection.MethodBase
       description: To be added.
   overload: System.Runtime.Remoting.Messaging.MethodCallMessageWrapper.MethodBase*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -378,6 +390,7 @@ items:
       type: System.String
       description: To be added.
   overload: System.Runtime.Remoting.Messaging.MethodCallMessageWrapper.MethodName*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -402,6 +415,7 @@ items:
       type: System.Object
       description: To be added.
   overload: System.Runtime.Remoting.Messaging.MethodCallMessageWrapper.MethodSignature*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -426,6 +440,7 @@ items:
       type: System.Collections.IDictionary
       description: To be added.
   overload: System.Runtime.Remoting.Messaging.MethodCallMessageWrapper.Properties*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -450,6 +465,7 @@ items:
       type: System.String
       description: To be added.
   overload: System.Runtime.Remoting.Messaging.MethodCallMessageWrapper.TypeName*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -474,6 +490,7 @@ items:
       type: System.String
       description: To be added.
   overload: System.Runtime.Remoting.Messaging.MethodCallMessageWrapper.Uri*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -512,12 +529,20 @@ references:
   name: Args
   nameWithType: MethodCallMessageWrapper.Args
   fullName: System.Runtime.Remoting.Messaging.MethodCallMessageWrapper.Args
-- uid: System.Object
+- uid: System.Object[]
   parent: System
   isExternal: false
   name: Object
   nameWithType: Object
   fullName: System.Object[]
+  spec.csharp:
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: Object[]
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
 - uid: System.Runtime.Remoting.Messaging.MethodCallMessageWrapper.GetArg(System.Int32)
   parent: System.Runtime.Remoting.Messaging.MethodCallMessageWrapper
   isExternal: false
@@ -530,12 +555,6 @@ references:
   name: Object
   nameWithType: Object
   fullName: System.Object
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
 - uid: System.Runtime.Remoting.Messaging.MethodCallMessageWrapper.GetArgName(System.Int32)
   parent: System.Runtime.Remoting.Messaging.MethodCallMessageWrapper
   isExternal: false
@@ -548,48 +567,18 @@ references:
   name: String
   nameWithType: String
   fullName: System.String
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
 - uid: System.Runtime.Remoting.Messaging.MethodCallMessageWrapper.GetInArg(System.Int32)
   parent: System.Runtime.Remoting.Messaging.MethodCallMessageWrapper
   isExternal: false
   name: GetInArg(Int32)
   nameWithType: MethodCallMessageWrapper.GetInArg(Int32)
   fullName: System.Runtime.Remoting.Messaging.MethodCallMessageWrapper.GetInArg(Int32)
-- uid: System.Object
-  parent: System
-  isExternal: false
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
 - uid: System.Runtime.Remoting.Messaging.MethodCallMessageWrapper.GetInArgName(System.Int32)
   parent: System.Runtime.Remoting.Messaging.MethodCallMessageWrapper
   isExternal: false
   name: GetInArgName(Int32)
   nameWithType: MethodCallMessageWrapper.GetInArgName(Int32)
   fullName: System.Runtime.Remoting.Messaging.MethodCallMessageWrapper.GetInArgName(Int32)
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
 - uid: System.Runtime.Remoting.Messaging.MethodCallMessageWrapper.HasVarArgs
   parent: System.Runtime.Remoting.Messaging.MethodCallMessageWrapper
   isExternal: false
@@ -608,24 +597,12 @@ references:
   name: InArgCount
   nameWithType: MethodCallMessageWrapper.InArgCount
   fullName: System.Runtime.Remoting.Messaging.MethodCallMessageWrapper.InArgCount
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
 - uid: System.Runtime.Remoting.Messaging.MethodCallMessageWrapper.InArgs
   parent: System.Runtime.Remoting.Messaging.MethodCallMessageWrapper
   isExternal: false
   name: InArgs
   nameWithType: MethodCallMessageWrapper.InArgs
   fullName: System.Runtime.Remoting.Messaging.MethodCallMessageWrapper.InArgs
-- uid: System.Object
-  parent: System
-  isExternal: false
-  name: Object
-  nameWithType: Object
-  fullName: System.Object[]
 - uid: System.Runtime.Remoting.Messaging.MethodCallMessageWrapper.LogicalCallContext
   parent: System.Runtime.Remoting.Messaging.MethodCallMessageWrapper
   isExternal: false
@@ -656,24 +633,12 @@ references:
   name: MethodName
   nameWithType: MethodCallMessageWrapper.MethodName
   fullName: System.Runtime.Remoting.Messaging.MethodCallMessageWrapper.MethodName
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
 - uid: System.Runtime.Remoting.Messaging.MethodCallMessageWrapper.MethodSignature
   parent: System.Runtime.Remoting.Messaging.MethodCallMessageWrapper
   isExternal: false
   name: MethodSignature
   nameWithType: MethodCallMessageWrapper.MethodSignature
   fullName: System.Runtime.Remoting.Messaging.MethodCallMessageWrapper.MethodSignature
-- uid: System.Object
-  parent: System
-  isExternal: false
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
 - uid: System.Runtime.Remoting.Messaging.MethodCallMessageWrapper.Properties
   parent: System.Runtime.Remoting.Messaging.MethodCallMessageWrapper
   isExternal: false
@@ -692,24 +657,12 @@ references:
   name: TypeName
   nameWithType: MethodCallMessageWrapper.TypeName
   fullName: System.Runtime.Remoting.Messaging.MethodCallMessageWrapper.TypeName
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
 - uid: System.Runtime.Remoting.Messaging.MethodCallMessageWrapper.Uri
   parent: System.Runtime.Remoting.Messaging.MethodCallMessageWrapper
   isExternal: false
   name: Uri
   nameWithType: MethodCallMessageWrapper.Uri
   fullName: System.Runtime.Remoting.Messaging.MethodCallMessageWrapper.Uri
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
 - uid: System.Runtime.Remoting.Messaging.MethodCallMessageWrapper.#ctor*
   parent: System.Runtime.Remoting.Messaging.MethodCallMessageWrapper
   isExternal: false

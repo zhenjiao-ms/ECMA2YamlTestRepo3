@@ -57,6 +57,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.TypedReference.Equals*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -82,6 +83,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.TypedReference.GetHashCode*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -110,6 +112,7 @@ items:
       type: System.Type
       description: To be added.
   overload: System.TypedReference.GetTargetType*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -141,6 +144,7 @@ items:
       type: System.TypedReference
       description: To be added.
   overload: System.TypedReference.MakeTypedReference*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -169,6 +173,7 @@ items:
       type: System.Object
       description: To be added.
   overload: System.TypedReference.SetTypedReference*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -197,6 +202,7 @@ items:
       type: System.RuntimeTypeHandle
       description: To be added.
   overload: System.TypedReference.TargetTypeToken*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -225,6 +231,7 @@ items:
       type: System.Object
       description: To be added.
   overload: System.TypedReference.ToObject*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -287,42 +294,26 @@ references:
   name: MakeTypedReference(Object,FieldInfo[])
   nameWithType: TypedReference.MakeTypedReference(Object,FieldInfo[])
   fullName: System.TypedReference.MakeTypedReference(Object,FieldInfo[])
-- uid: System.TypedReference
-  parent: System
-  isExternal: false
-  name: TypedReference
-  nameWithType: TypedReference
-  fullName: System.TypedReference
-- uid: System.Object
-  parent: System
-  isExternal: false
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
-- uid: System.Reflection.FieldInfo
+- uid: System.Reflection.FieldInfo[]
   parent: System.Reflection
   isExternal: false
   name: FieldInfo
   nameWithType: FieldInfo
   fullName: System.Reflection.FieldInfo[]
+  spec.csharp:
+  - uid: System.Reflection.FieldInfo
+    name: FieldInfo
+    nameWithType: FieldInfo
+    fullName: FieldInfo[]
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
 - uid: System.TypedReference.SetTypedReference(System.TypedReference,System.Object)
   parent: System.TypedReference
   isExternal: false
   name: SetTypedReference(TypedReference,Object)
   nameWithType: TypedReference.SetTypedReference(TypedReference,Object)
   fullName: System.TypedReference.SetTypedReference(TypedReference,Object)
-- uid: System.TypedReference
-  parent: System
-  isExternal: false
-  name: TypedReference
-  nameWithType: TypedReference
-  fullName: System.TypedReference
-- uid: System.Object
-  parent: System
-  isExternal: false
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
 - uid: System.TypedReference.TargetTypeToken(System.TypedReference)
   parent: System.TypedReference
   isExternal: false
@@ -335,30 +326,12 @@ references:
   name: RuntimeTypeHandle
   nameWithType: RuntimeTypeHandle
   fullName: System.RuntimeTypeHandle
-- uid: System.TypedReference
-  parent: System
-  isExternal: false
-  name: TypedReference
-  nameWithType: TypedReference
-  fullName: System.TypedReference
 - uid: System.TypedReference.ToObject(System.TypedReference)
   parent: System.TypedReference
   isExternal: false
   name: ToObject(TypedReference)
   nameWithType: TypedReference.ToObject(TypedReference)
   fullName: System.TypedReference.ToObject(TypedReference)
-- uid: System.Object
-  parent: System
-  isExternal: false
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
-- uid: System.TypedReference
-  parent: System
-  isExternal: false
-  name: TypedReference
-  nameWithType: TypedReference
-  fullName: System.TypedReference
 - uid: System.TypedReference.Equals*
   parent: System.TypedReference
   isExternal: false

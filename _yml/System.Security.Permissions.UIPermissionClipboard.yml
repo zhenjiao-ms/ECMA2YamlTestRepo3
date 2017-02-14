@@ -45,6 +45,7 @@ items:
     return:
       type: System.Security.Permissions.UIPermissionClipboard
       description: To be added.
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -67,6 +68,7 @@ items:
     return:
       type: System.Security.Permissions.UIPermissionClipboard
       description: To be added.
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -89,6 +91,7 @@ items:
     return:
       type: System.Security.Permissions.UIPermissionClipboard
       description: To be added.
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -115,21 +118,9 @@ references:
   name: NoClipboard
   nameWithType: UIPermissionClipboard.NoClipboard
   fullName: System.Security.Permissions.UIPermissionClipboard.NoClipboard
-- uid: System.Security.Permissions.UIPermissionClipboard
-  parent: System.Security.Permissions
-  isExternal: false
-  name: UIPermissionClipboard
-  nameWithType: UIPermissionClipboard
-  fullName: System.Security.Permissions.UIPermissionClipboard
 - uid: System.Security.Permissions.UIPermissionClipboard.OwnClipboard
   parent: System.Security.Permissions.UIPermissionClipboard
   isExternal: false
   name: OwnClipboard
   nameWithType: UIPermissionClipboard.OwnClipboard
   fullName: System.Security.Permissions.UIPermissionClipboard.OwnClipboard
-- uid: System.Security.Permissions.UIPermissionClipboard
-  parent: System.Security.Permissions
-  isExternal: false
-  name: UIPermissionClipboard
-  nameWithType: UIPermissionClipboard
-  fullName: System.Security.Permissions.UIPermissionClipboard

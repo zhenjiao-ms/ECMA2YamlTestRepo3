@@ -62,6 +62,7 @@ items:
       type: System.Object
       description: To be added.
   overload: System.Runtime.Remoting.Messaging.Header.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -93,6 +94,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Runtime.Remoting.Messaging.Header.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -127,6 +129,7 @@ items:
       type: System.String
       description: To be added.
   overload: System.Runtime.Remoting.Messaging.Header.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -150,6 +153,7 @@ items:
     return:
       type: System.String
       description: To be added.
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -173,6 +177,7 @@ items:
     return:
       type: System.Boolean
       description: To be added.
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -196,6 +201,7 @@ items:
     return:
       type: System.String
       description: To be added.
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -219,6 +225,7 @@ items:
     return:
       type: System.Object
       description: To be added.
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -239,30 +246,12 @@ references:
   name: String
   nameWithType: String
   fullName: System.String
-- uid: System.Object
-  parent: System
-  isExternal: false
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
 - uid: System.Runtime.Remoting.Messaging.Header.#ctor(System.String,System.Object,System.Boolean)
   parent: System.Runtime.Remoting.Messaging.Header
   isExternal: false
   name: Header(String,Object,Boolean)
   nameWithType: Header.Header(String,Object,Boolean)
   fullName: System.Runtime.Remoting.Messaging.Header.Header(String,Object,Boolean)
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
-- uid: System.Object
-  parent: System
-  isExternal: false
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
 - uid: System.Boolean
   parent: System
   isExternal: false
@@ -275,78 +264,30 @@ references:
   name: Header(String,Object,Boolean,String)
   nameWithType: Header.Header(String,Object,Boolean,String)
   fullName: System.Runtime.Remoting.Messaging.Header.Header(String,Object,Boolean,String)
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
-- uid: System.Object
-  parent: System
-  isExternal: false
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
 - uid: System.Runtime.Remoting.Messaging.Header.HeaderNamespace
   parent: System.Runtime.Remoting.Messaging.Header
   isExternal: false
   name: HeaderNamespace
   nameWithType: Header.HeaderNamespace
   fullName: System.Runtime.Remoting.Messaging.Header.HeaderNamespace
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
 - uid: System.Runtime.Remoting.Messaging.Header.MustUnderstand
   parent: System.Runtime.Remoting.Messaging.Header
   isExternal: false
   name: MustUnderstand
   nameWithType: Header.MustUnderstand
   fullName: System.Runtime.Remoting.Messaging.Header.MustUnderstand
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
 - uid: System.Runtime.Remoting.Messaging.Header.Name
   parent: System.Runtime.Remoting.Messaging.Header
   isExternal: false
   name: Name
   nameWithType: Header.Name
   fullName: System.Runtime.Remoting.Messaging.Header.Name
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
 - uid: System.Runtime.Remoting.Messaging.Header.Value
   parent: System.Runtime.Remoting.Messaging.Header
   isExternal: false
   name: Value
   nameWithType: Header.Value
   fullName: System.Runtime.Remoting.Messaging.Header.Value
-- uid: System.Object
-  parent: System
-  isExternal: false
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
 - uid: System.Runtime.Remoting.Messaging.Header.#ctor*
   parent: System.Runtime.Remoting.Messaging.Header
   isExternal: false

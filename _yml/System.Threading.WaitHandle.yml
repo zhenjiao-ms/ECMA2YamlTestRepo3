@@ -81,6 +81,7 @@ items:
     content: protected WaitHandle ();
     parameters: []
   overload: System.Threading.WaitHandle.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -103,6 +104,7 @@ items:
     content: public virtual void Close ();
     parameters: []
   overload: System.Threading.WaitHandle.Close*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -125,6 +127,7 @@ items:
     content: public void Dispose ();
     parameters: []
   overload: System.Threading.WaitHandle.Dispose*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -150,6 +153,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Threading.WaitHandle.Dispose*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -174,6 +178,7 @@ items:
       type: System.IntPtr
       description: To be added.
   overload: System.Threading.WaitHandle.Handle*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -197,6 +202,7 @@ items:
     return:
       type: System.IntPtr
       description: To be added.
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -221,6 +227,7 @@ items:
       type: Microsoft.Win32.SafeHandles.SafeWaitHandle
       description: To be added.
   overload: System.Threading.WaitHandle.SafeWaitHandle*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -252,6 +259,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Threading.WaitHandle.SignalAndWait*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -289,6 +297,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Threading.WaitHandle.SignalAndWait*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -326,6 +335,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Threading.WaitHandle.SignalAndWait*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -354,6 +364,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Threading.WaitHandle.WaitAll*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -385,6 +396,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Threading.WaitHandle.WaitAll*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -416,6 +428,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Threading.WaitHandle.WaitAll*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -450,6 +463,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Threading.WaitHandle.WaitAll*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -484,6 +498,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Threading.WaitHandle.WaitAll*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -512,6 +527,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.Threading.WaitHandle.WaitAny*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -543,6 +559,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.Threading.WaitHandle.WaitAny*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -574,6 +591,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.Threading.WaitHandle.WaitAny*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -608,6 +626,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.Threading.WaitHandle.WaitAny*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -642,6 +661,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.Threading.WaitHandle.WaitAny*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -667,6 +687,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Threading.WaitHandle.WaitOne*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -695,6 +716,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Threading.WaitHandle.WaitOne*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -723,6 +745,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Threading.WaitHandle.WaitOne*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -754,6 +777,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Threading.WaitHandle.WaitOne*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -785,6 +809,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Threading.WaitHandle.WaitOne*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -808,6 +833,7 @@ items:
     return:
       type: System.Int32
       description: To be added.
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -864,12 +890,6 @@ references:
   name: InvalidHandle
   nameWithType: WaitHandle.InvalidHandle
   fullName: System.Threading.WaitHandle.InvalidHandle
-- uid: System.IntPtr
-  parent: System
-  isExternal: false
-  name: IntPtr
-  nameWithType: IntPtr
-  fullName: System.IntPtr
 - uid: System.Threading.WaitHandle.SafeWaitHandle
   parent: System.Threading.WaitHandle
   isExternal: false
@@ -888,18 +908,6 @@ references:
   name: SignalAndWait(WaitHandle,WaitHandle)
   nameWithType: WaitHandle.SignalAndWait(WaitHandle,WaitHandle)
   fullName: System.Threading.WaitHandle.SignalAndWait(WaitHandle,WaitHandle)
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
-- uid: System.Threading.WaitHandle
-  parent: System.Threading
-  isExternal: false
-  name: WaitHandle
-  nameWithType: WaitHandle
-  fullName: System.Threading.WaitHandle
 - uid: System.Threading.WaitHandle
   parent: System.Threading
   isExternal: false
@@ -912,432 +920,134 @@ references:
   name: SignalAndWait(WaitHandle,WaitHandle,Int32,Boolean)
   nameWithType: WaitHandle.SignalAndWait(WaitHandle,WaitHandle,Int32,Boolean)
   fullName: System.Threading.WaitHandle.SignalAndWait(WaitHandle,WaitHandle,Int32,Boolean)
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
-- uid: System.Threading.WaitHandle
-  parent: System.Threading
-  isExternal: false
-  name: WaitHandle
-  nameWithType: WaitHandle
-  fullName: System.Threading.WaitHandle
-- uid: System.Threading.WaitHandle
-  parent: System.Threading
-  isExternal: false
-  name: WaitHandle
-  nameWithType: WaitHandle
-  fullName: System.Threading.WaitHandle
 - uid: System.Int32
   parent: System
   isExternal: false
   name: Int32
   nameWithType: Int32
   fullName: System.Int32
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
 - uid: System.Threading.WaitHandle.SignalAndWait(System.Threading.WaitHandle,System.Threading.WaitHandle,System.TimeSpan,System.Boolean)
   parent: System.Threading.WaitHandle
   isExternal: false
   name: SignalAndWait(WaitHandle,WaitHandle,TimeSpan,Boolean)
   nameWithType: WaitHandle.SignalAndWait(WaitHandle,WaitHandle,TimeSpan,Boolean)
   fullName: System.Threading.WaitHandle.SignalAndWait(WaitHandle,WaitHandle,TimeSpan,Boolean)
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
-- uid: System.Threading.WaitHandle
-  parent: System.Threading
-  isExternal: false
-  name: WaitHandle
-  nameWithType: WaitHandle
-  fullName: System.Threading.WaitHandle
-- uid: System.Threading.WaitHandle
-  parent: System.Threading
-  isExternal: false
-  name: WaitHandle
-  nameWithType: WaitHandle
-  fullName: System.Threading.WaitHandle
 - uid: System.TimeSpan
   parent: System
   isExternal: false
   name: TimeSpan
   nameWithType: TimeSpan
   fullName: System.TimeSpan
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
 - uid: System.Threading.WaitHandle.WaitAll(System.Threading.WaitHandle[])
   parent: System.Threading.WaitHandle
   isExternal: false
   name: WaitAll(WaitHandle[])
   nameWithType: WaitHandle.WaitAll(WaitHandle[])
   fullName: System.Threading.WaitHandle.WaitAll(WaitHandle[])
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
-- uid: System.Threading.WaitHandle
+- uid: System.Threading.WaitHandle[]
   parent: System.Threading
   isExternal: false
   name: WaitHandle
   nameWithType: WaitHandle
   fullName: System.Threading.WaitHandle[]
+  spec.csharp:
+  - uid: System.Threading.WaitHandle
+    name: WaitHandle
+    nameWithType: WaitHandle
+    fullName: WaitHandle[]
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
 - uid: System.Threading.WaitHandle.WaitAll(System.Threading.WaitHandle[],System.Int32)
   parent: System.Threading.WaitHandle
   isExternal: false
   name: WaitAll(WaitHandle[],Int32)
   nameWithType: WaitHandle.WaitAll(WaitHandle[],Int32)
   fullName: System.Threading.WaitHandle.WaitAll(WaitHandle[],Int32)
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
-- uid: System.Threading.WaitHandle
-  parent: System.Threading
-  isExternal: false
-  name: WaitHandle
-  nameWithType: WaitHandle
-  fullName: System.Threading.WaitHandle[]
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
 - uid: System.Threading.WaitHandle.WaitAll(System.Threading.WaitHandle[],System.TimeSpan)
   parent: System.Threading.WaitHandle
   isExternal: false
   name: WaitAll(WaitHandle[],TimeSpan)
   nameWithType: WaitHandle.WaitAll(WaitHandle[],TimeSpan)
   fullName: System.Threading.WaitHandle.WaitAll(WaitHandle[],TimeSpan)
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
-- uid: System.Threading.WaitHandle
-  parent: System.Threading
-  isExternal: false
-  name: WaitHandle
-  nameWithType: WaitHandle
-  fullName: System.Threading.WaitHandle[]
-- uid: System.TimeSpan
-  parent: System
-  isExternal: false
-  name: TimeSpan
-  nameWithType: TimeSpan
-  fullName: System.TimeSpan
 - uid: System.Threading.WaitHandle.WaitAll(System.Threading.WaitHandle[],System.Int32,System.Boolean)
   parent: System.Threading.WaitHandle
   isExternal: false
   name: WaitAll(WaitHandle[],Int32,Boolean)
   nameWithType: WaitHandle.WaitAll(WaitHandle[],Int32,Boolean)
   fullName: System.Threading.WaitHandle.WaitAll(WaitHandle[],Int32,Boolean)
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
-- uid: System.Threading.WaitHandle
-  parent: System.Threading
-  isExternal: false
-  name: WaitHandle
-  nameWithType: WaitHandle
-  fullName: System.Threading.WaitHandle[]
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
 - uid: System.Threading.WaitHandle.WaitAll(System.Threading.WaitHandle[],System.TimeSpan,System.Boolean)
   parent: System.Threading.WaitHandle
   isExternal: false
   name: WaitAll(WaitHandle[],TimeSpan,Boolean)
   nameWithType: WaitHandle.WaitAll(WaitHandle[],TimeSpan,Boolean)
   fullName: System.Threading.WaitHandle.WaitAll(WaitHandle[],TimeSpan,Boolean)
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
-- uid: System.Threading.WaitHandle
-  parent: System.Threading
-  isExternal: false
-  name: WaitHandle
-  nameWithType: WaitHandle
-  fullName: System.Threading.WaitHandle[]
-- uid: System.TimeSpan
-  parent: System
-  isExternal: false
-  name: TimeSpan
-  nameWithType: TimeSpan
-  fullName: System.TimeSpan
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
 - uid: System.Threading.WaitHandle.WaitAny(System.Threading.WaitHandle[])
   parent: System.Threading.WaitHandle
   isExternal: false
   name: WaitAny(WaitHandle[])
   nameWithType: WaitHandle.WaitAny(WaitHandle[])
   fullName: System.Threading.WaitHandle.WaitAny(WaitHandle[])
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: System.Threading.WaitHandle
-  parent: System.Threading
-  isExternal: false
-  name: WaitHandle
-  nameWithType: WaitHandle
-  fullName: System.Threading.WaitHandle[]
 - uid: System.Threading.WaitHandle.WaitAny(System.Threading.WaitHandle[],System.Int32)
   parent: System.Threading.WaitHandle
   isExternal: false
   name: WaitAny(WaitHandle[],Int32)
   nameWithType: WaitHandle.WaitAny(WaitHandle[],Int32)
   fullName: System.Threading.WaitHandle.WaitAny(WaitHandle[],Int32)
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: System.Threading.WaitHandle
-  parent: System.Threading
-  isExternal: false
-  name: WaitHandle
-  nameWithType: WaitHandle
-  fullName: System.Threading.WaitHandle[]
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
 - uid: System.Threading.WaitHandle.WaitAny(System.Threading.WaitHandle[],System.TimeSpan)
   parent: System.Threading.WaitHandle
   isExternal: false
   name: WaitAny(WaitHandle[],TimeSpan)
   nameWithType: WaitHandle.WaitAny(WaitHandle[],TimeSpan)
   fullName: System.Threading.WaitHandle.WaitAny(WaitHandle[],TimeSpan)
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: System.Threading.WaitHandle
-  parent: System.Threading
-  isExternal: false
-  name: WaitHandle
-  nameWithType: WaitHandle
-  fullName: System.Threading.WaitHandle[]
-- uid: System.TimeSpan
-  parent: System
-  isExternal: false
-  name: TimeSpan
-  nameWithType: TimeSpan
-  fullName: System.TimeSpan
 - uid: System.Threading.WaitHandle.WaitAny(System.Threading.WaitHandle[],System.Int32,System.Boolean)
   parent: System.Threading.WaitHandle
   isExternal: false
   name: WaitAny(WaitHandle[],Int32,Boolean)
   nameWithType: WaitHandle.WaitAny(WaitHandle[],Int32,Boolean)
   fullName: System.Threading.WaitHandle.WaitAny(WaitHandle[],Int32,Boolean)
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: System.Threading.WaitHandle
-  parent: System.Threading
-  isExternal: false
-  name: WaitHandle
-  nameWithType: WaitHandle
-  fullName: System.Threading.WaitHandle[]
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
 - uid: System.Threading.WaitHandle.WaitAny(System.Threading.WaitHandle[],System.TimeSpan,System.Boolean)
   parent: System.Threading.WaitHandle
   isExternal: false
   name: WaitAny(WaitHandle[],TimeSpan,Boolean)
   nameWithType: WaitHandle.WaitAny(WaitHandle[],TimeSpan,Boolean)
   fullName: System.Threading.WaitHandle.WaitAny(WaitHandle[],TimeSpan,Boolean)
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: System.Threading.WaitHandle
-  parent: System.Threading
-  isExternal: false
-  name: WaitHandle
-  nameWithType: WaitHandle
-  fullName: System.Threading.WaitHandle[]
-- uid: System.TimeSpan
-  parent: System
-  isExternal: false
-  name: TimeSpan
-  nameWithType: TimeSpan
-  fullName: System.TimeSpan
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
 - uid: System.Threading.WaitHandle.WaitOne
   parent: System.Threading.WaitHandle
   isExternal: false
   name: WaitOne()
   nameWithType: WaitHandle.WaitOne()
   fullName: System.Threading.WaitHandle.WaitOne()
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
 - uid: System.Threading.WaitHandle.WaitOne(System.Int32)
   parent: System.Threading.WaitHandle
   isExternal: false
   name: WaitOne(Int32)
   nameWithType: WaitHandle.WaitOne(Int32)
   fullName: System.Threading.WaitHandle.WaitOne(Int32)
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
 - uid: System.Threading.WaitHandle.WaitOne(System.TimeSpan)
   parent: System.Threading.WaitHandle
   isExternal: false
   name: WaitOne(TimeSpan)
   nameWithType: WaitHandle.WaitOne(TimeSpan)
   fullName: System.Threading.WaitHandle.WaitOne(TimeSpan)
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
-- uid: System.TimeSpan
-  parent: System
-  isExternal: false
-  name: TimeSpan
-  nameWithType: TimeSpan
-  fullName: System.TimeSpan
 - uid: System.Threading.WaitHandle.WaitOne(System.Int32,System.Boolean)
   parent: System.Threading.WaitHandle
   isExternal: false
   name: WaitOne(Int32,Boolean)
   nameWithType: WaitHandle.WaitOne(Int32,Boolean)
   fullName: System.Threading.WaitHandle.WaitOne(Int32,Boolean)
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
 - uid: System.Threading.WaitHandle.WaitOne(System.TimeSpan,System.Boolean)
   parent: System.Threading.WaitHandle
   isExternal: false
   name: WaitOne(TimeSpan,Boolean)
   nameWithType: WaitHandle.WaitOne(TimeSpan,Boolean)
   fullName: System.Threading.WaitHandle.WaitOne(TimeSpan,Boolean)
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
-- uid: System.TimeSpan
-  parent: System
-  isExternal: false
-  name: TimeSpan
-  nameWithType: TimeSpan
-  fullName: System.TimeSpan
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
 - uid: System.Threading.WaitHandle.WaitTimeout
   parent: System.Threading.WaitHandle
   isExternal: false
   name: WaitTimeout
   nameWithType: WaitHandle.WaitTimeout
   fullName: System.Threading.WaitHandle.WaitTimeout
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
 - uid: System.Threading.WaitHandle.#ctor*
   parent: System.Threading.WaitHandle
   isExternal: false

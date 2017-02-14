@@ -77,6 +77,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.Reflection.Emit.ExceptionHandler.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -105,6 +106,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Reflection.Emit.ExceptionHandler.Equals*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -133,6 +135,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Reflection.Emit.ExceptionHandler.Equals*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -157,6 +160,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.Reflection.Emit.ExceptionHandler.ExceptionTypeToken*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -181,6 +185,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.Reflection.Emit.ExceptionHandler.FilterOffset*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -206,6 +211,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.Reflection.Emit.ExceptionHandler.GetHashCode*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -230,6 +236,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.Reflection.Emit.ExceptionHandler.HandlerLength*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -254,6 +261,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.Reflection.Emit.ExceptionHandler.HandlerOffset*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -278,6 +286,7 @@ items:
       type: System.Reflection.ExceptionHandlingClauseOptions
       description: To be added.
   overload: System.Reflection.Emit.ExceptionHandler.Kind*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -309,6 +318,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Reflection.Emit.ExceptionHandler.op_Equality*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -340,6 +350,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Reflection.Emit.ExceptionHandler.op_Inequality*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -364,6 +375,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.Reflection.Emit.ExceptionHandler.TryLength*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -388,6 +400,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.Reflection.Emit.ExceptionHandler.TryOffset*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -408,42 +421,12 @@ references:
   name: Int32
   nameWithType: Int32
   fullName: System.Int32
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
 - uid: System.Reflection.ExceptionHandlingClauseOptions
   parent: System.Reflection
   isExternal: false
   name: ExceptionHandlingClauseOptions
   nameWithType: ExceptionHandlingClauseOptions
   fullName: System.Reflection.ExceptionHandlingClauseOptions
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
 - uid: System.Reflection.Emit.ExceptionHandler.Equals(System.Object)
   parent: System.Reflection.Emit.ExceptionHandler
   isExternal: false
@@ -468,12 +451,6 @@ references:
   name: Equals(ExceptionHandler)
   nameWithType: ExceptionHandler.Equals(ExceptionHandler)
   fullName: System.Reflection.Emit.ExceptionHandler.Equals(ExceptionHandler)
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
 - uid: System.Reflection.Emit.ExceptionHandler
   parent: System.Reflection.Emit
   isExternal: false
@@ -486,144 +463,60 @@ references:
   name: ExceptionTypeToken
   nameWithType: ExceptionHandler.ExceptionTypeToken
   fullName: System.Reflection.Emit.ExceptionHandler.ExceptionTypeToken
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
 - uid: System.Reflection.Emit.ExceptionHandler.FilterOffset
   parent: System.Reflection.Emit.ExceptionHandler
   isExternal: false
   name: FilterOffset
   nameWithType: ExceptionHandler.FilterOffset
   fullName: System.Reflection.Emit.ExceptionHandler.FilterOffset
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
 - uid: System.Reflection.Emit.ExceptionHandler.GetHashCode
   parent: System.Reflection.Emit.ExceptionHandler
   isExternal: false
   name: GetHashCode()
   nameWithType: ExceptionHandler.GetHashCode()
   fullName: System.Reflection.Emit.ExceptionHandler.GetHashCode()
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
 - uid: System.Reflection.Emit.ExceptionHandler.HandlerLength
   parent: System.Reflection.Emit.ExceptionHandler
   isExternal: false
   name: HandlerLength
   nameWithType: ExceptionHandler.HandlerLength
   fullName: System.Reflection.Emit.ExceptionHandler.HandlerLength
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
 - uid: System.Reflection.Emit.ExceptionHandler.HandlerOffset
   parent: System.Reflection.Emit.ExceptionHandler
   isExternal: false
   name: HandlerOffset
   nameWithType: ExceptionHandler.HandlerOffset
   fullName: System.Reflection.Emit.ExceptionHandler.HandlerOffset
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
 - uid: System.Reflection.Emit.ExceptionHandler.Kind
   parent: System.Reflection.Emit.ExceptionHandler
   isExternal: false
   name: Kind
   nameWithType: ExceptionHandler.Kind
   fullName: System.Reflection.Emit.ExceptionHandler.Kind
-- uid: System.Reflection.ExceptionHandlingClauseOptions
-  parent: System.Reflection
-  isExternal: false
-  name: ExceptionHandlingClauseOptions
-  nameWithType: ExceptionHandlingClauseOptions
-  fullName: System.Reflection.ExceptionHandlingClauseOptions
 - uid: System.Reflection.Emit.ExceptionHandler.op_Equality(System.Reflection.Emit.ExceptionHandler,System.Reflection.Emit.ExceptionHandler)
   parent: System.Reflection.Emit.ExceptionHandler
   isExternal: false
   name: op_Equality(ExceptionHandler,ExceptionHandler)
   nameWithType: ExceptionHandler.op_Equality(ExceptionHandler,ExceptionHandler)
   fullName: System.Reflection.Emit.ExceptionHandler.op_Equality(ExceptionHandler,ExceptionHandler)
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
-- uid: System.Reflection.Emit.ExceptionHandler
-  parent: System.Reflection.Emit
-  isExternal: false
-  name: ExceptionHandler
-  nameWithType: ExceptionHandler
-  fullName: System.Reflection.Emit.ExceptionHandler
-- uid: System.Reflection.Emit.ExceptionHandler
-  parent: System.Reflection.Emit
-  isExternal: false
-  name: ExceptionHandler
-  nameWithType: ExceptionHandler
-  fullName: System.Reflection.Emit.ExceptionHandler
 - uid: System.Reflection.Emit.ExceptionHandler.op_Inequality(System.Reflection.Emit.ExceptionHandler,System.Reflection.Emit.ExceptionHandler)
   parent: System.Reflection.Emit.ExceptionHandler
   isExternal: false
   name: op_Inequality(ExceptionHandler,ExceptionHandler)
   nameWithType: ExceptionHandler.op_Inequality(ExceptionHandler,ExceptionHandler)
   fullName: System.Reflection.Emit.ExceptionHandler.op_Inequality(ExceptionHandler,ExceptionHandler)
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
-- uid: System.Reflection.Emit.ExceptionHandler
-  parent: System.Reflection.Emit
-  isExternal: false
-  name: ExceptionHandler
-  nameWithType: ExceptionHandler
-  fullName: System.Reflection.Emit.ExceptionHandler
-- uid: System.Reflection.Emit.ExceptionHandler
-  parent: System.Reflection.Emit
-  isExternal: false
-  name: ExceptionHandler
-  nameWithType: ExceptionHandler
-  fullName: System.Reflection.Emit.ExceptionHandler
 - uid: System.Reflection.Emit.ExceptionHandler.TryLength
   parent: System.Reflection.Emit.ExceptionHandler
   isExternal: false
   name: TryLength
   nameWithType: ExceptionHandler.TryLength
   fullName: System.Reflection.Emit.ExceptionHandler.TryLength
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
 - uid: System.Reflection.Emit.ExceptionHandler.TryOffset
   parent: System.Reflection.Emit.ExceptionHandler
   isExternal: false
   name: TryOffset
   nameWithType: ExceptionHandler.TryOffset
   fullName: System.Reflection.Emit.ExceptionHandler.TryOffset
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
 - uid: System.Reflection.Emit.ExceptionHandler.#ctor*
   parent: System.Reflection.Emit.ExceptionHandler
   isExternal: false

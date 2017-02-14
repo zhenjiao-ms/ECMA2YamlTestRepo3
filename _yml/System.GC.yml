@@ -76,6 +76,7 @@ items:
       type: System.Int64
       description: To be added.
   overload: System.GC.AddMemoryPressure*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -98,6 +99,7 @@ items:
     content: public static void CancelFullGCNotification ();
     parameters: []
   overload: System.GC.CancelFullGCNotification*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -120,6 +122,7 @@ items:
     content: public static void Collect ();
     parameters: []
   overload: System.GC.Collect*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -145,6 +148,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.GC.Collect*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -173,6 +177,7 @@ items:
       type: System.GCCollectionMode
       description: To be added.
   overload: System.GC.Collect*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -204,6 +209,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.GC.Collect*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -238,6 +244,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.GC.Collect*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -266,6 +273,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.GC.CollectionCount*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -288,6 +296,7 @@ items:
     content: public static void EndNoGCRegion ();
     parameters: []
   overload: System.GC.EndNoGCRegion*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -316,6 +325,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.GC.GetGeneration*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -344,6 +354,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.GC.GetGeneration*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -372,6 +383,7 @@ items:
       type: System.Int64
       description: To be added.
   overload: System.GC.GetTotalMemory*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -397,6 +409,7 @@ items:
       type: System.Object
       description: To be added.
   overload: System.GC.KeepAlive*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -421,6 +434,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.GC.MaxGeneration*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -449,6 +463,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.GC.RegisterForFullGCNotification*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -474,6 +489,7 @@ items:
       type: System.Int64
       description: To be added.
   overload: System.GC.RemoveMemoryPressure*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -499,6 +515,7 @@ items:
       type: System.Object
       description: To be added.
   overload: System.GC.ReRegisterForFinalize*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -524,6 +541,7 @@ items:
       type: System.Object
       description: To be added.
   overload: System.GC.SuppressFinalize*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -552,6 +570,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.GC.TryStartNoGCRegion*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -583,6 +602,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.GC.TryStartNoGCRegion*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -614,6 +634,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.GC.TryStartNoGCRegion*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -648,6 +669,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.GC.TryStartNoGCRegion*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -673,6 +695,7 @@ items:
       type: System.GCNotificationStatus
       description: To be added.
   overload: System.GC.WaitForFullGCApproach*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -701,6 +724,7 @@ items:
       type: System.GCNotificationStatus
       description: To be added.
   overload: System.GC.WaitForFullGCApproach*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -726,6 +750,7 @@ items:
       type: System.GCNotificationStatus
       description: To be added.
   overload: System.GC.WaitForFullGCComplete*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -754,6 +779,7 @@ items:
       type: System.GCNotificationStatus
       description: To be added.
   overload: System.GC.WaitForFullGCComplete*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -776,6 +802,7 @@ items:
     content: public static void WaitForPendingFinalizers ();
     parameters: []
   overload: System.GC.WaitForPendingFinalizers*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -826,12 +853,6 @@ references:
   name: Collect(Int32,GCCollectionMode)
   nameWithType: GC.Collect(Int32,GCCollectionMode)
   fullName: System.GC.Collect(Int32,GCCollectionMode)
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
 - uid: System.GCCollectionMode
   parent: System
   isExternal: false
@@ -844,18 +865,6 @@ references:
   name: Collect(Int32,GCCollectionMode,Boolean)
   nameWithType: GC.Collect(Int32,GCCollectionMode,Boolean)
   fullName: System.GC.Collect(Int32,GCCollectionMode,Boolean)
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: System.GCCollectionMode
-  parent: System
-  isExternal: false
-  name: GCCollectionMode
-  nameWithType: GCCollectionMode
-  fullName: System.GCCollectionMode
 - uid: System.Boolean
   parent: System
   isExternal: false
@@ -868,48 +877,12 @@ references:
   name: Collect(Int32,GCCollectionMode,Boolean,Boolean)
   nameWithType: GC.Collect(Int32,GCCollectionMode,Boolean,Boolean)
   fullName: System.GC.Collect(Int32,GCCollectionMode,Boolean,Boolean)
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: System.GCCollectionMode
-  parent: System
-  isExternal: false
-  name: GCCollectionMode
-  nameWithType: GCCollectionMode
-  fullName: System.GCCollectionMode
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
 - uid: System.GC.CollectionCount(System.Int32)
   parent: System.GC
   isExternal: false
   name: CollectionCount(Int32)
   nameWithType: GC.CollectionCount(Int32)
   fullName: System.GC.CollectionCount(Int32)
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
 - uid: System.GC.EndNoGCRegion
   parent: System.GC
   isExternal: false
@@ -922,30 +895,12 @@ references:
   name: GetGeneration(Object)
   nameWithType: GC.GetGeneration(Object)
   fullName: System.GC.GetGeneration(Object)
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: System.Object
-  parent: System
-  isExternal: false
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
 - uid: System.GC.GetGeneration(System.WeakReference)
   parent: System.GC
   isExternal: false
   name: GetGeneration(WeakReference)
   nameWithType: GC.GetGeneration(WeakReference)
   fullName: System.GC.GetGeneration(WeakReference)
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
 - uid: System.WeakReference
   parent: System
   isExternal: false
@@ -958,192 +913,66 @@ references:
   name: GetTotalMemory(Boolean)
   nameWithType: GC.GetTotalMemory(Boolean)
   fullName: System.GC.GetTotalMemory(Boolean)
-- uid: System.Int64
-  parent: System
-  isExternal: false
-  name: Int64
-  nameWithType: Int64
-  fullName: System.Int64
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
 - uid: System.GC.KeepAlive(System.Object)
   parent: System.GC
   isExternal: false
   name: KeepAlive(Object)
   nameWithType: GC.KeepAlive(Object)
   fullName: System.GC.KeepAlive(Object)
-- uid: System.Object
-  parent: System
-  isExternal: false
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
 - uid: System.GC.MaxGeneration
   parent: System.GC
   isExternal: false
   name: MaxGeneration
   nameWithType: GC.MaxGeneration
   fullName: System.GC.MaxGeneration
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
 - uid: System.GC.RegisterForFullGCNotification(System.Int32,System.Int32)
   parent: System.GC
   isExternal: false
   name: RegisterForFullGCNotification(Int32,Int32)
   nameWithType: GC.RegisterForFullGCNotification(Int32,Int32)
   fullName: System.GC.RegisterForFullGCNotification(Int32,Int32)
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
 - uid: System.GC.RemoveMemoryPressure(System.Int64)
   parent: System.GC
   isExternal: false
   name: RemoveMemoryPressure(Int64)
   nameWithType: GC.RemoveMemoryPressure(Int64)
   fullName: System.GC.RemoveMemoryPressure(Int64)
-- uid: System.Int64
-  parent: System
-  isExternal: false
-  name: Int64
-  nameWithType: Int64
-  fullName: System.Int64
 - uid: System.GC.ReRegisterForFinalize(System.Object)
   parent: System.GC
   isExternal: false
   name: ReRegisterForFinalize(Object)
   nameWithType: GC.ReRegisterForFinalize(Object)
   fullName: System.GC.ReRegisterForFinalize(Object)
-- uid: System.Object
-  parent: System
-  isExternal: false
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
 - uid: System.GC.SuppressFinalize(System.Object)
   parent: System.GC
   isExternal: false
   name: SuppressFinalize(Object)
   nameWithType: GC.SuppressFinalize(Object)
   fullName: System.GC.SuppressFinalize(Object)
-- uid: System.Object
-  parent: System
-  isExternal: false
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
 - uid: System.GC.TryStartNoGCRegion(System.Int64)
   parent: System.GC
   isExternal: false
   name: TryStartNoGCRegion(Int64)
   nameWithType: GC.TryStartNoGCRegion(Int64)
   fullName: System.GC.TryStartNoGCRegion(Int64)
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
-- uid: System.Int64
-  parent: System
-  isExternal: false
-  name: Int64
-  nameWithType: Int64
-  fullName: System.Int64
 - uid: System.GC.TryStartNoGCRegion(System.Int64,System.Boolean)
   parent: System.GC
   isExternal: false
   name: TryStartNoGCRegion(Int64,Boolean)
   nameWithType: GC.TryStartNoGCRegion(Int64,Boolean)
   fullName: System.GC.TryStartNoGCRegion(Int64,Boolean)
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
-- uid: System.Int64
-  parent: System
-  isExternal: false
-  name: Int64
-  nameWithType: Int64
-  fullName: System.Int64
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
 - uid: System.GC.TryStartNoGCRegion(System.Int64,System.Int64)
   parent: System.GC
   isExternal: false
   name: TryStartNoGCRegion(Int64,Int64)
   nameWithType: GC.TryStartNoGCRegion(Int64,Int64)
   fullName: System.GC.TryStartNoGCRegion(Int64,Int64)
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
-- uid: System.Int64
-  parent: System
-  isExternal: false
-  name: Int64
-  nameWithType: Int64
-  fullName: System.Int64
-- uid: System.Int64
-  parent: System
-  isExternal: false
-  name: Int64
-  nameWithType: Int64
-  fullName: System.Int64
 - uid: System.GC.TryStartNoGCRegion(System.Int64,System.Int64,System.Boolean)
   parent: System.GC
   isExternal: false
   name: TryStartNoGCRegion(Int64,Int64,Boolean)
   nameWithType: GC.TryStartNoGCRegion(Int64,Int64,Boolean)
   fullName: System.GC.TryStartNoGCRegion(Int64,Int64,Boolean)
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
-- uid: System.Int64
-  parent: System
-  isExternal: false
-  name: Int64
-  nameWithType: Int64
-  fullName: System.Int64
-- uid: System.Int64
-  parent: System
-  isExternal: false
-  name: Int64
-  nameWithType: Int64
-  fullName: System.Int64
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
 - uid: System.GC.WaitForFullGCApproach
   parent: System.GC
   isExternal: false
@@ -1162,48 +991,18 @@ references:
   name: WaitForFullGCApproach(Int32)
   nameWithType: GC.WaitForFullGCApproach(Int32)
   fullName: System.GC.WaitForFullGCApproach(Int32)
-- uid: System.GCNotificationStatus
-  parent: System
-  isExternal: false
-  name: GCNotificationStatus
-  nameWithType: GCNotificationStatus
-  fullName: System.GCNotificationStatus
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
 - uid: System.GC.WaitForFullGCComplete
   parent: System.GC
   isExternal: false
   name: WaitForFullGCComplete()
   nameWithType: GC.WaitForFullGCComplete()
   fullName: System.GC.WaitForFullGCComplete()
-- uid: System.GCNotificationStatus
-  parent: System
-  isExternal: false
-  name: GCNotificationStatus
-  nameWithType: GCNotificationStatus
-  fullName: System.GCNotificationStatus
 - uid: System.GC.WaitForFullGCComplete(System.Int32)
   parent: System.GC
   isExternal: false
   name: WaitForFullGCComplete(Int32)
   nameWithType: GC.WaitForFullGCComplete(Int32)
   fullName: System.GC.WaitForFullGCComplete(Int32)
-- uid: System.GCNotificationStatus
-  parent: System
-  isExternal: false
-  name: GCNotificationStatus
-  nameWithType: GCNotificationStatus
-  fullName: System.GCNotificationStatus
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
 - uid: System.GC.WaitForPendingFinalizers
   parent: System.GC
   isExternal: false

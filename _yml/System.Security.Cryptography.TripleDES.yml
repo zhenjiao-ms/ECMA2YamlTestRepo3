@@ -82,6 +82,7 @@ items:
     content: protected TripleDES ();
     parameters: []
   overload: System.Security.Cryptography.TripleDES.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -107,6 +108,7 @@ items:
       type: System.Security.Cryptography.TripleDES
       description: To be added.
   overload: System.Security.Cryptography.TripleDES.Create*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -135,6 +137,7 @@ items:
       type: System.Security.Cryptography.TripleDES
       description: To be added.
   overload: System.Security.Cryptography.TripleDES.Create*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -163,6 +166,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Security.Cryptography.TripleDES.IsWeakKey*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -187,6 +191,7 @@ items:
       type: System.Byte[]
       description: To be added.
   overload: System.Security.Cryptography.TripleDES.Key*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -219,12 +224,6 @@ references:
   name: Create(String)
   nameWithType: TripleDES.Create(String)
   fullName: System.Security.Cryptography.TripleDES.Create(String)
-- uid: System.Security.Cryptography.TripleDES
-  parent: System.Security.Cryptography
-  isExternal: false
-  name: TripleDES
-  nameWithType: TripleDES
-  fullName: System.Security.Cryptography.TripleDES
 - uid: System.String
   parent: System
   isExternal: false
@@ -243,24 +242,26 @@ references:
   name: Boolean
   nameWithType: Boolean
   fullName: System.Boolean
-- uid: System.Byte
+- uid: System.Byte[]
   parent: System
   isExternal: false
   name: Byte
   nameWithType: Byte
   fullName: System.Byte[]
+  spec.csharp:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: Byte[]
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
 - uid: System.Security.Cryptography.TripleDES.Key
   parent: System.Security.Cryptography.TripleDES
   isExternal: false
   name: Key
   nameWithType: TripleDES.Key
   fullName: System.Security.Cryptography.TripleDES.Key
-- uid: System.Byte
-  parent: System
-  isExternal: false
-  name: Byte
-  nameWithType: Byte
-  fullName: System.Byte[]
 - uid: System.Security.Cryptography.TripleDES.#ctor*
   parent: System.Security.Cryptography.TripleDES
   isExternal: false

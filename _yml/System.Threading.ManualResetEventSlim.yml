@@ -68,6 +68,7 @@ items:
     content: public ManualResetEventSlim ();
     parameters: []
   overload: System.Threading.ManualResetEventSlim.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -93,6 +94,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Threading.ManualResetEventSlim.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -121,6 +123,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.Threading.ManualResetEventSlim.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -143,6 +146,7 @@ items:
     content: public void Dispose ();
     parameters: []
   overload: System.Threading.ManualResetEventSlim.Dispose*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -168,6 +172,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Threading.ManualResetEventSlim.Dispose*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -192,6 +197,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Threading.ManualResetEventSlim.IsSet*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -214,6 +220,7 @@ items:
     content: public void Reset ();
     parameters: []
   overload: System.Threading.ManualResetEventSlim.Reset*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -236,6 +243,7 @@ items:
     content: public void Set ();
     parameters: []
   overload: System.Threading.ManualResetEventSlim.Set*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -260,6 +268,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.Threading.ManualResetEventSlim.SpinCount*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -282,6 +291,7 @@ items:
     content: public void Wait ();
     parameters: []
   overload: System.Threading.ManualResetEventSlim.Wait*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -310,6 +320,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Threading.ManualResetEventSlim.Wait*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -335,6 +346,7 @@ items:
       type: System.Threading.CancellationToken
       description: To be added.
   overload: System.Threading.ManualResetEventSlim.Wait*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -363,6 +375,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Threading.ManualResetEventSlim.Wait*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -394,6 +407,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Threading.ManualResetEventSlim.Wait*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -425,6 +439,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Threading.ManualResetEventSlim.Wait*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -449,6 +464,7 @@ items:
       type: System.Threading.WaitHandle
       description: To be added.
   overload: System.Threading.ManualResetEventSlim.WaitHandle*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -481,12 +497,6 @@ references:
   name: ManualResetEventSlim(Boolean,Int32)
   nameWithType: ManualResetEventSlim.ManualResetEventSlim(Boolean,Int32)
   fullName: System.Threading.ManualResetEventSlim.ManualResetEventSlim(Boolean,Int32)
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
 - uid: System.Int32
   parent: System
   isExternal: false
@@ -505,24 +515,12 @@ references:
   name: Dispose(Boolean)
   nameWithType: ManualResetEventSlim.Dispose(Boolean)
   fullName: System.Threading.ManualResetEventSlim.Dispose(Boolean)
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
 - uid: System.Threading.ManualResetEventSlim.IsSet
   parent: System.Threading.ManualResetEventSlim
   isExternal: false
   name: IsSet
   nameWithType: ManualResetEventSlim.IsSet
   fullName: System.Threading.ManualResetEventSlim.IsSet
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
 - uid: System.Threading.ManualResetEventSlim.Reset
   parent: System.Threading.ManualResetEventSlim
   isExternal: false
@@ -541,12 +539,6 @@ references:
   name: SpinCount
   nameWithType: ManualResetEventSlim.SpinCount
   fullName: System.Threading.ManualResetEventSlim.SpinCount
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
 - uid: System.Threading.ManualResetEventSlim.Wait
   parent: System.Threading.ManualResetEventSlim
   isExternal: false
@@ -559,18 +551,6 @@ references:
   name: Wait(Int32)
   nameWithType: ManualResetEventSlim.Wait(Int32)
   fullName: System.Threading.ManualResetEventSlim.Wait(Int32)
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
 - uid: System.Threading.ManualResetEventSlim.Wait(System.Threading.CancellationToken)
   parent: System.Threading.ManualResetEventSlim
   isExternal: false
@@ -589,12 +569,6 @@ references:
   name: Wait(TimeSpan)
   nameWithType: ManualResetEventSlim.Wait(TimeSpan)
   fullName: System.Threading.ManualResetEventSlim.Wait(TimeSpan)
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
 - uid: System.TimeSpan
   parent: System
   isExternal: false
@@ -607,48 +581,12 @@ references:
   name: Wait(Int32,CancellationToken)
   nameWithType: ManualResetEventSlim.Wait(Int32,CancellationToken)
   fullName: System.Threading.ManualResetEventSlim.Wait(Int32,CancellationToken)
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: System.Threading.CancellationToken
-  parent: System.Threading
-  isExternal: false
-  name: CancellationToken
-  nameWithType: CancellationToken
-  fullName: System.Threading.CancellationToken
 - uid: System.Threading.ManualResetEventSlim.Wait(System.TimeSpan,System.Threading.CancellationToken)
   parent: System.Threading.ManualResetEventSlim
   isExternal: false
   name: Wait(TimeSpan,CancellationToken)
   nameWithType: ManualResetEventSlim.Wait(TimeSpan,CancellationToken)
   fullName: System.Threading.ManualResetEventSlim.Wait(TimeSpan,CancellationToken)
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
-- uid: System.TimeSpan
-  parent: System
-  isExternal: false
-  name: TimeSpan
-  nameWithType: TimeSpan
-  fullName: System.TimeSpan
-- uid: System.Threading.CancellationToken
-  parent: System.Threading
-  isExternal: false
-  name: CancellationToken
-  nameWithType: CancellationToken
-  fullName: System.Threading.CancellationToken
 - uid: System.Threading.ManualResetEventSlim.WaitHandle
   parent: System.Threading.ManualResetEventSlim
   isExternal: false

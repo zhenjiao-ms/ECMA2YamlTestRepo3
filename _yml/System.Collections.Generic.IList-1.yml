@@ -51,6 +51,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.Collections.Generic.IList`1.IndexOf*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -79,6 +80,7 @@ items:
       type: T
       description: To be added.
   overload: System.Collections.Generic.IList`1.Insert*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -107,6 +109,7 @@ items:
       type: T
       description: To be added.
   overload: System.Collections.Generic.IList`1.Item*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -132,6 +135,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.Collections.Generic.IList`1.RemoveAt*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -150,7 +154,6 @@ references:
   nameWithType: Int32
   fullName: System.Int32
 - uid: T
-  parent: ''
   isExternal: true
   name: T
   nameWithType: T
@@ -161,48 +164,18 @@ references:
   name: Insert(Int32,T)
   nameWithType: IList<T>.Insert(Int32,T)
   fullName: System.Collections.Generic.IList<T>.Insert(Int32,T)
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: T
-  parent: ''
-  isExternal: true
-  name: T
-  nameWithType: T
-  fullName: T
 - uid: System.Collections.Generic.IList`1.Item(System.Int32)
   parent: System.Collections.Generic.IList`1
   isExternal: false
   name: Item(Int32)
   nameWithType: IList<T>.Item(Int32)
   fullName: System.Collections.Generic.IList<T>.Item(Int32)
-- uid: T
-  parent: ''
-  isExternal: true
-  name: T
-  nameWithType: T
-  fullName: T
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
 - uid: System.Collections.Generic.IList`1.RemoveAt(System.Int32)
   parent: System.Collections.Generic.IList`1
   isExternal: false
   name: RemoveAt(Int32)
   nameWithType: IList<T>.RemoveAt(Int32)
   fullName: System.Collections.Generic.IList<T>.RemoveAt(Int32)
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
 - uid: System.Collections.Generic.IList`1.IndexOf*
   parent: System.Collections.Generic.IList`1
   isExternal: false

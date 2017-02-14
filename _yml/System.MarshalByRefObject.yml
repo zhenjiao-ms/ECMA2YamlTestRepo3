@@ -54,6 +54,7 @@ items:
     content: protected MarshalByRefObject ();
     parameters: []
   overload: System.MarshalByRefObject.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -82,6 +83,7 @@ items:
       type: System.Runtime.Remoting.ObjRef
       description: To be added.
   overload: System.MarshalByRefObject.CreateObjRef*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -107,6 +109,7 @@ items:
       type: System.Object
       description: To be added.
   overload: System.MarshalByRefObject.GetLifetimeService*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -132,6 +135,7 @@ items:
       type: System.Object
       description: To be added.
   overload: System.MarshalByRefObject.InitializeLifetimeService*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -160,6 +164,7 @@ items:
       type: System.MarshalByRefObject
       description: To be added.
   overload: System.MarshalByRefObject.MemberwiseClone*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -198,24 +203,12 @@ references:
   name: GetLifetimeService()
   nameWithType: MarshalByRefObject.GetLifetimeService()
   fullName: System.MarshalByRefObject.GetLifetimeService()
-- uid: System.Object
-  parent: System
-  isExternal: false
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
 - uid: System.MarshalByRefObject.InitializeLifetimeService
   parent: System.MarshalByRefObject
   isExternal: false
   name: InitializeLifetimeService()
   nameWithType: MarshalByRefObject.InitializeLifetimeService()
   fullName: System.MarshalByRefObject.InitializeLifetimeService()
-- uid: System.Object
-  parent: System
-  isExternal: false
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
 - uid: System.MarshalByRefObject.MemberwiseClone(System.Boolean)
   parent: System.MarshalByRefObject
   isExternal: false

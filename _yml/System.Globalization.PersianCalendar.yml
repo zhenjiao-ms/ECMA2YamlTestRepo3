@@ -95,6 +95,7 @@ items:
     content: public PersianCalendar ();
     parameters: []
   overload: System.Globalization.PersianCalendar.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -126,6 +127,7 @@ items:
       type: System.DateTime
       description: To be added.
   overload: System.Globalization.PersianCalendar.AddMonths*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -157,6 +159,7 @@ items:
       type: System.DateTime
       description: To be added.
   overload: System.Globalization.PersianCalendar.AddYears*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -181,6 +184,7 @@ items:
       type: System.Globalization.CalendarAlgorithmType
       description: To be added.
   overload: System.Globalization.PersianCalendar.AlgorithmType*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -205,6 +209,7 @@ items:
       type: System.Int32[]
       description: To be added.
   overload: System.Globalization.PersianCalendar.Eras*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -233,6 +238,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.Globalization.PersianCalendar.GetDayOfMonth*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -261,6 +267,7 @@ items:
       type: System.DayOfWeek
       description: To be added.
   overload: System.Globalization.PersianCalendar.GetDayOfWeek*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -289,6 +296,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.Globalization.PersianCalendar.GetDayOfYear*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -323,6 +331,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.Globalization.PersianCalendar.GetDaysInMonth*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -354,6 +363,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.Globalization.PersianCalendar.GetDaysInYear*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -382,6 +392,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.Globalization.PersianCalendar.GetEra*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -413,6 +424,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.Globalization.PersianCalendar.GetLeapMonth*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -441,6 +453,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.Globalization.PersianCalendar.GetMonth*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -472,6 +485,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.Globalization.PersianCalendar.GetMonthsInYear*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -500,6 +514,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.Globalization.PersianCalendar.GetYear*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -537,6 +552,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Globalization.PersianCalendar.IsLeapDay*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -571,6 +587,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Globalization.PersianCalendar.IsLeapMonth*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -602,6 +619,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Globalization.PersianCalendar.IsLeapYear*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -626,6 +644,7 @@ items:
       type: System.DateTime
       description: To be added.
   overload: System.Globalization.PersianCalendar.MaxSupportedDateTime*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -650,6 +669,7 @@ items:
       type: System.DateTime
       description: To be added.
   overload: System.Globalization.PersianCalendar.MinSupportedDateTime*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -673,6 +693,7 @@ items:
     return:
       type: System.Int32
       description: To be added.
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -722,6 +743,7 @@ items:
       type: System.DateTime
       description: To be added.
   overload: System.Globalization.PersianCalendar.ToDateTime*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -750,6 +772,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.Globalization.PersianCalendar.ToFourDigitYear*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -774,6 +797,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.Globalization.PersianCalendar.TwoDigitYearMax*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -800,12 +824,6 @@ references:
   name: DateTime
   nameWithType: DateTime
   fullName: System.DateTime
-- uid: System.DateTime
-  parent: System
-  isExternal: false
-  name: DateTime
-  nameWithType: DateTime
-  fullName: System.DateTime
 - uid: System.Int32
   parent: System
   isExternal: false
@@ -818,24 +836,6 @@ references:
   name: AddYears(DateTime,Int32)
   nameWithType: PersianCalendar.AddYears(DateTime,Int32)
   fullName: System.Globalization.PersianCalendar.AddYears(DateTime,Int32)
-- uid: System.DateTime
-  parent: System
-  isExternal: false
-  name: DateTime
-  nameWithType: DateTime
-  fullName: System.DateTime
-- uid: System.DateTime
-  parent: System
-  isExternal: false
-  name: DateTime
-  nameWithType: DateTime
-  fullName: System.DateTime
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
 - uid: System.Globalization.PersianCalendar.AlgorithmType
   parent: System.Globalization.PersianCalendar
   isExternal: false
@@ -854,30 +854,26 @@ references:
   name: Eras
   nameWithType: PersianCalendar.Eras
   fullName: System.Globalization.PersianCalendar.Eras
-- uid: System.Int32
+- uid: System.Int32[]
   parent: System
   isExternal: false
   name: Int32
   nameWithType: Int32
   fullName: System.Int32[]
+  spec.csharp:
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: Int32[]
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
 - uid: System.Globalization.PersianCalendar.GetDayOfMonth(System.DateTime)
   parent: System.Globalization.PersianCalendar
   isExternal: false
   name: GetDayOfMonth(DateTime)
   nameWithType: PersianCalendar.GetDayOfMonth(DateTime)
   fullName: System.Globalization.PersianCalendar.GetDayOfMonth(DateTime)
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: System.DateTime
-  parent: System
-  isExternal: false
-  name: DateTime
-  nameWithType: DateTime
-  fullName: System.DateTime
 - uid: System.Globalization.PersianCalendar.GetDayOfWeek(System.DateTime)
   parent: System.Globalization.PersianCalendar
   isExternal: false
@@ -890,186 +886,54 @@ references:
   name: DayOfWeek
   nameWithType: DayOfWeek
   fullName: System.DayOfWeek
-- uid: System.DateTime
-  parent: System
-  isExternal: false
-  name: DateTime
-  nameWithType: DateTime
-  fullName: System.DateTime
 - uid: System.Globalization.PersianCalendar.GetDayOfYear(System.DateTime)
   parent: System.Globalization.PersianCalendar
   isExternal: false
   name: GetDayOfYear(DateTime)
   nameWithType: PersianCalendar.GetDayOfYear(DateTime)
   fullName: System.Globalization.PersianCalendar.GetDayOfYear(DateTime)
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: System.DateTime
-  parent: System
-  isExternal: false
-  name: DateTime
-  nameWithType: DateTime
-  fullName: System.DateTime
 - uid: System.Globalization.PersianCalendar.GetDaysInMonth(System.Int32,System.Int32,System.Int32)
   parent: System.Globalization.PersianCalendar
   isExternal: false
   name: GetDaysInMonth(Int32,Int32,Int32)
   nameWithType: PersianCalendar.GetDaysInMonth(Int32,Int32,Int32)
   fullName: System.Globalization.PersianCalendar.GetDaysInMonth(Int32,Int32,Int32)
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
 - uid: System.Globalization.PersianCalendar.GetDaysInYear(System.Int32,System.Int32)
   parent: System.Globalization.PersianCalendar
   isExternal: false
   name: GetDaysInYear(Int32,Int32)
   nameWithType: PersianCalendar.GetDaysInYear(Int32,Int32)
   fullName: System.Globalization.PersianCalendar.GetDaysInYear(Int32,Int32)
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
 - uid: System.Globalization.PersianCalendar.GetEra(System.DateTime)
   parent: System.Globalization.PersianCalendar
   isExternal: false
   name: GetEra(DateTime)
   nameWithType: PersianCalendar.GetEra(DateTime)
   fullName: System.Globalization.PersianCalendar.GetEra(DateTime)
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: System.DateTime
-  parent: System
-  isExternal: false
-  name: DateTime
-  nameWithType: DateTime
-  fullName: System.DateTime
 - uid: System.Globalization.PersianCalendar.GetLeapMonth(System.Int32,System.Int32)
   parent: System.Globalization.PersianCalendar
   isExternal: false
   name: GetLeapMonth(Int32,Int32)
   nameWithType: PersianCalendar.GetLeapMonth(Int32,Int32)
   fullName: System.Globalization.PersianCalendar.GetLeapMonth(Int32,Int32)
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
 - uid: System.Globalization.PersianCalendar.GetMonth(System.DateTime)
   parent: System.Globalization.PersianCalendar
   isExternal: false
   name: GetMonth(DateTime)
   nameWithType: PersianCalendar.GetMonth(DateTime)
   fullName: System.Globalization.PersianCalendar.GetMonth(DateTime)
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: System.DateTime
-  parent: System
-  isExternal: false
-  name: DateTime
-  nameWithType: DateTime
-  fullName: System.DateTime
 - uid: System.Globalization.PersianCalendar.GetMonthsInYear(System.Int32,System.Int32)
   parent: System.Globalization.PersianCalendar
   isExternal: false
   name: GetMonthsInYear(Int32,Int32)
   nameWithType: PersianCalendar.GetMonthsInYear(Int32,Int32)
   fullName: System.Globalization.PersianCalendar.GetMonthsInYear(Int32,Int32)
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
 - uid: System.Globalization.PersianCalendar.GetYear(System.DateTime)
   parent: System.Globalization.PersianCalendar
   isExternal: false
   name: GetYear(DateTime)
   nameWithType: PersianCalendar.GetYear(DateTime)
   fullName: System.Globalization.PersianCalendar.GetYear(DateTime)
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: System.DateTime
-  parent: System
-  isExternal: false
-  name: DateTime
-  nameWithType: DateTime
-  fullName: System.DateTime
 - uid: System.Globalization.PersianCalendar.IsLeapDay(System.Int32,System.Int32,System.Int32,System.Int32)
   parent: System.Globalization.PersianCalendar
   isExternal: false
@@ -1082,210 +946,54 @@ references:
   name: Boolean
   nameWithType: Boolean
   fullName: System.Boolean
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
 - uid: System.Globalization.PersianCalendar.IsLeapMonth(System.Int32,System.Int32,System.Int32)
   parent: System.Globalization.PersianCalendar
   isExternal: false
   name: IsLeapMonth(Int32,Int32,Int32)
   nameWithType: PersianCalendar.IsLeapMonth(Int32,Int32,Int32)
   fullName: System.Globalization.PersianCalendar.IsLeapMonth(Int32,Int32,Int32)
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
 - uid: System.Globalization.PersianCalendar.IsLeapYear(System.Int32,System.Int32)
   parent: System.Globalization.PersianCalendar
   isExternal: false
   name: IsLeapYear(Int32,Int32)
   nameWithType: PersianCalendar.IsLeapYear(Int32,Int32)
   fullName: System.Globalization.PersianCalendar.IsLeapYear(Int32,Int32)
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
 - uid: System.Globalization.PersianCalendar.MaxSupportedDateTime
   parent: System.Globalization.PersianCalendar
   isExternal: false
   name: MaxSupportedDateTime
   nameWithType: PersianCalendar.MaxSupportedDateTime
   fullName: System.Globalization.PersianCalendar.MaxSupportedDateTime
-- uid: System.DateTime
-  parent: System
-  isExternal: false
-  name: DateTime
-  nameWithType: DateTime
-  fullName: System.DateTime
 - uid: System.Globalization.PersianCalendar.MinSupportedDateTime
   parent: System.Globalization.PersianCalendar
   isExternal: false
   name: MinSupportedDateTime
   nameWithType: PersianCalendar.MinSupportedDateTime
   fullName: System.Globalization.PersianCalendar.MinSupportedDateTime
-- uid: System.DateTime
-  parent: System
-  isExternal: false
-  name: DateTime
-  nameWithType: DateTime
-  fullName: System.DateTime
 - uid: System.Globalization.PersianCalendar.PersianEra
   parent: System.Globalization.PersianCalendar
   isExternal: false
   name: PersianEra
   nameWithType: PersianCalendar.PersianEra
   fullName: System.Globalization.PersianCalendar.PersianEra
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
 - uid: System.Globalization.PersianCalendar.ToDateTime(System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32)
   parent: System.Globalization.PersianCalendar
   isExternal: false
   name: ToDateTime(Int32,Int32,Int32,Int32,Int32,Int32,Int32,Int32)
   nameWithType: PersianCalendar.ToDateTime(Int32,Int32,Int32,Int32,Int32,Int32,Int32,Int32)
   fullName: System.Globalization.PersianCalendar.ToDateTime(Int32,Int32,Int32,Int32,Int32,Int32,Int32,Int32)
-- uid: System.DateTime
-  parent: System
-  isExternal: false
-  name: DateTime
-  nameWithType: DateTime
-  fullName: System.DateTime
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
 - uid: System.Globalization.PersianCalendar.ToFourDigitYear(System.Int32)
   parent: System.Globalization.PersianCalendar
   isExternal: false
   name: ToFourDigitYear(Int32)
   nameWithType: PersianCalendar.ToFourDigitYear(Int32)
   fullName: System.Globalization.PersianCalendar.ToFourDigitYear(Int32)
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
 - uid: System.Globalization.PersianCalendar.TwoDigitYearMax
   parent: System.Globalization.PersianCalendar
   isExternal: false
   name: TwoDigitYearMax
   nameWithType: PersianCalendar.TwoDigitYearMax
   fullName: System.Globalization.PersianCalendar.TwoDigitYearMax
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
 - uid: System.Globalization.PersianCalendar.#ctor*
   parent: System.Globalization.PersianCalendar
   isExternal: false

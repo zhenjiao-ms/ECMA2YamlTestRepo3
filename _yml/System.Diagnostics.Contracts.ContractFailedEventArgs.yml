@@ -69,6 +69,7 @@ items:
       type: System.Exception
       description: To be added.
   overload: System.Diagnostics.Contracts.ContractFailedEventArgs.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -93,6 +94,7 @@ items:
       type: System.String
       description: To be added.
   overload: System.Diagnostics.Contracts.ContractFailedEventArgs.Condition*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -117,6 +119,7 @@ items:
       type: System.Diagnostics.Contracts.ContractFailureKind
       description: To be added.
   overload: System.Diagnostics.Contracts.ContractFailedEventArgs.FailureKind*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -141,6 +144,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Diagnostics.Contracts.ContractFailedEventArgs.Handled*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -165,6 +169,7 @@ items:
       type: System.String
       description: To be added.
   overload: System.Diagnostics.Contracts.ContractFailedEventArgs.Message*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -189,6 +194,7 @@ items:
       type: System.Exception
       description: To be added.
   overload: System.Diagnostics.Contracts.ContractFailedEventArgs.OriginalException*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -211,6 +217,7 @@ items:
     content: public void SetHandled ();
     parameters: []
   overload: System.Diagnostics.Contracts.ContractFailedEventArgs.SetHandled*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -233,6 +240,7 @@ items:
     content: public void SetUnwind ();
     parameters: []
   overload: System.Diagnostics.Contracts.ContractFailedEventArgs.SetUnwind*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -257,6 +265,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Diagnostics.Contracts.ContractFailedEventArgs.Unwind*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -283,12 +292,6 @@ references:
   name: String
   nameWithType: String
   fullName: System.String
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
 - uid: System.Exception
   parent: System
   isExternal: false
@@ -301,24 +304,12 @@ references:
   name: Condition
   nameWithType: ContractFailedEventArgs.Condition
   fullName: System.Diagnostics.Contracts.ContractFailedEventArgs.Condition
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
 - uid: System.Diagnostics.Contracts.ContractFailedEventArgs.FailureKind
   parent: System.Diagnostics.Contracts.ContractFailedEventArgs
   isExternal: false
   name: FailureKind
   nameWithType: ContractFailedEventArgs.FailureKind
   fullName: System.Diagnostics.Contracts.ContractFailedEventArgs.FailureKind
-- uid: System.Diagnostics.Contracts.ContractFailureKind
-  parent: System.Diagnostics.Contracts
-  isExternal: false
-  name: ContractFailureKind
-  nameWithType: ContractFailureKind
-  fullName: System.Diagnostics.Contracts.ContractFailureKind
 - uid: System.Diagnostics.Contracts.ContractFailedEventArgs.Handled
   parent: System.Diagnostics.Contracts.ContractFailedEventArgs
   isExternal: false
@@ -337,24 +328,12 @@ references:
   name: Message
   nameWithType: ContractFailedEventArgs.Message
   fullName: System.Diagnostics.Contracts.ContractFailedEventArgs.Message
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
 - uid: System.Diagnostics.Contracts.ContractFailedEventArgs.OriginalException
   parent: System.Diagnostics.Contracts.ContractFailedEventArgs
   isExternal: false
   name: OriginalException
   nameWithType: ContractFailedEventArgs.OriginalException
   fullName: System.Diagnostics.Contracts.ContractFailedEventArgs.OriginalException
-- uid: System.Exception
-  parent: System
-  isExternal: false
-  name: Exception
-  nameWithType: Exception
-  fullName: System.Exception
 - uid: System.Diagnostics.Contracts.ContractFailedEventArgs.SetHandled
   parent: System.Diagnostics.Contracts.ContractFailedEventArgs
   isExternal: false
@@ -373,12 +352,6 @@ references:
   name: Unwind
   nameWithType: ContractFailedEventArgs.Unwind
   fullName: System.Diagnostics.Contracts.ContractFailedEventArgs.Unwind
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
 - uid: System.Diagnostics.Contracts.ContractFailedEventArgs.#ctor*
   parent: System.Diagnostics.Contracts.ContractFailedEventArgs
   isExternal: false

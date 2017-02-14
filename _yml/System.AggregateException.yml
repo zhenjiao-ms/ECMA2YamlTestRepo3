@@ -72,6 +72,7 @@ items:
     content: public AggregateException ();
     parameters: []
   overload: System.AggregateException.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -97,6 +98,7 @@ items:
       type: System.Collections.Generic.IEnumerable{System.Exception}
       description: To be added.
   overload: System.AggregateException.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -122,6 +124,7 @@ items:
       type: System.Exception[]
       description: To be added.
   overload: System.AggregateException.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -147,6 +150,7 @@ items:
       type: System.String
       description: To be added.
   overload: System.AggregateException.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -175,6 +179,7 @@ items:
       type: System.Runtime.Serialization.StreamingContext
       description: To be added.
   overload: System.AggregateException.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -203,6 +208,7 @@ items:
       type: System.Collections.Generic.IEnumerable{System.Exception}
       description: To be added.
   overload: System.AggregateException.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -231,6 +237,7 @@ items:
       type: System.Exception
       description: To be added.
   overload: System.AggregateException.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -259,6 +266,7 @@ items:
       type: System.Exception[]
       description: To be added.
   overload: System.AggregateException.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -284,6 +292,7 @@ items:
       type: System.AggregateException
       description: To be added.
   overload: System.AggregateException.Flatten*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -309,6 +318,7 @@ items:
       type: System.Exception
       description: To be added.
   overload: System.AggregateException.GetBaseException*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -337,6 +347,7 @@ items:
       type: System.Runtime.Serialization.StreamingContext
       description: To be added.
   overload: System.AggregateException.GetObjectData*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -362,6 +373,7 @@ items:
       type: System.Func{System.Exception,System.Boolean}
       description: To be added.
   overload: System.AggregateException.Handle*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -386,6 +398,7 @@ items:
       type: System.Collections.ObjectModel.ReadOnlyCollection{System.Exception}
       description: To be added.
   overload: System.AggregateException.InnerExceptions*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -411,6 +424,7 @@ items:
       type: System.String
       description: To be added.
   overload: System.AggregateException.ToString*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -437,18 +451,41 @@ references:
   name: IEnumerable<Exception>
   nameWithType: IEnumerable<Exception>
   fullName: System.Collections.Generic.IEnumerable<System.Exception>
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: IEnumerable<System.Exception>
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Exception
+    name: Exception
+    nameWithType: Exception
+    fullName: Exception
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
 - uid: System.AggregateException.#ctor(System.Exception[])
   parent: System.AggregateException
   isExternal: false
   name: AggregateException(Exception[])
   nameWithType: AggregateException.AggregateException(Exception[])
   fullName: System.AggregateException.AggregateException(Exception[])
-- uid: System.Exception
+- uid: System.Exception[]
   parent: System
   isExternal: false
   name: Exception
   nameWithType: Exception
   fullName: System.Exception[]
+  spec.csharp:
+  - uid: System.Exception
+    name: Exception
+    nameWithType: Exception
+    fullName: Exception[]
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
 - uid: System.AggregateException.#ctor(System.String)
   parent: System.AggregateException
   isExternal: false
@@ -485,54 +522,18 @@ references:
   name: AggregateException(String,IEnumerable<Exception>)
   nameWithType: AggregateException.AggregateException(String,IEnumerable<Exception>)
   fullName: System.AggregateException.AggregateException(String,IEnumerable<Exception>)
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
-- uid: System.Collections.Generic.IEnumerable{System.Exception}
-  parent: System.Collections.Generic
-  isExternal: false
-  name: IEnumerable<Exception>
-  nameWithType: IEnumerable<Exception>
-  fullName: System.Collections.Generic.IEnumerable<System.Exception>
 - uid: System.AggregateException.#ctor(System.String,System.Exception)
   parent: System.AggregateException
   isExternal: false
   name: AggregateException(String,Exception)
   nameWithType: AggregateException.AggregateException(String,Exception)
   fullName: System.AggregateException.AggregateException(String,Exception)
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
-- uid: System.Exception
-  parent: System
-  isExternal: false
-  name: Exception
-  nameWithType: Exception
-  fullName: System.Exception
 - uid: System.AggregateException.#ctor(System.String,System.Exception[])
   parent: System.AggregateException
   isExternal: false
   name: AggregateException(String,Exception[])
   nameWithType: AggregateException.AggregateException(String,Exception[])
   fullName: System.AggregateException.AggregateException(String,Exception[])
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
-- uid: System.Exception
-  parent: System
-  isExternal: false
-  name: Exception
-  nameWithType: Exception
-  fullName: System.Exception[]
 - uid: System.AggregateException.Flatten
   parent: System.AggregateException
   isExternal: false
@@ -551,30 +552,12 @@ references:
   name: GetBaseException()
   nameWithType: AggregateException.GetBaseException()
   fullName: System.AggregateException.GetBaseException()
-- uid: System.Exception
-  parent: System
-  isExternal: false
-  name: Exception
-  nameWithType: Exception
-  fullName: System.Exception
 - uid: System.AggregateException.GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
   parent: System.AggregateException
   isExternal: false
   name: GetObjectData(SerializationInfo,StreamingContext)
   nameWithType: AggregateException.GetObjectData(SerializationInfo,StreamingContext)
   fullName: System.AggregateException.GetObjectData(SerializationInfo,StreamingContext)
-- uid: System.Runtime.Serialization.SerializationInfo
-  parent: System.Runtime.Serialization
-  isExternal: false
-  name: SerializationInfo
-  nameWithType: SerializationInfo
-  fullName: System.Runtime.Serialization.SerializationInfo
-- uid: System.Runtime.Serialization.StreamingContext
-  parent: System.Runtime.Serialization
-  isExternal: false
-  name: StreamingContext
-  nameWithType: StreamingContext
-  fullName: System.Runtime.Serialization.StreamingContext
 - uid: System.AggregateException.Handle(System.Func{System.Exception,System.Boolean})
   parent: System.AggregateException
   isExternal: false
@@ -587,6 +570,28 @@ references:
   name: Func<Exception,Boolean>
   nameWithType: Func<Exception,Boolean>
   fullName: System.Func<System.Exception,System.Boolean>
+  spec.csharp:
+  - uid: System.Func`2
+    name: Func
+    nameWithType: Func
+    fullName: Func<System.Exception,System.Boolean>
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Exception
+    name: Exception
+    nameWithType: Exception
+    fullName: Exception
+  - name: ','
+    nameWithType: ','
+    fullName: ','
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: Boolean
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
 - uid: System.AggregateException.InnerExceptions
   parent: System.AggregateException
   isExternal: false
@@ -599,18 +604,27 @@ references:
   name: ReadOnlyCollection<Exception>
   nameWithType: ReadOnlyCollection<Exception>
   fullName: System.Collections.ObjectModel.ReadOnlyCollection<System.Exception>
+  spec.csharp:
+  - uid: System.Collections.ObjectModel.ReadOnlyCollection`1
+    name: ReadOnlyCollection
+    nameWithType: ReadOnlyCollection
+    fullName: ReadOnlyCollection<System.Exception>
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Exception
+    name: Exception
+    nameWithType: Exception
+    fullName: Exception
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
 - uid: System.AggregateException.ToString
   parent: System.AggregateException
   isExternal: false
   name: ToString()
   nameWithType: AggregateException.ToString()
   fullName: System.AggregateException.ToString()
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
 - uid: System.AggregateException.#ctor*
   parent: System.AggregateException
   isExternal: false

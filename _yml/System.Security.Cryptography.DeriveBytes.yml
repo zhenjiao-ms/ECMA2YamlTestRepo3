@@ -55,6 +55,7 @@ items:
     content: protected DeriveBytes ();
     parameters: []
   overload: System.Security.Cryptography.DeriveBytes.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -77,6 +78,7 @@ items:
     content: public void Dispose ();
     parameters: []
   overload: System.Security.Cryptography.DeriveBytes.Dispose*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -102,6 +104,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Security.Cryptography.DeriveBytes.Dispose*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -130,6 +133,7 @@ items:
       type: System.Byte[]
       description: To be added.
   overload: System.Security.Cryptography.DeriveBytes.GetBytes*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -152,6 +156,7 @@ items:
     content: public abstract void Reset ();
     parameters: []
   overload: System.Security.Cryptography.DeriveBytes.Reset*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -190,12 +195,20 @@ references:
   name: GetBytes(Int32)
   nameWithType: DeriveBytes.GetBytes(Int32)
   fullName: System.Security.Cryptography.DeriveBytes.GetBytes(Int32)
-- uid: System.Byte
+- uid: System.Byte[]
   parent: System
   isExternal: false
   name: Byte
   nameWithType: Byte
   fullName: System.Byte[]
+  spec.csharp:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: Byte[]
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
 - uid: System.Int32
   parent: System
   isExternal: false

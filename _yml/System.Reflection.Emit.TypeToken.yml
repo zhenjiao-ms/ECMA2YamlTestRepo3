@@ -50,6 +50,7 @@ items:
     return:
       type: System.Reflection.Emit.TypeToken
       description: To be added.
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -78,6 +79,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Reflection.Emit.TypeToken.Equals*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -106,6 +108,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Reflection.Emit.TypeToken.Equals*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -131,6 +134,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.Reflection.Emit.TypeToken.GetHashCode*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -162,6 +166,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Reflection.Emit.TypeToken.op_Equality*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -193,6 +198,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Reflection.Emit.TypeToken.op_Inequality*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -217,6 +223,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.Reflection.Emit.TypeToken.Token*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -261,18 +268,6 @@ references:
   name: Equals(TypeToken)
   nameWithType: TypeToken.Equals(TypeToken)
   fullName: System.Reflection.Emit.TypeToken.Equals(TypeToken)
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
-- uid: System.Reflection.Emit.TypeToken
-  parent: System.Reflection.Emit
-  isExternal: false
-  name: TypeToken
-  nameWithType: TypeToken
-  fullName: System.Reflection.Emit.TypeToken
 - uid: System.Reflection.Emit.TypeToken.GetHashCode
   parent: System.Reflection.Emit.TypeToken
   isExternal: false
@@ -291,60 +286,18 @@ references:
   name: op_Equality(TypeToken,TypeToken)
   nameWithType: TypeToken.op_Equality(TypeToken,TypeToken)
   fullName: System.Reflection.Emit.TypeToken.op_Equality(TypeToken,TypeToken)
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
-- uid: System.Reflection.Emit.TypeToken
-  parent: System.Reflection.Emit
-  isExternal: false
-  name: TypeToken
-  nameWithType: TypeToken
-  fullName: System.Reflection.Emit.TypeToken
-- uid: System.Reflection.Emit.TypeToken
-  parent: System.Reflection.Emit
-  isExternal: false
-  name: TypeToken
-  nameWithType: TypeToken
-  fullName: System.Reflection.Emit.TypeToken
 - uid: System.Reflection.Emit.TypeToken.op_Inequality(System.Reflection.Emit.TypeToken,System.Reflection.Emit.TypeToken)
   parent: System.Reflection.Emit.TypeToken
   isExternal: false
   name: op_Inequality(TypeToken,TypeToken)
   nameWithType: TypeToken.op_Inequality(TypeToken,TypeToken)
   fullName: System.Reflection.Emit.TypeToken.op_Inequality(TypeToken,TypeToken)
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
-- uid: System.Reflection.Emit.TypeToken
-  parent: System.Reflection.Emit
-  isExternal: false
-  name: TypeToken
-  nameWithType: TypeToken
-  fullName: System.Reflection.Emit.TypeToken
-- uid: System.Reflection.Emit.TypeToken
-  parent: System.Reflection.Emit
-  isExternal: false
-  name: TypeToken
-  nameWithType: TypeToken
-  fullName: System.Reflection.Emit.TypeToken
 - uid: System.Reflection.Emit.TypeToken.Token
   parent: System.Reflection.Emit.TypeToken
   isExternal: false
   name: Token
   nameWithType: TypeToken.Token
   fullName: System.Reflection.Emit.TypeToken.Token
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
 - uid: System.Reflection.Emit.TypeToken.Equals*
   parent: System.Reflection.Emit.TypeToken
   isExternal: false

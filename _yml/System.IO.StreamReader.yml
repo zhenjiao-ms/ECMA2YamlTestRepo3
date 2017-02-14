@@ -88,6 +88,7 @@ items:
       type: System.IO.Stream
       description: To be added.
   overload: System.IO.StreamReader.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -113,6 +114,7 @@ items:
       type: System.String
       description: To be added.
   overload: System.IO.StreamReader.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -141,6 +143,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.IO.StreamReader.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -169,6 +172,7 @@ items:
       type: System.Text.Encoding
       description: To be added.
   overload: System.IO.StreamReader.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -197,6 +201,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.IO.StreamReader.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -225,6 +230,7 @@ items:
       type: System.Text.Encoding
       description: To be added.
   overload: System.IO.StreamReader.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -256,6 +262,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.IO.StreamReader.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -287,6 +294,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.IO.StreamReader.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -321,6 +329,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.IO.StreamReader.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -355,6 +364,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.IO.StreamReader.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -392,6 +402,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.IO.StreamReader.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -416,6 +427,7 @@ items:
       type: System.IO.Stream
       description: To be added.
   overload: System.IO.StreamReader.BaseStream*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -438,6 +450,7 @@ items:
     content: public override void Close ();
     parameters: []
   overload: System.IO.StreamReader.Close*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -462,6 +475,7 @@ items:
       type: System.Text.Encoding
       description: To be added.
   overload: System.IO.StreamReader.CurrentEncoding*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -484,6 +498,7 @@ items:
     content: public void DiscardBufferedData ();
     parameters: []
   overload: System.IO.StreamReader.DiscardBufferedData*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -509,6 +524,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.IO.StreamReader.Dispose*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -533,6 +549,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.IO.StreamReader.EndOfStream*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -556,6 +573,7 @@ items:
     return:
       type: System.IO.StreamReader
       description: To be added.
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -581,6 +599,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.IO.StreamReader.Peek*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -606,6 +625,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.IO.StreamReader.Read*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -640,6 +660,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.IO.StreamReader.Read*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -674,6 +695,7 @@ items:
       type: System.Threading.Tasks.Task{System.Int32}
       description: To be added.
   overload: System.IO.StreamReader.ReadAsync*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -708,6 +730,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.IO.StreamReader.ReadBlock*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -742,6 +765,7 @@ items:
       type: System.Threading.Tasks.Task{System.Int32}
       description: To be added.
   overload: System.IO.StreamReader.ReadBlockAsync*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -767,6 +791,7 @@ items:
       type: System.String
       description: To be added.
   overload: System.IO.StreamReader.ReadLine*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -792,6 +817,7 @@ items:
       type: System.Threading.Tasks.Task{System.String}
       description: To be added.
   overload: System.IO.StreamReader.ReadLineAsync*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -817,6 +843,7 @@ items:
       type: System.String
       description: To be added.
   overload: System.IO.StreamReader.ReadToEnd*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -842,6 +869,7 @@ items:
       type: System.Threading.Tasks.Task{System.String}
       description: To be added.
   overload: System.IO.StreamReader.ReadToEndAsync*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -880,12 +908,6 @@ references:
   name: StreamReader(Stream,Boolean)
   nameWithType: StreamReader.StreamReader(Stream,Boolean)
   fullName: System.IO.StreamReader.StreamReader(Stream,Boolean)
-- uid: System.IO.Stream
-  parent: System.IO
-  isExternal: false
-  name: Stream
-  nameWithType: Stream
-  fullName: System.IO.Stream
 - uid: System.Boolean
   parent: System
   isExternal: false
@@ -898,12 +920,6 @@ references:
   name: StreamReader(Stream,Encoding)
   nameWithType: StreamReader.StreamReader(Stream,Encoding)
   fullName: System.IO.StreamReader.StreamReader(Stream,Encoding)
-- uid: System.IO.Stream
-  parent: System.IO
-  isExternal: false
-  name: Stream
-  nameWithType: Stream
-  fullName: System.IO.Stream
 - uid: System.Text.Encoding
   parent: System.Text
   isExternal: false
@@ -916,108 +932,30 @@ references:
   name: StreamReader(String,Boolean)
   nameWithType: StreamReader.StreamReader(String,Boolean)
   fullName: System.IO.StreamReader.StreamReader(String,Boolean)
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
 - uid: System.IO.StreamReader.#ctor(System.String,System.Text.Encoding)
   parent: System.IO.StreamReader
   isExternal: false
   name: StreamReader(String,Encoding)
   nameWithType: StreamReader.StreamReader(String,Encoding)
   fullName: System.IO.StreamReader.StreamReader(String,Encoding)
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
-- uid: System.Text.Encoding
-  parent: System.Text
-  isExternal: false
-  name: Encoding
-  nameWithType: Encoding
-  fullName: System.Text.Encoding
 - uid: System.IO.StreamReader.#ctor(System.IO.Stream,System.Text.Encoding,System.Boolean)
   parent: System.IO.StreamReader
   isExternal: false
   name: StreamReader(Stream,Encoding,Boolean)
   nameWithType: StreamReader.StreamReader(Stream,Encoding,Boolean)
   fullName: System.IO.StreamReader.StreamReader(Stream,Encoding,Boolean)
-- uid: System.IO.Stream
-  parent: System.IO
-  isExternal: false
-  name: Stream
-  nameWithType: Stream
-  fullName: System.IO.Stream
-- uid: System.Text.Encoding
-  parent: System.Text
-  isExternal: false
-  name: Encoding
-  nameWithType: Encoding
-  fullName: System.Text.Encoding
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
 - uid: System.IO.StreamReader.#ctor(System.String,System.Text.Encoding,System.Boolean)
   parent: System.IO.StreamReader
   isExternal: false
   name: StreamReader(String,Encoding,Boolean)
   nameWithType: StreamReader.StreamReader(String,Encoding,Boolean)
   fullName: System.IO.StreamReader.StreamReader(String,Encoding,Boolean)
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
-- uid: System.Text.Encoding
-  parent: System.Text
-  isExternal: false
-  name: Encoding
-  nameWithType: Encoding
-  fullName: System.Text.Encoding
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
 - uid: System.IO.StreamReader.#ctor(System.IO.Stream,System.Text.Encoding,System.Boolean,System.Int32)
   parent: System.IO.StreamReader
   isExternal: false
   name: StreamReader(Stream,Encoding,Boolean,Int32)
   nameWithType: StreamReader.StreamReader(Stream,Encoding,Boolean,Int32)
   fullName: System.IO.StreamReader.StreamReader(Stream,Encoding,Boolean,Int32)
-- uid: System.IO.Stream
-  parent: System.IO
-  isExternal: false
-  name: Stream
-  nameWithType: Stream
-  fullName: System.IO.Stream
-- uid: System.Text.Encoding
-  parent: System.Text
-  isExternal: false
-  name: Encoding
-  nameWithType: Encoding
-  fullName: System.Text.Encoding
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
 - uid: System.Int32
   parent: System
   isExternal: false
@@ -1030,78 +968,18 @@ references:
   name: StreamReader(String,Encoding,Boolean,Int32)
   nameWithType: StreamReader.StreamReader(String,Encoding,Boolean,Int32)
   fullName: System.IO.StreamReader.StreamReader(String,Encoding,Boolean,Int32)
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
-- uid: System.Text.Encoding
-  parent: System.Text
-  isExternal: false
-  name: Encoding
-  nameWithType: Encoding
-  fullName: System.Text.Encoding
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
 - uid: System.IO.StreamReader.#ctor(System.IO.Stream,System.Text.Encoding,System.Boolean,System.Int32,System.Boolean)
   parent: System.IO.StreamReader
   isExternal: false
   name: StreamReader(Stream,Encoding,Boolean,Int32,Boolean)
   nameWithType: StreamReader.StreamReader(Stream,Encoding,Boolean,Int32,Boolean)
   fullName: System.IO.StreamReader.StreamReader(Stream,Encoding,Boolean,Int32,Boolean)
-- uid: System.IO.Stream
-  parent: System.IO
-  isExternal: false
-  name: Stream
-  nameWithType: Stream
-  fullName: System.IO.Stream
-- uid: System.Text.Encoding
-  parent: System.Text
-  isExternal: false
-  name: Encoding
-  nameWithType: Encoding
-  fullName: System.Text.Encoding
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
 - uid: System.IO.StreamReader.BaseStream
   parent: System.IO.StreamReader
   isExternal: false
   name: BaseStream
   nameWithType: StreamReader.BaseStream
   fullName: System.IO.StreamReader.BaseStream
-- uid: System.IO.Stream
-  parent: System.IO
-  isExternal: false
-  name: Stream
-  nameWithType: Stream
-  fullName: System.IO.Stream
 - uid: System.IO.StreamReader.Close
   parent: System.IO.StreamReader
   isExternal: false
@@ -1114,12 +992,6 @@ references:
   name: CurrentEncoding
   nameWithType: StreamReader.CurrentEncoding
   fullName: System.IO.StreamReader.CurrentEncoding
-- uid: System.Text.Encoding
-  parent: System.Text
-  isExternal: false
-  name: Encoding
-  nameWithType: Encoding
-  fullName: System.Text.Encoding
 - uid: System.IO.StreamReader.DiscardBufferedData
   parent: System.IO.StreamReader
   isExternal: false
@@ -1132,24 +1004,12 @@ references:
   name: Dispose(Boolean)
   nameWithType: StreamReader.Dispose(Boolean)
   fullName: System.IO.StreamReader.Dispose(Boolean)
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
 - uid: System.IO.StreamReader.EndOfStream
   parent: System.IO.StreamReader
   isExternal: false
   name: EndOfStream
   nameWithType: StreamReader.EndOfStream
   fullName: System.IO.StreamReader.EndOfStream
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
 - uid: System.IO.StreamReader.Null
   parent: System.IO.StreamReader
   isExternal: false
@@ -1168,54 +1028,32 @@ references:
   name: Peek()
   nameWithType: StreamReader.Peek()
   fullName: System.IO.StreamReader.Peek()
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
 - uid: System.IO.StreamReader.Read
   parent: System.IO.StreamReader
   isExternal: false
   name: Read()
   nameWithType: StreamReader.Read()
   fullName: System.IO.StreamReader.Read()
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
 - uid: System.IO.StreamReader.Read(System.Char[],System.Int32,System.Int32)
   parent: System.IO.StreamReader
   isExternal: false
   name: Read(Char[],Int32,Int32)
   nameWithType: StreamReader.Read(Char[],Int32,Int32)
   fullName: System.IO.StreamReader.Read(Char[],Int32,Int32)
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: System.Char
+- uid: System.Char[]
   parent: System
   isExternal: false
   name: Char
   nameWithType: Char
   fullName: System.Char[]
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
+  spec.csharp:
+  - uid: System.Char
+    name: Char
+    nameWithType: Char
+    fullName: Char[]
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
 - uid: System.IO.StreamReader.ReadAsync(System.Char[],System.Int32,System.Int32)
   parent: System.IO.StreamReader
   isExternal: false
@@ -1228,96 +1066,39 @@ references:
   name: Task<Int32>
   nameWithType: Task<Int32>
   fullName: System.Threading.Tasks.Task<System.Int32>
-- uid: System.Char
-  parent: System
-  isExternal: false
-  name: Char
-  nameWithType: Char
-  fullName: System.Char[]
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: Task<System.Int32>
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: Int32
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
 - uid: System.IO.StreamReader.ReadBlock(System.Char[],System.Int32,System.Int32)
   parent: System.IO.StreamReader
   isExternal: false
   name: ReadBlock(Char[],Int32,Int32)
   nameWithType: StreamReader.ReadBlock(Char[],Int32,Int32)
   fullName: System.IO.StreamReader.ReadBlock(Char[],Int32,Int32)
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: System.Char
-  parent: System
-  isExternal: false
-  name: Char
-  nameWithType: Char
-  fullName: System.Char[]
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
 - uid: System.IO.StreamReader.ReadBlockAsync(System.Char[],System.Int32,System.Int32)
   parent: System.IO.StreamReader
   isExternal: false
   name: ReadBlockAsync(Char[],Int32,Int32)
   nameWithType: StreamReader.ReadBlockAsync(Char[],Int32,Int32)
   fullName: System.IO.StreamReader.ReadBlockAsync(Char[],Int32,Int32)
-- uid: System.Threading.Tasks.Task{System.Int32}
-  parent: System.Threading.Tasks
-  isExternal: false
-  name: Task<Int32>
-  nameWithType: Task<Int32>
-  fullName: System.Threading.Tasks.Task<System.Int32>
-- uid: System.Char
-  parent: System
-  isExternal: false
-  name: Char
-  nameWithType: Char
-  fullName: System.Char[]
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
 - uid: System.IO.StreamReader.ReadLine
   parent: System.IO.StreamReader
   isExternal: false
   name: ReadLine()
   nameWithType: StreamReader.ReadLine()
   fullName: System.IO.StreamReader.ReadLine()
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
 - uid: System.IO.StreamReader.ReadLineAsync
   parent: System.IO.StreamReader
   isExternal: false
@@ -1330,30 +1111,33 @@ references:
   name: Task<String>
   nameWithType: Task<String>
   fullName: System.Threading.Tasks.Task<System.String>
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: Task<System.String>
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: String
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
 - uid: System.IO.StreamReader.ReadToEnd
   parent: System.IO.StreamReader
   isExternal: false
   name: ReadToEnd()
   nameWithType: StreamReader.ReadToEnd()
   fullName: System.IO.StreamReader.ReadToEnd()
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
 - uid: System.IO.StreamReader.ReadToEndAsync
   parent: System.IO.StreamReader
   isExternal: false
   name: ReadToEndAsync()
   nameWithType: StreamReader.ReadToEndAsync()
   fullName: System.IO.StreamReader.ReadToEndAsync()
-- uid: System.Threading.Tasks.Task{System.String}
-  parent: System.Threading.Tasks
-  isExternal: false
-  name: Task<String>
-  nameWithType: Task<String>
-  fullName: System.Threading.Tasks.Task<System.String>
 - uid: System.IO.StreamReader.#ctor*
   parent: System.IO.StreamReader
   isExternal: false

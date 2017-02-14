@@ -63,6 +63,7 @@ items:
     content: public CspParameters ();
     parameters: []
   overload: System.Security.Cryptography.CspParameters.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -88,6 +89,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.Security.Cryptography.CspParameters.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -116,6 +118,7 @@ items:
       type: System.String
       description: To be added.
   overload: System.Security.Cryptography.CspParameters.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -147,6 +150,7 @@ items:
       type: System.String
       description: To be added.
   overload: System.Security.Cryptography.CspParameters.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -184,6 +188,7 @@ items:
       type: System.IntPtr
       description: To be added.
   overload: System.Security.Cryptography.CspParameters.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -221,6 +226,7 @@ items:
       type: System.Security.SecureString
       description: To be added.
   overload: System.Security.Cryptography.CspParameters.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -245,6 +251,7 @@ items:
       type: System.Security.AccessControl.CryptoKeySecurity
       description: To be added.
   overload: System.Security.Cryptography.CspParameters.CryptoKeySecurity*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -269,6 +276,7 @@ items:
       type: System.Security.Cryptography.CspProviderFlags
       description: To be added.
   overload: System.Security.Cryptography.CspParameters.Flags*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -292,6 +300,7 @@ items:
     return:
       type: System.String
       description: To be added.
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -315,6 +324,7 @@ items:
     return:
       type: System.Int32
       description: To be added.
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -339,6 +349,7 @@ items:
       type: System.Security.SecureString
       description: To be added.
   overload: System.Security.Cryptography.CspParameters.KeyPassword*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -363,6 +374,7 @@ items:
       type: System.IntPtr
       description: To be added.
   overload: System.Security.Cryptography.CspParameters.ParentWindowHandle*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -386,6 +398,7 @@ items:
     return:
       type: System.String
       description: To be added.
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -409,6 +422,7 @@ items:
     return:
       type: System.Int32
       description: To be added.
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -441,12 +455,6 @@ references:
   name: CspParameters(Int32,String)
   nameWithType: CspParameters.CspParameters(Int32,String)
   fullName: System.Security.Cryptography.CspParameters.CspParameters(Int32,String)
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
 - uid: System.String
   parent: System
   isExternal: false
@@ -459,48 +467,12 @@ references:
   name: CspParameters(Int32,String,String)
   nameWithType: CspParameters.CspParameters(Int32,String,String)
   fullName: System.Security.Cryptography.CspParameters.CspParameters(Int32,String,String)
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
 - uid: System.Security.Cryptography.CspParameters.#ctor(System.Int32,System.String,System.String,System.Security.AccessControl.CryptoKeySecurity,System.IntPtr)
   parent: System.Security.Cryptography.CspParameters
   isExternal: false
   name: CspParameters(Int32,String,String,CryptoKeySecurity,IntPtr)
   nameWithType: CspParameters.CspParameters(Int32,String,String,CryptoKeySecurity,IntPtr)
   fullName: System.Security.Cryptography.CspParameters.CspParameters(Int32,String,String,CryptoKeySecurity,IntPtr)
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
 - uid: System.Security.AccessControl.CryptoKeySecurity
   parent: System.Security.AccessControl
   isExternal: false
@@ -519,30 +491,6 @@ references:
   name: CspParameters(Int32,String,String,CryptoKeySecurity,SecureString)
   nameWithType: CspParameters.CspParameters(Int32,String,String,CryptoKeySecurity,SecureString)
   fullName: System.Security.Cryptography.CspParameters.CspParameters(Int32,String,String,CryptoKeySecurity,SecureString)
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
-- uid: System.Security.AccessControl.CryptoKeySecurity
-  parent: System.Security.AccessControl
-  isExternal: false
-  name: CryptoKeySecurity
-  nameWithType: CryptoKeySecurity
-  fullName: System.Security.AccessControl.CryptoKeySecurity
 - uid: System.Security.SecureString
   parent: System.Security
   isExternal: false
@@ -555,12 +503,6 @@ references:
   name: CryptoKeySecurity
   nameWithType: CspParameters.CryptoKeySecurity
   fullName: System.Security.Cryptography.CspParameters.CryptoKeySecurity
-- uid: System.Security.AccessControl.CryptoKeySecurity
-  parent: System.Security.AccessControl
-  isExternal: false
-  name: CryptoKeySecurity
-  nameWithType: CryptoKeySecurity
-  fullName: System.Security.AccessControl.CryptoKeySecurity
 - uid: System.Security.Cryptography.CspParameters.Flags
   parent: System.Security.Cryptography.CspParameters
   isExternal: false
@@ -579,72 +521,36 @@ references:
   name: KeyContainerName
   nameWithType: CspParameters.KeyContainerName
   fullName: System.Security.Cryptography.CspParameters.KeyContainerName
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
 - uid: System.Security.Cryptography.CspParameters.KeyNumber
   parent: System.Security.Cryptography.CspParameters
   isExternal: false
   name: KeyNumber
   nameWithType: CspParameters.KeyNumber
   fullName: System.Security.Cryptography.CspParameters.KeyNumber
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
 - uid: System.Security.Cryptography.CspParameters.KeyPassword
   parent: System.Security.Cryptography.CspParameters
   isExternal: false
   name: KeyPassword
   nameWithType: CspParameters.KeyPassword
   fullName: System.Security.Cryptography.CspParameters.KeyPassword
-- uid: System.Security.SecureString
-  parent: System.Security
-  isExternal: false
-  name: SecureString
-  nameWithType: SecureString
-  fullName: System.Security.SecureString
 - uid: System.Security.Cryptography.CspParameters.ParentWindowHandle
   parent: System.Security.Cryptography.CspParameters
   isExternal: false
   name: ParentWindowHandle
   nameWithType: CspParameters.ParentWindowHandle
   fullName: System.Security.Cryptography.CspParameters.ParentWindowHandle
-- uid: System.IntPtr
-  parent: System
-  isExternal: false
-  name: IntPtr
-  nameWithType: IntPtr
-  fullName: System.IntPtr
 - uid: System.Security.Cryptography.CspParameters.ProviderName
   parent: System.Security.Cryptography.CspParameters
   isExternal: false
   name: ProviderName
   nameWithType: CspParameters.ProviderName
   fullName: System.Security.Cryptography.CspParameters.ProviderName
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
 - uid: System.Security.Cryptography.CspParameters.ProviderType
   parent: System.Security.Cryptography.CspParameters
   isExternal: false
   name: ProviderType
   nameWithType: CspParameters.ProviderType
   fullName: System.Security.Cryptography.CspParameters.ProviderType
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
 - uid: System.Security.Cryptography.CspParameters.#ctor*
   parent: System.Security.Cryptography.CspParameters
   isExternal: false

@@ -96,6 +96,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Reflection.AssemblyDelaySignAttribute.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -120,6 +121,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Reflection.AssemblyDelaySignAttribute.DelaySign*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -146,12 +148,6 @@ references:
   name: DelaySign
   nameWithType: AssemblyDelaySignAttribute.DelaySign
   fullName: System.Reflection.AssemblyDelaySignAttribute.DelaySign
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
 - uid: System.Reflection.AssemblyDelaySignAttribute.#ctor*
   parent: System.Reflection.AssemblyDelaySignAttribute
   isExternal: false

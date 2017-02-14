@@ -68,6 +68,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.Security.AccessControl.CommonAcl.BinaryLength*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -92,6 +93,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.Security.AccessControl.CommonAcl.Count*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -120,6 +122,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.Security.AccessControl.CommonAcl.GetBinaryForm*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -144,6 +147,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Security.AccessControl.CommonAcl.IsCanonical*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -168,6 +172,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Security.AccessControl.CommonAcl.IsContainer*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -192,6 +197,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Security.AccessControl.CommonAcl.IsDS*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -220,6 +226,7 @@ items:
       type: System.Security.AccessControl.GenericAce
       description: To be added.
   overload: System.Security.AccessControl.CommonAcl.Item*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -245,6 +252,7 @@ items:
       type: System.Security.Principal.SecurityIdentifier
       description: To be added.
   overload: System.Security.AccessControl.CommonAcl.Purge*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -267,6 +275,7 @@ items:
     content: public void RemoveInheritedAces ();
     parameters: []
   overload: System.Security.AccessControl.CommonAcl.RemoveInheritedAces*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -291,6 +300,7 @@ items:
       type: System.Byte
       description: To be added.
   overload: System.Security.AccessControl.CommonAcl.Revision*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -317,30 +327,26 @@ references:
   name: Count
   nameWithType: CommonAcl.Count
   fullName: System.Security.AccessControl.CommonAcl.Count
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
 - uid: System.Security.AccessControl.CommonAcl.GetBinaryForm(System.Byte[],System.Int32)
   parent: System.Security.AccessControl.CommonAcl
   isExternal: false
   name: GetBinaryForm(Byte[],Int32)
   nameWithType: CommonAcl.GetBinaryForm(Byte[],Int32)
   fullName: System.Security.AccessControl.CommonAcl.GetBinaryForm(Byte[],Int32)
-- uid: System.Byte
+- uid: System.Byte[]
   parent: System
   isExternal: false
   name: Byte
   nameWithType: Byte
   fullName: System.Byte[]
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
+  spec.csharp:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: Byte[]
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
 - uid: System.Security.AccessControl.CommonAcl.IsCanonical
   parent: System.Security.AccessControl.CommonAcl
   isExternal: false
@@ -359,24 +365,12 @@ references:
   name: IsContainer
   nameWithType: CommonAcl.IsContainer
   fullName: System.Security.AccessControl.CommonAcl.IsContainer
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
 - uid: System.Security.AccessControl.CommonAcl.IsDS
   parent: System.Security.AccessControl.CommonAcl
   isExternal: false
   name: IsDS
   nameWithType: CommonAcl.IsDS
   fullName: System.Security.AccessControl.CommonAcl.IsDS
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
 - uid: System.Security.AccessControl.CommonAcl.Item(System.Int32)
   parent: System.Security.AccessControl.CommonAcl
   isExternal: false
@@ -389,12 +383,6 @@ references:
   name: GenericAce
   nameWithType: GenericAce
   fullName: System.Security.AccessControl.GenericAce
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
 - uid: System.Security.AccessControl.CommonAcl.Purge(System.Security.Principal.SecurityIdentifier)
   parent: System.Security.AccessControl.CommonAcl
   isExternal: false

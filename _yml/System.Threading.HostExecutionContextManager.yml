@@ -50,6 +50,7 @@ items:
     content: public HostExecutionContextManager ();
     parameters: []
   overload: System.Threading.HostExecutionContextManager.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -75,6 +76,7 @@ items:
       type: System.Threading.HostExecutionContext
       description: To be added.
   overload: System.Threading.HostExecutionContextManager.Capture*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -100,6 +102,7 @@ items:
       type: System.Object
       description: To be added.
   overload: System.Threading.HostExecutionContextManager.Revert*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -128,6 +131,7 @@ items:
       type: System.Object
       description: To be added.
   overload: System.Threading.HostExecutionContextManager.SetHostExecutionContext*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -160,30 +164,12 @@ references:
   name: Revert(Object)
   nameWithType: HostExecutionContextManager.Revert(Object)
   fullName: System.Threading.HostExecutionContextManager.Revert(Object)
-- uid: System.Object
-  parent: System
-  isExternal: false
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
 - uid: System.Threading.HostExecutionContextManager.SetHostExecutionContext(System.Threading.HostExecutionContext)
   parent: System.Threading.HostExecutionContextManager
   isExternal: false
   name: SetHostExecutionContext(HostExecutionContext)
   nameWithType: HostExecutionContextManager.SetHostExecutionContext(HostExecutionContext)
   fullName: System.Threading.HostExecutionContextManager.SetHostExecutionContext(HostExecutionContext)
-- uid: System.Object
-  parent: System
-  isExternal: false
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
-- uid: System.Threading.HostExecutionContext
-  parent: System.Threading
-  isExternal: false
-  name: HostExecutionContext
-  nameWithType: HostExecutionContext
-  fullName: System.Threading.HostExecutionContext
 - uid: System.Threading.HostExecutionContextManager.#ctor*
   parent: System.Threading.HostExecutionContextManager
   isExternal: false

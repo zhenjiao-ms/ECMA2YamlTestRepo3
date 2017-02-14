@@ -56,6 +56,7 @@ items:
     content: public DSASignatureDeformatter ();
     parameters: []
   overload: System.Security.Cryptography.DSASignatureDeformatter.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -81,6 +82,7 @@ items:
       type: System.Security.Cryptography.AsymmetricAlgorithm
       description: To be added.
   overload: System.Security.Cryptography.DSASignatureDeformatter.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -106,6 +108,7 @@ items:
       type: System.String
       description: To be added.
   overload: System.Security.Cryptography.DSASignatureDeformatter.SetHashAlgorithm*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -131,6 +134,7 @@ items:
       type: System.Security.Cryptography.AsymmetricAlgorithm
       description: To be added.
   overload: System.Security.Cryptography.DSASignatureDeformatter.SetKey*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -162,6 +166,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Security.Cryptography.DSASignatureDeformatter.VerifySignature*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -206,12 +211,6 @@ references:
   name: SetKey(AsymmetricAlgorithm)
   nameWithType: DSASignatureDeformatter.SetKey(AsymmetricAlgorithm)
   fullName: System.Security.Cryptography.DSASignatureDeformatter.SetKey(AsymmetricAlgorithm)
-- uid: System.Security.Cryptography.AsymmetricAlgorithm
-  parent: System.Security.Cryptography
-  isExternal: false
-  name: AsymmetricAlgorithm
-  nameWithType: AsymmetricAlgorithm
-  fullName: System.Security.Cryptography.AsymmetricAlgorithm
 - uid: System.Security.Cryptography.DSASignatureDeformatter.VerifySignature(System.Byte[],System.Byte[])
   parent: System.Security.Cryptography.DSASignatureDeformatter
   isExternal: false
@@ -224,18 +223,20 @@ references:
   name: Boolean
   nameWithType: Boolean
   fullName: System.Boolean
-- uid: System.Byte
+- uid: System.Byte[]
   parent: System
   isExternal: false
   name: Byte
   nameWithType: Byte
   fullName: System.Byte[]
-- uid: System.Byte
-  parent: System
-  isExternal: false
-  name: Byte
-  nameWithType: Byte
-  fullName: System.Byte[]
+  spec.csharp:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: Byte[]
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
 - uid: System.Security.Cryptography.DSASignatureDeformatter.#ctor*
   parent: System.Security.Cryptography.DSASignatureDeformatter
   isExternal: false

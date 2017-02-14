@@ -50,6 +50,7 @@ items:
     return:
       type: System.Reflection.Emit.SignatureToken
       description: To be added.
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -78,6 +79,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Reflection.Emit.SignatureToken.Equals*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -106,6 +108,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Reflection.Emit.SignatureToken.Equals*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -131,6 +134,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.Reflection.Emit.SignatureToken.GetHashCode*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -162,6 +166,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Reflection.Emit.SignatureToken.op_Equality*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -193,6 +198,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Reflection.Emit.SignatureToken.op_Inequality*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -217,6 +223,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.Reflection.Emit.SignatureToken.Token*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -261,18 +268,6 @@ references:
   name: Equals(SignatureToken)
   nameWithType: SignatureToken.Equals(SignatureToken)
   fullName: System.Reflection.Emit.SignatureToken.Equals(SignatureToken)
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
-- uid: System.Reflection.Emit.SignatureToken
-  parent: System.Reflection.Emit
-  isExternal: false
-  name: SignatureToken
-  nameWithType: SignatureToken
-  fullName: System.Reflection.Emit.SignatureToken
 - uid: System.Reflection.Emit.SignatureToken.GetHashCode
   parent: System.Reflection.Emit.SignatureToken
   isExternal: false
@@ -291,60 +286,18 @@ references:
   name: op_Equality(SignatureToken,SignatureToken)
   nameWithType: SignatureToken.op_Equality(SignatureToken,SignatureToken)
   fullName: System.Reflection.Emit.SignatureToken.op_Equality(SignatureToken,SignatureToken)
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
-- uid: System.Reflection.Emit.SignatureToken
-  parent: System.Reflection.Emit
-  isExternal: false
-  name: SignatureToken
-  nameWithType: SignatureToken
-  fullName: System.Reflection.Emit.SignatureToken
-- uid: System.Reflection.Emit.SignatureToken
-  parent: System.Reflection.Emit
-  isExternal: false
-  name: SignatureToken
-  nameWithType: SignatureToken
-  fullName: System.Reflection.Emit.SignatureToken
 - uid: System.Reflection.Emit.SignatureToken.op_Inequality(System.Reflection.Emit.SignatureToken,System.Reflection.Emit.SignatureToken)
   parent: System.Reflection.Emit.SignatureToken
   isExternal: false
   name: op_Inequality(SignatureToken,SignatureToken)
   nameWithType: SignatureToken.op_Inequality(SignatureToken,SignatureToken)
   fullName: System.Reflection.Emit.SignatureToken.op_Inequality(SignatureToken,SignatureToken)
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
-- uid: System.Reflection.Emit.SignatureToken
-  parent: System.Reflection.Emit
-  isExternal: false
-  name: SignatureToken
-  nameWithType: SignatureToken
-  fullName: System.Reflection.Emit.SignatureToken
-- uid: System.Reflection.Emit.SignatureToken
-  parent: System.Reflection.Emit
-  isExternal: false
-  name: SignatureToken
-  nameWithType: SignatureToken
-  fullName: System.Reflection.Emit.SignatureToken
 - uid: System.Reflection.Emit.SignatureToken.Token
   parent: System.Reflection.Emit.SignatureToken
   isExternal: false
   name: Token
   nameWithType: SignatureToken.Token
   fullName: System.Reflection.Emit.SignatureToken.Token
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
 - uid: System.Reflection.Emit.SignatureToken.Equals*
   parent: System.Reflection.Emit.SignatureToken
   isExternal: false

@@ -100,6 +100,7 @@ items:
       type: System.Byte[]
       description: To be added.
   overload: System.Security.AccessControl.ObjectAce.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -124,6 +125,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.Security.AccessControl.ObjectAce.BinaryLength*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -152,6 +154,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.Security.AccessControl.ObjectAce.GetBinaryForm*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -176,6 +179,7 @@ items:
       type: System.Guid
       description: To be added.
   overload: System.Security.AccessControl.ObjectAce.InheritedObjectAceType*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -204,6 +208,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.Security.AccessControl.ObjectAce.MaxOpaqueLength*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -228,6 +233,7 @@ items:
       type: System.Security.AccessControl.ObjectAceFlags
       description: To be added.
   overload: System.Security.AccessControl.ObjectAce.ObjectAceFlags*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -252,6 +258,7 @@ items:
       type: System.Guid
       description: To be added.
   overload: System.Security.AccessControl.ObjectAce.ObjectAceType*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -302,108 +309,62 @@ references:
   name: Guid
   nameWithType: Guid
   fullName: System.Guid
-- uid: System.Guid
-  parent: System
-  isExternal: false
-  name: Guid
-  nameWithType: Guid
-  fullName: System.Guid
 - uid: System.Boolean
   parent: System
   isExternal: false
   name: Boolean
   nameWithType: Boolean
   fullName: System.Boolean
-- uid: System.Byte
+- uid: System.Byte[]
   parent: System
   isExternal: false
   name: Byte
   nameWithType: Byte
   fullName: System.Byte[]
+  spec.csharp:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: Byte[]
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
 - uid: System.Security.AccessControl.ObjectAce.BinaryLength
   parent: System.Security.AccessControl.ObjectAce
   isExternal: false
   name: BinaryLength
   nameWithType: ObjectAce.BinaryLength
   fullName: System.Security.AccessControl.ObjectAce.BinaryLength
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
 - uid: System.Security.AccessControl.ObjectAce.GetBinaryForm(System.Byte[],System.Int32)
   parent: System.Security.AccessControl.ObjectAce
   isExternal: false
   name: GetBinaryForm(Byte[],Int32)
   nameWithType: ObjectAce.GetBinaryForm(Byte[],Int32)
   fullName: System.Security.AccessControl.ObjectAce.GetBinaryForm(Byte[],Int32)
-- uid: System.Byte
-  parent: System
-  isExternal: false
-  name: Byte
-  nameWithType: Byte
-  fullName: System.Byte[]
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
 - uid: System.Security.AccessControl.ObjectAce.InheritedObjectAceType
   parent: System.Security.AccessControl.ObjectAce
   isExternal: false
   name: InheritedObjectAceType
   nameWithType: ObjectAce.InheritedObjectAceType
   fullName: System.Security.AccessControl.ObjectAce.InheritedObjectAceType
-- uid: System.Guid
-  parent: System
-  isExternal: false
-  name: Guid
-  nameWithType: Guid
-  fullName: System.Guid
 - uid: System.Security.AccessControl.ObjectAce.MaxOpaqueLength(System.Boolean)
   parent: System.Security.AccessControl.ObjectAce
   isExternal: false
   name: MaxOpaqueLength(Boolean)
   nameWithType: ObjectAce.MaxOpaqueLength(Boolean)
   fullName: System.Security.AccessControl.ObjectAce.MaxOpaqueLength(Boolean)
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
 - uid: System.Security.AccessControl.ObjectAce.ObjectAceFlags
   parent: System.Security.AccessControl.ObjectAce
   isExternal: false
   name: ObjectAceFlags
   nameWithType: ObjectAce.ObjectAceFlags
   fullName: System.Security.AccessControl.ObjectAce.ObjectAceFlags
-- uid: System.Security.AccessControl.ObjectAceFlags
-  parent: System.Security.AccessControl
-  isExternal: false
-  name: ObjectAceFlags
-  nameWithType: ObjectAceFlags
-  fullName: System.Security.AccessControl.ObjectAceFlags
 - uid: System.Security.AccessControl.ObjectAce.ObjectAceType
   parent: System.Security.AccessControl.ObjectAce
   isExternal: false
   name: ObjectAceType
   nameWithType: ObjectAce.ObjectAceType
   fullName: System.Security.AccessControl.ObjectAce.ObjectAceType
-- uid: System.Guid
-  parent: System
-  isExternal: false
-  name: Guid
-  nameWithType: Guid
-  fullName: System.Guid
 - uid: System.Security.AccessControl.ObjectAce.#ctor*
   parent: System.Security.AccessControl.ObjectAce
   isExternal: false

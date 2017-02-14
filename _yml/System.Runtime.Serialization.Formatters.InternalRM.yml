@@ -54,6 +54,7 @@ items:
     content: public InternalRM ();
     parameters: []
   overload: System.Runtime.Serialization.Formatters.InternalRM.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -79,6 +80,7 @@ items:
       type: System.Object[]
       description: To be added.
   overload: System.Runtime.Serialization.Formatters.InternalRM.InfoSoap*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -104,6 +106,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Runtime.Serialization.Formatters.InternalRM.SoapCheckEnabled*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -124,12 +127,20 @@ references:
   name: InfoSoap(Object[])
   nameWithType: InternalRM.InfoSoap(Object[])
   fullName: System.Runtime.Serialization.Formatters.InternalRM.InfoSoap(Object[])
-- uid: System.Object
+- uid: System.Object[]
   parent: System
   isExternal: false
   name: Object
   nameWithType: Object
   fullName: System.Object[]
+  spec.csharp:
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: Object[]
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
 - uid: System.Runtime.Serialization.Formatters.InternalRM.SoapCheckEnabled
   parent: System.Runtime.Serialization.Formatters.InternalRM
   isExternal: false

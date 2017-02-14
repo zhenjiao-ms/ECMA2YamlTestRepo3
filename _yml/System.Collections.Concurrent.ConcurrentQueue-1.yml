@@ -75,6 +75,7 @@ items:
     content: public ConcurrentQueue ();
     parameters: []
   overload: System.Collections.Concurrent.ConcurrentQueue`1.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -100,6 +101,7 @@ items:
       type: System.Collections.Generic.IEnumerable`1
       description: To be added.
   overload: System.Collections.Concurrent.ConcurrentQueue`1.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -128,6 +130,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.Collections.Concurrent.ConcurrentQueue`1.CopyTo*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -152,6 +155,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.Collections.Concurrent.ConcurrentQueue`1.Count*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -177,6 +181,7 @@ items:
       type: T
       description: To be added.
   overload: System.Collections.Concurrent.ConcurrentQueue`1.Enqueue*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -202,6 +207,7 @@ items:
       type: System.Collections.Generic.IEnumerator`1
       description: To be added.
   overload: System.Collections.Concurrent.ConcurrentQueue`1.GetEnumerator*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -226,6 +232,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Collections.Concurrent.ConcurrentQueue`1.IsEmpty*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -255,6 +262,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Collections.Concurrent.ConcurrentQueue`1.System#Collections#Concurrent#IProducerConsumerCollection<T>#TryAdd*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -284,6 +292,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Collections.Concurrent.ConcurrentQueue`1.System#Collections#Concurrent#IProducerConsumerCollection<T>#TryTake*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -313,6 +322,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.Collections.Concurrent.ConcurrentQueue`1.System#Collections#ICollection#CopyTo*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -338,6 +348,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Collections.Concurrent.ConcurrentQueue`1.System#Collections#ICollection#IsSynchronized*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -363,6 +374,7 @@ items:
       type: System.Object
       description: To be added.
   overload: System.Collections.Concurrent.ConcurrentQueue`1.System#Collections#ICollection#SyncRoot*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -389,6 +401,7 @@ items:
       type: System.Collections.IEnumerator
       description: To be added.
   overload: System.Collections.Concurrent.ConcurrentQueue`1.System#Collections#IEnumerable#GetEnumerator*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -414,6 +427,7 @@ items:
       type: T[]
       description: To be added.
   overload: System.Collections.Concurrent.ConcurrentQueue`1.ToArray*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -442,6 +456,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Collections.Concurrent.ConcurrentQueue`1.TryDequeue*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -470,6 +485,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Collections.Concurrent.ConcurrentQueue`1.TryPeek*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -502,12 +518,19 @@ references:
   name: CopyTo(T[],Int32)
   nameWithType: ConcurrentQueue<T>.CopyTo(T[],Int32)
   fullName: System.Collections.Concurrent.ConcurrentQueue<T>.CopyTo(T[],Int32)
-- uid: T
-  parent: ''
+- uid: T[]
   isExternal: true
   name: T
   nameWithType: T
   fullName: T[]
+  spec.csharp:
+  - uid: T
+    name: T
+    nameWithType: T
+    fullName: T[]
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
 - uid: System.Int32
   parent: System
   isExternal: false
@@ -520,12 +543,6 @@ references:
   name: Count
   nameWithType: ConcurrentQueue<T>.Count
   fullName: System.Collections.Concurrent.ConcurrentQueue<T>.Count
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
 - uid: System.Collections.Concurrent.ConcurrentQueue`1.Enqueue(`0)
   parent: System.Collections.Concurrent.ConcurrentQueue`1
   isExternal: false
@@ -533,7 +550,6 @@ references:
   nameWithType: ConcurrentQueue<T>.Enqueue(T)
   fullName: System.Collections.Concurrent.ConcurrentQueue<T>.Enqueue(T)
 - uid: T
-  parent: ''
   isExternal: true
   name: T
   nameWithType: T
@@ -568,36 +584,12 @@ references:
   name: System.Collections.Concurrent.IProducerConsumerCollection(T)
   nameWithType: ConcurrentQueue<T>.System.Collections.Concurrent.IProducerConsumerCollection(T)
   fullName: System.Collections.Concurrent.ConcurrentQueue<T>.System.Collections.Concurrent.IProducerConsumerCollection(T)
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
-- uid: T
-  parent: ''
-  isExternal: true
-  name: T
-  nameWithType: T
-  fullName: T
 - uid: System.Collections.Concurrent.ConcurrentQueue`1.System#Collections#Concurrent#IProducerConsumerCollection{T}#TryTake(`0@)
   parent: System.Collections.Concurrent.ConcurrentQueue`1
   isExternal: false
   name: System.Collections.Concurrent.IProducerConsumerCollection(T)
   nameWithType: ConcurrentQueue<T>.System.Collections.Concurrent.IProducerConsumerCollection(T)
   fullName: System.Collections.Concurrent.ConcurrentQueue<T>.System.Collections.Concurrent.IProducerConsumerCollection(T)
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
-- uid: T
-  parent: ''
-  isExternal: true
-  name: T
-  nameWithType: T
-  fullName: T
 - uid: System.Collections.Concurrent.ConcurrentQueue`1.System#Collections#ICollection#CopyTo(System.Array,System.Int32)
   parent: System.Collections.Concurrent.ConcurrentQueue`1
   isExternal: false
@@ -610,36 +602,18 @@ references:
   name: Array
   nameWithType: Array
   fullName: System.Array
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
 - uid: System.Collections.Concurrent.ConcurrentQueue`1.System#Collections#ICollection#IsSynchronized
   parent: System.Collections.Concurrent.ConcurrentQueue`1
   isExternal: false
   name: System.Collections.ICollection.IsSynchronized
   nameWithType: ConcurrentQueue<T>.System.Collections.ICollection.IsSynchronized
   fullName: System.Collections.Concurrent.ConcurrentQueue<T>.System.Collections.ICollection.IsSynchronized
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
 - uid: System.Collections.Concurrent.ConcurrentQueue`1.System#Collections#ICollection#SyncRoot
   parent: System.Collections.Concurrent.ConcurrentQueue`1
   isExternal: false
   name: System.Collections.ICollection.SyncRoot
   nameWithType: ConcurrentQueue<T>.System.Collections.ICollection.SyncRoot
   fullName: System.Collections.Concurrent.ConcurrentQueue<T>.System.Collections.ICollection.SyncRoot
-- uid: System.Object
-  parent: System
-  isExternal: false
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
 - uid: System.Collections.Concurrent.ConcurrentQueue`1.System#Collections#IEnumerable#GetEnumerator
   parent: System.Collections.Concurrent.ConcurrentQueue`1
   isExternal: false
@@ -658,48 +632,18 @@ references:
   name: ToArray()
   nameWithType: ConcurrentQueue<T>.ToArray()
   fullName: System.Collections.Concurrent.ConcurrentQueue<T>.ToArray()
-- uid: T
-  parent: ''
-  isExternal: true
-  name: T
-  nameWithType: T
-  fullName: T[]
 - uid: System.Collections.Concurrent.ConcurrentQueue`1.TryDequeue(`0@)
   parent: System.Collections.Concurrent.ConcurrentQueue`1
   isExternal: false
   name: TryDequeue(T)
   nameWithType: ConcurrentQueue<T>.TryDequeue(T)
   fullName: System.Collections.Concurrent.ConcurrentQueue<T>.TryDequeue(T)
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
-- uid: T
-  parent: ''
-  isExternal: true
-  name: T
-  nameWithType: T
-  fullName: T
 - uid: System.Collections.Concurrent.ConcurrentQueue`1.TryPeek(`0@)
   parent: System.Collections.Concurrent.ConcurrentQueue`1
   isExternal: false
   name: TryPeek(T)
   nameWithType: ConcurrentQueue<T>.TryPeek(T)
   fullName: System.Collections.Concurrent.ConcurrentQueue<T>.TryPeek(T)
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
-- uid: T
-  parent: ''
-  isExternal: true
-  name: T
-  nameWithType: T
-  fullName: T
 - uid: System.Collections.Concurrent.ConcurrentQueue`1.#ctor*
   parent: System.Collections.Concurrent.ConcurrentQueue`1
   isExternal: false

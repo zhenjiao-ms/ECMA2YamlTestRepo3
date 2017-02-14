@@ -57,6 +57,7 @@ items:
       type: System.Runtime.InteropServices.UCOMIStream
       description: To be added.
   overload: System.Runtime.InteropServices.UCOMIStream.Clone*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -82,6 +83,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.Runtime.InteropServices.UCOMIStream.Commit*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -116,6 +118,7 @@ items:
       type: System.IntPtr
       description: To be added.
   overload: System.Runtime.InteropServices.UCOMIStream.CopyTo*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -147,6 +150,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.Runtime.InteropServices.UCOMIStream.LockRegion*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -178,6 +182,7 @@ items:
       type: System.IntPtr
       description: To be added.
   overload: System.Runtime.InteropServices.UCOMIStream.Read*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -200,6 +205,7 @@ items:
     content: public void Revert ();
     parameters: []
   overload: System.Runtime.InteropServices.UCOMIStream.Revert*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -231,6 +237,7 @@ items:
       type: System.IntPtr
       description: To be added.
   overload: System.Runtime.InteropServices.UCOMIStream.Seek*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -256,6 +263,7 @@ items:
       type: System.Int64
       description: To be added.
   overload: System.Runtime.InteropServices.UCOMIStream.SetSize*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -284,6 +292,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.Runtime.InteropServices.UCOMIStream.Stat*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -315,6 +324,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.Runtime.InteropServices.UCOMIStream.UnlockRegion*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -346,6 +356,7 @@ items:
       type: System.IntPtr
       description: To be added.
   overload: System.Runtime.InteropServices.UCOMIStream.Write*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -381,24 +392,12 @@ references:
   name: CopyTo(UCOMIStream,Int64,IntPtr,IntPtr)
   nameWithType: UCOMIStream.CopyTo(UCOMIStream,Int64,IntPtr,IntPtr)
   fullName: System.Runtime.InteropServices.UCOMIStream.CopyTo(UCOMIStream,Int64,IntPtr,IntPtr)
-- uid: System.Runtime.InteropServices.UCOMIStream
-  parent: System.Runtime.InteropServices
-  isExternal: false
-  name: UCOMIStream
-  nameWithType: UCOMIStream
-  fullName: System.Runtime.InteropServices.UCOMIStream
 - uid: System.Int64
   parent: System
   isExternal: false
   name: Int64
   nameWithType: Int64
   fullName: System.Int64
-- uid: System.IntPtr
-  parent: System
-  isExternal: false
-  name: IntPtr
-  nameWithType: IntPtr
-  fullName: System.IntPtr
 - uid: System.IntPtr
   parent: System
   isExternal: false
@@ -411,48 +410,26 @@ references:
   name: LockRegion(Int64,Int64,Int32)
   nameWithType: UCOMIStream.LockRegion(Int64,Int64,Int32)
   fullName: System.Runtime.InteropServices.UCOMIStream.LockRegion(Int64,Int64,Int32)
-- uid: System.Int64
-  parent: System
-  isExternal: false
-  name: Int64
-  nameWithType: Int64
-  fullName: System.Int64
-- uid: System.Int64
-  parent: System
-  isExternal: false
-  name: Int64
-  nameWithType: Int64
-  fullName: System.Int64
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
 - uid: System.Runtime.InteropServices.UCOMIStream.Read(System.Byte[],System.Int32,System.IntPtr)
   parent: System.Runtime.InteropServices.UCOMIStream
   isExternal: false
   name: Read(Byte[],Int32,IntPtr)
   nameWithType: UCOMIStream.Read(Byte[],Int32,IntPtr)
   fullName: System.Runtime.InteropServices.UCOMIStream.Read(Byte[],Int32,IntPtr)
-- uid: System.Byte
+- uid: System.Byte[]
   parent: System
   isExternal: false
   name: Byte
   nameWithType: Byte
   fullName: System.Byte[]
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: System.IntPtr
-  parent: System
-  isExternal: false
-  name: IntPtr
-  nameWithType: IntPtr
-  fullName: System.IntPtr
+  spec.csharp:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: Byte[]
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
 - uid: System.Runtime.InteropServices.UCOMIStream.Revert
   parent: System.Runtime.InteropServices.UCOMIStream
   isExternal: false
@@ -465,36 +442,12 @@ references:
   name: Seek(Int64,Int32,IntPtr)
   nameWithType: UCOMIStream.Seek(Int64,Int32,IntPtr)
   fullName: System.Runtime.InteropServices.UCOMIStream.Seek(Int64,Int32,IntPtr)
-- uid: System.Int64
-  parent: System
-  isExternal: false
-  name: Int64
-  nameWithType: Int64
-  fullName: System.Int64
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: System.IntPtr
-  parent: System
-  isExternal: false
-  name: IntPtr
-  nameWithType: IntPtr
-  fullName: System.IntPtr
 - uid: System.Runtime.InteropServices.UCOMIStream.SetSize(System.Int64)
   parent: System.Runtime.InteropServices.UCOMIStream
   isExternal: false
   name: SetSize(Int64)
   nameWithType: UCOMIStream.SetSize(Int64)
   fullName: System.Runtime.InteropServices.UCOMIStream.SetSize(Int64)
-- uid: System.Int64
-  parent: System
-  isExternal: false
-  name: Int64
-  nameWithType: Int64
-  fullName: System.Int64
 - uid: System.Runtime.InteropServices.UCOMIStream.Stat(System.Runtime.InteropServices.STATSTG@,System.Int32)
   parent: System.Runtime.InteropServices.UCOMIStream
   isExternal: false
@@ -507,60 +460,18 @@ references:
   name: STATSTG
   nameWithType: STATSTG
   fullName: System.Runtime.InteropServices.STATSTG
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
 - uid: System.Runtime.InteropServices.UCOMIStream.UnlockRegion(System.Int64,System.Int64,System.Int32)
   parent: System.Runtime.InteropServices.UCOMIStream
   isExternal: false
   name: UnlockRegion(Int64,Int64,Int32)
   nameWithType: UCOMIStream.UnlockRegion(Int64,Int64,Int32)
   fullName: System.Runtime.InteropServices.UCOMIStream.UnlockRegion(Int64,Int64,Int32)
-- uid: System.Int64
-  parent: System
-  isExternal: false
-  name: Int64
-  nameWithType: Int64
-  fullName: System.Int64
-- uid: System.Int64
-  parent: System
-  isExternal: false
-  name: Int64
-  nameWithType: Int64
-  fullName: System.Int64
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
 - uid: System.Runtime.InteropServices.UCOMIStream.Write(System.Byte[],System.Int32,System.IntPtr)
   parent: System.Runtime.InteropServices.UCOMIStream
   isExternal: false
   name: Write(Byte[],Int32,IntPtr)
   nameWithType: UCOMIStream.Write(Byte[],Int32,IntPtr)
   fullName: System.Runtime.InteropServices.UCOMIStream.Write(Byte[],Int32,IntPtr)
-- uid: System.Byte
-  parent: System
-  isExternal: false
-  name: Byte
-  nameWithType: Byte
-  fullName: System.Byte[]
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: System.IntPtr
-  parent: System
-  isExternal: false
-  name: IntPtr
-  nameWithType: IntPtr
-  fullName: System.IntPtr
 - uid: System.Runtime.InteropServices.UCOMIStream.Clone*
   parent: System.Runtime.InteropServices.UCOMIStream
   isExternal: false

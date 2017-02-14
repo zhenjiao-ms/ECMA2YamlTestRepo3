@@ -61,6 +61,7 @@ items:
     content: protected Decoder ();
     parameters: []
   overload: System.Text.Decoder.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -107,6 +108,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Text.Decoder.Convert*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -159,6 +161,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Text.Decoder.Convert*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -183,6 +186,7 @@ items:
       type: System.Text.DecoderFallback
       description: To be added.
   overload: System.Text.Decoder.Fallback*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -207,6 +211,7 @@ items:
       type: System.Text.DecoderFallbackBuffer
       description: To be added.
   overload: System.Text.Decoder.FallbackBuffer*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -241,6 +246,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.Text.Decoder.GetCharCount*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -275,6 +281,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.Text.Decoder.GetCharCount*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -312,6 +319,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.Text.Decoder.GetCharCount*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -352,6 +360,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.Text.Decoder.GetChars*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -392,6 +401,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.Text.Decoder.GetChars*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -435,6 +445,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.Text.Decoder.GetChars*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -457,6 +468,7 @@ items:
     content: public virtual void Reset ();
     parameters: []
   overload: System.Text.Decoder.Reset*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -483,30 +495,6 @@ references:
   name: Int32
   nameWithType: Int32
   fullName: System.Int32
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
 - uid: System.Boolean
   parent: System
   isExternal: false
@@ -519,66 +507,34 @@ references:
   name: Convert(Byte[],Int32,Int32,Char[],Int32,Int32,Boolean,Int32,Int32,Boolean)
   nameWithType: Decoder.Convert(Byte[],Int32,Int32,Char[],Int32,Int32,Boolean,Int32,Int32,Boolean)
   fullName: System.Text.Decoder.Convert(Byte[],Int32,Int32,Char[],Int32,Int32,Boolean,Int32,Int32,Boolean)
-- uid: System.Byte
+- uid: System.Byte[]
   parent: System
   isExternal: false
   name: Byte
   nameWithType: Byte
   fullName: System.Byte[]
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: System.Char
+  spec.csharp:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: Byte[]
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+- uid: System.Char[]
   parent: System
   isExternal: false
   name: Char
   nameWithType: Char
   fullName: System.Char[]
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
+  spec.csharp:
+  - uid: System.Char
+    name: Char
+    nameWithType: Char
+    fullName: Char[]
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
 - uid: System.Text.Decoder.Fallback
   parent: System.Text.Decoder
   isExternal: false
@@ -609,210 +565,36 @@ references:
   name: GetCharCount(Byte*,Int32,Boolean)
   nameWithType: Decoder.GetCharCount(Byte*,Int32,Boolean)
   fullName: System.Text.Decoder.GetCharCount(Byte*,Int32,Boolean)
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
 - uid: System.Text.Decoder.GetCharCount(System.Byte[],System.Int32,System.Int32)
   parent: System.Text.Decoder
   isExternal: false
   name: GetCharCount(Byte[],Int32,Int32)
   nameWithType: Decoder.GetCharCount(Byte[],Int32,Int32)
   fullName: System.Text.Decoder.GetCharCount(Byte[],Int32,Int32)
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: System.Byte
-  parent: System
-  isExternal: false
-  name: Byte
-  nameWithType: Byte
-  fullName: System.Byte[]
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
 - uid: System.Text.Decoder.GetCharCount(System.Byte[],System.Int32,System.Int32,System.Boolean)
   parent: System.Text.Decoder
   isExternal: false
   name: GetCharCount(Byte[],Int32,Int32,Boolean)
   nameWithType: Decoder.GetCharCount(Byte[],Int32,Int32,Boolean)
   fullName: System.Text.Decoder.GetCharCount(Byte[],Int32,Int32,Boolean)
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: System.Byte
-  parent: System
-  isExternal: false
-  name: Byte
-  nameWithType: Byte
-  fullName: System.Byte[]
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
 - uid: System.Text.Decoder.GetChars(System.Byte*,System.Int32,System.Char*,System.Int32,System.Boolean)
   parent: System.Text.Decoder
   isExternal: false
   name: GetChars(Byte*,Int32,Char*,Int32,Boolean)
   nameWithType: Decoder.GetChars(Byte*,Int32,Char*,Int32,Boolean)
   fullName: System.Text.Decoder.GetChars(Byte*,Int32,Char*,Int32,Boolean)
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
 - uid: System.Text.Decoder.GetChars(System.Byte[],System.Int32,System.Int32,System.Char[],System.Int32)
   parent: System.Text.Decoder
   isExternal: false
   name: GetChars(Byte[],Int32,Int32,Char[],Int32)
   nameWithType: Decoder.GetChars(Byte[],Int32,Int32,Char[],Int32)
   fullName: System.Text.Decoder.GetChars(Byte[],Int32,Int32,Char[],Int32)
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: System.Byte
-  parent: System
-  isExternal: false
-  name: Byte
-  nameWithType: Byte
-  fullName: System.Byte[]
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: System.Char
-  parent: System
-  isExternal: false
-  name: Char
-  nameWithType: Char
-  fullName: System.Char[]
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
 - uid: System.Text.Decoder.GetChars(System.Byte[],System.Int32,System.Int32,System.Char[],System.Int32,System.Boolean)
   parent: System.Text.Decoder
   isExternal: false
   name: GetChars(Byte[],Int32,Int32,Char[],Int32,Boolean)
   nameWithType: Decoder.GetChars(Byte[],Int32,Int32,Char[],Int32,Boolean)
   fullName: System.Text.Decoder.GetChars(Byte[],Int32,Int32,Char[],Int32,Boolean)
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: System.Byte
-  parent: System
-  isExternal: false
-  name: Byte
-  nameWithType: Byte
-  fullName: System.Byte[]
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: System.Char
-  parent: System
-  isExternal: false
-  name: Char
-  nameWithType: Char
-  fullName: System.Char[]
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
 - uid: System.Text.Decoder.Reset
   parent: System.Text.Decoder
   isExternal: false

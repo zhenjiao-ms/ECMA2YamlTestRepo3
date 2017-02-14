@@ -59,6 +59,7 @@ items:
     content: protected TimeZone ();
     parameters: []
   overload: System.TimeZone.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -83,6 +84,7 @@ items:
       type: System.TimeZone
       description: To be added.
   overload: System.TimeZone.CurrentTimeZone*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -107,6 +109,7 @@ items:
       type: System.String
       description: To be added.
   overload: System.TimeZone.DaylightName*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -135,6 +138,7 @@ items:
       type: System.Globalization.DaylightTime
       description: To be added.
   overload: System.TimeZone.GetDaylightChanges*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -163,6 +167,7 @@ items:
       type: System.TimeSpan
       description: To be added.
   overload: System.TimeZone.GetUtcOffset*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -191,6 +196,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.TimeZone.IsDaylightSavingTime*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -222,6 +228,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.TimeZone.IsDaylightSavingTime*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -246,6 +253,7 @@ items:
       type: System.String
       description: To be added.
   overload: System.TimeZone.StandardName*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -274,6 +282,7 @@ items:
       type: System.DateTime
       description: To be added.
   overload: System.TimeZone.ToLocalTime*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -302,6 +311,7 @@ items:
       type: System.DateTime
       description: To be added.
   overload: System.TimeZone.ToUniversalTime*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -388,84 +398,30 @@ references:
   name: Boolean
   nameWithType: Boolean
   fullName: System.Boolean
-- uid: System.DateTime
-  parent: System
-  isExternal: false
-  name: DateTime
-  nameWithType: DateTime
-  fullName: System.DateTime
 - uid: System.TimeZone.IsDaylightSavingTime(System.DateTime,System.Globalization.DaylightTime)
   parent: System.TimeZone
   isExternal: false
   name: IsDaylightSavingTime(DateTime,DaylightTime)
   nameWithType: TimeZone.IsDaylightSavingTime(DateTime,DaylightTime)
   fullName: System.TimeZone.IsDaylightSavingTime(DateTime,DaylightTime)
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
-- uid: System.DateTime
-  parent: System
-  isExternal: false
-  name: DateTime
-  nameWithType: DateTime
-  fullName: System.DateTime
-- uid: System.Globalization.DaylightTime
-  parent: System.Globalization
-  isExternal: false
-  name: DaylightTime
-  nameWithType: DaylightTime
-  fullName: System.Globalization.DaylightTime
 - uid: System.TimeZone.StandardName
   parent: System.TimeZone
   isExternal: false
   name: StandardName
   nameWithType: TimeZone.StandardName
   fullName: System.TimeZone.StandardName
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
 - uid: System.TimeZone.ToLocalTime(System.DateTime)
   parent: System.TimeZone
   isExternal: false
   name: ToLocalTime(DateTime)
   nameWithType: TimeZone.ToLocalTime(DateTime)
   fullName: System.TimeZone.ToLocalTime(DateTime)
-- uid: System.DateTime
-  parent: System
-  isExternal: false
-  name: DateTime
-  nameWithType: DateTime
-  fullName: System.DateTime
-- uid: System.DateTime
-  parent: System
-  isExternal: false
-  name: DateTime
-  nameWithType: DateTime
-  fullName: System.DateTime
 - uid: System.TimeZone.ToUniversalTime(System.DateTime)
   parent: System.TimeZone
   isExternal: false
   name: ToUniversalTime(DateTime)
   nameWithType: TimeZone.ToUniversalTime(DateTime)
   fullName: System.TimeZone.ToUniversalTime(DateTime)
-- uid: System.DateTime
-  parent: System
-  isExternal: false
-  name: DateTime
-  nameWithType: DateTime
-  fullName: System.DateTime
-- uid: System.DateTime
-  parent: System
-  isExternal: false
-  name: DateTime
-  nameWithType: DateTime
-  fullName: System.DateTime
 - uid: System.TimeZone.#ctor*
   parent: System.TimeZone
   isExternal: false

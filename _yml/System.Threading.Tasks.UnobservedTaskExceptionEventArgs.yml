@@ -55,6 +55,7 @@ items:
       type: System.AggregateException
       description: To be added.
   overload: System.Threading.Tasks.UnobservedTaskExceptionEventArgs.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -79,6 +80,7 @@ items:
       type: System.AggregateException
       description: To be added.
   overload: System.Threading.Tasks.UnobservedTaskExceptionEventArgs.Exception*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -103,6 +105,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Threading.Tasks.UnobservedTaskExceptionEventArgs.Observed*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -125,6 +128,7 @@ items:
     content: public void SetObserved ();
     parameters: []
   overload: System.Threading.Tasks.UnobservedTaskExceptionEventArgs.SetObserved*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -151,12 +155,6 @@ references:
   name: Exception
   nameWithType: UnobservedTaskExceptionEventArgs.Exception
   fullName: System.Threading.Tasks.UnobservedTaskExceptionEventArgs.Exception
-- uid: System.AggregateException
-  parent: System
-  isExternal: false
-  name: AggregateException
-  nameWithType: AggregateException
-  fullName: System.AggregateException
 - uid: System.Threading.Tasks.UnobservedTaskExceptionEventArgs.Observed
   parent: System.Threading.Tasks.UnobservedTaskExceptionEventArgs
   isExternal: false

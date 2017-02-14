@@ -66,6 +66,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Reflection.Emit.LocalBuilder.IsPinned*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -90,6 +91,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.Reflection.Emit.LocalBuilder.LocalIndex*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -114,6 +116,7 @@ items:
       type: System.Type
       description: To be added.
   overload: System.Reflection.Emit.LocalBuilder.LocalType*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -139,6 +142,7 @@ items:
       type: System.String
       description: To be added.
   overload: System.Reflection.Emit.LocalBuilder.SetLocalSymInfo*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -170,6 +174,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.Reflection.Emit.LocalBuilder.SetLocalSymInfo*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -208,6 +213,7 @@ items:
       type: System.IntPtr
       description: To be added.
   overload: System.Reflection.Emit.LocalBuilder.System#Runtime#InteropServices#_LocalBuilder#GetIDsOfNames*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -240,6 +246,7 @@ items:
       type: System.IntPtr
       description: To be added.
   overload: System.Reflection.Emit.LocalBuilder.System#Runtime#InteropServices#_LocalBuilder#GetTypeInfo*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -266,6 +273,7 @@ items:
       type: System.UInt32
       description: To be added.
   overload: System.Reflection.Emit.LocalBuilder.System#Runtime#InteropServices#_LocalBuilder#GetTypeInfoCount*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -313,6 +321,7 @@ items:
       type: System.IntPtr
       description: To be added.
   overload: System.Reflection.Emit.LocalBuilder.System#Runtime#InteropServices#_LocalBuilder#Invoke*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -375,24 +384,6 @@ references:
   name: SetLocalSymInfo(String,Int32,Int32)
   nameWithType: LocalBuilder.SetLocalSymInfo(String,Int32,Int32)
   fullName: System.Reflection.Emit.LocalBuilder.SetLocalSymInfo(String,Int32,Int32)
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
 - uid: System.Reflection.Emit.LocalBuilder.System#Runtime#InteropServices#_LocalBuilder#GetIDsOfNames(System.Guid@,System.IntPtr,System.UInt32,System.UInt32,System.IntPtr)
   parent: System.Reflection.Emit.LocalBuilder
   isExternal: false
@@ -417,108 +408,30 @@ references:
   name: UInt32
   nameWithType: UInt32
   fullName: System.UInt32
-- uid: System.UInt32
-  parent: System
-  isExternal: false
-  name: UInt32
-  nameWithType: UInt32
-  fullName: System.UInt32
-- uid: System.IntPtr
-  parent: System
-  isExternal: false
-  name: IntPtr
-  nameWithType: IntPtr
-  fullName: System.IntPtr
 - uid: System.Reflection.Emit.LocalBuilder.System#Runtime#InteropServices#_LocalBuilder#GetTypeInfo(System.UInt32,System.UInt32,System.IntPtr)
   parent: System.Reflection.Emit.LocalBuilder
   isExternal: false
   name: System.Runtime.InteropServices._LocalBuilder.GetTypeInfo(UInt32,UInt32,IntPtr)
   nameWithType: LocalBuilder.System.Runtime.InteropServices._LocalBuilder.GetTypeInfo(UInt32,UInt32,IntPtr)
   fullName: System.Reflection.Emit.LocalBuilder.System.Runtime.InteropServices._LocalBuilder.GetTypeInfo(UInt32,UInt32,IntPtr)
-- uid: System.UInt32
-  parent: System
-  isExternal: false
-  name: UInt32
-  nameWithType: UInt32
-  fullName: System.UInt32
-- uid: System.UInt32
-  parent: System
-  isExternal: false
-  name: UInt32
-  nameWithType: UInt32
-  fullName: System.UInt32
-- uid: System.IntPtr
-  parent: System
-  isExternal: false
-  name: IntPtr
-  nameWithType: IntPtr
-  fullName: System.IntPtr
 - uid: System.Reflection.Emit.LocalBuilder.System#Runtime#InteropServices#_LocalBuilder#GetTypeInfoCount(System.UInt32@)
   parent: System.Reflection.Emit.LocalBuilder
   isExternal: false
   name: System.Runtime.InteropServices._LocalBuilder.GetTypeInfoCount(UInt32)
   nameWithType: LocalBuilder.System.Runtime.InteropServices._LocalBuilder.GetTypeInfoCount(UInt32)
   fullName: System.Reflection.Emit.LocalBuilder.System.Runtime.InteropServices._LocalBuilder.GetTypeInfoCount(UInt32)
-- uid: System.UInt32
-  parent: System
-  isExternal: false
-  name: UInt32
-  nameWithType: UInt32
-  fullName: System.UInt32
 - uid: System.Reflection.Emit.LocalBuilder.System#Runtime#InteropServices#_LocalBuilder#Invoke(System.UInt32,System.Guid@,System.UInt32,System.Int16,System.IntPtr,System.IntPtr,System.IntPtr,System.IntPtr)
   parent: System.Reflection.Emit.LocalBuilder
   isExternal: false
   name: System.Runtime.InteropServices._LocalBuilder.Invoke(UInt32,Guid,UInt32,Int16,IntPtr,IntPtr,IntPtr,IntPtr)
   nameWithType: LocalBuilder.System.Runtime.InteropServices._LocalBuilder.Invoke(UInt32,Guid,UInt32,Int16,IntPtr,IntPtr,IntPtr,IntPtr)
   fullName: System.Reflection.Emit.LocalBuilder.System.Runtime.InteropServices._LocalBuilder.Invoke(UInt32,Guid,UInt32,Int16,IntPtr,IntPtr,IntPtr,IntPtr)
-- uid: System.UInt32
-  parent: System
-  isExternal: false
-  name: UInt32
-  nameWithType: UInt32
-  fullName: System.UInt32
-- uid: System.Guid
-  parent: System
-  isExternal: false
-  name: Guid
-  nameWithType: Guid
-  fullName: System.Guid
-- uid: System.UInt32
-  parent: System
-  isExternal: false
-  name: UInt32
-  nameWithType: UInt32
-  fullName: System.UInt32
 - uid: System.Int16
   parent: System
   isExternal: false
   name: Int16
   nameWithType: Int16
   fullName: System.Int16
-- uid: System.IntPtr
-  parent: System
-  isExternal: false
-  name: IntPtr
-  nameWithType: IntPtr
-  fullName: System.IntPtr
-- uid: System.IntPtr
-  parent: System
-  isExternal: false
-  name: IntPtr
-  nameWithType: IntPtr
-  fullName: System.IntPtr
-- uid: System.IntPtr
-  parent: System
-  isExternal: false
-  name: IntPtr
-  nameWithType: IntPtr
-  fullName: System.IntPtr
-- uid: System.IntPtr
-  parent: System
-  isExternal: false
-  name: IntPtr
-  nameWithType: IntPtr
-  fullName: System.IntPtr
 - uid: System.Reflection.Emit.LocalBuilder.IsPinned*
   parent: System.Reflection.Emit.LocalBuilder
   isExternal: false

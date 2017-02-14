@@ -56,6 +56,7 @@ items:
       type: System.Exception
       description: To be added.
   overload: System.Runtime.InteropServices.ErrorWrapper.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -81,6 +82,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.Runtime.InteropServices.ErrorWrapper.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -106,6 +108,7 @@ items:
       type: System.Object
       description: To be added.
   overload: System.Runtime.InteropServices.ErrorWrapper.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -130,6 +133,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.Runtime.InteropServices.ErrorWrapper.ErrorCode*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -168,24 +172,12 @@ references:
   name: ErrorWrapper(Object)
   nameWithType: ErrorWrapper.ErrorWrapper(Object)
   fullName: System.Runtime.InteropServices.ErrorWrapper.ErrorWrapper(Object)
-- uid: System.Object
-  parent: System
-  isExternal: false
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
 - uid: System.Runtime.InteropServices.ErrorWrapper.ErrorCode
   parent: System.Runtime.InteropServices.ErrorWrapper
   isExternal: false
   name: ErrorCode
   nameWithType: ErrorWrapper.ErrorCode
   fullName: System.Runtime.InteropServices.ErrorWrapper.ErrorCode
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
 - uid: System.Runtime.InteropServices.ErrorWrapper.#ctor*
   parent: System.Runtime.InteropServices.ErrorWrapper
   isExternal: false

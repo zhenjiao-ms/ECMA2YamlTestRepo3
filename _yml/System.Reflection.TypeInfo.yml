@@ -262,6 +262,7 @@ items:
       type: System.Type
       description: To be added.
   overload: System.Reflection.TypeInfo.AsType*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -286,6 +287,7 @@ items:
       type: System.Collections.Generic.IEnumerable{System.Reflection.ConstructorInfo}
       description: To be added.
   overload: System.Reflection.TypeInfo.DeclaredConstructors*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -310,6 +312,7 @@ items:
       type: System.Collections.Generic.IEnumerable{System.Reflection.EventInfo}
       description: To be added.
   overload: System.Reflection.TypeInfo.DeclaredEvents*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -334,6 +337,7 @@ items:
       type: System.Collections.Generic.IEnumerable{System.Reflection.FieldInfo}
       description: To be added.
   overload: System.Reflection.TypeInfo.DeclaredFields*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -358,6 +362,7 @@ items:
       type: System.Collections.Generic.IEnumerable{System.Reflection.MemberInfo}
       description: To be added.
   overload: System.Reflection.TypeInfo.DeclaredMembers*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -382,6 +387,7 @@ items:
       type: System.Collections.Generic.IEnumerable{System.Reflection.MethodInfo}
       description: To be added.
   overload: System.Reflection.TypeInfo.DeclaredMethods*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -406,6 +412,7 @@ items:
       type: System.Collections.Generic.IEnumerable{System.Reflection.TypeInfo}
       description: To be added.
   overload: System.Reflection.TypeInfo.DeclaredNestedTypes*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -430,6 +437,7 @@ items:
       type: System.Collections.Generic.IEnumerable{System.Reflection.PropertyInfo}
       description: To be added.
   overload: System.Reflection.TypeInfo.DeclaredProperties*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -454,6 +462,7 @@ items:
       type: System.Type[]
       description: To be added.
   overload: System.Reflection.TypeInfo.GenericTypeParameters*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -482,6 +491,7 @@ items:
       type: System.Reflection.EventInfo
       description: To be added.
   overload: System.Reflection.TypeInfo.GetDeclaredEvent*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -510,6 +520,7 @@ items:
       type: System.Reflection.FieldInfo
       description: To be added.
   overload: System.Reflection.TypeInfo.GetDeclaredField*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -538,6 +549,7 @@ items:
       type: System.Reflection.MethodInfo
       description: To be added.
   overload: System.Reflection.TypeInfo.GetDeclaredMethod*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -566,6 +578,7 @@ items:
       type: System.Collections.Generic.IEnumerable{System.Reflection.MethodInfo}
       description: To be added.
   overload: System.Reflection.TypeInfo.GetDeclaredMethods*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -594,6 +607,7 @@ items:
       type: System.Reflection.TypeInfo
       description: To be added.
   overload: System.Reflection.TypeInfo.GetDeclaredNestedType*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -622,6 +636,7 @@ items:
       type: System.Reflection.PropertyInfo
       description: To be added.
   overload: System.Reflection.TypeInfo.GetDeclaredProperty*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -646,6 +661,7 @@ items:
       type: System.Collections.Generic.IEnumerable{System.Type}
       description: To be added.
   overload: System.Reflection.TypeInfo.ImplementedInterfaces*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -674,6 +690,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Reflection.TypeInfo.IsAssignableFrom*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -700,6 +717,7 @@ items:
       type: System.Reflection.TypeInfo
       description: To be added.
   overload: System.Reflection.TypeInfo.System#Reflection#IReflectableType#GetTypeInfo*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -714,12 +732,6 @@ references:
   name: AsType()
   nameWithType: TypeInfo.AsType()
   fullName: System.Reflection.TypeInfo.AsType()
-- uid: System.Type
-  parent: System
-  isExternal: false
-  name: Type
-  nameWithType: Type
-  fullName: System.Type
 - uid: System.Reflection.TypeInfo.DeclaredConstructors
   parent: System.Reflection.TypeInfo
   isExternal: false
@@ -732,6 +744,21 @@ references:
   name: IEnumerable<ConstructorInfo>
   nameWithType: IEnumerable<ConstructorInfo>
   fullName: System.Collections.Generic.IEnumerable<System.Reflection.ConstructorInfo>
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: IEnumerable<System.Reflection.ConstructorInfo>
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Reflection.ConstructorInfo
+    name: ConstructorInfo
+    nameWithType: ConstructorInfo
+    fullName: ConstructorInfo
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
 - uid: System.Reflection.TypeInfo.DeclaredEvents
   parent: System.Reflection.TypeInfo
   isExternal: false
@@ -744,6 +771,21 @@ references:
   name: IEnumerable<EventInfo>
   nameWithType: IEnumerable<EventInfo>
   fullName: System.Collections.Generic.IEnumerable<System.Reflection.EventInfo>
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: IEnumerable<System.Reflection.EventInfo>
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Reflection.EventInfo
+    name: EventInfo
+    nameWithType: EventInfo
+    fullName: EventInfo
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
 - uid: System.Reflection.TypeInfo.DeclaredFields
   parent: System.Reflection.TypeInfo
   isExternal: false
@@ -756,6 +798,21 @@ references:
   name: IEnumerable<FieldInfo>
   nameWithType: IEnumerable<FieldInfo>
   fullName: System.Collections.Generic.IEnumerable<System.Reflection.FieldInfo>
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: IEnumerable<System.Reflection.FieldInfo>
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Reflection.FieldInfo
+    name: FieldInfo
+    nameWithType: FieldInfo
+    fullName: FieldInfo
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
 - uid: System.Reflection.TypeInfo.DeclaredMembers
   parent: System.Reflection.TypeInfo
   isExternal: false
@@ -768,6 +825,21 @@ references:
   name: IEnumerable<MemberInfo>
   nameWithType: IEnumerable<MemberInfo>
   fullName: System.Collections.Generic.IEnumerable<System.Reflection.MemberInfo>
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: IEnumerable<System.Reflection.MemberInfo>
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Reflection.MemberInfo
+    name: MemberInfo
+    nameWithType: MemberInfo
+    fullName: MemberInfo
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
 - uid: System.Reflection.TypeInfo.DeclaredMethods
   parent: System.Reflection.TypeInfo
   isExternal: false
@@ -780,6 +852,21 @@ references:
   name: IEnumerable<MethodInfo>
   nameWithType: IEnumerable<MethodInfo>
   fullName: System.Collections.Generic.IEnumerable<System.Reflection.MethodInfo>
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: IEnumerable<System.Reflection.MethodInfo>
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Reflection.MethodInfo
+    name: MethodInfo
+    nameWithType: MethodInfo
+    fullName: MethodInfo
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
 - uid: System.Reflection.TypeInfo.DeclaredNestedTypes
   parent: System.Reflection.TypeInfo
   isExternal: false
@@ -792,6 +879,21 @@ references:
   name: IEnumerable<TypeInfo>
   nameWithType: IEnumerable<TypeInfo>
   fullName: System.Collections.Generic.IEnumerable<System.Reflection.TypeInfo>
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: IEnumerable<System.Reflection.TypeInfo>
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Reflection.TypeInfo
+    name: TypeInfo
+    nameWithType: TypeInfo
+    fullName: TypeInfo
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
 - uid: System.Reflection.TypeInfo.DeclaredProperties
   parent: System.Reflection.TypeInfo
   isExternal: false
@@ -804,18 +906,41 @@ references:
   name: IEnumerable<PropertyInfo>
   nameWithType: IEnumerable<PropertyInfo>
   fullName: System.Collections.Generic.IEnumerable<System.Reflection.PropertyInfo>
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: IEnumerable<System.Reflection.PropertyInfo>
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Reflection.PropertyInfo
+    name: PropertyInfo
+    nameWithType: PropertyInfo
+    fullName: PropertyInfo
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
 - uid: System.Reflection.TypeInfo.GenericTypeParameters
   parent: System.Reflection.TypeInfo
   isExternal: false
   name: GenericTypeParameters
   nameWithType: TypeInfo.GenericTypeParameters
   fullName: System.Reflection.TypeInfo.GenericTypeParameters
-- uid: System.Type
+- uid: System.Type[]
   parent: System
   isExternal: false
   name: Type
   nameWithType: Type
   fullName: System.Type[]
+  spec.csharp:
+  - uid: System.Type
+    name: Type
+    nameWithType: Type
+    fullName: Type[]
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
 - uid: System.Reflection.TypeInfo.GetDeclaredEvent(System.String)
   parent: System.Reflection.TypeInfo
   isExternal: false
@@ -846,12 +971,6 @@ references:
   name: FieldInfo
   nameWithType: FieldInfo
   fullName: System.Reflection.FieldInfo
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
 - uid: System.Reflection.TypeInfo.GetDeclaredMethod(System.String)
   parent: System.Reflection.TypeInfo
   isExternal: false
@@ -864,30 +983,12 @@ references:
   name: MethodInfo
   nameWithType: MethodInfo
   fullName: System.Reflection.MethodInfo
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
 - uid: System.Reflection.TypeInfo.GetDeclaredMethods(System.String)
   parent: System.Reflection.TypeInfo
   isExternal: false
   name: GetDeclaredMethods(String)
   nameWithType: TypeInfo.GetDeclaredMethods(String)
   fullName: System.Reflection.TypeInfo.GetDeclaredMethods(String)
-- uid: System.Collections.Generic.IEnumerable{System.Reflection.MethodInfo}
-  parent: System.Collections.Generic
-  isExternal: false
-  name: IEnumerable<MethodInfo>
-  nameWithType: IEnumerable<MethodInfo>
-  fullName: System.Collections.Generic.IEnumerable<System.Reflection.MethodInfo>
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
 - uid: System.Reflection.TypeInfo.GetDeclaredNestedType(System.String)
   parent: System.Reflection.TypeInfo
   isExternal: false
@@ -900,12 +1001,6 @@ references:
   name: TypeInfo
   nameWithType: TypeInfo
   fullName: System.Reflection.TypeInfo
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
 - uid: System.Reflection.TypeInfo.GetDeclaredProperty(System.String)
   parent: System.Reflection.TypeInfo
   isExternal: false
@@ -918,12 +1013,6 @@ references:
   name: PropertyInfo
   nameWithType: PropertyInfo
   fullName: System.Reflection.PropertyInfo
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
 - uid: System.Reflection.TypeInfo.ImplementedInterfaces
   parent: System.Reflection.TypeInfo
   isExternal: false
@@ -936,6 +1025,21 @@ references:
   name: IEnumerable<Type>
   nameWithType: IEnumerable<Type>
   fullName: System.Collections.Generic.IEnumerable<System.Type>
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: IEnumerable<System.Type>
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Type
+    name: Type
+    nameWithType: Type
+    fullName: Type
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
 - uid: System.Reflection.TypeInfo.IsAssignableFrom(System.Reflection.TypeInfo)
   parent: System.Reflection.TypeInfo
   isExternal: false
@@ -948,24 +1052,12 @@ references:
   name: Boolean
   nameWithType: Boolean
   fullName: System.Boolean
-- uid: System.Reflection.TypeInfo
-  parent: System.Reflection
-  isExternal: false
-  name: TypeInfo
-  nameWithType: TypeInfo
-  fullName: System.Reflection.TypeInfo
 - uid: System.Reflection.TypeInfo.System#Reflection#IReflectableType#GetTypeInfo
   parent: System.Reflection.TypeInfo
   isExternal: false
   name: System.Reflection.IReflectableType.GetTypeInfo()
   nameWithType: TypeInfo.System.Reflection.IReflectableType.GetTypeInfo()
   fullName: System.Reflection.TypeInfo.System.Reflection.IReflectableType.GetTypeInfo()
-- uid: System.Reflection.TypeInfo
-  parent: System.Reflection
-  isExternal: false
-  name: TypeInfo
-  nameWithType: TypeInfo
-  fullName: System.Reflection.TypeInfo
 - uid: System.Reflection.TypeInfo.AsType*
   parent: System.Reflection.TypeInfo
   isExternal: false

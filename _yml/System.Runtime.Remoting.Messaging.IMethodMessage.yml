@@ -53,6 +53,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.Runtime.Remoting.Messaging.IMethodMessage.ArgCount*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -77,6 +78,7 @@ items:
       type: System.Object[]
       description: To be added.
   overload: System.Runtime.Remoting.Messaging.IMethodMessage.Args*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -105,6 +107,7 @@ items:
       type: System.Object
       description: To be added.
   overload: System.Runtime.Remoting.Messaging.IMethodMessage.GetArg*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -133,6 +136,7 @@ items:
       type: System.String
       description: To be added.
   overload: System.Runtime.Remoting.Messaging.IMethodMessage.GetArgName*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -157,6 +161,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Runtime.Remoting.Messaging.IMethodMessage.HasVarArgs*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -181,6 +186,7 @@ items:
       type: System.Runtime.Remoting.Messaging.LogicalCallContext
       description: To be added.
   overload: System.Runtime.Remoting.Messaging.IMethodMessage.LogicalCallContext*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -205,6 +211,7 @@ items:
       type: System.Reflection.MethodBase
       description: To be added.
   overload: System.Runtime.Remoting.Messaging.IMethodMessage.MethodBase*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -229,6 +236,7 @@ items:
       type: System.String
       description: To be added.
   overload: System.Runtime.Remoting.Messaging.IMethodMessage.MethodName*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -253,6 +261,7 @@ items:
       type: System.Object
       description: To be added.
   overload: System.Runtime.Remoting.Messaging.IMethodMessage.MethodSignature*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -277,6 +286,7 @@ items:
       type: System.String
       description: To be added.
   overload: System.Runtime.Remoting.Messaging.IMethodMessage.TypeName*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -301,6 +311,7 @@ items:
       type: System.String
       description: To be added.
   overload: System.Runtime.Remoting.Messaging.IMethodMessage.Uri*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -324,12 +335,20 @@ references:
   name: Args
   nameWithType: IMethodMessage.Args
   fullName: System.Runtime.Remoting.Messaging.IMethodMessage.Args
-- uid: System.Object
+- uid: System.Object[]
   parent: System
   isExternal: false
   name: Object
   nameWithType: Object
   fullName: System.Object[]
+  spec.csharp:
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: Object[]
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
 - uid: System.Runtime.Remoting.Messaging.IMethodMessage.GetArg(System.Int32)
   parent: System.Runtime.Remoting.Messaging.IMethodMessage
   isExternal: false
@@ -342,12 +361,6 @@ references:
   name: Object
   nameWithType: Object
   fullName: System.Object
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
 - uid: System.Runtime.Remoting.Messaging.IMethodMessage.GetArgName(System.Int32)
   parent: System.Runtime.Remoting.Messaging.IMethodMessage
   isExternal: false
@@ -360,12 +373,6 @@ references:
   name: String
   nameWithType: String
   fullName: System.String
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
 - uid: System.Runtime.Remoting.Messaging.IMethodMessage.HasVarArgs
   parent: System.Runtime.Remoting.Messaging.IMethodMessage
   isExternal: false
@@ -408,48 +415,24 @@ references:
   name: MethodName
   nameWithType: IMethodMessage.MethodName
   fullName: System.Runtime.Remoting.Messaging.IMethodMessage.MethodName
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
 - uid: System.Runtime.Remoting.Messaging.IMethodMessage.MethodSignature
   parent: System.Runtime.Remoting.Messaging.IMethodMessage
   isExternal: false
   name: MethodSignature
   nameWithType: IMethodMessage.MethodSignature
   fullName: System.Runtime.Remoting.Messaging.IMethodMessage.MethodSignature
-- uid: System.Object
-  parent: System
-  isExternal: false
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
 - uid: System.Runtime.Remoting.Messaging.IMethodMessage.TypeName
   parent: System.Runtime.Remoting.Messaging.IMethodMessage
   isExternal: false
   name: TypeName
   nameWithType: IMethodMessage.TypeName
   fullName: System.Runtime.Remoting.Messaging.IMethodMessage.TypeName
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
 - uid: System.Runtime.Remoting.Messaging.IMethodMessage.Uri
   parent: System.Runtime.Remoting.Messaging.IMethodMessage
   isExternal: false
   name: Uri
   nameWithType: IMethodMessage.Uri
   fullName: System.Runtime.Remoting.Messaging.IMethodMessage.Uri
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
 - uid: System.Runtime.Remoting.Messaging.IMethodMessage.ArgCount*
   parent: System.Runtime.Remoting.Messaging.IMethodMessage
   isExternal: false

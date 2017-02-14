@@ -79,6 +79,7 @@ items:
       type: System.Security.Policy.IMembershipCondition
       description: To be added.
   overload: System.Security.Policy.NetCodeGroup.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -102,6 +103,7 @@ items:
     return:
       type: System.String
       description: To be added.
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -130,6 +132,7 @@ items:
       type: System.Security.Policy.CodeConnectAccess
       description: To be added.
   overload: System.Security.Policy.NetCodeGroup.AddConnectAccess*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -153,6 +156,7 @@ items:
     return:
       type: System.String
       description: To be added.
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -177,6 +181,7 @@ items:
       type: System.String
       description: To be added.
   overload: System.Security.Policy.NetCodeGroup.AttributeString*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -202,6 +207,7 @@ items:
       type: System.Security.Policy.CodeGroup
       description: To be added.
   overload: System.Security.Policy.NetCodeGroup.Copy*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -230,6 +236,7 @@ items:
       type: System.Security.Policy.PolicyLevel
       description: To be added.
   overload: System.Security.Policy.NetCodeGroup.CreateXml*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -258,6 +265,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Security.Policy.NetCodeGroup.Equals*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -283,6 +291,7 @@ items:
       type: System.Collections.DictionaryEntry[]
       description: To be added.
   overload: System.Security.Policy.NetCodeGroup.GetConnectAccessRules*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -308,6 +317,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.Security.Policy.NetCodeGroup.GetHashCode*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -332,6 +342,7 @@ items:
       type: System.String
       description: To be added.
   overload: System.Security.Policy.NetCodeGroup.MergeLogic*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -360,6 +371,7 @@ items:
       type: System.Security.Policy.PolicyLevel
       description: To be added.
   overload: System.Security.Policy.NetCodeGroup.ParseXml*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -384,6 +396,7 @@ items:
       type: System.String
       description: To be added.
   overload: System.Security.Policy.NetCodeGroup.PermissionSetName*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -406,6 +419,7 @@ items:
     content: public void ResetConnectAccess ();
     parameters: []
   overload: System.Security.Policy.NetCodeGroup.ResetConnectAccess*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -434,6 +448,7 @@ items:
       type: System.Security.Policy.PolicyStatement
       description: To be added.
   overload: System.Security.Policy.NetCodeGroup.Resolve*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -462,6 +477,7 @@ items:
       type: System.Security.Policy.CodeGroup
       description: To be added.
   overload: System.Security.Policy.NetCodeGroup.ResolveMatchingCodeGroups*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -500,12 +516,6 @@ references:
   name: AddConnectAccess(String,CodeConnectAccess)
   nameWithType: NetCodeGroup.AddConnectAccess(String,CodeConnectAccess)
   fullName: System.Security.Policy.NetCodeGroup.AddConnectAccess(String,CodeConnectAccess)
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
 - uid: System.Security.Policy.CodeConnectAccess
   parent: System.Security.Policy
   isExternal: false
@@ -518,36 +528,18 @@ references:
   name: AnyOtherOriginScheme
   nameWithType: NetCodeGroup.AnyOtherOriginScheme
   fullName: System.Security.Policy.NetCodeGroup.AnyOtherOriginScheme
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
 - uid: System.Security.Policy.NetCodeGroup.AttributeString
   parent: System.Security.Policy.NetCodeGroup
   isExternal: false
   name: AttributeString
   nameWithType: NetCodeGroup.AttributeString
   fullName: System.Security.Policy.NetCodeGroup.AttributeString
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
 - uid: System.Security.Policy.NetCodeGroup.Copy
   parent: System.Security.Policy.NetCodeGroup
   isExternal: false
   name: Copy()
   nameWithType: NetCodeGroup.Copy()
   fullName: System.Security.Policy.NetCodeGroup.Copy()
-- uid: System.Security.Policy.CodeGroup
-  parent: System.Security.Policy
-  isExternal: false
-  name: CodeGroup
-  nameWithType: CodeGroup
-  fullName: System.Security.Policy.CodeGroup
 - uid: System.Security.Policy.NetCodeGroup.CreateXml(System.Security.SecurityElement,System.Security.Policy.PolicyLevel)
   parent: System.Security.Policy.NetCodeGroup
   isExternal: false
@@ -590,12 +582,20 @@ references:
   name: GetConnectAccessRules()
   nameWithType: NetCodeGroup.GetConnectAccessRules()
   fullName: System.Security.Policy.NetCodeGroup.GetConnectAccessRules()
-- uid: System.Collections.DictionaryEntry
+- uid: System.Collections.DictionaryEntry[]
   parent: System.Collections
   isExternal: false
   name: DictionaryEntry
   nameWithType: DictionaryEntry
   fullName: System.Collections.DictionaryEntry[]
+  spec.csharp:
+  - uid: System.Collections.DictionaryEntry
+    name: DictionaryEntry
+    nameWithType: DictionaryEntry
+    fullName: DictionaryEntry[]
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
 - uid: System.Security.Policy.NetCodeGroup.GetHashCode
   parent: System.Security.Policy.NetCodeGroup
   isExternal: false
@@ -614,42 +614,18 @@ references:
   name: MergeLogic
   nameWithType: NetCodeGroup.MergeLogic
   fullName: System.Security.Policy.NetCodeGroup.MergeLogic
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
 - uid: System.Security.Policy.NetCodeGroup.ParseXml(System.Security.SecurityElement,System.Security.Policy.PolicyLevel)
   parent: System.Security.Policy.NetCodeGroup
   isExternal: false
   name: ParseXml(SecurityElement,PolicyLevel)
   nameWithType: NetCodeGroup.ParseXml(SecurityElement,PolicyLevel)
   fullName: System.Security.Policy.NetCodeGroup.ParseXml(SecurityElement,PolicyLevel)
-- uid: System.Security.SecurityElement
-  parent: System.Security
-  isExternal: false
-  name: SecurityElement
-  nameWithType: SecurityElement
-  fullName: System.Security.SecurityElement
-- uid: System.Security.Policy.PolicyLevel
-  parent: System.Security.Policy
-  isExternal: false
-  name: PolicyLevel
-  nameWithType: PolicyLevel
-  fullName: System.Security.Policy.PolicyLevel
 - uid: System.Security.Policy.NetCodeGroup.PermissionSetName
   parent: System.Security.Policy.NetCodeGroup
   isExternal: false
   name: PermissionSetName
   nameWithType: NetCodeGroup.PermissionSetName
   fullName: System.Security.Policy.NetCodeGroup.PermissionSetName
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
 - uid: System.Security.Policy.NetCodeGroup.ResetConnectAccess
   parent: System.Security.Policy.NetCodeGroup
   isExternal: false
@@ -680,18 +656,6 @@ references:
   name: ResolveMatchingCodeGroups(Evidence)
   nameWithType: NetCodeGroup.ResolveMatchingCodeGroups(Evidence)
   fullName: System.Security.Policy.NetCodeGroup.ResolveMatchingCodeGroups(Evidence)
-- uid: System.Security.Policy.CodeGroup
-  parent: System.Security.Policy
-  isExternal: false
-  name: CodeGroup
-  nameWithType: CodeGroup
-  fullName: System.Security.Policy.CodeGroup
-- uid: System.Security.Policy.Evidence
-  parent: System.Security.Policy
-  isExternal: false
-  name: Evidence
-  nameWithType: Evidence
-  fullName: System.Security.Policy.Evidence
 - uid: System.Security.Policy.NetCodeGroup.#ctor*
   parent: System.Security.Policy.NetCodeGroup
   isExternal: false

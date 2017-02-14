@@ -56,6 +56,7 @@ items:
       type: System.Runtime.InteropServices.UCOMIEnumString
       description: To be added.
   overload: System.Runtime.InteropServices.UCOMIBindCtx.EnumObjectParam*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -81,6 +82,7 @@ items:
       type: System.Runtime.InteropServices.BIND_OPTS
       description: To be added.
   overload: System.Runtime.InteropServices.UCOMIBindCtx.GetBindOptions*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -109,6 +111,7 @@ items:
       type: System.Object
       description: To be added.
   overload: System.Runtime.InteropServices.UCOMIBindCtx.GetObjectParam*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -134,6 +137,7 @@ items:
       type: System.Runtime.InteropServices.UCOMIRunningObjectTable
       description: To be added.
   overload: System.Runtime.InteropServices.UCOMIBindCtx.GetRunningObjectTable*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -159,6 +163,7 @@ items:
       type: System.Object
       description: To be added.
   overload: System.Runtime.InteropServices.UCOMIBindCtx.RegisterObjectBound*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -187,6 +192,7 @@ items:
       type: System.Object
       description: To be added.
   overload: System.Runtime.InteropServices.UCOMIBindCtx.RegisterObjectParam*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -209,6 +215,7 @@ items:
     content: public void ReleaseBoundObjects ();
     parameters: []
   overload: System.Runtime.InteropServices.UCOMIBindCtx.ReleaseBoundObjects*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -234,6 +241,7 @@ items:
       type: System.Object
       description: To be added.
   overload: System.Runtime.InteropServices.UCOMIBindCtx.RevokeObjectBound*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -259,6 +267,7 @@ items:
       type: System.String
       description: To be added.
   overload: System.Runtime.InteropServices.UCOMIBindCtx.RevokeObjectParam*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -284,6 +293,7 @@ items:
       type: System.Runtime.InteropServices.BIND_OPTS
       description: To be added.
   overload: System.Runtime.InteropServices.UCOMIBindCtx.SetBindOptions*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -349,30 +359,12 @@ references:
   name: RegisterObjectBound(Object)
   nameWithType: UCOMIBindCtx.RegisterObjectBound(Object)
   fullName: System.Runtime.InteropServices.UCOMIBindCtx.RegisterObjectBound(Object)
-- uid: System.Object
-  parent: System
-  isExternal: false
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
 - uid: System.Runtime.InteropServices.UCOMIBindCtx.RegisterObjectParam(System.String,System.Object)
   parent: System.Runtime.InteropServices.UCOMIBindCtx
   isExternal: false
   name: RegisterObjectParam(String,Object)
   nameWithType: UCOMIBindCtx.RegisterObjectParam(String,Object)
   fullName: System.Runtime.InteropServices.UCOMIBindCtx.RegisterObjectParam(String,Object)
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
-- uid: System.Object
-  parent: System
-  isExternal: false
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
 - uid: System.Runtime.InteropServices.UCOMIBindCtx.ReleaseBoundObjects
   parent: System.Runtime.InteropServices.UCOMIBindCtx
   isExternal: false
@@ -385,36 +377,18 @@ references:
   name: RevokeObjectBound(Object)
   nameWithType: UCOMIBindCtx.RevokeObjectBound(Object)
   fullName: System.Runtime.InteropServices.UCOMIBindCtx.RevokeObjectBound(Object)
-- uid: System.Object
-  parent: System
-  isExternal: false
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
 - uid: System.Runtime.InteropServices.UCOMIBindCtx.RevokeObjectParam(System.String)
   parent: System.Runtime.InteropServices.UCOMIBindCtx
   isExternal: false
   name: RevokeObjectParam(String)
   nameWithType: UCOMIBindCtx.RevokeObjectParam(String)
   fullName: System.Runtime.InteropServices.UCOMIBindCtx.RevokeObjectParam(String)
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
 - uid: System.Runtime.InteropServices.UCOMIBindCtx.SetBindOptions(System.Runtime.InteropServices.BIND_OPTS@)
   parent: System.Runtime.InteropServices.UCOMIBindCtx
   isExternal: false
   name: SetBindOptions(BIND_OPTS)
   nameWithType: UCOMIBindCtx.SetBindOptions(BIND_OPTS)
   fullName: System.Runtime.InteropServices.UCOMIBindCtx.SetBindOptions(BIND_OPTS)
-- uid: System.Runtime.InteropServices.BIND_OPTS
-  parent: System.Runtime.InteropServices
-  isExternal: false
-  name: BIND_OPTS
-  nameWithType: BIND_OPTS
-  fullName: System.Runtime.InteropServices.BIND_OPTS
 - uid: System.Runtime.InteropServices.UCOMIBindCtx.EnumObjectParam*
   parent: System.Runtime.InteropServices.UCOMIBindCtx
   isExternal: false

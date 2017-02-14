@@ -47,6 +47,7 @@ items:
     return:
       type: System.Reflection.MethodInfo[]
       description: To be added.
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -70,6 +71,7 @@ items:
     return:
       type: System.Type
       description: To be added.
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -93,6 +95,7 @@ items:
     return:
       type: System.Reflection.MethodInfo[]
       description: To be added.
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -116,6 +119,7 @@ items:
     return:
       type: System.Type
       description: To be added.
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -130,12 +134,20 @@ references:
   name: InterfaceMethods
   nameWithType: InterfaceMapping.InterfaceMethods
   fullName: System.Reflection.InterfaceMapping.InterfaceMethods
-- uid: System.Reflection.MethodInfo
+- uid: System.Reflection.MethodInfo[]
   parent: System.Reflection
   isExternal: false
   name: MethodInfo
   nameWithType: MethodInfo
   fullName: System.Reflection.MethodInfo[]
+  spec.csharp:
+  - uid: System.Reflection.MethodInfo
+    name: MethodInfo
+    nameWithType: MethodInfo
+    fullName: MethodInfo[]
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
 - uid: System.Reflection.InterfaceMapping.InterfaceType
   parent: System.Reflection.InterfaceMapping
   isExternal: false
@@ -154,21 +166,9 @@ references:
   name: TargetMethods
   nameWithType: InterfaceMapping.TargetMethods
   fullName: System.Reflection.InterfaceMapping.TargetMethods
-- uid: System.Reflection.MethodInfo
-  parent: System.Reflection
-  isExternal: false
-  name: MethodInfo
-  nameWithType: MethodInfo
-  fullName: System.Reflection.MethodInfo[]
 - uid: System.Reflection.InterfaceMapping.TargetType
   parent: System.Reflection.InterfaceMapping
   isExternal: false
   name: TargetType
   nameWithType: InterfaceMapping.TargetType
   fullName: System.Reflection.InterfaceMapping.TargetType
-- uid: System.Type
-  parent: System
-  isExternal: false
-  name: Type
-  nameWithType: Type
-  fullName: System.Type

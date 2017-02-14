@@ -65,6 +65,7 @@ items:
       type: System.Security.AccessControl.AuditFlags
       description: To be added.
   overload: System.Security.AccessControl.MutexAuditRule.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -89,6 +90,7 @@ items:
       type: System.Security.AccessControl.MutexRights
       description: To be added.
   overload: System.Security.AccessControl.MutexAuditRule.MutexRights*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -127,12 +129,6 @@ references:
   name: MutexRights
   nameWithType: MutexAuditRule.MutexRights
   fullName: System.Security.AccessControl.MutexAuditRule.MutexRights
-- uid: System.Security.AccessControl.MutexRights
-  parent: System.Security.AccessControl
-  isExternal: false
-  name: MutexRights
-  nameWithType: MutexRights
-  fullName: System.Security.AccessControl.MutexRights
 - uid: System.Security.AccessControl.MutexAuditRule.#ctor*
   parent: System.Security.AccessControl.MutexAuditRule
   isExternal: false

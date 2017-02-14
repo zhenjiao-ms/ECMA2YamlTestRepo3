@@ -99,6 +99,7 @@ items:
     content: public JapaneseLunisolarCalendar ();
     parameters: []
   overload: System.Globalization.JapaneseLunisolarCalendar.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -123,6 +124,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.Globalization.JapaneseLunisolarCalendar.DaysInYearBeforeMinSupportedYear*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -147,6 +149,7 @@ items:
       type: System.Int32[]
       description: To be added.
   overload: System.Globalization.JapaneseLunisolarCalendar.Eras*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -175,6 +178,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.Globalization.JapaneseLunisolarCalendar.GetEra*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -198,6 +202,7 @@ items:
     return:
       type: System.Int32
       description: To be added.
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -222,6 +227,7 @@ items:
       type: System.DateTime
       description: To be added.
   overload: System.Globalization.JapaneseLunisolarCalendar.MaxSupportedDateTime*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -246,6 +252,7 @@ items:
       type: System.DateTime
       description: To be added.
   overload: System.Globalization.JapaneseLunisolarCalendar.MinSupportedDateTime*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -278,24 +285,26 @@ references:
   name: Eras
   nameWithType: JapaneseLunisolarCalendar.Eras
   fullName: System.Globalization.JapaneseLunisolarCalendar.Eras
-- uid: System.Int32
+- uid: System.Int32[]
   parent: System
   isExternal: false
   name: Int32
   nameWithType: Int32
   fullName: System.Int32[]
+  spec.csharp:
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: Int32[]
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
 - uid: System.Globalization.JapaneseLunisolarCalendar.GetEra(System.DateTime)
   parent: System.Globalization.JapaneseLunisolarCalendar
   isExternal: false
   name: GetEra(DateTime)
   nameWithType: JapaneseLunisolarCalendar.GetEra(DateTime)
   fullName: System.Globalization.JapaneseLunisolarCalendar.GetEra(DateTime)
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
 - uid: System.DateTime
   parent: System
   isExternal: false
@@ -308,36 +317,18 @@ references:
   name: JapaneseEra
   nameWithType: JapaneseLunisolarCalendar.JapaneseEra
   fullName: System.Globalization.JapaneseLunisolarCalendar.JapaneseEra
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
 - uid: System.Globalization.JapaneseLunisolarCalendar.MaxSupportedDateTime
   parent: System.Globalization.JapaneseLunisolarCalendar
   isExternal: false
   name: MaxSupportedDateTime
   nameWithType: JapaneseLunisolarCalendar.MaxSupportedDateTime
   fullName: System.Globalization.JapaneseLunisolarCalendar.MaxSupportedDateTime
-- uid: System.DateTime
-  parent: System
-  isExternal: false
-  name: DateTime
-  nameWithType: DateTime
-  fullName: System.DateTime
 - uid: System.Globalization.JapaneseLunisolarCalendar.MinSupportedDateTime
   parent: System.Globalization.JapaneseLunisolarCalendar
   isExternal: false
   name: MinSupportedDateTime
   nameWithType: JapaneseLunisolarCalendar.MinSupportedDateTime
   fullName: System.Globalization.JapaneseLunisolarCalendar.MinSupportedDateTime
-- uid: System.DateTime
-  parent: System
-  isExternal: false
-  name: DateTime
-  nameWithType: DateTime
-  fullName: System.DateTime
 - uid: System.Globalization.JapaneseLunisolarCalendar.#ctor*
   parent: System.Globalization.JapaneseLunisolarCalendar
   isExternal: false

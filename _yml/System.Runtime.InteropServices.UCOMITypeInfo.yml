@@ -71,6 +71,7 @@ items:
       type: System.IntPtr
       description: To be added.
   overload: System.Runtime.InteropServices.UCOMITypeInfo.AddressOfMember*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -102,6 +103,7 @@ items:
       type: System.Object
       description: To be added.
   overload: System.Runtime.InteropServices.UCOMITypeInfo.CreateInstance*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -130,6 +132,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.Runtime.InteropServices.UCOMITypeInfo.GetContainingTypeLib*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -167,6 +170,7 @@ items:
       type: System.Int16
       description: To be added.
   overload: System.Runtime.InteropServices.UCOMITypeInfo.GetDllEntry*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -204,6 +208,7 @@ items:
       type: System.String
       description: To be added.
   overload: System.Runtime.InteropServices.UCOMITypeInfo.GetDocumentation*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -232,6 +237,7 @@ items:
       type: System.IntPtr
       description: To be added.
   overload: System.Runtime.InteropServices.UCOMITypeInfo.GetFuncDesc*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -263,6 +269,7 @@ items:
       type: System.Int32[]
       description: To be added.
   overload: System.Runtime.InteropServices.UCOMITypeInfo.GetIDsOfNames*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -291,6 +298,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.Runtime.InteropServices.UCOMITypeInfo.GetImplTypeFlags*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -319,6 +327,7 @@ items:
       type: System.String
       description: To be added.
   overload: System.Runtime.InteropServices.UCOMITypeInfo.GetMops*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -353,6 +362,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.Runtime.InteropServices.UCOMITypeInfo.GetNames*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -381,6 +391,7 @@ items:
       type: System.Runtime.InteropServices.UCOMITypeInfo
       description: To be added.
   overload: System.Runtime.InteropServices.UCOMITypeInfo.GetRefTypeInfo*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -409,6 +420,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.Runtime.InteropServices.UCOMITypeInfo.GetRefTypeOfImplType*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -434,6 +446,7 @@ items:
       type: System.IntPtr
       description: To be added.
   overload: System.Runtime.InteropServices.UCOMITypeInfo.GetTypeAttr*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -459,6 +472,7 @@ items:
       type: System.Runtime.InteropServices.UCOMITypeComp
       description: To be added.
   overload: System.Runtime.InteropServices.UCOMITypeInfo.GetTypeComp*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -487,6 +501,7 @@ items:
       type: System.IntPtr
       description: To be added.
   overload: System.Runtime.InteropServices.UCOMITypeInfo.GetVarDesc*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -530,6 +545,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.Runtime.InteropServices.UCOMITypeInfo.Invoke*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -555,6 +571,7 @@ items:
       type: System.IntPtr
       description: To be added.
   overload: System.Runtime.InteropServices.UCOMITypeInfo.ReleaseFuncDesc*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -580,6 +597,7 @@ items:
       type: System.IntPtr
       description: To be added.
   overload: System.Runtime.InteropServices.UCOMITypeInfo.ReleaseTypeAttr*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -605,6 +623,7 @@ items:
       type: System.IntPtr
       description: To be added.
   overload: System.Runtime.InteropServices.UCOMITypeInfo.ReleaseVarDesc*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -652,12 +671,6 @@ references:
   name: Guid
   nameWithType: Guid
   fullName: System.Guid
-- uid: System.Object
-  parent: System
-  isExternal: false
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
 - uid: System.Runtime.InteropServices.UCOMITypeInfo.GetContainingTypeLib(System.Runtime.InteropServices.UCOMITypeLib@,System.Int32@)
   parent: System.Runtime.InteropServices.UCOMITypeInfo
   isExternal: false
@@ -670,36 +683,12 @@ references:
   name: UCOMITypeLib
   nameWithType: UCOMITypeLib
   fullName: System.Runtime.InteropServices.UCOMITypeLib
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
 - uid: System.Runtime.InteropServices.UCOMITypeInfo.GetDllEntry(System.Int32,System.Runtime.InteropServices.INVOKEKIND,System.String@,System.String@,System.Int16@)
   parent: System.Runtime.InteropServices.UCOMITypeInfo
   isExternal: false
   name: GetDllEntry(Int32,INVOKEKIND,String,String,Int16)
   nameWithType: UCOMITypeInfo.GetDllEntry(Int32,INVOKEKIND,String,String,Int16)
   fullName: System.Runtime.InteropServices.UCOMITypeInfo.GetDllEntry(Int32,INVOKEKIND,String,String,Int16)
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: System.Runtime.InteropServices.INVOKEKIND
-  parent: System.Runtime.InteropServices
-  isExternal: false
-  name: INVOKEKIND
-  nameWithType: INVOKEKIND
-  fullName: System.Runtime.InteropServices.INVOKEKIND
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
 - uid: System.String
   parent: System
   isExternal: false
@@ -718,156 +707,70 @@ references:
   name: GetDocumentation(Int32,String,String,Int32,String)
   nameWithType: UCOMITypeInfo.GetDocumentation(Int32,String,String,Int32,String)
   fullName: System.Runtime.InteropServices.UCOMITypeInfo.GetDocumentation(Int32,String,String,Int32,String)
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
 - uid: System.Runtime.InteropServices.UCOMITypeInfo.GetFuncDesc(System.Int32,System.IntPtr@)
   parent: System.Runtime.InteropServices.UCOMITypeInfo
   isExternal: false
   name: GetFuncDesc(Int32,IntPtr)
   nameWithType: UCOMITypeInfo.GetFuncDesc(Int32,IntPtr)
   fullName: System.Runtime.InteropServices.UCOMITypeInfo.GetFuncDesc(Int32,IntPtr)
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: System.IntPtr
-  parent: System
-  isExternal: false
-  name: IntPtr
-  nameWithType: IntPtr
-  fullName: System.IntPtr
 - uid: System.Runtime.InteropServices.UCOMITypeInfo.GetIDsOfNames(System.String[],System.Int32,System.Int32[])
   parent: System.Runtime.InteropServices.UCOMITypeInfo
   isExternal: false
   name: GetIDsOfNames(String[],Int32,Int32[])
   nameWithType: UCOMITypeInfo.GetIDsOfNames(String[],Int32,Int32[])
   fullName: System.Runtime.InteropServices.UCOMITypeInfo.GetIDsOfNames(String[],Int32,Int32[])
-- uid: System.String
+- uid: System.String[]
   parent: System
   isExternal: false
   name: String
   nameWithType: String
   fullName: System.String[]
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: System.Int32
+  spec.csharp:
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: String[]
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+- uid: System.Int32[]
   parent: System
   isExternal: false
   name: Int32
   nameWithType: Int32
   fullName: System.Int32[]
+  spec.csharp:
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: Int32[]
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
 - uid: System.Runtime.InteropServices.UCOMITypeInfo.GetImplTypeFlags(System.Int32,System.Int32@)
   parent: System.Runtime.InteropServices.UCOMITypeInfo
   isExternal: false
   name: GetImplTypeFlags(Int32,Int32)
   nameWithType: UCOMITypeInfo.GetImplTypeFlags(Int32,Int32)
   fullName: System.Runtime.InteropServices.UCOMITypeInfo.GetImplTypeFlags(Int32,Int32)
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
 - uid: System.Runtime.InteropServices.UCOMITypeInfo.GetMops(System.Int32,System.String@)
   parent: System.Runtime.InteropServices.UCOMITypeInfo
   isExternal: false
   name: GetMops(Int32,String)
   nameWithType: UCOMITypeInfo.GetMops(Int32,String)
   fullName: System.Runtime.InteropServices.UCOMITypeInfo.GetMops(Int32,String)
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
 - uid: System.Runtime.InteropServices.UCOMITypeInfo.GetNames(System.Int32,System.String[],System.Int32,System.Int32@)
   parent: System.Runtime.InteropServices.UCOMITypeInfo
   isExternal: false
   name: GetNames(Int32,String[],Int32,Int32)
   nameWithType: UCOMITypeInfo.GetNames(Int32,String[],Int32,Int32)
   fullName: System.Runtime.InteropServices.UCOMITypeInfo.GetNames(Int32,String[],Int32,Int32)
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String[]
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
 - uid: System.Runtime.InteropServices.UCOMITypeInfo.GetRefTypeInfo(System.Int32,System.Runtime.InteropServices.UCOMITypeInfo@)
   parent: System.Runtime.InteropServices.UCOMITypeInfo
   isExternal: false
   name: GetRefTypeInfo(Int32,UCOMITypeInfo)
   nameWithType: UCOMITypeInfo.GetRefTypeInfo(Int32,UCOMITypeInfo)
   fullName: System.Runtime.InteropServices.UCOMITypeInfo.GetRefTypeInfo(Int32,UCOMITypeInfo)
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
 - uid: System.Runtime.InteropServices.UCOMITypeInfo
   parent: System.Runtime.InteropServices
   isExternal: false
@@ -880,30 +783,12 @@ references:
   name: GetRefTypeOfImplType(Int32,Int32)
   nameWithType: UCOMITypeInfo.GetRefTypeOfImplType(Int32,Int32)
   fullName: System.Runtime.InteropServices.UCOMITypeInfo.GetRefTypeOfImplType(Int32,Int32)
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
 - uid: System.Runtime.InteropServices.UCOMITypeInfo.GetTypeAttr(System.IntPtr@)
   parent: System.Runtime.InteropServices.UCOMITypeInfo
   isExternal: false
   name: GetTypeAttr(IntPtr)
   nameWithType: UCOMITypeInfo.GetTypeAttr(IntPtr)
   fullName: System.Runtime.InteropServices.UCOMITypeInfo.GetTypeAttr(IntPtr)
-- uid: System.IntPtr
-  parent: System
-  isExternal: false
-  name: IntPtr
-  nameWithType: IntPtr
-  fullName: System.IntPtr
 - uid: System.Runtime.InteropServices.UCOMITypeInfo.GetTypeComp(System.Runtime.InteropServices.UCOMITypeComp@)
   parent: System.Runtime.InteropServices.UCOMITypeInfo
   isExternal: false
@@ -922,102 +807,42 @@ references:
   name: GetVarDesc(Int32,IntPtr)
   nameWithType: UCOMITypeInfo.GetVarDesc(Int32,IntPtr)
   fullName: System.Runtime.InteropServices.UCOMITypeInfo.GetVarDesc(Int32,IntPtr)
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: System.IntPtr
-  parent: System
-  isExternal: false
-  name: IntPtr
-  nameWithType: IntPtr
-  fullName: System.IntPtr
 - uid: System.Runtime.InteropServices.UCOMITypeInfo.Invoke(System.Object,System.Int32,System.Int16,System.Runtime.InteropServices.DISPPARAMS@,System.Object@,System.Runtime.InteropServices.EXCEPINFO@,System.Int32@)
   parent: System.Runtime.InteropServices.UCOMITypeInfo
   isExternal: false
   name: Invoke(Object,Int32,Int16,DISPPARAMS,Object,EXCEPINFO,Int32)
   nameWithType: UCOMITypeInfo.Invoke(Object,Int32,Int16,DISPPARAMS,Object,EXCEPINFO,Int32)
   fullName: System.Runtime.InteropServices.UCOMITypeInfo.Invoke(Object,Int32,Int16,DISPPARAMS,Object,EXCEPINFO,Int32)
-- uid: System.Object
-  parent: System
-  isExternal: false
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: System.Int16
-  parent: System
-  isExternal: false
-  name: Int16
-  nameWithType: Int16
-  fullName: System.Int16
 - uid: System.Runtime.InteropServices.DISPPARAMS
   parent: System.Runtime.InteropServices
   isExternal: false
   name: DISPPARAMS
   nameWithType: DISPPARAMS
   fullName: System.Runtime.InteropServices.DISPPARAMS
-- uid: System.Object
-  parent: System
-  isExternal: false
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
 - uid: System.Runtime.InteropServices.EXCEPINFO
   parent: System.Runtime.InteropServices
   isExternal: false
   name: EXCEPINFO
   nameWithType: EXCEPINFO
   fullName: System.Runtime.InteropServices.EXCEPINFO
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
 - uid: System.Runtime.InteropServices.UCOMITypeInfo.ReleaseFuncDesc(System.IntPtr)
   parent: System.Runtime.InteropServices.UCOMITypeInfo
   isExternal: false
   name: ReleaseFuncDesc(IntPtr)
   nameWithType: UCOMITypeInfo.ReleaseFuncDesc(IntPtr)
   fullName: System.Runtime.InteropServices.UCOMITypeInfo.ReleaseFuncDesc(IntPtr)
-- uid: System.IntPtr
-  parent: System
-  isExternal: false
-  name: IntPtr
-  nameWithType: IntPtr
-  fullName: System.IntPtr
 - uid: System.Runtime.InteropServices.UCOMITypeInfo.ReleaseTypeAttr(System.IntPtr)
   parent: System.Runtime.InteropServices.UCOMITypeInfo
   isExternal: false
   name: ReleaseTypeAttr(IntPtr)
   nameWithType: UCOMITypeInfo.ReleaseTypeAttr(IntPtr)
   fullName: System.Runtime.InteropServices.UCOMITypeInfo.ReleaseTypeAttr(IntPtr)
-- uid: System.IntPtr
-  parent: System
-  isExternal: false
-  name: IntPtr
-  nameWithType: IntPtr
-  fullName: System.IntPtr
 - uid: System.Runtime.InteropServices.UCOMITypeInfo.ReleaseVarDesc(System.IntPtr)
   parent: System.Runtime.InteropServices.UCOMITypeInfo
   isExternal: false
   name: ReleaseVarDesc(IntPtr)
   nameWithType: UCOMITypeInfo.ReleaseVarDesc(IntPtr)
   fullName: System.Runtime.InteropServices.UCOMITypeInfo.ReleaseVarDesc(IntPtr)
-- uid: System.IntPtr
-  parent: System
-  isExternal: false
-  name: IntPtr
-  nameWithType: IntPtr
-  fullName: System.IntPtr
 - uid: System.Runtime.InteropServices.UCOMITypeInfo.AddressOfMember*
   parent: System.Runtime.InteropServices.UCOMITypeInfo
   isExternal: false

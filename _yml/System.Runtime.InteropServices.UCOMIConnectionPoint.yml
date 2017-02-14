@@ -54,6 +54,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.Runtime.InteropServices.UCOMIConnectionPoint.Advise*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -79,6 +80,7 @@ items:
       type: System.Runtime.InteropServices.UCOMIEnumConnections
       description: To be added.
   overload: System.Runtime.InteropServices.UCOMIConnectionPoint.EnumConnections*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -104,6 +106,7 @@ items:
       type: System.Guid
       description: To be added.
   overload: System.Runtime.InteropServices.UCOMIConnectionPoint.GetConnectionInterface*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -129,6 +132,7 @@ items:
       type: System.Runtime.InteropServices.UCOMIConnectionPointContainer
       description: To be added.
   overload: System.Runtime.InteropServices.UCOMIConnectionPoint.GetConnectionPointContainer*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -154,6 +158,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.Runtime.InteropServices.UCOMIConnectionPoint.Unadvise*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -219,12 +224,6 @@ references:
   name: Unadvise(Int32)
   nameWithType: UCOMIConnectionPoint.Unadvise(Int32)
   fullName: System.Runtime.InteropServices.UCOMIConnectionPoint.Unadvise(Int32)
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
 - uid: System.Runtime.InteropServices.UCOMIConnectionPoint.Advise*
   parent: System.Runtime.InteropServices.UCOMIConnectionPoint
   isExternal: false

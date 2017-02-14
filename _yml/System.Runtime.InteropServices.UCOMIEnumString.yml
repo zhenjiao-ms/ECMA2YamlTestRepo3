@@ -50,6 +50,7 @@ items:
       type: System.Runtime.InteropServices.UCOMIEnumString
       description: To be added.
   overload: System.Runtime.InteropServices.UCOMIEnumString.Clone*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -84,6 +85,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.Runtime.InteropServices.UCOMIEnumString.Next*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -109,6 +111,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.Runtime.InteropServices.UCOMIEnumString.Reset*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -137,6 +140,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.Runtime.InteropServices.UCOMIEnumString.Skip*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -166,54 +170,32 @@ references:
   name: Int32
   nameWithType: Int32
   fullName: System.Int32
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: System.String
+- uid: System.String[]
   parent: System
   isExternal: false
   name: String
   nameWithType: String
   fullName: System.String[]
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
+  spec.csharp:
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: String[]
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
 - uid: System.Runtime.InteropServices.UCOMIEnumString.Reset
   parent: System.Runtime.InteropServices.UCOMIEnumString
   isExternal: false
   name: Reset()
   nameWithType: UCOMIEnumString.Reset()
   fullName: System.Runtime.InteropServices.UCOMIEnumString.Reset()
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
 - uid: System.Runtime.InteropServices.UCOMIEnumString.Skip(System.Int32)
   parent: System.Runtime.InteropServices.UCOMIEnumString
   isExternal: false
   name: Skip(Int32)
   nameWithType: UCOMIEnumString.Skip(Int32)
   fullName: System.Runtime.InteropServices.UCOMIEnumString.Skip(Int32)
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
 - uid: System.Runtime.InteropServices.UCOMIEnumString.Clone*
   parent: System.Runtime.InteropServices.UCOMIEnumString
   isExternal: false

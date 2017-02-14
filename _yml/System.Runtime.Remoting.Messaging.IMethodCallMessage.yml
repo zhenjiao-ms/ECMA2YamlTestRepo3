@@ -50,6 +50,7 @@ items:
       type: System.Object
       description: To be added.
   overload: System.Runtime.Remoting.Messaging.IMethodCallMessage.GetInArg*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -78,6 +79,7 @@ items:
       type: System.String
       description: To be added.
   overload: System.Runtime.Remoting.Messaging.IMethodCallMessage.GetInArgName*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -102,6 +104,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.Runtime.Remoting.Messaging.IMethodCallMessage.InArgCount*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -126,6 +129,7 @@ items:
       type: System.Object[]
       description: To be added.
   overload: System.Runtime.Remoting.Messaging.IMethodCallMessage.InArgs*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -161,36 +165,32 @@ references:
   name: String
   nameWithType: String
   fullName: System.String
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
 - uid: System.Runtime.Remoting.Messaging.IMethodCallMessage.InArgCount
   parent: System.Runtime.Remoting.Messaging.IMethodCallMessage
   isExternal: false
   name: InArgCount
   nameWithType: IMethodCallMessage.InArgCount
   fullName: System.Runtime.Remoting.Messaging.IMethodCallMessage.InArgCount
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
 - uid: System.Runtime.Remoting.Messaging.IMethodCallMessage.InArgs
   parent: System.Runtime.Remoting.Messaging.IMethodCallMessage
   isExternal: false
   name: InArgs
   nameWithType: IMethodCallMessage.InArgs
   fullName: System.Runtime.Remoting.Messaging.IMethodCallMessage.InArgs
-- uid: System.Object
+- uid: System.Object[]
   parent: System
   isExternal: false
   name: Object
   nameWithType: Object
   fullName: System.Object[]
+  spec.csharp:
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: Object[]
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
 - uid: System.Runtime.Remoting.Messaging.IMethodCallMessage.GetInArg*
   parent: System.Runtime.Remoting.Messaging.IMethodCallMessage
   isExternal: false

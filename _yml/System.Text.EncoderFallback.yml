@@ -51,6 +51,7 @@ items:
     content: protected EncoderFallback ();
     parameters: []
   overload: System.Text.EncoderFallback.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -76,6 +77,7 @@ items:
       type: System.Text.EncoderFallbackBuffer
       description: To be added.
   overload: System.Text.EncoderFallback.CreateFallbackBuffer*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -100,6 +102,7 @@ items:
       type: System.Text.EncoderFallback
       description: To be added.
   overload: System.Text.EncoderFallback.ExceptionFallback*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -124,6 +127,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.Text.EncoderFallback.MaxCharCount*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -148,6 +152,7 @@ items:
       type: System.Text.EncoderFallback
       description: To be added.
   overload: System.Text.EncoderFallback.ReplacementFallback*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -204,12 +209,6 @@ references:
   name: ReplacementFallback
   nameWithType: EncoderFallback.ReplacementFallback
   fullName: System.Text.EncoderFallback.ReplacementFallback
-- uid: System.Text.EncoderFallback
-  parent: System.Text
-  isExternal: false
-  name: EncoderFallback
-  nameWithType: EncoderFallback
-  fullName: System.Text.EncoderFallback
 - uid: System.Text.EncoderFallback.#ctor*
   parent: System.Text.EncoderFallback
   isExternal: false

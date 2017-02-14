@@ -58,6 +58,7 @@ items:
     content: protected RandomNumberGenerator ();
     parameters: []
   overload: System.Security.Cryptography.RandomNumberGenerator.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -83,6 +84,7 @@ items:
       type: System.Security.Cryptography.RandomNumberGenerator
       description: To be added.
   overload: System.Security.Cryptography.RandomNumberGenerator.Create*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -111,6 +113,7 @@ items:
       type: System.Security.Cryptography.RandomNumberGenerator
       description: To be added.
   overload: System.Security.Cryptography.RandomNumberGenerator.Create*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -133,6 +136,7 @@ items:
     content: public void Dispose ();
     parameters: []
   overload: System.Security.Cryptography.RandomNumberGenerator.Dispose*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -158,6 +162,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Security.Cryptography.RandomNumberGenerator.Dispose*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -183,6 +188,7 @@ items:
       type: System.Byte[]
       description: To be added.
   overload: System.Security.Cryptography.RandomNumberGenerator.GetBytes*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -214,6 +220,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.Security.Cryptography.RandomNumberGenerator.GetBytes*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -239,6 +246,7 @@ items:
       type: System.Byte[]
       description: To be added.
   overload: System.Security.Cryptography.RandomNumberGenerator.GetNonZeroBytes*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -271,12 +279,6 @@ references:
   name: Create(String)
   nameWithType: RandomNumberGenerator.Create(String)
   fullName: System.Security.Cryptography.RandomNumberGenerator.Create(String)
-- uid: System.Security.Cryptography.RandomNumberGenerator
-  parent: System.Security.Cryptography
-  isExternal: false
-  name: RandomNumberGenerator
-  nameWithType: RandomNumberGenerator
-  fullName: System.Security.Cryptography.RandomNumberGenerator
 - uid: System.String
   parent: System
   isExternal: false
@@ -307,30 +309,26 @@ references:
   name: GetBytes(Byte[])
   nameWithType: RandomNumberGenerator.GetBytes(Byte[])
   fullName: System.Security.Cryptography.RandomNumberGenerator.GetBytes(Byte[])
-- uid: System.Byte
+- uid: System.Byte[]
   parent: System
   isExternal: false
   name: Byte
   nameWithType: Byte
   fullName: System.Byte[]
+  spec.csharp:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: Byte[]
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
 - uid: System.Security.Cryptography.RandomNumberGenerator.GetBytes(System.Byte[],System.Int32,System.Int32)
   parent: System.Security.Cryptography.RandomNumberGenerator
   isExternal: false
   name: GetBytes(Byte[],Int32,Int32)
   nameWithType: RandomNumberGenerator.GetBytes(Byte[],Int32,Int32)
   fullName: System.Security.Cryptography.RandomNumberGenerator.GetBytes(Byte[],Int32,Int32)
-- uid: System.Byte
-  parent: System
-  isExternal: false
-  name: Byte
-  nameWithType: Byte
-  fullName: System.Byte[]
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
 - uid: System.Int32
   parent: System
   isExternal: false
@@ -343,12 +341,6 @@ references:
   name: GetNonZeroBytes(Byte[])
   nameWithType: RandomNumberGenerator.GetNonZeroBytes(Byte[])
   fullName: System.Security.Cryptography.RandomNumberGenerator.GetNonZeroBytes(Byte[])
-- uid: System.Byte
-  parent: System
-  isExternal: false
-  name: Byte
-  nameWithType: Byte
-  fullName: System.Byte[]
 - uid: System.Security.Cryptography.RandomNumberGenerator.#ctor*
   parent: System.Security.Cryptography.RandomNumberGenerator
   isExternal: false

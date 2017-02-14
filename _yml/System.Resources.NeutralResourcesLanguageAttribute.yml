@@ -98,6 +98,7 @@ items:
       type: System.String
       description: To be added.
   overload: System.Resources.NeutralResourcesLanguageAttribute.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -126,6 +127,7 @@ items:
       type: System.Resources.UltimateResourceFallbackLocation
       description: To be added.
   overload: System.Resources.NeutralResourcesLanguageAttribute.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -150,6 +152,7 @@ items:
       type: System.String
       description: To be added.
   overload: System.Resources.NeutralResourcesLanguageAttribute.CultureName*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -174,6 +177,7 @@ items:
       type: System.Resources.UltimateResourceFallbackLocation
       description: To be added.
   overload: System.Resources.NeutralResourcesLanguageAttribute.Location*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -200,12 +204,6 @@ references:
   name: NeutralResourcesLanguageAttribute(String,UltimateResourceFallbackLocation)
   nameWithType: NeutralResourcesLanguageAttribute.NeutralResourcesLanguageAttribute(String,UltimateResourceFallbackLocation)
   fullName: System.Resources.NeutralResourcesLanguageAttribute.NeutralResourcesLanguageAttribute(String,UltimateResourceFallbackLocation)
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
 - uid: System.Resources.UltimateResourceFallbackLocation
   parent: System.Resources
   isExternal: false
@@ -218,24 +216,12 @@ references:
   name: CultureName
   nameWithType: NeutralResourcesLanguageAttribute.CultureName
   fullName: System.Resources.NeutralResourcesLanguageAttribute.CultureName
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
 - uid: System.Resources.NeutralResourcesLanguageAttribute.Location
   parent: System.Resources.NeutralResourcesLanguageAttribute
   isExternal: false
   name: Location
   nameWithType: NeutralResourcesLanguageAttribute.Location
   fullName: System.Resources.NeutralResourcesLanguageAttribute.Location
-- uid: System.Resources.UltimateResourceFallbackLocation
-  parent: System.Resources
-  isExternal: false
-  name: UltimateResourceFallbackLocation
-  nameWithType: UltimateResourceFallbackLocation
-  fullName: System.Resources.UltimateResourceFallbackLocation
 - uid: System.Resources.NeutralResourcesLanguageAttribute.#ctor*
   parent: System.Resources.NeutralResourcesLanguageAttribute
   isExternal: false

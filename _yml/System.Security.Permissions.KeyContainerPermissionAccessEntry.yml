@@ -64,6 +64,7 @@ items:
       type: System.Security.Permissions.KeyContainerPermissionFlags
       description: To be added.
   overload: System.Security.Permissions.KeyContainerPermissionAccessEntry.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -92,6 +93,7 @@ items:
       type: System.Security.Permissions.KeyContainerPermissionFlags
       description: To be added.
   overload: System.Security.Permissions.KeyContainerPermissionAccessEntry.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -132,6 +134,7 @@ items:
       type: System.Security.Permissions.KeyContainerPermissionFlags
       description: To be added.
   overload: System.Security.Permissions.KeyContainerPermissionAccessEntry.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -160,6 +163,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Security.Permissions.KeyContainerPermissionAccessEntry.Equals*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -184,6 +188,7 @@ items:
       type: System.Security.Permissions.KeyContainerPermissionFlags
       description: To be added.
   overload: System.Security.Permissions.KeyContainerPermissionAccessEntry.Flags*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -209,6 +214,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.Security.Permissions.KeyContainerPermissionAccessEntry.GetHashCode*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -233,6 +239,7 @@ items:
       type: System.String
       description: To be added.
   overload: System.Security.Permissions.KeyContainerPermissionAccessEntry.KeyContainerName*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -257,6 +264,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.Security.Permissions.KeyContainerPermissionAccessEntry.KeySpec*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -281,6 +289,7 @@ items:
       type: System.String
       description: To be added.
   overload: System.Security.Permissions.KeyContainerPermissionAccessEntry.KeyStore*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -305,6 +314,7 @@ items:
       type: System.String
       description: To be added.
   overload: System.Security.Permissions.KeyContainerPermissionAccessEntry.ProviderName*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -329,6 +339,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.Security.Permissions.KeyContainerPermissionAccessEntry.ProviderType*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -367,54 +378,18 @@ references:
   name: String
   nameWithType: String
   fullName: System.String
-- uid: System.Security.Permissions.KeyContainerPermissionFlags
-  parent: System.Security.Permissions
-  isExternal: false
-  name: KeyContainerPermissionFlags
-  nameWithType: KeyContainerPermissionFlags
-  fullName: System.Security.Permissions.KeyContainerPermissionFlags
 - uid: System.Security.Permissions.KeyContainerPermissionAccessEntry.#ctor(System.String,System.String,System.Int32,System.String,System.Int32,System.Security.Permissions.KeyContainerPermissionFlags)
   parent: System.Security.Permissions.KeyContainerPermissionAccessEntry
   isExternal: false
   name: KeyContainerPermissionAccessEntry(String,String,Int32,String,Int32,KeyContainerPermissionFlags)
   nameWithType: KeyContainerPermissionAccessEntry.KeyContainerPermissionAccessEntry(String,String,Int32,String,Int32,KeyContainerPermissionFlags)
   fullName: System.Security.Permissions.KeyContainerPermissionAccessEntry.KeyContainerPermissionAccessEntry(String,String,Int32,String,Int32,KeyContainerPermissionFlags)
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
 - uid: System.Int32
   parent: System
   isExternal: false
   name: Int32
   nameWithType: Int32
   fullName: System.Int32
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: System.Security.Permissions.KeyContainerPermissionFlags
-  parent: System.Security.Permissions
-  isExternal: false
-  name: KeyContainerPermissionFlags
-  nameWithType: KeyContainerPermissionFlags
-  fullName: System.Security.Permissions.KeyContainerPermissionFlags
 - uid: System.Security.Permissions.KeyContainerPermissionAccessEntry.Equals(System.Object)
   parent: System.Security.Permissions.KeyContainerPermissionAccessEntry
   isExternal: false
@@ -427,96 +402,48 @@ references:
   name: Boolean
   nameWithType: Boolean
   fullName: System.Boolean
-- uid: System.Object
-  parent: System
-  isExternal: false
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
 - uid: System.Security.Permissions.KeyContainerPermissionAccessEntry.Flags
   parent: System.Security.Permissions.KeyContainerPermissionAccessEntry
   isExternal: false
   name: Flags
   nameWithType: KeyContainerPermissionAccessEntry.Flags
   fullName: System.Security.Permissions.KeyContainerPermissionAccessEntry.Flags
-- uid: System.Security.Permissions.KeyContainerPermissionFlags
-  parent: System.Security.Permissions
-  isExternal: false
-  name: KeyContainerPermissionFlags
-  nameWithType: KeyContainerPermissionFlags
-  fullName: System.Security.Permissions.KeyContainerPermissionFlags
 - uid: System.Security.Permissions.KeyContainerPermissionAccessEntry.GetHashCode
   parent: System.Security.Permissions.KeyContainerPermissionAccessEntry
   isExternal: false
   name: GetHashCode()
   nameWithType: KeyContainerPermissionAccessEntry.GetHashCode()
   fullName: System.Security.Permissions.KeyContainerPermissionAccessEntry.GetHashCode()
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
 - uid: System.Security.Permissions.KeyContainerPermissionAccessEntry.KeyContainerName
   parent: System.Security.Permissions.KeyContainerPermissionAccessEntry
   isExternal: false
   name: KeyContainerName
   nameWithType: KeyContainerPermissionAccessEntry.KeyContainerName
   fullName: System.Security.Permissions.KeyContainerPermissionAccessEntry.KeyContainerName
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
 - uid: System.Security.Permissions.KeyContainerPermissionAccessEntry.KeySpec
   parent: System.Security.Permissions.KeyContainerPermissionAccessEntry
   isExternal: false
   name: KeySpec
   nameWithType: KeyContainerPermissionAccessEntry.KeySpec
   fullName: System.Security.Permissions.KeyContainerPermissionAccessEntry.KeySpec
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
 - uid: System.Security.Permissions.KeyContainerPermissionAccessEntry.KeyStore
   parent: System.Security.Permissions.KeyContainerPermissionAccessEntry
   isExternal: false
   name: KeyStore
   nameWithType: KeyContainerPermissionAccessEntry.KeyStore
   fullName: System.Security.Permissions.KeyContainerPermissionAccessEntry.KeyStore
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
 - uid: System.Security.Permissions.KeyContainerPermissionAccessEntry.ProviderName
   parent: System.Security.Permissions.KeyContainerPermissionAccessEntry
   isExternal: false
   name: ProviderName
   nameWithType: KeyContainerPermissionAccessEntry.ProviderName
   fullName: System.Security.Permissions.KeyContainerPermissionAccessEntry.ProviderName
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
 - uid: System.Security.Permissions.KeyContainerPermissionAccessEntry.ProviderType
   parent: System.Security.Permissions.KeyContainerPermissionAccessEntry
   isExternal: false
   name: ProviderType
   nameWithType: KeyContainerPermissionAccessEntry.ProviderType
   fullName: System.Security.Permissions.KeyContainerPermissionAccessEntry.ProviderType
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
 - uid: System.Security.Permissions.KeyContainerPermissionAccessEntry.#ctor*
   parent: System.Security.Permissions.KeyContainerPermissionAccessEntry
   isExternal: false

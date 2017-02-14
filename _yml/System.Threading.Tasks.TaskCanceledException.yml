@@ -67,6 +67,7 @@ items:
     content: public TaskCanceledException ();
     parameters: []
   overload: System.Threading.Tasks.TaskCanceledException.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -92,6 +93,7 @@ items:
       type: System.String
       description: To be added.
   overload: System.Threading.Tasks.TaskCanceledException.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -117,6 +119,7 @@ items:
       type: System.Threading.Tasks.Task
       description: To be added.
   overload: System.Threading.Tasks.TaskCanceledException.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -145,6 +148,7 @@ items:
       type: System.Runtime.Serialization.StreamingContext
       description: To be added.
   overload: System.Threading.Tasks.TaskCanceledException.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -173,6 +177,7 @@ items:
       type: System.Exception
       description: To be added.
   overload: System.Threading.Tasks.TaskCanceledException.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -197,6 +202,7 @@ items:
       type: System.Threading.Tasks.Task
       description: To be added.
   overload: System.Threading.Tasks.TaskCanceledException.Task*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -259,12 +265,6 @@ references:
   name: TaskCanceledException(String,Exception)
   nameWithType: TaskCanceledException.TaskCanceledException(String,Exception)
   fullName: System.Threading.Tasks.TaskCanceledException.TaskCanceledException(String,Exception)
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
 - uid: System.Exception
   parent: System
   isExternal: false
@@ -277,12 +277,6 @@ references:
   name: Task
   nameWithType: TaskCanceledException.Task
   fullName: System.Threading.Tasks.TaskCanceledException.Task
-- uid: System.Threading.Tasks.Task
-  parent: System.Threading.Tasks
-  isExternal: false
-  name: Task
-  nameWithType: Task
-  fullName: System.Threading.Tasks.Task
 - uid: System.Threading.Tasks.TaskCanceledException.#ctor*
   parent: System.Threading.Tasks.TaskCanceledException
   isExternal: false

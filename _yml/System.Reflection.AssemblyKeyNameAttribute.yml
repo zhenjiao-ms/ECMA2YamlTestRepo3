@@ -96,6 +96,7 @@ items:
       type: System.String
       description: To be added.
   overload: System.Reflection.AssemblyKeyNameAttribute.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -120,6 +121,7 @@ items:
       type: System.String
       description: To be added.
   overload: System.Reflection.AssemblyKeyNameAttribute.KeyName*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -146,12 +148,6 @@ references:
   name: KeyName
   nameWithType: AssemblyKeyNameAttribute.KeyName
   fullName: System.Reflection.AssemblyKeyNameAttribute.KeyName
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
 - uid: System.Reflection.AssemblyKeyNameAttribute.#ctor*
   parent: System.Reflection.AssemblyKeyNameAttribute
   isExternal: false

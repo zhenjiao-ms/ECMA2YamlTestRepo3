@@ -68,6 +68,7 @@ items:
       type: System.Object[]
       description: To be added.
   overload: System.Reflection.Emit.CustomAttributeBuilder.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -102,6 +103,7 @@ items:
       type: System.Object[]
       description: To be added.
   overload: System.Reflection.Emit.CustomAttributeBuilder.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -136,6 +138,7 @@ items:
       type: System.Object[]
       description: To be added.
   overload: System.Reflection.Emit.CustomAttributeBuilder.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -176,6 +179,7 @@ items:
       type: System.Object[]
       description: To be added.
   overload: System.Reflection.Emit.CustomAttributeBuilder.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -214,6 +218,7 @@ items:
       type: System.IntPtr
       description: To be added.
   overload: System.Reflection.Emit.CustomAttributeBuilder.System#Runtime#InteropServices#_CustomAttributeBuilder#GetIDsOfNames*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -246,6 +251,7 @@ items:
       type: System.IntPtr
       description: To be added.
   overload: System.Reflection.Emit.CustomAttributeBuilder.System#Runtime#InteropServices#_CustomAttributeBuilder#GetTypeInfo*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -272,6 +278,7 @@ items:
       type: System.UInt32
       description: To be added.
   overload: System.Reflection.Emit.CustomAttributeBuilder.System#Runtime#InteropServices#_CustomAttributeBuilder#GetTypeInfoCount*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -319,6 +326,7 @@ items:
       type: System.IntPtr
       description: To be added.
   overload: System.Reflection.Emit.CustomAttributeBuilder.System#Runtime#InteropServices#_CustomAttributeBuilder#Invoke*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -339,114 +347,66 @@ references:
   name: ConstructorInfo
   nameWithType: ConstructorInfo
   fullName: System.Reflection.ConstructorInfo
-- uid: System.Object
+- uid: System.Object[]
   parent: System
   isExternal: false
   name: Object
   nameWithType: Object
   fullName: System.Object[]
+  spec.csharp:
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: Object[]
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
 - uid: System.Reflection.Emit.CustomAttributeBuilder.#ctor(System.Reflection.ConstructorInfo,System.Object[],System.Reflection.FieldInfo[],System.Object[])
   parent: System.Reflection.Emit.CustomAttributeBuilder
   isExternal: false
   name: CustomAttributeBuilder(ConstructorInfo,Object[],FieldInfo[],Object[])
   nameWithType: CustomAttributeBuilder.CustomAttributeBuilder(ConstructorInfo,Object[],FieldInfo[],Object[])
   fullName: System.Reflection.Emit.CustomAttributeBuilder.CustomAttributeBuilder(ConstructorInfo,Object[],FieldInfo[],Object[])
-- uid: System.Reflection.ConstructorInfo
-  parent: System.Reflection
-  isExternal: false
-  name: ConstructorInfo
-  nameWithType: ConstructorInfo
-  fullName: System.Reflection.ConstructorInfo
-- uid: System.Object
-  parent: System
-  isExternal: false
-  name: Object
-  nameWithType: Object
-  fullName: System.Object[]
-- uid: System.Reflection.FieldInfo
+- uid: System.Reflection.FieldInfo[]
   parent: System.Reflection
   isExternal: false
   name: FieldInfo
   nameWithType: FieldInfo
   fullName: System.Reflection.FieldInfo[]
-- uid: System.Object
-  parent: System
-  isExternal: false
-  name: Object
-  nameWithType: Object
-  fullName: System.Object[]
+  spec.csharp:
+  - uid: System.Reflection.FieldInfo
+    name: FieldInfo
+    nameWithType: FieldInfo
+    fullName: FieldInfo[]
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
 - uid: System.Reflection.Emit.CustomAttributeBuilder.#ctor(System.Reflection.ConstructorInfo,System.Object[],System.Reflection.PropertyInfo[],System.Object[])
   parent: System.Reflection.Emit.CustomAttributeBuilder
   isExternal: false
   name: CustomAttributeBuilder(ConstructorInfo,Object[],PropertyInfo[],Object[])
   nameWithType: CustomAttributeBuilder.CustomAttributeBuilder(ConstructorInfo,Object[],PropertyInfo[],Object[])
   fullName: System.Reflection.Emit.CustomAttributeBuilder.CustomAttributeBuilder(ConstructorInfo,Object[],PropertyInfo[],Object[])
-- uid: System.Reflection.ConstructorInfo
-  parent: System.Reflection
-  isExternal: false
-  name: ConstructorInfo
-  nameWithType: ConstructorInfo
-  fullName: System.Reflection.ConstructorInfo
-- uid: System.Object
-  parent: System
-  isExternal: false
-  name: Object
-  nameWithType: Object
-  fullName: System.Object[]
-- uid: System.Reflection.PropertyInfo
+- uid: System.Reflection.PropertyInfo[]
   parent: System.Reflection
   isExternal: false
   name: PropertyInfo
   nameWithType: PropertyInfo
   fullName: System.Reflection.PropertyInfo[]
-- uid: System.Object
-  parent: System
-  isExternal: false
-  name: Object
-  nameWithType: Object
-  fullName: System.Object[]
+  spec.csharp:
+  - uid: System.Reflection.PropertyInfo
+    name: PropertyInfo
+    nameWithType: PropertyInfo
+    fullName: PropertyInfo[]
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
 - uid: System.Reflection.Emit.CustomAttributeBuilder.#ctor(System.Reflection.ConstructorInfo,System.Object[],System.Reflection.PropertyInfo[],System.Object[],System.Reflection.FieldInfo[],System.Object[])
   parent: System.Reflection.Emit.CustomAttributeBuilder
   isExternal: false
   name: CustomAttributeBuilder(ConstructorInfo,Object[],PropertyInfo[],Object[],FieldInfo[],Object[])
   nameWithType: CustomAttributeBuilder.CustomAttributeBuilder(ConstructorInfo,Object[],PropertyInfo[],Object[],FieldInfo[],Object[])
   fullName: System.Reflection.Emit.CustomAttributeBuilder.CustomAttributeBuilder(ConstructorInfo,Object[],PropertyInfo[],Object[],FieldInfo[],Object[])
-- uid: System.Reflection.ConstructorInfo
-  parent: System.Reflection
-  isExternal: false
-  name: ConstructorInfo
-  nameWithType: ConstructorInfo
-  fullName: System.Reflection.ConstructorInfo
-- uid: System.Object
-  parent: System
-  isExternal: false
-  name: Object
-  nameWithType: Object
-  fullName: System.Object[]
-- uid: System.Reflection.PropertyInfo
-  parent: System.Reflection
-  isExternal: false
-  name: PropertyInfo
-  nameWithType: PropertyInfo
-  fullName: System.Reflection.PropertyInfo[]
-- uid: System.Object
-  parent: System
-  isExternal: false
-  name: Object
-  nameWithType: Object
-  fullName: System.Object[]
-- uid: System.Reflection.FieldInfo
-  parent: System.Reflection
-  isExternal: false
-  name: FieldInfo
-  nameWithType: FieldInfo
-  fullName: System.Reflection.FieldInfo[]
-- uid: System.Object
-  parent: System
-  isExternal: false
-  name: Object
-  nameWithType: Object
-  fullName: System.Object[]
 - uid: System.Reflection.Emit.CustomAttributeBuilder.System#Runtime#InteropServices#_CustomAttributeBuilder#GetIDsOfNames(System.Guid@,System.IntPtr,System.UInt32,System.UInt32,System.IntPtr)
   parent: System.Reflection.Emit.CustomAttributeBuilder
   isExternal: false
@@ -471,108 +431,30 @@ references:
   name: UInt32
   nameWithType: UInt32
   fullName: System.UInt32
-- uid: System.UInt32
-  parent: System
-  isExternal: false
-  name: UInt32
-  nameWithType: UInt32
-  fullName: System.UInt32
-- uid: System.IntPtr
-  parent: System
-  isExternal: false
-  name: IntPtr
-  nameWithType: IntPtr
-  fullName: System.IntPtr
 - uid: System.Reflection.Emit.CustomAttributeBuilder.System#Runtime#InteropServices#_CustomAttributeBuilder#GetTypeInfo(System.UInt32,System.UInt32,System.IntPtr)
   parent: System.Reflection.Emit.CustomAttributeBuilder
   isExternal: false
   name: System.Runtime.InteropServices._CustomAttributeBuilder.GetTypeInfo(UInt32,UInt32,IntPtr)
   nameWithType: CustomAttributeBuilder.System.Runtime.InteropServices._CustomAttributeBuilder.GetTypeInfo(UInt32,UInt32,IntPtr)
   fullName: System.Reflection.Emit.CustomAttributeBuilder.System.Runtime.InteropServices._CustomAttributeBuilder.GetTypeInfo(UInt32,UInt32,IntPtr)
-- uid: System.UInt32
-  parent: System
-  isExternal: false
-  name: UInt32
-  nameWithType: UInt32
-  fullName: System.UInt32
-- uid: System.UInt32
-  parent: System
-  isExternal: false
-  name: UInt32
-  nameWithType: UInt32
-  fullName: System.UInt32
-- uid: System.IntPtr
-  parent: System
-  isExternal: false
-  name: IntPtr
-  nameWithType: IntPtr
-  fullName: System.IntPtr
 - uid: System.Reflection.Emit.CustomAttributeBuilder.System#Runtime#InteropServices#_CustomAttributeBuilder#GetTypeInfoCount(System.UInt32@)
   parent: System.Reflection.Emit.CustomAttributeBuilder
   isExternal: false
   name: System.Runtime.InteropServices._CustomAttributeBuilder.GetTypeInfoCount(UInt32)
   nameWithType: CustomAttributeBuilder.System.Runtime.InteropServices._CustomAttributeBuilder.GetTypeInfoCount(UInt32)
   fullName: System.Reflection.Emit.CustomAttributeBuilder.System.Runtime.InteropServices._CustomAttributeBuilder.GetTypeInfoCount(UInt32)
-- uid: System.UInt32
-  parent: System
-  isExternal: false
-  name: UInt32
-  nameWithType: UInt32
-  fullName: System.UInt32
 - uid: System.Reflection.Emit.CustomAttributeBuilder.System#Runtime#InteropServices#_CustomAttributeBuilder#Invoke(System.UInt32,System.Guid@,System.UInt32,System.Int16,System.IntPtr,System.IntPtr,System.IntPtr,System.IntPtr)
   parent: System.Reflection.Emit.CustomAttributeBuilder
   isExternal: false
   name: System.Runtime.InteropServices._CustomAttributeBuilder.Invoke(UInt32,Guid,UInt32,Int16,IntPtr,IntPtr,IntPtr,IntPtr)
   nameWithType: CustomAttributeBuilder.System.Runtime.InteropServices._CustomAttributeBuilder.Invoke(UInt32,Guid,UInt32,Int16,IntPtr,IntPtr,IntPtr,IntPtr)
   fullName: System.Reflection.Emit.CustomAttributeBuilder.System.Runtime.InteropServices._CustomAttributeBuilder.Invoke(UInt32,Guid,UInt32,Int16,IntPtr,IntPtr,IntPtr,IntPtr)
-- uid: System.UInt32
-  parent: System
-  isExternal: false
-  name: UInt32
-  nameWithType: UInt32
-  fullName: System.UInt32
-- uid: System.Guid
-  parent: System
-  isExternal: false
-  name: Guid
-  nameWithType: Guid
-  fullName: System.Guid
-- uid: System.UInt32
-  parent: System
-  isExternal: false
-  name: UInt32
-  nameWithType: UInt32
-  fullName: System.UInt32
 - uid: System.Int16
   parent: System
   isExternal: false
   name: Int16
   nameWithType: Int16
   fullName: System.Int16
-- uid: System.IntPtr
-  parent: System
-  isExternal: false
-  name: IntPtr
-  nameWithType: IntPtr
-  fullName: System.IntPtr
-- uid: System.IntPtr
-  parent: System
-  isExternal: false
-  name: IntPtr
-  nameWithType: IntPtr
-  fullName: System.IntPtr
-- uid: System.IntPtr
-  parent: System
-  isExternal: false
-  name: IntPtr
-  nameWithType: IntPtr
-  fullName: System.IntPtr
-- uid: System.IntPtr
-  parent: System
-  isExternal: false
-  name: IntPtr
-  nameWithType: IntPtr
-  fullName: System.IntPtr
 - uid: System.Reflection.Emit.CustomAttributeBuilder.#ctor*
   parent: System.Reflection.Emit.CustomAttributeBuilder
   isExternal: false

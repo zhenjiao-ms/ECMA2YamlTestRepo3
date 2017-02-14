@@ -54,6 +54,7 @@ items:
       type: System.Object
       description: To be added.
   overload: System.Runtime.InteropServices.UnknownWrapper.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -78,6 +79,7 @@ items:
       type: System.Object
       description: To be added.
   overload: System.Runtime.InteropServices.UnknownWrapper.WrappedObject*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -92,24 +94,12 @@ references:
   name: UnknownWrapper(Object)
   nameWithType: UnknownWrapper.UnknownWrapper(Object)
   fullName: System.Runtime.InteropServices.UnknownWrapper.UnknownWrapper(Object)
-- uid: System.Object
-  parent: System
-  isExternal: false
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
 - uid: System.Runtime.InteropServices.UnknownWrapper.WrappedObject
   parent: System.Runtime.InteropServices.UnknownWrapper
   isExternal: false
   name: WrappedObject
   nameWithType: UnknownWrapper.WrappedObject
   fullName: System.Runtime.InteropServices.UnknownWrapper.WrappedObject
-- uid: System.Object
-  parent: System
-  isExternal: false
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
 - uid: System.Runtime.InteropServices.UnknownWrapper.#ctor*
   parent: System.Runtime.InteropServices.UnknownWrapper
   isExternal: false

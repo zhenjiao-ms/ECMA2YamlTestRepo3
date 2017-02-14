@@ -71,6 +71,7 @@ items:
       type: System.Int16
       description: To be added.
   overload: System.Runtime.InteropServices.ComTypes.ITypeLib2.FindName*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -96,6 +97,7 @@ items:
       type: System.IntPtr
       description: To be added.
   overload: System.Runtime.InteropServices.ComTypes.ITypeLib2.GetAllCustData*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -124,6 +126,7 @@ items:
       type: System.Object
       description: To be added.
   overload: System.Runtime.InteropServices.ComTypes.ITypeLib2.GetCustData*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -161,6 +164,7 @@ items:
       type: System.String
       description: To be added.
   overload: System.Runtime.InteropServices.ComTypes.ITypeLib2.GetDocumentation*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -195,6 +199,7 @@ items:
       type: System.String
       description: To be added.
   overload: System.Runtime.InteropServices.ComTypes.ITypeLib2.GetDocumentation2*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -220,6 +225,7 @@ items:
       type: System.IntPtr
       description: To be added.
   overload: System.Runtime.InteropServices.ComTypes.ITypeLib2.GetLibAttr*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -248,6 +254,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.Runtime.InteropServices.ComTypes.ITypeLib2.GetLibStatistics*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -273,6 +280,7 @@ items:
       type: System.Runtime.InteropServices.ComTypes.ITypeComp
       description: To be added.
   overload: System.Runtime.InteropServices.ComTypes.ITypeLib2.GetTypeComp*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -301,6 +309,7 @@ items:
       type: System.Runtime.InteropServices.ComTypes.ITypeInfo
       description: To be added.
   overload: System.Runtime.InteropServices.ComTypes.ITypeLib2.GetTypeInfo*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -326,6 +335,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.Runtime.InteropServices.ComTypes.ITypeLib2.GetTypeInfoCount*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -354,6 +364,7 @@ items:
       type: System.Runtime.InteropServices.ComTypes.ITypeInfo
       description: To be added.
   overload: System.Runtime.InteropServices.ComTypes.ITypeLib2.GetTypeInfoOfGuid*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -382,6 +393,7 @@ items:
       type: System.Runtime.InteropServices.ComTypes.TYPEKIND
       description: To be added.
   overload: System.Runtime.InteropServices.ComTypes.ITypeLib2.GetTypeInfoType*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -413,6 +425,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Runtime.InteropServices.ComTypes.ITypeLib2.IsName*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -438,6 +451,7 @@ items:
       type: System.IntPtr
       description: To be added.
   overload: System.Runtime.InteropServices.ComTypes.ITypeLib2.ReleaseTLibAttr*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -461,18 +475,34 @@ references:
   name: Int32
   nameWithType: Int32
   fullName: System.Int32
-- uid: System.Runtime.InteropServices.ComTypes.ITypeInfo
+- uid: System.Runtime.InteropServices.ComTypes.ITypeInfo[]
   parent: System.Runtime.InteropServices.ComTypes
   isExternal: false
   name: ITypeInfo
   nameWithType: ITypeInfo
   fullName: System.Runtime.InteropServices.ComTypes.ITypeInfo[]
-- uid: System.Int32
+  spec.csharp:
+  - uid: System.Runtime.InteropServices.ComTypes.ITypeInfo
+    name: ITypeInfo
+    nameWithType: ITypeInfo
+    fullName: ITypeInfo[]
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+- uid: System.Int32[]
   parent: System
   isExternal: false
   name: Int32
   nameWithType: Int32
   fullName: System.Int32[]
+  spec.csharp:
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: Int32[]
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
 - uid: System.Int16
   parent: System
   isExternal: false
@@ -515,96 +545,24 @@ references:
   name: GetDocumentation(Int32,String,String,Int32,String)
   nameWithType: ITypeLib2.GetDocumentation(Int32,String,String,Int32,String)
   fullName: System.Runtime.InteropServices.ComTypes.ITypeLib2.GetDocumentation(Int32,String,String,Int32,String)
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
 - uid: System.Runtime.InteropServices.ComTypes.ITypeLib2.GetDocumentation2(System.Int32,System.String@,System.Int32@,System.String@)
   parent: System.Runtime.InteropServices.ComTypes.ITypeLib2
   isExternal: false
   name: GetDocumentation2(Int32,String,Int32,String)
   nameWithType: ITypeLib2.GetDocumentation2(Int32,String,Int32,String)
   fullName: System.Runtime.InteropServices.ComTypes.ITypeLib2.GetDocumentation2(Int32,String,Int32,String)
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
 - uid: System.Runtime.InteropServices.ComTypes.ITypeLib2.GetLibAttr(System.IntPtr@)
   parent: System.Runtime.InteropServices.ComTypes.ITypeLib2
   isExternal: false
   name: GetLibAttr(IntPtr)
   nameWithType: ITypeLib2.GetLibAttr(IntPtr)
   fullName: System.Runtime.InteropServices.ComTypes.ITypeLib2.GetLibAttr(IntPtr)
-- uid: System.IntPtr
-  parent: System
-  isExternal: false
-  name: IntPtr
-  nameWithType: IntPtr
-  fullName: System.IntPtr
 - uid: System.Runtime.InteropServices.ComTypes.ITypeLib2.GetLibStatistics(System.IntPtr,System.Int32@)
   parent: System.Runtime.InteropServices.ComTypes.ITypeLib2
   isExternal: false
   name: GetLibStatistics(IntPtr,Int32)
   nameWithType: ITypeLib2.GetLibStatistics(IntPtr,Int32)
   fullName: System.Runtime.InteropServices.ComTypes.ITypeLib2.GetLibStatistics(IntPtr,Int32)
-- uid: System.IntPtr
-  parent: System
-  isExternal: false
-  name: IntPtr
-  nameWithType: IntPtr
-  fullName: System.IntPtr
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
 - uid: System.Runtime.InteropServices.ComTypes.ITypeLib2.GetTypeComp(System.Runtime.InteropServices.ComTypes.ITypeComp@)
   parent: System.Runtime.InteropServices.ComTypes.ITypeLib2
   isExternal: false
@@ -623,12 +581,6 @@ references:
   name: GetTypeInfo(Int32,ITypeInfo)
   nameWithType: ITypeLib2.GetTypeInfo(Int32,ITypeInfo)
   fullName: System.Runtime.InteropServices.ComTypes.ITypeLib2.GetTypeInfo(Int32,ITypeInfo)
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
 - uid: System.Runtime.InteropServices.ComTypes.ITypeInfo
   parent: System.Runtime.InteropServices.ComTypes
   isExternal: false
@@ -641,42 +593,18 @@ references:
   name: GetTypeInfoCount()
   nameWithType: ITypeLib2.GetTypeInfoCount()
   fullName: System.Runtime.InteropServices.ComTypes.ITypeLib2.GetTypeInfoCount()
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
 - uid: System.Runtime.InteropServices.ComTypes.ITypeLib2.GetTypeInfoOfGuid(System.Guid@,System.Runtime.InteropServices.ComTypes.ITypeInfo@)
   parent: System.Runtime.InteropServices.ComTypes.ITypeLib2
   isExternal: false
   name: GetTypeInfoOfGuid(Guid,ITypeInfo)
   nameWithType: ITypeLib2.GetTypeInfoOfGuid(Guid,ITypeInfo)
   fullName: System.Runtime.InteropServices.ComTypes.ITypeLib2.GetTypeInfoOfGuid(Guid,ITypeInfo)
-- uid: System.Guid
-  parent: System
-  isExternal: false
-  name: Guid
-  nameWithType: Guid
-  fullName: System.Guid
-- uid: System.Runtime.InteropServices.ComTypes.ITypeInfo
-  parent: System.Runtime.InteropServices.ComTypes
-  isExternal: false
-  name: ITypeInfo
-  nameWithType: ITypeInfo
-  fullName: System.Runtime.InteropServices.ComTypes.ITypeInfo
 - uid: System.Runtime.InteropServices.ComTypes.ITypeLib2.GetTypeInfoType(System.Int32,System.Runtime.InteropServices.ComTypes.TYPEKIND@)
   parent: System.Runtime.InteropServices.ComTypes.ITypeLib2
   isExternal: false
   name: GetTypeInfoType(Int32,TYPEKIND)
   nameWithType: ITypeLib2.GetTypeInfoType(Int32,TYPEKIND)
   fullName: System.Runtime.InteropServices.ComTypes.ITypeLib2.GetTypeInfoType(Int32,TYPEKIND)
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
 - uid: System.Runtime.InteropServices.ComTypes.TYPEKIND
   parent: System.Runtime.InteropServices.ComTypes
   isExternal: false
@@ -695,30 +623,12 @@ references:
   name: Boolean
   nameWithType: Boolean
   fullName: System.Boolean
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
 - uid: System.Runtime.InteropServices.ComTypes.ITypeLib2.ReleaseTLibAttr(System.IntPtr)
   parent: System.Runtime.InteropServices.ComTypes.ITypeLib2
   isExternal: false
   name: ReleaseTLibAttr(IntPtr)
   nameWithType: ITypeLib2.ReleaseTLibAttr(IntPtr)
   fullName: System.Runtime.InteropServices.ComTypes.ITypeLib2.ReleaseTLibAttr(IntPtr)
-- uid: System.IntPtr
-  parent: System
-  isExternal: false
-  name: IntPtr
-  nameWithType: IntPtr
-  fullName: System.IntPtr
 - uid: System.Runtime.InteropServices.ComTypes.ITypeLib2.FindName*
   parent: System.Runtime.InteropServices.ComTypes.ITypeLib2
   isExternal: false

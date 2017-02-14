@@ -69,6 +69,7 @@ items:
       type: System.IntPtr
       description: To be added.
   overload: System.Runtime.InteropServices.ComTypes.ITypeInfo.AddressOfMember*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -100,6 +101,7 @@ items:
       type: System.Object
       description: To be added.
   overload: System.Runtime.InteropServices.ComTypes.ITypeInfo.CreateInstance*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -128,6 +130,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.Runtime.InteropServices.ComTypes.ITypeInfo.GetContainingTypeLib*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -165,6 +168,7 @@ items:
       type: System.IntPtr
       description: To be added.
   overload: System.Runtime.InteropServices.ComTypes.ITypeInfo.GetDllEntry*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -202,6 +206,7 @@ items:
       type: System.String
       description: To be added.
   overload: System.Runtime.InteropServices.ComTypes.ITypeInfo.GetDocumentation*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -230,6 +235,7 @@ items:
       type: System.IntPtr
       description: To be added.
   overload: System.Runtime.InteropServices.ComTypes.ITypeInfo.GetFuncDesc*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -261,6 +267,7 @@ items:
       type: System.Int32[]
       description: To be added.
   overload: System.Runtime.InteropServices.ComTypes.ITypeInfo.GetIDsOfNames*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -289,6 +296,7 @@ items:
       type: System.Runtime.InteropServices.ComTypes.IMPLTYPEFLAGS
       description: To be added.
   overload: System.Runtime.InteropServices.ComTypes.ITypeInfo.GetImplTypeFlags*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -317,6 +325,7 @@ items:
       type: System.String
       description: To be added.
   overload: System.Runtime.InteropServices.ComTypes.ITypeInfo.GetMops*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -351,6 +360,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.Runtime.InteropServices.ComTypes.ITypeInfo.GetNames*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -379,6 +389,7 @@ items:
       type: System.Runtime.InteropServices.ComTypes.ITypeInfo
       description: To be added.
   overload: System.Runtime.InteropServices.ComTypes.ITypeInfo.GetRefTypeInfo*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -407,6 +418,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.Runtime.InteropServices.ComTypes.ITypeInfo.GetRefTypeOfImplType*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -432,6 +444,7 @@ items:
       type: System.IntPtr
       description: To be added.
   overload: System.Runtime.InteropServices.ComTypes.ITypeInfo.GetTypeAttr*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -457,6 +470,7 @@ items:
       type: System.Runtime.InteropServices.ComTypes.ITypeComp
       description: To be added.
   overload: System.Runtime.InteropServices.ComTypes.ITypeInfo.GetTypeComp*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -485,6 +499,7 @@ items:
       type: System.IntPtr
       description: To be added.
   overload: System.Runtime.InteropServices.ComTypes.ITypeInfo.GetVarDesc*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -528,6 +543,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.Runtime.InteropServices.ComTypes.ITypeInfo.Invoke*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -553,6 +569,7 @@ items:
       type: System.IntPtr
       description: To be added.
   overload: System.Runtime.InteropServices.ComTypes.ITypeInfo.ReleaseFuncDesc*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -578,6 +595,7 @@ items:
       type: System.IntPtr
       description: To be added.
   overload: System.Runtime.InteropServices.ComTypes.ITypeInfo.ReleaseTypeAttr*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -603,6 +621,7 @@ items:
       type: System.IntPtr
       description: To be added.
   overload: System.Runtime.InteropServices.ComTypes.ITypeInfo.ReleaseVarDesc*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -650,12 +669,6 @@ references:
   name: Guid
   nameWithType: Guid
   fullName: System.Guid
-- uid: System.Object
-  parent: System
-  isExternal: false
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
 - uid: System.Runtime.InteropServices.ComTypes.ITypeInfo.GetContainingTypeLib(System.Runtime.InteropServices.ComTypes.ITypeLib@,System.Int32@)
   parent: System.Runtime.InteropServices.ComTypes.ITypeInfo
   isExternal: false
@@ -668,78 +681,18 @@ references:
   name: ITypeLib
   nameWithType: ITypeLib
   fullName: System.Runtime.InteropServices.ComTypes.ITypeLib
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
 - uid: System.Runtime.InteropServices.ComTypes.ITypeInfo.GetDllEntry(System.Int32,System.Runtime.InteropServices.ComTypes.INVOKEKIND,System.IntPtr,System.IntPtr,System.IntPtr)
   parent: System.Runtime.InteropServices.ComTypes.ITypeInfo
   isExternal: false
   name: GetDllEntry(Int32,INVOKEKIND,IntPtr,IntPtr,IntPtr)
   nameWithType: ITypeInfo.GetDllEntry(Int32,INVOKEKIND,IntPtr,IntPtr,IntPtr)
   fullName: System.Runtime.InteropServices.ComTypes.ITypeInfo.GetDllEntry(Int32,INVOKEKIND,IntPtr,IntPtr,IntPtr)
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: System.Runtime.InteropServices.ComTypes.INVOKEKIND
-  parent: System.Runtime.InteropServices.ComTypes
-  isExternal: false
-  name: INVOKEKIND
-  nameWithType: INVOKEKIND
-  fullName: System.Runtime.InteropServices.ComTypes.INVOKEKIND
-- uid: System.IntPtr
-  parent: System
-  isExternal: false
-  name: IntPtr
-  nameWithType: IntPtr
-  fullName: System.IntPtr
-- uid: System.IntPtr
-  parent: System
-  isExternal: false
-  name: IntPtr
-  nameWithType: IntPtr
-  fullName: System.IntPtr
-- uid: System.IntPtr
-  parent: System
-  isExternal: false
-  name: IntPtr
-  nameWithType: IntPtr
-  fullName: System.IntPtr
 - uid: System.Runtime.InteropServices.ComTypes.ITypeInfo.GetDocumentation(System.Int32,System.String@,System.String@,System.Int32@,System.String@)
   parent: System.Runtime.InteropServices.ComTypes.ITypeInfo
   isExternal: false
   name: GetDocumentation(Int32,String,String,Int32,String)
   nameWithType: ITypeInfo.GetDocumentation(Int32,String,String,Int32,String)
   fullName: System.Runtime.InteropServices.ComTypes.ITypeInfo.GetDocumentation(Int32,String,String,Int32,String)
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
 - uid: System.String
   parent: System
   isExternal: false
@@ -752,54 +705,46 @@ references:
   name: GetFuncDesc(Int32,IntPtr)
   nameWithType: ITypeInfo.GetFuncDesc(Int32,IntPtr)
   fullName: System.Runtime.InteropServices.ComTypes.ITypeInfo.GetFuncDesc(Int32,IntPtr)
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: System.IntPtr
-  parent: System
-  isExternal: false
-  name: IntPtr
-  nameWithType: IntPtr
-  fullName: System.IntPtr
 - uid: System.Runtime.InteropServices.ComTypes.ITypeInfo.GetIDsOfNames(System.String[],System.Int32,System.Int32[])
   parent: System.Runtime.InteropServices.ComTypes.ITypeInfo
   isExternal: false
   name: GetIDsOfNames(String[],Int32,Int32[])
   nameWithType: ITypeInfo.GetIDsOfNames(String[],Int32,Int32[])
   fullName: System.Runtime.InteropServices.ComTypes.ITypeInfo.GetIDsOfNames(String[],Int32,Int32[])
-- uid: System.String
+- uid: System.String[]
   parent: System
   isExternal: false
   name: String
   nameWithType: String
   fullName: System.String[]
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: System.Int32
+  spec.csharp:
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: String[]
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+- uid: System.Int32[]
   parent: System
   isExternal: false
   name: Int32
   nameWithType: Int32
   fullName: System.Int32[]
+  spec.csharp:
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: Int32[]
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
 - uid: System.Runtime.InteropServices.ComTypes.ITypeInfo.GetImplTypeFlags(System.Int32,System.Runtime.InteropServices.ComTypes.IMPLTYPEFLAGS@)
   parent: System.Runtime.InteropServices.ComTypes.ITypeInfo
   isExternal: false
   name: GetImplTypeFlags(Int32,IMPLTYPEFLAGS)
   nameWithType: ITypeInfo.GetImplTypeFlags(Int32,IMPLTYPEFLAGS)
   fullName: System.Runtime.InteropServices.ComTypes.ITypeInfo.GetImplTypeFlags(Int32,IMPLTYPEFLAGS)
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
 - uid: System.Runtime.InteropServices.ComTypes.IMPLTYPEFLAGS
   parent: System.Runtime.InteropServices.ComTypes
   isExternal: false
@@ -812,60 +757,18 @@ references:
   name: GetMops(Int32,String)
   nameWithType: ITypeInfo.GetMops(Int32,String)
   fullName: System.Runtime.InteropServices.ComTypes.ITypeInfo.GetMops(Int32,String)
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
 - uid: System.Runtime.InteropServices.ComTypes.ITypeInfo.GetNames(System.Int32,System.String[],System.Int32,System.Int32@)
   parent: System.Runtime.InteropServices.ComTypes.ITypeInfo
   isExternal: false
   name: GetNames(Int32,String[],Int32,Int32)
   nameWithType: ITypeInfo.GetNames(Int32,String[],Int32,Int32)
   fullName: System.Runtime.InteropServices.ComTypes.ITypeInfo.GetNames(Int32,String[],Int32,Int32)
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String[]
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
 - uid: System.Runtime.InteropServices.ComTypes.ITypeInfo.GetRefTypeInfo(System.Int32,System.Runtime.InteropServices.ComTypes.ITypeInfo@)
   parent: System.Runtime.InteropServices.ComTypes.ITypeInfo
   isExternal: false
   name: GetRefTypeInfo(Int32,ITypeInfo)
   nameWithType: ITypeInfo.GetRefTypeInfo(Int32,ITypeInfo)
   fullName: System.Runtime.InteropServices.ComTypes.ITypeInfo.GetRefTypeInfo(Int32,ITypeInfo)
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
 - uid: System.Runtime.InteropServices.ComTypes.ITypeInfo
   parent: System.Runtime.InteropServices.ComTypes
   isExternal: false
@@ -878,30 +781,12 @@ references:
   name: GetRefTypeOfImplType(Int32,Int32)
   nameWithType: ITypeInfo.GetRefTypeOfImplType(Int32,Int32)
   fullName: System.Runtime.InteropServices.ComTypes.ITypeInfo.GetRefTypeOfImplType(Int32,Int32)
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
 - uid: System.Runtime.InteropServices.ComTypes.ITypeInfo.GetTypeAttr(System.IntPtr@)
   parent: System.Runtime.InteropServices.ComTypes.ITypeInfo
   isExternal: false
   name: GetTypeAttr(IntPtr)
   nameWithType: ITypeInfo.GetTypeAttr(IntPtr)
   fullName: System.Runtime.InteropServices.ComTypes.ITypeInfo.GetTypeAttr(IntPtr)
-- uid: System.IntPtr
-  parent: System
-  isExternal: false
-  name: IntPtr
-  nameWithType: IntPtr
-  fullName: System.IntPtr
 - uid: System.Runtime.InteropServices.ComTypes.ITypeInfo.GetTypeComp(System.Runtime.InteropServices.ComTypes.ITypeComp@)
   parent: System.Runtime.InteropServices.ComTypes.ITypeInfo
   isExternal: false
@@ -920,36 +805,12 @@ references:
   name: GetVarDesc(Int32,IntPtr)
   nameWithType: ITypeInfo.GetVarDesc(Int32,IntPtr)
   fullName: System.Runtime.InteropServices.ComTypes.ITypeInfo.GetVarDesc(Int32,IntPtr)
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: System.IntPtr
-  parent: System
-  isExternal: false
-  name: IntPtr
-  nameWithType: IntPtr
-  fullName: System.IntPtr
 - uid: System.Runtime.InteropServices.ComTypes.ITypeInfo.Invoke(System.Object,System.Int32,System.Int16,System.Runtime.InteropServices.ComTypes.DISPPARAMS@,System.IntPtr,System.IntPtr,System.Int32@)
   parent: System.Runtime.InteropServices.ComTypes.ITypeInfo
   isExternal: false
   name: Invoke(Object,Int32,Int16,DISPPARAMS,IntPtr,IntPtr,Int32)
   nameWithType: ITypeInfo.Invoke(Object,Int32,Int16,DISPPARAMS,IntPtr,IntPtr,Int32)
   fullName: System.Runtime.InteropServices.ComTypes.ITypeInfo.Invoke(Object,Int32,Int16,DISPPARAMS,IntPtr,IntPtr,Int32)
-- uid: System.Object
-  parent: System
-  isExternal: false
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
 - uid: System.Int16
   parent: System
   isExternal: false
@@ -962,60 +823,24 @@ references:
   name: DISPPARAMS
   nameWithType: DISPPARAMS
   fullName: System.Runtime.InteropServices.ComTypes.DISPPARAMS
-- uid: System.IntPtr
-  parent: System
-  isExternal: false
-  name: IntPtr
-  nameWithType: IntPtr
-  fullName: System.IntPtr
-- uid: System.IntPtr
-  parent: System
-  isExternal: false
-  name: IntPtr
-  nameWithType: IntPtr
-  fullName: System.IntPtr
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
 - uid: System.Runtime.InteropServices.ComTypes.ITypeInfo.ReleaseFuncDesc(System.IntPtr)
   parent: System.Runtime.InteropServices.ComTypes.ITypeInfo
   isExternal: false
   name: ReleaseFuncDesc(IntPtr)
   nameWithType: ITypeInfo.ReleaseFuncDesc(IntPtr)
   fullName: System.Runtime.InteropServices.ComTypes.ITypeInfo.ReleaseFuncDesc(IntPtr)
-- uid: System.IntPtr
-  parent: System
-  isExternal: false
-  name: IntPtr
-  nameWithType: IntPtr
-  fullName: System.IntPtr
 - uid: System.Runtime.InteropServices.ComTypes.ITypeInfo.ReleaseTypeAttr(System.IntPtr)
   parent: System.Runtime.InteropServices.ComTypes.ITypeInfo
   isExternal: false
   name: ReleaseTypeAttr(IntPtr)
   nameWithType: ITypeInfo.ReleaseTypeAttr(IntPtr)
   fullName: System.Runtime.InteropServices.ComTypes.ITypeInfo.ReleaseTypeAttr(IntPtr)
-- uid: System.IntPtr
-  parent: System
-  isExternal: false
-  name: IntPtr
-  nameWithType: IntPtr
-  fullName: System.IntPtr
 - uid: System.Runtime.InteropServices.ComTypes.ITypeInfo.ReleaseVarDesc(System.IntPtr)
   parent: System.Runtime.InteropServices.ComTypes.ITypeInfo
   isExternal: false
   name: ReleaseVarDesc(IntPtr)
   nameWithType: ITypeInfo.ReleaseVarDesc(IntPtr)
   fullName: System.Runtime.InteropServices.ComTypes.ITypeInfo.ReleaseVarDesc(IntPtr)
-- uid: System.IntPtr
-  parent: System
-  isExternal: false
-  name: IntPtr
-  nameWithType: IntPtr
-  fullName: System.IntPtr
 - uid: System.Runtime.InteropServices.ComTypes.ITypeInfo.AddressOfMember*
   parent: System.Runtime.InteropServices.ComTypes.ITypeInfo
   isExternal: false

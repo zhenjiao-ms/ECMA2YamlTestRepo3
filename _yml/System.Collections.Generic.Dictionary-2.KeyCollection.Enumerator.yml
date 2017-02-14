@@ -52,6 +52,7 @@ items:
       type: TKey
       description: To be added.
   overload: System.Collections.Generic.Dictionary`2.KeyCollection.Enumerator.Current*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -74,6 +75,7 @@ items:
     content: public void Dispose ();
     parameters: []
   overload: System.Collections.Generic.Dictionary`2.KeyCollection.Enumerator.Dispose*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -99,6 +101,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Collections.Generic.Dictionary`2.KeyCollection.Enumerator.MoveNext*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -124,6 +127,7 @@ items:
       type: System.Object
       description: To be added.
   overload: System.Collections.Generic.Dictionary`2.KeyCollection.Enumerator.System#Collections#IEnumerator#Current*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -147,6 +151,7 @@ items:
     content: void IEnumerator.Reset ();
     parameters: []
   overload: System.Collections.Generic.Dictionary`2.KeyCollection.Enumerator.System#Collections#IEnumerator#Reset*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -162,7 +167,6 @@ references:
   nameWithType: Dictionary<TKey,TValue>+KeyCollection+Enumerator.Current
   fullName: System.Collections.Generic.Dictionary<TKey,TValue>+KeyCollection+Enumerator.Current
 - uid: TKey
-  parent: ''
   isExternal: true
   name: TKey
   nameWithType: TKey

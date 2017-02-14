@@ -48,6 +48,7 @@ items:
     return:
       type: System.Security.Permissions.FileDialogPermissionAccess
       description: To be added.
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -70,6 +71,7 @@ items:
     return:
       type: System.Security.Permissions.FileDialogPermissionAccess
       description: To be added.
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -92,6 +94,7 @@ items:
     return:
       type: System.Security.Permissions.FileDialogPermissionAccess
       description: To be added.
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -114,6 +117,7 @@ items:
     return:
       type: System.Security.Permissions.FileDialogPermissionAccess
       description: To be added.
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -140,33 +144,15 @@ references:
   name: Open
   nameWithType: FileDialogPermissionAccess.Open
   fullName: System.Security.Permissions.FileDialogPermissionAccess.Open
-- uid: System.Security.Permissions.FileDialogPermissionAccess
-  parent: System.Security.Permissions
-  isExternal: false
-  name: FileDialogPermissionAccess
-  nameWithType: FileDialogPermissionAccess
-  fullName: System.Security.Permissions.FileDialogPermissionAccess
 - uid: System.Security.Permissions.FileDialogPermissionAccess.OpenSave
   parent: System.Security.Permissions.FileDialogPermissionAccess
   isExternal: false
   name: OpenSave
   nameWithType: FileDialogPermissionAccess.OpenSave
   fullName: System.Security.Permissions.FileDialogPermissionAccess.OpenSave
-- uid: System.Security.Permissions.FileDialogPermissionAccess
-  parent: System.Security.Permissions
-  isExternal: false
-  name: FileDialogPermissionAccess
-  nameWithType: FileDialogPermissionAccess
-  fullName: System.Security.Permissions.FileDialogPermissionAccess
 - uid: System.Security.Permissions.FileDialogPermissionAccess.Save
   parent: System.Security.Permissions.FileDialogPermissionAccess
   isExternal: false
   name: Save
   nameWithType: FileDialogPermissionAccess.Save
   fullName: System.Security.Permissions.FileDialogPermissionAccess.Save
-- uid: System.Security.Permissions.FileDialogPermissionAccess
-  parent: System.Security.Permissions
-  isExternal: false
-  name: FileDialogPermissionAccess
-  nameWithType: FileDialogPermissionAccess
-  fullName: System.Security.Permissions.FileDialogPermissionAccess

@@ -72,6 +72,7 @@ items:
       type: System.Security.AccessControl.AuditFlags
       description: To be added.
   overload: System.Security.AccessControl.RegistryAuditRule.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -109,6 +110,7 @@ items:
       type: System.Security.AccessControl.AuditFlags
       description: To be added.
   overload: System.Security.AccessControl.RegistryAuditRule.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -133,6 +135,7 @@ items:
       type: System.Security.AccessControl.RegistryRights
       description: To be added.
   overload: System.Security.AccessControl.RegistryAuditRule.RegistryRights*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -189,42 +192,12 @@ references:
   name: String
   nameWithType: String
   fullName: System.String
-- uid: System.Security.AccessControl.RegistryRights
-  parent: System.Security.AccessControl
-  isExternal: false
-  name: RegistryRights
-  nameWithType: RegistryRights
-  fullName: System.Security.AccessControl.RegistryRights
-- uid: System.Security.AccessControl.InheritanceFlags
-  parent: System.Security.AccessControl
-  isExternal: false
-  name: InheritanceFlags
-  nameWithType: InheritanceFlags
-  fullName: System.Security.AccessControl.InheritanceFlags
-- uid: System.Security.AccessControl.PropagationFlags
-  parent: System.Security.AccessControl
-  isExternal: false
-  name: PropagationFlags
-  nameWithType: PropagationFlags
-  fullName: System.Security.AccessControl.PropagationFlags
-- uid: System.Security.AccessControl.AuditFlags
-  parent: System.Security.AccessControl
-  isExternal: false
-  name: AuditFlags
-  nameWithType: AuditFlags
-  fullName: System.Security.AccessControl.AuditFlags
 - uid: System.Security.AccessControl.RegistryAuditRule.RegistryRights
   parent: System.Security.AccessControl.RegistryAuditRule
   isExternal: false
   name: RegistryRights
   nameWithType: RegistryAuditRule.RegistryRights
   fullName: System.Security.AccessControl.RegistryAuditRule.RegistryRights
-- uid: System.Security.AccessControl.RegistryRights
-  parent: System.Security.AccessControl
-  isExternal: false
-  name: RegistryRights
-  nameWithType: RegistryRights
-  fullName: System.Security.AccessControl.RegistryRights
 - uid: System.Security.AccessControl.RegistryAuditRule.#ctor*
   parent: System.Security.AccessControl.RegistryAuditRule
   isExternal: false

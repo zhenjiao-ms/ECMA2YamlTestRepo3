@@ -46,6 +46,7 @@ items:
       type: System.String
       description: To be added.
   overload: System.Runtime.Remoting.Channels.IChannelReceiverHook.AddHookChannelUri*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -70,6 +71,7 @@ items:
       type: System.String
       description: To be added.
   overload: System.Runtime.Remoting.Channels.IChannelReceiverHook.ChannelScheme*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -94,6 +96,7 @@ items:
       type: System.Runtime.Remoting.Channels.IServerChannelSink
       description: To be added.
   overload: System.Runtime.Remoting.Channels.IChannelReceiverHook.ChannelSinkChain*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -118,6 +121,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Runtime.Remoting.Channels.IChannelReceiverHook.WantsToListen*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -141,12 +145,6 @@ references:
   name: ChannelScheme
   nameWithType: IChannelReceiverHook.ChannelScheme
   fullName: System.Runtime.Remoting.Channels.IChannelReceiverHook.ChannelScheme
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
 - uid: System.Runtime.Remoting.Channels.IChannelReceiverHook.ChannelSinkChain
   parent: System.Runtime.Remoting.Channels.IChannelReceiverHook
   isExternal: false

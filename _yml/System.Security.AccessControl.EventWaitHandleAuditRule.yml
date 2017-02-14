@@ -65,6 +65,7 @@ items:
       type: System.Security.AccessControl.AuditFlags
       description: To be added.
   overload: System.Security.AccessControl.EventWaitHandleAuditRule.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -89,6 +90,7 @@ items:
       type: System.Security.AccessControl.EventWaitHandleRights
       description: To be added.
   overload: System.Security.AccessControl.EventWaitHandleAuditRule.EventWaitHandleRights*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -127,12 +129,6 @@ references:
   name: EventWaitHandleRights
   nameWithType: EventWaitHandleAuditRule.EventWaitHandleRights
   fullName: System.Security.AccessControl.EventWaitHandleAuditRule.EventWaitHandleRights
-- uid: System.Security.AccessControl.EventWaitHandleRights
-  parent: System.Security.AccessControl
-  isExternal: false
-  name: EventWaitHandleRights
-  nameWithType: EventWaitHandleRights
-  fullName: System.Security.AccessControl.EventWaitHandleRights
 - uid: System.Security.AccessControl.EventWaitHandleAuditRule.#ctor*
   parent: System.Security.AccessControl.EventWaitHandleAuditRule
   isExternal: false

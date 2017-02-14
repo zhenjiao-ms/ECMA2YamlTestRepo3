@@ -60,6 +60,7 @@ items:
       type: System.String
       description: To be added.
   overload: System.Security.Policy.SiteMembershipCondition.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -88,6 +89,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Security.Policy.SiteMembershipCondition.Check*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -113,6 +115,7 @@ items:
       type: System.Security.Policy.IMembershipCondition
       description: To be added.
   overload: System.Security.Policy.SiteMembershipCondition.Copy*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -141,6 +144,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Security.Policy.SiteMembershipCondition.Equals*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -166,6 +170,7 @@ items:
       type: System.Security.SecurityElement
       description: To be added.
   overload: System.Security.Policy.SiteMembershipCondition.FromXml*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -194,6 +199,7 @@ items:
       type: System.Security.Policy.PolicyLevel
       description: To be added.
   overload: System.Security.Policy.SiteMembershipCondition.FromXml*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -219,6 +225,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.Security.Policy.SiteMembershipCondition.GetHashCode*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -243,6 +250,7 @@ items:
       type: System.String
       description: To be added.
   overload: System.Security.Policy.SiteMembershipCondition.Site*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -268,6 +276,7 @@ items:
       type: System.String
       description: To be added.
   overload: System.Security.Policy.SiteMembershipCondition.ToString*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -293,6 +302,7 @@ items:
       type: System.Security.SecurityElement
       description: To be added.
   overload: System.Security.Policy.SiteMembershipCondition.ToXml*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -321,6 +331,7 @@ items:
       type: System.Security.SecurityElement
       description: To be added.
   overload: System.Security.Policy.SiteMembershipCondition.ToXml*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -377,18 +388,6 @@ references:
   name: Equals(Object)
   nameWithType: SiteMembershipCondition.Equals(Object)
   fullName: System.Security.Policy.SiteMembershipCondition.Equals(Object)
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
-- uid: System.Object
-  parent: System
-  isExternal: false
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
 - uid: System.Security.Policy.SiteMembershipCondition.FromXml(System.Security.SecurityElement)
   parent: System.Security.Policy.SiteMembershipCondition
   isExternal: false
@@ -407,12 +406,6 @@ references:
   name: FromXml(SecurityElement,PolicyLevel)
   nameWithType: SiteMembershipCondition.FromXml(SecurityElement,PolicyLevel)
   fullName: System.Security.Policy.SiteMembershipCondition.FromXml(SecurityElement,PolicyLevel)
-- uid: System.Security.SecurityElement
-  parent: System.Security
-  isExternal: false
-  name: SecurityElement
-  nameWithType: SecurityElement
-  fullName: System.Security.SecurityElement
 - uid: System.Security.Policy.PolicyLevel
   parent: System.Security.Policy
   isExternal: false
@@ -437,54 +430,24 @@ references:
   name: Site
   nameWithType: SiteMembershipCondition.Site
   fullName: System.Security.Policy.SiteMembershipCondition.Site
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
 - uid: System.Security.Policy.SiteMembershipCondition.ToString
   parent: System.Security.Policy.SiteMembershipCondition
   isExternal: false
   name: ToString()
   nameWithType: SiteMembershipCondition.ToString()
   fullName: System.Security.Policy.SiteMembershipCondition.ToString()
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
 - uid: System.Security.Policy.SiteMembershipCondition.ToXml
   parent: System.Security.Policy.SiteMembershipCondition
   isExternal: false
   name: ToXml()
   nameWithType: SiteMembershipCondition.ToXml()
   fullName: System.Security.Policy.SiteMembershipCondition.ToXml()
-- uid: System.Security.SecurityElement
-  parent: System.Security
-  isExternal: false
-  name: SecurityElement
-  nameWithType: SecurityElement
-  fullName: System.Security.SecurityElement
 - uid: System.Security.Policy.SiteMembershipCondition.ToXml(System.Security.Policy.PolicyLevel)
   parent: System.Security.Policy.SiteMembershipCondition
   isExternal: false
   name: ToXml(PolicyLevel)
   nameWithType: SiteMembershipCondition.ToXml(PolicyLevel)
   fullName: System.Security.Policy.SiteMembershipCondition.ToXml(PolicyLevel)
-- uid: System.Security.SecurityElement
-  parent: System.Security
-  isExternal: false
-  name: SecurityElement
-  nameWithType: SecurityElement
-  fullName: System.Security.SecurityElement
-- uid: System.Security.Policy.PolicyLevel
-  parent: System.Security.Policy
-  isExternal: false
-  name: PolicyLevel
-  nameWithType: PolicyLevel
-  fullName: System.Security.Policy.PolicyLevel
 - uid: System.Security.Policy.SiteMembershipCondition.#ctor*
   parent: System.Security.Policy.SiteMembershipCondition
   isExternal: false

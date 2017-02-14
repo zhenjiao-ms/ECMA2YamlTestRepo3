@@ -65,6 +65,7 @@ items:
       type: System.IO.Stream
       description: To be added.
   overload: System.Resources.ResourceWriter.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -90,6 +91,7 @@ items:
       type: System.String
       description: To be added.
   overload: System.Resources.ResourceWriter.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -118,6 +120,7 @@ items:
       type: System.Byte[]
       description: To be added.
   overload: System.Resources.ResourceWriter.AddResource*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -146,6 +149,7 @@ items:
       type: System.IO.Stream
       description: To be added.
   overload: System.Resources.ResourceWriter.AddResource*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -174,6 +178,7 @@ items:
       type: System.Object
       description: To be added.
   overload: System.Resources.ResourceWriter.AddResource*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -202,6 +207,7 @@ items:
       type: System.String
       description: To be added.
   overload: System.Resources.ResourceWriter.AddResource*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -233,6 +239,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Resources.ResourceWriter.AddResource*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -264,6 +271,7 @@ items:
       type: System.Byte[]
       description: To be added.
   overload: System.Resources.ResourceWriter.AddResourceData*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -286,6 +294,7 @@ items:
     content: public void Close ();
     parameters: []
   overload: System.Resources.ResourceWriter.Close*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -308,6 +317,7 @@ items:
     content: public void Dispose ();
     parameters: []
   overload: System.Resources.ResourceWriter.Dispose*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -330,6 +340,7 @@ items:
     content: public void Generate ();
     parameters: []
   overload: System.Resources.ResourceWriter.Generate*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -354,6 +365,7 @@ items:
       type: System.Func{System.Type,System.String}
       description: To be added.
   overload: System.Resources.ResourceWriter.TypeNameConverter*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -392,90 +404,44 @@ references:
   name: AddResource(String,Byte[])
   nameWithType: ResourceWriter.AddResource(String,Byte[])
   fullName: System.Resources.ResourceWriter.AddResource(String,Byte[])
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
-- uid: System.Byte
+- uid: System.Byte[]
   parent: System
   isExternal: false
   name: Byte
   nameWithType: Byte
   fullName: System.Byte[]
+  spec.csharp:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: Byte[]
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
 - uid: System.Resources.ResourceWriter.AddResource(System.String,System.IO.Stream)
   parent: System.Resources.ResourceWriter
   isExternal: false
   name: AddResource(String,Stream)
   nameWithType: ResourceWriter.AddResource(String,Stream)
   fullName: System.Resources.ResourceWriter.AddResource(String,Stream)
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
-- uid: System.IO.Stream
-  parent: System.IO
-  isExternal: false
-  name: Stream
-  nameWithType: Stream
-  fullName: System.IO.Stream
 - uid: System.Resources.ResourceWriter.AddResource(System.String,System.Object)
   parent: System.Resources.ResourceWriter
   isExternal: false
   name: AddResource(String,Object)
   nameWithType: ResourceWriter.AddResource(String,Object)
   fullName: System.Resources.ResourceWriter.AddResource(String,Object)
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
-- uid: System.Object
-  parent: System
-  isExternal: false
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
 - uid: System.Resources.ResourceWriter.AddResource(System.String,System.String)
   parent: System.Resources.ResourceWriter
   isExternal: false
   name: AddResource(String,String)
   nameWithType: ResourceWriter.AddResource(String,String)
   fullName: System.Resources.ResourceWriter.AddResource(String,String)
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
 - uid: System.Resources.ResourceWriter.AddResource(System.String,System.IO.Stream,System.Boolean)
   parent: System.Resources.ResourceWriter
   isExternal: false
   name: AddResource(String,Stream,Boolean)
   nameWithType: ResourceWriter.AddResource(String,Stream,Boolean)
   fullName: System.Resources.ResourceWriter.AddResource(String,Stream,Boolean)
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
-- uid: System.IO.Stream
-  parent: System.IO
-  isExternal: false
-  name: Stream
-  nameWithType: Stream
-  fullName: System.IO.Stream
 - uid: System.Boolean
   parent: System
   isExternal: false
@@ -488,24 +454,6 @@ references:
   name: AddResourceData(String,String,Byte[])
   nameWithType: ResourceWriter.AddResourceData(String,String,Byte[])
   fullName: System.Resources.ResourceWriter.AddResourceData(String,String,Byte[])
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
-- uid: System.Byte
-  parent: System
-  isExternal: false
-  name: Byte
-  nameWithType: Byte
-  fullName: System.Byte[]
 - uid: System.Resources.ResourceWriter.Close
   parent: System.Resources.ResourceWriter
   isExternal: false
@@ -536,6 +484,28 @@ references:
   name: Func<Type,String>
   nameWithType: Func<Type,String>
   fullName: System.Func<System.Type,System.String>
+  spec.csharp:
+  - uid: System.Func`2
+    name: Func
+    nameWithType: Func
+    fullName: Func<System.Type,System.String>
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Type
+    name: Type
+    nameWithType: Type
+    fullName: Type
+  - name: ','
+    nameWithType: ','
+    fullName: ','
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: String
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
 - uid: System.Resources.ResourceWriter.#ctor*
   parent: System.Resources.ResourceWriter
   isExternal: false

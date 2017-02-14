@@ -48,6 +48,7 @@ items:
       type: System.Object[]
       description: To be added.
   overload: System.Reflection.ICustomAttributeProvider.GetCustomAttributes*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -79,6 +80,7 @@ items:
       type: System.Object[]
       description: To be added.
   overload: System.Reflection.ICustomAttributeProvider.GetCustomAttributes*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -110,6 +112,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Reflection.ICustomAttributeProvider.IsDefined*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -121,12 +124,20 @@ references:
   name: GetCustomAttributes(Boolean)
   nameWithType: ICustomAttributeProvider.GetCustomAttributes(Boolean)
   fullName: System.Reflection.ICustomAttributeProvider.GetCustomAttributes(Boolean)
-- uid: System.Object
+- uid: System.Object[]
   parent: System
   isExternal: false
   name: Object
   nameWithType: Object
   fullName: System.Object[]
+  spec.csharp:
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: Object[]
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
 - uid: System.Boolean
   parent: System
   isExternal: false
@@ -139,48 +150,18 @@ references:
   name: GetCustomAttributes(Type,Boolean)
   nameWithType: ICustomAttributeProvider.GetCustomAttributes(Type,Boolean)
   fullName: System.Reflection.ICustomAttributeProvider.GetCustomAttributes(Type,Boolean)
-- uid: System.Object
-  parent: System
-  isExternal: false
-  name: Object
-  nameWithType: Object
-  fullName: System.Object[]
 - uid: System.Type
   parent: System
   isExternal: false
   name: Type
   nameWithType: Type
   fullName: System.Type
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
 - uid: System.Reflection.ICustomAttributeProvider.IsDefined(System.Type,System.Boolean)
   parent: System.Reflection.ICustomAttributeProvider
   isExternal: false
   name: IsDefined(Type,Boolean)
   nameWithType: ICustomAttributeProvider.IsDefined(Type,Boolean)
   fullName: System.Reflection.ICustomAttributeProvider.IsDefined(Type,Boolean)
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
-- uid: System.Type
-  parent: System
-  isExternal: false
-  name: Type
-  nameWithType: Type
-  fullName: System.Type
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
 - uid: System.Reflection.ICustomAttributeProvider.GetCustomAttributes*
   parent: System.Reflection.ICustomAttributeProvider
   isExternal: false

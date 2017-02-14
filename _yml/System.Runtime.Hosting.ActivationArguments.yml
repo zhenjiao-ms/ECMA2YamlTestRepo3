@@ -61,6 +61,7 @@ items:
       type: System.ActivationContext
       description: To be added.
   overload: System.Runtime.Hosting.ActivationArguments.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -86,6 +87,7 @@ items:
       type: System.ApplicationIdentity
       description: To be added.
   overload: System.Runtime.Hosting.ActivationArguments.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -114,6 +116,7 @@ items:
       type: System.String[]
       description: To be added.
   overload: System.Runtime.Hosting.ActivationArguments.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -142,6 +145,7 @@ items:
       type: System.String[]
       description: To be added.
   overload: System.Runtime.Hosting.ActivationArguments.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -166,6 +170,7 @@ items:
       type: System.ActivationContext
       description: To be added.
   overload: System.Runtime.Hosting.ActivationArguments.ActivationContext*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -190,6 +195,7 @@ items:
       type: System.String[]
       description: To be added.
   overload: System.Runtime.Hosting.ActivationArguments.ActivationData*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -214,6 +220,7 @@ items:
       type: System.ApplicationIdentity
       description: To be added.
   overload: System.Runtime.Hosting.ActivationArguments.ApplicationIdentity*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -239,6 +246,7 @@ items:
       type: System.Security.Policy.EvidenceBase
       description: To be added.
   overload: System.Runtime.Hosting.ActivationArguments.Clone*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -277,84 +285,50 @@ references:
   name: ActivationArguments(ActivationContext,String[])
   nameWithType: ActivationArguments.ActivationArguments(ActivationContext,String[])
   fullName: System.Runtime.Hosting.ActivationArguments.ActivationArguments(ActivationContext,String[])
-- uid: System.ActivationContext
-  parent: System
-  isExternal: false
-  name: ActivationContext
-  nameWithType: ActivationContext
-  fullName: System.ActivationContext
-- uid: System.String
+- uid: System.String[]
   parent: System
   isExternal: false
   name: String
   nameWithType: String
   fullName: System.String[]
+  spec.csharp:
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: String[]
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
 - uid: System.Runtime.Hosting.ActivationArguments.#ctor(System.ApplicationIdentity,System.String[])
   parent: System.Runtime.Hosting.ActivationArguments
   isExternal: false
   name: ActivationArguments(ApplicationIdentity,String[])
   nameWithType: ActivationArguments.ActivationArguments(ApplicationIdentity,String[])
   fullName: System.Runtime.Hosting.ActivationArguments.ActivationArguments(ApplicationIdentity,String[])
-- uid: System.ApplicationIdentity
-  parent: System
-  isExternal: false
-  name: ApplicationIdentity
-  nameWithType: ApplicationIdentity
-  fullName: System.ApplicationIdentity
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String[]
 - uid: System.Runtime.Hosting.ActivationArguments.ActivationContext
   parent: System.Runtime.Hosting.ActivationArguments
   isExternal: false
   name: ActivationContext
   nameWithType: ActivationArguments.ActivationContext
   fullName: System.Runtime.Hosting.ActivationArguments.ActivationContext
-- uid: System.ActivationContext
-  parent: System
-  isExternal: false
-  name: ActivationContext
-  nameWithType: ActivationContext
-  fullName: System.ActivationContext
 - uid: System.Runtime.Hosting.ActivationArguments.ActivationData
   parent: System.Runtime.Hosting.ActivationArguments
   isExternal: false
   name: ActivationData
   nameWithType: ActivationArguments.ActivationData
   fullName: System.Runtime.Hosting.ActivationArguments.ActivationData
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String[]
 - uid: System.Runtime.Hosting.ActivationArguments.ApplicationIdentity
   parent: System.Runtime.Hosting.ActivationArguments
   isExternal: false
   name: ApplicationIdentity
   nameWithType: ActivationArguments.ApplicationIdentity
   fullName: System.Runtime.Hosting.ActivationArguments.ApplicationIdentity
-- uid: System.ApplicationIdentity
-  parent: System
-  isExternal: false
-  name: ApplicationIdentity
-  nameWithType: ApplicationIdentity
-  fullName: System.ApplicationIdentity
 - uid: System.Runtime.Hosting.ActivationArguments.Clone
   parent: System.Runtime.Hosting.ActivationArguments
   isExternal: false
   name: Clone()
   nameWithType: ActivationArguments.Clone()
   fullName: System.Runtime.Hosting.ActivationArguments.Clone()
-- uid: System.Security.Policy.EvidenceBase
-  parent: System.Security.Policy
-  isExternal: false
-  name: EvidenceBase
-  nameWithType: EvidenceBase
-  fullName: System.Security.Policy.EvidenceBase
 - uid: System.Runtime.Hosting.ActivationArguments.#ctor*
   parent: System.Runtime.Hosting.ActivationArguments
   isExternal: false

@@ -56,6 +56,7 @@ items:
       type: System.Reflection.Assembly
       description: To be added.
   overload: System.AssemblyLoadEventArgs.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -80,6 +81,7 @@ items:
       type: System.Reflection.Assembly
       description: To be added.
   overload: System.AssemblyLoadEventArgs.LoadedAssembly*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -106,12 +108,6 @@ references:
   name: LoadedAssembly
   nameWithType: AssemblyLoadEventArgs.LoadedAssembly
   fullName: System.AssemblyLoadEventArgs.LoadedAssembly
-- uid: System.Reflection.Assembly
-  parent: System.Reflection
-  isExternal: false
-  name: Assembly
-  nameWithType: Assembly
-  fullName: System.Reflection.Assembly
 - uid: System.AssemblyLoadEventArgs.#ctor*
   parent: System.AssemblyLoadEventArgs
   isExternal: false

@@ -45,6 +45,7 @@ items:
       type: System.Runtime.Remoting.Contexts.Context
       description: To be added.
   overload: System.Runtime.Remoting.Contexts.IContextProperty.Freeze*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -73,6 +74,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Runtime.Remoting.Contexts.IContextProperty.IsNewContextOK*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -97,6 +99,7 @@ items:
       type: System.String
       description: To be added.
   overload: System.Runtime.Remoting.Contexts.IContextProperty.Name*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -126,12 +129,6 @@ references:
   name: Boolean
   nameWithType: Boolean
   fullName: System.Boolean
-- uid: System.Runtime.Remoting.Contexts.Context
-  parent: System.Runtime.Remoting.Contexts
-  isExternal: false
-  name: Context
-  nameWithType: Context
-  fullName: System.Runtime.Remoting.Contexts.Context
 - uid: System.Runtime.Remoting.Contexts.IContextProperty.Name
   parent: System.Runtime.Remoting.Contexts.IContextProperty
   isExternal: false

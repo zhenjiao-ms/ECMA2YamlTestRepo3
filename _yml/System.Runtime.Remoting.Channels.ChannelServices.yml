@@ -69,6 +69,7 @@ items:
       type: System.Runtime.Remoting.Messaging.IMessageCtrl
       description: To be added.
   overload: System.Runtime.Remoting.Channels.ChannelServices.AsyncDispatchMessage*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -100,6 +101,7 @@ items:
       type: System.Runtime.Remoting.Channels.IServerChannelSink
       description: To be added.
   overload: System.Runtime.Remoting.Channels.ChannelServices.CreateServerChannelSinkChain*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -134,6 +136,7 @@ items:
       type: System.Runtime.Remoting.Channels.ServerProcessing
       description: To be added.
   overload: System.Runtime.Remoting.Channels.ChannelServices.DispatchMessage*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -162,6 +165,7 @@ items:
       type: System.Runtime.Remoting.Channels.IChannel
       description: To be added.
   overload: System.Runtime.Remoting.Channels.ChannelServices.GetChannel*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -190,6 +194,7 @@ items:
       type: System.Collections.IDictionary
       description: To be added.
   overload: System.Runtime.Remoting.Channels.ChannelServices.GetChannelSinkProperties*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -218,6 +223,7 @@ items:
       type: System.String[]
       description: To be added.
   overload: System.Runtime.Remoting.Channels.ChannelServices.GetUrlsForObject*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -243,6 +249,7 @@ items:
       type: System.Runtime.Remoting.Channels.IChannel
       description: To be added.
   overload: System.Runtime.Remoting.Channels.ChannelServices.RegisterChannel*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -271,6 +278,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Runtime.Remoting.Channels.ChannelServices.RegisterChannel*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -295,6 +303,7 @@ items:
       type: System.Runtime.Remoting.Channels.IChannel[]
       description: To be added.
   overload: System.Runtime.Remoting.Channels.ChannelServices.RegisteredChannels*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -323,6 +332,7 @@ items:
       type: System.Runtime.Remoting.Messaging.IMessage
       description: To be added.
   overload: System.Runtime.Remoting.Channels.ChannelServices.SyncDispatchMessage*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -348,6 +358,7 @@ items:
       type: System.Runtime.Remoting.Channels.IChannel
       description: To be added.
   overload: System.Runtime.Remoting.Channels.ChannelServices.UnregisterChannel*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -422,18 +433,6 @@ references:
   name: IServerChannelSinkStack
   nameWithType: IServerChannelSinkStack
   fullName: System.Runtime.Remoting.Channels.IServerChannelSinkStack
-- uid: System.Runtime.Remoting.Messaging.IMessage
-  parent: System.Runtime.Remoting.Messaging
-  isExternal: false
-  name: IMessage
-  nameWithType: IMessage
-  fullName: System.Runtime.Remoting.Messaging.IMessage
-- uid: System.Runtime.Remoting.Messaging.IMessage
-  parent: System.Runtime.Remoting.Messaging
-  isExternal: false
-  name: IMessage
-  nameWithType: IMessage
-  fullName: System.Runtime.Remoting.Messaging.IMessage
 - uid: System.Runtime.Remoting.Channels.ChannelServices.GetChannel(System.String)
   parent: System.Runtime.Remoting.Channels.ChannelServices
   isExternal: false
@@ -464,24 +463,26 @@ references:
   name: IDictionary
   nameWithType: IDictionary
   fullName: System.Collections.IDictionary
-- uid: System.Object
-  parent: System
-  isExternal: false
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
 - uid: System.Runtime.Remoting.Channels.ChannelServices.GetUrlsForObject(System.MarshalByRefObject)
   parent: System.Runtime.Remoting.Channels.ChannelServices
   isExternal: false
   name: GetUrlsForObject(MarshalByRefObject)
   nameWithType: ChannelServices.GetUrlsForObject(MarshalByRefObject)
   fullName: System.Runtime.Remoting.Channels.ChannelServices.GetUrlsForObject(MarshalByRefObject)
-- uid: System.String
+- uid: System.String[]
   parent: System
   isExternal: false
   name: String
   nameWithType: String
   fullName: System.String[]
+  spec.csharp:
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: String[]
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
 - uid: System.MarshalByRefObject
   parent: System
   isExternal: false
@@ -494,24 +495,12 @@ references:
   name: RegisterChannel(IChannel)
   nameWithType: ChannelServices.RegisterChannel(IChannel)
   fullName: System.Runtime.Remoting.Channels.ChannelServices.RegisterChannel(IChannel)
-- uid: System.Runtime.Remoting.Channels.IChannel
-  parent: System.Runtime.Remoting.Channels
-  isExternal: false
-  name: IChannel
-  nameWithType: IChannel
-  fullName: System.Runtime.Remoting.Channels.IChannel
 - uid: System.Runtime.Remoting.Channels.ChannelServices.RegisterChannel(System.Runtime.Remoting.Channels.IChannel,System.Boolean)
   parent: System.Runtime.Remoting.Channels.ChannelServices
   isExternal: false
   name: RegisterChannel(IChannel,Boolean)
   nameWithType: ChannelServices.RegisterChannel(IChannel,Boolean)
   fullName: System.Runtime.Remoting.Channels.ChannelServices.RegisterChannel(IChannel,Boolean)
-- uid: System.Runtime.Remoting.Channels.IChannel
-  parent: System.Runtime.Remoting.Channels
-  isExternal: false
-  name: IChannel
-  nameWithType: IChannel
-  fullName: System.Runtime.Remoting.Channels.IChannel
 - uid: System.Boolean
   parent: System
   isExternal: false
@@ -524,42 +513,32 @@ references:
   name: RegisteredChannels
   nameWithType: ChannelServices.RegisteredChannels
   fullName: System.Runtime.Remoting.Channels.ChannelServices.RegisteredChannels
-- uid: System.Runtime.Remoting.Channels.IChannel
+- uid: System.Runtime.Remoting.Channels.IChannel[]
   parent: System.Runtime.Remoting.Channels
   isExternal: false
   name: IChannel
   nameWithType: IChannel
   fullName: System.Runtime.Remoting.Channels.IChannel[]
+  spec.csharp:
+  - uid: System.Runtime.Remoting.Channels.IChannel
+    name: IChannel
+    nameWithType: IChannel
+    fullName: IChannel[]
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
 - uid: System.Runtime.Remoting.Channels.ChannelServices.SyncDispatchMessage(System.Runtime.Remoting.Messaging.IMessage)
   parent: System.Runtime.Remoting.Channels.ChannelServices
   isExternal: false
   name: SyncDispatchMessage(IMessage)
   nameWithType: ChannelServices.SyncDispatchMessage(IMessage)
   fullName: System.Runtime.Remoting.Channels.ChannelServices.SyncDispatchMessage(IMessage)
-- uid: System.Runtime.Remoting.Messaging.IMessage
-  parent: System.Runtime.Remoting.Messaging
-  isExternal: false
-  name: IMessage
-  nameWithType: IMessage
-  fullName: System.Runtime.Remoting.Messaging.IMessage
-- uid: System.Runtime.Remoting.Messaging.IMessage
-  parent: System.Runtime.Remoting.Messaging
-  isExternal: false
-  name: IMessage
-  nameWithType: IMessage
-  fullName: System.Runtime.Remoting.Messaging.IMessage
 - uid: System.Runtime.Remoting.Channels.ChannelServices.UnregisterChannel(System.Runtime.Remoting.Channels.IChannel)
   parent: System.Runtime.Remoting.Channels.ChannelServices
   isExternal: false
   name: UnregisterChannel(IChannel)
   nameWithType: ChannelServices.UnregisterChannel(IChannel)
   fullName: System.Runtime.Remoting.Channels.ChannelServices.UnregisterChannel(IChannel)
-- uid: System.Runtime.Remoting.Channels.IChannel
-  parent: System.Runtime.Remoting.Channels
-  isExternal: false
-  name: IChannel
-  nameWithType: IChannel
-  fullName: System.Runtime.Remoting.Channels.IChannel
 - uid: System.Runtime.Remoting.Channels.ChannelServices.AsyncDispatchMessage*
   parent: System.Runtime.Remoting.Channels.ChannelServices
   isExternal: false

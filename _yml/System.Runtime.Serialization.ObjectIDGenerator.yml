@@ -52,6 +52,7 @@ items:
     content: public ObjectIDGenerator ();
     parameters: []
   overload: System.Runtime.Serialization.ObjectIDGenerator.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -83,6 +84,7 @@ items:
       type: System.Int64
       description: To be added.
   overload: System.Runtime.Serialization.ObjectIDGenerator.GetId*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -114,6 +116,7 @@ items:
       type: System.Int64
       description: To be added.
   overload: System.Runtime.Serialization.ObjectIDGenerator.HasId*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -140,12 +143,6 @@ references:
   name: Int64
   nameWithType: Int64
   fullName: System.Int64
-- uid: System.Object
-  parent: System
-  isExternal: false
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
 - uid: System.Boolean
   parent: System
   isExternal: false
@@ -158,24 +155,6 @@ references:
   name: HasId(Object,Boolean)
   nameWithType: ObjectIDGenerator.HasId(Object,Boolean)
   fullName: System.Runtime.Serialization.ObjectIDGenerator.HasId(Object,Boolean)
-- uid: System.Int64
-  parent: System
-  isExternal: false
-  name: Int64
-  nameWithType: Int64
-  fullName: System.Int64
-- uid: System.Object
-  parent: System
-  isExternal: false
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
 - uid: System.Runtime.Serialization.ObjectIDGenerator.#ctor*
   parent: System.Runtime.Serialization.ObjectIDGenerator
   isExternal: false

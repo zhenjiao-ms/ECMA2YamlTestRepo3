@@ -68,6 +68,7 @@ items:
       type: System.Security.AccessControl.AuditFlags
       description: To be added.
   overload: System.Security.AccessControl.FileSystemAuditRule.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -99,6 +100,7 @@ items:
       type: System.Security.AccessControl.AuditFlags
       description: To be added.
   overload: System.Security.AccessControl.FileSystemAuditRule.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -136,6 +138,7 @@ items:
       type: System.Security.AccessControl.AuditFlags
       description: To be added.
   overload: System.Security.AccessControl.FileSystemAuditRule.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -173,6 +176,7 @@ items:
       type: System.Security.AccessControl.AuditFlags
       description: To be added.
   overload: System.Security.AccessControl.FileSystemAuditRule.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -197,6 +201,7 @@ items:
       type: System.Security.AccessControl.FileSystemRights
       description: To be added.
   overload: System.Security.AccessControl.FileSystemAuditRule.FileSystemRights*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -241,36 +246,12 @@ references:
   name: String
   nameWithType: String
   fullName: System.String
-- uid: System.Security.AccessControl.FileSystemRights
-  parent: System.Security.AccessControl
-  isExternal: false
-  name: FileSystemRights
-  nameWithType: FileSystemRights
-  fullName: System.Security.AccessControl.FileSystemRights
-- uid: System.Security.AccessControl.AuditFlags
-  parent: System.Security.AccessControl
-  isExternal: false
-  name: AuditFlags
-  nameWithType: AuditFlags
-  fullName: System.Security.AccessControl.AuditFlags
 - uid: System.Security.AccessControl.FileSystemAuditRule.#ctor(System.Security.Principal.IdentityReference,System.Security.AccessControl.FileSystemRights,System.Security.AccessControl.InheritanceFlags,System.Security.AccessControl.PropagationFlags,System.Security.AccessControl.AuditFlags)
   parent: System.Security.AccessControl.FileSystemAuditRule
   isExternal: false
   name: FileSystemAuditRule(IdentityReference,FileSystemRights,InheritanceFlags,PropagationFlags,AuditFlags)
   nameWithType: FileSystemAuditRule.FileSystemAuditRule(IdentityReference,FileSystemRights,InheritanceFlags,PropagationFlags,AuditFlags)
   fullName: System.Security.AccessControl.FileSystemAuditRule.FileSystemAuditRule(IdentityReference,FileSystemRights,InheritanceFlags,PropagationFlags,AuditFlags)
-- uid: System.Security.Principal.IdentityReference
-  parent: System.Security.Principal
-  isExternal: false
-  name: IdentityReference
-  nameWithType: IdentityReference
-  fullName: System.Security.Principal.IdentityReference
-- uid: System.Security.AccessControl.FileSystemRights
-  parent: System.Security.AccessControl
-  isExternal: false
-  name: FileSystemRights
-  nameWithType: FileSystemRights
-  fullName: System.Security.AccessControl.FileSystemRights
 - uid: System.Security.AccessControl.InheritanceFlags
   parent: System.Security.AccessControl
   isExternal: false
@@ -283,60 +264,18 @@ references:
   name: PropagationFlags
   nameWithType: PropagationFlags
   fullName: System.Security.AccessControl.PropagationFlags
-- uid: System.Security.AccessControl.AuditFlags
-  parent: System.Security.AccessControl
-  isExternal: false
-  name: AuditFlags
-  nameWithType: AuditFlags
-  fullName: System.Security.AccessControl.AuditFlags
 - uid: System.Security.AccessControl.FileSystemAuditRule.#ctor(System.String,System.Security.AccessControl.FileSystemRights,System.Security.AccessControl.InheritanceFlags,System.Security.AccessControl.PropagationFlags,System.Security.AccessControl.AuditFlags)
   parent: System.Security.AccessControl.FileSystemAuditRule
   isExternal: false
   name: FileSystemAuditRule(String,FileSystemRights,InheritanceFlags,PropagationFlags,AuditFlags)
   nameWithType: FileSystemAuditRule.FileSystemAuditRule(String,FileSystemRights,InheritanceFlags,PropagationFlags,AuditFlags)
   fullName: System.Security.AccessControl.FileSystemAuditRule.FileSystemAuditRule(String,FileSystemRights,InheritanceFlags,PropagationFlags,AuditFlags)
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
-- uid: System.Security.AccessControl.FileSystemRights
-  parent: System.Security.AccessControl
-  isExternal: false
-  name: FileSystemRights
-  nameWithType: FileSystemRights
-  fullName: System.Security.AccessControl.FileSystemRights
-- uid: System.Security.AccessControl.InheritanceFlags
-  parent: System.Security.AccessControl
-  isExternal: false
-  name: InheritanceFlags
-  nameWithType: InheritanceFlags
-  fullName: System.Security.AccessControl.InheritanceFlags
-- uid: System.Security.AccessControl.PropagationFlags
-  parent: System.Security.AccessControl
-  isExternal: false
-  name: PropagationFlags
-  nameWithType: PropagationFlags
-  fullName: System.Security.AccessControl.PropagationFlags
-- uid: System.Security.AccessControl.AuditFlags
-  parent: System.Security.AccessControl
-  isExternal: false
-  name: AuditFlags
-  nameWithType: AuditFlags
-  fullName: System.Security.AccessControl.AuditFlags
 - uid: System.Security.AccessControl.FileSystemAuditRule.FileSystemRights
   parent: System.Security.AccessControl.FileSystemAuditRule
   isExternal: false
   name: FileSystemRights
   nameWithType: FileSystemAuditRule.FileSystemRights
   fullName: System.Security.AccessControl.FileSystemAuditRule.FileSystemRights
-- uid: System.Security.AccessControl.FileSystemRights
-  parent: System.Security.AccessControl
-  isExternal: false
-  name: FileSystemRights
-  nameWithType: FileSystemRights
-  fullName: System.Security.AccessControl.FileSystemRights
 - uid: System.Security.AccessControl.FileSystemAuditRule.#ctor*
   parent: System.Security.AccessControl.FileSystemAuditRule
   isExternal: false

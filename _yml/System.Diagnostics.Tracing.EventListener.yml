@@ -58,6 +58,7 @@ items:
     content: public EventListener ();
     parameters: []
   overload: System.Diagnostics.Tracing.EventListener.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -83,6 +84,7 @@ items:
       type: System.Diagnostics.Tracing.EventSource
       description: To be added.
   overload: System.Diagnostics.Tracing.EventListener.DisableEvents*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -105,6 +107,7 @@ items:
     content: public virtual void Dispose ();
     parameters: []
   overload: System.Diagnostics.Tracing.EventListener.Dispose*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -133,6 +136,7 @@ items:
       type: System.Diagnostics.Tracing.EventLevel
       description: To be added.
   overload: System.Diagnostics.Tracing.EventListener.EnableEvents*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -164,6 +168,7 @@ items:
       type: System.Diagnostics.Tracing.EventKeywords
       description: To be added.
   overload: System.Diagnostics.Tracing.EventListener.EnableEvents*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -198,6 +203,7 @@ items:
       type: System.Collections.Generic.IDictionary{System.String,System.String}
       description: To be added.
   overload: System.Diagnostics.Tracing.EventListener.EnableEvents*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -221,6 +227,7 @@ items:
     return:
       type: System.EventHandler{System.Diagnostics.Tracing.EventSourceCreatedEventArgs}
       description: To be added.
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -249,6 +256,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.Diagnostics.Tracing.EventListener.EventSourceIndex*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -272,6 +280,7 @@ items:
     return:
       type: System.EventHandler{System.Diagnostics.Tracing.EventWrittenEventArgs}
       description: To be added.
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -297,6 +306,7 @@ items:
       type: System.Diagnostics.Tracing.EventSource
       description: To be added.
   overload: System.Diagnostics.Tracing.EventListener.OnEventSourceCreated*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -322,6 +332,7 @@ items:
       type: System.Diagnostics.Tracing.EventWrittenEventArgs
       description: To be added.
   overload: System.Diagnostics.Tracing.EventListener.OnEventWritten*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -360,12 +371,6 @@ references:
   name: EnableEvents(EventSource,EventLevel)
   nameWithType: EventListener.EnableEvents(EventSource,EventLevel)
   fullName: System.Diagnostics.Tracing.EventListener.EnableEvents(EventSource,EventLevel)
-- uid: System.Diagnostics.Tracing.EventSource
-  parent: System.Diagnostics.Tracing
-  isExternal: false
-  name: EventSource
-  nameWithType: EventSource
-  fullName: System.Diagnostics.Tracing.EventSource
 - uid: System.Diagnostics.Tracing.EventLevel
   parent: System.Diagnostics.Tracing
   isExternal: false
@@ -378,18 +383,6 @@ references:
   name: EnableEvents(EventSource,EventLevel,EventKeywords)
   nameWithType: EventListener.EnableEvents(EventSource,EventLevel,EventKeywords)
   fullName: System.Diagnostics.Tracing.EventListener.EnableEvents(EventSource,EventLevel,EventKeywords)
-- uid: System.Diagnostics.Tracing.EventSource
-  parent: System.Diagnostics.Tracing
-  isExternal: false
-  name: EventSource
-  nameWithType: EventSource
-  fullName: System.Diagnostics.Tracing.EventSource
-- uid: System.Diagnostics.Tracing.EventLevel
-  parent: System.Diagnostics.Tracing
-  isExternal: false
-  name: EventLevel
-  nameWithType: EventLevel
-  fullName: System.Diagnostics.Tracing.EventLevel
 - uid: System.Diagnostics.Tracing.EventKeywords
   parent: System.Diagnostics.Tracing
   isExternal: false
@@ -402,30 +395,34 @@ references:
   name: EnableEvents(EventSource,EventLevel,EventKeywords,IDictionary<String,String>)
   nameWithType: EventListener.EnableEvents(EventSource,EventLevel,EventKeywords,IDictionary<String,String>)
   fullName: System.Diagnostics.Tracing.EventListener.EnableEvents(EventSource,EventLevel,EventKeywords,IDictionary<String,String>)
-- uid: System.Diagnostics.Tracing.EventSource
-  parent: System.Diagnostics.Tracing
-  isExternal: false
-  name: EventSource
-  nameWithType: EventSource
-  fullName: System.Diagnostics.Tracing.EventSource
-- uid: System.Diagnostics.Tracing.EventLevel
-  parent: System.Diagnostics.Tracing
-  isExternal: false
-  name: EventLevel
-  nameWithType: EventLevel
-  fullName: System.Diagnostics.Tracing.EventLevel
-- uid: System.Diagnostics.Tracing.EventKeywords
-  parent: System.Diagnostics.Tracing
-  isExternal: false
-  name: EventKeywords
-  nameWithType: EventKeywords
-  fullName: System.Diagnostics.Tracing.EventKeywords
 - uid: System.Collections.Generic.IDictionary{System.String,System.String}
   parent: System.Collections.Generic
   isExternal: false
   name: IDictionary<String,String>
   nameWithType: IDictionary<String,String>
   fullName: System.Collections.Generic.IDictionary<System.String,System.String>
+  spec.csharp:
+  - uid: System.Collections.Generic.IDictionary`2
+    name: IDictionary
+    nameWithType: IDictionary
+    fullName: IDictionary<System.String,System.String>
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: String
+  - name: ','
+    nameWithType: ','
+    fullName: ','
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: String
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
 - uid: System.Diagnostics.Tracing.EventListener.EventSourceCreated
   parent: System.Diagnostics.Tracing.EventListener
   isExternal: false
@@ -438,6 +435,21 @@ references:
   name: EventHandler<EventSourceCreatedEventArgs>
   nameWithType: EventHandler<EventSourceCreatedEventArgs>
   fullName: System.EventHandler<System.Diagnostics.Tracing.EventSourceCreatedEventArgs>
+  spec.csharp:
+  - uid: System.EventHandler`1
+    name: EventHandler
+    nameWithType: EventHandler
+    fullName: EventHandler<System.Diagnostics.Tracing.EventSourceCreatedEventArgs>
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Diagnostics.Tracing.EventSourceCreatedEventArgs
+    name: EventSourceCreatedEventArgs
+    nameWithType: EventSourceCreatedEventArgs
+    fullName: EventSourceCreatedEventArgs
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
 - uid: System.Diagnostics.Tracing.EventListener.EventSourceIndex(System.Diagnostics.Tracing.EventSource)
   parent: System.Diagnostics.Tracing.EventListener
   isExternal: false
@@ -450,12 +462,6 @@ references:
   name: Int32
   nameWithType: Int32
   fullName: System.Int32
-- uid: System.Diagnostics.Tracing.EventSource
-  parent: System.Diagnostics.Tracing
-  isExternal: false
-  name: EventSource
-  nameWithType: EventSource
-  fullName: System.Diagnostics.Tracing.EventSource
 - uid: System.Diagnostics.Tracing.EventListener.EventWritten
   parent: System.Diagnostics.Tracing.EventListener
   isExternal: false
@@ -468,18 +474,27 @@ references:
   name: EventHandler<EventWrittenEventArgs>
   nameWithType: EventHandler<EventWrittenEventArgs>
   fullName: System.EventHandler<System.Diagnostics.Tracing.EventWrittenEventArgs>
+  spec.csharp:
+  - uid: System.EventHandler`1
+    name: EventHandler
+    nameWithType: EventHandler
+    fullName: EventHandler<System.Diagnostics.Tracing.EventWrittenEventArgs>
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Diagnostics.Tracing.EventWrittenEventArgs
+    name: EventWrittenEventArgs
+    nameWithType: EventWrittenEventArgs
+    fullName: EventWrittenEventArgs
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
 - uid: System.Diagnostics.Tracing.EventListener.OnEventSourceCreated(System.Diagnostics.Tracing.EventSource)
   parent: System.Diagnostics.Tracing.EventListener
   isExternal: false
   name: OnEventSourceCreated(EventSource)
   nameWithType: EventListener.OnEventSourceCreated(EventSource)
   fullName: System.Diagnostics.Tracing.EventListener.OnEventSourceCreated(EventSource)
-- uid: System.Diagnostics.Tracing.EventSource
-  parent: System.Diagnostics.Tracing
-  isExternal: false
-  name: EventSource
-  nameWithType: EventSource
-  fullName: System.Diagnostics.Tracing.EventSource
 - uid: System.Diagnostics.Tracing.EventListener.OnEventWritten(System.Diagnostics.Tracing.EventWrittenEventArgs)
   parent: System.Diagnostics.Tracing.EventListener
   isExternal: false

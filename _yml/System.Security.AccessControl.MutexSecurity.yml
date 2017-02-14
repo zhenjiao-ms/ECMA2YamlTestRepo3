@@ -118,6 +118,7 @@ items:
     content: public MutexSecurity ();
     parameters: []
   overload: System.Security.AccessControl.MutexSecurity.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -146,6 +147,7 @@ items:
       type: System.Security.AccessControl.AccessControlSections
       description: To be added.
   overload: System.Security.AccessControl.MutexSecurity.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -170,6 +172,7 @@ items:
       type: System.Type
       description: To be added.
   overload: System.Security.AccessControl.MutexSecurity.AccessRightType*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -213,6 +216,7 @@ items:
       type: System.Security.AccessControl.AccessRule
       description: To be added.
   overload: System.Security.AccessControl.MutexSecurity.AccessRuleFactory*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -237,6 +241,7 @@ items:
       type: System.Type
       description: To be added.
   overload: System.Security.AccessControl.MutexSecurity.AccessRuleType*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -262,6 +267,7 @@ items:
       type: System.Security.AccessControl.MutexAccessRule
       description: To be added.
   overload: System.Security.AccessControl.MutexSecurity.AddAccessRule*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -287,6 +293,7 @@ items:
       type: System.Security.AccessControl.MutexAuditRule
       description: To be added.
   overload: System.Security.AccessControl.MutexSecurity.AddAuditRule*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -330,6 +337,7 @@ items:
       type: System.Security.AccessControl.AuditRule
       description: To be added.
   overload: System.Security.AccessControl.MutexSecurity.AuditRuleFactory*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -354,6 +362,7 @@ items:
       type: System.Type
       description: To be added.
   overload: System.Security.AccessControl.MutexSecurity.AuditRuleType*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -382,6 +391,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Security.AccessControl.MutexSecurity.RemoveAccessRule*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -407,6 +417,7 @@ items:
       type: System.Security.AccessControl.MutexAccessRule
       description: To be added.
   overload: System.Security.AccessControl.MutexSecurity.RemoveAccessRuleAll*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -432,6 +443,7 @@ items:
       type: System.Security.AccessControl.MutexAccessRule
       description: To be added.
   overload: System.Security.AccessControl.MutexSecurity.RemoveAccessRuleSpecific*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -460,6 +472,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Security.AccessControl.MutexSecurity.RemoveAuditRule*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -485,6 +498,7 @@ items:
       type: System.Security.AccessControl.MutexAuditRule
       description: To be added.
   overload: System.Security.AccessControl.MutexSecurity.RemoveAuditRuleAll*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -510,6 +524,7 @@ items:
       type: System.Security.AccessControl.MutexAuditRule
       description: To be added.
   overload: System.Security.AccessControl.MutexSecurity.RemoveAuditRuleSpecific*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -535,6 +550,7 @@ items:
       type: System.Security.AccessControl.MutexAccessRule
       description: To be added.
   overload: System.Security.AccessControl.MutexSecurity.ResetAccessRule*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -560,6 +576,7 @@ items:
       type: System.Security.AccessControl.MutexAccessRule
       description: To be added.
   overload: System.Security.AccessControl.MutexSecurity.SetAccessRule*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -585,6 +602,7 @@ items:
       type: System.Security.AccessControl.MutexAuditRule
       description: To be added.
   overload: System.Security.AccessControl.MutexSecurity.SetAuditRule*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -683,12 +701,6 @@ references:
   name: AccessRuleType
   nameWithType: MutexSecurity.AccessRuleType
   fullName: System.Security.AccessControl.MutexSecurity.AccessRuleType
-- uid: System.Type
-  parent: System
-  isExternal: false
-  name: Type
-  nameWithType: Type
-  fullName: System.Type
 - uid: System.Security.AccessControl.MutexSecurity.AddAccessRule(System.Security.AccessControl.MutexAccessRule)
   parent: System.Security.AccessControl.MutexSecurity
   isExternal: false
@@ -725,36 +737,6 @@ references:
   name: AuditRule
   nameWithType: AuditRule
   fullName: System.Security.AccessControl.AuditRule
-- uid: System.Security.Principal.IdentityReference
-  parent: System.Security.Principal
-  isExternal: false
-  name: IdentityReference
-  nameWithType: IdentityReference
-  fullName: System.Security.Principal.IdentityReference
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
-- uid: System.Security.AccessControl.InheritanceFlags
-  parent: System.Security.AccessControl
-  isExternal: false
-  name: InheritanceFlags
-  nameWithType: InheritanceFlags
-  fullName: System.Security.AccessControl.InheritanceFlags
-- uid: System.Security.AccessControl.PropagationFlags
-  parent: System.Security.AccessControl
-  isExternal: false
-  name: PropagationFlags
-  nameWithType: PropagationFlags
-  fullName: System.Security.AccessControl.PropagationFlags
 - uid: System.Security.AccessControl.AuditFlags
   parent: System.Security.AccessControl
   isExternal: false
@@ -767,132 +749,60 @@ references:
   name: AuditRuleType
   nameWithType: MutexSecurity.AuditRuleType
   fullName: System.Security.AccessControl.MutexSecurity.AuditRuleType
-- uid: System.Type
-  parent: System
-  isExternal: false
-  name: Type
-  nameWithType: Type
-  fullName: System.Type
 - uid: System.Security.AccessControl.MutexSecurity.RemoveAccessRule(System.Security.AccessControl.MutexAccessRule)
   parent: System.Security.AccessControl.MutexSecurity
   isExternal: false
   name: RemoveAccessRule(MutexAccessRule)
   nameWithType: MutexSecurity.RemoveAccessRule(MutexAccessRule)
   fullName: System.Security.AccessControl.MutexSecurity.RemoveAccessRule(MutexAccessRule)
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
-- uid: System.Security.AccessControl.MutexAccessRule
-  parent: System.Security.AccessControl
-  isExternal: false
-  name: MutexAccessRule
-  nameWithType: MutexAccessRule
-  fullName: System.Security.AccessControl.MutexAccessRule
 - uid: System.Security.AccessControl.MutexSecurity.RemoveAccessRuleAll(System.Security.AccessControl.MutexAccessRule)
   parent: System.Security.AccessControl.MutexSecurity
   isExternal: false
   name: RemoveAccessRuleAll(MutexAccessRule)
   nameWithType: MutexSecurity.RemoveAccessRuleAll(MutexAccessRule)
   fullName: System.Security.AccessControl.MutexSecurity.RemoveAccessRuleAll(MutexAccessRule)
-- uid: System.Security.AccessControl.MutexAccessRule
-  parent: System.Security.AccessControl
-  isExternal: false
-  name: MutexAccessRule
-  nameWithType: MutexAccessRule
-  fullName: System.Security.AccessControl.MutexAccessRule
 - uid: System.Security.AccessControl.MutexSecurity.RemoveAccessRuleSpecific(System.Security.AccessControl.MutexAccessRule)
   parent: System.Security.AccessControl.MutexSecurity
   isExternal: false
   name: RemoveAccessRuleSpecific(MutexAccessRule)
   nameWithType: MutexSecurity.RemoveAccessRuleSpecific(MutexAccessRule)
   fullName: System.Security.AccessControl.MutexSecurity.RemoveAccessRuleSpecific(MutexAccessRule)
-- uid: System.Security.AccessControl.MutexAccessRule
-  parent: System.Security.AccessControl
-  isExternal: false
-  name: MutexAccessRule
-  nameWithType: MutexAccessRule
-  fullName: System.Security.AccessControl.MutexAccessRule
 - uid: System.Security.AccessControl.MutexSecurity.RemoveAuditRule(System.Security.AccessControl.MutexAuditRule)
   parent: System.Security.AccessControl.MutexSecurity
   isExternal: false
   name: RemoveAuditRule(MutexAuditRule)
   nameWithType: MutexSecurity.RemoveAuditRule(MutexAuditRule)
   fullName: System.Security.AccessControl.MutexSecurity.RemoveAuditRule(MutexAuditRule)
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
-- uid: System.Security.AccessControl.MutexAuditRule
-  parent: System.Security.AccessControl
-  isExternal: false
-  name: MutexAuditRule
-  nameWithType: MutexAuditRule
-  fullName: System.Security.AccessControl.MutexAuditRule
 - uid: System.Security.AccessControl.MutexSecurity.RemoveAuditRuleAll(System.Security.AccessControl.MutexAuditRule)
   parent: System.Security.AccessControl.MutexSecurity
   isExternal: false
   name: RemoveAuditRuleAll(MutexAuditRule)
   nameWithType: MutexSecurity.RemoveAuditRuleAll(MutexAuditRule)
   fullName: System.Security.AccessControl.MutexSecurity.RemoveAuditRuleAll(MutexAuditRule)
-- uid: System.Security.AccessControl.MutexAuditRule
-  parent: System.Security.AccessControl
-  isExternal: false
-  name: MutexAuditRule
-  nameWithType: MutexAuditRule
-  fullName: System.Security.AccessControl.MutexAuditRule
 - uid: System.Security.AccessControl.MutexSecurity.RemoveAuditRuleSpecific(System.Security.AccessControl.MutexAuditRule)
   parent: System.Security.AccessControl.MutexSecurity
   isExternal: false
   name: RemoveAuditRuleSpecific(MutexAuditRule)
   nameWithType: MutexSecurity.RemoveAuditRuleSpecific(MutexAuditRule)
   fullName: System.Security.AccessControl.MutexSecurity.RemoveAuditRuleSpecific(MutexAuditRule)
-- uid: System.Security.AccessControl.MutexAuditRule
-  parent: System.Security.AccessControl
-  isExternal: false
-  name: MutexAuditRule
-  nameWithType: MutexAuditRule
-  fullName: System.Security.AccessControl.MutexAuditRule
 - uid: System.Security.AccessControl.MutexSecurity.ResetAccessRule(System.Security.AccessControl.MutexAccessRule)
   parent: System.Security.AccessControl.MutexSecurity
   isExternal: false
   name: ResetAccessRule(MutexAccessRule)
   nameWithType: MutexSecurity.ResetAccessRule(MutexAccessRule)
   fullName: System.Security.AccessControl.MutexSecurity.ResetAccessRule(MutexAccessRule)
-- uid: System.Security.AccessControl.MutexAccessRule
-  parent: System.Security.AccessControl
-  isExternal: false
-  name: MutexAccessRule
-  nameWithType: MutexAccessRule
-  fullName: System.Security.AccessControl.MutexAccessRule
 - uid: System.Security.AccessControl.MutexSecurity.SetAccessRule(System.Security.AccessControl.MutexAccessRule)
   parent: System.Security.AccessControl.MutexSecurity
   isExternal: false
   name: SetAccessRule(MutexAccessRule)
   nameWithType: MutexSecurity.SetAccessRule(MutexAccessRule)
   fullName: System.Security.AccessControl.MutexSecurity.SetAccessRule(MutexAccessRule)
-- uid: System.Security.AccessControl.MutexAccessRule
-  parent: System.Security.AccessControl
-  isExternal: false
-  name: MutexAccessRule
-  nameWithType: MutexAccessRule
-  fullName: System.Security.AccessControl.MutexAccessRule
 - uid: System.Security.AccessControl.MutexSecurity.SetAuditRule(System.Security.AccessControl.MutexAuditRule)
   parent: System.Security.AccessControl.MutexSecurity
   isExternal: false
   name: SetAuditRule(MutexAuditRule)
   nameWithType: MutexSecurity.SetAuditRule(MutexAuditRule)
   fullName: System.Security.AccessControl.MutexSecurity.SetAuditRule(MutexAuditRule)
-- uid: System.Security.AccessControl.MutexAuditRule
-  parent: System.Security.AccessControl
-  isExternal: false
-  name: MutexAuditRule
-  nameWithType: MutexAuditRule
-  fullName: System.Security.AccessControl.MutexAuditRule
 - uid: System.Security.AccessControl.MutexSecurity.#ctor*
   parent: System.Security.AccessControl.MutexSecurity
   isExternal: false

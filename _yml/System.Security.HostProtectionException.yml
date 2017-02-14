@@ -69,6 +69,7 @@ items:
     content: public HostProtectionException ();
     parameters: []
   overload: System.Security.HostProtectionException.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -94,6 +95,7 @@ items:
       type: System.String
       description: To be added.
   overload: System.Security.HostProtectionException.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -122,6 +124,7 @@ items:
       type: System.Runtime.Serialization.StreamingContext
       description: To be added.
   overload: System.Security.HostProtectionException.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -150,6 +153,7 @@ items:
       type: System.Exception
       description: To be added.
   overload: System.Security.HostProtectionException.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -181,6 +185,7 @@ items:
       type: System.Security.Permissions.HostProtectionResource
       description: To be added.
   overload: System.Security.HostProtectionException.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -205,6 +210,7 @@ items:
       type: System.Security.Permissions.HostProtectionResource
       description: To be added.
   overload: System.Security.HostProtectionException.DemandedResources*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -233,6 +239,7 @@ items:
       type: System.Runtime.Serialization.StreamingContext
       description: To be added.
   overload: System.Security.HostProtectionException.GetObjectData*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -257,6 +264,7 @@ items:
       type: System.Security.Permissions.HostProtectionResource
       description: To be added.
   overload: System.Security.HostProtectionException.ProtectedResources*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -282,6 +290,7 @@ items:
       type: System.String
       description: To be added.
   overload: System.Security.HostProtectionException.ToString*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -332,12 +341,6 @@ references:
   name: HostProtectionException(String,Exception)
   nameWithType: HostProtectionException.HostProtectionException(String,Exception)
   fullName: System.Security.HostProtectionException.HostProtectionException(String,Exception)
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
 - uid: System.Exception
   parent: System
   isExternal: false
@@ -350,18 +353,6 @@ references:
   name: HostProtectionException(String,HostProtectionResource,HostProtectionResource)
   nameWithType: HostProtectionException.HostProtectionException(String,HostProtectionResource,HostProtectionResource)
   fullName: System.Security.HostProtectionException.HostProtectionException(String,HostProtectionResource,HostProtectionResource)
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
-- uid: System.Security.Permissions.HostProtectionResource
-  parent: System.Security.Permissions
-  isExternal: false
-  name: HostProtectionResource
-  nameWithType: HostProtectionResource
-  fullName: System.Security.Permissions.HostProtectionResource
 - uid: System.Security.Permissions.HostProtectionResource
   parent: System.Security.Permissions
   isExternal: false
@@ -374,54 +365,24 @@ references:
   name: DemandedResources
   nameWithType: HostProtectionException.DemandedResources
   fullName: System.Security.HostProtectionException.DemandedResources
-- uid: System.Security.Permissions.HostProtectionResource
-  parent: System.Security.Permissions
-  isExternal: false
-  name: HostProtectionResource
-  nameWithType: HostProtectionResource
-  fullName: System.Security.Permissions.HostProtectionResource
 - uid: System.Security.HostProtectionException.GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
   parent: System.Security.HostProtectionException
   isExternal: false
   name: GetObjectData(SerializationInfo,StreamingContext)
   nameWithType: HostProtectionException.GetObjectData(SerializationInfo,StreamingContext)
   fullName: System.Security.HostProtectionException.GetObjectData(SerializationInfo,StreamingContext)
-- uid: System.Runtime.Serialization.SerializationInfo
-  parent: System.Runtime.Serialization
-  isExternal: false
-  name: SerializationInfo
-  nameWithType: SerializationInfo
-  fullName: System.Runtime.Serialization.SerializationInfo
-- uid: System.Runtime.Serialization.StreamingContext
-  parent: System.Runtime.Serialization
-  isExternal: false
-  name: StreamingContext
-  nameWithType: StreamingContext
-  fullName: System.Runtime.Serialization.StreamingContext
 - uid: System.Security.HostProtectionException.ProtectedResources
   parent: System.Security.HostProtectionException
   isExternal: false
   name: ProtectedResources
   nameWithType: HostProtectionException.ProtectedResources
   fullName: System.Security.HostProtectionException.ProtectedResources
-- uid: System.Security.Permissions.HostProtectionResource
-  parent: System.Security.Permissions
-  isExternal: false
-  name: HostProtectionResource
-  nameWithType: HostProtectionResource
-  fullName: System.Security.Permissions.HostProtectionResource
 - uid: System.Security.HostProtectionException.ToString
   parent: System.Security.HostProtectionException
   isExternal: false
   name: ToString()
   nameWithType: HostProtectionException.ToString()
   fullName: System.Security.HostProtectionException.ToString()
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
 - uid: System.Security.HostProtectionException.#ctor*
   parent: System.Security.HostProtectionException
   isExternal: false

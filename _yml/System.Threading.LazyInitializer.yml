@@ -56,6 +56,7 @@ items:
       type: T
       description: To be added.
   overload: System.Threading.LazyInitializer.EnsureInitialized<T>*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -87,6 +88,7 @@ items:
       type: T
       description: To be added.
   overload: System.Threading.LazyInitializer.EnsureInitialized<T>*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -121,6 +123,7 @@ items:
       type: T
       description: To be added.
   overload: System.Threading.LazyInitializer.EnsureInitialized<T>*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -158,6 +161,7 @@ items:
       type: T
       description: To be added.
   overload: System.Threading.LazyInitializer.EnsureInitialized<T>*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -173,13 +177,6 @@ references:
   nameWithType: LazyInitializer.EnsureInitialized(T)
   fullName: System.Threading.LazyInitializer.EnsureInitialized(T)
 - uid: T
-  parent: ''
-  isExternal: true
-  name: T
-  nameWithType: T
-  fullName: T
-- uid: T
-  parent: ''
   isExternal: true
   name: T
   nameWithType: T
@@ -190,90 +187,45 @@ references:
   name: EnsureInitialized(T,Func<T>)
   nameWithType: LazyInitializer.EnsureInitialized(T,Func<T>)
   fullName: System.Threading.LazyInitializer.EnsureInitialized(T,Func<T>)
-- uid: T
-  parent: ''
-  isExternal: true
-  name: T
-  nameWithType: T
-  fullName: T
-- uid: T
-  parent: ''
-  isExternal: true
-  name: T
-  nameWithType: T
-  fullName: T
 - uid: System.Func{T}
   parent: System
   isExternal: false
   name: Func<T>
   nameWithType: Func<T>
   fullName: System.Func<T>
+  spec.csharp:
+  - uid: System.Func`1
+    name: Func
+    nameWithType: Func
+    fullName: Func<T>
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: T
+    name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
 - uid: System.Threading.LazyInitializer.EnsureInitialized``1(``0@,System.Boolean@,System.Object@)
   parent: System.Threading.LazyInitializer
   isExternal: false
   name: EnsureInitialized(T,Boolean,Object)
   nameWithType: LazyInitializer.EnsureInitialized(T,Boolean,Object)
   fullName: System.Threading.LazyInitializer.EnsureInitialized(T,Boolean,Object)
-- uid: T
-  parent: ''
-  isExternal: true
-  name: T
-  nameWithType: T
-  fullName: T
-- uid: T
-  parent: ''
-  isExternal: true
-  name: T
-  nameWithType: T
-  fullName: T
 - uid: System.Boolean
   parent: System
   isExternal: false
   name: Boolean
   nameWithType: Boolean
   fullName: System.Boolean
-- uid: System.Object
-  parent: System
-  isExternal: false
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
 - uid: System.Threading.LazyInitializer.EnsureInitialized``1(``0@,System.Boolean@,System.Object@,System.Func{``0})
   parent: System.Threading.LazyInitializer
   isExternal: false
   name: EnsureInitialized(T,Boolean,Object,Func<T>)
   nameWithType: LazyInitializer.EnsureInitialized(T,Boolean,Object,Func<T>)
   fullName: System.Threading.LazyInitializer.EnsureInitialized(T,Boolean,Object,Func<T>)
-- uid: T
-  parent: ''
-  isExternal: true
-  name: T
-  nameWithType: T
-  fullName: T
-- uid: T
-  parent: ''
-  isExternal: true
-  name: T
-  nameWithType: T
-  fullName: T
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
-- uid: System.Object
-  parent: System
-  isExternal: false
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
-- uid: System.Func{T}
-  parent: System
-  isExternal: false
-  name: Func<T>
-  nameWithType: Func<T>
-  fullName: System.Func<T>
 - uid: System.Threading.LazyInitializer.EnsureInitialized<T>*
   parent: System.Threading.LazyInitializer
   isExternal: false

@@ -48,6 +48,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.Diagnostics.SymbolStore.ISymbolScope.EndOffset*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -73,6 +74,7 @@ items:
       type: System.Diagnostics.SymbolStore.ISymbolScope[]
       description: To be added.
   overload: System.Diagnostics.SymbolStore.ISymbolScope.GetChildren*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -98,6 +100,7 @@ items:
       type: System.Diagnostics.SymbolStore.ISymbolVariable[]
       description: To be added.
   overload: System.Diagnostics.SymbolStore.ISymbolScope.GetLocals*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -123,6 +126,7 @@ items:
       type: System.Diagnostics.SymbolStore.ISymbolNamespace[]
       description: To be added.
   overload: System.Diagnostics.SymbolStore.ISymbolScope.GetNamespaces*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -147,6 +151,7 @@ items:
       type: System.Diagnostics.SymbolStore.ISymbolMethod
       description: To be added.
   overload: System.Diagnostics.SymbolStore.ISymbolScope.Method*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -171,6 +176,7 @@ items:
       type: System.Diagnostics.SymbolStore.ISymbolScope
       description: To be added.
   overload: System.Diagnostics.SymbolStore.ISymbolScope.Parent*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -195,6 +201,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.Diagnostics.SymbolStore.ISymbolScope.StartOffset*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -218,36 +225,60 @@ references:
   name: GetChildren()
   nameWithType: ISymbolScope.GetChildren()
   fullName: System.Diagnostics.SymbolStore.ISymbolScope.GetChildren()
-- uid: System.Diagnostics.SymbolStore.ISymbolScope
+- uid: System.Diagnostics.SymbolStore.ISymbolScope[]
   parent: System.Diagnostics.SymbolStore
   isExternal: false
   name: ISymbolScope
   nameWithType: ISymbolScope
   fullName: System.Diagnostics.SymbolStore.ISymbolScope[]
+  spec.csharp:
+  - uid: System.Diagnostics.SymbolStore.ISymbolScope
+    name: ISymbolScope
+    nameWithType: ISymbolScope
+    fullName: ISymbolScope[]
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
 - uid: System.Diagnostics.SymbolStore.ISymbolScope.GetLocals
   parent: System.Diagnostics.SymbolStore.ISymbolScope
   isExternal: false
   name: GetLocals()
   nameWithType: ISymbolScope.GetLocals()
   fullName: System.Diagnostics.SymbolStore.ISymbolScope.GetLocals()
-- uid: System.Diagnostics.SymbolStore.ISymbolVariable
+- uid: System.Diagnostics.SymbolStore.ISymbolVariable[]
   parent: System.Diagnostics.SymbolStore
   isExternal: false
   name: ISymbolVariable
   nameWithType: ISymbolVariable
   fullName: System.Diagnostics.SymbolStore.ISymbolVariable[]
+  spec.csharp:
+  - uid: System.Diagnostics.SymbolStore.ISymbolVariable
+    name: ISymbolVariable
+    nameWithType: ISymbolVariable
+    fullName: ISymbolVariable[]
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
 - uid: System.Diagnostics.SymbolStore.ISymbolScope.GetNamespaces
   parent: System.Diagnostics.SymbolStore.ISymbolScope
   isExternal: false
   name: GetNamespaces()
   nameWithType: ISymbolScope.GetNamespaces()
   fullName: System.Diagnostics.SymbolStore.ISymbolScope.GetNamespaces()
-- uid: System.Diagnostics.SymbolStore.ISymbolNamespace
+- uid: System.Diagnostics.SymbolStore.ISymbolNamespace[]
   parent: System.Diagnostics.SymbolStore
   isExternal: false
   name: ISymbolNamespace
   nameWithType: ISymbolNamespace
   fullName: System.Diagnostics.SymbolStore.ISymbolNamespace[]
+  spec.csharp:
+  - uid: System.Diagnostics.SymbolStore.ISymbolNamespace
+    name: ISymbolNamespace
+    nameWithType: ISymbolNamespace
+    fullName: ISymbolNamespace[]
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
 - uid: System.Diagnostics.SymbolStore.ISymbolScope.Method
   parent: System.Diagnostics.SymbolStore.ISymbolScope
   isExternal: false
@@ -278,12 +309,6 @@ references:
   name: StartOffset
   nameWithType: ISymbolScope.StartOffset
   fullName: System.Diagnostics.SymbolStore.ISymbolScope.StartOffset
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
 - uid: System.Diagnostics.SymbolStore.ISymbolScope.EndOffset*
   parent: System.Diagnostics.SymbolStore.ISymbolScope
   isExternal: false

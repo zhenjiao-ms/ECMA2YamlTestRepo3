@@ -63,6 +63,7 @@ items:
       type: System.String
       description: To be added.
   overload: System.Runtime.Remoting.ActivatedClientTypeEntry.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -94,6 +95,7 @@ items:
       type: System.String
       description: To be added.
   overload: System.Runtime.Remoting.ActivatedClientTypeEntry.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -118,6 +120,7 @@ items:
       type: System.String
       description: To be added.
   overload: System.Runtime.Remoting.ActivatedClientTypeEntry.ApplicationUrl*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -142,6 +145,7 @@ items:
       type: System.Runtime.Remoting.Contexts.IContextAttribute[]
       description: To be added.
   overload: System.Runtime.Remoting.ActivatedClientTypeEntry.ContextAttributes*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -166,6 +170,7 @@ items:
       type: System.Type
       description: To be added.
   overload: System.Runtime.Remoting.ActivatedClientTypeEntry.ObjectType*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -191,6 +196,7 @@ items:
       type: System.String
       description: To be added.
   overload: System.Runtime.Remoting.ActivatedClientTypeEntry.ToString*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -223,72 +229,44 @@ references:
   name: ActivatedClientTypeEntry(String,String,String)
   nameWithType: ActivatedClientTypeEntry.ActivatedClientTypeEntry(String,String,String)
   fullName: System.Runtime.Remoting.ActivatedClientTypeEntry.ActivatedClientTypeEntry(String,String,String)
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
 - uid: System.Runtime.Remoting.ActivatedClientTypeEntry.ApplicationUrl
   parent: System.Runtime.Remoting.ActivatedClientTypeEntry
   isExternal: false
   name: ApplicationUrl
   nameWithType: ActivatedClientTypeEntry.ApplicationUrl
   fullName: System.Runtime.Remoting.ActivatedClientTypeEntry.ApplicationUrl
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
 - uid: System.Runtime.Remoting.ActivatedClientTypeEntry.ContextAttributes
   parent: System.Runtime.Remoting.ActivatedClientTypeEntry
   isExternal: false
   name: ContextAttributes
   nameWithType: ActivatedClientTypeEntry.ContextAttributes
   fullName: System.Runtime.Remoting.ActivatedClientTypeEntry.ContextAttributes
-- uid: System.Runtime.Remoting.Contexts.IContextAttribute
+- uid: System.Runtime.Remoting.Contexts.IContextAttribute[]
   parent: System.Runtime.Remoting.Contexts
   isExternal: false
   name: IContextAttribute
   nameWithType: IContextAttribute
   fullName: System.Runtime.Remoting.Contexts.IContextAttribute[]
+  spec.csharp:
+  - uid: System.Runtime.Remoting.Contexts.IContextAttribute
+    name: IContextAttribute
+    nameWithType: IContextAttribute
+    fullName: IContextAttribute[]
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
 - uid: System.Runtime.Remoting.ActivatedClientTypeEntry.ObjectType
   parent: System.Runtime.Remoting.ActivatedClientTypeEntry
   isExternal: false
   name: ObjectType
   nameWithType: ActivatedClientTypeEntry.ObjectType
   fullName: System.Runtime.Remoting.ActivatedClientTypeEntry.ObjectType
-- uid: System.Type
-  parent: System
-  isExternal: false
-  name: Type
-  nameWithType: Type
-  fullName: System.Type
 - uid: System.Runtime.Remoting.ActivatedClientTypeEntry.ToString
   parent: System.Runtime.Remoting.ActivatedClientTypeEntry
   isExternal: false
   name: ToString()
   nameWithType: ActivatedClientTypeEntry.ToString()
   fullName: System.Runtime.Remoting.ActivatedClientTypeEntry.ToString()
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
 - uid: System.Runtime.Remoting.ActivatedClientTypeEntry.#ctor*
   parent: System.Runtime.Remoting.ActivatedClientTypeEntry
   isExternal: false

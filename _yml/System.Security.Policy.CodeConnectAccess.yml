@@ -64,6 +64,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.Security.Policy.CodeConnectAccess.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -87,6 +88,7 @@ items:
     return:
       type: System.String
       description: To be added.
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -115,6 +117,7 @@ items:
       type: System.Security.Policy.CodeConnectAccess
       description: To be added.
   overload: System.Security.Policy.CodeConnectAccess.CreateAnySchemeAccess*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -143,6 +146,7 @@ items:
       type: System.Security.Policy.CodeConnectAccess
       description: To be added.
   overload: System.Security.Policy.CodeConnectAccess.CreateOriginSchemeAccess*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -166,6 +170,7 @@ items:
     return:
       type: System.Int32
       description: To be added.
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -194,6 +199,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Security.Policy.CodeConnectAccess.Equals*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -219,6 +225,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.Security.Policy.CodeConnectAccess.GetHashCode*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -242,6 +249,7 @@ items:
     return:
       type: System.Int32
       description: To be added.
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -265,6 +273,7 @@ items:
     return:
       type: System.String
       description: To be added.
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -289,6 +298,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.Security.Policy.CodeConnectAccess.Port*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -313,6 +323,7 @@ items:
       type: System.String
       description: To be added.
   overload: System.Security.Policy.CodeConnectAccess.Scheme*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -345,12 +356,6 @@ references:
   name: AnyScheme
   nameWithType: CodeConnectAccess.AnyScheme
   fullName: System.Security.Policy.CodeConnectAccess.AnyScheme
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
 - uid: System.Security.Policy.CodeConnectAccess.CreateAnySchemeAccess(System.Int32)
   parent: System.Security.Policy.CodeConnectAccess
   isExternal: false
@@ -363,42 +368,18 @@ references:
   name: CodeConnectAccess
   nameWithType: CodeConnectAccess
   fullName: System.Security.Policy.CodeConnectAccess
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
 - uid: System.Security.Policy.CodeConnectAccess.CreateOriginSchemeAccess(System.Int32)
   parent: System.Security.Policy.CodeConnectAccess
   isExternal: false
   name: CreateOriginSchemeAccess(Int32)
   nameWithType: CodeConnectAccess.CreateOriginSchemeAccess(Int32)
   fullName: System.Security.Policy.CodeConnectAccess.CreateOriginSchemeAccess(Int32)
-- uid: System.Security.Policy.CodeConnectAccess
-  parent: System.Security.Policy
-  isExternal: false
-  name: CodeConnectAccess
-  nameWithType: CodeConnectAccess
-  fullName: System.Security.Policy.CodeConnectAccess
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
 - uid: System.Security.Policy.CodeConnectAccess.DefaultPort
   parent: System.Security.Policy.CodeConnectAccess
   isExternal: false
   name: DefaultPort
   nameWithType: CodeConnectAccess.DefaultPort
   fullName: System.Security.Policy.CodeConnectAccess.DefaultPort
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
 - uid: System.Security.Policy.CodeConnectAccess.Equals(System.Object)
   parent: System.Security.Policy.CodeConnectAccess
   isExternal: false
@@ -411,72 +392,36 @@ references:
   name: Boolean
   nameWithType: Boolean
   fullName: System.Boolean
-- uid: System.Object
-  parent: System
-  isExternal: false
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
 - uid: System.Security.Policy.CodeConnectAccess.GetHashCode
   parent: System.Security.Policy.CodeConnectAccess
   isExternal: false
   name: GetHashCode()
   nameWithType: CodeConnectAccess.GetHashCode()
   fullName: System.Security.Policy.CodeConnectAccess.GetHashCode()
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
 - uid: System.Security.Policy.CodeConnectAccess.OriginPort
   parent: System.Security.Policy.CodeConnectAccess
   isExternal: false
   name: OriginPort
   nameWithType: CodeConnectAccess.OriginPort
   fullName: System.Security.Policy.CodeConnectAccess.OriginPort
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
 - uid: System.Security.Policy.CodeConnectAccess.OriginScheme
   parent: System.Security.Policy.CodeConnectAccess
   isExternal: false
   name: OriginScheme
   nameWithType: CodeConnectAccess.OriginScheme
   fullName: System.Security.Policy.CodeConnectAccess.OriginScheme
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
 - uid: System.Security.Policy.CodeConnectAccess.Port
   parent: System.Security.Policy.CodeConnectAccess
   isExternal: false
   name: Port
   nameWithType: CodeConnectAccess.Port
   fullName: System.Security.Policy.CodeConnectAccess.Port
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
 - uid: System.Security.Policy.CodeConnectAccess.Scheme
   parent: System.Security.Policy.CodeConnectAccess
   isExternal: false
   name: Scheme
   nameWithType: CodeConnectAccess.Scheme
   fullName: System.Security.Policy.CodeConnectAccess.Scheme
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
 - uid: System.Security.Policy.CodeConnectAccess.#ctor*
   parent: System.Security.Policy.CodeConnectAccess
   isExternal: false

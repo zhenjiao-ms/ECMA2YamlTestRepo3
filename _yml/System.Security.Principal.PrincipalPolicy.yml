@@ -45,6 +45,7 @@ items:
     return:
       type: System.Security.Principal.PrincipalPolicy
       description: To be added.
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -67,6 +68,7 @@ items:
     return:
       type: System.Security.Principal.PrincipalPolicy
       description: To be added.
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -89,6 +91,7 @@ items:
     return:
       type: System.Security.Principal.PrincipalPolicy
       description: To be added.
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -115,21 +118,9 @@ references:
   name: UnauthenticatedPrincipal
   nameWithType: PrincipalPolicy.UnauthenticatedPrincipal
   fullName: System.Security.Principal.PrincipalPolicy.UnauthenticatedPrincipal
-- uid: System.Security.Principal.PrincipalPolicy
-  parent: System.Security.Principal
-  isExternal: false
-  name: PrincipalPolicy
-  nameWithType: PrincipalPolicy
-  fullName: System.Security.Principal.PrincipalPolicy
 - uid: System.Security.Principal.PrincipalPolicy.WindowsPrincipal
   parent: System.Security.Principal.PrincipalPolicy
   isExternal: false
   name: WindowsPrincipal
   nameWithType: PrincipalPolicy.WindowsPrincipal
   fullName: System.Security.Principal.PrincipalPolicy.WindowsPrincipal
-- uid: System.Security.Principal.PrincipalPolicy
-  parent: System.Security.Principal
-  isExternal: false
-  name: PrincipalPolicy
-  nameWithType: PrincipalPolicy
-  fullName: System.Security.Principal.PrincipalPolicy

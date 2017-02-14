@@ -76,6 +76,7 @@ items:
       type: System.Security.Permissions.PermissionState
       description: To be added.
   overload: System.Security.Permissions.RegistryPermission.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -104,6 +105,7 @@ items:
       type: System.String
       description: To be added.
   overload: System.Security.Permissions.RegistryPermission.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -135,6 +137,7 @@ items:
       type: System.String
       description: To be added.
   overload: System.Security.Permissions.RegistryPermission.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -163,6 +166,7 @@ items:
       type: System.String
       description: To be added.
   overload: System.Security.Permissions.RegistryPermission.AddPathList*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -194,6 +198,7 @@ items:
       type: System.String
       description: To be added.
   overload: System.Security.Permissions.RegistryPermission.AddPathList*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -219,6 +224,7 @@ items:
       type: System.Security.IPermission
       description: To be added.
   overload: System.Security.Permissions.RegistryPermission.Copy*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -244,6 +250,7 @@ items:
       type: System.Security.SecurityElement
       description: To be added.
   overload: System.Security.Permissions.RegistryPermission.FromXml*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -272,6 +279,7 @@ items:
       type: System.String
       description: To be added.
   overload: System.Security.Permissions.RegistryPermission.GetPathList*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -300,6 +308,7 @@ items:
       type: System.Security.IPermission
       description: To be added.
   overload: System.Security.Permissions.RegistryPermission.Intersect*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -328,6 +337,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Security.Permissions.RegistryPermission.IsSubsetOf*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -353,6 +363,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Security.Permissions.RegistryPermission.IsUnrestricted*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -381,6 +392,7 @@ items:
       type: System.String
       description: To be added.
   overload: System.Security.Permissions.RegistryPermission.SetPathList*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -406,6 +418,7 @@ items:
       type: System.Security.SecurityElement
       description: To be added.
   overload: System.Security.Permissions.RegistryPermission.ToXml*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -434,6 +447,7 @@ items:
       type: System.Security.IPermission
       description: To be added.
   overload: System.Security.Permissions.RegistryPermission.Union*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -478,66 +492,24 @@ references:
   name: RegistryPermission(RegistryPermissionAccess,AccessControlActions,String)
   nameWithType: RegistryPermission.RegistryPermission(RegistryPermissionAccess,AccessControlActions,String)
   fullName: System.Security.Permissions.RegistryPermission.RegistryPermission(RegistryPermissionAccess,AccessControlActions,String)
-- uid: System.Security.Permissions.RegistryPermissionAccess
-  parent: System.Security.Permissions
-  isExternal: false
-  name: RegistryPermissionAccess
-  nameWithType: RegistryPermissionAccess
-  fullName: System.Security.Permissions.RegistryPermissionAccess
 - uid: System.Security.AccessControl.AccessControlActions
   parent: System.Security.AccessControl
   isExternal: false
   name: AccessControlActions
   nameWithType: AccessControlActions
   fullName: System.Security.AccessControl.AccessControlActions
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
 - uid: System.Security.Permissions.RegistryPermission.AddPathList(System.Security.Permissions.RegistryPermissionAccess,System.String)
   parent: System.Security.Permissions.RegistryPermission
   isExternal: false
   name: AddPathList(RegistryPermissionAccess,String)
   nameWithType: RegistryPermission.AddPathList(RegistryPermissionAccess,String)
   fullName: System.Security.Permissions.RegistryPermission.AddPathList(RegistryPermissionAccess,String)
-- uid: System.Security.Permissions.RegistryPermissionAccess
-  parent: System.Security.Permissions
-  isExternal: false
-  name: RegistryPermissionAccess
-  nameWithType: RegistryPermissionAccess
-  fullName: System.Security.Permissions.RegistryPermissionAccess
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
 - uid: System.Security.Permissions.RegistryPermission.AddPathList(System.Security.Permissions.RegistryPermissionAccess,System.Security.AccessControl.AccessControlActions,System.String)
   parent: System.Security.Permissions.RegistryPermission
   isExternal: false
   name: AddPathList(RegistryPermissionAccess,AccessControlActions,String)
   nameWithType: RegistryPermission.AddPathList(RegistryPermissionAccess,AccessControlActions,String)
   fullName: System.Security.Permissions.RegistryPermission.AddPathList(RegistryPermissionAccess,AccessControlActions,String)
-- uid: System.Security.Permissions.RegistryPermissionAccess
-  parent: System.Security.Permissions
-  isExternal: false
-  name: RegistryPermissionAccess
-  nameWithType: RegistryPermissionAccess
-  fullName: System.Security.Permissions.RegistryPermissionAccess
-- uid: System.Security.AccessControl.AccessControlActions
-  parent: System.Security.AccessControl
-  isExternal: false
-  name: AccessControlActions
-  nameWithType: AccessControlActions
-  fullName: System.Security.AccessControl.AccessControlActions
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
 - uid: System.Security.Permissions.RegistryPermission.Copy
   parent: System.Security.Permissions.RegistryPermission
   isExternal: false
@@ -568,36 +540,12 @@ references:
   name: GetPathList(RegistryPermissionAccess)
   nameWithType: RegistryPermission.GetPathList(RegistryPermissionAccess)
   fullName: System.Security.Permissions.RegistryPermission.GetPathList(RegistryPermissionAccess)
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
-- uid: System.Security.Permissions.RegistryPermissionAccess
-  parent: System.Security.Permissions
-  isExternal: false
-  name: RegistryPermissionAccess
-  nameWithType: RegistryPermissionAccess
-  fullName: System.Security.Permissions.RegistryPermissionAccess
 - uid: System.Security.Permissions.RegistryPermission.Intersect(System.Security.IPermission)
   parent: System.Security.Permissions.RegistryPermission
   isExternal: false
   name: Intersect(IPermission)
   nameWithType: RegistryPermission.Intersect(IPermission)
   fullName: System.Security.Permissions.RegistryPermission.Intersect(IPermission)
-- uid: System.Security.IPermission
-  parent: System.Security
-  isExternal: false
-  name: IPermission
-  nameWithType: IPermission
-  fullName: System.Security.IPermission
-- uid: System.Security.IPermission
-  parent: System.Security
-  isExternal: false
-  name: IPermission
-  nameWithType: IPermission
-  fullName: System.Security.IPermission
 - uid: System.Security.Permissions.RegistryPermission.IsSubsetOf(System.Security.IPermission)
   parent: System.Security.Permissions.RegistryPermission
   isExternal: false
@@ -610,72 +558,30 @@ references:
   name: Boolean
   nameWithType: Boolean
   fullName: System.Boolean
-- uid: System.Security.IPermission
-  parent: System.Security
-  isExternal: false
-  name: IPermission
-  nameWithType: IPermission
-  fullName: System.Security.IPermission
 - uid: System.Security.Permissions.RegistryPermission.IsUnrestricted
   parent: System.Security.Permissions.RegistryPermission
   isExternal: false
   name: IsUnrestricted()
   nameWithType: RegistryPermission.IsUnrestricted()
   fullName: System.Security.Permissions.RegistryPermission.IsUnrestricted()
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
 - uid: System.Security.Permissions.RegistryPermission.SetPathList(System.Security.Permissions.RegistryPermissionAccess,System.String)
   parent: System.Security.Permissions.RegistryPermission
   isExternal: false
   name: SetPathList(RegistryPermissionAccess,String)
   nameWithType: RegistryPermission.SetPathList(RegistryPermissionAccess,String)
   fullName: System.Security.Permissions.RegistryPermission.SetPathList(RegistryPermissionAccess,String)
-- uid: System.Security.Permissions.RegistryPermissionAccess
-  parent: System.Security.Permissions
-  isExternal: false
-  name: RegistryPermissionAccess
-  nameWithType: RegistryPermissionAccess
-  fullName: System.Security.Permissions.RegistryPermissionAccess
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
 - uid: System.Security.Permissions.RegistryPermission.ToXml
   parent: System.Security.Permissions.RegistryPermission
   isExternal: false
   name: ToXml()
   nameWithType: RegistryPermission.ToXml()
   fullName: System.Security.Permissions.RegistryPermission.ToXml()
-- uid: System.Security.SecurityElement
-  parent: System.Security
-  isExternal: false
-  name: SecurityElement
-  nameWithType: SecurityElement
-  fullName: System.Security.SecurityElement
 - uid: System.Security.Permissions.RegistryPermission.Union(System.Security.IPermission)
   parent: System.Security.Permissions.RegistryPermission
   isExternal: false
   name: Union(IPermission)
   nameWithType: RegistryPermission.Union(IPermission)
   fullName: System.Security.Permissions.RegistryPermission.Union(IPermission)
-- uid: System.Security.IPermission
-  parent: System.Security
-  isExternal: false
-  name: IPermission
-  nameWithType: IPermission
-  fullName: System.Security.IPermission
-- uid: System.Security.IPermission
-  parent: System.Security
-  isExternal: false
-  name: IPermission
-  nameWithType: IPermission
-  fullName: System.Security.IPermission
 - uid: System.Security.Permissions.RegistryPermission.#ctor*
   parent: System.Security.Permissions.RegistryPermission
   isExternal: false

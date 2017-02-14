@@ -62,6 +62,7 @@ items:
       type: System.Object
       description: To be added.
   overload: System.Runtime.InteropServices.ITypeLibConverter.ConvertAssemblyToTypeLib*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -108,6 +109,7 @@ items:
       type: System.Reflection.Emit.AssemblyBuilder
       description: To be added.
   overload: System.Runtime.InteropServices.ITypeLibConverter.ConvertTypeLibToAssembly*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -157,6 +159,7 @@ items:
       type: System.Reflection.Emit.AssemblyBuilder
       description: To be added.
   overload: System.Runtime.InteropServices.ITypeLibConverter.ConvertTypeLibToAssembly*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -200,6 +203,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Runtime.InteropServices.ITypeLibConverter.GetPrimaryInteropAssembly*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -253,18 +257,6 @@ references:
   name: AssemblyBuilder
   nameWithType: AssemblyBuilder
   fullName: System.Reflection.Emit.AssemblyBuilder
-- uid: System.Object
-  parent: System
-  isExternal: false
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
 - uid: System.Int32
   parent: System
   isExternal: false
@@ -277,12 +269,20 @@ references:
   name: ITypeLibImporterNotifySink
   nameWithType: ITypeLibImporterNotifySink
   fullName: System.Runtime.InteropServices.ITypeLibImporterNotifySink
-- uid: System.Byte
+- uid: System.Byte[]
   parent: System
   isExternal: false
   name: Byte
   nameWithType: Byte
   fullName: System.Byte[]
+  spec.csharp:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: Byte[]
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
 - uid: System.Reflection.StrongNameKeyPair
   parent: System.Reflection
   isExternal: false
@@ -301,54 +301,12 @@ references:
   name: ConvertTypeLibToAssembly(Object,String,TypeLibImporterFlags,ITypeLibImporterNotifySink,Byte[],StrongNameKeyPair,String,Version)
   nameWithType: ITypeLibConverter.ConvertTypeLibToAssembly(Object,String,TypeLibImporterFlags,ITypeLibImporterNotifySink,Byte[],StrongNameKeyPair,String,Version)
   fullName: System.Runtime.InteropServices.ITypeLibConverter.ConvertTypeLibToAssembly(Object,String,TypeLibImporterFlags,ITypeLibImporterNotifySink,Byte[],StrongNameKeyPair,String,Version)
-- uid: System.Reflection.Emit.AssemblyBuilder
-  parent: System.Reflection.Emit
-  isExternal: false
-  name: AssemblyBuilder
-  nameWithType: AssemblyBuilder
-  fullName: System.Reflection.Emit.AssemblyBuilder
-- uid: System.Object
-  parent: System
-  isExternal: false
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
 - uid: System.Runtime.InteropServices.TypeLibImporterFlags
   parent: System.Runtime.InteropServices
   isExternal: false
   name: TypeLibImporterFlags
   nameWithType: TypeLibImporterFlags
   fullName: System.Runtime.InteropServices.TypeLibImporterFlags
-- uid: System.Runtime.InteropServices.ITypeLibImporterNotifySink
-  parent: System.Runtime.InteropServices
-  isExternal: false
-  name: ITypeLibImporterNotifySink
-  nameWithType: ITypeLibImporterNotifySink
-  fullName: System.Runtime.InteropServices.ITypeLibImporterNotifySink
-- uid: System.Byte
-  parent: System
-  isExternal: false
-  name: Byte
-  nameWithType: Byte
-  fullName: System.Byte[]
-- uid: System.Reflection.StrongNameKeyPair
-  parent: System.Reflection
-  isExternal: false
-  name: StrongNameKeyPair
-  nameWithType: StrongNameKeyPair
-  fullName: System.Reflection.StrongNameKeyPair
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
 - uid: System.Version
   parent: System
   isExternal: false
@@ -361,48 +319,12 @@ references:
   name: GetPrimaryInteropAssembly(Guid,Int32,Int32,Int32,String,String)
   nameWithType: ITypeLibConverter.GetPrimaryInteropAssembly(Guid,Int32,Int32,Int32,String,String)
   fullName: System.Runtime.InteropServices.ITypeLibConverter.GetPrimaryInteropAssembly(Guid,Int32,Int32,Int32,String,String)
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
 - uid: System.Guid
   parent: System
   isExternal: false
   name: Guid
   nameWithType: Guid
   fullName: System.Guid
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
 - uid: System.Runtime.InteropServices.ITypeLibConverter.ConvertAssemblyToTypeLib*
   parent: System.Runtime.InteropServices.ITypeLibConverter
   isExternal: false

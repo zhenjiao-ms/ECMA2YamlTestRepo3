@@ -62,6 +62,7 @@ items:
       type: System.String
       description: To be added.
   overload: System.Security.Principal.NTAccount.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -90,6 +91,7 @@ items:
       type: System.String
       description: To be added.
   overload: System.Security.Principal.NTAccount.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -118,6 +120,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Security.Principal.NTAccount.Equals*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -143,6 +146,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.Security.Principal.NTAccount.GetHashCode*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -171,6 +175,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Security.Principal.NTAccount.IsValidTargetType*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -202,6 +207,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Security.Principal.NTAccount.op_Equality*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -233,6 +239,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Security.Principal.NTAccount.op_Inequality*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -258,6 +265,7 @@ items:
       type: System.String
       description: To be added.
   overload: System.Security.Principal.NTAccount.ToString*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -286,6 +294,7 @@ items:
       type: System.Security.Principal.IdentityReference
       description: To be added.
   overload: System.Security.Principal.NTAccount.Translate*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -310,6 +319,7 @@ items:
       type: System.String
       description: To be added.
   overload: System.Security.Principal.NTAccount.Value*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -336,18 +346,6 @@ references:
   name: NTAccount(String,String)
   nameWithType: NTAccount.NTAccount(String,String)
   fullName: System.Security.Principal.NTAccount.NTAccount(String,String)
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
 - uid: System.Security.Principal.NTAccount.Equals(System.Object)
   parent: System.Security.Principal.NTAccount
   isExternal: false
@@ -384,12 +382,6 @@ references:
   name: IsValidTargetType(Type)
   nameWithType: NTAccount.IsValidTargetType(Type)
   fullName: System.Security.Principal.NTAccount.IsValidTargetType(Type)
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
 - uid: System.Type
   parent: System
   isExternal: false
@@ -402,18 +394,6 @@ references:
   name: op_Equality(NTAccount,NTAccount)
   nameWithType: NTAccount.op_Equality(NTAccount,NTAccount)
   fullName: System.Security.Principal.NTAccount.op_Equality(NTAccount,NTAccount)
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
-- uid: System.Security.Principal.NTAccount
-  parent: System.Security.Principal
-  isExternal: false
-  name: NTAccount
-  nameWithType: NTAccount
-  fullName: System.Security.Principal.NTAccount
 - uid: System.Security.Principal.NTAccount
   parent: System.Security.Principal
   isExternal: false
@@ -426,66 +406,24 @@ references:
   name: op_Inequality(NTAccount,NTAccount)
   nameWithType: NTAccount.op_Inequality(NTAccount,NTAccount)
   fullName: System.Security.Principal.NTAccount.op_Inequality(NTAccount,NTAccount)
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
-- uid: System.Security.Principal.NTAccount
-  parent: System.Security.Principal
-  isExternal: false
-  name: NTAccount
-  nameWithType: NTAccount
-  fullName: System.Security.Principal.NTAccount
-- uid: System.Security.Principal.NTAccount
-  parent: System.Security.Principal
-  isExternal: false
-  name: NTAccount
-  nameWithType: NTAccount
-  fullName: System.Security.Principal.NTAccount
 - uid: System.Security.Principal.NTAccount.ToString
   parent: System.Security.Principal.NTAccount
   isExternal: false
   name: ToString()
   nameWithType: NTAccount.ToString()
   fullName: System.Security.Principal.NTAccount.ToString()
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
 - uid: System.Security.Principal.NTAccount.Translate(System.Type)
   parent: System.Security.Principal.NTAccount
   isExternal: false
   name: Translate(Type)
   nameWithType: NTAccount.Translate(Type)
   fullName: System.Security.Principal.NTAccount.Translate(Type)
-- uid: System.Security.Principal.IdentityReference
-  parent: System.Security.Principal
-  isExternal: false
-  name: IdentityReference
-  nameWithType: IdentityReference
-  fullName: System.Security.Principal.IdentityReference
-- uid: System.Type
-  parent: System
-  isExternal: false
-  name: Type
-  nameWithType: Type
-  fullName: System.Type
 - uid: System.Security.Principal.NTAccount.Value
   parent: System.Security.Principal.NTAccount
   isExternal: false
   name: Value
   nameWithType: NTAccount.Value
   fullName: System.Security.Principal.NTAccount.Value
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
 - uid: System.Security.Principal.NTAccount.#ctor*
   parent: System.Security.Principal.NTAccount
   isExternal: false

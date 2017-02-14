@@ -54,6 +54,7 @@ items:
     return:
       type: System.Runtime.InteropServices.FILETIME
       description: To be added.
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -77,6 +78,7 @@ items:
     return:
       type: System.Int64
       description: To be added.
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -100,6 +102,7 @@ items:
     return:
       type: System.Guid
       description: To be added.
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -123,6 +126,7 @@ items:
     return:
       type: System.Runtime.InteropServices.FILETIME
       description: To be added.
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -146,6 +150,7 @@ items:
     return:
       type: System.Int32
       description: To be added.
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -169,6 +174,7 @@ items:
     return:
       type: System.Int32
       description: To be added.
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -192,6 +198,7 @@ items:
     return:
       type: System.Int32
       description: To be added.
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -215,6 +222,7 @@ items:
     return:
       type: System.Runtime.InteropServices.FILETIME
       description: To be added.
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -238,6 +246,7 @@ items:
     return:
       type: System.String
       description: To be added.
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -261,6 +270,7 @@ items:
     return:
       type: System.Int32
       description: To be added.
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -284,6 +294,7 @@ items:
     return:
       type: System.Int32
       description: To be added.
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -334,12 +345,6 @@ references:
   name: ctime
   nameWithType: STATSTG.ctime
   fullName: System.Runtime.InteropServices.STATSTG.ctime
-- uid: System.Runtime.InteropServices.FILETIME
-  parent: System.Runtime.InteropServices
-  isExternal: false
-  name: FILETIME
-  nameWithType: FILETIME
-  fullName: System.Runtime.InteropServices.FILETIME
 - uid: System.Runtime.InteropServices.STATSTG.grfLocksSupported
   parent: System.Runtime.InteropServices.STATSTG
   isExternal: false
@@ -358,36 +363,18 @@ references:
   name: grfMode
   nameWithType: STATSTG.grfMode
   fullName: System.Runtime.InteropServices.STATSTG.grfMode
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
 - uid: System.Runtime.InteropServices.STATSTG.grfStateBits
   parent: System.Runtime.InteropServices.STATSTG
   isExternal: false
   name: grfStateBits
   nameWithType: STATSTG.grfStateBits
   fullName: System.Runtime.InteropServices.STATSTG.grfStateBits
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
 - uid: System.Runtime.InteropServices.STATSTG.mtime
   parent: System.Runtime.InteropServices.STATSTG
   isExternal: false
   name: mtime
   nameWithType: STATSTG.mtime
   fullName: System.Runtime.InteropServices.STATSTG.mtime
-- uid: System.Runtime.InteropServices.FILETIME
-  parent: System.Runtime.InteropServices
-  isExternal: false
-  name: FILETIME
-  nameWithType: FILETIME
-  fullName: System.Runtime.InteropServices.FILETIME
 - uid: System.Runtime.InteropServices.STATSTG.pwcsName
   parent: System.Runtime.InteropServices.STATSTG
   isExternal: false
@@ -406,21 +393,9 @@ references:
   name: reserved
   nameWithType: STATSTG.reserved
   fullName: System.Runtime.InteropServices.STATSTG.reserved
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
 - uid: System.Runtime.InteropServices.STATSTG.type
   parent: System.Runtime.InteropServices.STATSTG
   isExternal: false
   name: type
   nameWithType: STATSTG.type
   fullName: System.Runtime.InteropServices.STATSTG.type
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32

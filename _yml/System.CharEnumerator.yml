@@ -60,6 +60,7 @@ items:
       type: System.Object
       description: To be added.
   overload: System.CharEnumerator.Clone*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -84,6 +85,7 @@ items:
       type: System.Char
       description: To be added.
   overload: System.CharEnumerator.Current*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -106,6 +108,7 @@ items:
     content: public void Dispose ();
     parameters: []
   overload: System.CharEnumerator.Dispose*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -131,6 +134,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.CharEnumerator.MoveNext*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -153,6 +157,7 @@ items:
     content: public void Reset ();
     parameters: []
   overload: System.CharEnumerator.Reset*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -178,6 +183,7 @@ items:
       type: System.Object
       description: To be added.
   overload: System.CharEnumerator.System#Collections#IEnumerator#Current*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -192,12 +198,6 @@ references:
   name: Clone()
   nameWithType: CharEnumerator.Clone()
   fullName: System.CharEnumerator.Clone()
-- uid: System.Object
-  parent: System
-  isExternal: false
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
 - uid: System.CharEnumerator.Current
   parent: System.CharEnumerator
   isExternal: false
@@ -240,12 +240,6 @@ references:
   name: System.Collections.IEnumerator.Current
   nameWithType: CharEnumerator.System.Collections.IEnumerator.Current
   fullName: System.CharEnumerator.System.Collections.IEnumerator.Current
-- uid: System.Object
-  parent: System
-  isExternal: false
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
 - uid: System.CharEnumerator.Clone*
   parent: System.CharEnumerator
   isExternal: false

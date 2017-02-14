@@ -51,6 +51,7 @@ items:
       type: System.Runtime.Serialization.StreamingContextStates
       description: To be added.
   overload: System.Runtime.Serialization.StreamingContext.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -79,6 +80,7 @@ items:
       type: System.Object
       description: To be added.
   overload: System.Runtime.Serialization.StreamingContext.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -103,6 +105,7 @@ items:
       type: System.Object
       description: To be added.
   overload: System.Runtime.Serialization.StreamingContext.Context*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -131,6 +134,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Runtime.Serialization.StreamingContext.Equals*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -156,6 +160,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.Runtime.Serialization.StreamingContext.GetHashCode*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -180,6 +185,7 @@ items:
       type: System.Runtime.Serialization.StreamingContextStates
       description: To be added.
   overload: System.Runtime.Serialization.StreamingContext.State*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -206,12 +212,6 @@ references:
   name: StreamingContext(StreamingContextStates,Object)
   nameWithType: StreamingContext.StreamingContext(StreamingContextStates,Object)
   fullName: System.Runtime.Serialization.StreamingContext.StreamingContext(StreamingContextStates,Object)
-- uid: System.Runtime.Serialization.StreamingContextStates
-  parent: System.Runtime.Serialization
-  isExternal: false
-  name: StreamingContextStates
-  nameWithType: StreamingContextStates
-  fullName: System.Runtime.Serialization.StreamingContextStates
 - uid: System.Object
   parent: System
   isExternal: false
@@ -224,12 +224,6 @@ references:
   name: Context
   nameWithType: StreamingContext.Context
   fullName: System.Runtime.Serialization.StreamingContext.Context
-- uid: System.Object
-  parent: System
-  isExternal: false
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
 - uid: System.Runtime.Serialization.StreamingContext.Equals(System.Object)
   parent: System.Runtime.Serialization.StreamingContext
   isExternal: false
@@ -242,12 +236,6 @@ references:
   name: Boolean
   nameWithType: Boolean
   fullName: System.Boolean
-- uid: System.Object
-  parent: System
-  isExternal: false
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
 - uid: System.Runtime.Serialization.StreamingContext.GetHashCode
   parent: System.Runtime.Serialization.StreamingContext
   isExternal: false
@@ -266,12 +254,6 @@ references:
   name: State
   nameWithType: StreamingContext.State
   fullName: System.Runtime.Serialization.StreamingContext.State
-- uid: System.Runtime.Serialization.StreamingContextStates
-  parent: System.Runtime.Serialization
-  isExternal: false
-  name: StreamingContextStates
-  nameWithType: StreamingContextStates
-  fullName: System.Runtime.Serialization.StreamingContextStates
 - uid: System.Runtime.Serialization.StreamingContext.#ctor*
   parent: System.Runtime.Serialization.StreamingContext
   isExternal: false

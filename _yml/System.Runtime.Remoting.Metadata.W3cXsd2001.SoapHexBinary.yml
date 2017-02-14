@@ -56,6 +56,7 @@ items:
     content: public SoapHexBinary ();
     parameters: []
   overload: System.Runtime.Remoting.Metadata.W3cXsd2001.SoapHexBinary.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -81,6 +82,7 @@ items:
       type: System.Byte[]
       description: To be added.
   overload: System.Runtime.Remoting.Metadata.W3cXsd2001.SoapHexBinary.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -106,6 +108,7 @@ items:
       type: System.String
       description: To be added.
   overload: System.Runtime.Remoting.Metadata.W3cXsd2001.SoapHexBinary.GetXsdType*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -134,6 +137,7 @@ items:
       type: System.Runtime.Remoting.Metadata.W3cXsd2001.SoapHexBinary
       description: To be added.
   overload: System.Runtime.Remoting.Metadata.W3cXsd2001.SoapHexBinary.Parse*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -159,6 +163,7 @@ items:
       type: System.String
       description: To be added.
   overload: System.Runtime.Remoting.Metadata.W3cXsd2001.SoapHexBinary.ToString*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -183,6 +188,7 @@ items:
       type: System.Byte[]
       description: To be added.
   overload: System.Runtime.Remoting.Metadata.W3cXsd2001.SoapHexBinary.Value*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -207,6 +213,7 @@ items:
       type: System.String
       description: To be added.
   overload: System.Runtime.Remoting.Metadata.W3cXsd2001.SoapHexBinary.XsdType*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -227,12 +234,20 @@ references:
   name: SoapHexBinary(Byte[])
   nameWithType: SoapHexBinary.SoapHexBinary(Byte[])
   fullName: System.Runtime.Remoting.Metadata.W3cXsd2001.SoapHexBinary.SoapHexBinary(Byte[])
-- uid: System.Byte
+- uid: System.Byte[]
   parent: System
   isExternal: false
   name: Byte
   nameWithType: Byte
   fullName: System.Byte[]
+  spec.csharp:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: Byte[]
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
 - uid: System.Runtime.Remoting.Metadata.W3cXsd2001.SoapHexBinary.GetXsdType
   parent: System.Runtime.Remoting.Metadata.W3cXsd2001.SoapHexBinary
   isExternal: false
@@ -257,48 +272,24 @@ references:
   name: SoapHexBinary
   nameWithType: SoapHexBinary
   fullName: System.Runtime.Remoting.Metadata.W3cXsd2001.SoapHexBinary
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
 - uid: System.Runtime.Remoting.Metadata.W3cXsd2001.SoapHexBinary.ToString
   parent: System.Runtime.Remoting.Metadata.W3cXsd2001.SoapHexBinary
   isExternal: false
   name: ToString()
   nameWithType: SoapHexBinary.ToString()
   fullName: System.Runtime.Remoting.Metadata.W3cXsd2001.SoapHexBinary.ToString()
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
 - uid: System.Runtime.Remoting.Metadata.W3cXsd2001.SoapHexBinary.Value
   parent: System.Runtime.Remoting.Metadata.W3cXsd2001.SoapHexBinary
   isExternal: false
   name: Value
   nameWithType: SoapHexBinary.Value
   fullName: System.Runtime.Remoting.Metadata.W3cXsd2001.SoapHexBinary.Value
-- uid: System.Byte
-  parent: System
-  isExternal: false
-  name: Byte
-  nameWithType: Byte
-  fullName: System.Byte[]
 - uid: System.Runtime.Remoting.Metadata.W3cXsd2001.SoapHexBinary.XsdType
   parent: System.Runtime.Remoting.Metadata.W3cXsd2001.SoapHexBinary
   isExternal: false
   name: XsdType
   nameWithType: SoapHexBinary.XsdType
   fullName: System.Runtime.Remoting.Metadata.W3cXsd2001.SoapHexBinary.XsdType
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
 - uid: System.Runtime.Remoting.Metadata.W3cXsd2001.SoapHexBinary.#ctor*
   parent: System.Runtime.Remoting.Metadata.W3cXsd2001.SoapHexBinary
   isExternal: false

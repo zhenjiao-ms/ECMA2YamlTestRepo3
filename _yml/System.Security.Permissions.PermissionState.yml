@@ -44,6 +44,7 @@ items:
     return:
       type: System.Security.Permissions.PermissionState
       description: To be added.
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -66,6 +67,7 @@ items:
     return:
       type: System.Security.Permissions.PermissionState
       description: To be added.
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -92,9 +94,3 @@ references:
   name: Unrestricted
   nameWithType: PermissionState.Unrestricted
   fullName: System.Security.Permissions.PermissionState.Unrestricted
-- uid: System.Security.Permissions.PermissionState
-  parent: System.Security.Permissions
-  isExternal: false
-  name: PermissionState
-  nameWithType: PermissionState
-  fullName: System.Security.Permissions.PermissionState

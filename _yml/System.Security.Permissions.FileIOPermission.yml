@@ -81,6 +81,7 @@ items:
       type: System.Security.Permissions.PermissionState
       description: To be added.
   overload: System.Security.Permissions.FileIOPermission.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -109,6 +110,7 @@ items:
       type: System.String
       description: To be added.
   overload: System.Security.Permissions.FileIOPermission.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -137,6 +139,7 @@ items:
       type: System.String[]
       description: To be added.
   overload: System.Security.Permissions.FileIOPermission.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -168,6 +171,7 @@ items:
       type: System.String
       description: To be added.
   overload: System.Security.Permissions.FileIOPermission.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -199,6 +203,7 @@ items:
       type: System.String[]
       description: To be added.
   overload: System.Security.Permissions.FileIOPermission.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -227,6 +232,7 @@ items:
       type: System.String
       description: To be added.
   overload: System.Security.Permissions.FileIOPermission.AddPathList*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -255,6 +261,7 @@ items:
       type: System.String[]
       description: To be added.
   overload: System.Security.Permissions.FileIOPermission.AddPathList*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -279,6 +286,7 @@ items:
       type: System.Security.Permissions.FileIOPermissionAccess
       description: To be added.
   overload: System.Security.Permissions.FileIOPermission.AllFiles*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -303,6 +311,7 @@ items:
       type: System.Security.Permissions.FileIOPermissionAccess
       description: To be added.
   overload: System.Security.Permissions.FileIOPermission.AllLocalFiles*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -328,6 +337,7 @@ items:
       type: System.Security.IPermission
       description: To be added.
   overload: System.Security.Permissions.FileIOPermission.Copy*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -356,6 +366,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Security.Permissions.FileIOPermission.Equals*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -381,6 +392,7 @@ items:
       type: System.Security.SecurityElement
       description: To be added.
   overload: System.Security.Permissions.FileIOPermission.FromXml*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -406,6 +418,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.Security.Permissions.FileIOPermission.GetHashCode*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -434,6 +447,7 @@ items:
       type: System.String[]
       description: To be added.
   overload: System.Security.Permissions.FileIOPermission.GetPathList*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -462,6 +476,7 @@ items:
       type: System.Security.IPermission
       description: To be added.
   overload: System.Security.Permissions.FileIOPermission.Intersect*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -490,6 +505,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Security.Permissions.FileIOPermission.IsSubsetOf*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -515,6 +531,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Security.Permissions.FileIOPermission.IsUnrestricted*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -543,6 +560,7 @@ items:
       type: System.String
       description: To be added.
   overload: System.Security.Permissions.FileIOPermission.SetPathList*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -571,6 +589,7 @@ items:
       type: System.String[]
       description: To be added.
   overload: System.Security.Permissions.FileIOPermission.SetPathList*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -596,6 +615,7 @@ items:
       type: System.Security.SecurityElement
       description: To be added.
   overload: System.Security.Permissions.FileIOPermission.ToXml*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -624,6 +644,7 @@ items:
       type: System.Security.IPermission
       description: To be added.
   overload: System.Security.Permissions.FileIOPermission.Union*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -668,126 +689,62 @@ references:
   name: FileIOPermission(FileIOPermissionAccess,String[])
   nameWithType: FileIOPermission.FileIOPermission(FileIOPermissionAccess,String[])
   fullName: System.Security.Permissions.FileIOPermission.FileIOPermission(FileIOPermissionAccess,String[])
-- uid: System.Security.Permissions.FileIOPermissionAccess
-  parent: System.Security.Permissions
-  isExternal: false
-  name: FileIOPermissionAccess
-  nameWithType: FileIOPermissionAccess
-  fullName: System.Security.Permissions.FileIOPermissionAccess
-- uid: System.String
+- uid: System.String[]
   parent: System
   isExternal: false
   name: String
   nameWithType: String
   fullName: System.String[]
+  spec.csharp:
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: String[]
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
 - uid: System.Security.Permissions.FileIOPermission.#ctor(System.Security.Permissions.FileIOPermissionAccess,System.Security.AccessControl.AccessControlActions,System.String)
   parent: System.Security.Permissions.FileIOPermission
   isExternal: false
   name: FileIOPermission(FileIOPermissionAccess,AccessControlActions,String)
   nameWithType: FileIOPermission.FileIOPermission(FileIOPermissionAccess,AccessControlActions,String)
   fullName: System.Security.Permissions.FileIOPermission.FileIOPermission(FileIOPermissionAccess,AccessControlActions,String)
-- uid: System.Security.Permissions.FileIOPermissionAccess
-  parent: System.Security.Permissions
-  isExternal: false
-  name: FileIOPermissionAccess
-  nameWithType: FileIOPermissionAccess
-  fullName: System.Security.Permissions.FileIOPermissionAccess
 - uid: System.Security.AccessControl.AccessControlActions
   parent: System.Security.AccessControl
   isExternal: false
   name: AccessControlActions
   nameWithType: AccessControlActions
   fullName: System.Security.AccessControl.AccessControlActions
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
 - uid: System.Security.Permissions.FileIOPermission.#ctor(System.Security.Permissions.FileIOPermissionAccess,System.Security.AccessControl.AccessControlActions,System.String[])
   parent: System.Security.Permissions.FileIOPermission
   isExternal: false
   name: FileIOPermission(FileIOPermissionAccess,AccessControlActions,String[])
   nameWithType: FileIOPermission.FileIOPermission(FileIOPermissionAccess,AccessControlActions,String[])
   fullName: System.Security.Permissions.FileIOPermission.FileIOPermission(FileIOPermissionAccess,AccessControlActions,String[])
-- uid: System.Security.Permissions.FileIOPermissionAccess
-  parent: System.Security.Permissions
-  isExternal: false
-  name: FileIOPermissionAccess
-  nameWithType: FileIOPermissionAccess
-  fullName: System.Security.Permissions.FileIOPermissionAccess
-- uid: System.Security.AccessControl.AccessControlActions
-  parent: System.Security.AccessControl
-  isExternal: false
-  name: AccessControlActions
-  nameWithType: AccessControlActions
-  fullName: System.Security.AccessControl.AccessControlActions
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String[]
 - uid: System.Security.Permissions.FileIOPermission.AddPathList(System.Security.Permissions.FileIOPermissionAccess,System.String)
   parent: System.Security.Permissions.FileIOPermission
   isExternal: false
   name: AddPathList(FileIOPermissionAccess,String)
   nameWithType: FileIOPermission.AddPathList(FileIOPermissionAccess,String)
   fullName: System.Security.Permissions.FileIOPermission.AddPathList(FileIOPermissionAccess,String)
-- uid: System.Security.Permissions.FileIOPermissionAccess
-  parent: System.Security.Permissions
-  isExternal: false
-  name: FileIOPermissionAccess
-  nameWithType: FileIOPermissionAccess
-  fullName: System.Security.Permissions.FileIOPermissionAccess
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
 - uid: System.Security.Permissions.FileIOPermission.AddPathList(System.Security.Permissions.FileIOPermissionAccess,System.String[])
   parent: System.Security.Permissions.FileIOPermission
   isExternal: false
   name: AddPathList(FileIOPermissionAccess,String[])
   nameWithType: FileIOPermission.AddPathList(FileIOPermissionAccess,String[])
   fullName: System.Security.Permissions.FileIOPermission.AddPathList(FileIOPermissionAccess,String[])
-- uid: System.Security.Permissions.FileIOPermissionAccess
-  parent: System.Security.Permissions
-  isExternal: false
-  name: FileIOPermissionAccess
-  nameWithType: FileIOPermissionAccess
-  fullName: System.Security.Permissions.FileIOPermissionAccess
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String[]
 - uid: System.Security.Permissions.FileIOPermission.AllFiles
   parent: System.Security.Permissions.FileIOPermission
   isExternal: false
   name: AllFiles
   nameWithType: FileIOPermission.AllFiles
   fullName: System.Security.Permissions.FileIOPermission.AllFiles
-- uid: System.Security.Permissions.FileIOPermissionAccess
-  parent: System.Security.Permissions
-  isExternal: false
-  name: FileIOPermissionAccess
-  nameWithType: FileIOPermissionAccess
-  fullName: System.Security.Permissions.FileIOPermissionAccess
 - uid: System.Security.Permissions.FileIOPermission.AllLocalFiles
   parent: System.Security.Permissions.FileIOPermission
   isExternal: false
   name: AllLocalFiles
   nameWithType: FileIOPermission.AllLocalFiles
   fullName: System.Security.Permissions.FileIOPermission.AllLocalFiles
-- uid: System.Security.Permissions.FileIOPermissionAccess
-  parent: System.Security.Permissions
-  isExternal: false
-  name: FileIOPermissionAccess
-  nameWithType: FileIOPermissionAccess
-  fullName: System.Security.Permissions.FileIOPermissionAccess
 - uid: System.Security.Permissions.FileIOPermission.Copy
   parent: System.Security.Permissions.FileIOPermission
   isExternal: false
@@ -848,132 +805,48 @@ references:
   name: GetPathList(FileIOPermissionAccess)
   nameWithType: FileIOPermission.GetPathList(FileIOPermissionAccess)
   fullName: System.Security.Permissions.FileIOPermission.GetPathList(FileIOPermissionAccess)
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String[]
-- uid: System.Security.Permissions.FileIOPermissionAccess
-  parent: System.Security.Permissions
-  isExternal: false
-  name: FileIOPermissionAccess
-  nameWithType: FileIOPermissionAccess
-  fullName: System.Security.Permissions.FileIOPermissionAccess
 - uid: System.Security.Permissions.FileIOPermission.Intersect(System.Security.IPermission)
   parent: System.Security.Permissions.FileIOPermission
   isExternal: false
   name: Intersect(IPermission)
   nameWithType: FileIOPermission.Intersect(IPermission)
   fullName: System.Security.Permissions.FileIOPermission.Intersect(IPermission)
-- uid: System.Security.IPermission
-  parent: System.Security
-  isExternal: false
-  name: IPermission
-  nameWithType: IPermission
-  fullName: System.Security.IPermission
-- uid: System.Security.IPermission
-  parent: System.Security
-  isExternal: false
-  name: IPermission
-  nameWithType: IPermission
-  fullName: System.Security.IPermission
 - uid: System.Security.Permissions.FileIOPermission.IsSubsetOf(System.Security.IPermission)
   parent: System.Security.Permissions.FileIOPermission
   isExternal: false
   name: IsSubsetOf(IPermission)
   nameWithType: FileIOPermission.IsSubsetOf(IPermission)
   fullName: System.Security.Permissions.FileIOPermission.IsSubsetOf(IPermission)
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
-- uid: System.Security.IPermission
-  parent: System.Security
-  isExternal: false
-  name: IPermission
-  nameWithType: IPermission
-  fullName: System.Security.IPermission
 - uid: System.Security.Permissions.FileIOPermission.IsUnrestricted
   parent: System.Security.Permissions.FileIOPermission
   isExternal: false
   name: IsUnrestricted()
   nameWithType: FileIOPermission.IsUnrestricted()
   fullName: System.Security.Permissions.FileIOPermission.IsUnrestricted()
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
 - uid: System.Security.Permissions.FileIOPermission.SetPathList(System.Security.Permissions.FileIOPermissionAccess,System.String)
   parent: System.Security.Permissions.FileIOPermission
   isExternal: false
   name: SetPathList(FileIOPermissionAccess,String)
   nameWithType: FileIOPermission.SetPathList(FileIOPermissionAccess,String)
   fullName: System.Security.Permissions.FileIOPermission.SetPathList(FileIOPermissionAccess,String)
-- uid: System.Security.Permissions.FileIOPermissionAccess
-  parent: System.Security.Permissions
-  isExternal: false
-  name: FileIOPermissionAccess
-  nameWithType: FileIOPermissionAccess
-  fullName: System.Security.Permissions.FileIOPermissionAccess
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
 - uid: System.Security.Permissions.FileIOPermission.SetPathList(System.Security.Permissions.FileIOPermissionAccess,System.String[])
   parent: System.Security.Permissions.FileIOPermission
   isExternal: false
   name: SetPathList(FileIOPermissionAccess,String[])
   nameWithType: FileIOPermission.SetPathList(FileIOPermissionAccess,String[])
   fullName: System.Security.Permissions.FileIOPermission.SetPathList(FileIOPermissionAccess,String[])
-- uid: System.Security.Permissions.FileIOPermissionAccess
-  parent: System.Security.Permissions
-  isExternal: false
-  name: FileIOPermissionAccess
-  nameWithType: FileIOPermissionAccess
-  fullName: System.Security.Permissions.FileIOPermissionAccess
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String[]
 - uid: System.Security.Permissions.FileIOPermission.ToXml
   parent: System.Security.Permissions.FileIOPermission
   isExternal: false
   name: ToXml()
   nameWithType: FileIOPermission.ToXml()
   fullName: System.Security.Permissions.FileIOPermission.ToXml()
-- uid: System.Security.SecurityElement
-  parent: System.Security
-  isExternal: false
-  name: SecurityElement
-  nameWithType: SecurityElement
-  fullName: System.Security.SecurityElement
 - uid: System.Security.Permissions.FileIOPermission.Union(System.Security.IPermission)
   parent: System.Security.Permissions.FileIOPermission
   isExternal: false
   name: Union(IPermission)
   nameWithType: FileIOPermission.Union(IPermission)
   fullName: System.Security.Permissions.FileIOPermission.Union(IPermission)
-- uid: System.Security.IPermission
-  parent: System.Security
-  isExternal: false
-  name: IPermission
-  nameWithType: IPermission
-  fullName: System.Security.IPermission
-- uid: System.Security.IPermission
-  parent: System.Security
-  isExternal: false
-  name: IPermission
-  nameWithType: IPermission
-  fullName: System.Security.IPermission
 - uid: System.Security.Permissions.FileIOPermission.#ctor*
   parent: System.Security.Permissions.FileIOPermission
   isExternal: false

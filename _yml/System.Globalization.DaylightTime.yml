@@ -62,6 +62,7 @@ items:
       type: System.TimeSpan
       description: To be added.
   overload: System.Globalization.DaylightTime.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -86,6 +87,7 @@ items:
       type: System.TimeSpan
       description: To be added.
   overload: System.Globalization.DaylightTime.Delta*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -110,6 +112,7 @@ items:
       type: System.DateTime
       description: To be added.
   overload: System.Globalization.DaylightTime.End*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -134,6 +137,7 @@ items:
       type: System.DateTime
       description: To be added.
   overload: System.Globalization.DaylightTime.Start*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -154,12 +158,6 @@ references:
   name: DateTime
   nameWithType: DateTime
   fullName: System.DateTime
-- uid: System.DateTime
-  parent: System
-  isExternal: false
-  name: DateTime
-  nameWithType: DateTime
-  fullName: System.DateTime
 - uid: System.TimeSpan
   parent: System
   isExternal: false
@@ -172,36 +170,18 @@ references:
   name: Delta
   nameWithType: DaylightTime.Delta
   fullName: System.Globalization.DaylightTime.Delta
-- uid: System.TimeSpan
-  parent: System
-  isExternal: false
-  name: TimeSpan
-  nameWithType: TimeSpan
-  fullName: System.TimeSpan
 - uid: System.Globalization.DaylightTime.End
   parent: System.Globalization.DaylightTime
   isExternal: false
   name: End
   nameWithType: DaylightTime.End
   fullName: System.Globalization.DaylightTime.End
-- uid: System.DateTime
-  parent: System
-  isExternal: false
-  name: DateTime
-  nameWithType: DateTime
-  fullName: System.DateTime
 - uid: System.Globalization.DaylightTime.Start
   parent: System.Globalization.DaylightTime
   isExternal: false
   name: Start
   nameWithType: DaylightTime.Start
   fullName: System.Globalization.DaylightTime.Start
-- uid: System.DateTime
-  parent: System
-  isExternal: false
-  name: DateTime
-  nameWithType: DateTime
-  fullName: System.DateTime
 - uid: System.Globalization.DaylightTime.#ctor*
   parent: System.Globalization.DaylightTime
   isExternal: false

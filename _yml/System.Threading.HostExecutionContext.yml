@@ -53,6 +53,7 @@ items:
     content: public HostExecutionContext ();
     parameters: []
   overload: System.Threading.HostExecutionContext.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -78,6 +79,7 @@ items:
       type: System.Object
       description: To be added.
   overload: System.Threading.HostExecutionContext.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -103,6 +105,7 @@ items:
       type: System.Threading.HostExecutionContext
       description: To be added.
   overload: System.Threading.HostExecutionContext.CreateCopy*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -125,6 +128,7 @@ items:
     content: public void Dispose ();
     parameters: []
   overload: System.Threading.HostExecutionContext.Dispose*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -150,6 +154,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Threading.HostExecutionContext.Dispose*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -174,6 +179,7 @@ items:
       type: System.Object
       description: To be added.
   overload: System.Threading.HostExecutionContext.State*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -194,12 +200,6 @@ references:
   name: HostExecutionContext(Object)
   nameWithType: HostExecutionContext.HostExecutionContext(Object)
   fullName: System.Threading.HostExecutionContext.HostExecutionContext(Object)
-- uid: System.Object
-  parent: System
-  isExternal: false
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
 - uid: System.Threading.HostExecutionContext.CreateCopy
   parent: System.Threading.HostExecutionContext
   isExternal: false
@@ -236,12 +236,6 @@ references:
   name: State
   nameWithType: HostExecutionContext.State
   fullName: System.Threading.HostExecutionContext.State
-- uid: System.Object
-  parent: System
-  isExternal: false
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
 - uid: System.Threading.HostExecutionContext.#ctor*
   parent: System.Threading.HostExecutionContext
   isExternal: false

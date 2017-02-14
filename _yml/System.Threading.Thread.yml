@@ -141,6 +141,7 @@ items:
       type: System.Threading.ParameterizedThreadStart
       description: To be added.
   overload: System.Threading.Thread.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -166,6 +167,7 @@ items:
       type: System.Threading.ThreadStart
       description: To be added.
   overload: System.Threading.Thread.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -194,6 +196,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.Threading.Thread.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -222,6 +225,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.Threading.Thread.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -244,6 +248,7 @@ items:
     content: public void Abort ();
     parameters: []
   overload: System.Threading.Thread.Abort*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -269,6 +274,7 @@ items:
       type: System.Object
       description: To be added.
   overload: System.Threading.Thread.Abort*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -294,6 +300,7 @@ items:
       type: System.LocalDataStoreSlot
       description: To be added.
   overload: System.Threading.Thread.AllocateDataSlot*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -322,6 +329,7 @@ items:
       type: System.LocalDataStoreSlot
       description: To be added.
   overload: System.Threading.Thread.AllocateNamedDataSlot*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -346,6 +354,7 @@ items:
       type: System.Threading.ApartmentState
       description: To be added.
   overload: System.Threading.Thread.ApartmentState*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -368,6 +377,7 @@ items:
     content: public static void BeginCriticalRegion ();
     parameters: []
   overload: System.Threading.Thread.BeginCriticalRegion*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -390,6 +400,7 @@ items:
     content: public static void BeginThreadAffinity ();
     parameters: []
   overload: System.Threading.Thread.BeginThreadAffinity*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -414,6 +425,7 @@ items:
       type: System.Runtime.Remoting.Contexts.Context
       description: To be added.
   overload: System.Threading.Thread.CurrentContext*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -438,6 +450,7 @@ items:
       type: System.Globalization.CultureInfo
       description: To be added.
   overload: System.Threading.Thread.CurrentCulture*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -462,6 +475,7 @@ items:
       type: System.Security.Principal.IPrincipal
       description: To be added.
   overload: System.Threading.Thread.CurrentPrincipal*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -486,6 +500,7 @@ items:
       type: System.Threading.Thread
       description: To be added.
   overload: System.Threading.Thread.CurrentThread*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -510,6 +525,7 @@ items:
       type: System.Globalization.CultureInfo
       description: To be added.
   overload: System.Threading.Thread.CurrentUICulture*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -532,6 +548,7 @@ items:
     content: public void DisableComObjectEagerCleanup ();
     parameters: []
   overload: System.Threading.Thread.DisableComObjectEagerCleanup*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -554,6 +571,7 @@ items:
     content: public static void EndCriticalRegion ();
     parameters: []
   overload: System.Threading.Thread.EndCriticalRegion*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -576,6 +594,7 @@ items:
     content: public static void EndThreadAffinity ();
     parameters: []
   overload: System.Threading.Thread.EndThreadAffinity*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -600,6 +619,7 @@ items:
       type: System.Threading.ExecutionContext
       description: To be added.
   overload: System.Threading.Thread.ExecutionContext*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -622,6 +642,7 @@ items:
     content: ~Thread ();
     parameters: []
   overload: System.Threading.Thread.Finalize*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -647,6 +668,7 @@ items:
       type: System.String
       description: To be added.
   overload: System.Threading.Thread.FreeNamedDataSlot*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -672,6 +694,7 @@ items:
       type: System.Threading.ApartmentState
       description: To be added.
   overload: System.Threading.Thread.GetApartmentState*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -697,6 +720,7 @@ items:
       type: System.Threading.CompressedStack
       description: To be added.
   overload: System.Threading.Thread.GetCompressedStack*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -725,6 +749,7 @@ items:
       type: System.Object
       description: To be added.
   overload: System.Threading.Thread.GetData*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -750,6 +775,7 @@ items:
       type: System.AppDomain
       description: To be added.
   overload: System.Threading.Thread.GetDomain*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -775,6 +801,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.Threading.Thread.GetDomainID*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -800,6 +827,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.Threading.Thread.GetHashCode*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -828,6 +856,7 @@ items:
       type: System.LocalDataStoreSlot
       description: To be added.
   overload: System.Threading.Thread.GetNamedDataSlot*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -850,6 +879,7 @@ items:
     content: public void Interrupt ();
     parameters: []
   overload: System.Threading.Thread.Interrupt*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -874,6 +904,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Threading.Thread.IsAlive*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -898,6 +929,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Threading.Thread.IsBackground*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -922,6 +954,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Threading.Thread.IsThreadPoolThread*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -944,6 +977,7 @@ items:
     content: public void Join ();
     parameters: []
   overload: System.Threading.Thread.Join*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -972,6 +1006,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Threading.Thread.Join*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -1000,6 +1035,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Threading.Thread.Join*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -1024,6 +1060,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.Threading.Thread.ManagedThreadId*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -1046,6 +1083,7 @@ items:
     content: public static void MemoryBarrier ();
     parameters: []
   overload: System.Threading.Thread.MemoryBarrier*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -1070,6 +1108,7 @@ items:
       type: System.String
       description: To be added.
   overload: System.Threading.Thread.Name*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -1094,6 +1133,7 @@ items:
       type: System.Threading.ThreadPriority
       description: To be added.
   overload: System.Threading.Thread.Priority*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -1116,6 +1156,7 @@ items:
     content: public static void ResetAbort ();
     parameters: []
   overload: System.Threading.Thread.ResetAbort*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -1138,6 +1179,7 @@ items:
     content: public void Resume ();
     parameters: []
   overload: System.Threading.Thread.Resume*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -1163,6 +1205,7 @@ items:
       type: System.Threading.ApartmentState
       description: To be added.
   overload: System.Threading.Thread.SetApartmentState*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -1188,6 +1231,7 @@ items:
       type: System.Threading.CompressedStack
       description: To be added.
   overload: System.Threading.Thread.SetCompressedStack*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -1216,6 +1260,7 @@ items:
       type: System.Object
       description: To be added.
   overload: System.Threading.Thread.SetData*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -1241,6 +1286,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.Threading.Thread.Sleep*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -1266,6 +1312,7 @@ items:
       type: System.TimeSpan
       description: To be added.
   overload: System.Threading.Thread.Sleep*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -1291,6 +1338,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.Threading.Thread.SpinWait*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -1313,6 +1361,7 @@ items:
     content: public void Start ();
     parameters: []
   overload: System.Threading.Thread.Start*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -1338,6 +1387,7 @@ items:
       type: System.Object
       description: To be added.
   overload: System.Threading.Thread.Start*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -1360,6 +1410,7 @@ items:
     content: public void Suspend ();
     parameters: []
   overload: System.Threading.Thread.Suspend*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -1398,6 +1449,7 @@ items:
       type: System.IntPtr
       description: To be added.
   overload: System.Threading.Thread.System#Runtime#InteropServices#_Thread#GetIDsOfNames*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -1430,6 +1482,7 @@ items:
       type: System.IntPtr
       description: To be added.
   overload: System.Threading.Thread.System#Runtime#InteropServices#_Thread#GetTypeInfo*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -1456,6 +1509,7 @@ items:
       type: System.UInt32
       description: To be added.
   overload: System.Threading.Thread.System#Runtime#InteropServices#_Thread#GetTypeInfoCount*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -1503,6 +1557,7 @@ items:
       type: System.IntPtr
       description: To be added.
   overload: System.Threading.Thread.System#Runtime#InteropServices#_Thread#Invoke*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -1527,6 +1582,7 @@ items:
       type: System.Threading.ThreadState
       description: To be added.
   overload: System.Threading.Thread.ThreadState*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -1555,6 +1611,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Threading.Thread.TrySetApartmentState*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -1583,6 +1640,7 @@ items:
       type: System.Byte
       description: To be added.
   overload: System.Threading.Thread.VolatileRead*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -1611,6 +1669,7 @@ items:
       type: System.Double
       description: To be added.
   overload: System.Threading.Thread.VolatileRead*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -1639,6 +1698,7 @@ items:
       type: System.Int16
       description: To be added.
   overload: System.Threading.Thread.VolatileRead*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -1667,6 +1727,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.Threading.Thread.VolatileRead*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -1695,6 +1756,7 @@ items:
       type: System.Int64
       description: To be added.
   overload: System.Threading.Thread.VolatileRead*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -1723,6 +1785,7 @@ items:
       type: System.IntPtr
       description: To be added.
   overload: System.Threading.Thread.VolatileRead*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -1751,6 +1814,7 @@ items:
       type: System.Object
       description: To be added.
   overload: System.Threading.Thread.VolatileRead*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -1779,6 +1843,7 @@ items:
       type: System.SByte
       description: To be added.
   overload: System.Threading.Thread.VolatileRead*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -1807,6 +1872,7 @@ items:
       type: System.Single
       description: To be added.
   overload: System.Threading.Thread.VolatileRead*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -1835,6 +1901,7 @@ items:
       type: System.UInt16
       description: To be added.
   overload: System.Threading.Thread.VolatileRead*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -1863,6 +1930,7 @@ items:
       type: System.UInt32
       description: To be added.
   overload: System.Threading.Thread.VolatileRead*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -1891,6 +1959,7 @@ items:
       type: System.UInt64
       description: To be added.
   overload: System.Threading.Thread.VolatileRead*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -1919,6 +1988,7 @@ items:
       type: System.UIntPtr
       description: To be added.
   overload: System.Threading.Thread.VolatileRead*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -1947,6 +2017,7 @@ items:
       type: System.Byte
       description: To be added.
   overload: System.Threading.Thread.VolatileWrite*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -1975,6 +2046,7 @@ items:
       type: System.Double
       description: To be added.
   overload: System.Threading.Thread.VolatileWrite*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -2003,6 +2075,7 @@ items:
       type: System.Int16
       description: To be added.
   overload: System.Threading.Thread.VolatileWrite*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -2031,6 +2104,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.Threading.Thread.VolatileWrite*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -2059,6 +2133,7 @@ items:
       type: System.Int64
       description: To be added.
   overload: System.Threading.Thread.VolatileWrite*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -2087,6 +2162,7 @@ items:
       type: System.IntPtr
       description: To be added.
   overload: System.Threading.Thread.VolatileWrite*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -2115,6 +2191,7 @@ items:
       type: System.Object
       description: To be added.
   overload: System.Threading.Thread.VolatileWrite*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -2143,6 +2220,7 @@ items:
       type: System.SByte
       description: To be added.
   overload: System.Threading.Thread.VolatileWrite*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -2171,6 +2249,7 @@ items:
       type: System.Single
       description: To be added.
   overload: System.Threading.Thread.VolatileWrite*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -2199,6 +2278,7 @@ items:
       type: System.UInt16
       description: To be added.
   overload: System.Threading.Thread.VolatileWrite*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -2227,6 +2307,7 @@ items:
       type: System.UInt32
       description: To be added.
   overload: System.Threading.Thread.VolatileWrite*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -2255,6 +2336,7 @@ items:
       type: System.UInt64
       description: To be added.
   overload: System.Threading.Thread.VolatileWrite*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -2283,6 +2365,7 @@ items:
       type: System.UIntPtr
       description: To be added.
   overload: System.Threading.Thread.VolatileWrite*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -2308,6 +2391,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Threading.Thread.Yield*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -2346,12 +2430,6 @@ references:
   name: Thread(ParameterizedThreadStart,Int32)
   nameWithType: Thread.Thread(ParameterizedThreadStart,Int32)
   fullName: System.Threading.Thread.Thread(ParameterizedThreadStart,Int32)
-- uid: System.Threading.ParameterizedThreadStart
-  parent: System.Threading
-  isExternal: false
-  name: ParameterizedThreadStart
-  nameWithType: ParameterizedThreadStart
-  fullName: System.Threading.ParameterizedThreadStart
 - uid: System.Int32
   parent: System
   isExternal: false
@@ -2364,18 +2442,6 @@ references:
   name: Thread(ThreadStart,Int32)
   nameWithType: Thread.Thread(ThreadStart,Int32)
   fullName: System.Threading.Thread.Thread(ThreadStart,Int32)
-- uid: System.Threading.ThreadStart
-  parent: System.Threading
-  isExternal: false
-  name: ThreadStart
-  nameWithType: ThreadStart
-  fullName: System.Threading.ThreadStart
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
 - uid: System.Threading.Thread.Abort
   parent: System.Threading.Thread
   isExternal: false
@@ -2412,12 +2478,6 @@ references:
   name: AllocateNamedDataSlot(String)
   nameWithType: Thread.AllocateNamedDataSlot(String)
   fullName: System.Threading.Thread.AllocateNamedDataSlot(String)
-- uid: System.LocalDataStoreSlot
-  parent: System
-  isExternal: false
-  name: LocalDataStoreSlot
-  nameWithType: LocalDataStoreSlot
-  fullName: System.LocalDataStoreSlot
 - uid: System.String
   parent: System
   isExternal: false
@@ -2502,12 +2562,6 @@ references:
   name: CurrentUICulture
   nameWithType: Thread.CurrentUICulture
   fullName: System.Threading.Thread.CurrentUICulture
-- uid: System.Globalization.CultureInfo
-  parent: System.Globalization
-  isExternal: false
-  name: CultureInfo
-  nameWithType: CultureInfo
-  fullName: System.Globalization.CultureInfo
 - uid: System.Threading.Thread.DisableComObjectEagerCleanup
   parent: System.Threading.Thread
   isExternal: false
@@ -2550,24 +2604,12 @@ references:
   name: FreeNamedDataSlot(String)
   nameWithType: Thread.FreeNamedDataSlot(String)
   fullName: System.Threading.Thread.FreeNamedDataSlot(String)
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
 - uid: System.Threading.Thread.GetApartmentState
   parent: System.Threading.Thread
   isExternal: false
   name: GetApartmentState()
   nameWithType: Thread.GetApartmentState()
   fullName: System.Threading.Thread.GetApartmentState()
-- uid: System.Threading.ApartmentState
-  parent: System.Threading
-  isExternal: false
-  name: ApartmentState
-  nameWithType: ApartmentState
-  fullName: System.Threading.ApartmentState
 - uid: System.Threading.Thread.GetCompressedStack
   parent: System.Threading.Thread
   isExternal: false
@@ -2586,18 +2628,6 @@ references:
   name: GetData(LocalDataStoreSlot)
   nameWithType: Thread.GetData(LocalDataStoreSlot)
   fullName: System.Threading.Thread.GetData(LocalDataStoreSlot)
-- uid: System.Object
-  parent: System
-  isExternal: false
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
-- uid: System.LocalDataStoreSlot
-  parent: System
-  isExternal: false
-  name: LocalDataStoreSlot
-  nameWithType: LocalDataStoreSlot
-  fullName: System.LocalDataStoreSlot
 - uid: System.Threading.Thread.GetDomain
   parent: System.Threading.Thread
   isExternal: false
@@ -2616,42 +2646,18 @@ references:
   name: GetDomainID()
   nameWithType: Thread.GetDomainID()
   fullName: System.Threading.Thread.GetDomainID()
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
 - uid: System.Threading.Thread.GetHashCode
   parent: System.Threading.Thread
   isExternal: false
   name: GetHashCode()
   nameWithType: Thread.GetHashCode()
   fullName: System.Threading.Thread.GetHashCode()
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
 - uid: System.Threading.Thread.GetNamedDataSlot(System.String)
   parent: System.Threading.Thread
   isExternal: false
   name: GetNamedDataSlot(String)
   nameWithType: Thread.GetNamedDataSlot(String)
   fullName: System.Threading.Thread.GetNamedDataSlot(String)
-- uid: System.LocalDataStoreSlot
-  parent: System
-  isExternal: false
-  name: LocalDataStoreSlot
-  nameWithType: LocalDataStoreSlot
-  fullName: System.LocalDataStoreSlot
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
 - uid: System.Threading.Thread.Interrupt
   parent: System.Threading.Thread
   isExternal: false
@@ -2676,24 +2682,12 @@ references:
   name: IsBackground
   nameWithType: Thread.IsBackground
   fullName: System.Threading.Thread.IsBackground
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
 - uid: System.Threading.Thread.IsThreadPoolThread
   parent: System.Threading.Thread
   isExternal: false
   name: IsThreadPoolThread
   nameWithType: Thread.IsThreadPoolThread
   fullName: System.Threading.Thread.IsThreadPoolThread
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
 - uid: System.Threading.Thread.Join
   parent: System.Threading.Thread
   isExternal: false
@@ -2706,30 +2700,12 @@ references:
   name: Join(Int32)
   nameWithType: Thread.Join(Int32)
   fullName: System.Threading.Thread.Join(Int32)
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
 - uid: System.Threading.Thread.Join(System.TimeSpan)
   parent: System.Threading.Thread
   isExternal: false
   name: Join(TimeSpan)
   nameWithType: Thread.Join(TimeSpan)
   fullName: System.Threading.Thread.Join(TimeSpan)
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
 - uid: System.TimeSpan
   parent: System
   isExternal: false
@@ -2742,12 +2718,6 @@ references:
   name: ManagedThreadId
   nameWithType: Thread.ManagedThreadId
   fullName: System.Threading.Thread.ManagedThreadId
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
 - uid: System.Threading.Thread.MemoryBarrier
   parent: System.Threading.Thread
   isExternal: false
@@ -2760,12 +2730,6 @@ references:
   name: Name
   nameWithType: Thread.Name
   fullName: System.Threading.Thread.Name
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
 - uid: System.Threading.Thread.Priority
   parent: System.Threading.Thread
   isExternal: false
@@ -2796,78 +2760,36 @@ references:
   name: SetApartmentState(ApartmentState)
   nameWithType: Thread.SetApartmentState(ApartmentState)
   fullName: System.Threading.Thread.SetApartmentState(ApartmentState)
-- uid: System.Threading.ApartmentState
-  parent: System.Threading
-  isExternal: false
-  name: ApartmentState
-  nameWithType: ApartmentState
-  fullName: System.Threading.ApartmentState
 - uid: System.Threading.Thread.SetCompressedStack(System.Threading.CompressedStack)
   parent: System.Threading.Thread
   isExternal: false
   name: SetCompressedStack(CompressedStack)
   nameWithType: Thread.SetCompressedStack(CompressedStack)
   fullName: System.Threading.Thread.SetCompressedStack(CompressedStack)
-- uid: System.Threading.CompressedStack
-  parent: System.Threading
-  isExternal: false
-  name: CompressedStack
-  nameWithType: CompressedStack
-  fullName: System.Threading.CompressedStack
 - uid: System.Threading.Thread.SetData(System.LocalDataStoreSlot,System.Object)
   parent: System.Threading.Thread
   isExternal: false
   name: SetData(LocalDataStoreSlot,Object)
   nameWithType: Thread.SetData(LocalDataStoreSlot,Object)
   fullName: System.Threading.Thread.SetData(LocalDataStoreSlot,Object)
-- uid: System.LocalDataStoreSlot
-  parent: System
-  isExternal: false
-  name: LocalDataStoreSlot
-  nameWithType: LocalDataStoreSlot
-  fullName: System.LocalDataStoreSlot
-- uid: System.Object
-  parent: System
-  isExternal: false
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
 - uid: System.Threading.Thread.Sleep(System.Int32)
   parent: System.Threading.Thread
   isExternal: false
   name: Sleep(Int32)
   nameWithType: Thread.Sleep(Int32)
   fullName: System.Threading.Thread.Sleep(Int32)
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
 - uid: System.Threading.Thread.Sleep(System.TimeSpan)
   parent: System.Threading.Thread
   isExternal: false
   name: Sleep(TimeSpan)
   nameWithType: Thread.Sleep(TimeSpan)
   fullName: System.Threading.Thread.Sleep(TimeSpan)
-- uid: System.TimeSpan
-  parent: System
-  isExternal: false
-  name: TimeSpan
-  nameWithType: TimeSpan
-  fullName: System.TimeSpan
 - uid: System.Threading.Thread.SpinWait(System.Int32)
   parent: System.Threading.Thread
   isExternal: false
   name: SpinWait(Int32)
   nameWithType: Thread.SpinWait(Int32)
   fullName: System.Threading.Thread.SpinWait(Int32)
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
 - uid: System.Threading.Thread.Start
   parent: System.Threading.Thread
   isExternal: false
@@ -2880,12 +2802,6 @@ references:
   name: Start(Object)
   nameWithType: Thread.Start(Object)
   fullName: System.Threading.Thread.Start(Object)
-- uid: System.Object
-  parent: System
-  isExternal: false
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
 - uid: System.Threading.Thread.Suspend
   parent: System.Threading.Thread
   isExternal: false
@@ -2916,108 +2832,30 @@ references:
   name: UInt32
   nameWithType: UInt32
   fullName: System.UInt32
-- uid: System.UInt32
-  parent: System
-  isExternal: false
-  name: UInt32
-  nameWithType: UInt32
-  fullName: System.UInt32
-- uid: System.IntPtr
-  parent: System
-  isExternal: false
-  name: IntPtr
-  nameWithType: IntPtr
-  fullName: System.IntPtr
 - uid: System.Threading.Thread.System#Runtime#InteropServices#_Thread#GetTypeInfo(System.UInt32,System.UInt32,System.IntPtr)
   parent: System.Threading.Thread
   isExternal: false
   name: System.Runtime.InteropServices._Thread.GetTypeInfo(UInt32,UInt32,IntPtr)
   nameWithType: Thread.System.Runtime.InteropServices._Thread.GetTypeInfo(UInt32,UInt32,IntPtr)
   fullName: System.Threading.Thread.System.Runtime.InteropServices._Thread.GetTypeInfo(UInt32,UInt32,IntPtr)
-- uid: System.UInt32
-  parent: System
-  isExternal: false
-  name: UInt32
-  nameWithType: UInt32
-  fullName: System.UInt32
-- uid: System.UInt32
-  parent: System
-  isExternal: false
-  name: UInt32
-  nameWithType: UInt32
-  fullName: System.UInt32
-- uid: System.IntPtr
-  parent: System
-  isExternal: false
-  name: IntPtr
-  nameWithType: IntPtr
-  fullName: System.IntPtr
 - uid: System.Threading.Thread.System#Runtime#InteropServices#_Thread#GetTypeInfoCount(System.UInt32@)
   parent: System.Threading.Thread
   isExternal: false
   name: System.Runtime.InteropServices._Thread.GetTypeInfoCount(UInt32)
   nameWithType: Thread.System.Runtime.InteropServices._Thread.GetTypeInfoCount(UInt32)
   fullName: System.Threading.Thread.System.Runtime.InteropServices._Thread.GetTypeInfoCount(UInt32)
-- uid: System.UInt32
-  parent: System
-  isExternal: false
-  name: UInt32
-  nameWithType: UInt32
-  fullName: System.UInt32
 - uid: System.Threading.Thread.System#Runtime#InteropServices#_Thread#Invoke(System.UInt32,System.Guid@,System.UInt32,System.Int16,System.IntPtr,System.IntPtr,System.IntPtr,System.IntPtr)
   parent: System.Threading.Thread
   isExternal: false
   name: System.Runtime.InteropServices._Thread.Invoke(UInt32,Guid,UInt32,Int16,IntPtr,IntPtr,IntPtr,IntPtr)
   nameWithType: Thread.System.Runtime.InteropServices._Thread.Invoke(UInt32,Guid,UInt32,Int16,IntPtr,IntPtr,IntPtr,IntPtr)
   fullName: System.Threading.Thread.System.Runtime.InteropServices._Thread.Invoke(UInt32,Guid,UInt32,Int16,IntPtr,IntPtr,IntPtr,IntPtr)
-- uid: System.UInt32
-  parent: System
-  isExternal: false
-  name: UInt32
-  nameWithType: UInt32
-  fullName: System.UInt32
-- uid: System.Guid
-  parent: System
-  isExternal: false
-  name: Guid
-  nameWithType: Guid
-  fullName: System.Guid
-- uid: System.UInt32
-  parent: System
-  isExternal: false
-  name: UInt32
-  nameWithType: UInt32
-  fullName: System.UInt32
 - uid: System.Int16
   parent: System
   isExternal: false
   name: Int16
   nameWithType: Int16
   fullName: System.Int16
-- uid: System.IntPtr
-  parent: System
-  isExternal: false
-  name: IntPtr
-  nameWithType: IntPtr
-  fullName: System.IntPtr
-- uid: System.IntPtr
-  parent: System
-  isExternal: false
-  name: IntPtr
-  nameWithType: IntPtr
-  fullName: System.IntPtr
-- uid: System.IntPtr
-  parent: System
-  isExternal: false
-  name: IntPtr
-  nameWithType: IntPtr
-  fullName: System.IntPtr
-- uid: System.IntPtr
-  parent: System
-  isExternal: false
-  name: IntPtr
-  nameWithType: IntPtr
-  fullName: System.IntPtr
 - uid: System.Threading.Thread.ThreadState
   parent: System.Threading.Thread
   isExternal: false
@@ -3036,30 +2874,12 @@ references:
   name: TrySetApartmentState(ApartmentState)
   nameWithType: Thread.TrySetApartmentState(ApartmentState)
   fullName: System.Threading.Thread.TrySetApartmentState(ApartmentState)
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
-- uid: System.Threading.ApartmentState
-  parent: System.Threading
-  isExternal: false
-  name: ApartmentState
-  nameWithType: ApartmentState
-  fullName: System.Threading.ApartmentState
 - uid: System.Threading.Thread.VolatileRead(System.Byte@)
   parent: System.Threading.Thread
   isExternal: false
   name: VolatileRead(Byte)
   nameWithType: Thread.VolatileRead(Byte)
   fullName: System.Threading.Thread.VolatileRead(Byte)
-- uid: System.Byte
-  parent: System
-  isExternal: false
-  name: Byte
-  nameWithType: Byte
-  fullName: System.Byte
 - uid: System.Byte
   parent: System
   isExternal: false
@@ -3078,48 +2898,18 @@ references:
   name: Double
   nameWithType: Double
   fullName: System.Double
-- uid: System.Double
-  parent: System
-  isExternal: false
-  name: Double
-  nameWithType: Double
-  fullName: System.Double
 - uid: System.Threading.Thread.VolatileRead(System.Int16@)
   parent: System.Threading.Thread
   isExternal: false
   name: VolatileRead(Int16)
   nameWithType: Thread.VolatileRead(Int16)
   fullName: System.Threading.Thread.VolatileRead(Int16)
-- uid: System.Int16
-  parent: System
-  isExternal: false
-  name: Int16
-  nameWithType: Int16
-  fullName: System.Int16
-- uid: System.Int16
-  parent: System
-  isExternal: false
-  name: Int16
-  nameWithType: Int16
-  fullName: System.Int16
 - uid: System.Threading.Thread.VolatileRead(System.Int32@)
   parent: System.Threading.Thread
   isExternal: false
   name: VolatileRead(Int32)
   nameWithType: Thread.VolatileRead(Int32)
   fullName: System.Threading.Thread.VolatileRead(Int32)
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
 - uid: System.Threading.Thread.VolatileRead(System.Int64@)
   parent: System.Threading.Thread
   isExternal: false
@@ -3132,60 +2922,24 @@ references:
   name: Int64
   nameWithType: Int64
   fullName: System.Int64
-- uid: System.Int64
-  parent: System
-  isExternal: false
-  name: Int64
-  nameWithType: Int64
-  fullName: System.Int64
 - uid: System.Threading.Thread.VolatileRead(System.IntPtr@)
   parent: System.Threading.Thread
   isExternal: false
   name: VolatileRead(IntPtr)
   nameWithType: Thread.VolatileRead(IntPtr)
   fullName: System.Threading.Thread.VolatileRead(IntPtr)
-- uid: System.IntPtr
-  parent: System
-  isExternal: false
-  name: IntPtr
-  nameWithType: IntPtr
-  fullName: System.IntPtr
-- uid: System.IntPtr
-  parent: System
-  isExternal: false
-  name: IntPtr
-  nameWithType: IntPtr
-  fullName: System.IntPtr
 - uid: System.Threading.Thread.VolatileRead(System.Object@)
   parent: System.Threading.Thread
   isExternal: false
   name: VolatileRead(Object)
   nameWithType: Thread.VolatileRead(Object)
   fullName: System.Threading.Thread.VolatileRead(Object)
-- uid: System.Object
-  parent: System
-  isExternal: false
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
-- uid: System.Object
-  parent: System
-  isExternal: false
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
 - uid: System.Threading.Thread.VolatileRead(System.SByte@)
   parent: System.Threading.Thread
   isExternal: false
   name: VolatileRead(SByte)
   nameWithType: Thread.VolatileRead(SByte)
   fullName: System.Threading.Thread.VolatileRead(SByte)
-- uid: System.SByte
-  parent: System
-  isExternal: false
-  name: SByte
-  nameWithType: SByte
-  fullName: System.SByte
 - uid: System.SByte
   parent: System
   isExternal: false
@@ -3204,12 +2958,6 @@ references:
   name: Single
   nameWithType: Single
   fullName: System.Single
-- uid: System.Single
-  parent: System
-  isExternal: false
-  name: Single
-  nameWithType: Single
-  fullName: System.Single
 - uid: System.Threading.Thread.VolatileRead(System.UInt16@)
   parent: System.Threading.Thread
   isExternal: false
@@ -3222,42 +2970,18 @@ references:
   name: UInt16
   nameWithType: UInt16
   fullName: System.UInt16
-- uid: System.UInt16
-  parent: System
-  isExternal: false
-  name: UInt16
-  nameWithType: UInt16
-  fullName: System.UInt16
 - uid: System.Threading.Thread.VolatileRead(System.UInt32@)
   parent: System.Threading.Thread
   isExternal: false
   name: VolatileRead(UInt32)
   nameWithType: Thread.VolatileRead(UInt32)
   fullName: System.Threading.Thread.VolatileRead(UInt32)
-- uid: System.UInt32
-  parent: System
-  isExternal: false
-  name: UInt32
-  nameWithType: UInt32
-  fullName: System.UInt32
-- uid: System.UInt32
-  parent: System
-  isExternal: false
-  name: UInt32
-  nameWithType: UInt32
-  fullName: System.UInt32
 - uid: System.Threading.Thread.VolatileRead(System.UInt64@)
   parent: System.Threading.Thread
   isExternal: false
   name: VolatileRead(UInt64)
   nameWithType: Thread.VolatileRead(UInt64)
   fullName: System.Threading.Thread.VolatileRead(UInt64)
-- uid: System.UInt64
-  parent: System
-  isExternal: false
-  name: UInt64
-  nameWithType: UInt64
-  fullName: System.UInt64
 - uid: System.UInt64
   parent: System
   isExternal: false
@@ -3276,258 +3000,90 @@ references:
   name: UIntPtr
   nameWithType: UIntPtr
   fullName: System.UIntPtr
-- uid: System.UIntPtr
-  parent: System
-  isExternal: false
-  name: UIntPtr
-  nameWithType: UIntPtr
-  fullName: System.UIntPtr
 - uid: System.Threading.Thread.VolatileWrite(System.Byte@,System.Byte)
   parent: System.Threading.Thread
   isExternal: false
   name: VolatileWrite(Byte,Byte)
   nameWithType: Thread.VolatileWrite(Byte,Byte)
   fullName: System.Threading.Thread.VolatileWrite(Byte,Byte)
-- uid: System.Byte
-  parent: System
-  isExternal: false
-  name: Byte
-  nameWithType: Byte
-  fullName: System.Byte
-- uid: System.Byte
-  parent: System
-  isExternal: false
-  name: Byte
-  nameWithType: Byte
-  fullName: System.Byte
 - uid: System.Threading.Thread.VolatileWrite(System.Double@,System.Double)
   parent: System.Threading.Thread
   isExternal: false
   name: VolatileWrite(Double,Double)
   nameWithType: Thread.VolatileWrite(Double,Double)
   fullName: System.Threading.Thread.VolatileWrite(Double,Double)
-- uid: System.Double
-  parent: System
-  isExternal: false
-  name: Double
-  nameWithType: Double
-  fullName: System.Double
-- uid: System.Double
-  parent: System
-  isExternal: false
-  name: Double
-  nameWithType: Double
-  fullName: System.Double
 - uid: System.Threading.Thread.VolatileWrite(System.Int16@,System.Int16)
   parent: System.Threading.Thread
   isExternal: false
   name: VolatileWrite(Int16,Int16)
   nameWithType: Thread.VolatileWrite(Int16,Int16)
   fullName: System.Threading.Thread.VolatileWrite(Int16,Int16)
-- uid: System.Int16
-  parent: System
-  isExternal: false
-  name: Int16
-  nameWithType: Int16
-  fullName: System.Int16
-- uid: System.Int16
-  parent: System
-  isExternal: false
-  name: Int16
-  nameWithType: Int16
-  fullName: System.Int16
 - uid: System.Threading.Thread.VolatileWrite(System.Int32@,System.Int32)
   parent: System.Threading.Thread
   isExternal: false
   name: VolatileWrite(Int32,Int32)
   nameWithType: Thread.VolatileWrite(Int32,Int32)
   fullName: System.Threading.Thread.VolatileWrite(Int32,Int32)
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
 - uid: System.Threading.Thread.VolatileWrite(System.Int64@,System.Int64)
   parent: System.Threading.Thread
   isExternal: false
   name: VolatileWrite(Int64,Int64)
   nameWithType: Thread.VolatileWrite(Int64,Int64)
   fullName: System.Threading.Thread.VolatileWrite(Int64,Int64)
-- uid: System.Int64
-  parent: System
-  isExternal: false
-  name: Int64
-  nameWithType: Int64
-  fullName: System.Int64
-- uid: System.Int64
-  parent: System
-  isExternal: false
-  name: Int64
-  nameWithType: Int64
-  fullName: System.Int64
 - uid: System.Threading.Thread.VolatileWrite(System.IntPtr@,System.IntPtr)
   parent: System.Threading.Thread
   isExternal: false
   name: VolatileWrite(IntPtr,IntPtr)
   nameWithType: Thread.VolatileWrite(IntPtr,IntPtr)
   fullName: System.Threading.Thread.VolatileWrite(IntPtr,IntPtr)
-- uid: System.IntPtr
-  parent: System
-  isExternal: false
-  name: IntPtr
-  nameWithType: IntPtr
-  fullName: System.IntPtr
-- uid: System.IntPtr
-  parent: System
-  isExternal: false
-  name: IntPtr
-  nameWithType: IntPtr
-  fullName: System.IntPtr
 - uid: System.Threading.Thread.VolatileWrite(System.Object@,System.Object)
   parent: System.Threading.Thread
   isExternal: false
   name: VolatileWrite(Object,Object)
   nameWithType: Thread.VolatileWrite(Object,Object)
   fullName: System.Threading.Thread.VolatileWrite(Object,Object)
-- uid: System.Object
-  parent: System
-  isExternal: false
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
-- uid: System.Object
-  parent: System
-  isExternal: false
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
 - uid: System.Threading.Thread.VolatileWrite(System.SByte@,System.SByte)
   parent: System.Threading.Thread
   isExternal: false
   name: VolatileWrite(SByte,SByte)
   nameWithType: Thread.VolatileWrite(SByte,SByte)
   fullName: System.Threading.Thread.VolatileWrite(SByte,SByte)
-- uid: System.SByte
-  parent: System
-  isExternal: false
-  name: SByte
-  nameWithType: SByte
-  fullName: System.SByte
-- uid: System.SByte
-  parent: System
-  isExternal: false
-  name: SByte
-  nameWithType: SByte
-  fullName: System.SByte
 - uid: System.Threading.Thread.VolatileWrite(System.Single@,System.Single)
   parent: System.Threading.Thread
   isExternal: false
   name: VolatileWrite(Single,Single)
   nameWithType: Thread.VolatileWrite(Single,Single)
   fullName: System.Threading.Thread.VolatileWrite(Single,Single)
-- uid: System.Single
-  parent: System
-  isExternal: false
-  name: Single
-  nameWithType: Single
-  fullName: System.Single
-- uid: System.Single
-  parent: System
-  isExternal: false
-  name: Single
-  nameWithType: Single
-  fullName: System.Single
 - uid: System.Threading.Thread.VolatileWrite(System.UInt16@,System.UInt16)
   parent: System.Threading.Thread
   isExternal: false
   name: VolatileWrite(UInt16,UInt16)
   nameWithType: Thread.VolatileWrite(UInt16,UInt16)
   fullName: System.Threading.Thread.VolatileWrite(UInt16,UInt16)
-- uid: System.UInt16
-  parent: System
-  isExternal: false
-  name: UInt16
-  nameWithType: UInt16
-  fullName: System.UInt16
-- uid: System.UInt16
-  parent: System
-  isExternal: false
-  name: UInt16
-  nameWithType: UInt16
-  fullName: System.UInt16
 - uid: System.Threading.Thread.VolatileWrite(System.UInt32@,System.UInt32)
   parent: System.Threading.Thread
   isExternal: false
   name: VolatileWrite(UInt32,UInt32)
   nameWithType: Thread.VolatileWrite(UInt32,UInt32)
   fullName: System.Threading.Thread.VolatileWrite(UInt32,UInt32)
-- uid: System.UInt32
-  parent: System
-  isExternal: false
-  name: UInt32
-  nameWithType: UInt32
-  fullName: System.UInt32
-- uid: System.UInt32
-  parent: System
-  isExternal: false
-  name: UInt32
-  nameWithType: UInt32
-  fullName: System.UInt32
 - uid: System.Threading.Thread.VolatileWrite(System.UInt64@,System.UInt64)
   parent: System.Threading.Thread
   isExternal: false
   name: VolatileWrite(UInt64,UInt64)
   nameWithType: Thread.VolatileWrite(UInt64,UInt64)
   fullName: System.Threading.Thread.VolatileWrite(UInt64,UInt64)
-- uid: System.UInt64
-  parent: System
-  isExternal: false
-  name: UInt64
-  nameWithType: UInt64
-  fullName: System.UInt64
-- uid: System.UInt64
-  parent: System
-  isExternal: false
-  name: UInt64
-  nameWithType: UInt64
-  fullName: System.UInt64
 - uid: System.Threading.Thread.VolatileWrite(System.UIntPtr@,System.UIntPtr)
   parent: System.Threading.Thread
   isExternal: false
   name: VolatileWrite(UIntPtr,UIntPtr)
   nameWithType: Thread.VolatileWrite(UIntPtr,UIntPtr)
   fullName: System.Threading.Thread.VolatileWrite(UIntPtr,UIntPtr)
-- uid: System.UIntPtr
-  parent: System
-  isExternal: false
-  name: UIntPtr
-  nameWithType: UIntPtr
-  fullName: System.UIntPtr
-- uid: System.UIntPtr
-  parent: System
-  isExternal: false
-  name: UIntPtr
-  nameWithType: UIntPtr
-  fullName: System.UIntPtr
 - uid: System.Threading.Thread.Yield
   parent: System.Threading.Thread
   isExternal: false
   name: Yield()
   nameWithType: Thread.Yield()
   fullName: System.Threading.Thread.Yield()
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
 - uid: System.Threading.Thread.#ctor*
   parent: System.Threading.Thread
   isExternal: false

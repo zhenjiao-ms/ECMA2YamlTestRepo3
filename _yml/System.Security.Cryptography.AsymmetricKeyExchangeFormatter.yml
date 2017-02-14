@@ -54,6 +54,7 @@ items:
     content: protected AsymmetricKeyExchangeFormatter ();
     parameters: []
   overload: System.Security.Cryptography.AsymmetricKeyExchangeFormatter.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -82,6 +83,7 @@ items:
       type: System.Byte[]
       description: To be added.
   overload: System.Security.Cryptography.AsymmetricKeyExchangeFormatter.CreateKeyExchange*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -113,6 +115,7 @@ items:
       type: System.Byte[]
       description: To be added.
   overload: System.Security.Cryptography.AsymmetricKeyExchangeFormatter.CreateKeyExchange*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -137,6 +140,7 @@ items:
       type: System.String
       description: To be added.
   overload: System.Security.Cryptography.AsymmetricKeyExchangeFormatter.Parameters*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -162,6 +166,7 @@ items:
       type: System.Security.Cryptography.AsymmetricAlgorithm
       description: To be added.
   overload: System.Security.Cryptography.AsymmetricKeyExchangeFormatter.SetKey*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -182,36 +187,26 @@ references:
   name: CreateKeyExchange(Byte[])
   nameWithType: AsymmetricKeyExchangeFormatter.CreateKeyExchange(Byte[])
   fullName: System.Security.Cryptography.AsymmetricKeyExchangeFormatter.CreateKeyExchange(Byte[])
-- uid: System.Byte
+- uid: System.Byte[]
   parent: System
   isExternal: false
   name: Byte
   nameWithType: Byte
   fullName: System.Byte[]
-- uid: System.Byte
-  parent: System
-  isExternal: false
-  name: Byte
-  nameWithType: Byte
-  fullName: System.Byte[]
+  spec.csharp:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: Byte[]
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
 - uid: System.Security.Cryptography.AsymmetricKeyExchangeFormatter.CreateKeyExchange(System.Byte[],System.Type)
   parent: System.Security.Cryptography.AsymmetricKeyExchangeFormatter
   isExternal: false
   name: CreateKeyExchange(Byte[],Type)
   nameWithType: AsymmetricKeyExchangeFormatter.CreateKeyExchange(Byte[],Type)
   fullName: System.Security.Cryptography.AsymmetricKeyExchangeFormatter.CreateKeyExchange(Byte[],Type)
-- uid: System.Byte
-  parent: System
-  isExternal: false
-  name: Byte
-  nameWithType: Byte
-  fullName: System.Byte[]
-- uid: System.Byte
-  parent: System
-  isExternal: false
-  name: Byte
-  nameWithType: Byte
-  fullName: System.Byte[]
 - uid: System.Type
   parent: System
   isExternal: false

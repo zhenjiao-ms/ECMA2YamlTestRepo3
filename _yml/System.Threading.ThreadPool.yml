@@ -71,6 +71,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Threading.ThreadPool.BindHandle*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -99,6 +100,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Threading.ThreadPool.BindHandle*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -127,6 +129,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.Threading.ThreadPool.GetAvailableThreads*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -155,6 +158,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.Threading.ThreadPool.GetMaxThreads*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -183,6 +187,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.Threading.ThreadPool.GetMinThreads*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -211,6 +216,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Threading.ThreadPool.QueueUserWorkItem*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -242,6 +248,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Threading.ThreadPool.QueueUserWorkItem*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -282,6 +289,7 @@ items:
       type: System.Threading.RegisteredWaitHandle
       description: To be added.
   overload: System.Threading.ThreadPool.RegisterWaitForSingleObject*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -322,6 +330,7 @@ items:
       type: System.Threading.RegisteredWaitHandle
       description: To be added.
   overload: System.Threading.ThreadPool.RegisterWaitForSingleObject*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -362,6 +371,7 @@ items:
       type: System.Threading.RegisteredWaitHandle
       description: To be added.
   overload: System.Threading.ThreadPool.RegisterWaitForSingleObject*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -402,6 +412,7 @@ items:
       type: System.Threading.RegisteredWaitHandle
       description: To be added.
   overload: System.Threading.ThreadPool.RegisterWaitForSingleObject*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -433,6 +444,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Threading.ThreadPool.SetMaxThreads*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -464,6 +476,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Threading.ThreadPool.SetMinThreads*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -492,6 +505,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Threading.ThreadPool.UnsafeQueueNativeOverlapped*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -523,6 +537,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Threading.ThreadPool.UnsafeQueueUserWorkItem*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -563,6 +578,7 @@ items:
       type: System.Threading.RegisteredWaitHandle
       description: To be added.
   overload: System.Threading.ThreadPool.UnsafeRegisterWaitForSingleObject*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -603,6 +619,7 @@ items:
       type: System.Threading.RegisteredWaitHandle
       description: To be added.
   overload: System.Threading.ThreadPool.UnsafeRegisterWaitForSingleObject*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -643,6 +660,7 @@ items:
       type: System.Threading.RegisteredWaitHandle
       description: To be added.
   overload: System.Threading.ThreadPool.UnsafeRegisterWaitForSingleObject*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -683,6 +701,7 @@ items:
       type: System.Threading.RegisteredWaitHandle
       description: To be added.
   overload: System.Threading.ThreadPool.UnsafeRegisterWaitForSingleObject*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -715,12 +734,6 @@ references:
   name: BindHandle(SafeHandle)
   nameWithType: ThreadPool.BindHandle(SafeHandle)
   fullName: System.Threading.ThreadPool.BindHandle(SafeHandle)
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
 - uid: System.Runtime.InteropServices.SafeHandle
   parent: System.Runtime.InteropServices
   isExternal: false
@@ -739,60 +752,24 @@ references:
   name: Int32
   nameWithType: Int32
   fullName: System.Int32
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
 - uid: System.Threading.ThreadPool.GetMaxThreads(System.Int32@,System.Int32@)
   parent: System.Threading.ThreadPool
   isExternal: false
   name: GetMaxThreads(Int32,Int32)
   nameWithType: ThreadPool.GetMaxThreads(Int32,Int32)
   fullName: System.Threading.ThreadPool.GetMaxThreads(Int32,Int32)
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
 - uid: System.Threading.ThreadPool.GetMinThreads(System.Int32@,System.Int32@)
   parent: System.Threading.ThreadPool
   isExternal: false
   name: GetMinThreads(Int32,Int32)
   nameWithType: ThreadPool.GetMinThreads(Int32,Int32)
   fullName: System.Threading.ThreadPool.GetMinThreads(Int32,Int32)
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
 - uid: System.Threading.ThreadPool.QueueUserWorkItem(System.Threading.WaitCallback)
   parent: System.Threading.ThreadPool
   isExternal: false
   name: QueueUserWorkItem(WaitCallback)
   nameWithType: ThreadPool.QueueUserWorkItem(WaitCallback)
   fullName: System.Threading.ThreadPool.QueueUserWorkItem(WaitCallback)
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
 - uid: System.Threading.WaitCallback
   parent: System.Threading
   isExternal: false
@@ -805,24 +782,6 @@ references:
   name: QueueUserWorkItem(WaitCallback,Object)
   nameWithType: ThreadPool.QueueUserWorkItem(WaitCallback,Object)
   fullName: System.Threading.ThreadPool.QueueUserWorkItem(WaitCallback,Object)
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
-- uid: System.Threading.WaitCallback
-  parent: System.Threading
-  isExternal: false
-  name: WaitCallback
-  nameWithType: WaitCallback
-  fullName: System.Threading.WaitCallback
-- uid: System.Object
-  parent: System
-  isExternal: false
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
 - uid: System.Threading.ThreadPool.RegisterWaitForSingleObject(System.Threading.WaitHandle,System.Threading.WaitOrTimerCallback,System.Object,System.Int32,System.Boolean)
   parent: System.Threading.ThreadPool
   isExternal: false
@@ -847,402 +806,90 @@ references:
   name: WaitOrTimerCallback
   nameWithType: WaitOrTimerCallback
   fullName: System.Threading.WaitOrTimerCallback
-- uid: System.Object
-  parent: System
-  isExternal: false
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
 - uid: System.Threading.ThreadPool.RegisterWaitForSingleObject(System.Threading.WaitHandle,System.Threading.WaitOrTimerCallback,System.Object,System.Int64,System.Boolean)
   parent: System.Threading.ThreadPool
   isExternal: false
   name: RegisterWaitForSingleObject(WaitHandle,WaitOrTimerCallback,Object,Int64,Boolean)
   nameWithType: ThreadPool.RegisterWaitForSingleObject(WaitHandle,WaitOrTimerCallback,Object,Int64,Boolean)
   fullName: System.Threading.ThreadPool.RegisterWaitForSingleObject(WaitHandle,WaitOrTimerCallback,Object,Int64,Boolean)
-- uid: System.Threading.RegisteredWaitHandle
-  parent: System.Threading
-  isExternal: false
-  name: RegisteredWaitHandle
-  nameWithType: RegisteredWaitHandle
-  fullName: System.Threading.RegisteredWaitHandle
-- uid: System.Threading.WaitHandle
-  parent: System.Threading
-  isExternal: false
-  name: WaitHandle
-  nameWithType: WaitHandle
-  fullName: System.Threading.WaitHandle
-- uid: System.Threading.WaitOrTimerCallback
-  parent: System.Threading
-  isExternal: false
-  name: WaitOrTimerCallback
-  nameWithType: WaitOrTimerCallback
-  fullName: System.Threading.WaitOrTimerCallback
-- uid: System.Object
-  parent: System
-  isExternal: false
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
 - uid: System.Int64
   parent: System
   isExternal: false
   name: Int64
   nameWithType: Int64
   fullName: System.Int64
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
 - uid: System.Threading.ThreadPool.RegisterWaitForSingleObject(System.Threading.WaitHandle,System.Threading.WaitOrTimerCallback,System.Object,System.TimeSpan,System.Boolean)
   parent: System.Threading.ThreadPool
   isExternal: false
   name: RegisterWaitForSingleObject(WaitHandle,WaitOrTimerCallback,Object,TimeSpan,Boolean)
   nameWithType: ThreadPool.RegisterWaitForSingleObject(WaitHandle,WaitOrTimerCallback,Object,TimeSpan,Boolean)
   fullName: System.Threading.ThreadPool.RegisterWaitForSingleObject(WaitHandle,WaitOrTimerCallback,Object,TimeSpan,Boolean)
-- uid: System.Threading.RegisteredWaitHandle
-  parent: System.Threading
-  isExternal: false
-  name: RegisteredWaitHandle
-  nameWithType: RegisteredWaitHandle
-  fullName: System.Threading.RegisteredWaitHandle
-- uid: System.Threading.WaitHandle
-  parent: System.Threading
-  isExternal: false
-  name: WaitHandle
-  nameWithType: WaitHandle
-  fullName: System.Threading.WaitHandle
-- uid: System.Threading.WaitOrTimerCallback
-  parent: System.Threading
-  isExternal: false
-  name: WaitOrTimerCallback
-  nameWithType: WaitOrTimerCallback
-  fullName: System.Threading.WaitOrTimerCallback
-- uid: System.Object
-  parent: System
-  isExternal: false
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
 - uid: System.TimeSpan
   parent: System
   isExternal: false
   name: TimeSpan
   nameWithType: TimeSpan
   fullName: System.TimeSpan
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
 - uid: System.Threading.ThreadPool.RegisterWaitForSingleObject(System.Threading.WaitHandle,System.Threading.WaitOrTimerCallback,System.Object,System.UInt32,System.Boolean)
   parent: System.Threading.ThreadPool
   isExternal: false
   name: RegisterWaitForSingleObject(WaitHandle,WaitOrTimerCallback,Object,UInt32,Boolean)
   nameWithType: ThreadPool.RegisterWaitForSingleObject(WaitHandle,WaitOrTimerCallback,Object,UInt32,Boolean)
   fullName: System.Threading.ThreadPool.RegisterWaitForSingleObject(WaitHandle,WaitOrTimerCallback,Object,UInt32,Boolean)
-- uid: System.Threading.RegisteredWaitHandle
-  parent: System.Threading
-  isExternal: false
-  name: RegisteredWaitHandle
-  nameWithType: RegisteredWaitHandle
-  fullName: System.Threading.RegisteredWaitHandle
-- uid: System.Threading.WaitHandle
-  parent: System.Threading
-  isExternal: false
-  name: WaitHandle
-  nameWithType: WaitHandle
-  fullName: System.Threading.WaitHandle
-- uid: System.Threading.WaitOrTimerCallback
-  parent: System.Threading
-  isExternal: false
-  name: WaitOrTimerCallback
-  nameWithType: WaitOrTimerCallback
-  fullName: System.Threading.WaitOrTimerCallback
-- uid: System.Object
-  parent: System
-  isExternal: false
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
 - uid: System.UInt32
   parent: System
   isExternal: false
   name: UInt32
   nameWithType: UInt32
   fullName: System.UInt32
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
 - uid: System.Threading.ThreadPool.SetMaxThreads(System.Int32,System.Int32)
   parent: System.Threading.ThreadPool
   isExternal: false
   name: SetMaxThreads(Int32,Int32)
   nameWithType: ThreadPool.SetMaxThreads(Int32,Int32)
   fullName: System.Threading.ThreadPool.SetMaxThreads(Int32,Int32)
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
 - uid: System.Threading.ThreadPool.SetMinThreads(System.Int32,System.Int32)
   parent: System.Threading.ThreadPool
   isExternal: false
   name: SetMinThreads(Int32,Int32)
   nameWithType: ThreadPool.SetMinThreads(Int32,Int32)
   fullName: System.Threading.ThreadPool.SetMinThreads(Int32,Int32)
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
 - uid: System.Threading.ThreadPool.UnsafeQueueNativeOverlapped(System.Threading.NativeOverlapped*)
   parent: System.Threading.ThreadPool
   isExternal: false
   name: UnsafeQueueNativeOverlapped(NativeOverlapped*)
   nameWithType: ThreadPool.UnsafeQueueNativeOverlapped(NativeOverlapped*)
   fullName: System.Threading.ThreadPool.UnsafeQueueNativeOverlapped(NativeOverlapped*)
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
 - uid: System.Threading.ThreadPool.UnsafeQueueUserWorkItem(System.Threading.WaitCallback,System.Object)
   parent: System.Threading.ThreadPool
   isExternal: false
   name: UnsafeQueueUserWorkItem(WaitCallback,Object)
   nameWithType: ThreadPool.UnsafeQueueUserWorkItem(WaitCallback,Object)
   fullName: System.Threading.ThreadPool.UnsafeQueueUserWorkItem(WaitCallback,Object)
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
-- uid: System.Threading.WaitCallback
-  parent: System.Threading
-  isExternal: false
-  name: WaitCallback
-  nameWithType: WaitCallback
-  fullName: System.Threading.WaitCallback
-- uid: System.Object
-  parent: System
-  isExternal: false
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
 - uid: System.Threading.ThreadPool.UnsafeRegisterWaitForSingleObject(System.Threading.WaitHandle,System.Threading.WaitOrTimerCallback,System.Object,System.Int32,System.Boolean)
   parent: System.Threading.ThreadPool
   isExternal: false
   name: UnsafeRegisterWaitForSingleObject(WaitHandle,WaitOrTimerCallback,Object,Int32,Boolean)
   nameWithType: ThreadPool.UnsafeRegisterWaitForSingleObject(WaitHandle,WaitOrTimerCallback,Object,Int32,Boolean)
   fullName: System.Threading.ThreadPool.UnsafeRegisterWaitForSingleObject(WaitHandle,WaitOrTimerCallback,Object,Int32,Boolean)
-- uid: System.Threading.RegisteredWaitHandle
-  parent: System.Threading
-  isExternal: false
-  name: RegisteredWaitHandle
-  nameWithType: RegisteredWaitHandle
-  fullName: System.Threading.RegisteredWaitHandle
-- uid: System.Threading.WaitHandle
-  parent: System.Threading
-  isExternal: false
-  name: WaitHandle
-  nameWithType: WaitHandle
-  fullName: System.Threading.WaitHandle
-- uid: System.Threading.WaitOrTimerCallback
-  parent: System.Threading
-  isExternal: false
-  name: WaitOrTimerCallback
-  nameWithType: WaitOrTimerCallback
-  fullName: System.Threading.WaitOrTimerCallback
-- uid: System.Object
-  parent: System
-  isExternal: false
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
 - uid: System.Threading.ThreadPool.UnsafeRegisterWaitForSingleObject(System.Threading.WaitHandle,System.Threading.WaitOrTimerCallback,System.Object,System.Int64,System.Boolean)
   parent: System.Threading.ThreadPool
   isExternal: false
   name: UnsafeRegisterWaitForSingleObject(WaitHandle,WaitOrTimerCallback,Object,Int64,Boolean)
   nameWithType: ThreadPool.UnsafeRegisterWaitForSingleObject(WaitHandle,WaitOrTimerCallback,Object,Int64,Boolean)
   fullName: System.Threading.ThreadPool.UnsafeRegisterWaitForSingleObject(WaitHandle,WaitOrTimerCallback,Object,Int64,Boolean)
-- uid: System.Threading.RegisteredWaitHandle
-  parent: System.Threading
-  isExternal: false
-  name: RegisteredWaitHandle
-  nameWithType: RegisteredWaitHandle
-  fullName: System.Threading.RegisteredWaitHandle
-- uid: System.Threading.WaitHandle
-  parent: System.Threading
-  isExternal: false
-  name: WaitHandle
-  nameWithType: WaitHandle
-  fullName: System.Threading.WaitHandle
-- uid: System.Threading.WaitOrTimerCallback
-  parent: System.Threading
-  isExternal: false
-  name: WaitOrTimerCallback
-  nameWithType: WaitOrTimerCallback
-  fullName: System.Threading.WaitOrTimerCallback
-- uid: System.Object
-  parent: System
-  isExternal: false
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
-- uid: System.Int64
-  parent: System
-  isExternal: false
-  name: Int64
-  nameWithType: Int64
-  fullName: System.Int64
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
 - uid: System.Threading.ThreadPool.UnsafeRegisterWaitForSingleObject(System.Threading.WaitHandle,System.Threading.WaitOrTimerCallback,System.Object,System.TimeSpan,System.Boolean)
   parent: System.Threading.ThreadPool
   isExternal: false
   name: UnsafeRegisterWaitForSingleObject(WaitHandle,WaitOrTimerCallback,Object,TimeSpan,Boolean)
   nameWithType: ThreadPool.UnsafeRegisterWaitForSingleObject(WaitHandle,WaitOrTimerCallback,Object,TimeSpan,Boolean)
   fullName: System.Threading.ThreadPool.UnsafeRegisterWaitForSingleObject(WaitHandle,WaitOrTimerCallback,Object,TimeSpan,Boolean)
-- uid: System.Threading.RegisteredWaitHandle
-  parent: System.Threading
-  isExternal: false
-  name: RegisteredWaitHandle
-  nameWithType: RegisteredWaitHandle
-  fullName: System.Threading.RegisteredWaitHandle
-- uid: System.Threading.WaitHandle
-  parent: System.Threading
-  isExternal: false
-  name: WaitHandle
-  nameWithType: WaitHandle
-  fullName: System.Threading.WaitHandle
-- uid: System.Threading.WaitOrTimerCallback
-  parent: System.Threading
-  isExternal: false
-  name: WaitOrTimerCallback
-  nameWithType: WaitOrTimerCallback
-  fullName: System.Threading.WaitOrTimerCallback
-- uid: System.Object
-  parent: System
-  isExternal: false
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
-- uid: System.TimeSpan
-  parent: System
-  isExternal: false
-  name: TimeSpan
-  nameWithType: TimeSpan
-  fullName: System.TimeSpan
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
 - uid: System.Threading.ThreadPool.UnsafeRegisterWaitForSingleObject(System.Threading.WaitHandle,System.Threading.WaitOrTimerCallback,System.Object,System.UInt32,System.Boolean)
   parent: System.Threading.ThreadPool
   isExternal: false
   name: UnsafeRegisterWaitForSingleObject(WaitHandle,WaitOrTimerCallback,Object,UInt32,Boolean)
   nameWithType: ThreadPool.UnsafeRegisterWaitForSingleObject(WaitHandle,WaitOrTimerCallback,Object,UInt32,Boolean)
   fullName: System.Threading.ThreadPool.UnsafeRegisterWaitForSingleObject(WaitHandle,WaitOrTimerCallback,Object,UInt32,Boolean)
-- uid: System.Threading.RegisteredWaitHandle
-  parent: System.Threading
-  isExternal: false
-  name: RegisteredWaitHandle
-  nameWithType: RegisteredWaitHandle
-  fullName: System.Threading.RegisteredWaitHandle
-- uid: System.Threading.WaitHandle
-  parent: System.Threading
-  isExternal: false
-  name: WaitHandle
-  nameWithType: WaitHandle
-  fullName: System.Threading.WaitHandle
-- uid: System.Threading.WaitOrTimerCallback
-  parent: System.Threading
-  isExternal: false
-  name: WaitOrTimerCallback
-  nameWithType: WaitOrTimerCallback
-  fullName: System.Threading.WaitOrTimerCallback
-- uid: System.Object
-  parent: System
-  isExternal: false
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
-- uid: System.UInt32
-  parent: System
-  isExternal: false
-  name: UInt32
-  nameWithType: UInt32
-  fullName: System.UInt32
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
 - uid: System.Threading.ThreadPool.BindHandle*
   parent: System.Threading.ThreadPool
   isExternal: false

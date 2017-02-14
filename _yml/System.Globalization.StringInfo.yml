@@ -60,6 +60,7 @@ items:
     content: public StringInfo ();
     parameters: []
   overload: System.Globalization.StringInfo.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -85,6 +86,7 @@ items:
       type: System.String
       description: To be added.
   overload: System.Globalization.StringInfo.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -113,6 +115,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Globalization.StringInfo.Equals*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -138,6 +141,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.Globalization.StringInfo.GetHashCode*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -166,6 +170,7 @@ items:
       type: System.String
       description: To be added.
   overload: System.Globalization.StringInfo.GetNextTextElement*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -197,6 +202,7 @@ items:
       type: System.String
       description: To be added.
   overload: System.Globalization.StringInfo.GetNextTextElement*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -225,6 +231,7 @@ items:
       type: System.Globalization.TextElementEnumerator
       description: To be added.
   overload: System.Globalization.StringInfo.GetTextElementEnumerator*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -256,6 +263,7 @@ items:
       type: System.Globalization.TextElementEnumerator
       description: To be added.
   overload: System.Globalization.StringInfo.GetTextElementEnumerator*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -280,6 +288,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.Globalization.StringInfo.LengthInTextElements*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -308,6 +317,7 @@ items:
       type: System.Int32[]
       description: To be added.
   overload: System.Globalization.StringInfo.ParseCombiningCharacters*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -332,6 +342,7 @@ items:
       type: System.String
       description: To be added.
   overload: System.Globalization.StringInfo.String*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -360,6 +371,7 @@ items:
       type: System.String
       description: To be added.
   overload: System.Globalization.StringInfo.SubstringByTextElements*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -391,6 +403,7 @@ items:
       type: System.String
       description: To be added.
   overload: System.Globalization.StringInfo.SubstringByTextElements*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -429,12 +442,6 @@ references:
   name: Boolean
   nameWithType: Boolean
   fullName: System.Boolean
-- uid: System.Object
-  parent: System
-  isExternal: false
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
 - uid: System.Globalization.StringInfo.GetHashCode
   parent: System.Globalization.StringInfo
   isExternal: false
@@ -453,42 +460,12 @@ references:
   name: GetNextTextElement(String)
   nameWithType: StringInfo.GetNextTextElement(String)
   fullName: System.Globalization.StringInfo.GetNextTextElement(String)
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
 - uid: System.Globalization.StringInfo.GetNextTextElement(System.String,System.Int32)
   parent: System.Globalization.StringInfo
   isExternal: false
   name: GetNextTextElement(String,Int32)
   nameWithType: StringInfo.GetNextTextElement(String,Int32)
   fullName: System.Globalization.StringInfo.GetNextTextElement(String,Int32)
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
 - uid: System.Globalization.StringInfo.GetTextElementEnumerator(System.String)
   parent: System.Globalization.StringInfo
   isExternal: false
@@ -501,120 +478,56 @@ references:
   name: TextElementEnumerator
   nameWithType: TextElementEnumerator
   fullName: System.Globalization.TextElementEnumerator
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
 - uid: System.Globalization.StringInfo.GetTextElementEnumerator(System.String,System.Int32)
   parent: System.Globalization.StringInfo
   isExternal: false
   name: GetTextElementEnumerator(String,Int32)
   nameWithType: StringInfo.GetTextElementEnumerator(String,Int32)
   fullName: System.Globalization.StringInfo.GetTextElementEnumerator(String,Int32)
-- uid: System.Globalization.TextElementEnumerator
-  parent: System.Globalization
-  isExternal: false
-  name: TextElementEnumerator
-  nameWithType: TextElementEnumerator
-  fullName: System.Globalization.TextElementEnumerator
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
 - uid: System.Globalization.StringInfo.LengthInTextElements
   parent: System.Globalization.StringInfo
   isExternal: false
   name: LengthInTextElements
   nameWithType: StringInfo.LengthInTextElements
   fullName: System.Globalization.StringInfo.LengthInTextElements
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
 - uid: System.Globalization.StringInfo.ParseCombiningCharacters(System.String)
   parent: System.Globalization.StringInfo
   isExternal: false
   name: ParseCombiningCharacters(String)
   nameWithType: StringInfo.ParseCombiningCharacters(String)
   fullName: System.Globalization.StringInfo.ParseCombiningCharacters(String)
-- uid: System.Int32
+- uid: System.Int32[]
   parent: System
   isExternal: false
   name: Int32
   nameWithType: Int32
   fullName: System.Int32[]
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
+  spec.csharp:
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: Int32[]
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
 - uid: System.Globalization.StringInfo.String
   parent: System.Globalization.StringInfo
   isExternal: false
   name: String
   nameWithType: StringInfo.String
   fullName: System.Globalization.StringInfo.String
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
 - uid: System.Globalization.StringInfo.SubstringByTextElements(System.Int32)
   parent: System.Globalization.StringInfo
   isExternal: false
   name: SubstringByTextElements(Int32)
   nameWithType: StringInfo.SubstringByTextElements(Int32)
   fullName: System.Globalization.StringInfo.SubstringByTextElements(Int32)
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
 - uid: System.Globalization.StringInfo.SubstringByTextElements(System.Int32,System.Int32)
   parent: System.Globalization.StringInfo
   isExternal: false
   name: SubstringByTextElements(Int32,Int32)
   nameWithType: StringInfo.SubstringByTextElements(Int32,Int32)
   fullName: System.Globalization.StringInfo.SubstringByTextElements(Int32,Int32)
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
 - uid: System.Globalization.StringInfo.#ctor*
   parent: System.Globalization.StringInfo
   isExternal: false

@@ -96,6 +96,7 @@ items:
     content: public ObfuscationAttribute ();
     parameters: []
   overload: System.Reflection.ObfuscationAttribute.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -120,6 +121,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Reflection.ObfuscationAttribute.ApplyToMembers*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -144,6 +146,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Reflection.ObfuscationAttribute.Exclude*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -168,6 +171,7 @@ items:
       type: System.String
       description: To be added.
   overload: System.Reflection.ObfuscationAttribute.Feature*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -192,6 +196,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Reflection.ObfuscationAttribute.StripAfterObfuscation*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -224,12 +229,6 @@ references:
   name: Exclude
   nameWithType: ObfuscationAttribute.Exclude
   fullName: System.Reflection.ObfuscationAttribute.Exclude
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
 - uid: System.Reflection.ObfuscationAttribute.Feature
   parent: System.Reflection.ObfuscationAttribute
   isExternal: false
@@ -248,12 +247,6 @@ references:
   name: StripAfterObfuscation
   nameWithType: ObfuscationAttribute.StripAfterObfuscation
   fullName: System.Reflection.ObfuscationAttribute.StripAfterObfuscation
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
 - uid: System.Reflection.ObfuscationAttribute.#ctor*
   parent: System.Reflection.ObfuscationAttribute
   isExternal: false

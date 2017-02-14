@@ -65,6 +65,7 @@ items:
     content: public ApplicationException ();
     parameters: []
   overload: System.ApplicationException.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -90,6 +91,7 @@ items:
       type: System.String
       description: To be added.
   overload: System.ApplicationException.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -118,6 +120,7 @@ items:
       type: System.Runtime.Serialization.StreamingContext
       description: To be added.
   overload: System.ApplicationException.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -146,6 +149,7 @@ items:
       type: System.Exception
       description: To be added.
   overload: System.ApplicationException.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -196,18 +200,6 @@ references:
   name: ApplicationException(String,Exception)
   nameWithType: ApplicationException.ApplicationException(String,Exception)
   fullName: System.ApplicationException.ApplicationException(String,Exception)
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
-- uid: System.Exception
-  parent: System
-  isExternal: false
-  name: Exception
-  nameWithType: Exception
-  fullName: System.Exception
 - uid: System.ApplicationException.#ctor*
   parent: System.ApplicationException
   isExternal: false

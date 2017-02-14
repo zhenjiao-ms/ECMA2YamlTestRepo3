@@ -71,6 +71,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: Microsoft.Win32.SafeHandles.SafeWaitHandle.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -96,6 +97,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: Microsoft.Win32.SafeHandles.SafeWaitHandle.ReleaseHandle*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -128,12 +130,6 @@ references:
   name: ReleaseHandle()
   nameWithType: SafeWaitHandle.ReleaseHandle()
   fullName: Microsoft.Win32.SafeHandles.SafeWaitHandle.ReleaseHandle()
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
 - uid: Microsoft.Win32.SafeHandles.SafeWaitHandle.#ctor*
   parent: Microsoft.Win32.SafeHandles.SafeWaitHandle
   isExternal: false

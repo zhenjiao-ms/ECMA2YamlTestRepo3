@@ -79,6 +79,7 @@ items:
     content: public MACTripleDES ();
     parameters: []
   overload: System.Security.Cryptography.MACTripleDES.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -104,6 +105,7 @@ items:
       type: System.Byte[]
       description: To be added.
   overload: System.Security.Cryptography.MACTripleDES.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -132,6 +134,7 @@ items:
       type: System.Byte[]
       description: To be added.
   overload: System.Security.Cryptography.MACTripleDES.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -157,6 +160,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Security.Cryptography.MACTripleDES.Dispose*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -188,6 +192,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.Security.Cryptography.MACTripleDES.HashCore*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -213,6 +218,7 @@ items:
       type: System.Byte[]
       description: To be added.
   overload: System.Security.Cryptography.MACTripleDES.HashFinal*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -235,6 +241,7 @@ items:
     content: public override void Initialize ();
     parameters: []
   overload: System.Security.Cryptography.MACTripleDES.Initialize*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -259,6 +266,7 @@ items:
       type: System.Security.Cryptography.PaddingMode
       description: To be added.
   overload: System.Security.Cryptography.MACTripleDES.Padding*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -279,12 +287,20 @@ references:
   name: MACTripleDES(Byte[])
   nameWithType: MACTripleDES.MACTripleDES(Byte[])
   fullName: System.Security.Cryptography.MACTripleDES.MACTripleDES(Byte[])
-- uid: System.Byte
+- uid: System.Byte[]
   parent: System
   isExternal: false
   name: Byte
   nameWithType: Byte
   fullName: System.Byte[]
+  spec.csharp:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: Byte[]
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
 - uid: System.Security.Cryptography.MACTripleDES.#ctor(System.String,System.Byte[])
   parent: System.Security.Cryptography.MACTripleDES
   isExternal: false
@@ -297,12 +313,6 @@ references:
   name: String
   nameWithType: String
   fullName: System.String
-- uid: System.Byte
-  parent: System
-  isExternal: false
-  name: Byte
-  nameWithType: Byte
-  fullName: System.Byte[]
 - uid: System.Security.Cryptography.MACTripleDES.Dispose(System.Boolean)
   parent: System.Security.Cryptography.MACTripleDES
   isExternal: false
@@ -321,18 +331,6 @@ references:
   name: HashCore(Byte[],Int32,Int32)
   nameWithType: MACTripleDES.HashCore(Byte[],Int32,Int32)
   fullName: System.Security.Cryptography.MACTripleDES.HashCore(Byte[],Int32,Int32)
-- uid: System.Byte
-  parent: System
-  isExternal: false
-  name: Byte
-  nameWithType: Byte
-  fullName: System.Byte[]
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
 - uid: System.Int32
   parent: System
   isExternal: false
@@ -345,12 +343,6 @@ references:
   name: HashFinal()
   nameWithType: MACTripleDES.HashFinal()
   fullName: System.Security.Cryptography.MACTripleDES.HashFinal()
-- uid: System.Byte
-  parent: System
-  isExternal: false
-  name: Byte
-  nameWithType: Byte
-  fullName: System.Byte[]
 - uid: System.Security.Cryptography.MACTripleDES.Initialize
   parent: System.Security.Cryptography.MACTripleDES
   isExternal: false

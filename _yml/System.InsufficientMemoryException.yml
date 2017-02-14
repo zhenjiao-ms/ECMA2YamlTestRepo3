@@ -63,6 +63,7 @@ items:
     content: public InsufficientMemoryException ();
     parameters: []
   overload: System.InsufficientMemoryException.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -88,6 +89,7 @@ items:
       type: System.String
       description: To be added.
   overload: System.InsufficientMemoryException.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -116,6 +118,7 @@ items:
       type: System.Exception
       description: To be added.
   overload: System.InsufficientMemoryException.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -148,12 +151,6 @@ references:
   name: InsufficientMemoryException(String,Exception)
   nameWithType: InsufficientMemoryException.InsufficientMemoryException(String,Exception)
   fullName: System.InsufficientMemoryException.InsufficientMemoryException(String,Exception)
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
 - uid: System.Exception
   parent: System
   isExternal: false

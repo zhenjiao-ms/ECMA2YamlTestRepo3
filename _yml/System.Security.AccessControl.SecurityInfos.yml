@@ -46,6 +46,7 @@ items:
     return:
       type: System.Security.AccessControl.SecurityInfos
       description: To be added.
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -68,6 +69,7 @@ items:
     return:
       type: System.Security.AccessControl.SecurityInfos
       description: To be added.
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -90,6 +92,7 @@ items:
     return:
       type: System.Security.AccessControl.SecurityInfos
       description: To be added.
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -112,6 +115,7 @@ items:
     return:
       type: System.Security.AccessControl.SecurityInfos
       description: To be added.
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -138,33 +142,15 @@ references:
   name: Group
   nameWithType: SecurityInfos.Group
   fullName: System.Security.AccessControl.SecurityInfos.Group
-- uid: System.Security.AccessControl.SecurityInfos
-  parent: System.Security.AccessControl
-  isExternal: false
-  name: SecurityInfos
-  nameWithType: SecurityInfos
-  fullName: System.Security.AccessControl.SecurityInfos
 - uid: System.Security.AccessControl.SecurityInfos.Owner
   parent: System.Security.AccessControl.SecurityInfos
   isExternal: false
   name: Owner
   nameWithType: SecurityInfos.Owner
   fullName: System.Security.AccessControl.SecurityInfos.Owner
-- uid: System.Security.AccessControl.SecurityInfos
-  parent: System.Security.AccessControl
-  isExternal: false
-  name: SecurityInfos
-  nameWithType: SecurityInfos
-  fullName: System.Security.AccessControl.SecurityInfos
 - uid: System.Security.AccessControl.SecurityInfos.SystemAcl
   parent: System.Security.AccessControl.SecurityInfos
   isExternal: false
   name: SystemAcl
   nameWithType: SecurityInfos.SystemAcl
   fullName: System.Security.AccessControl.SecurityInfos.SystemAcl
-- uid: System.Security.AccessControl.SecurityInfos
-  parent: System.Security.AccessControl
-  isExternal: false
-  name: SecurityInfos
-  nameWithType: SecurityInfos
-  fullName: System.Security.AccessControl.SecurityInfos

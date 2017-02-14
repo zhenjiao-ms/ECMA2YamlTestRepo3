@@ -42,6 +42,7 @@ items:
     return:
       type: Microsoft.Win32.RegistryView
       description: To be added.
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -64,6 +65,7 @@ items:
     return:
       type: Microsoft.Win32.RegistryView
       description: To be added.
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -86,6 +88,7 @@ items:
     return:
       type: Microsoft.Win32.RegistryView
       description: To be added.
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -112,21 +115,9 @@ references:
   name: Registry32
   nameWithType: RegistryView.Registry32
   fullName: Microsoft.Win32.RegistryView.Registry32
-- uid: Microsoft.Win32.RegistryView
-  parent: Microsoft.Win32
-  isExternal: false
-  name: RegistryView
-  nameWithType: RegistryView
-  fullName: Microsoft.Win32.RegistryView
 - uid: Microsoft.Win32.RegistryView.Registry64
   parent: Microsoft.Win32.RegistryView
   isExternal: false
   name: Registry64
   nameWithType: RegistryView.Registry64
   fullName: Microsoft.Win32.RegistryView.Registry64
-- uid: Microsoft.Win32.RegistryView
-  parent: Microsoft.Win32
-  isExternal: false
-  name: RegistryView
-  nameWithType: RegistryView
-  fullName: Microsoft.Win32.RegistryView

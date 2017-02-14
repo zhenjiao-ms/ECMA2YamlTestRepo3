@@ -58,6 +58,7 @@ items:
     content: public RSAOAEPKeyExchangeFormatter ();
     parameters: []
   overload: System.Security.Cryptography.RSAOAEPKeyExchangeFormatter.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -83,6 +84,7 @@ items:
       type: System.Security.Cryptography.AsymmetricAlgorithm
       description: To be added.
   overload: System.Security.Cryptography.RSAOAEPKeyExchangeFormatter.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -111,6 +113,7 @@ items:
       type: System.Byte[]
       description: To be added.
   overload: System.Security.Cryptography.RSAOAEPKeyExchangeFormatter.CreateKeyExchange*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -142,6 +145,7 @@ items:
       type: System.Byte[]
       description: To be added.
   overload: System.Security.Cryptography.RSAOAEPKeyExchangeFormatter.CreateKeyExchange*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -166,6 +170,7 @@ items:
       type: System.Byte[]
       description: To be added.
   overload: System.Security.Cryptography.RSAOAEPKeyExchangeFormatter.Parameter*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -190,6 +195,7 @@ items:
       type: System.String
       description: To be added.
   overload: System.Security.Cryptography.RSAOAEPKeyExchangeFormatter.Parameters*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -214,6 +220,7 @@ items:
       type: System.Security.Cryptography.RandomNumberGenerator
       description: To be added.
   overload: System.Security.Cryptography.RSAOAEPKeyExchangeFormatter.Rng*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -239,6 +246,7 @@ items:
       type: System.Security.Cryptography.AsymmetricAlgorithm
       description: To be added.
   overload: System.Security.Cryptography.RSAOAEPKeyExchangeFormatter.SetKey*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -271,36 +279,26 @@ references:
   name: CreateKeyExchange(Byte[])
   nameWithType: RSAOAEPKeyExchangeFormatter.CreateKeyExchange(Byte[])
   fullName: System.Security.Cryptography.RSAOAEPKeyExchangeFormatter.CreateKeyExchange(Byte[])
-- uid: System.Byte
+- uid: System.Byte[]
   parent: System
   isExternal: false
   name: Byte
   nameWithType: Byte
   fullName: System.Byte[]
-- uid: System.Byte
-  parent: System
-  isExternal: false
-  name: Byte
-  nameWithType: Byte
-  fullName: System.Byte[]
+  spec.csharp:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: Byte[]
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
 - uid: System.Security.Cryptography.RSAOAEPKeyExchangeFormatter.CreateKeyExchange(System.Byte[],System.Type)
   parent: System.Security.Cryptography.RSAOAEPKeyExchangeFormatter
   isExternal: false
   name: CreateKeyExchange(Byte[],Type)
   nameWithType: RSAOAEPKeyExchangeFormatter.CreateKeyExchange(Byte[],Type)
   fullName: System.Security.Cryptography.RSAOAEPKeyExchangeFormatter.CreateKeyExchange(Byte[],Type)
-- uid: System.Byte
-  parent: System
-  isExternal: false
-  name: Byte
-  nameWithType: Byte
-  fullName: System.Byte[]
-- uid: System.Byte
-  parent: System
-  isExternal: false
-  name: Byte
-  nameWithType: Byte
-  fullName: System.Byte[]
 - uid: System.Type
   parent: System
   isExternal: false
@@ -313,12 +311,6 @@ references:
   name: Parameter
   nameWithType: RSAOAEPKeyExchangeFormatter.Parameter
   fullName: System.Security.Cryptography.RSAOAEPKeyExchangeFormatter.Parameter
-- uid: System.Byte
-  parent: System
-  isExternal: false
-  name: Byte
-  nameWithType: Byte
-  fullName: System.Byte[]
 - uid: System.Security.Cryptography.RSAOAEPKeyExchangeFormatter.Parameters
   parent: System.Security.Cryptography.RSAOAEPKeyExchangeFormatter
   isExternal: false
@@ -349,12 +341,6 @@ references:
   name: SetKey(AsymmetricAlgorithm)
   nameWithType: RSAOAEPKeyExchangeFormatter.SetKey(AsymmetricAlgorithm)
   fullName: System.Security.Cryptography.RSAOAEPKeyExchangeFormatter.SetKey(AsymmetricAlgorithm)
-- uid: System.Security.Cryptography.AsymmetricAlgorithm
-  parent: System.Security.Cryptography
-  isExternal: false
-  name: AsymmetricAlgorithm
-  nameWithType: AsymmetricAlgorithm
-  fullName: System.Security.Cryptography.AsymmetricAlgorithm
 - uid: System.Security.Cryptography.RSAOAEPKeyExchangeFormatter.#ctor*
   parent: System.Security.Cryptography.RSAOAEPKeyExchangeFormatter
   isExternal: false

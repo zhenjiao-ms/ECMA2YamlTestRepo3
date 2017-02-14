@@ -45,6 +45,7 @@ items:
       type: System.Object
       description: To be added.
   overload: System.Runtime.Remoting.Services.ITrackingHandler.DisconnectedObject*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -73,6 +74,7 @@ items:
       type: System.Runtime.Remoting.ObjRef
       description: To be added.
   overload: System.Runtime.Remoting.Services.ITrackingHandler.MarshaledObject*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -101,6 +103,7 @@ items:
       type: System.Runtime.Remoting.ObjRef
       description: To be added.
   overload: System.Runtime.Remoting.Services.ITrackingHandler.UnmarshaledObject*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -124,12 +127,6 @@ references:
   name: MarshaledObject(Object,ObjRef)
   nameWithType: ITrackingHandler.MarshaledObject(Object,ObjRef)
   fullName: System.Runtime.Remoting.Services.ITrackingHandler.MarshaledObject(Object,ObjRef)
-- uid: System.Object
-  parent: System
-  isExternal: false
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
 - uid: System.Runtime.Remoting.ObjRef
   parent: System.Runtime.Remoting
   isExternal: false
@@ -142,18 +139,6 @@ references:
   name: UnmarshaledObject(Object,ObjRef)
   nameWithType: ITrackingHandler.UnmarshaledObject(Object,ObjRef)
   fullName: System.Runtime.Remoting.Services.ITrackingHandler.UnmarshaledObject(Object,ObjRef)
-- uid: System.Object
-  parent: System
-  isExternal: false
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
-- uid: System.Runtime.Remoting.ObjRef
-  parent: System.Runtime.Remoting
-  isExternal: false
-  name: ObjRef
-  nameWithType: ObjRef
-  fullName: System.Runtime.Remoting.ObjRef
 - uid: System.Runtime.Remoting.Services.ITrackingHandler.DisconnectedObject*
   parent: System.Runtime.Remoting.Services.ITrackingHandler
   isExternal: false

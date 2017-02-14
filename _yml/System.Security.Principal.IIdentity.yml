@@ -44,6 +44,7 @@ items:
       type: System.String
       description: To be added.
   overload: System.Security.Principal.IIdentity.AuthenticationType*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -68,6 +69,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Security.Principal.IIdentity.IsAuthenticated*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -92,6 +94,7 @@ items:
       type: System.String
       description: To be added.
   overload: System.Security.Principal.IIdentity.Name*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -127,12 +130,6 @@ references:
   name: Name
   nameWithType: IIdentity.Name
   fullName: System.Security.Principal.IIdentity.Name
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
 - uid: System.Security.Principal.IIdentity.AuthenticationType*
   parent: System.Security.Principal.IIdentity
   isExternal: false

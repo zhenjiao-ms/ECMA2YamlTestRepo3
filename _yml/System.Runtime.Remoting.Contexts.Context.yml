@@ -66,6 +66,7 @@ items:
     content: public Context ();
     parameters: []
   overload: System.Runtime.Remoting.Contexts.Context.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -91,6 +92,7 @@ items:
       type: System.LocalDataStoreSlot
       description: To be added.
   overload: System.Runtime.Remoting.Contexts.Context.AllocateDataSlot*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -119,6 +121,7 @@ items:
       type: System.LocalDataStoreSlot
       description: To be added.
   overload: System.Runtime.Remoting.Contexts.Context.AllocateNamedDataSlot*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -143,6 +146,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.Runtime.Remoting.Contexts.Context.ContextID*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -167,6 +171,7 @@ items:
       type: System.Runtime.Remoting.Contexts.IContextProperty[]
       description: To be added.
   overload: System.Runtime.Remoting.Contexts.Context.ContextProperties*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -191,6 +196,7 @@ items:
       type: System.Runtime.Remoting.Contexts.Context
       description: To be added.
   overload: System.Runtime.Remoting.Contexts.Context.DefaultContext*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -216,6 +222,7 @@ items:
       type: System.Runtime.Remoting.Contexts.CrossContextDelegate
       description: To be added.
   overload: System.Runtime.Remoting.Contexts.Context.DoCallBack*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -238,6 +245,7 @@ items:
     content: ~Context ();
     parameters: []
   overload: System.Runtime.Remoting.Contexts.Context.Finalize*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -263,6 +271,7 @@ items:
       type: System.String
       description: To be added.
   overload: System.Runtime.Remoting.Contexts.Context.FreeNamedDataSlot*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -285,6 +294,7 @@ items:
     content: public virtual void Freeze ();
     parameters: []
   overload: System.Runtime.Remoting.Contexts.Context.Freeze*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -313,6 +323,7 @@ items:
       type: System.Object
       description: To be added.
   overload: System.Runtime.Remoting.Contexts.Context.GetData*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -341,6 +352,7 @@ items:
       type: System.LocalDataStoreSlot
       description: To be added.
   overload: System.Runtime.Remoting.Contexts.Context.GetNamedDataSlot*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -369,6 +381,7 @@ items:
       type: System.Runtime.Remoting.Contexts.IContextProperty
       description: To be added.
   overload: System.Runtime.Remoting.Contexts.Context.GetProperty*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -403,6 +416,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Runtime.Remoting.Contexts.Context.RegisterDynamicProperty*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -431,6 +445,7 @@ items:
       type: System.Object
       description: To be added.
   overload: System.Runtime.Remoting.Contexts.Context.SetData*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -456,6 +471,7 @@ items:
       type: System.Runtime.Remoting.Contexts.IContextProperty
       description: To be added.
   overload: System.Runtime.Remoting.Contexts.Context.SetProperty*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -481,6 +497,7 @@ items:
       type: System.String
       description: To be added.
   overload: System.Runtime.Remoting.Contexts.Context.ToString*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -515,6 +532,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Runtime.Remoting.Contexts.Context.UnregisterDynamicProperty*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -547,12 +565,6 @@ references:
   name: AllocateNamedDataSlot(String)
   nameWithType: Context.AllocateNamedDataSlot(String)
   fullName: System.Runtime.Remoting.Contexts.Context.AllocateNamedDataSlot(String)
-- uid: System.LocalDataStoreSlot
-  parent: System
-  isExternal: false
-  name: LocalDataStoreSlot
-  nameWithType: LocalDataStoreSlot
-  fullName: System.LocalDataStoreSlot
 - uid: System.String
   parent: System
   isExternal: false
@@ -577,12 +589,20 @@ references:
   name: ContextProperties
   nameWithType: Context.ContextProperties
   fullName: System.Runtime.Remoting.Contexts.Context.ContextProperties
-- uid: System.Runtime.Remoting.Contexts.IContextProperty
+- uid: System.Runtime.Remoting.Contexts.IContextProperty[]
   parent: System.Runtime.Remoting.Contexts
   isExternal: false
   name: IContextProperty
   nameWithType: IContextProperty
   fullName: System.Runtime.Remoting.Contexts.IContextProperty[]
+  spec.csharp:
+  - uid: System.Runtime.Remoting.Contexts.IContextProperty
+    name: IContextProperty
+    nameWithType: IContextProperty
+    fullName: IContextProperty[]
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
 - uid: System.Runtime.Remoting.Contexts.Context.DefaultContext
   parent: System.Runtime.Remoting.Contexts.Context
   isExternal: false
@@ -619,12 +639,6 @@ references:
   name: FreeNamedDataSlot(String)
   nameWithType: Context.FreeNamedDataSlot(String)
   fullName: System.Runtime.Remoting.Contexts.Context.FreeNamedDataSlot(String)
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
 - uid: System.Runtime.Remoting.Contexts.Context.Freeze
   parent: System.Runtime.Remoting.Contexts.Context
   isExternal: false
@@ -637,36 +651,12 @@ references:
   name: GetData(LocalDataStoreSlot)
   nameWithType: Context.GetData(LocalDataStoreSlot)
   fullName: System.Runtime.Remoting.Contexts.Context.GetData(LocalDataStoreSlot)
-- uid: System.Object
-  parent: System
-  isExternal: false
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
-- uid: System.LocalDataStoreSlot
-  parent: System
-  isExternal: false
-  name: LocalDataStoreSlot
-  nameWithType: LocalDataStoreSlot
-  fullName: System.LocalDataStoreSlot
 - uid: System.Runtime.Remoting.Contexts.Context.GetNamedDataSlot(System.String)
   parent: System.Runtime.Remoting.Contexts.Context
   isExternal: false
   name: GetNamedDataSlot(String)
   nameWithType: Context.GetNamedDataSlot(String)
   fullName: System.Runtime.Remoting.Contexts.Context.GetNamedDataSlot(String)
-- uid: System.LocalDataStoreSlot
-  parent: System
-  isExternal: false
-  name: LocalDataStoreSlot
-  nameWithType: LocalDataStoreSlot
-  fullName: System.LocalDataStoreSlot
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
 - uid: System.Runtime.Remoting.Contexts.Context.GetProperty(System.String)
   parent: System.Runtime.Remoting.Contexts.Context
   isExternal: false
@@ -679,12 +669,6 @@ references:
   name: IContextProperty
   nameWithType: IContextProperty
   fullName: System.Runtime.Remoting.Contexts.IContextProperty
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
 - uid: System.Runtime.Remoting.Contexts.Context.RegisterDynamicProperty(System.Runtime.Remoting.Contexts.IDynamicProperty,System.ContextBoundObject,System.Runtime.Remoting.Contexts.Context)
   parent: System.Runtime.Remoting.Contexts.Context
   isExternal: false
@@ -709,84 +693,30 @@ references:
   name: ContextBoundObject
   nameWithType: ContextBoundObject
   fullName: System.ContextBoundObject
-- uid: System.Runtime.Remoting.Contexts.Context
-  parent: System.Runtime.Remoting.Contexts
-  isExternal: false
-  name: Context
-  nameWithType: Context
-  fullName: System.Runtime.Remoting.Contexts.Context
 - uid: System.Runtime.Remoting.Contexts.Context.SetData(System.LocalDataStoreSlot,System.Object)
   parent: System.Runtime.Remoting.Contexts.Context
   isExternal: false
   name: SetData(LocalDataStoreSlot,Object)
   nameWithType: Context.SetData(LocalDataStoreSlot,Object)
   fullName: System.Runtime.Remoting.Contexts.Context.SetData(LocalDataStoreSlot,Object)
-- uid: System.LocalDataStoreSlot
-  parent: System
-  isExternal: false
-  name: LocalDataStoreSlot
-  nameWithType: LocalDataStoreSlot
-  fullName: System.LocalDataStoreSlot
-- uid: System.Object
-  parent: System
-  isExternal: false
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
 - uid: System.Runtime.Remoting.Contexts.Context.SetProperty(System.Runtime.Remoting.Contexts.IContextProperty)
   parent: System.Runtime.Remoting.Contexts.Context
   isExternal: false
   name: SetProperty(IContextProperty)
   nameWithType: Context.SetProperty(IContextProperty)
   fullName: System.Runtime.Remoting.Contexts.Context.SetProperty(IContextProperty)
-- uid: System.Runtime.Remoting.Contexts.IContextProperty
-  parent: System.Runtime.Remoting.Contexts
-  isExternal: false
-  name: IContextProperty
-  nameWithType: IContextProperty
-  fullName: System.Runtime.Remoting.Contexts.IContextProperty
 - uid: System.Runtime.Remoting.Contexts.Context.ToString
   parent: System.Runtime.Remoting.Contexts.Context
   isExternal: false
   name: ToString()
   nameWithType: Context.ToString()
   fullName: System.Runtime.Remoting.Contexts.Context.ToString()
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
 - uid: System.Runtime.Remoting.Contexts.Context.UnregisterDynamicProperty(System.String,System.ContextBoundObject,System.Runtime.Remoting.Contexts.Context)
   parent: System.Runtime.Remoting.Contexts.Context
   isExternal: false
   name: UnregisterDynamicProperty(String,ContextBoundObject,Context)
   nameWithType: Context.UnregisterDynamicProperty(String,ContextBoundObject,Context)
   fullName: System.Runtime.Remoting.Contexts.Context.UnregisterDynamicProperty(String,ContextBoundObject,Context)
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
-- uid: System.ContextBoundObject
-  parent: System
-  isExternal: false
-  name: ContextBoundObject
-  nameWithType: ContextBoundObject
-  fullName: System.ContextBoundObject
-- uid: System.Runtime.Remoting.Contexts.Context
-  parent: System.Runtime.Remoting.Contexts
-  isExternal: false
-  name: Context
-  nameWithType: Context
-  fullName: System.Runtime.Remoting.Contexts.Context
 - uid: System.Runtime.Remoting.Contexts.Context.#ctor*
   parent: System.Runtime.Remoting.Contexts.Context
   isExternal: false

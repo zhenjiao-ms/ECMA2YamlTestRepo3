@@ -67,6 +67,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Security.SecurityManager.CheckExecutionRights*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -92,6 +93,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Security.SecurityManager.CurrentThreadRequiresSecurityContextCapture*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -120,6 +122,7 @@ items:
       type: System.Security.PermissionSet
       description: To be added.
   overload: System.Security.SecurityManager.GetStandardSandbox*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -148,6 +151,7 @@ items:
       type: System.Collections.ArrayList
       description: To be added.
   overload: System.Security.SecurityManager.GetZoneAndOrigin*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -176,6 +180,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Security.SecurityManager.IsGranted*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -207,6 +212,7 @@ items:
       type: System.Security.Policy.PolicyLevel
       description: To be added.
   overload: System.Security.SecurityManager.LoadPolicyLevelFromFile*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -238,6 +244,7 @@ items:
       type: System.Security.Policy.PolicyLevel
       description: To be added.
   overload: System.Security.SecurityManager.LoadPolicyLevelFromString*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -263,6 +270,7 @@ items:
       type: System.Collections.IEnumerator
       description: To be added.
   overload: System.Security.SecurityManager.PolicyHierarchy*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -291,6 +299,7 @@ items:
       type: System.Security.PermissionSet
       description: To be added.
   overload: System.Security.SecurityManager.ResolvePolicy*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -319,6 +328,7 @@ items:
       type: System.Security.PermissionSet
       description: To be added.
   overload: System.Security.SecurityManager.ResolvePolicy*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -359,6 +369,7 @@ items:
       type: System.Security.PermissionSet
       description: To be added.
   overload: System.Security.SecurityManager.ResolvePolicy*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -387,6 +398,7 @@ items:
       type: System.Collections.IEnumerator
       description: To be added.
   overload: System.Security.SecurityManager.ResolvePolicyGroups*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -415,6 +427,7 @@ items:
       type: System.Security.PermissionSet
       description: To be added.
   overload: System.Security.SecurityManager.ResolveSystemPolicy*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -437,6 +450,7 @@ items:
     content: public static void SavePolicy ();
     parameters: []
   overload: System.Security.SecurityManager.SavePolicy*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -462,6 +476,7 @@ items:
       type: System.Security.Policy.PolicyLevel
       description: To be added.
   overload: System.Security.SecurityManager.SavePolicyLevel*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -486,6 +501,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Security.SecurityManager.SecurityEnabled*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -512,12 +528,6 @@ references:
   name: CurrentThreadRequiresSecurityContextCapture()
   nameWithType: SecurityManager.CurrentThreadRequiresSecurityContextCapture()
   fullName: System.Security.SecurityManager.CurrentThreadRequiresSecurityContextCapture()
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
 - uid: System.Security.SecurityManager.GetStandardSandbox(System.Security.Policy.Evidence)
   parent: System.Security.SecurityManager
   isExternal: false
@@ -548,24 +558,12 @@ references:
   name: ArrayList
   nameWithType: ArrayList
   fullName: System.Collections.ArrayList
-- uid: System.Collections.ArrayList
-  parent: System.Collections
-  isExternal: false
-  name: ArrayList
-  nameWithType: ArrayList
-  fullName: System.Collections.ArrayList
 - uid: System.Security.SecurityManager.IsGranted(System.Security.IPermission)
   parent: System.Security.SecurityManager
   isExternal: false
   name: IsGranted(IPermission)
   nameWithType: SecurityManager.IsGranted(IPermission)
   fullName: System.Security.SecurityManager.IsGranted(IPermission)
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
 - uid: System.Security.IPermission
   parent: System.Security
   isExternal: false
@@ -602,24 +600,6 @@ references:
   name: LoadPolicyLevelFromString(String,PolicyLevelType)
   nameWithType: SecurityManager.LoadPolicyLevelFromString(String,PolicyLevelType)
   fullName: System.Security.SecurityManager.LoadPolicyLevelFromString(String,PolicyLevelType)
-- uid: System.Security.Policy.PolicyLevel
-  parent: System.Security.Policy
-  isExternal: false
-  name: PolicyLevel
-  nameWithType: PolicyLevel
-  fullName: System.Security.Policy.PolicyLevel
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
-- uid: System.Security.PolicyLevelType
-  parent: System.Security
-  isExternal: false
-  name: PolicyLevelType
-  nameWithType: PolicyLevelType
-  fullName: System.Security.PolicyLevelType
 - uid: System.Security.SecurityManager.PolicyHierarchy
   parent: System.Security.SecurityManager
   isExternal: false
@@ -638,114 +618,44 @@ references:
   name: ResolvePolicy(Evidence)
   nameWithType: SecurityManager.ResolvePolicy(Evidence)
   fullName: System.Security.SecurityManager.ResolvePolicy(Evidence)
-- uid: System.Security.PermissionSet
-  parent: System.Security
-  isExternal: false
-  name: PermissionSet
-  nameWithType: PermissionSet
-  fullName: System.Security.PermissionSet
-- uid: System.Security.Policy.Evidence
-  parent: System.Security.Policy
-  isExternal: false
-  name: Evidence
-  nameWithType: Evidence
-  fullName: System.Security.Policy.Evidence
 - uid: System.Security.SecurityManager.ResolvePolicy(System.Security.Policy.Evidence[])
   parent: System.Security.SecurityManager
   isExternal: false
   name: ResolvePolicy(Evidence[])
   nameWithType: SecurityManager.ResolvePolicy(Evidence[])
   fullName: System.Security.SecurityManager.ResolvePolicy(Evidence[])
-- uid: System.Security.PermissionSet
-  parent: System.Security
-  isExternal: false
-  name: PermissionSet
-  nameWithType: PermissionSet
-  fullName: System.Security.PermissionSet
-- uid: System.Security.Policy.Evidence
+- uid: System.Security.Policy.Evidence[]
   parent: System.Security.Policy
   isExternal: false
   name: Evidence
   nameWithType: Evidence
   fullName: System.Security.Policy.Evidence[]
+  spec.csharp:
+  - uid: System.Security.Policy.Evidence
+    name: Evidence
+    nameWithType: Evidence
+    fullName: Evidence[]
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
 - uid: System.Security.SecurityManager.ResolvePolicy(System.Security.Policy.Evidence,System.Security.PermissionSet,System.Security.PermissionSet,System.Security.PermissionSet,System.Security.PermissionSet@)
   parent: System.Security.SecurityManager
   isExternal: false
   name: ResolvePolicy(Evidence,PermissionSet,PermissionSet,PermissionSet,PermissionSet)
   nameWithType: SecurityManager.ResolvePolicy(Evidence,PermissionSet,PermissionSet,PermissionSet,PermissionSet)
   fullName: System.Security.SecurityManager.ResolvePolicy(Evidence,PermissionSet,PermissionSet,PermissionSet,PermissionSet)
-- uid: System.Security.PermissionSet
-  parent: System.Security
-  isExternal: false
-  name: PermissionSet
-  nameWithType: PermissionSet
-  fullName: System.Security.PermissionSet
-- uid: System.Security.Policy.Evidence
-  parent: System.Security.Policy
-  isExternal: false
-  name: Evidence
-  nameWithType: Evidence
-  fullName: System.Security.Policy.Evidence
-- uid: System.Security.PermissionSet
-  parent: System.Security
-  isExternal: false
-  name: PermissionSet
-  nameWithType: PermissionSet
-  fullName: System.Security.PermissionSet
-- uid: System.Security.PermissionSet
-  parent: System.Security
-  isExternal: false
-  name: PermissionSet
-  nameWithType: PermissionSet
-  fullName: System.Security.PermissionSet
-- uid: System.Security.PermissionSet
-  parent: System.Security
-  isExternal: false
-  name: PermissionSet
-  nameWithType: PermissionSet
-  fullName: System.Security.PermissionSet
-- uid: System.Security.PermissionSet
-  parent: System.Security
-  isExternal: false
-  name: PermissionSet
-  nameWithType: PermissionSet
-  fullName: System.Security.PermissionSet
 - uid: System.Security.SecurityManager.ResolvePolicyGroups(System.Security.Policy.Evidence)
   parent: System.Security.SecurityManager
   isExternal: false
   name: ResolvePolicyGroups(Evidence)
   nameWithType: SecurityManager.ResolvePolicyGroups(Evidence)
   fullName: System.Security.SecurityManager.ResolvePolicyGroups(Evidence)
-- uid: System.Collections.IEnumerator
-  parent: System.Collections
-  isExternal: false
-  name: IEnumerator
-  nameWithType: IEnumerator
-  fullName: System.Collections.IEnumerator
-- uid: System.Security.Policy.Evidence
-  parent: System.Security.Policy
-  isExternal: false
-  name: Evidence
-  nameWithType: Evidence
-  fullName: System.Security.Policy.Evidence
 - uid: System.Security.SecurityManager.ResolveSystemPolicy(System.Security.Policy.Evidence)
   parent: System.Security.SecurityManager
   isExternal: false
   name: ResolveSystemPolicy(Evidence)
   nameWithType: SecurityManager.ResolveSystemPolicy(Evidence)
   fullName: System.Security.SecurityManager.ResolveSystemPolicy(Evidence)
-- uid: System.Security.PermissionSet
-  parent: System.Security
-  isExternal: false
-  name: PermissionSet
-  nameWithType: PermissionSet
-  fullName: System.Security.PermissionSet
-- uid: System.Security.Policy.Evidence
-  parent: System.Security.Policy
-  isExternal: false
-  name: Evidence
-  nameWithType: Evidence
-  fullName: System.Security.Policy.Evidence
 - uid: System.Security.SecurityManager.SavePolicy
   parent: System.Security.SecurityManager
   isExternal: false
@@ -758,24 +668,12 @@ references:
   name: SavePolicyLevel(PolicyLevel)
   nameWithType: SecurityManager.SavePolicyLevel(PolicyLevel)
   fullName: System.Security.SecurityManager.SavePolicyLevel(PolicyLevel)
-- uid: System.Security.Policy.PolicyLevel
-  parent: System.Security.Policy
-  isExternal: false
-  name: PolicyLevel
-  nameWithType: PolicyLevel
-  fullName: System.Security.Policy.PolicyLevel
 - uid: System.Security.SecurityManager.SecurityEnabled
   parent: System.Security.SecurityManager
   isExternal: false
   name: SecurityEnabled
   nameWithType: SecurityManager.SecurityEnabled
   fullName: System.Security.SecurityManager.SecurityEnabled
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
 - uid: System.Security.SecurityManager.CheckExecutionRights*
   parent: System.Security.SecurityManager
   isExternal: false

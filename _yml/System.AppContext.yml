@@ -51,6 +51,7 @@ items:
       type: System.String
       description: To be added.
   overload: System.AppContext.BaseDirectory*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -79,6 +80,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.AppContext.SetSwitch*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -110,6 +112,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.AppContext.TryGetSwitch*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -136,12 +139,6 @@ references:
   name: SetSwitch(String,Boolean)
   nameWithType: AppContext.SetSwitch(String,Boolean)
   fullName: System.AppContext.SetSwitch(String,Boolean)
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
 - uid: System.Boolean
   parent: System
   isExternal: false
@@ -154,24 +151,6 @@ references:
   name: TryGetSwitch(String,Boolean)
   nameWithType: AppContext.TryGetSwitch(String,Boolean)
   fullName: System.AppContext.TryGetSwitch(String,Boolean)
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
 - uid: System.AppContext.BaseDirectory*
   parent: System.AppContext
   isExternal: false

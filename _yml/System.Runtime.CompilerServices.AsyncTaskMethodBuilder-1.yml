@@ -56,6 +56,7 @@ items:
       type: TStateMachine
       description: To be added.
   overload: System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.AwaitOnCompleted<TAwaiter,TStateMachine>*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -84,6 +85,7 @@ items:
       type: TStateMachine
       description: To be added.
   overload: System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.AwaitUnsafeOnCompleted<TAwaiter,TStateMachine>*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -109,6 +111,7 @@ items:
       type: System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1
       description: To be added.
   overload: System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.Create*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -134,6 +137,7 @@ items:
       type: System.Exception
       description: To be added.
   overload: System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.SetException*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -159,6 +163,7 @@ items:
       type: TResult
       description: To be added.
   overload: System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.SetResult*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -184,6 +189,7 @@ items:
       type: System.Runtime.CompilerServices.IAsyncStateMachine
       description: To be added.
   overload: System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.SetStateMachine*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -209,6 +215,7 @@ items:
       type: TStateMachine
       description: To be added.
   overload: System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.Start<TStateMachine>*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -233,6 +240,7 @@ items:
       type: System.Threading.Tasks.Task`1
       description: To be added.
   overload: System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.Task*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -248,13 +256,11 @@ references:
   nameWithType: AsyncTaskMethodBuilder<TResult>.AwaitOnCompleted(TAwaiter,TStateMachine)
   fullName: System.Runtime.CompilerServices.AsyncTaskMethodBuilder<TResult>.AwaitOnCompleted(TAwaiter,TStateMachine)
 - uid: TAwaiter
-  parent: ''
   isExternal: true
   name: TAwaiter
   nameWithType: TAwaiter
   fullName: TAwaiter
 - uid: TStateMachine
-  parent: ''
   isExternal: true
   name: TStateMachine
   nameWithType: TStateMachine
@@ -265,18 +271,6 @@ references:
   name: AwaitUnsafeOnCompleted(TAwaiter,TStateMachine)
   nameWithType: AsyncTaskMethodBuilder<TResult>.AwaitUnsafeOnCompleted(TAwaiter,TStateMachine)
   fullName: System.Runtime.CompilerServices.AsyncTaskMethodBuilder<TResult>.AwaitUnsafeOnCompleted(TAwaiter,TStateMachine)
-- uid: TAwaiter
-  parent: ''
-  isExternal: true
-  name: TAwaiter
-  nameWithType: TAwaiter
-  fullName: TAwaiter
-- uid: TStateMachine
-  parent: ''
-  isExternal: true
-  name: TStateMachine
-  nameWithType: TStateMachine
-  fullName: TStateMachine
 - uid: System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.Create
   parent: System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1
   isExternal: false
@@ -308,7 +302,6 @@ references:
   nameWithType: AsyncTaskMethodBuilder<TResult>.SetResult(TResult)
   fullName: System.Runtime.CompilerServices.AsyncTaskMethodBuilder<TResult>.SetResult(TResult)
 - uid: TResult
-  parent: ''
   isExternal: true
   name: TResult
   nameWithType: TResult
@@ -331,12 +324,6 @@ references:
   name: Start(TStateMachine)
   nameWithType: AsyncTaskMethodBuilder<TResult>.Start(TStateMachine)
   fullName: System.Runtime.CompilerServices.AsyncTaskMethodBuilder<TResult>.Start(TStateMachine)
-- uid: TStateMachine
-  parent: ''
-  isExternal: true
-  name: TStateMachine
-  nameWithType: TStateMachine
-  fullName: TStateMachine
 - uid: System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.Task
   parent: System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1
   isExternal: false

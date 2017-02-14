@@ -50,6 +50,7 @@ items:
       type: System.Runtime.InteropServices.UCOMIEnumMoniker
       description: To be added.
   overload: System.Runtime.InteropServices.UCOMIEnumMoniker.Clone*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -84,6 +85,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.Runtime.InteropServices.UCOMIEnumMoniker.Next*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -109,6 +111,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.Runtime.InteropServices.UCOMIEnumMoniker.Reset*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -137,6 +140,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.Runtime.InteropServices.UCOMIEnumMoniker.Skip*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -166,54 +170,32 @@ references:
   name: Int32
   nameWithType: Int32
   fullName: System.Int32
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: System.Runtime.InteropServices.UCOMIMoniker
+- uid: System.Runtime.InteropServices.UCOMIMoniker[]
   parent: System.Runtime.InteropServices
   isExternal: false
   name: UCOMIMoniker
   nameWithType: UCOMIMoniker
   fullName: System.Runtime.InteropServices.UCOMIMoniker[]
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
+  spec.csharp:
+  - uid: System.Runtime.InteropServices.UCOMIMoniker
+    name: UCOMIMoniker
+    nameWithType: UCOMIMoniker
+    fullName: UCOMIMoniker[]
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
 - uid: System.Runtime.InteropServices.UCOMIEnumMoniker.Reset
   parent: System.Runtime.InteropServices.UCOMIEnumMoniker
   isExternal: false
   name: Reset()
   nameWithType: UCOMIEnumMoniker.Reset()
   fullName: System.Runtime.InteropServices.UCOMIEnumMoniker.Reset()
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
 - uid: System.Runtime.InteropServices.UCOMIEnumMoniker.Skip(System.Int32)
   parent: System.Runtime.InteropServices.UCOMIEnumMoniker
   isExternal: false
   name: Skip(Int32)
   nameWithType: UCOMIEnumMoniker.Skip(Int32)
   fullName: System.Runtime.InteropServices.UCOMIEnumMoniker.Skip(Int32)
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
 - uid: System.Runtime.InteropServices.UCOMIEnumMoniker.Clone*
   parent: System.Runtime.InteropServices.UCOMIEnumMoniker
   isExternal: false

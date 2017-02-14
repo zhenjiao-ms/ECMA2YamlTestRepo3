@@ -57,6 +57,7 @@ items:
     content: public Random ();
     parameters: []
   overload: System.Random.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -82,6 +83,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.Random.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -107,6 +109,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.Random.Next*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -135,6 +138,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.Random.Next*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -166,6 +170,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.Random.Next*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -191,6 +196,7 @@ items:
       type: System.Byte[]
       description: To be added.
   overload: System.Random.NextBytes*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -216,6 +222,7 @@ items:
       type: System.Double
       description: To be added.
   overload: System.Random.NextDouble*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -241,6 +248,7 @@ items:
       type: System.Double
       description: To be added.
   overload: System.Random.Sample*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -273,66 +281,38 @@ references:
   name: Next()
   nameWithType: Random.Next()
   fullName: System.Random.Next()
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
 - uid: System.Random.Next(System.Int32)
   parent: System.Random
   isExternal: false
   name: Next(Int32)
   nameWithType: Random.Next(Int32)
   fullName: System.Random.Next(Int32)
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
 - uid: System.Random.Next(System.Int32,System.Int32)
   parent: System.Random
   isExternal: false
   name: Next(Int32,Int32)
   nameWithType: Random.Next(Int32,Int32)
   fullName: System.Random.Next(Int32,Int32)
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
 - uid: System.Random.NextBytes(System.Byte[])
   parent: System.Random
   isExternal: false
   name: NextBytes(Byte[])
   nameWithType: Random.NextBytes(Byte[])
   fullName: System.Random.NextBytes(Byte[])
-- uid: System.Byte
+- uid: System.Byte[]
   parent: System
   isExternal: false
   name: Byte
   nameWithType: Byte
   fullName: System.Byte[]
+  spec.csharp:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: Byte[]
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
 - uid: System.Random.NextDouble
   parent: System.Random
   isExternal: false
@@ -351,12 +331,6 @@ references:
   name: Sample()
   nameWithType: Random.Sample()
   fullName: System.Random.Sample()
-- uid: System.Double
-  parent: System
-  isExternal: false
-  name: Double
-  nameWithType: Double
-  fullName: System.Double
 - uid: System.Random.#ctor*
   parent: System.Random
   isExternal: false

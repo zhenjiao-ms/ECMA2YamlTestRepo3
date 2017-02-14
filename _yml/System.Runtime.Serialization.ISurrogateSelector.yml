@@ -45,6 +45,7 @@ items:
       type: System.Runtime.Serialization.ISurrogateSelector
       description: To be added.
   overload: System.Runtime.Serialization.ISurrogateSelector.ChainSelector*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -70,6 +71,7 @@ items:
       type: System.Runtime.Serialization.ISurrogateSelector
       description: To be added.
   overload: System.Runtime.Serialization.ISurrogateSelector.GetNextSelector*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -104,6 +106,7 @@ items:
       type: System.Runtime.Serialization.ISerializationSurrogate
       description: To be added.
   overload: System.Runtime.Serialization.ISurrogateSelector.GetSurrogate*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -127,12 +130,6 @@ references:
   name: GetNextSelector()
   nameWithType: ISurrogateSelector.GetNextSelector()
   fullName: System.Runtime.Serialization.ISurrogateSelector.GetNextSelector()
-- uid: System.Runtime.Serialization.ISurrogateSelector
-  parent: System.Runtime.Serialization
-  isExternal: false
-  name: ISurrogateSelector
-  nameWithType: ISurrogateSelector
-  fullName: System.Runtime.Serialization.ISurrogateSelector
 - uid: System.Runtime.Serialization.ISurrogateSelector.GetSurrogate(System.Type,System.Runtime.Serialization.StreamingContext,System.Runtime.Serialization.ISurrogateSelector@)
   parent: System.Runtime.Serialization.ISurrogateSelector
   isExternal: false
@@ -157,12 +154,6 @@ references:
   name: StreamingContext
   nameWithType: StreamingContext
   fullName: System.Runtime.Serialization.StreamingContext
-- uid: System.Runtime.Serialization.ISurrogateSelector
-  parent: System.Runtime.Serialization
-  isExternal: false
-  name: ISurrogateSelector
-  nameWithType: ISurrogateSelector
-  fullName: System.Runtime.Serialization.ISurrogateSelector
 - uid: System.Runtime.Serialization.ISurrogateSelector.ChainSelector*
   parent: System.Runtime.Serialization.ISurrogateSelector
   isExternal: false

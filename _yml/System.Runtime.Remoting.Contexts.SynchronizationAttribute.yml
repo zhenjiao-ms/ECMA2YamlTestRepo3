@@ -114,6 +114,7 @@ items:
     content: public SynchronizationAttribute ();
     parameters: []
   overload: System.Runtime.Remoting.Contexts.SynchronizationAttribute.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -139,6 +140,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Runtime.Remoting.Contexts.SynchronizationAttribute.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -164,6 +166,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.Runtime.Remoting.Contexts.SynchronizationAttribute.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -192,6 +195,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Runtime.Remoting.Contexts.SynchronizationAttribute.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -220,6 +224,7 @@ items:
       type: System.Runtime.Remoting.Messaging.IMessageSink
       description: To be added.
   overload: System.Runtime.Remoting.Contexts.SynchronizationAttribute.GetClientContextSink*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -245,6 +250,7 @@ items:
       type: System.Runtime.Remoting.Activation.IConstructionCallMessage
       description: To be added.
   overload: System.Runtime.Remoting.Contexts.SynchronizationAttribute.GetPropertiesForNewContext*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -273,6 +279,7 @@ items:
       type: System.Runtime.Remoting.Messaging.IMessageSink
       description: To be added.
   overload: System.Runtime.Remoting.Contexts.SynchronizationAttribute.GetServerContextSink*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -304,6 +311,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Runtime.Remoting.Contexts.SynchronizationAttribute.IsContextOK*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -328,6 +336,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Runtime.Remoting.Contexts.SynchronizationAttribute.IsReEntrant*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -352,6 +361,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Runtime.Remoting.Contexts.SynchronizationAttribute.Locked*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -375,6 +385,7 @@ items:
     return:
       type: System.Int32
       description: To be added.
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -398,6 +409,7 @@ items:
     return:
       type: System.Int32
       description: To be added.
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -421,6 +433,7 @@ items:
     return:
       type: System.Int32
       description: To be added.
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -444,6 +457,7 @@ items:
     return:
       type: System.Int32
       description: To be added.
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -488,30 +502,12 @@ references:
   name: SynchronizationAttribute(Int32,Boolean)
   nameWithType: SynchronizationAttribute.SynchronizationAttribute(Int32,Boolean)
   fullName: System.Runtime.Remoting.Contexts.SynchronizationAttribute.SynchronizationAttribute(Int32,Boolean)
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
 - uid: System.Runtime.Remoting.Contexts.SynchronizationAttribute.GetClientContextSink(System.Runtime.Remoting.Messaging.IMessageSink)
   parent: System.Runtime.Remoting.Contexts.SynchronizationAttribute
   isExternal: false
   name: GetClientContextSink(IMessageSink)
   nameWithType: SynchronizationAttribute.GetClientContextSink(IMessageSink)
   fullName: System.Runtime.Remoting.Contexts.SynchronizationAttribute.GetClientContextSink(IMessageSink)
-- uid: System.Runtime.Remoting.Messaging.IMessageSink
-  parent: System.Runtime.Remoting.Messaging
-  isExternal: false
-  name: IMessageSink
-  nameWithType: IMessageSink
-  fullName: System.Runtime.Remoting.Messaging.IMessageSink
 - uid: System.Runtime.Remoting.Messaging.IMessageSink
   parent: System.Runtime.Remoting.Messaging
   isExternal: false
@@ -536,114 +532,54 @@ references:
   name: GetServerContextSink(IMessageSink)
   nameWithType: SynchronizationAttribute.GetServerContextSink(IMessageSink)
   fullName: System.Runtime.Remoting.Contexts.SynchronizationAttribute.GetServerContextSink(IMessageSink)
-- uid: System.Runtime.Remoting.Messaging.IMessageSink
-  parent: System.Runtime.Remoting.Messaging
-  isExternal: false
-  name: IMessageSink
-  nameWithType: IMessageSink
-  fullName: System.Runtime.Remoting.Messaging.IMessageSink
-- uid: System.Runtime.Remoting.Messaging.IMessageSink
-  parent: System.Runtime.Remoting.Messaging
-  isExternal: false
-  name: IMessageSink
-  nameWithType: IMessageSink
-  fullName: System.Runtime.Remoting.Messaging.IMessageSink
 - uid: System.Runtime.Remoting.Contexts.SynchronizationAttribute.IsContextOK(System.Runtime.Remoting.Contexts.Context,System.Runtime.Remoting.Activation.IConstructionCallMessage)
   parent: System.Runtime.Remoting.Contexts.SynchronizationAttribute
   isExternal: false
   name: IsContextOK(Context,IConstructionCallMessage)
   nameWithType: SynchronizationAttribute.IsContextOK(Context,IConstructionCallMessage)
   fullName: System.Runtime.Remoting.Contexts.SynchronizationAttribute.IsContextOK(Context,IConstructionCallMessage)
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
 - uid: System.Runtime.Remoting.Contexts.Context
   parent: System.Runtime.Remoting.Contexts
   isExternal: false
   name: Context
   nameWithType: Context
   fullName: System.Runtime.Remoting.Contexts.Context
-- uid: System.Runtime.Remoting.Activation.IConstructionCallMessage
-  parent: System.Runtime.Remoting.Activation
-  isExternal: false
-  name: IConstructionCallMessage
-  nameWithType: IConstructionCallMessage
-  fullName: System.Runtime.Remoting.Activation.IConstructionCallMessage
 - uid: System.Runtime.Remoting.Contexts.SynchronizationAttribute.IsReEntrant
   parent: System.Runtime.Remoting.Contexts.SynchronizationAttribute
   isExternal: false
   name: IsReEntrant
   nameWithType: SynchronizationAttribute.IsReEntrant
   fullName: System.Runtime.Remoting.Contexts.SynchronizationAttribute.IsReEntrant
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
 - uid: System.Runtime.Remoting.Contexts.SynchronizationAttribute.Locked
   parent: System.Runtime.Remoting.Contexts.SynchronizationAttribute
   isExternal: false
   name: Locked
   nameWithType: SynchronizationAttribute.Locked
   fullName: System.Runtime.Remoting.Contexts.SynchronizationAttribute.Locked
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
 - uid: System.Runtime.Remoting.Contexts.SynchronizationAttribute.NOT_SUPPORTED
   parent: System.Runtime.Remoting.Contexts.SynchronizationAttribute
   isExternal: false
   name: NOT_SUPPORTED
   nameWithType: SynchronizationAttribute.NOT_SUPPORTED
   fullName: System.Runtime.Remoting.Contexts.SynchronizationAttribute.NOT_SUPPORTED
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
 - uid: System.Runtime.Remoting.Contexts.SynchronizationAttribute.REQUIRED
   parent: System.Runtime.Remoting.Contexts.SynchronizationAttribute
   isExternal: false
   name: REQUIRED
   nameWithType: SynchronizationAttribute.REQUIRED
   fullName: System.Runtime.Remoting.Contexts.SynchronizationAttribute.REQUIRED
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
 - uid: System.Runtime.Remoting.Contexts.SynchronizationAttribute.REQUIRES_NEW
   parent: System.Runtime.Remoting.Contexts.SynchronizationAttribute
   isExternal: false
   name: REQUIRES_NEW
   nameWithType: SynchronizationAttribute.REQUIRES_NEW
   fullName: System.Runtime.Remoting.Contexts.SynchronizationAttribute.REQUIRES_NEW
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
 - uid: System.Runtime.Remoting.Contexts.SynchronizationAttribute.SUPPORTED
   parent: System.Runtime.Remoting.Contexts.SynchronizationAttribute
   isExternal: false
   name: SUPPORTED
   nameWithType: SynchronizationAttribute.SUPPORTED
   fullName: System.Runtime.Remoting.Contexts.SynchronizationAttribute.SUPPORTED
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
 - uid: System.Runtime.Remoting.Contexts.SynchronizationAttribute.#ctor*
   parent: System.Runtime.Remoting.Contexts.SynchronizationAttribute
   isExternal: false

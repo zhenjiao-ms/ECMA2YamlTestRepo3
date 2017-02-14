@@ -57,6 +57,7 @@ items:
     content: public InternalRemotingServices ();
     parameters: []
   overload: System.Runtime.Remoting.InternalRemotingServices.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -82,6 +83,7 @@ items:
       type: System.String
       description: To be added.
   overload: System.Runtime.Remoting.InternalRemotingServices.DebugOutChnl*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -110,6 +112,7 @@ items:
       type: System.Runtime.Remoting.Metadata.SoapAttribute
       description: To be added.
   overload: System.Runtime.Remoting.InternalRemotingServices.GetCachedSoapAttribute*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -138,6 +141,7 @@ items:
       type: System.String
       description: To be added.
   overload: System.Runtime.Remoting.InternalRemotingServices.RemotingAssert*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -163,6 +167,7 @@ items:
       type: System.Object[]
       description: To be added.
   overload: System.Runtime.Remoting.InternalRemotingServices.RemotingTrace*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -191,6 +196,7 @@ items:
       type: System.Object
       description: To be added.
   overload: System.Runtime.Remoting.InternalRemotingServices.SetServerIdentity*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -229,12 +235,6 @@ references:
   name: SoapAttribute
   nameWithType: SoapAttribute
   fullName: System.Runtime.Remoting.Metadata.SoapAttribute
-- uid: System.Object
-  parent: System
-  isExternal: false
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
 - uid: System.Runtime.Remoting.InternalRemotingServices.RemotingAssert(System.Boolean,System.String)
   parent: System.Runtime.Remoting.InternalRemotingServices
   isExternal: false
@@ -247,24 +247,26 @@ references:
   name: Boolean
   nameWithType: Boolean
   fullName: System.Boolean
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
 - uid: System.Runtime.Remoting.InternalRemotingServices.RemotingTrace(System.Object[])
   parent: System.Runtime.Remoting.InternalRemotingServices
   isExternal: false
   name: RemotingTrace(Object[])
   nameWithType: InternalRemotingServices.RemotingTrace(Object[])
   fullName: System.Runtime.Remoting.InternalRemotingServices.RemotingTrace(Object[])
-- uid: System.Object
+- uid: System.Object[]
   parent: System
   isExternal: false
   name: Object
   nameWithType: Object
   fullName: System.Object[]
+  spec.csharp:
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: Object[]
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
 - uid: System.Runtime.Remoting.InternalRemotingServices.SetServerIdentity(System.Runtime.Remoting.Messaging.MethodCall,System.Object)
   parent: System.Runtime.Remoting.InternalRemotingServices
   isExternal: false
@@ -277,12 +279,6 @@ references:
   name: MethodCall
   nameWithType: MethodCall
   fullName: System.Runtime.Remoting.Messaging.MethodCall
-- uid: System.Object
-  parent: System
-  isExternal: false
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
 - uid: System.Runtime.Remoting.InternalRemotingServices.#ctor*
   parent: System.Runtime.Remoting.InternalRemotingServices
   isExternal: false

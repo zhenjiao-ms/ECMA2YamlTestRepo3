@@ -88,6 +88,7 @@ items:
       type: System.Byte[]
       description: To be added.
   overload: System.Security.AccessControl.CommonAce.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -112,6 +113,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.Security.AccessControl.CommonAce.BinaryLength*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -140,6 +142,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.Security.AccessControl.CommonAce.GetBinaryForm*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -168,6 +171,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.Security.AccessControl.CommonAce.MaxOpaqueLength*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -212,60 +216,38 @@ references:
   name: Boolean
   nameWithType: Boolean
   fullName: System.Boolean
-- uid: System.Byte
+- uid: System.Byte[]
   parent: System
   isExternal: false
   name: Byte
   nameWithType: Byte
   fullName: System.Byte[]
+  spec.csharp:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: Byte[]
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
 - uid: System.Security.AccessControl.CommonAce.BinaryLength
   parent: System.Security.AccessControl.CommonAce
   isExternal: false
   name: BinaryLength
   nameWithType: CommonAce.BinaryLength
   fullName: System.Security.AccessControl.CommonAce.BinaryLength
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
 - uid: System.Security.AccessControl.CommonAce.GetBinaryForm(System.Byte[],System.Int32)
   parent: System.Security.AccessControl.CommonAce
   isExternal: false
   name: GetBinaryForm(Byte[],Int32)
   nameWithType: CommonAce.GetBinaryForm(Byte[],Int32)
   fullName: System.Security.AccessControl.CommonAce.GetBinaryForm(Byte[],Int32)
-- uid: System.Byte
-  parent: System
-  isExternal: false
-  name: Byte
-  nameWithType: Byte
-  fullName: System.Byte[]
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
 - uid: System.Security.AccessControl.CommonAce.MaxOpaqueLength(System.Boolean)
   parent: System.Security.AccessControl.CommonAce
   isExternal: false
   name: MaxOpaqueLength(Boolean)
   nameWithType: CommonAce.MaxOpaqueLength(Boolean)
   fullName: System.Security.AccessControl.CommonAce.MaxOpaqueLength(Boolean)
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
 - uid: System.Security.AccessControl.CommonAce.#ctor*
   parent: System.Security.AccessControl.CommonAce
   isExternal: false

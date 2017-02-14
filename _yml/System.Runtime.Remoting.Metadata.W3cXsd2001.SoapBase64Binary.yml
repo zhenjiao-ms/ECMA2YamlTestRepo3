@@ -56,6 +56,7 @@ items:
     content: public SoapBase64Binary ();
     parameters: []
   overload: System.Runtime.Remoting.Metadata.W3cXsd2001.SoapBase64Binary.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -81,6 +82,7 @@ items:
       type: System.Byte[]
       description: To be added.
   overload: System.Runtime.Remoting.Metadata.W3cXsd2001.SoapBase64Binary.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -106,6 +108,7 @@ items:
       type: System.String
       description: To be added.
   overload: System.Runtime.Remoting.Metadata.W3cXsd2001.SoapBase64Binary.GetXsdType*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -134,6 +137,7 @@ items:
       type: System.Runtime.Remoting.Metadata.W3cXsd2001.SoapBase64Binary
       description: To be added.
   overload: System.Runtime.Remoting.Metadata.W3cXsd2001.SoapBase64Binary.Parse*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -159,6 +163,7 @@ items:
       type: System.String
       description: To be added.
   overload: System.Runtime.Remoting.Metadata.W3cXsd2001.SoapBase64Binary.ToString*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -183,6 +188,7 @@ items:
       type: System.Byte[]
       description: To be added.
   overload: System.Runtime.Remoting.Metadata.W3cXsd2001.SoapBase64Binary.Value*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -207,6 +213,7 @@ items:
       type: System.String
       description: To be added.
   overload: System.Runtime.Remoting.Metadata.W3cXsd2001.SoapBase64Binary.XsdType*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -227,12 +234,20 @@ references:
   name: SoapBase64Binary(Byte[])
   nameWithType: SoapBase64Binary.SoapBase64Binary(Byte[])
   fullName: System.Runtime.Remoting.Metadata.W3cXsd2001.SoapBase64Binary.SoapBase64Binary(Byte[])
-- uid: System.Byte
+- uid: System.Byte[]
   parent: System
   isExternal: false
   name: Byte
   nameWithType: Byte
   fullName: System.Byte[]
+  spec.csharp:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: Byte[]
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
 - uid: System.Runtime.Remoting.Metadata.W3cXsd2001.SoapBase64Binary.GetXsdType
   parent: System.Runtime.Remoting.Metadata.W3cXsd2001.SoapBase64Binary
   isExternal: false
@@ -257,48 +272,24 @@ references:
   name: SoapBase64Binary
   nameWithType: SoapBase64Binary
   fullName: System.Runtime.Remoting.Metadata.W3cXsd2001.SoapBase64Binary
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
 - uid: System.Runtime.Remoting.Metadata.W3cXsd2001.SoapBase64Binary.ToString
   parent: System.Runtime.Remoting.Metadata.W3cXsd2001.SoapBase64Binary
   isExternal: false
   name: ToString()
   nameWithType: SoapBase64Binary.ToString()
   fullName: System.Runtime.Remoting.Metadata.W3cXsd2001.SoapBase64Binary.ToString()
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
 - uid: System.Runtime.Remoting.Metadata.W3cXsd2001.SoapBase64Binary.Value
   parent: System.Runtime.Remoting.Metadata.W3cXsd2001.SoapBase64Binary
   isExternal: false
   name: Value
   nameWithType: SoapBase64Binary.Value
   fullName: System.Runtime.Remoting.Metadata.W3cXsd2001.SoapBase64Binary.Value
-- uid: System.Byte
-  parent: System
-  isExternal: false
-  name: Byte
-  nameWithType: Byte
-  fullName: System.Byte[]
 - uid: System.Runtime.Remoting.Metadata.W3cXsd2001.SoapBase64Binary.XsdType
   parent: System.Runtime.Remoting.Metadata.W3cXsd2001.SoapBase64Binary
   isExternal: false
   name: XsdType
   nameWithType: SoapBase64Binary.XsdType
   fullName: System.Runtime.Remoting.Metadata.W3cXsd2001.SoapBase64Binary.XsdType
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
 - uid: System.Runtime.Remoting.Metadata.W3cXsd2001.SoapBase64Binary.#ctor*
   parent: System.Runtime.Remoting.Metadata.W3cXsd2001.SoapBase64Binary
   isExternal: false

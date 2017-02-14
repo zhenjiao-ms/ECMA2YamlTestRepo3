@@ -65,6 +65,7 @@ items:
     content: public ServerException ();
     parameters: []
   overload: System.Runtime.Remoting.ServerException.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -90,6 +91,7 @@ items:
       type: System.String
       description: To be added.
   overload: System.Runtime.Remoting.ServerException.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -118,6 +120,7 @@ items:
       type: System.Exception
       description: To be added.
   overload: System.Runtime.Remoting.ServerException.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -150,12 +153,6 @@ references:
   name: ServerException(String,Exception)
   nameWithType: ServerException.ServerException(String,Exception)
   fullName: System.Runtime.Remoting.ServerException.ServerException(String,Exception)
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
 - uid: System.Exception
   parent: System
   isExternal: false

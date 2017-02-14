@@ -123,6 +123,7 @@ items:
       type: System.IO.Stream
       description: To be added.
   overload: System.IO.StreamWriter.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -148,6 +149,7 @@ items:
       type: System.String
       description: To be added.
   overload: System.IO.StreamWriter.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -176,6 +178,7 @@ items:
       type: System.Text.Encoding
       description: To be added.
   overload: System.IO.StreamWriter.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -204,6 +207,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.IO.StreamWriter.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -235,6 +239,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.IO.StreamWriter.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -266,6 +271,7 @@ items:
       type: System.Text.Encoding
       description: To be added.
   overload: System.IO.StreamWriter.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -300,6 +306,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.IO.StreamWriter.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -334,6 +341,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.IO.StreamWriter.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -358,6 +366,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.IO.StreamWriter.AutoFlush*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -382,6 +391,7 @@ items:
       type: System.IO.Stream
       description: To be added.
   overload: System.IO.StreamWriter.BaseStream*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -404,6 +414,7 @@ items:
     content: public override void Close ();
     parameters: []
   overload: System.IO.StreamWriter.Close*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -429,6 +440,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.IO.StreamWriter.Dispose*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -453,6 +465,7 @@ items:
       type: System.Text.Encoding
       description: To be added.
   overload: System.IO.StreamWriter.Encoding*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -475,6 +488,7 @@ items:
     content: public override void Flush ();
     parameters: []
   overload: System.IO.StreamWriter.Flush*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -500,6 +514,7 @@ items:
       type: System.Threading.Tasks.Task
       description: To be added.
   overload: System.IO.StreamWriter.FlushAsync*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -523,6 +538,7 @@ items:
     return:
       type: System.IO.StreamWriter
       description: To be added.
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -548,6 +564,7 @@ items:
       type: System.Char
       description: To be added.
   overload: System.IO.StreamWriter.Write*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -573,6 +590,7 @@ items:
       type: System.Char[]
       description: To be added.
   overload: System.IO.StreamWriter.Write*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -598,6 +616,7 @@ items:
       type: System.String
       description: To be added.
   overload: System.IO.StreamWriter.Write*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -629,6 +648,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.IO.StreamWriter.Write*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -657,6 +677,7 @@ items:
       type: System.Threading.Tasks.Task
       description: To be added.
   overload: System.IO.StreamWriter.WriteAsync*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -685,6 +706,7 @@ items:
       type: System.Threading.Tasks.Task
       description: To be added.
   overload: System.IO.StreamWriter.WriteAsync*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -719,6 +741,7 @@ items:
       type: System.Threading.Tasks.Task
       description: To be added.
   overload: System.IO.StreamWriter.WriteAsync*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -744,6 +767,7 @@ items:
       type: System.Threading.Tasks.Task
       description: To be added.
   overload: System.IO.StreamWriter.WriteLineAsync*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -772,6 +796,7 @@ items:
       type: System.Threading.Tasks.Task
       description: To be added.
   overload: System.IO.StreamWriter.WriteLineAsync*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -800,6 +825,7 @@ items:
       type: System.Threading.Tasks.Task
       description: To be added.
   overload: System.IO.StreamWriter.WriteLineAsync*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -834,6 +860,7 @@ items:
       type: System.Threading.Tasks.Task
       description: To be added.
   overload: System.IO.StreamWriter.WriteLineAsync*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -872,12 +899,6 @@ references:
   name: StreamWriter(Stream,Encoding)
   nameWithType: StreamWriter.StreamWriter(Stream,Encoding)
   fullName: System.IO.StreamWriter.StreamWriter(Stream,Encoding)
-- uid: System.IO.Stream
-  parent: System.IO
-  isExternal: false
-  name: Stream
-  nameWithType: Stream
-  fullName: System.IO.Stream
 - uid: System.Text.Encoding
   parent: System.Text
   isExternal: false
@@ -890,12 +911,6 @@ references:
   name: StreamWriter(String,Boolean)
   nameWithType: StreamWriter.StreamWriter(String,Boolean)
   fullName: System.IO.StreamWriter.StreamWriter(String,Boolean)
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
 - uid: System.Boolean
   parent: System
   isExternal: false
@@ -908,18 +923,6 @@ references:
   name: StreamWriter(Stream,Encoding,Int32)
   nameWithType: StreamWriter.StreamWriter(Stream,Encoding,Int32)
   fullName: System.IO.StreamWriter.StreamWriter(Stream,Encoding,Int32)
-- uid: System.IO.Stream
-  parent: System.IO
-  isExternal: false
-  name: Stream
-  nameWithType: Stream
-  fullName: System.IO.Stream
-- uid: System.Text.Encoding
-  parent: System.Text
-  isExternal: false
-  name: Encoding
-  nameWithType: Encoding
-  fullName: System.Text.Encoding
 - uid: System.Int32
   parent: System
   isExternal: false
@@ -932,108 +935,30 @@ references:
   name: StreamWriter(String,Boolean,Encoding)
   nameWithType: StreamWriter.StreamWriter(String,Boolean,Encoding)
   fullName: System.IO.StreamWriter.StreamWriter(String,Boolean,Encoding)
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
-- uid: System.Text.Encoding
-  parent: System.Text
-  isExternal: false
-  name: Encoding
-  nameWithType: Encoding
-  fullName: System.Text.Encoding
 - uid: System.IO.StreamWriter.#ctor(System.IO.Stream,System.Text.Encoding,System.Int32,System.Boolean)
   parent: System.IO.StreamWriter
   isExternal: false
   name: StreamWriter(Stream,Encoding,Int32,Boolean)
   nameWithType: StreamWriter.StreamWriter(Stream,Encoding,Int32,Boolean)
   fullName: System.IO.StreamWriter.StreamWriter(Stream,Encoding,Int32,Boolean)
-- uid: System.IO.Stream
-  parent: System.IO
-  isExternal: false
-  name: Stream
-  nameWithType: Stream
-  fullName: System.IO.Stream
-- uid: System.Text.Encoding
-  parent: System.Text
-  isExternal: false
-  name: Encoding
-  nameWithType: Encoding
-  fullName: System.Text.Encoding
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
 - uid: System.IO.StreamWriter.#ctor(System.String,System.Boolean,System.Text.Encoding,System.Int32)
   parent: System.IO.StreamWriter
   isExternal: false
   name: StreamWriter(String,Boolean,Encoding,Int32)
   nameWithType: StreamWriter.StreamWriter(String,Boolean,Encoding,Int32)
   fullName: System.IO.StreamWriter.StreamWriter(String,Boolean,Encoding,Int32)
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
-- uid: System.Text.Encoding
-  parent: System.Text
-  isExternal: false
-  name: Encoding
-  nameWithType: Encoding
-  fullName: System.Text.Encoding
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
 - uid: System.IO.StreamWriter.AutoFlush
   parent: System.IO.StreamWriter
   isExternal: false
   name: AutoFlush
   nameWithType: StreamWriter.AutoFlush
   fullName: System.IO.StreamWriter.AutoFlush
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
 - uid: System.IO.StreamWriter.BaseStream
   parent: System.IO.StreamWriter
   isExternal: false
   name: BaseStream
   nameWithType: StreamWriter.BaseStream
   fullName: System.IO.StreamWriter.BaseStream
-- uid: System.IO.Stream
-  parent: System.IO
-  isExternal: false
-  name: Stream
-  nameWithType: Stream
-  fullName: System.IO.Stream
 - uid: System.IO.StreamWriter.Close
   parent: System.IO.StreamWriter
   isExternal: false
@@ -1046,24 +971,12 @@ references:
   name: Dispose(Boolean)
   nameWithType: StreamWriter.Dispose(Boolean)
   fullName: System.IO.StreamWriter.Dispose(Boolean)
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
 - uid: System.IO.StreamWriter.Encoding
   parent: System.IO.StreamWriter
   isExternal: false
   name: Encoding
   nameWithType: StreamWriter.Encoding
   fullName: System.IO.StreamWriter.Encoding
-- uid: System.Text.Encoding
-  parent: System.Text
-  isExternal: false
-  name: Encoding
-  nameWithType: Encoding
-  fullName: System.Text.Encoding
 - uid: System.IO.StreamWriter.Flush
   parent: System.IO.StreamWriter
   isExternal: false
@@ -1112,192 +1025,74 @@ references:
   name: Write(Char[])
   nameWithType: StreamWriter.Write(Char[])
   fullName: System.IO.StreamWriter.Write(Char[])
-- uid: System.Char
+- uid: System.Char[]
   parent: System
   isExternal: false
   name: Char
   nameWithType: Char
   fullName: System.Char[]
+  spec.csharp:
+  - uid: System.Char
+    name: Char
+    nameWithType: Char
+    fullName: Char[]
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
 - uid: System.IO.StreamWriter.Write(System.String)
   parent: System.IO.StreamWriter
   isExternal: false
   name: Write(String)
   nameWithType: StreamWriter.Write(String)
   fullName: System.IO.StreamWriter.Write(String)
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
 - uid: System.IO.StreamWriter.Write(System.Char[],System.Int32,System.Int32)
   parent: System.IO.StreamWriter
   isExternal: false
   name: Write(Char[],Int32,Int32)
   nameWithType: StreamWriter.Write(Char[],Int32,Int32)
   fullName: System.IO.StreamWriter.Write(Char[],Int32,Int32)
-- uid: System.Char
-  parent: System
-  isExternal: false
-  name: Char
-  nameWithType: Char
-  fullName: System.Char[]
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
 - uid: System.IO.StreamWriter.WriteAsync(System.Char)
   parent: System.IO.StreamWriter
   isExternal: false
   name: WriteAsync(Char)
   nameWithType: StreamWriter.WriteAsync(Char)
   fullName: System.IO.StreamWriter.WriteAsync(Char)
-- uid: System.Threading.Tasks.Task
-  parent: System.Threading.Tasks
-  isExternal: false
-  name: Task
-  nameWithType: Task
-  fullName: System.Threading.Tasks.Task
-- uid: System.Char
-  parent: System
-  isExternal: false
-  name: Char
-  nameWithType: Char
-  fullName: System.Char
 - uid: System.IO.StreamWriter.WriteAsync(System.String)
   parent: System.IO.StreamWriter
   isExternal: false
   name: WriteAsync(String)
   nameWithType: StreamWriter.WriteAsync(String)
   fullName: System.IO.StreamWriter.WriteAsync(String)
-- uid: System.Threading.Tasks.Task
-  parent: System.Threading.Tasks
-  isExternal: false
-  name: Task
-  nameWithType: Task
-  fullName: System.Threading.Tasks.Task
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
 - uid: System.IO.StreamWriter.WriteAsync(System.Char[],System.Int32,System.Int32)
   parent: System.IO.StreamWriter
   isExternal: false
   name: WriteAsync(Char[],Int32,Int32)
   nameWithType: StreamWriter.WriteAsync(Char[],Int32,Int32)
   fullName: System.IO.StreamWriter.WriteAsync(Char[],Int32,Int32)
-- uid: System.Threading.Tasks.Task
-  parent: System.Threading.Tasks
-  isExternal: false
-  name: Task
-  nameWithType: Task
-  fullName: System.Threading.Tasks.Task
-- uid: System.Char
-  parent: System
-  isExternal: false
-  name: Char
-  nameWithType: Char
-  fullName: System.Char[]
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
 - uid: System.IO.StreamWriter.WriteLineAsync
   parent: System.IO.StreamWriter
   isExternal: false
   name: WriteLineAsync()
   nameWithType: StreamWriter.WriteLineAsync()
   fullName: System.IO.StreamWriter.WriteLineAsync()
-- uid: System.Threading.Tasks.Task
-  parent: System.Threading.Tasks
-  isExternal: false
-  name: Task
-  nameWithType: Task
-  fullName: System.Threading.Tasks.Task
 - uid: System.IO.StreamWriter.WriteLineAsync(System.Char)
   parent: System.IO.StreamWriter
   isExternal: false
   name: WriteLineAsync(Char)
   nameWithType: StreamWriter.WriteLineAsync(Char)
   fullName: System.IO.StreamWriter.WriteLineAsync(Char)
-- uid: System.Threading.Tasks.Task
-  parent: System.Threading.Tasks
-  isExternal: false
-  name: Task
-  nameWithType: Task
-  fullName: System.Threading.Tasks.Task
-- uid: System.Char
-  parent: System
-  isExternal: false
-  name: Char
-  nameWithType: Char
-  fullName: System.Char
 - uid: System.IO.StreamWriter.WriteLineAsync(System.String)
   parent: System.IO.StreamWriter
   isExternal: false
   name: WriteLineAsync(String)
   nameWithType: StreamWriter.WriteLineAsync(String)
   fullName: System.IO.StreamWriter.WriteLineAsync(String)
-- uid: System.Threading.Tasks.Task
-  parent: System.Threading.Tasks
-  isExternal: false
-  name: Task
-  nameWithType: Task
-  fullName: System.Threading.Tasks.Task
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
 - uid: System.IO.StreamWriter.WriteLineAsync(System.Char[],System.Int32,System.Int32)
   parent: System.IO.StreamWriter
   isExternal: false
   name: WriteLineAsync(Char[],Int32,Int32)
   nameWithType: StreamWriter.WriteLineAsync(Char[],Int32,Int32)
   fullName: System.IO.StreamWriter.WriteLineAsync(Char[],Int32,Int32)
-- uid: System.Threading.Tasks.Task
-  parent: System.Threading.Tasks
-  isExternal: false
-  name: Task
-  nameWithType: Task
-  fullName: System.Threading.Tasks.Task
-- uid: System.Char
-  parent: System
-  isExternal: false
-  name: Char
-  nameWithType: Char
-  fullName: System.Char[]
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
 - uid: System.IO.StreamWriter.#ctor*
   parent: System.IO.StreamWriter
   isExternal: false

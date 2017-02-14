@@ -70,6 +70,7 @@ items:
       type: System.Security.Cryptography.X509Certificates.X509Certificate
       description: To be added.
   overload: System.Security.Permissions.PublisherIdentityPermission.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -95,6 +96,7 @@ items:
       type: System.Security.Permissions.PermissionState
       description: To be added.
   overload: System.Security.Permissions.PublisherIdentityPermission.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -119,6 +121,7 @@ items:
       type: System.Security.Cryptography.X509Certificates.X509Certificate
       description: To be added.
   overload: System.Security.Permissions.PublisherIdentityPermission.Certificate*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -144,6 +147,7 @@ items:
       type: System.Security.IPermission
       description: To be added.
   overload: System.Security.Permissions.PublisherIdentityPermission.Copy*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -169,6 +173,7 @@ items:
       type: System.Security.SecurityElement
       description: To be added.
   overload: System.Security.Permissions.PublisherIdentityPermission.FromXml*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -197,6 +202,7 @@ items:
       type: System.Security.IPermission
       description: To be added.
   overload: System.Security.Permissions.PublisherIdentityPermission.Intersect*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -225,6 +231,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Security.Permissions.PublisherIdentityPermission.IsSubsetOf*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -250,6 +257,7 @@ items:
       type: System.Security.SecurityElement
       description: To be added.
   overload: System.Security.Permissions.PublisherIdentityPermission.ToXml*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -278,6 +286,7 @@ items:
       type: System.Security.IPermission
       description: To be added.
   overload: System.Security.Permissions.PublisherIdentityPermission.Union*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -316,12 +325,6 @@ references:
   name: Certificate
   nameWithType: PublisherIdentityPermission.Certificate
   fullName: System.Security.Permissions.PublisherIdentityPermission.Certificate
-- uid: System.Security.Cryptography.X509Certificates.X509Certificate
-  parent: System.Security.Cryptography.X509Certificates
-  isExternal: false
-  name: X509Certificate
-  nameWithType: X509Certificate
-  fullName: System.Security.Cryptography.X509Certificates.X509Certificate
 - uid: System.Security.Permissions.PublisherIdentityPermission.Copy
   parent: System.Security.Permissions.PublisherIdentityPermission
   isExternal: false
@@ -352,18 +355,6 @@ references:
   name: Intersect(IPermission)
   nameWithType: PublisherIdentityPermission.Intersect(IPermission)
   fullName: System.Security.Permissions.PublisherIdentityPermission.Intersect(IPermission)
-- uid: System.Security.IPermission
-  parent: System.Security
-  isExternal: false
-  name: IPermission
-  nameWithType: IPermission
-  fullName: System.Security.IPermission
-- uid: System.Security.IPermission
-  parent: System.Security
-  isExternal: false
-  name: IPermission
-  nameWithType: IPermission
-  fullName: System.Security.IPermission
 - uid: System.Security.Permissions.PublisherIdentityPermission.IsSubsetOf(System.Security.IPermission)
   parent: System.Security.Permissions.PublisherIdentityPermission
   isExternal: false
@@ -376,42 +367,18 @@ references:
   name: Boolean
   nameWithType: Boolean
   fullName: System.Boolean
-- uid: System.Security.IPermission
-  parent: System.Security
-  isExternal: false
-  name: IPermission
-  nameWithType: IPermission
-  fullName: System.Security.IPermission
 - uid: System.Security.Permissions.PublisherIdentityPermission.ToXml
   parent: System.Security.Permissions.PublisherIdentityPermission
   isExternal: false
   name: ToXml()
   nameWithType: PublisherIdentityPermission.ToXml()
   fullName: System.Security.Permissions.PublisherIdentityPermission.ToXml()
-- uid: System.Security.SecurityElement
-  parent: System.Security
-  isExternal: false
-  name: SecurityElement
-  nameWithType: SecurityElement
-  fullName: System.Security.SecurityElement
 - uid: System.Security.Permissions.PublisherIdentityPermission.Union(System.Security.IPermission)
   parent: System.Security.Permissions.PublisherIdentityPermission
   isExternal: false
   name: Union(IPermission)
   nameWithType: PublisherIdentityPermission.Union(IPermission)
   fullName: System.Security.Permissions.PublisherIdentityPermission.Union(IPermission)
-- uid: System.Security.IPermission
-  parent: System.Security
-  isExternal: false
-  name: IPermission
-  nameWithType: IPermission
-  fullName: System.Security.IPermission
-- uid: System.Security.IPermission
-  parent: System.Security
-  isExternal: false
-  name: IPermission
-  nameWithType: IPermission
-  fullName: System.Security.IPermission
 - uid: System.Security.Permissions.PublisherIdentityPermission.#ctor*
   parent: System.Security.Permissions.PublisherIdentityPermission
   isExternal: false

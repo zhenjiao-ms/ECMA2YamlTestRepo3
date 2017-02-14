@@ -69,6 +69,7 @@ items:
     content: protected BaseChannelObjectWithProperties ();
     parameters: []
   overload: System.Runtime.Remoting.Channels.BaseChannelObjectWithProperties.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -97,6 +98,7 @@ items:
       type: System.Object
       description: To be added.
   overload: System.Runtime.Remoting.Channels.BaseChannelObjectWithProperties.Add*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -119,6 +121,7 @@ items:
     content: public virtual void Clear ();
     parameters: []
   overload: System.Runtime.Remoting.Channels.BaseChannelObjectWithProperties.Clear*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -147,6 +150,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Runtime.Remoting.Channels.BaseChannelObjectWithProperties.Contains*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -175,6 +179,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.Runtime.Remoting.Channels.BaseChannelObjectWithProperties.CopyTo*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -199,6 +204,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.Runtime.Remoting.Channels.BaseChannelObjectWithProperties.Count*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -224,6 +230,7 @@ items:
       type: System.Collections.IDictionaryEnumerator
       description: To be added.
   overload: System.Runtime.Remoting.Channels.BaseChannelObjectWithProperties.GetEnumerator*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -248,6 +255,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Runtime.Remoting.Channels.BaseChannelObjectWithProperties.IsFixedSize*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -272,6 +280,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Runtime.Remoting.Channels.BaseChannelObjectWithProperties.IsReadOnly*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -296,6 +305,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Runtime.Remoting.Channels.BaseChannelObjectWithProperties.IsSynchronized*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -324,6 +334,7 @@ items:
       type: System.Object
       description: To be added.
   overload: System.Runtime.Remoting.Channels.BaseChannelObjectWithProperties.Item*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -348,6 +359,7 @@ items:
       type: System.Collections.ICollection
       description: To be added.
   overload: System.Runtime.Remoting.Channels.BaseChannelObjectWithProperties.Keys*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -372,6 +384,7 @@ items:
       type: System.Collections.IDictionary
       description: To be added.
   overload: System.Runtime.Remoting.Channels.BaseChannelObjectWithProperties.Properties*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -397,6 +410,7 @@ items:
       type: System.Object
       description: To be added.
   overload: System.Runtime.Remoting.Channels.BaseChannelObjectWithProperties.Remove*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -421,6 +435,7 @@ items:
       type: System.Object
       description: To be added.
   overload: System.Runtime.Remoting.Channels.BaseChannelObjectWithProperties.SyncRoot*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -447,6 +462,7 @@ items:
       type: System.Collections.IEnumerator
       description: To be added.
   overload: System.Runtime.Remoting.Channels.BaseChannelObjectWithProperties.System#Collections#IEnumerable#GetEnumerator*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -471,6 +487,7 @@ items:
       type: System.Collections.ICollection
       description: To be added.
   overload: System.Runtime.Remoting.Channels.BaseChannelObjectWithProperties.Values*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -491,18 +508,6 @@ references:
   name: Add(Object,Object)
   nameWithType: BaseChannelObjectWithProperties.Add(Object,Object)
   fullName: System.Runtime.Remoting.Channels.BaseChannelObjectWithProperties.Add(Object,Object)
-- uid: System.Object
-  parent: System
-  isExternal: false
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
-- uid: System.Object
-  parent: System
-  isExternal: false
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
 - uid: System.Runtime.Remoting.Channels.BaseChannelObjectWithProperties.Clear
   parent: System.Runtime.Remoting.Channels.BaseChannelObjectWithProperties
   isExternal: false
@@ -521,12 +526,6 @@ references:
   name: Boolean
   nameWithType: Boolean
   fullName: System.Boolean
-- uid: System.Object
-  parent: System
-  isExternal: false
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
 - uid: System.Runtime.Remoting.Channels.BaseChannelObjectWithProperties.CopyTo(System.Array,System.Int32)
   parent: System.Runtime.Remoting.Channels.BaseChannelObjectWithProperties
   isExternal: false
@@ -551,12 +550,6 @@ references:
   name: Count
   nameWithType: BaseChannelObjectWithProperties.Count
   fullName: System.Runtime.Remoting.Channels.BaseChannelObjectWithProperties.Count
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
 - uid: System.Runtime.Remoting.Channels.BaseChannelObjectWithProperties.GetEnumerator
   parent: System.Runtime.Remoting.Channels.BaseChannelObjectWithProperties
   isExternal: false
@@ -575,54 +568,24 @@ references:
   name: IsFixedSize
   nameWithType: BaseChannelObjectWithProperties.IsFixedSize
   fullName: System.Runtime.Remoting.Channels.BaseChannelObjectWithProperties.IsFixedSize
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
 - uid: System.Runtime.Remoting.Channels.BaseChannelObjectWithProperties.IsReadOnly
   parent: System.Runtime.Remoting.Channels.BaseChannelObjectWithProperties
   isExternal: false
   name: IsReadOnly
   nameWithType: BaseChannelObjectWithProperties.IsReadOnly
   fullName: System.Runtime.Remoting.Channels.BaseChannelObjectWithProperties.IsReadOnly
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
 - uid: System.Runtime.Remoting.Channels.BaseChannelObjectWithProperties.IsSynchronized
   parent: System.Runtime.Remoting.Channels.BaseChannelObjectWithProperties
   isExternal: false
   name: IsSynchronized
   nameWithType: BaseChannelObjectWithProperties.IsSynchronized
   fullName: System.Runtime.Remoting.Channels.BaseChannelObjectWithProperties.IsSynchronized
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
 - uid: System.Runtime.Remoting.Channels.BaseChannelObjectWithProperties.Item(System.Object)
   parent: System.Runtime.Remoting.Channels.BaseChannelObjectWithProperties
   isExternal: false
   name: Item(Object)
   nameWithType: BaseChannelObjectWithProperties.Item(Object)
   fullName: System.Runtime.Remoting.Channels.BaseChannelObjectWithProperties.Item(Object)
-- uid: System.Object
-  parent: System
-  isExternal: false
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
-- uid: System.Object
-  parent: System
-  isExternal: false
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
 - uid: System.Runtime.Remoting.Channels.BaseChannelObjectWithProperties.Keys
   parent: System.Runtime.Remoting.Channels.BaseChannelObjectWithProperties
   isExternal: false
@@ -653,24 +616,12 @@ references:
   name: Remove(Object)
   nameWithType: BaseChannelObjectWithProperties.Remove(Object)
   fullName: System.Runtime.Remoting.Channels.BaseChannelObjectWithProperties.Remove(Object)
-- uid: System.Object
-  parent: System
-  isExternal: false
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
 - uid: System.Runtime.Remoting.Channels.BaseChannelObjectWithProperties.SyncRoot
   parent: System.Runtime.Remoting.Channels.BaseChannelObjectWithProperties
   isExternal: false
   name: SyncRoot
   nameWithType: BaseChannelObjectWithProperties.SyncRoot
   fullName: System.Runtime.Remoting.Channels.BaseChannelObjectWithProperties.SyncRoot
-- uid: System.Object
-  parent: System
-  isExternal: false
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
 - uid: System.Runtime.Remoting.Channels.BaseChannelObjectWithProperties.System#Collections#IEnumerable#GetEnumerator
   parent: System.Runtime.Remoting.Channels.BaseChannelObjectWithProperties
   isExternal: false
@@ -689,12 +640,6 @@ references:
   name: Values
   nameWithType: BaseChannelObjectWithProperties.Values
   fullName: System.Runtime.Remoting.Channels.BaseChannelObjectWithProperties.Values
-- uid: System.Collections.ICollection
-  parent: System.Collections
-  isExternal: false
-  name: ICollection
-  nameWithType: ICollection
-  fullName: System.Collections.ICollection
 - uid: System.Runtime.Remoting.Channels.BaseChannelObjectWithProperties.#ctor*
   parent: System.Runtime.Remoting.Channels.BaseChannelObjectWithProperties
   isExternal: false

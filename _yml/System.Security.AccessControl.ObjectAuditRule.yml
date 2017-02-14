@@ -82,6 +82,7 @@ items:
       type: System.Security.AccessControl.AuditFlags
       description: To be added.
   overload: System.Security.AccessControl.ObjectAuditRule.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -106,6 +107,7 @@ items:
       type: System.Guid
       description: To be added.
   overload: System.Security.AccessControl.ObjectAuditRule.InheritedObjectType*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -130,6 +132,7 @@ items:
       type: System.Security.AccessControl.ObjectAceFlags
       description: To be added.
   overload: System.Security.AccessControl.ObjectAuditRule.ObjectFlags*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -154,6 +157,7 @@ items:
       type: System.Guid
       description: To be added.
   overload: System.Security.AccessControl.ObjectAuditRule.ObjectType*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -204,12 +208,6 @@ references:
   name: Guid
   nameWithType: Guid
   fullName: System.Guid
-- uid: System.Guid
-  parent: System
-  isExternal: false
-  name: Guid
-  nameWithType: Guid
-  fullName: System.Guid
 - uid: System.Security.AccessControl.AuditFlags
   parent: System.Security.AccessControl
   isExternal: false
@@ -222,12 +220,6 @@ references:
   name: InheritedObjectType
   nameWithType: ObjectAuditRule.InheritedObjectType
   fullName: System.Security.AccessControl.ObjectAuditRule.InheritedObjectType
-- uid: System.Guid
-  parent: System
-  isExternal: false
-  name: Guid
-  nameWithType: Guid
-  fullName: System.Guid
 - uid: System.Security.AccessControl.ObjectAuditRule.ObjectFlags
   parent: System.Security.AccessControl.ObjectAuditRule
   isExternal: false
@@ -246,12 +238,6 @@ references:
   name: ObjectType
   nameWithType: ObjectAuditRule.ObjectType
   fullName: System.Security.AccessControl.ObjectAuditRule.ObjectType
-- uid: System.Guid
-  parent: System
-  isExternal: false
-  name: Guid
-  nameWithType: Guid
-  fullName: System.Guid
 - uid: System.Security.AccessControl.ObjectAuditRule.#ctor*
   parent: System.Security.AccessControl.ObjectAuditRule
   isExternal: false

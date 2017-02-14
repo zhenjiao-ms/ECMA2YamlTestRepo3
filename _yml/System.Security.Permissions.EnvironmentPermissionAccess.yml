@@ -48,6 +48,7 @@ items:
     return:
       type: System.Security.Permissions.EnvironmentPermissionAccess
       description: To be added.
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -70,6 +71,7 @@ items:
     return:
       type: System.Security.Permissions.EnvironmentPermissionAccess
       description: To be added.
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -92,6 +94,7 @@ items:
     return:
       type: System.Security.Permissions.EnvironmentPermissionAccess
       description: To be added.
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -114,6 +117,7 @@ items:
     return:
       type: System.Security.Permissions.EnvironmentPermissionAccess
       description: To be added.
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -140,33 +144,15 @@ references:
   name: NoAccess
   nameWithType: EnvironmentPermissionAccess.NoAccess
   fullName: System.Security.Permissions.EnvironmentPermissionAccess.NoAccess
-- uid: System.Security.Permissions.EnvironmentPermissionAccess
-  parent: System.Security.Permissions
-  isExternal: false
-  name: EnvironmentPermissionAccess
-  nameWithType: EnvironmentPermissionAccess
-  fullName: System.Security.Permissions.EnvironmentPermissionAccess
 - uid: System.Security.Permissions.EnvironmentPermissionAccess.Read
   parent: System.Security.Permissions.EnvironmentPermissionAccess
   isExternal: false
   name: Read
   nameWithType: EnvironmentPermissionAccess.Read
   fullName: System.Security.Permissions.EnvironmentPermissionAccess.Read
-- uid: System.Security.Permissions.EnvironmentPermissionAccess
-  parent: System.Security.Permissions
-  isExternal: false
-  name: EnvironmentPermissionAccess
-  nameWithType: EnvironmentPermissionAccess
-  fullName: System.Security.Permissions.EnvironmentPermissionAccess
 - uid: System.Security.Permissions.EnvironmentPermissionAccess.Write
   parent: System.Security.Permissions.EnvironmentPermissionAccess
   isExternal: false
   name: Write
   nameWithType: EnvironmentPermissionAccess.Write
   fullName: System.Security.Permissions.EnvironmentPermissionAccess.Write
-- uid: System.Security.Permissions.EnvironmentPermissionAccess
-  parent: System.Security.Permissions
-  isExternal: false
-  name: EnvironmentPermissionAccess
-  nameWithType: EnvironmentPermissionAccess
-  fullName: System.Security.Permissions.EnvironmentPermissionAccess

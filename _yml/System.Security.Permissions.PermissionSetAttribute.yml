@@ -106,6 +106,7 @@ items:
       type: System.Security.Permissions.SecurityAction
       description: To be added.
   overload: System.Security.Permissions.PermissionSetAttribute.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -131,6 +132,7 @@ items:
       type: System.Security.IPermission
       description: To be added.
   overload: System.Security.Permissions.PermissionSetAttribute.CreatePermission*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -156,6 +158,7 @@ items:
       type: System.Security.PermissionSet
       description: To be added.
   overload: System.Security.Permissions.PermissionSetAttribute.CreatePermissionSet*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -180,6 +183,7 @@ items:
       type: System.String
       description: To be added.
   overload: System.Security.Permissions.PermissionSetAttribute.File*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -204,6 +208,7 @@ items:
       type: System.String
       description: To be added.
   overload: System.Security.Permissions.PermissionSetAttribute.Hex*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -228,6 +233,7 @@ items:
       type: System.String
       description: To be added.
   overload: System.Security.Permissions.PermissionSetAttribute.Name*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -252,6 +258,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Security.Permissions.PermissionSetAttribute.UnicodeEncoded*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -276,6 +283,7 @@ items:
       type: System.String
       description: To be added.
   overload: System.Security.Permissions.PermissionSetAttribute.XML*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -338,24 +346,12 @@ references:
   name: Hex
   nameWithType: PermissionSetAttribute.Hex
   fullName: System.Security.Permissions.PermissionSetAttribute.Hex
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
 - uid: System.Security.Permissions.PermissionSetAttribute.Name
   parent: System.Security.Permissions.PermissionSetAttribute
   isExternal: false
   name: Name
   nameWithType: PermissionSetAttribute.Name
   fullName: System.Security.Permissions.PermissionSetAttribute.Name
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
 - uid: System.Security.Permissions.PermissionSetAttribute.UnicodeEncoded
   parent: System.Security.Permissions.PermissionSetAttribute
   isExternal: false
@@ -374,12 +370,6 @@ references:
   name: XML
   nameWithType: PermissionSetAttribute.XML
   fullName: System.Security.Permissions.PermissionSetAttribute.XML
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
 - uid: System.Security.Permissions.PermissionSetAttribute.#ctor*
   parent: System.Security.Permissions.PermissionSetAttribute
   isExternal: false

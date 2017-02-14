@@ -138,6 +138,7 @@ items:
     content: protected Assembly ();
     parameters: []
   overload: System.Reflection.Assembly.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -162,6 +163,7 @@ items:
       type: System.String
       description: To be added.
   overload: System.Reflection.Assembly.CodeBase*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -190,6 +192,7 @@ items:
       type: System.Object
       description: To be added.
   overload: System.Reflection.Assembly.CreateInstance*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -221,6 +224,7 @@ items:
       type: System.Object
       description: To be added.
   overload: System.Reflection.Assembly.CreateInstance*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -267,6 +271,7 @@ items:
       type: System.Object
       description: To be added.
   overload: System.Reflection.Assembly.CreateInstance*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -298,6 +303,7 @@ items:
       type: System.String
       description: To be added.
   overload: System.Reflection.Assembly.CreateQualifiedName*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -322,6 +328,7 @@ items:
       type: System.Collections.Generic.IEnumerable{System.Reflection.CustomAttributeData}
       description: To be added.
   overload: System.Reflection.Assembly.CustomAttributes*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -346,6 +353,7 @@ items:
       type: System.Collections.Generic.IEnumerable{System.Reflection.TypeInfo}
       description: To be added.
   overload: System.Reflection.Assembly.DefinedTypes*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -370,6 +378,7 @@ items:
       type: System.Reflection.MethodInfo
       description: To be added.
   overload: System.Reflection.Assembly.EntryPoint*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -398,6 +407,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Reflection.Assembly.Equals*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -422,6 +432,7 @@ items:
       type: System.String
       description: To be added.
   overload: System.Reflection.Assembly.EscapedCodeBase*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -446,6 +457,7 @@ items:
       type: System.Security.Policy.Evidence
       description: To be added.
   overload: System.Reflection.Assembly.Evidence*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -470,6 +482,7 @@ items:
       type: System.Collections.Generic.IEnumerable{System.Type}
       description: To be added.
   overload: System.Reflection.Assembly.ExportedTypes*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -494,6 +507,7 @@ items:
       type: System.String
       description: To be added.
   overload: System.Reflection.Assembly.FullName*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -522,6 +536,7 @@ items:
       type: System.Reflection.Assembly
       description: To be added.
   overload: System.Reflection.Assembly.GetAssembly*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -547,6 +562,7 @@ items:
       type: System.Reflection.Assembly
       description: To be added.
   overload: System.Reflection.Assembly.GetCallingAssembly*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -575,6 +591,7 @@ items:
       type: System.Object[]
       description: To be added.
   overload: System.Reflection.Assembly.GetCustomAttributes*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -606,6 +623,7 @@ items:
       type: System.Object[]
       description: To be added.
   overload: System.Reflection.Assembly.GetCustomAttributes*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -631,6 +649,7 @@ items:
       type: System.Collections.Generic.IList{System.Reflection.CustomAttributeData}
       description: To be added.
   overload: System.Reflection.Assembly.GetCustomAttributesData*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -656,6 +675,7 @@ items:
       type: System.Reflection.Assembly
       description: To be added.
   overload: System.Reflection.Assembly.GetEntryAssembly*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -681,6 +701,7 @@ items:
       type: System.Reflection.Assembly
       description: To be added.
   overload: System.Reflection.Assembly.GetExecutingAssembly*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -706,6 +727,7 @@ items:
       type: System.Type[]
       description: To be added.
   overload: System.Reflection.Assembly.GetExportedTypes*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -734,6 +756,7 @@ items:
       type: System.IO.FileStream
       description: To be added.
   overload: System.Reflection.Assembly.GetFile*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -759,6 +782,7 @@ items:
       type: System.IO.FileStream[]
       description: To be added.
   overload: System.Reflection.Assembly.GetFiles*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -787,6 +811,7 @@ items:
       type: System.IO.FileStream[]
       description: To be added.
   overload: System.Reflection.Assembly.GetFiles*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -812,6 +837,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.Reflection.Assembly.GetHashCode*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -837,6 +863,7 @@ items:
       type: System.Reflection.Module[]
       description: To be added.
   overload: System.Reflection.Assembly.GetLoadedModules*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -865,6 +892,7 @@ items:
       type: System.Reflection.Module[]
       description: To be added.
   overload: System.Reflection.Assembly.GetLoadedModules*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -893,6 +921,7 @@ items:
       type: System.Reflection.ManifestResourceInfo
       description: To be added.
   overload: System.Reflection.Assembly.GetManifestResourceInfo*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -918,6 +947,7 @@ items:
       type: System.String[]
       description: To be added.
   overload: System.Reflection.Assembly.GetManifestResourceNames*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -946,6 +976,7 @@ items:
       type: System.IO.Stream
       description: To be added.
   overload: System.Reflection.Assembly.GetManifestResourceStream*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -977,6 +1008,7 @@ items:
       type: System.IO.Stream
       description: To be added.
   overload: System.Reflection.Assembly.GetManifestResourceStream*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -1005,6 +1037,7 @@ items:
       type: System.Reflection.Module
       description: To be added.
   overload: System.Reflection.Assembly.GetModule*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -1030,6 +1063,7 @@ items:
       type: System.Reflection.Module[]
       description: To be added.
   overload: System.Reflection.Assembly.GetModules*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -1058,6 +1092,7 @@ items:
       type: System.Reflection.Module[]
       description: To be added.
   overload: System.Reflection.Assembly.GetModules*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -1083,6 +1118,7 @@ items:
       type: System.Reflection.AssemblyName
       description: To be added.
   overload: System.Reflection.Assembly.GetName*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -1111,6 +1147,7 @@ items:
       type: System.Reflection.AssemblyName
       description: To be added.
   overload: System.Reflection.Assembly.GetName*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -1139,6 +1176,7 @@ items:
       type: System.Runtime.Serialization.StreamingContext
       description: To be added.
   overload: System.Reflection.Assembly.GetObjectData*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -1164,6 +1202,7 @@ items:
       type: System.Reflection.AssemblyName[]
       description: To be added.
   overload: System.Reflection.Assembly.GetReferencedAssemblies*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -1192,6 +1231,7 @@ items:
       type: System.Reflection.Assembly
       description: To be added.
   overload: System.Reflection.Assembly.GetSatelliteAssembly*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -1223,6 +1263,7 @@ items:
       type: System.Reflection.Assembly
       description: To be added.
   overload: System.Reflection.Assembly.GetSatelliteAssembly*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -1251,6 +1292,7 @@ items:
       type: System.Type
       description: To be added.
   overload: System.Reflection.Assembly.GetType*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -1282,6 +1324,7 @@ items:
       type: System.Type
       description: To be added.
   overload: System.Reflection.Assembly.GetType*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -1316,6 +1359,7 @@ items:
       type: System.Type
       description: To be added.
   overload: System.Reflection.Assembly.GetType*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -1341,6 +1385,7 @@ items:
       type: System.Type[]
       description: To be added.
   overload: System.Reflection.Assembly.GetTypes*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -1365,6 +1410,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Reflection.Assembly.GlobalAssemblyCache*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -1389,6 +1435,7 @@ items:
       type: System.Int64
       description: To be added.
   overload: System.Reflection.Assembly.HostContext*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -1413,6 +1460,7 @@ items:
       type: System.String
       description: To be added.
   overload: System.Reflection.Assembly.ImageRuntimeVersion*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -1444,6 +1492,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Reflection.Assembly.IsDefined*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -1468,6 +1517,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Reflection.Assembly.IsDynamic*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -1492,6 +1542,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Reflection.Assembly.IsFullyTrusted*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -1520,6 +1571,7 @@ items:
       type: System.Reflection.Assembly
       description: To be added.
   overload: System.Reflection.Assembly.Load*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -1548,6 +1600,7 @@ items:
       type: System.Reflection.Assembly
       description: To be added.
   overload: System.Reflection.Assembly.Load*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -1576,6 +1629,7 @@ items:
       type: System.Reflection.Assembly
       description: To be added.
   overload: System.Reflection.Assembly.Load*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -1607,6 +1661,7 @@ items:
       type: System.Reflection.Assembly
       description: To be added.
   overload: System.Reflection.Assembly.Load*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -1638,6 +1693,7 @@ items:
       type: System.Reflection.Assembly
       description: To be added.
   overload: System.Reflection.Assembly.Load*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -1669,6 +1725,7 @@ items:
       type: System.Reflection.Assembly
       description: To be added.
   overload: System.Reflection.Assembly.Load*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -1703,6 +1760,7 @@ items:
       type: System.Reflection.Assembly
       description: To be added.
   overload: System.Reflection.Assembly.Load*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -1737,6 +1795,7 @@ items:
       type: System.Reflection.Assembly
       description: To be added.
   overload: System.Reflection.Assembly.Load*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -1765,6 +1824,7 @@ items:
       type: System.Reflection.Assembly
       description: To be added.
   overload: System.Reflection.Assembly.LoadFile*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -1796,6 +1856,7 @@ items:
       type: System.Reflection.Assembly
       description: To be added.
   overload: System.Reflection.Assembly.LoadFile*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -1824,6 +1885,7 @@ items:
       type: System.Reflection.Assembly
       description: To be added.
   overload: System.Reflection.Assembly.LoadFrom*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -1855,6 +1917,7 @@ items:
       type: System.Reflection.Assembly
       description: To be added.
   overload: System.Reflection.Assembly.LoadFrom*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -1889,6 +1952,7 @@ items:
       type: System.Reflection.Assembly
       description: To be added.
   overload: System.Reflection.Assembly.LoadFrom*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -1926,6 +1990,7 @@ items:
       type: System.Reflection.Assembly
       description: To be added.
   overload: System.Reflection.Assembly.LoadFrom*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -1957,6 +2022,7 @@ items:
       type: System.Reflection.Module
       description: To be added.
   overload: System.Reflection.Assembly.LoadModule*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -1991,6 +2057,7 @@ items:
       type: System.Reflection.Module
       description: To be added.
   overload: System.Reflection.Assembly.LoadModule*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -2019,6 +2086,7 @@ items:
       type: System.Reflection.Assembly
       description: To be added.
   overload: System.Reflection.Assembly.LoadWithPartialName*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -2050,6 +2118,7 @@ items:
       type: System.Reflection.Assembly
       description: To be added.
   overload: System.Reflection.Assembly.LoadWithPartialName*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -2074,6 +2143,7 @@ items:
       type: System.String
       description: To be added.
   overload: System.Reflection.Assembly.Location*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -2098,6 +2168,7 @@ items:
       type: System.Reflection.Module
       description: To be added.
   overload: System.Reflection.Assembly.ManifestModule*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -2121,6 +2192,7 @@ items:
     return:
       type: System.Reflection.ModuleResolveEventHandler
       description: To be added.
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -2145,6 +2217,7 @@ items:
       type: System.Collections.Generic.IEnumerable{System.Reflection.Module}
       description: To be added.
   overload: System.Reflection.Assembly.Modules*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -2176,6 +2249,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Reflection.Assembly.op_Equality*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -2207,6 +2281,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Reflection.Assembly.op_Inequality*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -2231,6 +2306,7 @@ items:
       type: System.Security.PermissionSet
       description: To be added.
   overload: System.Reflection.Assembly.PermissionSet*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -2255,6 +2331,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Reflection.Assembly.ReflectionOnly*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -2283,6 +2360,7 @@ items:
       type: System.Reflection.Assembly
       description: To be added.
   overload: System.Reflection.Assembly.ReflectionOnlyLoad*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -2311,6 +2389,7 @@ items:
       type: System.Reflection.Assembly
       description: To be added.
   overload: System.Reflection.Assembly.ReflectionOnlyLoad*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -2339,6 +2418,7 @@ items:
       type: System.Reflection.Assembly
       description: To be added.
   overload: System.Reflection.Assembly.ReflectionOnlyLoadFrom*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -2363,6 +2443,7 @@ items:
       type: System.Security.SecurityRuleSet
       description: To be added.
   overload: System.Reflection.Assembly.SecurityRuleSet*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -2389,6 +2470,7 @@ items:
       type: System.Type
       description: To be added.
   overload: System.Reflection.Assembly.System#Runtime#InteropServices#_Assembly#GetType*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -2414,6 +2496,7 @@ items:
       type: System.String
       description: To be added.
   overload: System.Reflection.Assembly.ToString*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -2442,6 +2525,7 @@ items:
       type: System.Reflection.Assembly
       description: To be added.
   overload: System.Reflection.Assembly.UnsafeLoadFrom*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -2474,36 +2558,12 @@ references:
   name: CreateInstance(String)
   nameWithType: Assembly.CreateInstance(String)
   fullName: System.Reflection.Assembly.CreateInstance(String)
-- uid: System.Object
-  parent: System
-  isExternal: false
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
 - uid: System.Reflection.Assembly.CreateInstance(System.String,System.Boolean)
   parent: System.Reflection.Assembly
   isExternal: false
   name: CreateInstance(String,Boolean)
   nameWithType: Assembly.CreateInstance(String,Boolean)
   fullName: System.Reflection.Assembly.CreateInstance(String,Boolean)
-- uid: System.Object
-  parent: System
-  isExternal: false
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
 - uid: System.Boolean
   parent: System
   isExternal: false
@@ -2516,24 +2576,6 @@ references:
   name: CreateInstance(String,Boolean,BindingFlags,Binder,Object[],CultureInfo,Object[])
   nameWithType: Assembly.CreateInstance(String,Boolean,BindingFlags,Binder,Object[],CultureInfo,Object[])
   fullName: System.Reflection.Assembly.CreateInstance(String,Boolean,BindingFlags,Binder,Object[],CultureInfo,Object[])
-- uid: System.Object
-  parent: System
-  isExternal: false
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
 - uid: System.Reflection.BindingFlags
   parent: System.Reflection
   isExternal: false
@@ -2546,48 +2588,32 @@ references:
   name: Binder
   nameWithType: Binder
   fullName: System.Reflection.Binder
-- uid: System.Object
+- uid: System.Object[]
   parent: System
   isExternal: false
   name: Object
   nameWithType: Object
   fullName: System.Object[]
+  spec.csharp:
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: Object[]
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
 - uid: System.Globalization.CultureInfo
   parent: System.Globalization
   isExternal: false
   name: CultureInfo
   nameWithType: CultureInfo
   fullName: System.Globalization.CultureInfo
-- uid: System.Object
-  parent: System
-  isExternal: false
-  name: Object
-  nameWithType: Object
-  fullName: System.Object[]
 - uid: System.Reflection.Assembly.CreateQualifiedName(System.String,System.String)
   parent: System.Reflection.Assembly
   isExternal: false
   name: CreateQualifiedName(String,String)
   nameWithType: Assembly.CreateQualifiedName(String,String)
   fullName: System.Reflection.Assembly.CreateQualifiedName(String,String)
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
 - uid: System.Reflection.Assembly.CustomAttributes
   parent: System.Reflection.Assembly
   isExternal: false
@@ -2600,6 +2626,21 @@ references:
   name: IEnumerable<CustomAttributeData>
   nameWithType: IEnumerable<CustomAttributeData>
   fullName: System.Collections.Generic.IEnumerable<System.Reflection.CustomAttributeData>
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: IEnumerable<System.Reflection.CustomAttributeData>
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Reflection.CustomAttributeData
+    name: CustomAttributeData
+    nameWithType: CustomAttributeData
+    fullName: CustomAttributeData
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
 - uid: System.Reflection.Assembly.DefinedTypes
   parent: System.Reflection.Assembly
   isExternal: false
@@ -2612,6 +2653,21 @@ references:
   name: IEnumerable<TypeInfo>
   nameWithType: IEnumerable<TypeInfo>
   fullName: System.Collections.Generic.IEnumerable<System.Reflection.TypeInfo>
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: IEnumerable<System.Reflection.TypeInfo>
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Reflection.TypeInfo
+    name: TypeInfo
+    nameWithType: TypeInfo
+    fullName: TypeInfo
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
 - uid: System.Reflection.Assembly.EntryPoint
   parent: System.Reflection.Assembly
   isExternal: false
@@ -2630,30 +2686,12 @@ references:
   name: Equals(Object)
   nameWithType: Assembly.Equals(Object)
   fullName: System.Reflection.Assembly.Equals(Object)
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
-- uid: System.Object
-  parent: System
-  isExternal: false
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
 - uid: System.Reflection.Assembly.EscapedCodeBase
   parent: System.Reflection.Assembly
   isExternal: false
   name: EscapedCodeBase
   nameWithType: Assembly.EscapedCodeBase
   fullName: System.Reflection.Assembly.EscapedCodeBase
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
 - uid: System.Reflection.Assembly.Evidence
   parent: System.Reflection.Assembly
   isExternal: false
@@ -2678,18 +2716,27 @@ references:
   name: IEnumerable<Type>
   nameWithType: IEnumerable<Type>
   fullName: System.Collections.Generic.IEnumerable<System.Type>
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: IEnumerable<System.Type>
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Type
+    name: Type
+    nameWithType: Type
+    fullName: Type
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
 - uid: System.Reflection.Assembly.FullName
   parent: System.Reflection.Assembly
   isExternal: false
   name: FullName
   nameWithType: Assembly.FullName
   fullName: System.Reflection.Assembly.FullName
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
 - uid: System.Reflection.Assembly.GetAssembly(System.Type)
   parent: System.Reflection.Assembly
   isExternal: false
@@ -2714,54 +2761,18 @@ references:
   name: GetCallingAssembly()
   nameWithType: Assembly.GetCallingAssembly()
   fullName: System.Reflection.Assembly.GetCallingAssembly()
-- uid: System.Reflection.Assembly
-  parent: System.Reflection
-  isExternal: false
-  name: Assembly
-  nameWithType: Assembly
-  fullName: System.Reflection.Assembly
 - uid: System.Reflection.Assembly.GetCustomAttributes(System.Boolean)
   parent: System.Reflection.Assembly
   isExternal: false
   name: GetCustomAttributes(Boolean)
   nameWithType: Assembly.GetCustomAttributes(Boolean)
   fullName: System.Reflection.Assembly.GetCustomAttributes(Boolean)
-- uid: System.Object
-  parent: System
-  isExternal: false
-  name: Object
-  nameWithType: Object
-  fullName: System.Object[]
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
 - uid: System.Reflection.Assembly.GetCustomAttributes(System.Type,System.Boolean)
   parent: System.Reflection.Assembly
   isExternal: false
   name: GetCustomAttributes(Type,Boolean)
   nameWithType: Assembly.GetCustomAttributes(Type,Boolean)
   fullName: System.Reflection.Assembly.GetCustomAttributes(Type,Boolean)
-- uid: System.Object
-  parent: System
-  isExternal: false
-  name: Object
-  nameWithType: Object
-  fullName: System.Object[]
-- uid: System.Type
-  parent: System
-  isExternal: false
-  name: Type
-  nameWithType: Type
-  fullName: System.Type
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
 - uid: System.Reflection.Assembly.GetCustomAttributesData
   parent: System.Reflection.Assembly
   isExternal: false
@@ -2774,42 +2785,53 @@ references:
   name: IList<CustomAttributeData>
   nameWithType: IList<CustomAttributeData>
   fullName: System.Collections.Generic.IList<System.Reflection.CustomAttributeData>
+  spec.csharp:
+  - uid: System.Collections.Generic.IList`1
+    name: IList
+    nameWithType: IList
+    fullName: IList<System.Reflection.CustomAttributeData>
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Reflection.CustomAttributeData
+    name: CustomAttributeData
+    nameWithType: CustomAttributeData
+    fullName: CustomAttributeData
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
 - uid: System.Reflection.Assembly.GetEntryAssembly
   parent: System.Reflection.Assembly
   isExternal: false
   name: GetEntryAssembly()
   nameWithType: Assembly.GetEntryAssembly()
   fullName: System.Reflection.Assembly.GetEntryAssembly()
-- uid: System.Reflection.Assembly
-  parent: System.Reflection
-  isExternal: false
-  name: Assembly
-  nameWithType: Assembly
-  fullName: System.Reflection.Assembly
 - uid: System.Reflection.Assembly.GetExecutingAssembly
   parent: System.Reflection.Assembly
   isExternal: false
   name: GetExecutingAssembly()
   nameWithType: Assembly.GetExecutingAssembly()
   fullName: System.Reflection.Assembly.GetExecutingAssembly()
-- uid: System.Reflection.Assembly
-  parent: System.Reflection
-  isExternal: false
-  name: Assembly
-  nameWithType: Assembly
-  fullName: System.Reflection.Assembly
 - uid: System.Reflection.Assembly.GetExportedTypes
   parent: System.Reflection.Assembly
   isExternal: false
   name: GetExportedTypes()
   nameWithType: Assembly.GetExportedTypes()
   fullName: System.Reflection.Assembly.GetExportedTypes()
-- uid: System.Type
+- uid: System.Type[]
   parent: System
   isExternal: false
   name: Type
   nameWithType: Type
   fullName: System.Type[]
+  spec.csharp:
+  - uid: System.Type
+    name: Type
+    nameWithType: Type
+    fullName: Type[]
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
 - uid: System.Reflection.Assembly.GetFile(System.String)
   parent: System.Reflection.Assembly
   isExternal: false
@@ -2822,42 +2844,32 @@ references:
   name: FileStream
   nameWithType: FileStream
   fullName: System.IO.FileStream
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
 - uid: System.Reflection.Assembly.GetFiles
   parent: System.Reflection.Assembly
   isExternal: false
   name: GetFiles()
   nameWithType: Assembly.GetFiles()
   fullName: System.Reflection.Assembly.GetFiles()
-- uid: System.IO.FileStream
+- uid: System.IO.FileStream[]
   parent: System.IO
   isExternal: false
   name: FileStream
   nameWithType: FileStream
   fullName: System.IO.FileStream[]
+  spec.csharp:
+  - uid: System.IO.FileStream
+    name: FileStream
+    nameWithType: FileStream
+    fullName: FileStream[]
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
 - uid: System.Reflection.Assembly.GetFiles(System.Boolean)
   parent: System.Reflection.Assembly
   isExternal: false
   name: GetFiles(Boolean)
   nameWithType: Assembly.GetFiles(Boolean)
   fullName: System.Reflection.Assembly.GetFiles(Boolean)
-- uid: System.IO.FileStream
-  parent: System.IO
-  isExternal: false
-  name: FileStream
-  nameWithType: FileStream
-  fullName: System.IO.FileStream[]
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
 - uid: System.Reflection.Assembly.GetHashCode
   parent: System.Reflection.Assembly
   isExternal: false
@@ -2876,30 +2888,26 @@ references:
   name: GetLoadedModules()
   nameWithType: Assembly.GetLoadedModules()
   fullName: System.Reflection.Assembly.GetLoadedModules()
-- uid: System.Reflection.Module
+- uid: System.Reflection.Module[]
   parent: System.Reflection
   isExternal: false
   name: Module
   nameWithType: Module
   fullName: System.Reflection.Module[]
+  spec.csharp:
+  - uid: System.Reflection.Module
+    name: Module
+    nameWithType: Module
+    fullName: Module[]
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
 - uid: System.Reflection.Assembly.GetLoadedModules(System.Boolean)
   parent: System.Reflection.Assembly
   isExternal: false
   name: GetLoadedModules(Boolean)
   nameWithType: Assembly.GetLoadedModules(Boolean)
   fullName: System.Reflection.Assembly.GetLoadedModules(Boolean)
-- uid: System.Reflection.Module
-  parent: System.Reflection
-  isExternal: false
-  name: Module
-  nameWithType: Module
-  fullName: System.Reflection.Module[]
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
 - uid: System.Reflection.Assembly.GetManifestResourceInfo(System.String)
   parent: System.Reflection.Assembly
   isExternal: false
@@ -2912,24 +2920,26 @@ references:
   name: ManifestResourceInfo
   nameWithType: ManifestResourceInfo
   fullName: System.Reflection.ManifestResourceInfo
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
 - uid: System.Reflection.Assembly.GetManifestResourceNames
   parent: System.Reflection.Assembly
   isExternal: false
   name: GetManifestResourceNames()
   nameWithType: Assembly.GetManifestResourceNames()
   fullName: System.Reflection.Assembly.GetManifestResourceNames()
-- uid: System.String
+- uid: System.String[]
   parent: System
   isExternal: false
   name: String
   nameWithType: String
   fullName: System.String[]
+  spec.csharp:
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: String[]
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
 - uid: System.Reflection.Assembly.GetManifestResourceStream(System.String)
   parent: System.Reflection.Assembly
   isExternal: false
@@ -2942,36 +2952,12 @@ references:
   name: Stream
   nameWithType: Stream
   fullName: System.IO.Stream
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
 - uid: System.Reflection.Assembly.GetManifestResourceStream(System.Type,System.String)
   parent: System.Reflection.Assembly
   isExternal: false
   name: GetManifestResourceStream(Type,String)
   nameWithType: Assembly.GetManifestResourceStream(Type,String)
   fullName: System.Reflection.Assembly.GetManifestResourceStream(Type,String)
-- uid: System.IO.Stream
-  parent: System.IO
-  isExternal: false
-  name: Stream
-  nameWithType: Stream
-  fullName: System.IO.Stream
-- uid: System.Type
-  parent: System
-  isExternal: false
-  name: Type
-  nameWithType: Type
-  fullName: System.Type
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
 - uid: System.Reflection.Assembly.GetModule(System.String)
   parent: System.Reflection.Assembly
   isExternal: false
@@ -2984,42 +2970,18 @@ references:
   name: Module
   nameWithType: Module
   fullName: System.Reflection.Module
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
 - uid: System.Reflection.Assembly.GetModules
   parent: System.Reflection.Assembly
   isExternal: false
   name: GetModules()
   nameWithType: Assembly.GetModules()
   fullName: System.Reflection.Assembly.GetModules()
-- uid: System.Reflection.Module
-  parent: System.Reflection
-  isExternal: false
-  name: Module
-  nameWithType: Module
-  fullName: System.Reflection.Module[]
 - uid: System.Reflection.Assembly.GetModules(System.Boolean)
   parent: System.Reflection.Assembly
   isExternal: false
   name: GetModules(Boolean)
   nameWithType: Assembly.GetModules(Boolean)
   fullName: System.Reflection.Assembly.GetModules(Boolean)
-- uid: System.Reflection.Module
-  parent: System.Reflection
-  isExternal: false
-  name: Module
-  nameWithType: Module
-  fullName: System.Reflection.Module[]
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
 - uid: System.Reflection.Assembly.GetName
   parent: System.Reflection.Assembly
   isExternal: false
@@ -3038,18 +3000,6 @@ references:
   name: GetName(Boolean)
   nameWithType: Assembly.GetName(Boolean)
   fullName: System.Reflection.Assembly.GetName(Boolean)
-- uid: System.Reflection.AssemblyName
-  parent: System.Reflection
-  isExternal: false
-  name: AssemblyName
-  nameWithType: AssemblyName
-  fullName: System.Reflection.AssemblyName
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
 - uid: System.Reflection.Assembly.GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
   parent: System.Reflection.Assembly
   isExternal: false
@@ -3074,48 +3024,32 @@ references:
   name: GetReferencedAssemblies()
   nameWithType: Assembly.GetReferencedAssemblies()
   fullName: System.Reflection.Assembly.GetReferencedAssemblies()
-- uid: System.Reflection.AssemblyName
+- uid: System.Reflection.AssemblyName[]
   parent: System.Reflection
   isExternal: false
   name: AssemblyName
   nameWithType: AssemblyName
   fullName: System.Reflection.AssemblyName[]
+  spec.csharp:
+  - uid: System.Reflection.AssemblyName
+    name: AssemblyName
+    nameWithType: AssemblyName
+    fullName: AssemblyName[]
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
 - uid: System.Reflection.Assembly.GetSatelliteAssembly(System.Globalization.CultureInfo)
   parent: System.Reflection.Assembly
   isExternal: false
   name: GetSatelliteAssembly(CultureInfo)
   nameWithType: Assembly.GetSatelliteAssembly(CultureInfo)
   fullName: System.Reflection.Assembly.GetSatelliteAssembly(CultureInfo)
-- uid: System.Reflection.Assembly
-  parent: System.Reflection
-  isExternal: false
-  name: Assembly
-  nameWithType: Assembly
-  fullName: System.Reflection.Assembly
-- uid: System.Globalization.CultureInfo
-  parent: System.Globalization
-  isExternal: false
-  name: CultureInfo
-  nameWithType: CultureInfo
-  fullName: System.Globalization.CultureInfo
 - uid: System.Reflection.Assembly.GetSatelliteAssembly(System.Globalization.CultureInfo,System.Version)
   parent: System.Reflection.Assembly
   isExternal: false
   name: GetSatelliteAssembly(CultureInfo,Version)
   nameWithType: Assembly.GetSatelliteAssembly(CultureInfo,Version)
   fullName: System.Reflection.Assembly.GetSatelliteAssembly(CultureInfo,Version)
-- uid: System.Reflection.Assembly
-  parent: System.Reflection
-  isExternal: false
-  name: Assembly
-  nameWithType: Assembly
-  fullName: System.Reflection.Assembly
-- uid: System.Globalization.CultureInfo
-  parent: System.Globalization
-  isExternal: false
-  name: CultureInfo
-  nameWithType: CultureInfo
-  fullName: System.Globalization.CultureInfo
 - uid: System.Version
   parent: System
   isExternal: false
@@ -3128,96 +3062,30 @@ references:
   name: GetType(String)
   nameWithType: Assembly.GetType(String)
   fullName: System.Reflection.Assembly.GetType(String)
-- uid: System.Type
-  parent: System
-  isExternal: false
-  name: Type
-  nameWithType: Type
-  fullName: System.Type
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
 - uid: System.Reflection.Assembly.GetType(System.String,System.Boolean)
   parent: System.Reflection.Assembly
   isExternal: false
   name: GetType(String,Boolean)
   nameWithType: Assembly.GetType(String,Boolean)
   fullName: System.Reflection.Assembly.GetType(String,Boolean)
-- uid: System.Type
-  parent: System
-  isExternal: false
-  name: Type
-  nameWithType: Type
-  fullName: System.Type
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
 - uid: System.Reflection.Assembly.GetType(System.String,System.Boolean,System.Boolean)
   parent: System.Reflection.Assembly
   isExternal: false
   name: GetType(String,Boolean,Boolean)
   nameWithType: Assembly.GetType(String,Boolean,Boolean)
   fullName: System.Reflection.Assembly.GetType(String,Boolean,Boolean)
-- uid: System.Type
-  parent: System
-  isExternal: false
-  name: Type
-  nameWithType: Type
-  fullName: System.Type
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
 - uid: System.Reflection.Assembly.GetTypes
   parent: System.Reflection.Assembly
   isExternal: false
   name: GetTypes()
   nameWithType: Assembly.GetTypes()
   fullName: System.Reflection.Assembly.GetTypes()
-- uid: System.Type
-  parent: System
-  isExternal: false
-  name: Type
-  nameWithType: Type
-  fullName: System.Type[]
 - uid: System.Reflection.Assembly.GlobalAssemblyCache
   parent: System.Reflection.Assembly
   isExternal: false
   name: GlobalAssemblyCache
   nameWithType: Assembly.GlobalAssemblyCache
   fullName: System.Reflection.Assembly.GlobalAssemblyCache
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
 - uid: System.Reflection.Assembly.HostContext
   parent: System.Reflection.Assembly
   isExternal: false
@@ -3236,240 +3104,86 @@ references:
   name: ImageRuntimeVersion
   nameWithType: Assembly.ImageRuntimeVersion
   fullName: System.Reflection.Assembly.ImageRuntimeVersion
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
 - uid: System.Reflection.Assembly.IsDefined(System.Type,System.Boolean)
   parent: System.Reflection.Assembly
   isExternal: false
   name: IsDefined(Type,Boolean)
   nameWithType: Assembly.IsDefined(Type,Boolean)
   fullName: System.Reflection.Assembly.IsDefined(Type,Boolean)
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
-- uid: System.Type
-  parent: System
-  isExternal: false
-  name: Type
-  nameWithType: Type
-  fullName: System.Type
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
 - uid: System.Reflection.Assembly.IsDynamic
   parent: System.Reflection.Assembly
   isExternal: false
   name: IsDynamic
   nameWithType: Assembly.IsDynamic
   fullName: System.Reflection.Assembly.IsDynamic
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
 - uid: System.Reflection.Assembly.IsFullyTrusted
   parent: System.Reflection.Assembly
   isExternal: false
   name: IsFullyTrusted
   nameWithType: Assembly.IsFullyTrusted
   fullName: System.Reflection.Assembly.IsFullyTrusted
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
 - uid: System.Reflection.Assembly.Load(System.Byte[])
   parent: System.Reflection.Assembly
   isExternal: false
   name: Load(Byte[])
   nameWithType: Assembly.Load(Byte[])
   fullName: System.Reflection.Assembly.Load(Byte[])
-- uid: System.Reflection.Assembly
-  parent: System.Reflection
-  isExternal: false
-  name: Assembly
-  nameWithType: Assembly
-  fullName: System.Reflection.Assembly
-- uid: System.Byte
+- uid: System.Byte[]
   parent: System
   isExternal: false
   name: Byte
   nameWithType: Byte
   fullName: System.Byte[]
+  spec.csharp:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: Byte[]
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
 - uid: System.Reflection.Assembly.Load(System.Reflection.AssemblyName)
   parent: System.Reflection.Assembly
   isExternal: false
   name: Load(AssemblyName)
   nameWithType: Assembly.Load(AssemblyName)
   fullName: System.Reflection.Assembly.Load(AssemblyName)
-- uid: System.Reflection.Assembly
-  parent: System.Reflection
-  isExternal: false
-  name: Assembly
-  nameWithType: Assembly
-  fullName: System.Reflection.Assembly
-- uid: System.Reflection.AssemblyName
-  parent: System.Reflection
-  isExternal: false
-  name: AssemblyName
-  nameWithType: AssemblyName
-  fullName: System.Reflection.AssemblyName
 - uid: System.Reflection.Assembly.Load(System.String)
   parent: System.Reflection.Assembly
   isExternal: false
   name: Load(String)
   nameWithType: Assembly.Load(String)
   fullName: System.Reflection.Assembly.Load(String)
-- uid: System.Reflection.Assembly
-  parent: System.Reflection
-  isExternal: false
-  name: Assembly
-  nameWithType: Assembly
-  fullName: System.Reflection.Assembly
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
 - uid: System.Reflection.Assembly.Load(System.Byte[],System.Byte[])
   parent: System.Reflection.Assembly
   isExternal: false
   name: Load(Byte[],Byte[])
   nameWithType: Assembly.Load(Byte[],Byte[])
   fullName: System.Reflection.Assembly.Load(Byte[],Byte[])
-- uid: System.Reflection.Assembly
-  parent: System.Reflection
-  isExternal: false
-  name: Assembly
-  nameWithType: Assembly
-  fullName: System.Reflection.Assembly
-- uid: System.Byte
-  parent: System
-  isExternal: false
-  name: Byte
-  nameWithType: Byte
-  fullName: System.Byte[]
-- uid: System.Byte
-  parent: System
-  isExternal: false
-  name: Byte
-  nameWithType: Byte
-  fullName: System.Byte[]
 - uid: System.Reflection.Assembly.Load(System.Reflection.AssemblyName,System.Security.Policy.Evidence)
   parent: System.Reflection.Assembly
   isExternal: false
   name: Load(AssemblyName,Evidence)
   nameWithType: Assembly.Load(AssemblyName,Evidence)
   fullName: System.Reflection.Assembly.Load(AssemblyName,Evidence)
-- uid: System.Reflection.Assembly
-  parent: System.Reflection
-  isExternal: false
-  name: Assembly
-  nameWithType: Assembly
-  fullName: System.Reflection.Assembly
-- uid: System.Reflection.AssemblyName
-  parent: System.Reflection
-  isExternal: false
-  name: AssemblyName
-  nameWithType: AssemblyName
-  fullName: System.Reflection.AssemblyName
-- uid: System.Security.Policy.Evidence
-  parent: System.Security.Policy
-  isExternal: false
-  name: Evidence
-  nameWithType: Evidence
-  fullName: System.Security.Policy.Evidence
 - uid: System.Reflection.Assembly.Load(System.String,System.Security.Policy.Evidence)
   parent: System.Reflection.Assembly
   isExternal: false
   name: Load(String,Evidence)
   nameWithType: Assembly.Load(String,Evidence)
   fullName: System.Reflection.Assembly.Load(String,Evidence)
-- uid: System.Reflection.Assembly
-  parent: System.Reflection
-  isExternal: false
-  name: Assembly
-  nameWithType: Assembly
-  fullName: System.Reflection.Assembly
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
-- uid: System.Security.Policy.Evidence
-  parent: System.Security.Policy
-  isExternal: false
-  name: Evidence
-  nameWithType: Evidence
-  fullName: System.Security.Policy.Evidence
 - uid: System.Reflection.Assembly.Load(System.Byte[],System.Byte[],System.Security.Policy.Evidence)
   parent: System.Reflection.Assembly
   isExternal: false
   name: Load(Byte[],Byte[],Evidence)
   nameWithType: Assembly.Load(Byte[],Byte[],Evidence)
   fullName: System.Reflection.Assembly.Load(Byte[],Byte[],Evidence)
-- uid: System.Reflection.Assembly
-  parent: System.Reflection
-  isExternal: false
-  name: Assembly
-  nameWithType: Assembly
-  fullName: System.Reflection.Assembly
-- uid: System.Byte
-  parent: System
-  isExternal: false
-  name: Byte
-  nameWithType: Byte
-  fullName: System.Byte[]
-- uid: System.Byte
-  parent: System
-  isExternal: false
-  name: Byte
-  nameWithType: Byte
-  fullName: System.Byte[]
-- uid: System.Security.Policy.Evidence
-  parent: System.Security.Policy
-  isExternal: false
-  name: Evidence
-  nameWithType: Evidence
-  fullName: System.Security.Policy.Evidence
 - uid: System.Reflection.Assembly.Load(System.Byte[],System.Byte[],System.Security.SecurityContextSource)
   parent: System.Reflection.Assembly
   isExternal: false
   name: Load(Byte[],Byte[],SecurityContextSource)
   nameWithType: Assembly.Load(Byte[],Byte[],SecurityContextSource)
   fullName: System.Reflection.Assembly.Load(Byte[],Byte[],SecurityContextSource)
-- uid: System.Reflection.Assembly
-  parent: System.Reflection
-  isExternal: false
-  name: Assembly
-  nameWithType: Assembly
-  fullName: System.Reflection.Assembly
-- uid: System.Byte
-  parent: System
-  isExternal: false
-  name: Byte
-  nameWithType: Byte
-  fullName: System.Byte[]
-- uid: System.Byte
-  parent: System
-  isExternal: false
-  name: Byte
-  nameWithType: Byte
-  fullName: System.Byte[]
 - uid: System.Security.SecurityContextSource
   parent: System.Security
   isExternal: false
@@ -3482,108 +3196,30 @@ references:
   name: LoadFile(String)
   nameWithType: Assembly.LoadFile(String)
   fullName: System.Reflection.Assembly.LoadFile(String)
-- uid: System.Reflection.Assembly
-  parent: System.Reflection
-  isExternal: false
-  name: Assembly
-  nameWithType: Assembly
-  fullName: System.Reflection.Assembly
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
 - uid: System.Reflection.Assembly.LoadFile(System.String,System.Security.Policy.Evidence)
   parent: System.Reflection.Assembly
   isExternal: false
   name: LoadFile(String,Evidence)
   nameWithType: Assembly.LoadFile(String,Evidence)
   fullName: System.Reflection.Assembly.LoadFile(String,Evidence)
-- uid: System.Reflection.Assembly
-  parent: System.Reflection
-  isExternal: false
-  name: Assembly
-  nameWithType: Assembly
-  fullName: System.Reflection.Assembly
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
-- uid: System.Security.Policy.Evidence
-  parent: System.Security.Policy
-  isExternal: false
-  name: Evidence
-  nameWithType: Evidence
-  fullName: System.Security.Policy.Evidence
 - uid: System.Reflection.Assembly.LoadFrom(System.String)
   parent: System.Reflection.Assembly
   isExternal: false
   name: LoadFrom(String)
   nameWithType: Assembly.LoadFrom(String)
   fullName: System.Reflection.Assembly.LoadFrom(String)
-- uid: System.Reflection.Assembly
-  parent: System.Reflection
-  isExternal: false
-  name: Assembly
-  nameWithType: Assembly
-  fullName: System.Reflection.Assembly
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
 - uid: System.Reflection.Assembly.LoadFrom(System.String,System.Security.Policy.Evidence)
   parent: System.Reflection.Assembly
   isExternal: false
   name: LoadFrom(String,Evidence)
   nameWithType: Assembly.LoadFrom(String,Evidence)
   fullName: System.Reflection.Assembly.LoadFrom(String,Evidence)
-- uid: System.Reflection.Assembly
-  parent: System.Reflection
-  isExternal: false
-  name: Assembly
-  nameWithType: Assembly
-  fullName: System.Reflection.Assembly
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
-- uid: System.Security.Policy.Evidence
-  parent: System.Security.Policy
-  isExternal: false
-  name: Evidence
-  nameWithType: Evidence
-  fullName: System.Security.Policy.Evidence
 - uid: System.Reflection.Assembly.LoadFrom(System.String,System.Byte[],System.Configuration.Assemblies.AssemblyHashAlgorithm)
   parent: System.Reflection.Assembly
   isExternal: false
   name: LoadFrom(String,Byte[],AssemblyHashAlgorithm)
   nameWithType: Assembly.LoadFrom(String,Byte[],AssemblyHashAlgorithm)
   fullName: System.Reflection.Assembly.LoadFrom(String,Byte[],AssemblyHashAlgorithm)
-- uid: System.Reflection.Assembly
-  parent: System.Reflection
-  isExternal: false
-  name: Assembly
-  nameWithType: Assembly
-  fullName: System.Reflection.Assembly
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
-- uid: System.Byte
-  parent: System
-  isExternal: false
-  name: Byte
-  nameWithType: Byte
-  fullName: System.Byte[]
 - uid: System.Configuration.Assemblies.AssemblyHashAlgorithm
   parent: System.Configuration.Assemblies
   isExternal: false
@@ -3596,156 +3232,42 @@ references:
   name: LoadFrom(String,Evidence,Byte[],AssemblyHashAlgorithm)
   nameWithType: Assembly.LoadFrom(String,Evidence,Byte[],AssemblyHashAlgorithm)
   fullName: System.Reflection.Assembly.LoadFrom(String,Evidence,Byte[],AssemblyHashAlgorithm)
-- uid: System.Reflection.Assembly
-  parent: System.Reflection
-  isExternal: false
-  name: Assembly
-  nameWithType: Assembly
-  fullName: System.Reflection.Assembly
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
-- uid: System.Security.Policy.Evidence
-  parent: System.Security.Policy
-  isExternal: false
-  name: Evidence
-  nameWithType: Evidence
-  fullName: System.Security.Policy.Evidence
-- uid: System.Byte
-  parent: System
-  isExternal: false
-  name: Byte
-  nameWithType: Byte
-  fullName: System.Byte[]
-- uid: System.Configuration.Assemblies.AssemblyHashAlgorithm
-  parent: System.Configuration.Assemblies
-  isExternal: false
-  name: AssemblyHashAlgorithm
-  nameWithType: AssemblyHashAlgorithm
-  fullName: System.Configuration.Assemblies.AssemblyHashAlgorithm
 - uid: System.Reflection.Assembly.LoadModule(System.String,System.Byte[])
   parent: System.Reflection.Assembly
   isExternal: false
   name: LoadModule(String,Byte[])
   nameWithType: Assembly.LoadModule(String,Byte[])
   fullName: System.Reflection.Assembly.LoadModule(String,Byte[])
-- uid: System.Reflection.Module
-  parent: System.Reflection
-  isExternal: false
-  name: Module
-  nameWithType: Module
-  fullName: System.Reflection.Module
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
-- uid: System.Byte
-  parent: System
-  isExternal: false
-  name: Byte
-  nameWithType: Byte
-  fullName: System.Byte[]
 - uid: System.Reflection.Assembly.LoadModule(System.String,System.Byte[],System.Byte[])
   parent: System.Reflection.Assembly
   isExternal: false
   name: LoadModule(String,Byte[],Byte[])
   nameWithType: Assembly.LoadModule(String,Byte[],Byte[])
   fullName: System.Reflection.Assembly.LoadModule(String,Byte[],Byte[])
-- uid: System.Reflection.Module
-  parent: System.Reflection
-  isExternal: false
-  name: Module
-  nameWithType: Module
-  fullName: System.Reflection.Module
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
-- uid: System.Byte
-  parent: System
-  isExternal: false
-  name: Byte
-  nameWithType: Byte
-  fullName: System.Byte[]
-- uid: System.Byte
-  parent: System
-  isExternal: false
-  name: Byte
-  nameWithType: Byte
-  fullName: System.Byte[]
 - uid: System.Reflection.Assembly.LoadWithPartialName(System.String)
   parent: System.Reflection.Assembly
   isExternal: false
   name: LoadWithPartialName(String)
   nameWithType: Assembly.LoadWithPartialName(String)
   fullName: System.Reflection.Assembly.LoadWithPartialName(String)
-- uid: System.Reflection.Assembly
-  parent: System.Reflection
-  isExternal: false
-  name: Assembly
-  nameWithType: Assembly
-  fullName: System.Reflection.Assembly
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
 - uid: System.Reflection.Assembly.LoadWithPartialName(System.String,System.Security.Policy.Evidence)
   parent: System.Reflection.Assembly
   isExternal: false
   name: LoadWithPartialName(String,Evidence)
   nameWithType: Assembly.LoadWithPartialName(String,Evidence)
   fullName: System.Reflection.Assembly.LoadWithPartialName(String,Evidence)
-- uid: System.Reflection.Assembly
-  parent: System.Reflection
-  isExternal: false
-  name: Assembly
-  nameWithType: Assembly
-  fullName: System.Reflection.Assembly
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
-- uid: System.Security.Policy.Evidence
-  parent: System.Security.Policy
-  isExternal: false
-  name: Evidence
-  nameWithType: Evidence
-  fullName: System.Security.Policy.Evidence
 - uid: System.Reflection.Assembly.Location
   parent: System.Reflection.Assembly
   isExternal: false
   name: Location
   nameWithType: Assembly.Location
   fullName: System.Reflection.Assembly.Location
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
 - uid: System.Reflection.Assembly.ManifestModule
   parent: System.Reflection.Assembly
   isExternal: false
   name: ManifestModule
   nameWithType: Assembly.ManifestModule
   fullName: System.Reflection.Assembly.ManifestModule
-- uid: System.Reflection.Module
-  parent: System.Reflection
-  isExternal: false
-  name: Module
-  nameWithType: Module
-  fullName: System.Reflection.Module
 - uid: System.Reflection.Assembly.ModuleResolve
   parent: System.Reflection.Assembly
   isExternal: false
@@ -3770,54 +3292,33 @@ references:
   name: IEnumerable<Module>
   nameWithType: IEnumerable<Module>
   fullName: System.Collections.Generic.IEnumerable<System.Reflection.Module>
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: IEnumerable<System.Reflection.Module>
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Reflection.Module
+    name: Module
+    nameWithType: Module
+    fullName: Module
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
 - uid: System.Reflection.Assembly.op_Equality(System.Reflection.Assembly,System.Reflection.Assembly)
   parent: System.Reflection.Assembly
   isExternal: false
   name: op_Equality(Assembly,Assembly)
   nameWithType: Assembly.op_Equality(Assembly,Assembly)
   fullName: System.Reflection.Assembly.op_Equality(Assembly,Assembly)
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
-- uid: System.Reflection.Assembly
-  parent: System.Reflection
-  isExternal: false
-  name: Assembly
-  nameWithType: Assembly
-  fullName: System.Reflection.Assembly
-- uid: System.Reflection.Assembly
-  parent: System.Reflection
-  isExternal: false
-  name: Assembly
-  nameWithType: Assembly
-  fullName: System.Reflection.Assembly
 - uid: System.Reflection.Assembly.op_Inequality(System.Reflection.Assembly,System.Reflection.Assembly)
   parent: System.Reflection.Assembly
   isExternal: false
   name: op_Inequality(Assembly,Assembly)
   nameWithType: Assembly.op_Inequality(Assembly,Assembly)
   fullName: System.Reflection.Assembly.op_Inequality(Assembly,Assembly)
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
-- uid: System.Reflection.Assembly
-  parent: System.Reflection
-  isExternal: false
-  name: Assembly
-  nameWithType: Assembly
-  fullName: System.Reflection.Assembly
-- uid: System.Reflection.Assembly
-  parent: System.Reflection
-  isExternal: false
-  name: Assembly
-  nameWithType: Assembly
-  fullName: System.Reflection.Assembly
 - uid: System.Reflection.Assembly.PermissionSet
   parent: System.Reflection.Assembly
   isExternal: false
@@ -3836,66 +3337,24 @@ references:
   name: ReflectionOnly
   nameWithType: Assembly.ReflectionOnly
   fullName: System.Reflection.Assembly.ReflectionOnly
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
 - uid: System.Reflection.Assembly.ReflectionOnlyLoad(System.Byte[])
   parent: System.Reflection.Assembly
   isExternal: false
   name: ReflectionOnlyLoad(Byte[])
   nameWithType: Assembly.ReflectionOnlyLoad(Byte[])
   fullName: System.Reflection.Assembly.ReflectionOnlyLoad(Byte[])
-- uid: System.Reflection.Assembly
-  parent: System.Reflection
-  isExternal: false
-  name: Assembly
-  nameWithType: Assembly
-  fullName: System.Reflection.Assembly
-- uid: System.Byte
-  parent: System
-  isExternal: false
-  name: Byte
-  nameWithType: Byte
-  fullName: System.Byte[]
 - uid: System.Reflection.Assembly.ReflectionOnlyLoad(System.String)
   parent: System.Reflection.Assembly
   isExternal: false
   name: ReflectionOnlyLoad(String)
   nameWithType: Assembly.ReflectionOnlyLoad(String)
   fullName: System.Reflection.Assembly.ReflectionOnlyLoad(String)
-- uid: System.Reflection.Assembly
-  parent: System.Reflection
-  isExternal: false
-  name: Assembly
-  nameWithType: Assembly
-  fullName: System.Reflection.Assembly
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
 - uid: System.Reflection.Assembly.ReflectionOnlyLoadFrom(System.String)
   parent: System.Reflection.Assembly
   isExternal: false
   name: ReflectionOnlyLoadFrom(String)
   nameWithType: Assembly.ReflectionOnlyLoadFrom(String)
   fullName: System.Reflection.Assembly.ReflectionOnlyLoadFrom(String)
-- uid: System.Reflection.Assembly
-  parent: System.Reflection
-  isExternal: false
-  name: Assembly
-  nameWithType: Assembly
-  fullName: System.Reflection.Assembly
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
 - uid: System.Reflection.Assembly.SecurityRuleSet
   parent: System.Reflection.Assembly
   isExternal: false
@@ -3914,42 +3373,18 @@ references:
   name: System.Runtime.InteropServices._Assembly.GetType()
   nameWithType: Assembly.System.Runtime.InteropServices._Assembly.GetType()
   fullName: System.Reflection.Assembly.System.Runtime.InteropServices._Assembly.GetType()
-- uid: System.Type
-  parent: System
-  isExternal: false
-  name: Type
-  nameWithType: Type
-  fullName: System.Type
 - uid: System.Reflection.Assembly.ToString
   parent: System.Reflection.Assembly
   isExternal: false
   name: ToString()
   nameWithType: Assembly.ToString()
   fullName: System.Reflection.Assembly.ToString()
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
 - uid: System.Reflection.Assembly.UnsafeLoadFrom(System.String)
   parent: System.Reflection.Assembly
   isExternal: false
   name: UnsafeLoadFrom(String)
   nameWithType: Assembly.UnsafeLoadFrom(String)
   fullName: System.Reflection.Assembly.UnsafeLoadFrom(String)
-- uid: System.Reflection.Assembly
-  parent: System.Reflection
-  isExternal: false
-  name: Assembly
-  nameWithType: Assembly
-  fullName: System.Reflection.Assembly
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
 - uid: System.Reflection.Assembly.#ctor*
   parent: System.Reflection.Assembly
   isExternal: false

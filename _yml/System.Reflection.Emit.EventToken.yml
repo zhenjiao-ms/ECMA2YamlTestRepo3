@@ -50,6 +50,7 @@ items:
     return:
       type: System.Reflection.Emit.EventToken
       description: To be added.
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -78,6 +79,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Reflection.Emit.EventToken.Equals*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -106,6 +108,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Reflection.Emit.EventToken.Equals*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -131,6 +134,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.Reflection.Emit.EventToken.GetHashCode*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -162,6 +166,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Reflection.Emit.EventToken.op_Equality*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -193,6 +198,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Reflection.Emit.EventToken.op_Inequality*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -217,6 +223,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.Reflection.Emit.EventToken.Token*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -261,18 +268,6 @@ references:
   name: Equals(EventToken)
   nameWithType: EventToken.Equals(EventToken)
   fullName: System.Reflection.Emit.EventToken.Equals(EventToken)
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
-- uid: System.Reflection.Emit.EventToken
-  parent: System.Reflection.Emit
-  isExternal: false
-  name: EventToken
-  nameWithType: EventToken
-  fullName: System.Reflection.Emit.EventToken
 - uid: System.Reflection.Emit.EventToken.GetHashCode
   parent: System.Reflection.Emit.EventToken
   isExternal: false
@@ -291,60 +286,18 @@ references:
   name: op_Equality(EventToken,EventToken)
   nameWithType: EventToken.op_Equality(EventToken,EventToken)
   fullName: System.Reflection.Emit.EventToken.op_Equality(EventToken,EventToken)
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
-- uid: System.Reflection.Emit.EventToken
-  parent: System.Reflection.Emit
-  isExternal: false
-  name: EventToken
-  nameWithType: EventToken
-  fullName: System.Reflection.Emit.EventToken
-- uid: System.Reflection.Emit.EventToken
-  parent: System.Reflection.Emit
-  isExternal: false
-  name: EventToken
-  nameWithType: EventToken
-  fullName: System.Reflection.Emit.EventToken
 - uid: System.Reflection.Emit.EventToken.op_Inequality(System.Reflection.Emit.EventToken,System.Reflection.Emit.EventToken)
   parent: System.Reflection.Emit.EventToken
   isExternal: false
   name: op_Inequality(EventToken,EventToken)
   nameWithType: EventToken.op_Inequality(EventToken,EventToken)
   fullName: System.Reflection.Emit.EventToken.op_Inequality(EventToken,EventToken)
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
-- uid: System.Reflection.Emit.EventToken
-  parent: System.Reflection.Emit
-  isExternal: false
-  name: EventToken
-  nameWithType: EventToken
-  fullName: System.Reflection.Emit.EventToken
-- uid: System.Reflection.Emit.EventToken
-  parent: System.Reflection.Emit
-  isExternal: false
-  name: EventToken
-  nameWithType: EventToken
-  fullName: System.Reflection.Emit.EventToken
 - uid: System.Reflection.Emit.EventToken.Token
   parent: System.Reflection.Emit.EventToken
   isExternal: false
   name: Token
   nameWithType: EventToken.Token
   fullName: System.Reflection.Emit.EventToken.Token
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
 - uid: System.Reflection.Emit.EventToken.Equals*
   parent: System.Reflection.Emit.EventToken
   isExternal: false

@@ -108,6 +108,7 @@ items:
       type: System.DateTime
       description: To be added.
   overload: System.Globalization.EastAsianLunisolarCalendar.AddMonths*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -139,6 +140,7 @@ items:
       type: System.DateTime
       description: To be added.
   overload: System.Globalization.EastAsianLunisolarCalendar.AddYears*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -163,6 +165,7 @@ items:
       type: System.Globalization.CalendarAlgorithmType
       description: To be added.
   overload: System.Globalization.EastAsianLunisolarCalendar.AlgorithmType*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -191,6 +194,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.Globalization.EastAsianLunisolarCalendar.GetCelestialStem*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -219,6 +223,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.Globalization.EastAsianLunisolarCalendar.GetDayOfMonth*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -247,6 +252,7 @@ items:
       type: System.DayOfWeek
       description: To be added.
   overload: System.Globalization.EastAsianLunisolarCalendar.GetDayOfWeek*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -275,6 +281,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.Globalization.EastAsianLunisolarCalendar.GetDayOfYear*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -309,6 +316,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.Globalization.EastAsianLunisolarCalendar.GetDaysInMonth*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -340,6 +348,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.Globalization.EastAsianLunisolarCalendar.GetDaysInYear*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -371,6 +380,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.Globalization.EastAsianLunisolarCalendar.GetLeapMonth*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -399,6 +409,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.Globalization.EastAsianLunisolarCalendar.GetMonth*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -430,6 +441,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.Globalization.EastAsianLunisolarCalendar.GetMonthsInYear*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -458,6 +470,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.Globalization.EastAsianLunisolarCalendar.GetSexagenaryYear*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -486,6 +499,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.Globalization.EastAsianLunisolarCalendar.GetTerrestrialBranch*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -514,6 +528,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.Globalization.EastAsianLunisolarCalendar.GetYear*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -551,6 +566,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Globalization.EastAsianLunisolarCalendar.IsLeapDay*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -585,6 +601,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Globalization.EastAsianLunisolarCalendar.IsLeapMonth*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -616,6 +633,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Globalization.EastAsianLunisolarCalendar.IsLeapYear*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -665,6 +683,7 @@ items:
       type: System.DateTime
       description: To be added.
   overload: System.Globalization.EastAsianLunisolarCalendar.ToDateTime*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -693,6 +712,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.Globalization.EastAsianLunisolarCalendar.ToFourDigitYear*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -717,6 +737,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.Globalization.EastAsianLunisolarCalendar.TwoDigitYearMax*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -737,12 +758,6 @@ references:
   name: DateTime
   nameWithType: DateTime
   fullName: System.DateTime
-- uid: System.DateTime
-  parent: System
-  isExternal: false
-  name: DateTime
-  nameWithType: DateTime
-  fullName: System.DateTime
 - uid: System.Int32
   parent: System
   isExternal: false
@@ -755,24 +770,6 @@ references:
   name: AddYears(DateTime,Int32)
   nameWithType: EastAsianLunisolarCalendar.AddYears(DateTime,Int32)
   fullName: System.Globalization.EastAsianLunisolarCalendar.AddYears(DateTime,Int32)
-- uid: System.DateTime
-  parent: System
-  isExternal: false
-  name: DateTime
-  nameWithType: DateTime
-  fullName: System.DateTime
-- uid: System.DateTime
-  parent: System
-  isExternal: false
-  name: DateTime
-  nameWithType: DateTime
-  fullName: System.DateTime
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
 - uid: System.Globalization.EastAsianLunisolarCalendar.AlgorithmType
   parent: System.Globalization.EastAsianLunisolarCalendar
   isExternal: false
@@ -791,36 +788,12 @@ references:
   name: GetCelestialStem(Int32)
   nameWithType: EastAsianLunisolarCalendar.GetCelestialStem(Int32)
   fullName: System.Globalization.EastAsianLunisolarCalendar.GetCelestialStem(Int32)
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
 - uid: System.Globalization.EastAsianLunisolarCalendar.GetDayOfMonth(System.DateTime)
   parent: System.Globalization.EastAsianLunisolarCalendar
   isExternal: false
   name: GetDayOfMonth(DateTime)
   nameWithType: EastAsianLunisolarCalendar.GetDayOfMonth(DateTime)
   fullName: System.Globalization.EastAsianLunisolarCalendar.GetDayOfMonth(DateTime)
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: System.DateTime
-  parent: System
-  isExternal: false
-  name: DateTime
-  nameWithType: DateTime
-  fullName: System.DateTime
 - uid: System.Globalization.EastAsianLunisolarCalendar.GetDayOfWeek(System.DateTime)
   parent: System.Globalization.EastAsianLunisolarCalendar
   isExternal: false
@@ -833,204 +806,60 @@ references:
   name: DayOfWeek
   nameWithType: DayOfWeek
   fullName: System.DayOfWeek
-- uid: System.DateTime
-  parent: System
-  isExternal: false
-  name: DateTime
-  nameWithType: DateTime
-  fullName: System.DateTime
 - uid: System.Globalization.EastAsianLunisolarCalendar.GetDayOfYear(System.DateTime)
   parent: System.Globalization.EastAsianLunisolarCalendar
   isExternal: false
   name: GetDayOfYear(DateTime)
   nameWithType: EastAsianLunisolarCalendar.GetDayOfYear(DateTime)
   fullName: System.Globalization.EastAsianLunisolarCalendar.GetDayOfYear(DateTime)
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: System.DateTime
-  parent: System
-  isExternal: false
-  name: DateTime
-  nameWithType: DateTime
-  fullName: System.DateTime
 - uid: System.Globalization.EastAsianLunisolarCalendar.GetDaysInMonth(System.Int32,System.Int32,System.Int32)
   parent: System.Globalization.EastAsianLunisolarCalendar
   isExternal: false
   name: GetDaysInMonth(Int32,Int32,Int32)
   nameWithType: EastAsianLunisolarCalendar.GetDaysInMonth(Int32,Int32,Int32)
   fullName: System.Globalization.EastAsianLunisolarCalendar.GetDaysInMonth(Int32,Int32,Int32)
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
 - uid: System.Globalization.EastAsianLunisolarCalendar.GetDaysInYear(System.Int32,System.Int32)
   parent: System.Globalization.EastAsianLunisolarCalendar
   isExternal: false
   name: GetDaysInYear(Int32,Int32)
   nameWithType: EastAsianLunisolarCalendar.GetDaysInYear(Int32,Int32)
   fullName: System.Globalization.EastAsianLunisolarCalendar.GetDaysInYear(Int32,Int32)
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
 - uid: System.Globalization.EastAsianLunisolarCalendar.GetLeapMonth(System.Int32,System.Int32)
   parent: System.Globalization.EastAsianLunisolarCalendar
   isExternal: false
   name: GetLeapMonth(Int32,Int32)
   nameWithType: EastAsianLunisolarCalendar.GetLeapMonth(Int32,Int32)
   fullName: System.Globalization.EastAsianLunisolarCalendar.GetLeapMonth(Int32,Int32)
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
 - uid: System.Globalization.EastAsianLunisolarCalendar.GetMonth(System.DateTime)
   parent: System.Globalization.EastAsianLunisolarCalendar
   isExternal: false
   name: GetMonth(DateTime)
   nameWithType: EastAsianLunisolarCalendar.GetMonth(DateTime)
   fullName: System.Globalization.EastAsianLunisolarCalendar.GetMonth(DateTime)
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: System.DateTime
-  parent: System
-  isExternal: false
-  name: DateTime
-  nameWithType: DateTime
-  fullName: System.DateTime
 - uid: System.Globalization.EastAsianLunisolarCalendar.GetMonthsInYear(System.Int32,System.Int32)
   parent: System.Globalization.EastAsianLunisolarCalendar
   isExternal: false
   name: GetMonthsInYear(Int32,Int32)
   nameWithType: EastAsianLunisolarCalendar.GetMonthsInYear(Int32,Int32)
   fullName: System.Globalization.EastAsianLunisolarCalendar.GetMonthsInYear(Int32,Int32)
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
 - uid: System.Globalization.EastAsianLunisolarCalendar.GetSexagenaryYear(System.DateTime)
   parent: System.Globalization.EastAsianLunisolarCalendar
   isExternal: false
   name: GetSexagenaryYear(DateTime)
   nameWithType: EastAsianLunisolarCalendar.GetSexagenaryYear(DateTime)
   fullName: System.Globalization.EastAsianLunisolarCalendar.GetSexagenaryYear(DateTime)
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: System.DateTime
-  parent: System
-  isExternal: false
-  name: DateTime
-  nameWithType: DateTime
-  fullName: System.DateTime
 - uid: System.Globalization.EastAsianLunisolarCalendar.GetTerrestrialBranch(System.Int32)
   parent: System.Globalization.EastAsianLunisolarCalendar
   isExternal: false
   name: GetTerrestrialBranch(Int32)
   nameWithType: EastAsianLunisolarCalendar.GetTerrestrialBranch(Int32)
   fullName: System.Globalization.EastAsianLunisolarCalendar.GetTerrestrialBranch(Int32)
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
 - uid: System.Globalization.EastAsianLunisolarCalendar.GetYear(System.DateTime)
   parent: System.Globalization.EastAsianLunisolarCalendar
   isExternal: false
   name: GetYear(DateTime)
   nameWithType: EastAsianLunisolarCalendar.GetYear(DateTime)
   fullName: System.Globalization.EastAsianLunisolarCalendar.GetYear(DateTime)
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: System.DateTime
-  parent: System
-  isExternal: false
-  name: DateTime
-  nameWithType: DateTime
-  fullName: System.DateTime
 - uid: System.Globalization.EastAsianLunisolarCalendar.IsLeapDay(System.Int32,System.Int32,System.Int32,System.Int32)
   parent: System.Globalization.EastAsianLunisolarCalendar
   isExternal: false
@@ -1043,174 +872,36 @@ references:
   name: Boolean
   nameWithType: Boolean
   fullName: System.Boolean
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
 - uid: System.Globalization.EastAsianLunisolarCalendar.IsLeapMonth(System.Int32,System.Int32,System.Int32)
   parent: System.Globalization.EastAsianLunisolarCalendar
   isExternal: false
   name: IsLeapMonth(Int32,Int32,Int32)
   nameWithType: EastAsianLunisolarCalendar.IsLeapMonth(Int32,Int32,Int32)
   fullName: System.Globalization.EastAsianLunisolarCalendar.IsLeapMonth(Int32,Int32,Int32)
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
 - uid: System.Globalization.EastAsianLunisolarCalendar.IsLeapYear(System.Int32,System.Int32)
   parent: System.Globalization.EastAsianLunisolarCalendar
   isExternal: false
   name: IsLeapYear(Int32,Int32)
   nameWithType: EastAsianLunisolarCalendar.IsLeapYear(Int32,Int32)
   fullName: System.Globalization.EastAsianLunisolarCalendar.IsLeapYear(Int32,Int32)
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
 - uid: System.Globalization.EastAsianLunisolarCalendar.ToDateTime(System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32)
   parent: System.Globalization.EastAsianLunisolarCalendar
   isExternal: false
   name: ToDateTime(Int32,Int32,Int32,Int32,Int32,Int32,Int32,Int32)
   nameWithType: EastAsianLunisolarCalendar.ToDateTime(Int32,Int32,Int32,Int32,Int32,Int32,Int32,Int32)
   fullName: System.Globalization.EastAsianLunisolarCalendar.ToDateTime(Int32,Int32,Int32,Int32,Int32,Int32,Int32,Int32)
-- uid: System.DateTime
-  parent: System
-  isExternal: false
-  name: DateTime
-  nameWithType: DateTime
-  fullName: System.DateTime
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
 - uid: System.Globalization.EastAsianLunisolarCalendar.ToFourDigitYear(System.Int32)
   parent: System.Globalization.EastAsianLunisolarCalendar
   isExternal: false
   name: ToFourDigitYear(Int32)
   nameWithType: EastAsianLunisolarCalendar.ToFourDigitYear(Int32)
   fullName: System.Globalization.EastAsianLunisolarCalendar.ToFourDigitYear(Int32)
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
 - uid: System.Globalization.EastAsianLunisolarCalendar.TwoDigitYearMax
   parent: System.Globalization.EastAsianLunisolarCalendar
   isExternal: false
   name: TwoDigitYearMax
   nameWithType: EastAsianLunisolarCalendar.TwoDigitYearMax
   fullName: System.Globalization.EastAsianLunisolarCalendar.TwoDigitYearMax
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
 - uid: System.Globalization.EastAsianLunisolarCalendar.AddMonths*
   parent: System.Globalization.EastAsianLunisolarCalendar
   isExternal: false

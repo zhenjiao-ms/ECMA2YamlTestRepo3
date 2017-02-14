@@ -45,6 +45,7 @@ items:
       type: System.Object
       description: To be added.
   overload: System.IAsyncResult.AsyncState*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -69,6 +70,7 @@ items:
       type: System.Threading.WaitHandle
       description: To be added.
   overload: System.IAsyncResult.AsyncWaitHandle*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -93,6 +95,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.IAsyncResult.CompletedSynchronously*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -117,6 +120,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.IAsyncResult.IsCompleted*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -164,12 +168,6 @@ references:
   name: IsCompleted
   nameWithType: IAsyncResult.IsCompleted
   fullName: System.IAsyncResult.IsCompleted
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
 - uid: System.IAsyncResult.AsyncState*
   parent: System.IAsyncResult
   isExternal: false

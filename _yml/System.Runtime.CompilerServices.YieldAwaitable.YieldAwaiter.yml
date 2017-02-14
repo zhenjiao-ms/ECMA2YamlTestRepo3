@@ -44,6 +44,7 @@ items:
     content: public void GetResult ();
     parameters: []
   overload: System.Runtime.CompilerServices.YieldAwaitable.YieldAwaiter.GetResult*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -68,6 +69,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Runtime.CompilerServices.YieldAwaitable.YieldAwaiter.IsCompleted*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -93,6 +95,7 @@ items:
       type: System.Action
       description: To be added.
   overload: System.Runtime.CompilerServices.YieldAwaitable.YieldAwaiter.OnCompleted*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -118,6 +121,7 @@ items:
       type: System.Action
       description: To be added.
   overload: System.Runtime.CompilerServices.YieldAwaitable.YieldAwaiter.UnsafeOnCompleted*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -162,12 +166,6 @@ references:
   name: UnsafeOnCompleted(Action)
   nameWithType: YieldAwaitable+YieldAwaiter.UnsafeOnCompleted(Action)
   fullName: System.Runtime.CompilerServices.YieldAwaitable+YieldAwaiter.UnsafeOnCompleted(Action)
-- uid: System.Action
-  parent: System
-  isExternal: false
-  name: Action
-  nameWithType: Action
-  fullName: System.Action
 - uid: System.Runtime.CompilerServices.YieldAwaitable.YieldAwaiter.GetResult*
   parent: System.Runtime.CompilerServices.YieldAwaitable.YieldAwaiter
   isExternal: false

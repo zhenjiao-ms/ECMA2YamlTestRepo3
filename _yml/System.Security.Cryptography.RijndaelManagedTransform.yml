@@ -62,6 +62,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.Security.Cryptography.RijndaelManagedTransform.BlockSizeValue*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -86,6 +87,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Security.Cryptography.RijndaelManagedTransform.CanReuseTransform*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -110,6 +112,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Security.Cryptography.RijndaelManagedTransform.CanTransformMultipleBlocks*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -132,6 +135,7 @@ items:
     content: public void Clear ();
     parameters: []
   overload: System.Security.Cryptography.RijndaelManagedTransform.Clear*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -154,6 +158,7 @@ items:
     content: public void Dispose ();
     parameters: []
   overload: System.Security.Cryptography.RijndaelManagedTransform.Dispose*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -178,6 +183,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.Security.Cryptography.RijndaelManagedTransform.InputBlockSize*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -202,6 +208,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.Security.Cryptography.RijndaelManagedTransform.OutputBlockSize*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -224,6 +231,7 @@ items:
     content: public void Reset ();
     parameters: []
   overload: System.Security.Cryptography.RijndaelManagedTransform.Reset*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -264,6 +272,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.Security.Cryptography.RijndaelManagedTransform.TransformBlock*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -298,6 +307,7 @@ items:
       type: System.Byte[]
       description: To be added.
   overload: System.Security.Cryptography.RijndaelManagedTransform.TransformFinalBlock*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -336,12 +346,6 @@ references:
   name: CanTransformMultipleBlocks
   nameWithType: RijndaelManagedTransform.CanTransformMultipleBlocks
   fullName: System.Security.Cryptography.RijndaelManagedTransform.CanTransformMultipleBlocks
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
 - uid: System.Security.Cryptography.RijndaelManagedTransform.Clear
   parent: System.Security.Cryptography.RijndaelManagedTransform
   isExternal: false
@@ -360,24 +364,12 @@ references:
   name: InputBlockSize
   nameWithType: RijndaelManagedTransform.InputBlockSize
   fullName: System.Security.Cryptography.RijndaelManagedTransform.InputBlockSize
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
 - uid: System.Security.Cryptography.RijndaelManagedTransform.OutputBlockSize
   parent: System.Security.Cryptography.RijndaelManagedTransform
   isExternal: false
   name: OutputBlockSize
   nameWithType: RijndaelManagedTransform.OutputBlockSize
   fullName: System.Security.Cryptography.RijndaelManagedTransform.OutputBlockSize
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
 - uid: System.Security.Cryptography.RijndaelManagedTransform.Reset
   parent: System.Security.Cryptography.RijndaelManagedTransform
   isExternal: false
@@ -390,72 +382,26 @@ references:
   name: TransformBlock(Byte[],Int32,Int32,Byte[],Int32)
   nameWithType: RijndaelManagedTransform.TransformBlock(Byte[],Int32,Int32,Byte[],Int32)
   fullName: System.Security.Cryptography.RijndaelManagedTransform.TransformBlock(Byte[],Int32,Int32,Byte[],Int32)
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: System.Byte
+- uid: System.Byte[]
   parent: System
   isExternal: false
   name: Byte
   nameWithType: Byte
   fullName: System.Byte[]
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: System.Byte
-  parent: System
-  isExternal: false
-  name: Byte
-  nameWithType: Byte
-  fullName: System.Byte[]
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
+  spec.csharp:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: Byte[]
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
 - uid: System.Security.Cryptography.RijndaelManagedTransform.TransformFinalBlock(System.Byte[],System.Int32,System.Int32)
   parent: System.Security.Cryptography.RijndaelManagedTransform
   isExternal: false
   name: TransformFinalBlock(Byte[],Int32,Int32)
   nameWithType: RijndaelManagedTransform.TransformFinalBlock(Byte[],Int32,Int32)
   fullName: System.Security.Cryptography.RijndaelManagedTransform.TransformFinalBlock(Byte[],Int32,Int32)
-- uid: System.Byte
-  parent: System
-  isExternal: false
-  name: Byte
-  nameWithType: Byte
-  fullName: System.Byte[]
-- uid: System.Byte
-  parent: System
-  isExternal: false
-  name: Byte
-  nameWithType: Byte
-  fullName: System.Byte[]
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
 - uid: System.Security.Cryptography.RijndaelManagedTransform.BlockSizeValue*
   parent: System.Security.Cryptography.RijndaelManagedTransform
   isExternal: false

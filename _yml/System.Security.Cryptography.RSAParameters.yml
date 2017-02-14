@@ -51,6 +51,7 @@ items:
     return:
       type: System.Byte[]
       description: To be added.
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -74,6 +75,7 @@ items:
     return:
       type: System.Byte[]
       description: To be added.
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -97,6 +99,7 @@ items:
     return:
       type: System.Byte[]
       description: To be added.
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -120,6 +123,7 @@ items:
     return:
       type: System.Byte[]
       description: To be added.
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -143,6 +147,7 @@ items:
     return:
       type: System.Byte[]
       description: To be added.
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -166,6 +171,7 @@ items:
     return:
       type: System.Byte[]
       description: To be added.
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -189,6 +195,7 @@ items:
     return:
       type: System.Byte[]
       description: To be added.
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -212,6 +219,7 @@ items:
     return:
       type: System.Byte[]
       description: To be added.
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -226,93 +234,59 @@ references:
   name: D
   nameWithType: RSAParameters.D
   fullName: System.Security.Cryptography.RSAParameters.D
-- uid: System.Byte
+- uid: System.Byte[]
   parent: System
   isExternal: false
   name: Byte
   nameWithType: Byte
   fullName: System.Byte[]
+  spec.csharp:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: Byte[]
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
 - uid: System.Security.Cryptography.RSAParameters.DP
   parent: System.Security.Cryptography.RSAParameters
   isExternal: false
   name: DP
   nameWithType: RSAParameters.DP
   fullName: System.Security.Cryptography.RSAParameters.DP
-- uid: System.Byte
-  parent: System
-  isExternal: false
-  name: Byte
-  nameWithType: Byte
-  fullName: System.Byte[]
 - uid: System.Security.Cryptography.RSAParameters.DQ
   parent: System.Security.Cryptography.RSAParameters
   isExternal: false
   name: DQ
   nameWithType: RSAParameters.DQ
   fullName: System.Security.Cryptography.RSAParameters.DQ
-- uid: System.Byte
-  parent: System
-  isExternal: false
-  name: Byte
-  nameWithType: Byte
-  fullName: System.Byte[]
 - uid: System.Security.Cryptography.RSAParameters.Exponent
   parent: System.Security.Cryptography.RSAParameters
   isExternal: false
   name: Exponent
   nameWithType: RSAParameters.Exponent
   fullName: System.Security.Cryptography.RSAParameters.Exponent
-- uid: System.Byte
-  parent: System
-  isExternal: false
-  name: Byte
-  nameWithType: Byte
-  fullName: System.Byte[]
 - uid: System.Security.Cryptography.RSAParameters.InverseQ
   parent: System.Security.Cryptography.RSAParameters
   isExternal: false
   name: InverseQ
   nameWithType: RSAParameters.InverseQ
   fullName: System.Security.Cryptography.RSAParameters.InverseQ
-- uid: System.Byte
-  parent: System
-  isExternal: false
-  name: Byte
-  nameWithType: Byte
-  fullName: System.Byte[]
 - uid: System.Security.Cryptography.RSAParameters.Modulus
   parent: System.Security.Cryptography.RSAParameters
   isExternal: false
   name: Modulus
   nameWithType: RSAParameters.Modulus
   fullName: System.Security.Cryptography.RSAParameters.Modulus
-- uid: System.Byte
-  parent: System
-  isExternal: false
-  name: Byte
-  nameWithType: Byte
-  fullName: System.Byte[]
 - uid: System.Security.Cryptography.RSAParameters.P
   parent: System.Security.Cryptography.RSAParameters
   isExternal: false
   name: P
   nameWithType: RSAParameters.P
   fullName: System.Security.Cryptography.RSAParameters.P
-- uid: System.Byte
-  parent: System
-  isExternal: false
-  name: Byte
-  nameWithType: Byte
-  fullName: System.Byte[]
 - uid: System.Security.Cryptography.RSAParameters.Q
   parent: System.Security.Cryptography.RSAParameters
   isExternal: false
   name: Q
   nameWithType: RSAParameters.Q
   fullName: System.Security.Cryptography.RSAParameters.Q
-- uid: System.Byte
-  parent: System
-  isExternal: false
-  name: Byte
-  nameWithType: Byte
-  fullName: System.Byte[]

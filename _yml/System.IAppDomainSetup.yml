@@ -55,6 +55,7 @@ items:
       type: System.String
       description: To be added.
   overload: System.IAppDomainSetup.ApplicationBase*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -79,6 +80,7 @@ items:
       type: System.String
       description: To be added.
   overload: System.IAppDomainSetup.ApplicationName*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -103,6 +105,7 @@ items:
       type: System.String
       description: To be added.
   overload: System.IAppDomainSetup.CachePath*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -127,6 +130,7 @@ items:
       type: System.String
       description: To be added.
   overload: System.IAppDomainSetup.ConfigurationFile*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -151,6 +155,7 @@ items:
       type: System.String
       description: To be added.
   overload: System.IAppDomainSetup.DynamicBase*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -175,6 +180,7 @@ items:
       type: System.String
       description: To be added.
   overload: System.IAppDomainSetup.LicenseFile*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -199,6 +205,7 @@ items:
       type: System.String
       description: To be added.
   overload: System.IAppDomainSetup.PrivateBinPath*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -223,6 +230,7 @@ items:
       type: System.String
       description: To be added.
   overload: System.IAppDomainSetup.PrivateBinPathProbe*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -247,6 +255,7 @@ items:
       type: System.String
       description: To be added.
   overload: System.IAppDomainSetup.ShadowCopyDirectories*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -271,6 +280,7 @@ items:
       type: System.String
       description: To be added.
   overload: System.IAppDomainSetup.ShadowCopyFiles*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -294,108 +304,54 @@ references:
   name: ApplicationName
   nameWithType: IAppDomainSetup.ApplicationName
   fullName: System.IAppDomainSetup.ApplicationName
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
 - uid: System.IAppDomainSetup.CachePath
   parent: System.IAppDomainSetup
   isExternal: false
   name: CachePath
   nameWithType: IAppDomainSetup.CachePath
   fullName: System.IAppDomainSetup.CachePath
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
 - uid: System.IAppDomainSetup.ConfigurationFile
   parent: System.IAppDomainSetup
   isExternal: false
   name: ConfigurationFile
   nameWithType: IAppDomainSetup.ConfigurationFile
   fullName: System.IAppDomainSetup.ConfigurationFile
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
 - uid: System.IAppDomainSetup.DynamicBase
   parent: System.IAppDomainSetup
   isExternal: false
   name: DynamicBase
   nameWithType: IAppDomainSetup.DynamicBase
   fullName: System.IAppDomainSetup.DynamicBase
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
 - uid: System.IAppDomainSetup.LicenseFile
   parent: System.IAppDomainSetup
   isExternal: false
   name: LicenseFile
   nameWithType: IAppDomainSetup.LicenseFile
   fullName: System.IAppDomainSetup.LicenseFile
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
 - uid: System.IAppDomainSetup.PrivateBinPath
   parent: System.IAppDomainSetup
   isExternal: false
   name: PrivateBinPath
   nameWithType: IAppDomainSetup.PrivateBinPath
   fullName: System.IAppDomainSetup.PrivateBinPath
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
 - uid: System.IAppDomainSetup.PrivateBinPathProbe
   parent: System.IAppDomainSetup
   isExternal: false
   name: PrivateBinPathProbe
   nameWithType: IAppDomainSetup.PrivateBinPathProbe
   fullName: System.IAppDomainSetup.PrivateBinPathProbe
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
 - uid: System.IAppDomainSetup.ShadowCopyDirectories
   parent: System.IAppDomainSetup
   isExternal: false
   name: ShadowCopyDirectories
   nameWithType: IAppDomainSetup.ShadowCopyDirectories
   fullName: System.IAppDomainSetup.ShadowCopyDirectories
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
 - uid: System.IAppDomainSetup.ShadowCopyFiles
   parent: System.IAppDomainSetup
   isExternal: false
   name: ShadowCopyFiles
   nameWithType: IAppDomainSetup.ShadowCopyFiles
   fullName: System.IAppDomainSetup.ShadowCopyFiles
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
 - uid: System.IAppDomainSetup.ApplicationBase*
   parent: System.IAppDomainSetup
   isExternal: false

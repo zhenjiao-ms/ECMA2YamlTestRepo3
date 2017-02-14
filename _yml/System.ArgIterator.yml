@@ -51,6 +51,7 @@ items:
       type: System.RuntimeArgumentHandle
       description: To be added.
   overload: System.ArgIterator.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -79,6 +80,7 @@ items:
       type: System.Void*
       description: To be added.
   overload: System.ArgIterator.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -101,6 +103,7 @@ items:
     content: public void End ();
     parameters: []
   overload: System.ArgIterator.End*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -129,6 +132,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.ArgIterator.Equals*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -154,6 +158,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.ArgIterator.GetHashCode*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -179,6 +184,7 @@ items:
       type: System.TypedReference
       description: To be added.
   overload: System.ArgIterator.GetNextArg*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -207,6 +213,7 @@ items:
       type: System.TypedReference
       description: To be added.
   overload: System.ArgIterator.GetNextArg*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -232,6 +239,7 @@ items:
       type: System.RuntimeTypeHandle
       description: To be added.
   overload: System.ArgIterator.GetNextArgType*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -257,6 +265,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.ArgIterator.GetRemainingCount*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -283,12 +292,6 @@ references:
   name: ArgIterator(RuntimeArgumentHandle,Void*)
   nameWithType: ArgIterator.ArgIterator(RuntimeArgumentHandle,Void*)
   fullName: System.ArgIterator.ArgIterator(RuntimeArgumentHandle,Void*)
-- uid: System.RuntimeArgumentHandle
-  parent: System
-  isExternal: false
-  name: RuntimeArgumentHandle
-  nameWithType: RuntimeArgumentHandle
-  fullName: System.RuntimeArgumentHandle
 - uid: System.ArgIterator.End
   parent: System.ArgIterator
   isExternal: false
@@ -343,12 +346,6 @@ references:
   name: GetNextArg(RuntimeTypeHandle)
   nameWithType: ArgIterator.GetNextArg(RuntimeTypeHandle)
   fullName: System.ArgIterator.GetNextArg(RuntimeTypeHandle)
-- uid: System.TypedReference
-  parent: System
-  isExternal: false
-  name: TypedReference
-  nameWithType: TypedReference
-  fullName: System.TypedReference
 - uid: System.RuntimeTypeHandle
   parent: System
   isExternal: false
@@ -361,24 +358,12 @@ references:
   name: GetNextArgType()
   nameWithType: ArgIterator.GetNextArgType()
   fullName: System.ArgIterator.GetNextArgType()
-- uid: System.RuntimeTypeHandle
-  parent: System
-  isExternal: false
-  name: RuntimeTypeHandle
-  nameWithType: RuntimeTypeHandle
-  fullName: System.RuntimeTypeHandle
 - uid: System.ArgIterator.GetRemainingCount
   parent: System.ArgIterator
   isExternal: false
   name: GetRemainingCount()
   nameWithType: ArgIterator.GetRemainingCount()
   fullName: System.ArgIterator.GetRemainingCount()
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
 - uid: System.ArgIterator.#ctor*
   parent: System.ArgIterator
   isExternal: false

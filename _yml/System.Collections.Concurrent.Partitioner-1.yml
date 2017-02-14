@@ -53,6 +53,7 @@ items:
     content: protected Partitioner ();
     parameters: []
   overload: System.Collections.Concurrent.Partitioner`1.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -78,6 +79,7 @@ items:
       type: System.Collections.Generic.IEnumerable{TSource}
       description: To be added.
   overload: System.Collections.Concurrent.Partitioner`1.GetDynamicPartitions*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -106,6 +108,7 @@ items:
       type: System.Collections.Generic.IList{System.Collections.Generic.IEnumerator{TSource}}
       description: To be added.
   overload: System.Collections.Concurrent.Partitioner`1.GetPartitions*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -130,6 +133,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Collections.Concurrent.Partitioner`1.SupportsDynamicPartitions*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -156,6 +160,21 @@ references:
   name: IEnumerable<TSource>
   nameWithType: IEnumerable<TSource>
   fullName: System.Collections.Generic.IEnumerable<TSource>
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: IEnumerable<TSource>
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: TSource
+    name: TSource
+    nameWithType: TSource
+    fullName: TSource
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
 - uid: System.Collections.Concurrent.Partitioner`1.GetPartitions(System.Int32)
   parent: System.Collections.Concurrent.Partitioner`1
   isExternal: false
@@ -168,6 +187,31 @@ references:
   name: IList<IEnumerator<TSource>>
   nameWithType: IList<IEnumerator<TSource>>
   fullName: System.Collections.Generic.IList<System.Collections.Generic.IEnumerator<TSource>>
+  spec.csharp:
+  - uid: System.Collections.Generic.IList`1
+    name: IList
+    nameWithType: IList
+    fullName: IList<System.Collections.Generic.IEnumerator<TSource>>
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Collections.Generic.IEnumerator`1
+    name: IEnumerator
+    nameWithType: IEnumerator
+    fullName: IEnumerator<TSource>
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: TSource
+    name: TSource
+    nameWithType: TSource
+    fullName: TSource
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
 - uid: System.Int32
   parent: System
   isExternal: false

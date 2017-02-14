@@ -62,6 +62,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Reflection.Emit.OpCode.Equals*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -90,6 +91,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Reflection.Emit.OpCode.Equals*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -114,6 +116,7 @@ items:
       type: System.Reflection.Emit.FlowControl
       description: To be added.
   overload: System.Reflection.Emit.OpCode.FlowControl*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -139,6 +142,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.Reflection.Emit.OpCode.GetHashCode*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -163,6 +167,7 @@ items:
       type: System.String
       description: To be added.
   overload: System.Reflection.Emit.OpCode.Name*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -194,6 +199,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Reflection.Emit.OpCode.op_Equality*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -225,6 +231,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Reflection.Emit.OpCode.op_Inequality*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -249,6 +256,7 @@ items:
       type: System.Reflection.Emit.OpCodeType
       description: To be added.
   overload: System.Reflection.Emit.OpCode.OpCodeType*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -273,6 +281,7 @@ items:
       type: System.Reflection.Emit.OperandType
       description: To be added.
   overload: System.Reflection.Emit.OpCode.OperandType*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -297,6 +306,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.Reflection.Emit.OpCode.Size*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -321,6 +331,7 @@ items:
       type: System.Reflection.Emit.StackBehaviour
       description: To be added.
   overload: System.Reflection.Emit.OpCode.StackBehaviourPop*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -345,6 +356,7 @@ items:
       type: System.Reflection.Emit.StackBehaviour
       description: To be added.
   overload: System.Reflection.Emit.OpCode.StackBehaviourPush*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -370,6 +382,7 @@ items:
       type: System.String
       description: To be added.
   overload: System.Reflection.Emit.OpCode.ToString*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -394,6 +407,7 @@ items:
       type: System.Int16
       description: To be added.
   overload: System.Reflection.Emit.OpCode.Value*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -426,12 +440,6 @@ references:
   name: Equals(OpCode)
   nameWithType: OpCode.Equals(OpCode)
   fullName: System.Reflection.Emit.OpCode.Equals(OpCode)
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
 - uid: System.Reflection.Emit.OpCode
   parent: System.Reflection.Emit
   isExternal: false
@@ -480,48 +488,12 @@ references:
   name: op_Equality(OpCode,OpCode)
   nameWithType: OpCode.op_Equality(OpCode,OpCode)
   fullName: System.Reflection.Emit.OpCode.op_Equality(OpCode,OpCode)
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
-- uid: System.Reflection.Emit.OpCode
-  parent: System.Reflection.Emit
-  isExternal: false
-  name: OpCode
-  nameWithType: OpCode
-  fullName: System.Reflection.Emit.OpCode
-- uid: System.Reflection.Emit.OpCode
-  parent: System.Reflection.Emit
-  isExternal: false
-  name: OpCode
-  nameWithType: OpCode
-  fullName: System.Reflection.Emit.OpCode
 - uid: System.Reflection.Emit.OpCode.op_Inequality(System.Reflection.Emit.OpCode,System.Reflection.Emit.OpCode)
   parent: System.Reflection.Emit.OpCode
   isExternal: false
   name: op_Inequality(OpCode,OpCode)
   nameWithType: OpCode.op_Inequality(OpCode,OpCode)
   fullName: System.Reflection.Emit.OpCode.op_Inequality(OpCode,OpCode)
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
-- uid: System.Reflection.Emit.OpCode
-  parent: System.Reflection.Emit
-  isExternal: false
-  name: OpCode
-  nameWithType: OpCode
-  fullName: System.Reflection.Emit.OpCode
-- uid: System.Reflection.Emit.OpCode
-  parent: System.Reflection.Emit
-  isExternal: false
-  name: OpCode
-  nameWithType: OpCode
-  fullName: System.Reflection.Emit.OpCode
 - uid: System.Reflection.Emit.OpCode.OpCodeType
   parent: System.Reflection.Emit.OpCode
   isExternal: false
@@ -552,12 +524,6 @@ references:
   name: Size
   nameWithType: OpCode.Size
   fullName: System.Reflection.Emit.OpCode.Size
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
 - uid: System.Reflection.Emit.OpCode.StackBehaviourPop
   parent: System.Reflection.Emit.OpCode
   isExternal: false
@@ -576,24 +542,12 @@ references:
   name: StackBehaviourPush
   nameWithType: OpCode.StackBehaviourPush
   fullName: System.Reflection.Emit.OpCode.StackBehaviourPush
-- uid: System.Reflection.Emit.StackBehaviour
-  parent: System.Reflection.Emit
-  isExternal: false
-  name: StackBehaviour
-  nameWithType: StackBehaviour
-  fullName: System.Reflection.Emit.StackBehaviour
 - uid: System.Reflection.Emit.OpCode.ToString
   parent: System.Reflection.Emit.OpCode
   isExternal: false
   name: ToString()
   nameWithType: OpCode.ToString()
   fullName: System.Reflection.Emit.OpCode.ToString()
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
 - uid: System.Reflection.Emit.OpCode.Value
   parent: System.Reflection.Emit.OpCode
   isExternal: false

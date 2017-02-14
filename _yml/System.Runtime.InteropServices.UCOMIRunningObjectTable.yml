@@ -53,6 +53,7 @@ items:
       type: System.Runtime.InteropServices.UCOMIEnumMoniker
       description: To be added.
   overload: System.Runtime.InteropServices.UCOMIRunningObjectTable.EnumRunning*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -81,6 +82,7 @@ items:
       type: System.Object
       description: To be added.
   overload: System.Runtime.InteropServices.UCOMIRunningObjectTable.GetObject*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -109,6 +111,7 @@ items:
       type: System.Runtime.InteropServices.FILETIME
       description: To be added.
   overload: System.Runtime.InteropServices.UCOMIRunningObjectTable.GetTimeOfLastChange*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -134,6 +137,7 @@ items:
       type: System.Runtime.InteropServices.UCOMIMoniker
       description: To be added.
   overload: System.Runtime.InteropServices.UCOMIRunningObjectTable.IsRunning*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -162,6 +166,7 @@ items:
       type: System.Runtime.InteropServices.FILETIME
       description: To be added.
   overload: System.Runtime.InteropServices.UCOMIRunningObjectTable.NoteChangeTime*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -196,6 +201,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.Runtime.InteropServices.UCOMIRunningObjectTable.Register*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -221,6 +227,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.Runtime.InteropServices.UCOMIRunningObjectTable.Revoke*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -262,12 +269,6 @@ references:
   name: GetTimeOfLastChange(UCOMIMoniker,FILETIME)
   nameWithType: UCOMIRunningObjectTable.GetTimeOfLastChange(UCOMIMoniker,FILETIME)
   fullName: System.Runtime.InteropServices.UCOMIRunningObjectTable.GetTimeOfLastChange(UCOMIMoniker,FILETIME)
-- uid: System.Runtime.InteropServices.UCOMIMoniker
-  parent: System.Runtime.InteropServices
-  isExternal: false
-  name: UCOMIMoniker
-  nameWithType: UCOMIMoniker
-  fullName: System.Runtime.InteropServices.UCOMIMoniker
 - uid: System.Runtime.InteropServices.FILETIME
   parent: System.Runtime.InteropServices
   isExternal: false
@@ -280,12 +281,6 @@ references:
   name: IsRunning(UCOMIMoniker)
   nameWithType: UCOMIRunningObjectTable.IsRunning(UCOMIMoniker)
   fullName: System.Runtime.InteropServices.UCOMIRunningObjectTable.IsRunning(UCOMIMoniker)
-- uid: System.Runtime.InteropServices.UCOMIMoniker
-  parent: System.Runtime.InteropServices
-  isExternal: false
-  name: UCOMIMoniker
-  nameWithType: UCOMIMoniker
-  fullName: System.Runtime.InteropServices.UCOMIMoniker
 - uid: System.Runtime.InteropServices.UCOMIRunningObjectTable.NoteChangeTime(System.Int32,System.Runtime.InteropServices.FILETIME@)
   parent: System.Runtime.InteropServices.UCOMIRunningObjectTable
   isExternal: false
@@ -298,54 +293,18 @@ references:
   name: Int32
   nameWithType: Int32
   fullName: System.Int32
-- uid: System.Runtime.InteropServices.FILETIME
-  parent: System.Runtime.InteropServices
-  isExternal: false
-  name: FILETIME
-  nameWithType: FILETIME
-  fullName: System.Runtime.InteropServices.FILETIME
 - uid: System.Runtime.InteropServices.UCOMIRunningObjectTable.Register(System.Int32,System.Object,System.Runtime.InteropServices.UCOMIMoniker,System.Int32@)
   parent: System.Runtime.InteropServices.UCOMIRunningObjectTable
   isExternal: false
   name: Register(Int32,Object,UCOMIMoniker,Int32)
   nameWithType: UCOMIRunningObjectTable.Register(Int32,Object,UCOMIMoniker,Int32)
   fullName: System.Runtime.InteropServices.UCOMIRunningObjectTable.Register(Int32,Object,UCOMIMoniker,Int32)
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: System.Object
-  parent: System
-  isExternal: false
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
-- uid: System.Runtime.InteropServices.UCOMIMoniker
-  parent: System.Runtime.InteropServices
-  isExternal: false
-  name: UCOMIMoniker
-  nameWithType: UCOMIMoniker
-  fullName: System.Runtime.InteropServices.UCOMIMoniker
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
 - uid: System.Runtime.InteropServices.UCOMIRunningObjectTable.Revoke(System.Int32)
   parent: System.Runtime.InteropServices.UCOMIRunningObjectTable
   isExternal: false
   name: Revoke(Int32)
   nameWithType: UCOMIRunningObjectTable.Revoke(Int32)
   fullName: System.Runtime.InteropServices.UCOMIRunningObjectTable.Revoke(Int32)
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
 - uid: System.Runtime.InteropServices.UCOMIRunningObjectTable.EnumRunning*
   parent: System.Runtime.InteropServices.UCOMIRunningObjectTable
   isExternal: false

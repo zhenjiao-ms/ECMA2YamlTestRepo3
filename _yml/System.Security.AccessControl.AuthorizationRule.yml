@@ -67,6 +67,7 @@ items:
       type: System.Security.AccessControl.PropagationFlags
       description: To be added.
   overload: System.Security.AccessControl.AuthorizationRule.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -91,6 +92,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.Security.AccessControl.AuthorizationRule.AccessMask*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -115,6 +117,7 @@ items:
       type: System.Security.Principal.IdentityReference
       description: To be added.
   overload: System.Security.AccessControl.AuthorizationRule.IdentityReference*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -139,6 +142,7 @@ items:
       type: System.Security.AccessControl.InheritanceFlags
       description: To be added.
   overload: System.Security.AccessControl.AuthorizationRule.InheritanceFlags*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -163,6 +167,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Security.AccessControl.AuthorizationRule.IsInherited*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -187,6 +192,7 @@ items:
       type: System.Security.AccessControl.PropagationFlags
       description: To be added.
   overload: System.Security.AccessControl.AuthorizationRule.PropagationFlags*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -237,60 +243,30 @@ references:
   name: AccessMask
   nameWithType: AuthorizationRule.AccessMask
   fullName: System.Security.AccessControl.AuthorizationRule.AccessMask
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
 - uid: System.Security.AccessControl.AuthorizationRule.IdentityReference
   parent: System.Security.AccessControl.AuthorizationRule
   isExternal: false
   name: IdentityReference
   nameWithType: AuthorizationRule.IdentityReference
   fullName: System.Security.AccessControl.AuthorizationRule.IdentityReference
-- uid: System.Security.Principal.IdentityReference
-  parent: System.Security.Principal
-  isExternal: false
-  name: IdentityReference
-  nameWithType: IdentityReference
-  fullName: System.Security.Principal.IdentityReference
 - uid: System.Security.AccessControl.AuthorizationRule.InheritanceFlags
   parent: System.Security.AccessControl.AuthorizationRule
   isExternal: false
   name: InheritanceFlags
   nameWithType: AuthorizationRule.InheritanceFlags
   fullName: System.Security.AccessControl.AuthorizationRule.InheritanceFlags
-- uid: System.Security.AccessControl.InheritanceFlags
-  parent: System.Security.AccessControl
-  isExternal: false
-  name: InheritanceFlags
-  nameWithType: InheritanceFlags
-  fullName: System.Security.AccessControl.InheritanceFlags
 - uid: System.Security.AccessControl.AuthorizationRule.IsInherited
   parent: System.Security.AccessControl.AuthorizationRule
   isExternal: false
   name: IsInherited
   nameWithType: AuthorizationRule.IsInherited
   fullName: System.Security.AccessControl.AuthorizationRule.IsInherited
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
 - uid: System.Security.AccessControl.AuthorizationRule.PropagationFlags
   parent: System.Security.AccessControl.AuthorizationRule
   isExternal: false
   name: PropagationFlags
   nameWithType: AuthorizationRule.PropagationFlags
   fullName: System.Security.AccessControl.AuthorizationRule.PropagationFlags
-- uid: System.Security.AccessControl.PropagationFlags
-  parent: System.Security.AccessControl
-  isExternal: false
-  name: PropagationFlags
-  nameWithType: PropagationFlags
-  fullName: System.Security.AccessControl.PropagationFlags
 - uid: System.Security.AccessControl.AuthorizationRule.#ctor*
   parent: System.Security.AccessControl.AuthorizationRule
   isExternal: false

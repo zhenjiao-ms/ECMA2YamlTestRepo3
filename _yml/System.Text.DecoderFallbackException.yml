@@ -67,6 +67,7 @@ items:
     content: public DecoderFallbackException ();
     parameters: []
   overload: System.Text.DecoderFallbackException.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -92,6 +93,7 @@ items:
       type: System.String
       description: To be added.
   overload: System.Text.DecoderFallbackException.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -120,6 +122,7 @@ items:
       type: System.Exception
       description: To be added.
   overload: System.Text.DecoderFallbackException.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -151,6 +154,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.Text.DecoderFallbackException.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -175,6 +179,7 @@ items:
       type: System.Byte[]
       description: To be added.
   overload: System.Text.DecoderFallbackException.BytesUnknown*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -199,6 +204,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.Text.DecoderFallbackException.Index*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -231,12 +237,6 @@ references:
   name: DecoderFallbackException(String,Exception)
   nameWithType: DecoderFallbackException.DecoderFallbackException(String,Exception)
   fullName: System.Text.DecoderFallbackException.DecoderFallbackException(String,Exception)
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
 - uid: System.Exception
   parent: System
   isExternal: false
@@ -249,18 +249,20 @@ references:
   name: DecoderFallbackException(String,Byte[],Int32)
   nameWithType: DecoderFallbackException.DecoderFallbackException(String,Byte[],Int32)
   fullName: System.Text.DecoderFallbackException.DecoderFallbackException(String,Byte[],Int32)
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
-- uid: System.Byte
+- uid: System.Byte[]
   parent: System
   isExternal: false
   name: Byte
   nameWithType: Byte
   fullName: System.Byte[]
+  spec.csharp:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: Byte[]
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
 - uid: System.Int32
   parent: System
   isExternal: false
@@ -273,24 +275,12 @@ references:
   name: BytesUnknown
   nameWithType: DecoderFallbackException.BytesUnknown
   fullName: System.Text.DecoderFallbackException.BytesUnknown
-- uid: System.Byte
-  parent: System
-  isExternal: false
-  name: Byte
-  nameWithType: Byte
-  fullName: System.Byte[]
 - uid: System.Text.DecoderFallbackException.Index
   parent: System.Text.DecoderFallbackException
   isExternal: false
   name: Index
   nameWithType: DecoderFallbackException.Index
   fullName: System.Text.DecoderFallbackException.Index
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
 - uid: System.Text.DecoderFallbackException.#ctor*
   parent: System.Text.DecoderFallbackException
   isExternal: false

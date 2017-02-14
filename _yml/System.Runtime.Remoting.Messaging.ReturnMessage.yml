@@ -78,6 +78,7 @@ items:
       type: System.Runtime.Remoting.Messaging.IMethodCallMessage
       description: To be added.
   overload: System.Runtime.Remoting.Messaging.ReturnMessage.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -115,6 +116,7 @@ items:
       type: System.Runtime.Remoting.Messaging.IMethodCallMessage
       description: To be added.
   overload: System.Runtime.Remoting.Messaging.ReturnMessage.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -139,6 +141,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.Runtime.Remoting.Messaging.ReturnMessage.ArgCount*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -163,6 +166,7 @@ items:
       type: System.Object[]
       description: To be added.
   overload: System.Runtime.Remoting.Messaging.ReturnMessage.Args*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -187,6 +191,7 @@ items:
       type: System.Exception
       description: To be added.
   overload: System.Runtime.Remoting.Messaging.ReturnMessage.Exception*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -215,6 +220,7 @@ items:
       type: System.Object
       description: To be added.
   overload: System.Runtime.Remoting.Messaging.ReturnMessage.GetArg*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -243,6 +249,7 @@ items:
       type: System.String
       description: To be added.
   overload: System.Runtime.Remoting.Messaging.ReturnMessage.GetArgName*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -271,6 +278,7 @@ items:
       type: System.Object
       description: To be added.
   overload: System.Runtime.Remoting.Messaging.ReturnMessage.GetOutArg*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -299,6 +307,7 @@ items:
       type: System.String
       description: To be added.
   overload: System.Runtime.Remoting.Messaging.ReturnMessage.GetOutArgName*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -323,6 +332,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Runtime.Remoting.Messaging.ReturnMessage.HasVarArgs*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -347,6 +357,7 @@ items:
       type: System.Runtime.Remoting.Messaging.LogicalCallContext
       description: To be added.
   overload: System.Runtime.Remoting.Messaging.ReturnMessage.LogicalCallContext*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -371,6 +382,7 @@ items:
       type: System.Reflection.MethodBase
       description: To be added.
   overload: System.Runtime.Remoting.Messaging.ReturnMessage.MethodBase*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -395,6 +407,7 @@ items:
       type: System.String
       description: To be added.
   overload: System.Runtime.Remoting.Messaging.ReturnMessage.MethodName*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -419,6 +432,7 @@ items:
       type: System.Object
       description: To be added.
   overload: System.Runtime.Remoting.Messaging.ReturnMessage.MethodSignature*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -443,6 +457,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.Runtime.Remoting.Messaging.ReturnMessage.OutArgCount*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -467,6 +482,7 @@ items:
       type: System.Object[]
       description: To be added.
   overload: System.Runtime.Remoting.Messaging.ReturnMessage.OutArgs*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -491,6 +507,7 @@ items:
       type: System.Collections.IDictionary
       description: To be added.
   overload: System.Runtime.Remoting.Messaging.ReturnMessage.Properties*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -515,6 +532,7 @@ items:
       type: System.Object
       description: To be added.
   overload: System.Runtime.Remoting.Messaging.ReturnMessage.ReturnValue*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -539,6 +557,7 @@ items:
       type: System.String
       description: To be added.
   overload: System.Runtime.Remoting.Messaging.ReturnMessage.TypeName*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -563,6 +582,7 @@ items:
       type: System.String
       description: To be added.
   overload: System.Runtime.Remoting.Messaging.ReturnMessage.Uri*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -595,18 +615,20 @@ references:
   name: ReturnMessage(Object,Object[],Int32,LogicalCallContext,IMethodCallMessage)
   nameWithType: ReturnMessage.ReturnMessage(Object,Object[],Int32,LogicalCallContext,IMethodCallMessage)
   fullName: System.Runtime.Remoting.Messaging.ReturnMessage.ReturnMessage(Object,Object[],Int32,LogicalCallContext,IMethodCallMessage)
-- uid: System.Object
-  parent: System
-  isExternal: false
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
-- uid: System.Object
+- uid: System.Object[]
   parent: System
   isExternal: false
   name: Object
   nameWithType: Object
   fullName: System.Object[]
+  spec.csharp:
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: Object[]
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
 - uid: System.Int32
   parent: System
   isExternal: false
@@ -619,66 +641,30 @@ references:
   name: LogicalCallContext
   nameWithType: LogicalCallContext
   fullName: System.Runtime.Remoting.Messaging.LogicalCallContext
-- uid: System.Runtime.Remoting.Messaging.IMethodCallMessage
-  parent: System.Runtime.Remoting.Messaging
-  isExternal: false
-  name: IMethodCallMessage
-  nameWithType: IMethodCallMessage
-  fullName: System.Runtime.Remoting.Messaging.IMethodCallMessage
 - uid: System.Runtime.Remoting.Messaging.ReturnMessage.ArgCount
   parent: System.Runtime.Remoting.Messaging.ReturnMessage
   isExternal: false
   name: ArgCount
   nameWithType: ReturnMessage.ArgCount
   fullName: System.Runtime.Remoting.Messaging.ReturnMessage.ArgCount
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
 - uid: System.Runtime.Remoting.Messaging.ReturnMessage.Args
   parent: System.Runtime.Remoting.Messaging.ReturnMessage
   isExternal: false
   name: Args
   nameWithType: ReturnMessage.Args
   fullName: System.Runtime.Remoting.Messaging.ReturnMessage.Args
-- uid: System.Object
-  parent: System
-  isExternal: false
-  name: Object
-  nameWithType: Object
-  fullName: System.Object[]
 - uid: System.Runtime.Remoting.Messaging.ReturnMessage.Exception
   parent: System.Runtime.Remoting.Messaging.ReturnMessage
   isExternal: false
   name: Exception
   nameWithType: ReturnMessage.Exception
   fullName: System.Runtime.Remoting.Messaging.ReturnMessage.Exception
-- uid: System.Exception
-  parent: System
-  isExternal: false
-  name: Exception
-  nameWithType: Exception
-  fullName: System.Exception
 - uid: System.Runtime.Remoting.Messaging.ReturnMessage.GetArg(System.Int32)
   parent: System.Runtime.Remoting.Messaging.ReturnMessage
   isExternal: false
   name: GetArg(Int32)
   nameWithType: ReturnMessage.GetArg(Int32)
   fullName: System.Runtime.Remoting.Messaging.ReturnMessage.GetArg(Int32)
-- uid: System.Object
-  parent: System
-  isExternal: false
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
 - uid: System.Runtime.Remoting.Messaging.ReturnMessage.GetArgName(System.Int32)
   parent: System.Runtime.Remoting.Messaging.ReturnMessage
   isExternal: false
@@ -691,48 +677,18 @@ references:
   name: String
   nameWithType: String
   fullName: System.String
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
 - uid: System.Runtime.Remoting.Messaging.ReturnMessage.GetOutArg(System.Int32)
   parent: System.Runtime.Remoting.Messaging.ReturnMessage
   isExternal: false
   name: GetOutArg(Int32)
   nameWithType: ReturnMessage.GetOutArg(Int32)
   fullName: System.Runtime.Remoting.Messaging.ReturnMessage.GetOutArg(Int32)
-- uid: System.Object
-  parent: System
-  isExternal: false
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
 - uid: System.Runtime.Remoting.Messaging.ReturnMessage.GetOutArgName(System.Int32)
   parent: System.Runtime.Remoting.Messaging.ReturnMessage
   isExternal: false
   name: GetOutArgName(Int32)
   nameWithType: ReturnMessage.GetOutArgName(Int32)
   fullName: System.Runtime.Remoting.Messaging.ReturnMessage.GetOutArgName(Int32)
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
 - uid: System.Runtime.Remoting.Messaging.ReturnMessage.HasVarArgs
   parent: System.Runtime.Remoting.Messaging.ReturnMessage
   isExternal: false
@@ -751,12 +707,6 @@ references:
   name: LogicalCallContext
   nameWithType: ReturnMessage.LogicalCallContext
   fullName: System.Runtime.Remoting.Messaging.ReturnMessage.LogicalCallContext
-- uid: System.Runtime.Remoting.Messaging.LogicalCallContext
-  parent: System.Runtime.Remoting.Messaging
-  isExternal: false
-  name: LogicalCallContext
-  nameWithType: LogicalCallContext
-  fullName: System.Runtime.Remoting.Messaging.LogicalCallContext
 - uid: System.Runtime.Remoting.Messaging.ReturnMessage.MethodBase
   parent: System.Runtime.Remoting.Messaging.ReturnMessage
   isExternal: false
@@ -775,48 +725,24 @@ references:
   name: MethodName
   nameWithType: ReturnMessage.MethodName
   fullName: System.Runtime.Remoting.Messaging.ReturnMessage.MethodName
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
 - uid: System.Runtime.Remoting.Messaging.ReturnMessage.MethodSignature
   parent: System.Runtime.Remoting.Messaging.ReturnMessage
   isExternal: false
   name: MethodSignature
   nameWithType: ReturnMessage.MethodSignature
   fullName: System.Runtime.Remoting.Messaging.ReturnMessage.MethodSignature
-- uid: System.Object
-  parent: System
-  isExternal: false
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
 - uid: System.Runtime.Remoting.Messaging.ReturnMessage.OutArgCount
   parent: System.Runtime.Remoting.Messaging.ReturnMessage
   isExternal: false
   name: OutArgCount
   nameWithType: ReturnMessage.OutArgCount
   fullName: System.Runtime.Remoting.Messaging.ReturnMessage.OutArgCount
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
 - uid: System.Runtime.Remoting.Messaging.ReturnMessage.OutArgs
   parent: System.Runtime.Remoting.Messaging.ReturnMessage
   isExternal: false
   name: OutArgs
   nameWithType: ReturnMessage.OutArgs
   fullName: System.Runtime.Remoting.Messaging.ReturnMessage.OutArgs
-- uid: System.Object
-  parent: System
-  isExternal: false
-  name: Object
-  nameWithType: Object
-  fullName: System.Object[]
 - uid: System.Runtime.Remoting.Messaging.ReturnMessage.Properties
   parent: System.Runtime.Remoting.Messaging.ReturnMessage
   isExternal: false
@@ -835,36 +761,18 @@ references:
   name: ReturnValue
   nameWithType: ReturnMessage.ReturnValue
   fullName: System.Runtime.Remoting.Messaging.ReturnMessage.ReturnValue
-- uid: System.Object
-  parent: System
-  isExternal: false
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
 - uid: System.Runtime.Remoting.Messaging.ReturnMessage.TypeName
   parent: System.Runtime.Remoting.Messaging.ReturnMessage
   isExternal: false
   name: TypeName
   nameWithType: ReturnMessage.TypeName
   fullName: System.Runtime.Remoting.Messaging.ReturnMessage.TypeName
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
 - uid: System.Runtime.Remoting.Messaging.ReturnMessage.Uri
   parent: System.Runtime.Remoting.Messaging.ReturnMessage
   isExternal: false
   name: Uri
   nameWithType: ReturnMessage.Uri
   fullName: System.Runtime.Remoting.Messaging.ReturnMessage.Uri
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
 - uid: System.Runtime.Remoting.Messaging.ReturnMessage.#ctor*
   parent: System.Runtime.Remoting.Messaging.ReturnMessage
   isExternal: false

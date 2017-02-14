@@ -98,6 +98,7 @@ items:
       type: System.Runtime.Versioning.ResourceScope
       description: To be added.
   overload: System.Runtime.Versioning.ResourceConsumptionAttribute.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -126,6 +127,7 @@ items:
       type: System.Runtime.Versioning.ResourceScope
       description: To be added.
   overload: System.Runtime.Versioning.ResourceConsumptionAttribute.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -150,6 +152,7 @@ items:
       type: System.Runtime.Versioning.ResourceScope
       description: To be added.
   overload: System.Runtime.Versioning.ResourceConsumptionAttribute.ConsumptionScope*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -174,6 +177,7 @@ items:
       type: System.Runtime.Versioning.ResourceScope
       description: To be added.
   overload: System.Runtime.Versioning.ResourceConsumptionAttribute.ResourceScope*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -200,42 +204,18 @@ references:
   name: ResourceConsumptionAttribute(ResourceScope,ResourceScope)
   nameWithType: ResourceConsumptionAttribute.ResourceConsumptionAttribute(ResourceScope,ResourceScope)
   fullName: System.Runtime.Versioning.ResourceConsumptionAttribute.ResourceConsumptionAttribute(ResourceScope,ResourceScope)
-- uid: System.Runtime.Versioning.ResourceScope
-  parent: System.Runtime.Versioning
-  isExternal: false
-  name: ResourceScope
-  nameWithType: ResourceScope
-  fullName: System.Runtime.Versioning.ResourceScope
-- uid: System.Runtime.Versioning.ResourceScope
-  parent: System.Runtime.Versioning
-  isExternal: false
-  name: ResourceScope
-  nameWithType: ResourceScope
-  fullName: System.Runtime.Versioning.ResourceScope
 - uid: System.Runtime.Versioning.ResourceConsumptionAttribute.ConsumptionScope
   parent: System.Runtime.Versioning.ResourceConsumptionAttribute
   isExternal: false
   name: ConsumptionScope
   nameWithType: ResourceConsumptionAttribute.ConsumptionScope
   fullName: System.Runtime.Versioning.ResourceConsumptionAttribute.ConsumptionScope
-- uid: System.Runtime.Versioning.ResourceScope
-  parent: System.Runtime.Versioning
-  isExternal: false
-  name: ResourceScope
-  nameWithType: ResourceScope
-  fullName: System.Runtime.Versioning.ResourceScope
 - uid: System.Runtime.Versioning.ResourceConsumptionAttribute.ResourceScope
   parent: System.Runtime.Versioning.ResourceConsumptionAttribute
   isExternal: false
   name: ResourceScope
   nameWithType: ResourceConsumptionAttribute.ResourceScope
   fullName: System.Runtime.Versioning.ResourceConsumptionAttribute.ResourceScope
-- uid: System.Runtime.Versioning.ResourceScope
-  parent: System.Runtime.Versioning
-  isExternal: false
-  name: ResourceScope
-  nameWithType: ResourceScope
-  fullName: System.Runtime.Versioning.ResourceScope
 - uid: System.Runtime.Versioning.ResourceConsumptionAttribute.#ctor*
   parent: System.Runtime.Versioning.ResourceConsumptionAttribute
   isExternal: false

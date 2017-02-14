@@ -97,6 +97,7 @@ items:
       type: System.Byte
       description: To be added.
   overload: System.LoaderOptimizationAttribute.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -122,6 +123,7 @@ items:
       type: System.LoaderOptimization
       description: To be added.
   overload: System.LoaderOptimizationAttribute.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -146,6 +148,7 @@ items:
       type: System.LoaderOptimization
       description: To be added.
   overload: System.LoaderOptimizationAttribute.Value*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -184,12 +187,6 @@ references:
   name: Value
   nameWithType: LoaderOptimizationAttribute.Value
   fullName: System.LoaderOptimizationAttribute.Value
-- uid: System.LoaderOptimization
-  parent: System
-  isExternal: false
-  name: LoaderOptimization
-  nameWithType: LoaderOptimization
-  fullName: System.LoaderOptimization
 - uid: System.LoaderOptimizationAttribute.#ctor*
   parent: System.LoaderOptimizationAttribute
   isExternal: false

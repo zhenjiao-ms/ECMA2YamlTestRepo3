@@ -62,6 +62,7 @@ items:
       type: System.Byte[]
       description: To be added.
   overload: System.ActivationContext.ApplicationManifestBytes*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -90,6 +91,7 @@ items:
       type: System.ActivationContext
       description: To be added.
   overload: System.ActivationContext.CreatePartialActivationContext*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -121,6 +123,7 @@ items:
       type: System.ActivationContext
       description: To be added.
   overload: System.ActivationContext.CreatePartialActivationContext*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -145,6 +148,7 @@ items:
       type: System.Byte[]
       description: To be added.
   overload: System.ActivationContext.DeploymentManifestBytes*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -167,6 +171,7 @@ items:
     content: public void Dispose ();
     parameters: []
   overload: System.ActivationContext.Dispose*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -189,6 +194,7 @@ items:
     content: ~ActivationContext ();
     parameters: []
   overload: System.ActivationContext.Finalize*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -213,6 +219,7 @@ items:
       type: System.ActivationContext.ContextForm
       description: To be added.
   overload: System.ActivationContext.Form*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -237,6 +244,7 @@ items:
       type: System.ApplicationIdentity
       description: To be added.
   overload: System.ActivationContext.Identity*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -266,6 +274,7 @@ items:
       type: System.Runtime.Serialization.StreamingContext
       description: To be added.
   overload: System.ActivationContext.System#Runtime#Serialization#ISerializable#GetObjectData*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -280,12 +289,20 @@ references:
   name: ApplicationManifestBytes
   nameWithType: ActivationContext.ApplicationManifestBytes
   fullName: System.ActivationContext.ApplicationManifestBytes
-- uid: System.Byte
+- uid: System.Byte[]
   parent: System
   isExternal: false
   name: Byte
   nameWithType: Byte
   fullName: System.Byte[]
+  spec.csharp:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: Byte[]
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
 - uid: System.ActivationContext.CreatePartialActivationContext(System.ApplicationIdentity)
   parent: System.ActivationContext
   isExternal: false
@@ -310,36 +327,26 @@ references:
   name: CreatePartialActivationContext(ApplicationIdentity,String[])
   nameWithType: ActivationContext.CreatePartialActivationContext(ApplicationIdentity,String[])
   fullName: System.ActivationContext.CreatePartialActivationContext(ApplicationIdentity,String[])
-- uid: System.ActivationContext
-  parent: System
-  isExternal: false
-  name: ActivationContext
-  nameWithType: ActivationContext
-  fullName: System.ActivationContext
-- uid: System.ApplicationIdentity
-  parent: System
-  isExternal: false
-  name: ApplicationIdentity
-  nameWithType: ApplicationIdentity
-  fullName: System.ApplicationIdentity
-- uid: System.String
+- uid: System.String[]
   parent: System
   isExternal: false
   name: String
   nameWithType: String
   fullName: System.String[]
+  spec.csharp:
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: String[]
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
 - uid: System.ActivationContext.DeploymentManifestBytes
   parent: System.ActivationContext
   isExternal: false
   name: DeploymentManifestBytes
   nameWithType: ActivationContext.DeploymentManifestBytes
   fullName: System.ActivationContext.DeploymentManifestBytes
-- uid: System.Byte
-  parent: System
-  isExternal: false
-  name: Byte
-  nameWithType: Byte
-  fullName: System.Byte[]
 - uid: System.ActivationContext.Dispose
   parent: System.ActivationContext
   isExternal: false
@@ -370,12 +377,6 @@ references:
   name: Identity
   nameWithType: ActivationContext.Identity
   fullName: System.ActivationContext.Identity
-- uid: System.ApplicationIdentity
-  parent: System
-  isExternal: false
-  name: ApplicationIdentity
-  nameWithType: ApplicationIdentity
-  fullName: System.ApplicationIdentity
 - uid: System.ActivationContext.System#Runtime#Serialization#ISerializable#GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
   parent: System.ActivationContext
   isExternal: false

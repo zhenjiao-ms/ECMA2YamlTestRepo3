@@ -59,6 +59,7 @@ items:
     return:
       type: System.ModuleHandle
       description: To be added.
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -87,6 +88,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.ModuleHandle.Equals*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -115,6 +117,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.ModuleHandle.Equals*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -140,6 +143,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.ModuleHandle.GetHashCode*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -168,6 +172,7 @@ items:
       type: System.RuntimeFieldHandle
       description: To be added.
   overload: System.ModuleHandle.GetRuntimeFieldHandleFromMetadataToken*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -196,6 +201,7 @@ items:
       type: System.RuntimeMethodHandle
       description: To be added.
   overload: System.ModuleHandle.GetRuntimeMethodHandleFromMetadataToken*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -224,6 +230,7 @@ items:
       type: System.RuntimeTypeHandle
       description: To be added.
   overload: System.ModuleHandle.GetRuntimeTypeHandleFromMetadataToken*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -248,6 +255,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.ModuleHandle.MDStreamVersion*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -279,6 +287,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.ModuleHandle.op_Equality*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -310,6 +319,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.ModuleHandle.op_Inequality*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -338,6 +348,7 @@ items:
       type: System.RuntimeFieldHandle
       description: To be added.
   overload: System.ModuleHandle.ResolveFieldHandle*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -372,6 +383,7 @@ items:
       type: System.RuntimeFieldHandle
       description: To be added.
   overload: System.ModuleHandle.ResolveFieldHandle*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -400,6 +412,7 @@ items:
       type: System.RuntimeMethodHandle
       description: To be added.
   overload: System.ModuleHandle.ResolveMethodHandle*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -434,6 +447,7 @@ items:
       type: System.RuntimeMethodHandle
       description: To be added.
   overload: System.ModuleHandle.ResolveMethodHandle*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -462,6 +476,7 @@ items:
       type: System.RuntimeTypeHandle
       description: To be added.
   overload: System.ModuleHandle.ResolveTypeHandle*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -496,6 +511,7 @@ items:
       type: System.RuntimeTypeHandle
       description: To be added.
   overload: System.ModuleHandle.ResolveTypeHandle*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -528,24 +544,12 @@ references:
   name: Boolean
   nameWithType: Boolean
   fullName: System.Boolean
-- uid: System.ModuleHandle
-  parent: System
-  isExternal: false
-  name: ModuleHandle
-  nameWithType: ModuleHandle
-  fullName: System.ModuleHandle
 - uid: System.ModuleHandle.Equals(System.Object)
   parent: System.ModuleHandle
   isExternal: false
   name: Equals(Object)
   nameWithType: ModuleHandle.Equals(Object)
   fullName: System.ModuleHandle.Equals(Object)
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
 - uid: System.Object
   parent: System
   isExternal: false
@@ -576,12 +580,6 @@ references:
   name: RuntimeFieldHandle
   nameWithType: RuntimeFieldHandle
   fullName: System.RuntimeFieldHandle
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
 - uid: System.ModuleHandle.GetRuntimeMethodHandleFromMetadataToken(System.Int32)
   parent: System.ModuleHandle
   isExternal: false
@@ -594,12 +592,6 @@ references:
   name: RuntimeMethodHandle
   nameWithType: RuntimeMethodHandle
   fullName: System.RuntimeMethodHandle
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
 - uid: System.ModuleHandle.GetRuntimeTypeHandleFromMetadataToken(System.Int32)
   parent: System.ModuleHandle
   isExternal: false
@@ -612,216 +604,74 @@ references:
   name: RuntimeTypeHandle
   nameWithType: RuntimeTypeHandle
   fullName: System.RuntimeTypeHandle
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
 - uid: System.ModuleHandle.MDStreamVersion
   parent: System.ModuleHandle
   isExternal: false
   name: MDStreamVersion
   nameWithType: ModuleHandle.MDStreamVersion
   fullName: System.ModuleHandle.MDStreamVersion
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
 - uid: System.ModuleHandle.op_Equality(System.ModuleHandle,System.ModuleHandle)
   parent: System.ModuleHandle
   isExternal: false
   name: op_Equality(ModuleHandle,ModuleHandle)
   nameWithType: ModuleHandle.op_Equality(ModuleHandle,ModuleHandle)
   fullName: System.ModuleHandle.op_Equality(ModuleHandle,ModuleHandle)
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
-- uid: System.ModuleHandle
-  parent: System
-  isExternal: false
-  name: ModuleHandle
-  nameWithType: ModuleHandle
-  fullName: System.ModuleHandle
-- uid: System.ModuleHandle
-  parent: System
-  isExternal: false
-  name: ModuleHandle
-  nameWithType: ModuleHandle
-  fullName: System.ModuleHandle
 - uid: System.ModuleHandle.op_Inequality(System.ModuleHandle,System.ModuleHandle)
   parent: System.ModuleHandle
   isExternal: false
   name: op_Inequality(ModuleHandle,ModuleHandle)
   nameWithType: ModuleHandle.op_Inequality(ModuleHandle,ModuleHandle)
   fullName: System.ModuleHandle.op_Inequality(ModuleHandle,ModuleHandle)
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
-- uid: System.ModuleHandle
-  parent: System
-  isExternal: false
-  name: ModuleHandle
-  nameWithType: ModuleHandle
-  fullName: System.ModuleHandle
-- uid: System.ModuleHandle
-  parent: System
-  isExternal: false
-  name: ModuleHandle
-  nameWithType: ModuleHandle
-  fullName: System.ModuleHandle
 - uid: System.ModuleHandle.ResolveFieldHandle(System.Int32)
   parent: System.ModuleHandle
   isExternal: false
   name: ResolveFieldHandle(Int32)
   nameWithType: ModuleHandle.ResolveFieldHandle(Int32)
   fullName: System.ModuleHandle.ResolveFieldHandle(Int32)
-- uid: System.RuntimeFieldHandle
-  parent: System
-  isExternal: false
-  name: RuntimeFieldHandle
-  nameWithType: RuntimeFieldHandle
-  fullName: System.RuntimeFieldHandle
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
 - uid: System.ModuleHandle.ResolveFieldHandle(System.Int32,System.RuntimeTypeHandle[],System.RuntimeTypeHandle[])
   parent: System.ModuleHandle
   isExternal: false
   name: ResolveFieldHandle(Int32,RuntimeTypeHandle[],RuntimeTypeHandle[])
   nameWithType: ModuleHandle.ResolveFieldHandle(Int32,RuntimeTypeHandle[],RuntimeTypeHandle[])
   fullName: System.ModuleHandle.ResolveFieldHandle(Int32,RuntimeTypeHandle[],RuntimeTypeHandle[])
-- uid: System.RuntimeFieldHandle
-  parent: System
-  isExternal: false
-  name: RuntimeFieldHandle
-  nameWithType: RuntimeFieldHandle
-  fullName: System.RuntimeFieldHandle
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: System.RuntimeTypeHandle
+- uid: System.RuntimeTypeHandle[]
   parent: System
   isExternal: false
   name: RuntimeTypeHandle
   nameWithType: RuntimeTypeHandle
   fullName: System.RuntimeTypeHandle[]
-- uid: System.RuntimeTypeHandle
-  parent: System
-  isExternal: false
-  name: RuntimeTypeHandle
-  nameWithType: RuntimeTypeHandle
-  fullName: System.RuntimeTypeHandle[]
+  spec.csharp:
+  - uid: System.RuntimeTypeHandle
+    name: RuntimeTypeHandle
+    nameWithType: RuntimeTypeHandle
+    fullName: RuntimeTypeHandle[]
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
 - uid: System.ModuleHandle.ResolveMethodHandle(System.Int32)
   parent: System.ModuleHandle
   isExternal: false
   name: ResolveMethodHandle(Int32)
   nameWithType: ModuleHandle.ResolveMethodHandle(Int32)
   fullName: System.ModuleHandle.ResolveMethodHandle(Int32)
-- uid: System.RuntimeMethodHandle
-  parent: System
-  isExternal: false
-  name: RuntimeMethodHandle
-  nameWithType: RuntimeMethodHandle
-  fullName: System.RuntimeMethodHandle
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
 - uid: System.ModuleHandle.ResolveMethodHandle(System.Int32,System.RuntimeTypeHandle[],System.RuntimeTypeHandle[])
   parent: System.ModuleHandle
   isExternal: false
   name: ResolveMethodHandle(Int32,RuntimeTypeHandle[],RuntimeTypeHandle[])
   nameWithType: ModuleHandle.ResolveMethodHandle(Int32,RuntimeTypeHandle[],RuntimeTypeHandle[])
   fullName: System.ModuleHandle.ResolveMethodHandle(Int32,RuntimeTypeHandle[],RuntimeTypeHandle[])
-- uid: System.RuntimeMethodHandle
-  parent: System
-  isExternal: false
-  name: RuntimeMethodHandle
-  nameWithType: RuntimeMethodHandle
-  fullName: System.RuntimeMethodHandle
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: System.RuntimeTypeHandle
-  parent: System
-  isExternal: false
-  name: RuntimeTypeHandle
-  nameWithType: RuntimeTypeHandle
-  fullName: System.RuntimeTypeHandle[]
-- uid: System.RuntimeTypeHandle
-  parent: System
-  isExternal: false
-  name: RuntimeTypeHandle
-  nameWithType: RuntimeTypeHandle
-  fullName: System.RuntimeTypeHandle[]
 - uid: System.ModuleHandle.ResolveTypeHandle(System.Int32)
   parent: System.ModuleHandle
   isExternal: false
   name: ResolveTypeHandle(Int32)
   nameWithType: ModuleHandle.ResolveTypeHandle(Int32)
   fullName: System.ModuleHandle.ResolveTypeHandle(Int32)
-- uid: System.RuntimeTypeHandle
-  parent: System
-  isExternal: false
-  name: RuntimeTypeHandle
-  nameWithType: RuntimeTypeHandle
-  fullName: System.RuntimeTypeHandle
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
 - uid: System.ModuleHandle.ResolveTypeHandle(System.Int32,System.RuntimeTypeHandle[],System.RuntimeTypeHandle[])
   parent: System.ModuleHandle
   isExternal: false
   name: ResolveTypeHandle(Int32,RuntimeTypeHandle[],RuntimeTypeHandle[])
   nameWithType: ModuleHandle.ResolveTypeHandle(Int32,RuntimeTypeHandle[],RuntimeTypeHandle[])
   fullName: System.ModuleHandle.ResolveTypeHandle(Int32,RuntimeTypeHandle[],RuntimeTypeHandle[])
-- uid: System.RuntimeTypeHandle
-  parent: System
-  isExternal: false
-  name: RuntimeTypeHandle
-  nameWithType: RuntimeTypeHandle
-  fullName: System.RuntimeTypeHandle
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: System.RuntimeTypeHandle
-  parent: System
-  isExternal: false
-  name: RuntimeTypeHandle
-  nameWithType: RuntimeTypeHandle
-  fullName: System.RuntimeTypeHandle[]
-- uid: System.RuntimeTypeHandle
-  parent: System
-  isExternal: false
-  name: RuntimeTypeHandle
-  nameWithType: RuntimeTypeHandle
-  fullName: System.RuntimeTypeHandle[]
 - uid: System.ModuleHandle.Equals*
   parent: System.ModuleHandle
   isExternal: false

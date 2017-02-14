@@ -121,6 +121,7 @@ items:
       type: System.Reflection.FieldAttributes
       description: To be added.
   overload: System.Reflection.Emit.FieldBuilder.Attributes*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -145,6 +146,7 @@ items:
       type: System.Type
       description: To be added.
   overload: System.Reflection.Emit.FieldBuilder.DeclaringType*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -169,6 +171,7 @@ items:
       type: System.RuntimeFieldHandle
       description: To be added.
   overload: System.Reflection.Emit.FieldBuilder.FieldHandle*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -193,6 +196,7 @@ items:
       type: System.Type
       description: To be added.
   overload: System.Reflection.Emit.FieldBuilder.FieldType*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -221,6 +225,7 @@ items:
       type: System.Object[]
       description: To be added.
   overload: System.Reflection.Emit.FieldBuilder.GetCustomAttributes*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -252,6 +257,7 @@ items:
       type: System.Object[]
       description: To be added.
   overload: System.Reflection.Emit.FieldBuilder.GetCustomAttributes*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -277,6 +283,7 @@ items:
       type: System.Reflection.Emit.FieldToken
       description: To be added.
   overload: System.Reflection.Emit.FieldBuilder.GetToken*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -305,6 +312,7 @@ items:
       type: System.Object
       description: To be added.
   overload: System.Reflection.Emit.FieldBuilder.GetValue*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -336,6 +344,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Reflection.Emit.FieldBuilder.IsDefined*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -360,6 +369,7 @@ items:
       type: System.Reflection.Module
       description: To be added.
   overload: System.Reflection.Emit.FieldBuilder.Module*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -384,6 +394,7 @@ items:
       type: System.String
       description: To be added.
   overload: System.Reflection.Emit.FieldBuilder.Name*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -408,6 +419,7 @@ items:
       type: System.Type
       description: To be added.
   overload: System.Reflection.Emit.FieldBuilder.ReflectedType*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -433,6 +445,7 @@ items:
       type: System.Object
       description: To be added.
   overload: System.Reflection.Emit.FieldBuilder.SetConstant*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -458,6 +471,7 @@ items:
       type: System.Reflection.Emit.CustomAttributeBuilder
       description: To be added.
   overload: System.Reflection.Emit.FieldBuilder.SetCustomAttribute*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -486,6 +500,7 @@ items:
       type: System.Byte[]
       description: To be added.
   overload: System.Reflection.Emit.FieldBuilder.SetCustomAttribute*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -511,6 +526,7 @@ items:
       type: System.Reflection.Emit.UnmanagedMarshal
       description: To be added.
   overload: System.Reflection.Emit.FieldBuilder.SetMarshal*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -536,6 +552,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.Reflection.Emit.FieldBuilder.SetOffset*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -573,6 +590,7 @@ items:
       type: System.Globalization.CultureInfo
       description: To be added.
   overload: System.Reflection.Emit.FieldBuilder.SetValue*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -611,6 +629,7 @@ items:
       type: System.IntPtr
       description: To be added.
   overload: System.Reflection.Emit.FieldBuilder.System#Runtime#InteropServices#_FieldBuilder#GetIDsOfNames*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -643,6 +662,7 @@ items:
       type: System.IntPtr
       description: To be added.
   overload: System.Reflection.Emit.FieldBuilder.System#Runtime#InteropServices#_FieldBuilder#GetTypeInfo*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -669,6 +689,7 @@ items:
       type: System.UInt32
       description: To be added.
   overload: System.Reflection.Emit.FieldBuilder.System#Runtime#InteropServices#_FieldBuilder#GetTypeInfoCount*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -716,6 +737,7 @@ items:
       type: System.IntPtr
       description: To be added.
   overload: System.Reflection.Emit.FieldBuilder.System#Runtime#InteropServices#_FieldBuilder#Invoke*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -766,24 +788,26 @@ references:
   name: FieldType
   nameWithType: FieldBuilder.FieldType
   fullName: System.Reflection.Emit.FieldBuilder.FieldType
-- uid: System.Type
-  parent: System
-  isExternal: false
-  name: Type
-  nameWithType: Type
-  fullName: System.Type
 - uid: System.Reflection.Emit.FieldBuilder.GetCustomAttributes(System.Boolean)
   parent: System.Reflection.Emit.FieldBuilder
   isExternal: false
   name: GetCustomAttributes(Boolean)
   nameWithType: FieldBuilder.GetCustomAttributes(Boolean)
   fullName: System.Reflection.Emit.FieldBuilder.GetCustomAttributes(Boolean)
-- uid: System.Object
+- uid: System.Object[]
   parent: System
   isExternal: false
   name: Object
   nameWithType: Object
   fullName: System.Object[]
+  spec.csharp:
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: Object[]
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
 - uid: System.Boolean
   parent: System
   isExternal: false
@@ -796,24 +820,6 @@ references:
   name: GetCustomAttributes(Type,Boolean)
   nameWithType: FieldBuilder.GetCustomAttributes(Type,Boolean)
   fullName: System.Reflection.Emit.FieldBuilder.GetCustomAttributes(Type,Boolean)
-- uid: System.Object
-  parent: System
-  isExternal: false
-  name: Object
-  nameWithType: Object
-  fullName: System.Object[]
-- uid: System.Type
-  parent: System
-  isExternal: false
-  name: Type
-  nameWithType: Type
-  fullName: System.Type
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
 - uid: System.Reflection.Emit.FieldBuilder.GetToken
   parent: System.Reflection.Emit.FieldBuilder
   isExternal: false
@@ -838,36 +844,12 @@ references:
   name: Object
   nameWithType: Object
   fullName: System.Object
-- uid: System.Object
-  parent: System
-  isExternal: false
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
 - uid: System.Reflection.Emit.FieldBuilder.IsDefined(System.Type,System.Boolean)
   parent: System.Reflection.Emit.FieldBuilder
   isExternal: false
   name: IsDefined(Type,Boolean)
   nameWithType: FieldBuilder.IsDefined(Type,Boolean)
   fullName: System.Reflection.Emit.FieldBuilder.IsDefined(Type,Boolean)
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
-- uid: System.Type
-  parent: System
-  isExternal: false
-  name: Type
-  nameWithType: Type
-  fullName: System.Type
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
 - uid: System.Reflection.Emit.FieldBuilder.Module
   parent: System.Reflection.Emit.FieldBuilder
   isExternal: false
@@ -898,24 +880,12 @@ references:
   name: ReflectedType
   nameWithType: FieldBuilder.ReflectedType
   fullName: System.Reflection.Emit.FieldBuilder.ReflectedType
-- uid: System.Type
-  parent: System
-  isExternal: false
-  name: Type
-  nameWithType: Type
-  fullName: System.Type
 - uid: System.Reflection.Emit.FieldBuilder.SetConstant(System.Object)
   parent: System.Reflection.Emit.FieldBuilder
   isExternal: false
   name: SetConstant(Object)
   nameWithType: FieldBuilder.SetConstant(Object)
   fullName: System.Reflection.Emit.FieldBuilder.SetConstant(Object)
-- uid: System.Object
-  parent: System
-  isExternal: false
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
 - uid: System.Reflection.Emit.FieldBuilder.SetCustomAttribute(System.Reflection.Emit.CustomAttributeBuilder)
   parent: System.Reflection.Emit.FieldBuilder
   isExternal: false
@@ -940,12 +910,20 @@ references:
   name: ConstructorInfo
   nameWithType: ConstructorInfo
   fullName: System.Reflection.ConstructorInfo
-- uid: System.Byte
+- uid: System.Byte[]
   parent: System
   isExternal: false
   name: Byte
   nameWithType: Byte
   fullName: System.Byte[]
+  spec.csharp:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: Byte[]
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
 - uid: System.Reflection.Emit.FieldBuilder.SetMarshal(System.Reflection.Emit.UnmanagedMarshal)
   parent: System.Reflection.Emit.FieldBuilder
   isExternal: false
@@ -976,18 +954,6 @@ references:
   name: SetValue(Object,Object,BindingFlags,Binder,CultureInfo)
   nameWithType: FieldBuilder.SetValue(Object,Object,BindingFlags,Binder,CultureInfo)
   fullName: System.Reflection.Emit.FieldBuilder.SetValue(Object,Object,BindingFlags,Binder,CultureInfo)
-- uid: System.Object
-  parent: System
-  isExternal: false
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
-- uid: System.Object
-  parent: System
-  isExternal: false
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
 - uid: System.Reflection.BindingFlags
   parent: System.Reflection
   isExternal: false
@@ -1030,108 +996,30 @@ references:
   name: UInt32
   nameWithType: UInt32
   fullName: System.UInt32
-- uid: System.UInt32
-  parent: System
-  isExternal: false
-  name: UInt32
-  nameWithType: UInt32
-  fullName: System.UInt32
-- uid: System.IntPtr
-  parent: System
-  isExternal: false
-  name: IntPtr
-  nameWithType: IntPtr
-  fullName: System.IntPtr
 - uid: System.Reflection.Emit.FieldBuilder.System#Runtime#InteropServices#_FieldBuilder#GetTypeInfo(System.UInt32,System.UInt32,System.IntPtr)
   parent: System.Reflection.Emit.FieldBuilder
   isExternal: false
   name: System.Runtime.InteropServices._FieldBuilder.GetTypeInfo(UInt32,UInt32,IntPtr)
   nameWithType: FieldBuilder.System.Runtime.InteropServices._FieldBuilder.GetTypeInfo(UInt32,UInt32,IntPtr)
   fullName: System.Reflection.Emit.FieldBuilder.System.Runtime.InteropServices._FieldBuilder.GetTypeInfo(UInt32,UInt32,IntPtr)
-- uid: System.UInt32
-  parent: System
-  isExternal: false
-  name: UInt32
-  nameWithType: UInt32
-  fullName: System.UInt32
-- uid: System.UInt32
-  parent: System
-  isExternal: false
-  name: UInt32
-  nameWithType: UInt32
-  fullName: System.UInt32
-- uid: System.IntPtr
-  parent: System
-  isExternal: false
-  name: IntPtr
-  nameWithType: IntPtr
-  fullName: System.IntPtr
 - uid: System.Reflection.Emit.FieldBuilder.System#Runtime#InteropServices#_FieldBuilder#GetTypeInfoCount(System.UInt32@)
   parent: System.Reflection.Emit.FieldBuilder
   isExternal: false
   name: System.Runtime.InteropServices._FieldBuilder.GetTypeInfoCount(UInt32)
   nameWithType: FieldBuilder.System.Runtime.InteropServices._FieldBuilder.GetTypeInfoCount(UInt32)
   fullName: System.Reflection.Emit.FieldBuilder.System.Runtime.InteropServices._FieldBuilder.GetTypeInfoCount(UInt32)
-- uid: System.UInt32
-  parent: System
-  isExternal: false
-  name: UInt32
-  nameWithType: UInt32
-  fullName: System.UInt32
 - uid: System.Reflection.Emit.FieldBuilder.System#Runtime#InteropServices#_FieldBuilder#Invoke(System.UInt32,System.Guid@,System.UInt32,System.Int16,System.IntPtr,System.IntPtr,System.IntPtr,System.IntPtr)
   parent: System.Reflection.Emit.FieldBuilder
   isExternal: false
   name: System.Runtime.InteropServices._FieldBuilder.Invoke(UInt32,Guid,UInt32,Int16,IntPtr,IntPtr,IntPtr,IntPtr)
   nameWithType: FieldBuilder.System.Runtime.InteropServices._FieldBuilder.Invoke(UInt32,Guid,UInt32,Int16,IntPtr,IntPtr,IntPtr,IntPtr)
   fullName: System.Reflection.Emit.FieldBuilder.System.Runtime.InteropServices._FieldBuilder.Invoke(UInt32,Guid,UInt32,Int16,IntPtr,IntPtr,IntPtr,IntPtr)
-- uid: System.UInt32
-  parent: System
-  isExternal: false
-  name: UInt32
-  nameWithType: UInt32
-  fullName: System.UInt32
-- uid: System.Guid
-  parent: System
-  isExternal: false
-  name: Guid
-  nameWithType: Guid
-  fullName: System.Guid
-- uid: System.UInt32
-  parent: System
-  isExternal: false
-  name: UInt32
-  nameWithType: UInt32
-  fullName: System.UInt32
 - uid: System.Int16
   parent: System
   isExternal: false
   name: Int16
   nameWithType: Int16
   fullName: System.Int16
-- uid: System.IntPtr
-  parent: System
-  isExternal: false
-  name: IntPtr
-  nameWithType: IntPtr
-  fullName: System.IntPtr
-- uid: System.IntPtr
-  parent: System
-  isExternal: false
-  name: IntPtr
-  nameWithType: IntPtr
-  fullName: System.IntPtr
-- uid: System.IntPtr
-  parent: System
-  isExternal: false
-  name: IntPtr
-  nameWithType: IntPtr
-  fullName: System.IntPtr
-- uid: System.IntPtr
-  parent: System
-  isExternal: false
-  name: IntPtr
-  nameWithType: IntPtr
-  fullName: System.IntPtr
 - uid: System.Reflection.Emit.FieldBuilder.Attributes*
   parent: System.Reflection.Emit.FieldBuilder
   isExternal: false

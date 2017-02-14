@@ -70,6 +70,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.Buffer.BlockCopy*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -98,6 +99,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.Buffer.ByteLength*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -129,6 +131,7 @@ items:
       type: System.Byte
       description: To be added.
   overload: System.Buffer.GetByte*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -163,6 +166,7 @@ items:
       type: System.Int64
       description: To be added.
   overload: System.Buffer.MemoryCopy*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -197,6 +201,7 @@ items:
       type: System.UInt64
       description: To be added.
   overload: System.Buffer.MemoryCopy*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -228,6 +233,7 @@ items:
       type: System.Byte
       description: To be added.
   overload: System.Buffer.SetByte*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -254,42 +260,12 @@ references:
   name: Int32
   nameWithType: Int32
   fullName: System.Int32
-- uid: System.Array
-  parent: System
-  isExternal: false
-  name: Array
-  nameWithType: Array
-  fullName: System.Array
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
 - uid: System.Buffer.ByteLength(System.Array)
   parent: System.Buffer
   isExternal: false
   name: ByteLength(Array)
   nameWithType: Buffer.ByteLength(Array)
   fullName: System.Buffer.ByteLength(Array)
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: System.Array
-  parent: System
-  isExternal: false
-  name: Array
-  nameWithType: Array
-  fullName: System.Array
 - uid: System.Buffer.GetByte(System.Array,System.Int32)
   parent: System.Buffer
   isExternal: false
@@ -302,30 +278,12 @@ references:
   name: Byte
   nameWithType: Byte
   fullName: System.Byte
-- uid: System.Array
-  parent: System
-  isExternal: false
-  name: Array
-  nameWithType: Array
-  fullName: System.Array
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
 - uid: System.Buffer.MemoryCopy(System.Void*,System.Void*,System.Int64,System.Int64)
   parent: System.Buffer
   isExternal: false
   name: MemoryCopy(Void*,Void*,Int64,Int64)
   nameWithType: Buffer.MemoryCopy(Void*,Void*,Int64,Int64)
   fullName: System.Buffer.MemoryCopy(Void*,Void*,Int64,Int64)
-- uid: System.Int64
-  parent: System
-  isExternal: false
-  name: Int64
-  nameWithType: Int64
-  fullName: System.Int64
 - uid: System.Int64
   parent: System
   isExternal: false
@@ -344,36 +302,12 @@ references:
   name: UInt64
   nameWithType: UInt64
   fullName: System.UInt64
-- uid: System.UInt64
-  parent: System
-  isExternal: false
-  name: UInt64
-  nameWithType: UInt64
-  fullName: System.UInt64
 - uid: System.Buffer.SetByte(System.Array,System.Int32,System.Byte)
   parent: System.Buffer
   isExternal: false
   name: SetByte(Array,Int32,Byte)
   nameWithType: Buffer.SetByte(Array,Int32,Byte)
   fullName: System.Buffer.SetByte(Array,Int32,Byte)
-- uid: System.Array
-  parent: System
-  isExternal: false
-  name: Array
-  nameWithType: Array
-  fullName: System.Array
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: System.Byte
-  parent: System
-  isExternal: false
-  name: Byte
-  nameWithType: Byte
-  fullName: System.Byte
 - uid: System.Buffer.BlockCopy*
   parent: System.Buffer
   isExternal: false

@@ -74,6 +74,7 @@ items:
       type: System.Security.Permissions.PermissionState
       description: To be added.
   overload: System.Security.Permissions.EnvironmentPermission.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -102,6 +103,7 @@ items:
       type: System.String
       description: To be added.
   overload: System.Security.Permissions.EnvironmentPermission.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -130,6 +132,7 @@ items:
       type: System.String
       description: To be added.
   overload: System.Security.Permissions.EnvironmentPermission.AddPathList*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -155,6 +158,7 @@ items:
       type: System.Security.IPermission
       description: To be added.
   overload: System.Security.Permissions.EnvironmentPermission.Copy*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -180,6 +184,7 @@ items:
       type: System.Security.SecurityElement
       description: To be added.
   overload: System.Security.Permissions.EnvironmentPermission.FromXml*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -208,6 +213,7 @@ items:
       type: System.String
       description: To be added.
   overload: System.Security.Permissions.EnvironmentPermission.GetPathList*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -236,6 +242,7 @@ items:
       type: System.Security.IPermission
       description: To be added.
   overload: System.Security.Permissions.EnvironmentPermission.Intersect*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -264,6 +271,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Security.Permissions.EnvironmentPermission.IsSubsetOf*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -289,6 +297,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Security.Permissions.EnvironmentPermission.IsUnrestricted*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -317,6 +326,7 @@ items:
       type: System.String
       description: To be added.
   overload: System.Security.Permissions.EnvironmentPermission.SetPathList*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -342,6 +352,7 @@ items:
       type: System.Security.SecurityElement
       description: To be added.
   overload: System.Security.Permissions.EnvironmentPermission.ToXml*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -370,6 +381,7 @@ items:
       type: System.Security.IPermission
       description: To be added.
   overload: System.Security.Permissions.EnvironmentPermission.Union*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -414,18 +426,6 @@ references:
   name: AddPathList(EnvironmentPermissionAccess,String)
   nameWithType: EnvironmentPermission.AddPathList(EnvironmentPermissionAccess,String)
   fullName: System.Security.Permissions.EnvironmentPermission.AddPathList(EnvironmentPermissionAccess,String)
-- uid: System.Security.Permissions.EnvironmentPermissionAccess
-  parent: System.Security.Permissions
-  isExternal: false
-  name: EnvironmentPermissionAccess
-  nameWithType: EnvironmentPermissionAccess
-  fullName: System.Security.Permissions.EnvironmentPermissionAccess
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
 - uid: System.Security.Permissions.EnvironmentPermission.Copy
   parent: System.Security.Permissions.EnvironmentPermission
   isExternal: false
@@ -456,36 +456,12 @@ references:
   name: GetPathList(EnvironmentPermissionAccess)
   nameWithType: EnvironmentPermission.GetPathList(EnvironmentPermissionAccess)
   fullName: System.Security.Permissions.EnvironmentPermission.GetPathList(EnvironmentPermissionAccess)
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
-- uid: System.Security.Permissions.EnvironmentPermissionAccess
-  parent: System.Security.Permissions
-  isExternal: false
-  name: EnvironmentPermissionAccess
-  nameWithType: EnvironmentPermissionAccess
-  fullName: System.Security.Permissions.EnvironmentPermissionAccess
 - uid: System.Security.Permissions.EnvironmentPermission.Intersect(System.Security.IPermission)
   parent: System.Security.Permissions.EnvironmentPermission
   isExternal: false
   name: Intersect(IPermission)
   nameWithType: EnvironmentPermission.Intersect(IPermission)
   fullName: System.Security.Permissions.EnvironmentPermission.Intersect(IPermission)
-- uid: System.Security.IPermission
-  parent: System.Security
-  isExternal: false
-  name: IPermission
-  nameWithType: IPermission
-  fullName: System.Security.IPermission
-- uid: System.Security.IPermission
-  parent: System.Security
-  isExternal: false
-  name: IPermission
-  nameWithType: IPermission
-  fullName: System.Security.IPermission
 - uid: System.Security.Permissions.EnvironmentPermission.IsSubsetOf(System.Security.IPermission)
   parent: System.Security.Permissions.EnvironmentPermission
   isExternal: false
@@ -498,72 +474,30 @@ references:
   name: Boolean
   nameWithType: Boolean
   fullName: System.Boolean
-- uid: System.Security.IPermission
-  parent: System.Security
-  isExternal: false
-  name: IPermission
-  nameWithType: IPermission
-  fullName: System.Security.IPermission
 - uid: System.Security.Permissions.EnvironmentPermission.IsUnrestricted
   parent: System.Security.Permissions.EnvironmentPermission
   isExternal: false
   name: IsUnrestricted()
   nameWithType: EnvironmentPermission.IsUnrestricted()
   fullName: System.Security.Permissions.EnvironmentPermission.IsUnrestricted()
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
 - uid: System.Security.Permissions.EnvironmentPermission.SetPathList(System.Security.Permissions.EnvironmentPermissionAccess,System.String)
   parent: System.Security.Permissions.EnvironmentPermission
   isExternal: false
   name: SetPathList(EnvironmentPermissionAccess,String)
   nameWithType: EnvironmentPermission.SetPathList(EnvironmentPermissionAccess,String)
   fullName: System.Security.Permissions.EnvironmentPermission.SetPathList(EnvironmentPermissionAccess,String)
-- uid: System.Security.Permissions.EnvironmentPermissionAccess
-  parent: System.Security.Permissions
-  isExternal: false
-  name: EnvironmentPermissionAccess
-  nameWithType: EnvironmentPermissionAccess
-  fullName: System.Security.Permissions.EnvironmentPermissionAccess
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
 - uid: System.Security.Permissions.EnvironmentPermission.ToXml
   parent: System.Security.Permissions.EnvironmentPermission
   isExternal: false
   name: ToXml()
   nameWithType: EnvironmentPermission.ToXml()
   fullName: System.Security.Permissions.EnvironmentPermission.ToXml()
-- uid: System.Security.SecurityElement
-  parent: System.Security
-  isExternal: false
-  name: SecurityElement
-  nameWithType: SecurityElement
-  fullName: System.Security.SecurityElement
 - uid: System.Security.Permissions.EnvironmentPermission.Union(System.Security.IPermission)
   parent: System.Security.Permissions.EnvironmentPermission
   isExternal: false
   name: Union(IPermission)
   nameWithType: EnvironmentPermission.Union(IPermission)
   fullName: System.Security.Permissions.EnvironmentPermission.Union(IPermission)
-- uid: System.Security.IPermission
-  parent: System.Security
-  isExternal: false
-  name: IPermission
-  nameWithType: IPermission
-  fullName: System.Security.IPermission
-- uid: System.Security.IPermission
-  parent: System.Security
-  isExternal: false
-  name: IPermission
-  nameWithType: IPermission
-  fullName: System.Security.IPermission
 - uid: System.Security.Permissions.EnvironmentPermission.#ctor*
   parent: System.Security.Permissions.EnvironmentPermission
   isExternal: false

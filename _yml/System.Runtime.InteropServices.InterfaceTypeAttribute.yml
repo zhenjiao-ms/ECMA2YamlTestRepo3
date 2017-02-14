@@ -97,6 +97,7 @@ items:
       type: System.Int16
       description: To be added.
   overload: System.Runtime.InteropServices.InterfaceTypeAttribute.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -122,6 +123,7 @@ items:
       type: System.Runtime.InteropServices.ComInterfaceType
       description: To be added.
   overload: System.Runtime.InteropServices.InterfaceTypeAttribute.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -146,6 +148,7 @@ items:
       type: System.Runtime.InteropServices.ComInterfaceType
       description: To be added.
   overload: System.Runtime.InteropServices.InterfaceTypeAttribute.Value*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -184,12 +187,6 @@ references:
   name: Value
   nameWithType: InterfaceTypeAttribute.Value
   fullName: System.Runtime.InteropServices.InterfaceTypeAttribute.Value
-- uid: System.Runtime.InteropServices.ComInterfaceType
-  parent: System.Runtime.InteropServices
-  isExternal: false
-  name: ComInterfaceType
-  nameWithType: ComInterfaceType
-  fullName: System.Runtime.InteropServices.ComInterfaceType
 - uid: System.Runtime.InteropServices.InterfaceTypeAttribute.#ctor*
   parent: System.Runtime.InteropServices.InterfaceTypeAttribute
   isExternal: false

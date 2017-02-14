@@ -79,6 +79,7 @@ items:
       type: T4
       description: To be added.
   overload: System.Tuple`4.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -107,6 +108,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Tuple`4.Equals*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -132,6 +134,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.Tuple`4.GetHashCode*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -156,6 +159,7 @@ items:
       type: T1
       description: To be added.
   overload: System.Tuple`4.Item1*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -180,6 +184,7 @@ items:
       type: T2
       description: To be added.
   overload: System.Tuple`4.Item2*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -204,6 +209,7 @@ items:
       type: T3
       description: To be added.
   overload: System.Tuple`4.Item3*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -228,6 +234,7 @@ items:
       type: T4
       description: To be added.
   overload: System.Tuple`4.Item4*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -260,6 +267,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.Tuple`4.System#Collections#IStructuralComparable#CompareTo*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -292,6 +300,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Tuple`4.System#Collections#IStructuralEquatable#Equals*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -321,6 +330,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.Tuple`4.System#Collections#IStructuralEquatable#GetHashCode*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -350,6 +360,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.Tuple`4.System#IComparable#CompareTo*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -375,6 +386,7 @@ items:
       type: System.String
       description: To be added.
   overload: System.Tuple`4.ToString*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -390,25 +402,21 @@ references:
   nameWithType: Tuple<T1,T2,T3,T4>.Tuple(T1,T2,T3,T4)
   fullName: System.Tuple<T1,T2,T3,T4>.Tuple(T1,T2,T3,T4)
 - uid: T1
-  parent: ''
   isExternal: true
   name: T1
   nameWithType: T1
   fullName: T1
 - uid: T2
-  parent: ''
   isExternal: true
   name: T2
   nameWithType: T2
   fullName: T2
 - uid: T3
-  parent: ''
   isExternal: true
   name: T3
   nameWithType: T3
   fullName: T3
 - uid: T4
-  parent: ''
   isExternal: true
   name: T4
   nameWithType: T4
@@ -425,12 +433,6 @@ references:
   name: Boolean
   nameWithType: Boolean
   fullName: System.Boolean
-- uid: System.Object
-  parent: System
-  isExternal: false
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
 - uid: System.Tuple`4.GetHashCode
   parent: System.Tuple`4
   isExternal: false
@@ -449,66 +451,30 @@ references:
   name: Item1
   nameWithType: Tuple<T1,T2,T3,T4>.Item1
   fullName: System.Tuple<T1,T2,T3,T4>.Item1
-- uid: T1
-  parent: ''
-  isExternal: true
-  name: T1
-  nameWithType: T1
-  fullName: T1
 - uid: System.Tuple`4.Item2
   parent: System.Tuple`4
   isExternal: false
   name: Item2
   nameWithType: Tuple<T1,T2,T3,T4>.Item2
   fullName: System.Tuple<T1,T2,T3,T4>.Item2
-- uid: T2
-  parent: ''
-  isExternal: true
-  name: T2
-  nameWithType: T2
-  fullName: T2
 - uid: System.Tuple`4.Item3
   parent: System.Tuple`4
   isExternal: false
   name: Item3
   nameWithType: Tuple<T1,T2,T3,T4>.Item3
   fullName: System.Tuple<T1,T2,T3,T4>.Item3
-- uid: T3
-  parent: ''
-  isExternal: true
-  name: T3
-  nameWithType: T3
-  fullName: T3
 - uid: System.Tuple`4.Item4
   parent: System.Tuple`4
   isExternal: false
   name: Item4
   nameWithType: Tuple<T1,T2,T3,T4>.Item4
   fullName: System.Tuple<T1,T2,T3,T4>.Item4
-- uid: T4
-  parent: ''
-  isExternal: true
-  name: T4
-  nameWithType: T4
-  fullName: T4
 - uid: System.Tuple`4.System#Collections#IStructuralComparable#CompareTo(System.Object,System.Collections.IComparer)
   parent: System.Tuple`4
   isExternal: false
   name: System.Collections.IStructuralComparable.CompareTo(Object,IComparer)
   nameWithType: Tuple<T1,T2,T3,T4>.System.Collections.IStructuralComparable.CompareTo(Object,IComparer)
   fullName: System.Tuple<T1,T2,T3,T4>.System.Collections.IStructuralComparable.CompareTo(Object,IComparer)
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: System.Object
-  parent: System
-  isExternal: false
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
 - uid: System.Collections.IComparer
   parent: System.Collections
   isExternal: false
@@ -521,18 +487,6 @@ references:
   name: System.Collections.IStructuralEquatable.Equals(Object,IEqualityComparer)
   nameWithType: Tuple<T1,T2,T3,T4>.System.Collections.IStructuralEquatable.Equals(Object,IEqualityComparer)
   fullName: System.Tuple<T1,T2,T3,T4>.System.Collections.IStructuralEquatable.Equals(Object,IEqualityComparer)
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
-- uid: System.Object
-  parent: System
-  isExternal: false
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
 - uid: System.Collections.IEqualityComparer
   parent: System.Collections
   isExternal: false
@@ -545,36 +499,12 @@ references:
   name: System.Collections.IStructuralEquatable.GetHashCode(IEqualityComparer)
   nameWithType: Tuple<T1,T2,T3,T4>.System.Collections.IStructuralEquatable.GetHashCode(IEqualityComparer)
   fullName: System.Tuple<T1,T2,T3,T4>.System.Collections.IStructuralEquatable.GetHashCode(IEqualityComparer)
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: System.Collections.IEqualityComparer
-  parent: System.Collections
-  isExternal: false
-  name: IEqualityComparer
-  nameWithType: IEqualityComparer
-  fullName: System.Collections.IEqualityComparer
 - uid: System.Tuple`4.System#IComparable#CompareTo(System.Object)
   parent: System.Tuple`4
   isExternal: false
   name: System.IComparable.CompareTo(Object)
   nameWithType: Tuple<T1,T2,T3,T4>.System.IComparable.CompareTo(Object)
   fullName: System.Tuple<T1,T2,T3,T4>.System.IComparable.CompareTo(Object)
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: System.Object
-  parent: System
-  isExternal: false
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
 - uid: System.Tuple`4.ToString
   parent: System.Tuple`4
   isExternal: false

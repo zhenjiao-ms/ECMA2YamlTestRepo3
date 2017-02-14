@@ -71,6 +71,7 @@ items:
       type: System.Security.AccessControl.AuditFlags
       description: To be added.
   overload: System.Security.AccessControl.AuditRule`1.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -102,6 +103,7 @@ items:
       type: System.Security.AccessControl.AuditFlags
       description: To be added.
   overload: System.Security.AccessControl.AuditRule`1.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -139,6 +141,7 @@ items:
       type: System.Security.AccessControl.AuditFlags
       description: To be added.
   overload: System.Security.AccessControl.AuditRule`1.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -176,6 +179,7 @@ items:
       type: System.Security.AccessControl.AuditFlags
       description: To be added.
   overload: System.Security.AccessControl.AuditRule`1.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -200,6 +204,7 @@ items:
       type: T
       description: To be added.
   overload: System.Security.AccessControl.AuditRule`1.Rights*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -221,7 +226,6 @@ references:
   nameWithType: IdentityReference
   fullName: System.Security.Principal.IdentityReference
 - uid: T
-  parent: ''
   isExternal: true
   name: T
   nameWithType: T
@@ -244,36 +248,12 @@ references:
   name: String
   nameWithType: String
   fullName: System.String
-- uid: T
-  parent: ''
-  isExternal: true
-  name: T
-  nameWithType: T
-  fullName: T
-- uid: System.Security.AccessControl.AuditFlags
-  parent: System.Security.AccessControl
-  isExternal: false
-  name: AuditFlags
-  nameWithType: AuditFlags
-  fullName: System.Security.AccessControl.AuditFlags
 - uid: System.Security.AccessControl.AuditRule`1.#ctor(System.Security.Principal.IdentityReference,`0,System.Security.AccessControl.InheritanceFlags,System.Security.AccessControl.PropagationFlags,System.Security.AccessControl.AuditFlags)
   parent: System.Security.AccessControl.AuditRule`1
   isExternal: false
   name: AuditRule(IdentityReference,T,InheritanceFlags,PropagationFlags,AuditFlags)
   nameWithType: AuditRule<T>.AuditRule(IdentityReference,T,InheritanceFlags,PropagationFlags,AuditFlags)
   fullName: System.Security.AccessControl.AuditRule<T>.AuditRule(IdentityReference,T,InheritanceFlags,PropagationFlags,AuditFlags)
-- uid: System.Security.Principal.IdentityReference
-  parent: System.Security.Principal
-  isExternal: false
-  name: IdentityReference
-  nameWithType: IdentityReference
-  fullName: System.Security.Principal.IdentityReference
-- uid: T
-  parent: ''
-  isExternal: true
-  name: T
-  nameWithType: T
-  fullName: T
 - uid: System.Security.AccessControl.InheritanceFlags
   parent: System.Security.AccessControl
   isExternal: false
@@ -286,60 +266,18 @@ references:
   name: PropagationFlags
   nameWithType: PropagationFlags
   fullName: System.Security.AccessControl.PropagationFlags
-- uid: System.Security.AccessControl.AuditFlags
-  parent: System.Security.AccessControl
-  isExternal: false
-  name: AuditFlags
-  nameWithType: AuditFlags
-  fullName: System.Security.AccessControl.AuditFlags
 - uid: System.Security.AccessControl.AuditRule`1.#ctor(System.String,`0,System.Security.AccessControl.InheritanceFlags,System.Security.AccessControl.PropagationFlags,System.Security.AccessControl.AuditFlags)
   parent: System.Security.AccessControl.AuditRule`1
   isExternal: false
   name: AuditRule(String,T,InheritanceFlags,PropagationFlags,AuditFlags)
   nameWithType: AuditRule<T>.AuditRule(String,T,InheritanceFlags,PropagationFlags,AuditFlags)
   fullName: System.Security.AccessControl.AuditRule<T>.AuditRule(String,T,InheritanceFlags,PropagationFlags,AuditFlags)
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
-- uid: T
-  parent: ''
-  isExternal: true
-  name: T
-  nameWithType: T
-  fullName: T
-- uid: System.Security.AccessControl.InheritanceFlags
-  parent: System.Security.AccessControl
-  isExternal: false
-  name: InheritanceFlags
-  nameWithType: InheritanceFlags
-  fullName: System.Security.AccessControl.InheritanceFlags
-- uid: System.Security.AccessControl.PropagationFlags
-  parent: System.Security.AccessControl
-  isExternal: false
-  name: PropagationFlags
-  nameWithType: PropagationFlags
-  fullName: System.Security.AccessControl.PropagationFlags
-- uid: System.Security.AccessControl.AuditFlags
-  parent: System.Security.AccessControl
-  isExternal: false
-  name: AuditFlags
-  nameWithType: AuditFlags
-  fullName: System.Security.AccessControl.AuditFlags
 - uid: System.Security.AccessControl.AuditRule`1.Rights
   parent: System.Security.AccessControl.AuditRule`1
   isExternal: false
   name: Rights
   nameWithType: AuditRule<T>.Rights
   fullName: System.Security.AccessControl.AuditRule<T>.Rights
-- uid: T
-  parent: ''
-  isExternal: true
-  name: T
-  nameWithType: T
-  fullName: T
 - uid: System.Security.AccessControl.AuditRule`1.#ctor*
   parent: System.Security.AccessControl.AuditRule`1
   isExternal: false

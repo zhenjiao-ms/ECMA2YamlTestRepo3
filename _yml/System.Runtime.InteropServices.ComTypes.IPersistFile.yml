@@ -50,6 +50,7 @@ items:
       type: System.Guid
       description: To be added.
   overload: System.Runtime.InteropServices.ComTypes.IPersistFile.GetClassID*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -75,6 +76,7 @@ items:
       type: System.String
       description: To be added.
   overload: System.Runtime.InteropServices.ComTypes.IPersistFile.GetCurFile*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -100,6 +102,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.Runtime.InteropServices.ComTypes.IPersistFile.IsDirty*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -128,6 +131,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.Runtime.InteropServices.ComTypes.IPersistFile.Load*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -156,6 +160,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Runtime.InteropServices.ComTypes.IPersistFile.Save*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -181,6 +186,7 @@ items:
       type: System.String
       description: To be added.
   overload: System.Runtime.InteropServices.ComTypes.IPersistFile.SaveCompleted*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -228,30 +234,12 @@ references:
   name: Load(String,Int32)
   nameWithType: IPersistFile.Load(String,Int32)
   fullName: System.Runtime.InteropServices.ComTypes.IPersistFile.Load(String,Int32)
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
 - uid: System.Runtime.InteropServices.ComTypes.IPersistFile.Save(System.String,System.Boolean)
   parent: System.Runtime.InteropServices.ComTypes.IPersistFile
   isExternal: false
   name: Save(String,Boolean)
   nameWithType: IPersistFile.Save(String,Boolean)
   fullName: System.Runtime.InteropServices.ComTypes.IPersistFile.Save(String,Boolean)
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
 - uid: System.Boolean
   parent: System
   isExternal: false
@@ -264,12 +252,6 @@ references:
   name: SaveCompleted(String)
   nameWithType: IPersistFile.SaveCompleted(String)
   fullName: System.Runtime.InteropServices.ComTypes.IPersistFile.SaveCompleted(String)
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
 - uid: System.Runtime.InteropServices.ComTypes.IPersistFile.GetClassID*
   parent: System.Runtime.InteropServices.ComTypes.IPersistFile
   isExternal: false

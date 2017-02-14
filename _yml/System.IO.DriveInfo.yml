@@ -65,6 +65,7 @@ items:
       type: System.String
       description: To be added.
   overload: System.IO.DriveInfo.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -89,6 +90,7 @@ items:
       type: System.Int64
       description: To be added.
   overload: System.IO.DriveInfo.AvailableFreeSpace*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -113,6 +115,7 @@ items:
       type: System.String
       description: To be added.
   overload: System.IO.DriveInfo.DriveFormat*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -137,6 +140,7 @@ items:
       type: System.IO.DriveType
       description: To be added.
   overload: System.IO.DriveInfo.DriveType*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -162,6 +166,7 @@ items:
       type: System.IO.DriveInfo[]
       description: To be added.
   overload: System.IO.DriveInfo.GetDrives*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -186,6 +191,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.IO.DriveInfo.IsReady*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -210,6 +216,7 @@ items:
       type: System.String
       description: To be added.
   overload: System.IO.DriveInfo.Name*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -234,6 +241,7 @@ items:
       type: System.IO.DirectoryInfo
       description: To be added.
   overload: System.IO.DriveInfo.RootDirectory*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -263,6 +271,7 @@ items:
       type: System.Runtime.Serialization.StreamingContext
       description: To be added.
   overload: System.IO.DriveInfo.System#Runtime#Serialization#ISerializable#GetObjectData*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -288,6 +297,7 @@ items:
       type: System.String
       description: To be added.
   overload: System.IO.DriveInfo.ToString*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -312,6 +322,7 @@ items:
       type: System.Int64
       description: To be added.
   overload: System.IO.DriveInfo.TotalFreeSpace*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -336,6 +347,7 @@ items:
       type: System.Int64
       description: To be added.
   overload: System.IO.DriveInfo.TotalSize*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -360,6 +372,7 @@ items:
       type: System.String
       description: To be added.
   overload: System.IO.DriveInfo.VolumeLabel*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -398,12 +411,6 @@ references:
   name: DriveFormat
   nameWithType: DriveInfo.DriveFormat
   fullName: System.IO.DriveInfo.DriveFormat
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
 - uid: System.IO.DriveInfo.DriveType
   parent: System.IO.DriveInfo
   isExternal: false
@@ -422,12 +429,20 @@ references:
   name: GetDrives()
   nameWithType: DriveInfo.GetDrives()
   fullName: System.IO.DriveInfo.GetDrives()
-- uid: System.IO.DriveInfo
+- uid: System.IO.DriveInfo[]
   parent: System.IO
   isExternal: false
   name: DriveInfo
   nameWithType: DriveInfo
   fullName: System.IO.DriveInfo[]
+  spec.csharp:
+  - uid: System.IO.DriveInfo
+    name: DriveInfo
+    nameWithType: DriveInfo
+    fullName: DriveInfo[]
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
 - uid: System.IO.DriveInfo.IsReady
   parent: System.IO.DriveInfo
   isExternal: false
@@ -446,12 +461,6 @@ references:
   name: Name
   nameWithType: DriveInfo.Name
   fullName: System.IO.DriveInfo.Name
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
 - uid: System.IO.DriveInfo.RootDirectory
   parent: System.IO.DriveInfo
   isExternal: false
@@ -488,48 +497,24 @@ references:
   name: ToString()
   nameWithType: DriveInfo.ToString()
   fullName: System.IO.DriveInfo.ToString()
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
 - uid: System.IO.DriveInfo.TotalFreeSpace
   parent: System.IO.DriveInfo
   isExternal: false
   name: TotalFreeSpace
   nameWithType: DriveInfo.TotalFreeSpace
   fullName: System.IO.DriveInfo.TotalFreeSpace
-- uid: System.Int64
-  parent: System
-  isExternal: false
-  name: Int64
-  nameWithType: Int64
-  fullName: System.Int64
 - uid: System.IO.DriveInfo.TotalSize
   parent: System.IO.DriveInfo
   isExternal: false
   name: TotalSize
   nameWithType: DriveInfo.TotalSize
   fullName: System.IO.DriveInfo.TotalSize
-- uid: System.Int64
-  parent: System
-  isExternal: false
-  name: Int64
-  nameWithType: Int64
-  fullName: System.Int64
 - uid: System.IO.DriveInfo.VolumeLabel
   parent: System.IO.DriveInfo
   isExternal: false
   name: VolumeLabel
   nameWithType: DriveInfo.VolumeLabel
   fullName: System.IO.DriveInfo.VolumeLabel
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
 - uid: System.IO.DriveInfo.#ctor*
   parent: System.IO.DriveInfo
   isExternal: false

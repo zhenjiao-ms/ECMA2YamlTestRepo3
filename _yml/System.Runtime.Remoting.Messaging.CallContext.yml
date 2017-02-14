@@ -62,6 +62,7 @@ items:
       type: System.String
       description: To be added.
   overload: System.Runtime.Remoting.Messaging.CallContext.FreeNamedDataSlot*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -90,6 +91,7 @@ items:
       type: System.Object
       description: To be added.
   overload: System.Runtime.Remoting.Messaging.CallContext.GetData*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -115,6 +117,7 @@ items:
       type: System.Runtime.Remoting.Messaging.Header[]
       description: To be added.
   overload: System.Runtime.Remoting.Messaging.CallContext.GetHeaders*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -139,6 +142,7 @@ items:
       type: System.Object
       description: To be added.
   overload: System.Runtime.Remoting.Messaging.CallContext.HostContext*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -167,6 +171,7 @@ items:
       type: System.Object
       description: To be added.
   overload: System.Runtime.Remoting.Messaging.CallContext.LogicalGetData*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -195,6 +200,7 @@ items:
       type: System.Object
       description: To be added.
   overload: System.Runtime.Remoting.Messaging.CallContext.LogicalSetData*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -223,6 +229,7 @@ items:
       type: System.Object
       description: To be added.
   overload: System.Runtime.Remoting.Messaging.CallContext.SetData*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -248,6 +255,7 @@ items:
       type: System.Runtime.Remoting.Messaging.Header[]
       description: To be added.
   overload: System.Runtime.Remoting.Messaging.CallContext.SetHeaders*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -274,108 +282,56 @@ references:
   name: GetData(String)
   nameWithType: CallContext.GetData(String)
   fullName: System.Runtime.Remoting.Messaging.CallContext.GetData(String)
-- uid: System.Object
-  parent: System
-  isExternal: false
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
 - uid: System.Runtime.Remoting.Messaging.CallContext.GetHeaders
   parent: System.Runtime.Remoting.Messaging.CallContext
   isExternal: false
   name: GetHeaders()
   nameWithType: CallContext.GetHeaders()
   fullName: System.Runtime.Remoting.Messaging.CallContext.GetHeaders()
-- uid: System.Runtime.Remoting.Messaging.Header
+- uid: System.Runtime.Remoting.Messaging.Header[]
   parent: System.Runtime.Remoting.Messaging
   isExternal: false
   name: Header
   nameWithType: Header
   fullName: System.Runtime.Remoting.Messaging.Header[]
+  spec.csharp:
+  - uid: System.Runtime.Remoting.Messaging.Header
+    name: Header
+    nameWithType: Header
+    fullName: Header[]
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
 - uid: System.Runtime.Remoting.Messaging.CallContext.HostContext
   parent: System.Runtime.Remoting.Messaging.CallContext
   isExternal: false
   name: HostContext
   nameWithType: CallContext.HostContext
   fullName: System.Runtime.Remoting.Messaging.CallContext.HostContext
-- uid: System.Object
-  parent: System
-  isExternal: false
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
 - uid: System.Runtime.Remoting.Messaging.CallContext.LogicalGetData(System.String)
   parent: System.Runtime.Remoting.Messaging.CallContext
   isExternal: false
   name: LogicalGetData(String)
   nameWithType: CallContext.LogicalGetData(String)
   fullName: System.Runtime.Remoting.Messaging.CallContext.LogicalGetData(String)
-- uid: System.Object
-  parent: System
-  isExternal: false
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
 - uid: System.Runtime.Remoting.Messaging.CallContext.LogicalSetData(System.String,System.Object)
   parent: System.Runtime.Remoting.Messaging.CallContext
   isExternal: false
   name: LogicalSetData(String,Object)
   nameWithType: CallContext.LogicalSetData(String,Object)
   fullName: System.Runtime.Remoting.Messaging.CallContext.LogicalSetData(String,Object)
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
-- uid: System.Object
-  parent: System
-  isExternal: false
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
 - uid: System.Runtime.Remoting.Messaging.CallContext.SetData(System.String,System.Object)
   parent: System.Runtime.Remoting.Messaging.CallContext
   isExternal: false
   name: SetData(String,Object)
   nameWithType: CallContext.SetData(String,Object)
   fullName: System.Runtime.Remoting.Messaging.CallContext.SetData(String,Object)
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
-- uid: System.Object
-  parent: System
-  isExternal: false
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
 - uid: System.Runtime.Remoting.Messaging.CallContext.SetHeaders(System.Runtime.Remoting.Messaging.Header[])
   parent: System.Runtime.Remoting.Messaging.CallContext
   isExternal: false
   name: SetHeaders(Header[])
   nameWithType: CallContext.SetHeaders(Header[])
   fullName: System.Runtime.Remoting.Messaging.CallContext.SetHeaders(Header[])
-- uid: System.Runtime.Remoting.Messaging.Header
-  parent: System.Runtime.Remoting.Messaging
-  isExternal: false
-  name: Header
-  nameWithType: Header
-  fullName: System.Runtime.Remoting.Messaging.Header[]
 - uid: System.Runtime.Remoting.Messaging.CallContext.FreeNamedDataSlot*
   parent: System.Runtime.Remoting.Messaging.CallContext
   isExternal: false

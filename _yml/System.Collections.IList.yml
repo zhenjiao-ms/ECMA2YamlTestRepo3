@@ -56,6 +56,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.Collections.IList.Add*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -78,6 +79,7 @@ items:
     content: public void Clear ();
     parameters: []
   overload: System.Collections.IList.Clear*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -106,6 +108,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Collections.IList.Contains*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -134,6 +137,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.Collections.IList.IndexOf*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -162,6 +166,7 @@ items:
       type: System.Object
       description: To be added.
   overload: System.Collections.IList.Insert*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -186,6 +191,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Collections.IList.IsFixedSize*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -210,6 +216,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Collections.IList.IsReadOnly*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -238,6 +245,7 @@ items:
       type: System.Object
       description: To be added.
   overload: System.Collections.IList.Item*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -263,6 +271,7 @@ items:
       type: System.Object
       description: To be added.
   overload: System.Collections.IList.Remove*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -288,6 +297,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.Collections.IList.RemoveAt*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -329,114 +339,48 @@ references:
   name: Boolean
   nameWithType: Boolean
   fullName: System.Boolean
-- uid: System.Object
-  parent: System
-  isExternal: false
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
 - uid: System.Collections.IList.IndexOf(System.Object)
   parent: System.Collections.IList
   isExternal: false
   name: IndexOf(Object)
   nameWithType: IList.IndexOf(Object)
   fullName: System.Collections.IList.IndexOf(Object)
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: System.Object
-  parent: System
-  isExternal: false
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
 - uid: System.Collections.IList.Insert(System.Int32,System.Object)
   parent: System.Collections.IList
   isExternal: false
   name: Insert(Int32,Object)
   nameWithType: IList.Insert(Int32,Object)
   fullName: System.Collections.IList.Insert(Int32,Object)
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: System.Object
-  parent: System
-  isExternal: false
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
 - uid: System.Collections.IList.IsFixedSize
   parent: System.Collections.IList
   isExternal: false
   name: IsFixedSize
   nameWithType: IList.IsFixedSize
   fullName: System.Collections.IList.IsFixedSize
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
 - uid: System.Collections.IList.IsReadOnly
   parent: System.Collections.IList
   isExternal: false
   name: IsReadOnly
   nameWithType: IList.IsReadOnly
   fullName: System.Collections.IList.IsReadOnly
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
 - uid: System.Collections.IList.Item(System.Int32)
   parent: System.Collections.IList
   isExternal: false
   name: Item(Int32)
   nameWithType: IList.Item(Int32)
   fullName: System.Collections.IList.Item(Int32)
-- uid: System.Object
-  parent: System
-  isExternal: false
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
 - uid: System.Collections.IList.Remove(System.Object)
   parent: System.Collections.IList
   isExternal: false
   name: Remove(Object)
   nameWithType: IList.Remove(Object)
   fullName: System.Collections.IList.Remove(Object)
-- uid: System.Object
-  parent: System
-  isExternal: false
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
 - uid: System.Collections.IList.RemoveAt(System.Int32)
   parent: System.Collections.IList
   isExternal: false
   name: RemoveAt(Int32)
   nameWithType: IList.RemoveAt(Int32)
   fullName: System.Collections.IList.RemoveAt(Int32)
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
 - uid: System.Collections.IList.Add*
   parent: System.Collections.IList
   isExternal: false

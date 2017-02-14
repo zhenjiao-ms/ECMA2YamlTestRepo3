@@ -64,6 +64,7 @@ items:
       type: System.Runtime.Serialization.Formatters.TypeFilterLevel
       description: To be added.
   overload: System.Runtime.Serialization.FormatterServices.CheckTypeSecurity*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -95,6 +96,7 @@ items:
       type: System.Object[]
       description: To be added.
   overload: System.Runtime.Serialization.FormatterServices.GetObjectData*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -123,6 +125,7 @@ items:
       type: System.Object
       description: To be added.
   overload: System.Runtime.Serialization.FormatterServices.GetSafeUninitializedObject*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -151,6 +154,7 @@ items:
       type: System.Reflection.MemberInfo[]
       description: To be added.
   overload: System.Runtime.Serialization.FormatterServices.GetSerializableMembers*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -182,6 +186,7 @@ items:
       type: System.Reflection.MemberInfo[]
       description: To be added.
   overload: System.Runtime.Serialization.FormatterServices.GetSerializableMembers*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -210,6 +215,7 @@ items:
       type: System.Runtime.Serialization.ISerializationSurrogate
       description: To be added.
   overload: System.Runtime.Serialization.FormatterServices.GetSurrogateForCyclicalReference*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -241,6 +247,7 @@ items:
       type: System.Type
       description: To be added.
   overload: System.Runtime.Serialization.FormatterServices.GetTypeFromAssembly*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -269,6 +276,7 @@ items:
       type: System.Object
       description: To be added.
   overload: System.Runtime.Serialization.FormatterServices.GetUninitializedObject*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -303,6 +311,7 @@ items:
       type: System.Object
       description: To be added.
   overload: System.Runtime.Serialization.FormatterServices.PopulateObjectMembers*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -335,78 +344,52 @@ references:
   name: GetObjectData(Object,MemberInfo[])
   nameWithType: FormatterServices.GetObjectData(Object,MemberInfo[])
   fullName: System.Runtime.Serialization.FormatterServices.GetObjectData(Object,MemberInfo[])
-- uid: System.Object
+- uid: System.Object[]
   parent: System
   isExternal: false
   name: Object
   nameWithType: Object
   fullName: System.Object[]
-- uid: System.Object
-  parent: System
-  isExternal: false
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
-- uid: System.Reflection.MemberInfo
+  spec.csharp:
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: Object[]
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+- uid: System.Reflection.MemberInfo[]
   parent: System.Reflection
   isExternal: false
   name: MemberInfo
   nameWithType: MemberInfo
   fullName: System.Reflection.MemberInfo[]
+  spec.csharp:
+  - uid: System.Reflection.MemberInfo
+    name: MemberInfo
+    nameWithType: MemberInfo
+    fullName: MemberInfo[]
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
 - uid: System.Runtime.Serialization.FormatterServices.GetSafeUninitializedObject(System.Type)
   parent: System.Runtime.Serialization.FormatterServices
   isExternal: false
   name: GetSafeUninitializedObject(Type)
   nameWithType: FormatterServices.GetSafeUninitializedObject(Type)
   fullName: System.Runtime.Serialization.FormatterServices.GetSafeUninitializedObject(Type)
-- uid: System.Object
-  parent: System
-  isExternal: false
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
-- uid: System.Type
-  parent: System
-  isExternal: false
-  name: Type
-  nameWithType: Type
-  fullName: System.Type
 - uid: System.Runtime.Serialization.FormatterServices.GetSerializableMembers(System.Type)
   parent: System.Runtime.Serialization.FormatterServices
   isExternal: false
   name: GetSerializableMembers(Type)
   nameWithType: FormatterServices.GetSerializableMembers(Type)
   fullName: System.Runtime.Serialization.FormatterServices.GetSerializableMembers(Type)
-- uid: System.Reflection.MemberInfo
-  parent: System.Reflection
-  isExternal: false
-  name: MemberInfo
-  nameWithType: MemberInfo
-  fullName: System.Reflection.MemberInfo[]
-- uid: System.Type
-  parent: System
-  isExternal: false
-  name: Type
-  nameWithType: Type
-  fullName: System.Type
 - uid: System.Runtime.Serialization.FormatterServices.GetSerializableMembers(System.Type,System.Runtime.Serialization.StreamingContext)
   parent: System.Runtime.Serialization.FormatterServices
   isExternal: false
   name: GetSerializableMembers(Type,StreamingContext)
   nameWithType: FormatterServices.GetSerializableMembers(Type,StreamingContext)
   fullName: System.Runtime.Serialization.FormatterServices.GetSerializableMembers(Type,StreamingContext)
-- uid: System.Reflection.MemberInfo
-  parent: System.Reflection
-  isExternal: false
-  name: MemberInfo
-  nameWithType: MemberInfo
-  fullName: System.Reflection.MemberInfo[]
-- uid: System.Type
-  parent: System
-  isExternal: false
-  name: Type
-  nameWithType: Type
-  fullName: System.Type
 - uid: System.Runtime.Serialization.StreamingContext
   parent: System.Runtime.Serialization
   isExternal: false
@@ -425,24 +408,12 @@ references:
   name: ISerializationSurrogate
   nameWithType: ISerializationSurrogate
   fullName: System.Runtime.Serialization.ISerializationSurrogate
-- uid: System.Runtime.Serialization.ISerializationSurrogate
-  parent: System.Runtime.Serialization
-  isExternal: false
-  name: ISerializationSurrogate
-  nameWithType: ISerializationSurrogate
-  fullName: System.Runtime.Serialization.ISerializationSurrogate
 - uid: System.Runtime.Serialization.FormatterServices.GetTypeFromAssembly(System.Reflection.Assembly,System.String)
   parent: System.Runtime.Serialization.FormatterServices
   isExternal: false
   name: GetTypeFromAssembly(Assembly,String)
   nameWithType: FormatterServices.GetTypeFromAssembly(Assembly,String)
   fullName: System.Runtime.Serialization.FormatterServices.GetTypeFromAssembly(Assembly,String)
-- uid: System.Type
-  parent: System
-  isExternal: false
-  name: Type
-  nameWithType: Type
-  fullName: System.Type
 - uid: System.Reflection.Assembly
   parent: System.Reflection
   isExternal: false
@@ -461,48 +432,12 @@ references:
   name: GetUninitializedObject(Type)
   nameWithType: FormatterServices.GetUninitializedObject(Type)
   fullName: System.Runtime.Serialization.FormatterServices.GetUninitializedObject(Type)
-- uid: System.Object
-  parent: System
-  isExternal: false
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
-- uid: System.Type
-  parent: System
-  isExternal: false
-  name: Type
-  nameWithType: Type
-  fullName: System.Type
 - uid: System.Runtime.Serialization.FormatterServices.PopulateObjectMembers(System.Object,System.Reflection.MemberInfo[],System.Object[])
   parent: System.Runtime.Serialization.FormatterServices
   isExternal: false
   name: PopulateObjectMembers(Object,MemberInfo[],Object[])
   nameWithType: FormatterServices.PopulateObjectMembers(Object,MemberInfo[],Object[])
   fullName: System.Runtime.Serialization.FormatterServices.PopulateObjectMembers(Object,MemberInfo[],Object[])
-- uid: System.Object
-  parent: System
-  isExternal: false
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
-- uid: System.Object
-  parent: System
-  isExternal: false
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
-- uid: System.Reflection.MemberInfo
-  parent: System.Reflection
-  isExternal: false
-  name: MemberInfo
-  nameWithType: MemberInfo
-  fullName: System.Reflection.MemberInfo[]
-- uid: System.Object
-  parent: System
-  isExternal: false
-  name: Object
-  nameWithType: Object
-  fullName: System.Object[]
 - uid: System.Runtime.Serialization.FormatterServices.CheckTypeSecurity*
   parent: System.Runtime.Serialization.FormatterServices
   isExternal: false

@@ -51,6 +51,7 @@ items:
       type: System.Byte[]
       description: To be added.
   overload: System.Resources.IResourceWriter.AddResource*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -79,6 +80,7 @@ items:
       type: System.Object
       description: To be added.
   overload: System.Resources.IResourceWriter.AddResource*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -107,6 +109,7 @@ items:
       type: System.String
       description: To be added.
   overload: System.Resources.IResourceWriter.AddResource*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -129,6 +132,7 @@ items:
     content: public void Close ();
     parameters: []
   overload: System.Resources.IResourceWriter.Close*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -151,6 +155,7 @@ items:
     content: public void Generate ();
     parameters: []
   overload: System.Resources.IResourceWriter.Generate*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -168,24 +173,26 @@ references:
   name: String
   nameWithType: String
   fullName: System.String
-- uid: System.Byte
+- uid: System.Byte[]
   parent: System
   isExternal: false
   name: Byte
   nameWithType: Byte
   fullName: System.Byte[]
+  spec.csharp:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: Byte[]
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
 - uid: System.Resources.IResourceWriter.AddResource(System.String,System.Object)
   parent: System.Resources.IResourceWriter
   isExternal: false
   name: AddResource(String,Object)
   nameWithType: IResourceWriter.AddResource(String,Object)
   fullName: System.Resources.IResourceWriter.AddResource(String,Object)
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
 - uid: System.Object
   parent: System
   isExternal: false
@@ -198,18 +205,6 @@ references:
   name: AddResource(String,String)
   nameWithType: IResourceWriter.AddResource(String,String)
   fullName: System.Resources.IResourceWriter.AddResource(String,String)
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
 - uid: System.Resources.IResourceWriter.Close
   parent: System.Resources.IResourceWriter
   isExternal: false

@@ -60,6 +60,7 @@ items:
       type: System.String
       description: To be added.
   overload: System.Runtime.Versioning.VersioningHelper.MakeVersionSafeName*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -97,6 +98,7 @@ items:
       type: System.String
       description: To be added.
   overload: System.Runtime.Versioning.VersioningHelper.MakeVersionSafeName*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -117,18 +119,6 @@ references:
   name: String
   nameWithType: String
   fullName: System.String
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
-- uid: System.Runtime.Versioning.ResourceScope
-  parent: System.Runtime.Versioning
-  isExternal: false
-  name: ResourceScope
-  nameWithType: ResourceScope
-  fullName: System.Runtime.Versioning.ResourceScope
 - uid: System.Runtime.Versioning.ResourceScope
   parent: System.Runtime.Versioning
   isExternal: false
@@ -141,30 +131,6 @@ references:
   name: MakeVersionSafeName(String,ResourceScope,ResourceScope,Type)
   nameWithType: VersioningHelper.MakeVersionSafeName(String,ResourceScope,ResourceScope,Type)
   fullName: System.Runtime.Versioning.VersioningHelper.MakeVersionSafeName(String,ResourceScope,ResourceScope,Type)
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
-- uid: System.Runtime.Versioning.ResourceScope
-  parent: System.Runtime.Versioning
-  isExternal: false
-  name: ResourceScope
-  nameWithType: ResourceScope
-  fullName: System.Runtime.Versioning.ResourceScope
-- uid: System.Runtime.Versioning.ResourceScope
-  parent: System.Runtime.Versioning
-  isExternal: false
-  name: ResourceScope
-  nameWithType: ResourceScope
-  fullName: System.Runtime.Versioning.ResourceScope
 - uid: System.Type
   parent: System
   isExternal: false

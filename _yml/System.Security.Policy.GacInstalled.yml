@@ -55,6 +55,7 @@ items:
     content: public GacInstalled ();
     parameters: []
   overload: System.Security.Policy.GacInstalled.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -80,6 +81,7 @@ items:
       type: System.Security.Policy.EvidenceBase
       description: To be added.
   overload: System.Security.Policy.GacInstalled.Clone*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -105,6 +107,7 @@ items:
       type: System.Object
       description: To be added.
   overload: System.Security.Policy.GacInstalled.Copy*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -133,6 +136,7 @@ items:
       type: System.Security.IPermission
       description: To be added.
   overload: System.Security.Policy.GacInstalled.CreateIdentityPermission*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -161,6 +165,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Security.Policy.GacInstalled.Equals*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -186,6 +191,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.Security.Policy.GacInstalled.GetHashCode*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -211,6 +217,7 @@ items:
       type: System.String
       description: To be added.
   overload: System.Security.Policy.GacInstalled.ToString*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -231,12 +238,6 @@ references:
   name: Clone()
   nameWithType: GacInstalled.Clone()
   fullName: System.Security.Policy.GacInstalled.Clone()
-- uid: System.Security.Policy.EvidenceBase
-  parent: System.Security.Policy
-  isExternal: false
-  name: EvidenceBase
-  nameWithType: EvidenceBase
-  fullName: System.Security.Policy.EvidenceBase
 - uid: System.Security.Policy.GacInstalled.Copy
   parent: System.Security.Policy.GacInstalled
   isExternal: false
@@ -279,12 +280,6 @@ references:
   name: Boolean
   nameWithType: Boolean
   fullName: System.Boolean
-- uid: System.Object
-  parent: System
-  isExternal: false
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
 - uid: System.Security.Policy.GacInstalled.GetHashCode
   parent: System.Security.Policy.GacInstalled
   isExternal: false

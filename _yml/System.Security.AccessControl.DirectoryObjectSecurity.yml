@@ -105,6 +105,7 @@ items:
     content: protected DirectoryObjectSecurity ();
     parameters: []
   overload: System.Security.AccessControl.DirectoryObjectSecurity.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -130,6 +131,7 @@ items:
       type: System.Security.AccessControl.CommonSecurityDescriptor
       description: To be added.
   overload: System.Security.AccessControl.DirectoryObjectSecurity.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -179,6 +181,7 @@ items:
       type: System.Security.AccessControl.AccessRule
       description: To be added.
   overload: System.Security.AccessControl.DirectoryObjectSecurity.AccessRuleFactory*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -204,6 +207,7 @@ items:
       type: System.Security.AccessControl.ObjectAccessRule
       description: To be added.
   overload: System.Security.AccessControl.DirectoryObjectSecurity.AddAccessRule*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -229,6 +233,7 @@ items:
       type: System.Security.AccessControl.ObjectAuditRule
       description: To be added.
   overload: System.Security.AccessControl.DirectoryObjectSecurity.AddAuditRule*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -278,6 +283,7 @@ items:
       type: System.Security.AccessControl.AuditRule
       description: To be added.
   overload: System.Security.AccessControl.DirectoryObjectSecurity.AuditRuleFactory*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -312,6 +318,7 @@ items:
       type: System.Security.AccessControl.AuthorizationRuleCollection
       description: To be added.
   overload: System.Security.AccessControl.DirectoryObjectSecurity.GetAccessRules*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -346,6 +353,7 @@ items:
       type: System.Security.AccessControl.AuthorizationRuleCollection
       description: To be added.
   overload: System.Security.AccessControl.DirectoryObjectSecurity.GetAuditRules*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -380,6 +388,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Security.AccessControl.DirectoryObjectSecurity.ModifyAccess*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -414,6 +423,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Security.AccessControl.DirectoryObjectSecurity.ModifyAudit*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -442,6 +452,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Security.AccessControl.DirectoryObjectSecurity.RemoveAccessRule*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -467,6 +478,7 @@ items:
       type: System.Security.AccessControl.ObjectAccessRule
       description: To be added.
   overload: System.Security.AccessControl.DirectoryObjectSecurity.RemoveAccessRuleAll*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -492,6 +504,7 @@ items:
       type: System.Security.AccessControl.ObjectAccessRule
       description: To be added.
   overload: System.Security.AccessControl.DirectoryObjectSecurity.RemoveAccessRuleSpecific*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -520,6 +533,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Security.AccessControl.DirectoryObjectSecurity.RemoveAuditRule*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -545,6 +559,7 @@ items:
       type: System.Security.AccessControl.ObjectAuditRule
       description: To be added.
   overload: System.Security.AccessControl.DirectoryObjectSecurity.RemoveAuditRuleAll*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -570,6 +585,7 @@ items:
       type: System.Security.AccessControl.ObjectAuditRule
       description: To be added.
   overload: System.Security.AccessControl.DirectoryObjectSecurity.RemoveAuditRuleSpecific*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -595,6 +611,7 @@ items:
       type: System.Security.AccessControl.ObjectAccessRule
       description: To be added.
   overload: System.Security.AccessControl.DirectoryObjectSecurity.ResetAccessRule*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -620,6 +637,7 @@ items:
       type: System.Security.AccessControl.ObjectAccessRule
       description: To be added.
   overload: System.Security.AccessControl.DirectoryObjectSecurity.SetAccessRule*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -645,6 +663,7 @@ items:
       type: System.Security.AccessControl.ObjectAuditRule
       description: To be added.
   overload: System.Security.AccessControl.DirectoryObjectSecurity.SetAuditRule*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -725,12 +744,6 @@ references:
   name: Guid
   nameWithType: Guid
   fullName: System.Guid
-- uid: System.Guid
-  parent: System
-  isExternal: false
-  name: Guid
-  nameWithType: Guid
-  fullName: System.Guid
 - uid: System.Security.AccessControl.DirectoryObjectSecurity.AddAccessRule(System.Security.AccessControl.ObjectAccessRule)
   parent: System.Security.AccessControl.DirectoryObjectSecurity
   isExternal: false
@@ -767,54 +780,12 @@ references:
   name: AuditRule
   nameWithType: AuditRule
   fullName: System.Security.AccessControl.AuditRule
-- uid: System.Security.Principal.IdentityReference
-  parent: System.Security.Principal
-  isExternal: false
-  name: IdentityReference
-  nameWithType: IdentityReference
-  fullName: System.Security.Principal.IdentityReference
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
-- uid: System.Security.AccessControl.InheritanceFlags
-  parent: System.Security.AccessControl
-  isExternal: false
-  name: InheritanceFlags
-  nameWithType: InheritanceFlags
-  fullName: System.Security.AccessControl.InheritanceFlags
-- uid: System.Security.AccessControl.PropagationFlags
-  parent: System.Security.AccessControl
-  isExternal: false
-  name: PropagationFlags
-  nameWithType: PropagationFlags
-  fullName: System.Security.AccessControl.PropagationFlags
 - uid: System.Security.AccessControl.AuditFlags
   parent: System.Security.AccessControl
   isExternal: false
   name: AuditFlags
   nameWithType: AuditFlags
   fullName: System.Security.AccessControl.AuditFlags
-- uid: System.Guid
-  parent: System
-  isExternal: false
-  name: Guid
-  nameWithType: Guid
-  fullName: System.Guid
-- uid: System.Guid
-  parent: System
-  isExternal: false
-  name: Guid
-  nameWithType: Guid
-  fullName: System.Guid
 - uid: System.Security.AccessControl.DirectoryObjectSecurity.GetAccessRules(System.Boolean,System.Boolean,System.Type)
   parent: System.Security.AccessControl.DirectoryObjectSecurity
   isExternal: false
@@ -827,18 +798,6 @@ references:
   name: AuthorizationRuleCollection
   nameWithType: AuthorizationRuleCollection
   fullName: System.Security.AccessControl.AuthorizationRuleCollection
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
 - uid: System.Type
   parent: System
   isExternal: false
@@ -851,210 +810,78 @@ references:
   name: GetAuditRules(Boolean,Boolean,Type)
   nameWithType: DirectoryObjectSecurity.GetAuditRules(Boolean,Boolean,Type)
   fullName: System.Security.AccessControl.DirectoryObjectSecurity.GetAuditRules(Boolean,Boolean,Type)
-- uid: System.Security.AccessControl.AuthorizationRuleCollection
-  parent: System.Security.AccessControl
-  isExternal: false
-  name: AuthorizationRuleCollection
-  nameWithType: AuthorizationRuleCollection
-  fullName: System.Security.AccessControl.AuthorizationRuleCollection
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
-- uid: System.Type
-  parent: System
-  isExternal: false
-  name: Type
-  nameWithType: Type
-  fullName: System.Type
 - uid: System.Security.AccessControl.DirectoryObjectSecurity.ModifyAccess(System.Security.AccessControl.AccessControlModification,System.Security.AccessControl.AccessRule,System.Boolean@)
   parent: System.Security.AccessControl.DirectoryObjectSecurity
   isExternal: false
   name: ModifyAccess(AccessControlModification,AccessRule,Boolean)
   nameWithType: DirectoryObjectSecurity.ModifyAccess(AccessControlModification,AccessRule,Boolean)
   fullName: System.Security.AccessControl.DirectoryObjectSecurity.ModifyAccess(AccessControlModification,AccessRule,Boolean)
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
 - uid: System.Security.AccessControl.AccessControlModification
   parent: System.Security.AccessControl
   isExternal: false
   name: AccessControlModification
   nameWithType: AccessControlModification
   fullName: System.Security.AccessControl.AccessControlModification
-- uid: System.Security.AccessControl.AccessRule
-  parent: System.Security.AccessControl
-  isExternal: false
-  name: AccessRule
-  nameWithType: AccessRule
-  fullName: System.Security.AccessControl.AccessRule
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
 - uid: System.Security.AccessControl.DirectoryObjectSecurity.ModifyAudit(System.Security.AccessControl.AccessControlModification,System.Security.AccessControl.AuditRule,System.Boolean@)
   parent: System.Security.AccessControl.DirectoryObjectSecurity
   isExternal: false
   name: ModifyAudit(AccessControlModification,AuditRule,Boolean)
   nameWithType: DirectoryObjectSecurity.ModifyAudit(AccessControlModification,AuditRule,Boolean)
   fullName: System.Security.AccessControl.DirectoryObjectSecurity.ModifyAudit(AccessControlModification,AuditRule,Boolean)
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
-- uid: System.Security.AccessControl.AccessControlModification
-  parent: System.Security.AccessControl
-  isExternal: false
-  name: AccessControlModification
-  nameWithType: AccessControlModification
-  fullName: System.Security.AccessControl.AccessControlModification
-- uid: System.Security.AccessControl.AuditRule
-  parent: System.Security.AccessControl
-  isExternal: false
-  name: AuditRule
-  nameWithType: AuditRule
-  fullName: System.Security.AccessControl.AuditRule
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
 - uid: System.Security.AccessControl.DirectoryObjectSecurity.RemoveAccessRule(System.Security.AccessControl.ObjectAccessRule)
   parent: System.Security.AccessControl.DirectoryObjectSecurity
   isExternal: false
   name: RemoveAccessRule(ObjectAccessRule)
   nameWithType: DirectoryObjectSecurity.RemoveAccessRule(ObjectAccessRule)
   fullName: System.Security.AccessControl.DirectoryObjectSecurity.RemoveAccessRule(ObjectAccessRule)
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
-- uid: System.Security.AccessControl.ObjectAccessRule
-  parent: System.Security.AccessControl
-  isExternal: false
-  name: ObjectAccessRule
-  nameWithType: ObjectAccessRule
-  fullName: System.Security.AccessControl.ObjectAccessRule
 - uid: System.Security.AccessControl.DirectoryObjectSecurity.RemoveAccessRuleAll(System.Security.AccessControl.ObjectAccessRule)
   parent: System.Security.AccessControl.DirectoryObjectSecurity
   isExternal: false
   name: RemoveAccessRuleAll(ObjectAccessRule)
   nameWithType: DirectoryObjectSecurity.RemoveAccessRuleAll(ObjectAccessRule)
   fullName: System.Security.AccessControl.DirectoryObjectSecurity.RemoveAccessRuleAll(ObjectAccessRule)
-- uid: System.Security.AccessControl.ObjectAccessRule
-  parent: System.Security.AccessControl
-  isExternal: false
-  name: ObjectAccessRule
-  nameWithType: ObjectAccessRule
-  fullName: System.Security.AccessControl.ObjectAccessRule
 - uid: System.Security.AccessControl.DirectoryObjectSecurity.RemoveAccessRuleSpecific(System.Security.AccessControl.ObjectAccessRule)
   parent: System.Security.AccessControl.DirectoryObjectSecurity
   isExternal: false
   name: RemoveAccessRuleSpecific(ObjectAccessRule)
   nameWithType: DirectoryObjectSecurity.RemoveAccessRuleSpecific(ObjectAccessRule)
   fullName: System.Security.AccessControl.DirectoryObjectSecurity.RemoveAccessRuleSpecific(ObjectAccessRule)
-- uid: System.Security.AccessControl.ObjectAccessRule
-  parent: System.Security.AccessControl
-  isExternal: false
-  name: ObjectAccessRule
-  nameWithType: ObjectAccessRule
-  fullName: System.Security.AccessControl.ObjectAccessRule
 - uid: System.Security.AccessControl.DirectoryObjectSecurity.RemoveAuditRule(System.Security.AccessControl.ObjectAuditRule)
   parent: System.Security.AccessControl.DirectoryObjectSecurity
   isExternal: false
   name: RemoveAuditRule(ObjectAuditRule)
   nameWithType: DirectoryObjectSecurity.RemoveAuditRule(ObjectAuditRule)
   fullName: System.Security.AccessControl.DirectoryObjectSecurity.RemoveAuditRule(ObjectAuditRule)
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
-- uid: System.Security.AccessControl.ObjectAuditRule
-  parent: System.Security.AccessControl
-  isExternal: false
-  name: ObjectAuditRule
-  nameWithType: ObjectAuditRule
-  fullName: System.Security.AccessControl.ObjectAuditRule
 - uid: System.Security.AccessControl.DirectoryObjectSecurity.RemoveAuditRuleAll(System.Security.AccessControl.ObjectAuditRule)
   parent: System.Security.AccessControl.DirectoryObjectSecurity
   isExternal: false
   name: RemoveAuditRuleAll(ObjectAuditRule)
   nameWithType: DirectoryObjectSecurity.RemoveAuditRuleAll(ObjectAuditRule)
   fullName: System.Security.AccessControl.DirectoryObjectSecurity.RemoveAuditRuleAll(ObjectAuditRule)
-- uid: System.Security.AccessControl.ObjectAuditRule
-  parent: System.Security.AccessControl
-  isExternal: false
-  name: ObjectAuditRule
-  nameWithType: ObjectAuditRule
-  fullName: System.Security.AccessControl.ObjectAuditRule
 - uid: System.Security.AccessControl.DirectoryObjectSecurity.RemoveAuditRuleSpecific(System.Security.AccessControl.ObjectAuditRule)
   parent: System.Security.AccessControl.DirectoryObjectSecurity
   isExternal: false
   name: RemoveAuditRuleSpecific(ObjectAuditRule)
   nameWithType: DirectoryObjectSecurity.RemoveAuditRuleSpecific(ObjectAuditRule)
   fullName: System.Security.AccessControl.DirectoryObjectSecurity.RemoveAuditRuleSpecific(ObjectAuditRule)
-- uid: System.Security.AccessControl.ObjectAuditRule
-  parent: System.Security.AccessControl
-  isExternal: false
-  name: ObjectAuditRule
-  nameWithType: ObjectAuditRule
-  fullName: System.Security.AccessControl.ObjectAuditRule
 - uid: System.Security.AccessControl.DirectoryObjectSecurity.ResetAccessRule(System.Security.AccessControl.ObjectAccessRule)
   parent: System.Security.AccessControl.DirectoryObjectSecurity
   isExternal: false
   name: ResetAccessRule(ObjectAccessRule)
   nameWithType: DirectoryObjectSecurity.ResetAccessRule(ObjectAccessRule)
   fullName: System.Security.AccessControl.DirectoryObjectSecurity.ResetAccessRule(ObjectAccessRule)
-- uid: System.Security.AccessControl.ObjectAccessRule
-  parent: System.Security.AccessControl
-  isExternal: false
-  name: ObjectAccessRule
-  nameWithType: ObjectAccessRule
-  fullName: System.Security.AccessControl.ObjectAccessRule
 - uid: System.Security.AccessControl.DirectoryObjectSecurity.SetAccessRule(System.Security.AccessControl.ObjectAccessRule)
   parent: System.Security.AccessControl.DirectoryObjectSecurity
   isExternal: false
   name: SetAccessRule(ObjectAccessRule)
   nameWithType: DirectoryObjectSecurity.SetAccessRule(ObjectAccessRule)
   fullName: System.Security.AccessControl.DirectoryObjectSecurity.SetAccessRule(ObjectAccessRule)
-- uid: System.Security.AccessControl.ObjectAccessRule
-  parent: System.Security.AccessControl
-  isExternal: false
-  name: ObjectAccessRule
-  nameWithType: ObjectAccessRule
-  fullName: System.Security.AccessControl.ObjectAccessRule
 - uid: System.Security.AccessControl.DirectoryObjectSecurity.SetAuditRule(System.Security.AccessControl.ObjectAuditRule)
   parent: System.Security.AccessControl.DirectoryObjectSecurity
   isExternal: false
   name: SetAuditRule(ObjectAuditRule)
   nameWithType: DirectoryObjectSecurity.SetAuditRule(ObjectAuditRule)
   fullName: System.Security.AccessControl.DirectoryObjectSecurity.SetAuditRule(ObjectAuditRule)
-- uid: System.Security.AccessControl.ObjectAuditRule
-  parent: System.Security.AccessControl
-  isExternal: false
-  name: ObjectAuditRule
-  nameWithType: ObjectAuditRule
-  fullName: System.Security.AccessControl.ObjectAuditRule
 - uid: System.Security.AccessControl.DirectoryObjectSecurity.#ctor*
   parent: System.Security.AccessControl.DirectoryObjectSecurity
   isExternal: false

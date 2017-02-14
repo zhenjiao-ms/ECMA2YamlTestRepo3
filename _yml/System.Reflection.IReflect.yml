@@ -62,6 +62,7 @@ items:
       type: System.Reflection.FieldInfo
       description: To be added.
   overload: System.Reflection.IReflect.GetField*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -90,6 +91,7 @@ items:
       type: System.Reflection.FieldInfo[]
       description: To be added.
   overload: System.Reflection.IReflect.GetFields*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -121,6 +123,7 @@ items:
       type: System.Reflection.MemberInfo[]
       description: To be added.
   overload: System.Reflection.IReflect.GetMember*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -149,6 +152,7 @@ items:
       type: System.Reflection.MemberInfo[]
       description: To be added.
   overload: System.Reflection.IReflect.GetMembers*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -180,6 +184,7 @@ items:
       type: System.Reflection.MethodInfo
       description: To be added.
   overload: System.Reflection.IReflect.GetMethod*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -220,6 +225,7 @@ items:
       type: System.Reflection.MethodInfo
       description: To be added.
   overload: System.Reflection.IReflect.GetMethod*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -248,6 +254,7 @@ items:
       type: System.Reflection.MethodInfo[]
       description: To be added.
   overload: System.Reflection.IReflect.GetMethods*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -276,6 +283,7 @@ items:
       type: System.Reflection.PropertyInfo[]
       description: To be added.
   overload: System.Reflection.IReflect.GetProperties*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -307,6 +315,7 @@ items:
       type: System.Reflection.PropertyInfo
       description: To be added.
   overload: System.Reflection.IReflect.GetProperty*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -350,6 +359,7 @@ items:
       type: System.Reflection.PropertyInfo
       description: To be added.
   overload: System.Reflection.IReflect.GetProperty*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -399,6 +409,7 @@ items:
       type: System.Object
       description: To be added.
   overload: System.Reflection.IReflect.InvokeMember*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -423,6 +434,7 @@ items:
       type: System.Type
       description: To be added.
   overload: System.Reflection.IReflect.UnderlyingSystemType*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -458,60 +470,46 @@ references:
   name: GetFields(BindingFlags)
   nameWithType: IReflect.GetFields(BindingFlags)
   fullName: System.Reflection.IReflect.GetFields(BindingFlags)
-- uid: System.Reflection.FieldInfo
+- uid: System.Reflection.FieldInfo[]
   parent: System.Reflection
   isExternal: false
   name: FieldInfo
   nameWithType: FieldInfo
   fullName: System.Reflection.FieldInfo[]
-- uid: System.Reflection.BindingFlags
-  parent: System.Reflection
-  isExternal: false
-  name: BindingFlags
-  nameWithType: BindingFlags
-  fullName: System.Reflection.BindingFlags
+  spec.csharp:
+  - uid: System.Reflection.FieldInfo
+    name: FieldInfo
+    nameWithType: FieldInfo
+    fullName: FieldInfo[]
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
 - uid: System.Reflection.IReflect.GetMember(System.String,System.Reflection.BindingFlags)
   parent: System.Reflection.IReflect
   isExternal: false
   name: GetMember(String,BindingFlags)
   nameWithType: IReflect.GetMember(String,BindingFlags)
   fullName: System.Reflection.IReflect.GetMember(String,BindingFlags)
-- uid: System.Reflection.MemberInfo
+- uid: System.Reflection.MemberInfo[]
   parent: System.Reflection
   isExternal: false
   name: MemberInfo
   nameWithType: MemberInfo
   fullName: System.Reflection.MemberInfo[]
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
-- uid: System.Reflection.BindingFlags
-  parent: System.Reflection
-  isExternal: false
-  name: BindingFlags
-  nameWithType: BindingFlags
-  fullName: System.Reflection.BindingFlags
+  spec.csharp:
+  - uid: System.Reflection.MemberInfo
+    name: MemberInfo
+    nameWithType: MemberInfo
+    fullName: MemberInfo[]
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
 - uid: System.Reflection.IReflect.GetMembers(System.Reflection.BindingFlags)
   parent: System.Reflection.IReflect
   isExternal: false
   name: GetMembers(BindingFlags)
   nameWithType: IReflect.GetMembers(BindingFlags)
   fullName: System.Reflection.IReflect.GetMembers(BindingFlags)
-- uid: System.Reflection.MemberInfo
-  parent: System.Reflection
-  isExternal: false
-  name: MemberInfo
-  nameWithType: MemberInfo
-  fullName: System.Reflection.MemberInfo[]
-- uid: System.Reflection.BindingFlags
-  parent: System.Reflection
-  isExternal: false
-  name: BindingFlags
-  nameWithType: BindingFlags
-  fullName: System.Reflection.BindingFlags
 - uid: System.Reflection.IReflect.GetMethod(System.String,System.Reflection.BindingFlags)
   parent: System.Reflection.IReflect
   isExternal: false
@@ -524,96 +522,86 @@ references:
   name: MethodInfo
   nameWithType: MethodInfo
   fullName: System.Reflection.MethodInfo
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
-- uid: System.Reflection.BindingFlags
-  parent: System.Reflection
-  isExternal: false
-  name: BindingFlags
-  nameWithType: BindingFlags
-  fullName: System.Reflection.BindingFlags
 - uid: System.Reflection.IReflect.GetMethod(System.String,System.Reflection.BindingFlags,System.Reflection.Binder,System.Type[],System.Reflection.ParameterModifier[])
   parent: System.Reflection.IReflect
   isExternal: false
   name: GetMethod(String,BindingFlags,Binder,Type[],ParameterModifier[])
   nameWithType: IReflect.GetMethod(String,BindingFlags,Binder,Type[],ParameterModifier[])
   fullName: System.Reflection.IReflect.GetMethod(String,BindingFlags,Binder,Type[],ParameterModifier[])
-- uid: System.Reflection.MethodInfo
-  parent: System.Reflection
-  isExternal: false
-  name: MethodInfo
-  nameWithType: MethodInfo
-  fullName: System.Reflection.MethodInfo
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
-- uid: System.Reflection.BindingFlags
-  parent: System.Reflection
-  isExternal: false
-  name: BindingFlags
-  nameWithType: BindingFlags
-  fullName: System.Reflection.BindingFlags
 - uid: System.Reflection.Binder
   parent: System.Reflection
   isExternal: false
   name: Binder
   nameWithType: Binder
   fullName: System.Reflection.Binder
-- uid: System.Type
+- uid: System.Type[]
   parent: System
   isExternal: false
   name: Type
   nameWithType: Type
   fullName: System.Type[]
-- uid: System.Reflection.ParameterModifier
+  spec.csharp:
+  - uid: System.Type
+    name: Type
+    nameWithType: Type
+    fullName: Type[]
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+- uid: System.Reflection.ParameterModifier[]
   parent: System.Reflection
   isExternal: false
   name: ParameterModifier
   nameWithType: ParameterModifier
   fullName: System.Reflection.ParameterModifier[]
+  spec.csharp:
+  - uid: System.Reflection.ParameterModifier
+    name: ParameterModifier
+    nameWithType: ParameterModifier
+    fullName: ParameterModifier[]
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
 - uid: System.Reflection.IReflect.GetMethods(System.Reflection.BindingFlags)
   parent: System.Reflection.IReflect
   isExternal: false
   name: GetMethods(BindingFlags)
   nameWithType: IReflect.GetMethods(BindingFlags)
   fullName: System.Reflection.IReflect.GetMethods(BindingFlags)
-- uid: System.Reflection.MethodInfo
+- uid: System.Reflection.MethodInfo[]
   parent: System.Reflection
   isExternal: false
   name: MethodInfo
   nameWithType: MethodInfo
   fullName: System.Reflection.MethodInfo[]
-- uid: System.Reflection.BindingFlags
-  parent: System.Reflection
-  isExternal: false
-  name: BindingFlags
-  nameWithType: BindingFlags
-  fullName: System.Reflection.BindingFlags
+  spec.csharp:
+  - uid: System.Reflection.MethodInfo
+    name: MethodInfo
+    nameWithType: MethodInfo
+    fullName: MethodInfo[]
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
 - uid: System.Reflection.IReflect.GetProperties(System.Reflection.BindingFlags)
   parent: System.Reflection.IReflect
   isExternal: false
   name: GetProperties(BindingFlags)
   nameWithType: IReflect.GetProperties(BindingFlags)
   fullName: System.Reflection.IReflect.GetProperties(BindingFlags)
-- uid: System.Reflection.PropertyInfo
+- uid: System.Reflection.PropertyInfo[]
   parent: System.Reflection
   isExternal: false
   name: PropertyInfo
   nameWithType: PropertyInfo
   fullName: System.Reflection.PropertyInfo[]
-- uid: System.Reflection.BindingFlags
-  parent: System.Reflection
-  isExternal: false
-  name: BindingFlags
-  nameWithType: BindingFlags
-  fullName: System.Reflection.BindingFlags
+  spec.csharp:
+  - uid: System.Reflection.PropertyInfo
+    name: PropertyInfo
+    nameWithType: PropertyInfo
+    fullName: PropertyInfo[]
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
 - uid: System.Reflection.IReflect.GetProperty(System.String,System.Reflection.BindingFlags)
   parent: System.Reflection.IReflect
   isExternal: false
@@ -626,66 +614,18 @@ references:
   name: PropertyInfo
   nameWithType: PropertyInfo
   fullName: System.Reflection.PropertyInfo
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
-- uid: System.Reflection.BindingFlags
-  parent: System.Reflection
-  isExternal: false
-  name: BindingFlags
-  nameWithType: BindingFlags
-  fullName: System.Reflection.BindingFlags
 - uid: System.Reflection.IReflect.GetProperty(System.String,System.Reflection.BindingFlags,System.Reflection.Binder,System.Type,System.Type[],System.Reflection.ParameterModifier[])
   parent: System.Reflection.IReflect
   isExternal: false
   name: GetProperty(String,BindingFlags,Binder,Type,Type[],ParameterModifier[])
   nameWithType: IReflect.GetProperty(String,BindingFlags,Binder,Type,Type[],ParameterModifier[])
   fullName: System.Reflection.IReflect.GetProperty(String,BindingFlags,Binder,Type,Type[],ParameterModifier[])
-- uid: System.Reflection.PropertyInfo
-  parent: System.Reflection
-  isExternal: false
-  name: PropertyInfo
-  nameWithType: PropertyInfo
-  fullName: System.Reflection.PropertyInfo
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
-- uid: System.Reflection.BindingFlags
-  parent: System.Reflection
-  isExternal: false
-  name: BindingFlags
-  nameWithType: BindingFlags
-  fullName: System.Reflection.BindingFlags
-- uid: System.Reflection.Binder
-  parent: System.Reflection
-  isExternal: false
-  name: Binder
-  nameWithType: Binder
-  fullName: System.Reflection.Binder
 - uid: System.Type
   parent: System
   isExternal: false
   name: Type
   nameWithType: Type
   fullName: System.Type
-- uid: System.Type
-  parent: System
-  isExternal: false
-  name: Type
-  nameWithType: Type
-  fullName: System.Type[]
-- uid: System.Reflection.ParameterModifier
-  parent: System.Reflection
-  isExternal: false
-  name: ParameterModifier
-  nameWithType: ParameterModifier
-  fullName: System.Reflection.ParameterModifier[]
 - uid: System.Reflection.IReflect.InvokeMember(System.String,System.Reflection.BindingFlags,System.Reflection.Binder,System.Object,System.Object[],System.Reflection.ParameterModifier[],System.Globalization.CultureInfo,System.String[])
   parent: System.Reflection.IReflect
   isExternal: false
@@ -698,66 +638,46 @@ references:
   name: Object
   nameWithType: Object
   fullName: System.Object
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
-- uid: System.Reflection.BindingFlags
-  parent: System.Reflection
-  isExternal: false
-  name: BindingFlags
-  nameWithType: BindingFlags
-  fullName: System.Reflection.BindingFlags
-- uid: System.Reflection.Binder
-  parent: System.Reflection
-  isExternal: false
-  name: Binder
-  nameWithType: Binder
-  fullName: System.Reflection.Binder
-- uid: System.Object
-  parent: System
-  isExternal: false
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
-- uid: System.Object
+- uid: System.Object[]
   parent: System
   isExternal: false
   name: Object
   nameWithType: Object
   fullName: System.Object[]
-- uid: System.Reflection.ParameterModifier
-  parent: System.Reflection
-  isExternal: false
-  name: ParameterModifier
-  nameWithType: ParameterModifier
-  fullName: System.Reflection.ParameterModifier[]
+  spec.csharp:
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: Object[]
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
 - uid: System.Globalization.CultureInfo
   parent: System.Globalization
   isExternal: false
   name: CultureInfo
   nameWithType: CultureInfo
   fullName: System.Globalization.CultureInfo
-- uid: System.String
+- uid: System.String[]
   parent: System
   isExternal: false
   name: String
   nameWithType: String
   fullName: System.String[]
+  spec.csharp:
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: String[]
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
 - uid: System.Reflection.IReflect.UnderlyingSystemType
   parent: System.Reflection.IReflect
   isExternal: false
   name: UnderlyingSystemType
   nameWithType: IReflect.UnderlyingSystemType
   fullName: System.Reflection.IReflect.UnderlyingSystemType
-- uid: System.Type
-  parent: System
-  isExternal: false
-  name: Type
-  nameWithType: Type
-  fullName: System.Type
 - uid: System.Reflection.IReflect.GetField*
   parent: System.Reflection.IReflect
   isExternal: false

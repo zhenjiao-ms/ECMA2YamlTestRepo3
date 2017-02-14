@@ -46,6 +46,7 @@ items:
     return:
       type: System.Security.Principal.WindowsAccountType
       description: To be added.
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -68,6 +69,7 @@ items:
     return:
       type: System.Security.Principal.WindowsAccountType
       description: To be added.
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -90,6 +92,7 @@ items:
     return:
       type: System.Security.Principal.WindowsAccountType
       description: To be added.
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -112,6 +115,7 @@ items:
     return:
       type: System.Security.Principal.WindowsAccountType
       description: To be added.
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -138,33 +142,15 @@ references:
   name: Guest
   nameWithType: WindowsAccountType.Guest
   fullName: System.Security.Principal.WindowsAccountType.Guest
-- uid: System.Security.Principal.WindowsAccountType
-  parent: System.Security.Principal
-  isExternal: false
-  name: WindowsAccountType
-  nameWithType: WindowsAccountType
-  fullName: System.Security.Principal.WindowsAccountType
 - uid: System.Security.Principal.WindowsAccountType.Normal
   parent: System.Security.Principal.WindowsAccountType
   isExternal: false
   name: Normal
   nameWithType: WindowsAccountType.Normal
   fullName: System.Security.Principal.WindowsAccountType.Normal
-- uid: System.Security.Principal.WindowsAccountType
-  parent: System.Security.Principal
-  isExternal: false
-  name: WindowsAccountType
-  nameWithType: WindowsAccountType
-  fullName: System.Security.Principal.WindowsAccountType
 - uid: System.Security.Principal.WindowsAccountType.System
   parent: System.Security.Principal.WindowsAccountType
   isExternal: false
   name: System
   nameWithType: WindowsAccountType.System
   fullName: System.Security.Principal.WindowsAccountType.System
-- uid: System.Security.Principal.WindowsAccountType
-  parent: System.Security.Principal
-  isExternal: false
-  name: WindowsAccountType
-  nameWithType: WindowsAccountType
-  fullName: System.Security.Principal.WindowsAccountType

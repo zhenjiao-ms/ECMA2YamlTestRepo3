@@ -76,6 +76,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.Threading.CountdownEvent.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -98,6 +99,7 @@ items:
     content: public void AddCount ();
     parameters: []
   overload: System.Threading.CountdownEvent.AddCount*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -123,6 +125,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.Threading.CountdownEvent.AddCount*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -147,6 +150,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.Threading.CountdownEvent.CurrentCount*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -169,6 +173,7 @@ items:
     content: public void Dispose ();
     parameters: []
   overload: System.Threading.CountdownEvent.Dispose*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -194,6 +199,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Threading.CountdownEvent.Dispose*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -218,6 +224,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.Threading.CountdownEvent.InitialCount*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -242,6 +249,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Threading.CountdownEvent.IsSet*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -264,6 +272,7 @@ items:
     content: public void Reset ();
     parameters: []
   overload: System.Threading.CountdownEvent.Reset*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -289,6 +298,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.Threading.CountdownEvent.Reset*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -314,6 +324,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Threading.CountdownEvent.Signal*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -342,6 +353,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Threading.CountdownEvent.Signal*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -367,6 +379,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Threading.CountdownEvent.TryAddCount*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -395,6 +408,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Threading.CountdownEvent.TryAddCount*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -417,6 +431,7 @@ items:
     content: public void Wait ();
     parameters: []
   overload: System.Threading.CountdownEvent.Wait*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -445,6 +460,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Threading.CountdownEvent.Wait*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -470,6 +486,7 @@ items:
       type: System.Threading.CancellationToken
       description: To be added.
   overload: System.Threading.CountdownEvent.Wait*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -498,6 +515,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Threading.CountdownEvent.Wait*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -529,6 +547,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Threading.CountdownEvent.Wait*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -560,6 +579,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Threading.CountdownEvent.Wait*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -584,6 +604,7 @@ items:
       type: System.Threading.WaitHandle
       description: To be added.
   overload: System.Threading.CountdownEvent.WaitHandle*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -616,24 +637,12 @@ references:
   name: AddCount(Int32)
   nameWithType: CountdownEvent.AddCount(Int32)
   fullName: System.Threading.CountdownEvent.AddCount(Int32)
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
 - uid: System.Threading.CountdownEvent.CurrentCount
   parent: System.Threading.CountdownEvent
   isExternal: false
   name: CurrentCount
   nameWithType: CountdownEvent.CurrentCount
   fullName: System.Threading.CountdownEvent.CurrentCount
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
 - uid: System.Threading.CountdownEvent.Dispose
   parent: System.Threading.CountdownEvent
   isExternal: false
@@ -658,24 +667,12 @@ references:
   name: InitialCount
   nameWithType: CountdownEvent.InitialCount
   fullName: System.Threading.CountdownEvent.InitialCount
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
 - uid: System.Threading.CountdownEvent.IsSet
   parent: System.Threading.CountdownEvent
   isExternal: false
   name: IsSet
   nameWithType: CountdownEvent.IsSet
   fullName: System.Threading.CountdownEvent.IsSet
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
 - uid: System.Threading.CountdownEvent.Reset
   parent: System.Threading.CountdownEvent
   isExternal: false
@@ -688,72 +685,30 @@ references:
   name: Reset(Int32)
   nameWithType: CountdownEvent.Reset(Int32)
   fullName: System.Threading.CountdownEvent.Reset(Int32)
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
 - uid: System.Threading.CountdownEvent.Signal
   parent: System.Threading.CountdownEvent
   isExternal: false
   name: Signal()
   nameWithType: CountdownEvent.Signal()
   fullName: System.Threading.CountdownEvent.Signal()
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
 - uid: System.Threading.CountdownEvent.Signal(System.Int32)
   parent: System.Threading.CountdownEvent
   isExternal: false
   name: Signal(Int32)
   nameWithType: CountdownEvent.Signal(Int32)
   fullName: System.Threading.CountdownEvent.Signal(Int32)
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
 - uid: System.Threading.CountdownEvent.TryAddCount
   parent: System.Threading.CountdownEvent
   isExternal: false
   name: TryAddCount()
   nameWithType: CountdownEvent.TryAddCount()
   fullName: System.Threading.CountdownEvent.TryAddCount()
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
 - uid: System.Threading.CountdownEvent.TryAddCount(System.Int32)
   parent: System.Threading.CountdownEvent
   isExternal: false
   name: TryAddCount(Int32)
   nameWithType: CountdownEvent.TryAddCount(Int32)
   fullName: System.Threading.CountdownEvent.TryAddCount(Int32)
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
 - uid: System.Threading.CountdownEvent.Wait
   parent: System.Threading.CountdownEvent
   isExternal: false
@@ -766,18 +721,6 @@ references:
   name: Wait(Int32)
   nameWithType: CountdownEvent.Wait(Int32)
   fullName: System.Threading.CountdownEvent.Wait(Int32)
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
 - uid: System.Threading.CountdownEvent.Wait(System.Threading.CancellationToken)
   parent: System.Threading.CountdownEvent
   isExternal: false
@@ -796,12 +739,6 @@ references:
   name: Wait(TimeSpan)
   nameWithType: CountdownEvent.Wait(TimeSpan)
   fullName: System.Threading.CountdownEvent.Wait(TimeSpan)
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
 - uid: System.TimeSpan
   parent: System
   isExternal: false
@@ -814,48 +751,12 @@ references:
   name: Wait(Int32,CancellationToken)
   nameWithType: CountdownEvent.Wait(Int32,CancellationToken)
   fullName: System.Threading.CountdownEvent.Wait(Int32,CancellationToken)
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: System.Threading.CancellationToken
-  parent: System.Threading
-  isExternal: false
-  name: CancellationToken
-  nameWithType: CancellationToken
-  fullName: System.Threading.CancellationToken
 - uid: System.Threading.CountdownEvent.Wait(System.TimeSpan,System.Threading.CancellationToken)
   parent: System.Threading.CountdownEvent
   isExternal: false
   name: Wait(TimeSpan,CancellationToken)
   nameWithType: CountdownEvent.Wait(TimeSpan,CancellationToken)
   fullName: System.Threading.CountdownEvent.Wait(TimeSpan,CancellationToken)
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
-- uid: System.TimeSpan
-  parent: System
-  isExternal: false
-  name: TimeSpan
-  nameWithType: TimeSpan
-  fullName: System.TimeSpan
-- uid: System.Threading.CancellationToken
-  parent: System.Threading
-  isExternal: false
-  name: CancellationToken
-  nameWithType: CancellationToken
-  fullName: System.Threading.CancellationToken
 - uid: System.Threading.CountdownEvent.WaitHandle
   parent: System.Threading.CountdownEvent
   isExternal: false

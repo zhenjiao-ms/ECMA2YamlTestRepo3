@@ -67,6 +67,7 @@ items:
       type: System.Runtime.Remoting.WellKnownObjectMode
       description: To be added.
   overload: System.Runtime.Remoting.WellKnownServiceTypeEntry.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -101,6 +102,7 @@ items:
       type: System.Runtime.Remoting.WellKnownObjectMode
       description: To be added.
   overload: System.Runtime.Remoting.WellKnownServiceTypeEntry.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -125,6 +127,7 @@ items:
       type: System.Runtime.Remoting.Contexts.IContextAttribute[]
       description: To be added.
   overload: System.Runtime.Remoting.WellKnownServiceTypeEntry.ContextAttributes*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -149,6 +152,7 @@ items:
       type: System.Runtime.Remoting.WellKnownObjectMode
       description: To be added.
   overload: System.Runtime.Remoting.WellKnownServiceTypeEntry.Mode*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -173,6 +177,7 @@ items:
       type: System.Type
       description: To be added.
   overload: System.Runtime.Remoting.WellKnownServiceTypeEntry.ObjectType*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -197,6 +202,7 @@ items:
       type: System.String
       description: To be added.
   overload: System.Runtime.Remoting.WellKnownServiceTypeEntry.ObjectUri*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -222,6 +228,7 @@ items:
       type: System.String
       description: To be added.
   overload: System.Runtime.Remoting.WellKnownServiceTypeEntry.ToString*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -260,90 +267,50 @@ references:
   name: WellKnownServiceTypeEntry(String,String,String,WellKnownObjectMode)
   nameWithType: WellKnownServiceTypeEntry.WellKnownServiceTypeEntry(String,String,String,WellKnownObjectMode)
   fullName: System.Runtime.Remoting.WellKnownServiceTypeEntry.WellKnownServiceTypeEntry(String,String,String,WellKnownObjectMode)
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
-- uid: System.Runtime.Remoting.WellKnownObjectMode
-  parent: System.Runtime.Remoting
-  isExternal: false
-  name: WellKnownObjectMode
-  nameWithType: WellKnownObjectMode
-  fullName: System.Runtime.Remoting.WellKnownObjectMode
 - uid: System.Runtime.Remoting.WellKnownServiceTypeEntry.ContextAttributes
   parent: System.Runtime.Remoting.WellKnownServiceTypeEntry
   isExternal: false
   name: ContextAttributes
   nameWithType: WellKnownServiceTypeEntry.ContextAttributes
   fullName: System.Runtime.Remoting.WellKnownServiceTypeEntry.ContextAttributes
-- uid: System.Runtime.Remoting.Contexts.IContextAttribute
+- uid: System.Runtime.Remoting.Contexts.IContextAttribute[]
   parent: System.Runtime.Remoting.Contexts
   isExternal: false
   name: IContextAttribute
   nameWithType: IContextAttribute
   fullName: System.Runtime.Remoting.Contexts.IContextAttribute[]
+  spec.csharp:
+  - uid: System.Runtime.Remoting.Contexts.IContextAttribute
+    name: IContextAttribute
+    nameWithType: IContextAttribute
+    fullName: IContextAttribute[]
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
 - uid: System.Runtime.Remoting.WellKnownServiceTypeEntry.Mode
   parent: System.Runtime.Remoting.WellKnownServiceTypeEntry
   isExternal: false
   name: Mode
   nameWithType: WellKnownServiceTypeEntry.Mode
   fullName: System.Runtime.Remoting.WellKnownServiceTypeEntry.Mode
-- uid: System.Runtime.Remoting.WellKnownObjectMode
-  parent: System.Runtime.Remoting
-  isExternal: false
-  name: WellKnownObjectMode
-  nameWithType: WellKnownObjectMode
-  fullName: System.Runtime.Remoting.WellKnownObjectMode
 - uid: System.Runtime.Remoting.WellKnownServiceTypeEntry.ObjectType
   parent: System.Runtime.Remoting.WellKnownServiceTypeEntry
   isExternal: false
   name: ObjectType
   nameWithType: WellKnownServiceTypeEntry.ObjectType
   fullName: System.Runtime.Remoting.WellKnownServiceTypeEntry.ObjectType
-- uid: System.Type
-  parent: System
-  isExternal: false
-  name: Type
-  nameWithType: Type
-  fullName: System.Type
 - uid: System.Runtime.Remoting.WellKnownServiceTypeEntry.ObjectUri
   parent: System.Runtime.Remoting.WellKnownServiceTypeEntry
   isExternal: false
   name: ObjectUri
   nameWithType: WellKnownServiceTypeEntry.ObjectUri
   fullName: System.Runtime.Remoting.WellKnownServiceTypeEntry.ObjectUri
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
 - uid: System.Runtime.Remoting.WellKnownServiceTypeEntry.ToString
   parent: System.Runtime.Remoting.WellKnownServiceTypeEntry
   isExternal: false
   name: ToString()
   nameWithType: WellKnownServiceTypeEntry.ToString()
   fullName: System.Runtime.Remoting.WellKnownServiceTypeEntry.ToString()
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
 - uid: System.Runtime.Remoting.WellKnownServiceTypeEntry.#ctor*
   parent: System.Runtime.Remoting.WellKnownServiceTypeEntry
   isExternal: false

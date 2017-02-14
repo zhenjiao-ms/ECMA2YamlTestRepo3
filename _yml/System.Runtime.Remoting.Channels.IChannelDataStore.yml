@@ -43,6 +43,7 @@ items:
       type: System.String[]
       description: To be added.
   overload: System.Runtime.Remoting.Channels.IChannelDataStore.ChannelUris*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -71,6 +72,7 @@ items:
       type: System.Object
       description: To be added.
   overload: System.Runtime.Remoting.Channels.IChannelDataStore.Item*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -82,24 +84,26 @@ references:
   name: ChannelUris
   nameWithType: IChannelDataStore.ChannelUris
   fullName: System.Runtime.Remoting.Channels.IChannelDataStore.ChannelUris
-- uid: System.String
+- uid: System.String[]
   parent: System
   isExternal: false
   name: String
   nameWithType: String
   fullName: System.String[]
+  spec.csharp:
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: String[]
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
 - uid: System.Runtime.Remoting.Channels.IChannelDataStore.Item(System.Object)
   parent: System.Runtime.Remoting.Channels.IChannelDataStore
   isExternal: false
   name: Item(Object)
   nameWithType: IChannelDataStore.Item(Object)
   fullName: System.Runtime.Remoting.Channels.IChannelDataStore.Item(Object)
-- uid: System.Object
-  parent: System
-  isExternal: false
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
 - uid: System.Object
   parent: System
   isExternal: false

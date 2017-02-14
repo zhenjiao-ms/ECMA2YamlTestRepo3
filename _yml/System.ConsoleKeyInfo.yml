@@ -63,6 +63,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.ConsoleKeyInfo.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -91,6 +92,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.ConsoleKeyInfo.Equals*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -119,6 +121,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.ConsoleKeyInfo.Equals*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -144,6 +147,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.ConsoleKeyInfo.GetHashCode*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -168,6 +172,7 @@ items:
       type: System.ConsoleKey
       description: To be added.
   overload: System.ConsoleKeyInfo.Key*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -192,6 +197,7 @@ items:
       type: System.Char
       description: To be added.
   overload: System.ConsoleKeyInfo.KeyChar*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -216,6 +222,7 @@ items:
       type: System.ConsoleModifiers
       description: To be added.
   overload: System.ConsoleKeyInfo.Modifiers*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -247,6 +254,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.ConsoleKeyInfo.op_Equality*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -278,6 +286,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.ConsoleKeyInfo.op_Inequality*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -310,30 +319,12 @@ references:
   name: Boolean
   nameWithType: Boolean
   fullName: System.Boolean
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
 - uid: System.ConsoleKeyInfo.Equals(System.ConsoleKeyInfo)
   parent: System.ConsoleKeyInfo
   isExternal: false
   name: Equals(ConsoleKeyInfo)
   nameWithType: ConsoleKeyInfo.Equals(ConsoleKeyInfo)
   fullName: System.ConsoleKeyInfo.Equals(ConsoleKeyInfo)
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
 - uid: System.ConsoleKeyInfo
   parent: System
   isExternal: false
@@ -346,12 +337,6 @@ references:
   name: Equals(Object)
   nameWithType: ConsoleKeyInfo.Equals(Object)
   fullName: System.ConsoleKeyInfo.Equals(Object)
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
 - uid: System.Object
   parent: System
   isExternal: false
@@ -376,24 +361,12 @@ references:
   name: Key
   nameWithType: ConsoleKeyInfo.Key
   fullName: System.ConsoleKeyInfo.Key
-- uid: System.ConsoleKey
-  parent: System
-  isExternal: false
-  name: ConsoleKey
-  nameWithType: ConsoleKey
-  fullName: System.ConsoleKey
 - uid: System.ConsoleKeyInfo.KeyChar
   parent: System.ConsoleKeyInfo
   isExternal: false
   name: KeyChar
   nameWithType: ConsoleKeyInfo.KeyChar
   fullName: System.ConsoleKeyInfo.KeyChar
-- uid: System.Char
-  parent: System
-  isExternal: false
-  name: Char
-  nameWithType: Char
-  fullName: System.Char
 - uid: System.ConsoleKeyInfo.Modifiers
   parent: System.ConsoleKeyInfo
   isExternal: false
@@ -412,48 +385,12 @@ references:
   name: op_Equality(ConsoleKeyInfo,ConsoleKeyInfo)
   nameWithType: ConsoleKeyInfo.op_Equality(ConsoleKeyInfo,ConsoleKeyInfo)
   fullName: System.ConsoleKeyInfo.op_Equality(ConsoleKeyInfo,ConsoleKeyInfo)
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
-- uid: System.ConsoleKeyInfo
-  parent: System
-  isExternal: false
-  name: ConsoleKeyInfo
-  nameWithType: ConsoleKeyInfo
-  fullName: System.ConsoleKeyInfo
-- uid: System.ConsoleKeyInfo
-  parent: System
-  isExternal: false
-  name: ConsoleKeyInfo
-  nameWithType: ConsoleKeyInfo
-  fullName: System.ConsoleKeyInfo
 - uid: System.ConsoleKeyInfo.op_Inequality(System.ConsoleKeyInfo,System.ConsoleKeyInfo)
   parent: System.ConsoleKeyInfo
   isExternal: false
   name: op_Inequality(ConsoleKeyInfo,ConsoleKeyInfo)
   nameWithType: ConsoleKeyInfo.op_Inequality(ConsoleKeyInfo,ConsoleKeyInfo)
   fullName: System.ConsoleKeyInfo.op_Inequality(ConsoleKeyInfo,ConsoleKeyInfo)
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
-- uid: System.ConsoleKeyInfo
-  parent: System
-  isExternal: false
-  name: ConsoleKeyInfo
-  nameWithType: ConsoleKeyInfo
-  fullName: System.ConsoleKeyInfo
-- uid: System.ConsoleKeyInfo
-  parent: System
-  isExternal: false
-  name: ConsoleKeyInfo
-  nameWithType: ConsoleKeyInfo
-  fullName: System.ConsoleKeyInfo
 - uid: System.ConsoleKeyInfo.#ctor*
   parent: System.ConsoleKeyInfo
   isExternal: false

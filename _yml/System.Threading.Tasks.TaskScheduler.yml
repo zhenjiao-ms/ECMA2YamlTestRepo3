@@ -63,6 +63,7 @@ items:
     content: protected TaskScheduler ();
     parameters: []
   overload: System.Threading.Tasks.TaskScheduler.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -87,6 +88,7 @@ items:
       type: System.Threading.Tasks.TaskScheduler
       description: To be added.
   overload: System.Threading.Tasks.TaskScheduler.Current*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -111,6 +113,7 @@ items:
       type: System.Threading.Tasks.TaskScheduler
       description: To be added.
   overload: System.Threading.Tasks.TaskScheduler.Default*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -136,6 +139,7 @@ items:
       type: System.Threading.Tasks.TaskScheduler
       description: To be added.
   overload: System.Threading.Tasks.TaskScheduler.FromCurrentSynchronizationContext*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -161,6 +165,7 @@ items:
       type: System.Collections.Generic.IEnumerable{System.Threading.Tasks.Task}
       description: To be added.
   overload: System.Threading.Tasks.TaskScheduler.GetScheduledTasks*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -185,6 +190,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.Threading.Tasks.TaskScheduler.Id*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -209,6 +215,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.Threading.Tasks.TaskScheduler.MaximumConcurrencyLevel*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -234,6 +241,7 @@ items:
       type: System.Threading.Tasks.Task
       description: To be added.
   overload: System.Threading.Tasks.TaskScheduler.QueueTask*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -262,6 +270,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Threading.Tasks.TaskScheduler.TryDequeue*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -290,6 +299,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Threading.Tasks.TaskScheduler.TryExecuteTask*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -321,6 +331,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Threading.Tasks.TaskScheduler.TryExecuteTaskInline*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -344,6 +355,7 @@ items:
     return:
       type: System.EventHandler{System.Threading.Tasks.UnobservedTaskExceptionEventArgs}
       description: To be added.
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -376,24 +388,12 @@ references:
   name: Default
   nameWithType: TaskScheduler.Default
   fullName: System.Threading.Tasks.TaskScheduler.Default
-- uid: System.Threading.Tasks.TaskScheduler
-  parent: System.Threading.Tasks
-  isExternal: false
-  name: TaskScheduler
-  nameWithType: TaskScheduler
-  fullName: System.Threading.Tasks.TaskScheduler
 - uid: System.Threading.Tasks.TaskScheduler.FromCurrentSynchronizationContext
   parent: System.Threading.Tasks.TaskScheduler
   isExternal: false
   name: FromCurrentSynchronizationContext()
   nameWithType: TaskScheduler.FromCurrentSynchronizationContext()
   fullName: System.Threading.Tasks.TaskScheduler.FromCurrentSynchronizationContext()
-- uid: System.Threading.Tasks.TaskScheduler
-  parent: System.Threading.Tasks
-  isExternal: false
-  name: TaskScheduler
-  nameWithType: TaskScheduler
-  fullName: System.Threading.Tasks.TaskScheduler
 - uid: System.Threading.Tasks.TaskScheduler.GetScheduledTasks
   parent: System.Threading.Tasks.TaskScheduler
   isExternal: false
@@ -406,6 +406,21 @@ references:
   name: IEnumerable<Task>
   nameWithType: IEnumerable<Task>
   fullName: System.Collections.Generic.IEnumerable<System.Threading.Tasks.Task>
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: IEnumerable<System.Threading.Tasks.Task>
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Threading.Tasks.Task
+    name: Task
+    nameWithType: Task
+    fullName: Task
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
 - uid: System.Threading.Tasks.TaskScheduler.Id
   parent: System.Threading.Tasks.TaskScheduler
   isExternal: false
@@ -424,12 +439,6 @@ references:
   name: MaximumConcurrencyLevel
   nameWithType: TaskScheduler.MaximumConcurrencyLevel
   fullName: System.Threading.Tasks.TaskScheduler.MaximumConcurrencyLevel
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
 - uid: System.Threading.Tasks.TaskScheduler.QueueTask(System.Threading.Tasks.Task)
   parent: System.Threading.Tasks.TaskScheduler
   isExternal: false
@@ -454,54 +463,18 @@ references:
   name: Boolean
   nameWithType: Boolean
   fullName: System.Boolean
-- uid: System.Threading.Tasks.Task
-  parent: System.Threading.Tasks
-  isExternal: false
-  name: Task
-  nameWithType: Task
-  fullName: System.Threading.Tasks.Task
 - uid: System.Threading.Tasks.TaskScheduler.TryExecuteTask(System.Threading.Tasks.Task)
   parent: System.Threading.Tasks.TaskScheduler
   isExternal: false
   name: TryExecuteTask(Task)
   nameWithType: TaskScheduler.TryExecuteTask(Task)
   fullName: System.Threading.Tasks.TaskScheduler.TryExecuteTask(Task)
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
-- uid: System.Threading.Tasks.Task
-  parent: System.Threading.Tasks
-  isExternal: false
-  name: Task
-  nameWithType: Task
-  fullName: System.Threading.Tasks.Task
 - uid: System.Threading.Tasks.TaskScheduler.TryExecuteTaskInline(System.Threading.Tasks.Task,System.Boolean)
   parent: System.Threading.Tasks.TaskScheduler
   isExternal: false
   name: TryExecuteTaskInline(Task,Boolean)
   nameWithType: TaskScheduler.TryExecuteTaskInline(Task,Boolean)
   fullName: System.Threading.Tasks.TaskScheduler.TryExecuteTaskInline(Task,Boolean)
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
-- uid: System.Threading.Tasks.Task
-  parent: System.Threading.Tasks
-  isExternal: false
-  name: Task
-  nameWithType: Task
-  fullName: System.Threading.Tasks.Task
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
 - uid: System.Threading.Tasks.TaskScheduler.UnobservedTaskException
   parent: System.Threading.Tasks.TaskScheduler
   isExternal: false
@@ -514,6 +487,21 @@ references:
   name: EventHandler<UnobservedTaskExceptionEventArgs>
   nameWithType: EventHandler<UnobservedTaskExceptionEventArgs>
   fullName: System.EventHandler<System.Threading.Tasks.UnobservedTaskExceptionEventArgs>
+  spec.csharp:
+  - uid: System.EventHandler`1
+    name: EventHandler
+    nameWithType: EventHandler
+    fullName: EventHandler<System.Threading.Tasks.UnobservedTaskExceptionEventArgs>
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Threading.Tasks.UnobservedTaskExceptionEventArgs
+    name: UnobservedTaskExceptionEventArgs
+    nameWithType: UnobservedTaskExceptionEventArgs
+    fullName: UnobservedTaskExceptionEventArgs
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
 - uid: System.Threading.Tasks.TaskScheduler.#ctor*
   parent: System.Threading.Tasks.TaskScheduler
   isExternal: false

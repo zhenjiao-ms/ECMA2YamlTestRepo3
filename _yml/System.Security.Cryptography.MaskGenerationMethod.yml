@@ -51,6 +51,7 @@ items:
     content: protected MaskGenerationMethod ();
     parameters: []
   overload: System.Security.Cryptography.MaskGenerationMethod.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -82,6 +83,7 @@ items:
       type: System.Byte[]
       description: To be added.
   overload: System.Security.Cryptography.MaskGenerationMethod.GenerateMask*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -102,18 +104,20 @@ references:
   name: GenerateMask(Byte[],Int32)
   nameWithType: MaskGenerationMethod.GenerateMask(Byte[],Int32)
   fullName: System.Security.Cryptography.MaskGenerationMethod.GenerateMask(Byte[],Int32)
-- uid: System.Byte
+- uid: System.Byte[]
   parent: System
   isExternal: false
   name: Byte
   nameWithType: Byte
   fullName: System.Byte[]
-- uid: System.Byte
-  parent: System
-  isExternal: false
-  name: Byte
-  nameWithType: Byte
-  fullName: System.Byte[]
+  spec.csharp:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: Byte[]
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
 - uid: System.Int32
   parent: System
   isExternal: false

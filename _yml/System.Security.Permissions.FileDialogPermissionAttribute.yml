@@ -102,6 +102,7 @@ items:
       type: System.Security.Permissions.SecurityAction
       description: To be added.
   overload: System.Security.Permissions.FileDialogPermissionAttribute.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -127,6 +128,7 @@ items:
       type: System.Security.IPermission
       description: To be added.
   overload: System.Security.Permissions.FileDialogPermissionAttribute.CreatePermission*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -151,6 +153,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Security.Permissions.FileDialogPermissionAttribute.Open*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -175,6 +178,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Security.Permissions.FileDialogPermissionAttribute.Save*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -225,12 +229,6 @@ references:
   name: Save
   nameWithType: FileDialogPermissionAttribute.Save
   fullName: System.Security.Permissions.FileDialogPermissionAttribute.Save
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
 - uid: System.Security.Permissions.FileDialogPermissionAttribute.#ctor*
   parent: System.Security.Permissions.FileDialogPermissionAttribute
   isExternal: false

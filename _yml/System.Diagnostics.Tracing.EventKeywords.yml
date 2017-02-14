@@ -52,6 +52,7 @@ items:
     return:
       type: System.Diagnostics.Tracing.EventKeywords
       description: To be added.
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -74,6 +75,7 @@ items:
     return:
       type: System.Diagnostics.Tracing.EventKeywords
       description: To be added.
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -96,6 +98,7 @@ items:
     return:
       type: System.Diagnostics.Tracing.EventKeywords
       description: To be added.
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -118,6 +121,7 @@ items:
     return:
       type: System.Diagnostics.Tracing.EventKeywords
       description: To be added.
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -140,6 +144,7 @@ items:
     return:
       type: System.Diagnostics.Tracing.EventKeywords
       description: To be added.
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -162,6 +167,7 @@ items:
     return:
       type: System.Diagnostics.Tracing.EventKeywords
       description: To be added.
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -184,6 +190,7 @@ items:
     return:
       type: System.Diagnostics.Tracing.EventKeywords
       description: To be added.
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -206,6 +213,7 @@ items:
     return:
       type: System.Diagnostics.Tracing.EventKeywords
       description: To be added.
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -228,6 +236,7 @@ items:
     return:
       type: System.Diagnostics.Tracing.EventKeywords
       description: To be added.
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -250,6 +259,7 @@ items:
     return:
       type: System.Diagnostics.Tracing.EventKeywords
       description: To be added.
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -276,105 +286,51 @@ references:
   name: AuditFailure
   nameWithType: EventKeywords.AuditFailure
   fullName: System.Diagnostics.Tracing.EventKeywords.AuditFailure
-- uid: System.Diagnostics.Tracing.EventKeywords
-  parent: System.Diagnostics.Tracing
-  isExternal: false
-  name: EventKeywords
-  nameWithType: EventKeywords
-  fullName: System.Diagnostics.Tracing.EventKeywords
 - uid: System.Diagnostics.Tracing.EventKeywords.AuditSuccess
   parent: System.Diagnostics.Tracing.EventKeywords
   isExternal: false
   name: AuditSuccess
   nameWithType: EventKeywords.AuditSuccess
   fullName: System.Diagnostics.Tracing.EventKeywords.AuditSuccess
-- uid: System.Diagnostics.Tracing.EventKeywords
-  parent: System.Diagnostics.Tracing
-  isExternal: false
-  name: EventKeywords
-  nameWithType: EventKeywords
-  fullName: System.Diagnostics.Tracing.EventKeywords
 - uid: System.Diagnostics.Tracing.EventKeywords.CorrelationHint
   parent: System.Diagnostics.Tracing.EventKeywords
   isExternal: false
   name: CorrelationHint
   nameWithType: EventKeywords.CorrelationHint
   fullName: System.Diagnostics.Tracing.EventKeywords.CorrelationHint
-- uid: System.Diagnostics.Tracing.EventKeywords
-  parent: System.Diagnostics.Tracing
-  isExternal: false
-  name: EventKeywords
-  nameWithType: EventKeywords
-  fullName: System.Diagnostics.Tracing.EventKeywords
 - uid: System.Diagnostics.Tracing.EventKeywords.EventLogClassic
   parent: System.Diagnostics.Tracing.EventKeywords
   isExternal: false
   name: EventLogClassic
   nameWithType: EventKeywords.EventLogClassic
   fullName: System.Diagnostics.Tracing.EventKeywords.EventLogClassic
-- uid: System.Diagnostics.Tracing.EventKeywords
-  parent: System.Diagnostics.Tracing
-  isExternal: false
-  name: EventKeywords
-  nameWithType: EventKeywords
-  fullName: System.Diagnostics.Tracing.EventKeywords
 - uid: System.Diagnostics.Tracing.EventKeywords.MicrosoftTelemetry
   parent: System.Diagnostics.Tracing.EventKeywords
   isExternal: false
   name: MicrosoftTelemetry
   nameWithType: EventKeywords.MicrosoftTelemetry
   fullName: System.Diagnostics.Tracing.EventKeywords.MicrosoftTelemetry
-- uid: System.Diagnostics.Tracing.EventKeywords
-  parent: System.Diagnostics.Tracing
-  isExternal: false
-  name: EventKeywords
-  nameWithType: EventKeywords
-  fullName: System.Diagnostics.Tracing.EventKeywords
 - uid: System.Diagnostics.Tracing.EventKeywords.None
   parent: System.Diagnostics.Tracing.EventKeywords
   isExternal: false
   name: None
   nameWithType: EventKeywords.None
   fullName: System.Diagnostics.Tracing.EventKeywords.None
-- uid: System.Diagnostics.Tracing.EventKeywords
-  parent: System.Diagnostics.Tracing
-  isExternal: false
-  name: EventKeywords
-  nameWithType: EventKeywords
-  fullName: System.Diagnostics.Tracing.EventKeywords
 - uid: System.Diagnostics.Tracing.EventKeywords.Sqm
   parent: System.Diagnostics.Tracing.EventKeywords
   isExternal: false
   name: Sqm
   nameWithType: EventKeywords.Sqm
   fullName: System.Diagnostics.Tracing.EventKeywords.Sqm
-- uid: System.Diagnostics.Tracing.EventKeywords
-  parent: System.Diagnostics.Tracing
-  isExternal: false
-  name: EventKeywords
-  nameWithType: EventKeywords
-  fullName: System.Diagnostics.Tracing.EventKeywords
 - uid: System.Diagnostics.Tracing.EventKeywords.WdiContext
   parent: System.Diagnostics.Tracing.EventKeywords
   isExternal: false
   name: WdiContext
   nameWithType: EventKeywords.WdiContext
   fullName: System.Diagnostics.Tracing.EventKeywords.WdiContext
-- uid: System.Diagnostics.Tracing.EventKeywords
-  parent: System.Diagnostics.Tracing
-  isExternal: false
-  name: EventKeywords
-  nameWithType: EventKeywords
-  fullName: System.Diagnostics.Tracing.EventKeywords
 - uid: System.Diagnostics.Tracing.EventKeywords.WdiDiagnostic
   parent: System.Diagnostics.Tracing.EventKeywords
   isExternal: false
   name: WdiDiagnostic
   nameWithType: EventKeywords.WdiDiagnostic
   fullName: System.Diagnostics.Tracing.EventKeywords.WdiDiagnostic
-- uid: System.Diagnostics.Tracing.EventKeywords
-  parent: System.Diagnostics.Tracing
-  isExternal: false
-  name: EventKeywords
-  nameWithType: EventKeywords
-  fullName: System.Diagnostics.Tracing.EventKeywords

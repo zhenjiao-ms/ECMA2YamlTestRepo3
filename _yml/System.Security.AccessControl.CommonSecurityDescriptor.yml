@@ -80,6 +80,7 @@ items:
       type: System.Security.AccessControl.RawSecurityDescriptor
       description: To be added.
   overload: System.Security.AccessControl.CommonSecurityDescriptor.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -111,6 +112,7 @@ items:
       type: System.String
       description: To be added.
   overload: System.Security.AccessControl.CommonSecurityDescriptor.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -145,6 +147,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.Security.AccessControl.CommonSecurityDescriptor.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -188,6 +191,7 @@ items:
       type: System.Security.AccessControl.DiscretionaryAcl
       description: To be added.
   overload: System.Security.AccessControl.CommonSecurityDescriptor.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -216,6 +220,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.Security.AccessControl.CommonSecurityDescriptor.AddDiscretionaryAcl*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -244,6 +249,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.Security.AccessControl.CommonSecurityDescriptor.AddSystemAcl*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -268,6 +274,7 @@ items:
       type: System.Security.AccessControl.ControlFlags
       description: To be added.
   overload: System.Security.AccessControl.CommonSecurityDescriptor.ControlFlags*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -292,6 +299,7 @@ items:
       type: System.Security.AccessControl.DiscretionaryAcl
       description: To be added.
   overload: System.Security.AccessControl.CommonSecurityDescriptor.DiscretionaryAcl*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -316,6 +324,7 @@ items:
       type: System.Security.Principal.SecurityIdentifier
       description: To be added.
   overload: System.Security.AccessControl.CommonSecurityDescriptor.Group*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -340,6 +349,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Security.AccessControl.CommonSecurityDescriptor.IsContainer*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -364,6 +374,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Security.AccessControl.CommonSecurityDescriptor.IsDiscretionaryAclCanonical*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -388,6 +399,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Security.AccessControl.CommonSecurityDescriptor.IsDS*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -412,6 +424,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Security.AccessControl.CommonSecurityDescriptor.IsSystemAclCanonical*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -436,6 +449,7 @@ items:
       type: System.Security.Principal.SecurityIdentifier
       description: To be added.
   overload: System.Security.AccessControl.CommonSecurityDescriptor.Owner*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -461,6 +475,7 @@ items:
       type: System.Security.Principal.SecurityIdentifier
       description: To be added.
   overload: System.Security.AccessControl.CommonSecurityDescriptor.PurgeAccessControl*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -486,6 +501,7 @@ items:
       type: System.Security.Principal.SecurityIdentifier
       description: To be added.
   overload: System.Security.AccessControl.CommonSecurityDescriptor.PurgeAudit*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -514,6 +530,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Security.AccessControl.CommonSecurityDescriptor.SetDiscretionaryAclProtection*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -542,6 +559,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Security.AccessControl.CommonSecurityDescriptor.SetSystemAclProtection*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -566,6 +584,7 @@ items:
       type: System.Security.AccessControl.SystemAcl
       description: To be added.
   overload: System.Security.AccessControl.CommonSecurityDescriptor.SystemAcl*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -586,12 +605,6 @@ references:
   name: Boolean
   nameWithType: Boolean
   fullName: System.Boolean
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
 - uid: System.Security.AccessControl.RawSecurityDescriptor
   parent: System.Security.AccessControl
   isExternal: false
@@ -604,18 +617,6 @@ references:
   name: CommonSecurityDescriptor(Boolean,Boolean,String)
   nameWithType: CommonSecurityDescriptor.CommonSecurityDescriptor(Boolean,Boolean,String)
   fullName: System.Security.AccessControl.CommonSecurityDescriptor.CommonSecurityDescriptor(Boolean,Boolean,String)
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
 - uid: System.String
   parent: System
   isExternal: false
@@ -628,24 +629,20 @@ references:
   name: CommonSecurityDescriptor(Boolean,Boolean,Byte[],Int32)
   nameWithType: CommonSecurityDescriptor.CommonSecurityDescriptor(Boolean,Boolean,Byte[],Int32)
   fullName: System.Security.AccessControl.CommonSecurityDescriptor.CommonSecurityDescriptor(Boolean,Boolean,Byte[],Int32)
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
-- uid: System.Byte
+- uid: System.Byte[]
   parent: System
   isExternal: false
   name: Byte
   nameWithType: Byte
   fullName: System.Byte[]
+  spec.csharp:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: Byte[]
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
 - uid: System.Int32
   parent: System
   isExternal: false
@@ -658,30 +655,12 @@ references:
   name: CommonSecurityDescriptor(Boolean,Boolean,ControlFlags,SecurityIdentifier,SecurityIdentifier,SystemAcl,DiscretionaryAcl)
   nameWithType: CommonSecurityDescriptor.CommonSecurityDescriptor(Boolean,Boolean,ControlFlags,SecurityIdentifier,SecurityIdentifier,SystemAcl,DiscretionaryAcl)
   fullName: System.Security.AccessControl.CommonSecurityDescriptor.CommonSecurityDescriptor(Boolean,Boolean,ControlFlags,SecurityIdentifier,SecurityIdentifier,SystemAcl,DiscretionaryAcl)
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
 - uid: System.Security.AccessControl.ControlFlags
   parent: System.Security.AccessControl
   isExternal: false
   name: ControlFlags
   nameWithType: ControlFlags
   fullName: System.Security.AccessControl.ControlFlags
-- uid: System.Security.Principal.SecurityIdentifier
-  parent: System.Security.Principal
-  isExternal: false
-  name: SecurityIdentifier
-  nameWithType: SecurityIdentifier
-  fullName: System.Security.Principal.SecurityIdentifier
 - uid: System.Security.Principal.SecurityIdentifier
   parent: System.Security.Principal
   isExternal: false
@@ -712,198 +691,90 @@ references:
   name: Byte
   nameWithType: Byte
   fullName: System.Byte
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
 - uid: System.Security.AccessControl.CommonSecurityDescriptor.AddSystemAcl(System.Byte,System.Int32)
   parent: System.Security.AccessControl.CommonSecurityDescriptor
   isExternal: false
   name: AddSystemAcl(Byte,Int32)
   nameWithType: CommonSecurityDescriptor.AddSystemAcl(Byte,Int32)
   fullName: System.Security.AccessControl.CommonSecurityDescriptor.AddSystemAcl(Byte,Int32)
-- uid: System.Byte
-  parent: System
-  isExternal: false
-  name: Byte
-  nameWithType: Byte
-  fullName: System.Byte
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
 - uid: System.Security.AccessControl.CommonSecurityDescriptor.ControlFlags
   parent: System.Security.AccessControl.CommonSecurityDescriptor
   isExternal: false
   name: ControlFlags
   nameWithType: CommonSecurityDescriptor.ControlFlags
   fullName: System.Security.AccessControl.CommonSecurityDescriptor.ControlFlags
-- uid: System.Security.AccessControl.ControlFlags
-  parent: System.Security.AccessControl
-  isExternal: false
-  name: ControlFlags
-  nameWithType: ControlFlags
-  fullName: System.Security.AccessControl.ControlFlags
 - uid: System.Security.AccessControl.CommonSecurityDescriptor.DiscretionaryAcl
   parent: System.Security.AccessControl.CommonSecurityDescriptor
   isExternal: false
   name: DiscretionaryAcl
   nameWithType: CommonSecurityDescriptor.DiscretionaryAcl
   fullName: System.Security.AccessControl.CommonSecurityDescriptor.DiscretionaryAcl
-- uid: System.Security.AccessControl.DiscretionaryAcl
-  parent: System.Security.AccessControl
-  isExternal: false
-  name: DiscretionaryAcl
-  nameWithType: DiscretionaryAcl
-  fullName: System.Security.AccessControl.DiscretionaryAcl
 - uid: System.Security.AccessControl.CommonSecurityDescriptor.Group
   parent: System.Security.AccessControl.CommonSecurityDescriptor
   isExternal: false
   name: Group
   nameWithType: CommonSecurityDescriptor.Group
   fullName: System.Security.AccessControl.CommonSecurityDescriptor.Group
-- uid: System.Security.Principal.SecurityIdentifier
-  parent: System.Security.Principal
-  isExternal: false
-  name: SecurityIdentifier
-  nameWithType: SecurityIdentifier
-  fullName: System.Security.Principal.SecurityIdentifier
 - uid: System.Security.AccessControl.CommonSecurityDescriptor.IsContainer
   parent: System.Security.AccessControl.CommonSecurityDescriptor
   isExternal: false
   name: IsContainer
   nameWithType: CommonSecurityDescriptor.IsContainer
   fullName: System.Security.AccessControl.CommonSecurityDescriptor.IsContainer
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
 - uid: System.Security.AccessControl.CommonSecurityDescriptor.IsDiscretionaryAclCanonical
   parent: System.Security.AccessControl.CommonSecurityDescriptor
   isExternal: false
   name: IsDiscretionaryAclCanonical
   nameWithType: CommonSecurityDescriptor.IsDiscretionaryAclCanonical
   fullName: System.Security.AccessControl.CommonSecurityDescriptor.IsDiscretionaryAclCanonical
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
 - uid: System.Security.AccessControl.CommonSecurityDescriptor.IsDS
   parent: System.Security.AccessControl.CommonSecurityDescriptor
   isExternal: false
   name: IsDS
   nameWithType: CommonSecurityDescriptor.IsDS
   fullName: System.Security.AccessControl.CommonSecurityDescriptor.IsDS
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
 - uid: System.Security.AccessControl.CommonSecurityDescriptor.IsSystemAclCanonical
   parent: System.Security.AccessControl.CommonSecurityDescriptor
   isExternal: false
   name: IsSystemAclCanonical
   nameWithType: CommonSecurityDescriptor.IsSystemAclCanonical
   fullName: System.Security.AccessControl.CommonSecurityDescriptor.IsSystemAclCanonical
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
 - uid: System.Security.AccessControl.CommonSecurityDescriptor.Owner
   parent: System.Security.AccessControl.CommonSecurityDescriptor
   isExternal: false
   name: Owner
   nameWithType: CommonSecurityDescriptor.Owner
   fullName: System.Security.AccessControl.CommonSecurityDescriptor.Owner
-- uid: System.Security.Principal.SecurityIdentifier
-  parent: System.Security.Principal
-  isExternal: false
-  name: SecurityIdentifier
-  nameWithType: SecurityIdentifier
-  fullName: System.Security.Principal.SecurityIdentifier
 - uid: System.Security.AccessControl.CommonSecurityDescriptor.PurgeAccessControl(System.Security.Principal.SecurityIdentifier)
   parent: System.Security.AccessControl.CommonSecurityDescriptor
   isExternal: false
   name: PurgeAccessControl(SecurityIdentifier)
   nameWithType: CommonSecurityDescriptor.PurgeAccessControl(SecurityIdentifier)
   fullName: System.Security.AccessControl.CommonSecurityDescriptor.PurgeAccessControl(SecurityIdentifier)
-- uid: System.Security.Principal.SecurityIdentifier
-  parent: System.Security.Principal
-  isExternal: false
-  name: SecurityIdentifier
-  nameWithType: SecurityIdentifier
-  fullName: System.Security.Principal.SecurityIdentifier
 - uid: System.Security.AccessControl.CommonSecurityDescriptor.PurgeAudit(System.Security.Principal.SecurityIdentifier)
   parent: System.Security.AccessControl.CommonSecurityDescriptor
   isExternal: false
   name: PurgeAudit(SecurityIdentifier)
   nameWithType: CommonSecurityDescriptor.PurgeAudit(SecurityIdentifier)
   fullName: System.Security.AccessControl.CommonSecurityDescriptor.PurgeAudit(SecurityIdentifier)
-- uid: System.Security.Principal.SecurityIdentifier
-  parent: System.Security.Principal
-  isExternal: false
-  name: SecurityIdentifier
-  nameWithType: SecurityIdentifier
-  fullName: System.Security.Principal.SecurityIdentifier
 - uid: System.Security.AccessControl.CommonSecurityDescriptor.SetDiscretionaryAclProtection(System.Boolean,System.Boolean)
   parent: System.Security.AccessControl.CommonSecurityDescriptor
   isExternal: false
   name: SetDiscretionaryAclProtection(Boolean,Boolean)
   nameWithType: CommonSecurityDescriptor.SetDiscretionaryAclProtection(Boolean,Boolean)
   fullName: System.Security.AccessControl.CommonSecurityDescriptor.SetDiscretionaryAclProtection(Boolean,Boolean)
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
 - uid: System.Security.AccessControl.CommonSecurityDescriptor.SetSystemAclProtection(System.Boolean,System.Boolean)
   parent: System.Security.AccessControl.CommonSecurityDescriptor
   isExternal: false
   name: SetSystemAclProtection(Boolean,Boolean)
   nameWithType: CommonSecurityDescriptor.SetSystemAclProtection(Boolean,Boolean)
   fullName: System.Security.AccessControl.CommonSecurityDescriptor.SetSystemAclProtection(Boolean,Boolean)
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
 - uid: System.Security.AccessControl.CommonSecurityDescriptor.SystemAcl
   parent: System.Security.AccessControl.CommonSecurityDescriptor
   isExternal: false
   name: SystemAcl
   nameWithType: CommonSecurityDescriptor.SystemAcl
   fullName: System.Security.AccessControl.CommonSecurityDescriptor.SystemAcl
-- uid: System.Security.AccessControl.SystemAcl
-  parent: System.Security.AccessControl
-  isExternal: false
-  name: SystemAcl
-  nameWithType: SystemAcl
-  fullName: System.Security.AccessControl.SystemAcl
 - uid: System.Security.AccessControl.CommonSecurityDescriptor.#ctor*
   parent: System.Security.AccessControl.CommonSecurityDescriptor
   isExternal: false

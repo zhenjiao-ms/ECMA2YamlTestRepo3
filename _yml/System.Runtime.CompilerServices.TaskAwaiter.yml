@@ -44,6 +44,7 @@ items:
     content: public void GetResult ();
     parameters: []
   overload: System.Runtime.CompilerServices.TaskAwaiter.GetResult*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -68,6 +69,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Runtime.CompilerServices.TaskAwaiter.IsCompleted*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -93,6 +95,7 @@ items:
       type: System.Action
       description: To be added.
   overload: System.Runtime.CompilerServices.TaskAwaiter.OnCompleted*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -118,6 +121,7 @@ items:
       type: System.Action
       description: To be added.
   overload: System.Runtime.CompilerServices.TaskAwaiter.UnsafeOnCompleted*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -162,12 +166,6 @@ references:
   name: UnsafeOnCompleted(Action)
   nameWithType: TaskAwaiter.UnsafeOnCompleted(Action)
   fullName: System.Runtime.CompilerServices.TaskAwaiter.UnsafeOnCompleted(Action)
-- uid: System.Action
-  parent: System
-  isExternal: false
-  name: Action
-  nameWithType: Action
-  fullName: System.Action
 - uid: System.Runtime.CompilerServices.TaskAwaiter.GetResult*
   parent: System.Runtime.CompilerServices.TaskAwaiter
   isExternal: false

@@ -45,6 +45,7 @@ items:
     return:
       type: System.Security.AccessControl.AuditFlags
       description: To be added.
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -67,6 +68,7 @@ items:
     return:
       type: System.Security.AccessControl.AuditFlags
       description: To be added.
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -89,6 +91,7 @@ items:
     return:
       type: System.Security.AccessControl.AuditFlags
       description: To be added.
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -115,21 +118,9 @@ references:
   name: None
   nameWithType: AuditFlags.None
   fullName: System.Security.AccessControl.AuditFlags.None
-- uid: System.Security.AccessControl.AuditFlags
-  parent: System.Security.AccessControl
-  isExternal: false
-  name: AuditFlags
-  nameWithType: AuditFlags
-  fullName: System.Security.AccessControl.AuditFlags
 - uid: System.Security.AccessControl.AuditFlags.Success
   parent: System.Security.AccessControl.AuditFlags
   isExternal: false
   name: Success
   nameWithType: AuditFlags.Success
   fullName: System.Security.AccessControl.AuditFlags.Success
-- uid: System.Security.AccessControl.AuditFlags
-  parent: System.Security.AccessControl
-  isExternal: false
-  name: AuditFlags
-  nameWithType: AuditFlags
-  fullName: System.Security.AccessControl.AuditFlags

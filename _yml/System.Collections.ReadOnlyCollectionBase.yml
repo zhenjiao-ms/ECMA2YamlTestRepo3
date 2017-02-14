@@ -57,6 +57,7 @@ items:
     content: protected ReadOnlyCollectionBase ();
     parameters: []
   overload: System.Collections.ReadOnlyCollectionBase.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -81,6 +82,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.Collections.ReadOnlyCollectionBase.Count*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -106,6 +108,7 @@ items:
       type: System.Collections.IEnumerator
       description: To be added.
   overload: System.Collections.ReadOnlyCollectionBase.GetEnumerator*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -130,6 +133,7 @@ items:
       type: System.Collections.ArrayList
       description: To be added.
   overload: System.Collections.ReadOnlyCollectionBase.InnerList*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -159,6 +163,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.Collections.ReadOnlyCollectionBase.System#Collections#ICollection#CopyTo*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -184,6 +189,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Collections.ReadOnlyCollectionBase.System#Collections#ICollection#IsSynchronized*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -209,6 +215,7 @@ items:
       type: System.Object
       description: To be added.
   overload: System.Collections.ReadOnlyCollectionBase.System#Collections#ICollection#SyncRoot*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -271,12 +278,6 @@ references:
   name: Array
   nameWithType: Array
   fullName: System.Array
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
 - uid: System.Collections.ReadOnlyCollectionBase.System#Collections#ICollection#IsSynchronized
   parent: System.Collections.ReadOnlyCollectionBase
   isExternal: false
@@ -295,12 +296,6 @@ references:
   name: System.Collections.ICollection.SyncRoot
   nameWithType: ReadOnlyCollectionBase.System.Collections.ICollection.SyncRoot
   fullName: System.Collections.ReadOnlyCollectionBase.System.Collections.ICollection.SyncRoot
-- uid: System.Object
-  parent: System
-  isExternal: false
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
 - uid: System.Collections.ReadOnlyCollectionBase.#ctor*
   parent: System.Collections.ReadOnlyCollectionBase
   isExternal: false

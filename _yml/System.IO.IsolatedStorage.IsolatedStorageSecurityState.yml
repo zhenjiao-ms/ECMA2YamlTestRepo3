@@ -55,6 +55,7 @@ items:
     content: public override void EnsureState ();
     parameters: []
   overload: System.IO.IsolatedStorage.IsolatedStorageSecurityState.EnsureState*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -79,6 +80,7 @@ items:
       type: System.IO.IsolatedStorage.IsolatedStorageSecurityOptions
       description: To be added.
   overload: System.IO.IsolatedStorage.IsolatedStorageSecurityState.Options*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -103,6 +105,7 @@ items:
       type: System.Int64
       description: To be added.
   overload: System.IO.IsolatedStorage.IsolatedStorageSecurityState.Quota*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -127,6 +130,7 @@ items:
       type: System.Int64
       description: To be added.
   overload: System.IO.IsolatedStorage.IsolatedStorageSecurityState.UsedSize*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -171,12 +175,6 @@ references:
   name: UsedSize
   nameWithType: IsolatedStorageSecurityState.UsedSize
   fullName: System.IO.IsolatedStorage.IsolatedStorageSecurityState.UsedSize
-- uid: System.Int64
-  parent: System
-  isExternal: false
-  name: Int64
-  nameWithType: Int64
-  fullName: System.Int64
 - uid: System.IO.IsolatedStorage.IsolatedStorageSecurityState.EnsureState*
   parent: System.IO.IsolatedStorage.IsolatedStorageSecurityState
   isExternal: false

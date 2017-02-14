@@ -48,6 +48,7 @@ items:
       type: System.Runtime.InteropServices.ComTypes.IEnumString
       description: To be added.
   overload: System.Runtime.InteropServices.ComTypes.IEnumString.Clone*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -82,6 +83,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.Runtime.InteropServices.ComTypes.IEnumString.Next*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -104,6 +106,7 @@ items:
     content: public void Reset ();
     parameters: []
   overload: System.Runtime.InteropServices.ComTypes.IEnumString.Reset*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -132,6 +135,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.Runtime.InteropServices.ComTypes.IEnumString.Skip*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -161,18 +165,20 @@ references:
   name: Int32
   nameWithType: Int32
   fullName: System.Int32
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: System.String
+- uid: System.String[]
   parent: System
   isExternal: false
   name: String
   nameWithType: String
   fullName: System.String[]
+  spec.csharp:
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: String[]
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
 - uid: System.IntPtr
   parent: System
   isExternal: false
@@ -191,18 +197,6 @@ references:
   name: Skip(Int32)
   nameWithType: IEnumString.Skip(Int32)
   fullName: System.Runtime.InteropServices.ComTypes.IEnumString.Skip(Int32)
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
 - uid: System.Runtime.InteropServices.ComTypes.IEnumString.Clone*
   parent: System.Runtime.InteropServices.ComTypes.IEnumString
   isExternal: false

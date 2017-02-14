@@ -75,6 +75,7 @@ items:
     content: protected KeyedHashAlgorithm ();
     parameters: []
   overload: System.Security.Cryptography.KeyedHashAlgorithm.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -100,6 +101,7 @@ items:
       type: System.Security.Cryptography.KeyedHashAlgorithm
       description: To be added.
   overload: System.Security.Cryptography.KeyedHashAlgorithm.Create*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -128,6 +130,7 @@ items:
       type: System.Security.Cryptography.KeyedHashAlgorithm
       description: To be added.
   overload: System.Security.Cryptography.KeyedHashAlgorithm.Create*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -153,6 +156,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Security.Cryptography.KeyedHashAlgorithm.Dispose*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -177,6 +181,7 @@ items:
       type: System.Byte[]
       description: To be added.
   overload: System.Security.Cryptography.KeyedHashAlgorithm.Key*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -200,6 +205,7 @@ items:
     return:
       type: System.Byte[]
       description: To be added.
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -232,12 +238,6 @@ references:
   name: Create(String)
   nameWithType: KeyedHashAlgorithm.Create(String)
   fullName: System.Security.Cryptography.KeyedHashAlgorithm.Create(String)
-- uid: System.Security.Cryptography.KeyedHashAlgorithm
-  parent: System.Security.Cryptography
-  isExternal: false
-  name: KeyedHashAlgorithm
-  nameWithType: KeyedHashAlgorithm
-  fullName: System.Security.Cryptography.KeyedHashAlgorithm
 - uid: System.String
   parent: System
   isExternal: false
@@ -262,24 +262,26 @@ references:
   name: Key
   nameWithType: KeyedHashAlgorithm.Key
   fullName: System.Security.Cryptography.KeyedHashAlgorithm.Key
-- uid: System.Byte
+- uid: System.Byte[]
   parent: System
   isExternal: false
   name: Byte
   nameWithType: Byte
   fullName: System.Byte[]
+  spec.csharp:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: Byte[]
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
 - uid: System.Security.Cryptography.KeyedHashAlgorithm.KeyValue
   parent: System.Security.Cryptography.KeyedHashAlgorithm
   isExternal: false
   name: KeyValue
   nameWithType: KeyedHashAlgorithm.KeyValue
   fullName: System.Security.Cryptography.KeyedHashAlgorithm.KeyValue
-- uid: System.Byte
-  parent: System
-  isExternal: false
-  name: Byte
-  nameWithType: Byte
-  fullName: System.Byte[]
 - uid: System.Security.Cryptography.KeyedHashAlgorithm.#ctor*
   parent: System.Security.Cryptography.KeyedHashAlgorithm
   isExternal: false

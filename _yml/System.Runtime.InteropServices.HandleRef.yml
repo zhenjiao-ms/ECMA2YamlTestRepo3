@@ -53,6 +53,7 @@ items:
       type: System.IntPtr
       description: To be added.
   overload: System.Runtime.InteropServices.HandleRef.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -77,6 +78,7 @@ items:
       type: System.IntPtr
       description: To be added.
   overload: System.Runtime.InteropServices.HandleRef.Handle*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -105,6 +107,7 @@ items:
       type: System.IntPtr
       description: To be added.
   overload: System.Runtime.InteropServices.HandleRef.op_Explicit*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -133,6 +136,7 @@ items:
       type: System.IntPtr
       description: To be added.
   overload: System.Runtime.InteropServices.HandleRef.ToIntPtr*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -157,6 +161,7 @@ items:
       type: System.Object
       description: To be added.
   overload: System.Runtime.InteropServices.HandleRef.Wrapper*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -189,24 +194,12 @@ references:
   name: Handle
   nameWithType: HandleRef.Handle
   fullName: System.Runtime.InteropServices.HandleRef.Handle
-- uid: System.IntPtr
-  parent: System
-  isExternal: false
-  name: IntPtr
-  nameWithType: IntPtr
-  fullName: System.IntPtr
 - uid: System.Runtime.InteropServices.HandleRef.op_Explicit(System.Runtime.InteropServices.HandleRef to System.IntPtr)
   parent: System.Runtime.InteropServices.HandleRef
   isExternal: false
   name: op_Explicit(HandleRef)
   nameWithType: HandleRef.op_Explicit(HandleRef)
   fullName: System.Runtime.InteropServices.HandleRef.op_Explicit(HandleRef)
-- uid: System.IntPtr
-  parent: System
-  isExternal: false
-  name: IntPtr
-  nameWithType: IntPtr
-  fullName: System.IntPtr
 - uid: System.Runtime.InteropServices.HandleRef
   parent: System.Runtime.InteropServices
   isExternal: false
@@ -219,30 +212,12 @@ references:
   name: ToIntPtr(HandleRef)
   nameWithType: HandleRef.ToIntPtr(HandleRef)
   fullName: System.Runtime.InteropServices.HandleRef.ToIntPtr(HandleRef)
-- uid: System.IntPtr
-  parent: System
-  isExternal: false
-  name: IntPtr
-  nameWithType: IntPtr
-  fullName: System.IntPtr
-- uid: System.Runtime.InteropServices.HandleRef
-  parent: System.Runtime.InteropServices
-  isExternal: false
-  name: HandleRef
-  nameWithType: HandleRef
-  fullName: System.Runtime.InteropServices.HandleRef
 - uid: System.Runtime.InteropServices.HandleRef.Wrapper
   parent: System.Runtime.InteropServices.HandleRef
   isExternal: false
   name: Wrapper
   nameWithType: HandleRef.Wrapper
   fullName: System.Runtime.InteropServices.HandleRef.Wrapper
-- uid: System.Object
-  parent: System
-  isExternal: false
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
 - uid: System.Runtime.InteropServices.HandleRef.#ctor*
   parent: System.Runtime.InteropServices.HandleRef
   isExternal: false

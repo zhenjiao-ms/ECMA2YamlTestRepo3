@@ -56,6 +56,7 @@ items:
     content: public RuntimeEnvironment ();
     parameters: []
   overload: System.Runtime.InteropServices.RuntimeEnvironment.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -84,6 +85,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Runtime.InteropServices.RuntimeEnvironment.FromGlobalAccessCache*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -109,6 +111,7 @@ items:
       type: System.String
       description: To be added.
   overload: System.Runtime.InteropServices.RuntimeEnvironment.GetRuntimeDirectory*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -140,6 +143,7 @@ items:
       type: System.IntPtr
       description: To be added.
   overload: System.Runtime.InteropServices.RuntimeEnvironment.GetRuntimeInterfaceAsIntPtr*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -171,6 +175,7 @@ items:
       type: System.Object
       description: To be added.
   overload: System.Runtime.InteropServices.RuntimeEnvironment.GetRuntimeInterfaceAsObject*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -196,6 +201,7 @@ items:
       type: System.String
       description: To be added.
   overload: System.Runtime.InteropServices.RuntimeEnvironment.GetSystemVersion*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -220,6 +226,7 @@ items:
       type: System.String
       description: To be added.
   overload: System.Runtime.InteropServices.RuntimeEnvironment.SystemConfigurationFile*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -282,60 +289,24 @@ references:
   name: Guid
   nameWithType: Guid
   fullName: System.Guid
-- uid: System.Guid
-  parent: System
-  isExternal: false
-  name: Guid
-  nameWithType: Guid
-  fullName: System.Guid
 - uid: System.Runtime.InteropServices.RuntimeEnvironment.GetRuntimeInterfaceAsObject(System.Guid,System.Guid)
   parent: System.Runtime.InteropServices.RuntimeEnvironment
   isExternal: false
   name: GetRuntimeInterfaceAsObject(Guid,Guid)
   nameWithType: RuntimeEnvironment.GetRuntimeInterfaceAsObject(Guid,Guid)
   fullName: System.Runtime.InteropServices.RuntimeEnvironment.GetRuntimeInterfaceAsObject(Guid,Guid)
-- uid: System.Object
-  parent: System
-  isExternal: false
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
-- uid: System.Guid
-  parent: System
-  isExternal: false
-  name: Guid
-  nameWithType: Guid
-  fullName: System.Guid
-- uid: System.Guid
-  parent: System
-  isExternal: false
-  name: Guid
-  nameWithType: Guid
-  fullName: System.Guid
 - uid: System.Runtime.InteropServices.RuntimeEnvironment.GetSystemVersion
   parent: System.Runtime.InteropServices.RuntimeEnvironment
   isExternal: false
   name: GetSystemVersion()
   nameWithType: RuntimeEnvironment.GetSystemVersion()
   fullName: System.Runtime.InteropServices.RuntimeEnvironment.GetSystemVersion()
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
 - uid: System.Runtime.InteropServices.RuntimeEnvironment.SystemConfigurationFile
   parent: System.Runtime.InteropServices.RuntimeEnvironment
   isExternal: false
   name: SystemConfigurationFile
   nameWithType: RuntimeEnvironment.SystemConfigurationFile
   fullName: System.Runtime.InteropServices.RuntimeEnvironment.SystemConfigurationFile
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
 - uid: System.Runtime.InteropServices.RuntimeEnvironment.#ctor*
   parent: System.Runtime.InteropServices.RuntimeEnvironment
   isExternal: false

@@ -42,6 +42,7 @@ items:
     return:
       type: Microsoft.Win32.RegistryKeyPermissionCheck
       description: To be added.
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -64,6 +65,7 @@ items:
     return:
       type: Microsoft.Win32.RegistryKeyPermissionCheck
       description: To be added.
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -86,6 +88,7 @@ items:
     return:
       type: Microsoft.Win32.RegistryKeyPermissionCheck
       description: To be added.
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -112,21 +115,9 @@ references:
   name: ReadSubTree
   nameWithType: RegistryKeyPermissionCheck.ReadSubTree
   fullName: Microsoft.Win32.RegistryKeyPermissionCheck.ReadSubTree
-- uid: Microsoft.Win32.RegistryKeyPermissionCheck
-  parent: Microsoft.Win32
-  isExternal: false
-  name: RegistryKeyPermissionCheck
-  nameWithType: RegistryKeyPermissionCheck
-  fullName: Microsoft.Win32.RegistryKeyPermissionCheck
 - uid: Microsoft.Win32.RegistryKeyPermissionCheck.ReadWriteSubTree
   parent: Microsoft.Win32.RegistryKeyPermissionCheck
   isExternal: false
   name: ReadWriteSubTree
   nameWithType: RegistryKeyPermissionCheck.ReadWriteSubTree
   fullName: Microsoft.Win32.RegistryKeyPermissionCheck.ReadWriteSubTree
-- uid: Microsoft.Win32.RegistryKeyPermissionCheck
-  parent: Microsoft.Win32
-  isExternal: false
-  name: RegistryKeyPermissionCheck
-  nameWithType: RegistryKeyPermissionCheck
-  fullName: Microsoft.Win32.RegistryKeyPermissionCheck

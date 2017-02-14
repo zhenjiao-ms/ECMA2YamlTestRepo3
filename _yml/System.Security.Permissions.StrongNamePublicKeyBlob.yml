@@ -53,6 +53,7 @@ items:
       type: System.Byte[]
       description: To be added.
   overload: System.Security.Permissions.StrongNamePublicKeyBlob.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -81,6 +82,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Security.Permissions.StrongNamePublicKeyBlob.Equals*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -106,6 +108,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.Security.Permissions.StrongNamePublicKeyBlob.GetHashCode*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -131,6 +134,7 @@ items:
       type: System.String
       description: To be added.
   overload: System.Security.Permissions.StrongNamePublicKeyBlob.ToString*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -145,12 +149,20 @@ references:
   name: StrongNamePublicKeyBlob(Byte[])
   nameWithType: StrongNamePublicKeyBlob.StrongNamePublicKeyBlob(Byte[])
   fullName: System.Security.Permissions.StrongNamePublicKeyBlob.StrongNamePublicKeyBlob(Byte[])
-- uid: System.Byte
+- uid: System.Byte[]
   parent: System
   isExternal: false
   name: Byte
   nameWithType: Byte
   fullName: System.Byte[]
+  spec.csharp:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: Byte[]
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
 - uid: System.Security.Permissions.StrongNamePublicKeyBlob.Equals(System.Object)
   parent: System.Security.Permissions.StrongNamePublicKeyBlob
   isExternal: false
@@ -163,12 +175,6 @@ references:
   name: Boolean
   nameWithType: Boolean
   fullName: System.Boolean
-- uid: System.Object
-  parent: System
-  isExternal: false
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
 - uid: System.Security.Permissions.StrongNamePublicKeyBlob.GetHashCode
   parent: System.Security.Permissions.StrongNamePublicKeyBlob
   isExternal: false

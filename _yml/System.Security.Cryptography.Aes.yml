@@ -81,6 +81,7 @@ items:
     content: protected Aes ();
     parameters: []
   overload: System.Security.Cryptography.Aes.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -106,6 +107,7 @@ items:
       type: System.Security.Cryptography.Aes
       description: To be added.
   overload: System.Security.Cryptography.Aes.Create*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -134,6 +136,7 @@ items:
       type: System.Security.Cryptography.Aes
       description: To be added.
   overload: System.Security.Cryptography.Aes.Create*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -166,12 +169,6 @@ references:
   name: Create(String)
   nameWithType: Aes.Create(String)
   fullName: System.Security.Cryptography.Aes.Create(String)
-- uid: System.Security.Cryptography.Aes
-  parent: System.Security.Cryptography
-  isExternal: false
-  name: Aes
-  nameWithType: Aes
-  fullName: System.Security.Cryptography.Aes
 - uid: System.String
   parent: System
   isExternal: false

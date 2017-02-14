@@ -69,6 +69,7 @@ items:
     content: protected ResourceSet ();
     parameters: []
   overload: System.Resources.ResourceSet.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -94,6 +95,7 @@ items:
       type: System.IO.Stream
       description: To be added.
   overload: System.Resources.ResourceSet.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -119,6 +121,7 @@ items:
       type: System.Resources.IResourceReader
       description: To be added.
   overload: System.Resources.ResourceSet.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -144,6 +147,7 @@ items:
       type: System.String
       description: To be added.
   overload: System.Resources.ResourceSet.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -166,6 +170,7 @@ items:
     content: public virtual void Close ();
     parameters: []
   overload: System.Resources.ResourceSet.Close*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -188,6 +193,7 @@ items:
     content: public void Dispose ();
     parameters: []
   overload: System.Resources.ResourceSet.Dispose*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -213,6 +219,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Resources.ResourceSet.Dispose*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -238,6 +245,7 @@ items:
       type: System.Type
       description: To be added.
   overload: System.Resources.ResourceSet.GetDefaultReader*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -263,6 +271,7 @@ items:
       type: System.Type
       description: To be added.
   overload: System.Resources.ResourceSet.GetDefaultWriter*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -288,6 +297,7 @@ items:
       type: System.Collections.IDictionaryEnumerator
       description: To be added.
   overload: System.Resources.ResourceSet.GetEnumerator*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -316,6 +326,7 @@ items:
       type: System.Object
       description: To be added.
   overload: System.Resources.ResourceSet.GetObject*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -347,6 +358,7 @@ items:
       type: System.Object
       description: To be added.
   overload: System.Resources.ResourceSet.GetObject*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -375,6 +387,7 @@ items:
       type: System.String
       description: To be added.
   overload: System.Resources.ResourceSet.GetString*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -406,6 +419,7 @@ items:
       type: System.String
       description: To be added.
   overload: System.Resources.ResourceSet.GetString*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -429,6 +443,7 @@ items:
     return:
       type: System.Resources.IResourceReader
       description: To be added.
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -451,6 +466,7 @@ items:
     content: protected virtual void ReadResources ();
     parameters: []
   overload: System.Resources.ResourceSet.ReadResources*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -477,6 +493,7 @@ items:
       type: System.Collections.IEnumerator
       description: To be added.
   overload: System.Resources.ResourceSet.System#Collections#IEnumerable#GetEnumerator*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -500,6 +517,7 @@ items:
     return:
       type: System.Collections.Hashtable
       description: To be added.
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -592,12 +610,6 @@ references:
   name: GetDefaultWriter()
   nameWithType: ResourceSet.GetDefaultWriter()
   fullName: System.Resources.ResourceSet.GetDefaultWriter()
-- uid: System.Type
-  parent: System
-  isExternal: false
-  name: Type
-  nameWithType: Type
-  fullName: System.Type
 - uid: System.Resources.ResourceSet.GetEnumerator
   parent: System.Resources.ResourceSet
   isExternal: false
@@ -616,96 +628,30 @@ references:
   name: GetObject(String)
   nameWithType: ResourceSet.GetObject(String)
   fullName: System.Resources.ResourceSet.GetObject(String)
-- uid: System.Object
-  parent: System
-  isExternal: false
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
 - uid: System.Resources.ResourceSet.GetObject(System.String,System.Boolean)
   parent: System.Resources.ResourceSet
   isExternal: false
   name: GetObject(String,Boolean)
   nameWithType: ResourceSet.GetObject(String,Boolean)
   fullName: System.Resources.ResourceSet.GetObject(String,Boolean)
-- uid: System.Object
-  parent: System
-  isExternal: false
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
 - uid: System.Resources.ResourceSet.GetString(System.String)
   parent: System.Resources.ResourceSet
   isExternal: false
   name: GetString(String)
   nameWithType: ResourceSet.GetString(String)
   fullName: System.Resources.ResourceSet.GetString(String)
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
 - uid: System.Resources.ResourceSet.GetString(System.String,System.Boolean)
   parent: System.Resources.ResourceSet
   isExternal: false
   name: GetString(String,Boolean)
   nameWithType: ResourceSet.GetString(String,Boolean)
   fullName: System.Resources.ResourceSet.GetString(String,Boolean)
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
 - uid: System.Resources.ResourceSet.Reader
   parent: System.Resources.ResourceSet
   isExternal: false
   name: Reader
   nameWithType: ResourceSet.Reader
   fullName: System.Resources.ResourceSet.Reader
-- uid: System.Resources.IResourceReader
-  parent: System.Resources
-  isExternal: false
-  name: IResourceReader
-  nameWithType: IResourceReader
-  fullName: System.Resources.IResourceReader
 - uid: System.Resources.ResourceSet.ReadResources
   parent: System.Resources.ResourceSet
   isExternal: false

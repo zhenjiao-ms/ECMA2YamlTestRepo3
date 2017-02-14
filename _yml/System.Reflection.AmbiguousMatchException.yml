@@ -65,6 +65,7 @@ items:
     content: public AmbiguousMatchException ();
     parameters: []
   overload: System.Reflection.AmbiguousMatchException.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -90,6 +91,7 @@ items:
       type: System.String
       description: To be added.
   overload: System.Reflection.AmbiguousMatchException.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -118,6 +120,7 @@ items:
       type: System.Exception
       description: To be added.
   overload: System.Reflection.AmbiguousMatchException.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -150,12 +153,6 @@ references:
   name: AmbiguousMatchException(String,Exception)
   nameWithType: AmbiguousMatchException.AmbiguousMatchException(String,Exception)
   fullName: System.Reflection.AmbiguousMatchException.AmbiguousMatchException(String,Exception)
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
 - uid: System.Exception
   parent: System
   isExternal: false

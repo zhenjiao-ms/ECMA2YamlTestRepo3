@@ -45,6 +45,7 @@ items:
     return:
       type: System.Runtime.Remoting.Channels.ServerProcessing
       description: To be added.
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -67,6 +68,7 @@ items:
     return:
       type: System.Runtime.Remoting.Channels.ServerProcessing
       description: To be added.
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -89,6 +91,7 @@ items:
     return:
       type: System.Runtime.Remoting.Channels.ServerProcessing
       description: To be added.
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -115,21 +118,9 @@ references:
   name: Complete
   nameWithType: ServerProcessing.Complete
   fullName: System.Runtime.Remoting.Channels.ServerProcessing.Complete
-- uid: System.Runtime.Remoting.Channels.ServerProcessing
-  parent: System.Runtime.Remoting.Channels
-  isExternal: false
-  name: ServerProcessing
-  nameWithType: ServerProcessing
-  fullName: System.Runtime.Remoting.Channels.ServerProcessing
 - uid: System.Runtime.Remoting.Channels.ServerProcessing.OneWay
   parent: System.Runtime.Remoting.Channels.ServerProcessing
   isExternal: false
   name: OneWay
   nameWithType: ServerProcessing.OneWay
   fullName: System.Runtime.Remoting.Channels.ServerProcessing.OneWay
-- uid: System.Runtime.Remoting.Channels.ServerProcessing
-  parent: System.Runtime.Remoting.Channels
-  isExternal: false
-  name: ServerProcessing
-  nameWithType: ServerProcessing
-  fullName: System.Runtime.Remoting.Channels.ServerProcessing

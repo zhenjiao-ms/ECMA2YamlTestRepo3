@@ -55,6 +55,7 @@ items:
     content: public CaseInsensitiveComparer ();
     parameters: []
   overload: System.Collections.CaseInsensitiveComparer.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -80,6 +81,7 @@ items:
       type: System.Globalization.CultureInfo
       description: To be added.
   overload: System.Collections.CaseInsensitiveComparer.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -111,6 +113,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.Collections.CaseInsensitiveComparer.Compare*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -135,6 +138,7 @@ items:
       type: System.Collections.CaseInsensitiveComparer
       description: To be added.
   overload: System.Collections.CaseInsensitiveComparer.Default*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -159,6 +163,7 @@ items:
       type: System.Collections.CaseInsensitiveComparer
       description: To be added.
   overload: System.Collections.CaseInsensitiveComparer.DefaultInvariant*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -197,18 +202,6 @@ references:
   name: Int32
   nameWithType: Int32
   fullName: System.Int32
-- uid: System.Object
-  parent: System
-  isExternal: false
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
-- uid: System.Object
-  parent: System
-  isExternal: false
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
 - uid: System.Collections.CaseInsensitiveComparer.Default
   parent: System.Collections.CaseInsensitiveComparer
   isExternal: false
@@ -227,12 +220,6 @@ references:
   name: DefaultInvariant
   nameWithType: CaseInsensitiveComparer.DefaultInvariant
   fullName: System.Collections.CaseInsensitiveComparer.DefaultInvariant
-- uid: System.Collections.CaseInsensitiveComparer
-  parent: System.Collections
-  isExternal: false
-  name: CaseInsensitiveComparer
-  nameWithType: CaseInsensitiveComparer
-  fullName: System.Collections.CaseInsensitiveComparer
 - uid: System.Collections.CaseInsensitiveComparer.#ctor*
   parent: System.Collections.CaseInsensitiveComparer
   isExternal: false

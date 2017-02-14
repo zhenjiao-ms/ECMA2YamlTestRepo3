@@ -50,6 +50,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.Diagnostics.SymbolStore.ISymbolVariable.AddressField1*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -74,6 +75,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.Diagnostics.SymbolStore.ISymbolVariable.AddressField2*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -98,6 +100,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.Diagnostics.SymbolStore.ISymbolVariable.AddressField3*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -122,6 +125,7 @@ items:
       type: System.Diagnostics.SymbolStore.SymAddressKind
       description: To be added.
   overload: System.Diagnostics.SymbolStore.ISymbolVariable.AddressKind*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -146,6 +150,7 @@ items:
       type: System.Object
       description: To be added.
   overload: System.Diagnostics.SymbolStore.ISymbolVariable.Attributes*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -170,6 +175,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.Diagnostics.SymbolStore.ISymbolVariable.EndOffset*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -195,6 +201,7 @@ items:
       type: System.Byte[]
       description: To be added.
   overload: System.Diagnostics.SymbolStore.ISymbolVariable.GetSignature*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -219,6 +226,7 @@ items:
       type: System.String
       description: To be added.
   overload: System.Diagnostics.SymbolStore.ISymbolVariable.Name*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -243,6 +251,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.Diagnostics.SymbolStore.ISymbolVariable.StartOffset*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -266,24 +275,12 @@ references:
   name: AddressField2
   nameWithType: ISymbolVariable.AddressField2
   fullName: System.Diagnostics.SymbolStore.ISymbolVariable.AddressField2
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
 - uid: System.Diagnostics.SymbolStore.ISymbolVariable.AddressField3
   parent: System.Diagnostics.SymbolStore.ISymbolVariable
   isExternal: false
   name: AddressField3
   nameWithType: ISymbolVariable.AddressField3
   fullName: System.Diagnostics.SymbolStore.ISymbolVariable.AddressField3
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
 - uid: System.Diagnostics.SymbolStore.ISymbolVariable.AddressKind
   parent: System.Diagnostics.SymbolStore.ISymbolVariable
   isExternal: false
@@ -314,24 +311,26 @@ references:
   name: EndOffset
   nameWithType: ISymbolVariable.EndOffset
   fullName: System.Diagnostics.SymbolStore.ISymbolVariable.EndOffset
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
 - uid: System.Diagnostics.SymbolStore.ISymbolVariable.GetSignature
   parent: System.Diagnostics.SymbolStore.ISymbolVariable
   isExternal: false
   name: GetSignature()
   nameWithType: ISymbolVariable.GetSignature()
   fullName: System.Diagnostics.SymbolStore.ISymbolVariable.GetSignature()
-- uid: System.Byte
+- uid: System.Byte[]
   parent: System
   isExternal: false
   name: Byte
   nameWithType: Byte
   fullName: System.Byte[]
+  spec.csharp:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: Byte[]
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
 - uid: System.Diagnostics.SymbolStore.ISymbolVariable.Name
   parent: System.Diagnostics.SymbolStore.ISymbolVariable
   isExternal: false
@@ -350,12 +349,6 @@ references:
   name: StartOffset
   nameWithType: ISymbolVariable.StartOffset
   fullName: System.Diagnostics.SymbolStore.ISymbolVariable.StartOffset
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
 - uid: System.Diagnostics.SymbolStore.ISymbolVariable.AddressField1*
   parent: System.Diagnostics.SymbolStore.ISymbolVariable
   isExternal: false

@@ -64,6 +64,7 @@ items:
       type: System.Version
       description: To be added.
   overload: System.OperatingSystem.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -89,6 +90,7 @@ items:
       type: System.Object
       description: To be added.
   overload: System.OperatingSystem.Clone*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -117,6 +119,7 @@ items:
       type: System.Runtime.Serialization.StreamingContext
       description: To be added.
   overload: System.OperatingSystem.GetObjectData*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -141,6 +144,7 @@ items:
       type: System.PlatformID
       description: To be added.
   overload: System.OperatingSystem.Platform*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -165,6 +169,7 @@ items:
       type: System.String
       description: To be added.
   overload: System.OperatingSystem.ServicePack*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -190,6 +195,7 @@ items:
       type: System.String
       description: To be added.
   overload: System.OperatingSystem.ToString*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -214,6 +220,7 @@ items:
       type: System.Version
       description: To be added.
   overload: System.OperatingSystem.Version*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -238,6 +245,7 @@ items:
       type: System.String
       description: To be added.
   overload: System.OperatingSystem.VersionString*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -270,12 +278,6 @@ references:
   name: Clone()
   nameWithType: OperatingSystem.Clone()
   fullName: System.OperatingSystem.Clone()
-- uid: System.Object
-  parent: System
-  isExternal: false
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
 - uid: System.OperatingSystem.GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
   parent: System.OperatingSystem
   isExternal: false
@@ -300,12 +302,6 @@ references:
   name: Platform
   nameWithType: OperatingSystem.Platform
   fullName: System.OperatingSystem.Platform
-- uid: System.PlatformID
-  parent: System
-  isExternal: false
-  name: PlatformID
-  nameWithType: PlatformID
-  fullName: System.PlatformID
 - uid: System.OperatingSystem.ServicePack
   parent: System.OperatingSystem
   isExternal: false
@@ -324,36 +320,18 @@ references:
   name: ToString()
   nameWithType: OperatingSystem.ToString()
   fullName: System.OperatingSystem.ToString()
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
 - uid: System.OperatingSystem.Version
   parent: System.OperatingSystem
   isExternal: false
   name: Version
   nameWithType: OperatingSystem.Version
   fullName: System.OperatingSystem.Version
-- uid: System.Version
-  parent: System
-  isExternal: false
-  name: Version
-  nameWithType: Version
-  fullName: System.Version
 - uid: System.OperatingSystem.VersionString
   parent: System.OperatingSystem
   isExternal: false
   name: VersionString
   nameWithType: OperatingSystem.VersionString
   fullName: System.OperatingSystem.VersionString
-- uid: System.String
-  parent: System
-  isExternal: false
-  name: String
-  nameWithType: String
-  fullName: System.String
 - uid: System.OperatingSystem.#ctor*
   parent: System.OperatingSystem
   isExternal: false

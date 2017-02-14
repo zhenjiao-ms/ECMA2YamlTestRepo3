@@ -52,6 +52,7 @@ items:
       type: System.Guid
       description: To be added.
   overload: System.Runtime.InteropServices.IRegistrationServices.GetManagedCategoryGuid*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -80,6 +81,7 @@ items:
       type: System.String
       description: To be added.
   overload: System.Runtime.InteropServices.IRegistrationServices.GetProgIdForType*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -108,6 +110,7 @@ items:
       type: System.Type[]
       description: To be added.
   overload: System.Runtime.InteropServices.IRegistrationServices.GetRegistrableTypesInAssembly*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -139,6 +142,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Runtime.InteropServices.IRegistrationServices.RegisterAssembly*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -167,6 +171,7 @@ items:
       type: System.Guid
       description: To be added.
   overload: System.Runtime.InteropServices.IRegistrationServices.RegisterTypeForComClients*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -195,6 +200,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Runtime.InteropServices.IRegistrationServices.TypeRepresentsComType*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -223,6 +229,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Runtime.InteropServices.IRegistrationServices.TypeRequiresRegistration*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -251,6 +258,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Runtime.InteropServices.IRegistrationServices.UnregisterAssembly*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -292,12 +300,20 @@ references:
   name: GetRegistrableTypesInAssembly(Assembly)
   nameWithType: IRegistrationServices.GetRegistrableTypesInAssembly(Assembly)
   fullName: System.Runtime.InteropServices.IRegistrationServices.GetRegistrableTypesInAssembly(Assembly)
-- uid: System.Type
+- uid: System.Type[]
   parent: System
   isExternal: false
   name: Type
   nameWithType: Type
   fullName: System.Type[]
+  spec.csharp:
+  - uid: System.Type
+    name: Type
+    nameWithType: Type
+    fullName: Type[]
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
 - uid: System.Reflection.Assembly
   parent: System.Reflection
   isExternal: false
@@ -316,12 +332,6 @@ references:
   name: Boolean
   nameWithType: Boolean
   fullName: System.Boolean
-- uid: System.Reflection.Assembly
-  parent: System.Reflection
-  isExternal: false
-  name: Assembly
-  nameWithType: Assembly
-  fullName: System.Reflection.Assembly
 - uid: System.Runtime.InteropServices.AssemblyRegistrationFlags
   parent: System.Runtime.InteropServices
   isExternal: false
@@ -334,72 +344,24 @@ references:
   name: RegisterTypeForComClients(Type,Guid)
   nameWithType: IRegistrationServices.RegisterTypeForComClients(Type,Guid)
   fullName: System.Runtime.InteropServices.IRegistrationServices.RegisterTypeForComClients(Type,Guid)
-- uid: System.Type
-  parent: System
-  isExternal: false
-  name: Type
-  nameWithType: Type
-  fullName: System.Type
-- uid: System.Guid
-  parent: System
-  isExternal: false
-  name: Guid
-  nameWithType: Guid
-  fullName: System.Guid
 - uid: System.Runtime.InteropServices.IRegistrationServices.TypeRepresentsComType(System.Type)
   parent: System.Runtime.InteropServices.IRegistrationServices
   isExternal: false
   name: TypeRepresentsComType(Type)
   nameWithType: IRegistrationServices.TypeRepresentsComType(Type)
   fullName: System.Runtime.InteropServices.IRegistrationServices.TypeRepresentsComType(Type)
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
-- uid: System.Type
-  parent: System
-  isExternal: false
-  name: Type
-  nameWithType: Type
-  fullName: System.Type
 - uid: System.Runtime.InteropServices.IRegistrationServices.TypeRequiresRegistration(System.Type)
   parent: System.Runtime.InteropServices.IRegistrationServices
   isExternal: false
   name: TypeRequiresRegistration(Type)
   nameWithType: IRegistrationServices.TypeRequiresRegistration(Type)
   fullName: System.Runtime.InteropServices.IRegistrationServices.TypeRequiresRegistration(Type)
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
-- uid: System.Type
-  parent: System
-  isExternal: false
-  name: Type
-  nameWithType: Type
-  fullName: System.Type
 - uid: System.Runtime.InteropServices.IRegistrationServices.UnregisterAssembly(System.Reflection.Assembly)
   parent: System.Runtime.InteropServices.IRegistrationServices
   isExternal: false
   name: UnregisterAssembly(Assembly)
   nameWithType: IRegistrationServices.UnregisterAssembly(Assembly)
   fullName: System.Runtime.InteropServices.IRegistrationServices.UnregisterAssembly(Assembly)
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
-- uid: System.Reflection.Assembly
-  parent: System.Reflection
-  isExternal: false
-  name: Assembly
-  nameWithType: Assembly
-  fullName: System.Reflection.Assembly
 - uid: System.Runtime.InteropServices.IRegistrationServices.GetManagedCategoryGuid*
   parent: System.Runtime.InteropServices.IRegistrationServices
   isExternal: false

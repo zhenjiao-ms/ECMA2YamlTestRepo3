@@ -45,6 +45,7 @@ items:
     return:
       type: System.Diagnostics.Tracing.EventLevel
       description: To be added.
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -67,6 +68,7 @@ items:
     return:
       type: System.Diagnostics.Tracing.EventLevel
       description: To be added.
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -89,6 +91,7 @@ items:
     return:
       type: System.Diagnostics.Tracing.EventLevel
       description: To be added.
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -111,6 +114,7 @@ items:
     return:
       type: System.Diagnostics.Tracing.EventLevel
       description: To be added.
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -133,6 +137,7 @@ items:
     return:
       type: System.Diagnostics.Tracing.EventLevel
       description: To be added.
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -155,6 +160,7 @@ items:
     return:
       type: System.Diagnostics.Tracing.EventLevel
       description: To be added.
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -181,57 +187,27 @@ references:
   name: Error
   nameWithType: EventLevel.Error
   fullName: System.Diagnostics.Tracing.EventLevel.Error
-- uid: System.Diagnostics.Tracing.EventLevel
-  parent: System.Diagnostics.Tracing
-  isExternal: false
-  name: EventLevel
-  nameWithType: EventLevel
-  fullName: System.Diagnostics.Tracing.EventLevel
 - uid: System.Diagnostics.Tracing.EventLevel.Informational
   parent: System.Diagnostics.Tracing.EventLevel
   isExternal: false
   name: Informational
   nameWithType: EventLevel.Informational
   fullName: System.Diagnostics.Tracing.EventLevel.Informational
-- uid: System.Diagnostics.Tracing.EventLevel
-  parent: System.Diagnostics.Tracing
-  isExternal: false
-  name: EventLevel
-  nameWithType: EventLevel
-  fullName: System.Diagnostics.Tracing.EventLevel
 - uid: System.Diagnostics.Tracing.EventLevel.LogAlways
   parent: System.Diagnostics.Tracing.EventLevel
   isExternal: false
   name: LogAlways
   nameWithType: EventLevel.LogAlways
   fullName: System.Diagnostics.Tracing.EventLevel.LogAlways
-- uid: System.Diagnostics.Tracing.EventLevel
-  parent: System.Diagnostics.Tracing
-  isExternal: false
-  name: EventLevel
-  nameWithType: EventLevel
-  fullName: System.Diagnostics.Tracing.EventLevel
 - uid: System.Diagnostics.Tracing.EventLevel.Verbose
   parent: System.Diagnostics.Tracing.EventLevel
   isExternal: false
   name: Verbose
   nameWithType: EventLevel.Verbose
   fullName: System.Diagnostics.Tracing.EventLevel.Verbose
-- uid: System.Diagnostics.Tracing.EventLevel
-  parent: System.Diagnostics.Tracing
-  isExternal: false
-  name: EventLevel
-  nameWithType: EventLevel
-  fullName: System.Diagnostics.Tracing.EventLevel
 - uid: System.Diagnostics.Tracing.EventLevel.Warning
   parent: System.Diagnostics.Tracing.EventLevel
   isExternal: false
   name: Warning
   nameWithType: EventLevel.Warning
   fullName: System.Diagnostics.Tracing.EventLevel.Warning
-- uid: System.Diagnostics.Tracing.EventLevel
-  parent: System.Diagnostics.Tracing
-  isExternal: false
-  name: EventLevel
-  nameWithType: EventLevel
-  fullName: System.Diagnostics.Tracing.EventLevel

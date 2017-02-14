@@ -56,6 +56,7 @@ items:
       type: System.Security.Policy.ApplicationTrust
       description: To be added.
   overload: System.Security.Policy.ApplicationTrustEnumerator.Current*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -81,6 +82,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Security.Policy.ApplicationTrustEnumerator.MoveNext*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -103,6 +105,7 @@ items:
     content: public void Reset ();
     parameters: []
   overload: System.Security.Policy.ApplicationTrustEnumerator.Reset*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -128,6 +131,7 @@ items:
       type: System.Object
       description: To be added.
   overload: System.Security.Policy.ApplicationTrustEnumerator.System#Collections#IEnumerator#Current*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -172,12 +176,6 @@ references:
   name: System.Collections.IEnumerator.Current
   nameWithType: ApplicationTrustEnumerator.System.Collections.IEnumerator.Current
   fullName: System.Security.Policy.ApplicationTrustEnumerator.System.Collections.IEnumerator.Current
-- uid: System.Object
-  parent: System
-  isExternal: false
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
 - uid: System.Security.Policy.ApplicationTrustEnumerator.Current*
   parent: System.Security.Policy.ApplicationTrustEnumerator
   isExternal: false

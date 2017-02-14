@@ -108,6 +108,7 @@ items:
     content: public HostProtectionAttribute ();
     parameters: []
   overload: System.Security.Permissions.HostProtectionAttribute.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -133,6 +134,7 @@ items:
       type: System.Security.Permissions.SecurityAction
       description: To be added.
   overload: System.Security.Permissions.HostProtectionAttribute.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -158,6 +160,7 @@ items:
       type: System.Security.IPermission
       description: To be added.
   overload: System.Security.Permissions.HostProtectionAttribute.CreatePermission*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -182,6 +185,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Security.Permissions.HostProtectionAttribute.ExternalProcessMgmt*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -206,6 +210,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Security.Permissions.HostProtectionAttribute.ExternalThreading*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -230,6 +235,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Security.Permissions.HostProtectionAttribute.MayLeakOnAbort*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -254,6 +260,7 @@ items:
       type: System.Security.Permissions.HostProtectionResource
       description: To be added.
   overload: System.Security.Permissions.HostProtectionAttribute.Resources*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -278,6 +285,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Security.Permissions.HostProtectionAttribute.SecurityInfrastructure*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -302,6 +310,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Security.Permissions.HostProtectionAttribute.SelfAffectingProcessMgmt*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -326,6 +335,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Security.Permissions.HostProtectionAttribute.SelfAffectingThreading*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -350,6 +360,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Security.Permissions.HostProtectionAttribute.SharedState*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -374,6 +385,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Security.Permissions.HostProtectionAttribute.Synchronization*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -398,6 +410,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Security.Permissions.HostProtectionAttribute.UI*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -454,24 +467,12 @@ references:
   name: ExternalThreading
   nameWithType: HostProtectionAttribute.ExternalThreading
   fullName: System.Security.Permissions.HostProtectionAttribute.ExternalThreading
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
 - uid: System.Security.Permissions.HostProtectionAttribute.MayLeakOnAbort
   parent: System.Security.Permissions.HostProtectionAttribute
   isExternal: false
   name: MayLeakOnAbort
   nameWithType: HostProtectionAttribute.MayLeakOnAbort
   fullName: System.Security.Permissions.HostProtectionAttribute.MayLeakOnAbort
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
 - uid: System.Security.Permissions.HostProtectionAttribute.Resources
   parent: System.Security.Permissions.HostProtectionAttribute
   isExternal: false
@@ -490,72 +491,36 @@ references:
   name: SecurityInfrastructure
   nameWithType: HostProtectionAttribute.SecurityInfrastructure
   fullName: System.Security.Permissions.HostProtectionAttribute.SecurityInfrastructure
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
 - uid: System.Security.Permissions.HostProtectionAttribute.SelfAffectingProcessMgmt
   parent: System.Security.Permissions.HostProtectionAttribute
   isExternal: false
   name: SelfAffectingProcessMgmt
   nameWithType: HostProtectionAttribute.SelfAffectingProcessMgmt
   fullName: System.Security.Permissions.HostProtectionAttribute.SelfAffectingProcessMgmt
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
 - uid: System.Security.Permissions.HostProtectionAttribute.SelfAffectingThreading
   parent: System.Security.Permissions.HostProtectionAttribute
   isExternal: false
   name: SelfAffectingThreading
   nameWithType: HostProtectionAttribute.SelfAffectingThreading
   fullName: System.Security.Permissions.HostProtectionAttribute.SelfAffectingThreading
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
 - uid: System.Security.Permissions.HostProtectionAttribute.SharedState
   parent: System.Security.Permissions.HostProtectionAttribute
   isExternal: false
   name: SharedState
   nameWithType: HostProtectionAttribute.SharedState
   fullName: System.Security.Permissions.HostProtectionAttribute.SharedState
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
 - uid: System.Security.Permissions.HostProtectionAttribute.Synchronization
   parent: System.Security.Permissions.HostProtectionAttribute
   isExternal: false
   name: Synchronization
   nameWithType: HostProtectionAttribute.Synchronization
   fullName: System.Security.Permissions.HostProtectionAttribute.Synchronization
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
 - uid: System.Security.Permissions.HostProtectionAttribute.UI
   parent: System.Security.Permissions.HostProtectionAttribute
   isExternal: false
   name: UI
   nameWithType: HostProtectionAttribute.UI
   fullName: System.Security.Permissions.HostProtectionAttribute.UI
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
 - uid: System.Security.Permissions.HostProtectionAttribute.#ctor*
   parent: System.Security.Permissions.HostProtectionAttribute
   isExternal: false

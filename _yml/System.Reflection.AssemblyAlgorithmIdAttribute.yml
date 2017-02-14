@@ -97,6 +97,7 @@ items:
       type: System.Configuration.Assemblies.AssemblyHashAlgorithm
       description: To be added.
   overload: System.Reflection.AssemblyAlgorithmIdAttribute.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -122,6 +123,7 @@ items:
       type: System.UInt32
       description: To be added.
   overload: System.Reflection.AssemblyAlgorithmIdAttribute.#ctor*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -146,6 +148,7 @@ items:
       type: System.UInt32
       description: To be added.
   overload: System.Reflection.AssemblyAlgorithmIdAttribute.AlgorithmId*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -184,12 +187,6 @@ references:
   name: AlgorithmId
   nameWithType: AssemblyAlgorithmIdAttribute.AlgorithmId
   fullName: System.Reflection.AssemblyAlgorithmIdAttribute.AlgorithmId
-- uid: System.UInt32
-  parent: System
-  isExternal: false
-  name: UInt32
-  nameWithType: UInt32
-  fullName: System.UInt32
 - uid: System.Reflection.AssemblyAlgorithmIdAttribute.#ctor*
   parent: System.Reflection.AssemblyAlgorithmIdAttribute
   isExternal: false

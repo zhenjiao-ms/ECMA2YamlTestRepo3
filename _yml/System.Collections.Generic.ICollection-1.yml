@@ -50,6 +50,7 @@ items:
       type: T
       description: To be added.
   overload: System.Collections.Generic.ICollection`1.Add*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -72,6 +73,7 @@ items:
     content: public void Clear ();
     parameters: []
   overload: System.Collections.Generic.ICollection`1.Clear*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -100,6 +102,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Collections.Generic.ICollection`1.Contains*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -128,6 +131,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.Collections.Generic.ICollection`1.CopyTo*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -152,6 +156,7 @@ items:
       type: System.Int32
       description: To be added.
   overload: System.Collections.Generic.ICollection`1.Count*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -176,6 +181,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Collections.Generic.ICollection`1.IsReadOnly*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -204,6 +210,7 @@ items:
       type: System.Boolean
       description: To be added.
   overload: System.Collections.Generic.ICollection`1.Remove*
+  exceptions: []
   platform:
   - net-11
   - net-20
@@ -216,7 +223,6 @@ references:
   nameWithType: ICollection<T>.Add(T)
   fullName: System.Collections.Generic.ICollection<T>.Add(T)
 - uid: T
-  parent: ''
   isExternal: true
   name: T
   nameWithType: T
@@ -239,24 +245,25 @@ references:
   name: Boolean
   nameWithType: Boolean
   fullName: System.Boolean
-- uid: T
-  parent: ''
-  isExternal: true
-  name: T
-  nameWithType: T
-  fullName: T
 - uid: System.Collections.Generic.ICollection`1.CopyTo(`0[],System.Int32)
   parent: System.Collections.Generic.ICollection`1
   isExternal: false
   name: CopyTo(T[],Int32)
   nameWithType: ICollection<T>.CopyTo(T[],Int32)
   fullName: System.Collections.Generic.ICollection<T>.CopyTo(T[],Int32)
-- uid: T
-  parent: ''
+- uid: T[]
   isExternal: true
   name: T
   nameWithType: T
   fullName: T[]
+  spec.csharp:
+  - uid: T
+    name: T
+    nameWithType: T
+    fullName: T[]
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
 - uid: System.Int32
   parent: System
   isExternal: false
@@ -269,42 +276,18 @@ references:
   name: Count
   nameWithType: ICollection<T>.Count
   fullName: System.Collections.Generic.ICollection<T>.Count
-- uid: System.Int32
-  parent: System
-  isExternal: false
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
 - uid: System.Collections.Generic.ICollection`1.IsReadOnly
   parent: System.Collections.Generic.ICollection`1
   isExternal: false
   name: IsReadOnly
   nameWithType: ICollection<T>.IsReadOnly
   fullName: System.Collections.Generic.ICollection<T>.IsReadOnly
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
 - uid: System.Collections.Generic.ICollection`1.Remove(`0)
   parent: System.Collections.Generic.ICollection`1
   isExternal: false
   name: Remove(T)
   nameWithType: ICollection<T>.Remove(T)
   fullName: System.Collections.Generic.ICollection<T>.Remove(T)
-- uid: System.Boolean
-  parent: System
-  isExternal: false
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
-- uid: T
-  parent: ''
-  isExternal: true
-  name: T
-  nameWithType: T
-  fullName: T
 - uid: System.Collections.Generic.ICollection`1.Add*
   parent: System.Collections.Generic.ICollection`1
   isExternal: false
