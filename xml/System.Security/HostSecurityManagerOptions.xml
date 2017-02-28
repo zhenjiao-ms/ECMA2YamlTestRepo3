@@ -18,8 +18,9 @@
     </Attribute>
   </Attributes>
   <Docs>
-    <summary>To be added.</summary>
+    <summary>Specifies the security policy components to be used by the host security manager.</summary>
     <remarks>To be added.</remarks>
+    <threadsafe />
   </Docs>
   <Members>
     <Member MemberName="AllFlags">
@@ -35,7 +36,8 @@
         <ReturnType>System.Security.HostSecurityManagerOptions</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>Use all security policy components.</summary>
+        <threadsafe />
       </Docs>
     </Member>
     <Member MemberName="HostAppDomainEvidence">
@@ -51,7 +53,8 @@
         <ReturnType>System.Security.HostSecurityManagerOptions</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>Use the application domain evidence.</summary>
+        <threadsafe />
       </Docs>
     </Member>
     <Member MemberName="HostAssemblyEvidence">
@@ -67,7 +70,8 @@
         <ReturnType>System.Security.HostSecurityManagerOptions</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>Use the assembly evidence.</summary>
+        <threadsafe />
       </Docs>
     </Member>
     <Member MemberName="HostDetermineApplicationTrust">
@@ -83,7 +87,8 @@
         <ReturnType>System.Security.HostSecurityManagerOptions</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>Route calls to the &lt;xref:System.Security.Policy.ApplicationSecurityManager.DetermineApplicationTrust%2A?displayProperty=fullName&gt; method to the &lt;xref:System.Security.HostSecurityManager.DetermineApplicationTrust%2A?displayProperty=fullName&gt; method first.</summary>
+        <threadsafe />
       </Docs>
     </Member>
     <Member MemberName="HostPolicyLevel">
@@ -104,7 +109,8 @@
         <ReturnType>System.Security.HostSecurityManagerOptions</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>Use the policy level specified in the &lt;xref:System.Security.HostSecurityManager.DomainPolicy%2A&gt; property.</summary>
+        <threadsafe />
       </Docs>
     </Member>
     <Member MemberName="HostResolvePolicy">
@@ -120,7 +126,8 @@
         <ReturnType>System.Security.HostSecurityManagerOptions</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>Use the &lt;xref:System.Security.HostSecurityManager.ResolvePolicy%2A&gt; method to resolve the application evidence.</summary>
+        <threadsafe />
       </Docs>
     </Member>
     <Member MemberName="None">
@@ -136,7 +143,8 @@
         <ReturnType>System.Security.HostSecurityManagerOptions</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>Use none of the security policy components.</summary>
+        <threadsafe />
       </Docs>
     </Member>
   </Members>

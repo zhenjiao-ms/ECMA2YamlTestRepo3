@@ -15,8 +15,18 @@
     </Attribute>
   </Attributes>
   <Docs>
-    <summary>To be added.</summary>
-    <remarks>To be added.</remarks>
+    <summary>Specifies the set of execution contexts in which a class object will be made available for requests to construct instances.</summary>
+    <remarks>
+      <format type="text/markdown"><![CDATA[  
+  
+## Remarks  
+ The values in the RegistrationClassContext enumeration are used in the `classContext` parameter of the <xref:System.Runtime.InteropServices.RegistrationServices.RegisterTypeForComClients%2A> method. These values are the same as those defined in the COM **CLSCTX** enumeration, which is used as the `dwClsContext` parameter in calls to the COM API `CoRegisterClassObject`.  
+  
+ For more information about `CoRegisterClassObject` and the **CLSCTX** enumeration, see the MSDN library.  
+  
+ ]]></format>
+    </remarks>
+    <threadsafe />
   </Docs>
   <Members>
     <Member MemberName="DisableActivateAsActivator">
@@ -32,7 +42,8 @@
         <ReturnType>System.Runtime.InteropServices.RegistrationClassContext</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>Disables activate-as-activator (AAA) activations for this activation only.</summary>
+        <threadsafe />
       </Docs>
     </Member>
     <Member MemberName="EnableActivateAsActivator">
@@ -48,7 +59,8 @@
         <ReturnType>System.Runtime.InteropServices.RegistrationClassContext</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>Enables activate-as-activator (AAA) activations for this activation only.</summary>
+        <threadsafe />
       </Docs>
     </Member>
     <Member MemberName="EnableCodeDownload">
@@ -64,7 +76,8 @@
         <ReturnType>System.Runtime.InteropServices.RegistrationClassContext</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>Allows the downloading of code from the Directory Service or the Internet.</summary>
+        <threadsafe />
       </Docs>
     </Member>
     <Member MemberName="FromDefaultContext">
@@ -80,7 +93,8 @@
         <ReturnType>System.Runtime.InteropServices.RegistrationClassContext</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>Begin this activation from the default context of the current apartment.</summary>
+        <threadsafe />
       </Docs>
     </Member>
     <Member MemberName="InProcessHandler">
@@ -96,7 +110,8 @@
         <ReturnType>System.Runtime.InteropServices.RegistrationClassContext</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>The code that manages objects of this class is an in-process handler.</summary>
+        <threadsafe />
       </Docs>
     </Member>
     <Member MemberName="InProcessHandler16">
@@ -112,7 +127,8 @@
         <ReturnType>System.Runtime.InteropServices.RegistrationClassContext</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>Not used.</summary>
+        <threadsafe />
       </Docs>
     </Member>
     <Member MemberName="InProcessServer">
@@ -128,7 +144,8 @@
         <ReturnType>System.Runtime.InteropServices.RegistrationClassContext</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>The code that creates and manages objects of this class is a DLL that runs in the same process as the caller of the function specifying the class context.</summary>
+        <threadsafe />
       </Docs>
     </Member>
     <Member MemberName="InProcessServer16">
@@ -144,7 +161,8 @@
         <ReturnType>System.Runtime.InteropServices.RegistrationClassContext</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>Not used.</summary>
+        <threadsafe />
       </Docs>
     </Member>
     <Member MemberName="LocalServer">
@@ -160,7 +178,8 @@
         <ReturnType>System.Runtime.InteropServices.RegistrationClassContext</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>The EXE code that creates and manages objects of this class runs on same machine but is loaded in a separate process space.</summary>
+        <threadsafe />
       </Docs>
     </Member>
     <Member MemberName="NoCodeDownload">
@@ -176,7 +195,8 @@
         <ReturnType>System.Runtime.InteropServices.RegistrationClassContext</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>Disallows the downloading of code from the Directory Service or the Internet.</summary>
+        <threadsafe />
       </Docs>
     </Member>
     <Member MemberName="NoCustomMarshal">
@@ -192,7 +212,8 @@
         <ReturnType>System.Runtime.InteropServices.RegistrationClassContext</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>Specifies whether activation fails if it uses custom marshaling.</summary>
+        <threadsafe />
       </Docs>
     </Member>
     <Member MemberName="NoFailureLog">
@@ -208,7 +229,8 @@
         <ReturnType>System.Runtime.InteropServices.RegistrationClassContext</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>Overrides the logging of failures.</summary>
+        <threadsafe />
       </Docs>
     </Member>
     <Member MemberName="RemoteServer">
@@ -224,7 +246,8 @@
         <ReturnType>System.Runtime.InteropServices.RegistrationClassContext</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>A remote machine context.</summary>
+        <threadsafe />
       </Docs>
     </Member>
     <Member MemberName="Reserved1">
@@ -240,7 +263,8 @@
         <ReturnType>System.Runtime.InteropServices.RegistrationClassContext</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>Not used.</summary>
+        <threadsafe />
       </Docs>
     </Member>
     <Member MemberName="Reserved2">
@@ -256,7 +280,8 @@
         <ReturnType>System.Runtime.InteropServices.RegistrationClassContext</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>Not used.</summary>
+        <threadsafe />
       </Docs>
     </Member>
     <Member MemberName="Reserved3">
@@ -272,7 +297,8 @@
         <ReturnType>System.Runtime.InteropServices.RegistrationClassContext</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>Not used.</summary>
+        <threadsafe />
       </Docs>
     </Member>
     <Member MemberName="Reserved4">
@@ -288,7 +314,8 @@
         <ReturnType>System.Runtime.InteropServices.RegistrationClassContext</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>Not used.</summary>
+        <threadsafe />
       </Docs>
     </Member>
     <Member MemberName="Reserved5">
@@ -304,7 +331,8 @@
         <ReturnType>System.Runtime.InteropServices.RegistrationClassContext</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>Not used.</summary>
+        <threadsafe />
       </Docs>
     </Member>
   </Members>

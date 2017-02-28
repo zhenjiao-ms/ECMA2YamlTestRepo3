@@ -15,8 +15,16 @@
     </Attribute>
   </Attributes>
   <Docs>
-    <summary>To be added.</summary>
-    <remarks>To be added.</remarks>
+    <summary>Defines constants for drive types, including CDRom, Fixed, Network, NoRootDirectory, Ram, Removable, and Unknown.</summary>
+    <remarks>
+      <format type="text/markdown"><![CDATA[  
+  
+## Remarks  
+ DriveType is used by the <xref:System.IO.DriveInfo> class to indicate drive type. It can be used with the DriveType property.  
+  
+ ]]></format>
+    </remarks>
+    <threadsafe />
   </Docs>
   <Members>
     <Member MemberName="CDRom">
@@ -32,7 +40,8 @@
         <ReturnType>System.IO.DriveType</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>The drive is an optical disc device, such as a CD or DVD-ROM.</summary>
+        <threadsafe />
       </Docs>
     </Member>
     <Member MemberName="Fixed">
@@ -48,7 +57,8 @@
         <ReturnType>System.IO.DriveType</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>The drive is a fixed disk.</summary>
+        <threadsafe />
       </Docs>
     </Member>
     <Member MemberName="Network">
@@ -64,7 +74,8 @@
         <ReturnType>System.IO.DriveType</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>The drive is a network drive.</summary>
+        <threadsafe />
       </Docs>
     </Member>
     <Member MemberName="NoRootDirectory">
@@ -80,7 +91,8 @@
         <ReturnType>System.IO.DriveType</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>The drive does not have a root directory.</summary>
+        <threadsafe />
       </Docs>
     </Member>
     <Member MemberName="Ram">
@@ -96,7 +108,8 @@
         <ReturnType>System.IO.DriveType</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>The drive is a RAM disk.</summary>
+        <threadsafe />
       </Docs>
     </Member>
     <Member MemberName="Removable">
@@ -112,7 +125,8 @@
         <ReturnType>System.IO.DriveType</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>The drive is a removable storage device, such as a floppy disk drive or a USB flash drive.</summary>
+        <threadsafe />
       </Docs>
     </Member>
     <Member MemberName="Unknown">
@@ -128,7 +142,8 @@
         <ReturnType>System.IO.DriveType</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>The type of drive is unknown.</summary>
+        <threadsafe />
       </Docs>
     </Member>
   </Members>

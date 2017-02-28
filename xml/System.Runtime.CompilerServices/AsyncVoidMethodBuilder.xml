@@ -10,8 +10,16 @@
   </Base>
   <Interfaces />
   <Docs>
-    <summary>To be added.</summary>
-    <remarks>To be added.</remarks>
+    <summary>Represents a builder for asynchronous methods that do not return a value.</summary>
+    <remarks>
+      <format type="text/markdown"><![CDATA[  
+  
+## Remarks  
+ This type and its members are intended for use by the compiler.  
+  
+ ]]></format>
+    </remarks>
+    <threadsafe />
   </Docs>
   <Members>
     <Member MemberName="AwaitOnCompleted&lt;TAwaiter,TStateMachine&gt;">
@@ -104,9 +112,17 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>To be added.</summary>
-        <returns>To be added.</returns>
-        <remarks>To be added.</remarks>
+        <summary>Creates an instance of the <see cref="T:System.Runtime.CompilerServices.AsyncVoidMethodBuilder" /> class.</summary>
+        <returns>A new instance of the builder.</returns>
+        <remarks>
+          <format type="text/markdown"><![CDATA[  
+  
+## Remarks  
+ This type and its members are intended for use by the compiler.  
+  
+ ]]></format>
+        </remarks>
+        <threadsafe />
       </Docs>
     </Member>
     <Member MemberName="SetException">
@@ -124,9 +140,20 @@
         <Parameter Name="exception" Type="System.Exception" />
       </Parameters>
       <Docs>
-        <param name="exception">To be added.</param>
-        <summary>To be added.</summary>
-        <remarks>To be added.</remarks>
+        <param name="exception">The exception to bind.</param>
+        <summary>Binds an exception to the method builder.</summary>
+        <remarks>
+          <format type="text/markdown"><![CDATA[  
+  
+## Remarks  
+ This type and its members are intended for use by the compiler.  
+  
+ ]]></format>
+        </remarks>
+        <exception cref="T:System.ArgumentNullException">
+          <paramref name="exception" /> is <see langword="null" />.</exception>
+        <exception cref="T:System.InvalidOperationException">The builder is not initialized.</exception>
+        <threadsafe />
       </Docs>
     </Member>
     <Member MemberName="SetResult">
@@ -142,8 +169,17 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>To be added.</summary>
-        <remarks>To be added.</remarks>
+        <summary>Marks the method builder as successfully completed.</summary>
+        <remarks>
+          <format type="text/markdown"><![CDATA[  
+  
+## Remarks  
+ This type and its members are intended for use by the compiler.  
+  
+ ]]></format>
+        </remarks>
+        <exception cref="T:System.InvalidOperationException">The builder is not initialized.</exception>
+        <threadsafe />
       </Docs>
     </Member>
     <Member MemberName="SetStateMachine">
@@ -161,9 +197,13 @@
         <Parameter Name="stateMachine" Type="System.Runtime.CompilerServices.IAsyncStateMachine" />
       </Parameters>
       <Docs>
-        <param name="stateMachine">To be added.</param>
-        <summary>To be added.</summary>
+        <param name="stateMachine">The state machine instance to associate with the builder.</param>
+        <summary>Associates the builder with the specified state machine.</summary>
         <remarks>To be added.</remarks>
+        <exception cref="T:System.ArgumentNullException">
+          <paramref name="stateMachine" /> is <see langword="null" />.</exception>
+        <exception cref="T:System.InvalidOperationException">The state machine was previously set.</exception>
+        <threadsafe />
       </Docs>
     </Member>
     <Member MemberName="Start&lt;TStateMachine&gt;">

@@ -17,8 +17,16 @@
     </Attribute>
   </Attributes>
   <Docs>
-    <summary>To be added.</summary>
-    <remarks>To be added.</remarks>
+    <summary>Use <see cref="T:System.Runtime.InteropServices.ComTypes.FILETIME" /> instead.</summary>
+    <remarks>
+      <format type="text/markdown"><![CDATA[  
+  
+## Remarks  
+ For more information about the `FILETIME` structure, see the MSDN Library.  
+  
+ ]]></format>
+    </remarks>
+    <threadsafe />
   </Docs>
   <Members>
     <Member MemberName="dwHighDateTime">
@@ -35,8 +43,9 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>Specifies the high 32 bits of the <see langword="FILETIME" />.</summary>
         <remarks>To be added.</remarks>
+        <threadsafe />
       </Docs>
     </Member>
     <Member MemberName="dwLowDateTime">
@@ -53,8 +62,9 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>Specifies the low 32 bits of the <see langword="FILETIME" />.</summary>
         <remarks>To be added.</remarks>
+        <threadsafe />
       </Docs>
     </Member>
   </Members>

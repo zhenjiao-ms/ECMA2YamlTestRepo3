@@ -19,8 +19,9 @@
     </Attribute>
   </Attributes>
   <Docs>
-    <summary>To be added.</summary>
+    <summary>Defines a set of flags used when registering assemblies.</summary>
     <remarks>To be added.</remarks>
+    <threadsafe />
   </Docs>
   <Members>
     <Member MemberName="None">
@@ -37,7 +38,8 @@
         <ReturnType>System.Runtime.InteropServices.AssemblyRegistrationFlags</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>Indicates no special settings.</summary>
+        <threadsafe />
       </Docs>
     </Member>
     <Member MemberName="SetCodeBase">
@@ -54,7 +56,8 @@
         <ReturnType>System.Runtime.InteropServices.AssemblyRegistrationFlags</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>Indicates that the code base key for the assembly should be set in the registry.</summary>
+        <threadsafe />
       </Docs>
     </Member>
   </Members>

@@ -17,8 +17,20 @@
     </Attribute>
   </Attributes>
   <Docs>
-    <summary>To be added.</summary>
-    <remarks>To be added.</remarks>
+    <summary>Holds the public GUIDs for language types to be used with the symbol store.</summary>
+    <remarks>
+      <format type="text/markdown"><![CDATA[  
+  
+## Examples  
+ The following code example demonstrates how SymLanguageType is used when calling <xref:System.Reflection.Emit.ModuleBuilder.DefineDocument%2A>.  
+  
+ [!code-cs[ModuleBuilder_DefineDocument#1](~/add/codesnippet/csharp/t-system.diagnostics.sym_0_1.cs)]
+ [!code-cpp[ModuleBuilder_DefineDocument#1](~/add/codesnippet/cpp/t-system.diagnostics.sym_0_1.cpp)]
+ [!code-vb[ModuleBuilder_DefineDocument#1](~/add/codesnippet/visualbasic/t-system.diagnostics.sym_0_1.vb)]  
+  
+ ]]></format>
+    </remarks>
+    <threadsafe />
   </Docs>
   <Members>
     <Member MemberName=".ctor">
@@ -33,8 +45,9 @@
       </AssemblyInfo>
       <Parameters />
       <Docs>
-        <summary>To be added.</summary>
+        <summary>Initializes a new instance of the <see cref="T:System.Diagnostics.SymbolStore.SymLanguageType" /> class.</summary>
         <remarks>To be added.</remarks>
+        <threadsafe />
       </Docs>
     </Member>
     <Member MemberName="Basic">
@@ -51,8 +64,9 @@
         <ReturnType>System.Guid</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>Specifies the GUID of the Basic language type to be used with the symbol store.</summary>
         <remarks>To be added.</remarks>
+        <threadsafe />
       </Docs>
     </Member>
     <Member MemberName="C">
@@ -69,8 +83,9 @@
         <ReturnType>System.Guid</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>Specifies the GUID of the C language type to be used with the symbol store.</summary>
         <remarks>To be added.</remarks>
+        <threadsafe />
       </Docs>
     </Member>
     <Member MemberName="Cobol">
@@ -87,8 +102,9 @@
         <ReturnType>System.Guid</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>Specifies the GUID of the Cobol language type to be used with the symbol store.</summary>
         <remarks>To be added.</remarks>
+        <threadsafe />
       </Docs>
     </Member>
     <Member MemberName="CPlusPlus">
@@ -105,8 +121,9 @@
         <ReturnType>System.Guid</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>Specifies the GUID of the C++ language type to be used with the symbol store.</summary>
         <remarks>To be added.</remarks>
+        <threadsafe />
       </Docs>
     </Member>
     <Member MemberName="CSharp">
@@ -123,8 +140,9 @@
         <ReturnType>System.Guid</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>Specifies the GUID of the C# language type to be used with the symbol store.</summary>
         <remarks>To be added.</remarks>
+        <threadsafe />
       </Docs>
     </Member>
     <Member MemberName="ILAssembly">
@@ -141,8 +159,9 @@
         <ReturnType>System.Guid</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>Specifies the GUID of the ILAssembly language type to be used with the symbol store.</summary>
         <remarks>To be added.</remarks>
+        <threadsafe />
       </Docs>
     </Member>
     <Member MemberName="Java">
@@ -159,8 +178,9 @@
         <ReturnType>System.Guid</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>Specifies the GUID of the Java language type to be used with the symbol store.</summary>
         <remarks>To be added.</remarks>
+        <threadsafe />
       </Docs>
     </Member>
     <Member MemberName="JScript">
@@ -177,8 +197,9 @@
         <ReturnType>System.Guid</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>Specifies the GUID of the JScript language type to be used with the symbol store.</summary>
         <remarks>To be added.</remarks>
+        <threadsafe />
       </Docs>
     </Member>
     <Member MemberName="MCPlusPlus">
@@ -195,8 +216,9 @@
         <ReturnType>System.Guid</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>Specifies the GUID of the C++ language type to be used with the symbol store.</summary>
         <remarks>To be added.</remarks>
+        <threadsafe />
       </Docs>
     </Member>
     <Member MemberName="Pascal">
@@ -213,8 +235,9 @@
         <ReturnType>System.Guid</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>Specifies the GUID of the Pascal language type to be used with the symbol store.</summary>
         <remarks>To be added.</remarks>
+        <threadsafe />
       </Docs>
     </Member>
     <Member MemberName="SMC">
@@ -231,8 +254,9 @@
         <ReturnType>System.Guid</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>Specifies the GUID of the SMC language type to be used with the symbol store.</summary>
         <remarks>To be added.</remarks>
+        <threadsafe />
       </Docs>
     </Member>
   </Members>

@@ -15,8 +15,16 @@
     </Attribute>
   </Attributes>
   <Docs>
-    <summary>To be added.</summary>
-    <remarks>To be added.</remarks>
+    <summary>Describes how to transfer a structure element, parameter, or function return value between processes.</summary>
+    <remarks>
+      <format type="text/markdown"><![CDATA[  
+  
+## Remarks  
+ The common language runtime throws an exception when a COM method in native code returns an HRESULT. For more information, see [How to: Map HRESULTs and Exceptions](../Topic/How%20to:%20Map%20HRESULTs%20and%20Exceptions.md).  
+  
+ ]]></format>
+    </remarks>
+    <threadsafe />
   </Docs>
   <Members>
     <Member MemberName="IDLFLAG_FIN">
@@ -32,7 +40,8 @@
         <ReturnType>System.Runtime.InteropServices.ComTypes.IDLFLAG</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>The parameter passes information from the caller to the callee.</summary>
+        <threadsafe />
       </Docs>
     </Member>
     <Member MemberName="IDLFLAG_FLCID">
@@ -48,7 +57,8 @@
         <ReturnType>System.Runtime.InteropServices.ComTypes.IDLFLAG</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>The parameter is the local identifier of a client application.</summary>
+        <threadsafe />
       </Docs>
     </Member>
     <Member MemberName="IDLFLAG_FOUT">
@@ -64,7 +74,8 @@
         <ReturnType>System.Runtime.InteropServices.ComTypes.IDLFLAG</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>The parameter returns information from the callee to the caller.</summary>
+        <threadsafe />
       </Docs>
     </Member>
     <Member MemberName="IDLFLAG_FRETVAL">
@@ -80,7 +91,8 @@
         <ReturnType>System.Runtime.InteropServices.ComTypes.IDLFLAG</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>The parameter is the return value of the member.</summary>
+        <threadsafe />
       </Docs>
     </Member>
     <Member MemberName="IDLFLAG_NONE">
@@ -96,7 +108,8 @@
         <ReturnType>System.Runtime.InteropServices.ComTypes.IDLFLAG</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>Does not specify whether the parameter passes or receives information.</summary>
+        <threadsafe />
       </Docs>
     </Member>
   </Members>

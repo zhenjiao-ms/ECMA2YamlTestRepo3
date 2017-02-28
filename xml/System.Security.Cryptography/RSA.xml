@@ -17,8 +17,20 @@
     </Attribute>
   </Attributes>
   <Docs>
-    <summary>To be added.</summary>
-    <remarks>To be added.</remarks>
+    <summary>Represents the base class from which all implementations of the RSA algorithm inherit.</summary>
+    <remarks>
+      <format type="text/markdown"><![CDATA[  
+  
+## Remarks  
+ Extending this class proves that you are implementing an `RSA` key. This is required for any developer providing a new `RSA` key implementation.  
+  
+ The only purpose of this class is as a hierarchy member for identification of the `RSA` algorithm.  
+  
+ The <xref:System.Security.Cryptography.RSACryptoServiceProvider> supports key lengths from 384 bits to 16384 bits in increments of 8 bits if you have the Microsoft Enhanced Cryptographic Provider installed.  It supports key lengths from 384 bits to 512 bits in increments of 8 bits if you have the Microsoft Base Cryptographic Provider installed.  
+  
+ ]]></format>
+    </remarks>
+    <threadsafe />
   </Docs>
   <Members>
     <Member MemberName=".ctor">
@@ -33,8 +45,16 @@
       </AssemblyInfo>
       <Parameters />
       <Docs>
-        <summary>To be added.</summary>
-        <remarks>To be added.</remarks>
+        <summary>Initializes a new instance of the <see cref="T:System.Security.Cryptography.RSA" /> class.</summary>
+        <remarks>
+          <format type="text/markdown"><![CDATA[  
+  
+## Remarks  
+ This is a protected method that can only be called from a class derived from <xref:System.Security.Cryptography.RSA>. You cannot create an instance of an abstract class.  
+  
+ ]]></format>
+        </remarks>
+        <threadsafe />
       </Docs>
     </Member>
     <Member MemberName="Create">
@@ -52,9 +72,10 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>To be added.</summary>
-        <returns>To be added.</returns>
+        <summary>Creates an instance of the default implementation of the <see cref="T:System.Security.Cryptography.RSA" /> algorithm.</summary>
+        <returns>A new instance of the default implementation of <see cref="T:System.Security.Cryptography.RSA" />.</returns>
         <remarks>To be added.</remarks>
+        <threadsafe />
       </Docs>
     </Member>
     <Member MemberName="Create">
@@ -74,10 +95,11 @@
         <Parameter Name="algName" Type="System.String" />
       </Parameters>
       <Docs>
-        <param name="algName">To be added.</param>
-        <summary>To be added.</summary>
-        <returns>To be added.</returns>
+        <param name="algName">The name of the implementation of <see cref="T:System.Security.Cryptography.RSA" /> to use.</param>
+        <summary>Creates an instance of the specified implementation of <see cref="T:System.Security.Cryptography.RSA" />.</summary>
+        <returns>A new instance of the specified implementation of <see cref="T:System.Security.Cryptography.RSA" />.</returns>
         <remarks>To be added.</remarks>
+        <threadsafe />
       </Docs>
     </Member>
     <Member MemberName="DecryptValue">
@@ -97,10 +119,19 @@
         <Parameter Name="rgb" Type="System.Byte[]" />
       </Parameters>
       <Docs>
-        <param name="rgb">To be added.</param>
-        <summary>To be added.</summary>
-        <returns>To be added.</returns>
-        <remarks>To be added.</remarks>
+        <param name="rgb">The cipher text to be decrypted.</param>
+        <summary>When overridden in a derived class, decrypts the input data using the private key.</summary>
+        <returns>The resulting decryption of the <paramref name="rgb" /> parameter in plain text.</returns>
+        <remarks>
+          <format type="text/markdown"><![CDATA[  
+  
+## Remarks  
+ In the [!INCLUDE[net_v452](~/add/includes/net-v452-md.md)] and earlier versions of the .NET Framework, this method was `abstract`. However, the only implementation by a derived class, <xref:System.Security.Cryptography.RSACryptoServiceProvider.DecryptValue%2A?displayProperty=fullName>, also threw a <xref:System.NotSupportedException> exception.  
+  
+ ]]></format>
+        </remarks>
+        <exception cref="T:System.NotSupportedException">This method call is not supported. This exception is thrown starting with the [!INCLUDE[net_v46](~/add/includes/net-v46-md.md)].</exception>
+        <threadsafe />
       </Docs>
     </Member>
     <Member MemberName="EncryptValue">
@@ -120,10 +151,19 @@
         <Parameter Name="rgb" Type="System.Byte[]" />
       </Parameters>
       <Docs>
-        <param name="rgb">To be added.</param>
-        <summary>To be added.</summary>
-        <returns>To be added.</returns>
-        <remarks>To be added.</remarks>
+        <param name="rgb">The plain text to be encrypted.</param>
+        <summary>When overridden in a derived class, encrypts the input data using the public key.</summary>
+        <returns>The resulting encryption of the <paramref name="rgb" /> parameter as cipher text.</returns>
+        <remarks>
+          <format type="text/markdown"><![CDATA[  
+  
+## Remarks  
+ In the [!INCLUDE[net_v452](~/add/includes/net-v452-md.md)] and earlier versions of the .NET Framework, this method was `abstract`. However, the only implementation by a derived class, <xref:System.Security.Cryptography.RSACryptoServiceProvider.DecryptValue%2A?displayProperty=fullName>, also threw a <xref:System.NotSupportedException> exception.  
+  
+ ]]></format>
+        </remarks>
+        <exception cref="T:System.NotSupportedException">This method call is not supported. This exception is thrown starting with the [!INCLUDE[net_v46](~/add/includes/net-v46-md.md)].</exception>
+        <threadsafe />
       </Docs>
     </Member>
     <Member MemberName="ExportParameters">
@@ -143,10 +183,12 @@
         <Parameter Name="includePrivateParameters" Type="System.Boolean" />
       </Parameters>
       <Docs>
-        <param name="includePrivateParameters">To be added.</param>
-        <summary>To be added.</summary>
-        <returns>To be added.</returns>
+        <param name="includePrivateParameters">
+          <see langword="true" /> to include private parameters; otherwise, <see langword="false" />.</param>
+        <summary>When overridden in a derived class, exports the <see cref="T:System.Security.Cryptography.RSAParameters" />.</summary>
+        <returns>The parameters for <see cref="T:System.Security.Cryptography.DSA" />.</returns>
         <remarks>To be added.</remarks>
+        <threadsafe />
       </Docs>
     </Member>
     <Member MemberName="FromXmlString">
@@ -166,9 +208,24 @@
         <Parameter Name="xmlString" Type="System.String" />
       </Parameters>
       <Docs>
-        <param name="xmlString">To be added.</param>
-        <summary>To be added.</summary>
-        <remarks>To be added.</remarks>
+        <param name="xmlString">The XML string containing <see cref="T:System.Security.Cryptography.RSA" /> key information.</param>
+        <summary>Initializes an <see cref="T:System.Security.Cryptography.RSA" /> object from the key information from an XML string.</summary>
+        <remarks>
+          <format type="text/markdown"><![CDATA[  
+  
+## Remarks  
+ The FromXmlString initializes an RSA object using key information in an XML string that was generated using the <xref:System.Security.Cryptography.RSA.ToXmlString%2A> method.  The FromXmlString method accepts either an XML string containing a public key or an XML string containing a public and private key.  
+  
+ Use the FromXmlString method to conveniently initialize <xref:System.Security.Cryptography.RSA> key information.  
+  
+> [!CAUTION]
+>  Persisting an XML string containing a private key to an insecure location is a security threat.  The security of your application can be compromised if a malicious third party can access your private key.  To safely persist a private key, use a secure key container.  For more information about persisting private keys in a key container, see [How to: Store Asymmetric Keys in a Key Container](../Topic/How%20to:%20Store%20Asymmetric%20Keys%20in%20a%20Key%20Container.md).  
+  
+ ]]></format>
+        </remarks>
+        <exception cref="T:System.ArgumentNullException">The <paramref name="xmlString" /> parameter is <see langword="null" />.</exception>
+        <exception cref="T:System.Security.Cryptography.CryptographicException">The format of the <paramref name="xmlString" /> parameter is not valid.</exception>
+        <threadsafe />
       </Docs>
     </Member>
     <Member MemberName="ImportParameters">
@@ -188,9 +245,10 @@
         <Parameter Name="parameters" Type="System.Security.Cryptography.RSAParameters" />
       </Parameters>
       <Docs>
-        <param name="parameters">To be added.</param>
-        <summary>To be added.</summary>
+        <param name="parameters">The parameters for <see cref="T:System.Security.Cryptography.RSA" />.</param>
+        <summary>When overridden in a derived class, imports the specified <see cref="T:System.Security.Cryptography.RSAParameters" />.</summary>
         <remarks>To be added.</remarks>
+        <threadsafe />
       </Docs>
     </Member>
     <Member MemberName="ToXmlString">
@@ -210,10 +268,48 @@
         <Parameter Name="includePrivateParameters" Type="System.Boolean" />
       </Parameters>
       <Docs>
-        <param name="includePrivateParameters">To be added.</param>
-        <summary>To be added.</summary>
-        <returns>To be added.</returns>
-        <remarks>To be added.</remarks>
+        <param name="includePrivateParameters">
+          <see langword="true" /> to include a public and private RSA key; <see langword="false" /> to include only the public key.</param>
+        <summary>Creates and returns an XML string containing the key of the current <see cref="T:System.Security.Cryptography.RSA" /> object.</summary>
+        <returns>An XML string containing the key of the current <see cref="T:System.Security.Cryptography.RSA" /> object.</returns>
+        <remarks>
+          <format type="text/markdown"><![CDATA[  
+  
+## Remarks  
+ The ToXmlString method creates an XML string that contains either the public and private key of the current <xref:System.Security.Cryptography.RSA> object or contains only the public key of the current <xref:System.Security.Cryptography.RSA> object.  
+  
+ Use the ToXmlString method whenever you need to conveniently persist RSA key information.  To initialize an <xref:System.Security.Cryptography.RSA> object with the key in an XML string, use the <xref:System.Security.Cryptography.RSA.FromXmlString%2A> method.  
+  
+> [!CAUTION]
+>  Persisting an XML string containing a private key to an insecure location is a security threat.  The security of your application can be compromised if a malicious third party can access your private key.  To safely persist a private key, use a secure key container.  For more information about persisting private keys in a key container, see [How to: Store Asymmetric Keys in a Key Container](../Topic/How%20to:%20Store%20Asymmetric%20Keys%20in%20a%20Key%20Container.md).  
+  
+ When you pass `true` to the ToXmlString method, the resulting XML string takes the following form:  
+  
+```  
+<RSAKeyValue>  
+   <Modulus>…</Modulus>  
+   <Exponent>…</Exponent>  
+   <P>…</P>  
+   <Q>…</Q>  
+   <DP>…</DP>  
+   <DQ>…</DQ>  
+   <InverseQ>…</InverseQ>  
+   <D>…</D>  
+</RSAKeyValue>  
+```  
+  
+ When you pass `false` to the ToXmlString method, the resulting XML string takes the following form:  
+  
+```  
+<RSAKeyValue>  
+   <Modulus>…</Modulus>  
+   <Exponent>…</Exponent>  
+</RSAKeyValue>  
+```  
+  
+ ]]></format>
+        </remarks>
+        <threadsafe />
       </Docs>
     </Member>
   </Members>

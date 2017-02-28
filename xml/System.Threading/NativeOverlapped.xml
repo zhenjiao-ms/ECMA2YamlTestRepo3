@@ -17,8 +17,16 @@
     </Attribute>
   </Attributes>
   <Docs>
-    <summary>To be added.</summary>
-    <remarks>To be added.</remarks>
+    <summary>Provides an explicit layout that is visible from unmanaged code and that will have the same layout as the Win32 OVERLAPPED structure with additional reserved fields at the end.</summary>
+    <remarks>
+      <format type="text/markdown"><![CDATA[  
+  
+## Remarks  
+ The NativeOverlapped.NET Framework value type represents an unmanaged version of the Win32 OVERLAPPED structure. The layout of this structure must be identical to OVERLAPPED. Four additional DWORDs are reserved at the end.  
+  
+ ]]></format>
+    </remarks>
+    <threadsafe />
   </Docs>
   <Members>
     <Member MemberName="EventHandle">
@@ -35,8 +43,9 @@
         <ReturnType>System.IntPtr</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>Specifies the handle to an event set to the signaled state when the operation is complete. The calling process must set this member either to zero or to a valid event handle before calling any overlapped functions.</summary>
         <remarks>To be added.</remarks>
+        <threadsafe />
       </Docs>
     </Member>
     <Member MemberName="InternalHigh">
@@ -53,8 +62,9 @@
         <ReturnType>System.IntPtr</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>Specifies the length of the data transferred. Reserved for operating system use.</summary>
         <remarks>To be added.</remarks>
+        <threadsafe />
       </Docs>
     </Member>
     <Member MemberName="InternalLow">
@@ -71,8 +81,9 @@
         <ReturnType>System.IntPtr</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>Specifies a system-dependent status. Reserved for operating system use.</summary>
         <remarks>To be added.</remarks>
+        <threadsafe />
       </Docs>
     </Member>
     <Member MemberName="OffsetHigh">
@@ -89,8 +100,16 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
-        <remarks>To be added.</remarks>
+        <summary>Specifies the high word of the byte offset at which to start the transfer.</summary>
+        <remarks>
+          <format type="text/markdown"><![CDATA[  
+  
+## Remarks  
+ This member is ignored when reading from or writing to named pipes and communications devices and in those cases its value should be zero.  
+  
+ ]]></format>
+        </remarks>
+        <threadsafe />
       </Docs>
     </Member>
     <Member MemberName="OffsetLow">
@@ -107,8 +126,16 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
-        <remarks>To be added.</remarks>
+        <summary>Specifies a file position at which to start the transfer.</summary>
+        <remarks>
+          <format type="text/markdown"><![CDATA[  
+  
+## Remarks  
+ The file position is a byte offset from the start of the file. The calling process sets this member before calling the OR function. This member is ignored when reading from or writing to named pipes and communications devices, and in those cases its value should be zero.  
+  
+ ]]></format>
+        </remarks>
+        <threadsafe />
       </Docs>
     </Member>
   </Members>

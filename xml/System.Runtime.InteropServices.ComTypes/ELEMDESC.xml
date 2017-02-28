@@ -11,8 +11,18 @@
   </Base>
   <Interfaces />
   <Docs>
-    <summary>To be added.</summary>
-    <remarks>To be added.</remarks>
+    <summary>Contains the type description and process transfer information for a variable, function, or a function parameter.</summary>
+    <remarks>
+      <format type="text/markdown"><![CDATA[  
+  
+## Remarks  
+ For additional information about `ELEMDESC`, see the MSDN Library.  
+  
+ The common language runtime throws an exception when a COM method in native code returns an HRESULT. For more information, see [How to: Map HRESULTs and Exceptions](../Topic/How%20to:%20Map%20HRESULTs%20and%20Exceptions.md).  
+  
+ ]]></format>
+    </remarks>
+    <threadsafe />
   </Docs>
   <Members>
     <Member MemberName="desc">
@@ -28,8 +38,9 @@
         <ReturnType>System.Runtime.InteropServices.ComTypes.ELEMDESC+DESCUNION</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>Contains information about an element.</summary>
         <remarks>To be added.</remarks>
+        <threadsafe />
       </Docs>
     </Member>
     <Member MemberName="tdesc">
@@ -45,8 +56,16 @@
         <ReturnType>System.Runtime.InteropServices.ComTypes.TYPEDESC</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
-        <remarks>To be added.</remarks>
+        <summary>Identifies the type of the element.</summary>
+        <remarks>
+          <format type="text/markdown"><![CDATA[  
+  
+## Remarks  
+ For additional information about `ELEMDESC`, see the MSDN Library.  
+  
+ ]]></format>
+        </remarks>
+        <threadsafe />
       </Docs>
     </Member>
   </Members>

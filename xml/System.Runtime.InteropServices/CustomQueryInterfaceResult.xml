@@ -14,8 +14,9 @@
     </Attribute>
   </Attributes>
   <Docs>
-    <summary>To be added.</summary>
+    <summary>Provides return values for the &lt;xref:System.Runtime.InteropServices.ICustomQueryInterface.GetInterface%2A&gt; method.</summary>
     <remarks>To be added.</remarks>
+    <threadsafe />
   </Docs>
   <Members>
     <Member MemberName="Failed">
@@ -30,7 +31,8 @@
         <ReturnType>System.Runtime.InteropServices.CustomQueryInterfaceResult</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>The interface for a specific interface ID is not available. In this case, the returned interface is <see langword="null" />. E_NOINTERFACE is returned to the caller of [IUnknown::QueryInterface](http://go.microsoft.com/fwlink/?LinkId=144867).</summary>
+        <threadsafe />
       </Docs>
     </Member>
     <Member MemberName="Handled">
@@ -45,7 +47,8 @@
         <ReturnType>System.Runtime.InteropServices.CustomQueryInterfaceResult</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>The interface pointer that is returned from the &lt;xref:System.Runtime.InteropServices.ICustomQueryInterface.GetInterface%2A&gt; method can be used as the result of [IUnknown::QueryInterface](http://go.microsoft.com/fwlink/?LinkId=144867).</summary>
+        <threadsafe />
       </Docs>
     </Member>
     <Member MemberName="NotHandled">
@@ -60,7 +63,8 @@
         <ReturnType>System.Runtime.InteropServices.CustomQueryInterfaceResult</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>The custom <see langword="QueryInterface" /> was not used. Instead, the default implementation of [IUnknown::QueryInterface](http://go.microsoft.com/fwlink/?LinkId=144867) should be used.</summary>
+        <threadsafe />
       </Docs>
     </Member>
   </Members>

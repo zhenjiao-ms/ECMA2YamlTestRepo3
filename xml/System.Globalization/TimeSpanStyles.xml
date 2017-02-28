@@ -14,8 +14,9 @@
     </Attribute>
   </Attributes>
   <Docs>
-    <summary>To be added.</summary>
+    <summary>Defines the formatting options that customize string parsing for the &lt;xref:System.TimeSpan.ParseExact%2A?displayProperty=fullName&gt; and &lt;xref:System.TimeSpan.TryParseExact%2A?displayProperty=fullName&gt; methods.</summary>
     <remarks>To be added.</remarks>
+    <threadsafe />
   </Docs>
   <Members>
     <Member MemberName="AssumeNegative">
@@ -30,7 +31,8 @@
         <ReturnType>System.Globalization.TimeSpanStyles</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>Indicates that input is always interpreted as a negative time interval.</summary>
+        <threadsafe />
       </Docs>
     </Member>
     <Member MemberName="None">
@@ -45,7 +47,8 @@
         <ReturnType>System.Globalization.TimeSpanStyles</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>Indicates that input is interpreted as a negative time interval only if a negative sign is present.</summary>
+        <threadsafe />
       </Docs>
     </Member>
   </Members>

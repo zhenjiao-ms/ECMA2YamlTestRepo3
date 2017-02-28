@@ -17,8 +17,16 @@
     </Attribute>
   </Attributes>
   <Docs>
-    <summary>To be added.</summary>
-    <remarks>To be added.</remarks>
+    <summary>Represents the <see langword="Token" /> returned by the metadata to represent a type.</summary>
+    <remarks>
+      <format type="text/markdown"><![CDATA[  
+  
+## Remarks  
+ The type of an object is also known as the class of an object.  
+  
+ ]]></format>
+    </remarks>
+    <threadsafe />
   </Docs>
   <Members>
     <Member MemberName="Empty">
@@ -35,8 +43,9 @@
         <ReturnType>System.Reflection.Emit.TypeToken</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>The default <see langword="TypeToken" /> with &lt;xref:System.Reflection.Emit.TypeToken.Token%2A&gt; value 0.</summary>
         <remarks>To be added.</remarks>
+        <threadsafe />
       </Docs>
     </Member>
     <Member MemberName="Equals">
@@ -56,10 +65,12 @@
         <Parameter Name="obj" Type="System.Object" />
       </Parameters>
       <Docs>
-        <param name="obj">To be added.</param>
-        <summary>To be added.</summary>
-        <returns>To be added.</returns>
+        <param name="obj">The object to compare with this TypeToken.</param>
+        <summary>Checks if the given object is an instance of <see langword="TypeToken" /> and is equal to this instance.</summary>
+        <returns>
+          <see langword="true" /> if <paramref name="obj" /> is an instance of <see langword="TypeToken" /> and is equal to this object; otherwise, <see langword="false" />.</returns>
         <remarks>To be added.</remarks>
+        <threadsafe />
       </Docs>
     </Member>
     <Member MemberName="Equals">
@@ -78,10 +89,12 @@
         <Parameter Name="obj" Type="System.Reflection.Emit.TypeToken" />
       </Parameters>
       <Docs>
-        <param name="obj">To be added.</param>
-        <summary>To be added.</summary>
-        <returns>To be added.</returns>
+        <param name="obj">The <see cref="T:System.Reflection.Emit.TypeToken" /> to compare to the current instance.</param>
+        <summary>Indicates whether the current instance is equal to the specified <see cref="T:System.Reflection.Emit.TypeToken" />.</summary>
+        <returns>
+          <see langword="true" /> if the value of <paramref name="obj" /> is equal to the value of the current instance; otherwise, <see langword="false" />.</returns>
         <remarks>To be added.</remarks>
+        <threadsafe />
       </Docs>
     </Member>
     <Member MemberName="GetHashCode">
@@ -99,9 +112,10 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>To be added.</summary>
-        <returns>To be added.</returns>
+        <summary>Generates the hash code for this type.</summary>
+        <returns>Returns the hash code for this type.</returns>
         <remarks>To be added.</remarks>
+        <threadsafe />
       </Docs>
     </Member>
     <Member MemberName="op_Equality">
@@ -121,11 +135,13 @@
         <Parameter Name="b" Type="System.Reflection.Emit.TypeToken" />
       </Parameters>
       <Docs>
-        <param name="a">To be added.</param>
-        <param name="b">To be added.</param>
-        <summary>To be added.</summary>
-        <returns>To be added.</returns>
+        <param name="a">The <see cref="T:System.Reflection.Emit.TypeToken" /> to compare to `b`.</param>
+        <param name="b">The <see cref="T:System.Reflection.Emit.TypeToken" /> to compare to `a`.</param>
+        <summary>Indicates whether two <see cref="T:System.Reflection.Emit.TypeToken" /> structures are equal.</summary>
+        <returns>
+          <see langword="true" /> if <paramref name="a" /> is equal to <paramref name="b" />; otherwise, <see langword="false" />.</returns>
         <remarks>To be added.</remarks>
+        <threadsafe />
       </Docs>
     </Member>
     <Member MemberName="op_Inequality">
@@ -145,11 +161,13 @@
         <Parameter Name="b" Type="System.Reflection.Emit.TypeToken" />
       </Parameters>
       <Docs>
-        <param name="a">To be added.</param>
-        <param name="b">To be added.</param>
-        <summary>To be added.</summary>
-        <returns>To be added.</returns>
+        <param name="a">The <see cref="T:System.Reflection.Emit.TypeToken" /> to compare to `b`.</param>
+        <param name="b">The <see cref="T:System.Reflection.Emit.TypeToken" /> to compare to `a`.</param>
+        <summary>Indicates whether two <see cref="T:System.Reflection.Emit.TypeToken" /> structures are not equal.</summary>
+        <returns>
+          <see langword="true" /> if <paramref name="a" /> is not equal to <paramref name="b" />; otherwise, <see langword="false" />.</returns>
         <remarks>To be added.</remarks>
+        <threadsafe />
       </Docs>
     </Member>
     <Member MemberName="Token">
@@ -166,9 +184,10 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
-        <value>To be added.</value>
+        <summary>Retrieves the metadata token for this class.</summary>
+        <value>Read-only. Retrieves the metadata token of this type.</value>
         <remarks>To be added.</remarks>
+        <threadsafe />
       </Docs>
     </Member>
   </Members>

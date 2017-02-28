@@ -19,8 +19,9 @@
     </Attribute>
   </Attributes>
   <Docs>
-    <summary>To be added.</summary>
+    <summary>Specifies the resource location.</summary>
     <remarks>To be added.</remarks>
+    <threadsafe />
   </Docs>
   <Members>
     <Member MemberName="ContainedInAnotherAssembly">
@@ -37,7 +38,8 @@
         <ReturnType>System.Reflection.ResourceLocation</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>Specifies that the resource is contained in another assembly.</summary>
+        <threadsafe />
       </Docs>
     </Member>
     <Member MemberName="ContainedInManifestFile">
@@ -54,7 +56,8 @@
         <ReturnType>System.Reflection.ResourceLocation</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>Specifies that the resource is contained in the manifest file.</summary>
+        <threadsafe />
       </Docs>
     </Member>
     <Member MemberName="Embedded">
@@ -71,7 +74,8 @@
         <ReturnType>System.Reflection.ResourceLocation</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>Specifies an embedded (that is, non-linked) resource.</summary>
+        <threadsafe />
       </Docs>
     </Member>
   </Members>

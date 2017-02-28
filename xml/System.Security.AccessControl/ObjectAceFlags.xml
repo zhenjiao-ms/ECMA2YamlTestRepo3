@@ -15,8 +15,9 @@
     </Attribute>
   </Attributes>
   <Docs>
-    <summary>To be added.</summary>
+    <summary>Specifies the presence of object types for Access Control Entries (ACEs).</summary>
     <remarks>To be added.</remarks>
+    <threadsafe />
   </Docs>
   <Members>
     <Member MemberName="InheritedObjectAceTypePresent">
@@ -32,7 +33,8 @@
         <ReturnType>System.Security.AccessControl.ObjectAceFlags</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>The type of object that can inherit the ACE.</summary>
+        <threadsafe />
       </Docs>
     </Member>
     <Member MemberName="None">
@@ -48,7 +50,8 @@
         <ReturnType>System.Security.AccessControl.ObjectAceFlags</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>No object types are present.</summary>
+        <threadsafe />
       </Docs>
     </Member>
     <Member MemberName="ObjectAceTypePresent">
@@ -64,7 +67,8 @@
         <ReturnType>System.Security.AccessControl.ObjectAceFlags</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>The type of object that is associated with the ACE is present.</summary>
+        <threadsafe />
       </Docs>
     </Member>
   </Members>

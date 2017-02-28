@@ -7,8 +7,9 @@
   </AssemblyInfo>
   <Interfaces />
   <Docs>
-    <summary>To be added.</summary>
+    <summary>Represents a type that you can reflect over.</summary>
     <remarks>To be added.</remarks>
+    <threadsafe />
   </Docs>
   <Members>
     <Member MemberName="GetTypeInfo">
@@ -24,9 +25,10 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>To be added.</summary>
-        <returns>To be added.</returns>
+        <summary>Retrieves an object that represents this type.</summary>
+        <returns>An object that represents this type.</returns>
         <remarks>To be added.</remarks>
+        <threadsafe />
       </Docs>
     </Member>
   </Members>

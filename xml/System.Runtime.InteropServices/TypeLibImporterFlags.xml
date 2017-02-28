@@ -19,8 +19,16 @@
     </Attribute>
   </Attributes>
   <Docs>
-    <summary>To be added.</summary>
-    <remarks>To be added.</remarks>
+    <summary>Indicates how an assembly should be produced.</summary>
+    <remarks>
+      <format type="text/markdown"><![CDATA[  
+  
+## Remarks  
+ This enumeration is used with the <xref:System.Runtime.InteropServices.TypeLibConverter.ConvertTypeLibToAssembly%2A?displayProperty=fullName> method.  
+  
+ ]]></format>
+    </remarks>
+    <threadsafe />
   </Docs>
   <Members>
     <Member MemberName="ImportAsAgnostic">
@@ -36,7 +44,8 @@
         <ReturnType>System.Runtime.InteropServices.TypeLibImporterFlags</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>Imports a type library for any platform.</summary>
+        <threadsafe />
       </Docs>
     </Member>
     <Member MemberName="ImportAsArm">
@@ -51,7 +60,8 @@
         <ReturnType>System.Runtime.InteropServices.TypeLibImporterFlags</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>Imports a library for the ARM platform.</summary>
+        <threadsafe />
       </Docs>
     </Member>
     <Member MemberName="ImportAsItanium">
@@ -67,7 +77,8 @@
         <ReturnType>System.Runtime.InteropServices.TypeLibImporterFlags</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>Imports a type library for the Itanium platform.</summary>
+        <threadsafe />
       </Docs>
     </Member>
     <Member MemberName="ImportAsX64">
@@ -83,7 +94,8 @@
         <ReturnType>System.Runtime.InteropServices.TypeLibImporterFlags</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>Imports a type library for the x86 64-bit platform.</summary>
+        <threadsafe />
       </Docs>
     </Member>
     <Member MemberName="ImportAsX86">
@@ -99,7 +111,8 @@
         <ReturnType>System.Runtime.InteropServices.TypeLibImporterFlags</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>Imports a type library for the x86 platform.</summary>
+        <threadsafe />
       </Docs>
     </Member>
     <Member MemberName="NoDefineVersionResource">
@@ -114,7 +127,8 @@
         <ReturnType>System.Runtime.InteropServices.TypeLibImporterFlags</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>Prevents inclusion of a version resource in the interop assembly. For more information, see the &lt;xref:System.Reflection.Emit.AssemblyBuilder.DefineVersionInfoResource%2A?displayProperty=fullName&gt; method.</summary>
+        <threadsafe />
       </Docs>
     </Member>
     <Member MemberName="None">
@@ -130,7 +144,8 @@
         <ReturnType>System.Runtime.InteropServices.TypeLibImporterFlags</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>No special settings. This is the default.</summary>
+        <threadsafe />
       </Docs>
     </Member>
     <Member MemberName="PreventClassMembers">
@@ -146,7 +161,8 @@
         <ReturnType>System.Runtime.InteropServices.TypeLibImporterFlags</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>Not used.</summary>
+        <threadsafe />
       </Docs>
     </Member>
     <Member MemberName="PrimaryInteropAssembly">
@@ -163,7 +179,8 @@
         <ReturnType>System.Runtime.InteropServices.TypeLibImporterFlags</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>Generates a primary interop assembly. For more information, see the <see cref="T:System.Runtime.InteropServices.PrimaryInteropAssemblyAttribute" /> attribute. A keyfile must be specified.</summary>
+        <threadsafe />
       </Docs>
     </Member>
     <Member MemberName="ReflectionOnlyLoading">
@@ -179,7 +196,8 @@
         <ReturnType>System.Runtime.InteropServices.TypeLibImporterFlags</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>Uses reflection-only loading.</summary>
+        <threadsafe />
       </Docs>
     </Member>
     <Member MemberName="SafeArrayAsSystemArray">
@@ -196,7 +214,8 @@
         <ReturnType>System.Runtime.InteropServices.TypeLibImporterFlags</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>Imports all <see langword="SAFEARRAY" /> instances as <see cref="T:System.Array" /> instead of typed, single-dimensional, zero-based managed arrays. This option is useful when dealing with multi-dimensional, non-zero-based <see langword="SAFEARRAY" /> instances, which otherwise cannot be accessed unless you edit the resulting assembly by using the MSIL Disassembler (Ildasm.exe) and MSIL Assembler (Ilasm.exe) tools.</summary>
+        <threadsafe />
       </Docs>
     </Member>
     <Member MemberName="SerializableValueClasses">
@@ -212,7 +231,8 @@
         <ReturnType>System.Runtime.InteropServices.TypeLibImporterFlags</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>Uses serializable classes.</summary>
+        <threadsafe />
       </Docs>
     </Member>
     <Member MemberName="TransformDispRetVals">
@@ -229,7 +249,8 @@
         <ReturnType>System.Runtime.InteropServices.TypeLibImporterFlags</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>Transforms <see langword="[out, retval]" /> parameters of methods on dispatch-only interfaces ([dispinterface](http://msdn.microsoft.com/en-us/e8c18ae5-3d9e-4dff-aa20-b5acc723eacf)) into return values.</summary>
+        <threadsafe />
       </Docs>
     </Member>
     <Member MemberName="UnsafeInterfaces">
@@ -246,7 +267,8 @@
         <ReturnType>System.Runtime.InteropServices.TypeLibImporterFlags</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>Imports all interfaces as interfaces that suppress the common language runtime's stack crawl for &lt;xref:System.Security.Permissions.SecurityPermissionFlag.UnmanagedCode?displayProperty=fullName&gt; permission. Be sure you understand the responsibilities associated with suppressing this security check.</summary>
+        <threadsafe />
       </Docs>
     </Member>
   </Members>

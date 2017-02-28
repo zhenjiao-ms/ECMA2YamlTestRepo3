@@ -15,8 +15,16 @@
     </Attribute>
   </Attributes>
   <Docs>
-    <summary>To be added.</summary>
-    <remarks>To be added.</remarks>
+    <summary>Specifies the scope of a <see cref="T:System.Security.SecurityCriticalAttribute" />.</summary>
+    <remarks>
+      <format type="text/markdown"><![CDATA[  
+  
+## Remarks  
+ Security-critical code is any code that protects sensitive resources and exposes brokered access to the resource to untrusted or partially trusted code by performing the necessary elevation of privilege operations.  
+  
+ ]]></format>
+    </remarks>
+    <threadsafe />
   </Docs>
   <Members>
     <Member MemberName="Everything">
@@ -32,7 +40,8 @@
         <ReturnType>System.Security.SecurityCriticalScope</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>The attribute applies to all code that follows it.</summary>
+        <threadsafe />
       </Docs>
     </Member>
     <Member MemberName="Explicit">
@@ -48,7 +57,8 @@
         <ReturnType>System.Security.SecurityCriticalScope</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>The attribute applies only to the immediate target.</summary>
+        <threadsafe />
       </Docs>
     </Member>
   </Members>

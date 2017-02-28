@@ -12,8 +12,9 @@
     </Attribute>
   </Attributes>
   <Docs>
-    <summary>To be added.</summary>
+    <summary>Enables classes to be activated by the [!INCLUDE[wrt](~/add/includes/wrt-md.md)].</summary>
     <remarks>To be added.</remarks>
+    <threadsafe />
   </Docs>
   <Members>
     <Member MemberName="ActivateInstance">
@@ -29,9 +30,10 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>To be added.</summary>
-        <returns>To be added.</returns>
+        <summary>Returns a new instance of the [!INCLUDE[wrt](~/add/includes/wrt-md.md)] class that is created by the <see cref="T:System.Runtime.InteropServices.WindowsRuntime.IActivationFactory" /> interface.</summary>
+        <returns>The new instance of the [!INCLUDE[wrt](~/add/includes/wrt-md.md)] class.</returns>
         <remarks>To be added.</remarks>
+        <threadsafe />
       </Docs>
     </Member>
   </Members>

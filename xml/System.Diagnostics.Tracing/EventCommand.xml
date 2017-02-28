@@ -9,8 +9,9 @@
     <BaseTypeName>System.Enum</BaseTypeName>
   </Base>
   <Docs>
-    <summary>To be added.</summary>
+    <summary>Describes the command (ventArgs.Command property) that is passed to the &lt;xref:System.Diagnostics.Tracing.EventSource.OnEventCommand%2A&gt; callback.</summary>
     <remarks>To be added.</remarks>
+    <threadsafe />
   </Docs>
   <Members>
     <Member MemberName="Disable">
@@ -25,7 +26,8 @@
         <ReturnType>System.Diagnostics.Tracing.EventCommand</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>Disable the event.</summary>
+        <threadsafe />
       </Docs>
     </Member>
     <Member MemberName="Enable">
@@ -40,7 +42,8 @@
         <ReturnType>System.Diagnostics.Tracing.EventCommand</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>Enable the event.</summary>
+        <threadsafe />
       </Docs>
     </Member>
     <Member MemberName="SendManifest">
@@ -55,7 +58,8 @@
         <ReturnType>System.Diagnostics.Tracing.EventCommand</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>Send the manifest.</summary>
+        <threadsafe />
       </Docs>
     </Member>
     <Member MemberName="Update">
@@ -70,7 +74,8 @@
         <ReturnType>System.Diagnostics.Tracing.EventCommand</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>Update the event.</summary>
+        <threadsafe />
       </Docs>
     </Member>
   </Members>

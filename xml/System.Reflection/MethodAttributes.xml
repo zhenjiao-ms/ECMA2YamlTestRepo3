@@ -19,8 +19,20 @@
     </Attribute>
   </Attributes>
   <Docs>
-    <summary>To be added.</summary>
-    <remarks>To be added.</remarks>
+    <summary>Specifies flags for method attributes. These flags are defined in the corhdr.h file.</summary>
+    <remarks>
+      <format type="text/markdown"><![CDATA[  
+  
+## Examples  
+ The following example displays the attributes of the specified method.  
+  
+ [!code-cpp[Classic MethodAttributes Example#1](~/add/codesnippet/cpp/t-system.reflection.meth_1_1.cpp)]
+ [!code-vb[Classic MethodAttributes Example#1](~/add/codesnippet/visualbasic/t-system.reflection.meth_1_1.vb)]
+ [!code-cs[Classic MethodAttributes Example#1](~/add/codesnippet/csharp/t-system.reflection.meth_1_1.cs)]  
+  
+ ]]></format>
+    </remarks>
+    <threadsafe />
   </Docs>
   <Members>
     <Member MemberName="Abstract">
@@ -37,7 +49,8 @@
         <ReturnType>System.Reflection.MethodAttributes</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>Indicates that the class does not provide an implementation of this method.</summary>
+        <threadsafe />
       </Docs>
     </Member>
     <Member MemberName="Assembly">
@@ -54,7 +67,8 @@
         <ReturnType>System.Reflection.MethodAttributes</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>Indicates that the method is accessible to any class of this assembly.</summary>
+        <threadsafe />
       </Docs>
     </Member>
     <Member MemberName="CheckAccessOnOverride">
@@ -71,7 +85,8 @@
         <ReturnType>System.Reflection.MethodAttributes</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>Indicates that the method can only be overridden when it is also accessible.</summary>
+        <threadsafe />
       </Docs>
     </Member>
     <Member MemberName="FamANDAssem">
@@ -88,7 +103,8 @@
         <ReturnType>System.Reflection.MethodAttributes</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>Indicates that the method is accessible to members of this type and its derived types that are in this assembly only.</summary>
+        <threadsafe />
       </Docs>
     </Member>
     <Member MemberName="Family">
@@ -105,7 +121,8 @@
         <ReturnType>System.Reflection.MethodAttributes</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>Indicates that the method is accessible only to members of this class and its derived classes.</summary>
+        <threadsafe />
       </Docs>
     </Member>
     <Member MemberName="FamORAssem">
@@ -122,7 +139,8 @@
         <ReturnType>System.Reflection.MethodAttributes</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>Indicates that the method is accessible to derived classes anywhere, as well as to any class in the assembly.</summary>
+        <threadsafe />
       </Docs>
     </Member>
     <Member MemberName="Final">
@@ -139,7 +157,8 @@
         <ReturnType>System.Reflection.MethodAttributes</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>Indicates that the method cannot be overridden.</summary>
+        <threadsafe />
       </Docs>
     </Member>
     <Member MemberName="HasSecurity">
@@ -156,7 +175,8 @@
         <ReturnType>System.Reflection.MethodAttributes</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>Indicates that the method has security associated with it. Reserved flag for runtime use only.</summary>
+        <threadsafe />
       </Docs>
     </Member>
     <Member MemberName="HideBySig">
@@ -173,7 +193,8 @@
         <ReturnType>System.Reflection.MethodAttributes</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>Indicates that the method hides by name and signature; otherwise, by name only.</summary>
+        <threadsafe />
       </Docs>
     </Member>
     <Member MemberName="MemberAccessMask">
@@ -190,7 +211,8 @@
         <ReturnType>System.Reflection.MethodAttributes</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>Retrieves accessibility information.</summary>
+        <threadsafe />
       </Docs>
     </Member>
     <Member MemberName="NewSlot">
@@ -207,7 +229,8 @@
         <ReturnType>System.Reflection.MethodAttributes</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>Indicates that the method always gets a new slot in the vtable.</summary>
+        <threadsafe />
       </Docs>
     </Member>
     <Member MemberName="PinvokeImpl">
@@ -224,7 +247,8 @@
         <ReturnType>System.Reflection.MethodAttributes</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>Indicates that the method implementation is forwarded through PInvoke (Platform Invocation Services).</summary>
+        <threadsafe />
       </Docs>
     </Member>
     <Member MemberName="Private">
@@ -241,7 +265,8 @@
         <ReturnType>System.Reflection.MethodAttributes</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>Indicates that the method is accessible only to the current class.</summary>
+        <threadsafe />
       </Docs>
     </Member>
     <Member MemberName="PrivateScope">
@@ -258,7 +283,8 @@
         <ReturnType>System.Reflection.MethodAttributes</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>Indicates that the member cannot be referenced.</summary>
+        <threadsafe />
       </Docs>
     </Member>
     <Member MemberName="Public">
@@ -275,7 +301,8 @@
         <ReturnType>System.Reflection.MethodAttributes</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>Indicates that the method is accessible to any object for which this object is in scope.</summary>
+        <threadsafe />
       </Docs>
     </Member>
     <Member MemberName="RequireSecObject">
@@ -292,7 +319,8 @@
         <ReturnType>System.Reflection.MethodAttributes</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>Indicates that the method calls another method containing security code. Reserved flag for runtime use only.</summary>
+        <threadsafe />
       </Docs>
     </Member>
     <Member MemberName="ReservedMask">
@@ -309,7 +337,8 @@
         <ReturnType>System.Reflection.MethodAttributes</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>Indicates a reserved flag for runtime use only.</summary>
+        <threadsafe />
       </Docs>
     </Member>
     <Member MemberName="ReuseSlot">
@@ -326,7 +355,8 @@
         <ReturnType>System.Reflection.MethodAttributes</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>Indicates that the method will reuse an existing slot in the vtable. This is the default behavior.</summary>
+        <threadsafe />
       </Docs>
     </Member>
     <Member MemberName="RTSpecialName">
@@ -343,7 +373,8 @@
         <ReturnType>System.Reflection.MethodAttributes</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>Indicates that the common language runtime checks the name encoding.</summary>
+        <threadsafe />
       </Docs>
     </Member>
     <Member MemberName="SpecialName">
@@ -360,7 +391,8 @@
         <ReturnType>System.Reflection.MethodAttributes</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>Indicates that the method is special. The name describes how this method is special.</summary>
+        <threadsafe />
       </Docs>
     </Member>
     <Member MemberName="Static">
@@ -377,7 +409,8 @@
         <ReturnType>System.Reflection.MethodAttributes</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>Indicates that the method is defined on the type; otherwise, it is defined per instance.</summary>
+        <threadsafe />
       </Docs>
     </Member>
     <Member MemberName="UnmanagedExport">
@@ -394,7 +427,8 @@
         <ReturnType>System.Reflection.MethodAttributes</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>Indicates that the managed method is exported by thunk to unmanaged code.</summary>
+        <threadsafe />
       </Docs>
     </Member>
     <Member MemberName="Virtual">
@@ -411,7 +445,8 @@
         <ReturnType>System.Reflection.MethodAttributes</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>Indicates that the method is virtual.</summary>
+        <threadsafe />
       </Docs>
     </Member>
     <Member MemberName="VtableLayoutMask">
@@ -428,7 +463,8 @@
         <ReturnType>System.Reflection.MethodAttributes</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>Retrieves vtable attributes.</summary>
+        <threadsafe />
       </Docs>
     </Member>
   </Members>

@@ -15,8 +15,16 @@
     </Attribute>
   </Attributes>
   <Docs>
-    <summary>To be added.</summary>
-    <remarks>To be added.</remarks>
+    <summary>Specifies the type of user interface (UI) the trust manager should use for trust decisions.</summary>
+    <remarks>
+      <format type="text/markdown"><![CDATA[  
+  
+## Remarks  
+ This flag is intended to be used as a recommendation to the trust manager. The trust manager can use whichever UI it determines to be appropriate for the dialog.  
+  
+ ]]></format>
+    </remarks>
+    <threadsafe />
   </Docs>
   <Members>
     <Member MemberName="Install">
@@ -32,7 +40,8 @@
         <ReturnType>System.Security.Policy.TrustManagerUIContext</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>An Install UI.</summary>
+        <threadsafe />
       </Docs>
     </Member>
     <Member MemberName="Run">
@@ -48,7 +57,8 @@
         <ReturnType>System.Security.Policy.TrustManagerUIContext</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>A Run UI.</summary>
+        <threadsafe />
       </Docs>
     </Member>
     <Member MemberName="Upgrade">
@@ -64,7 +74,8 @@
         <ReturnType>System.Security.Policy.TrustManagerUIContext</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>An Upgrade UI.</summary>
+        <threadsafe />
       </Docs>
     </Member>
   </Members>

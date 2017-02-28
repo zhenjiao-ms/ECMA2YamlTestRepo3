@@ -15,8 +15,33 @@
     </Attribute>
   </Attributes>
   <Docs>
-    <summary>To be added.</summary>
-    <remarks>To be added.</remarks>
+    <summary>Specifies additional event schema information for an event.</summary>
+    <remarks>
+      <format type="text/markdown"><![CDATA[  
+  
+## Remarks  
+ When you apply this attribute to an ETW event method defined on an <xref:System.Diagnostics.Tracing.EventSource>-derived class, you must call the <xref:System.Diagnostics.Tracing.EventSource.WriteEvent%2A> method on the base class, passing the event ID, followed by the same arguments as the defined method is passed. You should follow the pattern shown in the following examples.  
+  
+   
+  
+## Examples  
+ The following example shows how to use the EventAttribute class to define a variety of events. This code example is part of a larger example provided for the <xref:System.Diagnostics.Tracing.EventSource> class.  
+  
+ [!code-vb[ETWTrace#5](~/add/codesnippet/visualbasic/t-system.diagnostics.tra_2_1.vb)]
+ [!code-cs[ETWTrace#5](~/add/codesnippet/csharp/t-system.diagnostics.tra_2_1.cs)]  
+  
+ [!code-vb[ETWTrace#6](~/add/codesnippet/visualbasic/t-system.diagnostics.tra_2_2.vb)]
+ [!code-cs[ETWTrace#6](~/add/codesnippet/csharp/t-system.diagnostics.tra_2_2.cs)]  
+  
+ [!code-vb[ETWTrace#7](~/add/codesnippet/visualbasic/t-system.diagnostics.tra_2_3.vb)]
+ [!code-cs[ETWTrace#7](~/add/codesnippet/csharp/t-system.diagnostics.tra_2_3.cs)]  
+  
+ [!code-vb[ETWTrace#8](~/add/codesnippet/visualbasic/t-system.diagnostics.tra_2_4.vb)]
+ [!code-cs[ETWTrace#8](~/add/codesnippet/csharp/t-system.diagnostics.tra_2_4.cs)]  
+  
+ ]]></format>
+    </remarks>
+    <threadsafe />
   </Docs>
   <Members>
     <Member MemberName=".ctor">
@@ -31,9 +56,23 @@
         <Parameter Name="eventId" Type="System.Int32" />
       </Parameters>
       <Docs>
-        <param name="eventId">To be added.</param>
-        <summary>To be added.</summary>
-        <remarks>To be added.</remarks>
+        <param name="eventId">The event identifier for the event.</param>
+        <summary>Initializes a new instance of the <see cref="T:System.Diagnostics.Tracing.EventAttribute" /> class with the specified event identifier.</summary>
+        <remarks>
+          <format type="text/markdown"><![CDATA[  
+  
+## Examples  
+ The following example shows how to use the EventAttribute constructor to specify events. This code example is part of a larger example provided for the <xref:System.Diagnostics.Tracing.EventSource> class.  
+  
+ [!code-vb[ETWTrace#1](~/add/codesnippet/visualbasic/m-system.diagnostics.tra_1_1.vb)]
+ [!code-cs[ETWTrace#1](~/add/codesnippet/csharp/m-system.diagnostics.tra_1_1.cs)]  
+  
+ [!code-vb[ETWTrace#2](~/add/codesnippet/visualbasic/m-system.diagnostics.tra_1_2.vb)]
+ [!code-cs[ETWTrace#2](~/add/codesnippet/csharp/m-system.diagnostics.tra_1_2.cs)]  
+  
+ ]]></format>
+        </remarks>
+        <threadsafe />
       </Docs>
     </Member>
     <Member MemberName="EventId">
@@ -48,9 +87,17 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
-        <value>To be added.</value>
-        <remarks>To be added.</remarks>
+        <summary>Gets or sets the identifier for the event.</summary>
+        <value>The event identifier. This value should be between 0 and 65535.</value>
+        <remarks>
+          <format type="text/markdown"><![CDATA[  
+  
+## Remarks  
+ EventId should be greater than 0 or less than 65535 or errors can occur in a tracing operation. If errors do occur, you can get more information about the source of the error by checking the output stream of the debugger, if you have a debugger attached to the process firing events. You can also look for errors reported in the ETW event stream, if you have an ETW listener on the event source where the error occurs.  
+  
+ ]]></format>
+        </remarks>
+        <threadsafe />
       </Docs>
     </Member>
     <Member MemberName="Keywords">
@@ -65,9 +112,29 @@
         <ReturnType>System.Diagnostics.Tracing.EventKeywords</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
-        <value>To be added.</value>
-        <remarks>To be added.</remarks>
+        <summary>Gets or sets the keywords for the event.</summary>
+        <value>A bitwise combination of the enumeration values.</value>
+        <remarks>
+          <format type="text/markdown"><![CDATA[  
+  
+## Examples  
+ The following example shows how to use the Keywords property to define event keywords. This code example is part of a larger example provided for the <xref:System.Diagnostics.Tracing.EventSource> class.  
+  
+ [!code-vb[ETWTrace#3](~/add/codesnippet/visualbasic/p-system.diagnostics.tra_2_1.vb)]
+ [!code-cs[ETWTrace#3](~/add/codesnippet/csharp/p-system.diagnostics.tra_2_1.cs)]  
+  
+ [!code-vb[ETWTrace#5](~/add/codesnippet/visualbasic/p-system.diagnostics.tra_2_2.vb)]
+ [!code-cs[ETWTrace#5](~/add/codesnippet/csharp/p-system.diagnostics.tra_2_2.cs)]  
+  
+ [!code-vb[ETWTrace#6](~/add/codesnippet/visualbasic/p-system.diagnostics.tra_2_3.vb)]
+ [!code-cs[ETWTrace#6](~/add/codesnippet/csharp/p-system.diagnostics.tra_2_3.cs)]  
+  
+ [!code-vb[ETWTrace#7](~/add/codesnippet/visualbasic/p-system.diagnostics.tra_2_4.vb)]
+ [!code-cs[ETWTrace#7](~/add/codesnippet/csharp/p-system.diagnostics.tra_2_4.cs)]  
+  
+ ]]></format>
+        </remarks>
+        <threadsafe />
       </Docs>
     </Member>
     <Member MemberName="Level">
@@ -82,9 +149,26 @@
         <ReturnType>System.Diagnostics.Tracing.EventLevel</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
-        <value>To be added.</value>
-        <remarks>To be added.</remarks>
+        <summary>Gets or sets the level for the event.</summary>
+        <value>One of the enumeration values that specifies the level for the event.</value>
+        <remarks>
+          <format type="text/markdown"><![CDATA[  
+  
+## Examples  
+ The following example shows how to use the Level property to specify event levels. This code example is part of a larger example provided for the <xref:System.Diagnostics.Tracing.EventSource> class.  
+  
+ [!code-vb[ETWTrace#5](~/add/codesnippet/visualbasic/p-system.diagnostics.tra_3_1.vb)]
+ [!code-cs[ETWTrace#5](~/add/codesnippet/csharp/p-system.diagnostics.tra_3_1.cs)]  
+  
+ [!code-vb[ETWTrace#6](~/add/codesnippet/visualbasic/p-system.diagnostics.tra_3_2.vb)]
+ [!code-cs[ETWTrace#6](~/add/codesnippet/csharp/p-system.diagnostics.tra_3_2.cs)]  
+  
+ [!code-vb[ETWTrace#11](~/add/codesnippet/visualbasic/p-system.diagnostics.tra_3_3.vb)]
+ [!code-cs[ETWTrace#11](~/add/codesnippet/csharp/p-system.diagnostics.tra_3_3.cs)]  
+  
+ ]]></format>
+        </remarks>
+        <threadsafe />
       </Docs>
     </Member>
     <Member MemberName="Message">
@@ -99,9 +183,37 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
-        <value>To be added.</value>
-        <remarks>To be added.</remarks>
+        <summary>Gets or sets the message for the event.</summary>
+        <value>The message for the event.</value>
+        <remarks>
+          <format type="text/markdown"><![CDATA[  
+  
+## Remarks  
+ You can use standard .NET Framework substitution operators (for example, {1}) in the string). They will be replaced with the string representation of the corresponding part of the event payload.  
+  
+```  
+[Event(1, Message = "Application Falure: {0}", Level = EventLevel.Error, Keywords = Keywords.Diagnostic)]  
+        public void Failure(string message) { WriteEvent(1, message); }  
+  
+```  
+  
+   
+  
+## Examples  
+ The following example shows how to use the Message property to specify event messages. This code example is part of a larger example provided for the <xref:System.Diagnostics.Tracing.EventSource> class.  
+  
+ [!code-vb[ETWTrace#5](~/add/codesnippet/visualbasic/p-system.diagnostics.tra_0_1.vb)]
+ [!code-cs[ETWTrace#5](~/add/codesnippet/csharp/p-system.diagnostics.tra_0_1.cs)]  
+  
+ [!code-vb[ETWTrace#6](~/add/codesnippet/visualbasic/p-system.diagnostics.tra_0_2.vb)]
+ [!code-cs[ETWTrace#6](~/add/codesnippet/csharp/p-system.diagnostics.tra_0_2.cs)]  
+  
+ [!code-vb[ETWTrace#7](~/add/codesnippet/visualbasic/p-system.diagnostics.tra_0_3.vb)]
+ [!code-cs[ETWTrace#7](~/add/codesnippet/csharp/p-system.diagnostics.tra_0_3.cs)]  
+  
+ ]]></format>
+        </remarks>
+        <threadsafe />
       </Docs>
     </Member>
     <Member MemberName="Opcode">
@@ -116,9 +228,26 @@
         <ReturnType>System.Diagnostics.Tracing.EventOpcode</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
-        <value>To be added.</value>
-        <remarks>To be added.</remarks>
+        <summary>Gets or sets the operation code for the event.</summary>
+        <value>One of the enumeration values that specifies the operation code.</value>
+        <remarks>
+          <format type="text/markdown"><![CDATA[  
+  
+## Examples  
+ The following example shows how to use the Opcode property to specify operation codes. This code example is part of a larger example provided for the <xref:System.Diagnostics.Tracing.EventSource> class.  
+  
+ [!code-vb[ETWTrace#8](~/add/codesnippet/visualbasic/p-system.diagnostics.tra_4_1.vb)]
+ [!code-cs[ETWTrace#8](~/add/codesnippet/csharp/p-system.diagnostics.tra_4_1.cs)]  
+  
+ [!code-vb[ETWTrace#9](~/add/codesnippet/visualbasic/p-system.diagnostics.tra_4_2.vb)]
+ [!code-cs[ETWTrace#9](~/add/codesnippet/csharp/p-system.diagnostics.tra_4_2.cs)]  
+  
+ [!code-vb[ETWTrace#10](~/add/codesnippet/visualbasic/p-system.diagnostics.tra_4_3.vb)]
+ [!code-cs[ETWTrace#10](~/add/codesnippet/csharp/p-system.diagnostics.tra_4_3.cs)]  
+  
+ ]]></format>
+        </remarks>
+        <threadsafe />
       </Docs>
     </Member>
     <Member MemberName="Task">
@@ -133,9 +262,26 @@
         <ReturnType>System.Diagnostics.Tracing.EventTask</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
-        <value>To be added.</value>
-        <remarks>To be added.</remarks>
+        <summary>Gets or sets the task for the event.</summary>
+        <value>The task for the event.</value>
+        <remarks>
+          <format type="text/markdown"><![CDATA[  
+  
+## Examples  
+ The following example shows how to use the Task property to define event tasks. This code example is part of a larger example provided for the <xref:System.Diagnostics.Tracing.EventSource> class.  
+  
+ [!code-vb[ETWTrace#4](~/add/codesnippet/visualbasic/p-system.diagnostics.tra_1_1.vb)]
+ [!code-cs[ETWTrace#4](~/add/codesnippet/csharp/p-system.diagnostics.tra_1_1.cs)]  
+  
+ [!code-vb[ETWTrace#8](~/add/codesnippet/visualbasic/p-system.diagnostics.tra_1_2.vb)]
+ [!code-cs[ETWTrace#8](~/add/codesnippet/csharp/p-system.diagnostics.tra_1_2.cs)]  
+  
+ [!code-vb[ETWTrace#9](~/add/codesnippet/visualbasic/p-system.diagnostics.tra_1_3.vb)]
+ [!code-cs[ETWTrace#9](~/add/codesnippet/csharp/p-system.diagnostics.tra_1_3.cs)]  
+  
+ ]]></format>
+        </remarks>
+        <threadsafe />
       </Docs>
     </Member>
     <Member MemberName="Version">
@@ -150,9 +296,10 @@
         <ReturnType>System.Byte</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
-        <value>To be added.</value>
+        <summary>Gets or sets the version of the event.</summary>
+        <value>The version of the event.</value>
         <remarks>To be added.</remarks>
+        <threadsafe />
       </Docs>
     </Member>
   </Members>

@@ -10,8 +10,16 @@
   </Base>
   <Interfaces />
   <Docs>
-    <summary>To be added.</summary>
-    <remarks>To be added.</remarks>
+    <summary>Provides methods and data for the <see cref="E:System.Diagnostics.Contracts.Contract.ContractFailed" /> event.</summary>
+    <remarks>
+      <format type="text/markdown"><![CDATA[  
+  
+## Remarks  
+ A ContractFailedEventArgs object is passed to the <xref:System.Diagnostics.Contracts.Contract.ContractFailed?displayProperty=fullName> event when a contract fails. The <xref:System.Diagnostics.Contracts.Contract.ContractFailed> event enables a managed application environment such as an interactive interpreter, a Web browser host, a test harness, or a logging infrastructure to be notified of contract failures. The event requires full trust.  
+  
+ ]]></format>
+    </remarks>
+    <threadsafe />
   </Docs>
   <Members>
     <Member MemberName=".ctor">
@@ -34,12 +42,13 @@
         <Parameter Name="originalException" Type="System.Exception" />
       </Parameters>
       <Docs>
-        <param name="failureKind">To be added.</param>
-        <param name="message">To be added.</param>
-        <param name="condition">To be added.</param>
-        <param name="originalException">To be added.</param>
-        <summary>To be added.</summary>
+        <param name="failureKind">One of the enumeration values that specifies the contract that failed.</param>
+        <param name="message">The message for the event.</param>
+        <param name="condition">The condition for the event.</param>
+        <param name="originalException">The exception that caused the event.</param>
+        <summary>Provides data for the <see cref="E:System.Diagnostics.Contracts.Contract.ContractFailed" /> event.</summary>
         <remarks>To be added.</remarks>
+        <threadsafe />
       </Docs>
     </Member>
     <Member MemberName="Condition">
@@ -54,9 +63,10 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
-        <value>To be added.</value>
+        <summary>Gets the condition for the failure of the contract.</summary>
+        <value>The condition for the failure.</value>
         <remarks>To be added.</remarks>
+        <threadsafe />
       </Docs>
     </Member>
     <Member MemberName="FailureKind">
@@ -71,9 +81,10 @@
         <ReturnType>System.Diagnostics.Contracts.ContractFailureKind</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
-        <value>To be added.</value>
+        <summary>Gets the type of contract that failed.</summary>
+        <value>One of the enumeration values that specifies the type of contract that failed.</value>
         <remarks>To be added.</remarks>
+        <threadsafe />
       </Docs>
     </Member>
     <Member MemberName="Handled">
@@ -88,9 +99,18 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
-        <value>To be added.</value>
-        <remarks>To be added.</remarks>
+        <summary>Indicates whether the <see cref="E:System.Diagnostics.Contracts.Contract.ContractFailed" /> event has been handled.</summary>
+        <value>
+          <see langword="true" /> if the event has been handled; otherwise, <see langword="false" />.</value>
+        <remarks>
+          <format type="text/markdown"><![CDATA[  
+  
+## Remarks  
+ If the <xref:System.Diagnostics.Contracts.Contract.ContractFailed?displayProperty=fullName> event has not been handled, the debugger is notified. If no debugger is attached, an **Assert** dialog box is displayed.  
+  
+ ]]></format>
+        </remarks>
+        <threadsafe />
       </Docs>
     </Member>
     <Member MemberName="Message">
@@ -105,9 +125,10 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
-        <value>To be added.</value>
+        <summary>Gets the message that describes the <see cref="E:System.Diagnostics.Contracts.Contract.ContractFailed" /> event.</summary>
+        <value>The message that describes the event.</value>
         <remarks>To be added.</remarks>
+        <threadsafe />
       </Docs>
     </Member>
     <Member MemberName="OriginalException">
@@ -122,9 +143,10 @@
         <ReturnType>System.Exception</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
-        <value>To be added.</value>
+        <summary>Gets the original exception that caused the <see cref="E:System.Diagnostics.Contracts.Contract.ContractFailed" /> event.</summary>
+        <value>The exception that caused the event.</value>
         <remarks>To be added.</remarks>
+        <threadsafe />
       </Docs>
     </Member>
     <Member MemberName="SetHandled">
@@ -145,8 +167,17 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>To be added.</summary>
-        <remarks>To be added.</remarks>
+        <summary>Sets the &lt;xref:System.Diagnostics.Contracts.ContractFailedEventArgs.Handled%2A?displayProperty=fullName&gt; property to <see langword="true" />.</summary>
+        <remarks>
+          <format type="text/markdown"><![CDATA[  
+  
+## Remarks  
+ The SetHandled method provides a way for the runtime analysis checker to indicate that a contract exception has been handled. See the <xref:System.Diagnostics.Contracts.ContractFailedEventArgs.Handled%2A?displayProperty=fullName> property for more information.  
+  
+ ]]></format>
+        </remarks>
+        <permission cref="T:System.Security.SecurityCriticalAttribute">requires full trust for the immediate caller. This member cannot be used by partially trusted or transparent code.</permission>
+        <threadsafe />
       </Docs>
     </Member>
     <Member MemberName="SetUnwind">
@@ -167,8 +198,17 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>To be added.</summary>
-        <remarks>To be added.</remarks>
+        <summary>Sets the &lt;xref:System.Diagnostics.Contracts.ContractFailedEventArgs.Unwind%2A?displayProperty=fullName&gt; property to <see langword="true" />.</summary>
+        <remarks>
+          <format type="text/markdown"><![CDATA[  
+  
+## Remarks  
+ The SetUnwind method provides a way to indicate that the escalation policy for the code contract should be applied. See the <xref:System.Diagnostics.Contracts.ContractFailedEventArgs.Unwind%2A?displayProperty=fullName> property for more information.  
+  
+ ]]></format>
+        </remarks>
+        <permission cref="T:System.Security.SecurityCriticalAttribute">requires full trust for the immediate caller. This member cannot be used by partially trusted or transparent code.</permission>
+        <threadsafe />
       </Docs>
     </Member>
     <Member MemberName="Unwind">
@@ -183,9 +223,21 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
-        <value>To be added.</value>
-        <remarks>To be added.</remarks>
+        <summary>Indicates whether the code contract escalation policy should be applied.</summary>
+        <value>
+          <see langword="true" /> to apply the escalation policy; otherwise, <see langword="false" />. The default is <see langword="false" />.</value>
+        <remarks>
+          <format type="text/markdown"><![CDATA[  
+  
+## Remarks  
+ If the return value is `true`, the escalation policy is to notify the attached debugger about a contract failure or to display an **Assert** dialog box if a debugger is not attached.  
+  
+> [!WARNING]
+>  This value should be set to `false` for analysis tools that run on a server (for example, ASP.NET).  
+  
+ ]]></format>
+        </remarks>
+        <threadsafe />
       </Docs>
     </Member>
   </Members>

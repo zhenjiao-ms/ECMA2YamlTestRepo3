@@ -14,8 +14,9 @@
     </Attribute>
   </Attributes>
   <Docs>
-    <summary>To be added.</summary>
+    <summary>Specifies the behavior for a task that is created by using the &lt;xref:System.Threading.Tasks.Task.ContinueWith%2A?displayProperty=fullName&gt; or &lt;xref:System.Threading.Tasks.Task%601.ContinueWith%2A?displayProperty=fullName&gt; method.</summary>
     <remarks>To be added.</remarks>
+    <threadsafe />
   </Docs>
   <Members>
     <Member MemberName="AttachedToParent">
@@ -30,7 +31,12 @@
         <ReturnType>System.Threading.Tasks.TaskContinuationOptions</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>Specifies that the continuation, if it is a child task, is attached to a parent in the task hierarchy. The continuation can be a child task only if its antecedent is also a child task. By default, a child task (that is, an inner task created by an outer task) executes independently of its parent. You can use the AttachedToParent option so that the parent and child tasks are synchronized.  
+  
+ Note that if a parent task is configured with the &lt;xref:System.Threading.Tasks.TaskCreationOptions.DenyChildAttach&gt; option, the &lt;xref:System.Threading.Tasks.TaskCreationOptions.AttachedToParent&gt; option in the child task has no effect, and the child task will execute as a detached child task.  
+  
+ For more information, see [Attached and Detached Child Tasks](../Topic/Attached%20and%20Detached%20Child%20Tasks.md).</summary>
+        <threadsafe />
       </Docs>
     </Member>
     <Member MemberName="DenyChildAttach">
@@ -45,7 +51,8 @@
         <ReturnType>System.Threading.Tasks.TaskContinuationOptions</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>Specifies that any child task (that is, any nested inner task created by this continuation) that is created with the &lt;xref:System.Threading.Tasks.TaskCreationOptions.AttachedToParent?displayProperty=fullName&gt; option and attempts to execute as an attached child task will not be able to attach to the parent task and will execute instead as a detached child task. For more information, see [Attached and Detached Child Tasks](../Topic/Attached%20and%20Detached%20Child%20Tasks.md).</summary>
+        <threadsafe />
       </Docs>
     </Member>
     <Member MemberName="ExecuteSynchronously">
@@ -60,7 +67,10 @@
         <ReturnType>System.Threading.Tasks.TaskContinuationOptions</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>Specifies that the continuation task should be executed synchronously. With this option specified, the continuation runs on the same thread that causes the antecedent task to transition into its final state. If the antecedent is already complete when the continuation is created, the continuation will run on the thread that creates the continuation. If the antecedent's <see cref="T:System.Threading.CancellationTokenSource" /> is disposed in a <see langword="finally" /> block (<see langword="Finally" /> in Visual Basic), a continuation with this option will run in that <see langword="finally" /> block. Only very short-running continuations should be executed synchronously.  
+  
+ Because the task executes synchronously, there is no need to call a method such as &lt;xref:System.Threading.Tasks.Task.Wait%2A?displayProperty=fullName&gt; to ensure that the calling thread waits for the task to complete.</summary>
+        <threadsafe />
       </Docs>
     </Member>
     <Member MemberName="HideScheduler">
@@ -75,7 +85,8 @@
         <ReturnType>System.Threading.Tasks.TaskContinuationOptions</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>Specifies that tasks created by the continuation by calling methods such as &lt;xref:System.Threading.Tasks.Task.Run%2A?displayProperty=fullName&gt; or &lt;xref:System.Threading.Tasks.Task.ContinueWith%2A?displayProperty=fullName&gt; see the default scheduler (&lt;xref:System.Threading.Tasks.TaskScheduler.Default%2A?displayProperty=fullName&gt;) rather than the scheduler on which this continuation is running as the current scheduler.</summary>
+        <threadsafe />
       </Docs>
     </Member>
     <Member MemberName="LazyCancellation">
@@ -90,7 +101,8 @@
         <ReturnType>System.Threading.Tasks.TaskContinuationOptions</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>In the case of continuation cancellation, prevents completion of the continuation until the antecedent has completed.</summary>
+        <threadsafe />
       </Docs>
     </Member>
     <Member MemberName="LongRunning">
@@ -105,7 +117,8 @@
         <ReturnType>System.Threading.Tasks.TaskContinuationOptions</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>Specifies that a continuation will be a long-running, course-grained operation. It provides a hint to the <see cref="T:System.Threading.Tasks.TaskScheduler" /> that oversubscription may be warranted.</summary>
+        <threadsafe />
       </Docs>
     </Member>
     <Member MemberName="None">
@@ -120,7 +133,8 @@
         <ReturnType>System.Threading.Tasks.TaskContinuationOptions</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>When no continuation options are specified, specifies that default behavior should be used when executing a continuation. The continuation runs asynchronously when the antecedent task completes, regardless of the antecedent's final &lt;xref:System.Threading.Tasks.Task.Status%2A?displayProperty=fullName&gt; property value. It the continuation is a child task, it is created as a detached nested task.</summary>
+        <threadsafe />
       </Docs>
     </Member>
     <Member MemberName="NotOnCanceled">
@@ -135,7 +149,8 @@
         <ReturnType>System.Threading.Tasks.TaskContinuationOptions</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>Specifies that the continuation task should not be scheduled if its antecedent was canceled. An antecedent is canceled if its &lt;xref:System.Threading.Tasks.Task.Status%2A?displayProperty=fullName&gt; property upon completion is &lt;xref:System.Threading.Tasks.TaskStatus.Canceled?displayProperty=fullName&gt;. This option is not valid for multi-task continuations.</summary>
+        <threadsafe />
       </Docs>
     </Member>
     <Member MemberName="NotOnFaulted">
@@ -150,7 +165,8 @@
         <ReturnType>System.Threading.Tasks.TaskContinuationOptions</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>Specifies that the continuation task should not be scheduled if its antecedent threw an unhandled exception. An antecedent throws an unhandled exception if its &lt;xref:System.Threading.Tasks.Task.Status%2A?displayProperty=fullName&gt; property upon completion is &lt;xref:System.Threading.Tasks.TaskStatus.Faulted?displayProperty=fullName&gt;. This option is not valid for multi-task continuations.</summary>
+        <threadsafe />
       </Docs>
     </Member>
     <Member MemberName="NotOnRanToCompletion">
@@ -165,7 +181,8 @@
         <ReturnType>System.Threading.Tasks.TaskContinuationOptions</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>Specifies that the continuation task should not be scheduled if its antecedent ran to completion. An antecedent runs to completion if its &lt;xref:System.Threading.Tasks.Task.Status%2A?displayProperty=fullName&gt; property upon completion is &lt;xref:System.Threading.Tasks.TaskStatus.RanToCompletion?displayProperty=fullName&gt;. This option is not valid for multi-task continuations.</summary>
+        <threadsafe />
       </Docs>
     </Member>
     <Member MemberName="OnlyOnCanceled">
@@ -180,7 +197,8 @@
         <ReturnType>System.Threading.Tasks.TaskContinuationOptions</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>Specifies that the continuation should be scheduled only if its antecedent was canceled.  An antecedent is canceled if its &lt;xref:System.Threading.Tasks.Task.Status%2A?displayProperty=fullName&gt; property upon completion is &lt;xref:System.Threading.Tasks.TaskStatus.Canceled?displayProperty=fullName&gt;. This option is not valid for multi-task continuations.</summary>
+        <threadsafe />
       </Docs>
     </Member>
     <Member MemberName="OnlyOnFaulted">
@@ -195,7 +213,12 @@
         <ReturnType>System.Threading.Tasks.TaskContinuationOptions</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>Specifies that the continuation task should be scheduled only if its antecedent threw an unhandled exception. An antecedent throws an unhandled exception if its &lt;xref:System.Threading.Tasks.Task.Status%2A?displayProperty=fullName&gt; property upon completion is &lt;xref:System.Threading.Tasks.TaskStatus.Faulted?displayProperty=fullName&gt;.  
+  
+ The OnlyOnFaulted option guarantees that the &lt;xref:System.Threading.Tasks.Task.Exception%2A?displayProperty=fullName&gt; property in the antecedent is not <see langword="null" />. You can use that property to catch the exception and see which exception caused the task to fault. If you do not access the &lt;xref:System.Threading.Tasks.Task.Exception%2A&gt; property, the exception is unhandled. Also, if you attempt to access the &lt;xref:System.Threading.Tasks.Task%601.Result%2A&gt; property of a task that has been canceled or has faulted, a new exception is thrown.  
+  
+ This option is not valid for multi-task continuations.</summary>
+        <threadsafe />
       </Docs>
     </Member>
     <Member MemberName="OnlyOnRanToCompletion">
@@ -210,7 +233,8 @@
         <ReturnType>System.Threading.Tasks.TaskContinuationOptions</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>Specifies that the continuation should be scheduled only if its antecedent ran to completion. An antecedent runs to completion if its &lt;xref:System.Threading.Tasks.Task.Status%2A?displayProperty=fullName&gt; property upon completion is &lt;xref:System.Threading.Tasks.TaskStatus.RanToCompletion?displayProperty=fullName&gt;. This option is not valid for multi-task continuations.</summary>
+        <threadsafe />
       </Docs>
     </Member>
     <Member MemberName="PreferFairness">
@@ -225,7 +249,8 @@
         <ReturnType>System.Threading.Tasks.TaskContinuationOptions</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>A hint to a <see cref="T:System.Threading.Tasks.TaskScheduler" /> to schedule task in the order in which they were scheduled, so that tasks scheduled sooner are more likely to run sooner, and tasks scheduled later are more likely to run later.</summary>
+        <threadsafe />
       </Docs>
     </Member>
   </Members>

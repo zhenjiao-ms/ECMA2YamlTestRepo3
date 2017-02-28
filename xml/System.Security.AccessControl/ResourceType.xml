@@ -10,8 +10,9 @@
     <BaseTypeName>System.Enum</BaseTypeName>
   </Base>
   <Docs>
-    <summary>To be added.</summary>
+    <summary>Specifies the defined native object types.</summary>
     <remarks>To be added.</remarks>
+    <threadsafe />
   </Docs>
   <Members>
     <Member MemberName="DSObject">
@@ -27,7 +28,8 @@
         <ReturnType>System.Security.AccessControl.ResourceType</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>A directory service (DS) object or a property set or property of a directory service object.</summary>
+        <threadsafe />
       </Docs>
     </Member>
     <Member MemberName="DSObjectAll">
@@ -43,7 +45,8 @@
         <ReturnType>System.Security.AccessControl.ResourceType</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>A directory service object and all of its property sets and properties.</summary>
+        <threadsafe />
       </Docs>
     </Member>
     <Member MemberName="FileObject">
@@ -59,7 +62,8 @@
         <ReturnType>System.Security.AccessControl.ResourceType</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>A file or directory.</summary>
+        <threadsafe />
       </Docs>
     </Member>
     <Member MemberName="KernelObject">
@@ -75,7 +79,8 @@
         <ReturnType>System.Security.AccessControl.ResourceType</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>A local kernel object.</summary>
+        <threadsafe />
       </Docs>
     </Member>
     <Member MemberName="LMShare">
@@ -91,7 +96,8 @@
         <ReturnType>System.Security.AccessControl.ResourceType</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>A network share.</summary>
+        <threadsafe />
       </Docs>
     </Member>
     <Member MemberName="Printer">
@@ -107,7 +113,8 @@
         <ReturnType>System.Security.AccessControl.ResourceType</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>A printer.</summary>
+        <threadsafe />
       </Docs>
     </Member>
     <Member MemberName="ProviderDefined">
@@ -123,7 +130,8 @@
         <ReturnType>System.Security.AccessControl.ResourceType</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>An object defined by a provider.</summary>
+        <threadsafe />
       </Docs>
     </Member>
     <Member MemberName="RegistryKey">
@@ -139,7 +147,8 @@
         <ReturnType>System.Security.AccessControl.ResourceType</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>A registry key.</summary>
+        <threadsafe />
       </Docs>
     </Member>
     <Member MemberName="RegistryWow6432Key">
@@ -155,7 +164,8 @@
         <ReturnType>System.Security.AccessControl.ResourceType</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>An object for a registry entry under WOW64.</summary>
+        <threadsafe />
       </Docs>
     </Member>
     <Member MemberName="Service">
@@ -171,7 +181,8 @@
         <ReturnType>System.Security.AccessControl.ResourceType</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>A Windows service.</summary>
+        <threadsafe />
       </Docs>
     </Member>
     <Member MemberName="Unknown">
@@ -187,7 +198,8 @@
         <ReturnType>System.Security.AccessControl.ResourceType</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>An unknown object type.</summary>
+        <threadsafe />
       </Docs>
     </Member>
     <Member MemberName="WindowObject">
@@ -203,7 +215,8 @@
         <ReturnType>System.Security.AccessControl.ResourceType</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>A window station or desktop object on the local computer.</summary>
+        <threadsafe />
       </Docs>
     </Member>
     <Member MemberName="WmiGuidObject">
@@ -219,7 +232,8 @@
         <ReturnType>System.Security.AccessControl.ResourceType</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>A Windows Management Instrumentation (WMI) object.</summary>
+        <threadsafe />
       </Docs>
     </Member>
   </Members>

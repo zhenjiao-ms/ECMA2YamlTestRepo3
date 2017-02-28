@@ -20,8 +20,25 @@
     </Attribute>
   </Attributes>
   <Docs>
-    <summary>To be added.</summary>
-    <remarks>To be added.</remarks>
+    <summary>Customizes SOAP generation and processing for target types. This class cannot be inherited.</summary>
+    <remarks>
+      <format type="text/markdown"><![CDATA[  
+  
+## Remarks  
+ The SoapTypeAttribute attribute is a custom attribute that can be applied to objects, value types, and interface objects. This attribute is used to specify information on an object type that controls how SOAP will generate the SOAP XML wire format.  
+  
+   
+  
+## Examples  
+ The following code example demonstrates customization of SOAP generated for a class with the SoapTypeAttribute. The SOAP can be produced by the code shown in the <xref:System.SerializableAttribute> class example.  
+  
+ [!code-cs[SoapAttributes1#1](~/add/codesnippet/csharp/t-system.runtime.remotin_3_1.cs)]
+ [!code-cpp[SoapAttributes1#1](~/add/codesnippet/cpp/t-system.runtime.remotin_3_1.cpp)]
+ [!code-vb[SoapAttributes1#1](~/add/codesnippet/visualbasic/t-system.runtime.remotin_3_1.vb)]  
+  
+ ]]></format>
+    </remarks>
+    <threadsafe />
   </Docs>
   <Members>
     <Member MemberName=".ctor">
@@ -36,8 +53,9 @@
       </AssemblyInfo>
       <Parameters />
       <Docs>
-        <summary>To be added.</summary>
+        <summary>Creates an instance of <see cref="T:System.Runtime.Remoting.Metadata.SoapTypeAttribute" />.</summary>
         <remarks>To be added.</remarks>
+        <threadsafe />
       </Docs>
     </Member>
     <Member MemberName="SoapOptions">
@@ -54,9 +72,20 @@
         <ReturnType>System.Runtime.Remoting.Metadata.SoapOption</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
-        <value>To be added.</value>
-        <remarks>To be added.</remarks>
+        <summary>Gets or sets a <see cref="T:System.Runtime.Remoting.Metadata.SoapOption" /> configuration value.</summary>
+        <value>A <see cref="T:System.Runtime.Remoting.Metadata.SoapOption" /> configuration value.</value>
+        <remarks>
+          <format type="text/markdown"><![CDATA[  
+  
+## Remarks  
+ A <xref:System.Runtime.Remoting.Metadata.SoapOption> value indicates the SOAP configuration options that will be used with a <xref:System.Runtime.Remoting.Metadata.SoapTypeAttribute> attribute.  
+  
+> [!NOTE]
+>  The SoapOptions enumeration has no effect on serialization of objects with the <xref:System.Runtime.Serialization.Formatters.Soap.SoapFormatter>.  
+  
+ ]]></format>
+        </remarks>
+        <threadsafe />
       </Docs>
     </Member>
     <Member MemberName="UseAttribute">
@@ -73,9 +102,18 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
-        <value>To be added.</value>
-        <remarks>To be added.</remarks>
+        <summary>Gets or sets a value indicating whether the target of the current attribute will be serialized as an XML attribute instead of an XML field.</summary>
+        <value>The current implementation always returns <see langword="false" />.</value>
+        <remarks>
+          <format type="text/markdown"><![CDATA[  
+  
+## Remarks  
+ The UseAttribute property cannot be set on the <xref:System.Runtime.Remoting.Metadata.SoapTypeAttribute> attribute.  
+  
+ ]]></format>
+        </remarks>
+        <exception cref="T:System.Runtime.Remoting.RemotingException">An attempt was made to set the current property.</exception>
+        <threadsafe />
       </Docs>
     </Member>
     <Member MemberName="XmlElementName">
@@ -92,9 +130,10 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
-        <value>To be added.</value>
+        <summary>Gets or sets the XML element name.</summary>
+        <value>The XML element name.</value>
         <remarks>To be added.</remarks>
+        <threadsafe />
       </Docs>
     </Member>
     <Member MemberName="XmlFieldOrder">
@@ -111,9 +150,10 @@
         <ReturnType>System.Runtime.Remoting.Metadata.XmlFieldOrderOption</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
-        <value>To be added.</value>
+        <summary>Gets or sets the XML field order for the target object type.</summary>
+        <value>The XML field order for the target object type.</value>
         <remarks>To be added.</remarks>
+        <threadsafe />
       </Docs>
     </Member>
     <Member MemberName="XmlNamespace">
@@ -130,9 +170,10 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
-        <value>To be added.</value>
+        <summary>Gets or sets the XML namespace that is used during serialization of the target object type.</summary>
+        <value>The XML namespace that is used during serialization of the target object type.</value>
         <remarks>To be added.</remarks>
+        <threadsafe />
       </Docs>
     </Member>
     <Member MemberName="XmlTypeName">
@@ -149,9 +190,10 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
-        <value>To be added.</value>
+        <summary>Gets or sets the XML type name for the target object type.</summary>
+        <value>The XML type name for the target object type.</value>
         <remarks>To be added.</remarks>
+        <threadsafe />
       </Docs>
     </Member>
     <Member MemberName="XmlTypeNamespace">
@@ -173,9 +215,10 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
-        <value>To be added.</value>
+        <summary>Gets or sets the XML type namespace for the current object type.</summary>
+        <value>The XML type namespace for the current object type.</value>
         <remarks>To be added.</remarks>
+        <threadsafe />
       </Docs>
     </Member>
   </Members>

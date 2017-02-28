@@ -14,8 +14,18 @@
     </Attribute>
   </Attributes>
   <Docs>
-    <summary>To be added.</summary>
-    <remarks>To be added.</remarks>
+    <summary>Provides an interface for an object that contains the names and types of parameters required during serialization of a SOAP RPC (Remote Procedure Call).</summary>
+    <remarks>
+      <format type="text/markdown"><![CDATA[  
+  
+## Remarks  
+ When an object that supports this interface is the root of a serialization graph, SOAP is produced in RPC format. The ISoapMessage interface contains the method call parameter types used during deserialization of a method call.  
+  
+ To support SOAP RPC calls that are based on the ISoapMessage interface and do not use the <xref:System.Runtime.Remoting.Messaging.IRemotingFormatter> functionality, set the <xref:System.Runtime.Serialization.Formatters.Soap.SoapFormatter.TopObject%2A?displayProperty=fullName> property to an object that supports this interface.  
+  
+ ]]></format>
+    </remarks>
+    <threadsafe />
   </Docs>
   <Members>
     <Member MemberName="Headers">
@@ -32,9 +42,10 @@
         <ReturnType>System.Runtime.Remoting.Messaging.Header[]</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
-        <value>To be added.</value>
+        <summary>Gets or sets the out-of-band data of the method call.</summary>
+        <value>The out-of-band data of the method call.</value>
         <remarks>To be added.</remarks>
+        <threadsafe />
       </Docs>
     </Member>
     <Member MemberName="MethodName">
@@ -51,9 +62,10 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
-        <value>To be added.</value>
+        <summary>Gets or sets the name of the called method.</summary>
+        <value>The name of the called method.</value>
         <remarks>To be added.</remarks>
+        <threadsafe />
       </Docs>
     </Member>
     <Member MemberName="ParamNames">
@@ -70,9 +82,10 @@
         <ReturnType>System.String[]</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
-        <value>To be added.</value>
+        <summary>Gets or sets the parameter names of the method call.</summary>
+        <value>The parameter names of the method call.</value>
         <remarks>To be added.</remarks>
+        <threadsafe />
       </Docs>
     </Member>
     <Member MemberName="ParamTypes">
@@ -89,9 +102,10 @@
         <ReturnType>System.Type[]</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
-        <value>To be added.</value>
+        <summary>Gets or sets the parameter types of a method call.</summary>
+        <value>The parameter types of a method call.</value>
         <remarks>To be added.</remarks>
+        <threadsafe />
       </Docs>
     </Member>
     <Member MemberName="ParamValues">
@@ -108,9 +122,10 @@
         <ReturnType>System.Object[]</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
-        <value>To be added.</value>
+        <summary>Gets or sets the parameter values of a method call.</summary>
+        <value>The parameter values of a method call.</value>
         <remarks>To be added.</remarks>
+        <threadsafe />
       </Docs>
     </Member>
     <Member MemberName="XmlNameSpace">
@@ -127,9 +142,10 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
-        <value>To be added.</value>
+        <summary>Gets or sets the XML namespace of the SOAP RPC (Remote Procedure Call) &lt;xref:System.Runtime.Serialization.Formatters.ISoapMessage.MethodName%2A&gt; element.</summary>
+        <value>The XML namespace name where the object that contains the called method is located.</value>
         <remarks>To be added.</remarks>
+        <threadsafe />
       </Docs>
     </Member>
   </Members>

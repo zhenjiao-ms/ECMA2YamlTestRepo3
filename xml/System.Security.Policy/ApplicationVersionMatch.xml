@@ -15,8 +15,16 @@
     </Attribute>
   </Attributes>
   <Docs>
-    <summary>To be added.</summary>
-    <remarks>To be added.</remarks>
+    <summary>Specifies how to match versions when locating application trusts in a collection.</summary>
+    <remarks>
+      <format type="text/markdown"><![CDATA[  
+  
+## Remarks  
+ The <xref:System.Security.Policy.ApplicationTrustCollection.Remove%2A> and <xref:System.Security.Policy.ApplicationTrustCollection.Find%2A> methods of an <xref:System.Security.Policy.ApplicationTrustCollection> can act either on all versions of an application or on the exact version. The ApplicationVersionMatch enumeration allows the caller to specify the desired behavior.  
+  
+ ]]></format>
+    </remarks>
+    <threadsafe />
   </Docs>
   <Members>
     <Member MemberName="MatchAllVersions">
@@ -32,7 +40,8 @@
         <ReturnType>System.Security.Policy.ApplicationVersionMatch</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>Match on all versions.</summary>
+        <threadsafe />
       </Docs>
     </Member>
     <Member MemberName="MatchExactVersion">
@@ -48,7 +57,8 @@
         <ReturnType>System.Security.Policy.ApplicationVersionMatch</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>Match on the exact version.</summary>
+        <threadsafe />
       </Docs>
     </Member>
   </Members>

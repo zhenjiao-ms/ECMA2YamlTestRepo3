@@ -15,8 +15,9 @@
     </Attribute>
   </Attributes>
   <Docs>
-    <summary>To be added.</summary>
+    <summary>Specifies the conditions for auditing attempts to access a securable object.</summary>
     <remarks>To be added.</remarks>
+    <threadsafe />
   </Docs>
   <Members>
     <Member MemberName="Failure">
@@ -32,7 +33,8 @@
         <ReturnType>System.Security.AccessControl.AuditFlags</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>Failed access attempts are to be audited.</summary>
+        <threadsafe />
       </Docs>
     </Member>
     <Member MemberName="None">
@@ -48,7 +50,8 @@
         <ReturnType>System.Security.AccessControl.AuditFlags</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>No access attempts are to be audited.</summary>
+        <threadsafe />
       </Docs>
     </Member>
     <Member MemberName="Success">
@@ -64,7 +67,8 @@
         <ReturnType>System.Security.AccessControl.AuditFlags</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>Successful access attempts are to be audited.</summary>
+        <threadsafe />
       </Docs>
     </Member>
   </Members>

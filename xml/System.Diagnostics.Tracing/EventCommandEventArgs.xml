@@ -10,8 +10,9 @@
   </Base>
   <Interfaces />
   <Docs>
-    <summary>To be added.</summary>
+    <summary>Provides the arguments for the &lt;xref:System.Diagnostics.Tracing.EventSource.OnEventCommand%2A&gt; callback.</summary>
     <remarks>To be added.</remarks>
+    <threadsafe />
   </Docs>
   <Members>
     <Member MemberName="Arguments">
@@ -26,9 +27,10 @@
         <ReturnType>System.Collections.Generic.IDictionary&lt;System.String,System.String&gt;</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
-        <value>To be added.</value>
+        <summary>Gets the array of arguments for the callback.</summary>
+        <value>An array of callback arguments.</value>
         <remarks>To be added.</remarks>
+        <threadsafe />
       </Docs>
     </Member>
     <Member MemberName="Command">
@@ -43,9 +45,10 @@
         <ReturnType>System.Diagnostics.Tracing.EventCommand</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
-        <value>To be added.</value>
+        <summary>Gets the command for the callback.</summary>
+        <value>The callback command.</value>
         <remarks>To be added.</remarks>
+        <threadsafe />
       </Docs>
     </Member>
     <Member MemberName="DisableEvent">
@@ -63,10 +66,19 @@
         <Parameter Name="eventId" Type="System.Int32" />
       </Parameters>
       <Docs>
-        <param name="eventId">To be added.</param>
-        <summary>To be added.</summary>
-        <returns>To be added.</returns>
-        <remarks>To be added.</remarks>
+        <param name="eventId">The identifier of the event to disable.</param>
+        <summary>Disables the event that have the specified identifier.</summary>
+        <returns>
+          <see langword="true" /> if <paramref name="eventId" /> is in range; otherwise, <see langword="false" />.</returns>
+        <remarks>
+          <format type="text/markdown"><![CDATA[  
+  
+## Remarks  
+ You can turn off all events in an event listener by calling DisableEvent starting with `eventID` = 1 and continuing until DisableEvent returns `false`.  
+  
+ ]]></format>
+        </remarks>
+        <threadsafe />
       </Docs>
     </Member>
     <Member MemberName="EnableEvent">
@@ -84,10 +96,19 @@
         <Parameter Name="eventId" Type="System.Int32" />
       </Parameters>
       <Docs>
-        <param name="eventId">To be added.</param>
-        <summary>To be added.</summary>
-        <returns>To be added.</returns>
-        <remarks>To be added.</remarks>
+        <param name="eventId">The identifier of the event to enable.</param>
+        <summary>Enables the event that has the specified identifier.</summary>
+        <returns>
+          <see langword="true" /> if <paramref name="eventId" /> is in range; otherwise, <see langword="false" />.</returns>
+        <remarks>
+          <format type="text/markdown"><![CDATA[  
+  
+## Remarks  
+ You can turn on all events in an event listener by calling EnableEvent starting with `eventID` = 1 and continuing until EnableEvent returns `false`.  
+  
+ ]]></format>
+        </remarks>
+        <threadsafe />
       </Docs>
     </Member>
   </Members>
