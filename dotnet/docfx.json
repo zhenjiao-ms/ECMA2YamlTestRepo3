@@ -4,9 +4,11 @@
       {
         "files": [
           "**/*.md",
-          "_yml/**/*.yml"
+          "**/*.yml"
         ],
         "exclude": [
+          "add/includes/**/*.md",
+          "add/metadata/**/*.md",
           "**/obj/**",
           "README.md",
           "LICENSE",
@@ -18,9 +20,11 @@
       {
         "files": [
           "**/*.png",
+          "**/*.gif",
           "**/*.jpg"
         ],
         "exclude": [
+          "add/codesnippet/**/*.*",
           "**/obj/**",
           "**/includes/**"
         ]
@@ -29,7 +33,7 @@
     "overwrite": [],
     "externalReference": [],
     "globalMetadata": {
-      "breadcrumb_path": "/smalldotnet/_yml/toc.json"
+      "breadcrumb_path": "/smalldotnet/toc.json"
     },
     "fileMetadata": {},
     "template": [],
