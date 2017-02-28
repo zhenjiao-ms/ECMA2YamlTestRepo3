@@ -19,14 +19,15 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void Assert(bool condition) cil managed" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
+        <AssemblyName>mscorlib</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Diagnostics.Conditional("DEBUG")</AttributeName>
+          <AttributeName>System.Diagnostics.Conditional("CONTRACTS_FULL")</AttributeName>
         </Attribute>
         <Attribute>
-          <AttributeName>System.Diagnostics.Conditional("CONTRACTS_FULL")</AttributeName>
+          <AttributeName>System.Diagnostics.Conditional("DEBUG")</AttributeName>
         </Attribute>
         <Attribute>
           <AttributeName>System.Runtime.ConstrainedExecution.ReliabilityContract(System.Runtime.ConstrainedExecution.Consistency.WillNotCorruptState, System.Runtime.ConstrainedExecution.Cer.MayFail)</AttributeName>
@@ -49,14 +50,15 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void Assert(bool condition, string userMessage) cil managed" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
+        <AssemblyName>mscorlib</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Diagnostics.Conditional("DEBUG")</AttributeName>
+          <AttributeName>System.Diagnostics.Conditional("CONTRACTS_FULL")</AttributeName>
         </Attribute>
         <Attribute>
-          <AttributeName>System.Diagnostics.Conditional("CONTRACTS_FULL")</AttributeName>
+          <AttributeName>System.Diagnostics.Conditional("DEBUG")</AttributeName>
         </Attribute>
         <Attribute>
           <AttributeName>System.Runtime.ConstrainedExecution.ReliabilityContract(System.Runtime.ConstrainedExecution.Consistency.WillNotCorruptState, System.Runtime.ConstrainedExecution.Cer.MayFail)</AttributeName>
@@ -81,6 +83,7 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void Assume(bool condition) cil managed" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
+        <AssemblyName>mscorlib</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -111,14 +114,15 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void Assume(bool condition, string userMessage) cil managed" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
+        <AssemblyName>mscorlib</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName>System.Diagnostics.Conditional("DEBUG")</AttributeName>
+          <AttributeName>System.Diagnostics.Conditional("CONTRACTS_FULL")</AttributeName>
         </Attribute>
         <Attribute>
-          <AttributeName>System.Diagnostics.Conditional("CONTRACTS_FULL")</AttributeName>
+          <AttributeName>System.Diagnostics.Conditional("DEBUG")</AttributeName>
         </Attribute>
         <Attribute>
           <AttributeName>System.Runtime.ConstrainedExecution.ReliabilityContract(System.Runtime.ConstrainedExecution.Consistency.WillNotCorruptState, System.Runtime.ConstrainedExecution.Cer.MayFail)</AttributeName>
@@ -143,6 +147,7 @@
       <MemberSignature Language="ILAsm" Value=".event class System.EventHandler`1&lt;class System.Diagnostics.Contracts.ContractFailedEventArgs&gt; ContractFailed" />
       <MemberType>Event</MemberType>
       <AssemblyInfo>
+        <AssemblyName>mscorlib</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -166,6 +171,7 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void EndContractBlock() cil managed" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
+        <AssemblyName>mscorlib</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -190,6 +196,7 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void Ensures(bool condition) cil managed" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
+        <AssemblyName>mscorlib</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -217,6 +224,7 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void Ensures(bool condition, string userMessage) cil managed" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
+        <AssemblyName>mscorlib</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -246,6 +254,7 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void EnsuresOnThrow&lt;(class System.Exception) TException&gt;(bool condition) cil managed" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
+        <AssemblyName>mscorlib</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -281,6 +290,7 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void EnsuresOnThrow&lt;(class System.Exception) TException&gt;(bool condition, string userMessage) cil managed" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
+        <AssemblyName>mscorlib</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -318,6 +328,7 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig bool Exists(int32 fromInclusive, int32 toExclusive, class System.Predicate`1&lt;int32&gt; predicate) cil managed" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
+        <AssemblyName>mscorlib</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -347,6 +358,7 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig bool Exists&lt;T&gt;(class System.Collections.Generic.IEnumerable`1&lt;!!T&gt; collection, class System.Predicate`1&lt;!!T&gt; predicate) cil managed" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
+        <AssemblyName>mscorlib</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -378,6 +390,7 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig bool ForAll(int32 fromInclusive, int32 toExclusive, class System.Predicate`1&lt;int32&gt; predicate) cil managed" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
+        <AssemblyName>mscorlib</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -407,6 +420,7 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig bool ForAll&lt;T&gt;(class System.Collections.Generic.IEnumerable`1&lt;!!T&gt; collection, class System.Predicate`1&lt;!!T&gt; predicate) cil managed" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
+        <AssemblyName>mscorlib</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -438,6 +452,7 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void Invariant(bool condition) cil managed" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
+        <AssemblyName>mscorlib</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -465,6 +480,7 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void Invariant(bool condition, string userMessage) cil managed" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
+        <AssemblyName>mscorlib</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -494,6 +510,7 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig !!T OldValue&lt;T&gt;(!!T value) cil managed" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
+        <AssemblyName>mscorlib</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -523,6 +540,7 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void Requires(bool condition) cil managed" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
+        <AssemblyName>mscorlib</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -550,6 +568,7 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void Requires(bool condition, string userMessage) cil managed" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
+        <AssemblyName>mscorlib</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -579,6 +598,7 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void Requires&lt;(class System.Exception) TException&gt;(bool condition) cil managed" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
+        <AssemblyName>mscorlib</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -611,6 +631,7 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void Requires&lt;(class System.Exception) TException&gt;(bool condition, string userMessage) cil managed" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
+        <AssemblyName>mscorlib</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -645,6 +666,7 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig !!T Result&lt;T&gt;() cil managed" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
+        <AssemblyName>mscorlib</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -671,6 +693,7 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig !!T ValueAtReturn&lt;T&gt;(!!T value) cil managed" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
+        <AssemblyName>mscorlib</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>

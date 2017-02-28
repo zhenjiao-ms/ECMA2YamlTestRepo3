@@ -19,6 +19,7 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void AwaitOnCompleted&lt;(class System.Runtime.CompilerServices.INotifyCompletion) TAwaiter, (class System.Runtime.CompilerServices.IAsyncStateMachine) TStateMachine&gt;(!!TAwaiter awaiter, !!TStateMachine stateMachine) cil managed" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
+        <AssemblyName>mscorlib</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -54,6 +55,7 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void AwaitUnsafeOnCompleted&lt;(class System.Runtime.CompilerServices.ICriticalNotifyCompletion) TAwaiter, (class System.Runtime.CompilerServices.IAsyncStateMachine) TStateMachine&gt;(!!TAwaiter awaiter, !!TStateMachine stateMachine) cil managed" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
+        <AssemblyName>mscorlib</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -94,6 +96,7 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype System.Runtime.CompilerServices.AsyncVoidMethodBuilder Create() cil managed" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
+        <AssemblyName>mscorlib</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -111,6 +114,7 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void SetException(class System.Exception exception) cil managed" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
+        <AssemblyName>mscorlib</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -130,6 +134,7 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void SetResult() cil managed" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
+        <AssemblyName>mscorlib</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -146,6 +151,7 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void SetStateMachine(class System.Runtime.CompilerServices.IAsyncStateMachine stateMachine) cil managed" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
+        <AssemblyName>mscorlib</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -165,14 +171,12 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void Start&lt;(class System.Runtime.CompilerServices.IAsyncStateMachine) TStateMachine&gt;(!!TStateMachine stateMachine) cil managed" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
+        <AssemblyName>mscorlib</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
           <AttributeName>System.Diagnostics.DebuggerStepThrough</AttributeName>
-        </Attribute>
-        <Attribute>
-          <AttributeName>System.Security.SecuritySafeCritical</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>

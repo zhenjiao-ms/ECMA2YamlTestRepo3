@@ -3,6 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract sealed beforefieldinit Environment extends System.Object" />
   <AssemblyInfo>
     <AssemblyName>mscorlib</AssemblyName>
+    <AssemblyVersion>1.0.5000.0</AssemblyVersion>
+    <AssemblyVersion>2.0.0.0</AssemblyVersion>
     <AssemblyVersion>4.0.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
@@ -24,6 +26,9 @@
       <MemberSignature Language="ILAsm" Value=".property string CommandLine" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
+        <AssemblyName>mscorlib</AssemblyName>
+        <AssemblyVersion>1.0.5000.0</AssemblyVersion>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -45,6 +50,9 @@
       <MemberSignature Language="ILAsm" Value=".property string CurrentDirectory" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
+        <AssemblyName>mscorlib</AssemblyName>
+        <AssemblyVersion>1.0.5000.0</AssemblyVersion>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -61,11 +69,15 @@
       <MemberSignature Language="ILAsm" Value=".property int32 CurrentManagedThreadId" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
+        <AssemblyName>mscorlib</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
           <AttributeName>get: System.Runtime.ConstrainedExecution.ReliabilityContract(System.Runtime.ConstrainedExecution.Consistency.WillNotCorruptState, System.Runtime.ConstrainedExecution.Cer.Success)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.TargetedPatchingOptOut("Performance critical to inline across NGen image boundaries")</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -82,6 +94,9 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void Exit(int32 exitCode) cil managed" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
+        <AssemblyName>mscorlib</AssemblyName>
+        <AssemblyVersion>1.0.5000.0</AssemblyVersion>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -106,6 +121,9 @@
       <MemberSignature Language="ILAsm" Value=".property int32 ExitCode" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
+        <AssemblyName>mscorlib</AssemblyName>
+        <AssemblyVersion>1.0.5000.0</AssemblyVersion>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -130,6 +148,9 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig string ExpandEnvironmentVariables(string name) cil managed" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
+        <AssemblyName>mscorlib</AssemblyName>
+        <AssemblyVersion>1.0.5000.0</AssemblyVersion>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -155,6 +176,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void FailFast(string message) cil managed" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
+        <AssemblyName>mscorlib</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -179,6 +202,7 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void FailFast(string message, class System.Exception exception) cil managed" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
+        <AssemblyName>mscorlib</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -205,6 +229,9 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig string[] GetCommandLineArgs() cil managed" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
+        <AssemblyName>mscorlib</AssemblyName>
+        <AssemblyVersion>1.0.5000.0</AssemblyVersion>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -227,6 +254,9 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig string GetEnvironmentVariable(string variable) cil managed" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
+        <AssemblyName>mscorlib</AssemblyName>
+        <AssemblyVersion>1.0.5000.0</AssemblyVersion>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -252,6 +282,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig string GetEnvironmentVariable(string variable, valuetype System.EnvironmentVariableTarget target) cil managed" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
+        <AssemblyName>mscorlib</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -279,6 +311,9 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Collections.IDictionary GetEnvironmentVariables() cil managed" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
+        <AssemblyName>mscorlib</AssemblyName>
+        <AssemblyVersion>1.0.5000.0</AssemblyVersion>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -301,6 +336,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Collections.IDictionary GetEnvironmentVariables(valuetype System.EnvironmentVariableTarget target) cil managed" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
+        <AssemblyName>mscorlib</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -326,6 +363,9 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig string GetFolderPath(valuetype System.Environment/SpecialFolder folder) cil managed" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
+        <AssemblyName>mscorlib</AssemblyName>
+        <AssemblyVersion>1.0.5000.0</AssemblyVersion>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -351,6 +391,7 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig string GetFolderPath(valuetype System.Environment/SpecialFolder folder, valuetype System.Environment/SpecialFolderOption option) cil managed" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
+        <AssemblyName>mscorlib</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -378,6 +419,9 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig string[] GetLogicalDrives() cil managed" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
+        <AssemblyName>mscorlib</AssemblyName>
+        <AssemblyVersion>1.0.5000.0</AssemblyVersion>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -400,6 +444,9 @@
       <MemberSignature Language="ILAsm" Value=".property bool HasShutdownStarted" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
+        <AssemblyName>mscorlib</AssemblyName>
+        <AssemblyVersion>1.0.5000.0</AssemblyVersion>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -421,6 +468,7 @@
       <MemberSignature Language="ILAsm" Value=".property bool Is64BitOperatingSystem" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
+        <AssemblyName>mscorlib</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -442,6 +490,7 @@
       <MemberSignature Language="ILAsm" Value=".property bool Is64BitProcess" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
+        <AssemblyName>mscorlib</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -458,6 +507,9 @@
       <MemberSignature Language="ILAsm" Value=".property string MachineName" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
+        <AssemblyName>mscorlib</AssemblyName>
+        <AssemblyVersion>1.0.5000.0</AssemblyVersion>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -479,6 +531,9 @@
       <MemberSignature Language="ILAsm" Value=".property string NewLine" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
+        <AssemblyName>mscorlib</AssemblyName>
+        <AssemblyVersion>1.0.5000.0</AssemblyVersion>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -495,6 +550,9 @@
       <MemberSignature Language="ILAsm" Value=".property class System.OperatingSystem OSVersion" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
+        <AssemblyName>mscorlib</AssemblyName>
+        <AssemblyVersion>1.0.5000.0</AssemblyVersion>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -516,6 +574,8 @@
       <MemberSignature Language="ILAsm" Value=".property int32 ProcessorCount" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
+        <AssemblyName>mscorlib</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -537,6 +597,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void SetEnvironmentVariable(string variable, string value) cil managed" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
+        <AssemblyName>mscorlib</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -563,6 +625,8 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void SetEnvironmentVariable(string variable, string value, valuetype System.EnvironmentVariableTarget target) cil managed" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
+        <AssemblyName>mscorlib</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -591,6 +655,9 @@
       <MemberSignature Language="ILAsm" Value=".property string StackTrace" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
+        <AssemblyName>mscorlib</AssemblyName>
+        <AssemblyVersion>1.0.5000.0</AssemblyVersion>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -612,6 +679,9 @@
       <MemberSignature Language="ILAsm" Value=".property string SystemDirectory" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
+        <AssemblyName>mscorlib</AssemblyName>
+        <AssemblyVersion>1.0.5000.0</AssemblyVersion>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -633,6 +703,7 @@
       <MemberSignature Language="ILAsm" Value=".property int32 SystemPageSize" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
+        <AssemblyName>mscorlib</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -654,6 +725,9 @@
       <MemberSignature Language="ILAsm" Value=".property int32 TickCount" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
+        <AssemblyName>mscorlib</AssemblyName>
+        <AssemblyVersion>1.0.5000.0</AssemblyVersion>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -675,6 +749,9 @@
       <MemberSignature Language="ILAsm" Value=".property string UserDomainName" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
+        <AssemblyName>mscorlib</AssemblyName>
+        <AssemblyVersion>1.0.5000.0</AssemblyVersion>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -696,6 +773,9 @@
       <MemberSignature Language="ILAsm" Value=".property bool UserInteractive" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
+        <AssemblyName>mscorlib</AssemblyName>
+        <AssemblyVersion>1.0.5000.0</AssemblyVersion>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -717,6 +797,9 @@
       <MemberSignature Language="ILAsm" Value=".property string UserName" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
+        <AssemblyName>mscorlib</AssemblyName>
+        <AssemblyVersion>1.0.5000.0</AssemblyVersion>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -738,6 +821,9 @@
       <MemberSignature Language="ILAsm" Value=".property class System.Version Version" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
+        <AssemblyName>mscorlib</AssemblyName>
+        <AssemblyVersion>1.0.5000.0</AssemblyVersion>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -754,6 +840,9 @@
       <MemberSignature Language="ILAsm" Value=".property int64 WorkingSet" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
+        <AssemblyName>mscorlib</AssemblyName>
+        <AssemblyVersion>1.0.5000.0</AssemblyVersion>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>

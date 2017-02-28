@@ -23,6 +23,7 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
+        <AssemblyName>mscorlib</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters />
@@ -36,6 +37,7 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(object state) cil managed" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
+        <AssemblyName>mscorlib</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
@@ -52,6 +54,7 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(valuetype System.Threading.Tasks.TaskCreationOptions creationOptions) cil managed" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
+        <AssemblyName>mscorlib</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
@@ -68,6 +71,7 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(object state, valuetype System.Threading.Tasks.TaskCreationOptions creationOptions) cil managed" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
+        <AssemblyName>mscorlib</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
@@ -86,6 +90,7 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void SetCanceled() cil managed" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
+        <AssemblyName>mscorlib</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -102,6 +107,7 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void SetException(class System.Collections.Generic.IEnumerable`1&lt;class System.Exception&gt; exceptions) cil managed" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
+        <AssemblyName>mscorlib</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -121,6 +127,7 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void SetException(class System.Exception exception) cil managed" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
+        <AssemblyName>mscorlib</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -140,6 +147,7 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void SetResult(!TResult result) cil managed" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
+        <AssemblyName>mscorlib</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -159,6 +167,7 @@
       <MemberSignature Language="ILAsm" Value=".property instance class System.Threading.Tasks.Task`1&lt;!TResult&gt; Task" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
+        <AssemblyName>mscorlib</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -175,6 +184,7 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance bool TrySetCanceled() cil managed" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
+        <AssemblyName>mscorlib</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -187,31 +197,12 @@
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
-    <Member MemberName="TrySetCanceled">
-      <MemberSignature Language="C#" Value="public bool TrySetCanceled (System.Threading.CancellationToken cancellationToken);" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance bool TrySetCanceled(valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
-      <MemberType>Method</MemberType>
-      <AssemblyInfo>
-        <AssemblyVersion>4.0.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>System.Boolean</ReturnType>
-      </ReturnValue>
-      <Parameters>
-        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
-      </Parameters>
-      <Docs>
-        <param name="cancellationToken">To be added.</param>
-        <summary>To be added.</summary>
-        <returns>To be added.</returns>
-        <remarks>To be added.</remarks>
-      </Docs>
-    </Member>
     <Member MemberName="TrySetException">
       <MemberSignature Language="C#" Value="public bool TrySetException (System.Collections.Generic.IEnumerable&lt;Exception&gt; exceptions);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance bool TrySetException(class System.Collections.Generic.IEnumerable`1&lt;class System.Exception&gt; exceptions) cil managed" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
+        <AssemblyName>mscorlib</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -232,6 +223,7 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance bool TrySetException(class System.Exception exception) cil managed" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
+        <AssemblyName>mscorlib</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -252,6 +244,7 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance bool TrySetResult(!TResult result) cil managed" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
+        <AssemblyName>mscorlib</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>

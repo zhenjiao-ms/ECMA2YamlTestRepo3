@@ -22,10 +22,10 @@
           <AttributeName>System.Reflection.AssemblyDescription("mscorlib.dll")</AttributeName>
         </Attribute>
         <Attribute>
-          <AttributeName>System.Reflection.AssemblyFileVersion("4.6.1590.0")</AttributeName>
+          <AttributeName>System.Reflection.AssemblyFileVersion("4.0.30319.18020")</AttributeName>
         </Attribute>
         <Attribute>
-          <AttributeName>System.Reflection.AssemblyInformationalVersion("4.6.1590.0")</AttributeName>
+          <AttributeName>System.Reflection.AssemblyInformationalVersion("4.0.30319.18020")</AttributeName>
         </Attribute>
         <Attribute>
           <AttributeName>System.Reflection.AssemblyProduct("Microsoft® .NET Framework")</AttributeName>
@@ -49,6 +49,12 @@
           <AttributeName>System.Runtime.CompilerServices.DefaultDependency(System.Runtime.CompilerServices.LoadHint.Always)</AttributeName>
         </Attribute>
         <Attribute>
+          <AttributeName>System.Runtime.CompilerServices.InternalsVisibleTo("System.Runtime.WindowsRuntime, PublicKey=00000000000000000400000000000000", AllInternalsVisible=false)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Runtime.CompilerServices.InternalsVisibleTo("PresentationCore, PublicKey=0024000004800000940000000602000000240000525341310004000001000100B5FC90E7027F67871E773A8FDE8938C81DD402BA65B9201D60593E96C492651E889CC13F1415EBB53FAC1131AE0BD333C5EE6021672D9718EA31A8AEBD0DA0072F25D87DBA6FC90FFD598ED4DA35E44C398C454307E8E33B8426143DAEC9F596836F97C8F74750E5975C64E2189F45DEF46B2A2B1247ADC3652BF5C308055DA9", AllInternalsVisible=false)</AttributeName>
+        </Attribute>
+        <Attribute>
           <AttributeName>System.Runtime.CompilerServices.InternalsVisibleTo("System, PublicKey=00000000000000000400000000000000", AllInternalsVisible=false)</AttributeName>
         </Attribute>
         <Attribute>
@@ -61,16 +67,10 @@
           <AttributeName>System.Runtime.CompilerServices.InternalsVisibleTo("System.Reflection.Context, PublicKey=00000000000000000400000000000000", AllInternalsVisible=false)</AttributeName>
         </Attribute>
         <Attribute>
-          <AttributeName>System.Runtime.CompilerServices.InternalsVisibleTo("System.Runtime.WindowsRuntime, PublicKey=00000000000000000400000000000000", AllInternalsVisible=false)</AttributeName>
-        </Attribute>
-        <Attribute>
           <AttributeName>System.Runtime.CompilerServices.InternalsVisibleTo("System.Runtime.WindowsRuntime.UI.Xaml, PublicKey=00000000000000000400000000000000", AllInternalsVisible=false)</AttributeName>
         </Attribute>
         <Attribute>
           <AttributeName>System.Runtime.CompilerServices.InternalsVisibleTo("WindowsBase, PublicKey=0024000004800000940000000602000000240000525341310004000001000100B5FC90E7027F67871E773A8FDE8938C81DD402BA65B9201D60593E96C492651E889CC13F1415EBB53FAC1131AE0BD333C5EE6021672D9718EA31A8AEBD0DA0072F25D87DBA6FC90FFD598ED4DA35E44C398C454307E8E33B8426143DAEC9F596836F97C8F74750E5975C64E2189F45DEF46B2A2B1247ADC3652BF5C308055DA9", AllInternalsVisible=false)</AttributeName>
-        </Attribute>
-        <Attribute>
-          <AttributeName>System.Runtime.CompilerServices.InternalsVisibleTo("PresentationCore, PublicKey=0024000004800000940000000602000000240000525341310004000001000100B5FC90E7027F67871E773A8FDE8938C81DD402BA65B9201D60593E96C492651E889CC13F1415EBB53FAC1131AE0BD333C5EE6021672D9718EA31A8AEBD0DA0072F25D87DBA6FC90FFD598ED4DA35E44C398C454307E8E33B8426143DAEC9F596836F97C8F74750E5975C64E2189F45DEF46B2A2B1247ADC3652BF5C308055DA9", AllInternalsVisible=false)</AttributeName>
         </Attribute>
         <Attribute>
           <AttributeName>System.Runtime.CompilerServices.InternalsVisibleTo("PresentationFramework, PublicKey=0024000004800000940000000602000000240000525341310004000001000100B5FC90E7027F67871E773A8FDE8938C81DD402BA65B9201D60593E96C492651E889CC13F1415EBB53FAC1131AE0BD333C5EE6021672D9718EA31A8AEBD0DA0072F25D87DBA6FC90FFD598ED4DA35E44C398C454307E8E33B8426143DAEC9F596836F97C8F74750E5975C64E2189F45DEF46B2A2B1247ADC3652BF5C308055DA9", AllInternalsVisible=false)</AttributeName>
@@ -103,6 +103,10 @@
           <AttributeName>System.Security.SecurityRules(System.Security.SecurityRuleSet.Level2, SkipVerificationInFullTrust=true)</AttributeName>
         </Attribute>
       </Attributes>
+      <AssemblyPublicKey>[00 00 00 00 00 00 00 00 04 00 00 00 00 00 00 00 ]</AssemblyPublicKey>
+      <AssemblyPublicKey>[00 00 00 00 00 00 00 00 04 00 00 00 00 00 00 00 ]</AssemblyPublicKey>
+      <AssemblyPublicKey>[00 00 00 00 00 00 00 00 04 00 00 00 00 00 00 00 ]</AssemblyPublicKey>
+      <AssemblyPublicKey>[00 00 00 00 00 00 00 00 04 00 00 00 00 00 00 00 ]</AssemblyPublicKey>
     </Assembly>
   </Assemblies>
   <Remarks>To be added.</Remarks>
@@ -121,7 +125,6 @@
     <Namespace Name="Microsoft.Win32.SafeHandles">
       <Type Name="CriticalHandleMinusOneIsInvalid" Kind="Class" />
       <Type Name="CriticalHandleZeroOrMinusOneIsInvalid" Kind="Class" />
-      <Type Name="SafeAccessTokenHandle" Kind="Class" />
       <Type Name="SafeFileHandle" Kind="Class" />
       <Type Name="SafeHandleMinusOneIsInvalid" Kind="Class" />
       <Type Name="SafeHandleZeroOrMinusOneIsInvalid" Kind="Class" />
@@ -144,7 +147,6 @@
       <Type Name="ActivationContext+ContextForm" Kind="Enumeration" />
       <Type Name="Activator" Kind="Class" />
       <Type Name="AggregateException" Kind="Class" />
-      <Type Name="AppContext" Kind="Class" />
       <Type Name="AppDomain" Kind="Class" />
       <Type Name="AppDomainInitializer" Kind="Delegate" />
       <Type Name="AppDomainManager" Kind="Class" />
@@ -219,7 +221,6 @@
       <Type Name="FieldAccessException" Kind="Class" />
       <Type Name="FlagsAttribute" Kind="Class" />
       <Type Name="FormatException" Kind="Class" />
-      <Type Name="FormattableString" Kind="Class" />
       <Type Name="Func`1" DisplayName="Func&lt;TResult&gt;" Kind="Delegate" />
       <Type Name="Func`2" DisplayName="Func&lt;T,TResult&gt;" Kind="Delegate" />
       <Type Name="Func`3" DisplayName="Func&lt;T1,T2,TResult&gt;" Kind="Delegate" />
@@ -484,29 +485,17 @@
       <Type Name="SymLanguageVendor" Kind="Class" />
     </Namespace>
     <Namespace Name="System.Diagnostics.Tracing">
-      <Type Name="EventActivityOptions" Kind="Enumeration" />
       <Type Name="EventAttribute" Kind="Class" />
-      <Type Name="EventChannel" Kind="Enumeration" />
       <Type Name="EventCommand" Kind="Enumeration" />
       <Type Name="EventCommandEventArgs" Kind="Class" />
-      <Type Name="EventDataAttribute" Kind="Class" />
-      <Type Name="EventFieldAttribute" Kind="Class" />
-      <Type Name="EventFieldFormat" Kind="Enumeration" />
-      <Type Name="EventFieldTags" Kind="Enumeration" />
-      <Type Name="EventIgnoreAttribute" Kind="Class" />
       <Type Name="EventKeywords" Kind="Enumeration" />
       <Type Name="EventLevel" Kind="Enumeration" />
       <Type Name="EventListener" Kind="Class" />
-      <Type Name="EventManifestOptions" Kind="Enumeration" />
       <Type Name="EventOpcode" Kind="Enumeration" />
       <Type Name="EventSource" Kind="Class" />
       <Type Name="EventSource+EventData" Kind="Structure" />
       <Type Name="EventSourceAttribute" Kind="Class" />
-      <Type Name="EventSourceCreatedEventArgs" Kind="Class" />
       <Type Name="EventSourceException" Kind="Class" />
-      <Type Name="EventSourceOptions" Kind="Structure" />
-      <Type Name="EventSourceSettings" Kind="Enumeration" />
-      <Type Name="EventTags" Kind="Enumeration" />
       <Type Name="EventTask" Kind="Enumeration" />
       <Type Name="EventWrittenEventArgs" Kind="Class" />
       <Type Name="NonEventAttribute" Kind="Class" />
@@ -743,7 +732,6 @@
     </Namespace>
     <Namespace Name="System.Runtime">
       <Type Name="AssemblyTargetedPatchBandAttribute" Kind="Class" />
-      <Type Name="GCLargeObjectHeapCompactionMode" Kind="Enumeration" />
       <Type Name="GCLatencyMode" Kind="Enumeration" />
       <Type Name="GCSettings" Kind="Class" />
       <Type Name="MemoryFailPoint" Kind="Class" />
@@ -780,12 +768,10 @@
       <Type Name="DecimalConstantAttribute" Kind="Class" />
       <Type Name="DefaultDependencyAttribute" Kind="Class" />
       <Type Name="DependencyAttribute" Kind="Class" />
-      <Type Name="DisablePrivateReflectionAttribute" Kind="Class" />
       <Type Name="DiscardableAttribute" Kind="Class" />
       <Type Name="ExtensionAttribute" Kind="Class" />
       <Type Name="FixedAddressValueTypeAttribute" Kind="Class" />
       <Type Name="FixedBufferAttribute" Kind="Class" />
-      <Type Name="FormattableStringFactory" Kind="Class" />
       <Type Name="HasCopySemanticsAttribute" Kind="Class" />
       <Type Name="IAsyncStateMachine" Kind="Interface" />
       <Type Name="ICriticalNotifyCompletion" Kind="Interface" />
@@ -1454,7 +1440,6 @@
       <Type Name="FromBase64Transform" Kind="Class" />
       <Type Name="FromBase64TransformMode" Kind="Enumeration" />
       <Type Name="HashAlgorithm" Kind="Class" />
-      <Type Name="HashAlgorithmName" Kind="Structure" />
       <Type Name="HMAC" Kind="Class" />
       <Type Name="HMACMD5" Kind="Class" />
       <Type Name="HMACRIPEMD160" Kind="Class" />
@@ -1486,8 +1471,6 @@
       <Type Name="RNGCryptoServiceProvider" Kind="Class" />
       <Type Name="RSA" Kind="Class" />
       <Type Name="RSACryptoServiceProvider" Kind="Class" />
-      <Type Name="RSAEncryptionPadding" Kind="Class" />
-      <Type Name="RSAEncryptionPaddingMode" Kind="Enumeration" />
       <Type Name="RSAOAEPKeyExchangeDeformatter" Kind="Class" />
       <Type Name="RSAOAEPKeyExchangeFormatter" Kind="Class" />
       <Type Name="RSAParameters" Kind="Structure" />
@@ -1495,8 +1478,6 @@
       <Type Name="RSAPKCS1KeyExchangeFormatter" Kind="Class" />
       <Type Name="RSAPKCS1SignatureDeformatter" Kind="Class" />
       <Type Name="RSAPKCS1SignatureFormatter" Kind="Class" />
-      <Type Name="RSASignaturePadding" Kind="Class" />
-      <Type Name="RSASignaturePaddingMode" Kind="Enumeration" />
       <Type Name="SHA1" Kind="Class" />
       <Type Name="SHA1CryptoServiceProvider" Kind="Class" />
       <Type Name="SHA1Managed" Kind="Class" />
@@ -1658,7 +1639,6 @@
       <Type Name="EncoderReplacementFallbackBuffer" Kind="Class" />
       <Type Name="Encoding" Kind="Class" />
       <Type Name="EncodingInfo" Kind="Class" />
-      <Type Name="EncodingProvider" Kind="Class" />
       <Type Name="NormalizationForm" Kind="Enumeration" />
       <Type Name="StringBuilder" Kind="Class" />
       <Type Name="UnicodeEncoding" Kind="Class" />
@@ -1670,8 +1650,6 @@
       <Type Name="AbandonedMutexException" Kind="Class" />
       <Type Name="ApartmentState" Kind="Enumeration" />
       <Type Name="AsyncFlowControl" Kind="Structure" />
-      <Type Name="AsyncLocal`1" DisplayName="AsyncLocal&lt;T&gt;" Kind="Class" />
-      <Type Name="AsyncLocalValueChangedArgs`1" DisplayName="AsyncLocalValueChangedArgs&lt;T&gt;" Kind="Structure" />
       <Type Name="AutoResetEvent" Kind="Class" />
       <Type Name="CancellationToken" Kind="Structure" />
       <Type Name="CancellationTokenRegistration" Kind="Structure" />
@@ -1723,7 +1701,6 @@
       <Type Name="WaitCallback" Kind="Delegate" />
       <Type Name="WaitHandle" Kind="Class" />
       <Type Name="WaitHandleCannotBeOpenedException" Kind="Class" />
-      <Type Name="WaitHandleExtensions" Kind="Class" />
       <Type Name="WaitOrTimerCallback" Kind="Delegate" />
     </Namespace>
     <Namespace Name="System.Threading.Tasks">
@@ -1746,7 +1723,7 @@
       <Type Name="UnobservedTaskExceptionEventArgs" Kind="Class" />
     </Namespace>
   </Types>
-  <Title>mscorlib</Title>
+  <Title>Untitled</Title>
   <ExtensionMethods>
     <ExtensionMethod>
       <Targets>
@@ -2922,50 +2899,6 @@
           <summary>To be added.</summary>
         </Docs>
         <Link Type="System.Reflection.RuntimeReflectionExtensions" Member="M:System.Reflection.RuntimeReflectionExtensions.GetRuntimeProperty(System.Type,System.String)" />
-      </Member>
-    </ExtensionMethod>
-    <ExtensionMethod>
-      <Targets>
-        <Target Type="T:System.Threading.WaitHandle" />
-      </Targets>
-      <Member MemberName="GetSafeWaitHandle">
-        <MemberSignature Language="C#" Value="public static Microsoft.Win32.SafeHandles.SafeWaitHandle GetSafeWaitHandle (this System.Threading.WaitHandle waitHandle);" />
-        <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Win32.SafeHandles.SafeWaitHandle GetSafeWaitHandle(class System.Threading.WaitHandle waitHandle) cil managed" />
-        <MemberType>ExtensionMethod</MemberType>
-        <ReturnValue>
-          <ReturnType>Microsoft.Win32.SafeHandles.SafeWaitHandle</ReturnType>
-        </ReturnValue>
-        <Parameters>
-          <Parameter Name="waitHandle" Type="System.Threading.WaitHandle" RefType="this" />
-        </Parameters>
-        <Docs>
-          <param name="waitHandle">To be added.</param>
-          <summary>To be added.</summary>
-        </Docs>
-        <Link Type="System.Threading.WaitHandleExtensions" Member="M:System.Threading.WaitHandleExtensions.GetSafeWaitHandle(System.Threading.WaitHandle)" />
-      </Member>
-    </ExtensionMethod>
-    <ExtensionMethod>
-      <Targets>
-        <Target Type="T:System.Threading.WaitHandle" />
-      </Targets>
-      <Member MemberName="SetSafeWaitHandle">
-        <MemberSignature Language="C#" Value="public static void SetSafeWaitHandle (this System.Threading.WaitHandle waitHandle, Microsoft.Win32.SafeHandles.SafeWaitHandle value);" />
-        <MemberSignature Language="ILAsm" Value=".method public static hidebysig void SetSafeWaitHandle(class System.Threading.WaitHandle waitHandle, class Microsoft.Win32.SafeHandles.SafeWaitHandle value) cil managed" />
-        <MemberType>ExtensionMethod</MemberType>
-        <ReturnValue>
-          <ReturnType>System.Void</ReturnType>
-        </ReturnValue>
-        <Parameters>
-          <Parameter Name="waitHandle" Type="System.Threading.WaitHandle" RefType="this" />
-          <Parameter Name="value" Type="Microsoft.Win32.SafeHandles.SafeWaitHandle" />
-        </Parameters>
-        <Docs>
-          <param name="waitHandle">To be added.</param>
-          <param name="value">To be added.</param>
-          <summary>To be added.</summary>
-        </Docs>
-        <Link Type="System.Threading.WaitHandleExtensions" Member="M:System.Threading.WaitHandleExtensions.SetSafeWaitHandle(System.Threading.WaitHandle,Microsoft.Win32.SafeHandles.SafeWaitHandle)" />
       </Member>
     </ExtensionMethod>
   </ExtensionMethods>

@@ -3,14 +3,11 @@
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract IEnumerator`1&lt;+ T&gt; implements class System.Collections.IEnumerator, class System.IDisposable" />
   <AssemblyInfo>
     <AssemblyName>mscorlib</AssemblyName>
+    <AssemblyVersion>2.0.0.0</AssemblyVersion>
     <AssemblyVersion>4.0.0.0</AssemblyVersion>
   </AssemblyInfo>
   <TypeParameters>
-    <TypeParameter Name="T">
-      <Constraints>
-        <ParameterAttribute>Covariant</ParameterAttribute>
-      </Constraints>
-    </TypeParameter>
+    <TypeParameter Name="T" />
   </TypeParameters>
   <Interfaces>
     <Interface>
@@ -31,6 +28,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance !T Current" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
+        <AssemblyName>mscorlib</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>

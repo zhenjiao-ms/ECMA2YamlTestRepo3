@@ -3,6 +3,7 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit CommonSecurityDescriptor extends System.Security.AccessControl.GenericSecurityDescriptor" />
   <AssemblyInfo>
     <AssemblyName>mscorlib</AssemblyName>
+    <AssemblyVersion>2.0.0.0</AssemblyVersion>
     <AssemblyVersion>4.0.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
@@ -19,6 +20,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(bool isContainer, bool isDS, class System.Security.AccessControl.RawSecurityDescriptor rawSecurityDescriptor) cil managed" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
+        <AssemblyName>mscorlib</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
@@ -39,6 +42,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(bool isContainer, bool isDS, string sddlForm) cil managed" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
+        <AssemblyName>mscorlib</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
@@ -59,6 +64,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(bool isContainer, bool isDS, unsigned int8[] binaryForm, int32 offset) cil managed" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
+        <AssemblyName>mscorlib</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
@@ -81,6 +88,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(bool isContainer, bool isDS, valuetype System.Security.AccessControl.ControlFlags flags, class System.Security.Principal.SecurityIdentifier owner, class System.Security.Principal.SecurityIdentifier group, class System.Security.AccessControl.SystemAcl systemAcl, class System.Security.AccessControl.DiscretionaryAcl discretionaryAcl) cil managed" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
+        <AssemblyName>mscorlib</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
@@ -104,53 +113,13 @@
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
-    <Member MemberName="AddDiscretionaryAcl">
-      <MemberSignature Language="C#" Value="public void AddDiscretionaryAcl (byte revision, int trusted);" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void AddDiscretionaryAcl(unsigned int8 revision, int32 trusted) cil managed" />
-      <MemberType>Method</MemberType>
-      <AssemblyInfo>
-        <AssemblyVersion>4.0.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>System.Void</ReturnType>
-      </ReturnValue>
-      <Parameters>
-        <Parameter Name="revision" Type="System.Byte" />
-        <Parameter Name="trusted" Type="System.Int32" />
-      </Parameters>
-      <Docs>
-        <param name="revision">To be added.</param>
-        <param name="trusted">To be added.</param>
-        <summary>To be added.</summary>
-        <remarks>To be added.</remarks>
-      </Docs>
-    </Member>
-    <Member MemberName="AddSystemAcl">
-      <MemberSignature Language="C#" Value="public void AddSystemAcl (byte revision, int trusted);" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void AddSystemAcl(unsigned int8 revision, int32 trusted) cil managed" />
-      <MemberType>Method</MemberType>
-      <AssemblyInfo>
-        <AssemblyVersion>4.0.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>System.Void</ReturnType>
-      </ReturnValue>
-      <Parameters>
-        <Parameter Name="revision" Type="System.Byte" />
-        <Parameter Name="trusted" Type="System.Int32" />
-      </Parameters>
-      <Docs>
-        <param name="revision">To be added.</param>
-        <param name="trusted">To be added.</param>
-        <summary>To be added.</summary>
-        <remarks>To be added.</remarks>
-      </Docs>
-    </Member>
     <Member MemberName="ControlFlags">
       <MemberSignature Language="C#" Value="public override System.Security.AccessControl.ControlFlags ControlFlags { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Security.AccessControl.ControlFlags ControlFlags" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
+        <AssemblyName>mscorlib</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -167,6 +136,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance class System.Security.AccessControl.DiscretionaryAcl DiscretionaryAcl" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
+        <AssemblyName>mscorlib</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -183,6 +154,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance class System.Security.Principal.SecurityIdentifier Group" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
+        <AssemblyName>mscorlib</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -199,6 +172,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance bool IsContainer" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
+        <AssemblyName>mscorlib</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -215,6 +190,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance bool IsDiscretionaryAclCanonical" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
+        <AssemblyName>mscorlib</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -231,6 +208,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance bool IsDS" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
+        <AssemblyName>mscorlib</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -247,6 +226,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance bool IsSystemAclCanonical" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
+        <AssemblyName>mscorlib</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -263,6 +244,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance class System.Security.Principal.SecurityIdentifier Owner" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
+        <AssemblyName>mscorlib</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -279,6 +262,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void PurgeAccessControl(class System.Security.Principal.SecurityIdentifier sid) cil managed" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
+        <AssemblyName>mscorlib</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -298,6 +283,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void PurgeAudit(class System.Security.Principal.SecurityIdentifier sid) cil managed" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
+        <AssemblyName>mscorlib</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -317,6 +304,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void SetDiscretionaryAclProtection(bool isProtected, bool preserveInheritance) cil managed" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
+        <AssemblyName>mscorlib</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -338,6 +327,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void SetSystemAclProtection(bool isProtected, bool preserveInheritance) cil managed" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
+        <AssemblyName>mscorlib</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -359,6 +350,8 @@
       <MemberSignature Language="ILAsm" Value=".property instance class System.Security.AccessControl.SystemAcl SystemAcl" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
+        <AssemblyName>mscorlib</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>

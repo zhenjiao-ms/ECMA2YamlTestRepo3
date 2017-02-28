@@ -3,6 +3,8 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit RegistryKey extends System.MarshalByRefObject implements class System.IDisposable" />
   <AssemblyInfo>
     <AssemblyName>mscorlib</AssemblyName>
+    <AssemblyVersion>1.0.5000.0</AssemblyVersion>
+    <AssemblyVersion>2.0.0.0</AssemblyVersion>
     <AssemblyVersion>4.0.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
@@ -28,6 +30,9 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void Close() cil managed" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
+        <AssemblyName>mscorlib</AssemblyName>
+        <AssemblyVersion>1.0.5000.0</AssemblyVersion>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -44,6 +49,9 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class Microsoft.Win32.RegistryKey CreateSubKey(string subkey) cil managed" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
+        <AssemblyName>mscorlib</AssemblyName>
+        <AssemblyVersion>1.0.5000.0</AssemblyVersion>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -64,6 +72,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class Microsoft.Win32.RegistryKey CreateSubKey(string subkey, valuetype Microsoft.Win32.RegistryKeyPermissionCheck permissionCheck) cil managed" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
+        <AssemblyName>mscorlib</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -87,37 +97,11 @@
       </Docs>
     </Member>
     <Member MemberName="CreateSubKey">
-      <MemberSignature Language="C#" Value="public Microsoft.Win32.RegistryKey CreateSubKey (string subkey, bool writable);" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class Microsoft.Win32.RegistryKey CreateSubKey(string subkey, bool writable) cil managed" />
-      <MemberType>Method</MemberType>
-      <AssemblyInfo>
-        <AssemblyVersion>4.0.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <Attributes>
-        <Attribute>
-          <AttributeName>System.Runtime.InteropServices.ComVisible(false)</AttributeName>
-        </Attribute>
-      </Attributes>
-      <ReturnValue>
-        <ReturnType>Microsoft.Win32.RegistryKey</ReturnType>
-      </ReturnValue>
-      <Parameters>
-        <Parameter Name="subkey" Type="System.String" />
-        <Parameter Name="writable" Type="System.Boolean" />
-      </Parameters>
-      <Docs>
-        <param name="subkey">To be added.</param>
-        <param name="writable">To be added.</param>
-        <summary>To be added.</summary>
-        <returns>To be added.</returns>
-        <remarks>To be added.</remarks>
-      </Docs>
-    </Member>
-    <Member MemberName="CreateSubKey">
       <MemberSignature Language="C#" Value="public Microsoft.Win32.RegistryKey CreateSubKey (string subkey, Microsoft.Win32.RegistryKeyPermissionCheck permissionCheck, Microsoft.Win32.RegistryOptions options);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class Microsoft.Win32.RegistryKey CreateSubKey(string subkey, valuetype Microsoft.Win32.RegistryKeyPermissionCheck permissionCheck, valuetype Microsoft.Win32.RegistryOptions options) cil managed" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
+        <AssemblyName>mscorlib</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -147,6 +131,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class Microsoft.Win32.RegistryKey CreateSubKey(string subkey, valuetype Microsoft.Win32.RegistryKeyPermissionCheck permissionCheck, class System.Security.AccessControl.RegistrySecurity registrySecurity) cil managed" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
+        <AssemblyName>mscorlib</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -172,39 +158,11 @@
       </Docs>
     </Member>
     <Member MemberName="CreateSubKey">
-      <MemberSignature Language="C#" Value="public Microsoft.Win32.RegistryKey CreateSubKey (string subkey, bool writable, Microsoft.Win32.RegistryOptions options);" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class Microsoft.Win32.RegistryKey CreateSubKey(string subkey, bool writable, valuetype Microsoft.Win32.RegistryOptions options) cil managed" />
-      <MemberType>Method</MemberType>
-      <AssemblyInfo>
-        <AssemblyVersion>4.0.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <Attributes>
-        <Attribute>
-          <AttributeName>System.Runtime.InteropServices.ComVisible(false)</AttributeName>
-        </Attribute>
-      </Attributes>
-      <ReturnValue>
-        <ReturnType>Microsoft.Win32.RegistryKey</ReturnType>
-      </ReturnValue>
-      <Parameters>
-        <Parameter Name="subkey" Type="System.String" />
-        <Parameter Name="writable" Type="System.Boolean" />
-        <Parameter Name="options" Type="Microsoft.Win32.RegistryOptions" />
-      </Parameters>
-      <Docs>
-        <param name="subkey">To be added.</param>
-        <param name="writable">To be added.</param>
-        <param name="options">To be added.</param>
-        <summary>To be added.</summary>
-        <returns>To be added.</returns>
-        <remarks>To be added.</remarks>
-      </Docs>
-    </Member>
-    <Member MemberName="CreateSubKey">
       <MemberSignature Language="C#" Value="public Microsoft.Win32.RegistryKey CreateSubKey (string subkey, Microsoft.Win32.RegistryKeyPermissionCheck permissionCheck, Microsoft.Win32.RegistryOptions registryOptions, System.Security.AccessControl.RegistrySecurity registrySecurity);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class Microsoft.Win32.RegistryKey CreateSubKey(string subkey, valuetype Microsoft.Win32.RegistryKeyPermissionCheck permissionCheck, valuetype Microsoft.Win32.RegistryOptions registryOptions, class System.Security.AccessControl.RegistrySecurity registrySecurity) cil managed" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
+        <AssemblyName>mscorlib</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -236,6 +194,9 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void DeleteSubKey(string subkey) cil managed" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
+        <AssemblyName>mscorlib</AssemblyName>
+        <AssemblyVersion>1.0.5000.0</AssemblyVersion>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -255,6 +216,9 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void DeleteSubKey(string subkey, bool throwOnMissingSubKey) cil managed" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
+        <AssemblyName>mscorlib</AssemblyName>
+        <AssemblyVersion>1.0.5000.0</AssemblyVersion>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -281,6 +245,9 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void DeleteSubKeyTree(string subkey) cil managed" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
+        <AssemblyName>mscorlib</AssemblyName>
+        <AssemblyVersion>1.0.5000.0</AssemblyVersion>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -300,6 +267,7 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void DeleteSubKeyTree(string subkey, bool throwOnMissingSubKey) cil managed" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
+        <AssemblyName>mscorlib</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -329,6 +297,9 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void DeleteValue(string name) cil managed" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
+        <AssemblyName>mscorlib</AssemblyName>
+        <AssemblyVersion>1.0.5000.0</AssemblyVersion>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -348,6 +319,9 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void DeleteValue(string name, bool throwOnMissingValue) cil managed" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
+        <AssemblyName>mscorlib</AssemblyName>
+        <AssemblyVersion>1.0.5000.0</AssemblyVersion>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -374,6 +348,7 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Dispose() cil managed" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
+        <AssemblyName>mscorlib</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -390,6 +365,9 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void Flush() cil managed" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
+        <AssemblyName>mscorlib</AssemblyName>
+        <AssemblyVersion>1.0.5000.0</AssemblyVersion>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -411,6 +389,7 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Win32.RegistryKey FromHandle(class Microsoft.Win32.SafeHandles.SafeRegistryHandle handle) cil managed" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
+        <AssemblyName>mscorlib</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -439,6 +418,7 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Win32.RegistryKey FromHandle(class Microsoft.Win32.SafeHandles.SafeRegistryHandle handle, valuetype Microsoft.Win32.RegistryView view) cil managed" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
+        <AssemblyName>mscorlib</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -469,6 +449,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class System.Security.AccessControl.RegistrySecurity GetAccessControl() cil managed" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
+        <AssemblyName>mscorlib</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -486,6 +468,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class System.Security.AccessControl.RegistrySecurity GetAccessControl(valuetype System.Security.AccessControl.AccessControlSections includeSections) cil managed" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
+        <AssemblyName>mscorlib</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -511,6 +495,9 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance string[] GetSubKeyNames() cil managed" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
+        <AssemblyName>mscorlib</AssemblyName>
+        <AssemblyVersion>1.0.5000.0</AssemblyVersion>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -533,6 +520,9 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance object GetValue(string name) cil managed" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
+        <AssemblyName>mscorlib</AssemblyName>
+        <AssemblyVersion>1.0.5000.0</AssemblyVersion>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -558,6 +548,9 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance object GetValue(string name, object defaultValue) cil managed" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
+        <AssemblyName>mscorlib</AssemblyName>
+        <AssemblyVersion>1.0.5000.0</AssemblyVersion>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -585,6 +578,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance object GetValue(string name, object defaultValue, valuetype Microsoft.Win32.RegistryValueOptions options) cil managed" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
+        <AssemblyName>mscorlib</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -617,6 +612,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance valuetype Microsoft.Win32.RegistryValueKind GetValueKind(string name) cil managed" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
+        <AssemblyName>mscorlib</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -645,6 +642,9 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance string[] GetValueNames() cil managed" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
+        <AssemblyName>mscorlib</AssemblyName>
+        <AssemblyVersion>1.0.5000.0</AssemblyVersion>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -667,6 +667,7 @@
       <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Win32.SafeHandles.SafeRegistryHandle Handle" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
+        <AssemblyName>mscorlib</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -691,6 +692,9 @@
       <MemberSignature Language="ILAsm" Value=".property instance string Name" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
+        <AssemblyName>mscorlib</AssemblyName>
+        <AssemblyVersion>1.0.5000.0</AssemblyVersion>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -712,6 +716,7 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Win32.RegistryKey OpenBaseKey(valuetype Microsoft.Win32.RegistryHive hKey, valuetype Microsoft.Win32.RegistryView view) cil managed" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
+        <AssemblyName>mscorlib</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -742,6 +747,9 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Win32.RegistryKey OpenRemoteBaseKey(valuetype Microsoft.Win32.RegistryHive hKey, string machineName) cil managed" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
+        <AssemblyName>mscorlib</AssemblyName>
+        <AssemblyVersion>1.0.5000.0</AssemblyVersion>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -764,6 +772,7 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Win32.RegistryKey OpenRemoteBaseKey(valuetype Microsoft.Win32.RegistryHive hKey, string machineName, valuetype Microsoft.Win32.RegistryView view) cil managed" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
+        <AssemblyName>mscorlib</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -796,6 +805,9 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class Microsoft.Win32.RegistryKey OpenSubKey(string name) cil managed" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
+        <AssemblyName>mscorlib</AssemblyName>
+        <AssemblyVersion>1.0.5000.0</AssemblyVersion>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -816,6 +828,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class Microsoft.Win32.RegistryKey OpenSubKey(string name, valuetype Microsoft.Win32.RegistryKeyPermissionCheck permissionCheck) cil managed" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
+        <AssemblyName>mscorlib</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -846,6 +860,9 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class Microsoft.Win32.RegistryKey OpenSubKey(string name, bool writable) cil managed" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
+        <AssemblyName>mscorlib</AssemblyName>
+        <AssemblyVersion>1.0.5000.0</AssemblyVersion>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -869,40 +886,12 @@
       </Docs>
     </Member>
     <Member MemberName="OpenSubKey">
-      <MemberSignature Language="C#" Value="public Microsoft.Win32.RegistryKey OpenSubKey (string name, System.Security.AccessControl.RegistryRights rights);" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class Microsoft.Win32.RegistryKey OpenSubKey(string name, valuetype System.Security.AccessControl.RegistryRights rights) cil managed" />
-      <MemberType>Method</MemberType>
-      <AssemblyInfo>
-        <AssemblyVersion>4.0.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <Attributes>
-        <Attribute>
-          <AttributeName>System.Runtime.InteropServices.ComVisible(false)</AttributeName>
-        </Attribute>
-        <Attribute>
-          <AttributeName>System.Security.SecuritySafeCritical</AttributeName>
-        </Attribute>
-      </Attributes>
-      <ReturnValue>
-        <ReturnType>Microsoft.Win32.RegistryKey</ReturnType>
-      </ReturnValue>
-      <Parameters>
-        <Parameter Name="name" Type="System.String" />
-        <Parameter Name="rights" Type="System.Security.AccessControl.RegistryRights" />
-      </Parameters>
-      <Docs>
-        <param name="name">To be added.</param>
-        <param name="rights">To be added.</param>
-        <summary>To be added.</summary>
-        <returns>To be added.</returns>
-        <remarks>To be added.</remarks>
-      </Docs>
-    </Member>
-    <Member MemberName="OpenSubKey">
       <MemberSignature Language="C#" Value="public Microsoft.Win32.RegistryKey OpenSubKey (string name, Microsoft.Win32.RegistryKeyPermissionCheck permissionCheck, System.Security.AccessControl.RegistryRights rights);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class Microsoft.Win32.RegistryKey OpenSubKey(string name, valuetype Microsoft.Win32.RegistryKeyPermissionCheck permissionCheck, valuetype System.Security.AccessControl.RegistryRights rights) cil managed" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
+        <AssemblyName>mscorlib</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -935,6 +924,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void SetAccessControl(class System.Security.AccessControl.RegistrySecurity registrySecurity) cil managed" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
+        <AssemblyName>mscorlib</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -959,6 +950,9 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void SetValue(string name, object value) cil managed" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
+        <AssemblyName>mscorlib</AssemblyName>
+        <AssemblyVersion>1.0.5000.0</AssemblyVersion>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -980,6 +974,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void SetValue(string name, object value, valuetype Microsoft.Win32.RegistryValueKind valueKind) cil managed" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
+        <AssemblyName>mscorlib</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -1011,6 +1007,9 @@
       <MemberSignature Language="ILAsm" Value=".property instance int32 SubKeyCount" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
+        <AssemblyName>mscorlib</AssemblyName>
+        <AssemblyVersion>1.0.5000.0</AssemblyVersion>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -1032,6 +1031,9 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance string ToString() cil managed" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
+        <AssemblyName>mscorlib</AssemblyName>
+        <AssemblyVersion>1.0.5000.0</AssemblyVersion>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -1054,6 +1056,9 @@
       <MemberSignature Language="ILAsm" Value=".property instance int32 ValueCount" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
+        <AssemblyName>mscorlib</AssemblyName>
+        <AssemblyVersion>1.0.5000.0</AssemblyVersion>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -1075,6 +1080,7 @@
       <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Win32.RegistryView View" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
+        <AssemblyName>mscorlib</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>

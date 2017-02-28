@@ -3,14 +3,11 @@
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract IEnumerable`1&lt;+ T&gt; implements class System.Collections.IEnumerable" />
   <AssemblyInfo>
     <AssemblyName>mscorlib</AssemblyName>
+    <AssemblyVersion>2.0.0.0</AssemblyVersion>
     <AssemblyVersion>4.0.0.0</AssemblyVersion>
   </AssemblyInfo>
   <TypeParameters>
-    <TypeParameter Name="T">
-      <Constraints>
-        <ParameterAttribute>Covariant</ParameterAttribute>
-      </Constraints>
-    </TypeParameter>
+    <TypeParameter Name="T" />
   </TypeParameters>
   <Interfaces>
     <Interface>
@@ -28,6 +25,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Collections.Generic.IEnumerator`1&lt;!T&gt; GetEnumerator() cil managed" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
+        <AssemblyName>mscorlib</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>

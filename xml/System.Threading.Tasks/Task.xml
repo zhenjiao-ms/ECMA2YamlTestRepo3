@@ -34,6 +34,7 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class System.Action action) cil managed" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
+        <AssemblyName>mscorlib</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
@@ -50,6 +51,7 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class System.Action action, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
+        <AssemblyName>mscorlib</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
@@ -68,6 +70,7 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class System.Action action, valuetype System.Threading.Tasks.TaskCreationOptions creationOptions) cil managed" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
+        <AssemblyName>mscorlib</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
@@ -86,6 +89,7 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class System.Action`1&lt;object&gt; action, object state) cil managed" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
+        <AssemblyName>mscorlib</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
@@ -104,6 +108,7 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class System.Action action, valuetype System.Threading.CancellationToken cancellationToken, valuetype System.Threading.Tasks.TaskCreationOptions creationOptions) cil managed" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
+        <AssemblyName>mscorlib</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
@@ -124,6 +129,7 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class System.Action`1&lt;object&gt; action, object state, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
+        <AssemblyName>mscorlib</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
@@ -144,6 +150,7 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class System.Action`1&lt;object&gt; action, object state, valuetype System.Threading.Tasks.TaskCreationOptions creationOptions) cil managed" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
+        <AssemblyName>mscorlib</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
@@ -164,6 +171,7 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class System.Action`1&lt;object&gt; action, object state, valuetype System.Threading.CancellationToken cancellationToken, valuetype System.Threading.Tasks.TaskCreationOptions creationOptions) cil managed" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
+        <AssemblyName>mscorlib</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
@@ -186,26 +194,11 @@
       <MemberSignature Language="ILAsm" Value=".property instance object AsyncState" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
+        <AssemblyName>mscorlib</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Object</ReturnType>
-      </ReturnValue>
-      <Docs>
-        <summary>To be added.</summary>
-        <value>To be added.</value>
-        <remarks>To be added.</remarks>
-      </Docs>
-    </Member>
-    <Member MemberName="CompletedTask">
-      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task CompletedTask { get; }" />
-      <MemberSignature Language="ILAsm" Value=".property class System.Threading.Tasks.Task CompletedTask" />
-      <MemberType>Property</MemberType>
-      <AssemblyInfo>
-        <AssemblyVersion>4.0.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>System.Threading.Tasks.Task</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>To be added.</summary>
@@ -218,8 +211,14 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance valuetype System.Runtime.CompilerServices.ConfiguredTaskAwaitable ConfigureAwait(bool continueOnCapturedContext) cil managed" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
+        <AssemblyName>mscorlib</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.TargetedPatchingOptOut("Performance critical to inline across NGen image boundaries")</AttributeName>
+        </Attribute>
+      </Attributes>
       <ReturnValue>
         <ReturnType>System.Runtime.CompilerServices.ConfiguredTaskAwaitable</ReturnType>
       </ReturnValue>
@@ -238,6 +237,7 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class System.Threading.Tasks.Task ContinueWith(class System.Action`1&lt;class System.Threading.Tasks.Task&gt; continuationAction) cil managed" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
+        <AssemblyName>mscorlib</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -258,6 +258,7 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class System.Threading.Tasks.Task ContinueWith(class System.Action`2&lt;class System.Threading.Tasks.Task, object&gt; continuationAction, object state) cil managed" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
+        <AssemblyName>mscorlib</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -280,6 +281,7 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class System.Threading.Tasks.Task ContinueWith(class System.Action`1&lt;class System.Threading.Tasks.Task&gt; continuationAction, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
+        <AssemblyName>mscorlib</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -302,6 +304,7 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class System.Threading.Tasks.Task ContinueWith(class System.Action`1&lt;class System.Threading.Tasks.Task&gt; continuationAction, valuetype System.Threading.Tasks.TaskContinuationOptions continuationOptions) cil managed" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
+        <AssemblyName>mscorlib</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -324,6 +327,7 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class System.Threading.Tasks.Task ContinueWith(class System.Action`1&lt;class System.Threading.Tasks.Task&gt; continuationAction, class System.Threading.Tasks.TaskScheduler scheduler) cil managed" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
+        <AssemblyName>mscorlib</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -346,6 +350,7 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class System.Threading.Tasks.Task ContinueWith(class System.Action`2&lt;class System.Threading.Tasks.Task, object&gt; continuationAction, object state, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
+        <AssemblyName>mscorlib</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -370,6 +375,7 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class System.Threading.Tasks.Task ContinueWith(class System.Action`2&lt;class System.Threading.Tasks.Task, object&gt; continuationAction, object state, valuetype System.Threading.Tasks.TaskContinuationOptions continuationOptions) cil managed" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
+        <AssemblyName>mscorlib</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -394,6 +400,7 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class System.Threading.Tasks.Task ContinueWith(class System.Action`2&lt;class System.Threading.Tasks.Task, object&gt; continuationAction, object state, class System.Threading.Tasks.TaskScheduler scheduler) cil managed" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
+        <AssemblyName>mscorlib</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -418,6 +425,7 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class System.Threading.Tasks.Task ContinueWith(class System.Action`1&lt;class System.Threading.Tasks.Task&gt; continuationAction, valuetype System.Threading.CancellationToken cancellationToken, valuetype System.Threading.Tasks.TaskContinuationOptions continuationOptions, class System.Threading.Tasks.TaskScheduler scheduler) cil managed" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
+        <AssemblyName>mscorlib</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -444,6 +452,7 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class System.Threading.Tasks.Task ContinueWith(class System.Action`2&lt;class System.Threading.Tasks.Task, object&gt; continuationAction, object state, valuetype System.Threading.CancellationToken cancellationToken, valuetype System.Threading.Tasks.TaskContinuationOptions continuationOptions, class System.Threading.Tasks.TaskScheduler scheduler) cil managed" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
+        <AssemblyName>mscorlib</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -472,6 +481,7 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class System.Threading.Tasks.Task`1&lt;!!TResult&gt; ContinueWith&lt;TResult&gt;(class System.Func`2&lt;class System.Threading.Tasks.Task, !!TResult&gt; continuationFunction) cil managed" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
+        <AssemblyName>mscorlib</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -496,6 +506,7 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class System.Threading.Tasks.Task`1&lt;!!TResult&gt; ContinueWith&lt;TResult&gt;(class System.Func`3&lt;class System.Threading.Tasks.Task, object, !!TResult&gt; continuationFunction, object state) cil managed" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
+        <AssemblyName>mscorlib</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -522,6 +533,7 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class System.Threading.Tasks.Task`1&lt;!!TResult&gt; ContinueWith&lt;TResult&gt;(class System.Func`2&lt;class System.Threading.Tasks.Task, !!TResult&gt; continuationFunction, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
+        <AssemblyName>mscorlib</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -548,6 +560,7 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class System.Threading.Tasks.Task`1&lt;!!TResult&gt; ContinueWith&lt;TResult&gt;(class System.Func`2&lt;class System.Threading.Tasks.Task, !!TResult&gt; continuationFunction, valuetype System.Threading.Tasks.TaskContinuationOptions continuationOptions) cil managed" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
+        <AssemblyName>mscorlib</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -574,6 +587,7 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class System.Threading.Tasks.Task`1&lt;!!TResult&gt; ContinueWith&lt;TResult&gt;(class System.Func`2&lt;class System.Threading.Tasks.Task, !!TResult&gt; continuationFunction, class System.Threading.Tasks.TaskScheduler scheduler) cil managed" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
+        <AssemblyName>mscorlib</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -600,6 +614,7 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class System.Threading.Tasks.Task`1&lt;!!TResult&gt; ContinueWith&lt;TResult&gt;(class System.Func`3&lt;class System.Threading.Tasks.Task, object, !!TResult&gt; continuationFunction, object state, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
+        <AssemblyName>mscorlib</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -628,6 +643,7 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class System.Threading.Tasks.Task`1&lt;!!TResult&gt; ContinueWith&lt;TResult&gt;(class System.Func`3&lt;class System.Threading.Tasks.Task, object, !!TResult&gt; continuationFunction, object state, valuetype System.Threading.Tasks.TaskContinuationOptions continuationOptions) cil managed" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
+        <AssemblyName>mscorlib</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -656,6 +672,7 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class System.Threading.Tasks.Task`1&lt;!!TResult&gt; ContinueWith&lt;TResult&gt;(class System.Func`3&lt;class System.Threading.Tasks.Task, object, !!TResult&gt; continuationFunction, object state, class System.Threading.Tasks.TaskScheduler scheduler) cil managed" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
+        <AssemblyName>mscorlib</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -684,6 +701,7 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class System.Threading.Tasks.Task`1&lt;!!TResult&gt; ContinueWith&lt;TResult&gt;(class System.Func`2&lt;class System.Threading.Tasks.Task, !!TResult&gt; continuationFunction, valuetype System.Threading.CancellationToken cancellationToken, valuetype System.Threading.Tasks.TaskContinuationOptions continuationOptions, class System.Threading.Tasks.TaskScheduler scheduler) cil managed" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
+        <AssemblyName>mscorlib</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -714,6 +732,7 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class System.Threading.Tasks.Task`1&lt;!!TResult&gt; ContinueWith&lt;TResult&gt;(class System.Func`3&lt;class System.Threading.Tasks.Task, object, !!TResult&gt; continuationFunction, object state, valuetype System.Threading.CancellationToken cancellationToken, valuetype System.Threading.Tasks.TaskContinuationOptions continuationOptions, class System.Threading.Tasks.TaskScheduler scheduler) cil managed" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
+        <AssemblyName>mscorlib</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -746,6 +765,7 @@
       <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Threading.Tasks.TaskCreationOptions CreationOptions" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
+        <AssemblyName>mscorlib</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -762,6 +782,7 @@
       <MemberSignature Language="ILAsm" Value=".property valuetype System.Nullable`1&lt;int32&gt; CurrentId" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
+        <AssemblyName>mscorlib</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -778,6 +799,7 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task Delay(int32 millisecondsDelay) cil managed" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
+        <AssemblyName>mscorlib</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -798,6 +820,7 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task Delay(valuetype System.TimeSpan delay) cil managed" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
+        <AssemblyName>mscorlib</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -818,6 +841,7 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task Delay(int32 millisecondsDelay, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
+        <AssemblyName>mscorlib</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -840,6 +864,7 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task Delay(valuetype System.TimeSpan delay, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
+        <AssemblyName>mscorlib</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -862,6 +887,7 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Dispose() cil managed" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
+        <AssemblyName>mscorlib</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -878,6 +904,7 @@
       <MemberSignature Language="ILAsm" Value=".method familyhidebysig newslot virtual instance void Dispose(bool disposing) cil managed" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
+        <AssemblyName>mscorlib</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -897,6 +924,7 @@
       <MemberSignature Language="ILAsm" Value=".property instance class System.AggregateException Exception" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
+        <AssemblyName>mscorlib</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -913,6 +941,7 @@
       <MemberSignature Language="ILAsm" Value=".property class System.Threading.Tasks.TaskFactory Factory" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
+        <AssemblyName>mscorlib</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -924,99 +953,12 @@
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
-    <Member MemberName="FromCanceled">
-      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task FromCanceled (System.Threading.CancellationToken cancellationToken);" />
-      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task FromCanceled(valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
-      <MemberType>Method</MemberType>
-      <AssemblyInfo>
-        <AssemblyVersion>4.0.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>System.Threading.Tasks.Task</ReturnType>
-      </ReturnValue>
-      <Parameters>
-        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
-      </Parameters>
-      <Docs>
-        <param name="cancellationToken">To be added.</param>
-        <summary>To be added.</summary>
-        <returns>To be added.</returns>
-        <remarks>To be added.</remarks>
-      </Docs>
-    </Member>
-    <Member MemberName="FromCanceled&lt;TResult&gt;">
-      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;TResult&gt; FromCanceled&lt;TResult&gt; (System.Threading.CancellationToken cancellationToken);" />
-      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;!!TResult&gt; FromCanceled&lt;TResult&gt;(valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
-      <MemberType>Method</MemberType>
-      <AssemblyInfo>
-        <AssemblyVersion>4.0.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>System.Threading.Tasks.Task&lt;TResult&gt;</ReturnType>
-      </ReturnValue>
-      <TypeParameters>
-        <TypeParameter Name="TResult" />
-      </TypeParameters>
-      <Parameters>
-        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
-      </Parameters>
-      <Docs>
-        <typeparam name="TResult">To be added.</typeparam>
-        <param name="cancellationToken">To be added.</param>
-        <summary>To be added.</summary>
-        <returns>To be added.</returns>
-        <remarks>To be added.</remarks>
-      </Docs>
-    </Member>
-    <Member MemberName="FromException">
-      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task FromException (Exception exception);" />
-      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task FromException(class System.Exception exception) cil managed" />
-      <MemberType>Method</MemberType>
-      <AssemblyInfo>
-        <AssemblyVersion>4.0.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>System.Threading.Tasks.Task</ReturnType>
-      </ReturnValue>
-      <Parameters>
-        <Parameter Name="exception" Type="System.Exception" />
-      </Parameters>
-      <Docs>
-        <param name="exception">To be added.</param>
-        <summary>To be added.</summary>
-        <returns>To be added.</returns>
-        <remarks>To be added.</remarks>
-      </Docs>
-    </Member>
-    <Member MemberName="FromException&lt;TResult&gt;">
-      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;TResult&gt; FromException&lt;TResult&gt; (Exception exception);" />
-      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;!!TResult&gt; FromException&lt;TResult&gt;(class System.Exception exception) cil managed" />
-      <MemberType>Method</MemberType>
-      <AssemblyInfo>
-        <AssemblyVersion>4.0.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>System.Threading.Tasks.Task&lt;TResult&gt;</ReturnType>
-      </ReturnValue>
-      <TypeParameters>
-        <TypeParameter Name="TResult" />
-      </TypeParameters>
-      <Parameters>
-        <Parameter Name="exception" Type="System.Exception" />
-      </Parameters>
-      <Docs>
-        <typeparam name="TResult">To be added.</typeparam>
-        <param name="exception">To be added.</param>
-        <summary>To be added.</summary>
-        <returns>To be added.</returns>
-        <remarks>To be added.</remarks>
-      </Docs>
-    </Member>
     <Member MemberName="FromResult&lt;TResult&gt;">
       <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;TResult&gt; FromResult&lt;TResult&gt; (TResult result);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;!!TResult&gt; FromResult&lt;TResult&gt;(!!TResult result) cil managed" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
+        <AssemblyName>mscorlib</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -1041,8 +983,14 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance valuetype System.Runtime.CompilerServices.TaskAwaiter GetAwaiter() cil managed" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
+        <AssemblyName>mscorlib</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.TargetedPatchingOptOut("Performance critical to inline across NGen image boundaries")</AttributeName>
+        </Attribute>
+      </Attributes>
       <ReturnValue>
         <ReturnType>System.Runtime.CompilerServices.TaskAwaiter</ReturnType>
       </ReturnValue>
@@ -1058,6 +1006,7 @@
       <MemberSignature Language="ILAsm" Value=".property instance int32 Id" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
+        <AssemblyName>mscorlib</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -1074,6 +1023,7 @@
       <MemberSignature Language="ILAsm" Value=".property instance bool IsCanceled" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
+        <AssemblyName>mscorlib</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -1090,8 +1040,14 @@
       <MemberSignature Language="ILAsm" Value=".property instance bool IsCompleted" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
+        <AssemblyName>mscorlib</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>get: System.Runtime.TargetedPatchingOptOut("Performance critical to inline across NGen image boundaries")</AttributeName>
+        </Attribute>
+      </Attributes>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
@@ -1106,6 +1062,7 @@
       <MemberSignature Language="ILAsm" Value=".property instance bool IsFaulted" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
+        <AssemblyName>mscorlib</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -1122,6 +1079,7 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task Run(class System.Action action) cil managed" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
+        <AssemblyName>mscorlib</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -1142,6 +1100,7 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task Run(class System.Func`1&lt;class System.Threading.Tasks.Task&gt; function) cil managed" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
+        <AssemblyName>mscorlib</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -1162,6 +1121,7 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task Run(class System.Action action, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
+        <AssemblyName>mscorlib</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -1184,6 +1144,7 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task Run(class System.Func`1&lt;class System.Threading.Tasks.Task&gt; function, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
+        <AssemblyName>mscorlib</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -1206,6 +1167,7 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;!!TResult&gt; Run&lt;TResult&gt;(class System.Func`1&lt;class System.Threading.Tasks.Task`1&lt;!!TResult&gt;&gt; function) cil managed" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
+        <AssemblyName>mscorlib</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -1230,6 +1192,7 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;!!TResult&gt; Run&lt;TResult&gt;(class System.Func`1&lt;!!TResult&gt; function) cil managed" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
+        <AssemblyName>mscorlib</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -1254,6 +1217,7 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;!!TResult&gt; Run&lt;TResult&gt;(class System.Func`1&lt;class System.Threading.Tasks.Task`1&lt;!!TResult&gt;&gt; function, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
+        <AssemblyName>mscorlib</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -1280,6 +1244,7 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;!!TResult&gt; Run&lt;TResult&gt;(class System.Func`1&lt;!!TResult&gt; function, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
+        <AssemblyName>mscorlib</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -1306,6 +1271,7 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void RunSynchronously() cil managed" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
+        <AssemblyName>mscorlib</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -1322,6 +1288,7 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void RunSynchronously(class System.Threading.Tasks.TaskScheduler scheduler) cil managed" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
+        <AssemblyName>mscorlib</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -1341,6 +1308,7 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void Start() cil managed" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
+        <AssemblyName>mscorlib</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -1357,6 +1325,7 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void Start(class System.Threading.Tasks.TaskScheduler scheduler) cil managed" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
+        <AssemblyName>mscorlib</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -1376,6 +1345,7 @@
       <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Threading.Tasks.TaskStatus Status" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
+        <AssemblyName>mscorlib</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -1392,6 +1362,7 @@
       <MemberSignature Language="ILAsm" Value=".property instance class System.Threading.WaitHandle System.IAsyncResult.AsyncWaitHandle" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
+        <AssemblyName>mscorlib</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -1408,6 +1379,7 @@
       <MemberSignature Language="ILAsm" Value=".property instance bool System.IAsyncResult.CompletedSynchronously" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
+        <AssemblyName>mscorlib</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -1424,6 +1396,7 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void Wait() cil managed" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
+        <AssemblyName>mscorlib</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -1440,6 +1413,7 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance bool Wait(int32 millisecondsTimeout) cil managed" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
+        <AssemblyName>mscorlib</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -1460,6 +1434,7 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void Wait(valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
+        <AssemblyName>mscorlib</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -1479,6 +1454,7 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance bool Wait(valuetype System.TimeSpan timeout) cil managed" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
+        <AssemblyName>mscorlib</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -1499,6 +1475,7 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance bool Wait(int32 millisecondsTimeout, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
+        <AssemblyName>mscorlib</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -1521,6 +1498,7 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void WaitAll(class System.Threading.Tasks.Task[] tasks) cil managed" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
+        <AssemblyName>mscorlib</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -1546,6 +1524,7 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig bool WaitAll(class System.Threading.Tasks.Task[] tasks, int32 millisecondsTimeout) cil managed" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
+        <AssemblyName>mscorlib</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -1568,6 +1547,7 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void WaitAll(class System.Threading.Tasks.Task[] tasks, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
+        <AssemblyName>mscorlib</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -1589,6 +1569,7 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig bool WaitAll(class System.Threading.Tasks.Task[] tasks, valuetype System.TimeSpan timeout) cil managed" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
+        <AssemblyName>mscorlib</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -1611,6 +1592,7 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig bool WaitAll(class System.Threading.Tasks.Task[] tasks, int32 millisecondsTimeout, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
+        <AssemblyName>mscorlib</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -1635,6 +1617,7 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig int32 WaitAny(class System.Threading.Tasks.Task[] tasks) cil managed" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
+        <AssemblyName>mscorlib</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -1661,6 +1644,7 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig int32 WaitAny(class System.Threading.Tasks.Task[] tasks, int32 millisecondsTimeout) cil managed" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
+        <AssemblyName>mscorlib</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -1683,6 +1667,7 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig int32 WaitAny(class System.Threading.Tasks.Task[] tasks, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
+        <AssemblyName>mscorlib</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -1705,6 +1690,7 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig int32 WaitAny(class System.Threading.Tasks.Task[] tasks, valuetype System.TimeSpan timeout) cil managed" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
+        <AssemblyName>mscorlib</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -1727,6 +1713,7 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig int32 WaitAny(class System.Threading.Tasks.Task[] tasks, int32 millisecondsTimeout, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
+        <AssemblyName>mscorlib</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -1751,6 +1738,7 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task WhenAll(class System.Collections.Generic.IEnumerable`1&lt;class System.Threading.Tasks.Task&gt; tasks) cil managed" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
+        <AssemblyName>mscorlib</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -1771,6 +1759,7 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task WhenAll(class System.Threading.Tasks.Task[] tasks) cil managed" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
+        <AssemblyName>mscorlib</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -1797,6 +1786,7 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;!!TResult[]&gt; WhenAll&lt;TResult&gt;(class System.Collections.Generic.IEnumerable`1&lt;class System.Threading.Tasks.Task`1&lt;!!TResult&gt;&gt; tasks) cil managed" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
+        <AssemblyName>mscorlib</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -1821,6 +1811,7 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;!!TResult[]&gt; WhenAll&lt;TResult&gt;(class System.Threading.Tasks.Task`1&lt;!!TResult&gt;[] tasks) cil managed" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
+        <AssemblyName>mscorlib</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -1851,6 +1842,7 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;class System.Threading.Tasks.Task&gt; WhenAny(class System.Collections.Generic.IEnumerable`1&lt;class System.Threading.Tasks.Task&gt; tasks) cil managed" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
+        <AssemblyName>mscorlib</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -1871,6 +1863,7 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;class System.Threading.Tasks.Task&gt; WhenAny(class System.Threading.Tasks.Task[] tasks) cil managed" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
+        <AssemblyName>mscorlib</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -1897,6 +1890,7 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;class System.Threading.Tasks.Task`1&lt;!!TResult&gt;&gt; WhenAny&lt;TResult&gt;(class System.Collections.Generic.IEnumerable`1&lt;class System.Threading.Tasks.Task`1&lt;!!TResult&gt;&gt; tasks) cil managed" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
+        <AssemblyName>mscorlib</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -1921,6 +1915,7 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;class System.Threading.Tasks.Task`1&lt;!!TResult&gt;&gt; WhenAny&lt;TResult&gt;(class System.Threading.Tasks.Task`1&lt;!!TResult&gt;[] tasks) cil managed" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
+        <AssemblyName>mscorlib</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -1951,6 +1946,7 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype System.Runtime.CompilerServices.YieldAwaitable Yield() cil managed" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
+        <AssemblyName>mscorlib</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>

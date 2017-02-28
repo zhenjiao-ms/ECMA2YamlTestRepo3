@@ -3,6 +3,7 @@
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit SystemAcl extends System.Security.AccessControl.CommonAcl" />
   <AssemblyInfo>
     <AssemblyName>mscorlib</AssemblyName>
+    <AssemblyVersion>2.0.0.0</AssemblyVersion>
     <AssemblyVersion>4.0.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
@@ -19,6 +20,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(bool isContainer, bool isDS, int32 capacity) cil managed" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
+        <AssemblyName>mscorlib</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
@@ -39,6 +42,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(bool isContainer, bool isDS, class System.Security.AccessControl.RawAcl rawAcl) cil managed" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
+        <AssemblyName>mscorlib</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
@@ -59,6 +64,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(bool isContainer, bool isDS, unsigned int8 revision, int32 capacity) cil managed" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
+        <AssemblyName>mscorlib</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
@@ -77,31 +84,12 @@
       </Docs>
     </Member>
     <Member MemberName="AddAudit">
-      <MemberSignature Language="C#" Value="public void AddAudit (System.Security.Principal.SecurityIdentifier sid, System.Security.AccessControl.ObjectAuditRule rule);" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void AddAudit(class System.Security.Principal.SecurityIdentifier sid, class System.Security.AccessControl.ObjectAuditRule rule) cil managed" />
-      <MemberType>Method</MemberType>
-      <AssemblyInfo>
-        <AssemblyVersion>4.0.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>System.Void</ReturnType>
-      </ReturnValue>
-      <Parameters>
-        <Parameter Name="sid" Type="System.Security.Principal.SecurityIdentifier" />
-        <Parameter Name="rule" Type="System.Security.AccessControl.ObjectAuditRule" />
-      </Parameters>
-      <Docs>
-        <param name="sid">To be added.</param>
-        <param name="rule">To be added.</param>
-        <summary>To be added.</summary>
-        <remarks>To be added.</remarks>
-      </Docs>
-    </Member>
-    <Member MemberName="AddAudit">
       <MemberSignature Language="C#" Value="public void AddAudit (System.Security.AccessControl.AuditFlags auditFlags, System.Security.Principal.SecurityIdentifier sid, int accessMask, System.Security.AccessControl.InheritanceFlags inheritanceFlags, System.Security.AccessControl.PropagationFlags propagationFlags);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void AddAudit(valuetype System.Security.AccessControl.AuditFlags auditFlags, class System.Security.Principal.SecurityIdentifier sid, int32 accessMask, valuetype System.Security.AccessControl.InheritanceFlags inheritanceFlags, valuetype System.Security.AccessControl.PropagationFlags propagationFlags) cil managed" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
+        <AssemblyName>mscorlib</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -129,6 +117,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void AddAudit(valuetype System.Security.AccessControl.AuditFlags auditFlags, class System.Security.Principal.SecurityIdentifier sid, int32 accessMask, valuetype System.Security.AccessControl.InheritanceFlags inheritanceFlags, valuetype System.Security.AccessControl.PropagationFlags propagationFlags, valuetype System.Security.AccessControl.ObjectAceFlags objectFlags, valuetype System.Guid objectType, valuetype System.Guid inheritedObjectType) cil managed" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
+        <AssemblyName>mscorlib</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -158,32 +148,12 @@
       </Docs>
     </Member>
     <Member MemberName="RemoveAudit">
-      <MemberSignature Language="C#" Value="public bool RemoveAudit (System.Security.Principal.SecurityIdentifier sid, System.Security.AccessControl.ObjectAuditRule rule);" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance bool RemoveAudit(class System.Security.Principal.SecurityIdentifier sid, class System.Security.AccessControl.ObjectAuditRule rule) cil managed" />
-      <MemberType>Method</MemberType>
-      <AssemblyInfo>
-        <AssemblyVersion>4.0.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>System.Boolean</ReturnType>
-      </ReturnValue>
-      <Parameters>
-        <Parameter Name="sid" Type="System.Security.Principal.SecurityIdentifier" />
-        <Parameter Name="rule" Type="System.Security.AccessControl.ObjectAuditRule" />
-      </Parameters>
-      <Docs>
-        <param name="sid">To be added.</param>
-        <param name="rule">To be added.</param>
-        <summary>To be added.</summary>
-        <returns>To be added.</returns>
-        <remarks>To be added.</remarks>
-      </Docs>
-    </Member>
-    <Member MemberName="RemoveAudit">
       <MemberSignature Language="C#" Value="public bool RemoveAudit (System.Security.AccessControl.AuditFlags auditFlags, System.Security.Principal.SecurityIdentifier sid, int accessMask, System.Security.AccessControl.InheritanceFlags inheritanceFlags, System.Security.AccessControl.PropagationFlags propagationFlags);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance bool RemoveAudit(valuetype System.Security.AccessControl.AuditFlags auditFlags, class System.Security.Principal.SecurityIdentifier sid, int32 accessMask, valuetype System.Security.AccessControl.InheritanceFlags inheritanceFlags, valuetype System.Security.AccessControl.PropagationFlags propagationFlags) cil managed" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
+        <AssemblyName>mscorlib</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -212,6 +182,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance bool RemoveAudit(valuetype System.Security.AccessControl.AuditFlags auditFlags, class System.Security.Principal.SecurityIdentifier sid, int32 accessMask, valuetype System.Security.AccessControl.InheritanceFlags inheritanceFlags, valuetype System.Security.AccessControl.PropagationFlags propagationFlags, valuetype System.Security.AccessControl.ObjectAceFlags objectFlags, valuetype System.Guid objectType, valuetype System.Guid inheritedObjectType) cil managed" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
+        <AssemblyName>mscorlib</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -242,31 +214,12 @@
       </Docs>
     </Member>
     <Member MemberName="RemoveAuditSpecific">
-      <MemberSignature Language="C#" Value="public void RemoveAuditSpecific (System.Security.Principal.SecurityIdentifier sid, System.Security.AccessControl.ObjectAuditRule rule);" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void RemoveAuditSpecific(class System.Security.Principal.SecurityIdentifier sid, class System.Security.AccessControl.ObjectAuditRule rule) cil managed" />
-      <MemberType>Method</MemberType>
-      <AssemblyInfo>
-        <AssemblyVersion>4.0.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>System.Void</ReturnType>
-      </ReturnValue>
-      <Parameters>
-        <Parameter Name="sid" Type="System.Security.Principal.SecurityIdentifier" />
-        <Parameter Name="rule" Type="System.Security.AccessControl.ObjectAuditRule" />
-      </Parameters>
-      <Docs>
-        <param name="sid">To be added.</param>
-        <param name="rule">To be added.</param>
-        <summary>To be added.</summary>
-        <remarks>To be added.</remarks>
-      </Docs>
-    </Member>
-    <Member MemberName="RemoveAuditSpecific">
       <MemberSignature Language="C#" Value="public void RemoveAuditSpecific (System.Security.AccessControl.AuditFlags auditFlags, System.Security.Principal.SecurityIdentifier sid, int accessMask, System.Security.AccessControl.InheritanceFlags inheritanceFlags, System.Security.AccessControl.PropagationFlags propagationFlags);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void RemoveAuditSpecific(valuetype System.Security.AccessControl.AuditFlags auditFlags, class System.Security.Principal.SecurityIdentifier sid, int32 accessMask, valuetype System.Security.AccessControl.InheritanceFlags inheritanceFlags, valuetype System.Security.AccessControl.PropagationFlags propagationFlags) cil managed" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
+        <AssemblyName>mscorlib</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -294,6 +247,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void RemoveAuditSpecific(valuetype System.Security.AccessControl.AuditFlags auditFlags, class System.Security.Principal.SecurityIdentifier sid, int32 accessMask, valuetype System.Security.AccessControl.InheritanceFlags inheritanceFlags, valuetype System.Security.AccessControl.PropagationFlags propagationFlags, valuetype System.Security.AccessControl.ObjectAceFlags objectFlags, valuetype System.Guid objectType, valuetype System.Guid inheritedObjectType) cil managed" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
+        <AssemblyName>mscorlib</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -323,31 +278,12 @@
       </Docs>
     </Member>
     <Member MemberName="SetAudit">
-      <MemberSignature Language="C#" Value="public void SetAudit (System.Security.Principal.SecurityIdentifier sid, System.Security.AccessControl.ObjectAuditRule rule);" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void SetAudit(class System.Security.Principal.SecurityIdentifier sid, class System.Security.AccessControl.ObjectAuditRule rule) cil managed" />
-      <MemberType>Method</MemberType>
-      <AssemblyInfo>
-        <AssemblyVersion>4.0.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>System.Void</ReturnType>
-      </ReturnValue>
-      <Parameters>
-        <Parameter Name="sid" Type="System.Security.Principal.SecurityIdentifier" />
-        <Parameter Name="rule" Type="System.Security.AccessControl.ObjectAuditRule" />
-      </Parameters>
-      <Docs>
-        <param name="sid">To be added.</param>
-        <param name="rule">To be added.</param>
-        <summary>To be added.</summary>
-        <remarks>To be added.</remarks>
-      </Docs>
-    </Member>
-    <Member MemberName="SetAudit">
       <MemberSignature Language="C#" Value="public void SetAudit (System.Security.AccessControl.AuditFlags auditFlags, System.Security.Principal.SecurityIdentifier sid, int accessMask, System.Security.AccessControl.InheritanceFlags inheritanceFlags, System.Security.AccessControl.PropagationFlags propagationFlags);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void SetAudit(valuetype System.Security.AccessControl.AuditFlags auditFlags, class System.Security.Principal.SecurityIdentifier sid, int32 accessMask, valuetype System.Security.AccessControl.InheritanceFlags inheritanceFlags, valuetype System.Security.AccessControl.PropagationFlags propagationFlags) cil managed" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
+        <AssemblyName>mscorlib</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -375,6 +311,8 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void SetAudit(valuetype System.Security.AccessControl.AuditFlags auditFlags, class System.Security.Principal.SecurityIdentifier sid, int32 accessMask, valuetype System.Security.AccessControl.InheritanceFlags inheritanceFlags, valuetype System.Security.AccessControl.PropagationFlags propagationFlags, valuetype System.Security.AccessControl.ObjectAceFlags objectFlags, valuetype System.Guid objectType, valuetype System.Guid inheritedObjectType) cil managed" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
+        <AssemblyName>mscorlib</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
