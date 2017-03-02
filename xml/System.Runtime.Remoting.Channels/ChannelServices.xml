@@ -298,7 +298,7 @@
       </Parameters>
       <Docs>
         <param name="chnl">The channel to register.</param>
-        <summary>Registers a channel with the channel services. RegisterChannel is obsolete. Please use &lt;xref:System.Runtime.Remoting.Channels.ChannelServices.RegisterChannel%28System.Runtime.Remoting.Channels.IChannel%2CSystem.Boolean%29&gt; instead.</summary>
+        <summary>Registers a channel with the channel services. RegisterChannel is obsolete. Please use <see cref="System.Runtime.Remoting.Channels.ChannelServices.RegisterChannel%28System.Runtime.Remoting.Channels.IChannel%2CSystem.Boolean%29" /> instead.</summary>
         <remarks>
           <format type="text/markdown"><![CDATA[  
   
@@ -375,7 +375,7 @@
         <exception cref="T:System.ArgumentNullException">The <paramref name="chnl" /> parameter is <see langword="null" />.</exception>
         <exception cref="T:System.Runtime.Remoting.RemotingException">The channel has already been registered.</exception>
         <exception cref="T:System.Security.SecurityException">At least one of the callers higher in the call stack does not have permission to configure remoting types and channels.</exception>
-        <exception cref="T:System.NotSupportedException">Not supported in Windows 98 for &lt;xref:System.Runtime.Remoting.Channels.Tcp.TcpServerChannel&gt; and on all platforms for &lt;xref:System.Runtime.Remoting.Channels.Http.HttpServerChannel&gt;. Host the service using Internet Information Services (IIS) if you require a secure HTTP channel.</exception>
+        <exception cref="T:System.NotSupportedException">Not supported in Windows 98 for <see cref="System.Runtime.Remoting.Channels.Tcp.TcpServerChannel" /> and on all platforms for <see cref="System.Runtime.Remoting.Channels.Http.HttpServerChannel" />. Host the service using Internet Information Services (IIS) if you require a secure HTTP channel.</exception>
         <permission cref="T:System.Security.Permissions.SecurityPermission">For configuration of the remoting infrastructure. Demand value: <see cref="T:System.Security.Permissions.SecurityAction" />; Permission value: <see cref="T:System.Security.Permissions.SecurityPermissionFlag" /></permission>
         <threadsafe />
       </Docs>

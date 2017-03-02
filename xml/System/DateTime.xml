@@ -2093,9 +2093,9 @@
         <Parameter Name="dateData" Type="System.Int64" />
       </Parameters>
       <Docs>
-        <param name="dateData">A 64-bit signed integer that encodes the &lt;xref:System.DateTime.Kind%2A&gt; property in a 2-bit field and the &lt;xref:System.DateTime.Ticks%2A&gt; property in a 62-bit field.</param>
+        <param name="dateData">A 64-bit signed integer that encodes the <see cref="System.DateTime.Kind%2A" /> property in a 2-bit field and the <see cref="System.DateTime.Ticks%2A" /> property in a 62-bit field.</param>
         <summary>Deserializes a 64-bit binary value and recreates an original serialized <see cref="T:System.DateTime" /> object.</summary>
-        <returns>An object that is equivalent to the <see cref="T:System.DateTime" /> object that was serialized by the &lt;xref:System.DateTime.ToBinary%2A&gt; method.</returns>
+        <returns>An object that is equivalent to the <see cref="T:System.DateTime" /> object that was serialized by the <see cref="System.DateTime.ToBinary%2A" /> method.</returns>
         <remarks>
           <format type="text/markdown"><![CDATA[  
   
@@ -2788,7 +2788,7 @@ juillet 2009
       <Docs>
         <summary>Indicates whether this instance of <see cref="T:System.DateTime" /> is within the daylight saving time range for the current time zone.</summary>
         <returns>
-          <see langword="true" /> if the value of the &lt;xref:System.DateTime.Kind%2A&gt; property is <see cref="T:System.DateTimeKind" /> or <see cref="T:System.DateTimeKind" /> and the value of this instance of <see cref="T:System.DateTime" /> is within the daylight saving time range for the local time zone; <see langword="false" /> if &lt;xref:System.DateTime.Kind%2A&gt; is <see cref="T:System.DateTimeKind" />.</returns>
+          <see langword="true" /> if the value of the <see cref="System.DateTime.Kind%2A" /> property is <see cref="T:System.DateTimeKind" /> or <see cref="T:System.DateTimeKind" /> and the value of this instance of <see cref="T:System.DateTime" /> is within the daylight saving time range for the local time zone; <see langword="false" /> if <see cref="System.DateTime.Kind%2A" /> is <see cref="T:System.DateTimeKind" />.</returns>
         <remarks>
           <format type="text/markdown"><![CDATA[  
   
@@ -4610,7 +4610,7 @@ juillet 2009
       <Parameters />
       <Docs>
         <summary>Serializes the current <see cref="T:System.DateTime" /> object to a 64-bit binary value that subsequently can be used to recreate the <see cref="T:System.DateTime" /> object.</summary>
-        <returns>A 64-bit signed integer that encodes the &lt;xref:System.DateTime.Kind%2A&gt; and &lt;xref:System.DateTime.Ticks%2A&gt; properties.</returns>
+        <returns>A 64-bit signed integer that encodes the <see cref="System.DateTime.Kind%2A" /> and <see cref="System.DateTime.Ticks%2A" /> properties.</returns>
         <remarks>
           <format type="text/markdown"><![CDATA[  
   
@@ -4773,7 +4773,7 @@ juillet 2009
       <Parameters />
       <Docs>
         <summary>Converts the value of the current <see cref="T:System.DateTime" /> object to local time.</summary>
-        <returns>An object whose &lt;xref:System.DateTime.Kind%2A&gt; property is <see cref="T:System.DateTimeKind" />, and whose value is the local time equivalent to the value of the current <see cref="T:System.DateTime" /> object, or <see cref="F:System.DateTime.MaxValue" /> if the converted value is too large to be represented by a <see cref="T:System.DateTime" /> object, or <see cref="F:System.DateTime.MinValue" /> if the converted value is too small to be represented as a <see cref="T:System.DateTime" /> object.</returns>
+        <returns>An object whose <see cref="System.DateTime.Kind%2A" /> property is <see cref="T:System.DateTimeKind" />, and whose value is the local time equivalent to the value of the current <see cref="T:System.DateTime" /> object, or <see cref="F:System.DateTime.MaxValue" /> if the converted value is too large to be represented by a <see cref="T:System.DateTime" /> object, or <see cref="F:System.DateTime.MinValue" /> if the converted value is too small to be represented as a <see cref="T:System.DateTime" /> object.</returns>
         <remarks>
           <format type="text/markdown"><![CDATA[  
   
@@ -5249,7 +5249,7 @@ juillet 2009
       <Parameters />
       <Docs>
         <summary>Converts the value of the current <see cref="T:System.DateTime" /> object to Coordinated Universal Time (UTC).</summary>
-        <returns>An object whose &lt;xref:System.DateTime.Kind%2A&gt; property is <see cref="T:System.DateTimeKind" />, and whose value is the UTC equivalent to the value of the current <see cref="T:System.DateTime" /> object, or <see cref="F:System.DateTime.MaxValue" /> if the converted value is too large to be represented by a <see cref="T:System.DateTime" /> object, or <see cref="F:System.DateTime.MinValue" /> if the converted value is too small to be represented by a <see cref="T:System.DateTime" /> object.</returns>
+        <returns>An object whose <see cref="System.DateTime.Kind%2A" /> property is <see cref="T:System.DateTimeKind" />, and whose value is the UTC equivalent to the value of the current <see cref="T:System.DateTime" /> object, or <see cref="F:System.DateTime.MaxValue" /> if the converted value is too large to be represented by a <see cref="T:System.DateTime" /> object, or <see cref="F:System.DateTime.MinValue" /> if the converted value is too small to be represented by a <see cref="T:System.DateTime" /> object.</returns>
         <remarks>
           <format type="text/markdown"><![CDATA[  
   

@@ -74,7 +74,7 @@
       <Docs>
         <summary>Initializes a new instance of the <see langword="EventInfo" /> class.</summary>
         <remarks>To be added.</remarks>
-        <permission cref="T:System.Security.Permissions.ReflectionPermission">when invoked late-bound through mechanisms such as &lt;xref:System.Type.InvokeMember%2A?displayProperty=fullName&gt;. Associated enumeration: <see cref="T:System.Security.Permissions.ReflectionPermissionFlag" />.</permission>
+        <permission cref="T:System.Security.Permissions.ReflectionPermission">when invoked late-bound through mechanisms such as <see cref="System.Type.InvokeMember%2A" />. Associated enumeration: <see cref="T:System.Security.Permissions.ReflectionPermissionFlag" />.</permission>
         <threadsafe />
       </Docs>
     </Member>
@@ -149,7 +149,7 @@
  -or-  
   
  The <see cref="T:System.Reflection.EventInfo" /> is not declared on the target.</exception>
-        <permission cref="T:System.Security.Permissions.ReflectionPermission">when invoked late-bound through mechanisms such as &lt;xref:System.Type.InvokeMember%2A?displayProperty=fullName&gt;. Associated enumeration: <see cref="T:System.Security.Permissions.ReflectionPermissionFlag" />.</permission>
+        <permission cref="T:System.Security.Permissions.ReflectionPermission">when invoked late-bound through mechanisms such as <see cref="System.Type.InvokeMember%2A" />. Associated enumeration: <see cref="T:System.Security.Permissions.ReflectionPermissionFlag" />.</permission>
         <threadsafe />
       </Docs>
     </Member>
@@ -165,8 +165,8 @@
         <ReturnType>System.Reflection.MethodInfo</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Gets the <see cref="T:System.Reflection.MethodInfo" /> object for the &lt;xref:System.Reflection.EventInfo.AddEventHandler%2A&gt; method of the event, including non-public methods.</summary>
-        <value>The <see cref="T:System.Reflection.MethodInfo" /> object for the &lt;xref:System.Reflection.EventInfo.AddEventHandler%2A&gt; method.</value>
+        <summary>Gets the <see cref="T:System.Reflection.MethodInfo" /> object for the <see cref="System.Reflection.EventInfo.AddEventHandler%2A" /> method of the event, including non-public methods.</summary>
+        <value>The <see cref="T:System.Reflection.MethodInfo" /> object for the <see cref="System.Reflection.EventInfo.AddEventHandler%2A" /> method.</value>
         <remarks>
           <format type="text/markdown"><![CDATA[  
   
@@ -296,7 +296,7 @@ add_<EventName>(<EventHandlerType> handler)
   
  ]]></format>
         </remarks>
-        <permission cref="T:System.Security.Permissions.ReflectionPermission">when invoked late-bound through mechanisms such as &lt;xref:System.Type.InvokeMember%2A?displayProperty=fullName&gt;. Associated enumeration: <see cref="T:System.Security.Permissions.ReflectionPermissionFlag" />.</permission>
+        <permission cref="T:System.Security.Permissions.ReflectionPermission">when invoked late-bound through mechanisms such as <see cref="System.Type.InvokeMember%2A" />. Associated enumeration: <see cref="T:System.Security.Permissions.ReflectionPermissionFlag" />.</permission>
         <threadsafe />
       </Docs>
     </Member>
@@ -319,7 +319,7 @@ add_<EventName>(<EventHandlerType> handler)
       <Docs>
         <param name="nonPublic">
           <see langword="true" /> if non-public methods can be returned; otherwise, <see langword="false" />.</param>
-        <summary>When overridden in a derived class, retrieves the <see langword="MethodInfo" /> object for the &lt;xref:System.Reflection.EventInfo.AddEventHandler%2A&gt; method of the event, specifying whether to return non-public methods.</summary>
+        <summary>When overridden in a derived class, retrieves the <see langword="MethodInfo" /> object for the <see cref="System.Reflection.EventInfo.AddEventHandler%2A" /> method of the event, specifying whether to return non-public methods.</summary>
         <returns>A <see cref="T:System.Reflection.MethodInfo" /> object representing the method used to add an event handler delegate to the event source.</returns>
         <remarks>
           <format type="text/markdown"><![CDATA[  
@@ -340,7 +340,7 @@ add_<EventName>(<EventHandlerType> handler)
         </remarks>
         <exception cref="T:System.MethodAccessException">
           <paramref name="nonPublic" /> is <see langword="true" />, the method used to add an event handler delegate is non-public, and the caller does not have permission to reflect on non-public methods.</exception>
-        <permission cref="T:System.Security.Permissions.ReflectionPermission">when invoked late-bound through mechanisms such as &lt;xref:System.Type.InvokeMember%2A?displayProperty=fullName&gt;. Associated enumeration: <see cref="T:System.Security.Permissions.ReflectionPermissionFlag" />.</permission>
+        <permission cref="T:System.Security.Permissions.ReflectionPermission">when invoked late-bound through mechanisms such as <see cref="System.Type.InvokeMember%2A" />. Associated enumeration: <see cref="T:System.Security.Permissions.ReflectionPermissionFlag" />.</permission>
         <threadsafe />
       </Docs>
     </Member>
@@ -467,7 +467,7 @@ add_<EventName>(<EventHandlerType> handler)
   
  ]]></format>
         </remarks>
-        <permission cref="T:System.Security.Permissions.ReflectionPermission">when invoked late-bound through mechanisms such as &lt;xref:System.Type.InvokeMember%2A?displayProperty=fullName&gt;. Associated enumeration: <see cref="T:System.Security.Permissions.ReflectionPermissionFlag" />.</permission>
+        <permission cref="T:System.Security.Permissions.ReflectionPermission">when invoked late-bound through mechanisms such as <see cref="System.Type.InvokeMember%2A" />. Associated enumeration: <see cref="T:System.Security.Permissions.ReflectionPermissionFlag" />.</permission>
         <threadsafe />
       </Docs>
     </Member>
@@ -502,7 +502,7 @@ add_<EventName>(<EventHandlerType> handler)
         </remarks>
         <exception cref="T:System.MethodAccessException">
           <paramref name="nonPublic" /> is <see langword="true" />, the method used to add an event handler delegate is non-public, and the caller does not have permission to reflect on non-public methods.</exception>
-        <permission cref="T:System.Security.Permissions.ReflectionPermission">when invoked late-bound through mechanisms such as &lt;xref:System.Type.InvokeMember%2A?displayProperty=fullName&gt;. Associated enumeration: <see cref="T:System.Security.Permissions.ReflectionPermissionFlag" />.</permission>
+        <permission cref="T:System.Security.Permissions.ReflectionPermission">when invoked late-bound through mechanisms such as <see cref="System.Type.InvokeMember%2A" />. Associated enumeration: <see cref="T:System.Security.Permissions.ReflectionPermissionFlag" />.</permission>
         <threadsafe />
       </Docs>
     </Member>
@@ -535,7 +535,7 @@ remove_<EventName>(<EventHandlerType> handler)
   
  ]]></format>
         </remarks>
-        <permission cref="T:System.Security.Permissions.ReflectionPermission">when invoked late-bound through mechanisms such as &lt;xref:System.Type.InvokeMember%2A?displayProperty=fullName&gt;. Associated enumeration: <see cref="T:System.Security.Permissions.ReflectionPermissionFlag" />.</permission>
+        <permission cref="T:System.Security.Permissions.ReflectionPermission">when invoked late-bound through mechanisms such as <see cref="System.Type.InvokeMember%2A" />. Associated enumeration: <see cref="T:System.Security.Permissions.ReflectionPermissionFlag" />.</permission>
         <threadsafe />
       </Docs>
     </Member>
@@ -574,7 +574,7 @@ remove_<EventName>(<EventHandlerType> handler)
         </remarks>
         <exception cref="T:System.MethodAccessException">
           <paramref name="nonPublic" /> is <see langword="true" />, the method used to add an event handler delegate is non-public, and the caller does not have permission to reflect on non-public methods.</exception>
-        <permission cref="T:System.Security.Permissions.ReflectionPermission">when invoked late-bound through mechanisms such as &lt;xref:System.Type.InvokeMember%2A?displayProperty=fullName&gt;. Associated enumeration: <see cref="T:System.Security.Permissions.ReflectionPermissionFlag" />.</permission>
+        <permission cref="T:System.Security.Permissions.ReflectionPermission">when invoked late-bound through mechanisms such as <see cref="System.Type.InvokeMember%2A" />. Associated enumeration: <see cref="T:System.Security.Permissions.ReflectionPermissionFlag" />.</permission>
         <threadsafe />
       </Docs>
     </Member>
@@ -786,7 +786,7 @@ remove_<EventName>(<EventHandlerType> handler)
 </block>  
   
  The caller does not have access permission to the member.</exception>
-        <permission cref="T:System.Security.Permissions.ReflectionPermission">when invoked late-bound through mechanisms such as &lt;xref:System.Type.InvokeMember%2A?displayProperty=fullName&gt;. Associated enumeration: <see cref="T:System.Security.Permissions.ReflectionPermissionFlag" />.</permission>
+        <permission cref="T:System.Security.Permissions.ReflectionPermission">when invoked late-bound through mechanisms such as <see cref="System.Type.InvokeMember%2A" />. Associated enumeration: <see cref="T:System.Security.Permissions.ReflectionPermissionFlag" />.</permission>
         <threadsafe />
       </Docs>
     </Member>

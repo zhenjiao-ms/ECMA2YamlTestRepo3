@@ -432,7 +432,7 @@
         <param name="value">The object to compare with the current <see cref="T:System.Globalization.RegionInfo" />.</param>
         <summary>Determines whether the specified object is the same instance as the current <see cref="T:System.Globalization.RegionInfo" />.</summary>
         <returns>
-          <see langword="true" /> if the <paramref name="value" /> parameter is a <see cref="T:System.Globalization.RegionInfo" /> object and its &lt;xref:System.Globalization.RegionInfo.Name%2A&gt; property is the same as the &lt;xref:System.Globalization.RegionInfo.Name%2A&gt; property of the current <see cref="T:System.Globalization.RegionInfo" /> object; otherwise, <see langword="false" />.</returns>
+          <see langword="true" /> if the <paramref name="value" /> parameter is a <see cref="T:System.Globalization.RegionInfo" /> object and its <see cref="System.Globalization.RegionInfo.Name%2A" /> property is the same as the <see cref="System.Globalization.RegionInfo.Name%2A" /> property of the current <see cref="T:System.Globalization.RegionInfo" /> object; otherwise, <see langword="false" />.</returns>
         <remarks>
           <format type="text/markdown"><![CDATA[  
   
@@ -727,11 +727,11 @@
       </ReturnValue>
       <Docs>
         <summary>Gets the name or ISO 3166 two-letter country/region code for the current <see cref="T:System.Globalization.RegionInfo" /> object.</summary>
-        <value>The value specified by the <paramref name="name" /> parameter of the &lt;xref:System.Globalization.RegionInfo.%23ctor%28System.String%29?displayProperty=fullName&gt; constructor. The return value is in uppercase.  
+        <value>The value specified by the <paramref name="name" /> parameter of the <see cref="System.Globalization.RegionInfo.%23ctor%28System.String%29" /> constructor. The return value is in uppercase.  
   
  -or-  
   
- The two-letter code defined in ISO 3166 for the country/region specified by the <paramref name="culture" /> parameter of the &lt;xref:System.Globalization.RegionInfo.%23ctor%28System.Int32%29?displayProperty=fullName&gt; constructor. The return value is in uppercase.</value>
+ The two-letter code defined in ISO 3166 for the country/region specified by the <paramref name="culture" /> parameter of the <see cref="System.Globalization.RegionInfo.%23ctor%28System.Int32%29" /> constructor. The return value is in uppercase.</value>
         <remarks>
           <format type="text/markdown"><![CDATA[  
   

@@ -21,8 +21,8 @@
 ## Examples  
  The following example creates 20 tasks that will loop until a counter is incremented to a value of 2 million. When the first 10 tasks reach 2 million, the cancellation token is cancelled, and any tasks whose counters have not reached 2 million are cancelled. The example then examines the <xref:System.Threading.Tasks.Task.Status%2A?displayProperty=fullName> property of each task to indicate whether the task has completed successfully or been cancelled. For those that have completed, it displays the value returned by the task.  
   
- [!code-cs[System.Threading.Tasks.Task.Run#7](~/add/codesnippet/csharp/t-system.threading.tasks_2_1.cs)]
- [!code-vb[System.Threading.Tasks.Task.Run#7](~/add/codesnippet/visualbasic/t-system.threading.tasks_2_1.vb)]  
+ [!code-cs[System.Threading.Tasks.Task.Run#7](~/add/codesnippet/csharp/t-system.threading.tasks_3_1.cs)]
+ [!code-vb[System.Threading.Tasks.Task.Run#7](~/add/codesnippet/visualbasic/t-system.threading.tasks_3_1.vb)]  
   
  ]]></format>
     </remarks>

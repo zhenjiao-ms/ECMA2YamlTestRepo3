@@ -54,7 +54,7 @@
         <ReturnType>System.Type</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Provides COM objects with version-independent access to the &lt;xref:System.Reflection.MemberInfo.DeclaringType%2A?displayProperty=fullName&gt; property.</summary>
+        <summary>Provides COM objects with version-independent access to the <see cref="System.Reflection.MemberInfo.DeclaringType%2A" /> property.</summary>
         <value>The <see cref="T:System.Type" /> object for the class that declares this member.</value>
         <remarks>
           <format type="text/markdown"><![CDATA[  
@@ -87,7 +87,7 @@
       </Parameters>
       <Docs>
         <param name="other">The <see cref="T:System.Object" /> to compare with the current <see cref="T:System.Object" />.</param>
-        <summary>Provides COM objects with version-independent access to the &lt;xref:System.Object.Equals%2A?displayProperty=fullName&gt; method.</summary>
+        <summary>Provides COM objects with version-independent access to the <see cref="System.Object.Equals%2A" /> method.</summary>
         <returns>
           <see langword="true" /> if the specified <see cref="T:System.Object" /> is equal to the current <see cref="T:System.Object" />; otherwise, <see langword="false" />.</returns>
         <remarks>
@@ -122,7 +122,7 @@
       <Docs>
         <param name="inherit">
           <see langword="true" /> to search this member's inheritance chain to find the attributes; otherwise, <see langword="false" />.</param>
-        <summary>Provides COM objects with version-independent access to the &lt;xref:System.Reflection.MemberInfo.GetCustomAttributes%2A?displayProperty=fullName&gt; method.</summary>
+        <summary>Provides COM objects with version-independent access to the <see cref="System.Reflection.MemberInfo.GetCustomAttributes%2A" /> method.</summary>
         <returns>An array that contains all the custom attributes, or an array with zero (0) elements if no attributes are defined.</returns>
         <remarks>
           <format type="text/markdown"><![CDATA[  
@@ -158,7 +158,7 @@
         <param name="attributeType">The type of attribute to search for. Only attributes that are assignable to this type are returned.</param>
         <param name="inherit">
           <see langword="true" /> to search this member's inheritance chain to find the attributes; otherwise, <see langword="false" />.</param>
-        <summary>Provides COM objects with version-independent access to the &lt;xref:System.Reflection.Assembly.GetCustomAttributes%2A?displayProperty=fullName&gt; method.</summary>
+        <summary>Provides COM objects with version-independent access to the <see cref="System.Reflection.Assembly.GetCustomAttributes%2A" /> method.</summary>
         <returns>An array of custom attributes applied to this member, or an array with zero (0) elements if no attributes have been applied.</returns>
         <remarks>
           <format type="text/markdown"><![CDATA[  
@@ -188,7 +188,7 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>Provides COM objects with version-independent access to the &lt;xref:System.Object.GetHashCode%2A?displayProperty=fullName&gt; method.</summary>
+        <summary>Provides COM objects with version-independent access to the <see cref="System.Object.GetHashCode%2A" /> method.</summary>
         <returns>The hash code for the current instance.</returns>
         <remarks>
           <format type="text/markdown"><![CDATA[  
@@ -256,7 +256,7 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>Provides COM objects with version-independent access to the &lt;xref:System.Type.GetType%2A?displayProperty=fullName&gt; method.</summary>
+        <summary>Provides COM objects with version-independent access to the <see cref="System.Type.GetType%2A" /> method.</summary>
         <returns>A <see cref="T:System.Type" /> object.</returns>
         <remarks>
           <format type="text/markdown"><![CDATA[  
@@ -400,7 +400,7 @@
         <param name="attributeType">The <see cref="T:System.Type" /> object to which the custom attributes are applied.</param>
         <param name="inherit">
           <see langword="true" /> to search this member's inheritance chain to find the attributes; otherwise, <see langword="false" />.</param>
-        <summary>Provides COM objects with version-independent access to the &lt;xref:System.Reflection.MemberInfo.IsDefined%2A?displayProperty=fullName&gt; method.</summary>
+        <summary>Provides COM objects with version-independent access to the <see cref="System.Reflection.MemberInfo.IsDefined%2A" /> method.</summary>
         <returns>
           <see langword="true" /> if one or more instance of the <paramref name="attributeType" /> parameter is applied to this member; otherwise, <see langword="false" />.</returns>
         <remarks>
@@ -430,7 +430,7 @@
         <ReturnType>System.Reflection.MemberTypes</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Provides COM objects with version-independent access to the &lt;xref:System.Reflection.MemberInfo.MemberType%2A?displayProperty=fullName&gt; property.</summary>
+        <summary>Provides COM objects with version-independent access to the <see cref="System.Reflection.MemberInfo.MemberType%2A" /> property.</summary>
         <value>One of the <see cref="T:System.Reflection.MemberTypes" /> values indicating the type of member.</value>
         <remarks>
           <format type="text/markdown"><![CDATA[  
@@ -459,7 +459,7 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Provides COM objects with version-independent access to the &lt;xref:System.Reflection.MemberInfo.Name%2A?displayProperty=fullName&gt; property.</summary>
+        <summary>Provides COM objects with version-independent access to the <see cref="System.Reflection.MemberInfo.Name%2A" /> property.</summary>
         <value>A <see cref="T:System.String" /> object containing the name of this member.</value>
         <remarks>
           <format type="text/markdown"><![CDATA[  
@@ -488,7 +488,7 @@
         <ReturnType>System.Type</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Provides COM objects with version-independent access to the &lt;xref:System.Reflection.MemberInfo.ReflectedType%2A?displayProperty=fullName&gt; property.</summary>
+        <summary>Provides COM objects with version-independent access to the <see cref="System.Reflection.MemberInfo.ReflectedType%2A" /> property.</summary>
         <value>The <see cref="T:System.Type" /> object that was used to obtain this <see cref="T:System.Reflection.MemberInfo" /> object.</value>
         <remarks>
           <format type="text/markdown"><![CDATA[  
@@ -518,7 +518,7 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>Provides COM objects with version-independent access to the &lt;xref:System.Object.ToString%2A?displayProperty=fullName&gt; method.</summary>
+        <summary>Provides COM objects with version-independent access to the <see cref="System.Object.ToString%2A" /> method.</summary>
         <returns>A string that represents the current <see cref="T:System.Object" />.</returns>
         <remarks>
           <format type="text/markdown"><![CDATA[  

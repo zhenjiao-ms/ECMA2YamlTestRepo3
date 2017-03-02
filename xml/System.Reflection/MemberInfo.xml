@@ -403,7 +403,7 @@
       </ReturnValue>
       <Docs>
         <summary>Gets a value that identifies a metadata element.</summary>
-        <value>A value which, in combination with &lt;xref:System.Reflection.MemberInfo.Module%2A&gt;, uniquely identifies a metadata element.</value>
+        <value>A value which, in combination with <see cref="System.Reflection.MemberInfo.Module%2A" />, uniquely identifies a metadata element.</value>
         <remarks>
           <format type="text/markdown"><![CDATA[  
   
@@ -415,7 +415,7 @@
   
  ]]></format>
         </remarks>
-        <exception cref="T:System.InvalidOperationException">The current <see cref="T:System.Reflection.MemberInfo" /> represents an array method, such as <see langword="Address" />, on an array type whose element type is a dynamic type that has not been completed. To get a metadata token in this case, pass the <see cref="T:System.Reflection.MemberInfo" /> object to the &lt;xref:System.Reflection.Emit.ModuleBuilder.GetMethodToken%2A?displayProperty=fullName&gt; method; or use the &lt;xref:System.Reflection.Emit.ModuleBuilder.GetArrayMethodToken%2A?displayProperty=fullName&gt; method to get the token directly, instead of using the &lt;xref:System.Reflection.Emit.ModuleBuilder.GetArrayMethod%2A?displayProperty=fullName&gt; method to get a <see cref="T:System.Reflection.MethodInfo" /> first.</exception>
+        <exception cref="T:System.InvalidOperationException">The current <see cref="T:System.Reflection.MemberInfo" /> represents an array method, such as <see langword="Address" />, on an array type whose element type is a dynamic type that has not been completed. To get a metadata token in this case, pass the <see cref="T:System.Reflection.MemberInfo" /> object to the <see cref="System.Reflection.Emit.ModuleBuilder.GetMethodToken%2A" /> method; or use the <see cref="System.Reflection.Emit.ModuleBuilder.GetArrayMethodToken%2A" /> method to get the token directly, instead of using the <see cref="System.Reflection.Emit.ModuleBuilder.GetArrayMethod%2A" /> method to get a <see cref="T:System.Reflection.MethodInfo" /> first.</exception>
         <threadsafe />
       </Docs>
     </Member>

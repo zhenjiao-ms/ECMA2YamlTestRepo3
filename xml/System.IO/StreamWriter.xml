@@ -521,7 +521,7 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Gets or sets a value indicating whether the <see cref="T:System.IO.StreamWriter" /> will flush its buffer to the underlying stream after every call to &lt;xref:System.IO.StreamWriter.Write%2A?displayProperty=fullName&gt;.</summary>
+        <summary>Gets or sets a value indicating whether the <see cref="T:System.IO.StreamWriter" /> will flush its buffer to the underlying stream after every call to <see cref="System.IO.StreamWriter.Write%2A" />.</summary>
         <value>
           <see langword="true" /> to force <see cref="T:System.IO.StreamWriter" /> to flush its buffer; otherwise, <see langword="false" />.</value>
         <remarks>
@@ -820,8 +820,10 @@
  ]]></format>
         </remarks>
         <exception cref="T:System.IO.IOException">An I/O error occurs.</exception>
-        <exception cref="T:System.ObjectDisposedException">&lt;xref:System.IO.StreamWriter.AutoFlush%2A&gt; is true or the <see cref="T:System.IO.StreamWriter" /> buffer is full, and current writer is closed.</exception>
-        <exception cref="T:System.NotSupportedException">&lt;xref:System.IO.StreamWriter.AutoFlush%2A&gt; is true or the <see cref="T:System.IO.StreamWriter" /> buffer is full, and the contents of the buffer cannot be written to the underlying fixed size stream because the <see cref="T:System.IO.StreamWriter" /> is at the end the stream.</exception>
+        <exception cref="T:System.ObjectDisposedException">
+          <see cref="System.IO.StreamWriter.AutoFlush%2A" /> is true or the <see cref="T:System.IO.StreamWriter" /> buffer is full, and current writer is closed.</exception>
+        <exception cref="T:System.NotSupportedException">
+          <see cref="System.IO.StreamWriter.AutoFlush%2A" /> is true or the <see cref="T:System.IO.StreamWriter" /> buffer is full, and the contents of the buffer cannot be written to the underlying fixed size stream because the <see cref="T:System.IO.StreamWriter" /> is at the end the stream.</exception>
         <threadsafe />
       </Docs>
     </Member>
@@ -859,8 +861,10 @@
  ]]></format>
         </remarks>
         <exception cref="T:System.IO.IOException">An I/O error occurs.</exception>
-        <exception cref="T:System.ObjectDisposedException">&lt;xref:System.IO.StreamWriter.AutoFlush%2A&gt; is true or the <see cref="T:System.IO.StreamWriter" /> buffer is full, and current writer is closed.</exception>
-        <exception cref="T:System.NotSupportedException">&lt;xref:System.IO.StreamWriter.AutoFlush%2A&gt; is true or the <see cref="T:System.IO.StreamWriter" /> buffer is full, and the contents of the buffer cannot be written to the underlying fixed size stream because the <see cref="T:System.IO.StreamWriter" /> is at the end the stream.</exception>
+        <exception cref="T:System.ObjectDisposedException">
+          <see cref="System.IO.StreamWriter.AutoFlush%2A" /> is true or the <see cref="T:System.IO.StreamWriter" /> buffer is full, and current writer is closed.</exception>
+        <exception cref="T:System.NotSupportedException">
+          <see cref="System.IO.StreamWriter.AutoFlush%2A" /> is true or the <see cref="T:System.IO.StreamWriter" /> buffer is full, and the contents of the buffer cannot be written to the underlying fixed size stream because the <see cref="T:System.IO.StreamWriter" /> is at the end the stream.</exception>
         <threadsafe />
       </Docs>
     </Member>
@@ -897,8 +901,10 @@
   
  ]]></format>
         </remarks>
-        <exception cref="T:System.ObjectDisposedException">&lt;xref:System.IO.StreamWriter.AutoFlush%2A&gt; is true or the <see cref="T:System.IO.StreamWriter" /> buffer is full, and current writer is closed.</exception>
-        <exception cref="T:System.NotSupportedException">&lt;xref:System.IO.StreamWriter.AutoFlush%2A&gt; is true or the <see cref="T:System.IO.StreamWriter" /> buffer is full, and the contents of the buffer cannot be written to the underlying fixed size stream because the <see cref="T:System.IO.StreamWriter" /> is at the end the stream.</exception>
+        <exception cref="T:System.ObjectDisposedException">
+          <see cref="System.IO.StreamWriter.AutoFlush%2A" /> is true or the <see cref="T:System.IO.StreamWriter" /> buffer is full, and current writer is closed.</exception>
+        <exception cref="T:System.NotSupportedException">
+          <see cref="System.IO.StreamWriter.AutoFlush%2A" /> is true or the <see cref="T:System.IO.StreamWriter" /> buffer is full, and the contents of the buffer cannot be written to the underlying fixed size stream because the <see cref="T:System.IO.StreamWriter" /> is at the end the stream.</exception>
         <exception cref="T:System.IO.IOException">An I/O error occurs.</exception>
         <threadsafe />
       </Docs>
@@ -953,8 +959,10 @@
         <exception cref="T:System.ArgumentOutOfRangeException">
           <paramref name="index" /> or <paramref name="count" /> is negative.</exception>
         <exception cref="T:System.IO.IOException">An I/O error occurs.</exception>
-        <exception cref="T:System.ObjectDisposedException">&lt;xref:System.IO.StreamWriter.AutoFlush%2A&gt; is true or the <see cref="T:System.IO.StreamWriter" /> buffer is full, and current writer is closed.</exception>
-        <exception cref="T:System.NotSupportedException">&lt;xref:System.IO.StreamWriter.AutoFlush%2A&gt; is true or the <see cref="T:System.IO.StreamWriter" /> buffer is full, and the contents of the buffer cannot be written to the underlying fixed size stream because the <see cref="T:System.IO.StreamWriter" /> is at the end the stream.</exception>
+        <exception cref="T:System.ObjectDisposedException">
+          <see cref="System.IO.StreamWriter.AutoFlush%2A" /> is true or the <see cref="T:System.IO.StreamWriter" /> buffer is full, and current writer is closed.</exception>
+        <exception cref="T:System.NotSupportedException">
+          <see cref="System.IO.StreamWriter.AutoFlush%2A" /> is true or the <see cref="T:System.IO.StreamWriter" /> buffer is full, and the contents of the buffer cannot be written to the underlying fixed size stream because the <see cref="T:System.IO.StreamWriter" /> is at the end the stream.</exception>
         <threadsafe />
       </Docs>
     </Member>

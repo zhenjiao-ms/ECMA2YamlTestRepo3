@@ -1,4 +1,3 @@
-
 class MyClass
 {
    public int myInt = 0;
@@ -12,45 +11,31 @@ class MyClass
    }
 }
 
-class Type_GetMembers_BindingFlags
+class Type_GetMembers
 {
    public static void Main()
    {
       try
       {
-         MyClass MyObject = new MyClass();
-         MemberInfo [] myMemberInfo; 
+         MyClass myObject = new MyClass();
+         MemberInfo[] myMemberInfo; 
 
-         // Get the type of the class 'MyClass'.
-         Type myType = MyObject.GetType(); 
+         // Get the type of 'MyClass'.
+         Type myType = myObject.GetType(); 
         
-         // Get the public instance members of the class 'MyClass'. 
-         myMemberInfo = myType.GetMembers(BindingFlags.Public|BindingFlags.Instance);
+         // Get the information related to all public member's of 'MyClass'. 
+         myMemberInfo = myType.GetMembers();
     
-         Console.WriteLine( "\nThe public instance members of class '{0}' are : \n", myType); 
+         Console.WriteLine( "\nThe members of class '{0}' are :\n", myType); 
          for (int i =0 ; i < myMemberInfo.Length ; i++)
          {
-            // Display name and type of the member of 'MyClass'.
+            // Display name and type of the concerned member.
             Console.WriteLine( "'{0}' is a {1}", myMemberInfo[i].Name, myMemberInfo[i].MemberType);
          }
-
       }
-      catch (SecurityException e)
+      catch(SecurityException e)
       {
-         Console.WriteLine("SecurityException : " + e.Message ); 
-      }      
-
-      //Output:
-      //The public instance members of class 'MyClass' are :
-
-      //'Myfunction' is a Method
-      //'ToString' is a Method
-      //'Equals' is a Method
-      //'GetHashCode' is a Method
-      //'GetType' is a Method
-      //'.ctor' is a Constructor
-      //'myInt' is a Field
-      //'myString' is a Field
-
+         Console.WriteLine("Exception : " + e.Message ); 
+      }
    }
 }

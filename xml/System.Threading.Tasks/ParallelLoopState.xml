@@ -41,8 +41,8 @@
 ## Examples  
  The following example executes up to 100 iterations of a loop in parallel. Each iteration pauses for a random interval from 1 to 1,000 milliseconds. A randomly generated value determines on which iteration of the loop the <xref:System.Threading.Tasks.ParallelLoopState.Break%2A> method is called. As the output from the example shows, no iterations whose index is greater than the <xref:System.Threading.Tasks.ParallelLoopState.LowestBreakIteration%2A> property value start after the call to the <xref:System.Threading.Tasks.ParallelLoopState.Break%2A> method.  
   
- [!code-cs[System.Threading.Tasks.ParallelLoopState#2](~/add/codesnippet/csharp/t-system.threading.tasks_1_1.cs)]
- [!code-vb[System.Threading.Tasks.ParallelLoopState#2](~/add/codesnippet/visualbasic/t-system.threading.tasks_1_1.vb)]  
+ [!code-cs[System.Threading.Tasks.ParallelLoopState#2](~/add/codesnippet/csharp/t-system.threading.tasks_2_1.cs)]
+ [!code-vb[System.Threading.Tasks.ParallelLoopState#2](~/add/codesnippet/visualbasic/t-system.threading.tasks_2_1.vb)]  
   
  Because iterations of the loop are still likely to be executing when the <xref:System.Threading.Tasks.ParallelLoopState.Break%2A> method is called, each iteration calls the <xref:System.Threading.Tasks.ParallelLoopState.ShouldExitCurrentIteration%2A> property to check whether another iteration has called the <xref:System.Threading.Tasks.ParallelLoopState.Break%2A> method. If  the property value is `true`, the iteration checks the value of the <xref:System.Threading.Tasks.ParallelLoopState.LowestBreakIteration%2A> property and, if it is greater than the current iteration's index value, returns immediately.  
   
@@ -86,14 +86,14 @@
 ## Examples  
  The following example executes up to 100 iterations of a loop in parallel. Each iteration pauses for a random interval from 1 to 1,000 milliseconds. A randomly generated value determines on which iteration of the loop the Break method is called. As the output from the example shows, no iterations whose index is greater than the <xref:System.Threading.Tasks.ParallelLoopState.LowestBreakIteration%2A> property value start after the call to the Break method.  
   
- [!code-cs[System.Threading.Tasks.ParallelLoopState#2](~/add/codesnippet/csharp/m-system.threading.tasks_13_1.cs)]
- [!code-vb[System.Threading.Tasks.ParallelLoopState#2](~/add/codesnippet/visualbasic/m-system.threading.tasks_13_1.vb)]  
+ [!code-cs[System.Threading.Tasks.ParallelLoopState#2](~/add/codesnippet/csharp/m-system.threading.tasks_15_1.cs)]
+ [!code-vb[System.Threading.Tasks.ParallelLoopState#2](~/add/codesnippet/visualbasic/m-system.threading.tasks_15_1.vb)]  
   
  Because iterations of the loop are still likely to be executing when the Break method is called, each iteration calls the <xref:System.Threading.Tasks.ParallelLoopState.ShouldExitCurrentIteration%2A> property to check whether another iteration has called the Break method. If  the property value is `true`, the iteration checks the value of the <xref:System.Threading.Tasks.ParallelLoopState.LowestBreakIteration%2A> property and, if it is greater than the current iteration's index value, returns immediately.  
   
  ]]></format>
         </remarks>
-        <exception cref="T:System.InvalidOperationException">The &lt;xref:System.Threading.Tasks.ParallelLoopState.Stop%2A&gt; method was previously called. Break and &lt;xref:System.Threading.Tasks.ParallelLoopState.Stop%2A&gt; may not be used in combination by iterations of the same loop.</exception>
+        <exception cref="T:System.InvalidOperationException">The <see cref="System.Threading.Tasks.ParallelLoopState.Stop%2A" /> method was previously called. Break and <see cref="System.Threading.Tasks.ParallelLoopState.Stop%2A" /> may not be used in combination by iterations of the same loop.</exception>
         <threadsafe />
       </Docs>
     </Member>
@@ -128,9 +128,9 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Gets whether any iteration of the loop has called the &lt;xref:System.Threading.Tasks.ParallelLoopState.Stop%2A&gt; method.</summary>
+        <summary>Gets whether any iteration of the loop has called the <see cref="System.Threading.Tasks.ParallelLoopState.Stop%2A" /> method.</summary>
         <value>
-          <see langword="true" /> if any iteration has stopped the loop by calling the &lt;xref:System.Threading.Tasks.ParallelLoopState.Stop%2A&gt; method; otherwise, <see langword="false" />.</value>
+          <see langword="true" /> if any iteration has stopped the loop by calling the <see cref="System.Threading.Tasks.ParallelLoopState.Stop%2A" /> method; otherwise, <see langword="false" />.</value>
         <remarks>
           <format type="text/markdown"><![CDATA[  
   
@@ -142,8 +142,8 @@
 ## Examples  
  The following example executes up to 10,000 iterations of a loop in parallel. Each iteration pauses for a random interval from 1 to 1,000 milliseconds. A randomly generated value determines on which iteration of the loop the <xref:System.Threading.Tasks.ParallelLoopState.Stop%2A> method is called. Because iterations of the loop are still likely to be executing when the <xref:System.Threading.Tasks.ParallelLoopState.Stop%2A> method is called, the lambda expression calls the IsStopped method to check whether another iteration has called the <xref:System.Threading.Tasks.ParallelLoopState.Stop%2A> method. If it returns `true`, the iteration returns immediately.  
   
- [!code-cs[System.Threading.Tasks.ParallelLoopState#1](~/add/codesnippet/csharp/p-system.threading.tasks_5_1.cs)]
- [!code-vb[System.Threading.Tasks.ParallelLoopState#1](~/add/codesnippet/visualbasic/p-system.threading.tasks_5_1.vb)]  
+ [!code-cs[System.Threading.Tasks.ParallelLoopState#1](~/add/codesnippet/csharp/p-system.threading.tasks_6_1.cs)]
+ [!code-vb[System.Threading.Tasks.ParallelLoopState#1](~/add/codesnippet/visualbasic/p-system.threading.tasks_6_1.vb)]  
   
  ]]></format>
         </remarks>
@@ -162,8 +162,8 @@
         <ReturnType>System.Nullable&lt;System.Int64&gt;</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Gets the lowest iteration of the loop from which &lt;xref:System.Threading.Tasks.ParallelLoopState.Break%2A&gt; was called.</summary>
-        <value>The lowest iteration from which &lt;xref:System.Threading.Tasks.ParallelLoopState.Break%2A&gt; was called. In the case of a &lt;xref:System.Threading.Tasks.Parallel.ForEach%2A?displayProperty=fullName&gt; loop, the value is based on an internally-generated index.</value>
+        <summary>Gets the lowest iteration of the loop from which <see cref="System.Threading.Tasks.ParallelLoopState.Break%2A" /> was called.</summary>
+        <value>The lowest iteration from which <see cref="System.Threading.Tasks.ParallelLoopState.Break%2A" /> was called. In the case of a <see cref="System.Threading.Tasks.Parallel.ForEach%2A" /> loop, the value is based on an internally-generated index.</value>
         <remarks>
           <format type="text/markdown"><![CDATA[  
   
@@ -183,8 +183,8 @@
 ## Examples  
  The following example executes up to 100 iterations of a loop in parallel. Each iteration pauses for a random interval from 1 to 1,000 milliseconds. A randomly generated value determines on which iteration of the loop the <xref:System.Threading.Tasks.ParallelLoopState.Break%2A> method is called. This prevents iterations whose index is greater than the LowestBreakIteration property value from starting after the call to the <xref:System.Threading.Tasks.ParallelLoopState.Break%2A> method, but it does not affect any iterations that have already begun executing. To prevent these from completing, each iteration calls the <xref:System.Threading.Tasks.ParallelLoopState.ShouldExitCurrentIteration%2A> method to check whether another iteration has called the <xref:System.Threading.Tasks.ParallelLoopState.Break%2A> method. If so, the iteration checks the value of the LowestBreakIteration property and, if it is greater than the current iteration's index value, returns immediately.  
   
- [!code-cs[System.Threading.Tasks.ParallelLoopState#2](~/add/codesnippet/csharp/p-system.threading.tasks_3_1.cs)]
- [!code-vb[System.Threading.Tasks.ParallelLoopState#2](~/add/codesnippet/visualbasic/p-system.threading.tasks_3_1.vb)]  
+ [!code-cs[System.Threading.Tasks.ParallelLoopState#2](~/add/codesnippet/csharp/p-system.threading.tasks_4_1.cs)]
+ [!code-vb[System.Threading.Tasks.ParallelLoopState#2](~/add/codesnippet/visualbasic/p-system.threading.tasks_4_1.vb)]  
   
  Note that, because the LowestBreakIteration value is out of scope outside of the parallel loop, you must assign it to a variable that is visible outside of the loop if you want to preserve its value.  
   
@@ -229,8 +229,8 @@
 ## Examples  
  The following example executes up to 100 iterations of a loop in parallel. Each iteration pauses for a random interval from 1 to 1,000 milliseconds. A randomly generated value determines on which iteration of the loop the <xref:System.Threading.Tasks.ParallelLoopState.Break%2A> method is called. This prevents iterations whose index is greater than the <xref:System.Threading.Tasks.ParallelLoopState.LowestBreakIteration%2A> property value from starting after the call to the <xref:System.Threading.Tasks.ParallelLoopState.Break%2A> method, but it does not affect any iterations that have already begun executing. To prevent these from completing, each iteration calls the ShouldExitCurrentIteration method to check whether another iteration has called the <xref:System.Threading.Tasks.ParallelLoopState.Break%2A> method. If so, the iteration checks the value of the <xref:System.Threading.Tasks.ParallelLoopState.LowestBreakIteration%2A> property and, if it is greater than the current iteration's index value, returns immediately.  
   
- [!code-cs[System.Threading.Tasks.ParallelLoopState#2](~/add/codesnippet/csharp/p-system.threading.tasks_4_1.cs)]
- [!code-vb[System.Threading.Tasks.ParallelLoopState#2](~/add/codesnippet/visualbasic/p-system.threading.tasks_4_1.vb)]  
+ [!code-cs[System.Threading.Tasks.ParallelLoopState#2](~/add/codesnippet/csharp/p-system.threading.tasks_5_1.cs)]
+ [!code-vb[System.Threading.Tasks.ParallelLoopState#2](~/add/codesnippet/visualbasic/p-system.threading.tasks_5_1.vb)]  
   
  ]]></format>
         </remarks>
@@ -266,14 +266,14 @@
 ## Examples  
  The following example executes up to 10,000 iterations of a loop in parallel. Each iteration pauses for a random interval from 1 to 1,000 milliseconds. A randomly generated value determines on which iteration of the loop the Stop method is called. As the output from the example shows, no iterations execute after the call to the Stop method.  
   
- [!code-cs[System.Threading.Tasks.ParallelLoopState#1](~/add/codesnippet/csharp/m-system.threading.tasks_16_1.cs)]
- [!code-vb[System.Threading.Tasks.ParallelLoopState#1](~/add/codesnippet/visualbasic/m-system.threading.tasks_16_1.vb)]  
+ [!code-cs[System.Threading.Tasks.ParallelLoopState#1](~/add/codesnippet/csharp/m-system.threading.tasks_18_1.cs)]
+ [!code-vb[System.Threading.Tasks.ParallelLoopState#1](~/add/codesnippet/visualbasic/m-system.threading.tasks_18_1.vb)]  
   
  Because iterations of the loop are still likely to be executing when the Stop method is called, each iteration calls the <xref:System.Threading.Tasks.ParallelLoopState.IsStopped%2A> method to check whether another iteration has called the Stop method. If it returns `true`, the iteration returns immediately.  
   
  ]]></format>
         </remarks>
-        <exception cref="T:System.InvalidOperationException">The &lt;xref:System.Threading.Tasks.ParallelLoopState.Break%2A&gt; method was called previously. &lt;xref:System.Threading.Tasks.ParallelLoopState.Break%2A&gt; and Stop may not be used in combination by iterations of the same loop.</exception>
+        <exception cref="T:System.InvalidOperationException">The <see cref="System.Threading.Tasks.ParallelLoopState.Break%2A" /> method was called previously. <see cref="System.Threading.Tasks.ParallelLoopState.Break%2A" /> and Stop may not be used in combination by iterations of the same loop.</exception>
         <threadsafe />
       </Docs>
     </Member>

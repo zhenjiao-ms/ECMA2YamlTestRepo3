@@ -1,17 +1,12 @@
 using System;
 using System.Runtime.CompilerServices;
 
-[assembly :StringFreezingAttribute()]
-
+[CompilerGlobalScopeAttribute()]
 class Program
 {
-    
-    string frozenString = "This is a frozen string after Ngen is run.";
-    
     static void Main(string[] args)
     {
-
-        Console.WriteLine("The StringFreezingAttribute attribute was applied.");
+        Console.WriteLine("The attribute was applied.");
 
     }
 }

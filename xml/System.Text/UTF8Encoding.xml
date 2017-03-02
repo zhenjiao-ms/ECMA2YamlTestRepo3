@@ -121,7 +121,7 @@
       </Parameters>
       <Docs>
         <param name="encoderShouldEmitUTF8Identifier">
-          <see langword="true" /> to specify that the &lt;xref:System.Text.UTF8Encoding.GetPreamble%2A&gt; method returns a Unicode byte order mark; otherwise, <see langword="false" />. See the Remarks section for more information.</param>
+          <see langword="true" /> to specify that the <see cref="System.Text.UTF8Encoding.GetPreamble%2A" /> method returns a Unicode byte order mark; otherwise, <see langword="false" />. See the Remarks section for more information.</param>
         <summary>Initializes a new instance of the <see cref="T:System.Text.UTF8Encoding" /> class. A parameter specifies whether to provide a Unicode byte order mark.</summary>
         <remarks>
           <format type="text/markdown"><![CDATA[  
@@ -164,7 +164,7 @@
       </Parameters>
       <Docs>
         <param name="encoderShouldEmitUTF8Identifier">
-          <see langword="true" /> to specify that the &lt;xref:System.Text.UTF8Encoding.GetPreamble%2A&gt; method should return a Unicode byte order mark; otherwise, <see langword="false" />. See the Remarks section for more information.</param>
+          <see langword="true" /> to specify that the <see cref="System.Text.UTF8Encoding.GetPreamble%2A" /> method should return a Unicode byte order mark; otherwise, <see langword="false" />. See the Remarks section for more information.</param>
         <param name="throwOnInvalidBytes">
           <see langword="true" /> to throw an exception when an invalid encoding is detected; otherwise, <see langword="false" />.</param>
         <summary>Initializes a new instance of the <see cref="T:System.Text.UTF8Encoding" /> class. Parameters specify whether to provide a Unicode byte order mark and whether to throw an exception when an invalid encoding is detected.</summary>
@@ -293,7 +293,7 @@
   
  -and-  
   
- &lt;xref:System.Text.Encoding.EncoderFallback%2A&gt; is set to <see cref="T:System.Text.EncoderExceptionFallback" />.</exception>
+ <see cref="System.Text.Encoding.EncoderFallback%2A" /> is set to <see cref="T:System.Text.EncoderExceptionFallback" />.</exception>
         <threadsafe />
       </Docs>
     </Member>
@@ -354,7 +354,7 @@
   
  -and-  
   
- &lt;xref:System.Text.Encoding.EncoderFallback%2A&gt; is set to <see cref="T:System.Text.EncoderExceptionFallback" />.</exception>
+ <see cref="System.Text.Encoding.EncoderFallback%2A" /> is set to <see cref="T:System.Text.EncoderExceptionFallback" />.</exception>
         <permission cref="T:System.Security.SecurityCriticalAttribute">Requires full trust for the immediate caller. This member cannot be used by partially trusted or transparent code.</permission>
         <threadsafe />
       </Docs>
@@ -425,7 +425,7 @@
   
  -and-  
   
- The &lt;xref:System.Text.Encoding.EncoderFallback%2A&gt; property is set to <see cref="T:System.Text.EncoderExceptionFallback" />.</exception>
+ The <see cref="System.Text.Encoding.EncoderFallback%2A" /> property is set to <see cref="T:System.Text.EncoderExceptionFallback" />.</exception>
         <threadsafe />
       </Docs>
     </Member>
@@ -496,7 +496,7 @@
   
  -and-  
   
- &lt;xref:System.Text.Encoding.EncoderFallback%2A&gt; is set to <see cref="T:System.Text.EncoderExceptionFallback" />.</exception>
+ <see cref="System.Text.Encoding.EncoderFallback%2A" /> is set to <see cref="T:System.Text.EncoderExceptionFallback" />.</exception>
         <permission cref="T:System.Security.SecurityCriticalAttribute">Requires full trust for the immediate caller. This member cannot be used by partially trusted or transparent code.</permission>
         <threadsafe />
       </Docs>
@@ -582,7 +582,7 @@
   
  -and-  
   
- &lt;xref:System.Text.Encoding.EncoderFallback%2A&gt; is set to <see cref="T:System.Text.EncoderExceptionFallback" />.</exception>
+ <see cref="System.Text.Encoding.EncoderFallback%2A" /> is set to <see cref="T:System.Text.EncoderExceptionFallback" />.</exception>
         <threadsafe />
       </Docs>
     </Member>
@@ -667,7 +667,7 @@
   
  -and-  
   
- &lt;xref:System.Text.Encoding.EncoderFallback%2A&gt; is set to <see cref="T:System.Text.EncoderExceptionFallback" />.</exception>
+ <see cref="System.Text.Encoding.EncoderFallback%2A" /> is set to <see cref="T:System.Text.EncoderExceptionFallback" />.</exception>
         <threadsafe />
       </Docs>
     </Member>
@@ -726,7 +726,7 @@
   
  -and-  
   
- &lt;xref:System.Text.Encoding.DecoderFallback%2A&gt; is set to <see cref="T:System.Text.DecoderExceptionFallback" />.</exception>
+ <see cref="System.Text.Encoding.DecoderFallback%2A" /> is set to <see cref="T:System.Text.DecoderExceptionFallback" />.</exception>
         <permission cref="T:System.Security.SecurityCriticalAttribute">Requires full trust for the immediate caller. This member cannot be used by partially trusted or transparent code.</permission>
         <threadsafe />
       </Docs>
@@ -796,7 +796,7 @@
   
  -and-  
   
- &lt;xref:System.Text.Encoding.DecoderFallback%2A&gt; is set to <see cref="T:System.Text.DecoderExceptionFallback" />.</exception>
+ <see cref="System.Text.Encoding.DecoderFallback%2A" /> is set to <see cref="T:System.Text.DecoderExceptionFallback" />.</exception>
         <threadsafe />
       </Docs>
     </Member>
@@ -867,7 +867,7 @@
   
  -and-  
   
- &lt;xref:System.Text.Encoding.DecoderFallback%2A&gt; is set to <see cref="T:System.Text.DecoderExceptionFallback" />.</exception>
+ <see cref="System.Text.Encoding.DecoderFallback%2A" /> is set to <see cref="T:System.Text.DecoderExceptionFallback" />.</exception>
         <permission cref="T:System.Security.SecurityCriticalAttribute">Requires full trust for the immediate caller. This member cannot be used by partially trusted or transparent code.</permission>
         <threadsafe />
       </Docs>
@@ -953,7 +953,7 @@
   
  -and-  
   
- &lt;xref:System.Text.Encoding.DecoderFallback%2A&gt; is set to <see cref="T:System.Text.DecoderExceptionFallback" />.</exception>
+ <see cref="System.Text.Encoding.DecoderFallback%2A" /> is set to <see cref="T:System.Text.DecoderExceptionFallback" />.</exception>
         <threadsafe />
       </Docs>
     </Member>
@@ -1123,7 +1123,7 @@
   
  -and-  
   
- &lt;xref:System.Text.Encoding.EncoderFallback%2A&gt; is set to <see cref="T:System.Text.EncoderExceptionFallback" />.</exception>
+ <see cref="System.Text.Encoding.EncoderFallback%2A" /> is set to <see cref="T:System.Text.EncoderExceptionFallback" />.</exception>
         <threadsafe />
       </Docs>
     </Member>
@@ -1183,7 +1183,7 @@
   
  -and-  
   
- &lt;xref:System.Text.Encoding.DecoderFallback%2A&gt; is set to <see cref="T:System.Text.DecoderExceptionFallback" />.</exception>
+ <see cref="System.Text.Encoding.DecoderFallback%2A" /> is set to <see cref="T:System.Text.DecoderExceptionFallback" />.</exception>
         <threadsafe />
       </Docs>
     </Member>
@@ -1316,7 +1316,7 @@
   
  -and-  
   
- &lt;xref:System.Text.Encoding.DecoderFallback%2A&gt; is set to <see cref="T:System.Text.DecoderExceptionFallback" />.</exception>
+ <see cref="System.Text.Encoding.DecoderFallback%2A" /> is set to <see cref="T:System.Text.DecoderExceptionFallback" />.</exception>
         <threadsafe />
       </Docs>
     </Member>

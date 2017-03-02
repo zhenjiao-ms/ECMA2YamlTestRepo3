@@ -17,7 +17,7 @@
     </Attribute>
   </Attributes>
   <Docs>
-    <summary>Represents a handle that has been registered when calling &lt;xref:System.Threading.ThreadPool.RegisterWaitForSingleObject%2A&gt;. This class cannot be inherited.</summary>
+    <summary>Represents a handle that has been registered when calling <see cref="System.Threading.ThreadPool.RegisterWaitForSingleObject%2A" />. This class cannot be inherited.</summary>
     <remarks>
       <format type="text/markdown"><![CDATA[  
   
@@ -67,7 +67,7 @@
       </Parameters>
       <Docs>
         <param name="waitObject">The <see cref="T:System.Threading.WaitHandle" /> to be signaled.</param>
-        <summary>Cancels a registered wait operation issued by the &lt;xref:System.Threading.ThreadPool.RegisterWaitForSingleObject%2A&gt; method.</summary>
+        <summary>Cancels a registered wait operation issued by the <see cref="System.Threading.ThreadPool.RegisterWaitForSingleObject%2A" /> method.</summary>
         <returns>
           <see langword="true" /> if the function succeeds; otherwise, <see langword="false" />.</returns>
         <remarks>

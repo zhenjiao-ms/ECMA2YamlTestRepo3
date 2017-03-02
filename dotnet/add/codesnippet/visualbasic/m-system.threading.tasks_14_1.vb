@@ -1,10 +1,15 @@
-      Dim sw As Stopwatch = Stopwatch.StartNew()
-      Dim delay1 = Task.Delay(1000)
-      Dim delay2 = delay1.ContinueWith( Function(antecedent)
-                              sw.Stop()
-                              Return sw.ElapsedMilliseconds
-                            End Function)
+Imports System.Threading.Tasks
 
-      Console.WriteLine("Elapsed milliseconds: {0}", delay2.Result)
-      ' The example displays output like the following:
-      '        Elapsed milliseconds: 1013
+Module Example
+   Public Sub Main()
+      Dim t = Task.Run(Async Function()
+                                Await Task.Delay(TimeSpan.FromSeconds(1.5))
+                                Return 42
+                       End Function)
+      t.Wait()
+      Console.WriteLine("Task t Status: {0}, Result: {1}",
+                        t.Status, t.Result)
+   End Sub
+End Module
+' The example displays the following output:
+'       Task t Status: RanToCompletion, Result: 42

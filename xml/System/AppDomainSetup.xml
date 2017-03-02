@@ -144,7 +144,7 @@
   
  ]]></format>
         </remarks>
-        <exception cref="T:System.InvalidOperationException">The property is set to an <see cref="T:System.Runtime.Hosting.ActivationArguments" /> object whose application identity does not match the application identity of the <see cref="T:System.Security.Policy.ApplicationTrust" /> object returned by the &lt;xref:System.AppDomainSetup.ApplicationTrust%2A&gt; property. No exception is thrown if the &lt;xref:System.AppDomainSetup.ApplicationTrust%2A&gt; property is <see langword="null" />.</exception>
+        <exception cref="T:System.InvalidOperationException">The property is set to an <see cref="T:System.Runtime.Hosting.ActivationArguments" /> object whose application identity does not match the application identity of the <see cref="T:System.Security.Policy.ApplicationTrust" /> object returned by the <see cref="System.AppDomainSetup.ApplicationTrust%2A" /> property. No exception is thrown if the <see cref="System.AppDomainSetup.ApplicationTrust%2A" /> property is <see langword="null" />.</exception>
         <threadsafe />
       </Docs>
     </Member>
@@ -399,7 +399,7 @@
   
  ]]></format>
         </remarks>
-        <exception cref="T:System.InvalidOperationException">The property is set to an <see cref="T:System.Security.Policy.ApplicationTrust" /> object whose application identity does not match the application identity of the <see cref="T:System.Runtime.Hosting.ActivationArguments" /> object returned by the &lt;xref:System.AppDomainSetup.ActivationArguments%2A&gt; property. No exception is thrown if the &lt;xref:System.AppDomainSetup.ActivationArguments%2A&gt; property is <see langword="null" />.</exception>
+        <exception cref="T:System.InvalidOperationException">The property is set to an <see cref="T:System.Security.Policy.ApplicationTrust" /> object whose application identity does not match the application identity of the <see cref="T:System.Runtime.Hosting.ActivationArguments" /> object returned by the <see cref="System.AppDomainSetup.ActivationArguments%2A" /> property. No exception is thrown if the <see cref="System.AppDomainSetup.ActivationArguments%2A" /> property is <see langword="null" />.</exception>
         <exception cref="T:System.ArgumentNullException">The property is set to <see langword="null" />.</exception>
         <threadsafe />
       </Docs>
@@ -615,7 +615,7 @@
       </ReturnValue>
       <Docs>
         <summary>Gets or sets the base directory where the directory for dynamically generated files is located.</summary>
-        <value>The directory where the &lt;xref:System.AppDomain.DynamicDirectory%2A?displayProperty=fullName&gt; is located.  
+        <value>The directory where the <see cref="System.AppDomain.DynamicDirectory%2A" /> is located.  
   
  <block subset="none" type="note">  
  The return value of this property is different from the value assigned. See the Remarks section.  
@@ -677,8 +677,8 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>Returns the XML configuration information set by the &lt;xref:System.AppDomainSetup.SetConfigurationBytes%2A&gt; method, which overrides the application's XML configuration information.</summary>
-        <returns>An array that contains the XML configuration information that was set by the &lt;xref:System.AppDomainSetup.SetConfigurationBytes%2A&gt; method, or <see langword="null" /> if the &lt;xref:System.AppDomainSetup.SetConfigurationBytes%2A&gt; method has not been called.</returns>
+        <summary>Returns the XML configuration information set by the <see cref="System.AppDomainSetup.SetConfigurationBytes%2A" /> method, which overrides the application's XML configuration information.</summary>
+        <returns>An array that contains the XML configuration information that was set by the <see cref="System.AppDomainSetup.SetConfigurationBytes%2A" /> method, or <see langword="null" /> if the <see cref="System.AppDomainSetup.SetConfigurationBytes%2A" /> method has not been called.</returns>
         <remarks>
           <format type="text/markdown"><![CDATA[  
   
@@ -833,7 +833,7 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Gets or sets a string value that includes or excludes &lt;xref:System.AppDomainSetup.ApplicationBase%2A&gt; from the search path for the application, and searches only &lt;xref:System.AppDomainSetup.PrivateBinPath%2A&gt;.</summary>
+        <summary>Gets or sets a string value that includes or excludes <see cref="System.AppDomainSetup.ApplicationBase%2A" /> from the search path for the application, and searches only <see cref="System.AppDomainSetup.PrivateBinPath%2A" />.</summary>
         <value>A null reference (<see langword="Nothing" /> in Visual Basic) to include the application base path when searching for assemblies; any non-null string value to exclude the path. The default value is <see langword="null" />.</value>
         <remarks>
           <format type="text/markdown"><![CDATA[  
@@ -1090,7 +1090,7 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Gets or sets a string that specifies the target version and profile of the .NET Framework for the application domain, in a format that can be parsed by the &lt;xref:System.Runtime.Versioning.FrameworkName.%23ctor%28System.String%29?displayProperty=fullName&gt; constructor.</summary>
+        <summary>Gets or sets a string that specifies the target version and profile of the .NET Framework for the application domain, in a format that can be parsed by the <see cref="System.Runtime.Versioning.FrameworkName.%23ctor%28System.String%29" /> constructor.</summary>
         <value>The target version and profile of the .NET Framework.</value>
         <remarks>
           <format type="text/markdown"><![CDATA[  

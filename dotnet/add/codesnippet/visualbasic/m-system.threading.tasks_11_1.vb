@@ -1,28 +1,38 @@
+Imports System.IO
+Imports System.Text.RegularExpressions
 Imports System.Threading.Tasks
 
 Module Example
    Public Sub Main()
-      Dim t As Task = Task.Run( Sub()
-                                   Dim rnd As New Random()
-                                   Dim sum As Long
-                                   Dim n As Integer = 5000000
-                                   For ctr As Integer = 1 To n
-                                      Dim number As Integer = rnd.Next(0, 101)
-                                      sum += number
-                                   Next
-                                   Console.WriteLine("Total:   {0:N0}", sum)
-                                   Console.WriteLine("Mean:    {0:N2}", sum/n)
-                                   Console.WriteLine("N:       {0:N0}", n)   
-                                End Sub)
-     Dim ts As TimeSpan = TimeSpan.FromMilliseconds(150)
-     If Not t.Wait(ts) Then
-        Console.WriteLine("The timeout interval elapsed.")
-     End If
+      Dim pattern As String = "\p{P}*\s+"
+      Dim titles() As String = { "Sister Carrie",
+                                 "The Financier" }
+      Dim tasks(titles.Length - 1) As Task(Of Integer)
+
+      For ctr As Integer = 0 To titles.Length - 1
+         Dim s As String = titles(ctr)
+         tasks(ctr) = Task.Run( Function()
+                                   ' Number of words.
+                                   Dim nWords As Integer = 0
+                                   ' Create filename from title.
+                                   Dim fn As String = s + ".txt"
+                                   If File.Exists(fn) Then
+                                      Dim sr As New StreamReader(fn)
+                                      Dim input As String = sr.ReadToEndAsync().Result
+                                      nWords = Regex.Matches(input, pattern).Count
+                                   End If
+                                   Return nWords
+                                End Function)
+      Next
+      Task.WaitAll(tasks)
+
+      Console.WriteLine("Word Counts:")
+      Console.WriteLine()
+      For ctr As Integer = 0 To titles.Length - 1
+         Console.WriteLine("{0}: {1,10:N0} words", titles(ctr), tasks(ctr).Result)
+      Next
    End Sub
 End Module
-' The example displays output similar to the following:
-'       Total:   50,015,714
-'       Mean:    50.02
-'       N:       1,000,000
-' Or it displays the following output:
-'       The timeout interval elapsed.
+' The example displays the following output:
+'       Sister Carrie:    159,374 words
+'       The Financier:    196,362 words

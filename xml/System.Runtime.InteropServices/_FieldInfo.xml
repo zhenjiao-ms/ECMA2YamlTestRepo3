@@ -54,7 +54,7 @@
         <ReturnType>System.Reflection.FieldAttributes</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Provides COM objects with version-independent access to the &lt;xref:System.Reflection.FieldInfo.Attributes%2A&gt; property.</summary>
+        <summary>Provides COM objects with version-independent access to the <see cref="System.Reflection.FieldInfo.Attributes%2A" /> property.</summary>
         <value>The <see cref="T:System.Reflection.FieldAttributes" /> for this field.</value>
         <remarks>
           <format type="text/markdown"><![CDATA[  
@@ -83,7 +83,7 @@
         <ReturnType>System.Type</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Provides COM objects with version-independent access to the &lt;xref:System.Reflection.MemberInfo.DeclaringType%2A&gt; property.</summary>
+        <summary>Provides COM objects with version-independent access to the <see cref="System.Reflection.MemberInfo.DeclaringType%2A" /> property.</summary>
         <value>The <see cref="T:System.Type" /> object for the class that declares this member.</value>
         <remarks>
           <format type="text/markdown"><![CDATA[  
@@ -116,7 +116,7 @@
       </Parameters>
       <Docs>
         <param name="other">The <see cref="T:System.Object" /> to compare with the current <see cref="T:System.Object" />.</param>
-        <summary>Provides COM objects with version-independent access to the &lt;xref:System.Object.Equals%2A&gt; method.</summary>
+        <summary>Provides COM objects with version-independent access to the <see cref="System.Object.Equals%2A" /> method.</summary>
         <returns>
           <see langword="true" /> if the specified <see cref="T:System.Object" /> is equal to the current <see cref="T:System.Object" />; otherwise, <see langword="false" />.</returns>
         <remarks>
@@ -146,7 +146,7 @@
         <ReturnType>System.RuntimeFieldHandle</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Provides COM objects with version-independent access to the &lt;xref:System.Reflection.FieldInfo.FieldHandle%2A&gt; property.</summary>
+        <summary>Provides COM objects with version-independent access to the <see cref="System.Reflection.FieldInfo.FieldHandle%2A" /> property.</summary>
         <value>A handle to the internal metadata representation of a field.</value>
         <remarks>
           <format type="text/markdown"><![CDATA[  
@@ -175,7 +175,7 @@
         <ReturnType>System.Type</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Provides COM objects with version-independent access to the &lt;xref:System.Reflection.FieldInfo.FieldType%2A&gt; property.</summary>
+        <summary>Provides COM objects with version-independent access to the <see cref="System.Reflection.FieldInfo.FieldType%2A" /> property.</summary>
         <value>The type of this field object.</value>
         <remarks>
           <format type="text/markdown"><![CDATA[  
@@ -208,7 +208,7 @@
       </Parameters>
       <Docs>
         <param name="inherit">Specifies whether to search this member's inheritance chain to find the attributes.</param>
-        <summary>Provides COM objects with version-independent access to the &lt;xref:System.Reflection.MemberInfo.GetCustomAttributes%2A&gt; method.</summary>
+        <summary>Provides COM objects with version-independent access to the <see cref="System.Reflection.MemberInfo.GetCustomAttributes%2A" /> method.</summary>
         <returns>An array that contains all the custom attributes, or an array with zero elements if no attributes are defined.</returns>
         <remarks>
           <format type="text/markdown"><![CDATA[  
@@ -243,7 +243,7 @@
       <Docs>
         <param name="attributeType">The type of attribute to search for. Only attributes that are assignable to this type are returned.</param>
         <param name="inherit">Specifies whether to search this member's inheritance chain to find the attributes.</param>
-        <summary>Provides COM objects with version-independent access to the &lt;xref:System.Reflection.MemberInfo.GetCustomAttributes%2A&gt; method.</summary>
+        <summary>Provides COM objects with version-independent access to the <see cref="System.Reflection.MemberInfo.GetCustomAttributes%2A" /> method.</summary>
         <returns>An array of custom attributes applied to this member, or an array with zero (0) elements if no attributes have been applied.</returns>
         <remarks>
           <format type="text/markdown"><![CDATA[  
@@ -273,7 +273,7 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>Provides COM objects with version-independent access to the &lt;xref:System.Object.GetHashCode%2A&gt; method.</summary>
+        <summary>Provides COM objects with version-independent access to the <see cref="System.Object.GetHashCode%2A" /> method.</summary>
         <returns>The hash code for the current instance.</returns>
         <remarks>
           <format type="text/markdown"><![CDATA[  
@@ -341,7 +341,7 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>Provides COM objects with version-independent access to the &lt;xref:System.Object.GetType%2A&gt; method.</summary>
+        <summary>Provides COM objects with version-independent access to the <see cref="System.Object.GetType%2A" /> method.</summary>
         <returns>A <see cref="T:System.Type" /> object.</returns>
         <remarks>
           <format type="text/markdown"><![CDATA[  
@@ -438,7 +438,7 @@
       </Parameters>
       <Docs>
         <param name="obj">The object whose field value will be returned.</param>
-        <summary>Provides COM objects with version-independent access to the &lt;xref:System.Reflection.FieldInfo.GetValue%2A&gt; method.</summary>
+        <summary>Provides COM objects with version-independent access to the <see cref="System.Reflection.FieldInfo.GetValue%2A" /> method.</summary>
         <returns>An object containing the value of the field reflected by this instance.</returns>
         <remarks>
           <format type="text/markdown"><![CDATA[  
@@ -471,7 +471,7 @@
       </Parameters>
       <Docs>
         <param name="obj">A <see cref="T:System.TypedReference" /> structure that encapsulates a managed pointer to a location and a runtime representation of the type that might be stored at that location.</param>
-        <summary>Provides COM objects with version-independent access to the &lt;xref:System.Reflection.FieldInfo.GetValueDirect%2A&gt; method.</summary>
+        <summary>Provides COM objects with version-independent access to the <see cref="System.Reflection.FieldInfo.GetValueDirect%2A" /> method.</summary>
         <returns>An <see cref="T:System.Object" /> containing a field value.</returns>
         <remarks>
           <format type="text/markdown"><![CDATA[  
@@ -544,7 +544,7 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Provides COM objects with version-independent access to the &lt;xref:System.Reflection.FieldInfo.IsAssembly%2A&gt; property.</summary>
+        <summary>Provides COM objects with version-independent access to the <see cref="System.Reflection.FieldInfo.IsAssembly%2A" /> property.</summary>
         <value>
           <see langword="true" /> if the field has the <see langword="Assembly" /> attribute set; otherwise, <see langword="false" />.</value>
         <remarks>
@@ -580,7 +580,7 @@
       <Docs>
         <param name="attributeType">The <see cref="T:System.Type" /> object to which the custom attributes are applied.</param>
         <param name="inherit">Specifies whether to search this member's inheritance chain to find the attributes.</param>
-        <summary>Provides COM objects with version-independent access to the &lt;xref:System.Reflection.MemberInfo.IsDefined%2A&gt; method.</summary>
+        <summary>Provides COM objects with version-independent access to the <see cref="System.Reflection.MemberInfo.IsDefined%2A" /> method.</summary>
         <returns>
           <see langword="true" /> if one or more instance of <paramref name="attributeType" /> is applied to this member; otherwise, <see langword="false" />.</returns>
         <remarks>
@@ -610,7 +610,7 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Provides COM objects with version-independent access to the &lt;xref:System.Reflection.FieldInfo.IsFamily%2A&gt; property.</summary>
+        <summary>Provides COM objects with version-independent access to the <see cref="System.Reflection.FieldInfo.IsFamily%2A" /> property.</summary>
         <value>
           <see langword="true" /> if the field has the <see langword="Family" /> attribute set; otherwise, <see langword="false" />.</value>
         <remarks>
@@ -640,7 +640,7 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Provides COM objects with version-independent access to the &lt;xref:System.Reflection.FieldInfo.IsFamilyAndAssembly%2A&gt; property.</summary>
+        <summary>Provides COM objects with version-independent access to the <see cref="System.Reflection.FieldInfo.IsFamilyAndAssembly%2A" /> property.</summary>
         <value>
           <see langword="true" /> if the field has the <see langword="FamANDAssem" /> attribute set; otherwise, <see langword="false" />.</value>
         <remarks>
@@ -670,7 +670,7 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Provides COM objects with version-independent access to the &lt;xref:System.Reflection.FieldInfo.IsFamilyOrAssembly%2A&gt; property.</summary>
+        <summary>Provides COM objects with version-independent access to the <see cref="System.Reflection.FieldInfo.IsFamilyOrAssembly%2A" /> property.</summary>
         <value>
           <see langword="true" /> if the field has the <see langword="FamORAssem" /> attribute set; otherwise, <see langword="false" />.</value>
         <remarks>
@@ -700,7 +700,7 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Provides COM objects with version-independent access to the &lt;xref:System.Reflection.FieldInfo.IsInitOnly%2A&gt; property.</summary>
+        <summary>Provides COM objects with version-independent access to the <see cref="System.Reflection.FieldInfo.IsInitOnly%2A" /> property.</summary>
         <value>
           <see langword="true" /> if the field has the <see langword="InitOnly" /> attribute set; otherwise, <see langword="false" />.</value>
         <remarks>
@@ -730,7 +730,7 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Provides COM objects with version-independent access to the &lt;xref:System.Reflection.FieldInfo.IsLiteral%2A&gt; property.</summary>
+        <summary>Provides COM objects with version-independent access to the <see cref="System.Reflection.FieldInfo.IsLiteral%2A" /> property.</summary>
         <value>
           <see langword="true" /> if the field has the <see langword="Literal" /> attribute set; otherwise, <see langword="false" />.</value>
         <remarks>
@@ -760,7 +760,7 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Provides COM objects with version-independent access to the &lt;xref:System.Reflection.FieldInfo.IsNotSerialized%2A&gt; property.</summary>
+        <summary>Provides COM objects with version-independent access to the <see cref="System.Reflection.FieldInfo.IsNotSerialized%2A" /> property.</summary>
         <value>
           <see langword="true" /> if the field has the <see langword="NotSerialized" /> attribute set; otherwise, <see langword="false" />.</value>
         <remarks>
@@ -790,7 +790,7 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Provides COM objects with version-independent access to the &lt;xref:System.Reflection.FieldInfo.IsPinvokeImpl%2A&gt; property.</summary>
+        <summary>Provides COM objects with version-independent access to the <see cref="System.Reflection.FieldInfo.IsPinvokeImpl%2A" /> property.</summary>
         <value>
           <see langword="true" /> if the <see langword="PinvokeImpl" /> attribute is set in <see cref="T:System.Reflection.FieldAttributes" />; otherwise, <see langword="false" />.</value>
         <remarks>
@@ -820,7 +820,7 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Provides COM objects with version-independent access to the &lt;xref:System.Reflection.FieldInfo.IsPrivate%2A&gt; property.</summary>
+        <summary>Provides COM objects with version-independent access to the <see cref="System.Reflection.FieldInfo.IsPrivate%2A" /> property.</summary>
         <value>
           <see langword="true" /> if the field is private; otherwise; <see langword="false" />.</value>
         <remarks>
@@ -850,7 +850,7 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Provides COM objects with version-independent access to the &lt;xref:System.Reflection.FieldInfo.IsPublic%2A&gt; property.</summary>
+        <summary>Provides COM objects with version-independent access to the <see cref="System.Reflection.FieldInfo.IsPublic%2A" /> property.</summary>
         <value>
           <see langword="true" /> if this field is public; otherwise, <see langword="false" />.</value>
         <remarks>
@@ -880,7 +880,7 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Provides COM objects with version-independent access to the &lt;xref:System.Reflection.FieldInfo.IsSpecialName%2A&gt; property.</summary>
+        <summary>Provides COM objects with version-independent access to the <see cref="System.Reflection.FieldInfo.IsSpecialName%2A" /> property.</summary>
         <value>
           <see langword="true" /> if the <see langword="SpecialName" /> attribute is set in <see cref="T:System.Reflection.FieldAttributes" />; otherwise, <see langword="false" />.</value>
         <remarks>
@@ -910,7 +910,7 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Provides COM objects with version-independent access to the &lt;xref:System.Reflection.FieldInfo.IsStatic%2A&gt; property.</summary>
+        <summary>Provides COM objects with version-independent access to the <see cref="System.Reflection.FieldInfo.IsStatic%2A" /> property.</summary>
         <value>
           <see langword="true" /> if this field is static; otherwise, <see langword="false" />.</value>
         <remarks>
@@ -940,7 +940,7 @@
         <ReturnType>System.Reflection.MemberTypes</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Provides COM objects with version-independent access to the &lt;xref:System.Reflection.FieldInfo.MemberType%2A&gt; property.</summary>
+        <summary>Provides COM objects with version-independent access to the <see cref="System.Reflection.FieldInfo.MemberType%2A" /> property.</summary>
         <value>A <see cref="T:System.Reflection.MemberTypes" /> value indicating that this member is a field.</value>
         <remarks>
           <format type="text/markdown"><![CDATA[  
@@ -969,7 +969,7 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Provides COM objects with version-independent access to the &lt;xref:System.Reflection.MemberInfo.Name%2A&gt; property.</summary>
+        <summary>Provides COM objects with version-independent access to the <see cref="System.Reflection.MemberInfo.Name%2A" /> property.</summary>
         <value>A <see cref="T:System.String" /> containing the name of this member.</value>
         <remarks>
           <format type="text/markdown"><![CDATA[  
@@ -998,7 +998,7 @@
         <ReturnType>System.Type</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Provides COM objects with version-independent access to the &lt;xref:System.Reflection.MemberInfo.ReflectedType%2A&gt; property.</summary>
+        <summary>Provides COM objects with version-independent access to the <see cref="System.Reflection.MemberInfo.ReflectedType%2A" /> property.</summary>
         <value>The <see cref="T:System.Type" /> object through which this object was obtained.</value>
         <remarks>
           <format type="text/markdown"><![CDATA[  
@@ -1033,7 +1033,7 @@
       <Docs>
         <param name="obj">The object whose field value will be set.</param>
         <param name="value">The value to assign to the field.</param>
-        <summary>Provides COM objects with version-independent access to the &lt;xref:System.Reflection.FieldInfo.SetValue%2A&gt; method.</summary>
+        <summary>Provides COM objects with version-independent access to the <see cref="System.Reflection.FieldInfo.SetValue%2A" /> method.</summary>
         <remarks>
           <format type="text/markdown"><![CDATA[  
   
@@ -1073,7 +1073,7 @@
         <param name="invokeAttr">A field of <see cref="T:System.Reflection.Binder" /> that specifies the type of binding that is desired (for example, <see langword="Binder.CreateInstance" /> or <see langword="Binder.ExactBinding" />).</param>
         <param name="binder">A set of properties that enables the binding, coercion of argument types, and invocation of members through reflection. If `binder` is <see langword="null" />, then <see langword="Binder.DefaultBinding" /> is used.</param>
         <param name="culture">The software preferences of a particular culture.</param>
-        <summary>Provides COM objects with version-independent access to the &lt;xref:System.Reflection.PropertyInfo.SetValue%2A&gt; method.</summary>
+        <summary>Provides COM objects with version-independent access to the <see cref="System.Reflection.PropertyInfo.SetValue%2A" /> method.</summary>
         <remarks>
           <format type="text/markdown"><![CDATA[  
   
@@ -1107,7 +1107,7 @@
       <Docs>
         <param name="obj">The object whose field value will be set.</param>
         <param name="value">The value to assign to the field.</param>
-        <summary>Provides COM objects with version-independent access to the &lt;xref:System.Reflection.FieldInfo.SetValueDirect%2A&gt; method.</summary>
+        <summary>Provides COM objects with version-independent access to the <see cref="System.Reflection.FieldInfo.SetValueDirect%2A" /> method.</summary>
         <remarks>
           <format type="text/markdown"><![CDATA[  
   
@@ -1136,7 +1136,7 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>Provides COM objects with version-independent access to the &lt;xref:System.Object.ToString%2A&gt; method.</summary>
+        <summary>Provides COM objects with version-independent access to the <see cref="System.Object.ToString%2A" /> method.</summary>
         <returns>A string that represents the current <see cref="T:System.Object" />.</returns>
         <remarks>
           <format type="text/markdown"><![CDATA[  

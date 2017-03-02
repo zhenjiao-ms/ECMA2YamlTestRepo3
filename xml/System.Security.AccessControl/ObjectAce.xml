@@ -46,10 +46,10 @@
         <param name="inheritedType">A GUID that identifies the object type that can inherit the new ACE.</param>
         <param name="isCallback">
           <see langword="true" /> if the new ACE is a callback type ACE.</param>
-        <param name="opaque">Opaque data associated with the new ACE. This is allowed only for callback ACE types. The length of this array must not be greater than the return value of the &lt;xref:System.Security.AccessControl.ObjectAce.MaxOpaqueLength%2A&gt; method.</param>
+        <param name="opaque">Opaque data associated with the new ACE. This is allowed only for callback ACE types. The length of this array must not be greater than the return value of the <see cref="System.Security.AccessControl.ObjectAce.MaxOpaqueLength%2A" /> method.</param>
         <summary>Initiates a new instance of the <see cref="T:System.Security.AccessControl.ObjectAce" /> class.</summary>
         <remarks>To be added.</remarks>
-        <exception cref="T:System.ArgumentOutOfRangeException">The qualifier parameter contains an invalid value or the length of the value of the opaque parameter is greater than the return value of the &lt;xref:System.Security.AccessControl.ObjectAce.MaxOpaqueLength%2A&gt; method.</exception>
+        <exception cref="T:System.ArgumentOutOfRangeException">The qualifier parameter contains an invalid value or the length of the value of the opaque parameter is greater than the return value of the <see cref="System.Security.AccessControl.ObjectAce.MaxOpaqueLength%2A" /> method.</exception>
         <threadsafe />
       </Docs>
     </Member>
@@ -66,7 +66,7 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Gets the length, in bytes, of the binary representation of the current <see cref="T:System.Security.AccessControl.ObjectAce" /> object. This length should be used before marshaling the ACL into a binary array with the &lt;xref:System.Security.AccessControl.ObjectAce.GetBinaryForm%2A&gt; method.</summary>
+        <summary>Gets the length, in bytes, of the binary representation of the current <see cref="T:System.Security.AccessControl.ObjectAce" /> object. This length should be used before marshaling the ACL into a binary array with the <see cref="System.Security.AccessControl.ObjectAce.GetBinaryForm%2A" /> method.</summary>
         <value>The length, in bytes, of the binary representation of the current <see cref="T:System.Security.AccessControl.ObjectAce" /> object.</value>
         <remarks>To be added.</remarks>
         <threadsafe />
@@ -160,7 +160,7 @@
         <ReturnType>System.Security.AccessControl.ObjectAceFlags</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Gets or sets flags that specify whether the &lt;xref:System.Security.AccessControl.ObjectAce.ObjectAceType%2A&gt; and &lt;xref:System.Security.AccessControl.ObjectAce.InheritedObjectAceType%2A&gt; properties contain values that identify valid object types.</summary>
+        <summary>Gets or sets flags that specify whether the <see cref="System.Security.AccessControl.ObjectAce.ObjectAceType%2A" /> and <see cref="System.Security.AccessControl.ObjectAce.InheritedObjectAceType%2A" /> properties contain values that identify valid object types.</summary>
         <value>On or more members of the <see cref="T:System.Security.AccessControl.ObjectAceFlags" /> enumeration combined with a logical OR operation.</value>
         <remarks>To be added.</remarks>
         <threadsafe />

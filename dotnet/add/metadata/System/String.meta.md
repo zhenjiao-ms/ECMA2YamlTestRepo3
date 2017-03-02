@@ -354,6 +354,11 @@ internalonly: False
 ---
 
 ---
+uid: System.String.Concat``1(System.Collections.Generic.IEnumerable{``0})
+internalonly: False
+---
+
+---
 uid: System.String.PadRight(System.Int32,System.Char)
 internalonly: False
 ---
@@ -494,6 +499,11 @@ internalonly: False
 ---
 
 ---
+uid: System.String.Join``1(System.String,System.Collections.Generic.IEnumerable{``0})
+internalonly: False
+---
+
+---
 uid: System.String.Remove(System.Int32)
 internalonly: False
 ---
@@ -550,6 +560,11 @@ internalonly: False
 
 ---
 uid: System.String.IndexOfAny(System.Char[],System.Int32,System.Int32)
+internalonly: False
+---
+
+---
+uid: System.String.System#Collections#Generic#IEnumerable{System#Char}#GetEnumerator
 internalonly: False
 ---
 

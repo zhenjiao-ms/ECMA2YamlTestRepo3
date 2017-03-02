@@ -18,8 +18,17 @@
   <Interfaces />
   <Docs>
     <typeparam name="T">To be added.</typeparam>
-    <summary>To be added.</summary>
-    <remarks>To be added.</remarks>
+    <summary>Stores mappings between delegates and event tokens, to support the implementation of a [!INCLUDE[wrt](~/add/includes/wrt-md.md)] event in managed code.</summary>
+    <remarks>
+      <format type="text/markdown"><![CDATA[  
+  
+## Remarks  
+ Use this type when you need to manage the addition and removal of events manually.  
+  
+ An instance of this table stores the delegates that represent the event handlers that have been added to an event. To raise the event, invoke the delegate that is returned by the <xref:System.Runtime.InteropServices.WindowsRuntime.EventRegistrationTokenTable%601.InvocationList%2A> property, if it is not `null`. An instance of this table is required for each event.  
+  
+ ]]></format>
+    </remarks>
   </Docs>
   <Members>
     <Member MemberName=".ctor">
@@ -32,8 +41,10 @@
       </AssemblyInfo>
       <Parameters />
       <Docs>
-        <summary>To be added.</summary>
+        <summary>Initializes a new instance of the <see cref="System.Runtime.InteropServices.WindowsRuntime.EventRegistrationTokenTable%601" /> class.</summary>
         <remarks>To be added.</remarks>
+        <exception cref="T:System.InvalidOperationException">
+          <paramref name="T" /> is not a delegate type.</exception>
       </Docs>
     </Member>
     <Member MemberName="AddEventHandler">
@@ -51,9 +62,9 @@
         <Parameter Name="handler" Type="T" />
       </Parameters>
       <Docs>
-        <param name="handler">To be added.</param>
-        <summary>To be added.</summary>
-        <returns>To be added.</returns>
+        <param name="handler">The event handler to add.</param>
+        <summary>Adds the specified event handler to the table and to the invocation list, and returns a token that can be used to remove the event handler.</summary>
+        <returns>A token that can be used to remove the event handler from the table and the invocation list.</returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -90,8 +101,8 @@
         <ReturnType>T</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
-        <value>To be added.</value>
+        <summary>Gets or sets a delegate of type <paramref name="T" /> whose invocation list includes all the event handler delegates that have been added, and that have not yet been removed. Invoking this delegate invokes all the event handlers.</summary>
+        <value>A delegate of type <paramref name="T" /> that represents all the event handler delegates that are currently registered for an event.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -130,9 +141,16 @@
         <Parameter Name="handler" Type="T" />
       </Parameters>
       <Docs>
-        <param name="handler">To be added.</param>
-        <summary>To be added.</summary>
-        <remarks>To be added.</remarks>
+        <param name="handler">The event handler to remove.</param>
+        <summary>Removes the specified event handler delegate from the table and the invocation list.</summary>
+        <remarks>
+          <format type="text/markdown"><![CDATA[  
+  
+## Remarks  
+ If the handler is not registered, the table and the invocation list are not modified.  
+  
+ ]]></format>
+        </remarks>
       </Docs>
     </Member>
   </Members>

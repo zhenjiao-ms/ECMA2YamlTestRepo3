@@ -201,8 +201,8 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Gets the number of days in the year that precedes the year that is specified by the &lt;xref:System.Globalization.UmAlQuraCalendar.MinSupportedDateTime%2A&gt; property.</summary>
-        <value>The number of days in the year that precedes the year specified by &lt;xref:System.Globalization.UmAlQuraCalendar.MinSupportedDateTime%2A&gt;.</value>
+        <summary>Gets the number of days in the year that precedes the year that is specified by the <see cref="System.Globalization.UmAlQuraCalendar.MinSupportedDateTime%2A" /> property.</summary>
+        <value>The number of days in the year that precedes the year specified by <see cref="System.Globalization.UmAlQuraCalendar.MinSupportedDateTime%2A" />.</value>
         <remarks>
           <format type="text/markdown"><![CDATA[  
   
@@ -904,7 +904,7 @@
       </Parameters>
       <Docs>
         <param name="year">A 2-digit year from 0 through 99, or a 4-digit Um Al Qura calendar year from 1318 through 1450.</param>
-        <summary>Converts the specified year to a four-digit year by using the &lt;xref:System.Globalization.UmAlQuraCalendar.TwoDigitYearMax%2A&gt; property to determine the appropriate century.</summary>
+        <summary>Converts the specified year to a four-digit year by using the <see cref="System.Globalization.UmAlQuraCalendar.TwoDigitYearMax%2A" /> property to determine the appropriate century.</summary>
         <returns>If the <paramref name="year" /> parameter is a 2-digit year, the return value is the corresponding 4-digit year. If the <paramref name="year" /> parameter is a 4-digit year, the return value is the unchanged <paramref name="year" /> parameter.</returns>
         <remarks>
           <format type="text/markdown"><![CDATA[  

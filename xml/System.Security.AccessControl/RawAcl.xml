@@ -78,7 +78,7 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Gets the length, in bytes, of the binary representation of the current <see cref="T:System.Security.AccessControl.RawAcl" /> object. This length should be used before marshaling the ACL into a binary array with the &lt;xref:System.Security.AccessControl.RawAcl.GetBinaryForm%2A&gt; method.</summary>
+        <summary>Gets the length, in bytes, of the binary representation of the current <see cref="T:System.Security.AccessControl.RawAcl" /> object. This length should be used before marshaling the ACL into a binary array with the <see cref="System.Security.AccessControl.RawAcl.GetBinaryForm%2A" /> method.</summary>
         <value>The length, in bytes, of the binary representation of the current <see cref="T:System.Security.AccessControl.RawAcl" /> object.</value>
         <remarks>To be added.</remarks>
         <threadsafe />
@@ -146,7 +146,7 @@
         <Parameter Name="ace" Type="System.Security.AccessControl.GenericAce" />
       </Parameters>
       <Docs>
-        <param name="index">The position at which to add the new ACE. Specify the value of the &lt;xref:System.Security.AccessControl.RawAcl.Count%2A&gt; property to insert an ACE at the end of the <see cref="T:System.Security.AccessControl.RawAcl" /> object.</param>
+        <param name="index">The position at which to add the new ACE. Specify the value of the <see cref="System.Security.AccessControl.RawAcl.Count%2A" /> property to insert an ACE at the end of the <see cref="T:System.Security.AccessControl.RawAcl" /> object.</param>
         <param name="ace">The ACE to insert.</param>
         <summary>Inserts the specified Access Control Entry (ACE) at the specified index.</summary>
         <remarks>
@@ -204,7 +204,7 @@
         <param name="index">The zero-based index of the ACE to remove.</param>
         <summary>Removes the Access Control Entry (ACE) at the specified location.</summary>
         <remarks>To be added.</remarks>
-        <exception cref="T:System.ArgumentOutOfRangeException">The value of the <paramref name="index" /> parameter is higher than the value of the &lt;xref:System.Security.AccessControl.RawAcl.Count%2A&gt; property minus one or is negative.</exception>
+        <exception cref="T:System.ArgumentOutOfRangeException">The value of the <paramref name="index" /> parameter is higher than the value of the <see cref="System.Security.AccessControl.RawAcl.Count%2A" /> property minus one or is negative.</exception>
         <threadsafe />
       </Docs>
     </Member>

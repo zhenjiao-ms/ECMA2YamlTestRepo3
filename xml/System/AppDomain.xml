@@ -208,7 +208,7 @@
         <Parameter Name="assemblyName" Type="System.String" />
       </Parameters>
       <Docs>
-        <param name="assemblyName">The assembly display name, in the form provided by the &lt;xref:System.Reflection.Assembly.FullName%2A?displayProperty=fullName&gt; property.</param>
+        <param name="assemblyName">The assembly display name, in the form provided by the <see cref="System.Reflection.Assembly.FullName%2A" /> property.</param>
         <summary>Returns the assembly display name after policy has been applied.</summary>
         <returns>A string containing the assembly display name after policy has been applied.</returns>
         <remarks>
@@ -653,7 +653,7 @@
         <Parameter Name="securityInfo" Type="System.Security.Policy.Evidence" />
       </Parameters>
       <Docs>
-        <param name="friendlyName">The friendly name of the domain. This friendly name can be displayed in user interfaces to identify the domain. For more information, see &lt;xref:System.AppDomain.FriendlyName%2A&gt;.</param>
+        <param name="friendlyName">The friendly name of the domain. This friendly name can be displayed in user interfaces to identify the domain. For more information, see <see cref="System.AppDomain.FriendlyName%2A" />.</param>
         <param name="securityInfo">Evidence that establishes the identity of the code that runs in the application domain. Pass <see langword="null" /> to use the evidence of the current application domain.</param>
         <summary>Creates a new application domain with the given name using the supplied evidence.</summary>
         <returns>The newly created application domain.</returns>
@@ -709,7 +709,7 @@
         <Parameter Name="info" Type="System.AppDomainSetup" />
       </Parameters>
       <Docs>
-        <param name="friendlyName">The friendly name of the domain. This friendly name can be displayed in user interfaces to identify the domain. For more information, see &lt;xref:System.AppDomain.FriendlyName%2A&gt;.</param>
+        <param name="friendlyName">The friendly name of the domain. This friendly name can be displayed in user interfaces to identify the domain. For more information, see <see cref="System.AppDomain.FriendlyName%2A" />.</param>
         <param name="securityInfo">Evidence that establishes the identity of the code that runs in the application domain. Pass <see langword="null" /> to use the evidence of the current application domain.</param>
         <param name="info">An object that contains application domain initialization information.</param>
         <summary>Creates a new application domain using the specified name, evidence, and application domain setup information.</summary>
@@ -768,7 +768,7 @@
         </Parameter>
       </Parameters>
       <Docs>
-        <param name="friendlyName">The friendly name of the domain. This friendly name can be displayed in user interfaces to identify the domain. For more information, see the description of &lt;xref:System.AppDomain.FriendlyName%2A&gt;.</param>
+        <param name="friendlyName">The friendly name of the domain. This friendly name can be displayed in user interfaces to identify the domain. For more information, see the description of <see cref="System.AppDomain.FriendlyName%2A" />.</param>
         <param name="securityInfo">Evidence that establishes the identity of the code that runs in the application domain. Pass <see langword="null" /> to use the evidence of the current application domain.</param>
         <param name="info">An object that contains application domain initialization information.</param>
         <param name="grantSet">A default permission set that is granted to all assemblies loaded into the new application domain that do not have specific grants.</param>
@@ -793,7 +793,7 @@
   
  -or-  
   
- The &lt;xref:System.AppDomainSetup.ApplicationBase%2A&gt; property is not set on the <see cref="T:System.AppDomainSetup" /> object that is supplied for <paramref name="info" />.</exception>
+ The <see cref="System.AppDomainSetup.ApplicationBase%2A" /> property is not set on the <see cref="T:System.AppDomainSetup" /> object that is supplied for <paramref name="info" />.</exception>
         <permission cref="T:System.Security.Permissions.SecurityPermission">for the ability to create and manipulate an application domain. Associated enumeration: <see cref="T:System.Security.Permissions.SecurityPermissionFlag" />. Security action: <see cref="T:System.Security.Permissions.SecurityAction" />.</permission>
         <threadsafe />
       </Docs>
@@ -819,10 +819,10 @@
         <Parameter Name="shadowCopyFiles" Type="System.Boolean" />
       </Parameters>
       <Docs>
-        <param name="friendlyName">The friendly name of the domain. This friendly name can be displayed in user interfaces to identify the domain. For more information, see &lt;xref:System.AppDomain.FriendlyName%2A&gt;.</param>
+        <param name="friendlyName">The friendly name of the domain. This friendly name can be displayed in user interfaces to identify the domain. For more information, see <see cref="System.AppDomain.FriendlyName%2A" />.</param>
         <param name="securityInfo">Evidence that establishes the identity of the code that runs in the application domain. Pass <see langword="null" /> to use the evidence of the current application domain.</param>
-        <param name="appBasePath">The base directory that the assembly resolver uses to probe for assemblies. For more information, see &lt;xref:System.AppDomain.BaseDirectory%2A&gt;.</param>
-        <param name="appRelativeSearchPath">The path relative to the base directory where the assembly resolver should probe for private assemblies. For more information, see &lt;xref:System.AppDomain.RelativeSearchPath%2A&gt;.</param>
+        <param name="appBasePath">The base directory that the assembly resolver uses to probe for assemblies. For more information, see <see cref="System.AppDomain.BaseDirectory%2A" />.</param>
+        <param name="appRelativeSearchPath">The path relative to the base directory where the assembly resolver should probe for private assemblies. For more information, see <see cref="System.AppDomain.RelativeSearchPath%2A" />.</param>
         <param name="shadowCopyFiles">If <see langword="true" />, a shadow copy of an assembly is loaded into this application domain.</param>
         <summary>Creates a new application domain with the given name, using evidence, application base path, relative search path, and a parameter that specifies whether a shadow copy of an assembly is to be loaded into the application domain.</summary>
         <returns>The newly created application domain.</returns>
@@ -876,10 +876,10 @@
         <Parameter Name="adInitArgs" Type="System.String[]" />
       </Parameters>
       <Docs>
-        <param name="friendlyName">The friendly name of the domain. This friendly name can be displayed in user interfaces to identify the domain. For more information, see &lt;xref:System.AppDomain.FriendlyName%2A&gt;.</param>
+        <param name="friendlyName">The friendly name of the domain. This friendly name can be displayed in user interfaces to identify the domain. For more information, see <see cref="System.AppDomain.FriendlyName%2A" />.</param>
         <param name="securityInfo">Evidence that establishes the identity of the code that runs in the application domain. Pass <see langword="null" /> to use the evidence of the current application domain.</param>
-        <param name="appBasePath">The base directory that the assembly resolver uses to probe for assemblies. For more information, see &lt;xref:System.AppDomain.BaseDirectory%2A&gt;.</param>
-        <param name="appRelativeSearchPath">The path relative to the base directory where the assembly resolver should probe for private assemblies. For more information, see &lt;xref:System.AppDomain.RelativeSearchPath%2A&gt;.</param>
+        <param name="appBasePath">The base directory that the assembly resolver uses to probe for assemblies. For more information, see <see cref="System.AppDomain.BaseDirectory%2A" />.</param>
+        <param name="appRelativeSearchPath">The path relative to the base directory where the assembly resolver should probe for private assemblies. For more information, see <see cref="System.AppDomain.RelativeSearchPath%2A" />.</param>
         <param name="shadowCopyFiles">
           <see langword="true" /> to load a shadow copy of an assembly into the application domain.</param>
         <param name="adInit">An <see cref="T:System.AppDomainInitializer" /> delegate that represents a callback method to invoke when the new <see cref="T:System.AppDomain" /> object is initialized.</param>
@@ -925,8 +925,8 @@
         <Parameter Name="typeName" Type="System.String" />
       </Parameters>
       <Docs>
-        <param name="assemblyName">The display name of the assembly. See &lt;xref:System.Reflection.Assembly.FullName%2A?displayProperty=fullName&gt;.</param>
-        <param name="typeName">The fully qualified name of the requested type, including the namespace but not the assembly, as returned by the &lt;xref:System.Type.FullName%2A?displayProperty=fullName&gt; property.</param>
+        <param name="assemblyName">The display name of the assembly. See <see cref="System.Reflection.Assembly.FullName%2A" />.</param>
+        <param name="typeName">The fully qualified name of the requested type, including the namespace but not the assembly, as returned by the <see cref="System.Type.FullName%2A" /> property.</param>
         <summary>Creates a new instance of the specified type defined in the specified assembly.</summary>
         <returns>An object that is a wrapper for the new instance specified by <paramref name="typeName" />. The return value needs to be unwrapped to access the real object.</returns>
         <remarks>
@@ -983,8 +983,8 @@
         <Parameter Name="activationAttributes" Type="System.Object[]" />
       </Parameters>
       <Docs>
-        <param name="assemblyName">The display name of the assembly. See &lt;xref:System.Reflection.Assembly.FullName%2A?displayProperty=fullName&gt;.</param>
-        <param name="typeName">The fully qualified name of the requested type, including the namespace but not the assembly, as returned by the &lt;xref:System.Type.FullName%2A?displayProperty=fullName&gt; property.</param>
+        <param name="assemblyName">The display name of the assembly. See <see cref="System.Reflection.Assembly.FullName%2A" />.</param>
+        <param name="typeName">The fully qualified name of the requested type, including the namespace but not the assembly, as returned by the <see cref="System.Type.FullName%2A" /> property.</param>
         <param name="activationAttributes">An array of one or more attributes that can participate in activation. Typically, an array that contains a single <see cref="T:System.Runtime.Remoting.Activation.UrlAttribute" /> object that specifies the URL that is required to activate a remote object.  
   
  This parameter is related to client-activated objects.Client activation is a legacy technology that is retained for backward compatibility but is not recommended for new development. Distributed applications should instead use Windows Communication Foundation.</param>
@@ -1049,8 +1049,8 @@
         <Parameter Name="activationAttributes" Type="System.Object[]" />
       </Parameters>
       <Docs>
-        <param name="assemblyName">The display name of the assembly. See &lt;xref:System.Reflection.Assembly.FullName%2A?displayProperty=fullName&gt;.</param>
-        <param name="typeName">The fully qualified name of the requested type, including the namespace but not the assembly, as returned by the &lt;xref:System.Type.FullName%2A?displayProperty=fullName&gt; property.</param>
+        <param name="assemblyName">The display name of the assembly. See <see cref="System.Reflection.Assembly.FullName%2A" />.</param>
+        <param name="typeName">The fully qualified name of the requested type, including the namespace but not the assembly, as returned by the <see cref="System.Type.FullName%2A" /> property.</param>
         <param name="ignoreCase">A Boolean value specifying whether to perform a case-sensitive search or not.</param>
         <param name="bindingAttr">A combination of zero or more bit flags that affect the search for the `typeName` constructor. If `bindingAttr` is zero, a case-sensitive search for public constructors is conducted.</param>
         <param name="binder">An object that enables the binding, coercion of argument types, invocation of members, and retrieval of <see cref="T:System.Reflection.MemberInfo" /> objects using reflection. If `binder` is null, the default binder is used.</param>
@@ -1126,8 +1126,8 @@
         <Parameter Name="securityAttributes" Type="System.Security.Policy.Evidence" />
       </Parameters>
       <Docs>
-        <param name="assemblyName">The display name of the assembly. See &lt;xref:System.Reflection.Assembly.FullName%2A?displayProperty=fullName&gt;.</param>
-        <param name="typeName">The fully qualified name of the requested type, including the namespace but not the assembly, as returned by the &lt;xref:System.Type.FullName%2A?displayProperty=fullName&gt; property.</param>
+        <param name="assemblyName">The display name of the assembly. See <see cref="System.Reflection.Assembly.FullName%2A" />.</param>
+        <param name="typeName">The fully qualified name of the requested type, including the namespace but not the assembly, as returned by the <see cref="System.Type.FullName%2A" /> property.</param>
         <param name="ignoreCase">A Boolean value specifying whether to perform a case-sensitive search or not.</param>
         <param name="bindingAttr">A combination of zero or more bit flags that affect the search for the `typeName` constructor. If `bindingAttr` is zero, a case-sensitive search for public constructors is conducted.</param>
         <param name="binder">An object that enables the binding, coercion of argument types, invocation of members, and retrieval of <see cref="T:System.Reflection.MemberInfo" /> objects using reflection. If `binder` is null, the default binder is used.</param>
@@ -1196,8 +1196,8 @@
         <Parameter Name="typeName" Type="System.String" />
       </Parameters>
       <Docs>
-        <param name="assemblyName">The display name of the assembly. See &lt;xref:System.Reflection.Assembly.FullName%2A?displayProperty=fullName&gt;.</param>
-        <param name="typeName">The fully qualified name of the requested type, including the namespace but not the assembly, as returned by the &lt;xref:System.Type.FullName%2A?displayProperty=fullName&gt; property.</param>
+        <param name="assemblyName">The display name of the assembly. See <see cref="System.Reflection.Assembly.FullName%2A" />.</param>
+        <param name="typeName">The fully qualified name of the requested type, including the namespace but not the assembly, as returned by the <see cref="System.Type.FullName%2A" /> property.</param>
         <summary>Creates a new instance of the specified type. Parameters specify the assembly where the type is defined, and the name of the type.</summary>
         <returns>An instance of the object specified by <paramref name="typeName" />.</returns>
         <remarks>
@@ -1265,8 +1265,8 @@
         <Parameter Name="activationAttributes" Type="System.Object[]" />
       </Parameters>
       <Docs>
-        <param name="assemblyName">The display name of the assembly. See &lt;xref:System.Reflection.Assembly.FullName%2A?displayProperty=fullName&gt;.</param>
-        <param name="typeName">The fully qualified name of the requested type, including the namespace but not the assembly, as returned by the &lt;xref:System.Type.FullName%2A?displayProperty=fullName&gt; property.</param>
+        <param name="assemblyName">The display name of the assembly. See <see cref="System.Reflection.Assembly.FullName%2A" />.</param>
+        <param name="typeName">The fully qualified name of the requested type, including the namespace but not the assembly, as returned by the <see cref="System.Type.FullName%2A" /> property.</param>
         <param name="activationAttributes">An array of one or more attributes that can participate in activation. Typically, an array that contains a single <see cref="T:System.Runtime.Remoting.Activation.UrlAttribute" /> object that specifies the URL that is required to activate a remote object.  
   
  This parameter is related to client-activated objects.Client activation is a legacy technology that is retained for backward compatibility but is not recommended for new development. Distributed applications should instead use Windows Communication Foundation.</param>
@@ -1338,8 +1338,8 @@
         <Parameter Name="activationAttributes" Type="System.Object[]" />
       </Parameters>
       <Docs>
-        <param name="assemblyName">The display name of the assembly. See &lt;xref:System.Reflection.Assembly.FullName%2A?displayProperty=fullName&gt;.</param>
-        <param name="typeName">The fully qualified name of the requested type, including the namespace but not the assembly, as returned by the &lt;xref:System.Type.FullName%2A?displayProperty=fullName&gt; property.</param>
+        <param name="assemblyName">The display name of the assembly. See <see cref="System.Reflection.Assembly.FullName%2A" />.</param>
+        <param name="typeName">The fully qualified name of the requested type, including the namespace but not the assembly, as returned by the <see cref="System.Type.FullName%2A" /> property.</param>
         <param name="ignoreCase">A Boolean value specifying whether to perform a case-sensitive search or not.</param>
         <param name="bindingAttr">A combination of zero or more bit flags that affect the search for the `typeName` constructor. If `bindingAttr` is zero, a case-sensitive search for public constructors is conducted.</param>
         <param name="binder">An object that enables the binding, coercion of argument types, invocation of members, and retrieval of <see cref="T:System.Reflection.MemberInfo" /> objects using reflection. If `binder` is null, the default binder is used.</param>
@@ -1426,8 +1426,8 @@
         <Parameter Name="securityAttributes" Type="System.Security.Policy.Evidence" />
       </Parameters>
       <Docs>
-        <param name="assemblyName">The display name of the assembly. See &lt;xref:System.Reflection.Assembly.FullName%2A?displayProperty=fullName&gt;.</param>
-        <param name="typeName">The fully qualified name of the requested type, including the namespace but not the assembly, as returned by the &lt;xref:System.Type.FullName%2A?displayProperty=fullName&gt; property.</param>
+        <param name="assemblyName">The display name of the assembly. See <see cref="System.Reflection.Assembly.FullName%2A" />.</param>
+        <param name="typeName">The fully qualified name of the requested type, including the namespace but not the assembly, as returned by the <see cref="System.Type.FullName%2A" /> property.</param>
         <param name="ignoreCase">A Boolean value specifying whether to perform a case-sensitive search or not.</param>
         <param name="bindingAttr">A combination of zero or more bit flags that affect the search for the `typeName` constructor. If `bindingAttr` is zero, a case-sensitive search for public constructors is conducted.</param>
         <param name="binder">An object that enables the binding, coercion of argument types, invocation of members, and retrieval of <see cref="T:System.Reflection.MemberInfo" /> objects using reflection. If `binder` is null, the default binder is used.</param>
@@ -1503,8 +1503,8 @@
         <Parameter Name="typeName" Type="System.String" />
       </Parameters>
       <Docs>
-        <param name="assemblyFile">The name, including the path, of a file that contains an assembly that defines the requested type. The assembly is loaded using the &lt;xref:System.Reflection.Assembly.LoadFrom%2A&gt; method.</param>
-        <param name="typeName">The fully qualified name of the requested type, including the namespace but not the assembly, as returned by the &lt;xref:System.Type.FullName%2A?displayProperty=fullName&gt; property.</param>
+        <param name="assemblyFile">The name, including the path, of a file that contains an assembly that defines the requested type. The assembly is loaded using the <see cref="System.Reflection.Assembly.LoadFrom%2A" /> method.</param>
+        <param name="typeName">The fully qualified name of the requested type, including the namespace but not the assembly, as returned by the <see cref="System.Type.FullName%2A" /> property.</param>
         <summary>Creates a new instance of the specified type defined in the specified assembly file.</summary>
         <returns>An object that is a wrapper for the new instance, or <see langword="null" /> if <paramref name="typeName" /> is not found. The return value needs to be unwrapped to access the real object.</returns>
         <remarks>
@@ -1592,8 +1592,8 @@
         <Parameter Name="activationAttributes" Type="System.Object[]" />
       </Parameters>
       <Docs>
-        <param name="assemblyFile">The name, including the path, of a file that contains an assembly that defines the requested type. The assembly is loaded using the &lt;xref:System.Reflection.Assembly.LoadFrom%2A&gt; method.</param>
-        <param name="typeName">The fully qualified name of the requested type, including the namespace but not the assembly, as returned by the &lt;xref:System.Type.FullName%2A?displayProperty=fullName&gt; property.</param>
+        <param name="assemblyFile">The name, including the path, of a file that contains an assembly that defines the requested type. The assembly is loaded using the <see cref="System.Reflection.Assembly.LoadFrom%2A" /> method.</param>
+        <param name="typeName">The fully qualified name of the requested type, including the namespace but not the assembly, as returned by the <see cref="System.Type.FullName%2A" /> property.</param>
         <param name="activationAttributes">An array of one or more attributes that can participate in activation. Typically, an array that contains a single <see cref="T:System.Runtime.Remoting.Activation.UrlAttribute" /> object that specifies the URL that is required to activate a remote object.  
   
  This parameter is related to client-activated objects.Client activation is a legacy technology that is retained for backward compatibility but is not recommended for new development. Distributed applications should instead use Windows Communication Foundation.</param>
@@ -1660,8 +1660,8 @@
         <Parameter Name="activationAttributes" Type="System.Object[]" />
       </Parameters>
       <Docs>
-        <param name="assemblyFile">The name, including the path, of a file that contains an assembly that defines the requested type. The assembly is loaded using the &lt;xref:System.Reflection.Assembly.LoadFrom%2A&gt; method.</param>
-        <param name="typeName">The fully qualified name of the requested type, including the namespace but not the assembly, as returned by the &lt;xref:System.Type.FullName%2A?displayProperty=fullName&gt; property.</param>
+        <param name="assemblyFile">The name, including the path, of a file that contains an assembly that defines the requested type. The assembly is loaded using the <see cref="System.Reflection.Assembly.LoadFrom%2A" /> method.</param>
+        <param name="typeName">The fully qualified name of the requested type, including the namespace but not the assembly, as returned by the <see cref="System.Type.FullName%2A" /> property.</param>
         <param name="ignoreCase">A Boolean value specifying whether to perform a case-sensitive search or not.</param>
         <param name="bindingAttr">A combination of zero or more bit flags that affect the search for the `typeName` constructor. If `bindingAttr` is zero, a case-sensitive search for public constructors is conducted.</param>
         <param name="binder">An object that enables the binding, coercion of argument types, invocation of members, and retrieval of <see cref="T:System.Reflection.MemberInfo" /> objects through reflection. If `binder` is null, the default binder is used.</param>
@@ -1743,8 +1743,8 @@
         <Parameter Name="securityAttributes" Type="System.Security.Policy.Evidence" />
       </Parameters>
       <Docs>
-        <param name="assemblyFile">The name, including the path, of a file that contains an assembly that defines the requested type. The assembly is loaded using the &lt;xref:System.Reflection.Assembly.LoadFrom%2A&gt; method.</param>
-        <param name="typeName">The fully qualified name of the requested type, including the namespace but not the assembly, as returned by the &lt;xref:System.Type.FullName%2A?displayProperty=fullName&gt; property.</param>
+        <param name="assemblyFile">The name, including the path, of a file that contains an assembly that defines the requested type. The assembly is loaded using the <see cref="System.Reflection.Assembly.LoadFrom%2A" /> method.</param>
+        <param name="typeName">The fully qualified name of the requested type, including the namespace but not the assembly, as returned by the <see cref="System.Type.FullName%2A" /> property.</param>
         <param name="ignoreCase">A Boolean value specifying whether to perform a case-sensitive search or not.</param>
         <param name="bindingAttr">A combination of zero or more bit flags that affect the search for the `typeName` constructor. If `bindingAttr` is zero, a case-sensitive search for public constructors is conducted.</param>
         <param name="binder">An object that enables the binding, coercion of argument types, invocation of members, and retrieval of <see cref="T:System.Reflection.MemberInfo" /> objects through reflection. If `binder` is null, the default binder is used.</param>
@@ -1821,7 +1821,7 @@
       </Parameters>
       <Docs>
         <param name="assemblyName">The file name and path of the assembly that defines the requested type.</param>
-        <param name="typeName">The fully qualified name of the requested type, including the namespace but not the assembly, as returned by the &lt;xref:System.Type.FullName%2A?displayProperty=fullName&gt; property.</param>
+        <param name="typeName">The fully qualified name of the requested type, including the namespace but not the assembly, as returned by the <see cref="System.Type.FullName%2A" /> property.</param>
         <summary>Creates a new instance of the specified type defined in the specified assembly file.</summary>
         <returns>The requested object, or <see langword="null" /> if <paramref name="typeName" /> is not found.</returns>
         <remarks>
@@ -1879,7 +1879,7 @@
       </Parameters>
       <Docs>
         <param name="assemblyName">The file name and path of the assembly that defines the requested type.</param>
-        <param name="typeName">The fully qualified name of the requested type, including the namespace but not the assembly (see the &lt;xref:System.Type.FullName%2A?displayProperty=fullName&gt; property).</param>
+        <param name="typeName">The fully qualified name of the requested type, including the namespace but not the assembly (see the <see cref="System.Type.FullName%2A" /> property).</param>
         <param name="activationAttributes">An array of one or more attributes that can participate in activation. Typically, an array that contains a single <see cref="T:System.Runtime.Remoting.Activation.UrlAttribute" /> object that specifies the URL that is required to activate a remote object.  
   
  This parameter is related to client-activated objects.Client activation is a legacy technology that is retained for backward compatibility but is not recommended for new development. Distributed applications should instead use Windows Communication Foundation.</param>
@@ -1944,7 +1944,7 @@
       </Parameters>
       <Docs>
         <param name="assemblyFile">The file name and path of the assembly that defines the requested type.</param>
-        <param name="typeName">The fully qualified name of the requested type, including the namespace but not the assembly, as returned by the &lt;xref:System.Type.FullName%2A?displayProperty=fullName&gt; property.</param>
+        <param name="typeName">The fully qualified name of the requested type, including the namespace but not the assembly, as returned by the <see cref="System.Type.FullName%2A" /> property.</param>
         <param name="ignoreCase">A Boolean value specifying whether to perform a case-sensitive search or not.</param>
         <param name="bindingAttr">A combination of zero or more bit flags that affect the search for the `typeName` constructor. If `bindingAttr` is zero, a case-sensitive search for public constructors is conducted.</param>
         <param name="binder">An object that enables the binding, coercion of argument types, invocation of members, and retrieval of <see cref="T:System.Reflection.MemberInfo" /> objects through reflection. If `binder` is null, the default binder is used.</param>
@@ -2022,7 +2022,7 @@
       </Parameters>
       <Docs>
         <param name="assemblyName">The file name and path of the assembly that defines the requested type.</param>
-        <param name="typeName">The fully qualified name of the requested type, including the namespace but not the assembly, as returned by the &lt;xref:System.Type.FullName%2A?displayProperty=fullName&gt; property.</param>
+        <param name="typeName">The fully qualified name of the requested type, including the namespace but not the assembly, as returned by the <see cref="System.Type.FullName%2A" /> property.</param>
         <param name="ignoreCase">A Boolean value specifying whether to perform a case-sensitive search or not.</param>
         <param name="bindingAttr">A combination of zero or more bit flags that affect the search for the `typeName` constructor. If `bindingAttr` is zero, a case-sensitive search for public constructors is conducted.</param>
         <param name="binder">An object that enables the binding, coercion of argument types, invocation of members, and retrieval of <see cref="T:System.Reflection.MemberInfo" /> objects through reflection. If `binder` is null, the default binder is used.</param>
@@ -3625,7 +3625,7 @@
         <Parameter Name="assemblyName" Type="System.String" />
       </Parameters>
       <Docs>
-        <param name="assemblyName">The display name of the assembly. See &lt;xref:System.Reflection.Assembly.FullName%2A?displayProperty=fullName&gt;.</param>
+        <param name="assemblyName">The display name of the assembly. See <see cref="System.Reflection.Assembly.FullName%2A" />.</param>
         <summary>Executes an assembly given its display name.</summary>
         <returns>The value returned by the entry point of the assembly.</returns>
         <remarks>
@@ -3734,7 +3734,7 @@
         <Parameter Name="assemblySecurity" Type="System.Security.Policy.Evidence" />
       </Parameters>
       <Docs>
-        <param name="assemblyName">The display name of the assembly. See &lt;xref:System.Reflection.Assembly.FullName%2A?displayProperty=fullName&gt;.</param>
+        <param name="assemblyName">The display name of the assembly. See <see cref="System.Reflection.Assembly.FullName%2A" />.</param>
         <param name="assemblySecurity">Evidence for loading the assembly.</param>
         <summary>Executes an assembly given its display name, using the specified evidence.</summary>
         <returns>The value returned by the entry point of the assembly.</returns>
@@ -3793,7 +3793,7 @@
         </Parameter>
       </Parameters>
       <Docs>
-        <param name="assemblyName">The display name of the assembly. See &lt;xref:System.Reflection.Assembly.FullName%2A?displayProperty=fullName&gt;.</param>
+        <param name="assemblyName">The display name of the assembly. See <see cref="System.Reflection.Assembly.FullName%2A" />.</param>
         <param name="args">Command-line arguments to pass when starting the process.</param>
         <summary>Executes the assembly given its display name, using the specified arguments.</summary>
         <returns>The value that is returned by the entry point of the assembly.</returns>
@@ -3922,7 +3922,7 @@
         </Parameter>
       </Parameters>
       <Docs>
-        <param name="assemblyName">The display name of the assembly. See &lt;xref:System.Reflection.Assembly.FullName%2A?displayProperty=fullName&gt;.</param>
+        <param name="assemblyName">The display name of the assembly. See <see cref="System.Reflection.Assembly.FullName%2A" />.</param>
         <param name="assemblySecurity">Evidence for loading the assembly.</param>
         <param name="args">Command-line arguments to pass when starting the process.</param>
         <summary>Executes the assembly given its display name, using the specified evidence and arguments.</summary>
@@ -4638,7 +4638,7 @@
         <Parameter Name="assemblyString" Type="System.String" />
       </Parameters>
       <Docs>
-        <param name="assemblyString">The display name of the assembly. See &lt;xref:System.Reflection.Assembly.FullName%2A?displayProperty=fullName&gt;.</param>
+        <param name="assemblyString">The display name of the assembly. See <see cref="System.Reflection.Assembly.FullName%2A" />.</param>
         <summary>Loads an <see cref="T:System.Reflection.Assembly" /> given its display name.</summary>
         <returns>The loaded assembly.</returns>
         <remarks>
@@ -4817,7 +4817,7 @@
         <Parameter Name="assemblySecurity" Type="System.Security.Policy.Evidence" />
       </Parameters>
       <Docs>
-        <param name="assemblyString">The display name of the assembly. See &lt;xref:System.Reflection.Assembly.FullName%2A?displayProperty=fullName&gt;.</param>
+        <param name="assemblyString">The display name of the assembly. See <see cref="System.Reflection.Assembly.FullName%2A" />.</param>
         <param name="assemblySecurity">Evidence for loading the assembly.</param>
         <summary>Loads an <see cref="T:System.Reflection.Assembly" /> given its display name.</summary>
         <returns>The loaded assembly.</returns>
@@ -4989,7 +4989,7 @@
   
  ]]></format>
         </remarks>
-        <exception cref="T:System.InvalidOperationException">The <see langword="static" /> (<see langword="Shared" /> in Visual Basic) &lt;xref:System.AppDomain.MonitoringIsEnabled%2A&gt; property is set to <see langword="false" />.</exception>
+        <exception cref="T:System.InvalidOperationException">The <see langword="static" /> (<see langword="Shared" /> in Visual Basic) <see cref="System.AppDomain.MonitoringIsEnabled%2A" /> property is set to <see langword="false" />.</exception>
         <permission cref="T:System.Security.SecurityCriticalAttribute">Requires full trust for the immediate caller. This member cannot be used by partially trusted or transparent code.</permission>
         <threadsafe />
       </Docs>
@@ -5021,7 +5021,7 @@
   
  ]]></format>
         </remarks>
-        <exception cref="T:System.InvalidOperationException">The <see langword="static" /> (<see langword="Shared" /> in Visual Basic) &lt;xref:System.AppDomain.MonitoringIsEnabled%2A&gt; property is set to <see langword="false" />.</exception>
+        <exception cref="T:System.InvalidOperationException">The <see langword="static" /> (<see langword="Shared" /> in Visual Basic) <see cref="System.AppDomain.MonitoringIsEnabled%2A" /> property is set to <see langword="false" />.</exception>
         <permission cref="T:System.Security.SecurityCriticalAttribute">Requires full trust for the immediate caller. This member cannot be used by partially trusted or transparent code.</permission>
         <threadsafe />
       </Docs>
@@ -5046,7 +5046,7 @@
         <summary>Gets the total size, in bytes, of all memory allocations that have been made by the application domain since it was created, without subtracting memory that has been collected.</summary>
         <value>The total size of all memory allocations.</value>
         <remarks>To be added.</remarks>
-        <exception cref="T:System.InvalidOperationException">The <see langword="static" /> (<see langword="Shared" /> in Visual Basic) &lt;xref:System.AppDomain.MonitoringIsEnabled%2A&gt; property is set to <see langword="false" />.</exception>
+        <exception cref="T:System.InvalidOperationException">The <see langword="static" /> (<see langword="Shared" /> in Visual Basic) <see cref="System.AppDomain.MonitoringIsEnabled%2A" /> property is set to <see langword="false" />.</exception>
         <permission cref="T:System.Security.SecurityCriticalAttribute">Requires full trust for the immediate caller. This member cannot be used by partially trusted or transparent code.</permission>
         <threadsafe />
       </Docs>
@@ -5082,7 +5082,7 @@
   
  ]]></format>
         </remarks>
-        <exception cref="T:System.InvalidOperationException">The <see langword="static" /> (<see langword="Shared" /> in Visual Basic) &lt;xref:System.AppDomain.MonitoringIsEnabled%2A&gt; property is set to <see langword="false" />.</exception>
+        <exception cref="T:System.InvalidOperationException">The <see langword="static" /> (<see langword="Shared" /> in Visual Basic) <see cref="System.AppDomain.MonitoringIsEnabled%2A" /> property is set to <see langword="false" />.</exception>
         <permission cref="T:System.Security.SecurityCriticalAttribute">Requires full trust for the immediate caller. This member cannot be used by partially trusted or transparent code.</permission>
         <threadsafe />
       </Docs>

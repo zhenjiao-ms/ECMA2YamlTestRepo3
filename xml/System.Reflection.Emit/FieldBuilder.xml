@@ -276,7 +276,7 @@
         <returns>
           <see langword="true" /> if one or more instance of <paramref name="attributeType" /> is defined on this field; otherwise, <see langword="false" />.</returns>
         <remarks>To be added.</remarks>
-        <exception cref="T:System.NotSupportedException">This method is not currently supported. Retrieve the field using &lt;xref:System.Type.GetField%2A&gt; and call &lt;xref:System.Reflection.MemberInfo.IsDefined%2A&gt; on the returned <see cref="T:System.Reflection.FieldInfo" />.</exception>
+        <exception cref="T:System.NotSupportedException">This method is not currently supported. Retrieve the field using <see cref="System.Type.GetField%2A" /> and call <see cref="System.Reflection.MemberInfo.IsDefined%2A" /> on the returned <see cref="T:System.Reflection.FieldInfo" />.</exception>
         <threadsafe />
       </Docs>
     </Member>
@@ -395,7 +395,7 @@
   
  ]]></format>
         </remarks>
-        <exception cref="T:System.InvalidOperationException">The containing type has been created using &lt;xref:System.Reflection.Emit.TypeBuilder.CreateType%2A&gt;.</exception>
+        <exception cref="T:System.InvalidOperationException">The containing type has been created using <see cref="System.Reflection.Emit.TypeBuilder.CreateType%2A" />.</exception>
         <exception cref="T:System.ArgumentException">The field is not one of the supported types.  
   
  -or-  
@@ -543,7 +543,7 @@
         </remarks>
         <exception cref="T:System.ArgumentNullException">
           <paramref name="unmanagedMarshal" /> is <see langword="null" />.</exception>
-        <exception cref="T:System.InvalidOperationException">The containing type has been created using &lt;xref:System.Reflection.Emit.TypeBuilder.CreateType%2A&gt;.</exception>
+        <exception cref="T:System.InvalidOperationException">The containing type has been created using <see cref="System.Reflection.Emit.TypeBuilder.CreateType%2A" />.</exception>
         <threadsafe />
       </Docs>
     </Member>
@@ -583,7 +583,7 @@
   
  ]]></format>
         </remarks>
-        <exception cref="T:System.InvalidOperationException">The containing type has been created using &lt;xref:System.Reflection.Emit.TypeBuilder.CreateType%2A&gt;.</exception>
+        <exception cref="T:System.InvalidOperationException">The containing type has been created using <see cref="System.Reflection.Emit.TypeBuilder.CreateType%2A" />.</exception>
         <exception cref="T:System.ArgumentException">
           <paramref name="iOffset" /> is less than zero.</exception>
         <threadsafe />

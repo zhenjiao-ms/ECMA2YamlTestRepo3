@@ -331,7 +331,7 @@ public:
   
  ]]></format>
         </remarks>
-        <exception cref="T:System.InvalidOperationException">The current method is not a generic method. That is, &lt;xref:System.Reflection.MethodInfo.IsGenericMethod%2A&gt; returns <see langword="false" />.</exception>
+        <exception cref="T:System.InvalidOperationException">The current method is not a generic method. That is, <see cref="System.Reflection.MethodInfo.IsGenericMethod%2A" /> returns <see langword="false" />.</exception>
         <exception cref="T:System.NotSupportedException">This method is not supported.</exception>
         <threadsafe />
       </Docs>
@@ -446,7 +446,7 @@ public:
   
  ]]></format>
         </remarks>
-        <exception cref="T:System.InvalidOperationException">The current <see cref="T:System.Reflection.MethodInfo" /> does not represent a generic method definition. That is, &lt;xref:System.Reflection.MethodInfo.IsGenericMethodDefinition%2A&gt; returns <see langword="false" />.</exception>
+        <exception cref="T:System.InvalidOperationException">The current <see cref="T:System.Reflection.MethodInfo" /> does not represent a generic method definition. That is, <see cref="System.Reflection.MethodInfo.IsGenericMethodDefinition%2A" /> returns <see langword="false" />.</exception>
         <exception cref="T:System.ArgumentNullException">
           <paramref name="typeArguments" /> is <see langword="null" />.  
   
@@ -691,7 +691,7 @@ public:
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>Provides access to the &lt;xref:System.Object.GetType%2A&gt; method from COM.</summary>
+        <summary>Provides access to the <see cref="System.Object.GetType%2A" /> method from COM.</summary>
         <returns>A <see cref="T:System.Type" /> object representing the <see cref="T:System.Reflection.MethodInfo" /> type.</returns>
         <remarks>To be added.</remarks>
         <threadsafe />

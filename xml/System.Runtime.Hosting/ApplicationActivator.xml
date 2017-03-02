@@ -170,7 +170,7 @@
         <Parameter Name="adSetup" Type="System.AppDomainSetup" />
       </Parameters>
       <Docs>
-        <param name="adSetup">An <see cref="T:System.AppDomainSetup" /> object whose &lt;xref:System.AppDomainSetup.ActivationArguments%2A&gt; property identifies the application to activate.</param>
+        <param name="adSetup">An <see cref="T:System.AppDomainSetup" /> object whose <see cref="System.AppDomainSetup.ActivationArguments%2A" /> property identifies the application to activate.</param>
         <summary>Creates an instance of an application using the specified <see cref="T:System.AppDomainSetup" /> object.</summary>
         <returns>An <see cref="T:System.Runtime.Remoting.ObjectHandle" /> that is a wrapper for the return value of the application execution. The return value must be unwrapped to access the real object.</returns>
         <remarks>
@@ -181,7 +181,7 @@
   
  ]]></format>
         </remarks>
-        <exception cref="T:System.ArgumentException">The &lt;xref:System.AppDomainSetup.ActivationArguments%2A&gt; property of <paramref name="adSetup " />is <see langword="null" />.</exception>
+        <exception cref="T:System.ArgumentException">The <see cref="System.AppDomainSetup.ActivationArguments%2A" /> property of <paramref name="adSetup " />is <see langword="null" />.</exception>
         <exception cref="T:System.Security.Policy.PolicyException">The application instance failed to execute because the policy settings on the current application domain do not provide permission for this application to run.</exception>
         <threadsafe />
       </Docs>

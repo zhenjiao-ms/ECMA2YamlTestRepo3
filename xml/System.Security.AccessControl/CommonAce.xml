@@ -63,7 +63,7 @@
         <param name="sid">The <see cref="T:System.Security.Principal.SecurityIdentifier" /> associated with the new ACE.</param>
         <param name="isCallback">
           <see langword="true" /> to specify that the new ACE is a callback type ACE.</param>
-        <param name="opaque">Opaque data associated with the new ACE. Opaque data is allowed only for callback ACE types. The length of this array must not be greater than the return value of the &lt;xref:System.Security.AccessControl.CommonAce.MaxOpaqueLength%2A&gt; method.</param>
+        <param name="opaque">Opaque data associated with the new ACE. Opaque data is allowed only for callback ACE types. The length of this array must not be greater than the return value of the <see cref="System.Security.AccessControl.CommonAce.MaxOpaqueLength%2A" /> method.</param>
         <summary>Initializes a new instance of the <see cref="T:System.Security.AccessControl.CommonAce" /> class.</summary>
         <remarks>To be added.</remarks>
         <threadsafe />
@@ -82,7 +82,7 @@
         <ReturnType>System.Int32</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Gets the length, in bytes, of the binary representation of the current <see cref="T:System.Security.AccessControl.CommonAce" /> object. Use this length with the &lt;xref:System.Security.AccessControl.CommonAce.GetBinaryForm%2A&gt; method before marshaling the ACL into a binary array.</summary>
+        <summary>Gets the length, in bytes, of the binary representation of the current <see cref="T:System.Security.AccessControl.CommonAce" /> object. Use this length with the <see cref="System.Security.AccessControl.CommonAce.GetBinaryForm%2A" /> method before marshaling the ACL into a binary array.</summary>
         <value>The length, in bytes, of the binary representation of the current <see cref="T:System.Security.AccessControl.CommonAce" /> object.</value>
         <remarks>To be added.</remarks>
         <threadsafe />

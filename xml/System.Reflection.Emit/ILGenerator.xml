@@ -311,7 +311,7 @@
         </remarks>
         <exception cref="T:System.ArgumentNullException">
           <paramref name="localType" /> is <see langword="null" />.</exception>
-        <exception cref="T:System.InvalidOperationException">The containing type has been created by the &lt;xref:System.Reflection.Emit.TypeBuilder.CreateType%2A?displayProperty=fullName&gt; method.</exception>
+        <exception cref="T:System.InvalidOperationException">The containing type has been created by the <see cref="System.Reflection.Emit.TypeBuilder.CreateType%2A" /> method.</exception>
         <threadsafe />
       </Docs>
     </Member>
@@ -349,11 +349,11 @@
         </remarks>
         <exception cref="T:System.ArgumentNullException">
           <paramref name="localType" /> is <see langword="null" />.</exception>
-        <exception cref="T:System.InvalidOperationException">The containing type has been created by the &lt;xref:System.Reflection.Emit.TypeBuilder.CreateType%2A?displayProperty=fullName&gt; method.  
+        <exception cref="T:System.InvalidOperationException">The containing type has been created by the <see cref="System.Reflection.Emit.TypeBuilder.CreateType%2A" /> method.  
   
  -or-  
   
- The method body of the enclosing method has been created by the &lt;xref:System.Reflection.Emit.MethodBuilder.CreateMethodBody%2A?displayProperty=fullName&gt; method.</exception>
+ The method body of the enclosing method has been created by the <see cref="System.Reflection.Emit.MethodBuilder.CreateMethodBody%2A" /> method.</exception>
         <exception cref="T:System.NotSupportedException">The method with which this <see cref="T:System.Reflection.Emit.ILGenerator" /> is associated is not represented by a <see cref="T:System.Reflection.Emit.MethodBuilder" />.</exception>
         <threadsafe />
       </Docs>
@@ -881,7 +881,7 @@
         <exception cref="T:System.ArgumentNullException">
           <paramref name="meth" /> is <see langword="null" />.</exception>
         <exception cref="T:System.NotSupportedException">
-          <paramref name="meth" /> is a generic method for which the &lt;xref:System.Reflection.MethodInfo.IsGenericMethodDefinition%2A?displayProperty=fullName&gt; property is <see langword="false" />.</exception>
+          <paramref name="meth" /> is a generic method for which the <see cref="System.Reflection.MethodInfo.IsGenericMethodDefinition%2A" /> property is <see langword="false" />.</exception>
         <threadsafe />
       </Docs>
     </Member>
@@ -1198,7 +1198,7 @@
       </Parameters>
       <Docs>
         <param name="localBuilder">The local variable whose value is to be written to the console.</param>
-        <summary>Emits the Microsoft intermediate language (MSIL) necessary to call &lt;xref:System.Console.WriteLine%2A?displayProperty=fullName&gt; with the given local variable.</summary>
+        <summary>Emits the Microsoft intermediate language (MSIL) necessary to call <see cref="System.Console.WriteLine%2A" /> with the given local variable.</summary>
         <remarks>
           <format type="text/markdown"><![CDATA[  
   
@@ -1220,7 +1220,7 @@
   
  -or-  
   
- There is no overload of &lt;xref:System.Console.WriteLine%2A?displayProperty=fullName&gt; that accepts the type of <paramref name="localBuilder" />.</exception>
+ There is no overload of <see cref="System.Console.WriteLine%2A" /> that accepts the type of <paramref name="localBuilder" />.</exception>
         <exception cref="T:System.ArgumentNullException">
           <paramref name="localBuilder" /> is <see langword="null" />.</exception>
         <threadsafe />
@@ -1244,7 +1244,7 @@
       </Parameters>
       <Docs>
         <param name="fld">The field whose value is to be written to the console.</param>
-        <summary>Emits the Microsoft intermediate language (MSIL) necessary to call &lt;xref:System.Console.WriteLine%2A?displayProperty=fullName&gt; with the given field.</summary>
+        <summary>Emits the Microsoft intermediate language (MSIL) necessary to call <see cref="System.Console.WriteLine%2A" /> with the given field.</summary>
         <remarks>
           <format type="text/markdown"><![CDATA[  
   
@@ -1262,7 +1262,7 @@
   
  ]]></format>
         </remarks>
-        <exception cref="T:System.ArgumentException">There is no overload of the &lt;xref:System.Console.WriteLine%2A?displayProperty=fullName&gt; method that accepts the type of the specified field.</exception>
+        <exception cref="T:System.ArgumentException">There is no overload of the <see cref="System.Console.WriteLine%2A" /> method that accepts the type of the specified field.</exception>
         <exception cref="T:System.ArgumentNullException">
           <paramref name="fld" /> is <see langword="null" />.</exception>
         <exception cref="T:System.NotSupportedException">The type of the field is <see cref="T:System.Reflection.Emit.TypeBuilder" /> or <see cref="T:System.Reflection.Emit.EnumBuilder" />, which are not supported.</exception>
@@ -1287,7 +1287,7 @@
       </Parameters>
       <Docs>
         <param name="value">The string to be printed.</param>
-        <summary>Emits the Microsoft intermediate language (MSIL) to call &lt;xref:System.Console.WriteLine%2A?displayProperty=fullName&gt; with a string.</summary>
+        <summary>Emits the Microsoft intermediate language (MSIL) to call <see cref="System.Console.WriteLine%2A" /> with a string.</summary>
         <remarks>
           <format type="text/markdown"><![CDATA[  
   

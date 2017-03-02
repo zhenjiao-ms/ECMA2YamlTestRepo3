@@ -79,7 +79,7 @@
       <Docs>
         <summary>Initializes a new instance of the <see cref="T:System.Reflection.PropertyInfo" /> class.</summary>
         <remarks>To be added.</remarks>
-        <permission cref="T:System.Security.Permissions.ReflectionPermission">when invoked late-bound through mechanisms such as &lt;xref:System.Type.InvokeMember%2A?displayProperty=fullName&gt;. Associated enumeration: <see cref="T:System.Security.Permissions.ReflectionPermissionFlag" />.</permission>
+        <permission cref="T:System.Security.Permissions.ReflectionPermission">when invoked late-bound through mechanisms such as <see cref="System.Type.InvokeMember%2A" />. Associated enumeration: <see cref="T:System.Security.Permissions.ReflectionPermissionFlag" />.</permission>
         <threadsafe />
       </Docs>
     </Member>
@@ -269,7 +269,7 @@
   
  ]]></format>
         </remarks>
-        <permission cref="T:System.Security.Permissions.ReflectionPermission">when invoked late-bound through mechanisms such as &lt;xref:System.Type.InvokeMember%2A?displayProperty=fullName&gt;. Associated enumeration: <see cref="T:System.Security.Permissions.ReflectionPermissionFlag" />.</permission>
+        <permission cref="T:System.Security.Permissions.ReflectionPermission">when invoked late-bound through mechanisms such as <see cref="System.Type.InvokeMember%2A" />. Associated enumeration: <see cref="T:System.Security.Permissions.ReflectionPermissionFlag" />.</permission>
         <threadsafe />
       </Docs>
     </Member>
@@ -316,7 +316,7 @@
   
  ]]></format>
         </remarks>
-        <permission cref="T:System.Security.Permissions.ReflectionPermission">when invoked late-bound through mechanisms such as &lt;xref:System.Type.InvokeMember%2A?displayProperty=fullName&gt;. Associated enumeration: <see cref="T:System.Security.Permissions.ReflectionPermissionFlag" />.</permission>
+        <permission cref="T:System.Security.Permissions.ReflectionPermission">when invoked late-bound through mechanisms such as <see cref="System.Type.InvokeMember%2A" />. Associated enumeration: <see cref="T:System.Security.Permissions.ReflectionPermissionFlag" />.</permission>
         <threadsafe />
       </Docs>
     </Member>
@@ -384,7 +384,7 @@
   
  ]]></format>
         </remarks>
-        <permission cref="T:System.Security.Permissions.ReflectionPermission">when invoked late-bound through mechanisms such as &lt;xref:System.Type.InvokeMember%2A?displayProperty=fullName&gt;. Associated enumeration: <see cref="T:System.Security.Permissions.ReflectionPermissionFlag" />.</permission>
+        <permission cref="T:System.Security.Permissions.ReflectionPermission">when invoked late-bound through mechanisms such as <see cref="System.Type.InvokeMember%2A" />. Associated enumeration: <see cref="T:System.Security.Permissions.ReflectionPermissionFlag" />.</permission>
         <threadsafe />
       </Docs>
     </Member>
@@ -428,7 +428,7 @@
  ]]></format>
         </remarks>
         <exception cref="T:System.Security.SecurityException">The requested method is non-public and the caller does not have <see cref="T:System.Security.Permissions.ReflectionPermission" /> to reflect on this non-public method.</exception>
-        <permission cref="T:System.Security.Permissions.ReflectionPermission">when invoked late-bound through mechanisms such as &lt;xref:System.Type.InvokeMember%2A?displayProperty=fullName&gt;. Associated enumeration: <see cref="T:System.Security.Permissions.ReflectionPermissionFlag" />.</permission>
+        <permission cref="T:System.Security.Permissions.ReflectionPermission">when invoked late-bound through mechanisms such as <see cref="System.Type.InvokeMember%2A" />. Associated enumeration: <see cref="T:System.Security.Permissions.ReflectionPermissionFlag" />.</permission>
         <threadsafe />
       </Docs>
     </Member>
@@ -487,7 +487,7 @@
   
  ]]></format>
         </remarks>
-        <permission cref="T:System.Security.Permissions.ReflectionPermission">when invoked late-bound through mechanisms such as &lt;xref:System.Type.InvokeMember%2A?displayProperty=fullName&gt;. Associated enumeration: <see cref="T:System.Security.Permissions.ReflectionPermissionFlag" />.</permission>
+        <permission cref="T:System.Security.Permissions.ReflectionPermission">when invoked late-bound through mechanisms such as <see cref="System.Type.InvokeMember%2A" />. Associated enumeration: <see cref="T:System.Security.Permissions.ReflectionPermissionFlag" />.</permission>
         <threadsafe />
       </Docs>
     </Member>
@@ -626,7 +626,7 @@
   
  ]]></format>
         </remarks>
-        <permission cref="T:System.Security.Permissions.ReflectionPermission">when invoked late-bound through mechanisms such as &lt;xref:System.Type.InvokeMember%2A?displayProperty=fullName&gt;. Associated enumeration: <see cref="T:System.Security.Permissions.ReflectionPermissionFlag" />.</permission>
+        <permission cref="T:System.Security.Permissions.ReflectionPermission">when invoked late-bound through mechanisms such as <see cref="System.Type.InvokeMember%2A" />. Associated enumeration: <see cref="T:System.Security.Permissions.ReflectionPermissionFlag" />.</permission>
         <threadsafe />
       </Docs>
     </Member>
@@ -707,7 +707,7 @@
  ]]></format>
         </remarks>
         <exception cref="T:System.Security.SecurityException">The requested method is non-public and the caller does not have <see cref="T:System.Security.Permissions.ReflectionPermission" /> to reflect on this non-public method.</exception>
-        <permission cref="T:System.Security.Permissions.ReflectionPermission">when invoked late-bound through mechanisms such as &lt;xref:System.Type.InvokeMember%2A?displayProperty=fullName&gt;. Associated enumeration: <see cref="T:System.Security.Permissions.ReflectionPermissionFlag" />.</permission>
+        <permission cref="T:System.Security.Permissions.ReflectionPermission">when invoked late-bound through mechanisms such as <see cref="System.Type.InvokeMember%2A" />. Associated enumeration: <see cref="T:System.Security.Permissions.ReflectionPermissionFlag" />.</permission>
         <threadsafe />
       </Docs>
     </Member>
@@ -836,8 +836,8 @@ Console.WriteLine("CurrCult: " +
 </block>  
   
  There was an illegal attempt to access a private or protected method inside a class.</exception>
-        <exception cref="T:System.Reflection.TargetInvocationException">An error occurred while retrieving the property value. For example, an index value specified for an indexed property is out of range. The &lt;xref:System.Exception.InnerException%2A&gt; property indicates the reason for the error.</exception>
-        <permission cref="T:System.Security.Permissions.ReflectionPermission">when invoked late-bound through mechanisms such as &lt;xref:System.Type.InvokeMember%2A?displayProperty=fullName&gt;. Associated enumeration: <see cref="T:System.Security.Permissions.ReflectionPermissionFlag" />.</permission>
+        <exception cref="T:System.Reflection.TargetInvocationException">An error occurred while retrieving the property value. For example, an index value specified for an indexed property is out of range. The <see cref="System.Exception.InnerException%2A" /> property indicates the reason for the error.</exception>
+        <permission cref="T:System.Security.Permissions.ReflectionPermission">when invoked late-bound through mechanisms such as <see cref="System.Type.InvokeMember%2A" />. Associated enumeration: <see cref="T:System.Security.Permissions.ReflectionPermissionFlag" />.</permission>
         <threadsafe />
       </Docs>
     </Member>
@@ -866,7 +866,7 @@ Console.WriteLine("CurrCult: " +
         <param name="invokeAttr">A bitwise combination of the following enumeration members that specify the invocation attribute: <see langword="InvokeMethod" />, <see langword="CreateInstance" />, <see langword="Static" />, <see langword="GetField" />, <see langword="SetField" />, <see langword="GetProperty" />, and <see langword="SetProperty" />. You must specify a suitable invocation attribute. For example, to invoke a static member, set the <see langword="Static" /> flag.</param>
         <param name="binder">An object that enables the binding, coercion of argument types, invocation of members, and retrieval of <see cref="T:System.Reflection.MemberInfo" /> objects through reflection. If `binder` is <see langword="null" />, the default binder is used.</param>
         <param name="index">Optional index values for indexed properties. This value should be <see langword="null" /> for non-indexed properties.</param>
-        <param name="culture">The culture for which the resource is to be localized. If the resource is not localized for this culture, the &lt;xref:System.Globalization.CultureInfo.Parent%2A?displayProperty=fullName&gt; property will be called successively in search of a match. If this value is <see langword="null" />, the culture-specific information is obtained from the &lt;xref:System.Globalization.CultureInfo.CurrentUICulture%2A?displayProperty=fullName&gt; property.</param>
+        <param name="culture">The culture for which the resource is to be localized. If the resource is not localized for this culture, the <see cref="System.Globalization.CultureInfo.Parent%2A" /> property will be called successively in search of a match. If this value is <see langword="null" />, the culture-specific information is obtained from the <see cref="System.Globalization.CultureInfo.CurrentUICulture%2A" /> property.</param>
         <summary>When overridden in a derived class, returns the property value of a specified object that has the specified binding, index, and culture-specific information.</summary>
         <returns>The property value of the specified object.</returns>
         <remarks>
@@ -901,8 +901,8 @@ Console.WriteLine("CurrCult: " +
         <exception cref="T:System.Reflection.TargetException">The object does not match the target type, or a property is an instance property but <paramref name="obj" /> is <see langword="null" />.</exception>
         <exception cref="T:System.Reflection.TargetParameterCountException">The number of parameters in <paramref name="index" /> does not match the number of parameters the indexed property takes.</exception>
         <exception cref="T:System.MethodAccessException">There was an illegal attempt to access a private or protected method inside a class.</exception>
-        <exception cref="T:System.Reflection.TargetInvocationException">An error occurred while retrieving the property value. For example, an index value specified for an indexed property is out of range. The &lt;xref:System.Exception.InnerException%2A&gt; property indicates the reason for the error.</exception>
-        <permission cref="T:System.Security.Permissions.ReflectionPermission">when invoked late-bound through mechanisms such as &lt;xref:System.Type.InvokeMember%2A?displayProperty=fullName&gt;. Associated enumeration: <see cref="T:System.Security.Permissions.ReflectionPermissionFlag" />.</permission>
+        <exception cref="T:System.Reflection.TargetInvocationException">An error occurred while retrieving the property value. For example, an index value specified for an indexed property is out of range. The <see cref="System.Exception.InnerException%2A" /> property indicates the reason for the error.</exception>
+        <permission cref="T:System.Security.Permissions.ReflectionPermission">when invoked late-bound through mechanisms such as <see cref="System.Type.InvokeMember%2A" />. Associated enumeration: <see cref="T:System.Security.Permissions.ReflectionPermissionFlag" />.</permission>
         <threadsafe />
       </Docs>
     </Member>
@@ -1156,7 +1156,7 @@ Console.WriteLine("CurrCult: " +
   
  -or-  
   
- <paramref name="value" /> cannot be converted to the type of &lt;xref:System.Reflection.PropertyInfo.PropertyType%2A&gt;.</exception>
+ <paramref name="value" /> cannot be converted to the type of <see cref="System.Reflection.PropertyInfo.PropertyType%2A" />.</exception>
         <exception cref="T:System.Reflection.TargetException">
           <block subset="none" type="note">  
  In the [.NET for Windows Store apps](http://go.microsoft.com/fwlink/?LinkID=247912) or the [Portable Class Library](../Topic/Cross-Platform%20Development%20with%20the%20Portable%20Class%20Library.md), catch <see cref="T:System.Exception" /> instead.  
@@ -1171,8 +1171,8 @@ Console.WriteLine("CurrCult: " +
 </block>  
   
  There was an illegal attempt to access a private or protected method inside a class.</exception>
-        <exception cref="T:System.Reflection.TargetInvocationException">An error occurred while setting the property value. The &lt;xref:System.Exception.InnerException%2A?displayProperty=fullName&gt; property indicates the reason for the error.</exception>
-        <permission cref="T:System.Security.Permissions.ReflectionPermission">when invoked late-bound through mechanisms such as &lt;xref:System.Type.InvokeMember%2A?displayProperty=fullName&gt;. Associated enumeration: <see cref="T:System.Security.Permissions.ReflectionPermissionFlag" />.</permission>
+        <exception cref="T:System.Reflection.TargetInvocationException">An error occurred while setting the property value. The <see cref="System.Exception.InnerException%2A" /> property indicates the reason for the error.</exception>
+        <permission cref="T:System.Security.Permissions.ReflectionPermission">when invoked late-bound through mechanisms such as <see cref="System.Type.InvokeMember%2A" />. Associated enumeration: <see cref="T:System.Security.Permissions.ReflectionPermissionFlag" />.</permission>
         <threadsafe />
       </Docs>
     </Member>
@@ -1256,7 +1256,7 @@ Console.WriteLine("CurrCult: " +
   
  -or-  
   
- <paramref name="value" /> cannot be converted to the type of &lt;xref:System.Reflection.PropertyInfo.PropertyType%2A&gt;.</exception>
+ <paramref name="value" /> cannot be converted to the type of <see cref="System.Reflection.PropertyInfo.PropertyType%2A" />.</exception>
         <exception cref="T:System.Reflection.TargetException">
           <block subset="none" type="note">  
  In the [.NET for Windows Store apps](http://go.microsoft.com/fwlink/?LinkID=247912) or the [Portable Class Library](../Topic/Cross-Platform%20Development%20with%20the%20Portable%20Class%20Library.md), catch <see cref="T:System.Exception" /> instead.  
@@ -1272,8 +1272,8 @@ Console.WriteLine("CurrCult: " +
 </block>  
   
  There was an illegal attempt to access a private or protected method inside a class.</exception>
-        <exception cref="T:System.Reflection.TargetInvocationException">An error occurred while setting the property value. For example, an index value specified for an indexed property is out of range. The &lt;xref:System.Exception.InnerException%2A&gt; property indicates the reason for the error.</exception>
-        <permission cref="T:System.Security.Permissions.ReflectionPermission">when invoked late-bound through mechanisms such as &lt;xref:System.Type.InvokeMember%2A?displayProperty=fullName&gt;. Associated enumeration: <see cref="T:System.Security.Permissions.ReflectionPermissionFlag" />.</permission>
+        <exception cref="T:System.Reflection.TargetInvocationException">An error occurred while setting the property value. For example, an index value specified for an indexed property is out of range. The <see cref="System.Exception.InnerException%2A" /> property indicates the reason for the error.</exception>
+        <permission cref="T:System.Security.Permissions.ReflectionPermission">when invoked late-bound through mechanisms such as <see cref="System.Type.InvokeMember%2A" />. Associated enumeration: <see cref="T:System.Security.Permissions.ReflectionPermissionFlag" />.</permission>
         <threadsafe />
       </Docs>
     </Member>
@@ -1304,7 +1304,7 @@ Console.WriteLine("CurrCult: " +
         <param name="invokeAttr">A bitwise combination of the following enumeration members that specify the invocation attribute: <see langword="InvokeMethod" />, <see langword="CreateInstance" />, <see langword="Static" />, <see langword="GetField" />, <see langword="SetField" />, <see langword="GetProperty" />, or <see langword="SetProperty" />. You must specify a suitable invocation attribute. For example, to invoke a static member, set the <see langword="Static" /> flag.</param>
         <param name="binder">An object that enables the binding, coercion of argument types, invocation of members, and retrieval of <see cref="T:System.Reflection.MemberInfo" /> objects through reflection. If `binder` is <see langword="null" />, the default binder is used.</param>
         <param name="index">Optional index values for indexed properties. This value should be <see langword="null" /> for non-indexed properties.</param>
-        <param name="culture">The culture for which the resource is to be localized. If the resource is not localized for this culture, the &lt;xref:System.Globalization.CultureInfo.Parent%2A?displayProperty=fullName&gt; property will be called successively in search of a match. If this value is <see langword="null" />, the culture-specific information is obtained from the &lt;xref:System.Globalization.CultureInfo.CurrentUICulture%2A?displayProperty=fullName&gt; property.</param>
+        <param name="culture">The culture for which the resource is to be localized. If the resource is not localized for this culture, the <see cref="System.Globalization.CultureInfo.Parent%2A" /> property will be called successively in search of a match. If this value is <see langword="null" />, the culture-specific information is obtained from the <see cref="System.Globalization.CultureInfo.CurrentUICulture%2A" /> property.</param>
         <summary>When overridden in a derived class, sets the property value for a specified object that has the specified binding, index, and culture-specific information.</summary>
         <remarks>
           <format type="text/markdown"><![CDATA[  
@@ -1333,12 +1333,12 @@ Console.WriteLine("CurrCult: " +
   
  -or-  
   
- <paramref name="value" /> cannot be converted to the type of &lt;xref:System.Reflection.PropertyInfo.PropertyType%2A&gt;.</exception>
+ <paramref name="value" /> cannot be converted to the type of <see cref="System.Reflection.PropertyInfo.PropertyType%2A" />.</exception>
         <exception cref="T:System.Reflection.TargetException">The object does not match the target type, or a property is an instance property but <paramref name="obj" /> is <see langword="null" />.</exception>
         <exception cref="T:System.Reflection.TargetParameterCountException">The number of parameters in <paramref name="index" /> does not match the number of parameters the indexed property takes.</exception>
         <exception cref="T:System.MethodAccessException">There was an illegal attempt to access a private or protected method inside a class.</exception>
-        <exception cref="T:System.Reflection.TargetInvocationException">An error occurred while setting the property value. For example, an index value specified for an indexed property is out of range. The &lt;xref:System.Exception.InnerException%2A&gt; property indicates the reason for the error.</exception>
-        <permission cref="T:System.Security.Permissions.ReflectionPermission">when invoked late-bound through mechanisms such as &lt;xref:System.Type.InvokeMember%2A?displayProperty=fullName&gt;. Associated enumeration: <see cref="T:System.Security.Permissions.ReflectionPermissionFlag" />.</permission>
+        <exception cref="T:System.Reflection.TargetInvocationException">An error occurred while setting the property value. For example, an index value specified for an indexed property is out of range. The <see cref="System.Exception.InnerException%2A" /> property indicates the reason for the error.</exception>
+        <permission cref="T:System.Security.Permissions.ReflectionPermission">when invoked late-bound through mechanisms such as <see cref="System.Type.InvokeMember%2A" />. Associated enumeration: <see cref="T:System.Security.Permissions.ReflectionPermissionFlag" />.</permission>
         <threadsafe />
       </Docs>
     </Member>

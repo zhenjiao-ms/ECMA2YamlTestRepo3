@@ -208,7 +208,7 @@
         <param name="punkObject">A reference to the object being registered as running.</param>
         <param name="pmkObjectName">A reference to the moniker that identifies `punkObject`.</param>
         <summary>Registers that the supplied object has entered the running state.</summary>
-        <returns>A value that can be used to identify this ROT entry in subsequent calls to &lt;xref:System.Runtime.InteropServices.ComTypes.IRunningObjectTable.Revoke%2A&gt; or &lt;xref:System.Runtime.InteropServices.ComTypes.IRunningObjectTable.NoteChangeTime%2A&gt;.</returns>
+        <returns>A value that can be used to identify this ROT entry in subsequent calls to <see cref="System.Runtime.InteropServices.ComTypes.IRunningObjectTable.Revoke%2A" /> or <see cref="System.Runtime.InteropServices.ComTypes.IRunningObjectTable.NoteChangeTime%2A" />.</returns>
         <remarks>
           <format type="text/markdown"><![CDATA[  
   

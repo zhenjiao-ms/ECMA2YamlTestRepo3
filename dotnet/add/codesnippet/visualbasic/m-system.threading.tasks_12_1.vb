@@ -1,15 +1,19 @@
+Imports System.Threading
 Imports System.Threading.Tasks
 
 Module Example
    Public Sub Main()
-      Dim t = Task.Run(Async Function()
-                                Await Task.Delay(TimeSpan.FromSeconds(1.5))
-                                Return 42
-                       End Function)
+      ShowThreadInfo("Application")
+
+      Dim t As Task = Task.Run(Sub() ShowThreadInfo("Task") )
       t.Wait()
-      Console.WriteLine("Task t Status: {0}, Result: {1}",
-                        t.Status, t.Result)
+   End Sub
+   
+   Private Sub ShowThreadInfo(s As String)
+      Console.WriteLine("{0} Thread ID: {1}",
+                        s, Thread.CurrentThread.ManagedThreadId)
    End Sub
 End Module
-' The example displays the following output:
-'       Task t Status: RanToCompletion, Result: 42
+' The example displays output like the following:
+'    Application thread ID: 1
+'    Task thread ID: 3

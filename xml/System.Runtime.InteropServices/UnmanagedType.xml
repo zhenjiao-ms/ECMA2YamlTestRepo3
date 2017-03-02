@@ -125,7 +125,7 @@
         <ReturnType>System.Runtime.InteropServices.UnmanagedType</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>When the &lt;xref:System.Runtime.InteropServices.MarshalAsAttribute.Value%2A?displayProperty=fullName&gt; property is set to <see langword="ByValArray" />, the <see cref="F:System.Runtime.InteropServices.MarshalAsAttribute.SizeConst" /> field must be set to indicate the number of elements in the array. The <see cref="F:System.Runtime.InteropServices.MarshalAsAttribute.ArraySubType" /> field can optionally contain the UnmanagedType of the array elements when it is necessary to differentiate among string types. You can use this UnmanagedType only on an array that whose elements appear as fields in a structure.</summary>
+        <summary>When the <see cref="System.Runtime.InteropServices.MarshalAsAttribute.Value%2A" /> property is set to <see langword="ByValArray" />, the <see cref="F:System.Runtime.InteropServices.MarshalAsAttribute.SizeConst" /> field must be set to indicate the number of elements in the array. The <see cref="F:System.Runtime.InteropServices.MarshalAsAttribute.ArraySubType" /> field can optionally contain the UnmanagedType of the array elements when it is necessary to differentiate among string types. You can use this UnmanagedType only on an array that whose elements appear as fields in a structure.</summary>
         <threadsafe />
       </Docs>
     </Member>

@@ -34,13 +34,13 @@
 ## Examples  
  The following example applies the MethodImplAttribute to the `GetCalendarName` method to ensure that it is not inlined at run time by the just-in-time (JIT) compiler.  
   
- [!code-vb[System.Runtime.CompilerServices.MethodImplAttribute#1](~/add/codesnippet/visualbasic/t-system.runtime.compile_11_1.vb)]
- [!code-cs[System.Runtime.CompilerServices.MethodImplAttribute#1](~/add/codesnippet/csharp/t-system.runtime.compile_11_1.cs)]  
+ [!code-vb[System.Runtime.CompilerServices.MethodImplAttribute#1](~/add/codesnippet/visualbasic/t-system.runtime.compile_12_1.vb)]
+ [!code-cs[System.Runtime.CompilerServices.MethodImplAttribute#1](~/add/codesnippet/csharp/t-system.runtime.compile_12_1.cs)]  
   
  The following example then calls the `MethodInfo.GetMethodImplementationFlags` method to determine which flags are set for the `GetCalendarName` method. It also demonstrates that this information is not retrieved by the <xref:System.Reflection.MemberInfo.GetCustomAttributes%2A?displayProperty=fullName> method.  
   
- [!code-cs[System.Runtime.CompilerServices.MethodImplAttribute#2](~/add/codesnippet/csharp/t-system.runtime.compile_11_2.cs)]
- [!code-vb[System.Runtime.CompilerServices.MethodImplAttribute#2](~/add/codesnippet/visualbasic/t-system.runtime.compile_11_2.vb)]  
+ [!code-cs[System.Runtime.CompilerServices.MethodImplAttribute#2](~/add/codesnippet/csharp/t-system.runtime.compile_12_2.cs)]
+ [!code-vb[System.Runtime.CompilerServices.MethodImplAttribute#2](~/add/codesnippet/visualbasic/t-system.runtime.compile_12_2.vb)]  
   
  ]]></format>
     </remarks>

@@ -423,7 +423,7 @@ C:\Users\userName\AppData\Local\Temp\tmp70CB.tmp was successfully deleted.
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>Decrypts a file that was encrypted by the current account using the &lt;xref:System.IO.FileInfo.Encrypt%2A&gt; method.</summary>
+        <summary>Decrypts a file that was encrypted by the current account using the <see cref="System.IO.FileInfo.Encrypt%2A" /> method.</summary>
         <remarks>
           <format type="text/markdown"><![CDATA[  
   
@@ -917,7 +917,8 @@ C:\Users\userName\AppData\Local\Temp\tmp70CB.tmp was successfully deleted.
   
  ]]></format>
         </remarks>
-        <exception cref="T:System.IO.IOException">&lt;xref:System.IO.FileSystemInfo.Refresh%2A&gt; cannot update the state of the file or directory.</exception>
+        <exception cref="T:System.IO.IOException">
+          <see cref="System.IO.FileSystemInfo.Refresh%2A" /> cannot update the state of the file or directory.</exception>
         <exception cref="T:System.IO.FileNotFoundException">The file does not exist.  
   
  -or-  

@@ -120,7 +120,7 @@
         <param name="other">The other object to which to compare this instance.</param>
         <summary>Determines whether the current <see cref="T:System.Threading.CancellationToken" /> instance is equal to the specified <see cref="T:System.Object" />.</summary>
         <returns>
-          <see langword="true" /> if <paramref name="other" /> is a <see cref="T:System.Threading.CancellationToken" /> and if the two instances are equal; otherwise, <see langword="false" />. Two tokens are equal if they are associated with the same <see cref="T:System.Threading.CancellationTokenSource" /> or if they were both constructed from public <see cref="T:System.Threading.CancellationToken" /> constructors and their &lt;xref:System.Threading.CancellationToken.IsCancellationRequested%2A&gt; values are equal.</returns>
+          <see langword="true" /> if <paramref name="other" /> is a <see cref="T:System.Threading.CancellationToken" /> and if the two instances are equal; otherwise, <see langword="false" />. Two tokens are equal if they are associated with the same <see cref="T:System.Threading.CancellationTokenSource" /> or if they were both constructed from public <see cref="T:System.Threading.CancellationToken" /> constructors and their <see cref="System.Threading.CancellationToken.IsCancellationRequested%2A" /> values are equal.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ObjectDisposedException">An associated <see cref="T:System.Threading.CancellationTokenSource" /> has been disposed.</exception>
         <threadsafe />
@@ -144,7 +144,7 @@
         <param name="other">The other <see cref="T:System.Threading.CancellationToken" /> to which to compare this instance.</param>
         <summary>Determines whether the current <see cref="T:System.Threading.CancellationToken" /> instance is equal to the specified token.</summary>
         <returns>
-          <see langword="true" /> if the instances are equal; otherwise, <see langword="false" />. Two tokens are equal if they are associated with the same <see cref="T:System.Threading.CancellationTokenSource" /> or if they were both constructed from public <see cref="T:System.Threading.CancellationToken" /> constructors and their &lt;xref:System.Threading.CancellationToken.IsCancellationRequested%2A&gt; values are equal.</returns>
+          <see langword="true" /> if the instances are equal; otherwise, <see langword="false" />. Two tokens are equal if they are associated with the same <see cref="T:System.Threading.CancellationTokenSource" /> or if they were both constructed from public <see cref="T:System.Threading.CancellationToken" /> constructors and their <see cref="System.Threading.CancellationToken.IsCancellationRequested%2A" /> values are equal.</returns>
         <remarks>To be added.</remarks>
         <threadsafe />
       </Docs>

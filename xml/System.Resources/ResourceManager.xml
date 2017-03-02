@@ -697,7 +697,7 @@ csc Example.cs /resource:ExampleResources.resources
  ]]></format>
         </remarks>
         <exception cref="T:System.ArgumentNullException">The <paramref name="baseName" /> or <paramref name="resourceDir" /> parameter is <see langword="null" />.</exception>
-        <permission cref="T:System.Security.Permissions.ReflectionPermission">when invoked late-bound through mechanisms such as &lt;xref:System.Type.InvokeMember%2A?displayProperty=fullName&gt;. Associated enumeration: <see cref="T:System.Security.Permissions.ReflectionPermissionFlag" />.</permission>
+        <permission cref="T:System.Security.Permissions.ReflectionPermission">when invoked late-bound through mechanisms such as <see cref="System.Type.InvokeMember%2A" />. Associated enumeration: <see cref="T:System.Security.Permissions.ReflectionPermissionFlag" />.</permission>
         <threadsafe />
       </Docs>
     </Member>
@@ -755,7 +755,7 @@ csc Example.cs /resource:ExampleResources.resources
         <summary>Returns culture-specific information for the main assembly's default resources by retrieving the value of the <see cref="T:System.Resources.NeutralResourcesLanguageAttribute" /> attribute on a specified assembly.</summary>
         <returns>The culture from the <see cref="T:System.Resources.NeutralResourcesLanguageAttribute" /> attribute, if found; otherwise, the invariant culture.</returns>
         <remarks>To be added.</remarks>
-        <permission cref="T:System.Security.Permissions.ReflectionPermission">when invoked late-bound through mechanisms such as &lt;xref:System.Type.InvokeMember%2A?displayProperty=fullName&gt;. Associated enumeration: <see cref="T:System.Security.Permissions.ReflectionPermissionFlag" />.</permission>
+        <permission cref="T:System.Security.Permissions.ReflectionPermission">when invoked late-bound through mechanisms such as <see cref="System.Type.InvokeMember%2A" />. Associated enumeration: <see cref="T:System.Security.Permissions.ReflectionPermissionFlag" />.</permission>
         <threadsafe />
       </Docs>
     </Member>
@@ -833,7 +833,7 @@ GetObject.exe
         <exception cref="T:System.ArgumentNullException">The <paramref name="name" /> parameter is <see langword="null" />.</exception>
         <exception cref="T:System.Resources.MissingManifestResourceException">No usable set of localized resources has been found, and there are no default culture resources. For information about how to handle this exception, see the "Handling MissingManifestResourceException and MissingSatelliteAssemblyException Exceptions" section in the <see cref="T:System.Resources.ResourceManager" /> class topic.</exception>
         <exception cref="T:System.Resources.MissingSatelliteAssemblyException">The default culture's resources reside in a satellite assembly that could not be found. For information about how to handle this exception, see the "Handling MissingManifestResourceException and MissingSatelliteAssemblyException Exceptions" section in the <see cref="T:System.Resources.ResourceManager" /> class topic.</exception>
-        <permission cref="T:System.Security.Permissions.ReflectionPermission">when invoked late-bound through mechanisms such as &lt;xref:System.Type.InvokeMember%2A?displayProperty=fullName&gt;. Associated enumeration: <see cref="T:System.Security.Permissions.ReflectionPermissionFlag" />.</permission>
+        <permission cref="T:System.Security.Permissions.ReflectionPermission">when invoked late-bound through mechanisms such as <see cref="System.Type.InvokeMember%2A" />. Associated enumeration: <see cref="T:System.Security.Permissions.ReflectionPermissionFlag" />.</permission>
         <threadsafe />
       </Docs>
     </Member>
@@ -858,7 +858,7 @@ GetObject.exe
         <param name="name">The name of the resource to get.</param>
         <param name="culture">The culture for which the resource is localized. If the resource is not localized for this culture, the resource manager uses fallback rules to locate an appropriate resource.  
   
- If this value is <see langword="null" />, the <see cref="T:System.Globalization.CultureInfo" /> object is obtained by using the &lt;xref:System.Globalization.CultureInfo.CurrentUICulture%2A?displayProperty=fullName&gt; property.</param>
+ If this value is <see langword="null" />, the <see cref="T:System.Globalization.CultureInfo" /> object is obtained by using the <see cref="System.Globalization.CultureInfo.CurrentUICulture%2A" /> property.</param>
         <summary>Gets the value of the specified non-string resource localized for the specified culture.</summary>
         <returns>The value of the resource, localized for the specified culture. If an appropriate resource set exists but <paramref name="name" /> cannot be found, the method returns <see langword="null" />.</returns>
         <remarks>
@@ -927,7 +927,7 @@ ShowNumbers.exe
         <exception cref="T:System.ArgumentNullException">The <paramref name="name" /> parameter is <see langword="null" />.</exception>
         <exception cref="T:System.Resources.MissingManifestResourceException">No usable set of resources have been found, and there are no default culture resources. For information about how to handle this exception, see the "Handling MissingManifestResourceException and MissingSatelliteAssemblyException Exceptions" section in the <see cref="T:System.Resources.ResourceManager" /> class topic.</exception>
         <exception cref="T:System.Resources.MissingSatelliteAssemblyException">The default culture's resources reside in a satellite assembly that could not be found. For information about how to handle this exception, see the "Handling MissingManifestResourceException and MissingSatelliteAssemblyException Exceptions" section in the <see cref="T:System.Resources.ResourceManager" /> class topic.</exception>
-        <permission cref="T:System.Security.Permissions.ReflectionPermission">when invoked late-bound through mechanisms such as &lt;xref:System.Type.InvokeMember%2A?displayProperty=fullName&gt;. Associated enumeration: <see cref="T:System.Security.Permissions.ReflectionPermissionFlag" />.</permission>
+        <permission cref="T:System.Security.Permissions.ReflectionPermission">when invoked late-bound through mechanisms such as <see cref="System.Type.InvokeMember%2A" />. Associated enumeration: <see cref="T:System.Security.Permissions.ReflectionPermissionFlag" />.</permission>
         <threadsafe>The GetObject method is thread safe.</threadsafe>
       </Docs>
     </Member>
@@ -963,7 +963,7 @@ ShowNumbers.exe
   
  ]]></format>
         </remarks>
-        <permission cref="T:System.Security.Permissions.ReflectionPermission">when invoked late-bound through mechanisms such as &lt;xref:System.Type.InvokeMember%2A?displayProperty=fullName&gt;. Associated enumeration: <see cref="T:System.Security.Permissions.ReflectionPermissionFlag" />.</permission>
+        <permission cref="T:System.Security.Permissions.ReflectionPermission">when invoked late-bound through mechanisms such as <see cref="System.Type.InvokeMember%2A" />. Associated enumeration: <see cref="T:System.Security.Permissions.ReflectionPermissionFlag" />.</permission>
         <threadsafe />
       </Docs>
     </Member>
@@ -1070,7 +1070,7 @@ al /out:fr-FR\ShowNumbers.resources.dll /culture:fr-FR /embed:NumberResources.fr
         <exception cref="T:System.ArgumentNullException">The <paramref name="culture" /> parameter is <see langword="null" />.</exception>
         <exception cref="  &#xA;            T:System.Resources.MissingManifestResourceException">
           <paramref name="tryParents" /> is <see langword="true" />, no usable set of resources has been found, and there are no default culture resources.</exception>
-        <permission cref="T:System.Security.Permissions.ReflectionPermission">when invoked late-bound through mechanisms such as &lt;xref:System.Type.InvokeMember%2A?displayProperty=fullName&gt;. Associated enumeration: <see cref="T:System.Security.Permissions.ReflectionPermissionFlag" />.</permission>
+        <permission cref="T:System.Security.Permissions.ReflectionPermission">when invoked late-bound through mechanisms such as <see cref="System.Type.InvokeMember%2A" />. Associated enumeration: <see cref="T:System.Security.Permissions.ReflectionPermissionFlag" />.</permission>
         <threadsafe />
       </Docs>
     </Member>
@@ -1105,7 +1105,7 @@ al /out:fr-FR\ShowNumbers.resources.dll /culture:fr-FR /embed:NumberResources.fr
         <exception cref="T:System.ArgumentException">The <see cref="T:System.Version" /> found in the assembly <paramref name="a" /> is invalid.</exception>
         <exception cref="T:System.ArgumentNullException">
           <paramref name="a" /> is <see langword="null" />.</exception>
-        <permission cref="T:System.Security.Permissions.ReflectionPermission">when invoked late-bound through mechanisms such as &lt;xref:System.Type.InvokeMember%2A?displayProperty=fullName&gt;. Associated enumeration: <see cref="T:System.Security.Permissions.ReflectionPermissionFlag" />.</permission>
+        <permission cref="T:System.Security.Permissions.ReflectionPermission">when invoked late-bound through mechanisms such as <see cref="System.Type.InvokeMember%2A" />. Associated enumeration: <see cref="T:System.Security.Permissions.ReflectionPermissionFlag" />.</permission>
         <threadsafe />
       </Docs>
     </Member>
@@ -1176,7 +1176,7 @@ csc GetStream.cs /resource:AppResources.resources
           <paramref name="name" /> is <see langword="null" />.</exception>
         <exception cref="T:System.Resources.MissingManifestResourceException">No usable set of resources is found, and there are no default resources. For information about how to handle this exception, see the "Handling MissingManifestResourceException and MissingSatelliteAssemblyException Exceptions" section in the <see cref="T:System.Resources.ResourceManager" /> class topic.</exception>
         <exception cref="T:System.Resources.MissingSatelliteAssemblyException">The default culture's resources reside in a satellite assembly that could not be found. For information about how to handle this exception, see the "Handling MissingManifestResourceException and MissingSatelliteAssemblyException Exceptions" section in the <see cref="T:System.Resources.ResourceManager" /> class topic.</exception>
-        <permission cref="T:System.Security.Permissions.ReflectionPermission">when invoked late-bound through mechanisms such as &lt;xref:System.Type.InvokeMember%2A?displayProperty=fullName&gt;. Associated enumeration: <see cref="T:System.Security.Permissions.ReflectionPermissionFlag" />.</permission>
+        <permission cref="T:System.Security.Permissions.ReflectionPermission">when invoked late-bound through mechanisms such as <see cref="System.Type.InvokeMember%2A" />. Associated enumeration: <see cref="T:System.Security.Permissions.ReflectionPermissionFlag" />.</permission>
         <threadsafe />
       </Docs>
     </Member>
@@ -1223,7 +1223,7 @@ csc GetStream.cs /resource:AppResources.resources
           <paramref name="name" /> is <see langword="null" />.</exception>
         <exception cref="T:System.Resources.MissingManifestResourceException">No usable set of resources is found, and there are no default resources. For information about how to handle this exception, see the "Handling MissingManifestResourceException and MissingSatelliteAssemblyException Exceptions" section in the <see cref="T:System.Resources.ResourceManager" /> class topic.</exception>
         <exception cref="T:System.Resources.MissingSatelliteAssemblyException">The default culture's resources reside in a satellite assembly that could not be found. For information about how to handle this exception, see the "Handling MissingManifestResourceException and MissingSatelliteAssemblyException Exceptions" section in the <see cref="T:System.Resources.ResourceManager" /> class topic.</exception>
-        <permission cref="T:System.Security.Permissions.ReflectionPermission">when invoked late-bound through mechanisms such as &lt;xref:System.Type.InvokeMember%2A?displayProperty=fullName&gt;. Associated enumeration: <see cref="T:System.Security.Permissions.ReflectionPermissionFlag" />.</permission>
+        <permission cref="T:System.Security.Permissions.ReflectionPermission">when invoked late-bound through mechanisms such as <see cref="System.Type.InvokeMember%2A" />. Associated enumeration: <see cref="T:System.Security.Permissions.ReflectionPermissionFlag" />.</permission>
         <threadsafe />
       </Docs>
     </Member>
@@ -1304,7 +1304,7 @@ al /out:ru-RU\Showdate.resources.dll /culture:ru-RU /embed:DateStrings.ru-RU.res
         <exception cref="T:System.InvalidOperationException">The value of the specified resource is not a string.</exception>
         <exception cref="T:System.Resources.MissingManifestResourceException">No usable set of resources has been found, and there are no resources for the default culture. For information about how to handle this exception, see the "Handling MissingManifestResourceException and MissingSatelliteAssemblyException Exceptions" section in the <see cref="T:System.Resources.ResourceManager" /> class topic.</exception>
         <exception cref="T:System.Resources.MissingSatelliteAssemblyException">The default culture's resources reside in a satellite assembly that could not be found. For information about how to handle this exception, see the "Handling MissingManifestResourceException and MissingSatelliteAssemblyException Exceptions" section in the <see cref="T:System.Resources.ResourceManager" /> class topic.</exception>
-        <permission cref="T:System.Security.Permissions.ReflectionPermission">when invoked late-bound through mechanisms such as &lt;xref:System.Type.InvokeMember%2A?displayProperty=fullName&gt;. Associated enumeration: <see cref="T:System.Security.Permissions.ReflectionPermissionFlag" />.</permission>
+        <permission cref="T:System.Security.Permissions.ReflectionPermission">when invoked late-bound through mechanisms such as <see cref="System.Type.InvokeMember%2A" />. Associated enumeration: <see cref="T:System.Security.Permissions.ReflectionPermissionFlag" />.</permission>
         <threadsafe>The GetString method is thread safe.</threadsafe>
       </Docs>
     </Member>
@@ -1391,7 +1391,7 @@ al /out:ru-RU\Showdate.resources.dll /culture:ru-RU /embed:DateStrings.ru-RU.res
         <exception cref="T:System.InvalidOperationException">The value of the specified resource is not a string.</exception>
         <exception cref="T:System.Resources.MissingManifestResourceException">No usable set of resources has been found, and there are no resources for a default culture. For information about how to handle this exception, see the "Handling MissingManifestResourceException and MissingSatelliteAssemblyException Exceptions" section in the <see cref="T:System.Resources.ResourceManager" /> class topic.</exception>
         <exception cref="T:System.Resources.MissingSatelliteAssemblyException">The default culture's resources reside in a satellite assembly that could not be found. For information about how to handle this exception, see the "Handling MissingManifestResourceException and MissingSatelliteAssemblyException Exceptions" section in the <see cref="T:System.Resources.ResourceManager" /> class topic.</exception>
-        <permission cref="T:System.Security.Permissions.ReflectionPermission">when invoked late-bound through mechanisms such as &lt;xref:System.Type.InvokeMember%2A?displayProperty=fullName&gt;. Associated enumeration: <see cref="T:System.Security.Permissions.ReflectionPermissionFlag" />.</permission>
+        <permission cref="T:System.Security.Permissions.ReflectionPermission">when invoked late-bound through mechanisms such as <see cref="System.Type.InvokeMember%2A" />. Associated enumeration: <see cref="T:System.Security.Permissions.ReflectionPermissionFlag" />.</permission>
         <threadsafe>The GetString method is thread safe.</threadsafe>
       </Docs>
     </Member>
@@ -1428,7 +1428,7 @@ al /out:ru-RU\Showdate.resources.dll /culture:ru-RU /embed:DateStrings.ru-RU.res
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Gets or sets a value that indicates whether the resource manager allows case-insensitive resource lookups in the &lt;xref:System.Resources.ResourceManager.GetString%2A&gt; and &lt;xref:System.Resources.ResourceManager.GetObject%2A&gt; methods.</summary>
+        <summary>Gets or sets a value that indicates whether the resource manager allows case-insensitive resource lookups in the <see cref="System.Resources.ResourceManager.GetString%2A" /> and <see cref="System.Resources.ResourceManager.GetObject%2A" /> methods.</summary>
         <value>
           <see langword="true" /> to ignore case during resource lookup; otherwise, <see langword="false" />.</value>
         <remarks>
@@ -1482,7 +1482,7 @@ al /out:ru-RU\Showdate.resources.dll /culture:ru-RU /embed:DateStrings.ru-RU.res
         <exception cref="T:System.Resources.MissingManifestResourceException">The main assembly does not contain a .resources file, which is required to look up a resource.</exception>
         <exception cref="T:System.ExecutionEngineException">There was an internal error in the runtime.</exception>
         <exception cref="T:System.Resources.MissingSatelliteAssemblyException">The satellite assembly associated with <paramref name="culture" /> could not be located.</exception>
-        <permission cref="T:System.Security.Permissions.ReflectionPermission">when invoked late-bound through mechanisms such as &lt;xref:System.Type.InvokeMember%2A?displayProperty=fullName&gt;. Associated enumeration: <see cref="T:System.Security.Permissions.ReflectionPermissionFlag" />.</permission>
+        <permission cref="T:System.Security.Permissions.ReflectionPermission">when invoked late-bound through mechanisms such as <see cref="System.Type.InvokeMember%2A" />. Associated enumeration: <see cref="T:System.Security.Permissions.ReflectionPermissionFlag" />.</permission>
         <threadsafe />
       </Docs>
     </Member>
@@ -1557,7 +1557,7 @@ al /out:ru-RU\Showdate.resources.dll /culture:ru-RU /embed:DateStrings.ru-RU.res
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>Tells the resource manager to call the &lt;xref:System.Resources.ResourceSet.Close%2A&gt; method on all <see cref="T:System.Resources.ResourceSet" /> objects and release all resources.</summary>
+        <summary>Tells the resource manager to call the <see cref="System.Resources.ResourceSet.Close%2A" /> method on all <see cref="T:System.Resources.ResourceSet" /> objects and release all resources.</summary>
         <remarks>
           <format type="text/markdown"><![CDATA[  
   
@@ -1574,7 +1574,7 @@ al /out:ru-RU\Showdate.resources.dll /culture:ru-RU /embed:DateStrings.ru-RU.res
   
  ]]></format>
         </remarks>
-        <permission cref="T:System.Security.Permissions.ReflectionPermission">when invoked late-bound through mechanisms such as &lt;xref:System.Type.InvokeMember%2A?displayProperty=fullName&gt;. Associated enumeration: <see cref="T:System.Security.Permissions.ReflectionPermissionFlag" />.</permission>
+        <permission cref="T:System.Security.Permissions.ReflectionPermission">when invoked late-bound through mechanisms such as <see cref="System.Type.InvokeMember%2A" />. Associated enumeration: <see cref="T:System.Security.Permissions.ReflectionPermissionFlag" />.</permission>
         <threadsafe />
       </Docs>
     </Member>

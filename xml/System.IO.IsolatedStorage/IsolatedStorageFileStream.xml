@@ -458,7 +458,7 @@
         <param name="userCallback">The method to call when the asynchronous read operation is completed. This parameter is optional.</param>
         <param name="stateObject">The status of the asynchronous read.</param>
         <summary>Begins an asynchronous read.</summary>
-        <returns>An <see cref="T:System.IAsyncResult" /> object that represents the asynchronous read, which is possibly still pending. This <see cref="T:System.IAsyncResult" /> must be passed to this stream's &lt;xref:System.IO.IsolatedStorage.IsolatedStorageFileStream.EndRead%2A&gt; method to determine how many bytes were read. This can be done either by the same code that called BeginRead or in a callback passed to BeginRead.</returns>
+        <returns>An <see cref="T:System.IAsyncResult" /> object that represents the asynchronous read, which is possibly still pending. This <see cref="T:System.IAsyncResult" /> must be passed to this stream's <see cref="System.IO.IsolatedStorage.IsolatedStorageFileStream.EndRead%2A" /> method to determine how many bytes were read. This can be done either by the same code that called BeginRead or in a callback passed to BeginRead.</returns>
         <remarks>
           <format type="text/markdown"><![CDATA[  
   
@@ -505,7 +505,7 @@
         <param name="userCallback">The method to call when the asynchronous write operation is completed. This parameter is optional.</param>
         <param name="stateObject">The status of the asynchronous write.</param>
         <summary>Begins an asynchronous write.</summary>
-        <returns>An <see cref="T:System.IAsyncResult" /> that represents the asynchronous write, which is possibly still pending. This <see cref="T:System.IAsyncResult" /> must be passed to this stream's &lt;xref:System.IO.Stream.EndWrite%2A&gt; method to ensure that the write is complete, then frees resources appropriately. This can be done either by the same code that called &lt;xref:System.IO.Stream.BeginWrite%2A&gt; or in a callback passed to &lt;xref:System.IO.Stream.BeginWrite%2A&gt;.</returns>
+        <returns>An <see cref="T:System.IAsyncResult" /> that represents the asynchronous write, which is possibly still pending. This <see cref="T:System.IAsyncResult" /> must be passed to this stream's <see cref="System.IO.Stream.EndWrite%2A" /> method to ensure that the write is complete, then frees resources appropriately. This can be done either by the same code that called <see cref="System.IO.Stream.BeginWrite%2A" /> or in a callback passed to <see cref="System.IO.Stream.BeginWrite%2A" />.</returns>
         <remarks>
           <format type="text/markdown"><![CDATA[  
   

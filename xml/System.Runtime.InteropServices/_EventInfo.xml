@@ -60,7 +60,7 @@
       <Docs>
         <param name="target">The event source.</param>
         <param name="handler">A method or methods to be invoked when the event is raised by the target.</param>
-        <summary>Provides COM objects with version-independent access to the &lt;xref:System.Reflection.EventInfo.AddEventHandler%2A&gt; method.</summary>
+        <summary>Provides COM objects with version-independent access to the <see cref="System.Reflection.EventInfo.AddEventHandler%2A" /> method.</summary>
         <remarks>
           <format type="text/markdown"><![CDATA[  
   
@@ -88,7 +88,7 @@
         <ReturnType>System.Reflection.EventAttributes</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Provides COM objects with version-independent access to the &lt;xref:System.Reflection.EventInfo.Attributes%2A&gt; property.</summary>
+        <summary>Provides COM objects with version-independent access to the <see cref="System.Reflection.EventInfo.Attributes%2A" /> property.</summary>
         <value>The read-only attributes for this event.</value>
         <remarks>
           <format type="text/markdown"><![CDATA[  
@@ -117,7 +117,7 @@
         <ReturnType>System.Type</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Provides COM objects with version-independent access to the &lt;xref:System.Reflection.MemberInfo.DeclaringType%2A&gt; property.</summary>
+        <summary>Provides COM objects with version-independent access to the <see cref="System.Reflection.MemberInfo.DeclaringType%2A" /> property.</summary>
         <value>The <see langword="Type" /> object for the class that declares this member.</value>
         <remarks>
           <format type="text/markdown"><![CDATA[  
@@ -150,7 +150,7 @@
       </Parameters>
       <Docs>
         <param name="other">The <see cref="T:System.Object" /> to compare with the current <see cref="T:System.Object" />.</param>
-        <summary>Provides COM objects with version-independent access to the &lt;xref:System.Object.Equals%2A&gt; method.</summary>
+        <summary>Provides COM objects with version-independent access to the <see cref="System.Object.Equals%2A" /> method.</summary>
         <returns>
           <see langword="true" /> if the specified <see cref="T:System.Object" /> is equal to the current <see cref="T:System.Object" />; otherwise, <see langword="false" />.</returns>
         <remarks>
@@ -180,7 +180,7 @@
         <ReturnType>System.Type</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Provides COM objects with version-independent access to the &lt;xref:System.Reflection.EventInfo.EventHandlerType%2A&gt; property.</summary>
+        <summary>Provides COM objects with version-independent access to the <see cref="System.Reflection.EventInfo.EventHandlerType%2A" /> property.</summary>
         <value>A read-only <see cref="T:System.Type" /> object representing the delegate event handler.</value>
         <remarks>
           <format type="text/markdown"><![CDATA[  
@@ -210,7 +210,7 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>Provides COM objects with version-independent access to the &lt;xref:System.Reflection.EventInfo.GetAddMethod%2A&gt; method.</summary>
+        <summary>Provides COM objects with version-independent access to the <see cref="System.Reflection.EventInfo.GetAddMethod%2A" /> method.</summary>
         <returns>A <see cref="T:System.Reflection.MethodInfo" /> object representing the method used to add an event-handler delegate to the event source.</returns>
         <remarks>
           <format type="text/markdown"><![CDATA[  
@@ -244,7 +244,7 @@
       <Docs>
         <param name="nonPublic">
           <see langword="true" /> to return non-public methods; otherwise, <see langword="false" />.</param>
-        <summary>Provides COM objects with version-independent access to the &lt;xref:System.Reflection.EventInfo.GetAddMethod%2A&gt; method.</summary>
+        <summary>Provides COM objects with version-independent access to the <see cref="System.Reflection.EventInfo.GetAddMethod%2A" /> method.</summary>
         <returns>A <see cref="T:System.Reflection.MethodInfo" /> object representing the method used to add an event-handler delegate to the event source.</returns>
         <remarks>
           <format type="text/markdown"><![CDATA[  
@@ -278,7 +278,7 @@
       <Docs>
         <param name="inherit">
           <see langword="true" /> to search a member's inheritance chain to find the attributes; otherwise, false.</param>
-        <summary>Provides COM objects with version-independent access to the &lt;xref:System.Reflection.MemberInfo.GetCustomAttributes%2A&gt; method.</summary>
+        <summary>Provides COM objects with version-independent access to the <see cref="System.Reflection.MemberInfo.GetCustomAttributes%2A" /> method.</summary>
         <returns>An array that contains all the custom attributes, or an array with zero (0) elements if no attributes are defined.</returns>
         <remarks>
           <format type="text/markdown"><![CDATA[  
@@ -314,7 +314,7 @@
         <param name="attributeType">The type of attribute to search for. Only attributes that are assignable to this type are returned.</param>
         <param name="inherit">
           <see langword="true" /> to search this member's inheritance chain to find the attributes; otherwise, <see langword="false" />.</param>
-        <summary>Provides COM objects with version-independent access to the &lt;xref:System.Reflection.MemberInfo.GetCustomAttributes%2A&gt; method.</summary>
+        <summary>Provides COM objects with version-independent access to the <see cref="System.Reflection.MemberInfo.GetCustomAttributes%2A" /> method.</summary>
         <returns>An array of custom attributes applied to this member, or an array with zero (0) elements if no attributes have been applied.</returns>
         <remarks>
           <format type="text/markdown"><![CDATA[  
@@ -344,7 +344,7 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>Provides COM objects with version-independent access to the &lt;xref:System.Object.GetHashCode%2A&gt; method.</summary>
+        <summary>Provides COM objects with version-independent access to the <see cref="System.Object.GetHashCode%2A" /> method.</summary>
         <returns>The hash code for the current instance.</returns>
         <remarks>
           <format type="text/markdown"><![CDATA[  
@@ -412,7 +412,7 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>Provides COM objects with version-independent access to the &lt;xref:System.Reflection.EventInfo.GetRaiseMethod%2A&gt; method.</summary>
+        <summary>Provides COM objects with version-independent access to the <see cref="System.Reflection.EventInfo.GetRaiseMethod%2A" /> method.</summary>
         <returns>The method that is called when the event is raised.</returns>
         <remarks>
           <format type="text/markdown"><![CDATA[  
@@ -446,7 +446,7 @@
       <Docs>
         <param name="nonPublic">
           <see langword="true" /> to return non-public methods; otherwise, <see langword="false" />.</param>
-        <summary>Provides COM objects with version-independent access to the &lt;xref:System.Reflection.EventInfo.GetRaiseMethod%2A&gt; method.</summary>
+        <summary>Provides COM objects with version-independent access to the <see cref="System.Reflection.EventInfo.GetRaiseMethod%2A" /> method.</summary>
         <returns>The <see cref="T:System.Reflection.MethodInfo" /> object that was called when the event was raised.</returns>
         <remarks>
           <format type="text/markdown"><![CDATA[  
@@ -476,7 +476,7 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>Provides COM objects with version-independent access to the &lt;xref:System.Reflection.EventInfo.GetRemoveMethod%2A&gt; method.</summary>
+        <summary>Provides COM objects with version-independent access to the <see cref="System.Reflection.EventInfo.GetRemoveMethod%2A" /> method.</summary>
         <returns>A <see cref="T:System.Reflection.MethodInfo" /> object representing the method used to remove an event-handler delegate from the event source.</returns>
         <remarks>
           <format type="text/markdown"><![CDATA[  
@@ -510,7 +510,7 @@
       <Docs>
         <param name="nonPublic">
           <see langword="true" /> to return non-public methods; otherwise, <see langword="false" />.</param>
-        <summary>Provides COM objects with version-independent access to the &lt;xref:System.Reflection.EventInfo.GetRemoveMethod%2A&gt; method.</summary>
+        <summary>Provides COM objects with version-independent access to the <see cref="System.Reflection.EventInfo.GetRemoveMethod%2A" /> method.</summary>
         <returns>A <see cref="T:System.Reflection.MethodInfo" /> object representing the method used to remove an event-handler delegate from the event source.</returns>
         <remarks>
           <format type="text/markdown"><![CDATA[  
@@ -540,7 +540,7 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>Provides COM objects with version-independent access to the &lt;xref:System.Object.GetType%2A&gt; method.</summary>
+        <summary>Provides COM objects with version-independent access to the <see cref="System.Object.GetType%2A" /> method.</summary>
         <returns>A <see cref="T:System.Type" /> object.</returns>
         <remarks>
           <format type="text/markdown"><![CDATA[  
@@ -684,7 +684,7 @@
         <param name="attributeType">The <see langword="Type" /> object to which the custom attributes are applied.</param>
         <param name="inherit">
           <see langword="true" /> to search this member's inheritance chain to find the attributes; otherwise, <see langword="false" />.</param>
-        <summary>Provides COM objects with version-independent access to the &lt;xref:System.Reflection.MemberInfo.IsDefined%2A&gt; method.</summary>
+        <summary>Provides COM objects with version-independent access to the <see cref="System.Reflection.MemberInfo.IsDefined%2A" /> method.</summary>
         <returns>
           <see langword="true" /> if one or more instance of the <paramref name="attributeType" /> parameter is applied to this member; otherwise, <see langword="false" />.</returns>
         <remarks>
@@ -714,7 +714,7 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Provides COM objects with version-independent access to the &lt;xref:System.Reflection.EventInfo.IsMulticast%2A&gt; property.</summary>
+        <summary>Provides COM objects with version-independent access to the <see cref="System.Reflection.EventInfo.IsMulticast%2A" /> property.</summary>
         <value>
           <see langword="true" /> if the delegate is an instance of a multicast delegate; otherwise, <see langword="false" />.</value>
         <remarks>
@@ -744,7 +744,7 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Provides COM objects with version-independent access to the &lt;xref:System.Reflection.EventInfo.IsSpecialName%2A&gt; property.</summary>
+        <summary>Provides COM objects with version-independent access to the <see cref="System.Reflection.EventInfo.IsSpecialName%2A" /> property.</summary>
         <value>
           <see langword="true" /> if this event has a special name; otherwise, <see langword="false" />.</value>
         <remarks>
@@ -774,7 +774,7 @@
         <ReturnType>System.Reflection.MemberTypes</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Provides COM objects with version-independent access to the &lt;xref:System.Reflection.EventInfo.MemberType%2A&gt; property.</summary>
+        <summary>Provides COM objects with version-independent access to the <see cref="System.Reflection.EventInfo.MemberType%2A" /> property.</summary>
         <value>A <see cref="T:System.Reflection.MemberTypes" /> value indicating that this member is an event.</value>
         <remarks>
           <format type="text/markdown"><![CDATA[  
@@ -803,7 +803,7 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Provides COM objects with version-independent access to the &lt;xref:System.Reflection.MemberInfo.Name%2A&gt; property.</summary>
+        <summary>Provides COM objects with version-independent access to the <see cref="System.Reflection.MemberInfo.Name%2A" /> property.</summary>
         <value>A <see cref="T:System.String" /> object containing the name of this member.</value>
         <remarks>
           <format type="text/markdown"><![CDATA[  
@@ -832,7 +832,7 @@
         <ReturnType>System.Type</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Provides COM objects with version-independent access to the &lt;xref:System.Reflection.MemberInfo.ReflectedType%2A&gt; property.</summary>
+        <summary>Provides COM objects with version-independent access to the <see cref="System.Reflection.MemberInfo.ReflectedType%2A" /> property.</summary>
         <value>The <see cref="T:System.Type" /> object that was used to obtain this object.</value>
         <remarks>
           <format type="text/markdown"><![CDATA[  
@@ -867,7 +867,7 @@
       <Docs>
         <param name="target">The event source.</param>
         <param name="handler">The delegate to be disassociated from the events raised by target.</param>
-        <summary>Provides COM objects with version-independent access to the &lt;xref:System.Reflection.EventInfo.RemoveEventHandler%2A&gt; method.</summary>
+        <summary>Provides COM objects with version-independent access to the <see cref="System.Reflection.EventInfo.RemoveEventHandler%2A" /> method.</summary>
         <remarks>
           <format type="text/markdown"><![CDATA[  
   
@@ -896,7 +896,7 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>Provides COM objects with version-independent access to the &lt;xref:System.Object.ToString%2A&gt; method.</summary>
+        <summary>Provides COM objects with version-independent access to the <see cref="System.Object.ToString%2A" /> method.</summary>
         <returns>A string that represents the current <see cref="T:System.Object" />.</returns>
         <remarks>
           <format type="text/markdown"><![CDATA[  

@@ -282,7 +282,7 @@
         <Parameter Name="condition" Type="System.Boolean" />
       </Parameters>
       <Docs>
-        <param name="condition">The conditional expression to test. The expression may include &lt;xref:System.Diagnostics.Contracts.Contract.OldValue%2A&gt;, &lt;xref:System.Diagnostics.Contracts.Contract.ValueAtReturn%2A&gt;, and &lt;xref:System.Diagnostics.Contracts.Contract.Result%2A&gt; values.</param>
+        <param name="condition">The conditional expression to test. The expression may include <see cref="System.Diagnostics.Contracts.Contract.OldValue%2A" />, <see cref="System.Diagnostics.Contracts.Contract.ValueAtReturn%2A" />, and <see cref="System.Diagnostics.Contracts.Contract.Result%2A" /> values.</param>
         <summary>Specifies a postcondition contract for the enclosing method or property.</summary>
         <remarks>
           <format type="text/markdown"><![CDATA[  
@@ -299,8 +299,8 @@
 ## Examples  
  The following example shows how to use the Ensures method to ensure that an expected value is returned. This code example is part of a larger example provided for the <xref:System.Diagnostics.Contracts.ContractClassAttribute> class.  
   
- [!code-vb[ContractExample#3](~/add/codesnippet/visualbasic/m-system.diagnostics.con_3_1.vb)]
- [!code-cs[ContractExample#3](~/add/codesnippet/csharp/m-system.diagnostics.con_3_1.cs)]  
+ [!code-vb[ContractExample#3](~/add/codesnippet/visualbasic/m-system.diagnostics.con_5_1.vb)]
+ [!code-cs[ContractExample#3](~/add/codesnippet/csharp/m-system.diagnostics.con_5_1.cs)]  
   
  ]]></format>
         </remarks>
@@ -331,7 +331,7 @@
         <Parameter Name="userMessage" Type="System.String" />
       </Parameters>
       <Docs>
-        <param name="condition">The conditional expression to test. The expression may include &lt;xref:System.Diagnostics.Contracts.Contract.OldValue%2A&gt; and &lt;xref:System.Diagnostics.Contracts.Contract.Result%2A&gt; values.</param>
+        <param name="condition">The conditional expression to test. The expression may include <see cref="System.Diagnostics.Contracts.Contract.OldValue%2A" /> and <see cref="System.Diagnostics.Contracts.Contract.Result%2A" /> values.</param>
         <param name="userMessage">The message to display if the expression is not <see langword="true" />.</param>
         <summary>Specifies a postcondition contract for a provided exit condition and a message to display if the condition is <see langword="false" />.</summary>
         <remarks>
@@ -384,9 +384,22 @@
       </Parameters>
       <Docs>
         <typeparam name="TException">To be added.</typeparam>
-        <param name="condition">To be added.</param>
-        <summary>To be added.</summary>
-        <remarks>To be added.</remarks>
+        <param name="condition">The conditional expression to test.</param>
+        <summary>Specifies a postcondition contract for the enclosing method or property, based on the provided exception and condition.</summary>
+        <remarks>
+          <format type="text/markdown"><![CDATA[  
+  
+## Remarks  
+ The `condition` parameter specifies a postcondition that is expected to be `true` when the enclosing method or property terminates abnormally and an exception of type `TException` is thrown.  
+  
+-   This method call must be at the beginning of a method or property, before any other code.  
+  
+-   This contract is exposed to clients; therefore, it must only reference members that are at least as visible as the enclosing method.  
+  
+-   You must use the binary rewriter for run-time enforcement of this postcondition.  
+  
+ ]]></format>
+        </remarks>
       </Docs>
     </Member>
     <Member MemberName="EnsuresOnThrow&lt;TException&gt;">
@@ -421,10 +434,25 @@
       </Parameters>
       <Docs>
         <typeparam name="TException">To be added.</typeparam>
-        <param name="condition">To be added.</param>
-        <param name="userMessage">To be added.</param>
-        <summary>To be added.</summary>
-        <remarks>To be added.</remarks>
+        <param name="condition">The conditional expression to test.</param>
+        <param name="userMessage">The message to display if the expression is <see langword="false" />.</param>
+        <summary>Specifies a postcondition contract and a message to display if the condition is <see langword="false" /> for the enclosing method or property, based on the provided exception and condition.</summary>
+        <remarks>
+          <format type="text/markdown"><![CDATA[  
+  
+## Remarks  
+ The `condition` parameter specifies a postcondition that is expected to be `true` when the enclosing method or property terminates abnormally and an exception of type `TException` is thrown. The `message` parameter specifies a message to display if the condition is `false`.  
+  
+-   This method call must be at the beginning of a method or property, before any other code.  
+  
+-   This contract is exposed to clients; therefore, it must only reference members that are at least as visible as the enclosing method.  
+  
+-   You must use the binary rewriter for run-time enforcement of this postcondition.  
+  
+-   If `userMessage` is not a constant string literal, the contract may not be understood by tools.  
+  
+ ]]></format>
+        </remarks>
       </Docs>
     </Member>
     <Member MemberName="Exists">
@@ -495,11 +523,14 @@
       </Parameters>
       <Docs>
         <typeparam name="T">To be added.</typeparam>
-        <param name="collection">To be added.</param>
-        <param name="predicate">To be added.</param>
-        <summary>To be added.</summary>
-        <returns>To be added.</returns>
+        <param name="collection">The collection from which elements of type `T` will be drawn to pass to `predicate`.</param>
+        <param name="predicate">The function to evaluate for an element in `collection`.</param>
+        <summary>Determines whether an element within a collection of elements exists within a function.</summary>
+        <returns>
+          <see langword="true" /> if and only if <paramref name="predicate" /> returns <see langword="true" /> for any element of type <paramref name="T" /> in <paramref name="collection" />.</returns>
         <remarks>To be added.</remarks>
+        <exception cref="T:System.ArgumentNullException">
+          <paramref name="collection" /> or <paramref name="predicate" /> is <see langword="null" />.</exception>
       </Docs>
     </Member>
     <Member MemberName="ForAll">
@@ -578,11 +609,24 @@
       </Parameters>
       <Docs>
         <typeparam name="T">To be added.</typeparam>
-        <param name="collection">To be added.</param>
-        <param name="predicate">To be added.</param>
-        <summary>To be added.</summary>
-        <returns>To be added.</returns>
-        <remarks>To be added.</remarks>
+        <param name="collection">The collection from which elements of type `T` will be drawn to pass to `predicate`.</param>
+        <param name="predicate">The function to evaluate for the existence of all the elements in `collection`.</param>
+        <summary>Determines whether all the elements in a collection exist within a function.</summary>
+        <returns>
+          <see langword="true" /> if and only if <paramref name="predicate" /> returns <see langword="true" /> for all elements of type <paramref name="T" /> in <paramref name="collection" />.</returns>
+        <remarks>
+          <format type="text/markdown"><![CDATA[  
+  
+## Examples  
+ The following example demonstrates how to use the ForAll(T) method to determine whether a collection has a null element.  
+  
+ [!code-vb[Contract.ForAllExample#1](~/add/codesnippet/visualbasic/c5f9e53a-7bad-490c-89e0-_1.vb)]
+ [!code-cs[Contract.ForAllExample#1](~/add/codesnippet/csharp/c5f9e53a-7bad-490c-89e0-_1.cs)]  
+  
+ ]]></format>
+        </remarks>
+        <exception cref="T:System.ArgumentNullException">
+          <paramref name="collection" /> or <paramref name="predicate" /> is <see langword="null" />.</exception>
       </Docs>
     </Member>
     <Member MemberName="Invariant">
@@ -699,10 +743,25 @@
       </Parameters>
       <Docs>
         <typeparam name="T">To be added.</typeparam>
-        <param name="value">To be added.</param>
-        <summary>To be added.</summary>
-        <returns>To be added.</returns>
-        <remarks>To be added.</remarks>
+        <param name="value">The value to represent (field or parameter).</param>
+        <summary>Represents values as they were at the start of a method or property.</summary>
+        <returns>The value of the parameter or field at the start of a method or property.</returns>
+        <remarks>
+          <format type="text/markdown"><![CDATA[  
+  
+## Remarks  
+ This method can be used only in the conditional expression for the <xref:System.Diagnostics.Contracts.Contract.Ensures%2A> contract.  
+  
+   
+  
+## Examples  
+ The following example shows the use of the OldValue(T) method to ensure that a count has been updated. This code example is part of a larger example provided for the <xref:System.Diagnostics.Contracts.ContractClassAttribute> class.  
+  
+ [!code-vb[ContractExample#5](~/add/codesnippet/visualbasic/m-system.diagnostics.con_1_1.vb)]
+ [!code-cs[ContractExample#5](~/add/codesnippet/csharp/m-system.diagnostics.con_1_1.cs)]  
+  
+ ]]></format>
+        </remarks>
       </Docs>
     </Member>
     <Member MemberName="Requires">
@@ -817,9 +876,24 @@
       </Parameters>
       <Docs>
         <typeparam name="TException">To be added.</typeparam>
-        <param name="condition">To be added.</param>
-        <summary>To be added.</summary>
-        <remarks>To be added.</remarks>
+        <param name="condition">The conditional expression to test.</param>
+        <summary>Specifies a precondition contract for the enclosing method or property, and throws an exception if the condition for the contract fails.</summary>
+        <remarks>
+          <format type="text/markdown"><![CDATA[  
+  
+## Remarks  
+  
+> [!IMPORTANT]
+>  You must turn on run-time checking to use the Requires(TException) method. If run-time checking is turned off, the process will be terminated. To obtain the tools for runtime checking, see [Code Contracts](http://go.microsoft.com/fwlink/?LinkId=152461) on the MSDN DevLabs Web site.  
+  
+-   This method call must be at the beginning of a method or property, before any other code.  
+  
+-   This contract is exposed to clients; therefore, it must only reference members that are at least as visible as the enclosing method.  
+  
+-   Use this method instead of the <xref:System.Diagnostics.Contracts.Contract.Requires%28System.Boolean%29?displayProperty=fullName> method when you want to throw an exception if the precondition fails.  
+  
+ ]]></format>
+        </remarks>
       </Docs>
     </Member>
     <Member MemberName="Requires&lt;TException&gt;">
@@ -851,10 +925,25 @@
       </Parameters>
       <Docs>
         <typeparam name="TException">To be added.</typeparam>
-        <param name="condition">To be added.</param>
-        <param name="userMessage">To be added.</param>
-        <summary>To be added.</summary>
-        <remarks>To be added.</remarks>
+        <param name="condition">The conditional expression to test.</param>
+        <param name="userMessage">The message to display if the condition is <see langword="false" />.</param>
+        <summary>Specifies a precondition contract for the enclosing method or property, and throws an exception with the provided message if the condition for the contract fails.</summary>
+        <remarks>
+          <format type="text/markdown"><![CDATA[  
+  
+## Remarks  
+  
+-   > [!IMPORTANT]
+    >  You must turn on run-time checking to use the Requires(TException) method. If run-time checking is turned off, the process will be terminated. To obtain the tools for runtime checking, see [Code Contracts](http://go.microsoft.com/fwlink/?LinkId=152461) on the MSDN DevLabs Web site.  
+  
+     This method call must be at the beginning of a method or property, before any other code.  
+  
+-   This contract is exposed to clients; therefore, it must only reference members that are at least as visible as the enclosing method.  
+  
+-   Use this method instead of the <xref:System.Diagnostics.Contracts.Contract.Requires%28System.Boolean%2CSystem.String%29?displayProperty=fullName> method when you want to throw an exception if the precondition fails.  
+  
+ ]]></format>
+        </remarks>
       </Docs>
     </Member>
     <Member MemberName="Result&lt;T&gt;">
@@ -879,9 +968,24 @@
       <Parameters />
       <Docs>
         <typeparam name="T">To be added.</typeparam>
-        <summary>To be added.</summary>
-        <returns>To be added.</returns>
-        <remarks>To be added.</remarks>
+        <summary>Represents the return value of a method or property.</summary>
+        <returns>Return value of the enclosing method or property.</returns>
+        <remarks>
+          <format type="text/markdown"><![CDATA[  
+  
+## Remarks  
+ This method can be used only in the conditional expression for the <xref:System.Diagnostics.Contracts.Contract.Ensures%2A> contract.  
+  
+   
+  
+## Examples  
+ The following example shows how to use the Result(T) method to specify an expected return value. This code example is part of a larger example provided for the <xref:System.Diagnostics.Contracts.ContractClassAttribute> class.  
+  
+ [!code-vb[ContractExample#3](~/add/codesnippet/visualbasic/m-system.diagnostics.con_3_1.vb)]
+ [!code-cs[ContractExample#3](~/add/codesnippet/csharp/m-system.diagnostics.con_3_1.cs)]  
+  
+ ]]></format>
+        </remarks>
       </Docs>
     </Member>
     <Member MemberName="ValueAtReturn&lt;T&gt;">
@@ -908,10 +1012,17 @@
       </Parameters>
       <Docs>
         <typeparam name="T">To be added.</typeparam>
-        <param name="value">To be added.</param>
-        <summary>To be added.</summary>
-        <returns>To be added.</returns>
-        <remarks>To be added.</remarks>
+        <param name="value">The <see langword="out" /> parameter.</param>
+        <summary>Represents the final (output) value of an <see langword="out" /> parameter when returning from a method.</summary>
+        <returns>The output value of the <see langword="out" /> parameter.</returns>
+        <remarks>
+          <format type="text/markdown"><![CDATA[  
+  
+## Remarks  
+ This method can be used only in the conditional expression for the <xref:System.Diagnostics.Contracts.Contract.Ensures%2A> contract. As with the <xref:System.Diagnostics.Contracts.Contract.OldValue%2A> method, you can omit the generic type parameter whenever the compiler is able to infer its type. The contract rewriter replaces the method call with the value of the `out` parameter. The ValueAtReturn(T) method may appear only in postconditions. The argument to the method must be an `out` parameter or a field of a structure `out` parameter. The latter is also useful when referring to fields in the postcondition of a structure constructor.  
+  
+ ]]></format>
+        </remarks>
       </Docs>
     </Member>
   </Members>

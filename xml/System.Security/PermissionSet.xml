@@ -478,7 +478,7 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>Causes any &lt;xref:System.Security.PermissionSet.Demand%2A&gt; that passes through the calling code for a permission that has an intersection with a permission of a type contained in the current <see cref="T:System.Security.PermissionSet" /> to fail.</summary>
+        <summary>Causes any <see cref="System.Security.PermissionSet.Demand%2A" /> that passes through the calling code for a permission that has an intersection with a permission of a type contained in the current <see cref="T:System.Security.PermissionSet" /> to fail.</summary>
         <remarks>
           <format type="text/markdown"><![CDATA[  
   
@@ -974,7 +974,7 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>Causes any &lt;xref:System.Security.PermissionSet.Demand%2A&gt; that passes through the calling code for any <see cref="T:System.Security.PermissionSet" /> that is not a subset of the current <see cref="T:System.Security.PermissionSet" /> to fail.</summary>
+        <summary>Causes any <see cref="System.Security.PermissionSet.Demand%2A" /> that passes through the calling code for any <see cref="T:System.Security.PermissionSet" /> that is not a subset of the current <see cref="T:System.Security.PermissionSet" /> to fail.</summary>
         <remarks>
           <format type="text/markdown"><![CDATA[  
   
@@ -1091,7 +1091,7 @@ myPermSet.RemovePermission(typeof(FileIOPermission));
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>Causes any previous &lt;xref:System.Security.CodeAccessPermission.Assert%2A&gt; for the current frame to be removed and no longer be in effect.</summary>
+        <summary>Causes any previous <see cref="System.Security.CodeAccessPermission.Assert%2A" /> for the current frame to be removed and no longer be in effect.</summary>
         <remarks>
           <format type="text/markdown"><![CDATA[  
   
@@ -1100,7 +1100,7 @@ myPermSet.RemovePermission(typeof(FileIOPermission));
   
  ]]></format>
         </remarks>
-        <exception cref="T:System.InvalidOperationException">There is no previous &lt;xref:System.Security.CodeAccessPermission.Assert%2A&gt; for the current frame.</exception>
+        <exception cref="T:System.InvalidOperationException">There is no previous <see cref="System.Security.CodeAccessPermission.Assert%2A" /> for the current frame.</exception>
         <threadsafe />
       </Docs>
     </Member>

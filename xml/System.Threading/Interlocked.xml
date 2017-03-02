@@ -458,12 +458,25 @@
       </Parameters>
       <Docs>
         <typeparam name="T">To be added.</typeparam>
-        <param name="location1">To be added.</param>
-        <param name="value">To be added.</param>
-        <param name="comparand">To be added.</param>
-        <summary>To be added.</summary>
-        <returns>To be added.</returns>
-        <remarks>To be added.</remarks>
+        <param name="location1">The destination, whose value is compared with `comparand` and possibly replaced. This is a reference parameter (<see langword="ref" /> in C#, <see langword="ByRef" /> in Visual Basic).</param>
+        <param name="value">The value that replaces the destination value if the comparison results in equality.</param>
+        <param name="comparand">The value that is compared to the value at `location1`.</param>
+        <summary>Compares two instances of the specified reference type <paramref name="T" /> for equality and, if they are equal, replaces the first one.</summary>
+        <returns>The original value in <paramref name="location1" />.</returns>
+        <remarks>
+          <format type="text/markdown"><![CDATA[  
+  
+## Remarks  
+ If `comparand` and the value in `location1` are equal, then `value` is stored in `location1`. Otherwise, no operation is performed. The comparison and the exchange are performed as an atomic operation. The return value of this method is the original value in `location1`, whether or not the exchange takes place.  
+  
+ This method only supports reference types. There are overloads of the <xref:System.Threading.Interlocked.CompareExchange%2A> method for the value types <xref:System.Int32>, <xref:System.Int64>, <xref:System.IntPtr>, <xref:System.Single>, and <xref:System.Double>, but there is no support for other value types.  
+  
+> [!NOTE]
+>  This method overload is preferable to the <xref:System.Threading.Interlocked.CompareExchange%28System.Object%40%2CSystem.Object%2CSystem.Object%29> method overload, because the latter requires the destination object to be accessed late-bound.  
+  
+ ]]></format>
+        </remarks>
+        <exception cref="T:System.NullReferenceException">The address of <paramref name="location1" /> is a null pointer.</exception>
       </Docs>
     </Member>
     <Member MemberName="Decrement">
@@ -819,11 +832,32 @@
       </Parameters>
       <Docs>
         <typeparam name="T">To be added.</typeparam>
-        <param name="location1">To be added.</param>
-        <param name="value">To be added.</param>
-        <summary>To be added.</summary>
-        <returns>To be added.</returns>
-        <remarks>To be added.</remarks>
+        <param name="location1">The variable to set to the specified value. This is a reference parameter (<see langword="ref" /> in C#, <see langword="ByRef" /> in Visual Basic).</param>
+        <param name="value">The value to which the `location1` parameter is set.</param>
+        <summary>Sets a variable of the specified type <paramref name="T" /> to a specified value and returns the original value, as an atomic operation.</summary>
+        <returns>The original value of <paramref name="location1" />.</returns>
+        <remarks>
+          <format type="text/markdown"><![CDATA[  
+  
+## Remarks  
+ This method only supports reference types. There are overloads of the <xref:System.Threading.Interlocked.Exchange%2A> method for the <xref:System.Int32>, <xref:System.Int64>, <xref:System.IntPtr>, <xref:System.Single>, and <xref:System.Double> value types, but there is no support for other value types.  
+  
+> [!NOTE]
+>  This method overload is preferable to the <xref:System.Threading.Interlocked.Exchange%28System.Object%40%2CSystem.Object%29> method overload, because the latter requires late-bound access to the destination object .  
+  
+   
+  
+## Examples  
+ The following example launches ten tasks, each of which generates  100 ten-character part numbers. It then the part number that is first alphabetically.  
+  
+ [!code-cs[System.Threading.Interlocked.Exchange#2](~/add/codesnippet/csharp/m-system.threading.inter_4_1.cs)]
+ [!code-vb[System.Threading.Interlocked.Exchange#2](~/add/codesnippet/visualbasic/m-system.threading.inter_4_1.vb)]  
+  
+ The example uses the `firstWidget` variable to store the ID that occurs first in the sort order. It compares each ID that it generates with the `firstWidget` value.  If the new value precedes the current value of `firstWidget` in the sort order, the example calls the Exchange(T) method to assign the new value to `firstWidget`.  
+  
+ ]]></format>
+        </remarks>
+        <exception cref="T:System.NullReferenceException">The address of <paramref name="location1" /> is a null pointer.</exception>
       </Docs>
     </Member>
     <Member MemberName="Increment">

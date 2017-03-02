@@ -89,7 +89,7 @@
 ## Examples  
  The following example is taken from the [Samples for Parallel Programming with the .NET Framework 4](http://go.microsoft.com/fwlink/?LinkID=165717) on the MSDN Code Gallery Web site.  It creates a custom task scheduler that limits the number of threads used by the app. It then launches two sets of tasks and displays information about the task and the thread on which the task is executing.  
   
- [!code-cs[TPL_Schedulers#02](~/add/codesnippet/csharp/t-system.threading.tasks_4_2.cs)]
+ [!code-cs[TPL_Schedulers#02](~/add/codesnippet/csharp/t-system.threading.tasks_6_2.cs)]
  [!code-vb[TPL_Schedulers#02](~/add/codesnippet/visualbasic/tpl_schedulersvb/module2.vb#02)]  
   
  In addition, several sample task schedulers are available on Code Gallery: [Samples for Parallel Programming with the .NET Framework 4](http://go.microsoft.com/fwlink/?LinkID=165717).  
@@ -180,7 +180,7 @@
       <Parameters />
       <Docs>
         <summary>Creates a <see cref="T:System.Threading.Tasks.TaskScheduler" /> associated with the current <see cref="T:System.Threading.SynchronizationContext" />.</summary>
-        <returns>A <see cref="T:System.Threading.Tasks.TaskScheduler" /> associated with the current <see cref="T:System.Threading.SynchronizationContext" />, as determined by &lt;xref:System.Threading.SynchronizationContext.Current%2A?displayProperty=fullName&gt;.</returns>
+        <returns>A <see cref="T:System.Threading.Tasks.TaskScheduler" /> associated with the current <see cref="T:System.Threading.SynchronizationContext" />, as determined by <see cref="System.Threading.SynchronizationContext.Current%2A" />.</returns>
         <remarks>
           <format type="text/markdown"><![CDATA[  
   

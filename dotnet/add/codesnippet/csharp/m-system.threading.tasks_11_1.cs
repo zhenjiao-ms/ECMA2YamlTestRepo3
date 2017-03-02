@@ -1,30 +1,38 @@
 using System;
+using System.IO;
+using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 
 public class Example
 {
    public static void Main()
    {
-      Task t = Task.Run( () => {
-                            Random rnd = new Random();
-                            long sum = 0;
-                            int n = 5000000;
-                            for (int ctr = 1; ctr <= n; ctr++) {
-                               int number = rnd.Next(0, 101);
-                               sum += number;
-                            }
-                            Console.WriteLine("Total:   {0:N0}", sum);
-                            Console.WriteLine("Mean:    {0:N2}", sum/n);
-                            Console.WriteLine("N:       {0:N0}", n);   
-                         } );
-     TimeSpan ts = TimeSpan.FromMilliseconds(150);
-     if (! t.Wait(ts))
-        Console.WriteLine("The timeout interval elapsed.");
+      string pattern = @"\p{P}*\s+";
+      string[] titles = { "Sister Carrie", "The Financier" };
+      Task<int>[] tasks = new Task<int>[titles.Length];
+
+      for (int ctr = 0; ctr < titles.Length; ctr++) {
+         string s = titles[ctr];
+         tasks[ctr] = Task.Run( () => {
+                                   // Number of words.
+                                   int nWords = 0;
+                                   // Create filename from title.
+                                   string fn = s + ".txt";
+                                   if (File.Exists(fn)) {
+                                      StreamReader sr = new StreamReader(fn);
+                                      string input = sr.ReadToEndAsync().Result;
+                                      nWords = Regex.Matches(input, pattern).Count;
+                                   }
+                                   return nWords;
+                                } );
+      }
+      Task.WaitAll(tasks);
+
+      Console.WriteLine("Word Counts:\n");
+      for (int ctr = 0; ctr < titles.Length; ctr++)
+         Console.WriteLine("{0}: {1,10:N0} words", titles[ctr], tasks[ctr].Result);
    }
 }
-// The example displays output similar to the following:
-//       Total:   50,015,714
-//       Mean:    50.02
-//       N:       1,000,000
-// Or it displays the following output:
-//      The timeout interval elapsed.
+// The example displays the following output:
+//       Sister Carrie:    159,374 words
+//       The Financier:    196,362 words

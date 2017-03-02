@@ -1,11 +1,12 @@
 Imports System.Runtime.CompilerServices
 
-<CompilerGlobalScopeAttribute()> _
+<Assembly: CompilationRelaxationsAttribute(CompilationRelaxations.NoStringInterning)> 
+
 Module Program
 
 
     Sub Main(ByVal args() As String)
-        Console.WriteLine("The attribute was applied.")
+        Console.WriteLine("The CompilationRelaxationsAttribute attribute was applied.")
     End Sub
 
 

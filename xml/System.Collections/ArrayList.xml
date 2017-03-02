@@ -74,7 +74,7 @@
     </remarks>
     <threadsafe>Public static (<see langword="Shared" /> in Visual Basic) members of this type are thread safe. Any instance members are not guaranteed to be thread safe.  
   
- An ArrayList can support multiple readers concurrently, as long as the collection is not modified. To guarantee the thread safety of the ArrayList, all operations must be done through the wrapper returned by the &lt;xref:System.Collections.ArrayList.Synchronized%2A&gt; method.  
+ An ArrayList can support multiple readers concurrently, as long as the collection is not modified. To guarantee the thread safety of the ArrayList, all operations must be done through the wrapper returned by the <see cref="System.Collections.ArrayList.Synchronized%2A" /> method.  
   
  Enumerating through a collection is intrinsically not a thread-safe procedure. Even when a collection is synchronized, other threads can still modify the collection, which causes the enumerator to throw an exception. To guarantee thread safety during enumeration, you can either lock the collection during the entire enumeration or catch the exceptions resulting from changes made by other threads.</threadsafe>
   </Docs>
@@ -345,7 +345,7 @@
       <Docs>
         <param name="value">The <see cref="T:System.Object" /> to locate. The value can be <see langword="null" />.</param>
         <summary>Searches the entire sorted <see cref="T:System.Collections.ArrayList" /> for an element using the default comparer and returns the zero-based index of the element.</summary>
-        <returns>The zero-based index of <paramref name="value" /> in the sorted <see cref="T:System.Collections.ArrayList" />, if <paramref name="value" /> is found; otherwise, a negative number, which is the bitwise complement of the index of the next element that is larger than <paramref name="value" /> or, if there is no larger element, the bitwise complement of &lt;xref:System.Collections.ArrayList.Count%2A&gt;.</returns>
+        <returns>The zero-based index of <paramref name="value" /> in the sorted <see cref="T:System.Collections.ArrayList" />, if <paramref name="value" /> is found; otherwise, a negative number, which is the bitwise complement of the index of the next element that is larger than <paramref name="value" /> or, if there is no larger element, the bitwise complement of <see cref="System.Collections.ArrayList.Count%2A" />.</returns>
         <remarks>
           <format type="text/markdown"><![CDATA[  
   
@@ -402,7 +402,7 @@
   
  <see langword="null" /> to use the default comparer that is the <see cref="T:System.IComparable" /> implementation of each element.</param>
         <summary>Searches the entire sorted <see cref="T:System.Collections.ArrayList" /> for an element using the specified comparer and returns the zero-based index of the element.</summary>
-        <returns>The zero-based index of <paramref name="value" /> in the sorted <see cref="T:System.Collections.ArrayList" />, if <paramref name="value" /> is found; otherwise, a negative number, which is the bitwise complement of the index of the next element that is larger than <paramref name="value" /> or, if there is no larger element, the bitwise complement of &lt;xref:System.Collections.ArrayList.Count%2A&gt;.</returns>
+        <returns>The zero-based index of <paramref name="value" /> in the sorted <see cref="T:System.Collections.ArrayList" />, if <paramref name="value" /> is found; otherwise, a negative number, which is the bitwise complement of the index of the next element that is larger than <paramref name="value" /> or, if there is no larger element, the bitwise complement of <see cref="System.Collections.ArrayList.Count%2A" />.</returns>
         <remarks>
           <format type="text/markdown"><![CDATA[  
   
@@ -468,7 +468,7 @@
   
  <see langword="null" /> to use the default comparer that is the <see cref="T:System.IComparable" /> implementation of each element.</param>
         <summary>Searches a range of elements in the sorted <see cref="T:System.Collections.ArrayList" /> for an element using the specified comparer and returns the zero-based index of the element.</summary>
-        <returns>The zero-based index of <paramref name="value" /> in the sorted <see cref="T:System.Collections.ArrayList" />, if <paramref name="value" /> is found; otherwise, a negative number, which is the bitwise complement of the index of the next element that is larger than <paramref name="value" /> or, if there is no larger element, the bitwise complement of &lt;xref:System.Collections.ArrayList.Count%2A&gt;.</returns>
+        <returns>The zero-based index of <paramref name="value" /> in the sorted <see cref="T:System.Collections.ArrayList" />, if <paramref name="value" /> is found; otherwise, a negative number, which is the bitwise complement of the index of the next element that is larger than <paramref name="value" /> or, if there is no larger element, the bitwise complement of <see cref="System.Collections.ArrayList.Count%2A" />.</returns>
         <remarks>
           <format type="text/markdown"><![CDATA[  
   
@@ -536,7 +536,7 @@
   
  ]]></format>
         </remarks>
-        <exception cref="T:System.ArgumentOutOfRangeException">Capacity is set to a value that is less than &lt;xref:System.Collections.ArrayList.Count%2A&gt;.</exception>
+        <exception cref="T:System.ArgumentOutOfRangeException">Capacity is set to a value that is less than <see cref="System.Collections.ArrayList.Count%2A" />.</exception>
         <exception cref="T:System.OutOfMemoryException">There is not enough memory available on the system.</exception>
         <threadsafe />
       </Docs>
@@ -831,7 +831,7 @@
   
  -or-  
   
- <paramref name="index" /> is equal to or greater than the &lt;xref:System.Collections.ArrayList.Count%2A&gt; of the source <see cref="T:System.Collections.ArrayList" />.  
+ <paramref name="index" /> is equal to or greater than the <see cref="System.Collections.ArrayList.Count%2A" /> of the source <see cref="T:System.Collections.ArrayList" />.  
   
  -or-  
   
@@ -1344,7 +1344,7 @@
   
  -or-  
   
- <paramref name="index" /> is greater than &lt;xref:System.Collections.ArrayList.Count%2A&gt;.</exception>
+ <paramref name="index" /> is greater than <see cref="System.Collections.ArrayList.Count%2A" />.</exception>
         <exception cref="T:System.NotSupportedException">The <see cref="T:System.Collections.ArrayList" /> is read-only.  
   
  -or-  
@@ -1408,7 +1408,7 @@
   
  -or-  
   
- <paramref name="index" /> is greater than &lt;xref:System.Collections.ArrayList.Count%2A&gt;.</exception>
+ <paramref name="index" /> is greater than <see cref="System.Collections.ArrayList.Count%2A" />.</exception>
         <exception cref="T:System.NotSupportedException">The <see cref="T:System.Collections.ArrayList" /> is read-only.  
   
  -or-  
@@ -1602,7 +1602,7 @@
   
  -or-  
   
- <paramref name="index" /> is equal to or greater than &lt;xref:System.Collections.ArrayList.Count%2A&gt;.</exception>
+ <paramref name="index" /> is equal to or greater than <see cref="System.Collections.ArrayList.Count%2A" />.</exception>
         <threadsafe />
       </Docs>
     </Member>
@@ -1943,7 +1943,7 @@
   
  -or-  
   
- <paramref name="index" /> is equal to or greater than &lt;xref:System.Collections.ArrayList.Count%2A&gt;.</exception>
+ <paramref name="index" /> is equal to or greater than <see cref="System.Collections.ArrayList.Count%2A" />.</exception>
         <exception cref="T:System.NotSupportedException">The <see cref="T:System.Collections.ArrayList" /> is read-only.  
   
  -or-  
@@ -2192,7 +2192,7 @@
   
  -or-  
   
- <paramref name="index" /> plus the number of elements in <paramref name="c" /> is greater than &lt;xref:System.Collections.ArrayList.Count%2A&gt;.</exception>
+ <paramref name="index" /> plus the number of elements in <paramref name="c" /> is greater than <see cref="System.Collections.ArrayList.Count%2A" />.</exception>
         <exception cref="T:System.ArgumentNullException">
           <paramref name="c" /> is <see langword="null" />.</exception>
         <exception cref="T:System.NotSupportedException">The <see cref="T:System.Collections.ArrayList" /> is read-only.</exception>

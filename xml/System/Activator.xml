@@ -269,9 +269,9 @@
 ## Examples  
  The following code example demonstrates how to call the CreateInstance method. Instances of several different types are created and their default values are displayed.  
   
- [!code-vb[ActivatorX#4](~/add/codesnippet/visualbasic/m-system.activator.creat_1_1.vb)]
- [!code-cs[ActivatorX#4](~/add/codesnippet/csharp/m-system.activator.creat_1_1.cs)]
- [!code-cpp[ActivatorX#4](~/add/codesnippet/cpp/m-system.activator.creat_1_1.cpp)]  
+ [!code-vb[ActivatorX#4](~/add/codesnippet/visualbasic/m-system.activator.creat_2_1.vb)]
+ [!code-cs[ActivatorX#4](~/add/codesnippet/csharp/m-system.activator.creat_2_1.cs)]
+ [!code-cpp[ActivatorX#4](~/add/codesnippet/cpp/m-system.activator.creat_2_1.cpp)]  
   
  ]]></format>
         </remarks>
@@ -282,7 +282,7 @@
   
  -or-  
   
- <paramref name="type" /> is an open generic type (that is, the &lt;xref:System.Type.ContainsGenericParameters%2A&gt; property returns <see langword="true" />).</exception>
+ <paramref name="type" /> is an open generic type (that is, the <see cref="System.Type.ContainsGenericParameters%2A" /> property returns <see langword="true" />).</exception>
         <exception cref="T:System.NotSupportedException">
           <paramref name="type" /> cannot be a <see cref="T:System.Reflection.Emit.TypeBuilder" />.  
   
@@ -302,7 +302,7 @@
   
  The caller does not have permission to call this constructor.</exception>
         <exception cref="T:System.MemberAccessException">Cannot create an instance of an abstract class, or this member was invoked with a late-binding mechanism.</exception>
-        <exception cref="T:System.Runtime.InteropServices.InvalidComObjectException">The COM type was not obtained through &lt;xref:System.Type.GetTypeFromProgID%2A&gt; or &lt;xref:System.Type.GetTypeFromCLSID%2A&gt;.</exception>
+        <exception cref="T:System.Runtime.InteropServices.InvalidComObjectException">The COM type was not obtained through <see cref="System.Type.GetTypeFromProgID%2A" /> or <see cref="System.Type.GetTypeFromCLSID%2A" />.</exception>
         <exception cref="T:System.MissingMethodException">
           <block subset="none" type="note">  
  In the [.NET for Windows Store apps](http://go.microsoft.com/fwlink/?LinkID=247912) or the [Portable Class Library](../Topic/Cross-Platform%20Development%20with%20the%20Portable%20Class%20Library.md), catch the base class exception, <see cref="T:System.MissingMemberException" />, instead.  
@@ -409,18 +409,18 @@
 ## Examples  
  The following example defines a class named `Person` in an assembly named `PersonInfo`. Note that the `Person` class has two constructors, one of which is parameterless.  
   
- [!code-cs[System.Activator.CreateInstance#1](~/add/codesnippet/csharp/m-system.activator.creat_3_1.cs)]
- [!code-vb[System.Activator.CreateInstance#1](~/add/codesnippet/visualbasic/m-system.activator.creat_3_1.vb)]  
+ [!code-cs[System.Activator.CreateInstance#1](~/add/codesnippet/csharp/m-system.activator.creat_4_1.cs)]
+ [!code-vb[System.Activator.CreateInstance#1](~/add/codesnippet/visualbasic/m-system.activator.creat_4_1.vb)]  
   
  The following example calls the CreateInstance method to instantiate the `Person` class. It requires a reference to PersonInfo.dll to be added to the project. Because the CreateInstance method calls the `Person` class default constructor,  the example assigns a value to its `Name` property.  
   
- [!code-cs[System.Activator.CreateInstance#2](~/add/codesnippet/csharp/m-system.activator.creat_3_2.cs)]
- [!code-vb[System.Activator.CreateInstance#2](~/add/codesnippet/visualbasic/m-system.activator.creat_3_2.vb)]  
+ [!code-cs[System.Activator.CreateInstance#2](~/add/codesnippet/csharp/m-system.activator.creat_4_2.cs)]
+ [!code-vb[System.Activator.CreateInstance#2](~/add/codesnippet/visualbasic/m-system.activator.creat_4_2.vb)]  
   
  However, CreateInstance is frequently called to instantiate a type that crosses machine boundaries or that is not known at design time. In this case, you cannot include a reference to the assembly in the project and cannot make early-bound calls to the type's members. To work around this limitation, the following example uses the CreateInstance method along with reflection to assign a value to the `Person` object's `Name` property and to display its value.  
   
- [!code-cs[System.Activator.CreateInstance#3](~/add/codesnippet/csharp/m-system.activator.creat_3_3.cs)]
- [!code-vb[System.Activator.CreateInstance#3](~/add/codesnippet/visualbasic/m-system.activator.creat_3_3.vb)]  
+ [!code-cs[System.Activator.CreateInstance#3](~/add/codesnippet/csharp/m-system.activator.creat_4_3.cs)]
+ [!code-vb[System.Activator.CreateInstance#3](~/add/codesnippet/visualbasic/m-system.activator.creat_4_3.vb)]  
   
  ]]></format>
         </remarks>
@@ -434,7 +434,7 @@
         <exception cref="T:System.MethodAccessException">The caller does not have permission to call this constructor.</exception>
         <exception cref="T:System.MemberAccessException">You cannot create an instance of an abstract class, or this member was invoked with a late-binding mechanism.</exception>
         <exception cref="T:System.Reflection.TargetInvocationException">The constructor, which was invoked through reflection, threw an exception.</exception>
-        <exception cref="T:System.Runtime.InteropServices.InvalidComObjectException">The COM type was not obtained through &lt;xref:System.Type.GetTypeFromProgID%2A&gt; or &lt;xref:System.Type.GetTypeFromCLSID%2A&gt;.</exception>
+        <exception cref="T:System.Runtime.InteropServices.InvalidComObjectException">The COM type was not obtained through <see cref="System.Type.GetTypeFromProgID%2A" /> or <see cref="System.Type.GetTypeFromCLSID%2A" />.</exception>
         <exception cref="T:System.NotSupportedException">Creation of <see cref="T:System.TypedReference" />, <see cref="T:System.ArgIterator" />, <see cref="T:System.Void" />, and <see cref="T:System.RuntimeArgumentHandle" /> types, or arrays of those types, is not supported.</exception>
         <exception cref="T:System.BadImageFormatException">
           <paramref name="assemblyName" /> is not a valid assembly.  
@@ -494,7 +494,7 @@
   
  -or-  
   
- <paramref name="type" /> is an open generic type (that is, the &lt;xref:System.Type.ContainsGenericParameters%2A&gt; property returns <see langword="true" />).</exception>
+ <paramref name="type" /> is an open generic type (that is, the <see cref="System.Type.ContainsGenericParameters%2A" /> property returns <see langword="true" />).</exception>
         <exception cref="T:System.NotSupportedException">
           <paramref name="type" /> cannot be a <see cref="T:System.Reflection.Emit.TypeBuilder" />.  
   
@@ -508,7 +508,7 @@
         <exception cref="T:System.Reflection.TargetInvocationException">The constructor being called throws an exception.</exception>
         <exception cref="T:System.MethodAccessException">The caller does not have permission to call this constructor.</exception>
         <exception cref="T:System.MemberAccessException">Cannot create an instance of an abstract class, or this member was invoked with a late-binding mechanism.</exception>
-        <exception cref="T:System.Runtime.InteropServices.InvalidComObjectException">The COM type was not obtained through &lt;xref:System.Type.GetTypeFromProgID%2A&gt; or &lt;xref:System.Type.GetTypeFromCLSID%2A&gt;.</exception>
+        <exception cref="T:System.Runtime.InteropServices.InvalidComObjectException">The COM type was not obtained through <see cref="System.Type.GetTypeFromProgID%2A" /> or <see cref="System.Type.GetTypeFromCLSID%2A" />.</exception>
         <exception cref="T:System.MissingMethodException">No matching public constructor was found.</exception>
         <exception cref="T:System.Runtime.InteropServices.COMException">
           <paramref name="type" /> is a COM object but the class identifier used to obtain the type is invalid, or the identified class is not registered.</exception>
@@ -557,13 +557,13 @@
 ## Examples  
  The following example calls the  CreateInstance method to create a <xref:System.String> object. It calls the [String.String(Char\[\], Int32, Int32)](assetId:///M:System.String.#ctor(System.Char[],System.Int32,System.Int32)?qualifyHint=True&autoUpgrade=False) constructor to instantiate a string that contains ten elements from a character array starting at the fourteenth position.  
   
- [!code-cs[System.Activator.CreateInstance#5](~/add/codesnippet/csharp/m-system.activator.creat_0_1.cs)]
- [!code-vb[System.Activator.CreateInstance#5](~/add/codesnippet/visualbasic/m-system.activator.creat_0_1.vb)]  
+ [!code-cs[System.Activator.CreateInstance#5](~/add/codesnippet/csharp/m-system.activator.creat_1_1.cs)]
+ [!code-vb[System.Activator.CreateInstance#5](~/add/codesnippet/visualbasic/m-system.activator.creat_1_1.vb)]  
   
  The following example creates a jagged array whose elements are arguments to be passed to a <xref:System.String> constructor. The example then passes each array to the CreateInstance method to invoke the appropriate string constructor.  
   
- [!code-cs[System.Activator.CreateInstance#4](~/add/codesnippet/csharp/m-system.activator.creat_0_2.cs)]
- [!code-vb[System.Activator.CreateInstance#4](~/add/codesnippet/visualbasic/m-system.activator.creat_0_2.vb)]  
+ [!code-cs[System.Activator.CreateInstance#4](~/add/codesnippet/csharp/m-system.activator.creat_1_2.cs)]
+ [!code-vb[System.Activator.CreateInstance#4](~/add/codesnippet/visualbasic/m-system.activator.creat_1_2.vb)]  
   
  ]]></format>
         </remarks>
@@ -574,7 +574,7 @@
   
  -or-  
   
- <paramref name="type" /> is an open generic type (that is, the &lt;xref:System.Type.ContainsGenericParameters%2A&gt; property returns <see langword="true" />).</exception>
+ <paramref name="type" /> is an open generic type (that is, the <see cref="System.Type.ContainsGenericParameters%2A" /> property returns <see langword="true" />).</exception>
         <exception cref="T:System.NotSupportedException">
           <paramref name="type" /> cannot be a <see cref="T:System.Reflection.Emit.TypeBuilder" />.  
   
@@ -598,7 +598,7 @@
   
  The caller does not have permission to call this constructor.</exception>
         <exception cref="T:System.MemberAccessException">Cannot create an instance of an abstract class, or this member was invoked with a late-binding mechanism.</exception>
-        <exception cref="T:System.Runtime.InteropServices.InvalidComObjectException">The COM type was not obtained through &lt;xref:System.Type.GetTypeFromProgID%2A&gt; or &lt;xref:System.Type.GetTypeFromCLSID%2A&gt;.</exception>
+        <exception cref="T:System.Runtime.InteropServices.InvalidComObjectException">The COM type was not obtained through <see cref="System.Type.GetTypeFromProgID%2A" /> or <see cref="System.Type.GetTypeFromCLSID%2A" />.</exception>
         <exception cref="T:System.MissingMethodException">
           <block subset="none" type="note">  
  In the [.NET for Windows Store apps](http://go.microsoft.com/fwlink/?LinkID=247912) or the [Portable Class Library](../Topic/Cross-Platform%20Development%20with%20the%20Portable%20Class%20Library.md), catch the base class exception, <see cref="T:System.MissingMemberException" />, instead.  
@@ -670,7 +670,7 @@
   
  This member was invoked with a late-binding mechanism.</exception>
         <exception cref="T:System.Reflection.TargetInvocationException">The constructor, which was invoked through reflection, threw an exception.</exception>
-        <exception cref="T:System.Runtime.InteropServices.InvalidComObjectException">The COM type was not obtained through &lt;xref:System.Type.GetTypeFromProgID%2A&gt; or &lt;xref:System.Type.GetTypeFromCLSID%2A&gt;.</exception>
+        <exception cref="T:System.Runtime.InteropServices.InvalidComObjectException">The COM type was not obtained through <see cref="System.Type.GetTypeFromProgID%2A" /> or <see cref="System.Type.GetTypeFromCLSID%2A" />.</exception>
         <exception cref="T:System.NotSupportedException">Creation of <see cref="T:System.TypedReference" />, <see cref="T:System.ArgIterator" />, <see cref="T:System.Void" />, and <see cref="T:System.RuntimeArgumentHandle" /> types, or arrays of those types, is not supported.</exception>
         <exception cref="T:System.BadImageFormatException">
           <paramref name="assemblyName" /> is not a valid assembly.  
@@ -742,7 +742,7 @@
           <paramref name="assemblyName" /> was not found.</exception>
         <exception cref="T:System.MethodAccessException">The caller does not have permission to call this constructor.</exception>
         <exception cref="T:System.MemberAccessException">Cannot create an instance of an abstract class, or this member was invoked with a late-binding mechanism.</exception>
-        <exception cref="T:System.Runtime.InteropServices.InvalidComObjectException">The COM type was not obtained through &lt;xref:System.Type.GetTypeFromProgID%2A&gt; or &lt;xref:System.Type.GetTypeFromCLSID%2A&gt;.</exception>
+        <exception cref="T:System.Runtime.InteropServices.InvalidComObjectException">The COM type was not obtained through <see cref="System.Type.GetTypeFromProgID%2A" /> or <see cref="System.Type.GetTypeFromCLSID%2A" />.</exception>
         <exception cref="T:System.NotSupportedException">Creation of <see cref="T:System.TypedReference" />, <see cref="T:System.ArgIterator" />, <see cref="T:System.Void" />, and <see cref="T:System.RuntimeArgumentHandle" /> types, or arrays of those types, is not supported.  
   
  -or-  
@@ -817,7 +817,7 @@
   
  -or-  
   
- <paramref name="type" /> is an open generic type (that is, the &lt;xref:System.Type.ContainsGenericParameters%2A&gt; property returns <see langword="true" />).</exception>
+ <paramref name="type" /> is an open generic type (that is, the <see cref="System.Type.ContainsGenericParameters%2A" /> property returns <see langword="true" />).</exception>
         <exception cref="T:System.NotSupportedException">
           <paramref name="type" /> cannot be a <see cref="T:System.Reflection.Emit.TypeBuilder" />.  
   
@@ -839,7 +839,7 @@
         <exception cref="T:System.Reflection.TargetInvocationException">The constructor being called throws an exception.</exception>
         <exception cref="T:System.MethodAccessException">The caller does not have permission to call this constructor.</exception>
         <exception cref="T:System.MemberAccessException">Cannot create an instance of an abstract class, or this member was invoked with a late-binding mechanism.</exception>
-        <exception cref="T:System.Runtime.InteropServices.InvalidComObjectException">The COM type was not obtained through &lt;xref:System.Type.GetTypeFromProgID%2A&gt; or &lt;xref:System.Type.GetTypeFromCLSID%2A&gt;.</exception>
+        <exception cref="T:System.Runtime.InteropServices.InvalidComObjectException">The COM type was not obtained through <see cref="System.Type.GetTypeFromProgID%2A" /> or <see cref="System.Type.GetTypeFromCLSID%2A" />.</exception>
         <exception cref="T:System.MissingMethodException">No matching public constructor was found.</exception>
         <exception cref="T:System.Runtime.InteropServices.COMException">
           <paramref name="type" /> is a COM object but the class identifier used to obtain the type is invalid, or the identified class is not registered.</exception>
@@ -898,7 +898,7 @@
   
  -or-  
   
- <paramref name="type" /> is an open generic type (that is, the &lt;xref:System.Type.ContainsGenericParameters%2A&gt; property returns <see langword="true" />).</exception>
+ <paramref name="type" /> is an open generic type (that is, the <see cref="System.Type.ContainsGenericParameters%2A" /> property returns <see langword="true" />).</exception>
         <exception cref="T:System.NotSupportedException">
           <paramref name="type" /> cannot be a <see cref="T:System.Reflection.Emit.TypeBuilder" />.  
   
@@ -916,7 +916,7 @@
         <exception cref="T:System.Reflection.TargetInvocationException">The constructor being called throws an exception.</exception>
         <exception cref="T:System.MethodAccessException">The caller does not have permission to call this constructor.</exception>
         <exception cref="T:System.MemberAccessException">Cannot create an instance of an abstract class, or this member was invoked with a late-binding mechanism.</exception>
-        <exception cref="T:System.Runtime.InteropServices.InvalidComObjectException">The COM type was not obtained through &lt;xref:System.Type.GetTypeFromProgID%2A&gt; or &lt;xref:System.Type.GetTypeFromCLSID%2A&gt;.</exception>
+        <exception cref="T:System.Runtime.InteropServices.InvalidComObjectException">The COM type was not obtained through <see cref="System.Type.GetTypeFromProgID%2A" /> or <see cref="System.Type.GetTypeFromCLSID%2A" />.</exception>
         <exception cref="T:System.MissingMethodException">No matching constructor was found.</exception>
         <exception cref="T:System.Runtime.InteropServices.COMException">
           <paramref name="type" /> is a COM object but the class identifier used to obtain the type is invalid, or the identified class is not registered.</exception>
@@ -984,7 +984,7 @@
   
  -or-  
   
- <paramref name="type" /> is an open generic type (that is, the &lt;xref:System.Type.ContainsGenericParameters%2A&gt; property returns <see langword="true" />).</exception>
+ <paramref name="type" /> is an open generic type (that is, the <see cref="System.Type.ContainsGenericParameters%2A" /> property returns <see langword="true" />).</exception>
         <exception cref="T:System.NotSupportedException">
           <paramref name="type" /> cannot be a <see cref="T:System.Reflection.Emit.TypeBuilder" />.  
   
@@ -1006,7 +1006,7 @@
         <exception cref="T:System.Reflection.TargetInvocationException">The constructor being called throws an exception.</exception>
         <exception cref="T:System.MethodAccessException">The caller does not have permission to call this constructor.</exception>
         <exception cref="T:System.MemberAccessException">Cannot create an instance of an abstract class, or this member was invoked with a late-binding mechanism.</exception>
-        <exception cref="T:System.Runtime.InteropServices.InvalidComObjectException">The COM type was not obtained through &lt;xref:System.Type.GetTypeFromProgID%2A&gt; or &lt;xref:System.Type.GetTypeFromCLSID%2A&gt;.</exception>
+        <exception cref="T:System.Runtime.InteropServices.InvalidComObjectException">The COM type was not obtained through <see cref="System.Type.GetTypeFromProgID%2A" /> or <see cref="System.Type.GetTypeFromCLSID%2A" />.</exception>
         <exception cref="T:System.MissingMethodException">No matching constructor was found.</exception>
         <exception cref="T:System.Runtime.InteropServices.COMException">
           <paramref name="type" /> is a COM object but the class identifier used to obtain the type is invalid, or the identified class is not registered.</exception>
@@ -1080,7 +1080,7 @@
         <exception cref="T:System.MethodAccessException">The caller does not have permission to call this constructor.</exception>
         <exception cref="T:System.MemberAccessException">Cannot create an instance of an abstract class, or this member was invoked with a late-binding mechanism.</exception>
         <exception cref="T:System.Reflection.TargetInvocationException">The constructor, which was invoked through reflection, threw an exception.</exception>
-        <exception cref="T:System.Runtime.InteropServices.InvalidComObjectException">The COM type was not obtained through &lt;xref:System.Type.GetTypeFromProgID%2A&gt; or &lt;xref:System.Type.GetTypeFromCLSID%2A&gt;.</exception>
+        <exception cref="T:System.Runtime.InteropServices.InvalidComObjectException">The COM type was not obtained through <see cref="System.Type.GetTypeFromProgID%2A" /> or <see cref="System.Type.GetTypeFromCLSID%2A" />.</exception>
         <exception cref="T:System.NotSupportedException">Creation of <see cref="T:System.TypedReference" />, <see cref="T:System.ArgIterator" />, <see cref="T:System.Void" />, and <see cref="T:System.RuntimeArgumentHandle" /> types, or arrays of those types, is not supported.  
   
  -or-  
@@ -1171,7 +1171,7 @@
         <exception cref="T:System.MethodAccessException">The caller does not have permission to call this constructor.</exception>
         <exception cref="T:System.MemberAccessException">Cannot create an instance of an abstract class, or this member was invoked with a late-binding mechanism.</exception>
         <exception cref="T:System.Reflection.TargetInvocationException">The constructor, which was invoked through reflection, threw an exception.</exception>
-        <exception cref="T:System.Runtime.InteropServices.InvalidComObjectException">The COM type was not obtained through &lt;xref:System.Type.GetTypeFromProgID%2A&gt; or &lt;xref:System.Type.GetTypeFromCLSID%2A&gt;.</exception>
+        <exception cref="T:System.Runtime.InteropServices.InvalidComObjectException">The COM type was not obtained through <see cref="System.Type.GetTypeFromProgID%2A" /> or <see cref="System.Type.GetTypeFromCLSID%2A" />.</exception>
         <exception cref="T:System.NotSupportedException">Creation of <see cref="T:System.TypedReference" />, <see cref="T:System.ArgIterator" />, <see cref="T:System.Void" />, and <see cref="T:System.RuntimeArgumentHandle" /> types, or arrays of those types, is not supported.  
   
  -or-  
@@ -1268,7 +1268,7 @@
         <exception cref="T:System.MethodAccessException">The caller does not have permission to call this constructor.</exception>
         <exception cref="T:System.MemberAccessException">Cannot create an instance of an abstract class, or this member was invoked with a late-binding mechanism.</exception>
         <exception cref="T:System.Reflection.TargetInvocationException">The constructor, which was invoked through reflection, threw an exception.</exception>
-        <exception cref="T:System.Runtime.InteropServices.InvalidComObjectException">The COM type was not obtained through &lt;xref:System.Type.GetTypeFromProgID%2A&gt; or &lt;xref:System.Type.GetTypeFromCLSID%2A&gt;.</exception>
+        <exception cref="T:System.Runtime.InteropServices.InvalidComObjectException">The COM type was not obtained through <see cref="System.Type.GetTypeFromProgID%2A" /> or <see cref="System.Type.GetTypeFromCLSID%2A" />.</exception>
         <exception cref="T:System.NotSupportedException">Creation of <see cref="T:System.TypedReference" />, <see cref="T:System.ArgIterator" />, <see cref="T:System.Void" />, and <see cref="T:System.RuntimeArgumentHandle" /> types, or arrays of those types, is not supported.  
   
  -or-  
@@ -1363,7 +1363,7 @@
         <exception cref="T:System.MethodAccessException">The caller does not have permission to call this constructor.</exception>
         <exception cref="T:System.MemberAccessException">Cannot create an instance of an abstract class, or this member was invoked with a late-binding mechanism.</exception>
         <exception cref="T:System.Reflection.TargetInvocationException">The constructor, which was invoked through reflection, threw an exception.</exception>
-        <exception cref="T:System.Runtime.InteropServices.InvalidComObjectException">The COM type was not obtained through &lt;xref:System.Type.GetTypeFromProgID%2A&gt; or &lt;xref:System.Type.GetTypeFromCLSID%2A&gt;.</exception>
+        <exception cref="T:System.Runtime.InteropServices.InvalidComObjectException">The COM type was not obtained through <see cref="System.Type.GetTypeFromProgID%2A" /> or <see cref="System.Type.GetTypeFromCLSID%2A" />.</exception>
         <exception cref="T:System.NotSupportedException">Creation of <see cref="T:System.TypedReference" />, <see cref="T:System.ArgIterator" />, <see cref="T:System.Void" />, and <see cref="T:System.RuntimeArgumentHandle" /> types, or arrays of those types, is not supported.  
   
  -or-  
@@ -1408,9 +1408,31 @@
       <Parameters />
       <Docs>
         <typeparam name="T">To be added.</typeparam>
-        <summary>To be added.</summary>
-        <returns>To be added.</returns>
-        <remarks>To be added.</remarks>
+        <summary>Creates an instance of the type designated by the specified generic type parameter, using the parameterless constructor.</summary>
+        <returns>A reference to the newly created object.</returns>
+        <remarks>
+          <format type="text/markdown"><![CDATA[  
+  
+## Remarks  
+ The CreateInstance(T) generic method is used by compilers to implement the instantiation of types specified by type parameters. For example, in the following generic method, the implementation of `new T()` (`gcnew T()` in C++) uses the CreateInstance(T) generic method.  
+  
+ [!code-cpp[System.Activation.CreateInstance~~1#1](~/add/codesnippet/cpp/m-system.activator.creat_0_1.cpp)]
+ [!code-vb[System.Activation.CreateInstance~~1#1](~/add/codesnippet/visualbasic/m-system.activator.creat_0_1.vb)]
+ [!code-cs[System.Activation.CreateInstance~~1#1](~/add/codesnippet/csharp/m-system.activator.creat_0_1.cs)]  
+  
+ In general, there is no use for the CreateInstance(T) generic method in application code, because the type must be known at compile time. If the type is known at compile time, normal instantiation syntax can be used (`new` operator in C#, `New` in Visual Basic, `gcnew` in C++). If the type is not known at compile time, you can call a non-generic overload of <xref:System.Activator.CreateInstance%2A>.  
+  
+ There are no overloads of the CreateInstance(T) generic method that take argument lists, because the non-generic overloads of <xref:System.Activator.CreateInstance%2A> already provide late-bound constructor resolution.  
+  
+ ]]></format>
+        </remarks>
+        <exception cref="T:System.MissingMethodException">
+          <block subset="none" type="note">  
+ In the [.NET for Windows Store apps](http://go.microsoft.com/fwlink/?LinkID=247912) or the [Portable Class Library](../Topic/Cross-Platform%20Development%20with%20the%20Portable%20Class%20Library.md), catch the base class exception, <see cref="T:System.MissingMemberException" />, instead.  
+  
+</block>  
+  
+ The type that is specified for <paramref name="T" /> does not have a parameterless constructor.</exception>
       </Docs>
     </Member>
     <Member MemberName="CreateInstanceFrom">
@@ -1448,9 +1470,9 @@
 ## Examples  
  The following code example demonstrates how to call the CreateInstanceFrom method. This code example is part of a larger example provided for the <xref:System.Activator> class.  
   
- [!code-vb[ActivatorX#3](~/add/codesnippet/visualbasic/m-system.activator.creat_2_1.vb)]
- [!code-cs[ActivatorX#3](~/add/codesnippet/csharp/m-system.activator.creat_2_1.cs)]
- [!code-cpp[ActivatorX#3](~/add/codesnippet/cpp/m-system.activator.creat_2_1.cpp)]  
+ [!code-vb[ActivatorX#3](~/add/codesnippet/visualbasic/m-system.activator.creat_3_1.vb)]
+ [!code-cs[ActivatorX#3](~/add/codesnippet/csharp/m-system.activator.creat_3_1.cs)]
+ [!code-cpp[ActivatorX#3](~/add/codesnippet/cpp/m-system.activator.creat_3_1.cpp)]  
   
  ]]></format>
         </remarks>

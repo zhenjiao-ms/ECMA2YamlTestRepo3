@@ -48,7 +48,7 @@
         <ReturnType>System.Security.Permissions.RegistryPermissionAccess</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Create, Read, and Write access to registry variables. AllAccess represents multiple RegistryPermissionAccess values and causes an <see cref="T:System.ArgumentException" /> when used as the <paramref name="access" /> parameter for the &lt;xref:System.Security.Permissions.RegistryPermission.GetPathList%2A&gt; method, which expects a single value.</summary>
+        <summary>Create, Read, and Write access to registry variables. AllAccess represents multiple RegistryPermissionAccess values and causes an <see cref="T:System.ArgumentException" /> when used as the <paramref name="access" /> parameter for the <see cref="System.Security.Permissions.RegistryPermission.GetPathList%2A" /> method, which expects a single value.</summary>
         <threadsafe />
       </Docs>
     </Member>
@@ -84,7 +84,7 @@
         <ReturnType>System.Security.Permissions.RegistryPermissionAccess</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>No access to registry variables. NoAccess represents no valid RegistryPermissionAccess values and causes an <see cref="T:System.ArgumentException" /> when used as the parameter for &lt;xref:System.Security.Permissions.RegistryPermission.GetPathList%2A&gt;, which expects a single value.</summary>
+        <summary>No access to registry variables. NoAccess represents no valid RegistryPermissionAccess values and causes an <see cref="T:System.ArgumentException" /> when used as the parameter for <see cref="System.Security.Permissions.RegistryPermission.GetPathList%2A" />, which expects a single value.</summary>
         <threadsafe />
       </Docs>
     </Member>

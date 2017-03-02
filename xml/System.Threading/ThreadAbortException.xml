@@ -17,7 +17,7 @@
     </Attribute>
   </Attributes>
   <Docs>
-    <summary>The exception that is thrown when a call is made to the &lt;xref:System.Threading.Thread.Abort%2A&gt; method. This class cannot be inherited.</summary>
+    <summary>The exception that is thrown when a call is made to the <see cref="System.Threading.Thread.Abort%2A" /> method. This class cannot be inherited.</summary>
     <remarks>
       <format type="text/markdown"><![CDATA[  
   
@@ -37,9 +37,9 @@
 ## Examples  
  The following example demonstrates aborting a thread. The thread that receives the `ThreadAbortException` uses the <xref:System.Threading.Thread.ResetAbort%2A> method to cancel the abort request and continue executing.  
   
- [!code-cpp[ThreadAbEx#1](~/add/codesnippet/cpp/t-system.threading.threa_3_1.cpp)]
- [!code-vb[ThreadAbEx#1](~/add/codesnippet/visualbasic/t-system.threading.threa_3_1.vb)]
- [!code-cs[ThreadAbEx#1](~/add/codesnippet/csharp/t-system.threading.threa_3_1.cs)]  
+ [!code-cpp[ThreadAbEx#1](~/add/codesnippet/cpp/t-system.threading.threa_4_1.cpp)]
+ [!code-vb[ThreadAbEx#1](~/add/codesnippet/visualbasic/t-system.threading.threa_4_1.vb)]
+ [!code-cs[ThreadAbEx#1](~/add/codesnippet/csharp/t-system.threading.threa_4_1.cs)]  
   
  This code produces the following output:  
   

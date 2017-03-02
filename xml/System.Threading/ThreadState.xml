@@ -91,7 +91,7 @@
         <ReturnType>System.Threading.ThreadState</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>The &lt;xref:System.Threading.Thread.Abort%2A?displayProperty=fullName&gt; method has been invoked on the thread, but the thread has not yet received the pending <see cref="T:System.Threading.ThreadAbortException" /> that will attempt to terminate it.</summary>
+        <summary>The <see cref="System.Threading.Thread.Abort%2A" /> method has been invoked on the thread, but the thread has not yet received the pending <see cref="T:System.Threading.ThreadAbortException" /> that will attempt to terminate it.</summary>
         <threadsafe />
       </Docs>
     </Member>
@@ -109,7 +109,7 @@
         <ReturnType>System.Threading.ThreadState</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>The thread is being executed as a background thread, as opposed to a foreground thread. This state is controlled by setting the &lt;xref:System.Threading.Thread.IsBackground%2A?displayProperty=fullName&gt; property.</summary>
+        <summary>The thread is being executed as a background thread, as opposed to a foreground thread. This state is controlled by setting the <see cref="System.Threading.Thread.IsBackground%2A" /> property.</summary>
         <threadsafe />
       </Docs>
     </Member>
@@ -217,7 +217,7 @@
         <ReturnType>System.Threading.ThreadState</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>The &lt;xref:System.Threading.Thread.Start%2A?displayProperty=fullName&gt; method has not been invoked on the thread.</summary>
+        <summary>The <see cref="System.Threading.Thread.Start%2A" /> method has not been invoked on the thread.</summary>
         <threadsafe />
       </Docs>
     </Member>
@@ -235,7 +235,7 @@
         <ReturnType>System.Threading.ThreadState</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>The thread is blocked. This could be the result of calling &lt;xref:System.Threading.Thread.Sleep%2A?displayProperty=fullName&gt; or &lt;xref:System.Threading.Thread.Join%2A?displayProperty=fullName&gt;, of requesting a lock — for example, by calling &lt;xref:System.Threading.Monitor.Enter%2A?displayProperty=fullName&gt; or &lt;xref:System.Threading.Monitor.Wait%2A?displayProperty=fullName&gt; — or of waiting on a thread synchronization object such as <see cref="T:System.Threading.ManualResetEvent" />.</summary>
+        <summary>The thread is blocked. This could be the result of calling <see cref="System.Threading.Thread.Sleep%2A" /> or <see cref="System.Threading.Thread.Join%2A" />, of requesting a lock — for example, by calling <see cref="System.Threading.Monitor.Enter%2A" /> or <see cref="System.Threading.Monitor.Wait%2A" /> — or of waiting on a thread synchronization object such as <see cref="T:System.Threading.ManualResetEvent" />.</summary>
         <threadsafe />
       </Docs>
     </Member>

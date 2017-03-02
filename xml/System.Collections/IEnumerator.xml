@@ -71,19 +71,21 @@
         <ReturnType>System.Object</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Gets the current element in the collection.</summary>
-        <value>The current element in the collection.</value>
+        <summary>Gets the element in the collection at the current position of the enumerator.</summary>
+        <value>The element in the collection at the current position of the enumerator.</value>
         <remarks>
           <format type="text/markdown"><![CDATA[  
   
 ## Remarks  
- After an enumerator is created or after the <xref:System.Collections.IEnumerator.Reset%2A> method is called, the <xref:System.Collections.IEnumerator.MoveNext%2A> method must be called to advance the enumerator to the first element of the collection before reading the value of the Current property; otherwise, Current is undefined.  
+ Current is undefined under any of the following conditions:  
   
- Current should throw an  <xref:System.InvalidOperationException> if the last call to <xref:System.Collections.IEnumerator.MoveNext%2A> returned `false`, which indicates the end of the collection.  
+-   The enumerator is positioned before the first element in the collection, immediately after the enumerator is created.   <xref:System.Collections.IEnumerator.MoveNext%2A> must be called to advance the enumerator to the first element of the collection before reading the value of Current.  
   
- Current does not move the position of the enumerator, and consecutive calls to Current return the same object until either <xref:System.Collections.IEnumerator.MoveNext%2A> or <xref:System.Collections.IEnumerator.Reset%2A> is called.  
+-   The last call to <xref:System.Collections.IEnumerator.MoveNext%2A> returned `false`, which indicates the end of the collection.  
   
- An enumerator remains valid as long as the collection remains unchanged. If changes are made to the collection, such as adding, modifying, or deleting elements, the enumerator is irrecoverably invalidated and the next call to <xref:System.Collections.IEnumerator.MoveNext%2A> or <xref:System.Collections.IEnumerator.Reset%2A> throws an <xref:System.InvalidOperationException>. If the collection is modified between <xref:System.Collections.IEnumerator.MoveNext%2A> and Current, Current returns the element that it is set to, even if the enumerator is already invalidated.  
+-   The enumerator is invalidated due to changes made in the collection, such as adding, modifying, or deleting elements.  
+  
+ Current returns the same object until <xref:System.Collections.IEnumerator.MoveNext%2A> is called. <xref:System.Collections.IEnumerator.MoveNext%2A> sets Current to the next element.  
   
    
   

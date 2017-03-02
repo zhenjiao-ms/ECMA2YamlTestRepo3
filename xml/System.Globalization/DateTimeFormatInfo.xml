@@ -399,7 +399,7 @@
       </ReturnValue>
       <Docs>
         <summary>Gets or sets a one-dimensional array of type <see cref="T:System.String" /> containing the culture-specific abbreviated names of the days of the week.</summary>
-        <value>A one-dimensional array of type <see cref="T:System.String" /> containing the culture-specific abbreviated names of the days of the week. The array for &lt;xref:System.Globalization.DateTimeFormatInfo.InvariantInfo%2A&gt; contains "Sun", "Mon", "Tue", "Wed", "Thu", "Fri", and "Sat".</value>
+        <value>A one-dimensional array of type <see cref="T:System.String" /> containing the culture-specific abbreviated names of the days of the week. The array for <see cref="System.Globalization.DateTimeFormatInfo.InvariantInfo%2A" /> contains "Sun", "Mon", "Tue", "Wed", "Thu", "Fri", and "Sat".</value>
         <remarks>
           <format type="text/markdown"><![CDATA[  
   
@@ -487,7 +487,7 @@
       </ReturnValue>
       <Docs>
         <summary>Gets or sets a one-dimensional string array that contains the culture-specific abbreviated names of the months.</summary>
-        <value>A one-dimensional string array with 13 elements that contains the culture-specific abbreviated names of the months. For 12-month calendars, the 13th element of the array is an empty string. The array for &lt;xref:System.Globalization.DateTimeFormatInfo.InvariantInfo%2A&gt; contains "Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec", and "".</value>
+        <value>A one-dimensional string array with 13 elements that contains the culture-specific abbreviated names of the months. For 12-month calendars, the 13th element of the array is an empty string. The array for <see cref="System.Globalization.DateTimeFormatInfo.InvariantInfo%2A" /> contains "Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec", and "".</value>
         <remarks>
           <format type="text/markdown"><![CDATA[  
   
@@ -533,7 +533,7 @@
       </ReturnValue>
       <Docs>
         <summary>Gets or sets the string designator for hours that are "ante meridiem" (before noon).</summary>
-        <value>The string designator for hours that are ante meridiem. The default for &lt;xref:System.Globalization.DateTimeFormatInfo.InvariantInfo%2A&gt; is "AM".</value>
+        <value>The string designator for hours that are ante meridiem. The default for <see cref="System.Globalization.DateTimeFormatInfo.InvariantInfo%2A" /> is "AM".</value>
         <remarks>
           <format type="text/markdown"><![CDATA[  
   
@@ -566,7 +566,7 @@
       </ReturnValue>
       <Docs>
         <summary>Gets or sets the calendar to use for the current culture.</summary>
-        <value>The calendar to use for the current culture. The default for &lt;xref:System.Globalization.DateTimeFormatInfo.InvariantInfo%2A&gt; is a <see cref="T:System.Globalization.GregorianCalendar" /> object.</value>
+        <value>The calendar to use for the current culture. The default for <see cref="System.Globalization.DateTimeFormatInfo.InvariantInfo%2A" /> is a <see cref="T:System.Globalization.GregorianCalendar" /> object.</value>
         <remarks>
           <format type="text/markdown"><![CDATA[  
   
@@ -608,7 +608,7 @@
       </ReturnValue>
       <Docs>
         <summary>Gets or sets a value that specifies which rule is used to determine the first calendar week of the year.</summary>
-        <value>A value that determines the first calendar week of the year. The default for &lt;xref:System.Globalization.DateTimeFormatInfo.InvariantInfo%2A&gt; is <see cref="T:System.Globalization.CalendarWeekRule" />.</value>
+        <value>A value that determines the first calendar week of the year. The default for <see cref="System.Globalization.DateTimeFormatInfo.InvariantInfo%2A" /> is <see cref="T:System.Globalization.CalendarWeekRule" />.</value>
         <remarks>
           <format type="text/markdown"><![CDATA[  
   
@@ -702,7 +702,7 @@
       </ReturnValue>
       <Docs>
         <summary>Gets or sets the string that separates the components of a date, that is, the year, month, and day.</summary>
-        <value>The string that separates the components of a date, that is, the year, month, and day. The default for &lt;xref:System.Globalization.DateTimeFormatInfo.InvariantInfo%2A&gt; is "/".</value>
+        <value>The string that separates the components of a date, that is, the year, month, and day. The default for <see cref="System.Globalization.DateTimeFormatInfo.InvariantInfo%2A" /> is "/".</value>
         <remarks>
           <format type="text/markdown"><![CDATA[  
   
@@ -741,7 +741,7 @@
       </ReturnValue>
       <Docs>
         <summary>Gets or sets a one-dimensional string array that contains the culture-specific full names of the days of the week.</summary>
-        <value>A one-dimensional string array that contains the culture-specific full names of the days of the week. The array for &lt;xref:System.Globalization.DateTimeFormatInfo.InvariantInfo%2A&gt; contains "Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", and "Saturday".</value>
+        <value>A one-dimensional string array that contains the culture-specific full names of the days of the week. The array for <see cref="System.Globalization.DateTimeFormatInfo.InvariantInfo%2A" /> contains "Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", and "Saturday".</value>
         <remarks>
           <format type="text/markdown"><![CDATA[  
   
@@ -775,7 +775,7 @@
       </ReturnValue>
       <Docs>
         <summary>Gets or sets the first day of the week.</summary>
-        <value>An enumeration value that represents the first day of the week. The default for &lt;xref:System.Globalization.DateTimeFormatInfo.InvariantInfo%2A&gt; is <see cref="T:System.DayOfWeek" />.</value>
+        <value>An enumeration value that represents the first day of the week. The default for <see cref="System.Globalization.DateTimeFormatInfo.InvariantInfo%2A" /> is <see cref="T:System.DayOfWeek" />.</value>
         <remarks>
           <format type="text/markdown"><![CDATA[  
   
@@ -917,7 +917,7 @@
  ]]></format>
         </remarks>
         <exception cref="T:System.ArgumentOutOfRangeException">
-          <paramref name="era" /> does not represent a valid era in the calendar specified in the &lt;xref:System.Globalization.DateTimeFormatInfo.Calendar%2A&gt; property.</exception>
+          <paramref name="era" /> does not represent a valid era in the calendar specified in the <see cref="System.Globalization.DateTimeFormatInfo.Calendar%2A" /> property.</exception>
         <threadsafe />
       </Docs>
     </Member>
@@ -1208,7 +1208,7 @@
  ]]></format>
         </remarks>
         <exception cref="T:System.ArgumentOutOfRangeException">
-          <paramref name="era" /> does not represent a valid era in the calendar specified in the &lt;xref:System.Globalization.DateTimeFormatInfo.Calendar%2A&gt; property.</exception>
+          <paramref name="era" /> does not represent a valid era in the calendar specified in the <see cref="System.Globalization.DateTimeFormatInfo.Calendar%2A" /> property.</exception>
         <threadsafe />
       </Docs>
     </Member>
@@ -1264,7 +1264,7 @@
   
  -or-  
   
- <see langword="null" /> to get &lt;xref:System.Globalization.DateTimeFormatInfo.CurrentInfo%2A&gt;.</param>
+ <see langword="null" /> to get <see cref="System.Globalization.DateTimeFormatInfo.CurrentInfo%2A" />.</param>
         <summary>Returns the <see cref="T:System.Globalization.DateTimeFormatInfo" /> object associated with the specified <see cref="T:System.IFormatProvider" />.</summary>
         <returns>A <see cref="T:System.Globalization.DateTimeFormatInfo" /> object associated with <see cref="T:System.IFormatProvider" />.</returns>
         <remarks>
@@ -1618,7 +1618,7 @@
       </ReturnValue>
       <Docs>
         <summary>Gets or sets a one-dimensional array of type <see cref="T:System.String" /> containing the culture-specific full names of the months.</summary>
-        <value>A one-dimensional array of type <see cref="T:System.String" /> containing the culture-specific full names of the months. In a 12-month calendar, the 13th element of the array is an empty string. The array for &lt;xref:System.Globalization.DateTimeFormatInfo.InvariantInfo%2A&gt; contains "January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December", and "".</value>
+        <value>A one-dimensional array of type <see cref="T:System.String" /> containing the culture-specific full names of the months. In a 12-month calendar, the 13th element of the array is an empty string. The array for <see cref="System.Globalization.DateTimeFormatInfo.InvariantInfo%2A" /> contains "January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December", and "".</value>
         <remarks>
           <format type="text/markdown"><![CDATA[  
   
@@ -1688,7 +1688,7 @@
       </ReturnValue>
       <Docs>
         <summary>Gets or sets the string designator for hours that are "post meridiem" (after noon).</summary>
-        <value>The string designator for hours that are "post meridiem" (after noon). The default for &lt;xref:System.Globalization.DateTimeFormatInfo.InvariantInfo%2A&gt; is "PM".</value>
+        <value>The string designator for hours that are "post meridiem" (after noon). The default for <see cref="System.Globalization.DateTimeFormatInfo.InvariantInfo%2A" /> is "PM".</value>
         <remarks>
           <format type="text/markdown"><![CDATA[  
   
@@ -2011,7 +2011,7 @@
       </ReturnValue>
       <Docs>
         <summary>Gets or sets the string that separates the components of time, that is, the hour, minutes, and seconds.</summary>
-        <value>The string that separates the components of time. The default for &lt;xref:System.Globalization.DateTimeFormatInfo.InvariantInfo%2A&gt; is ":".</value>
+        <value>The string that separates the components of time. The default for <see cref="System.Globalization.DateTimeFormatInfo.InvariantInfo%2A" /> is ":".</value>
         <remarks>
           <format type="text/markdown"><![CDATA[  
   

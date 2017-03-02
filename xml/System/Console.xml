@@ -365,7 +365,7 @@
   
  -or-  
   
- The value in a set operation is less than &lt;xref:System.Console.WindowTop%2A&gt; + &lt;xref:System.Console.WindowHeight%2A&gt;.</exception>
+ The value in a set operation is less than <see cref="System.Console.WindowTop%2A" /> + <see cref="System.Console.WindowHeight%2A" />.</exception>
         <exception cref="T:System.Security.SecurityException">The user does not have permission to perform this action.</exception>
         <exception cref="T:System.IO.IOException">An I/O error occurred.</exception>
         <permission cref="T:System.Security.Permissions.UIPermission">for modifying safe top-level windows and subwindows. Associated enumeration: <see cref="T:System.Security.Permissions.UIPermissionWindow" /></permission>
@@ -417,7 +417,7 @@
   
  -or-  
   
- The value in a set operation is less than &lt;xref:System.Console.WindowLeft%2A&gt; + &lt;xref:System.Console.WindowWidth%2A&gt;.</exception>
+ The value in a set operation is less than <see cref="System.Console.WindowLeft%2A" /> + <see cref="System.Console.WindowWidth%2A" />.</exception>
         <exception cref="T:System.Security.SecurityException">The user does not have permission to perform this action.</exception>
         <exception cref="T:System.IO.IOException">An I/O error occurred.</exception>
         <permission cref="T:System.Security.Permissions.UIPermission">for modifying safe top-level windows and subwindows. Associated enumeration: <see cref="T:System.Security.Permissions.UIPermissionWindow" /></permission>
@@ -590,7 +590,7 @@
   
  -or-  
   
- The value in a set operation is greater than or equal to &lt;xref:System.Console.BufferWidth%2A&gt;.</exception>
+ The value in a set operation is greater than or equal to <see cref="System.Console.BufferWidth%2A" />.</exception>
         <exception cref="T:System.Security.SecurityException">The user does not have permission to perform this action.</exception>
         <exception cref="T:System.IO.IOException">An I/O error occurred.</exception>
         <permission cref="T:System.Security.Permissions.UIPermission">for modifying safe top-level windows and subwindows. Associated enumeration: <see cref="T:System.Security.Permissions.UIPermissionWindow" /></permission>
@@ -680,7 +680,7 @@
   
  -or-  
   
- The value in a set operation is greater than or equal to &lt;xref:System.Console.BufferHeight%2A&gt;.</exception>
+ The value in a set operation is greater than or equal to <see cref="System.Console.BufferHeight%2A" />.</exception>
         <exception cref="T:System.Security.SecurityException">The user does not have permission to perform this action.</exception>
         <exception cref="T:System.IO.IOException">An I/O error occurred.</exception>
         <permission cref="T:System.Security.Permissions.UIPermission">for modifying safe top-level windows and subwindows. Associated enumeration: <see cref="T:System.Security.Permissions.UIPermissionWindow" /></permission>
@@ -1118,19 +1118,19 @@
   
  -or-  
   
- <paramref name="sourceLeft" /> or <paramref name="targetLeft" /> is greater than or equal to &lt;xref:System.Console.BufferWidth%2A&gt;.  
+ <paramref name="sourceLeft" /> or <paramref name="targetLeft" /> is greater than or equal to <see cref="System.Console.BufferWidth%2A" />.  
   
  -or-  
   
- <paramref name="sourceTop" /> or <paramref name="targetTop" /> is greater than or equal to &lt;xref:System.Console.BufferHeight%2A&gt;.  
+ <paramref name="sourceTop" /> or <paramref name="targetTop" /> is greater than or equal to <see cref="System.Console.BufferHeight%2A" />.  
   
  -or-  
   
- <paramref name="sourceTop" /> + <paramref name="sourceHeight" /> is greater than or equal to &lt;xref:System.Console.BufferHeight%2A&gt;.  
+ <paramref name="sourceTop" /> + <paramref name="sourceHeight" /> is greater than or equal to <see cref="System.Console.BufferHeight%2A" />.  
   
  -or-  
   
- <paramref name="sourceLeft" /> + <paramref name="sourceWidth" /> is greater than or equal to &lt;xref:System.Console.BufferWidth%2A&gt;.</exception>
+ <paramref name="sourceLeft" /> + <paramref name="sourceWidth" /> is greater than or equal to <see cref="System.Console.BufferWidth%2A" />.</exception>
         <exception cref="T:System.Security.SecurityException">The user does not have permission to perform this action.</exception>
         <exception cref="T:System.IO.IOException">An I/O error occurred.</exception>
         <permission cref="T:System.Security.Permissions.UIPermission">for modifying safe top-level windows and subwindows. Associated enumeration: <see cref="T:System.Security.Permissions.UIPermissionWindow" /></permission>
@@ -1192,19 +1192,19 @@
   
  -or-  
   
- <paramref name="sourceLeft" /> or <paramref name="targetLeft" /> is greater than or equal to &lt;xref:System.Console.BufferWidth%2A&gt;.  
+ <paramref name="sourceLeft" /> or <paramref name="targetLeft" /> is greater than or equal to <see cref="System.Console.BufferWidth%2A" />.  
   
  -or-  
   
- <paramref name="sourceTop" /> or <paramref name="targetTop" /> is greater than or equal to &lt;xref:System.Console.BufferHeight%2A&gt;.  
+ <paramref name="sourceTop" /> or <paramref name="targetTop" /> is greater than or equal to <see cref="System.Console.BufferHeight%2A" />.  
   
  -or-  
   
- <paramref name="sourceTop" /> + <paramref name="sourceHeight" /> is greater than or equal to &lt;xref:System.Console.BufferHeight%2A&gt;.  
+ <paramref name="sourceTop" /> + <paramref name="sourceHeight" /> is greater than or equal to <see cref="System.Console.BufferHeight%2A" />.  
   
  -or-  
   
- <paramref name="sourceLeft" /> + <paramref name="sourceWidth" /> is greater than or equal to &lt;xref:System.Console.BufferWidth%2A&gt;.</exception>
+ <paramref name="sourceLeft" /> + <paramref name="sourceWidth" /> is greater than or equal to <see cref="System.Console.BufferWidth%2A" />.</exception>
         <exception cref="T:System.ArgumentException">One or both of the color parameters is not a member of the <see cref="T:System.ConsoleColor" /> enumeration.</exception>
         <exception cref="T:System.Security.SecurityException">The user does not have permission to perform this action.</exception>
         <exception cref="T:System.IO.IOException">An I/O error occurred.</exception>
@@ -1636,7 +1636,7 @@
   
  ]]></format>
         </remarks>
-        <exception cref="T:System.InvalidOperationException">The &lt;xref:System.Console.In%2A&gt; property is redirected from some stream other than the console.</exception>
+        <exception cref="T:System.InvalidOperationException">The <see cref="System.Console.In%2A" /> property is redirected from some stream other than the console.</exception>
         <threadsafe />
       </Docs>
     </Member>
@@ -1692,7 +1692,7 @@
   
  ]]></format>
         </remarks>
-        <exception cref="T:System.InvalidOperationException">The &lt;xref:System.Console.In%2A&gt; property is redirected from some stream other than the console.</exception>
+        <exception cref="T:System.InvalidOperationException">The <see cref="System.Console.In%2A" /> property is redirected from some stream other than the console.</exception>
         <threadsafe />
       </Docs>
     </Member>
@@ -1868,11 +1868,11 @@
   
  -or-  
   
- <paramref name="width" /> is less than &lt;xref:System.Console.WindowLeft%2A&gt; + &lt;xref:System.Console.WindowWidth%2A&gt;.  
+ <paramref name="width" /> is less than <see cref="System.Console.WindowLeft%2A" /> + <see cref="System.Console.WindowWidth%2A" />.  
   
  -or-  
   
- <paramref name="height" /> is less than &lt;xref:System.Console.WindowTop%2A&gt; + &lt;xref:System.Console.WindowHeight%2A&gt;.</exception>
+ <paramref name="height" /> is less than <see cref="System.Console.WindowTop%2A" /> + <see cref="System.Console.WindowHeight%2A" />.</exception>
         <exception cref="T:System.Security.SecurityException">The user does not have permission to perform this action.</exception>
         <exception cref="T:System.IO.IOException">An I/O error occurred.</exception>
         <permission cref="T:System.Security.Permissions.UIPermission">for modifying safe top-level windows and subwindows. Associated enumeration: <see cref="T:System.Security.Permissions.UIPermissionWindow" /></permission>
@@ -1928,11 +1928,11 @@
   
  -or-  
   
- <paramref name="left" /> is greater than or equal to &lt;xref:System.Console.BufferWidth%2A&gt;.  
+ <paramref name="left" /> is greater than or equal to <see cref="System.Console.BufferWidth%2A" />.  
   
  -or-  
   
- <paramref name="top" /> is greater than or equal to &lt;xref:System.Console.BufferHeight%2A&gt;.</exception>
+ <paramref name="top" /> is greater than or equal to <see cref="System.Console.BufferHeight%2A" />.</exception>
         <exception cref="T:System.Security.SecurityException">The user does not have permission to perform this action.</exception>
         <exception cref="T:System.IO.IOException">An I/O error occurred.</exception>
         <permission cref="T:System.Security.Permissions.UIPermission">for modifying safe top-level windows and subwindows. Associated enumeration: <see cref="T:System.Security.Permissions.UIPermissionWindow" /></permission>
@@ -1962,7 +1962,7 @@
       </Parameters>
       <Docs>
         <param name="newError">A stream that is the new standard error output.</param>
-        <summary>Sets the &lt;xref:System.Console.Error%2A&gt; property to the specified <see cref="T:System.IO.TextWriter" /> object.</summary>
+        <summary>Sets the <see cref="System.Console.Error%2A" /> property to the specified <see cref="T:System.IO.TextWriter" /> object.</summary>
         <remarks>
           <format type="text/markdown"><![CDATA[  
   
@@ -2012,7 +2012,7 @@
       </Parameters>
       <Docs>
         <param name="newIn">A stream that is the new standard input.</param>
-        <summary>Sets the &lt;xref:System.Console.In%2A&gt; property to the specified <see cref="T:System.IO.TextReader" /> object.</summary>
+        <summary>Sets the <see cref="System.Console.In%2A" /> property to the specified <see cref="T:System.IO.TextReader" /> object.</summary>
         <remarks>
           <format type="text/markdown"><![CDATA[  
   
@@ -2062,7 +2062,7 @@
       </Parameters>
       <Docs>
         <param name="newOut">A stream that is the new standard output.</param>
-        <summary>Sets the &lt;xref:System.Console.Out%2A&gt; property to the specified <see cref="T:System.IO.TextWriter" /> object.</summary>
+        <summary>Sets the <see cref="System.Console.Out%2A" /> property to the specified <see cref="T:System.IO.TextWriter" /> object.</summary>
         <remarks>
           <format type="text/markdown"><![CDATA[  
   
@@ -2142,11 +2142,11 @@
   
  -or-  
   
- <paramref name="left" /> + &lt;xref:System.Console.WindowWidth%2A&gt; is greater than &lt;xref:System.Console.BufferWidth%2A&gt;.  
+ <paramref name="left" /> + <see cref="System.Console.WindowWidth%2A" /> is greater than <see cref="System.Console.BufferWidth%2A" />.  
   
  -or-  
   
- <paramref name="top" /> + &lt;xref:System.Console.WindowHeight%2A&gt; is greater than &lt;xref:System.Console.BufferHeight%2A&gt;.</exception>
+ <paramref name="top" /> + <see cref="System.Console.WindowHeight%2A" /> is greater than <see cref="System.Console.BufferHeight%2A" />.</exception>
         <exception cref="T:System.Security.SecurityException">The user does not have permission to perform this action.</exception>
         <exception cref="T:System.IO.IOException">An I/O error occurred.</exception>
         <permission cref="T:System.Security.Permissions.UIPermission">for modifying safe top-level windows and subwindows. Associated enumeration: <see cref="T:System.Security.Permissions.UIPermissionWindow" /></permission>
@@ -2197,7 +2197,7 @@
   
  -or-  
   
- <paramref name="width" /> plus &lt;xref:System.Console.WindowLeft%2A&gt; or <paramref name="height" /> plus &lt;xref:System.Console.WindowTop%2A&gt; is greater than or equal to <see cref="F:System.Int16.MaxValue" />.  
+ <paramref name="width" /> plus <see cref="System.Console.WindowLeft%2A" /> or <paramref name="height" /> plus <see cref="System.Console.WindowTop%2A" /> is greater than or equal to <see cref="F:System.Int16.MaxValue" />.  
   
  -or-  
   
@@ -2339,15 +2339,15 @@
   
  ]]></format>
         </remarks>
-        <exception cref="T:System.ArgumentOutOfRangeException">The value of the &lt;xref:System.Console.WindowWidth%2A&gt; property or the value of the WindowHeight property is less than or equal to 0.  
+        <exception cref="T:System.ArgumentOutOfRangeException">The value of the <see cref="System.Console.WindowWidth%2A" /> property or the value of the WindowHeight property is less than or equal to 0.  
   
  -or-  
   
- The value of the WindowHeight property plus the value of the &lt;xref:System.Console.WindowTop%2A&gt; property is greater than or equal to <see cref="F:System.Int16.MaxValue" />.  
+ The value of the WindowHeight property plus the value of the <see cref="System.Console.WindowTop%2A" /> property is greater than or equal to <see cref="F:System.Int16.MaxValue" />.  
   
  -or-  
   
- The value of the &lt;xref:System.Console.WindowWidth%2A&gt; property or the value of the WindowHeight property is greater than the largest possible window width or height for the current screen resolution and console font.</exception>
+ The value of the <see cref="System.Console.WindowWidth%2A" /> property or the value of the WindowHeight property is greater than the largest possible window width or height for the current screen resolution and console font.</exception>
         <exception cref="T:System.IO.IOException">Error reading or writing information.</exception>
         <threadsafe />
       </Docs>
@@ -2399,7 +2399,7 @@
   
  -or-  
   
- As a result of the assignment, WindowLeft plus &lt;xref:System.Console.WindowWidth%2A&gt; would exceed &lt;xref:System.Console.BufferWidth%2A&gt;.</exception>
+ As a result of the assignment, WindowLeft plus <see cref="System.Console.WindowWidth%2A" /> would exceed <see cref="System.Console.BufferWidth%2A" />.</exception>
         <exception cref="T:System.IO.IOException">Error reading or writing information.</exception>
         <threadsafe />
       </Docs>
@@ -2447,7 +2447,7 @@
   
  -or-  
   
- As a result of the assignment, WindowTop plus &lt;xref:System.Console.WindowHeight%2A&gt; would exceed &lt;xref:System.Console.BufferHeight%2A&gt;.</exception>
+ As a result of the assignment, WindowTop plus <see cref="System.Console.WindowHeight%2A" /> would exceed <see cref="System.Console.BufferHeight%2A" />.</exception>
         <exception cref="T:System.IO.IOException">Error reading or writing information.</exception>
         <threadsafe />
       </Docs>
@@ -2491,15 +2491,15 @@
   
  ]]></format>
         </remarks>
-        <exception cref="T:System.ArgumentOutOfRangeException">The value of the WindowWidth property or the value of the &lt;xref:System.Console.WindowHeight%2A&gt; property is less than or equal to 0.  
+        <exception cref="T:System.ArgumentOutOfRangeException">The value of the WindowWidth property or the value of the <see cref="System.Console.WindowHeight%2A" /> property is less than or equal to 0.  
   
  -or-  
   
- The value of the &lt;xref:System.Console.WindowHeight%2A&gt; property plus the value of the &lt;xref:System.Console.WindowTop%2A&gt; property is greater than or equal to <see cref="F:System.Int16.MaxValue" />.  
+ The value of the <see cref="System.Console.WindowHeight%2A" /> property plus the value of the <see cref="System.Console.WindowTop%2A" /> property is greater than or equal to <see cref="F:System.Int16.MaxValue" />.  
   
  -or-  
   
- The value of the WindowWidth property or the value of the &lt;xref:System.Console.WindowHeight%2A&gt; property is greater than the largest possible window width or height for the current screen resolution and console font.</exception>
+ The value of the WindowWidth property or the value of the <see cref="System.Console.WindowHeight%2A" /> property is greater than the largest possible window width or height for the current screen resolution and console font.</exception>
         <exception cref="T:System.IO.IOException">Error reading or writing information.</exception>
         <threadsafe />
       </Docs>

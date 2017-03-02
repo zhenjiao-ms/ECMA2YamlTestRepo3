@@ -100,7 +100,7 @@
       <Docs>
         <param name="cb">The size of the block of memory to be allocated.</param>
         <summary>Allocates a block of memory of specified size from the COM task memory allocator.</summary>
-        <returns>An integer representing the address of the block of memory allocated. This memory must be released with &lt;xref:System.Runtime.InteropServices.Marshal.FreeCoTaskMem%2A?displayProperty=fullName&gt;.</returns>
+        <returns>An integer representing the address of the block of memory allocated. This memory must be released with <see cref="System.Runtime.InteropServices.Marshal.FreeCoTaskMem%2A" />.</returns>
         <remarks>
           <format type="text/markdown"><![CDATA[  
   
@@ -141,7 +141,7 @@
       <Docs>
         <param name="cb">The required number of bytes in memory.</param>
         <summary>Allocates memory from the unmanaged memory of the process by using the specified number of bytes.</summary>
-        <returns>A pointer to the newly allocated memory. This memory must be released using the &lt;xref:System.Runtime.InteropServices.Marshal.FreeHGlobal%2A?displayProperty=fullName&gt; method.</returns>
+        <returns>A pointer to the newly allocated memory. This memory must be released using the <see cref="System.Runtime.InteropServices.Marshal.FreeHGlobal%2A" /> method.</returns>
         <remarks>
           <format type="text/markdown"><![CDATA[  
   
@@ -193,7 +193,7 @@
       <Docs>
         <param name="cb">The required number of bytes in memory.</param>
         <summary>Allocates memory from the unmanaged memory of the process by using the pointer to the specified number of bytes.</summary>
-        <returns>A pointer to the newly allocated memory. This memory must be released using the &lt;xref:System.Runtime.InteropServices.Marshal.FreeHGlobal%2A?displayProperty=fullName&gt; method.</returns>
+        <returns>A pointer to the newly allocated memory. This memory must be released using the <see cref="System.Runtime.InteropServices.Marshal.FreeHGlobal%2A" /> method.</returns>
         <remarks>
           <format type="text/markdown"><![CDATA[  
   
@@ -1461,7 +1461,7 @@
         <Parameter Name="hglobal" Type="System.IntPtr" />
       </Parameters>
       <Docs>
-        <param name="hglobal">The handle returned by the original matching call to &lt;xref:System.Runtime.InteropServices.Marshal.AllocHGlobal%2A&gt;.</param>
+        <param name="hglobal">The handle returned by the original matching call to <see cref="System.Runtime.InteropServices.Marshal.AllocHGlobal%2A" />.</param>
         <summary>Frees memory previously allocated from the unmanaged memory of the process.</summary>
         <remarks>
           <format type="text/markdown"><![CDATA[  
@@ -5028,10 +5028,10 @@
         <Parameter Name="cb" Type="System.Int32" />
       </Parameters>
       <Docs>
-        <param name="pv">A pointer to memory allocated with &lt;xref:System.Runtime.InteropServices.Marshal.AllocCoTaskMem%2A&gt;.</param>
+        <param name="pv">A pointer to memory allocated with <see cref="System.Runtime.InteropServices.Marshal.AllocCoTaskMem%2A" />.</param>
         <param name="cb">The new size of the allocated block.</param>
-        <summary>Resizes a block of memory previously allocated with &lt;xref:System.Runtime.InteropServices.Marshal.AllocCoTaskMem%2A&gt;.</summary>
-        <returns>An integer representing the address of the reallocated block of memory. This memory must be released with &lt;xref:System.Runtime.InteropServices.Marshal.FreeCoTaskMem%2A&gt;.</returns>
+        <summary>Resizes a block of memory previously allocated with <see cref="System.Runtime.InteropServices.Marshal.AllocCoTaskMem%2A" />.</summary>
+        <returns>An integer representing the address of the reallocated block of memory. This memory must be released with <see cref="System.Runtime.InteropServices.Marshal.FreeCoTaskMem%2A" />.</returns>
         <remarks>
           <format type="text/markdown"><![CDATA[  
   
@@ -5068,10 +5068,10 @@
         <Parameter Name="cb" Type="System.IntPtr" />
       </Parameters>
       <Docs>
-        <param name="pv">A pointer to memory allocated with &lt;xref:System.Runtime.InteropServices.Marshal.AllocHGlobal%2A&gt;.</param>
+        <param name="pv">A pointer to memory allocated with <see cref="System.Runtime.InteropServices.Marshal.AllocHGlobal%2A" />.</param>
         <param name="cb">The new size of the allocated block. This is not a pointer; it is the byte count you are requesting, cast to type <see cref="T:System.IntPtr" />. If you pass a pointer, it is treated as a size.</param>
-        <summary>Resizes a block of memory previously allocated with &lt;xref:System.Runtime.InteropServices.Marshal.AllocHGlobal%2A&gt;.</summary>
-        <returns>A pointer to the reallocated memory. This memory must be released using &lt;xref:System.Runtime.InteropServices.Marshal.FreeHGlobal%2A?displayProperty=fullName&gt;.</returns>
+        <summary>Resizes a block of memory previously allocated with <see cref="System.Runtime.InteropServices.Marshal.AllocHGlobal%2A" />.</summary>
+        <returns>A pointer to the reallocated memory. This memory must be released using <see cref="System.Runtime.InteropServices.Marshal.FreeHGlobal%2A" />.</returns>
         <remarks>
           <format type="text/markdown"><![CDATA[  
   
@@ -5923,7 +5923,7 @@
         <param name="structure">A managed object that holds the data to be marshaled. This object must be a structure or an instance of a formatted class.</param>
         <param name="ptr">A pointer to an unmanaged block of memory, which must be allocated before this method is called.</param>
         <param name="fDeleteOld">
-          <see langword="true" /> to call the &lt;xref:System.Runtime.InteropServices.Marshal.DestroyStructure%2A?displayProperty=fullName&gt; method on the `ptr` parameter before this method copies the data. The block must contain valid data. Note that passing <see langword="false" /> when the memory block already contains data can lead to a memory leak.</param>
+          <see langword="true" /> to call the <see cref="System.Runtime.InteropServices.Marshal.DestroyStructure%2A" /> method on the `ptr` parameter before this method copies the data. The block must contain valid data. Note that passing <see langword="false" /> when the memory block already contains data can lead to a memory leak.</param>
         <summary>Marshals data from a managed object to an unmanaged block of memory.</summary>
         <remarks>
           <format type="text/markdown"><![CDATA[  
@@ -7119,7 +7119,7 @@ public static void ThrowExceptionForHR(interrorCode,IntPtrerrorInfo)
       </Parameters>
       <Docs>
         <param name="s">The address of the <see langword="BSTR" /> to free.</param>
-        <summary>Frees a [BSTR](https://msdn.microsoft.com/library/ms221069.aspx) pointer that was allocated using the &lt;xref:System.Runtime.InteropServices.Marshal.SecureStringToBSTR%2A&gt; method.</summary>
+        <summary>Frees a [BSTR](https://msdn.microsoft.com/library/ms221069.aspx) pointer that was allocated using the <see cref="System.Runtime.InteropServices.Marshal.SecureStringToBSTR%2A" /> method.</summary>
         <remarks>
           <format type="text/markdown"><![CDATA[  
   
@@ -7154,7 +7154,7 @@ public static void ThrowExceptionForHR(interrorCode,IntPtrerrorInfo)
       </Parameters>
       <Docs>
         <param name="s">The address of the unmanaged string to free.</param>
-        <summary>Frees an unmanaged string pointer that was allocated using the &lt;xref:System.Runtime.InteropServices.Marshal.SecureStringToCoTaskMemAnsi%2A&gt; method.</summary>
+        <summary>Frees an unmanaged string pointer that was allocated using the <see cref="System.Runtime.InteropServices.Marshal.SecureStringToCoTaskMemAnsi%2A" /> method.</summary>
         <remarks>
           <format type="text/markdown"><![CDATA[  
   
@@ -7197,7 +7197,7 @@ public static void ThrowExceptionForHR(interrorCode,IntPtrerrorInfo)
       </Parameters>
       <Docs>
         <param name="s">The address of the unmanaged string to free.</param>
-        <summary>Frees an unmanaged string pointer that was allocated using the &lt;xref:System.Runtime.InteropServices.Marshal.SecureStringToCoTaskMemUnicode%2A&gt; method.</summary>
+        <summary>Frees an unmanaged string pointer that was allocated using the <see cref="System.Runtime.InteropServices.Marshal.SecureStringToCoTaskMemUnicode%2A" /> method.</summary>
         <remarks>
           <format type="text/markdown"><![CDATA[  
   
@@ -7232,7 +7232,7 @@ public static void ThrowExceptionForHR(interrorCode,IntPtrerrorInfo)
       </Parameters>
       <Docs>
         <param name="s">The address of the unmanaged string to free.</param>
-        <summary>Frees an unmanaged string pointer that was allocated using the &lt;xref:System.Runtime.InteropServices.Marshal.SecureStringToGlobalAllocAnsi%2A&gt; method.</summary>
+        <summary>Frees an unmanaged string pointer that was allocated using the <see cref="System.Runtime.InteropServices.Marshal.SecureStringToGlobalAllocAnsi%2A" /> method.</summary>
         <remarks>
           <format type="text/markdown"><![CDATA[  
   
@@ -7275,7 +7275,7 @@ public static void ThrowExceptionForHR(interrorCode,IntPtrerrorInfo)
       </Parameters>
       <Docs>
         <param name="s">The address of the unmanaged string to free.</param>
-        <summary>Frees an unmanaged string pointer that was allocated using the &lt;xref:System.Runtime.InteropServices.Marshal.SecureStringToGlobalAllocUnicode%2A&gt; method.</summary>
+        <summary>Frees an unmanaged string pointer that was allocated using the <see cref="System.Runtime.InteropServices.Marshal.SecureStringToGlobalAllocUnicode%2A" /> method.</summary>
         <remarks>
           <format type="text/markdown"><![CDATA[  
   

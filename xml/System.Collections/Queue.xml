@@ -68,7 +68,7 @@
     </remarks>
     <threadsafe>Public static (<see langword="Shared" /> in Visual Basic) members of this type are thread safe. Any instance members are not guaranteed to be thread safe.  
   
- To guarantee the thread safety of the Queue, all operations must be done through the wrapper returned by the &lt;xref:System.Collections.Queue.Synchronized%2A&gt; method.  
+ To guarantee the thread safety of the Queue, all operations must be done through the wrapper returned by the <see cref="System.Collections.Queue.Synchronized%2A" /> method.  
   
  Enumerating through a collection is intrinsically not a thread-safe procedure. Even when a collection is synchronized, other threads can still modify the collection, which causes the enumerator to throw an exception. To guarantee thread safety during enumeration, you can either lock the collection during the entire enumeration or catch the exceptions resulting from changes made by other threads.</threadsafe>
   </Docs>

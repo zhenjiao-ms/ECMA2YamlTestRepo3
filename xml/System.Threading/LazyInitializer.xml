@@ -67,10 +67,23 @@ ExpensiveData _data = null;
       </Parameters>
       <Docs>
         <typeparam name="T">To be added.</typeparam>
-        <param name="target">To be added.</param>
-        <summary>To be added.</summary>
-        <returns>To be added.</returns>
-        <remarks>To be added.</remarks>
+        <param name="target">A reference of type `T` to initialize if it has not already been initialized.</param>
+        <summary>Initializes a target reference type with the type's default constructor if it hasn't already been initialized.</summary>
+        <returns>The initialized reference of type <paramref name="T" />.</returns>
+        <remarks>
+          <format type="text/markdown"><![CDATA[  
+  
+## Remarks  
+ This method may only be used on reference types. To ensure initialization of value types, see other overloads of EnsureInitialized.  
+  
+ This method may be used concurrently by multiple threads to initialize `target`.  
+  
+ In the event that multiple threads access this method concurrently, multiple instances of `T` may be created, but only one will be stored into `target`. In such an occurrence, this method will not dispose of the objects that were not stored. If such objects must be disposed, it is up to the caller to determine if an object was not used and to then dispose of the object appropriately.  
+  
+ ]]></format>
+        </remarks>
+        <exception cref="T:System.MemberAccessException">Permissions to access the constructor of type <paramref name="T" /> were missing.</exception>
+        <exception cref="T:System.MissingMemberException">Type <paramref name="T" /> does not have a default constructor.</exception>
       </Docs>
     </Member>
     <Member MemberName="EnsureInitialized&lt;T&gt;">
@@ -97,11 +110,25 @@ ExpensiveData _data = null;
       </Parameters>
       <Docs>
         <typeparam name="T">To be added.</typeparam>
-        <param name="target">To be added.</param>
-        <param name="valueFactory">To be added.</param>
-        <summary>To be added.</summary>
-        <returns>To be added.</returns>
-        <remarks>To be added.</remarks>
+        <param name="target">The reference of type `T` to initialize if it hasn't already been initialized.</param>
+        <param name="valueFactory">The function that is called to initialize the reference.</param>
+        <summary>Initializes a target reference type by using a specified function if it hasn't already been initialized.</summary>
+        <returns>The initialized value of type <paramref name="T" />.</returns>
+        <remarks>
+          <format type="text/markdown"><![CDATA[  
+  
+## Remarks  
+ This method may only be used on reference types, and `valueFactory` may not return a null reference (Nothing in Visual Basic). To ensure initialization of value types or to allow null reference types, see other overloads of EnsureInitialized.  
+  
+ This method may be used concurrently by multiple threads to initialize `target`.  
+  
+ In the event that multiple threads access this method concurrently, multiple instances of `T` may be created, but only one will be stored into `target`. In such an occurrence, this method will not dispose of the objects that were not stored. If such objects must be disposed, it is up to the caller to determine if an object was not used and to then dispose of the object appropriately.  
+  
+ ]]></format>
+        </remarks>
+        <exception cref="T:System.MissingMemberException">Type <paramref name="T" /> does not have a default constructor.</exception>
+        <exception cref="T:System.InvalidOperationException">
+          <paramref name="valueFactory" /> returned null (Nothing in Visual Basic).</exception>
       </Docs>
     </Member>
     <Member MemberName="EnsureInitialized&lt;T&gt;">
@@ -125,12 +152,21 @@ ExpensiveData _data = null;
       </Parameters>
       <Docs>
         <typeparam name="T">To be added.</typeparam>
-        <param name="target">To be added.</param>
-        <param name="initialized">To be added.</param>
-        <param name="syncLock">To be added.</param>
-        <summary>To be added.</summary>
-        <returns>To be added.</returns>
-        <remarks>To be added.</remarks>
+        <param name="target">A reference or value of type `T` to initialize if it hasn't already been initialized.</param>
+        <param name="initialized">A reference to a Boolean value that determines whether the target has already been initialized.</param>
+        <param name="syncLock">A reference to an object used as the mutually exclusive lock for initializing `target`. If `syncLock` is <see langword="null" />, a new object will be instantiated.</param>
+        <summary>Initializes a target reference or value type with its default constructor if it hasn't already been initialized.</summary>
+        <returns>The initialized value of type <paramref name="T" />.</returns>
+        <remarks>
+          <format type="text/markdown"><![CDATA[  
+  
+## Remarks  
+ If `intialized` is specified as true, then no further initialization occurs.  
+  
+ ]]></format>
+        </remarks>
+        <exception cref="T:System.MemberAccessException">Permissions to access the constructor of type <paramref name="T" /> were missing.</exception>
+        <exception cref="T:System.MissingMemberException">Type <paramref name="T" /> does not have a default constructor.</exception>
       </Docs>
     </Member>
     <Member MemberName="EnsureInitialized&lt;T&gt;">
@@ -155,13 +191,22 @@ ExpensiveData _data = null;
       </Parameters>
       <Docs>
         <typeparam name="T">To be added.</typeparam>
-        <param name="target">To be added.</param>
-        <param name="initialized">To be added.</param>
-        <param name="syncLock">To be added.</param>
-        <param name="valueFactory">To be added.</param>
-        <summary>To be added.</summary>
-        <returns>To be added.</returns>
-        <remarks>To be added.</remarks>
+        <param name="target">A reference or value of type `T` to initialize if it hasn't already been initialized.</param>
+        <param name="initialized">A reference to a Boolean value that determines whether the target has already been initialized.</param>
+        <param name="syncLock">A reference to an object used as the mutually exclusive lock for initializing `target`. If `syncLock` is <see langword="null" />, a new object will be instantiated.</param>
+        <param name="valueFactory">The function that is called to initialize the reference or value.</param>
+        <summary>Initializes a target reference or value type by using a specified function if it hasn't already been initialized.</summary>
+        <returns>The initialized value of type <paramref name="T" />.</returns>
+        <remarks>
+          <format type="text/markdown"><![CDATA[  
+  
+## Remarks  
+ If `intialized` is specified as true, then no further initialization occurs.  
+  
+ ]]></format>
+        </remarks>
+        <exception cref="T:System.MemberAccessException">Permissions to access the constructor of type <paramref name="T" /> were missing.</exception>
+        <exception cref="T:System.MissingMemberException">Type <paramref name="T" /> does not have a default constructor.</exception>
       </Docs>
     </Member>
   </Members>

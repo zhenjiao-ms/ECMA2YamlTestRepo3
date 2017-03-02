@@ -372,7 +372,7 @@ block.Text += String.Format("The current culture UI is {0}\n",
         <Parameter Name="culture" Type="System.Int32" />
       </Parameters>
       <Docs>
-        <param name="culture">A predefined <see cref="T:System.Globalization.CultureInfo" /> identifier, &lt;xref:System.Globalization.CultureInfo.LCID%2A&gt; property of an existing <see cref="T:System.Globalization.CultureInfo" /> object, or Windows-only culture identifier.</param>
+        <param name="culture">A predefined <see cref="T:System.Globalization.CultureInfo" /> identifier, <see cref="System.Globalization.CultureInfo.LCID%2A" /> property of an existing <see cref="T:System.Globalization.CultureInfo" /> object, or Windows-only culture identifier.</param>
         <summary>Initializes a new instance of the <see cref="T:System.Globalization.CultureInfo" /> class based on the culture specified by the culture identifier.</summary>
         <remarks>
           <format type="text/markdown"><![CDATA[  
@@ -429,7 +429,7 @@ block.Text += String.Format("The current culture UI is {0}\n",
         <Parameter Name="name" Type="System.String" />
       </Parameters>
       <Docs>
-        <param name="name">A predefined <see cref="T:System.Globalization.CultureInfo" /> name, &lt;xref:System.Globalization.CultureInfo.Name%2A&gt; of an existing <see cref="T:System.Globalization.CultureInfo" />, or Windows-only culture name. `name` is not case-sensitive.</param>
+        <param name="name">A predefined <see cref="T:System.Globalization.CultureInfo" /> name, <see cref="System.Globalization.CultureInfo.Name%2A" /> of an existing <see cref="T:System.Globalization.CultureInfo" />, or Windows-only culture name. `name` is not case-sensitive.</param>
         <summary>Initializes a new instance of the <see cref="T:System.Globalization.CultureInfo" /> class based on the culture specified by name.</summary>
         <remarks>
           <format type="text/markdown"><![CDATA[  
@@ -487,7 +487,7 @@ block.Text += String.Format("The current culture UI is {0}\n",
         <Parameter Name="useUserOverride" Type="System.Boolean" />
       </Parameters>
       <Docs>
-        <param name="culture">A predefined <see cref="T:System.Globalization.CultureInfo" /> identifier, &lt;xref:System.Globalization.CultureInfo.LCID%2A&gt; property of an existing <see cref="T:System.Globalization.CultureInfo" /> object, or Windows-only culture identifier.</param>
+        <param name="culture">A predefined <see cref="T:System.Globalization.CultureInfo" /> identifier, <see cref="System.Globalization.CultureInfo.LCID%2A" /> property of an existing <see cref="T:System.Globalization.CultureInfo" /> object, or Windows-only culture identifier.</param>
         <param name="useUserOverride">A Boolean that denotes whether to use the user-selected culture settings (<see langword="true" />) or the default culture settings (<see langword="false" />).</param>
         <summary>Initializes a new instance of the <see cref="T:System.Globalization.CultureInfo" /> class based on the culture specified by the culture identifier and on the Boolean that specifies whether to use the user-selected culture settings from the system.</summary>
         <remarks>
@@ -549,7 +549,7 @@ block.Text += String.Format("The current culture UI is {0}\n",
         <Parameter Name="useUserOverride" Type="System.Boolean" />
       </Parameters>
       <Docs>
-        <param name="name">A predefined <see cref="T:System.Globalization.CultureInfo" /> name, &lt;xref:System.Globalization.CultureInfo.Name%2A&gt; of an existing <see cref="T:System.Globalization.CultureInfo" />, or Windows-only culture name. `name` is not case-sensitive.</param>
+        <param name="name">A predefined <see cref="T:System.Globalization.CultureInfo" /> name, <see cref="System.Globalization.CultureInfo.Name%2A" /> of an existing <see cref="T:System.Globalization.CultureInfo" />, or Windows-only culture name. `name` is not case-sensitive.</param>
         <param name="useUserOverride">A Boolean that denotes whether to use the user-selected culture settings (<see langword="true" />) or the default culture settings (<see langword="false" />).</param>
         <summary>Initializes a new instance of the <see cref="T:System.Globalization.CultureInfo" /> class based on the culture specified by name and on the Boolean that specifies whether to use the user-selected culture settings from the system.</summary>
         <remarks>
@@ -1363,7 +1363,7 @@ csc /resource:GreetingStrings.resources Example1.cs
   
  ]]></format>
         </remarks>
-        <exception cref="T:System.ArgumentException">In a set operation, the &lt;xref:System.Globalization.CultureInfo.Name%2A&gt; property value is invalid.</exception>
+        <exception cref="T:System.ArgumentException">In a set operation, the <see cref="System.Globalization.CultureInfo.Name%2A" /> property value is invalid.</exception>
         <threadsafe />
       </Docs>
     </Member>
@@ -1866,11 +1866,11 @@ csc /resource:GreetingStrings.resources Example1.cs
       <Docs>
         <param name="formatType">The <see cref="T:System.Type" /> for which to get a formatting object. This method only supports the <see cref="T:System.Globalization.NumberFormatInfo" /> and <see cref="T:System.Globalization.DateTimeFormatInfo" /> types.</param>
         <summary>Gets an object that defines how to format the specified type.</summary>
-        <returns>The value of the &lt;xref:System.Globalization.CultureInfo.NumberFormat%2A&gt; property, which is a <see cref="T:System.Globalization.NumberFormatInfo" /> containing the default number format information for the current <see cref="T:System.Globalization.CultureInfo" />, if <paramref name="formatType" /> is the <see cref="T:System.Type" /> object for the <see cref="T:System.Globalization.NumberFormatInfo" /> class.  
+        <returns>The value of the <see cref="System.Globalization.CultureInfo.NumberFormat%2A" /> property, which is a <see cref="T:System.Globalization.NumberFormatInfo" /> containing the default number format information for the current <see cref="T:System.Globalization.CultureInfo" />, if <paramref name="formatType" /> is the <see cref="T:System.Type" /> object for the <see cref="T:System.Globalization.NumberFormatInfo" /> class.  
   
  -or-  
   
- The value of the &lt;xref:System.Globalization.CultureInfo.DateTimeFormat%2A&gt; property, which is a <see cref="T:System.Globalization.DateTimeFormatInfo" /> containing the default date and time format information for the current <see cref="T:System.Globalization.CultureInfo" />, if <paramref name="formatType" /> is the <see cref="T:System.Type" /> object for the <see cref="T:System.Globalization.DateTimeFormatInfo" /> class.  
+ The value of the <see cref="System.Globalization.CultureInfo.DateTimeFormat%2A" /> property, which is a <see cref="T:System.Globalization.DateTimeFormatInfo" /> containing the default date and time format information for the current <see cref="T:System.Globalization.CultureInfo" />, if <paramref name="formatType" /> is the <see cref="T:System.Type" /> object for the <see cref="T:System.Globalization.DateTimeFormatInfo" /> class.  
   
  -or-  
   

@@ -59,7 +59,7 @@
   
  ]]></format>
     </remarks>
-    <threadsafe>All public and protected members of CancellationTokenSource are thread-safe and may be used concurrently from multiple threads, with the exception of &lt;xref:System.Threading.CancellationTokenSource.Dispose%2A&gt;, which must only be used when all other operations on the CancellationTokenSource object have completed.</threadsafe>
+    <threadsafe>All public and protected members of CancellationTokenSource are thread-safe and may be used concurrently from multiple threads, with the exception of <see cref="System.Threading.CancellationTokenSource.Dispose%2A" />, which must only be used when all other operations on the CancellationTokenSource object have completed.</threadsafe>
   </Docs>
   <Members>
     <Member MemberName=".ctor">
@@ -136,7 +136,7 @@
  ]]></format>
         </remarks>
         <exception cref="  &#xA;            T:System.ArgumentOutOfRangeException">
-          <paramref name="delay" /> <see langword="." /> &lt;xref:System.TimeSpan.TotalMilliseconds%2A&gt; is less than -1 or greater than <see cref="F:System.Int32.MaxValue" />.</exception>
+          <paramref name="delay" /> <see langword="." /> <see cref="System.TimeSpan.TotalMilliseconds%2A" /> is less than -1 or greater than <see cref="F:System.Int32.MaxValue" />.</exception>
         <threadsafe />
       </Docs>
     </Member>

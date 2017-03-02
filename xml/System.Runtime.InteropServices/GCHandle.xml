@@ -100,7 +100,7 @@
       <Docs>
         <param name="value">The object that uses the <see cref="T:System.Runtime.InteropServices.GCHandle" />.</param>
         <summary>Allocates a <see cref="T:System.Runtime.InteropServices.GCHandleType" /> handle for the specified object.</summary>
-        <returns>A new <see cref="T:System.Runtime.InteropServices.GCHandle" /> that protects the object from garbage collection. This <see cref="T:System.Runtime.InteropServices.GCHandle" /> must be released with &lt;xref:System.Runtime.InteropServices.GCHandle.Free%2A&gt; when it is no longer needed.</returns>
+        <returns>A new <see cref="T:System.Runtime.InteropServices.GCHandle" /> that protects the object from garbage collection. This <see cref="T:System.Runtime.InteropServices.GCHandle" /> must be released with <see cref="System.Runtime.InteropServices.GCHandle.Free%2A" /> when it is no longer needed.</returns>
         <remarks>
           <format type="text/markdown"><![CDATA[  
   
@@ -148,7 +148,7 @@
         <param name="value">The object that uses the <see cref="T:System.Runtime.InteropServices.GCHandle" />.</param>
         <param name="type">One of the <see cref="T:System.Runtime.InteropServices.GCHandleType" /> values, indicating the type of <see cref="T:System.Runtime.InteropServices.GCHandle" /> to create.</param>
         <summary>Allocates a handle of the specified type for the specified object.</summary>
-        <returns>A new <see cref="T:System.Runtime.InteropServices.GCHandle" /> of the specified type. This <see cref="T:System.Runtime.InteropServices.GCHandle" /> must be released with &lt;xref:System.Runtime.InteropServices.GCHandle.Free%2A&gt; when it is no longer needed.</returns>
+        <returns>A new <see cref="T:System.Runtime.InteropServices.GCHandle" /> of the specified type. This <see cref="T:System.Runtime.InteropServices.GCHandle" /> must be released with <see cref="System.Runtime.InteropServices.GCHandle.Free%2A" /> when it is no longer needed.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentException">An instance with nonprimitive (non-blittable) members cannot be pinned.</exception>
         <permission cref="T:System.Security.SecurityCriticalAttribute">requires full trust for the immediate caller. This member cannot be used by partially trusted or transparent code.</permission>

@@ -1,62 +1,36 @@
 using System;
-using System.Security.Permissions;
 using System.Threading;
+using System.Threading.Tasks;
 
-class ThreadInterrupt
+class ThreadLocalDemo
 {
-    static void Main()
-    {
-        StayAwake stayAwake = new StayAwake();
-        Thread newThread = 
-            new Thread(new ThreadStart(stayAwake.ThreadMethod));
-        newThread.Start();
-
-        // The following line causes an exception to be thrown 
-        // in ThreadMethod if newThread is currently blocked
-        // or becomes blocked in the future.
-        newThread.Interrupt();
-        Console.WriteLine("Main thread calls Interrupt on newThread.");
-
-        // Tell newThread to go to sleep.
-        stayAwake.SleepSwitch = true;
-
-        // Wait for newThread to end.
-        newThread.Join();
-    }
-}
-
-class StayAwake
-{
-    bool sleepSwitch = false;
-
-    public bool SleepSwitch
-    {
-        set{ sleepSwitch = value; }
-    }
-
-    public StayAwake(){}
-
-    public void ThreadMethod()
-    {
-        Console.WriteLine("newThread is executing ThreadMethod.");
-        while(!sleepSwitch)
+    
+        // Demonstrates:
+        //      ThreadLocal(T) constructor
+        //      ThreadLocal(T).Value
+        //      One usage of ThreadLocal(T)
+        static void Main()
         {
-            // Use SpinWait instead of Sleep to demonstrate the 
-            // effect of calling Interrupt on a running thread.
-            Thread.SpinWait(10000000);
-        }
-        try
-        {
-            Console.WriteLine("newThread going to sleep.");
+            // Thread-Local variable that yields a name for a thread
+            ThreadLocal<string> ThreadName = new ThreadLocal<string>(() =>
+            {
+                return "Thread" + Thread.CurrentThread.ManagedThreadId;
+            });
 
-            // When newThread goes to sleep, it is immediately 
-            // woken up by a ThreadInterruptedException.
-            Thread.Sleep(Timeout.Infinite);
+            // Action that prints out ThreadName for the current thread
+            Action action = () =>
+            {
+                // If ThreadName.IsValueCreated is true, it means that we are not the
+                // first action to run on this thread.
+                bool repeat = ThreadName.IsValueCreated;
+
+                Console.WriteLine("ThreadName = {0} {1}", ThreadName.Value, repeat ? "(repeat)" : "");
+            };
+
+            // Launch eight of them.  On 4 cores or less, you should see some repeat ThreadNames
+            Parallel.Invoke(action, action, action, action, action, action, action, action);
+
+            // Dispose when you are done
+            ThreadName.Dispose();
         }
-        catch(ThreadInterruptedException e)
-        {
-            Console.WriteLine("newThread cannot go to sleep - " +
-                "interrupted by main thread.");
-        }
-    }
 }

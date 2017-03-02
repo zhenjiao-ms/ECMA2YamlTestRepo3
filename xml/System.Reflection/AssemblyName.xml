@@ -175,7 +175,7 @@ ExampleAssembly, Version=1.0.0.0, Culture=en, PublicKeyToken=a5d015c7d5a0b012
         <Parameter Name="assemblyName" Type="System.String" />
       </Parameters>
       <Docs>
-        <param name="assemblyName">The display name of the assembly, as returned by the &lt;xref:System.Reflection.AssemblyName.FullName%2A&gt; property.</param>
+        <param name="assemblyName">The display name of the assembly, as returned by the <see cref="System.Reflection.AssemblyName.FullName%2A" /> property.</param>
         <summary>Initializes a new instance of the <see cref="T:System.Reflection.AssemblyName" /> class with the specified display name.</summary>
         <remarks>
           <format type="text/markdown"><![CDATA[  
@@ -572,7 +572,7 @@ mylib, Version=1.2.1900.0, Culture=neutral, PublicKeyToken=a14f3033def15840
   
  ]]></format>
         </remarks>
-        <exception cref="T:System.Security.SecurityException">A public key was provided (for example, by using the &lt;xref:System.Reflection.AssemblyName.SetPublicKey%2A&gt; method), but no public key token was provided.</exception>
+        <exception cref="T:System.Security.SecurityException">A public key was provided (for example, by using the <see cref="System.Reflection.AssemblyName.SetPublicKey%2A" /> method), but no public key token was provided.</exception>
         <threadsafe />
       </Docs>
     </Member>

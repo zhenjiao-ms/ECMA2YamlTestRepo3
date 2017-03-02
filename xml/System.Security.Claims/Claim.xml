@@ -169,7 +169,7 @@ if (null != principal)
         <param name="value">The claim value.</param>
         <param name="valueType">The claim value type. If this parameter is <see langword="null" />, then <see cref="F:System.Security.Claims.ClaimValueTypes.String" /> is used.</param>
         <param name="issuer">The claim issuer. If this parameter is empty or <see langword="null" />, then <see cref="F:System.Security.Claims.ClaimsIdentity.DefaultIssuer" /> is used.</param>
-        <param name="originalIssuer">The original issuer of the claim. If this parameter is empty or <see langword="null" />, then the &lt;xref:System.Security.Claims.Claim.OriginalIssuer%2A&gt; property is set to the value of the &lt;xref:System.Security.Claims.Claim.Issuer%2A&gt; property.</param>
+        <param name="originalIssuer">The original issuer of the claim. If this parameter is empty or <see langword="null" />, then the <see cref="System.Security.Claims.Claim.OriginalIssuer%2A" /> property is set to the value of the <see cref="System.Security.Claims.Claim.Issuer%2A" /> property.</param>
         <summary>Initializes a new instance of the <see cref="T:System.Security.Claims.Claim" /> class with the specified claim type, value, value type, issuer,  and original issuer.</summary>
         <remarks>
           <format type="text/markdown"><![CDATA[  
@@ -205,7 +205,7 @@ if (null != principal)
         <param name="value">The claim value.</param>
         <param name="valueType">The claim value type. If this parameter is <see langword="null" />, then <see cref="F:System.Security.Claims.ClaimValueTypes.String" /> is used.</param>
         <param name="issuer">The claim issuer. If this parameter is empty or <see langword="null" />, then <see cref="F:System.Security.Claims.ClaimsIdentity.DefaultIssuer" /> is used.</param>
-        <param name="originalIssuer">The original issuer of the claim. If this parameter is empty or <see langword="null" />, then the &lt;xref:System.Security.Claims.Claim.OriginalIssuer%2A&gt; property is set to the value of the &lt;xref:System.Security.Claims.Claim.Issuer%2A&gt; property.</param>
+        <param name="originalIssuer">The original issuer of the claim. If this parameter is empty or <see langword="null" />, then the <see cref="System.Security.Claims.Claim.OriginalIssuer%2A" /> property is set to the value of the <see cref="System.Security.Claims.Claim.Issuer%2A" /> property.</param>
         <param name="subject">The subject that this claim describes.</param>
         <summary>Initializes a new instance of the <see cref="T:System.Security.Claims.Claim" /> class with the specified claim type, value, value type, issuer, original issuer and subject.</summary>
         <remarks>To be added.</remarks>

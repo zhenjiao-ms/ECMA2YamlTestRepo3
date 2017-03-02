@@ -133,7 +133,7 @@
  ]]></format>
         </remarks>
         <exception cref="T:System.ArgumentOutOfRangeException">The <paramref name="action" /> is invalid (<see langword="RequestMinimum" />, <see langword="RequestOptional" />, and <see langword="RequestRefuse" /> are invalid).</exception>
-        <exception cref="T:System.InvalidOperationException">The containing type has been created using &lt;xref:System.Reflection.Emit.TypeBuilder.CreateType%2A&gt;.  
+        <exception cref="T:System.InvalidOperationException">The containing type has been created using <see cref="System.Reflection.Emit.TypeBuilder.CreateType%2A" />.  
   
  -or-  
   
@@ -141,7 +141,7 @@
   
  -or-  
   
- For the current method, the &lt;xref:System.Reflection.Emit.MethodBuilder.IsGenericMethod%2A&gt; property is <see langword="true" />, but the &lt;xref:System.Reflection.Emit.MethodBuilder.IsGenericMethodDefinition%2A&gt; property is <see langword="false" />.</exception>
+ For the current method, the <see cref="System.Reflection.Emit.MethodBuilder.IsGenericMethod%2A" /> property is <see langword="true" />, but the <see cref="System.Reflection.Emit.MethodBuilder.IsGenericMethodDefinition%2A" /> property is <see langword="false" />.</exception>
         <exception cref="T:System.ArgumentNullException">
           <paramref name="pset" /> is <see langword="null" />.</exception>
         <threadsafe />
@@ -258,7 +258,7 @@
  ]]></format>
         </remarks>
         <exception cref="T:System.ArgumentOutOfRangeException">The <paramref name="count" /> is not within the range of indexes of the supplied MSIL instruction array and <paramref name="il" /> is not <see langword="null" />.</exception>
-        <exception cref="T:System.InvalidOperationException">The containing type was previously created using &lt;xref:System.Reflection.Emit.TypeBuilder.CreateType%2A&gt;.  
+        <exception cref="T:System.InvalidOperationException">The containing type was previously created using <see cref="System.Reflection.Emit.TypeBuilder.CreateType%2A" />.  
   
  -or-  
   
@@ -266,7 +266,7 @@
   
  -or-  
   
- For the current method, the &lt;xref:System.Reflection.Emit.MethodBuilder.IsGenericMethod%2A&gt; property is <see langword="true" />, but the &lt;xref:System.Reflection.Emit.MethodBuilder.IsGenericMethodDefinition%2A&gt; property is <see langword="false" />.</exception>
+ For the current method, the <see cref="System.Reflection.Emit.MethodBuilder.IsGenericMethod%2A" /> property is <see langword="true" />, but the <see cref="System.Reflection.Emit.MethodBuilder.IsGenericMethodDefinition%2A" /> property is <see langword="false" />.</exception>
         <threadsafe />
       </Docs>
     </Member>
@@ -362,7 +362,7 @@
   
  -or-  
   
- The &lt;xref:System.Reflection.Emit.MethodBuilder.SetImplementationFlags%2A&gt; method has been called for the current method.</exception>
+ The <see cref="System.Reflection.Emit.MethodBuilder.SetImplementationFlags%2A" /> method has been called for the current method.</exception>
         <exception cref="T:System.ArgumentNullException">
           <paramref name="names" /> is <see langword="null" />.  
   
@@ -425,11 +425,11 @@
  -or-  
   
  <paramref name="position" /> is greater than the number of the method's parameters.</exception>
-        <exception cref="T:System.InvalidOperationException">The containing type was previously created using &lt;xref:System.Reflection.Emit.TypeBuilder.CreateType%2A&gt;.  
+        <exception cref="T:System.InvalidOperationException">The containing type was previously created using <see cref="System.Reflection.Emit.TypeBuilder.CreateType%2A" />.  
   
  -or-  
   
- For the current method, the &lt;xref:System.Reflection.Emit.MethodBuilder.IsGenericMethod%2A&gt; property is <see langword="true" />, but the &lt;xref:System.Reflection.Emit.MethodBuilder.IsGenericMethodDefinition%2A&gt; property is <see langword="false" />.</exception>
+ For the current method, the <see cref="System.Reflection.Emit.MethodBuilder.IsGenericMethod%2A" /> property is <see langword="true" />, but the <see cref="System.Reflection.Emit.MethodBuilder.IsGenericMethodDefinition%2A" /> property is <see langword="false" />.</exception>
         <threadsafe />
       </Docs>
     </Member>
@@ -519,7 +519,7 @@
         <summary>Returns all the custom attributes defined for this method.</summary>
         <returns>Returns an array of objects representing all the custom attributes of this method.</returns>
         <remarks>To be added.</remarks>
-        <exception cref="T:System.NotSupportedException">This method is not currently supported. Retrieve the method using &lt;xref:System.Type.GetMethod%2A&gt; and call &lt;xref:System.Reflection.MemberInfo.GetCustomAttributes%2A&gt; on the returned <see cref="T:System.Reflection.MethodInfo" />.</exception>
+        <exception cref="T:System.NotSupportedException">This method is not currently supported. Retrieve the method using <see cref="System.Type.GetMethod%2A" /> and call <see cref="System.Reflection.MemberInfo.GetCustomAttributes%2A" /> on the returned <see cref="T:System.Reflection.MethodInfo" />.</exception>
         <threadsafe />
       </Docs>
     </Member>
@@ -546,7 +546,7 @@
         <summary>Returns the custom attributes identified by the given type.</summary>
         <returns>Returns an array of objects representing the attributes of this method that are of type <paramref name="attributeType" />.</returns>
         <remarks>To be added.</remarks>
-        <exception cref="T:System.NotSupportedException">This method is not currently supported. Retrieve the method using &lt;xref:System.Type.GetMethod%2A&gt; and call &lt;xref:System.Reflection.MemberInfo.GetCustomAttributes%2A&gt; on the returned <see cref="T:System.Reflection.MethodInfo" />.</exception>
+        <exception cref="T:System.NotSupportedException">This method is not currently supported. Retrieve the method using <see cref="System.Type.GetMethod%2A" /> and call <see cref="System.Reflection.MemberInfo.GetCustomAttributes%2A" /> on the returned <see cref="T:System.Reflection.MethodInfo" />.</exception>
         <threadsafe />
       </Docs>
     </Member>
@@ -605,7 +605,7 @@
   
  ]]></format>
         </remarks>
-        <exception cref="T:System.InvalidOperationException">The current method is not generic. That is, the &lt;xref:System.Reflection.Emit.MethodBuilder.IsGenericMethod%2A&gt; property returns <see langword="false" />.</exception>
+        <exception cref="T:System.InvalidOperationException">The current method is not generic. That is, the <see cref="System.Reflection.Emit.MethodBuilder.IsGenericMethod%2A" /> property returns <see langword="false" />.</exception>
         <threadsafe />
       </Docs>
     </Member>
@@ -663,7 +663,7 @@
   
  -or-  
   
- The method is a generic method, but not a generic method definition. That is, the &lt;xref:System.Reflection.Emit.MethodBuilder.IsGenericMethod%2A&gt; property is <see langword="true" />, but the &lt;xref:System.Reflection.Emit.MethodBuilder.IsGenericMethodDefinition%2A&gt; property is <see langword="false" />.</exception>
+ The method is a generic method, but not a generic method definition. That is, the <see cref="System.Reflection.Emit.MethodBuilder.IsGenericMethod%2A" /> property is <see langword="true" />, but the <see cref="System.Reflection.Emit.MethodBuilder.IsGenericMethodDefinition%2A" /> property is <see langword="false" />.</exception>
         <threadsafe />
       </Docs>
     </Member>
@@ -703,7 +703,7 @@
   
  -or-  
   
- The method is a generic method, but not a generic method definition. That is, the &lt;xref:System.Reflection.Emit.MethodBuilder.IsGenericMethod%2A&gt; property is <see langword="true" />, but the &lt;xref:System.Reflection.Emit.MethodBuilder.IsGenericMethodDefinition%2A&gt; property is <see langword="false" />.</exception>
+ The method is a generic method, but not a generic method definition. That is, the <see cref="System.Reflection.Emit.MethodBuilder.IsGenericMethod%2A" /> property is <see langword="true" />, but the <see cref="System.Reflection.Emit.MethodBuilder.IsGenericMethodDefinition%2A" /> property is <see langword="false" />.</exception>
         <threadsafe />
       </Docs>
     </Member>
@@ -789,7 +789,7 @@
   
  ]]></format>
         </remarks>
-        <exception cref="T:System.NotSupportedException">This method is not currently supported. Retrieve the method using &lt;xref:System.Type.GetMethod%2A&gt; and call <see langword="GetParameters" /> on the returned <see cref="T:System.Reflection.MethodInfo" />.</exception>
+        <exception cref="T:System.NotSupportedException">This method is not currently supported. Retrieve the method using <see cref="System.Type.GetMethod%2A" /> and call <see langword="GetParameters" /> on the returned <see cref="T:System.Reflection.MethodInfo" />.</exception>
         <threadsafe />
       </Docs>
     </Member>
@@ -844,7 +844,7 @@
   
  ]]></format>
         </remarks>
-        <exception cref="T:System.InvalidOperationException">For the current method, the &lt;xref:System.Reflection.Emit.MethodBuilder.IsGenericMethod%2A&gt; property is <see langword="true" />, but the &lt;xref:System.Reflection.Emit.MethodBuilder.IsGenericMethodDefinition%2A&gt; property is <see langword="false" />. (Get or set.)</exception>
+        <exception cref="T:System.InvalidOperationException">For the current method, the <see cref="System.Reflection.Emit.MethodBuilder.IsGenericMethod%2A" /> property is <see langword="true" />, but the <see cref="System.Reflection.Emit.MethodBuilder.IsGenericMethodDefinition%2A" /> property is <see langword="false" />. (Get or set.)</exception>
         <threadsafe />
       </Docs>
     </Member>
@@ -887,7 +887,7 @@
   
  ]]></format>
         </remarks>
-        <exception cref="T:System.NotSupportedException">This method is not currently supported. Retrieve the method using &lt;xref:System.Type.GetMethod%2A&gt; and call &lt;xref:System.Type.InvokeMember%2A&gt; on the returned <see cref="T:System.Reflection.MethodInfo" />.</exception>
+        <exception cref="T:System.NotSupportedException">This method is not currently supported. Retrieve the method using <see cref="System.Type.GetMethod%2A" /> and call <see cref="System.Type.InvokeMember%2A" /> on the returned <see cref="T:System.Reflection.MethodInfo" />.</exception>
         <threadsafe />
       </Docs>
     </Member>
@@ -915,7 +915,7 @@
         <returns>
           <see langword="true" /> if the specified custom attribute type is defined; otherwise, <see langword="false" />.</returns>
         <remarks>To be added.</remarks>
-        <exception cref="T:System.NotSupportedException">This method is not currently supported. Retrieve the method using &lt;xref:System.Type.GetMethod%2A&gt; and call &lt;xref:System.Reflection.MemberInfo.IsDefined%2A&gt; on the returned <see cref="T:System.Reflection.MethodInfo" />.</exception>
+        <exception cref="T:System.NotSupportedException">This method is not currently supported. Retrieve the method using <see cref="System.Type.GetMethod%2A" /> and call <see cref="System.Reflection.MemberInfo.IsDefined%2A" /> on the returned <see cref="T:System.Reflection.MethodInfo" />.</exception>
         <threadsafe />
       </Docs>
     </Member>
@@ -1136,7 +1136,7 @@
         <summary>Retrieves the internal handle for the method. Use this handle to access the underlying metadata handle.</summary>
         <value>Read-only. The internal handle for the method. Use this handle to access the underlying metadata handle.</value>
         <remarks>To be added.</remarks>
-        <exception cref="T:System.NotSupportedException">This method is not currently supported. Retrieve the method using &lt;xref:System.Type.GetMethod%2A&gt; and call &lt;xref:System.Reflection.MethodBase.MethodHandle%2A&gt; on the returned <see cref="T:System.Reflection.MethodInfo" />.</exception>
+        <exception cref="T:System.NotSupportedException">This method is not currently supported. Retrieve the method using <see cref="System.Type.GetMethod%2A" /> and call <see cref="System.Reflection.MethodBase.MethodHandle%2A" /> on the returned <see cref="T:System.Reflection.MethodInfo" />.</exception>
         <threadsafe />
       </Docs>
     </Member>
@@ -1323,7 +1323,7 @@
         </remarks>
         <exception cref="T:System.ArgumentNullException">
           <paramref name="customBuilder" /> is <see langword="null" />.</exception>
-        <exception cref="T:System.InvalidOperationException">For the current method, the &lt;xref:System.Reflection.Emit.MethodBuilder.IsGenericMethod%2A&gt; property is <see langword="true" />, but the &lt;xref:System.Reflection.Emit.MethodBuilder.IsGenericMethodDefinition%2A&gt; property is <see langword="false" />.</exception>
+        <exception cref="T:System.InvalidOperationException">For the current method, the <see cref="System.Reflection.Emit.MethodBuilder.IsGenericMethod%2A" /> property is <see langword="true" />, but the <see cref="System.Reflection.Emit.MethodBuilder.IsGenericMethodDefinition%2A" /> property is <see langword="false" />.</exception>
         <threadsafe />
       </Docs>
     </Member>
@@ -1368,7 +1368,7 @@
         </remarks>
         <exception cref="T:System.ArgumentNullException">
           <paramref name="con" /> or <paramref name="binaryAttribute" /> is <see langword="null" />.</exception>
-        <exception cref="T:System.InvalidOperationException">For the current method, the &lt;xref:System.Reflection.Emit.MethodBuilder.IsGenericMethod%2A&gt; property is <see langword="true" />, but the &lt;xref:System.Reflection.Emit.MethodBuilder.IsGenericMethodDefinition%2A&gt; property is <see langword="false" />.</exception>
+        <exception cref="T:System.InvalidOperationException">For the current method, the <see cref="System.Reflection.Emit.MethodBuilder.IsGenericMethod%2A" /> property is <see langword="true" />, but the <see cref="System.Reflection.Emit.MethodBuilder.IsGenericMethodDefinition%2A" /> property is <see langword="false" />.</exception>
         <threadsafe />
       </Docs>
     </Member>
@@ -1417,11 +1417,11 @@
   
  ]]></format>
         </remarks>
-        <exception cref="T:System.InvalidOperationException">The containing type was previously created using &lt;xref:System.Reflection.Emit.TypeBuilder.CreateType%2A&gt;.  
+        <exception cref="T:System.InvalidOperationException">The containing type was previously created using <see cref="System.Reflection.Emit.TypeBuilder.CreateType%2A" />.  
   
  -or-  
   
- For the current method, the &lt;xref:System.Reflection.Emit.MethodBuilder.IsGenericMethod%2A&gt; property is <see langword="true" />, but the &lt;xref:System.Reflection.Emit.MethodBuilder.IsGenericMethodDefinition%2A&gt; property is <see langword="false" />.</exception>
+ For the current method, the <see cref="System.Reflection.Emit.MethodBuilder.IsGenericMethod%2A" /> property is <see langword="true" />, but the <see cref="System.Reflection.Emit.MethodBuilder.IsGenericMethodDefinition%2A" /> property is <see langword="false" />.</exception>
         <threadsafe />
       </Docs>
     </Member>
@@ -1464,11 +1464,11 @@
   
  ]]></format>
         </remarks>
-        <exception cref="T:System.InvalidOperationException">The containing type was previously created using &lt;xref:System.Reflection.Emit.TypeBuilder.CreateType%2A&gt;.  
+        <exception cref="T:System.InvalidOperationException">The containing type was previously created using <see cref="System.Reflection.Emit.TypeBuilder.CreateType%2A" />.  
   
  -or-  
   
- For the current method, the &lt;xref:System.Reflection.Emit.MethodBuilder.IsGenericMethod%2A&gt; property is <see langword="true" />, but the &lt;xref:System.Reflection.Emit.MethodBuilder.IsGenericMethodDefinition%2A&gt; property is <see langword="false" />.</exception>
+ For the current method, the <see cref="System.Reflection.Emit.MethodBuilder.IsGenericMethod%2A" /> property is <see langword="true" />, but the <see cref="System.Reflection.Emit.MethodBuilder.IsGenericMethodDefinition%2A" /> property is <see langword="false" />.</exception>
         <threadsafe />
       </Docs>
     </Member>
@@ -1510,7 +1510,7 @@
  -or-  
   
  One of <paramref name="tokenFixups" /> specifies an offset that is outside the <paramref name="il" /> array.</exception>
-        <exception cref="T:System.InvalidOperationException">The containing type was previously created using the &lt;xref:System.Reflection.Emit.TypeBuilder.CreateType%2A?displayProperty=fullName&gt; method.  
+        <exception cref="T:System.InvalidOperationException">The containing type was previously created using the <see cref="System.Reflection.Emit.TypeBuilder.CreateType%2A" /> method.  
   
  -or-  
   
@@ -1568,7 +1568,7 @@
   
  ]]></format>
         </remarks>
-        <exception cref="T:System.InvalidOperationException">The current method is generic, but is not a generic method definition. That is, the &lt;xref:System.Reflection.Emit.MethodBuilder.IsGenericMethod%2A&gt; property is <see langword="true" />, but the &lt;xref:System.Reflection.Emit.MethodBuilder.IsGenericMethodDefinition%2A&gt; property is <see langword="false" />.</exception>
+        <exception cref="T:System.InvalidOperationException">The current method is generic, but is not a generic method definition. That is, the <see cref="System.Reflection.Emit.MethodBuilder.IsGenericMethod%2A" /> property is <see langword="true" />, but the <see cref="System.Reflection.Emit.MethodBuilder.IsGenericMethodDefinition%2A" /> property is <see langword="false" />.</exception>
         <threadsafe />
       </Docs>
     </Member>
@@ -1614,7 +1614,7 @@
   
  ]]></format>
         </remarks>
-        <exception cref="T:System.InvalidOperationException">The current method is generic, but is not a generic method definition. That is, the &lt;xref:System.Reflection.Emit.MethodBuilder.IsGenericMethod%2A&gt; property is <see langword="true" />, but the &lt;xref:System.Reflection.Emit.MethodBuilder.IsGenericMethodDefinition%2A&gt; property is <see langword="false" />.</exception>
+        <exception cref="T:System.InvalidOperationException">The current method is generic, but is not a generic method definition. That is, the <see cref="System.Reflection.Emit.MethodBuilder.IsGenericMethod%2A" /> property is <see langword="true" />, but the <see cref="System.Reflection.Emit.MethodBuilder.IsGenericMethodDefinition%2A" /> property is <see langword="false" />.</exception>
         <threadsafe />
       </Docs>
     </Member>
@@ -1670,7 +1670,7 @@
   
  ]]></format>
         </remarks>
-        <exception cref="T:System.InvalidOperationException">The current method is generic, but is not a generic method definition. That is, the &lt;xref:System.Reflection.Emit.MethodBuilder.IsGenericMethod%2A&gt; property is <see langword="true" />, but the &lt;xref:System.Reflection.Emit.MethodBuilder.IsGenericMethodDefinition%2A&gt; property is <see langword="false" />.</exception>
+        <exception cref="T:System.InvalidOperationException">The current method is generic, but is not a generic method definition. That is, the <see cref="System.Reflection.Emit.MethodBuilder.IsGenericMethod%2A" /> property is <see langword="true" />, but the <see cref="System.Reflection.Emit.MethodBuilder.IsGenericMethodDefinition%2A" /> property is <see langword="false" />.</exception>
         <threadsafe />
       </Docs>
     </Member>
@@ -1712,7 +1712,7 @@
   
  ]]></format>
         </remarks>
-        <exception cref="T:System.InvalidOperationException">The containing type was previously created using &lt;xref:System.Reflection.Emit.TypeBuilder.CreateType%2A&gt;.  
+        <exception cref="T:System.InvalidOperationException">The containing type was previously created using <see cref="System.Reflection.Emit.TypeBuilder.CreateType%2A" />.  
   
  -or-  
   
@@ -1720,7 +1720,7 @@
   
  -or-  
   
- For the current method, the &lt;xref:System.Reflection.Emit.MethodBuilder.IsGenericMethod%2A&gt; property is <see langword="true" />, but the &lt;xref:System.Reflection.Emit.MethodBuilder.IsGenericMethodDefinition%2A&gt; property is <see langword="false" />.</exception>
+ For the current method, the <see cref="System.Reflection.Emit.MethodBuilder.IsGenericMethod%2A" /> property is <see langword="true" />, but the <see cref="System.Reflection.Emit.MethodBuilder.IsGenericMethodDefinition%2A" /> property is <see langword="false" />.</exception>
         <threadsafe />
       </Docs>
     </Member>

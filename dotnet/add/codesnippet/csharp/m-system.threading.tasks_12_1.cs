@@ -1,19 +1,23 @@
 using System;
+using System.Threading;
 using System.Threading.Tasks;
 
 public class Example
 {
    public static void Main()
    {
-      var t = Task.Run(async delegate
-              {
-                 await Task.Delay(TimeSpan.FromSeconds(1.5));
-                 return 42;
-              });
+      ShowThreadInfo("Application");
+
+      var t = Task.Run(() => ShowThreadInfo("Task") );
       t.Wait();
-      Console.WriteLine("Task t Status: {0}, Result: {1}",
-                        t.Status, t.Result);
+   }
+
+   static void ShowThreadInfo(String s)
+   {
+      Console.WriteLine("{0} Thread ID: {1}",
+                        s, Thread.CurrentThread.ManagedThreadId);
    }
 }
 // The example displays the following output:
-//        Task t Status: RanToCompletion, Result: 42
+//       Application thread ID: 1
+//       Task thread ID: 3

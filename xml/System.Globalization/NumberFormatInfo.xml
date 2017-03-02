@@ -388,7 +388,7 @@
       </ReturnValue>
       <Docs>
         <summary>Gets or sets the number of decimal places to use in currency values.</summary>
-        <value>The number of decimal places to use in currency values. The default for &lt;xref:System.Globalization.NumberFormatInfo.InvariantInfo%2A&gt; is 2.</value>
+        <value>The number of decimal places to use in currency values. The default for <see cref="System.Globalization.NumberFormatInfo.InvariantInfo%2A" /> is 2.</value>
         <remarks>
           <format type="text/markdown"><![CDATA[  
   
@@ -426,7 +426,7 @@
       </ReturnValue>
       <Docs>
         <summary>Gets or sets the string to use as the decimal separator in currency values.</summary>
-        <value>The string to use as the decimal separator in currency values. The default for &lt;xref:System.Globalization.NumberFormatInfo.InvariantInfo%2A&gt; is ".".</value>
+        <value>The string to use as the decimal separator in currency values. The default for <see cref="System.Globalization.NumberFormatInfo.InvariantInfo%2A" /> is ".".</value>
         <remarks>
           <format type="text/markdown"><![CDATA[  
   
@@ -467,7 +467,7 @@
       </ReturnValue>
       <Docs>
         <summary>Gets or sets the string that separates groups of digits to the left of the decimal in currency values.</summary>
-        <value>The string that separates groups of digits to the left of the decimal in currency values. The default for &lt;xref:System.Globalization.NumberFormatInfo.InvariantInfo%2A&gt; is ",".</value>
+        <value>The string that separates groups of digits to the left of the decimal in currency values. The default for <see cref="System.Globalization.NumberFormatInfo.InvariantInfo%2A" /> is ",".</value>
         <remarks>
           <format type="text/markdown"><![CDATA[  
   
@@ -507,7 +507,7 @@
       </ReturnValue>
       <Docs>
         <summary>Gets or sets the number of digits in each group to the left of the decimal in currency values.</summary>
-        <value>The number of digits in each group to the left of the decimal in currency values. The default for &lt;xref:System.Globalization.NumberFormatInfo.InvariantInfo%2A&gt; is a one-dimensional array with only one element, which is set to 3.</value>
+        <value>The number of digits in each group to the left of the decimal in currency values. The default for <see cref="System.Globalization.NumberFormatInfo.InvariantInfo%2A" /> is a one-dimensional array with only one element, which is set to 3.</value>
         <remarks>
           <format type="text/markdown"><![CDATA[  
   
@@ -554,7 +554,7 @@
       </ReturnValue>
       <Docs>
         <summary>Gets or sets the format pattern for negative currency values.</summary>
-        <value>The format pattern for negative currency values. The default for &lt;xref:System.Globalization.NumberFormatInfo.InvariantInfo%2A&gt; is 0, which represents "($n)", where "$" is the &lt;xref:System.Globalization.NumberFormatInfo.CurrencySymbol%2A&gt; and <paramref name="n" /> is a number.</value>
+        <value>The format pattern for negative currency values. The default for <see cref="System.Globalization.NumberFormatInfo.InvariantInfo%2A" /> is 0, which represents "($n)", where "$" is the <see cref="System.Globalization.NumberFormatInfo.CurrencySymbol%2A" /> and <paramref name="n" /> is a number.</value>
         <remarks>
           <format type="text/markdown"><![CDATA[  
   
@@ -610,7 +610,7 @@
       </ReturnValue>
       <Docs>
         <summary>Gets or sets the format pattern for positive currency values.</summary>
-        <value>The format pattern for positive currency values. The default for &lt;xref:System.Globalization.NumberFormatInfo.InvariantInfo%2A&gt; is 0, which represents "$n", where "$" is the &lt;xref:System.Globalization.NumberFormatInfo.CurrencySymbol%2A&gt; and <paramref name="n" /> is a number.</value>
+        <value>The format pattern for positive currency values. The default for <see cref="System.Globalization.NumberFormatInfo.InvariantInfo%2A" /> is 0, which represents "$n", where "$" is the <see cref="System.Globalization.NumberFormatInfo.CurrencySymbol%2A" /> and <paramref name="n" /> is a number.</value>
         <remarks>
           <format type="text/markdown"><![CDATA[  
   
@@ -648,7 +648,7 @@
       </ReturnValue>
       <Docs>
         <summary>Gets or sets the string to use as the currency symbol.</summary>
-        <value>The string to use as the currency symbol. The default for &lt;xref:System.Globalization.NumberFormatInfo.InvariantInfo%2A&gt; is "¤".</value>
+        <value>The string to use as the currency symbol. The default for <see cref="System.Globalization.NumberFormatInfo.InvariantInfo%2A" /> is "¤".</value>
         <remarks>
           <format type="text/markdown"><![CDATA[  
   
@@ -792,7 +792,7 @@
   
  -or-  
   
- <see langword="null" /> to get &lt;xref:System.Globalization.NumberFormatInfo.CurrentInfo%2A&gt;.</param>
+ <see langword="null" /> to get <see cref="System.Globalization.NumberFormatInfo.CurrentInfo%2A" />.</param>
         <summary>Gets the <see cref="T:System.Globalization.NumberFormatInfo" /> associated with the specified <see cref="T:System.IFormatProvider" />.</summary>
         <returns>The <see cref="T:System.Globalization.NumberFormatInfo" /> associated with the specified <see cref="T:System.IFormatProvider" />.</returns>
         <remarks>
@@ -898,7 +898,7 @@
       </ReturnValue>
       <Docs>
         <summary>Gets or sets the string that represents the IEEE NaN (not a number) value.</summary>
-        <value>The string that represents the IEEE NaN (not a number) value. The default for &lt;xref:System.Globalization.NumberFormatInfo.InvariantInfo%2A&gt; is "NaN".</value>
+        <value>The string that represents the IEEE NaN (not a number) value. The default for <see cref="System.Globalization.NumberFormatInfo.InvariantInfo%2A" /> is "NaN".</value>
         <remarks>
           <format type="text/markdown"><![CDATA[  
   
@@ -988,7 +988,7 @@
       </ReturnValue>
       <Docs>
         <summary>Gets or sets the string that represents negative infinity.</summary>
-        <value>The string that represents negative infinity. The default for &lt;xref:System.Globalization.NumberFormatInfo.InvariantInfo%2A&gt; is "-Infinity".</value>
+        <value>The string that represents negative infinity. The default for <see cref="System.Globalization.NumberFormatInfo.InvariantInfo%2A" /> is "-Infinity".</value>
         <remarks>
           <format type="text/markdown"><![CDATA[  
   
@@ -1017,7 +1017,7 @@
       </ReturnValue>
       <Docs>
         <summary>Gets or sets the string that denotes that the associated number is negative.</summary>
-        <value>The string that denotes that the associated number is negative. The default for &lt;xref:System.Globalization.NumberFormatInfo.InvariantInfo%2A&gt; is "-".</value>
+        <value>The string that denotes that the associated number is negative. The default for <see cref="System.Globalization.NumberFormatInfo.InvariantInfo%2A" /> is "-".</value>
         <remarks>
           <format type="text/markdown"><![CDATA[  
   
@@ -1054,7 +1054,7 @@
       </ReturnValue>
       <Docs>
         <summary>Gets or sets the number of decimal places to use in numeric values.</summary>
-        <value>The number of decimal places to use in numeric values. The default for &lt;xref:System.Globalization.NumberFormatInfo.InvariantInfo%2A&gt; is 2.</value>
+        <value>The number of decimal places to use in numeric values. The default for <see cref="System.Globalization.NumberFormatInfo.InvariantInfo%2A" /> is 2.</value>
         <remarks>
           <format type="text/markdown"><![CDATA[  
   
@@ -1092,7 +1092,7 @@
       </ReturnValue>
       <Docs>
         <summary>Gets or sets the string to use as the decimal separator in numeric values.</summary>
-        <value>The string to use as the decimal separator in numeric values. The default for &lt;xref:System.Globalization.NumberFormatInfo.InvariantInfo%2A&gt; is ".".</value>
+        <value>The string to use as the decimal separator in numeric values. The default for <see cref="System.Globalization.NumberFormatInfo.InvariantInfo%2A" /> is ".".</value>
         <remarks>
           <format type="text/markdown"><![CDATA[  
   
@@ -1133,7 +1133,7 @@
       </ReturnValue>
       <Docs>
         <summary>Gets or sets the string that separates groups of digits to the left of the decimal in numeric values.</summary>
-        <value>The string that separates groups of digits to the left of the decimal in numeric values. The default for &lt;xref:System.Globalization.NumberFormatInfo.InvariantInfo%2A&gt; is ",".</value>
+        <value>The string that separates groups of digits to the left of the decimal in numeric values. The default for <see cref="System.Globalization.NumberFormatInfo.InvariantInfo%2A" /> is ",".</value>
         <remarks>
           <format type="text/markdown"><![CDATA[  
   
@@ -1173,7 +1173,7 @@
       </ReturnValue>
       <Docs>
         <summary>Gets or sets the number of digits in each group to the left of the decimal in numeric values.</summary>
-        <value>The number of digits in each group to the left of the decimal in numeric values. The default for &lt;xref:System.Globalization.NumberFormatInfo.InvariantInfo%2A&gt; is a one-dimensional array with only one element, which is set to 3.</value>
+        <value>The number of digits in each group to the left of the decimal in numeric values. The default for <see cref="System.Globalization.NumberFormatInfo.InvariantInfo%2A" /> is a one-dimensional array with only one element, which is set to 3.</value>
         <remarks>
           <format type="text/markdown"><![CDATA[  
   
@@ -1276,7 +1276,7 @@
       </ReturnValue>
       <Docs>
         <summary>Gets or sets the number of decimal places to use in percent values.</summary>
-        <value>The number of decimal places to use in percent values. The default for &lt;xref:System.Globalization.NumberFormatInfo.InvariantInfo%2A&gt; is 2.</value>
+        <value>The number of decimal places to use in percent values. The default for <see cref="System.Globalization.NumberFormatInfo.InvariantInfo%2A" /> is 2.</value>
         <remarks>
           <format type="text/markdown"><![CDATA[  
   
@@ -1314,7 +1314,7 @@
       </ReturnValue>
       <Docs>
         <summary>Gets or sets the string to use as the decimal separator in percent values.</summary>
-        <value>The string to use as the decimal separator in percent values. The default for &lt;xref:System.Globalization.NumberFormatInfo.InvariantInfo%2A&gt; is ".".</value>
+        <value>The string to use as the decimal separator in percent values. The default for <see cref="System.Globalization.NumberFormatInfo.InvariantInfo%2A" /> is ".".</value>
         <remarks>
           <format type="text/markdown"><![CDATA[  
   
@@ -1353,7 +1353,7 @@
       </ReturnValue>
       <Docs>
         <summary>Gets or sets the string that separates groups of digits to the left of the decimal in percent values.</summary>
-        <value>The string that separates groups of digits to the left of the decimal in percent values. The default for &lt;xref:System.Globalization.NumberFormatInfo.InvariantInfo%2A&gt; is ",".</value>
+        <value>The string that separates groups of digits to the left of the decimal in percent values. The default for <see cref="System.Globalization.NumberFormatInfo.InvariantInfo%2A" /> is ",".</value>
         <remarks>
           <format type="text/markdown"><![CDATA[  
   
@@ -1391,7 +1391,7 @@
       </ReturnValue>
       <Docs>
         <summary>Gets or sets the number of digits in each group to the left of the decimal in percent values.</summary>
-        <value>The number of digits in each group to the left of the decimal in percent values. The default for &lt;xref:System.Globalization.NumberFormatInfo.InvariantInfo%2A&gt; is a one-dimensional array with only one element, which is set to 3.</value>
+        <value>The number of digits in each group to the left of the decimal in percent values. The default for <see cref="System.Globalization.NumberFormatInfo.InvariantInfo%2A" /> is a one-dimensional array with only one element, which is set to 3.</value>
         <remarks>
           <format type="text/markdown"><![CDATA[  
   
@@ -1438,7 +1438,7 @@
       </ReturnValue>
       <Docs>
         <summary>Gets or sets the format pattern for negative percent values.</summary>
-        <value>The format pattern for negative percent values. The default for &lt;xref:System.Globalization.NumberFormatInfo.InvariantInfo%2A&gt; is 0, which represents "-n %", where "%" is the &lt;xref:System.Globalization.NumberFormatInfo.PercentSymbol%2A&gt; and <paramref name="n" /> is a number.</value>
+        <value>The format pattern for negative percent values. The default for <see cref="System.Globalization.NumberFormatInfo.InvariantInfo%2A" /> is 0, which represents "-n %", where "%" is the <see cref="System.Globalization.NumberFormatInfo.PercentSymbol%2A" /> and <paramref name="n" /> is a number.</value>
         <remarks>
           <format type="text/markdown"><![CDATA[  
   
@@ -1482,7 +1482,7 @@
       </ReturnValue>
       <Docs>
         <summary>Gets or sets the format pattern for positive percent values.</summary>
-        <value>The format pattern for positive percent values. The default for &lt;xref:System.Globalization.NumberFormatInfo.InvariantInfo%2A&gt; is 0, which represents "n %", where "%" is the &lt;xref:System.Globalization.NumberFormatInfo.PercentSymbol%2A&gt; and <paramref name="n" /> is a number.</value>
+        <value>The format pattern for positive percent values. The default for <see cref="System.Globalization.NumberFormatInfo.InvariantInfo%2A" /> is 0, which represents "n %", where "%" is the <see cref="System.Globalization.NumberFormatInfo.PercentSymbol%2A" /> and <paramref name="n" /> is a number.</value>
         <remarks>
           <format type="text/markdown"><![CDATA[  
   
@@ -1518,7 +1518,7 @@
       </ReturnValue>
       <Docs>
         <summary>Gets or sets the string to use as the percent symbol.</summary>
-        <value>The string to use as the percent symbol. The default for &lt;xref:System.Globalization.NumberFormatInfo.InvariantInfo%2A&gt; is "%".</value>
+        <value>The string to use as the percent symbol. The default for <see cref="System.Globalization.NumberFormatInfo.InvariantInfo%2A" /> is "%".</value>
         <remarks>
           <format type="text/markdown"><![CDATA[  
   
@@ -1547,7 +1547,7 @@
       </ReturnValue>
       <Docs>
         <summary>Gets or sets the string to use as the per mille symbol.</summary>
-        <value>The string to use as the per mille symbol. The default for &lt;xref:System.Globalization.NumberFormatInfo.InvariantInfo%2A&gt; is "‰", which is the Unicode character U+2030.</value>
+        <value>The string to use as the per mille symbol. The default for <see cref="System.Globalization.NumberFormatInfo.InvariantInfo%2A" /> is "‰", which is the Unicode character U+2030.</value>
         <remarks>
           <format type="text/markdown"><![CDATA[  
   
@@ -1576,7 +1576,7 @@
       </ReturnValue>
       <Docs>
         <summary>Gets or sets the string that represents positive infinity.</summary>
-        <value>The string that represents positive infinity. The default for &lt;xref:System.Globalization.NumberFormatInfo.InvariantInfo%2A&gt; is "Infinity".</value>
+        <value>The string that represents positive infinity. The default for <see cref="System.Globalization.NumberFormatInfo.InvariantInfo%2A" /> is "Infinity".</value>
         <remarks>
           <format type="text/markdown"><![CDATA[  
   
@@ -1605,7 +1605,7 @@
       </ReturnValue>
       <Docs>
         <summary>Gets or sets the string that denotes that the associated number is positive.</summary>
-        <value>The string that denotes that the associated number is positive. The default for &lt;xref:System.Globalization.NumberFormatInfo.InvariantInfo%2A&gt; is "+".</value>
+        <value>The string that denotes that the associated number is positive. The default for <see cref="System.Globalization.NumberFormatInfo.InvariantInfo%2A" /> is "+".</value>
         <remarks>
           <format type="text/markdown"><![CDATA[  
   

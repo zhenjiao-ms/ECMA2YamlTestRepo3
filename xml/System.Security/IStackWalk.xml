@@ -93,7 +93,7 @@
   
  -or-  
   
- A caller in the call stack has called &lt;xref:System.Security.IStackWalk.Deny%2A&gt; on the current permission object.</exception>
+ A caller in the call stack has called <see cref="System.Security.IStackWalk.Deny%2A" /> on the current permission object.</exception>
         <threadsafe />
       </Docs>
     </Member>
@@ -112,7 +112,7 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>Causes every &lt;xref:System.Security.IStackWalk.Demand%2A&gt; for the current object that passes through the calling code to fail.</summary>
+        <summary>Causes every <see cref="System.Security.IStackWalk.Demand%2A" /> for the current object that passes through the calling code to fail.</summary>
         <remarks>
           <format type="text/markdown"><![CDATA[  
   
@@ -143,7 +143,7 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>Causes every &lt;xref:System.Security.IStackWalk.Demand%2A&gt; for all objects except the current one that passes through the calling code to fail, even if code higher in the call stack has been granted permission to access other resources.</summary>
+        <summary>Causes every <see cref="System.Security.IStackWalk.Demand%2A" /> for all objects except the current one that passes through the calling code to fail, even if code higher in the call stack has been granted permission to access other resources.</summary>
         <remarks>
           <format type="text/markdown"><![CDATA[  
   

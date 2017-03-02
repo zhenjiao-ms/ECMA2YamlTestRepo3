@@ -126,7 +126,7 @@
         <Parameter Name="extension" Type="System.String" />
       </Parameters>
       <Docs>
-        <param name="path">The path information to modify. The path cannot contain any of the characters defined in &lt;xref:System.IO.Path.GetInvalidPathChars%2A&gt;.</param>
+        <param name="path">The path information to modify. The path cannot contain any of the characters defined in <see cref="System.IO.Path.GetInvalidPathChars%2A" />.</param>
         <param name="extension">The new extension (with or without a leading period). Specify <see langword="null" /> to remove an existing extension from `path`.</param>
         <summary>Changes the extension of a path string.</summary>
         <returns>The modified path information.  
@@ -164,7 +164,7 @@
  ]]></format>
         </remarks>
         <exception cref="T:System.ArgumentException">
-          <paramref name="path" /> contains one or more of the invalid characters defined in &lt;xref:System.IO.Path.GetInvalidPathChars%2A&gt;.</exception>
+          <paramref name="path" /> contains one or more of the invalid characters defined in <see cref="System.IO.Path.GetInvalidPathChars%2A" />.</exception>
         <threadsafe />
       </Docs>
     </Member>
@@ -214,7 +214,7 @@
   
  ]]></format>
         </remarks>
-        <exception cref="T:System.ArgumentException">One of the strings in the array contains one or more of the invalid characters defined in &lt;xref:System.IO.Path.GetInvalidPathChars%2A&gt;.</exception>
+        <exception cref="T:System.ArgumentException">One of the strings in the array contains one or more of the invalid characters defined in <see cref="System.IO.Path.GetInvalidPathChars%2A" />.</exception>
         <exception cref="T:System.ArgumentNullException">One of the strings in the array is <see langword="null" />.</exception>
         <threadsafe />
       </Docs>
@@ -267,7 +267,7 @@
  ]]></format>
         </remarks>
         <exception cref="T:System.ArgumentException">
-          <paramref name="path1" /> or <paramref name="path2" /> contains one or more of the invalid characters defined in &lt;xref:System.IO.Path.GetInvalidPathChars%2A&gt;.</exception>
+          <paramref name="path1" /> or <paramref name="path2" /> contains one or more of the invalid characters defined in <see cref="System.IO.Path.GetInvalidPathChars%2A" />.</exception>
         <exception cref="T:System.ArgumentNullException">
           <paramref name="path1" /> or <paramref name="path2" /> is <see langword="null" />.</exception>
         <threadsafe />
@@ -322,7 +322,7 @@
  ]]></format>
         </remarks>
         <exception cref="T:System.ArgumentException">
-          <paramref name="path1" />, <paramref name="path2" />, or <paramref name="path3" /> contains one or more of the invalid characters defined in &lt;xref:System.IO.Path.GetInvalidPathChars%2A&gt;.</exception>
+          <paramref name="path1" />, <paramref name="path2" />, or <paramref name="path3" /> contains one or more of the invalid characters defined in <see cref="System.IO.Path.GetInvalidPathChars%2A" />.</exception>
         <exception cref="T:System.ArgumentNullException">
           <paramref name="path1" />, <paramref name="path2" />, or <paramref name="path3" /> is <see langword="null" />.</exception>
         <threadsafe />
@@ -379,7 +379,7 @@
  ]]></format>
         </remarks>
         <exception cref="T:System.ArgumentException">
-          <paramref name="path1" />, <paramref name="path2" />, <paramref name="path3" />, or <paramref name="path4" /> contains one or more of the invalid characters defined in &lt;xref:System.IO.Path.GetInvalidPathChars%2A&gt;.</exception>
+          <paramref name="path1" />, <paramref name="path2" />, <paramref name="path3" />, or <paramref name="path4" /> contains one or more of the invalid characters defined in <see cref="System.IO.Path.GetInvalidPathChars%2A" />.</exception>
         <exception cref="T:System.ArgumentNullException">
           <paramref name="path1" />, <paramref name="path2" />, <paramref name="path3" />, or <paramref name="path4" /> is <see langword="null" />.</exception>
         <threadsafe />
@@ -510,7 +510,7 @@
  ]]></format>
         </remarks>
         <exception cref="T:System.ArgumentException">
-          <paramref name="path" /> contains one or more of the invalid characters defined in &lt;xref:System.IO.Path.GetInvalidPathChars%2A&gt;.</exception>
+          <paramref name="path" /> contains one or more of the invalid characters defined in <see cref="System.IO.Path.GetInvalidPathChars%2A" />.</exception>
         <threadsafe />
       </Docs>
     </Member>
@@ -556,7 +556,7 @@
  ]]></format>
         </remarks>
         <exception cref="T:System.ArgumentException">
-          <paramref name="path" /> contains one or more of the invalid characters defined in &lt;xref:System.IO.Path.GetInvalidPathChars%2A&gt;.</exception>
+          <paramref name="path" /> contains one or more of the invalid characters defined in <see cref="System.IO.Path.GetInvalidPathChars%2A" />.</exception>
         <threadsafe />
       </Docs>
     </Member>
@@ -579,7 +579,7 @@
       <Docs>
         <param name="path">The path of the file.</param>
         <summary>Returns the file name of the specified path string without the extension.</summary>
-        <returns>The string returned by &lt;xref:System.IO.Path.GetFileName%2A&gt;, minus the last period (.) and all characters following it.</returns>
+        <returns>The string returned by <see cref="System.IO.Path.GetFileName%2A" />, minus the last period (.) and all characters following it.</returns>
         <remarks>
           <format type="text/markdown"><![CDATA[  
   
@@ -600,7 +600,7 @@
  ]]></format>
         </remarks>
         <exception cref="T:System.ArgumentException">
-          <paramref name="path" /> contains one or more of the invalid characters defined in &lt;xref:System.IO.Path.GetInvalidPathChars%2A&gt;.</exception>
+          <paramref name="path" /> contains one or more of the invalid characters defined in <see cref="System.IO.Path.GetInvalidPathChars%2A" />.</exception>
         <threadsafe />
       </Docs>
     </Member>
@@ -661,7 +661,7 @@
  ]]></format>
         </remarks>
         <exception cref="T:System.ArgumentException">
-          <paramref name="path" /> is a zero-length string, contains only white space, or contains one or more of the invalid characters defined in &lt;xref:System.IO.Path.GetInvalidPathChars%2A&gt;.  
+          <paramref name="path" /> is a zero-length string, contains only white space, or contains one or more of the invalid characters defined in <see cref="System.IO.Path.GetInvalidPathChars%2A" />.  
   
  -or-  
   
@@ -802,7 +802,7 @@
  ]]></format>
         </remarks>
         <exception cref="T:System.ArgumentException">
-          <paramref name="path" /> contains one or more of the invalid characters defined in &lt;xref:System.IO.Path.GetInvalidPathChars%2A&gt;.  
+          <paramref name="path" /> contains one or more of the invalid characters defined in <see cref="System.IO.Path.GetInvalidPathChars%2A" />.  
   
  -or-  
   
@@ -995,7 +995,7 @@ C:\Users\UserName\AppData\Local\Temp\
  ]]></format>
         </remarks>
         <exception cref="T:System.ArgumentException">
-          <paramref name="path" /> contains one or more of the invalid characters defined in &lt;xref:System.IO.Path.GetInvalidPathChars%2A&gt;.</exception>
+          <paramref name="path" /> contains one or more of the invalid characters defined in <see cref="System.IO.Path.GetInvalidPathChars%2A" />.</exception>
         <threadsafe />
       </Docs>
     </Member>
@@ -1085,7 +1085,7 @@ C:\Users\UserName\AppData\Local\Temp\
  ]]></format>
         </remarks>
         <exception cref="T:System.ArgumentException">
-          <paramref name="path" /> contains one or more of the invalid characters defined in &lt;xref:System.IO.Path.GetInvalidPathChars%2A&gt;.</exception>
+          <paramref name="path" /> contains one or more of the invalid characters defined in <see cref="System.IO.Path.GetInvalidPathChars%2A" />.</exception>
         <threadsafe />
       </Docs>
     </Member>

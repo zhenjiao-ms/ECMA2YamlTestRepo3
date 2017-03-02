@@ -381,7 +381,7 @@
  ]]></format>
         </remarks>
         <exception cref="T:System.ArgumentOutOfRangeException">
-          <paramref name="time" /> is earlier than September 17, 1583 in the Gregorian calendar, or greater than &lt;xref:System.Globalization.HebrewCalendar.MaxSupportedDateTime%2A&gt;.</exception>
+          <paramref name="time" /> is earlier than September 17, 1583 in the Gregorian calendar, or greater than <see cref="System.Globalization.HebrewCalendar.MaxSupportedDateTime%2A" />.</exception>
         <threadsafe />
       </Docs>
     </Member>
@@ -590,7 +590,7 @@
  ]]></format>
         </remarks>
         <exception cref="T:System.ArgumentOutOfRangeException">
-          <paramref name="time" /> is less than &lt;xref:System.Globalization.HebrewCalendar.MinSupportedDateTime%2A&gt; or greater than &lt;xref:System.Globalization.HebrewCalendar.MaxSupportedDateTime%2A&gt;.</exception>
+          <paramref name="time" /> is less than <see cref="System.Globalization.HebrewCalendar.MinSupportedDateTime%2A" /> or greater than <see cref="System.Globalization.HebrewCalendar.MaxSupportedDateTime%2A" />.</exception>
         <threadsafe />
       </Docs>
     </Member>
@@ -1007,7 +1007,7 @@
       </Parameters>
       <Docs>
         <param name="year">A 2-digit year from 0 through 99, or a 4-digit Hebrew calendar year from 5343 through 5999.</param>
-        <summary>Converts the specified year to a 4-digit year by using the &lt;xref:System.Globalization.HebrewCalendar.TwoDigitYearMax%2A&gt; property to determine the appropriate century.</summary>
+        <summary>Converts the specified year to a 4-digit year by using the <see cref="System.Globalization.HebrewCalendar.TwoDigitYearMax%2A" /> property to determine the appropriate century.</summary>
         <returns>If the <paramref name="year" /> parameter is a 2-digit year, the return value is the corresponding 4-digit year. If the <paramref name="year" /> parameter is a 4-digit year, the return value is the unchanged <paramref name="year" /> parameter.</returns>
         <remarks>
           <format type="text/markdown"><![CDATA[  
@@ -1026,7 +1026,7 @@
   
  -or-  
   
- <paramref name="year" /> is less than &lt;xref:System.Globalization.HebrewCalendar.MinSupportedDateTime%2A&gt; or greater than &lt;xref:System.Globalization.HebrewCalendar.MaxSupportedDateTime%2A&gt;.</exception>
+ <paramref name="year" /> is less than <see cref="System.Globalization.HebrewCalendar.MinSupportedDateTime%2A" /> or greater than <see cref="System.Globalization.HebrewCalendar.MaxSupportedDateTime%2A" />.</exception>
         <threadsafe />
       </Docs>
     </Member>

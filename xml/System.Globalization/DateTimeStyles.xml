@@ -65,7 +65,7 @@
         <ReturnType>System.Globalization.DateTimeStyles</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Date and time are returned as a Coordinated Universal Time (UTC). If the input string denotes a local time, through a time zone specifier or AssumeLocal, the date and time are converted from the local time to UTC. If the input string denotes a UTC time, through a time zone specifier or AssumeUniversal, no conversion occurs. If the input string does not denote a local or UTC time, no conversion occurs and the resulting &lt;xref:System.DateTime.Kind%2A&gt; property is &lt;xref:System.DateTimeKind.Unspecified&gt;.</summary>
+        <summary>Date and time are returned as a Coordinated Universal Time (UTC). If the input string denotes a local time, through a time zone specifier or AssumeLocal, the date and time are converted from the local time to UTC. If the input string denotes a UTC time, through a time zone specifier or AssumeUniversal, no conversion occurs. If the input string does not denote a local or UTC time, no conversion occurs and the resulting <see cref="System.DateTime.Kind%2A" /> property is <see cref="System.DateTimeKind.Unspecified" />.</summary>
         <threadsafe />
         <remarks>
           <format type="text/markdown"><![CDATA[  
@@ -231,7 +231,7 @@
         <ReturnType>System.Globalization.DateTimeStyles</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Default formatting options must be used. This value represents the default style for the &lt;xref:System.DateTime.Parse%2A?displayProperty=fullName&gt;, &lt;xref:System.DateTime.ParseExact%2A?displayProperty=fullName&gt;, and &lt;xref:System.DateTime.TryParse%2A?displayProperty=fullName&gt; methods.</summary>
+        <summary>Default formatting options must be used. This value represents the default style for the <see cref="System.DateTime.Parse%2A" />, <see cref="System.DateTime.ParseExact%2A" />, and <see cref="System.DateTime.TryParse%2A" /> methods.</summary>
         <threadsafe />
       </Docs>
     </Member>

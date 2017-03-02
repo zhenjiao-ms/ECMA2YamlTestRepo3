@@ -89,7 +89,7 @@
       <Docs>
         <param name="rgbKey">The secret key to be used for the symmetric algorithm. The key size must be 128, 192, or 256 bits.</param>
         <param name="rgbIV">The IV to be used for the symmetric algorithm.</param>
-        <summary>Creates a symmetric <see cref="T:System.Security.Cryptography.Rijndael" /> decryptor object with the specified &lt;xref:System.Security.Cryptography.SymmetricAlgorithm.Key%2A&gt; and initialization vector (&lt;xref:System.Security.Cryptography.SymmetricAlgorithm.IV%2A&gt;).</summary>
+        <summary>Creates a symmetric <see cref="T:System.Security.Cryptography.Rijndael" /> decryptor object with the specified <see cref="System.Security.Cryptography.SymmetricAlgorithm.Key%2A" /> and initialization vector (<see cref="System.Security.Cryptography.SymmetricAlgorithm.IV%2A" />).</summary>
         <returns>A symmetric <see cref="T:System.Security.Cryptography.Rijndael" /> decryptor object.</returns>
         <remarks>
           <format type="text/markdown"><![CDATA[  
@@ -115,7 +115,7 @@
  -or-  
   
  The <paramref name="rgbIV" /> parameter is <see langword="null" />.</exception>
-        <exception cref="T:System.Security.Cryptography.CryptographicException">The value of the &lt;xref:System.Security.Cryptography.SymmetricAlgorithm.Mode%2A&gt; property is not <see cref="T:System.Security.Cryptography.CipherMode" />, <see cref="T:System.Security.Cryptography.CipherMode" />, or <see cref="T:System.Security.Cryptography.CipherMode" />.</exception>
+        <exception cref="T:System.Security.Cryptography.CryptographicException">The value of the <see cref="System.Security.Cryptography.SymmetricAlgorithm.Mode%2A" /> property is not <see cref="T:System.Security.Cryptography.CipherMode" />, <see cref="T:System.Security.Cryptography.CipherMode" />, or <see cref="T:System.Security.Cryptography.CipherMode" />.</exception>
         <threadsafe />
       </Docs>
     </Member>
@@ -139,7 +139,7 @@
       <Docs>
         <param name="rgbKey">The secret key to be used for the symmetric algorithm. The key size must be 128, 192, or 256 bits.</param>
         <param name="rgbIV">The IV to be used for the symmetric algorithm.</param>
-        <summary>Creates a symmetric <see cref="T:System.Security.Cryptography.Rijndael" /> encryptor object with the specified &lt;xref:System.Security.Cryptography.SymmetricAlgorithm.Key%2A&gt; and initialization vector (&lt;xref:System.Security.Cryptography.SymmetricAlgorithm.IV%2A&gt;).</summary>
+        <summary>Creates a symmetric <see cref="T:System.Security.Cryptography.Rijndael" /> encryptor object with the specified <see cref="System.Security.Cryptography.SymmetricAlgorithm.Key%2A" /> and initialization vector (<see cref="System.Security.Cryptography.SymmetricAlgorithm.IV%2A" />).</summary>
         <returns>A symmetric <see cref="T:System.Security.Cryptography.Rijndael" /> encryptor object.</returns>
         <remarks>
           <format type="text/markdown"><![CDATA[  
@@ -165,7 +165,7 @@
  -or-  
   
  The <paramref name="rgbIV" /> parameter is <see langword="null" />.</exception>
-        <exception cref="T:System.Security.Cryptography.CryptographicException">The value of the &lt;xref:System.Security.Cryptography.SymmetricAlgorithm.Mode%2A&gt; property is not <see cref="T:System.Security.Cryptography.CipherMode" />, <see cref="T:System.Security.Cryptography.CipherMode" />, or <see cref="T:System.Security.Cryptography.CipherMode" />.</exception>
+        <exception cref="T:System.Security.Cryptography.CryptographicException">The value of the <see cref="System.Security.Cryptography.SymmetricAlgorithm.Mode%2A" /> property is not <see cref="T:System.Security.Cryptography.CipherMode" />, <see cref="T:System.Security.Cryptography.CipherMode" />, or <see cref="T:System.Security.Cryptography.CipherMode" />.</exception>
         <threadsafe />
       </Docs>
     </Member>
@@ -184,7 +184,7 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>Generates a random initialization vector (&lt;xref:System.Security.Cryptography.SymmetricAlgorithm.IV%2A&gt;) to be used for the algorithm.</summary>
+        <summary>Generates a random initialization vector (<see cref="System.Security.Cryptography.SymmetricAlgorithm.IV%2A" />) to be used for the algorithm.</summary>
         <remarks>
           <format type="text/markdown"><![CDATA[  
   
@@ -218,7 +218,7 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>Generates a random &lt;xref:System.Security.Cryptography.SymmetricAlgorithm.Key%2A&gt; to be used for the algorithm.</summary>
+        <summary>Generates a random <see cref="System.Security.Cryptography.SymmetricAlgorithm.Key%2A" /> to be used for the algorithm.</summary>
         <remarks>
           <format type="text/markdown"><![CDATA[  
   

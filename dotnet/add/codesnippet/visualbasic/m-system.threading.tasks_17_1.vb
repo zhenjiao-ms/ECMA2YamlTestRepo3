@@ -1,23 +1,30 @@
+Imports System.Threading
 Imports System.Threading.Tasks
 
 Module Example
    Public Sub Main()
-      Dim t As Task = Task.Run( Sub()
-                                   Dim rnd As New Random()
-                                   Dim sum As Long
-                                   Dim n As Integer = 1000000
-                                   For ctr As Integer = 1 To n
-                                      Dim number As Integer = rnd.Next(0, 101)
-                                      sum += number
-                                   Next
-                                   Console.WriteLine("Total:   {0:N0}", sum)
-                                   Console.WriteLine("Mean:    {0:N2}", sum/n)
-                                   Console.WriteLine("N:       {0:N0}", n)   
-                                End Sub)
-     t.Wait()
+      Dim tasks(4) As Task
+      For ctr As Integer = 0 To 4
+         Dim factor As Integer = ctr
+         tasks(ctr) = Task.Run(Sub() Thread.Sleep(factor * 250 + 50))
+      Next
+      Dim index As Integer = Task.WaitAny(tasks)
+
+      Console.WriteLine("Wait ended because task #{0} completed.",
+                        tasks(index).Id)
+      Console.WriteLine()
+      Console.WriteLine("Current Status of Tasks:")
+      For Each t In tasks
+         Console.WriteLine("   Task {0}: {1}", t.Id, t.Status)
+      Next
    End Sub
 End Module
-' The example displays output similar to the following:
-'       Total:   50,015,714
-'       Mean:    50.02
-'       N:       1,000,000
+' The example displays output like the following:
+'       Wait ended because task #1 completed.
+'
+'       Current Status of Tasks:
+'          Task 1: RanToCompletion
+'          Task 2: Running
+'          Task 3: Running
+'          Task 4: Running
+'          Task 5: Running

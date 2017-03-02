@@ -44,6 +44,11 @@ internalonly: False
 ---
 
 ---
+uid: System.Threading.Interlocked.CompareExchange``1(``0@,``0,``0)
+internalonly: False
+---
+
+---
 uid: System.Threading.Interlocked.Exchange(System.Single@,System.Single)
 internalonly: False
 ---
@@ -95,6 +100,11 @@ internalonly: False
 
 ---
 uid: System.Threading.Interlocked.Exchange(System.Int64@,System.Int64)
+internalonly: False
+---
+
+---
+uid: System.Threading.Interlocked.Exchange``1(``0@,``0)
 internalonly: False
 ---
 

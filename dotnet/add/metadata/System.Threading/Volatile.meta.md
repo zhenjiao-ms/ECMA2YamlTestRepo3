@@ -14,6 +14,11 @@ internalonly: False
 ---
 
 ---
+uid: System.Threading.Volatile.Write``1(``0@,``0)
+internalonly: False
+---
+
+---
 uid: System.Threading.Volatile.Read(System.UIntPtr@)
 internalonly: False
 ---
@@ -120,6 +125,11 @@ internalonly: False
 
 ---
 uid: System.Threading.Volatile.Read(System.SByte@)
+internalonly: False
+---
+
+---
+uid: System.Threading.Volatile.Read``1(``0@)
 internalonly: False
 ---
 

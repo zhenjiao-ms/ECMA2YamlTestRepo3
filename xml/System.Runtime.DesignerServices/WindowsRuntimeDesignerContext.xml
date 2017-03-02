@@ -79,7 +79,7 @@
         <Parameter Name="assemblyName" Type="System.String" />
       </Parameters>
       <Docs>
-        <param name="assemblyName">The full name of the assembly to load. For a description of full assembly names, see the &lt;xref:System.Reflection.Assembly.FullName%2A?displayProperty=fullName&gt; property.</param>
+        <param name="assemblyName">The full name of the assembly to load. For a description of full assembly names, see the <see cref="System.Reflection.Assembly.FullName%2A" /> property.</param>
         <summary>Loads the specified assembly from the current context.</summary>
         <returns>The assembly, if it is found in the current context; otherwise, <see langword="null" />.</returns>
         <remarks>To be added.</remarks>
@@ -107,7 +107,7 @@
         <Parameter Name="typeName" Type="System.String" />
       </Parameters>
       <Docs>
-        <param name="typeName">The assembly-qualified name of the type to load. For a description of assembly-qualified names, see the &lt;xref:System.Type.AssemblyQualifiedName%2A?displayProperty=fullName&gt; property.</param>
+        <param name="typeName">The assembly-qualified name of the type to load. For a description of assembly-qualified names, see the <see cref="System.Type.AssemblyQualifiedName%2A" /> property.</param>
         <summary>Loads the specified type from the current context.</summary>
         <returns>The type, if it is found in the current context; otherwise, <see langword="null" />.</returns>
         <remarks>To be added.</remarks>

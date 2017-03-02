@@ -112,7 +112,7 @@
       <Docs>
         <param name="rgbKey">The secret key to use for the symmetric algorithm.</param>
         <param name="rgbIV">The initialization vector to use for the symmetric algorithm.</param>
-        <summary>Creates a symmetric <see cref="T:System.Security.Cryptography.TripleDES" /> decryptor object with the specified key (&lt;xref:System.Security.Cryptography.SymmetricAlgorithm.Key%2A&gt;) and initialization vector (&lt;xref:System.Security.Cryptography.SymmetricAlgorithm.IV%2A&gt;).</summary>
+        <summary>Creates a symmetric <see cref="T:System.Security.Cryptography.TripleDES" /> decryptor object with the specified key (<see cref="System.Security.Cryptography.SymmetricAlgorithm.Key%2A" />) and initialization vector (<see cref="System.Security.Cryptography.SymmetricAlgorithm.IV%2A" />).</summary>
         <returns>A symmetric <see cref="T:System.Security.Cryptography.TripleDES" /> decryptor object.</returns>
         <remarks>
           <format type="text/markdown"><![CDATA[  
@@ -137,11 +137,11 @@
   
  ]]></format>
         </remarks>
-        <exception cref="T:System.Security.Cryptography.CryptographicException">The value of the &lt;xref:System.Security.Cryptography.SymmetricAlgorithm.Mode%2A&gt; property is <see cref="T:System.Security.Cryptography.CipherMode" />.  
+        <exception cref="T:System.Security.Cryptography.CryptographicException">The value of the <see cref="System.Security.Cryptography.SymmetricAlgorithm.Mode%2A" /> property is <see cref="T:System.Security.Cryptography.CipherMode" />.  
   
  -or-  
   
- The value of the &lt;xref:System.Security.Cryptography.SymmetricAlgorithm.Mode%2A&gt; property is <see cref="T:System.Security.Cryptography.CipherMode" /> and the value of the &lt;xref:System.Security.Cryptography.SymmetricAlgorithm.FeedbackSize%2A&gt; property is not 8.  
+ The value of the <see cref="System.Security.Cryptography.SymmetricAlgorithm.Mode%2A" /> property is <see cref="T:System.Security.Cryptography.CipherMode" /> and the value of the <see cref="System.Security.Cryptography.SymmetricAlgorithm.FeedbackSize%2A" /> property is not 8.  
   
  -or-  
   
@@ -183,7 +183,7 @@
  The initialization vector must be 8 bytes long. If it is longer than 8 bytes, it is truncated and an exception is not thrown. Before you call CreateEncryptor, check the length of the initialization vector and throw an exception if it is too long.  
   
 </block></param>
-        <summary>Creates a symmetric <see cref="T:System.Security.Cryptography.TripleDES" /> encryptor object with the specified key (&lt;xref:System.Security.Cryptography.SymmetricAlgorithm.Key%2A&gt;) and initialization vector (&lt;xref:System.Security.Cryptography.SymmetricAlgorithm.IV%2A&gt;).</summary>
+        <summary>Creates a symmetric <see cref="T:System.Security.Cryptography.TripleDES" /> encryptor object with the specified key (<see cref="System.Security.Cryptography.SymmetricAlgorithm.Key%2A" />) and initialization vector (<see cref="System.Security.Cryptography.SymmetricAlgorithm.IV%2A" />).</summary>
         <returns>A symmetric <see cref="T:System.Security.Cryptography.TripleDES" /> encryptor object.</returns>
         <remarks>
           <format type="text/markdown"><![CDATA[  
@@ -208,11 +208,11 @@
   
  ]]></format>
         </remarks>
-        <exception cref="T:System.Security.Cryptography.CryptographicException">The value of the &lt;xref:System.Security.Cryptography.SymmetricAlgorithm.Mode%2A&gt; property is <see cref="T:System.Security.Cryptography.CipherMode" />.  
+        <exception cref="T:System.Security.Cryptography.CryptographicException">The value of the <see cref="System.Security.Cryptography.SymmetricAlgorithm.Mode%2A" /> property is <see cref="T:System.Security.Cryptography.CipherMode" />.  
   
  -or-  
   
- The value of the &lt;xref:System.Security.Cryptography.SymmetricAlgorithm.Mode%2A&gt; property is <see cref="T:System.Security.Cryptography.CipherMode" /> and the value of the &lt;xref:System.Security.Cryptography.SymmetricAlgorithm.FeedbackSize%2A&gt; property is not 8.  
+ The value of the <see cref="System.Security.Cryptography.SymmetricAlgorithm.Mode%2A" /> property is <see cref="T:System.Security.Cryptography.CipherMode" /> and the value of the <see cref="System.Security.Cryptography.SymmetricAlgorithm.FeedbackSize%2A" /> property is not 8.  
   
  -or-  
   
@@ -239,7 +239,7 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>Generates a random initialization vector (&lt;xref:System.Security.Cryptography.SymmetricAlgorithm.IV%2A&gt;) to use for the algorithm.</summary>
+        <summary>Generates a random initialization vector (<see cref="System.Security.Cryptography.SymmetricAlgorithm.IV%2A" />) to use for the algorithm.</summary>
         <remarks>
           <format type="text/markdown"><![CDATA[  
   
@@ -266,7 +266,7 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>Generates a random &lt;xref:System.Security.Cryptography.SymmetricAlgorithm.Key%2A&gt; to be used for the algorithm.</summary>
+        <summary>Generates a random <see cref="System.Security.Cryptography.SymmetricAlgorithm.Key%2A" /> to be used for the algorithm.</summary>
         <remarks>
           <format type="text/markdown"><![CDATA[  
   

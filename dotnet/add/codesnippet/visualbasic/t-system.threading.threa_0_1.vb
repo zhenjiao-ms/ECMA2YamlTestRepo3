@@ -1,64 +1,33 @@
-Option Explicit
-Option Strict
-
-Imports System
-Imports System.Security.Permissions
 Imports System.Threading
+Imports System.Threading.Tasks
 
-Public Class ThreadInterrupt
+Module ThreadLocalDemo
 
-    <MTAThread> _
-    Shared Sub Main()
-        Dim stayAwake As New StayAwake()
-        Dim newThread As New Thread(AddressOf stayAwake.ThreadMethod)
-        newThread.Start()
+    ' Demonstrates:
+    ' ThreadLocal(T) constructor
+    ' ThreadLocal(T).Value
+    ' One usage of ThreadLocal(T)
+    Sub Main()
+        ' Thread-Local variable that yields a name for a thread
+        Dim ThreadName As New ThreadLocal(Of String)(
+            Function()
+                Return "Thread" & Thread.CurrentThread.ManagedThreadId
+            End Function)
 
-        ' The following line causes an exception to be thrown 
-        ' in ThreadMethod if newThread is currently blocked
-        ' or becomes blocked in the future.
-        newThread.Interrupt()
-        Console.WriteLine("Main thread calls Interrupt on newThread.")
+        ' Action that prints out ThreadName for the current thread
+        Dim action As Action =
+            Sub()
+                ' If ThreadName.IsValueCreated is true, it means that we are not the
+                ' first action to run on this thread.
+                Dim repeat As Boolean = ThreadName.IsValueCreated
 
-        ' Tell newThread to go to sleep.
-        stayAwake.SleepSwitch = True
+                Console.WriteLine("ThreadName = {0} {1}", ThreadName.Value, If(repeat, "(repeat)", ""))
+            End Sub
 
-        ' Wait for newThread to end.
-        newThread.Join()
+        ' Launch eight of them. On 4 cores or less, you should see some repeat ThreadNames
+        Parallel.Invoke(action, action, action, action, action, action, action, action)
+
+        ' Dispose when you are done
+        ThreadName.Dispose()
     End Sub
-
-End Class
-
-Public Class StayAwake
-
-    Dim sleepSwitchValue As Boolean = False
-
-    WriteOnly Property SleepSwitch As Boolean
-        Set
-            sleepSwitchValue = Value
-        End Set
-    End Property 
-
-    Sub New()
-    End Sub
-
-    Sub ThreadMethod()
-        Console.WriteLine("newThread is executing ThreadMethod.")
-        While Not sleepSwitchValue
-
-            ' Use SpinWait instead of Sleep to demonstrate the 
-            ' effect of calling Interrupt on a running thread.
-            Thread.SpinWait(10000000)
-        End While
-        Try
-            Console.WriteLine("newThread going to sleep.")
-
-            ' When newThread goes to sleep, it is immediately 
-            ' woken up by a ThreadInterruptedException.
-            Thread.Sleep(Timeout.Infinite)
-        Catch ex As ThreadInterruptedException
-            Console.WriteLine("newThread cannot go to " & _
-                "sleep - interrupted by main thread.")
-        End Try
-    End Sub
-
-End Class
+End Module

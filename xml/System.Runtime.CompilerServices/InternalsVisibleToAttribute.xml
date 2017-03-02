@@ -25,13 +25,13 @@
   
  The attribute is applied at the assembly level. This means that it can be included at the beginning of a source code file, or it can be included in the AssemblyInfo file in a Visual Studio project. You can use the attribute to specify a single friend assembly that can access the internal types and members of the current assembly. You can define multiple friend assemblies in two ways. They can appear as individual assembly-level attributes, as the following example illustrates.  
   
- [!code-cs[System.Runtime.CompilerServices.InternalsVisibleToAttribute#3](~/add/codesnippet/csharp/t-system.runtime.compile_15_1.cs)]
- [!code-vb[System.Runtime.CompilerServices.InternalsVisibleToAttribute#3](~/add/codesnippet/visualbasic/t-system.runtime.compile_15_1.vb)]  
+ [!code-cs[System.Runtime.CompilerServices.InternalsVisibleToAttribute#3](~/add/codesnippet/csharp/t-system.runtime.compile_16_1.cs)]
+ [!code-vb[System.Runtime.CompilerServices.InternalsVisibleToAttribute#3](~/add/codesnippet/visualbasic/t-system.runtime.compile_16_1.vb)]  
   
  They can also appear with separateInternalsVisibleToAttribute tags but a single `assembly` keyword, as the following example illustrates.  
   
- [!code-cs[System.Runtime.CompilerServices.InternalsVisibleToAttribute#4](~/add/codesnippet/csharp/t-system.runtime.compile_15_2.cs)]
- [!code-vb[System.Runtime.CompilerServices.InternalsVisibleToAttribute#4](~/add/codesnippet/visualbasic/t-system.runtime.compile_15_2.vb)]  
+ [!code-cs[System.Runtime.CompilerServices.InternalsVisibleToAttribute#4](~/add/codesnippet/csharp/t-system.runtime.compile_16_2.cs)]
+ [!code-vb[System.Runtime.CompilerServices.InternalsVisibleToAttribute#4](~/add/codesnippet/visualbasic/t-system.runtime.compile_16_2.vb)]  
   
  The friend assembly is identified by the <xref:System.Runtime.CompilerServices.InternalsVisibleToAttribute.%23ctor%2A> constructor. Both the current assembly and the friend assembly must be unsigned, or both assemblies must be signed with a strong name.  
   
@@ -74,27 +74,27 @@
   
  The following example uses the InternalsVisibleToAttribute attribute to make an `internal` method named `AppendDirectorySeparator` in a signed assembly visible to another signed assembly. It defines a `FileUtilities` class that includes an internal `AppendDirectorySeparator` method. The InternalsVisibleToAttribute attribute is applied to the assembly that contains the `FileUtilities` class. The attribute allows an assembly named `Friend1` to access this internal member.  
   
- [!code-cs[System.Runtime.CompilerServices.InternalsVisibleToAttribute#1](~/add/codesnippet/csharp/t-system.runtime.compile_15_3.cs)]
- [!code-vb[System.Runtime.CompilerServices.InternalsVisibleToAttribute#1](~/add/codesnippet/visualbasic/t-system.runtime.compile_15_3.vb)]  
+ [!code-cs[System.Runtime.CompilerServices.InternalsVisibleToAttribute#1](~/add/codesnippet/csharp/t-system.runtime.compile_16_3.cs)]
+ [!code-vb[System.Runtime.CompilerServices.InternalsVisibleToAttribute#1](~/add/codesnippet/visualbasic/t-system.runtime.compile_16_3.vb)]  
   
  If the following example is compiled into a strong-named assembly named `Friend1`, the `Example.Main` method in `Friend1` can successfully call the `FileUtilities.AppendDirectorySeparator` method, although the method is internal to the `Assembly1` assembly. Note that if you are compiling in C# from the command line, you must use the **/out** compiler switch to ensure that the name of the friend assembly is available when the compiler binds to external references.  
   
- [!code-cpp[System.Runtime.CompilerServices.InternalsVisibleToAttribute#2](~/add/codesnippet/cpp/t-system.runtime.compile_15_4.cpp)]
- [!code-cs[System.Runtime.CompilerServices.InternalsVisibleToAttribute#2](~/add/codesnippet/csharp/t-system.runtime.compile_15_4.cs)]
- [!code-vb[System.Runtime.CompilerServices.InternalsVisibleToAttribute#2](~/add/codesnippet/visualbasic/t-system.runtime.compile_15_4.vb)]  
+ [!code-cpp[System.Runtime.CompilerServices.InternalsVisibleToAttribute#2](~/add/codesnippet/cpp/t-system.runtime.compile_16_4.cpp)]
+ [!code-cs[System.Runtime.CompilerServices.InternalsVisibleToAttribute#2](~/add/codesnippet/csharp/t-system.runtime.compile_16_4.cs)]
+ [!code-vb[System.Runtime.CompilerServices.InternalsVisibleToAttribute#2](~/add/codesnippet/visualbasic/t-system.runtime.compile_16_4.vb)]  
   
  **Unsigned assemblies**  
   
  The following example uses the InternalsVisibleToAttribute attribute to make an `internal` member of an unsigned assembly visible to another unsigned assembly. The attribute ensures that the `internal``StringLib.IsFirstLetterUpperCase` method in an assembly named `UtilityLib` is visible to the code in an assembly named `Friend2`.  The following is the source code for UtilityLib.dll:  
   
- [!code-cs[System.Runtime.CompilerServices.InternalsVisibleToAttribute#5](~/add/codesnippet/csharp/t-system.runtime.compile_15_5.cs)]
- [!code-vb[System.Runtime.CompilerServices.InternalsVisibleToAttribute#5](~/add/codesnippet/visualbasic/t-system.runtime.compile_15_5.vb)]  
+ [!code-cs[System.Runtime.CompilerServices.InternalsVisibleToAttribute#5](~/add/codesnippet/csharp/t-system.runtime.compile_16_5.cs)]
+ [!code-vb[System.Runtime.CompilerServices.InternalsVisibleToAttribute#5](~/add/codesnippet/visualbasic/t-system.runtime.compile_16_5.vb)]  
   
  The following example provides the source code for the `Friend2` assembly. Note that if you are compiling in C# from the command line, you must use the **/out** compiler switch to ensure that the name of the friend assembly is available when the compiler binds to external references.  
   
- [!code-cs[System.Runtime.CompilerServices.InternalsVisibleToAttribute#6](~/add/codesnippet/csharp/t-system.runtime.compile_15_6.cs)]
- [!code-cpp[System.Runtime.CompilerServices.InternalsVisibleToAttribute#6](~/add/codesnippet/cpp/t-system.runtime.compile_15_6.cpp)]
- [!code-vb[System.Runtime.CompilerServices.InternalsVisibleToAttribute#6](~/add/codesnippet/visualbasic/t-system.runtime.compile_15_6.vb)]  
+ [!code-cs[System.Runtime.CompilerServices.InternalsVisibleToAttribute#6](~/add/codesnippet/csharp/t-system.runtime.compile_16_6.cs)]
+ [!code-cpp[System.Runtime.CompilerServices.InternalsVisibleToAttribute#6](~/add/codesnippet/cpp/t-system.runtime.compile_16_6.cpp)]
+ [!code-vb[System.Runtime.CompilerServices.InternalsVisibleToAttribute#6](~/add/codesnippet/visualbasic/t-system.runtime.compile_16_6.vb)]  
   
  ]]></format>
     </remarks>

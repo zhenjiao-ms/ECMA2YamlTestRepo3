@@ -43,7 +43,7 @@
     </remarks>
     <threadsafe>Public static (<see langword="Shared" /> in Visual Basic) members of this type are thread safe. Any instance members are not guaranteed to be thread safe.  
   
- This implementation does not provide a synchronized (thread safe) wrapper for a CollectionBase, but derived classes can create their own synchronized versions of the CollectionBase using the &lt;xref:System.Collections.ICollection.SyncRoot%2A&gt; property.  
+ This implementation does not provide a synchronized (thread safe) wrapper for a CollectionBase, but derived classes can create their own synchronized versions of the CollectionBase using the <see cref="System.Collections.ICollection.SyncRoot%2A" /> property.  
   
  Enumerating through a collection is intrinsically not a thread safe procedure. Even when a collection is synchronized, other threads can still modify the collection, which causes the enumerator to throw an exception. To guarantee thread safety during enumeration, you can either lock the collection during the entire enumeration or catch the exceptions resulting from changes made by other threads.</threadsafe>
   </Docs>
@@ -140,7 +140,7 @@
   
  ]]></format>
         </remarks>
-        <exception cref="T:System.ArgumentOutOfRangeException">Capacity is set to a value that is less than &lt;xref:System.Collections.CollectionBase.Count%2A&gt;.</exception>
+        <exception cref="T:System.ArgumentOutOfRangeException">Capacity is set to a value that is less than <see cref="System.Collections.CollectionBase.Count%2A" />.</exception>
         <exception cref="T:System.OutOfMemoryException">There is not enough memory available on the system.</exception>
         <threadsafe />
       </Docs>
@@ -745,7 +745,7 @@
   
  -or-  
   
- <paramref name="index" /> is equal to or greater than &lt;xref:System.Collections.CollectionBase.Count%2A&gt;.</exception>
+ <paramref name="index" /> is equal to or greater than <see cref="System.Collections.CollectionBase.Count%2A" />.</exception>
         <threadsafe />
       </Docs>
     </Member>
@@ -1056,7 +1056,7 @@
   
  -or-  
   
- <paramref name="index" /> is greater than &lt;xref:System.Collections.CollectionBase.Count%2A&gt;.</exception>
+ <paramref name="index" /> is greater than <see cref="System.Collections.CollectionBase.Count%2A" />.</exception>
         <exception cref="T:System.NotSupportedException">The <see cref="T:System.Collections.CollectionBase" /> is read-only.  
   
  -or-  
@@ -1173,7 +1173,7 @@
   
  -or-  
   
- <paramref name="index" /> is equal to or greater than &lt;xref:System.Collections.CollectionBase.Count%2A&gt;.</exception>
+ <paramref name="index" /> is equal to or greater than <see cref="System.Collections.CollectionBase.Count%2A" />.</exception>
         <threadsafe />
       </Docs>
     </Member>

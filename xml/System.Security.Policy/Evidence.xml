@@ -256,9 +256,21 @@
       </Parameters>
       <Docs>
         <typeparam name="T">To be added.</typeparam>
-        <param name="evidence">To be added.</param>
-        <summary>To be added.</summary>
-        <remarks>To be added.</remarks>
+        <param name="evidence">The assembly evidence to add.</param>
+        <summary>Adds an evidence object of the specified type to the assembly-supplied evidence list.</summary>
+        <remarks>
+          <format type="text/markdown"><![CDATA[  
+  
+## Remarks  
+ Legacy evidence, that is, evidence that is not derived from <xref:System.Security.Policy.EvidenceBase>, cannot be added. Only evidence that is derived from <xref:System.Security.Policy.EvidenceBase> can be added. This method does not allow you to add evidence if evidence of that type already exists in the assembly list.  
+  
+ ]]></format>
+        </remarks>
+        <exception cref="T:System.ArgumentNullException">
+          <paramref name="evidence" /> is <see langword="null" />.</exception>
+        <exception cref="T:System.InvalidOperationException">Evidence of type <paramref name="T" /> is already in the list.</exception>
+        <exception cref="T:System.ArgumentException">
+          <paramref name="evidence" /> is not serializable.</exception>
       </Docs>
     </Member>
     <Member MemberName="AddHost">
@@ -312,7 +324,7 @@
           <paramref name="id" /> is null.</exception>
         <exception cref="T:System.ArgumentException">
           <paramref name="id" /> is not serializable.</exception>
-        <permission cref="T:System.Security.Permissions.SecurityPermission">for the ability to manipulate evidence when &lt;xref:System.Security.Policy.Evidence.Locked%2A&gt; is <see langword="true" />. Associated enumeration: <see cref="T:System.Security.Permissions.SecurityPermissionFlag" /></permission>
+        <permission cref="T:System.Security.Permissions.SecurityPermission">for the ability to manipulate evidence when <see cref="System.Security.Policy.Evidence.Locked%2A" /> is <see langword="true" />. Associated enumeration: <see cref="T:System.Security.Permissions.SecurityPermissionFlag" /></permission>
         <threadsafe />
       </Docs>
     </Member>
@@ -344,9 +356,19 @@
       </Parameters>
       <Docs>
         <typeparam name="T">To be added.</typeparam>
-        <param name="evidence">To be added.</param>
-        <summary>To be added.</summary>
-        <remarks>To be added.</remarks>
+        <param name="evidence">The host evidence to add.</param>
+        <summary>Adds host evidence of the specified type to the host evidence collection.</summary>
+        <remarks>
+          <format type="text/markdown"><![CDATA[  
+  
+## Remarks  
+ Legacy evidence, that is, evidence that is not derived from <xref:System.Security.Policy.EvidenceBase>, cannot be added. Only evidence that is derived from <xref:System.Security.Policy.EvidenceBase> can be added. This method does not allow you to add evidence if evidence of that type already exists in the assembly list.  
+  
+ ]]></format>
+        </remarks>
+        <exception cref="T:System.ArgumentNullException">
+          <paramref name="evidence" /> is <see langword="null" />.</exception>
+        <exception cref="T:System.InvalidOperationException">Evidence of type <paramref name="T" /> is already in the list.</exception>
       </Docs>
     </Member>
     <Member MemberName="Clear">
@@ -521,7 +543,7 @@
       <Parameters />
       <Docs>
         <summary>Enumerates evidence provided by the assembly.</summary>
-        <returns>An enumerator for evidence added by the &lt;xref:System.Security.Policy.Evidence.AddAssembly%2A&gt; method.</returns>
+        <returns>An enumerator for evidence added by the <see cref="System.Security.Policy.Evidence.AddAssembly%2A" /> method.</returns>
         <remarks>
           <format type="text/markdown"><![CDATA[  
   
@@ -563,9 +585,16 @@
       <Parameters />
       <Docs>
         <typeparam name="T">To be added.</typeparam>
-        <summary>To be added.</summary>
-        <returns>To be added.</returns>
-        <remarks>To be added.</remarks>
+        <summary>Gets assembly evidence of the specified type from the collection.</summary>
+        <returns>Evidence of type <paramref name="T" /> in the assembly evidence collection.</returns>
+        <remarks>
+          <format type="text/markdown"><![CDATA[  
+  
+## Remarks  
+ This method returns only evidence that is derived from the <xref:System.Security.Policy.EvidenceBase> class. It does not return legacy evidence objects that are derived from other classes.  
+  
+ ]]></format>
+        </remarks>
       </Docs>
     </Member>
     <Member MemberName="GetEnumerator">
@@ -589,7 +618,7 @@
       <Parameters />
       <Docs>
         <summary>Enumerates all evidence in the set, both that provided by the host and that provided by the assembly.</summary>
-        <returns>An enumerator for evidence added by both the &lt;xref:System.Security.Policy.Evidence.AddHost%2A&gt; method and the &lt;xref:System.Security.Policy.Evidence.AddAssembly%2A&gt; method.</returns>
+        <returns>An enumerator for evidence added by both the <see cref="System.Security.Policy.Evidence.AddHost%2A" /> method and the <see cref="System.Security.Policy.Evidence.AddAssembly%2A" /> method.</returns>
         <remarks>
           <format type="text/markdown"><![CDATA[  
   
@@ -621,7 +650,7 @@
       <Parameters />
       <Docs>
         <summary>Enumerates evidence supplied by the host.</summary>
-        <returns>An enumerator for evidence added by the &lt;xref:System.Security.Policy.Evidence.AddHost%2A&gt; method.</returns>
+        <returns>An enumerator for evidence added by the <see cref="System.Security.Policy.Evidence.AddHost%2A" /> method.</returns>
         <remarks>
           <format type="text/markdown"><![CDATA[  
   
@@ -663,9 +692,16 @@
       <Parameters />
       <Docs>
         <typeparam name="T">To be added.</typeparam>
-        <summary>To be added.</summary>
-        <returns>To be added.</returns>
-        <remarks>To be added.</remarks>
+        <summary>Gets host evidence of the specified type from the collection.</summary>
+        <returns>Evidence of type <paramref name="T" /> in the host evidence collection.</returns>
+        <remarks>
+          <format type="text/markdown"><![CDATA[  
+  
+## Remarks  
+ This method returns only evidence that is derived from the <xref:System.Security.Policy.EvidenceBase> class. It does not return legacy evidence objects that are derived from other classes.  
+  
+ ]]></format>
+        </remarks>
       </Docs>
     </Member>
     <Member MemberName="IsReadOnly">
@@ -805,8 +841,9 @@
  ]]></format>
         </remarks>
         <exception cref="T:System.ArgumentException">The <paramref name="evidence" /> parameter is not a valid instance of <see cref="T:System.Security.Policy.Evidence" />.</exception>
-        <exception cref="T:System.Security.SecurityException">&lt;xref:System.Security.Policy.Evidence.Locked%2A&gt; is <see langword="true" />, the code that calls this method does not have <see cref="T:System.Security.Permissions.SecurityPermissionFlag" />, and the <paramref name="evidence" /> parameter has a host list that is not empty.</exception>
-        <permission cref="T:System.Security.Permissions.SecurityPermission">for the ability to manipulate evidence when &lt;xref:System.Security.Policy.Evidence.Locked%2A&gt; is <see langword="true" /> and the <paramref name="evidence" /> parameter has a host list that is not empty. Associated enumeration: <see cref="T:System.Security.Permissions.SecurityPermissionFlag" /></permission>
+        <exception cref="T:System.Security.SecurityException">
+          <see cref="System.Security.Policy.Evidence.Locked%2A" /> is <see langword="true" />, the code that calls this method does not have <see cref="T:System.Security.Permissions.SecurityPermissionFlag" />, and the <paramref name="evidence" /> parameter has a host list that is not empty.</exception>
+        <permission cref="T:System.Security.Permissions.SecurityPermission">for the ability to manipulate evidence when <see cref="System.Security.Policy.Evidence.Locked%2A" /> is <see langword="true" /> and the <paramref name="evidence" /> parameter has a host list that is not empty. Associated enumeration: <see cref="T:System.Security.Permissions.SecurityPermissionFlag" /></permission>
         <threadsafe />
       </Docs>
     </Member>

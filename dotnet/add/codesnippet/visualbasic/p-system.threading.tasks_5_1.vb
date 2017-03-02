@@ -4,12 +4,13 @@ Imports System.Threading.Tasks
 Module Example
    Public Sub Main()
       Dim rnd As New Random()
-      Dim stopIndex As Long = rnd.Next(1, 11)
+      Dim breakIndex As Integer = rnd.Next(1, 11)
+      Dim lowest As New Nullable(Of Long)()
 
-      Console.WriteLine("Will call Stop in iteration {0}", stopIndex)
+      Console.WriteLine("Will call Break at iteration {0}", breakIndex)
       Console.WriteLine()
 
-      Dim result = Parallel.For(1, 10000, Sub(i, state)
+      Dim result = Parallel.For(1, 101, Sub(i, state)
                                             Console.WriteLine("Beginning iteration {0}", i)
                                             Dim delay As Integer
                                             Monitor.Enter(rnd)
@@ -17,102 +18,138 @@ Module Example
                                             Monitor.Exit(rnd)
                                             Thread.Sleep(delay)
 
-                                            If i = stopIndex Then
-                                               Console.WriteLine("Stop in iteration {0}", i)
-                                               state.Stop()
-                                               Return
+                                            If state.ShouldExitCurrentIteration Then
+                                               If state.LowestBreakIteration < i Then
+                                                  Return
+                                               End If
                                             End If
 
-                                            If state.IsStopped Then
-                                               Return
+                                            If i = breakIndex Then
+                                               Console.WriteLine("Break in iteration {0}", i)
+                                               state.Break()
+                                               If state.LowestBreakIteration.HasValue Then
+                                                  If lowest < state.LowestBreakIteration Then
+                                                     lowest = state.LowestBreakIteration
+                                                  Else
+                                                     lowest = state.LowestBreakIteration
+                                                  End If
+                                               End If
                                             End If
 
                                             Console.WriteLine("Completed iteration {0}", i)
-                                       End Sub)
-    End Sub
+                                       End Sub )
+         Console.WriteLine()
+         If lowest.HasValue Then
+            Console.WriteLine("Lowest Break Iteration: {0}", lowest)
+         Else
+            Console.WriteLine("No lowest break iteration.")
+         End If
+   End Sub
 End Module
 ' The example displays output like the following:
-'       Will call Stop in iteration 5
+'       Will call Break at iteration 8
 '
 '       Beginning iteration 1
-'       Beginning iteration 9993
-'       Beginning iteration 8744
-'       Beginning iteration 6246
-'       Beginning iteration 7495
-'       Beginning iteration 3748
-'       Beginning iteration 4997
-'       Beginning iteration 2499
-'       Beginning iteration 1250
-'       Completed iteration 6246
-'       Beginning iteration 6247
-'       Completed iteration 3748
-'       Beginning iteration 3749
-'       Completed iteration 8744
-'       Beginning iteration 8745
-'       Completed iteration 7495
-'       Beginning iteration 7496
-'       Completed iteration 1250
-'       Beginning iteration 1251
-'       Completed iteration 2499
-'       Beginning iteration 2500
+'       Beginning iteration 13
+'       Beginning iteration 97
+'       Beginning iteration 25
+'       Beginning iteration 49
+'       Beginning iteration 37
+'       Beginning iteration 85
+'       Beginning iteration 73
+'       Beginning iteration 61
+'       Completed iteration 85
+'       Beginning iteration 86
+'       Completed iteration 61
+'       Beginning iteration 62
+'       Completed iteration 86
+'       Beginning iteration 87
+'       Completed iteration 37
+'       Beginning iteration 38
+'       Completed iteration 38
+'       Beginning iteration 39
+'       Completed iteration 25
+'       Beginning iteration 26
+'       Completed iteration 26
+'       Beginning iteration 27
+'       Completed iteration 73
+'       Beginning iteration 74
+'       Completed iteration 62
+'       Beginning iteration 63
+'       Completed iteration 39
+'       Beginning iteration 40
+'       Completed iteration 40
+'       Beginning iteration 41
+'       Completed iteration 13
+'       Beginning iteration 14
 '       Completed iteration 1
 '       Beginning iteration 2
-'       Completed iteration 2500
-'       Beginning iteration 2501
-'       Completed iteration 3749
-'       Beginning iteration 3750
-'       Completed iteration 6247
-'       Beginning iteration 6248
-'       Completed iteration 7496
-'       Beginning iteration 7497
-'       Completed iteration 3750
-'       Beginning iteration 3751
+'       Completed iteration 97
+'       Beginning iteration 98
+'       Completed iteration 49
+'       Beginning iteration 50
+'       Completed iteration 87
+'       Completed iteration 27
+'       Beginning iteration 28
+'       Completed iteration 50
+'       Beginning iteration 51
+'       Beginning iteration 88
+'       Completed iteration 14
+'       Beginning iteration 15
+'       Completed iteration 15
 '       Completed iteration 2
 '       Beginning iteration 3
-'       Completed iteration 9993
-'       Beginning iteration 9994
-'       Completed iteration 8745
-'       Beginning iteration 8746
-'       Completed iteration 4997
-'       Completed iteration 9994
-'       Beginning iteration 9995
-'       Beginning iteration 4998
-'       Completed iteration 6248
-'       Beginning iteration 6249
-'       Completed iteration 7497
-'       Beginning iteration 7498
-'       Completed iteration 1251
-'       Beginning iteration 1252
-'       Completed iteration 2501
-'       Beginning iteration 2502
-'       Completed iteration 9995
-'       Beginning iteration 9996
-'       Completed iteration 4998
-'       Beginning iteration 4999
-'       Completed iteration 2502
-'       Beginning iteration 2503
-'       Completed iteration 1252
-'       Beginning iteration 1253
-'       Completed iteration 7498
-'       Beginning iteration 7499
-'       Completed iteration 3751
-'       Beginning iteration 3752
-'       Completed iteration 9996
-'       Beginning iteration 9997
-'       Completed iteration 1253
-'       Beginning iteration 1254
-'       Completed iteration 9997
-'       Beginning iteration 9998
-'       Completed iteration 1254
-'       Beginning iteration 1255
-'       Completed iteration 6249
-'       Beginning iteration 6250
-'       Completed iteration 3
+'       Beginning iteration 16
+'       Completed iteration 63
+'       Beginning iteration 64
+'       Completed iteration 74
+'       Beginning iteration 75
+'       Completed iteration 41
+'       Beginning iteration 42
+'       Completed iteration 28
+'       Beginning iteration 29
+'       Completed iteration 29
+'       Beginning iteration 30
+'       Completed iteration 98
+'       Beginning iteration 99
+'       Completed iteration 64
+'       Beginning iteration 65
+'       Completed iteration 42
+'       Beginning iteration 43
+'       Completed iteration 88
+'       Beginning iteration 89
+'       Completed iteration 51
+'       Beginning iteration 52
+'       Completed iteration 16
+'       Beginning iteration 17
+'       Completed iteration 43
+'       Beginning iteration 44
+'       Completed iteration 44
+'       Beginning iteration 45
+'       Completed iteration 99
 '       Beginning iteration 4
+'       Completed iteration 3
+'       Beginning iteration 8
 '       Completed iteration 4
 '       Beginning iteration 5
-'       Completed iteration 4999
-'       Beginning iteration 5000
-'       Completed iteration 8746
-'       Beginning iteration 8747
-'       Stop in iteration 5
+'       Completed iteration 52
+'       Beginning iteration 53
+'       Completed iteration 75
+'       Beginning iteration 76
+'       Completed iteration 76
+'       Beginning iteration 77
+'       Completed iteration 65
+'       Beginning iteration 66
+'       Completed iteration 5
+'       Beginning iteration 6
+'       Completed iteration 89
+'       Beginning iteration 90
+'       Completed iteration 30
+'       Beginning iteration 31
+'       Break in iteration 8
+'       Completed iteration 8
+'       Completed iteration 6
+'       Beginning iteration 7
+'       Completed iteration 7
+'
+'       Lowest Break Iteration: 8

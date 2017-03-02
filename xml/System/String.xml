@@ -617,7 +617,7 @@
         <Parameter Name="value" Type="System.SByte*" />
       </Parameters>
       <Docs>
-        <param name="value">A pointer to a null-terminated array of 8-bit signed integers. The integers are interpreted using the current system code page encoding (that is, the encoding specified by &lt;xref:System.Text.Encoding.Default%2A?displayProperty=fullName&gt;).</param>
+        <param name="value">A pointer to a null-terminated array of 8-bit signed integers. The integers are interpreted using the current system code page encoding (that is, the encoding specified by <see cref="System.Text.Encoding.Default%2A" />).</param>
         <summary>Initializes a new instance of the <see cref="T:System.String" /> class to the value indicated by a pointer to an array of 8-bit signed integers.</summary>
         <remarks>
           <format type="text/markdown"><![CDATA[  
@@ -793,7 +793,7 @@
         <Parameter Name="length" Type="System.Int32" />
       </Parameters>
       <Docs>
-        <param name="value">A pointer to an array of 8-bit signed integers. The integers are interpreted using the current system code page encoding (that is, the encoding specified by &lt;xref:System.Text.Encoding.Default%2A?displayProperty=fullName&gt;).</param>
+        <param name="value">A pointer to an array of 8-bit signed integers. The integers are interpreted using the current system code page encoding (that is, the encoding specified by <see cref="System.Text.Encoding.Default%2A" />).</param>
         <param name="startIndex">The starting position within `value`.</param>
         <param name="length">The number of characters within `value` to use.</param>
         <summary>Initializes a new instance of the <see cref="T:System.String" /> class to the value indicated by a specified pointer to an array of 8-bit signed integers, a starting position within that array, and a length.</summary>
@@ -1606,11 +1606,11 @@
  ]]></format>
         </remarks>
         <exception cref="T:System.ArgumentOutOfRangeException">
-          <paramref name="indexA" /> is greater than <paramref name="strA" />.&lt;xref:System.String.Length%2A&gt;.  
+          <paramref name="indexA" /> is greater than <paramref name="strA" />.<see cref="System.String.Length%2A" />.  
   
  -or-  
   
- <paramref name="indexB" /> is greater than <paramref name="strB" />.&lt;xref:System.String.Length%2A&gt;.  
+ <paramref name="indexB" /> is greater than <paramref name="strB" />.<see cref="System.String.Length%2A" />.  
   
  -or-  
   
@@ -1731,11 +1731,11 @@
  ]]></format>
         </remarks>
         <exception cref="T:System.ArgumentOutOfRangeException">
-          <paramref name="indexA" /> is greater than <paramref name="strA" />.&lt;xref:System.String.Length%2A&gt;.  
+          <paramref name="indexA" /> is greater than <paramref name="strA" />.<see cref="System.String.Length%2A" />.  
   
  -or-  
   
- <paramref name="indexB" /> is greater than <paramref name="strB" />.&lt;xref:System.String.Length%2A&gt;.  
+ <paramref name="indexB" /> is greater than <paramref name="strB" />.<see cref="System.String.Length%2A" />.  
   
  -or-  
   
@@ -1854,11 +1854,11 @@
  ]]></format>
         </remarks>
         <exception cref="T:System.ArgumentOutOfRangeException">
-          <paramref name="indexA" /> is greater than <paramref name="strA" />.&lt;xref:System.String.Length%2A&gt;.  
+          <paramref name="indexA" /> is greater than <paramref name="strA" />.<see cref="System.String.Length%2A" />.  
   
  -or-  
   
- <paramref name="indexB" /> is greater than <paramref name="strB" />.&lt;xref:System.String.Length%2A&gt;.  
+ <paramref name="indexB" /> is greater than <paramref name="strB" />.<see cref="System.String.Length%2A" />.  
   
  -or-  
   
@@ -1980,11 +1980,11 @@
  ]]></format>
         </remarks>
         <exception cref="T:System.ArgumentOutOfRangeException">
-          <paramref name="indexA" /> is greater than <paramref name="strA" />.&lt;xref:System.String.Length%2A&gt;.  
+          <paramref name="indexA" /> is greater than <paramref name="strA" />.<see cref="System.String.Length%2A" />.  
   
  -or-  
   
- <paramref name="indexB" /> is greater than <paramref name="strB" />.&lt;xref:System.String.Length%2A&gt;.  
+ <paramref name="indexB" /> is greater than <paramref name="strB" />.<see cref="System.String.Length%2A" />.  
   
  -or-  
   
@@ -2293,11 +2293,11 @@
  ]]></format>
         </remarks>
         <exception cref="T:System.ArgumentOutOfRangeException">
-          <paramref name="strA" /> is not <see langword="null" /> and <paramref name="indexA" /> is greater than <paramref name="strA" />.&lt;xref:System.String.Length%2A&gt;.  
+          <paramref name="strA" /> is not <see langword="null" /> and <paramref name="indexA" /> is greater than <paramref name="strA" />.<see cref="System.String.Length%2A" />.  
   
  -or-  
   
- <paramref name="strB" /> is not <see langword="null" /> and<paramref name="indexB" /> is greater than <paramref name="strB" />.&lt;xref:System.String.Length%2A&gt;.  
+ <paramref name="strB" /> is not <see langword="null" /> and<paramref name="indexB" /> is greater than <paramref name="strB" />.<see cref="System.String.Length%2A" />.  
   
  -or-  
   
@@ -2515,8 +2515,8 @@
         <Parameter Name="values" Type="System.Collections.Generic.IEnumerable&lt;System.String&gt;" />
       </Parameters>
       <Docs>
-        <param name="values">A collection object that implements &lt;xref:System.Collections.Generic.IEnumerable%601&gt; and whose generic type argument is <see cref="T:System.String" />.</param>
-        <summary>Concatenates the members of a constructed &lt;xref:System.Collections.Generic.IEnumerable%601&gt; collection of type <see cref="T:System.String" />.</summary>
+        <param name="values">A collection object that implements <see cref="System.Collections.Generic.IEnumerable%601" /> and whose generic type argument is <see cref="T:System.String" />.</param>
+        <summary>Concatenates the members of a constructed <see cref="System.Collections.Generic.IEnumerable%601" /> collection of type <see cref="T:System.String" />.</summary>
         <returns>The concatenated strings in <paramref name="values" />, or <see cref="T:System.String" /> if <paramref name="values" /> is an empty <see langword="IEnumerable(Of String)" />.</returns>
         <remarks>
           <format type="text/markdown"><![CDATA[  
@@ -3031,10 +3031,31 @@
       </Parameters>
       <Docs>
         <typeparam name="T">To be added.</typeparam>
-        <param name="values">To be added.</param>
-        <summary>To be added.</summary>
-        <returns>To be added.</returns>
-        <remarks>To be added.</remarks>
+        <param name="values">A collection object that implements the <see cref="System.Collections.Generic.IEnumerable%601" /> interface.</param>
+        <summary>Concatenates the members of an <see cref="System.Collections.Generic.IEnumerable%601" /> implementation.</summary>
+        <returns>The concatenated members in <paramref name="values" />.</returns>
+        <remarks>
+          <format type="text/markdown"><![CDATA[  
+  
+## Remarks  
+ The method concatenates each object in `values`; it does not add any delimiters.  
+  
+ An <xref:System.String> string is used in place of any null argument.  
+  
+ Concat(T) is a convenience method that lets you concatenate each element in an <xref:System.Collections.Generic.IEnumerable%601> collection without first converting the elements to strings. It is particularly useful with Language-Integrated Query (LINQ) query expressions, as the example illustrates. The string representation of each object in the <xref:System.Collections.Generic.IEnumerable%601> collection is derived by calling that object's `ToString` method.  
+  
+   
+  
+## Examples  
+ The following example defines a very simple `Animal` class that contains the name of an animal and the order to which it belongs. It then defines a <xref:System.Collections.Generic.List%601> object to contain a number of `Animal` objects. The <xref:System.Linq.Enumerable.Where%2A?displayProperty=fullName> extension method is called to extract the `Animal` objects whose `Order` property equals "Rodent". The result is passed to the Concat(T) method and displayed to the console.  
+  
+ [!code-vb[System.String.Concat#4](~/add/codesnippet/visualbasic/m-system.string.concat``_1.vb)]
+ [!code-cs[System.String.Concat#4](~/add/codesnippet/csharp/m-system.string.concat``_1.cs)]  
+  
+ ]]></format>
+        </remarks>
+        <exception cref="T:System.ArgumentNullException">
+          <paramref name="values" /> is <see langword="null" />.</exception>
       </Docs>
     </Member>
     <Member MemberName="Contains">
@@ -5148,7 +5169,7 @@ String 'This is a string.' in domain 'NewDomain': 75CC8236
       <Docs>
         <param name="separator">The string to use as a separator.`separator` is included in the returned string only if `values` has more than one element.</param>
         <param name="values">A collection that contains the strings to concatenate.</param>
-        <summary>Concatenates the members of a constructed &lt;xref:System.Collections.Generic.IEnumerable%601&gt; collection of type <see cref="T:System.String" />, using the specified separator between each member.</summary>
+        <summary>Concatenates the members of a constructed <see cref="System.Collections.Generic.IEnumerable%601" /> collection of type <see cref="T:System.String" />, using the specified separator between each member.</summary>
         <returns>A string that consists of the members of <paramref name="values" /> delimited by the <paramref name="separator" /> string. If <paramref name="values" /> has no members, the method returns <see cref="T:System.String" />.</returns>
         <remarks>
           <format type="text/markdown"><![CDATA[  
@@ -5367,11 +5388,35 @@ String 'This is a string.' in domain 'NewDomain': 75CC8236
       </Parameters>
       <Docs>
         <typeparam name="T">To be added.</typeparam>
-        <param name="separator">To be added.</param>
-        <param name="values">To be added.</param>
-        <summary>To be added.</summary>
-        <returns>To be added.</returns>
-        <remarks>To be added.</remarks>
+        <param name="separator">The string to use as a separator.`separator` is included in the returned string only if `values` has more than one element.</param>
+        <param name="values">A collection that contains the objects to concatenate.</param>
+        <summary>Concatenates the members of a collection, using the specified separator between each member.</summary>
+        <returns>A string that consists of the members of <paramref name="values" /> delimited by the <paramref name="separator" /> string. If <paramref name="values" /> has no members, the method returns <see cref="T:System.String" />.</returns>
+        <remarks>
+          <format type="text/markdown"><![CDATA[  
+  
+## Remarks  
+ If `separator` is `null`, an empty string (<xref:System.String?displayProperty=fullName>) is used instead. If any member of `values` is `null`, an empty string is used instead.  
+  
+ Join(T) is a convenience method that lets you concatenate each member of an <xref:System.Collections.Generic.IEnumerable%601> collection without first converting them to strings. The string representation of each object in the <xref:System.Collections.Generic.IEnumerable%601> collection is derived by calling that object's `ToString` method.  
+  
+ This method is particular useful with Language-Integrated Query (LINQ) query expressions. For example, the following code defines a very simple `Animal` class that contains the name of an animal and the order to which it belongs. It then defines a <xref:System.Collections.Generic.List%601> object that contains a number of `Animal` objects. The <xref:System.Linq.Enumerable.Where%2A?displayProperty=fullName> extension method is called to extract the `Animal` objects whose `Order` property equals "Rodent". The result is passed to the Join(T) method.  
+  
+ [!code-cs[System.String.Join#5](~/add/codesnippet/csharp/58a6fcf3-02e1-4d30-ad5c-_1.cs)]
+ [!code-vb[System.String.Join#5](~/add/codesnippet/visualbasic/58a6fcf3-02e1-4d30-ad5c-_1.vb)]  
+  
+   
+  
+## Examples  
+ The following example uses the Sieve of Eratosthenes algorithm to calculate the prime numbers that are less than or equal to 100. It assigns the result to a <xref:System.Collections.Generic.List%601> object of type integer, which it then passes to the Join(T) method.  
+  
+ [!code-cs[System.String.Join#2](~/add/codesnippet/csharp/58a6fcf3-02e1-4d30-ad5c-_2.cs)]
+ [!code-vb[System.String.Join#2](~/add/codesnippet/visualbasic/58a6fcf3-02e1-4d30-ad5c-_2.vb)]  
+  
+ ]]></format>
+        </remarks>
+        <exception cref="T:System.ArgumentNullException">
+          <paramref name="values" /> is <see langword="null" />.</exception>
       </Docs>
     </Member>
     <Member MemberName="LastIndexOf">
@@ -7638,9 +7683,16 @@ String 'This is a string.' in domain 'NewDomain': 75CC8236
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>To be added.</summary>
-        <returns>To be added.</returns>
-        <remarks>To be added.</remarks>
+        <summary>Returns an enumerator that iterates through the current <see cref="T:System.String" /> object.</summary>
+        <returns>A strongly-typed enumerator that can be used to iterate through the current <see cref="T:System.String" /> object.</returns>
+        <remarks>
+          <format type="text/markdown"><![CDATA[  
+  
+## Remarks  
+ This member is an explicit interface member implementation. It can be used only when the <xref:System.String> instance is cast to an <xref:System.Collections.Generic.IEnumerable%601> interface object. For more information, see the <xref:System.Collections.Generic.IEnumerable%601.GetEnumerator%2A> method.  
+  
+ ]]></format>
+        </remarks>
       </Docs>
     </Member>
     <Member MemberName="System.Collections.IEnumerable.GetEnumerator">
@@ -7689,7 +7741,7 @@ String 'This is a string.' in domain 'NewDomain': 75CC8236
       </Parameters>
       <Docs>
         <param name="provider">This parameter is ignored.</param>
-        <summary>For a description of this member, see &lt;xref:System.IConvertible.ToBoolean%2A&gt;.</summary>
+        <summary>For a description of this member, see <see cref="System.IConvertible.ToBoolean%2A" />.</summary>
         <returns>
           <see langword="true" /> if the value of the current string is <see cref="T:System.Boolean" />; <see langword="false" /> if the value of the current string is <see cref="T:System.Boolean" />.</returns>
         <remarks>
@@ -7722,7 +7774,7 @@ String 'This is a string.' in domain 'NewDomain': 75CC8236
       </Parameters>
       <Docs>
         <param name="provider">An object that provides culture-specific formatting information.</param>
-        <summary>For a description of this member, see &lt;xref:System.IConvertible.ToByte%2A&gt;.</summary>
+        <summary>For a description of this member, see <see cref="System.IConvertible.ToByte%2A" />.</summary>
         <returns>The converted value of the current <see cref="T:System.String" /> object.</returns>
         <remarks>
           <format type="text/markdown"><![CDATA[  
@@ -7755,7 +7807,7 @@ String 'This is a string.' in domain 'NewDomain': 75CC8236
       </Parameters>
       <Docs>
         <param name="provider">An object that provides culture-specific formatting information.</param>
-        <summary>For a description of this member, see &lt;xref:System.IConvertible.ToChar%2A&gt;.</summary>
+        <summary>For a description of this member, see <see cref="System.IConvertible.ToChar%2A" />.</summary>
         <returns>The character at index 0 in the current <see cref="T:System.String" /> object.</returns>
         <remarks>
           <format type="text/markdown"><![CDATA[  
@@ -7786,7 +7838,7 @@ String 'This is a string.' in domain 'NewDomain': 75CC8236
       </Parameters>
       <Docs>
         <param name="provider">An object that provides culture-specific formatting information.</param>
-        <summary>For a description of this member, see &lt;xref:System.IConvertible.ToDateTime%2A&gt;.</summary>
+        <summary>For a description of this member, see <see cref="System.IConvertible.ToDateTime%2A" />.</summary>
         <returns>The converted value of the current <see cref="T:System.String" /> object.</returns>
         <remarks>
           <format type="text/markdown"><![CDATA[  
@@ -7817,7 +7869,7 @@ String 'This is a string.' in domain 'NewDomain': 75CC8236
       </Parameters>
       <Docs>
         <param name="provider">An object that provides culture-specific formatting information.</param>
-        <summary>For a description of this member, see &lt;xref:System.IConvertible.ToDecimal%2A&gt;.</summary>
+        <summary>For a description of this member, see <see cref="System.IConvertible.ToDecimal%2A" />.</summary>
         <returns>The converted value of the current <see cref="T:System.String" /> object.</returns>
         <remarks>
           <format type="text/markdown"><![CDATA[  
@@ -7850,7 +7902,7 @@ String 'This is a string.' in domain 'NewDomain': 75CC8236
       </Parameters>
       <Docs>
         <param name="provider">An object that provides culture-specific formatting information.</param>
-        <summary>For a description of this member, see &lt;xref:System.IConvertible.ToDouble%2A&gt;.</summary>
+        <summary>For a description of this member, see <see cref="System.IConvertible.ToDouble%2A" />.</summary>
         <returns>The converted value of the current <see cref="T:System.String" /> object.</returns>
         <remarks>
           <format type="text/markdown"><![CDATA[  
@@ -7883,7 +7935,7 @@ String 'This is a string.' in domain 'NewDomain': 75CC8236
       </Parameters>
       <Docs>
         <param name="provider">An object that provides culture-specific formatting information.</param>
-        <summary>For a description of this member, see &lt;xref:System.IConvertible.ToInt16%2A&gt;.</summary>
+        <summary>For a description of this member, see <see cref="System.IConvertible.ToInt16%2A" />.</summary>
         <returns>The converted value of the current <see cref="T:System.String" /> object.</returns>
         <remarks>
           <format type="text/markdown"><![CDATA[  
@@ -7916,7 +7968,7 @@ String 'This is a string.' in domain 'NewDomain': 75CC8236
       </Parameters>
       <Docs>
         <param name="provider">An object that provides culture-specific formatting information.</param>
-        <summary>For a description of this member, see &lt;xref:System.IConvertible.ToInt32%2A&gt;.</summary>
+        <summary>For a description of this member, see <see cref="System.IConvertible.ToInt32%2A" />.</summary>
         <returns>The converted value of the current <see cref="T:System.String" /> object.</returns>
         <remarks>
           <format type="text/markdown"><![CDATA[  
@@ -7947,7 +7999,7 @@ String 'This is a string.' in domain 'NewDomain': 75CC8236
       </Parameters>
       <Docs>
         <param name="provider">An object that provides culture-specific formatting information.</param>
-        <summary>For a description of this member, see &lt;xref:System.IConvertible.ToInt64%2A&gt;.</summary>
+        <summary>For a description of this member, see <see cref="System.IConvertible.ToInt64%2A" />.</summary>
         <returns>The converted value of the current <see cref="T:System.String" /> object.</returns>
         <remarks>
           <format type="text/markdown"><![CDATA[  
@@ -7978,7 +8030,7 @@ String 'This is a string.' in domain 'NewDomain': 75CC8236
       </Parameters>
       <Docs>
         <param name="provider">An object that provides culture-specific formatting information.</param>
-        <summary>For a description of this member, see &lt;xref:System.IConvertible.ToSByte%2A&gt;.</summary>
+        <summary>For a description of this member, see <see cref="System.IConvertible.ToSByte%2A" />.</summary>
         <returns>The converted value of the current <see cref="T:System.String" /> object.</returns>
         <remarks>
           <format type="text/markdown"><![CDATA[  
@@ -8011,7 +8063,7 @@ String 'This is a string.' in domain 'NewDomain': 75CC8236
       </Parameters>
       <Docs>
         <param name="provider">An object that provides culture-specific formatting information.</param>
-        <summary>For a description of this member, see &lt;xref:System.IConvertible.ToSingle%2A&gt;.</summary>
+        <summary>For a description of this member, see <see cref="System.IConvertible.ToSingle%2A" />.</summary>
         <returns>The converted value of the current <see cref="T:System.String" /> object.</returns>
         <remarks>
           <format type="text/markdown"><![CDATA[  
@@ -8044,7 +8096,7 @@ String 'This is a string.' in domain 'NewDomain': 75CC8236
       <Docs>
         <param name="type">The type of the returned object.</param>
         <param name="provider">An object that provides culture-specific formatting information.</param>
-        <summary>For a description of this member, see &lt;xref:System.IConvertible.ToType%2A&gt;.</summary>
+        <summary>For a description of this member, see <see cref="System.IConvertible.ToType%2A" />.</summary>
         <returns>The converted value of the current <see cref="T:System.String" /> object.</returns>
         <remarks>
           <format type="text/markdown"><![CDATA[  
@@ -8078,7 +8130,7 @@ String 'This is a string.' in domain 'NewDomain': 75CC8236
       </Parameters>
       <Docs>
         <param name="provider">An object that provides culture-specific formatting information.</param>
-        <summary>For a description of this member, see &lt;xref:System.IConvertible.ToUInt16%2A&gt;.</summary>
+        <summary>For a description of this member, see <see cref="System.IConvertible.ToUInt16%2A" />.</summary>
         <returns>The converted value of the current <see cref="T:System.String" /> object.</returns>
         <remarks>
           <format type="text/markdown"><![CDATA[  
@@ -8111,7 +8163,7 @@ String 'This is a string.' in domain 'NewDomain': 75CC8236
       </Parameters>
       <Docs>
         <param name="provider">An object that provides culture-specific formatting information.</param>
-        <summary>For a description of this member, see &lt;xref:System.IConvertible.ToUInt32%2A&gt;.</summary>
+        <summary>For a description of this member, see <see cref="System.IConvertible.ToUInt32%2A" />.</summary>
         <returns>The converted value of the current <see cref="T:System.String" /> object.</returns>
         <remarks>
           <format type="text/markdown"><![CDATA[  
@@ -8144,7 +8196,7 @@ String 'This is a string.' in domain 'NewDomain': 75CC8236
       </Parameters>
       <Docs>
         <param name="provider">An object that provides culture-specific formatting information.</param>
-        <summary>For a description of this member, see &lt;xref:System.IConvertible.ToUInt64%2A&gt;.</summary>
+        <summary>For a description of this member, see <see cref="System.IConvertible.ToUInt64%2A" />.</summary>
         <returns>The converted value of the current <see cref="T:System.String" /> object.</returns>
         <remarks>
           <format type="text/markdown"><![CDATA[  

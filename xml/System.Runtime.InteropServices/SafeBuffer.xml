@@ -97,7 +97,7 @@
   
  ]]></format>
         </remarks>
-        <exception cref="T:System.InvalidOperationException">The &lt;xref:System.Runtime.InteropServices.SafeBuffer.Initialize%2A?displayProperty=fullName&gt; method has not been called.</exception>
+        <exception cref="T:System.InvalidOperationException">The <see cref="System.Runtime.InteropServices.SafeBuffer.Initialize%2A" /> method has not been called.</exception>
         <threadsafe />
       </Docs>
     </Member>
@@ -124,7 +124,7 @@
         <summary>Gets the size of the buffer, in bytes.</summary>
         <value>The number of bytes in the memory buffer.</value>
         <remarks>To be added.</remarks>
-        <exception cref="T:System.InvalidOperationException">The &lt;xref:System.Runtime.InteropServices.SafeBuffer.Initialize%2A&gt; method has not been called.</exception>
+        <exception cref="T:System.InvalidOperationException">The <see cref="System.Runtime.InteropServices.SafeBuffer.Initialize%2A" /> method has not been called.</exception>
         <threadsafe />
       </Docs>
     </Member>
@@ -235,9 +235,15 @@
       </Parameters>
       <Docs>
         <typeparam name="T">To be added.</typeparam>
-        <param name="numElements">To be added.</param>
-        <summary>To be added.</summary>
+        <param name="numElements">The number of elements of the value type to allocate memory for.</param>
+        <summary>Defines the allocation size of the memory region by specifying the number of value types. You must call this method before you use the <see cref="T:System.Runtime.InteropServices.SafeBuffer" /> instance.</summary>
         <remarks>To be added.</remarks>
+        <exception cref="T:System.ArgumentOutOfRangeException">
+          <paramref name="numElements" /> is less than zero.  
+  
+ -or-  
+  
+ <paramref name="numElements" /> multiplied by the size of each element is greater than the available address space.</exception>
       </Docs>
     </Member>
     <Member MemberName="Read&lt;T&gt;">
@@ -273,10 +279,11 @@
       </Parameters>
       <Docs>
         <typeparam name="T">To be added.</typeparam>
-        <param name="byteOffset">To be added.</param>
-        <summary>To be added.</summary>
-        <returns>To be added.</returns>
+        <param name="byteOffset">The location from which to read the value type. You may have to consider alignment issues.</param>
+        <summary>Reads a value type from memory at the specified offset.</summary>
+        <returns>The value type that was read from memory.</returns>
         <remarks>To be added.</remarks>
+        <exception cref="T:System.InvalidOperationException">The <see cref="System.Runtime.InteropServices.SafeBuffer.Initialize%2A" /> method has not been called.</exception>
       </Docs>
     </Member>
     <Member MemberName="ReadArray&lt;T&gt;">
@@ -315,12 +322,22 @@
       </Parameters>
       <Docs>
         <typeparam name="T">To be added.</typeparam>
-        <param name="byteOffset">To be added.</param>
-        <param name="array">To be added.</param>
-        <param name="index">To be added.</param>
-        <param name="count">To be added.</param>
-        <summary>To be added.</summary>
+        <param name="byteOffset">The location from which to start reading.</param>
+        <param name="array">The output array to write to.</param>
+        <param name="index">The location in the output array to begin writing to.</param>
+        <param name="count">The number of value types to read from the input array and to write to the output array.</param>
+        <summary>Reads the specified number of value types from memory starting at the offset, and writes them into an array starting at the index.</summary>
         <remarks>To be added.</remarks>
+        <exception cref="T:System.ArgumentOutOfRangeException">
+          <paramref name="index" /> is less than zero.  
+  
+ -or-  
+  
+ <paramref name="count" /> is less than zero.</exception>
+        <exception cref="T:System.ArgumentNullException">
+          <paramref name="array" /> is <see langword="null" />.</exception>
+        <exception cref="T:System.ArgumentException">The length of the array minus the index is less than <paramref name="count" />.</exception>
+        <exception cref="T:System.InvalidOperationException">The <see cref="System.Runtime.InteropServices.SafeBuffer.Initialize%2A" /> method has not been called.</exception>
       </Docs>
     </Member>
     <Member MemberName="ReleasePointer">
@@ -341,7 +358,7 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>Releases a pointer that was obtained by the &lt;xref:System.Runtime.InteropServices.SafeBuffer.AcquirePointer%2A&gt; method.</summary>
+        <summary>Releases a pointer that was obtained by the <see cref="System.Runtime.InteropServices.SafeBuffer.AcquirePointer%2A" /> method.</summary>
         <remarks>
           <format type="text/markdown"><![CDATA[  
   
@@ -350,7 +367,7 @@
   
  ]]></format>
         </remarks>
-        <exception cref="T:System.InvalidOperationException">The &lt;xref:System.Runtime.InteropServices.SafeBuffer.Initialize%2A&gt; method has not been called.</exception>
+        <exception cref="T:System.InvalidOperationException">The <see cref="System.Runtime.InteropServices.SafeBuffer.Initialize%2A" /> method has not been called.</exception>
         <threadsafe />
       </Docs>
     </Member>
@@ -388,10 +405,22 @@
       </Parameters>
       <Docs>
         <typeparam name="T">To be added.</typeparam>
-        <param name="byteOffset">To be added.</param>
-        <param name="value">To be added.</param>
-        <summary>To be added.</summary>
-        <remarks>To be added.</remarks>
+        <param name="byteOffset">The location at which to start writing. You may have to consider alignment issues.</param>
+        <param name="value">The value to write.</param>
+        <summary>Writes a value type to memory at the given location.</summary>
+        <remarks>
+          <format type="text/markdown"><![CDATA[  
+  
+## Remarks  
+ This method is equivalent to the following code:  
+  
+```  
+*(T*)(bytePtr + byteOffset) = value;  
+```  
+  
+ ]]></format>
+        </remarks>
+        <exception cref="T:System.InvalidOperationException">The <see cref="System.Runtime.InteropServices.SafeBuffer.Initialize%2A" /> method has not been called.</exception>
       </Docs>
     </Member>
     <Member MemberName="WriteArray&lt;T&gt;">
@@ -430,12 +459,25 @@
       </Parameters>
       <Docs>
         <typeparam name="T">To be added.</typeparam>
-        <param name="byteOffset">To be added.</param>
-        <param name="array">To be added.</param>
-        <param name="index">To be added.</param>
-        <param name="count">To be added.</param>
-        <summary>To be added.</summary>
-        <remarks>To be added.</remarks>
+        <param name="byteOffset">The location in memory to write to.</param>
+        <param name="array">The input array.</param>
+        <param name="index">The offset in the array to start reading from.</param>
+        <param name="count">The number of value types to write.</param>
+        <summary>Writes the specified number of value types to a memory location by reading bytes starting from the specified location in the input array.</summary>
+        <remarks>
+          <format type="text/markdown"><![CDATA[  
+  
+## Remarks  
+ Each element in the input array consists of the generic value type of the class.  
+  
+ ]]></format>
+        </remarks>
+        <exception cref="T:System.ArgumentNullException">
+          <paramref name="array" /> is <see langword="null" />.</exception>
+        <exception cref="T:System.ArgumentOutOfRangeException">
+          <paramref name="index" /> or <paramref name="count" /> is less than zero.</exception>
+        <exception cref="T:System.ArgumentException">The length of the input array minus <paramref name="index" /> is less than <paramref name="count" />.</exception>
+        <exception cref="T:System.InvalidOperationException">The <see cref="System.Runtime.InteropServices.SafeBuffer.Initialize%2A" /> method has not been called.</exception>
       </Docs>
     </Member>
   </Members>

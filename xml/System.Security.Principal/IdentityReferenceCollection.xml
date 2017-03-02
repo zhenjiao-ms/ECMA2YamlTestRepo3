@@ -300,7 +300,7 @@
       </Parameters>
       <Docs>
         <param name="targetType">The type to which items in the collection are being converted.</param>
-        <summary>Converts the objects in the collection to the specified type. Calling this method is the same as calling &lt;xref:System.Security.Principal.IdentityReferenceCollection.Translate%28System.Type%2CSystem.Boolean%29&gt; with the second parameter set to <see langword="false" />, which means that exceptions will not be thrown for items that fail conversion.</summary>
+        <summary>Converts the objects in the collection to the specified type. Calling this method is the same as calling <see cref="System.Security.Principal.IdentityReferenceCollection.Translate%28System.Type%2CSystem.Boolean%29" /> with the second parameter set to <see langword="false" />, which means that exceptions will not be thrown for items that fail conversion.</summary>
         <returns>A <see cref="T:System.Security.Principal.IdentityReferenceCollection" /> collection that represents the converted contents of the original collection.</returns>
         <remarks>
           <format type="text/markdown"><![CDATA[  

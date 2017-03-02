@@ -316,11 +316,11 @@
   
  ]]></format>
         </remarks>
-        <exception cref="T:System.ArgumentException">The &lt;xref:System.DateTime.Kind%2A&gt; property of the <paramref name="dateTime" /> parameter is <see cref="T:System.DateTimeKind" />, but the <paramref name="sourceTimeZone" /> parameter does not equal <see cref="T:System.DateTimeKind" />. For more information, see the Remarks section.  
+        <exception cref="T:System.ArgumentException">The <see cref="System.DateTime.Kind%2A" /> property of the <paramref name="dateTime" /> parameter is <see cref="T:System.DateTimeKind" />, but the <paramref name="sourceTimeZone" /> parameter does not equal <see cref="T:System.DateTimeKind" />. For more information, see the Remarks section.  
   
  -or-  
   
- The &lt;xref:System.DateTime.Kind%2A&gt; property of the <paramref name="dateTime" /> parameter is <see cref="T:System.DateTimeKind" />, but the <paramref name="sourceTimeZone" /> parameter does not equal &lt;xref:System.TimeZoneInfo.Utc%2A?displayProperty=fullName&gt;.  
+ The <see cref="System.DateTime.Kind%2A" /> property of the <paramref name="dateTime" /> parameter is <see cref="T:System.DateTimeKind" />, but the <paramref name="sourceTimeZone" /> parameter does not equal <see cref="System.TimeZoneInfo.Utc%2A" />.  
   
  -or-  
   
@@ -496,7 +496,7 @@
   
  ]]></format>
         </remarks>
-        <exception cref="T:System.ArgumentException">The &lt;xref:System.DateTime.Kind%2A&gt; property of the <paramref name="dateTime" /> parameter does not correspond to the source time zone.  
+        <exception cref="T:System.ArgumentException">The <see cref="System.DateTime.Kind%2A" /> property of the <paramref name="dateTime" /> parameter does not correspond to the source time zone.  
   
  -or-  
   
@@ -536,7 +536,7 @@
         <param name="dateTime">The Coordinated Universal Time (UTC).</param>
         <param name="destinationTimeZone">The time zone to convert `dateTime` to.</param>
         <summary>Converts a Coordinated Universal Time (UTC) to the time in a specified time zone.</summary>
-        <returns>The date and time in the destination time zone. Its &lt;xref:System.DateTime.Kind%2A?displayProperty=fullName&gt; property is <see cref="T:System.DateTimeKind" /> if <paramref name="destinationTimeZone" /> is &lt;xref:System.TimeZoneInfo.Utc%2A?displayProperty=fullName&gt;; otherwise, its &lt;xref:System.DateTime.Kind%2A?displayProperty=fullName&gt; property is <see cref="T:System.DateTimeKind" />.</returns>
+        <returns>The date and time in the destination time zone. Its <see cref="System.DateTime.Kind%2A" /> property is <see cref="T:System.DateTimeKind" /> if <paramref name="destinationTimeZone" /> is <see cref="System.TimeZoneInfo.Utc%2A" />; otherwise, its <see cref="System.DateTime.Kind%2A" /> property is <see cref="T:System.DateTimeKind" />.</returns>
         <remarks>
           <format type="text/markdown"><![CDATA[  
   
@@ -562,7 +562,7 @@
   
  ]]></format>
         </remarks>
-        <exception cref="T:System.ArgumentException">The &lt;xref:System.DateTime.Kind%2A&gt; property of <paramref name="dateTime" /> is <see cref="T:System.DateTimeKind" />.</exception>
+        <exception cref="T:System.ArgumentException">The <see cref="System.DateTime.Kind%2A" /> property of <paramref name="dateTime" /> is <see cref="T:System.DateTimeKind" />.</exception>
         <exception cref="T:System.ArgumentNullException">
           <paramref name="destinationTimeZone" /> is <see langword="null" />.</exception>
         <threadsafe />
@@ -585,7 +585,7 @@
       <Docs>
         <param name="dateTime">The date and time to convert.</param>
         <summary>Converts the specified date and time to Coordinated Universal Time (UTC).</summary>
-        <returns>The Coordinated Universal Time (UTC) that corresponds to the <paramref name="dateTime" /> parameter. The <see cref="T:System.DateTime" /> value's &lt;xref:System.DateTime.Kind%2A&gt; property is always set to <see cref="T:System.DateTimeKind" />.</returns>
+        <returns>The Coordinated Universal Time (UTC) that corresponds to the <paramref name="dateTime" /> parameter. The <see cref="T:System.DateTime" /> value's <see cref="System.DateTime.Kind%2A" /> property is always set to <see cref="T:System.DateTimeKind" />.</returns>
         <remarks>
           <format type="text/markdown"><![CDATA[  
   
@@ -639,7 +639,7 @@
         <param name="dateTime">The date and time to convert.</param>
         <param name="sourceTimeZone">The time zone of `dateTime`.</param>
         <summary>Converts the time in a specified time zone to Coordinated Universal Time (UTC).</summary>
-        <returns>The Coordinated Universal Time (UTC) that corresponds to the <paramref name="dateTime" /> parameter. The <see cref="T:System.DateTime" /> object's &lt;xref:System.DateTime.Kind%2A&gt; property is always set to <see cref="T:System.DateTimeKind" />.</returns>
+        <returns>The Coordinated Universal Time (UTC) that corresponds to the <paramref name="dateTime" /> parameter. The <see cref="T:System.DateTime" /> object's <see cref="System.DateTime.Kind%2A" /> property is always set to <see cref="T:System.DateTimeKind" />.</returns>
         <remarks>
           <format type="text/markdown"><![CDATA[  
   
@@ -661,11 +661,11 @@
  ]]></format>
         </remarks>
         <exception cref="T:System.ArgumentException">
-          <paramref name="dateTime" /> <see langword=".Kind" /> is <see cref="T:System.DateTimeKind" /> and <paramref name="sourceTimeZone" /> does not equal &lt;xref:System.TimeZoneInfo.Utc%2A?displayProperty=fullName&gt;.  
+          <paramref name="dateTime" /> <see langword=".Kind" /> is <see cref="T:System.DateTimeKind" /> and <paramref name="sourceTimeZone" /> does not equal <see cref="System.TimeZoneInfo.Utc%2A" />.  
   
  -or-  
   
- <paramref name="dateTime" /> <see langword=".Kind" /> is <see cref="T:System.DateTimeKind" /> and <paramref name="sourceTimeZone" /> does not equal &lt;xref:System.TimeZoneInfo.Local%2A?displayProperty=fullName&gt;.  
+ <paramref name="dateTime" /> <see langword=".Kind" /> is <see cref="T:System.DateTimeKind" /> and <paramref name="sourceTimeZone" /> does not equal <see cref="System.TimeZoneInfo.Local%2A" />.  
   
  -or-  
   
@@ -1002,7 +1002,7 @@
         <Parameter Name="id" Type="System.String" />
       </Parameters>
       <Docs>
-        <param name="id">The time zone identifier, which corresponds to the &lt;xref:System.TimeZoneInfo.Id%2A&gt; property.</param>
+        <param name="id">The time zone identifier, which corresponds to the <see cref="System.TimeZoneInfo.Id%2A" /> property.</param>
         <summary>Retrieves a <see cref="T:System.TimeZoneInfo" /> object from the registry based on its identifier.</summary>
         <returns>An object whose identifier is the value of the <paramref name="id" /> parameter.</returns>
         <remarks>
@@ -1084,7 +1084,7 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>Retrieves an array of &lt;xref:System.TimeZoneInfo.AdjustmentRule&gt; objects that apply to the current <see cref="T:System.TimeZoneInfo" /> object.</summary>
+        <summary>Retrieves an array of <see cref="T:System.TimeZoneInfo.AdjustmentRule" /> objects that apply to the current <see cref="T:System.TimeZoneInfo" /> object.</summary>
         <returns>An array of objects for this time zone.</returns>
         <remarks>
           <format type="text/markdown"><![CDATA[  
@@ -1472,7 +1472,7 @@
   
  ]]></format>
         </remarks>
-        <exception cref="T:System.ArgumentException">The &lt;xref:System.DateTime.Kind%2A&gt; property of the <paramref name="dateTime" /> value is <see cref="T:System.DateTimeKind" /> and <paramref name="dateTime" /> is an invalid time.</exception>
+        <exception cref="T:System.ArgumentException">The <see cref="System.DateTime.Kind%2A" /> property of the <paramref name="dateTime" /> value is <see cref="T:System.DateTimeKind" /> and <paramref name="dateTime" /> is an invalid time.</exception>
         <threadsafe />
       </Docs>
     </Member>
@@ -1566,7 +1566,7 @@
   
  ]]></format>
         </remarks>
-        <exception cref="T:System.ArgumentException">The &lt;xref:System.DateTime.Kind%2A&gt; property of the <paramref name="dateTime" /> value is <see cref="T:System.DateTimeKind" /> and <paramref name="dateTime" /> is an invalid time.</exception>
+        <exception cref="T:System.ArgumentException">The <see cref="System.DateTime.Kind%2A" /> property of the <paramref name="dateTime" /> value is <see cref="T:System.DateTimeKind" /> and <paramref name="dateTime" /> is an invalid time.</exception>
         <threadsafe />
       </Docs>
     </Member>
@@ -1878,7 +1878,7 @@
       <Parameters />
       <Docs>
         <summary>Returns the current <see cref="T:System.TimeZoneInfo" /> object's display name.</summary>
-        <returns>The value of the &lt;xref:System.TimeZoneInfo.DisplayName%2A&gt; property of the current <see cref="T:System.TimeZoneInfo" /> object.</returns>
+        <returns>The value of the <see cref="System.TimeZoneInfo.DisplayName%2A" /> property of the current <see cref="T:System.TimeZoneInfo" /> object.</returns>
         <remarks>
           <format type="text/markdown"><![CDATA[  
   

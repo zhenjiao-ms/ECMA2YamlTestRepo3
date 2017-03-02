@@ -67,10 +67,57 @@
       </Parameters>
       <Docs>
         <typeparam name="T">To be added.</typeparam>
-        <param name="n1">To be added.</param>
-        <param name="n2">To be added.</param>
-        <summary>To be added.</summary>
-        <returns>To be added.</returns>
+        <param name="n1">A <see cref="System.Nullable%601" /> object.</param>
+        <param name="n2">A <see cref="System.Nullable%601" /> object.</param>
+        <summary>Compares the relative values of two <see cref="System.Nullable%601" /> objects.</summary>
+        <returns>An integer that indicates the relative values of the <paramref name="n1" /> and <paramref name="n2" /> parameters.  
+  
+ <list type="table">  
+<listheader>  
+<term> Return Value  
+  
+ </term>  
+<description> Description  
+  
+ </description>  
+</listheader>  
+<item>  
+<term> Less than zero  
+  
+ </term>  
+<description> The <see cref="System.Nullable%601.HasValue%2A" /> property for <paramref name="n1" /> is <see langword="false" />, and the <see cref="System.Nullable%601.HasValue%2A" /> property for <paramref name="n2" /> is <see langword="true" />.  
+  
+ -or-  
+  
+ The <see cref="System.Nullable%601.HasValue%2A" /> properties for <paramref name="n1" /> and <paramref name="n2" /> are <see langword="true" />, and the value of the <see cref="System.Nullable%601.Value%2A" /> property for <paramref name="n1" /> is less than the value of the <see cref="System.Nullable%601.Value%2A" /> property for <paramref name="n2" />.  
+  
+ </description>  
+</item>  
+<item>  
+<term> Zero  
+  
+ </term>  
+<description> The <see cref="System.Nullable%601.HasValue%2A" /> properties for <paramref name="n1" /> and <paramref name="n2" /> are <see langword="false" />.  
+  
+ -or-  
+  
+ The <see cref="System.Nullable%601.HasValue%2A" /> properties for <paramref name="n1" /> and <paramref name="n2" /> are <see langword="true" />, and the value of the <see cref="System.Nullable%601.Value%2A" /> property for <paramref name="n1" /> is equal to the value of the <see cref="System.Nullable%601.Value%2A" /> property for <paramref name="n2" />.  
+  
+ </description>  
+</item>  
+<item>  
+<term> Greater than zero  
+  
+ </term>  
+<description> The <see cref="System.Nullable%601.HasValue%2A" /> property for <paramref name="n1" /> is <see langword="true" />, and the <see cref="System.Nullable%601.HasValue%2A" /> property for <paramref name="n2" /> is <see langword="false" />.  
+  
+ -or-  
+  
+ The <see cref="System.Nullable%601.HasValue%2A" /> properties for <paramref name="n1" /> and <paramref name="n2" /> are <see langword="true" />, and the value of the <see cref="System.Nullable%601.Value%2A" /> property for <paramref name="n1" /> is greater than the value of the <see cref="System.Nullable%601.Value%2A" /> property for <paramref name="n2" />.  
+  
+ </description>  
+</item>  
+</list></returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -106,10 +153,48 @@
       </Parameters>
       <Docs>
         <typeparam name="T">To be added.</typeparam>
-        <param name="n1">To be added.</param>
-        <param name="n2">To be added.</param>
-        <summary>To be added.</summary>
-        <returns>To be added.</returns>
+        <param name="n1">A <see cref="System.Nullable%601" /> object.</param>
+        <param name="n2">A <see cref="System.Nullable%601" /> object.</param>
+        <summary>Indicates whether two specified <see cref="System.Nullable%601" /> objects are equal.</summary>
+        <returns>
+          <see langword="true" /> if the <paramref name="n1" /> parameter is equal to the <paramref name="n2" /> parameter; otherwise, <see langword="false" />.  
+  
+ The return value depends on the <see cref="System.Nullable%601.HasValue%2A" /> and <see cref="System.Nullable%601.Value%2A" /> properties of the two parameters that are compared.  
+  
+ <list type="table">  
+<listheader>  
+<term> Return Value  
+  
+ </term>  
+<description> Description  
+  
+ </description>  
+</listheader>  
+<item>  
+<term> <see langword="true" />  
+  
+ </term>  
+<description> The <see cref="System.Nullable%601.HasValue%2A" /> properties for <paramref name="n1" /> and <paramref name="n2" /> are <see langword="false" />.  
+  
+ -or-  
+  
+ The <see cref="System.Nullable%601.HasValue%2A" /> properties for <paramref name="n1" /> and <paramref name="n2" /> are <see langword="true" />, and the <see cref="System.Nullable%601.Value%2A" /> properties of the parameters are equal.  
+  
+ </description>  
+</item>  
+<item>  
+<term> <see langword="false" />  
+  
+ </term>  
+<description> The <see cref="System.Nullable%601.HasValue%2A" /> property is <see langword="true" /> for one parameter and <see langword="false" /> for the other parameter.  
+  
+ -or-  
+  
+ The <see cref="System.Nullable%601.HasValue%2A" /> properties for <paramref name="n1" /> and <paramref name="n2" /> are <see langword="true" />, and the <see cref="System.Nullable%601.Value%2A" /> properties of the parameters are unequal.  
+  
+ </description>  
+</item>  
+</list></returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>

@@ -110,7 +110,7 @@
         <Parameter Name="ownsHandle" Type="System.Boolean" />
       </Parameters>
       <Docs>
-        <param name="invalidHandleValue">The value of an invalid handle (usually 0 or -1).  Your implementation of &lt;xref:System.Runtime.InteropServices.SafeHandle.IsInvalid%2A&gt; should return <see langword="true" /> for this value.</param>
+        <param name="invalidHandleValue">The value of an invalid handle (usually 0 or -1).  Your implementation of <see cref="System.Runtime.InteropServices.SafeHandle.IsInvalid%2A" /> should return <see langword="true" /> for this value.</param>
         <param name="ownsHandle">
           <see langword="true" /> to reliably let <see cref="T:System.Runtime.InteropServices.SafeHandle" /> release the handle during the finalization phase; otherwise, <see langword="false" /> (not recommended).</param>
         <summary>Initializes a new instance of the <see cref="T:System.Runtime.InteropServices.SafeHandle" /> class with the specified invalid handle value.</summary>
@@ -233,7 +233,7 @@
       <Parameters />
       <Docs>
         <summary>Returns the value of the <see cref="F:System.Runtime.InteropServices.SafeHandle.handle" /> field.</summary>
-        <returns>An <see langword="IntPtr" /> representing the value of the <see cref="F:System.Runtime.InteropServices.SafeHandle.handle" /> field. If the handle has been marked invalid with &lt;xref:System.Runtime.InteropServices.SafeHandle.SetHandleAsInvalid%2A&gt;, this method still returns the original handle value, which can be a stale value.</returns>
+        <returns>An <see langword="IntPtr" /> representing the value of the <see cref="F:System.Runtime.InteropServices.SafeHandle.handle" /> field. If the handle has been marked invalid with <see cref="System.Runtime.InteropServices.SafeHandle.SetHandleAsInvalid%2A" />, this method still returns the original handle value, which can be a stale value.</returns>
         <remarks>
           <format type="text/markdown"><![CDATA[  
   

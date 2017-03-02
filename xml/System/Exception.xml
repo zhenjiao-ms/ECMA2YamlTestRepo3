@@ -388,7 +388,7 @@ Stack Trace:
  ]]></format>
         </remarks>
         <exception cref="T:System.ArgumentNullException">The <paramref name="info" /> parameter is <see langword="null" />.</exception>
-        <exception cref="T:System.Runtime.Serialization.SerializationException">The class name is <see langword="null" /> or &lt;xref:System.Exception.HResult%2A&gt; is zero (0).</exception>
+        <exception cref="T:System.Runtime.Serialization.SerializationException">The class name is <see langword="null" /> or <see cref="System.Exception.HResult%2A" /> is zero (0).</exception>
         <threadsafe />
       </Docs>
     </Member>
@@ -511,7 +511,7 @@ Stack Trace:
       <Parameters />
       <Docs>
         <summary>When overridden in a derived class, returns the <see cref="T:System.Exception" /> that is the root cause of one or more subsequent exceptions.</summary>
-        <returns>The first exception thrown in a chain of exceptions. If the &lt;xref:System.Exception.InnerException%2A&gt; property of the current exception is a null reference (<see langword="Nothing" /> in Visual Basic), this property returns the current exception.</returns>
+        <returns>The first exception thrown in a chain of exceptions. If the <see cref="System.Exception.InnerException%2A" /> property of the current exception is a null reference (<see langword="Nothing" /> in Visual Basic), this property returns the current exception.</returns>
         <remarks>
           <format type="text/markdown"><![CDATA[  
   
@@ -702,7 +702,7 @@ Stack Trace:
       </ReturnValue>
       <Docs>
         <summary>Gets the <see cref="T:System.Exception" /> instance that caused the current exception.</summary>
-        <value>An object that describes the error that caused the current exception. The InnerException property returns the same value as was passed into the &lt;xref:System.Exception.%23ctor%28System.String%2CSystem.Exception%29&gt; constructor, or <see langword="null" /> if the inner exception value was not supplied to the constructor. This property is read-only.</value>
+        <value>An object that describes the error that caused the current exception. The InnerException property returns the same value as was passed into the <see cref="System.Exception.%23ctor%28System.String%2CSystem.Exception%29" /> constructor, or <see langword="null" /> if the inner exception value was not supplied to the constructor. This property is read-only.</value>
         <remarks>
           <format type="text/markdown"><![CDATA[  
   

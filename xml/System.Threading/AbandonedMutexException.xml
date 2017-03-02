@@ -125,7 +125,7 @@
         <Parameter Name="handle" Type="System.Threading.WaitHandle" />
       </Parameters>
       <Docs>
-        <param name="location">The index of the abandoned mutex in the array of wait handles if the exception is thrown for the &lt;xref:System.Threading.WaitHandle.WaitAny%2A?displayProperty=fullName&gt; method, or –1 if the exception is thrown for the &lt;xref:System.Threading.WaitHandle.WaitOne%2A&gt; or &lt;xref:System.Threading.WaitHandle.WaitAll%2A&gt; methods.</param>
+        <param name="location">The index of the abandoned mutex in the array of wait handles if the exception is thrown for the <see cref="System.Threading.WaitHandle.WaitAny%2A" /> method, or –1 if the exception is thrown for the <see cref="System.Threading.WaitHandle.WaitOne%2A" /> or <see cref="System.Threading.WaitHandle.WaitAll%2A" /> methods.</param>
         <param name="handle">A <see cref="T:System.Threading.Mutex" /> object that represents the abandoned mutex.</param>
         <summary>Initializes a new instance of the <see cref="T:System.Threading.AbandonedMutexException" /> class with a specified index for the abandoned mutex, if applicable, and a <see cref="T:System.Threading.Mutex" /> object that represents the mutex.</summary>
         <remarks>
@@ -231,7 +231,7 @@
       </Parameters>
       <Docs>
         <param name="message">An error message that explains the reason for the exception.</param>
-        <param name="location">The index of the abandoned mutex in the array of wait handles if the exception is thrown for the &lt;xref:System.Threading.WaitHandle.WaitAny%2A?displayProperty=fullName&gt; method, or –1 if the exception is thrown for the &lt;xref:System.Threading.WaitHandle.WaitOne%2A?displayProperty=fullName&gt; or &lt;xref:System.Threading.WaitHandle.WaitAll%2A&gt; methods.</param>
+        <param name="location">The index of the abandoned mutex in the array of wait handles if the exception is thrown for the <see cref="System.Threading.WaitHandle.WaitAny%2A" /> method, or –1 if the exception is thrown for the <see cref="System.Threading.WaitHandle.WaitOne%2A" /> or <see cref="System.Threading.WaitHandle.WaitAll%2A" /> methods.</param>
         <param name="handle">A <see cref="T:System.Threading.Mutex" /> object that represents the abandoned mutex.</param>
         <summary>Initializes a new instance of the <see cref="T:System.Threading.AbandonedMutexException" /> class with a specified error message, the index of the abandoned mutex, if applicable, and the abandoned mutex.</summary>
         <remarks>
@@ -272,7 +272,7 @@
       <Docs>
         <param name="message">An error message that explains the reason for the exception.</param>
         <param name="inner">The exception that is the cause of the current exception. If the `inner` parameter is not <see langword="null" />, the current exception is raised in a <see langword="catch" /> block that handles the inner exception.</param>
-        <param name="location">The index of the abandoned mutex in the array of wait handles if the exception is thrown for the &lt;xref:System.Threading.WaitHandle.WaitAny%2A?displayProperty=fullName&gt; method, or –1 if the exception is thrown for the &lt;xref:System.Threading.WaitHandle.WaitOne%2A?displayProperty=fullName&gt; or &lt;xref:System.Threading.WaitHandle.WaitAll%2A&gt; methods.</param>
+        <param name="location">The index of the abandoned mutex in the array of wait handles if the exception is thrown for the <see cref="System.Threading.WaitHandle.WaitAny%2A" /> method, or –1 if the exception is thrown for the <see cref="System.Threading.WaitHandle.WaitOne%2A" /> or <see cref="System.Threading.WaitHandle.WaitAll%2A" /> methods.</param>
         <param name="handle">A <see cref="T:System.Threading.Mutex" /> object that represents the abandoned mutex.</param>
         <summary>Initializes a new instance of the <see cref="T:System.Threading.AbandonedMutexException" /> class with a specified error message, the inner exception, the index for the abandoned mutex, if applicable, and a <see cref="T:System.Threading.Mutex" /> object that represents the mutex.</summary>
         <remarks>
@@ -337,7 +337,7 @@
       </ReturnValue>
       <Docs>
         <summary>Gets the index of the abandoned mutex that caused the exception, if known.</summary>
-        <value>The index, in the array of wait handles passed to the &lt;xref:System.Threading.WaitHandle.WaitAny%2A?displayProperty=fullName&gt; method, of the <see cref="T:System.Threading.Mutex" /> object that represents the abandoned mutex, or –1 if the index of the abandoned mutex could not be determined.</value>
+        <value>The index, in the array of wait handles passed to the <see cref="System.Threading.WaitHandle.WaitAny%2A" /> method, of the <see cref="T:System.Threading.Mutex" /> object that represents the abandoned mutex, or –1 if the index of the abandoned mutex could not be determined.</value>
         <remarks>
           <format type="text/markdown"><![CDATA[  
   

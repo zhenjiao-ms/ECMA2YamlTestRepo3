@@ -86,7 +86,7 @@
       <Docs>
         <summary>Determines whether the current thread requires a security context capture if its security state has to be re-created at a later point in time.</summary>
         <returns>
-          <see langword="false" /> if the stack contains no partially trusted application domains, no partially trusted assemblies, and no currently active &lt;xref:System.Security.CodeAccessPermission.PermitOnly%2A&gt; or &lt;xref:System.Security.CodeAccessPermission.Deny%2A&gt; modifiers; <see langword="true" /> if the common language runtime cannot guarantee that the stack contains none of these.</returns>
+          <see langword="false" /> if the stack contains no partially trusted application domains, no partially trusted assemblies, and no currently active <see cref="System.Security.CodeAccessPermission.PermitOnly%2A" /> or <see cref="System.Security.CodeAccessPermission.Deny%2A" /> modifiers; <see langword="true" /> if the common language runtime cannot guarantee that the stack contains none of these.</returns>
         <remarks>
           <format type="text/markdown"><![CDATA[  
   
@@ -185,7 +185,7 @@
         <Parameter Name="origin" Type="System.Collections.ArrayList&amp;" RefType="out" />
       </Parameters>
       <Docs>
-        <param name="zone">An output parameter that contains an <see cref="T:System.Collections.ArrayList" /> of granted &lt;xref:System.Security.Permissions.ZoneIdentityPermissionAttribute.Zone%2A&gt; objects.</param>
+        <param name="zone">An output parameter that contains an <see cref="T:System.Collections.ArrayList" /> of granted <see cref="System.Security.Permissions.ZoneIdentityPermissionAttribute.Zone%2A" /> objects.</param>
         <param name="origin">An output parameter that contains an <see cref="T:System.Collections.ArrayList" /> of granted <see cref="T:System.Security.Permissions.UrlIdentityPermission" /> objects.</param>
         <summary>Gets the granted zone identity and URL identity permission sets for the current assembly.</summary>
         <remarks>
@@ -645,7 +645,7 @@
       </Parameters>
       <Docs>
         <param name="level">The policy level object to be saved.</param>
-        <summary>Saves a modified security policy level loaded with &lt;xref:System.Security.SecurityManager.LoadPolicyLevelFromFile%2A&gt;.</summary>
+        <summary>Saves a modified security policy level loaded with <see cref="System.Security.SecurityManager.LoadPolicyLevelFromFile%2A" />.</summary>
         <remarks>
           <format type="text/markdown"><![CDATA[  
   

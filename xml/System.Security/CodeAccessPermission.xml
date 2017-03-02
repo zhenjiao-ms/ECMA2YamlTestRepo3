@@ -191,7 +191,7 @@
   
  -or-  
   
- A caller higher in the call stack has called &lt;xref:System.Security.CodeAccessPermission.Deny%2A&gt; on the current permission object.</exception>
+ A caller higher in the call stack has called <see cref="System.Security.CodeAccessPermission.Deny%2A" /> on the current permission object.</exception>
         <threadsafe />
       </Docs>
     </Member>
@@ -521,7 +521,7 @@
   
  ]]></format>
         </remarks>
-        <exception cref="T:System.InvalidOperationException">There is no previous &lt;xref:System.Security.CodeAccessPermission.Assert%2A&gt;, &lt;xref:System.Security.CodeAccessPermission.Deny%2A&gt;, or &lt;xref:System.Security.CodeAccessPermission.PermitOnly%2A&gt; for the current frame.</exception>
+        <exception cref="T:System.InvalidOperationException">There is no previous <see cref="System.Security.CodeAccessPermission.Assert%2A" />, <see cref="System.Security.CodeAccessPermission.Deny%2A" />, or <see cref="System.Security.CodeAccessPermission.PermitOnly%2A" /> for the current frame.</exception>
         <threadsafe />
       </Docs>
     </Member>
@@ -545,7 +545,7 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>Causes any previous &lt;xref:System.Security.CodeAccessPermission.Assert%2A&gt; for the current frame to be removed and no longer in effect.</summary>
+        <summary>Causes any previous <see cref="System.Security.CodeAccessPermission.Assert%2A" /> for the current frame to be removed and no longer in effect.</summary>
         <remarks>
           <format type="text/markdown"><![CDATA[  
   
@@ -554,7 +554,7 @@
   
  ]]></format>
         </remarks>
-        <exception cref="T:System.InvalidOperationException">There is no previous &lt;xref:System.Security.CodeAccessPermission.Assert%2A&gt; for the current frame.</exception>
+        <exception cref="T:System.InvalidOperationException">There is no previous <see cref="System.Security.CodeAccessPermission.Assert%2A" /> for the current frame.</exception>
         <threadsafe />
       </Docs>
     </Member>
@@ -581,7 +581,7 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>Causes any previous &lt;xref:System.Security.CodeAccessPermission.Deny%2A&gt; for the current frame to be removed and no longer in effect.</summary>
+        <summary>Causes any previous <see cref="System.Security.CodeAccessPermission.Deny%2A" /> for the current frame to be removed and no longer in effect.</summary>
         <remarks>
           <format type="text/markdown"><![CDATA[  
   
@@ -590,7 +590,7 @@
   
  ]]></format>
         </remarks>
-        <exception cref="T:System.InvalidOperationException">There is no previous &lt;xref:System.Security.CodeAccessPermission.Deny%2A&gt; for the current frame.</exception>
+        <exception cref="T:System.InvalidOperationException">There is no previous <see cref="System.Security.CodeAccessPermission.Deny%2A" /> for the current frame.</exception>
         <threadsafe />
       </Docs>
     </Member>
@@ -614,7 +614,7 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>Causes any previous &lt;xref:System.Security.CodeAccessPermission.PermitOnly%2A&gt; for the current frame to be removed and no longer in effect.</summary>
+        <summary>Causes any previous <see cref="System.Security.CodeAccessPermission.PermitOnly%2A" /> for the current frame to be removed and no longer in effect.</summary>
         <remarks>
           <format type="text/markdown"><![CDATA[  
   
@@ -623,7 +623,7 @@
   
  ]]></format>
         </remarks>
-        <exception cref="T:System.InvalidOperationException">There is no previous &lt;xref:System.Security.CodeAccessPermission.PermitOnly%2A&gt; for the current frame.</exception>
+        <exception cref="T:System.InvalidOperationException">There is no previous <see cref="System.Security.CodeAccessPermission.PermitOnly%2A" /> for the current frame.</exception>
         <threadsafe />
       </Docs>
     </Member>

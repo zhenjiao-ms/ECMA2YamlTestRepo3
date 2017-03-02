@@ -1,13 +1,12 @@
 using System;
 using System.Runtime.CompilerServices;
 
-[assembly: SuppressIldasmAttribute()]
+[CompilerGlobalScopeAttribute()]
 class Program
 {
     static void Main(string[] args)
     {
-        Console.WriteLine("The SuppressIldasmAttribute is applied to this assembly.");
+        Console.WriteLine("The attribute was applied.");
 
     }
-
 }

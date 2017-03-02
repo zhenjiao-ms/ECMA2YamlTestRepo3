@@ -181,7 +181,7 @@
       </Parameters>
       <Docs>
         <param name="name">The name of the resource to add.</param>
-        <param name="value">The value of the resource to add. The resource must support the &lt;xref:System.IO.Stream.Length%2A?displayProperty=fullName&gt; property.</param>
+        <param name="value">The value of the resource to add. The resource must support the <see cref="System.IO.Stream.Length%2A" /> property.</param>
         <summary>Adds a named resource specified as a stream to the list of resources to be written.</summary>
         <remarks>
           <format type="text/markdown"><![CDATA[  
@@ -206,7 +206,7 @@
   
  -or-  
   
- The stream does not support the &lt;xref:System.IO.Stream.Length%2A?displayProperty=fullName&gt; property.</exception>
+ The stream does not support the <see cref="System.IO.Stream.Length%2A" /> property.</exception>
         <exception cref="T:System.ArgumentNullException">
           <paramref name="name" /> or <paramref name="value" /> is <see langword="null" />.</exception>
         <exception cref="T:System.InvalidOperationException">This <see cref="T:System.Resources.ResourceWriter" /> has been closed.</exception>
@@ -327,10 +327,10 @@
       </Parameters>
       <Docs>
         <param name="name">The name of the resource to add.</param>
-        <param name="value">The value of the resource to add. The resource must support the &lt;xref:System.IO.Stream.Length%2A?displayProperty=fullName&gt; property.</param>
+        <param name="value">The value of the resource to add. The resource must support the <see cref="System.IO.Stream.Length%2A" /> property.</param>
         <param name="closeAfterWrite">
-          <see langword="true" /> to close the stream after the &lt;xref:System.Resources.ResourceWriter.Generate%2A&gt; method is called; otherwise, <see langword="false" />.</param>
-        <summary>Adds a named resource specified as a stream to the list of resources to be written, and specifies whether the stream should be closed after the &lt;xref:System.Resources.ResourceWriter.Generate%2A&gt; method is called.</summary>
+          <see langword="true" /> to close the stream after the <see cref="System.Resources.ResourceWriter.Generate%2A" /> method is called; otherwise, <see langword="false" />.</param>
+        <summary>Adds a named resource specified as a stream to the list of resources to be written, and specifies whether the stream should be closed after the <see cref="System.Resources.ResourceWriter.Generate%2A" /> method is called.</summary>
         <remarks>
           <format type="text/markdown"><![CDATA[  
   
@@ -354,7 +354,7 @@
   
  -or-  
   
- The stream does not support the &lt;xref:System.IO.Stream.Length%2A?displayProperty=fullName&gt; property.</exception>
+ The stream does not support the <see cref="System.IO.Stream.Length%2A" /> property.</exception>
         <exception cref="T:System.ArgumentNullException">
           <paramref name="name" /> or <paramref name="value" /> is <see langword="null" />.</exception>
         <exception cref="T:System.InvalidOperationException">This <see cref="T:System.Resources.ResourceWriter" /> has been closed.</exception>

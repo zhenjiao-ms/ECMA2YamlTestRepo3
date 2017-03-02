@@ -22,7 +22,7 @@
     </Attribute>
   </Attributes>
   <Docs>
-    <summary>Represents a lightweight alternative to &lt;xref:System.Threading.Semaphore&gt; that limits the number of threads that can access a resource or pool of resources concurrently.</summary>
+    <summary>Represents a lightweight alternative to <see cref="System.Threading.Semaphore" /> that limits the number of threads that can access a resource or pool of resources concurrently.</summary>
     <remarks>
       <format type="text/markdown"><![CDATA[  
   
@@ -61,7 +61,7 @@ SemaphoreSlim.Release()
   
  ]]></format>
     </remarks>
-    <threadsafe>All public and protected members of SemaphoreSlim are thread-safe and may be used concurrently from multiple threads, with the exception of &lt;xref:System.Threading.SemaphoreSlim.Dispose%2A&gt;, which must be used only when all other operations on the SemaphoreSlim have completed.</threadsafe>
+    <threadsafe>All public and protected members of SemaphoreSlim are thread-safe and may be used concurrently from multiple threads, with the exception of <see cref="System.Threading.SemaphoreSlim.Dispose%2A" />, which must be used only when all other operations on the SemaphoreSlim have completed.</threadsafe>
   </Docs>
   <Members>
     <Member MemberName=".ctor">

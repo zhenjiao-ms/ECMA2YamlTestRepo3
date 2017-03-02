@@ -469,11 +469,11 @@
   
  ]]></format>
         </remarks>
-        <altCompliant cref="M:System.Int64.Parse(System.String)" />
         <exception cref="T:System.ArgumentNullException">The <paramref name="s" /> parameter is <see langword="null" />.</exception>
         <exception cref="T:System.FormatException">The <paramref name="s" /> parameter is not of the correct format.</exception>
         <exception cref="T:System.OverflowException">The <paramref name="s" /> parameter represents a number that is less than <see cref="T:System.UInt32" /> or greater than <see cref="T:System.UInt32" />.</exception>
         <threadsafe />
+        <altCompliant cref="M:System.Int64.Parse(System.String)" />
       </Docs>
     </Member>
     <Member MemberName="Parse">
@@ -568,7 +568,6 @@
   
  ]]></format>
         </remarks>
-        <altCompliant cref="M:System.Int64.Parse(System.String)" />
         <exception cref="T:System.ArgumentNullException">
           <paramref name="s" /> is <see langword="null" />.</exception>
         <exception cref="T:System.ArgumentException">
@@ -586,6 +585,7 @@
   
  <paramref name="s" /> includes non-zero, fractional digits.</exception>
         <threadsafe />
+        <altCompliant cref="M:System.Int64.Parse(System.String)" />
       </Docs>
     </Member>
     <Member MemberName="Parse">
@@ -653,7 +653,6 @@
   
  ]]></format>
         </remarks>
-        <altCompliant cref="M:System.Int64.Parse(System.String)" />
         <exception cref="T:System.ArgumentNullException">
           <paramref name="s" /> is <see langword="null" />.</exception>
         <exception cref="T:System.FormatException">
@@ -661,6 +660,7 @@
         <exception cref="T:System.OverflowException">
           <paramref name="s" /> represents a number that is less than <see cref="T:System.UInt32" /> or greater than <see cref="T:System.UInt32" />.</exception>
         <threadsafe />
+        <altCompliant cref="M:System.Int64.Parse(System.String)" />
       </Docs>
     </Member>
     <Member MemberName="Parse">
@@ -760,7 +760,6 @@
   
  ]]></format>
         </remarks>
-        <altCompliant cref="M:System.Int64.Parse(System.String)" />
         <exception cref="T:System.ArgumentNullException">
           <paramref name="s" /> is <see langword="null" />.</exception>
         <exception cref="T:System.ArgumentException">
@@ -778,6 +777,7 @@
   
  <paramref name="s" /> includes non-zero, fractional digits.</exception>
         <threadsafe />
+        <altCompliant cref="M:System.Int64.Parse(System.String)" />
       </Docs>
     </Member>
     <Member MemberName="System.IConvertible.ToBoolean">
@@ -798,7 +798,7 @@
       </Parameters>
       <Docs>
         <param name="provider">This parameter is ignored.</param>
-        <summary>For a description of this member, see &lt;xref:System.IConvertible.ToBoolean%2A?displayProperty=fullName&gt;.</summary>
+        <summary>For a description of this member, see <see cref="System.IConvertible.ToBoolean%2A" />.</summary>
         <returns>
           <see langword="true" /> if the value of the current instance is not zero; otherwise, <see langword="false" />.</returns>
         <remarks>
@@ -830,7 +830,7 @@
       </Parameters>
       <Docs>
         <param name="provider">This parameter is ignored.</param>
-        <summary>For a description of this member, see &lt;xref:System.IConvertible.ToByte%2A?displayProperty=fullName&gt;.</summary>
+        <summary>For a description of this member, see <see cref="System.IConvertible.ToByte%2A" />.</summary>
         <returns>The value of the current instance, converted to a <see cref="T:System.Byte" />.</returns>
         <remarks>
           <format type="text/markdown"><![CDATA[  
@@ -861,7 +861,7 @@
       </Parameters>
       <Docs>
         <param name="provider">This parameter is ignored.</param>
-        <summary>For a description of this member, see &lt;xref:System.IConvertible.ToChar%2A?displayProperty=fullName&gt;.</summary>
+        <summary>For a description of this member, see <see cref="System.IConvertible.ToChar%2A" />.</summary>
         <returns>The value of the current instance, converted to a <see cref="T:System.Char" />.</returns>
         <remarks>
           <format type="text/markdown"><![CDATA[  
@@ -917,7 +917,7 @@
       </Parameters>
       <Docs>
         <param name="provider">This parameter is ignored.</param>
-        <summary>For a description of this member, see &lt;xref:System.IConvertible.ToDecimal%2A?displayProperty=fullName&gt;.</summary>
+        <summary>For a description of this member, see <see cref="System.IConvertible.ToDecimal%2A" />.</summary>
         <returns>The value of the current instance, converted to a <see cref="T:System.Decimal" />.</returns>
         <remarks>
           <format type="text/markdown"><![CDATA[  
@@ -948,7 +948,7 @@
       </Parameters>
       <Docs>
         <param name="provider">This parameter is ignored.</param>
-        <summary>For a description of this member, see &lt;xref:System.IConvertible.ToDouble%2A?displayProperty=fullName&gt;.</summary>
+        <summary>For a description of this member, see <see cref="System.IConvertible.ToDouble%2A" />.</summary>
         <returns>The value of the current instance, converted to a <see cref="T:System.Double" />.</returns>
         <remarks>
           <format type="text/markdown"><![CDATA[  
@@ -979,7 +979,7 @@
       </Parameters>
       <Docs>
         <param name="provider">This parameter is ignored.</param>
-        <summary>For a description of this member, see &lt;xref:System.IConvertible.ToInt16%2A?displayProperty=fullName&gt;.</summary>
+        <summary>For a description of this member, see <see cref="System.IConvertible.ToInt16%2A" />.</summary>
         <returns>The value of the current instance, converted to an <see cref="T:System.Int16" />.</returns>
         <remarks>
           <format type="text/markdown"><![CDATA[  
@@ -1010,7 +1010,7 @@
       </Parameters>
       <Docs>
         <param name="provider">This parameter is ignored.</param>
-        <summary>For a description of this member, see &lt;xref:System.IConvertible.ToInt32%2A?displayProperty=fullName&gt;.</summary>
+        <summary>For a description of this member, see <see cref="System.IConvertible.ToInt32%2A" />.</summary>
         <returns>The value of the current instance, converted to an <see cref="T:System.Int32" />.</returns>
         <remarks>
           <format type="text/markdown"><![CDATA[  
@@ -1041,7 +1041,7 @@
       </Parameters>
       <Docs>
         <param name="provider">This parameter is ignored.</param>
-        <summary>For a description of this member, see &lt;xref:System.IConvertible.ToInt64%2A?displayProperty=fullName&gt;.</summary>
+        <summary>For a description of this member, see <see cref="System.IConvertible.ToInt64%2A" />.</summary>
         <returns>The value of the current instance, converted to an <see cref="T:System.Int64" />.</returns>
         <remarks>
           <format type="text/markdown"><![CDATA[  
@@ -1072,7 +1072,7 @@
       </Parameters>
       <Docs>
         <param name="provider">This parameter is ignored.</param>
-        <summary>For a description of this member, see &lt;xref:System.IConvertible.ToSByte%2A?displayProperty=fullName&gt;.</summary>
+        <summary>For a description of this member, see <see cref="System.IConvertible.ToSByte%2A" />.</summary>
         <returns>The value of the current instance, converted to an <see cref="T:System.SByte" />.</returns>
         <remarks>
           <format type="text/markdown"><![CDATA[  
@@ -1103,7 +1103,7 @@
       </Parameters>
       <Docs>
         <param name="provider">This parameter is ignored.</param>
-        <summary>For a description of this member, see &lt;xref:System.IConvertible.ToSingle%2A?displayProperty=fullName&gt;.</summary>
+        <summary>For a description of this member, see <see cref="System.IConvertible.ToSingle%2A" />.</summary>
         <returns>The value of the current instance, converted to a <see cref="T:System.Single" />.</returns>
         <remarks>
           <format type="text/markdown"><![CDATA[  
@@ -1136,7 +1136,7 @@
       <Docs>
         <param name="type">The type to which to convert this <see cref="T:System.UInt32" /> value.</param>
         <param name="provider">An <see cref="T:System.IFormatProvider" /> implementation that supplies culture-specific information about the format of the returned value.</param>
-        <summary>For a description of this member, see &lt;xref:System.IConvertible.ToType%2A?displayProperty=fullName&gt;.</summary>
+        <summary>For a description of this member, see <see cref="System.IConvertible.ToType%2A" />.</summary>
         <returns>The value of the current instance, converted to <paramref name="type" />.</returns>
         <remarks>
           <format type="text/markdown"><![CDATA[  
@@ -1167,7 +1167,7 @@
       </Parameters>
       <Docs>
         <param name="provider">This parameter is ignored.</param>
-        <summary>For a description of this member, see &lt;xref:System.IConvertible.ToUInt16%2A?displayProperty=fullName&gt;.</summary>
+        <summary>For a description of this member, see <see cref="System.IConvertible.ToUInt16%2A" />.</summary>
         <returns>The value of the current instance, converted to a <see cref="T:System.UInt16" />.</returns>
         <remarks>
           <format type="text/markdown"><![CDATA[  
@@ -1198,7 +1198,7 @@
       </Parameters>
       <Docs>
         <param name="provider">This parameter is ignored.</param>
-        <summary>For a description of this member, see &lt;xref:System.IConvertible.ToUInt32%2A?displayProperty=fullName&gt;.</summary>
+        <summary>For a description of this member, see <see cref="System.IConvertible.ToUInt32%2A" />.</summary>
         <returns>The value of the current instance, unchanged.</returns>
         <remarks>
           <format type="text/markdown"><![CDATA[  
@@ -1234,7 +1234,7 @@
       </Parameters>
       <Docs>
         <param name="provider">This parameter is ignored.</param>
-        <summary>For a description of this member, see &lt;xref:System.IConvertible.ToUInt64%2A?displayProperty=fullName&gt;.</summary>
+        <summary>For a description of this member, see <see cref="System.IConvertible.ToUInt64%2A" />.</summary>
         <returns>The value of the current instance, converted to a <see cref="T:System.UInt64" />.</returns>
         <remarks>
           <format type="text/markdown"><![CDATA[  
@@ -1548,8 +1548,8 @@
   
  ]]></format>
         </remarks>
-        <altCompliant cref="M:System.Int64.TryParse(System.String,System.Int64@)" />
         <threadsafe />
+        <altCompliant cref="M:System.Int64.TryParse(System.String,System.Int64@)" />
       </Docs>
     </Member>
     <Member MemberName="TryParse">
@@ -1656,7 +1656,6 @@
   
  ]]></format>
         </remarks>
-        <altCompliant cref="M:System.Int64.TryParse(System.String,System.Int64@)" />
         <exception cref="T:System.ArgumentException">
           <paramref name="style" /> is not a <see cref="T:System.Globalization.NumberStyles" /> value.  
   
@@ -1664,6 +1663,7 @@
   
  <paramref name="style" /> is not a combination of <see cref="T:System.Globalization.NumberStyles" /> and <see cref="T:System.Globalization.NumberStyles" /> values.</exception>
         <threadsafe />
+        <altCompliant cref="M:System.Int64.TryParse(System.String,System.Int64@)" />
       </Docs>
     </Member>
   </Members>

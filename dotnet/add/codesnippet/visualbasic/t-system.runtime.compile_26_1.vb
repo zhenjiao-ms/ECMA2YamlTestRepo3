@@ -1,15 +1,12 @@
-Imports System
 Imports System.Runtime.CompilerServices
 
+<CompilerGlobalScopeAttribute()> _
+Module Program
 
 
-<Assembly: SuppressIldasmAttribute()> 
-
-
-Class Program
-
-    Shared Sub Main(ByVal args() As String)
-        Console.WriteLine("The SuppressIldasmAttribute is applied to this assembly.")
-
+    Sub Main(ByVal args() As String)
+        Console.WriteLine("The attribute was applied.")
     End Sub
-End Class
+
+
+End Module

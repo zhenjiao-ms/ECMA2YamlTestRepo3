@@ -104,7 +104,7 @@
         </remarks>
         <exception cref="T:System.ArgumentOutOfRangeException">
           <paramref name="action" /> is invalid (RequestMinimum, RequestOptional, and RequestRefuse are invalid).</exception>
-        <exception cref="T:System.InvalidOperationException">The containing type has been previously created using &lt;xref:System.Reflection.Emit.TypeBuilder.CreateType%2A&gt;.  
+        <exception cref="T:System.InvalidOperationException">The containing type has been previously created using <see cref="System.Reflection.Emit.TypeBuilder.CreateType%2A" />.  
   
  -or-  
   
@@ -232,7 +232,7 @@
         </remarks>
         <exception cref="T:System.ArgumentOutOfRangeException">
           <paramref name="iSequence" /> is less than 0 (zero), or it is greater than the number of parameters of the constructor.</exception>
-        <exception cref="T:System.InvalidOperationException">The containing type has been created using &lt;xref:System.Reflection.Emit.TypeBuilder.CreateType%2A&gt;.</exception>
+        <exception cref="T:System.InvalidOperationException">The containing type has been created using <see cref="System.Reflection.Emit.TypeBuilder.CreateType%2A" />.</exception>
         <threadsafe />
       </Docs>
     </Member>
@@ -481,8 +481,10 @@
   
  ]]></format>
         </remarks>
-        <exception cref="T:System.InvalidOperationException">&lt;xref:System.Reflection.Emit.TypeBuilder.CreateType%2A&gt; has not been called on this constructor's type, in the .NET Framework versions 1.0 and 1.1.</exception>
-        <exception cref="T:System.NotSupportedException">&lt;xref:System.Reflection.Emit.TypeBuilder.CreateType%2A&gt; has not been called on this constructor's type, in the .NET Framework version 2.0.</exception>
+        <exception cref="T:System.InvalidOperationException">
+          <see cref="System.Reflection.Emit.TypeBuilder.CreateType%2A" /> has not been called on this constructor's type, in the .NET Framework versions 1.0 and 1.1.</exception>
+        <exception cref="T:System.NotSupportedException">
+          <see cref="System.Reflection.Emit.TypeBuilder.CreateType%2A" /> has not been called on this constructor's type, in the .NET Framework version 2.0.</exception>
         <threadsafe />
       </Docs>
     </Member>
@@ -577,7 +579,7 @@
   
  ]]></format>
         </remarks>
-        <exception cref="T:System.NotSupportedException">This method is not currently supported. You can retrieve the constructor using &lt;xref:System.Type.GetConstructor%2A&gt; and call &lt;xref:System.Reflection.ConstructorInfo.Invoke%2A&gt; on the returned <see cref="T:System.Reflection.ConstructorInfo" />.</exception>
+        <exception cref="T:System.NotSupportedException">This method is not currently supported. You can retrieve the constructor using <see cref="System.Type.GetConstructor%2A" /> and call <see cref="System.Reflection.ConstructorInfo.Invoke%2A" /> on the returned <see cref="T:System.Reflection.ConstructorInfo" />.</exception>
         <threadsafe />
       </Docs>
     </Member>
@@ -621,7 +623,7 @@
   
  ]]></format>
         </remarks>
-        <exception cref="T:System.NotSupportedException">This method is not currently supported. You can retrieve the constructor using &lt;xref:System.Type.GetConstructor%2A&gt; and call &lt;xref:System.Reflection.ConstructorInfo.Invoke%2A&gt; on the returned <see cref="T:System.Reflection.ConstructorInfo" />.</exception>
+        <exception cref="T:System.NotSupportedException">This method is not currently supported. You can retrieve the constructor using <see cref="System.Type.GetConstructor%2A" /> and call <see cref="System.Reflection.ConstructorInfo.Invoke%2A" /> on the returned <see cref="T:System.Reflection.ConstructorInfo" />.</exception>
         <threadsafe />
       </Docs>
     </Member>
@@ -656,7 +658,7 @@
   
  ]]></format>
         </remarks>
-        <exception cref="T:System.NotSupportedException">This method is not currently supported. You can retrieve the constructor using &lt;xref:System.Type.GetConstructor%2A&gt; and call &lt;xref:System.Reflection.MemberInfo.IsDefined%2A&gt; on the returned <see cref="T:System.Reflection.ConstructorInfo" />.</exception>
+        <exception cref="T:System.NotSupportedException">This method is not currently supported. You can retrieve the constructor using <see cref="System.Type.GetConstructor%2A" /> and call <see cref="System.Reflection.MemberInfo.IsDefined%2A" /> on the returned <see cref="T:System.Reflection.ConstructorInfo" />.</exception>
         <threadsafe />
       </Docs>
     </Member>
@@ -912,7 +914,7 @@
   
  ]]></format>
         </remarks>
-        <exception cref="T:System.InvalidOperationException">The containing type has been created using &lt;xref:System.Reflection.Emit.TypeBuilder.CreateType%2A&gt;.</exception>
+        <exception cref="T:System.InvalidOperationException">The containing type has been created using <see cref="System.Reflection.Emit.TypeBuilder.CreateType%2A" />.</exception>
         <threadsafe />
       </Docs>
     </Member>
@@ -954,7 +956,7 @@
  -or-  
   
  One of <paramref name="tokenFixups" /> specifies an offset that is outside the <paramref name="il" /> array.</exception>
-        <exception cref="T:System.InvalidOperationException">The containing type was previously created using the &lt;xref:System.Reflection.Emit.TypeBuilder.CreateType%2A?displayProperty=fullName&gt; method.  
+        <exception cref="T:System.InvalidOperationException">The containing type was previously created using the <see cref="System.Reflection.Emit.TypeBuilder.CreateType%2A" /> method.  
   
  -or-  
   
@@ -995,7 +997,7 @@
   
  ]]></format>
         </remarks>
-        <exception cref="T:System.InvalidOperationException">The containing type has been created using &lt;xref:System.Reflection.Emit.TypeBuilder.CreateType%2A&gt;.  
+        <exception cref="T:System.InvalidOperationException">The containing type has been created using <see cref="System.Reflection.Emit.TypeBuilder.CreateType%2A" />.  
   
  -or-  
   

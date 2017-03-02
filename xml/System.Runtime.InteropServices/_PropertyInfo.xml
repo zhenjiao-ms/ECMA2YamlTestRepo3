@@ -54,7 +54,7 @@
         <ReturnType>System.Reflection.PropertyAttributes</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Provides COM objects with version-independent access to the &lt;xref:System.Reflection.PropertyInfo.Attributes%2A&gt; property.</summary>
+        <summary>Provides COM objects with version-independent access to the <see cref="System.Reflection.PropertyInfo.Attributes%2A" /> property.</summary>
         <value>The attributes of this property.</value>
         <remarks>
           <format type="text/markdown"><![CDATA[  
@@ -83,7 +83,7 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Provides COM objects with version-independent access to the &lt;xref:System.Reflection.PropertyInfo.CanRead%2A&gt; property.</summary>
+        <summary>Provides COM objects with version-independent access to the <see cref="System.Reflection.PropertyInfo.CanRead%2A" /> property.</summary>
         <value>
           <see langword="true" /> if this property can be read; otherwise, <see langword="false" />.</value>
         <remarks>
@@ -113,7 +113,7 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Provides COM objects with version-independent access to the &lt;xref:System.Reflection.PropertyInfo.CanWrite%2A&gt; property.</summary>
+        <summary>Provides COM objects with version-independent access to the <see cref="System.Reflection.PropertyInfo.CanWrite%2A" /> property.</summary>
         <value>
           <see langword="true" /> if this property can be written to; otherwise, <see langword="false" />.</value>
         <remarks>
@@ -143,7 +143,7 @@
         <ReturnType>System.Type</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Provides COM objects with version-independent access to the &lt;xref:System.Reflection.MemberInfo.DeclaringType%2A&gt; property.</summary>
+        <summary>Provides COM objects with version-independent access to the <see cref="System.Reflection.MemberInfo.DeclaringType%2A" /> property.</summary>
         <value>The <see langword="Type" /> object for the class that declares this member.</value>
         <remarks>
           <format type="text/markdown"><![CDATA[  
@@ -176,7 +176,7 @@
       </Parameters>
       <Docs>
         <param name="other">The <see cref="T:System.Object" /> to compare with the current <see cref="T:System.Object" />.</param>
-        <summary>Provides COM objects with version-independent access to the &lt;xref:System.Object.Equals%2A&gt; method.</summary>
+        <summary>Provides COM objects with version-independent access to the <see cref="System.Object.Equals%2A" /> method.</summary>
         <returns>
           <see langword="true" /> if the specified <see cref="T:System.Object" /> is equal to the current <see cref="T:System.Object" />; otherwise, <see langword="false" />.</returns>
         <remarks>
@@ -207,7 +207,7 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>Provides COM objects with version-independent access to the &lt;xref:System.Reflection.PropertyInfo.GetAccessors%2A&gt; method.</summary>
+        <summary>Provides COM objects with version-independent access to the <see cref="System.Reflection.PropertyInfo.GetAccessors%2A" /> method.</summary>
         <returns>An array of <see cref="T:System.Reflection.MethodInfo" /> objects that reflect the public <see langword="get" />, <see langword="set" />, and other accessors of the property reflected by the current instance, if accessors are found; otherwise, this method returns an array with zero (0) elements.</returns>
         <remarks>
           <format type="text/markdown"><![CDATA[  
@@ -241,7 +241,7 @@
       <Docs>
         <param name="nonPublic">
           <see langword="true" /> to include non-public methods in the returned <see langword="MethodInfo" /> array; otherwise, <see langword="false" />.</param>
-        <summary>Provides COM objects with version-independent access to the &lt;xref:System.Reflection.PropertyInfo.GetAccessors%2A&gt; method.</summary>
+        <summary>Provides COM objects with version-independent access to the <see cref="System.Reflection.PropertyInfo.GetAccessors%2A" /> method.</summary>
         <returns>An array of <see cref="T:System.Reflection.MethodInfo" /> objects whose elements reflect the <see langword="get" />, <see langword="set" />, and other accessors of the property reflected by the current instance. If the <paramref name="nonPublic" /> parameter is <see langword="true" />, this array contains public and non-public <see langword="get" />, <see langword="set" />, and other accessors. If <paramref name="nonPublic" /> is <see langword="false" />, this array contains only public <see langword="get" />, <see langword="set" />, and other accessors. If no accessors with the specified visibility are found, this method returns an array with zero (0) elements.</returns>
         <remarks>
           <format type="text/markdown"><![CDATA[  
@@ -274,7 +274,7 @@
       </Parameters>
       <Docs>
         <param name="inherit">true to search this member's inheritance chain to find the attributes; otherwise false.</param>
-        <summary>Provides COM objects with version-independent access to the &lt;xref:System.Reflection.MemberInfo.GetCustomAttributes%2A&gt; method.</summary>
+        <summary>Provides COM objects with version-independent access to the <see cref="System.Reflection.MemberInfo.GetCustomAttributes%2A" /> method.</summary>
         <returns>An array that contains all the custom attributes, or an array with zero elements if no attributes are defined.</returns>
         <remarks>
           <format type="text/markdown"><![CDATA[  
@@ -309,7 +309,7 @@
       <Docs>
         <param name="attributeType">The type of attribute to search for. Only attributes that are assignable to this type are returned.</param>
         <param name="inherit">true to search this member's inheritance chain to find the attributes; otherwise false.</param>
-        <summary>Provides COM objects with version-independent access to the &lt;xref:System.Reflection.MemberInfo.GetCustomAttributes%2A&gt; method.</summary>
+        <summary>Provides COM objects with version-independent access to the <see cref="System.Reflection.MemberInfo.GetCustomAttributes%2A" /> method.</summary>
         <returns>An array of custom attributes applied to this member, or an array with zero (0) elements if no attributes have been applied.</returns>
         <remarks>
           <format type="text/markdown"><![CDATA[  
@@ -339,7 +339,7 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>Provides COM objects with version-independent access to the &lt;xref:System.Reflection.PropertyInfo.GetGetMethod%2A&gt; method.</summary>
+        <summary>Provides COM objects with version-independent access to the <see cref="System.Reflection.PropertyInfo.GetGetMethod%2A" /> method.</summary>
         <returns>A <see cref="T:System.Reflection.MethodInfo" /> object representing the public <see langword="get" /> accessor for this property, or <see langword="null" /> if the <see langword="get" /> accessor is non-public or does not exist.</returns>
         <remarks>
           <format type="text/markdown"><![CDATA[  
@@ -373,7 +373,7 @@
       <Docs>
         <param name="nonPublic">
           <see langword="true" /> to return a non-public <see langword="get" /> accessor; otherwise, <see langword="false" />.</param>
-        <summary>Provides COM objects with version-independent access to the &lt;xref:System.Reflection.PropertyInfo.GetGetMethod%2A&gt; method.</summary>
+        <summary>Provides COM objects with version-independent access to the <see cref="System.Reflection.PropertyInfo.GetGetMethod%2A" /> method.</summary>
         <returns>A <see cref="T:System.Reflection.MethodInfo" /> object representing the <see langword="get" /> accessor for this property, if the <paramref name="nonPublic" /> parameter is <see langword="true" />. Or <see langword="null" /> if <paramref name="nonPublic" /> is <see langword="false" /> and the <see langword="get" /> accessor is non-public, or if <paramref name="nonPublic" /> is <see langword="true" /> but no <see langword="get" /> accessors exist.</returns>
         <remarks>
           <format type="text/markdown"><![CDATA[  
@@ -403,7 +403,7 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>Provides COM objects with version-independent access to the &lt;xref:System.Object.GetHashCode%2A&gt; method.</summary>
+        <summary>Provides COM objects with version-independent access to the <see cref="System.Object.GetHashCode%2A" /> method.</summary>
         <returns>The hash code for the current instance.</returns>
         <remarks>
           <format type="text/markdown"><![CDATA[  
@@ -471,7 +471,7 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>Provides COM objects with version-independent access to the &lt;xref:System.Reflection.PropertyInfo.GetIndexParameters%2A&gt; method.</summary>
+        <summary>Provides COM objects with version-independent access to the <see cref="System.Reflection.PropertyInfo.GetIndexParameters%2A" /> method.</summary>
         <returns>An array of type <see cref="T:System.Reflection.ParameterInfo" /> containing the parameters for the indexes.</returns>
         <remarks>
           <format type="text/markdown"><![CDATA[  
@@ -501,7 +501,7 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>Provides COM objects with version-independent access to the &lt;xref:System.Reflection.PropertyInfo.GetSetMethod%2A&gt; method.</summary>
+        <summary>Provides COM objects with version-independent access to the <see cref="System.Reflection.PropertyInfo.GetSetMethod%2A" /> method.</summary>
         <returns>The <see cref="T:System.Reflection.MethodInfo" /> object representing the <see langword="Set" /> method for this property if the <see langword="set" /> accessor is public, or <see langword="null" /> if the <see langword="set" /> accessor is not public.</returns>
         <remarks>
           <format type="text/markdown"><![CDATA[  
@@ -535,7 +535,7 @@
       <Docs>
         <param name="nonPublic">
           <see langword="true" /> to return a non-public accessor; otherwise, <see langword="false" />.</param>
-        <summary>Provides COM objects with version-independent access to the &lt;xref:System.Reflection.PropertyInfo.GetSetMethod%2A&gt; method.</summary>
+        <summary>Provides COM objects with version-independent access to the <see cref="System.Reflection.PropertyInfo.GetSetMethod%2A" /> method.</summary>
         <returns>One of the values in the following table.  
   
  <list type="table">  
@@ -604,7 +604,7 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>Provides COM objects with version-independent access to the &lt;xref:System.Object.GetType%2A&gt; method.</summary>
+        <summary>Provides COM objects with version-independent access to the <see cref="System.Object.GetType%2A" /> method.</summary>
         <returns>A <see cref="T:System.Type" /> object.</returns>
         <remarks>
           <format type="text/markdown"><![CDATA[  
@@ -703,7 +703,7 @@
       <Docs>
         <param name="obj">The object whose property value will be returned.</param>
         <param name="index">Optional index values for indexed properties. This value should be <see langword="null" /> for non-indexed properties.</param>
-        <summary>Provides COM objects with version-independent access to the &lt;xref:System.Reflection.PropertyInfo.GetValue%2A&gt; method.</summary>
+        <summary>Provides COM objects with version-independent access to the <see cref="System.Reflection.PropertyInfo.GetValue%2A" /> method.</summary>
         <returns>The property value for the <paramref name="obj" /> parameter.</returns>
         <remarks>
           <format type="text/markdown"><![CDATA[  
@@ -744,7 +744,7 @@
         <param name="binder">An object that enables the binding, coercion of argument types, invocation of members, and retrieval of <see langword="MemberInfo" /> objects through reflection. If `binder` is <see langword="null" />, the default binder is used.</param>
         <param name="index">Optional index values for indexed properties. This value should be <see langword="null" /> for non-indexed properties.</param>
         <param name="culture">The <see langword="CultureInfo" /> object that represents the culture for which the resource will be localized. Note that if the resource is not localized for this culture, the <see langword="CultureInfo.Parent" /> method will be called successively in search of a match. If this value is <see langword="null" />, the <see langword="CultureInfo" /> is obtained from the <see langword="CultureInfo.CurrentUICulture" /> property.</param>
-        <summary>Provides COM objects with version-independent access to the &lt;xref:System.Reflection.PropertyInfo.GetValue%2A&gt; method.</summary>
+        <summary>Provides COM objects with version-independent access to the <see cref="System.Reflection.PropertyInfo.GetValue%2A" /> method.</summary>
         <returns>The property value for the <paramref name="obj" /> parameter.</returns>
         <remarks>
           <format type="text/markdown"><![CDATA[  
@@ -823,7 +823,7 @@
       <Docs>
         <param name="attributeType">The <see cref="T:System.Type" /> object to which the custom attributes are applied.</param>
         <param name="inherit">true to search this member's inheritance chain to find the attributes; otherwise false.</param>
-        <summary>Provides COM objects with version-independent access to the &lt;xref:System.Reflection.MemberInfo.IsDefined%2A&gt; method.</summary>
+        <summary>Provides COM objects with version-independent access to the <see cref="System.Reflection.MemberInfo.IsDefined%2A" /> method.</summary>
         <returns>
           <see langword="true" /> if one or more instances of the <paramref name="attributeType" /> parameter are applied to this member; otherwise, <see langword="false" />.</returns>
         <remarks>
@@ -853,7 +853,7 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Provides COM objects with version-independent access to the &lt;xref:System.Reflection.PropertyInfo.IsSpecialName%2A&gt; property.</summary>
+        <summary>Provides COM objects with version-independent access to the <see cref="System.Reflection.PropertyInfo.IsSpecialName%2A" /> property.</summary>
         <value>
           <see langword="true" /> if this property is the special name; otherwise, <see langword="false" />.</value>
         <remarks>
@@ -883,7 +883,7 @@
         <ReturnType>System.Reflection.MemberTypes</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Provides COM objects with version-independent access to the &lt;xref:System.Reflection.PropertyInfo.MemberType%2A&gt; property.</summary>
+        <summary>Provides COM objects with version-independent access to the <see cref="System.Reflection.PropertyInfo.MemberType%2A" /> property.</summary>
         <value>One of the <see cref="T:System.Reflection.MemberTypes" /> values indicating that this member is a property.</value>
         <remarks>
           <format type="text/markdown"><![CDATA[  
@@ -912,7 +912,7 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Provides COM objects with version-independent access to the &lt;xref:System.Reflection.MemberInfo.Name%2A&gt; property.</summary>
+        <summary>Provides COM objects with version-independent access to the <see cref="System.Reflection.MemberInfo.Name%2A" /> property.</summary>
         <value>A <see cref="T:System.String" /> object containing the name of this member.</value>
         <remarks>
           <format type="text/markdown"><![CDATA[  
@@ -941,7 +941,7 @@
         <ReturnType>System.Type</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Provides COM objects with version-independent access to the &lt;xref:System.Reflection.PropertyInfo.PropertyType%2A&gt; property.</summary>
+        <summary>Provides COM objects with version-independent access to the <see cref="System.Reflection.PropertyInfo.PropertyType%2A" /> property.</summary>
         <value>The type of this property.</value>
         <remarks>
           <format type="text/markdown"><![CDATA[  
@@ -970,7 +970,7 @@
         <ReturnType>System.Type</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Provides COM objects with version-independent access to the &lt;xref:System.Reflection.MemberInfo.ReflectedType%2A&gt; property.</summary>
+        <summary>Provides COM objects with version-independent access to the <see cref="System.Reflection.MemberInfo.ReflectedType%2A" /> property.</summary>
         <value>The <see cref="T:System.Type" /> object through which this <see cref="T:System.Reflection.MemberInfo" /> object was obtained.</value>
         <remarks>
           <format type="text/markdown"><![CDATA[  
@@ -1007,7 +1007,7 @@
         <param name="obj">The object whose property value will be set.</param>
         <param name="value">The new value for this property.</param>
         <param name="index">Optional index values for indexed properties. This value should be <see langword="null" /> for non-indexed properties.</param>
-        <summary>Provides COM objects with version-independent access to the &lt;xref:System.Reflection.PropertyInfo.SetValue%2A&gt; method.</summary>
+        <summary>Provides COM objects with version-independent access to the <see cref="System.Reflection.PropertyInfo.SetValue%2A" /> method.</summary>
         <remarks>
           <format type="text/markdown"><![CDATA[  
   
@@ -1049,7 +1049,7 @@
         <param name="binder">An object that enables the binding, coercion of argument types, invocation of members, and retrieval of <see cref="T:System.Reflection.MemberInfo" /> objects through reflection. If `binder` is <see langword="null" />, the default binder is used.</param>
         <param name="index">Optional index values for indexed properties. This value should be <see langword="null" /> for non-indexed properties.</param>
         <param name="culture">The <see cref="T:System.Globalization.CultureInfo" /> object that represents the culture for which the resource will be localized. Note that if the resource is not localized for this culture, the <see langword="CultureInfo.Parent" /> method will be called successively in search of a match. If this value is <see langword="null" />, the <see langword="CultureInfo" /> is obtained from the <see langword="CultureInfo.CurrentUICulture" /> property.</param>
-        <summary>Provides COM objects with version-independent access to the &lt;xref:System.Reflection.FieldInfo.SetValue%2A&gt; method.</summary>
+        <summary>Provides COM objects with version-independent access to the <see cref="System.Reflection.FieldInfo.SetValue%2A" /> method.</summary>
         <remarks>
           <format type="text/markdown"><![CDATA[  
   
@@ -1078,7 +1078,7 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>Provides COM objects with version-independent access to the &lt;xref:System.Object.ToString%2A&gt; method.</summary>
+        <summary>Provides COM objects with version-independent access to the <see cref="System.Object.ToString%2A" /> method.</summary>
         <returns>A string that represents the current <see cref="T:System.Object" />.</returns>
         <remarks>
           <format type="text/markdown"><![CDATA[  

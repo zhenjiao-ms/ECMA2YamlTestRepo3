@@ -52,9 +52,9 @@
       <Docs>
         <typeparam name="TAwaiter">To be added.</typeparam>
         <typeparam name="TStateMachine">To be added.</typeparam>
-        <param name="awaiter">To be added.</param>
-        <param name="stateMachine">To be added.</param>
-        <summary>To be added.</summary>
+        <param name="awaiter">The awaiter.</param>
+        <param name="stateMachine">The state machine.</param>
+        <summary>Schedules the state machine to proceed to the next action when the specified awaiter completes.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -88,9 +88,9 @@
       <Docs>
         <typeparam name="TAwaiter">To be added.</typeparam>
         <typeparam name="TStateMachine">To be added.</typeparam>
-        <param name="awaiter">To be added.</param>
-        <param name="stateMachine">To be added.</param>
-        <summary>To be added.</summary>
+        <param name="awaiter">The awaiter.</param>
+        <param name="stateMachine">The state machine.</param>
+        <summary>Schedules the state machine to proceed to the next action when the specified awaiter completes. This method can be called from partially trusted code.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -237,9 +237,11 @@
       </Parameters>
       <Docs>
         <typeparam name="TStateMachine">To be added.</typeparam>
-        <param name="stateMachine">To be added.</param>
-        <summary>To be added.</summary>
+        <param name="stateMachine">The state machine instance, passed by reference.</param>
+        <summary>Begins running the builder with the associated state machine.</summary>
         <remarks>To be added.</remarks>
+        <exception cref="T:System.ArgumentNullException">
+          <paramref name="stateMachine" /> is <see langword="null" />.</exception>
       </Docs>
     </Member>
     <Member MemberName="Task">

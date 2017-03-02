@@ -91,7 +91,7 @@
   
  ]]></format>
     </remarks>
-    <threadsafe>Hashtable is thread safe for use by multiple reader threads and a single writing thread. It is thread safe for multi-thread use when only one of the threads perform write (update) operations, which allows for lock-free reads provided that the writers are serialized to the Hashtable. To support multiple writers all operations on the Hashtable must be done through the wrapper returned by the &lt;xref:System.Collections.Hashtable.Synchronized%2A&gt; method, provided that there are no threads reading the Hashtable object.  
+    <threadsafe>Hashtable is thread safe for use by multiple reader threads and a single writing thread. It is thread safe for multi-thread use when only one of the threads perform write (update) operations, which allows for lock-free reads provided that the writers are serialized to the Hashtable. To support multiple writers all operations on the Hashtable must be done through the wrapper returned by the <see cref="System.Collections.Hashtable.Synchronized%2A" /> method, provided that there are no threads reading the Hashtable object.  
   
  Enumerating through a collection is intrinsically not a thread safe procedure. Even when a collection is synchronized, other threads can still modify the collection, which causes the enumerator to throw an exception. To guarantee thread safety during enumeration, you can either lock the collection during the entire enumeration or catch the exceptions resulting from changes made by other threads.</threadsafe>
   </Docs>
@@ -206,7 +206,7 @@
   
  -or-  
   
- <see langword="null" /> to use the default hash code provider and the default comparer. The default hash code provider is each key's implementation of &lt;xref:System.Object.GetHashCode%2A?displayProperty=fullName&gt; and the default comparer is each key's implementation of &lt;xref:System.Object.Equals%2A?displayProperty=fullName&gt;.</param>
+ <see langword="null" /> to use the default hash code provider and the default comparer. The default hash code provider is each key's implementation of <see cref="System.Object.GetHashCode%2A" /> and the default comparer is each key's implementation of <see cref="System.Object.Equals%2A" />.</param>
         <summary>Initializes a new, empty instance of the <see cref="T:System.Collections.Hashtable" /> class using the default initial capacity and load factor, and the specified <see cref="T:System.Collections.IEqualityComparer" /> object.</summary>
         <remarks>
           <format type="text/markdown"><![CDATA[  
@@ -309,7 +309,7 @@
   
  -or-  
   
- <see langword="null" /> to use the default hash code provider and the default comparer. The default hash code provider is each key's implementation of &lt;xref:System.Object.GetHashCode%2A?displayProperty=fullName&gt; and the default comparer is each key's implementation of &lt;xref:System.Object.Equals%2A?displayProperty=fullName&gt;.</param>
+ <see langword="null" /> to use the default hash code provider and the default comparer. The default hash code provider is each key's implementation of <see cref="System.Object.GetHashCode%2A" /> and the default comparer is each key's implementation of <see cref="System.Object.Equals%2A" />.</param>
         <summary>Initializes a new instance of the <see cref="T:System.Collections.Hashtable" /> class by copying the elements from the specified dictionary to a new <see cref="T:System.Collections.Hashtable" /> object. The new <see cref="T:System.Collections.Hashtable" /> object has an initial capacity equal to the number of elements copied, and uses the default load factor and the specified <see cref="T:System.Collections.IEqualityComparer" /> object.</summary>
         <remarks>
           <format type="text/markdown"><![CDATA[  
@@ -431,12 +431,12 @@
   
  -or-  
   
- <see langword="null" /> to use the default hash code provider, which is each key's implementation of &lt;xref:System.Object.GetHashCode%2A?displayProperty=fullName&gt;.</param>
+ <see langword="null" /> to use the default hash code provider, which is each key's implementation of <see cref="System.Object.GetHashCode%2A" />.</param>
         <param name="comparer">The <see cref="T:System.Collections.IComparer" /> object to use to determine whether two keys are equal.  
   
  -or-  
   
- <see langword="null" /> to use the default comparer, which is each key's implementation of &lt;xref:System.Object.Equals%2A?displayProperty=fullName&gt;.</param>
+ <see langword="null" /> to use the default comparer, which is each key's implementation of <see cref="System.Object.Equals%2A" />.</param>
         <summary>Initializes a new, empty instance of the <see cref="T:System.Collections.Hashtable" /> class using the default initial capacity and load factor, and the specified hash code provider and comparer.</summary>
         <remarks>
           <format type="text/markdown"><![CDATA[  
@@ -489,7 +489,7 @@
   
  -or-  
   
- <see langword="null" /> to use the default hash code provider and the default comparer. The default hash code provider is each key's implementation of &lt;xref:System.Object.GetHashCode%2A?displayProperty=fullName&gt; and the default comparer is each key's implementation of &lt;xref:System.Object.Equals%2A?displayProperty=fullName&gt;.</param>
+ <see langword="null" /> to use the default hash code provider and the default comparer. The default hash code provider is each key's implementation of <see cref="System.Object.GetHashCode%2A" /> and the default comparer is each key's implementation of <see cref="System.Object.Equals%2A" />.</param>
         <summary>Initializes a new, empty instance of the <see cref="T:System.Collections.Hashtable" /> class using the specified initial capacity and <see cref="T:System.Collections.IEqualityComparer" />, and the default load factor.</summary>
         <remarks>
           <format type="text/markdown"><![CDATA[  
@@ -656,13 +656,13 @@
   
  -or-  
   
- <see langword="null" /> to use the default hash code provider, which is each key's implementation of &lt;xref:System.Object.GetHashCode%2A?displayProperty=fullName&gt;.</param>
+ <see langword="null" /> to use the default hash code provider, which is each key's implementation of <see cref="System.Object.GetHashCode%2A" />.</param>
         <param name="comparer">The <see cref="T:System.Collections.IComparer" /> object to use to determine whether two keys are equal.  
   
  -or-  
   
- <see langword="null" /> to use the default comparer, which is each key's implementation of &lt;xref:System.Object.Equals%2A?displayProperty=fullName&gt;.</param>
-        <summary>Initializes a new instance of the <see cref="T:System.Collections.Hashtable" /> class by copying the elements from the specified dictionary to the new <see cref="T:System.Collections.Hashtable" /> object. The new <see cref="T:System.Collections.Hashtable" /> object has an initial capacity equal to the number of elements copied, and uses the default load factor, and the specified hash code provider and comparer. This API is obsolete. For an alternative, see &lt;xref:System.Collections.Hashtable.%23ctor%2A&gt;.</summary>
+ <see langword="null" /> to use the default comparer, which is each key's implementation of <see cref="System.Object.Equals%2A" />.</param>
+        <summary>Initializes a new instance of the <see cref="T:System.Collections.Hashtable" /> class by copying the elements from the specified dictionary to the new <see cref="T:System.Collections.Hashtable" /> object. The new <see cref="T:System.Collections.Hashtable" /> object has an initial capacity equal to the number of elements copied, and uses the default load factor, and the specified hash code provider and comparer. This API is obsolete. For an alternative, see <see cref="System.Collections.Hashtable.%23ctor%2A" />.</summary>
         <remarks>
           <format type="text/markdown"><![CDATA[  
   
@@ -720,7 +720,7 @@
   
  -or-  
   
- <see langword="null" /> to use the default hash code provider and the default comparer. The default hash code provider is each key's implementation of &lt;xref:System.Object.GetHashCode%2A?displayProperty=fullName&gt; and the default comparer is each key's implementation of &lt;xref:System.Object.Equals%2A?displayProperty=fullName&gt;.</param>
+ <see langword="null" /> to use the default hash code provider and the default comparer. The default hash code provider is each key's implementation of <see cref="System.Object.GetHashCode%2A" /> and the default comparer is each key's implementation of <see cref="System.Object.Equals%2A" />.</param>
         <summary>Initializes a new instance of the <see cref="T:System.Collections.Hashtable" /> class by copying the elements from the specified dictionary to the new <see cref="T:System.Collections.Hashtable" /> object. The new <see cref="T:System.Collections.Hashtable" /> object has an initial capacity equal to the number of elements copied, and uses the specified load factor and <see cref="T:System.Collections.IEqualityComparer" /> object.</summary>
         <remarks>
           <format type="text/markdown"><![CDATA[  
@@ -792,12 +792,12 @@
   
  -or-  
   
- <see langword="null" /> to use the default hash code provider, which is each key's implementation of &lt;xref:System.Object.GetHashCode%2A?displayProperty=fullName&gt;.</param>
+ <see langword="null" /> to use the default hash code provider, which is each key's implementation of <see cref="System.Object.GetHashCode%2A" />.</param>
         <param name="comparer">The <see cref="T:System.Collections.IComparer" /> object to use to determine whether two keys are equal.  
   
  -or-  
   
- <see langword="null" /> to use the default comparer, which is each key's implementation of &lt;xref:System.Object.Equals%2A?displayProperty=fullName&gt;.</param>
+ <see langword="null" /> to use the default comparer, which is each key's implementation of <see cref="System.Object.Equals%2A" />.</param>
         <summary>Initializes a new, empty instance of the <see cref="T:System.Collections.Hashtable" /> class using the specified initial capacity, hash code provider, comparer, and the default load factor.</summary>
         <remarks>
           <format type="text/markdown"><![CDATA[  
@@ -854,7 +854,7 @@
   
  -or-  
   
- <see langword="null" /> to use the default hash code provider and the default comparer. The default hash code provider is each key's implementation of &lt;xref:System.Object.GetHashCode%2A?displayProperty=fullName&gt; and the default comparer is each key's implementation of &lt;xref:System.Object.Equals%2A?displayProperty=fullName&gt;.</param>
+ <see langword="null" /> to use the default hash code provider and the default comparer. The default hash code provider is each key's implementation of <see cref="System.Object.GetHashCode%2A" /> and the default comparer is each key's implementation of <see cref="System.Object.Equals%2A" />.</param>
         <summary>Initializes a new, empty instance of the <see cref="T:System.Collections.Hashtable" /> class using the specified initial capacity, load factor, and <see cref="T:System.Collections.IEqualityComparer" /> object.</summary>
         <remarks>
           <format type="text/markdown"><![CDATA[  
@@ -928,12 +928,12 @@
   
  -or-  
   
- <see langword="null" /> to use the default hash code provider, which is each key's implementation of &lt;xref:System.Object.GetHashCode%2A?displayProperty=fullName&gt;.</param>
+ <see langword="null" /> to use the default hash code provider, which is each key's implementation of <see cref="System.Object.GetHashCode%2A" />.</param>
         <param name="comparer">The <see cref="T:System.Collections.IComparer" /> object to use to determine whether two keys are equal.  
   
  -or-  
   
- <see langword="null" /> to use the default comparer, which is each key's implementation of &lt;xref:System.Object.Equals%2A?displayProperty=fullName&gt;.</param>
+ <see langword="null" /> to use the default comparer, which is each key's implementation of <see cref="System.Object.Equals%2A" />.</param>
         <summary>Initializes a new instance of the <see cref="T:System.Collections.Hashtable" /> class by copying the elements from the specified dictionary to the new <see cref="T:System.Collections.Hashtable" /> object. The new <see cref="T:System.Collections.Hashtable" /> object has an initial capacity equal to the number of elements copied, and uses the specified load factor, hash code provider, and comparer.</summary>
         <remarks>
           <format type="text/markdown"><![CDATA[  
@@ -1005,12 +1005,12 @@
   
  -or-  
   
- <see langword="null" /> to use the default hash code provider, which is each key's implementation of &lt;xref:System.Object.GetHashCode%2A?displayProperty=fullName&gt;.</param>
+ <see langword="null" /> to use the default hash code provider, which is each key's implementation of <see cref="System.Object.GetHashCode%2A" />.</param>
         <param name="comparer">The <see cref="T:System.Collections.IComparer" /> object to use to determine whether two keys are equal.  
   
  -or-  
   
- <see langword="null" /> to use the default comparer, which is each key's implementation of &lt;xref:System.Object.Equals%2A?displayProperty=fullName&gt;.</param>
+ <see langword="null" /> to use the default comparer, which is each key's implementation of <see cref="System.Object.Equals%2A" />.</param>
         <summary>Initializes a new, empty instance of the <see cref="T:System.Collections.Hashtable" /> class using the specified initial capacity, load factor, hash code provider, and comparer.</summary>
         <remarks>
           <format type="text/markdown"><![CDATA[  

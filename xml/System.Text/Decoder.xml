@@ -137,19 +137,19 @@
   
  ]]></format>
         </remarks>
-        <altCompliant cref="M:System.Text.Decoder.Convert(System.Byte[],System.Int32,System.Int32,System.Char[],System.Int32,System.Int32,System.Boolean,System.Int32@,System.Int32@,System.Boolean@)" />
         <exception cref="T:System.ArgumentNullException">
           <paramref name="chars" /> or <paramref name="bytes" /> is <see langword="null " />(<see langword="Nothing" />).</exception>
         <exception cref="T:System.ArgumentOutOfRangeException">
           <paramref name="charCount" /> or <paramref name="byteCount" /> is less than zero.</exception>
-        <exception cref="T:System.ArgumentException">The output buffer is too small to contain any of the converted input. The output buffer should be greater than or equal to the size indicated by the &lt;xref:System.Text.Decoder.GetCharCount%2A&gt; method.</exception>
+        <exception cref="T:System.ArgumentException">The output buffer is too small to contain any of the converted input. The output buffer should be greater than or equal to the size indicated by the <see cref="System.Text.Decoder.GetCharCount%2A" /> method.</exception>
         <exception cref="T:System.Text.DecoderFallbackException">A fallback occurred (see [Character Encoding in the .NET Framework](../Topic/Character%20Encoding%20in%20the%20.NET%20Framework.md) for fuller explanation)  
   
  -and-  
   
- &lt;xref:System.Text.Decoder.Fallback%2A&gt; is set to <see cref="T:System.Text.DecoderExceptionFallback" />.</exception>
+ <see cref="System.Text.Decoder.Fallback%2A" /> is set to <see cref="T:System.Text.DecoderExceptionFallback" />.</exception>
         <permission cref="T:System.Security.SecurityCriticalAttribute">Requires full trust for the immediate caller. This member cannot be used by partially trusted or transparent code.</permission>
         <threadsafe />
+        <altCompliant cref="M:System.Text.Decoder.Convert(System.Byte[],System.Int32,System.Int32,System.Char[],System.Int32,System.Int32,System.Boolean,System.Int32@,System.Int32@,System.Boolean@)" />
       </Docs>
     </Member>
     <Member MemberName="Convert">
@@ -228,12 +228,12 @@
  -or-  
   
  The length of <paramref name="bytes" /> - <paramref name="byteIndex" /> is less than <paramref name="byteCount" />.</exception>
-        <exception cref="T:System.ArgumentException">The output buffer is too small to contain any of the converted input. The output buffer should be greater than or equal to the size indicated by the &lt;xref:System.Text.Decoder.GetCharCount%2A&gt; method.</exception>
+        <exception cref="T:System.ArgumentException">The output buffer is too small to contain any of the converted input. The output buffer should be greater than or equal to the size indicated by the <see cref="System.Text.Decoder.GetCharCount%2A" /> method.</exception>
         <exception cref="T:System.Text.DecoderFallbackException">A fallback occurred (see [Character Encoding in the .NET Framework](../Topic/Character%20Encoding%20in%20the%20.NET%20Framework.md) for fuller explanation)  
   
  -and-  
   
- &lt;xref:System.Text.Decoder.Fallback%2A&gt; is set to <see cref="T:System.Text.DecoderExceptionFallback" />.</exception>
+ <see cref="System.Text.Decoder.Fallback%2A" /> is set to <see cref="T:System.Text.DecoderExceptionFallback" />.</exception>
         <threadsafe />
       </Docs>
     </Member>
@@ -356,7 +356,7 @@
   
  -and-  
   
- &lt;xref:System.Text.Decoder.Fallback%2A&gt; is set to <see cref="T:System.Text.DecoderExceptionFallback" />.</exception>
+ <see cref="System.Text.Decoder.Fallback%2A" /> is set to <see cref="T:System.Text.DecoderExceptionFallback" />.</exception>
         <permission cref="T:System.Security.SecurityCriticalAttribute">Requires full trust for the immediate caller. This member cannot be used by partially trusted or transparent code.</permission>
         <threadsafe />
       </Docs>
@@ -418,7 +418,7 @@
   
  -and-  
   
- &lt;xref:System.Text.Decoder.Fallback%2A&gt; is set to <see cref="T:System.Text.DecoderExceptionFallback" />.</exception>
+ <see cref="System.Text.Decoder.Fallback%2A" /> is set to <see cref="T:System.Text.DecoderExceptionFallback" />.</exception>
         <threadsafe />
       </Docs>
     </Member>
@@ -477,7 +477,7 @@
   
  -and-  
   
- &lt;xref:System.Text.Decoder.Fallback%2A&gt; is set to <see cref="T:System.Text.DecoderExceptionFallback" />.</exception>
+ <see cref="System.Text.Decoder.Fallback%2A" /> is set to <see cref="T:System.Text.DecoderExceptionFallback" />.</exception>
         <threadsafe />
       </Docs>
     </Member>
@@ -548,7 +548,7 @@
   
  -and-  
   
- &lt;xref:System.Text.Decoder.Fallback%2A&gt; is set to <see cref="T:System.Text.DecoderExceptionFallback" />.</exception>
+ <see cref="System.Text.Decoder.Fallback%2A" /> is set to <see cref="T:System.Text.DecoderExceptionFallback" />.</exception>
         <permission cref="T:System.Security.SecurityCriticalAttribute">Requires full trust for the immediate caller. This member cannot be used by partially trusted or transparent code.</permission>
         <threadsafe />
       </Docs>
@@ -626,7 +626,7 @@
   
  -and-  
   
- &lt;xref:System.Text.Decoder.Fallback%2A&gt; is set to <see cref="T:System.Text.DecoderExceptionFallback" />.</exception>
+ <see cref="System.Text.Decoder.Fallback%2A" /> is set to <see cref="T:System.Text.DecoderExceptionFallback" />.</exception>
         <threadsafe />
       </Docs>
     </Member>
@@ -696,7 +696,7 @@
   
  -and-  
   
- &lt;xref:System.Text.Decoder.Fallback%2A&gt; is set to <see cref="T:System.Text.DecoderExceptionFallback" />.</exception>
+ <see cref="System.Text.Decoder.Fallback%2A" /> is set to <see cref="T:System.Text.DecoderExceptionFallback" />.</exception>
         <threadsafe />
       </Docs>
     </Member>

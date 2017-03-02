@@ -78,7 +78,7 @@
         <ReturnType>System.Globalization.NumberStyles</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Indicates that the numeric string can contain a currency symbol. Valid currency symbols are determined by the &lt;xref:System.Globalization.NumberFormatInfo.CurrencySymbol%2A?displayProperty=fullName&gt; property.</summary>
+        <summary>Indicates that the numeric string can contain a currency symbol. Valid currency symbols are determined by the <see cref="System.Globalization.NumberFormatInfo.CurrencySymbol%2A" /> property.</summary>
         <threadsafe />
       </Docs>
     </Member>
@@ -96,7 +96,7 @@
         <ReturnType>System.Globalization.NumberStyles</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Indicates that the numeric string can have a decimal point. If the NumberStyles value includes the AllowCurrencySymbol flag and the parsed string includes a currency symbol, the decimal separator character is determined by the &lt;xref:System.Globalization.NumberFormatInfo.CurrencyDecimalSeparator%2A?displayProperty=fullName&gt; property. Otherwise, the decimal separator character is determined by the &lt;xref:System.Globalization.NumberFormatInfo.NumberDecimalSeparator%2A?displayProperty=fullName&gt; property.</summary>
+        <summary>Indicates that the numeric string can have a decimal point. If the NumberStyles value includes the AllowCurrencySymbol flag and the parsed string includes a currency symbol, the decimal separator character is determined by the <see cref="System.Globalization.NumberFormatInfo.CurrencyDecimalSeparator%2A" /> property. Otherwise, the decimal separator character is determined by the <see cref="System.Globalization.NumberFormatInfo.NumberDecimalSeparator%2A" /> property.</summary>
         <threadsafe />
       </Docs>
     </Member>
@@ -150,7 +150,7 @@
         <ReturnType>System.Globalization.NumberStyles</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Indicates that the numeric string can have a leading sign. Valid leading sign characters are determined by the &lt;xref:System.Globalization.NumberFormatInfo.PositiveSign%2A?displayProperty=fullName&gt; and &lt;xref:System.Globalization.NumberFormatInfo.NegativeSign%2A?displayProperty=fullName&gt; properties.</summary>
+        <summary>Indicates that the numeric string can have a leading sign. Valid leading sign characters are determined by the <see cref="System.Globalization.NumberFormatInfo.PositiveSign%2A" /> and <see cref="System.Globalization.NumberFormatInfo.NegativeSign%2A" /> properties.</summary>
         <threadsafe />
       </Docs>
     </Member>
@@ -168,7 +168,7 @@
         <ReturnType>System.Globalization.NumberStyles</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Indicates that leading white-space characters can be present in the parsed string. Valid white-space characters have the Unicode values U+0009, U+000A, U+000B, U+000C, U+000D, and U+0020. Note that this is a subset of the characters for which the &lt;xref:System.Char.IsWhiteSpace%2A?displayProperty=fullName&gt; method returns <see langword="true" />.</summary>
+        <summary>Indicates that leading white-space characters can be present in the parsed string. Valid white-space characters have the Unicode values U+0009, U+000A, U+000B, U+000C, U+000D, and U+0020. Note that this is a subset of the characters for which the <see cref="System.Char.IsWhiteSpace%2A" /> method returns <see langword="true" />.</summary>
         <threadsafe />
       </Docs>
     </Member>
@@ -204,7 +204,7 @@
         <ReturnType>System.Globalization.NumberStyles</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Indicates that the numeric string can have group separators, such as symbols that separate hundreds from thousands. If the NumberStyles value includes the AllowCurrencySymbol flag and the string to be parsed includes a currency symbol, the valid group separator character is determined by the &lt;xref:System.Globalization.NumberFormatInfo.CurrencyGroupSeparator%2A?displayProperty=fullName&gt; property,  and the number of digits in each group is determined by the &lt;xref:System.Globalization.NumberFormatInfo.CurrencyGroupSizes%2A?displayProperty=fullName&gt; property. Otherwise, the valid group separator character is determined by the &lt;xref:System.Globalization.NumberFormatInfo.NumberGroupSeparator%2A?displayProperty=fullName&gt; property, and the number of digits in each group is determined by the &lt;xref:System.Globalization.NumberFormatInfo.NumberGroupSizes%2A?displayProperty=fullName&gt; property.</summary>
+        <summary>Indicates that the numeric string can have group separators, such as symbols that separate hundreds from thousands. If the NumberStyles value includes the AllowCurrencySymbol flag and the string to be parsed includes a currency symbol, the valid group separator character is determined by the <see cref="System.Globalization.NumberFormatInfo.CurrencyGroupSeparator%2A" /> property,  and the number of digits in each group is determined by the <see cref="System.Globalization.NumberFormatInfo.CurrencyGroupSizes%2A" /> property. Otherwise, the valid group separator character is determined by the <see cref="System.Globalization.NumberFormatInfo.NumberGroupSeparator%2A" /> property, and the number of digits in each group is determined by the <see cref="System.Globalization.NumberFormatInfo.NumberGroupSizes%2A" /> property.</summary>
         <threadsafe />
       </Docs>
     </Member>
@@ -222,7 +222,7 @@
         <ReturnType>System.Globalization.NumberStyles</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Indicates that the numeric string can have a trailing sign. Valid trailing sign characters are determined by the &lt;xref:System.Globalization.NumberFormatInfo.PositiveSign%2A?displayProperty=fullName&gt; and &lt;xref:System.Globalization.NumberFormatInfo.NegativeSign%2A?displayProperty=fullName&gt; properties.</summary>
+        <summary>Indicates that the numeric string can have a trailing sign. Valid trailing sign characters are determined by the <see cref="System.Globalization.NumberFormatInfo.PositiveSign%2A" /> and <see cref="System.Globalization.NumberFormatInfo.NegativeSign%2A" /> properties.</summary>
         <threadsafe />
       </Docs>
     </Member>
@@ -240,7 +240,7 @@
         <ReturnType>System.Globalization.NumberStyles</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Indicates that trailing white-space characters can be present in the parsed string. Valid white-space characters have the Unicode values U+0009, U+000A, U+000B, U+000C, U+000D, and U+0020. Note that this is a subset of the characters for which the &lt;xref:System.Char.IsWhiteSpace%2A?displayProperty=fullName&gt; method returns <see langword="true" />.</summary>
+        <summary>Indicates that trailing white-space characters can be present in the parsed string. Valid white-space characters have the Unicode values U+0009, U+000A, U+000B, U+000C, U+000D, and U+0020. Note that this is a subset of the characters for which the <see cref="System.Char.IsWhiteSpace%2A" /> method returns <see langword="true" />.</summary>
         <threadsafe />
       </Docs>
     </Member>

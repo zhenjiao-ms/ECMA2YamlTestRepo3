@@ -186,7 +186,7 @@
       <Docs>
         <param name="left">The left operand to use for the equality comparison. This parameter can be <see langword="null" />.</param>
         <param name="right">The right operand to use for the equality comparison. This parameter can be <see langword="null" />.</param>
-        <summary>Compares two <see cref="T:System.Security.Principal.NTAccount" /> objects to determine whether they are equal. They are considered equal if they have the same canonical name representation as the one returned by the &lt;xref:System.Security.Principal.NTAccount.Value%2A&gt; property or if they are both <see langword="null" />.</summary>
+        <summary>Compares two <see cref="T:System.Security.Principal.NTAccount" /> objects to determine whether they are equal. They are considered equal if they have the same canonical name representation as the one returned by the <see cref="System.Security.Principal.NTAccount.Value%2A" /> property or if they are both <see langword="null" />.</summary>
         <returns>
           <see langword="true" /> if <paramref name="left" /> and <paramref name="right" /> are equal; otherwise <see langword="false" />.</returns>
         <remarks>To be added.</remarks>
@@ -212,7 +212,7 @@
       <Docs>
         <param name="left">The left operand to use for the inequality comparison. This parameter can be <see langword="null" />.</param>
         <param name="right">The right operand to use for the inequality comparison. This parameter can be <see langword="null" />.</param>
-        <summary>Compares two <see cref="T:System.Security.Principal.NTAccount" /> objects to determine whether they are not equal. They are considered not equal if they have different canonical name representations than the one returned by the &lt;xref:System.Security.Principal.NTAccount.Value%2A&gt; property or if one of the objects is <see langword="null" /> and the other is not.</summary>
+        <summary>Compares two <see cref="T:System.Security.Principal.NTAccount" /> objects to determine whether they are not equal. They are considered not equal if they have different canonical name representations than the one returned by the <see cref="System.Security.Principal.NTAccount.Value%2A" /> property or if one of the objects is <see langword="null" /> and the other is not.</summary>
         <returns>
           <see langword="true" /> if <paramref name="left" /> and <paramref name="right" /> are not equal; otherwise <see langword="false" />.</returns>
         <remarks>To be added.</remarks>
@@ -260,7 +260,7 @@
         <Parameter Name="targetType" Type="System.Type" />
       </Parameters>
       <Docs>
-        <param name="targetType">The target type for the conversion from <see cref="T:System.Security.Principal.NTAccount" />. The target type must be a type that is considered valid by the &lt;xref:System.Security.Principal.NTAccount.IsValidTargetType%2A&gt; method.</param>
+        <param name="targetType">The target type for the conversion from <see cref="T:System.Security.Principal.NTAccount" />. The target type must be a type that is considered valid by the <see cref="System.Security.Principal.NTAccount.IsValidTargetType%2A" /> method.</param>
         <summary>Translates the account name represented by the <see cref="T:System.Security.Principal.NTAccount" /> object into another <see cref="T:System.Security.Principal.IdentityReference" />-derived type.</summary>
         <returns>The converted identity.</returns>
         <remarks>To be added.</remarks>

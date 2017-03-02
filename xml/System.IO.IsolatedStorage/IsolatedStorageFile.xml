@@ -101,7 +101,7 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>Closes a store previously opened with &lt;xref:System.IO.IsolatedStorage.IsolatedStorageFile.GetStore%2A&gt;, &lt;xref:System.IO.IsolatedStorage.IsolatedStorageFile.GetUserStoreForAssembly%2A&gt;, or &lt;xref:System.IO.IsolatedStorage.IsolatedStorageFile.GetUserStoreForDomain%2A&gt;.</summary>
+        <summary>Closes a store previously opened with <see cref="System.IO.IsolatedStorage.IsolatedStorageFile.GetStore%2A" />, <see cref="System.IO.IsolatedStorage.IsolatedStorageFile.GetUserStoreForAssembly%2A" />, or <see cref="System.IO.IsolatedStorage.IsolatedStorageFile.GetUserStoreForDomain%2A" />.</summary>
         <remarks>
           <format type="text/markdown"><![CDATA[  
   
@@ -114,7 +114,7 @@
   
  ]]></format>
         </remarks>
-        <permission cref="T:System.Security.Permissions.ReflectionPermission">when invoked late-bound through mechanisms such as &lt;xref:System.Type.InvokeMember%2A?displayProperty=fullName&gt;. Associated enumeration: <see cref="T:System.Security.Permissions.ReflectionPermissionFlag" /></permission>
+        <permission cref="T:System.Security.Permissions.ReflectionPermission">when invoked late-bound through mechanisms such as <see cref="System.Type.InvokeMember%2A" />. Associated enumeration: <see cref="T:System.Security.Permissions.ReflectionPermissionFlag" /></permission>
         <threadsafe />
       </Docs>
     </Member>
@@ -151,7 +151,7 @@
  ]]></format>
         </remarks>
         <exception cref="T:System.ArgumentException">
-          <paramref name="sourceFileName " />or<paramref name=" destinationFileName " />is a zero-length string, contains only white space, or contains one or more invalid characters defined by the &lt;xref:System.IO.Path.GetInvalidPathChars%2A?displayProperty=fullName&gt; method.</exception>
+          <paramref name="sourceFileName " />or<paramref name=" destinationFileName " />is a zero-length string, contains only white space, or contains one or more invalid characters defined by the <see cref="System.IO.Path.GetInvalidPathChars%2A" /> method.</exception>
         <exception cref="T:System.ArgumentNullException">
           <paramref name="sourceFileName " />or<paramref name=" destinationFileName " />is <see langword="null" />.</exception>
         <exception cref="T:System.InvalidOperationException">The isolated store has been closed.</exception>
@@ -215,7 +215,7 @@
  ]]></format>
         </remarks>
         <exception cref="T:System.ArgumentException">
-          <paramref name="sourceFileName " />or<paramref name=" destinationFileName " />is a zero-length string, contains only white space, or contains one or more invalid characters defined by the &lt;xref:System.IO.Path.GetInvalidPathChars%2A?displayProperty=fullName&gt; method.</exception>
+          <paramref name="sourceFileName " />or<paramref name=" destinationFileName " />is a zero-length string, contains only white space, or contains one or more invalid characters defined by the <see cref="System.IO.Path.GetInvalidPathChars%2A" /> method.</exception>
         <exception cref="T:System.ArgumentNullException">
           <paramref name="sourceFileName " />or<paramref name=" destinationFileName " />is <see langword="null" />.</exception>
         <exception cref="T:System.InvalidOperationException">The isolated store has been closed.</exception>
@@ -280,7 +280,7 @@
         <exception cref="T:System.IO.IsolatedStorage.IsolatedStorageException">The current code has insufficient permissions to create isolated storage directory.</exception>
         <exception cref="T:System.ArgumentNullException">The directory path is <see langword="null" />.</exception>
         <permission cref="T:System.Security.Permissions.IsolatedStorageFilePermission">for accessing the isolated storage scope.</permission>
-        <permission cref="T:System.Security.Permissions.ReflectionPermission">when invoked late-bound through mechanisms such as &lt;xref:System.Type.InvokeMember%2A?displayProperty=fullName&gt;. Associated enumeration: <see cref="T:System.Security.Permissions.ReflectionPermissionFlag" /></permission>
+        <permission cref="T:System.Security.Permissions.ReflectionPermission">when invoked late-bound through mechanisms such as <see cref="System.Type.InvokeMember%2A" />. Associated enumeration: <see cref="T:System.Security.Permissions.ReflectionPermissionFlag" /></permission>
         <threadsafe />
       </Docs>
     </Member>
@@ -426,7 +426,7 @@
         <exception cref="T:System.IO.IsolatedStorage.IsolatedStorageException">The directory could not be deleted.</exception>
         <exception cref="T:System.ArgumentNullException">The directory path was <see langword="null" />.</exception>
         <permission cref="T:System.Security.Permissions.IsolatedStorageFilePermission">for accessing the isolated storage scope.</permission>
-        <permission cref="T:System.Security.Permissions.ReflectionPermission">when invoked late-bound through mechanisms such as &lt;xref:System.Type.InvokeMember%2A?displayProperty=fullName&gt;. Associated enumeration: <see cref="T:System.Security.Permissions.ReflectionPermissionFlag" /></permission>
+        <permission cref="T:System.Security.Permissions.ReflectionPermission">when invoked late-bound through mechanisms such as <see cref="System.Type.InvokeMember%2A" />. Associated enumeration: <see cref="T:System.Security.Permissions.ReflectionPermissionFlag" /></permission>
         <threadsafe />
       </Docs>
     </Member>
@@ -476,7 +476,7 @@
         <exception cref="T:System.IO.IsolatedStorage.IsolatedStorageException">The target file is open or the path is incorrect.</exception>
         <exception cref="T:System.ArgumentNullException">The file path is <see langword="null" />.</exception>
         <permission cref="T:System.Security.Permissions.IsolatedStorageFilePermission">for accessing files in the isolated storage scope.</permission>
-        <permission cref="T:System.Security.Permissions.ReflectionPermission">when invoked late-bound through mechanisms such as &lt;xref:System.Type.InvokeMember%2A?displayProperty=fullName&gt;. Associated enumeration: <see cref="T:System.Security.Permissions.ReflectionPermissionFlag" /></permission>
+        <permission cref="T:System.Security.Permissions.ReflectionPermission">when invoked late-bound through mechanisms such as <see cref="System.Type.InvokeMember%2A" />. Associated enumeration: <see cref="T:System.Security.Permissions.ReflectionPermissionFlag" /></permission>
         <threadsafe />
       </Docs>
     </Member>
@@ -556,7 +556,7 @@
   
  ]]></format>
         </remarks>
-        <permission cref="T:System.Security.Permissions.ReflectionPermission">when invoked late-bound through mechanisms such as &lt;xref:System.Type.InvokeMember%2A?displayProperty=fullName&gt;. Associated enumeration: <see cref="T:System.Security.Permissions.ReflectionPermissionFlag" /></permission>
+        <permission cref="T:System.Security.Permissions.ReflectionPermission">when invoked late-bound through mechanisms such as <see cref="System.Type.InvokeMember%2A" />. Associated enumeration: <see cref="T:System.Security.Permissions.ReflectionPermissionFlag" /></permission>
         <threadsafe />
       </Docs>
     </Member>
@@ -651,7 +651,7 @@
  ]]></format>
         </remarks>
         <exception cref="T:System.ArgumentException">
-          <paramref name="path " />is a zero-length string, contains only white space, or contains one or more invalid characters defined by the &lt;xref:System.IO.Path.GetInvalidPathChars%2A?displayProperty=fullName&gt; method.</exception>
+          <paramref name="path " />is a zero-length string, contains only white space, or contains one or more invalid characters defined by the <see cref="System.IO.Path.GetInvalidPathChars%2A" /> method.</exception>
         <exception cref="T:System.ArgumentNullException">
           <paramref name="path " />is <see langword="null" />.</exception>
         <exception cref="T:System.InvalidOperationException">The isolated store has been closed.</exception>
@@ -755,7 +755,7 @@
         <exception cref="T:System.UnauthorizedAccessException">Caller does not have permission to enumerate directories resolved from <paramref name="searchPattern" />.</exception>
         <exception cref="T:System.IO.DirectoryNotFoundException">The directory or directories specified by <paramref name="searchPattern" /> are not found.</exception>
         <exception cref="T:System.IO.IsolatedStorage.IsolatedStorageException">The isolated store has been removed.</exception>
-        <permission cref="T:System.Security.Permissions.ReflectionPermission">when invoked late-bound through mechanisms such as &lt;xref:System.Type.InvokeMember%2A?displayProperty=fullName&gt;. Associated enumeration: <see cref="T:System.Security.Permissions.ReflectionPermissionFlag" /></permission>
+        <permission cref="T:System.Security.Permissions.ReflectionPermission">when invoked late-bound through mechanisms such as <see cref="System.Type.InvokeMember%2A" />. Associated enumeration: <see cref="T:System.Security.Permissions.ReflectionPermissionFlag" /></permission>
         <threadsafe />
       </Docs>
     </Member>
@@ -793,7 +793,7 @@
  ]]></format>
         </remarks>
         <permission cref="T:System.Security.Permissions.IsolatedStorageFilePermission">for using isolated storage. Associated enumeration: <see cref="T:System.Security.Permissions.IsolatedStorageContainment" /></permission>
-        <permission cref="T:System.Security.Permissions.ReflectionPermission">when invoked late-bound through mechanisms such as &lt;xref:System.Type.InvokeMember%2A?displayProperty=fullName&gt;. Associated enumeration: <see cref="T:System.Security.Permissions.ReflectionPermissionFlag" /></permission>
+        <permission cref="T:System.Security.Permissions.ReflectionPermission">when invoked late-bound through mechanisms such as <see cref="System.Type.InvokeMember%2A" />. Associated enumeration: <see cref="T:System.Security.Permissions.ReflectionPermissionFlag" /></permission>
         <threadsafe />
       </Docs>
     </Member>
@@ -882,7 +882,7 @@
         <exception cref="T:System.ObjectDisposedException">The isolated store has been disposed.</exception>
         <exception cref="T:System.IO.IsolatedStorage.IsolatedStorageException">The isolated store has been removed.</exception>
         <exception cref="T:System.IO.DirectoryNotFoundException">The file path specified by <paramref name="searchPattern" /> cannot be found.</exception>
-        <permission cref="T:System.Security.Permissions.ReflectionPermission">when invoked late-bound through mechanisms such as &lt;xref:System.Type.InvokeMember%2A?displayProperty=fullName&gt;. Associated enumeration: <see cref="T:System.Security.Permissions.ReflectionPermissionFlag" /></permission>
+        <permission cref="T:System.Security.Permissions.ReflectionPermission">when invoked late-bound through mechanisms such as <see cref="System.Type.InvokeMember%2A" />. Associated enumeration: <see cref="T:System.Security.Permissions.ReflectionPermissionFlag" /></permission>
         <threadsafe />
       </Docs>
     </Member>
@@ -921,7 +921,7 @@
  ]]></format>
         </remarks>
         <exception cref="T:System.ArgumentException">
-          <paramref name="path " />is a zero-length string, contains only white space, or contains one or more invalid characters defined by the &lt;xref:System.IO.Path.GetInvalidPathChars%2A?displayProperty=fullName&gt; method.</exception>
+          <paramref name="path " />is a zero-length string, contains only white space, or contains one or more invalid characters defined by the <see cref="System.IO.Path.GetInvalidPathChars%2A" /> method.</exception>
         <exception cref="T:System.ArgumentNullException">
           <paramref name="path " />is <see langword="null" />.</exception>
         <exception cref="T:System.InvalidOperationException">The isolated store has been closed.</exception>
@@ -969,7 +969,7 @@
  ]]></format>
         </remarks>
         <exception cref="T:System.ArgumentException">
-          <paramref name="path " />is a zero-length string, contains only white space, or contains one or more invalid characters defined by the &lt;xref:System.IO.Path.GetInvalidPathChars%2A?displayProperty=fullName&gt; method.</exception>
+          <paramref name="path " />is a zero-length string, contains only white space, or contains one or more invalid characters defined by the <see cref="System.IO.Path.GetInvalidPathChars%2A" /> method.</exception>
         <exception cref="T:System.ArgumentNullException">
           <paramref name="path " />is <see langword="null" />.</exception>
         <exception cref="T:System.InvalidOperationException">The isolated store has been closed.</exception>
@@ -1023,7 +1023,7 @@
  An isolated storage location cannot be initialized.</exception>
         <exception cref="T:System.Security.SecurityException">Sufficient isolated storage permissions have not been granted.</exception>
         <permission cref="T:System.Security.Permissions.IsolatedStorageFilePermission">for using isolated storage. Associated enumeration: <see cref="T:System.Security.Permissions.IsolatedStorageContainment" /></permission>
-        <permission cref="T:System.Security.Permissions.ReflectionPermission">when invoked late-bound through mechanisms such as &lt;xref:System.Type.InvokeMember%2A?displayProperty=fullName&gt;. Associated enumeration: <see cref="T:System.Security.Permissions.ReflectionPermissionFlag" /></permission>
+        <permission cref="T:System.Security.Permissions.ReflectionPermission">when invoked late-bound through mechanisms such as <see cref="System.Type.InvokeMember%2A" />. Associated enumeration: <see cref="T:System.Security.Permissions.ReflectionPermissionFlag" /></permission>
         <threadsafe />
       </Docs>
     </Member>
@@ -1063,7 +1063,7 @@
         <exception cref="T:System.IO.IsolatedStorage.IsolatedStorageException">An isolated storage location cannot be initialized.</exception>
         <exception cref="T:System.Security.SecurityException">Sufficient isolated storage permissions have not been granted.</exception>
         <permission cref="T:System.Security.Permissions.IsolatedStorageFilePermission">for using isolated storage. Associated enumeration: <see cref="T:System.Security.Permissions.IsolatedStorageContainment" /></permission>
-        <permission cref="T:System.Security.Permissions.ReflectionPermission">when invoked late-bound through mechanisms such as &lt;xref:System.Type.InvokeMember%2A?displayProperty=fullName&gt;. Associated enumeration: <see cref="T:System.Security.Permissions.ReflectionPermissionFlag" /></permission>
+        <permission cref="T:System.Security.Permissions.ReflectionPermission">when invoked late-bound through mechanisms such as <see cref="System.Type.InvokeMember%2A" />. Associated enumeration: <see cref="T:System.Security.Permissions.ReflectionPermissionFlag" /></permission>
         <threadsafe />
       </Docs>
     </Member>
@@ -1126,7 +1126,7 @@
   
  An isolated storage location cannot be initialized.</exception>
         <permission cref="T:System.Security.Permissions.IsolatedStorageFilePermission">for using isolated storage. Associated enumeration: <see cref="T:System.Security.Permissions.IsolatedStorageContainment" /></permission>
-        <permission cref="T:System.Security.Permissions.ReflectionPermission">when invoked late-bound through mechanisms such as &lt;xref:System.Type.InvokeMember%2A?displayProperty=fullName&gt;. Associated enumeration: <see cref="T:System.Security.Permissions.ReflectionPermissionFlag" /></permission>
+        <permission cref="T:System.Security.Permissions.ReflectionPermission">when invoked late-bound through mechanisms such as <see cref="System.Type.InvokeMember%2A" />. Associated enumeration: <see cref="T:System.Security.Permissions.ReflectionPermissionFlag" /></permission>
         <threadsafe />
       </Docs>
     </Member>
@@ -1196,7 +1196,7 @@
   
  -or-  
   
- <paramref name="scope" /> contains the enumeration value <see cref="T:System.IO.IsolatedStorage.IsolatedStorageScope" />, but the application identity of the caller cannot be determined,because the &lt;xref:System.AppDomain.ActivationContext%2A&gt; for  the current application domain returned <see langword="null" />.  
+ <paramref name="scope" /> contains the enumeration value <see cref="T:System.IO.IsolatedStorage.IsolatedStorageScope" />, but the application identity of the caller cannot be determined,because the <see cref="System.AppDomain.ActivationContext%2A" /> for  the current application domain returned <see langword="null" />.  
   
  -or-  
   
@@ -1206,7 +1206,7 @@
   
  <paramref name="scope" /> contains the value <see cref="T:System.IO.IsolatedStorage.IsolatedStorageScope" />, but the permissions for the calling assembly cannot be determined.</exception>
         <permission cref="T:System.Security.Permissions.IsolatedStorageFilePermission">for using isolated storage. Associated enumeration: <see cref="T:System.Security.Permissions.IsolatedStorageContainment" /></permission>
-        <permission cref="T:System.Security.Permissions.ReflectionPermission">when invoked late-bound through mechanisms such as &lt;xref:System.Type.InvokeMember%2A?displayProperty=fullName&gt;. Associated enumeration: <see cref="T:System.Security.Permissions.ReflectionPermissionFlag" /></permission>
+        <permission cref="T:System.Security.Permissions.ReflectionPermission">when invoked late-bound through mechanisms such as <see cref="System.Type.InvokeMember%2A" />. Associated enumeration: <see cref="T:System.Security.Permissions.ReflectionPermissionFlag" /></permission>
         <threadsafe />
       </Docs>
     </Member>
@@ -1253,7 +1253,7 @@
   
  -or-  
   
- <paramref name="scope" /> contains the enumeration value <see cref="T:System.IO.IsolatedStorage.IsolatedStorageScope" />, but the application identity of the caller cannot be determined, because the &lt;xref:System.AppDomain.ActivationContext%2A&gt; for  the current application domain returned <see langword="null" />.  
+ <paramref name="scope" /> contains the enumeration value <see cref="T:System.IO.IsolatedStorage.IsolatedStorageScope" />, but the application identity of the caller cannot be determined, because the <see cref="System.AppDomain.ActivationContext%2A" /> for  the current application domain returned <see langword="null" />.  
   
  -or-  
   
@@ -1263,7 +1263,7 @@
   
  <paramref name="scope" /> contains the value <see cref="T:System.IO.IsolatedStorage.IsolatedStorageScope" />, but the permissions for the calling assembly cannot be determined.</exception>
         <permission cref="T:System.Security.Permissions.IsolatedStorageFilePermission">for using isolated storage. Associated enumeration: <see cref="T:System.Security.Permissions.IsolatedStorageContainment" /></permission>
-        <permission cref="T:System.Security.Permissions.ReflectionPermission">when invoked late-bound through mechanisms such as &lt;xref:System.Type.InvokeMember%2A?displayProperty=fullName&gt;. Associated enumeration: <see cref="T:System.Security.Permissions.ReflectionPermissionFlag" /></permission>
+        <permission cref="T:System.Security.Permissions.ReflectionPermission">when invoked late-bound through mechanisms such as <see cref="System.Type.InvokeMember%2A" />. Associated enumeration: <see cref="T:System.Security.Permissions.ReflectionPermissionFlag" /></permission>
         <threadsafe />
       </Docs>
     </Member>
@@ -1318,7 +1318,7 @@
   
  -or-  
   
- <paramref name="scope" /> contains the enumeration value <see cref="T:System.IO.IsolatedStorage.IsolatedStorageScope" />, but the application identity of the caller cannot be determined, because the &lt;xref:System.AppDomain.ActivationContext%2A&gt; for  the current application domain returned <see langword="null" />.  
+ <paramref name="scope" /> contains the enumeration value <see cref="T:System.IO.IsolatedStorage.IsolatedStorageScope" />, but the application identity of the caller cannot be determined, because the <see cref="System.AppDomain.ActivationContext%2A" /> for  the current application domain returned <see langword="null" />.  
   
  -or-  
   
@@ -1328,7 +1328,7 @@
   
  <paramref name="scope" /> contains the value <see cref="T:System.IO.IsolatedStorage.IsolatedStorageScope" />, but the permissions for the calling assembly cannot be determined.</exception>
         <permission cref="T:System.Security.Permissions.IsolatedStorageFilePermission">for using isolated storage. Associated enumeration: <see cref="T:System.Security.Permissions.IsolatedStorageContainment" /></permission>
-        <permission cref="T:System.Security.Permissions.ReflectionPermission">when invoked late-bound through mechanisms such as &lt;xref:System.Type.InvokeMember%2A?displayProperty=fullName&gt;. Associated enumeration: <see cref="T:System.Security.Permissions.ReflectionPermissionFlag" /></permission>
+        <permission cref="T:System.Security.Permissions.ReflectionPermission">when invoked late-bound through mechanisms such as <see cref="System.Type.InvokeMember%2A" />. Associated enumeration: <see cref="T:System.Security.Permissions.ReflectionPermissionFlag" /></permission>
         <threadsafe />
       </Docs>
     </Member>
@@ -1393,7 +1393,7 @@
   
  -or-  
   
- <paramref name="scope" /> contains the enumeration value <see cref="T:System.IO.IsolatedStorage.IsolatedStorageScope" />, but the application identity of the caller cannot be determined, because the &lt;xref:System.AppDomain.ActivationContext%2A&gt; for  the current application domain returned <see langword="null" />.  
+ <paramref name="scope" /> contains the enumeration value <see cref="T:System.IO.IsolatedStorage.IsolatedStorageScope" />, but the application identity of the caller cannot be determined, because the <see cref="System.AppDomain.ActivationContext%2A" /> for  the current application domain returned <see langword="null" />.  
   
  -or-  
   
@@ -1403,7 +1403,7 @@
   
  <paramref name="scope" /> contains <see cref="T:System.IO.IsolatedStorage.IsolatedStorageScope" />, but the permissions for the calling assembly cannot be determined.</exception>
         <permission cref="T:System.Security.Permissions.IsolatedStorageFilePermission">for using isolated storage. Associated enumeration: <see cref="T:System.Security.Permissions.IsolatedStorageContainment" /></permission>
-        <permission cref="T:System.Security.Permissions.ReflectionPermission">when invoked late-bound through mechanisms such as &lt;xref:System.Type.InvokeMember%2A?displayProperty=fullName&gt;. Associated enumeration: <see cref="T:System.Security.Permissions.ReflectionPermissionFlag" /></permission>
+        <permission cref="T:System.Security.Permissions.ReflectionPermission">when invoked late-bound through mechanisms such as <see cref="System.Type.InvokeMember%2A" />. Associated enumeration: <see cref="T:System.Security.Permissions.ReflectionPermissionFlag" /></permission>
         <threadsafe />
       </Docs>
     </Member>
@@ -1465,7 +1465,7 @@
   
  -or-  
   
- <paramref name="scope" /> contains the enumeration value <see cref="T:System.IO.IsolatedStorage.IsolatedStorageScope" />, but the application identity of the caller cannot be determined, because the &lt;xref:System.AppDomain.ActivationContext%2A&gt; for  the current application domain returned <see langword="null" />.  
+ <paramref name="scope" /> contains the enumeration value <see cref="T:System.IO.IsolatedStorage.IsolatedStorageScope" />, but the application identity of the caller cannot be determined, because the <see cref="System.AppDomain.ActivationContext%2A" /> for  the current application domain returned <see langword="null" />.  
   
  -or-  
   
@@ -1475,7 +1475,7 @@
   
  <paramref name="scope" /> contains the value <see cref="T:System.IO.IsolatedStorage.IsolatedStorageScope" />, but the permissions for the calling assembly cannot be determined.</exception>
         <permission cref="T:System.Security.Permissions.IsolatedStorageFilePermission">for using isolated storage. Associated enumeration: <see cref="T:System.Security.Permissions.IsolatedStorageContainment" /></permission>
-        <permission cref="T:System.Security.Permissions.ReflectionPermission">when invoked late-bound through mechanisms such as &lt;xref:System.Type.InvokeMember%2A?displayProperty=fullName&gt;. Associated enumeration: <see cref="T:System.Security.Permissions.ReflectionPermissionFlag" /></permission>
+        <permission cref="T:System.Security.Permissions.ReflectionPermission">when invoked late-bound through mechanisms such as <see cref="System.Type.InvokeMember%2A" />. Associated enumeration: <see cref="T:System.Security.Permissions.ReflectionPermissionFlag" /></permission>
         <threadsafe />
       </Docs>
     </Member>
@@ -1516,13 +1516,13 @@
   
  -or-  
   
- The application identity of the caller cannot be determined, because the &lt;xref:System.AppDomain.ActivationContext%2A&gt; property returned <see langword="null" />.  
+ The application identity of the caller cannot be determined, because the <see cref="System.AppDomain.ActivationContext%2A" /> property returned <see langword="null" />.  
   
  -or-  
   
  The permissions for the application domain cannot be determined.</exception>
         <permission cref="T:System.Security.Permissions.IsolatedStorageFilePermission">for using isolated storage. Associated enumeration: <see cref="T:System.Security.Permissions.IsolatedStorageContainment" /></permission>
-        <permission cref="T:System.Security.Permissions.ReflectionPermission">when invoked late-bound through mechanisms such as &lt;xref:System.Type.InvokeMember%2A?displayProperty=fullName&gt;. Associated enumeration: <see cref="T:System.Security.Permissions.ReflectionPermissionFlag" /></permission>
+        <permission cref="T:System.Security.Permissions.ReflectionPermission">when invoked late-bound through mechanisms such as <see cref="System.Type.InvokeMember%2A" />. Associated enumeration: <see cref="T:System.Security.Permissions.ReflectionPermissionFlag" /></permission>
         <threadsafe />
       </Docs>
     </Member>
@@ -1567,7 +1567,7 @@
   
  The permissions for the calling assembly cannot be determined.</exception>
         <permission cref="T:System.Security.Permissions.IsolatedStorageFilePermission">for using isolated storage. Associated enumeration: <see cref="T:System.Security.Permissions.IsolatedStorageContainment" /></permission>
-        <permission cref="T:System.Security.Permissions.ReflectionPermission">when invoked late-bound through mechanisms such as &lt;xref:System.Type.InvokeMember%2A?displayProperty=fullName&gt;. Associated enumeration: <see cref="T:System.Security.Permissions.ReflectionPermissionFlag" /></permission>
+        <permission cref="T:System.Security.Permissions.ReflectionPermission">when invoked late-bound through mechanisms such as <see cref="System.Type.InvokeMember%2A" />. Associated enumeration: <see cref="T:System.Security.Permissions.ReflectionPermissionFlag" /></permission>
         <threadsafe />
       </Docs>
     </Member>
@@ -1631,7 +1631,7 @@
   
  The permissions for the application domain cannot be determined.</exception>
         <permission cref="T:System.Security.Permissions.IsolatedStorageFilePermission">for using isolated storage. Associated enumeration: <see cref="T:System.Security.Permissions.IsolatedStorageContainment" /></permission>
-        <permission cref="T:System.Security.Permissions.ReflectionPermission">when invoked late-bound through mechanisms such as &lt;xref:System.Type.InvokeMember%2A?displayProperty=fullName&gt;. Associated enumeration: <see cref="T:System.Security.Permissions.ReflectionPermissionFlag" /></permission>
+        <permission cref="T:System.Security.Permissions.ReflectionPermission">when invoked late-bound through mechanisms such as <see cref="System.Type.InvokeMember%2A" />. Associated enumeration: <see cref="T:System.Security.Permissions.ReflectionPermissionFlag" /></permission>
         <threadsafe />
       </Docs>
     </Member>
@@ -1839,7 +1839,7 @@
  ]]></format>
         </remarks>
         <exception cref="T:System.ArgumentException">
-          <paramref name="sourceFileName " />or<paramref name=" destinationFileName " />is a zero-length string, contains only white space, or contains one or more invalid characters defined by the &lt;xref:System.IO.Path.GetInvalidPathChars%2A?displayProperty=fullName&gt; method.</exception>
+          <paramref name="sourceFileName " />or<paramref name=" destinationFileName " />is a zero-length string, contains only white space, or contains one or more invalid characters defined by the <see cref="System.IO.Path.GetInvalidPathChars%2A" /> method.</exception>
         <exception cref="T:System.ArgumentNullException">
           <paramref name="sourceFileName " />or<paramref name=" destinationFileName " />is <see langword="null" />.</exception>
         <exception cref="T:System.InvalidOperationException">The isolated store has been closed.</exception>
@@ -1898,7 +1898,7 @@
  ]]></format>
         </remarks>
         <exception cref="T:System.ArgumentException">
-          <paramref name="sourceFileName " />or<paramref name=" destinationFileName " />is a zero-length string, contains only white space, or contains one or more invalid characters defined by the &lt;xref:System.IO.Path.GetInvalidPathChars%2A?displayProperty=fullName&gt; method.</exception>
+          <paramref name="sourceFileName " />or<paramref name=" destinationFileName " />is a zero-length string, contains only white space, or contains one or more invalid characters defined by the <see cref="System.IO.Path.GetInvalidPathChars%2A" /> method.</exception>
         <exception cref="T:System.ArgumentNullException">
           <paramref name="sourceFileName " />or<paramref name=" destinationFileName " />is <see langword="null" />.</exception>
         <exception cref="T:System.InvalidOperationException">The isolated store has been closed.</exception>
@@ -2058,7 +2058,7 @@
         <exception cref="T:System.ArgumentNullException">
           <paramref name="path" /> is <see langword="null" />.</exception>
         <exception cref="T:System.IO.DirectoryNotFoundException">The directory in <paramref name="path" /> does not exist.</exception>
-        <exception cref="T:System.IO.FileNotFoundException">No file was found and the <paramref name="mode" /> is set to &lt;xref:System.IO.FileInfo.Open%2A&gt;.</exception>
+        <exception cref="T:System.IO.FileNotFoundException">No file was found and the <paramref name="mode" /> is set to <see cref="System.IO.FileInfo.Open%2A" />.</exception>
         <exception cref="T:System.ObjectDisposedException">The isolated store has been disposed.</exception>
         <threadsafe />
       </Docs>
@@ -2138,7 +2138,7 @@
  ]]></format>
         </remarks>
         <exception cref="T:System.IO.IsolatedStorage.IsolatedStorageException">The isolated store cannot be deleted.</exception>
-        <permission cref="T:System.Security.Permissions.ReflectionPermission">when invoked late-bound through mechanisms such as &lt;xref:System.Type.InvokeMember%2A?displayProperty=fullName&gt;. Associated enumeration: <see cref="T:System.Security.Permissions.ReflectionPermissionFlag" /></permission>
+        <permission cref="T:System.Security.Permissions.ReflectionPermission">when invoked late-bound through mechanisms such as <see cref="System.Type.InvokeMember%2A" />. Associated enumeration: <see cref="T:System.Security.Permissions.ReflectionPermissionFlag" /></permission>
         <threadsafe />
       </Docs>
     </Member>
@@ -2180,7 +2180,7 @@
         </remarks>
         <exception cref="T:System.IO.IsolatedStorage.IsolatedStorageException">The isolated store cannot be removed.</exception>
         <permission cref="T:System.Security.Permissions.IsolatedStorageFilePermission">for using isolated storage. Associated enumeration: <see cref="T:System.Security.Permissions.IsolatedStorageContainment" /></permission>
-        <permission cref="T:System.Security.Permissions.ReflectionPermission">when invoked late-bound through mechanisms such as &lt;xref:System.Type.InvokeMember%2A?displayProperty=fullName&gt;. Associated enumeration: <see cref="T:System.Security.Permissions.ReflectionPermissionFlag" /></permission>
+        <permission cref="T:System.Security.Permissions.ReflectionPermission">when invoked late-bound through mechanisms such as <see cref="System.Type.InvokeMember%2A" />. Associated enumeration: <see cref="T:System.Security.Permissions.ReflectionPermissionFlag" /></permission>
         <threadsafe />
       </Docs>
     </Member>

@@ -292,7 +292,8 @@
  An element in the <see cref="T:System.Type" /> array is <see langword="null" />.</exception>
         <exception cref="T:System.ArgumentNullException">
           <paramref name="name" /> is <see langword="null" />.</exception>
-        <exception cref="T:System.InvalidOperationException">&lt;xref:System.Reflection.Emit.ModuleBuilder.CreateGlobalFunctions%2A&gt; has been previously called.</exception>
+        <exception cref="T:System.InvalidOperationException">
+          <see cref="System.Reflection.Emit.ModuleBuilder.CreateGlobalFunctions%2A" /> has been previously called.</exception>
         <threadsafe />
       </Docs>
     </Member>
@@ -351,7 +352,8 @@
  An element in the <see cref="T:System.Type" /> array is <see langword="null" />.</exception>
         <exception cref="T:System.ArgumentNullException">
           <paramref name="name" /> is <see langword="null" />.</exception>
-        <exception cref="T:System.InvalidOperationException">&lt;xref:System.Reflection.Emit.ModuleBuilder.CreateGlobalFunctions%2A&gt; has been previously called.</exception>
+        <exception cref="T:System.InvalidOperationException">
+          <see cref="System.Reflection.Emit.ModuleBuilder.CreateGlobalFunctions%2A" /> has been previously called.</exception>
         <threadsafe />
       </Docs>
     </Member>
@@ -410,7 +412,7 @@
  An element in the <see cref="T:System.Type" /> array is <see langword="null" />.</exception>
         <exception cref="T:System.ArgumentNullException">
           <paramref name="name" /> is <see langword="null" />.</exception>
-        <exception cref="T:System.InvalidOperationException">The &lt;xref:System.Reflection.Emit.ModuleBuilder.CreateGlobalFunctions%2A&gt; method has been previously called.</exception>
+        <exception cref="T:System.InvalidOperationException">The <see cref="System.Reflection.Emit.ModuleBuilder.CreateGlobalFunctions%2A" /> method has been previously called.</exception>
         <threadsafe />
       </Docs>
     </Member>
@@ -467,7 +469,8 @@
  The size of <paramref name="data" /> is less than or equal to zero or greater than or equal to 0x3f0000.</exception>
         <exception cref="T:System.ArgumentNullException">
           <paramref name="name" /> or <paramref name="data" /> is <see langword="null" />.</exception>
-        <exception cref="T:System.InvalidOperationException">&lt;xref:System.Reflection.Emit.ModuleBuilder.CreateGlobalFunctions%2A&gt; has been previously called.</exception>
+        <exception cref="T:System.InvalidOperationException">
+          <see cref="System.Reflection.Emit.ModuleBuilder.CreateGlobalFunctions%2A" /> has been previously called.</exception>
         <threadsafe />
       </Docs>
     </Member>
@@ -534,7 +537,7 @@
  <paramref name="stream" /> is <see langword="null" />.</exception>
         <exception cref="T:System.ArgumentException">
           <paramref name="name" /> is a zero-length string.</exception>
-        <exception cref="T:System.InvalidOperationException">The dynamic assembly that contains the current module is transient; that is, no file name was specified when &lt;xref:System.Reflection.Emit.AssemblyBuilder.DefineDynamicModule%2A&gt; was called.</exception>
+        <exception cref="T:System.InvalidOperationException">The dynamic assembly that contains the current module is transient; that is, no file name was specified when <see cref="System.Reflection.Emit.AssemblyBuilder.DefineDynamicModule%2A" /> was called.</exception>
         <threadsafe />
       </Docs>
     </Member>
@@ -606,7 +609,7 @@
  The method was previously defined.</exception>
         <exception cref="T:System.ArgumentNullException">
           <paramref name="name" /> or <paramref name="dllName" /> is <see langword="null" />.</exception>
-        <exception cref="T:System.InvalidOperationException">The containing type has been previously created using &lt;xref:System.Reflection.Emit.TypeBuilder.CreateType%2A&gt;</exception>
+        <exception cref="T:System.InvalidOperationException">The containing type has been previously created using <see cref="System.Reflection.Emit.TypeBuilder.CreateType%2A" /></exception>
         <threadsafe />
       </Docs>
     </Member>
@@ -674,7 +677,7 @@
         <exception cref="T:System.ArgumentException">The method is not static or if the containing type is an interface or if the method is abstract of if the method was previously defined.</exception>
         <exception cref="T:System.ArgumentNullException">
           <paramref name="name" /> or <paramref name="dllName" /> is <see langword="null" />.</exception>
-        <exception cref="T:System.InvalidOperationException">The containing type has been previously created using &lt;xref:System.Reflection.Emit.TypeBuilder.CreateType%2A&gt;</exception>
+        <exception cref="T:System.InvalidOperationException">The containing type has been previously created using <see cref="System.Reflection.Emit.TypeBuilder.CreateType%2A" /></exception>
         <threadsafe />
       </Docs>
     </Member>
@@ -1254,7 +1257,8 @@
  <paramref name="size" /> is less than or equal to zero, or greater than or equal to 0x003f0000.</exception>
         <exception cref="T:System.ArgumentNullException">
           <paramref name="name" /> is <see langword="null" />.</exception>
-        <exception cref="T:System.InvalidOperationException">&lt;xref:System.Reflection.Emit.ModuleBuilder.CreateGlobalFunctions%2A&gt; has been previously called.</exception>
+        <exception cref="T:System.InvalidOperationException">
+          <see cref="System.Reflection.Emit.ModuleBuilder.CreateGlobalFunctions%2A" /> has been previously called.</exception>
         <threadsafe />
       </Docs>
     </Member>
@@ -3020,7 +3024,7 @@
         <param name="cNames">Count of the names to be mapped.</param>
         <param name="lcid">The locale context in which to interpret the names.</param>
         <param name="rgDispId">Caller-allocated array which receives the IDs corresponding to the names.</param>
-        <summary>For a description of this member, see &lt;xref:System.Runtime.InteropServices._ModuleBuilder.GetIDsOfNames%2A?displayProperty=fullName&gt;.</summary>
+        <summary>For a description of this member, see <see cref="System.Runtime.InteropServices._ModuleBuilder.GetIDsOfNames%2A" />.</summary>
         <remarks>
           <format type="text/markdown"><![CDATA[  
   
@@ -3057,7 +3061,7 @@
         <param name="iTInfo">The type information to return.</param>
         <param name="lcid">The locale identifier for the type information.</param>
         <param name="ppTInfo">A pointer to the requested type information object.</param>
-        <summary>For a description of this member, see &lt;xref:System.Runtime.InteropServices._ModuleBuilder.GetTypeInfo%2A?displayProperty=fullName&gt;.</summary>
+        <summary>For a description of this member, see <see cref="System.Runtime.InteropServices._ModuleBuilder.GetTypeInfo%2A" />.</summary>
         <remarks>
           <format type="text/markdown"><![CDATA[  
   
@@ -3090,7 +3094,7 @@
       </Parameters>
       <Docs>
         <param name="pcTInfo">The location that receives the number of type information interfaces provided by the object.</param>
-        <summary>For a description of this member, see &lt;xref:System.Runtime.InteropServices._ModuleBuilder.GetTypeInfoCount%2A?displayProperty=fullName&gt;.</summary>
+        <summary>For a description of this member, see <see cref="System.Runtime.InteropServices._ModuleBuilder.GetTypeInfoCount%2A" />.</summary>
         <remarks>
           <format type="text/markdown"><![CDATA[  
   
@@ -3137,7 +3141,7 @@
         <param name="pVarResult">Pointer to the location where the result is to be stored.</param>
         <param name="pExcepInfo">Pointer to a structure that contains exception information.</param>
         <param name="puArgErr">The index of the first argument that has an error.</param>
-        <summary>For a description of this member, see &lt;xref:System.Runtime.InteropServices._ModuleBuilder.Invoke%2A?displayProperty=fullName&gt;.</summary>
+        <summary>For a description of this member, see <see cref="System.Runtime.InteropServices._ModuleBuilder.Invoke%2A" />.</summary>
         <remarks>
           <format type="text/markdown"><![CDATA[  
   

@@ -1,12 +1,13 @@
 using System;
 using System.Runtime.CompilerServices;
 
-[CompilerGlobalScopeAttribute()]
+[assembly:CompilationRelaxationsAttribute(CompilationRelaxations.NoStringInterning)]
+
 class Program
 {
     static void Main(string[] args)
     {
-        Console.WriteLine("The attribute was applied.");
+        Console.WriteLine("The CompilationRelaxationsAttribute attribute was applied.");
 
     }
 }

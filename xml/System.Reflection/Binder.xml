@@ -88,7 +88,7 @@
       </Parameters>
       <Docs>
         <param name="bindingAttr">A bitwise combination of <see cref="T:System.Reflection.BindingFlags" /> values.</param>
-        <param name="match">The set of fields that are candidates for matching. For example, when a <see cref="T:System.Reflection.Binder" /> object is used by &lt;xref:System.Type.InvokeMember%2A?displayProperty=fullName&gt;, this parameter specifies the set of fields that reflection has determined to be possible matches, typically because they have the correct member name. The default implementation provided by &lt;xref:System.Type.DefaultBinder%2A?displayProperty=fullName&gt; changes the order of this array.</param>
+        <param name="match">The set of fields that are candidates for matching. For example, when a <see cref="T:System.Reflection.Binder" /> object is used by <see cref="System.Type.InvokeMember%2A" />, this parameter specifies the set of fields that reflection has determined to be possible matches, typically because they have the correct member name. The default implementation provided by <see cref="System.Type.DefaultBinder%2A" /> changes the order of this array.</param>
         <param name="value">The field value used to locate a matching field.</param>
         <param name="culture">An instance of <see cref="T:System.Globalization.CultureInfo" /> that is used to control the coercion of data types, in binder implementations that coerce types. If `culture` is <see langword="null" />, the <see cref="T:System.Globalization.CultureInfo" /> for the current thread is used.  
   
@@ -139,14 +139,14 @@
       </Parameters>
       <Docs>
         <param name="bindingAttr">A bitwise combination of <see cref="T:System.Reflection.BindingFlags" /> values.</param>
-        <param name="match">The set of methods that are candidates for matching. For example, when a <see cref="T:System.Reflection.Binder" /> object is used by &lt;xref:System.Type.InvokeMember%2A?displayProperty=fullName&gt;, this parameter specifies the set of methods that reflection has determined to be possible matches, typically because they have the correct member name. The default implementation provided by &lt;xref:System.Type.DefaultBinder%2A?displayProperty=fullName&gt; changes the order of this array.</param>
+        <param name="match">The set of methods that are candidates for matching. For example, when a <see cref="T:System.Reflection.Binder" /> object is used by <see cref="System.Type.InvokeMember%2A" />, this parameter specifies the set of methods that reflection has determined to be possible matches, typically because they have the correct member name. The default implementation provided by <see cref="System.Type.DefaultBinder%2A" /> changes the order of this array.</param>
         <param name="args">The arguments that are passed in. The binder can change the order of the arguments in this array; for example, the default binder changes the order of arguments if the `names` parameter is used to specify an order other than positional order. If a binder implementation coerces argument types, the types and values of the arguments can be changed as well.</param>
         <param name="modifiers">An array of parameter modifiers that enable binding to work with parameter signatures in which the types have been modified. The default binder implementation does not use this parameter.</param>
         <param name="culture">An instance of <see cref="T:System.Globalization.CultureInfo" /> that is used to control the coercion of data types, in binder implementations that coerce types. If `culture` is <see langword="null" />, the <see cref="T:System.Globalization.CultureInfo" /> for the current thread is used.  
   
  Note   For example, if a binder implementation allows coercion of string values to numeric types, this parameter is necessary to convert a <see langword="String" /> that represents 1000 to a <see langword="Double" /> value, because 1000 is represented differently by different cultures. The default binder does not do such string coercions.</param>
         <param name="names">The parameter names, if parameter names are to be considered when matching, or <see langword="null" /> if arguments are to be treated as purely positional. For example, parameter names must be used if arguments are not supplied in positional order.</param>
-        <param name="state">After the method returns, `state` contains a binder-provided object that keeps track of argument reordering. The binder creates this object, and the binder is the sole consumer of this object. If `state` is not <see langword="null" /> when <see langword="BindToMethod" /> returns, you must pass `state` to the &lt;xref:System.Reflection.Binder.ReorderArgumentArray%2A&gt; method if you want to restore `args` to its original order, for example, so that you can retrieve the values of <see langword="ref" /> parameters (<see langword="ByRef" /> parameters in Visual Basic).</param>
+        <param name="state">After the method returns, `state` contains a binder-provided object that keeps track of argument reordering. The binder creates this object, and the binder is the sole consumer of this object. If `state` is not <see langword="null" /> when <see langword="BindToMethod" /> returns, you must pass `state` to the <see cref="System.Reflection.Binder.ReorderArgumentArray%2A" /> method if you want to restore `args` to its original order, for example, so that you can retrieve the values of <see langword="ref" /> parameters (<see langword="ByRef" /> parameters in Visual Basic).</param>
         <summary>Selects a method to invoke from the given set of methods, based on the supplied arguments.</summary>
         <returns>The matching method.</returns>
         <remarks>
@@ -244,7 +244,7 @@
       <Docs>
         <param name="args">The actual arguments that are passed in. Both the types and values of the arguments can be changed.</param>
         <param name="state">A binder-provided object that keeps track of argument reordering.</param>
-        <summary>Upon returning from &lt;xref:System.Reflection.Binder.BindToMethod%2A&gt;, restores the <paramref name="args" /> argument to what it was when it came from <see langword="BindToMethod" />.</summary>
+        <summary>Upon returning from <see cref="System.Reflection.Binder.BindToMethod%2A" />, restores the <paramref name="args" /> argument to what it was when it came from <see langword="BindToMethod" />.</summary>
         <remarks>
           <format type="text/markdown"><![CDATA[  
   
@@ -277,7 +277,7 @@
       </Parameters>
       <Docs>
         <param name="bindingAttr">A bitwise combination of <see cref="T:System.Reflection.BindingFlags" /> values.</param>
-        <param name="match">The set of methods that are candidates for matching. For example, when a <see cref="T:System.Reflection.Binder" /> object is used by &lt;xref:System.Type.InvokeMember%2A?displayProperty=fullName&gt;, this parameter specifies the set of methods that reflection has determined to be possible matches, typically because they have the correct member name. The default implementation provided by &lt;xref:System.Type.DefaultBinder%2A?displayProperty=fullName&gt; changes the order of this array.</param>
+        <param name="match">The set of methods that are candidates for matching. For example, when a <see cref="T:System.Reflection.Binder" /> object is used by <see cref="System.Type.InvokeMember%2A" />, this parameter specifies the set of methods that reflection has determined to be possible matches, typically because they have the correct member name. The default implementation provided by <see cref="System.Type.DefaultBinder%2A" /> changes the order of this array.</param>
         <param name="types">The parameter types used to locate a matching method.</param>
         <param name="modifiers">An array of parameter modifiers that enable binding to work with parameter signatures in which the types have been modified.</param>
         <summary>Selects a method from the given set of methods, based on the argument type.</summary>
@@ -321,7 +321,7 @@
       </Parameters>
       <Docs>
         <param name="bindingAttr">A bitwise combination of <see cref="T:System.Reflection.BindingFlags" /> values.</param>
-        <param name="match">The set of properties that are candidates for matching. For example, when a <see cref="T:System.Reflection.Binder" /> object is used by &lt;xref:System.Type.InvokeMember%2A?displayProperty=fullName&gt;, this parameter specifies the set of properties that reflection has determined to be possible matches, typically because they have the correct member name. The default implementation provided by &lt;xref:System.Type.DefaultBinder%2A?displayProperty=fullName&gt; changes the order of this array.</param>
+        <param name="match">The set of properties that are candidates for matching. For example, when a <see cref="T:System.Reflection.Binder" /> object is used by <see cref="System.Type.InvokeMember%2A" />, this parameter specifies the set of properties that reflection has determined to be possible matches, typically because they have the correct member name. The default implementation provided by <see cref="System.Type.DefaultBinder%2A" /> changes the order of this array.</param>
         <param name="returnType">The return value the matching property must have.</param>
         <param name="indexes">The index types of the property being searched for. Used for index properties such as the indexer for a class.</param>
         <param name="modifiers">An array of parameter modifiers that enable binding to work with parameter signatures in which the types have been modified.</param>

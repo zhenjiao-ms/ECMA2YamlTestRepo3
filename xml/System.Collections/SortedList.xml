@@ -74,7 +74,7 @@
     </remarks>
     <threadsafe>Public static (<see langword="Shared" /> in Visual Basic) members of this type are thread safe. Any instance members are not guaranteed to be thread safe.  
   
- A SortedList object can support multiple readers concurrently, as long as the collection is not modified. To guarantee the thread safety of the SortedList, all operations must be done through the wrapper returned by the &lt;xref:System.Collections.SortedList.Synchronized%2A&gt; method.  
+ A SortedList object can support multiple readers concurrently, as long as the collection is not modified. To guarantee the thread safety of the SortedList, all operations must be done through the wrapper returned by the <see cref="System.Collections.SortedList.Synchronized%2A" /> method.  
   
  Enumerating through a collection is intrinsically not a thread-safe procedure. Even when a collection is synchronized, other threads can still modify the collection, which causes the enumerator to throw an exception. To guarantee thread safety during enumeration, you can either lock the collection during the entire enumeration or catch the exceptions resulting from changes made by other threads.</threadsafe>
   </Docs>

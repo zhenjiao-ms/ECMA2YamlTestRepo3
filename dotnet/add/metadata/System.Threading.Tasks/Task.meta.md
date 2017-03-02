@@ -39,6 +39,11 @@ internalonly: False
 ---
 
 ---
+uid: System.Threading.Tasks.Task.Run``1(System.Func{System.Threading.Tasks.Task{``0}})
+internalonly: False
+---
+
+---
 uid: System.Threading.Tasks.Task.WhenAny(System.Collections.Generic.IEnumerable{System.Threading.Tasks.Task})
 internalonly: False
 ---
@@ -50,6 +55,16 @@ internalonly: False
 
 ---
 uid: System.Threading.Tasks.Task.Wait(System.Threading.CancellationToken)
+internalonly: False
+---
+
+---
+uid: System.Threading.Tasks.Task.ContinueWith``1(System.Func{System.Threading.Tasks.Task,System.Object,``0},System.Object,System.Threading.Tasks.TaskScheduler)
+internalonly: False
+---
+
+---
+uid: System.Threading.Tasks.Task.WhenAny``1(System.Collections.Generic.IEnumerable{System.Threading.Tasks.Task{``0}})
 internalonly: False
 ---
 
@@ -84,12 +99,27 @@ internalonly: False
 ---
 
 ---
+uid: System.Threading.Tasks.Task.Run``1(System.Func{``0},System.Threading.CancellationToken)
+internalonly: False
+---
+
+---
 uid: System.Threading.Tasks.Task.Start
 internalonly: False
 ---
 
 ---
+uid: System.Threading.Tasks.Task.WhenAny``1(System.Threading.Tasks.Task{``0}[])
+internalonly: False
+---
+
+---
 uid: System.Threading.Tasks.Task.#ctor(System.Action)
+internalonly: False
+---
+
+---
+uid: System.Threading.Tasks.Task.ContinueWith``1(System.Func{System.Threading.Tasks.Task,``0},System.Threading.Tasks.TaskScheduler)
 internalonly: False
 ---
 
@@ -114,6 +144,11 @@ internalonly: False
 ---
 
 ---
+uid: System.Threading.Tasks.Task.ContinueWith``1(System.Func{System.Threading.Tasks.Task,``0},System.Threading.CancellationToken)
+internalonly: False
+---
+
+---
 uid: System.Threading.Tasks.Task.ContinueWith(System.Action{System.Threading.Tasks.Task},System.Threading.Tasks.TaskContinuationOptions)
 internalonly: False
 ---
@@ -134,6 +169,11 @@ internalonly: False
 ---
 
 ---
+uid: System.Threading.Tasks.Task.ContinueWith``1(System.Func{System.Threading.Tasks.Task,System.Object,``0},System.Object,System.Threading.CancellationToken)
+internalonly: False
+---
+
+---
 uid: System.Threading.Tasks.Task.WhenAll(System.Threading.Tasks.Task[])
 internalonly: False
 ---
@@ -149,7 +189,17 @@ internalonly: False
 ---
 
 ---
+uid: System.Threading.Tasks.Task.ContinueWith``1(System.Func{System.Threading.Tasks.Task,``0},System.Threading.Tasks.TaskContinuationOptions)
+internalonly: False
+---
+
+---
 uid: System.Threading.Tasks.Task.IsCompleted
+internalonly: False
+---
+
+---
+uid: System.Threading.Tasks.Task.ContinueWith``1(System.Func{System.Threading.Tasks.Task,System.Object,``0},System.Object,System.Threading.Tasks.TaskContinuationOptions)
 internalonly: False
 ---
 
@@ -169,7 +219,17 @@ internalonly: False
 ---
 
 ---
+uid: System.Threading.Tasks.Task.ContinueWith``1(System.Func{System.Threading.Tasks.Task,System.Object,``0},System.Object,System.Threading.CancellationToken,System.Threading.Tasks.TaskContinuationOptions,System.Threading.Tasks.TaskScheduler)
+internalonly: False
+---
+
+---
 uid: System.Threading.Tasks.Task.IsCanceled
+internalonly: False
+---
+
+---
+uid: System.Threading.Tasks.Task.ContinueWith``1(System.Func{System.Threading.Tasks.Task,System.Object,``0},System.Object)
 internalonly: False
 ---
 
@@ -185,6 +245,21 @@ internalonly: False
 
 ---
 uid: System.Threading.Tasks.Task.ContinueWith(System.Action{System.Threading.Tasks.Task,System.Object},System.Object,System.Threading.Tasks.TaskScheduler)
+internalonly: False
+---
+
+---
+uid: System.Threading.Tasks.Task.Run``1(System.Func{``0})
+internalonly: False
+---
+
+---
+uid: System.Threading.Tasks.Task.ContinueWith``1(System.Func{System.Threading.Tasks.Task,``0},System.Threading.CancellationToken,System.Threading.Tasks.TaskContinuationOptions,System.Threading.Tasks.TaskScheduler)
+internalonly: False
+---
+
+---
+uid: System.Threading.Tasks.Task.WhenAll``1(System.Collections.Generic.IEnumerable{System.Threading.Tasks.Task{``0}})
 internalonly: False
 ---
 
@@ -249,6 +324,11 @@ internalonly: False
 ---
 
 ---
+uid: System.Threading.Tasks.Task.Run``1(System.Func{System.Threading.Tasks.Task{``0}},System.Threading.CancellationToken)
+internalonly: False
+---
+
+---
 uid: System.Threading.Tasks.Task.CurrentId
 internalonly: False
 ---
@@ -284,7 +364,17 @@ internalonly: False
 ---
 
 ---
+uid: System.Threading.Tasks.Task.ContinueWith``1(System.Func{System.Threading.Tasks.Task,``0})
+internalonly: False
+---
+
+---
 uid: System.Threading.Tasks.Task.WaitAll(System.Threading.Tasks.Task[],System.TimeSpan)
+internalonly: False
+---
+
+---
+uid: System.Threading.Tasks.Task.WhenAll``1(System.Threading.Tasks.Task{``0}[])
 internalonly: False
 ---
 
@@ -300,6 +390,11 @@ internalonly: False
 
 ---
 uid: System.Threading.Tasks.Task.ConfigureAwait(System.Boolean)
+internalonly: False
+---
+
+---
+uid: System.Threading.Tasks.Task.FromResult``1(``0)
 internalonly: False
 ---
 

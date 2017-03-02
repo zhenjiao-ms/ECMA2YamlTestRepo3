@@ -17,7 +17,7 @@
     </Attribute>
   </Attributes>
   <Docs>
-    <summary>The exception that is thrown by the &lt;xref:System.Reflection.Module.GetTypes%2A?displayProperty=fullName&gt; method if any of the classes in a module cannot be loaded. This class cannot be inherited.</summary>
+    <summary>The exception that is thrown by the <see cref="System.Reflection.Module.GetTypes%2A" /> method if any of the classes in a module cannot be loaded. This class cannot be inherited.</summary>
     <remarks>
       <format type="text/markdown"><![CDATA[  
   
@@ -127,7 +127,7 @@
       </ReturnValue>
       <Docs>
         <summary>Gets the array of exceptions thrown by the class loader.</summary>
-        <value>An array of type <see langword="Exception" /> containing the exceptions thrown by the class loader. The null values in the &lt;xref:System.Reflection.ReflectionTypeLoadException.Types%2A&gt; array of this instance line up with the exceptions in this array.</value>
+        <value>An array of type <see langword="Exception" /> containing the exceptions thrown by the class loader. The null values in the <see cref="System.Reflection.ReflectionTypeLoadException.Types%2A" /> array of this instance line up with the exceptions in this array.</value>
         <remarks>
           <format type="text/markdown"><![CDATA[  
   
