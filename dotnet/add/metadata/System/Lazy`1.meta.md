@@ -14,6 +14,11 @@ internalonly: False
 ---
 
 ---
+uid: System.Lazy`1.#ctor(System.Func{`0},System.Threading.LazyThreadSafetyMode)
+internalonly: False
+---
+
+---
 uid: System.Lazy`1.ToString
 internalonly: False
 ---
@@ -35,5 +40,10 @@ internalonly: False
 
 ---
 uid: System.Lazy`1.IsValueCreated
+internalonly: False
+---
+
+---
+uid: System.Lazy`1.#ctor(System.Threading.LazyThreadSafetyMode)
 internalonly: False
 ---

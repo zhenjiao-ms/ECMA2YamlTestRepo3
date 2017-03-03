@@ -1,60 +1,18 @@
-Imports System
-Imports System.Collections.Generic
-
-Public Class Example
-
-    Public Shared Sub Main()
-
-        Dim dinosaurs As New List(Of String)
-
-        dinosaurs.Add("Pachycephalosaurus")
-        dinosaurs.Add("Parasauralophus")
-        dinosaurs.Add("Mamenchisaurus")
-        dinosaurs.Add("Amargasaurus")
-        dinosaurs.Add("Coelophysis")
-        dinosaurs.Add("Oviraptor")
-
-        Console.WriteLine()
-        For Each dinosaur As String In dinosaurs
-            Console.WriteLine(dinosaur)
-        Next
-
-        dinosaurs.Reverse()
-
-        Console.WriteLine()
-        For Each dinosaur As String In dinosaurs
-            Console.WriteLine(dinosaur)
-        Next
-
-        dinosaurs.Reverse(1, 4)
-
-        Console.WriteLine()
-        For Each dinosaur As String In dinosaurs
-            Console.WriteLine(dinosaur)
-        Next
-
-    End Sub
-End Class
-
-' This code example produces the following output:
-'
-'Pachycephalosaurus
-'Parasauralophus
-'Mamenchisaurus
-'Amargasaurus
-'Coelophysis
-'Oviraptor
-'
-'Oviraptor
-'Coelophysis
-'Amargasaurus
-'Mamenchisaurus
-'Parasauralophus
-'Pachycephalosaurus
-'
-'Oviraptor
-'Parasauralophus
-'Mamenchisaurus
-'Amargasaurus
-'Coelophysis
-'Pachycephalosaurus
+        ' Create a new dictionary of strings, with string keys.
+        '
+        Dim openWith As New Dictionary(Of String, String)
+        
+        ' Add some elements to the dictionary. There are no 
+        ' duplicate keys, but some of the values are duplicates.
+        openWith.Add("txt", "notepad.exe")
+        openWith.Add("bmp", "paint.exe")
+        openWith.Add("dib", "paint.exe")
+        openWith.Add("rtf", "wordpad.exe")
+        
+        ' The Add method throws an exception if the new key is 
+        ' already in the dictionary.
+        Try
+            openWith.Add("txt", "winword.exe")
+        Catch 
+            Console.WriteLine("An element with Key = ""txt"" already exists.")
+        End Try

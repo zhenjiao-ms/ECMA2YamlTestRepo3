@@ -1,12 +1,11 @@
-    static bool pleaseThrow = true;
-    public LargeObject()
+    static int instanceCount = 0;
+    static LargeObject InitLargeObject()
     {
-        if (pleaseThrow)
+        if (1 == Interlocked.Increment(ref instanceCount))
         {
-            pleaseThrow = false;
-            throw new ApplicationException("Throw only ONCE.");
+            throw new ApplicationException(
+                String.Format("Lazy initialization function failed on thread {0}.",
+                Thread.CurrentThread.ManagedThreadId));
         }
-
-        Console.WriteLine("LargeObject was created on thread id {0}.", 
-            Thread.CurrentThread.ManagedThreadId);
+        return new LargeObject(Thread.CurrentThread.ManagedThreadId);
     }

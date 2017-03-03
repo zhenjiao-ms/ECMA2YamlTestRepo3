@@ -4,6 +4,11 @@ internalonly: False
 ---
 
 ---
+uid: System.TimeZoneInfo.CreateCustomTimeZone(System.String,System.TimeSpan,System.String,System.String,System.String,System.TimeZoneInfo.AdjustmentRule[])
+internalonly: False
+---
+
+---
 uid: System.TimeZoneInfo.GetHashCode
 internalonly: False
 ---
@@ -60,6 +65,11 @@ internalonly: False
 
 ---
 uid: System.TimeZoneInfo.ConvertTime(System.DateTime,System.TimeZoneInfo)
+internalonly: False
+---
+
+---
+uid: System.TimeZoneInfo.CreateCustomTimeZone(System.String,System.TimeSpan,System.String,System.String,System.String,System.TimeZoneInfo.AdjustmentRule[],System.Boolean)
 internalonly: False
 ---
 

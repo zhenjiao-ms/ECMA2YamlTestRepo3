@@ -1,27 +1,22 @@
-// This class is not demonstrated in the Main method
-// and is provided only to show how to implement
-// the interface. It is recommended to derive
-// from Comparer<T> instead of implementing IComparer<T>.
-public class BoxComp : IComparer<Box>
-{
-    // Compares by Height, Length, and Width.
-    public int Compare(Box x, Box y)
-    {
-        if (x.Height.CompareTo(y.Height) != 0)
+        // Create a new dictionary of strings, with string keys.
+        //
+        Dictionary<string, string> openWith = 
+            new Dictionary<string, string>();
+
+        // Add some elements to the dictionary. There are no 
+        // duplicate keys, but some of the values are duplicates.
+        openWith.Add("txt", "notepad.exe");
+        openWith.Add("bmp", "paint.exe");
+        openWith.Add("dib", "paint.exe");
+        openWith.Add("rtf", "wordpad.exe");
+
+        // The Add method throws an exception if the new key is 
+        // already in the dictionary.
+        try
         {
-            return x.Height.CompareTo(y.Height);
+            openWith.Add("txt", "winword.exe");
         }
-        else if (x.Length.CompareTo(y.Length) != 0)
+        catch (ArgumentException)
         {
-            return x.Length.CompareTo(y.Length);
+            Console.WriteLine("An element with Key = \"txt\" already exists.");
         }
-        else if (x.Width.CompareTo(y.Width) != 0)
-        {
-            return x.Width.CompareTo(y.Width);
-        }
-        else
-        {
-            return 0;
-        }
-    }
-}

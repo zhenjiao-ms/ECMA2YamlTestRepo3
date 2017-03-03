@@ -24,6 +24,11 @@ internalonly: False
 ---
 
 ---
+uid: System.TimeZoneInfo.TransitionTime.op_Equality(System.TimeZoneInfo.TransitionTime,System.TimeZoneInfo.TransitionTime)
+internalonly: False
+---
+
+---
 uid: System.TimeZoneInfo.TransitionTime.Week
 internalonly: False
 ---
@@ -35,6 +40,11 @@ internalonly: False
 
 ---
 uid: System.TimeZoneInfo.TransitionTime.System#Runtime#Serialization#IDeserializationCallback#OnDeserialization(System.Object)
+internalonly: False
+---
+
+---
+uid: System.TimeZoneInfo.TransitionTime.op_Inequality(System.TimeZoneInfo.TransitionTime,System.TimeZoneInfo.TransitionTime)
 internalonly: False
 ---
 
@@ -55,6 +65,11 @@ internalonly: False
 
 ---
 uid: System.TimeZoneInfo.TransitionTime.IsFixedDateRule
+internalonly: False
+---
+
+---
+uid: System.TimeZoneInfo.TransitionTime.Equals(System.TimeZoneInfo.TransitionTime)
 internalonly: False
 ---
 

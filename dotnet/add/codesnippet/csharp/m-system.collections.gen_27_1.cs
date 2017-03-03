@@ -1,95 +1,61 @@
 using System;
 using System.Collections.Generic;
 
-public class Example
+public class Employee : IComparable
 {
-    public static void Main()
-    {
-        List<string> dinosaurs = new List<string>();
+   public String Name { get; set; }
+   public int Id { get; set; }
 
-        dinosaurs.Add("Compsognathus");
-        dinosaurs.Add("Amargasaurus");
-        dinosaurs.Add("Oviraptor");
-        dinosaurs.Add("Velociraptor");
-        dinosaurs.Add("Deinonychus");
-        dinosaurs.Add("Dilophosaurus");
-        dinosaurs.Add("Gallimimus");
-        dinosaurs.Add("Triceratops");
+   public int CompareTo(Object o )
+   {
+      Employee e = o as Employee;
+      if (e == null)
+         throw new ArgumentException("o is not an Employee object.");
 
-        Console.WriteLine();
-        foreach(string dinosaur in dinosaurs)
-        {
-            Console.WriteLine(dinosaur);
-        }
-
-        Console.WriteLine("\nTrueForAll(EndsWithSaurus): {0}",
-            dinosaurs.TrueForAll(EndsWithSaurus));
-
-        Console.WriteLine("\nFind(EndsWithSaurus): {0}", 
-            dinosaurs.Find(EndsWithSaurus));
-
-        Console.WriteLine("\nFindLast(EndsWithSaurus): {0}",
-            dinosaurs.FindLast(EndsWithSaurus));
-
-        Console.WriteLine("\nFindAll(EndsWithSaurus):");
-        List<string> sublist = dinosaurs.FindAll(EndsWithSaurus);
-
-        foreach(string dinosaur in sublist)
-        {
-            Console.WriteLine(dinosaur);
-        }
-
-        Console.WriteLine(
-            "\n{0} elements removed by RemoveAll(EndsWithSaurus).", 
-            dinosaurs.RemoveAll(EndsWithSaurus));
-
-        Console.WriteLine("\nList now contains:");
-        foreach(string dinosaur in dinosaurs)
-        {
-            Console.WriteLine(dinosaur);
-        }
-
-        Console.WriteLine("\nExists(EndsWithSaurus): {0}", 
-            dinosaurs.Exists(EndsWithSaurus));
-    }
-
-    // Search predicate returns true if a string ends in "saurus".
-    private static bool EndsWithSaurus(String s)
-    {
-        return s.ToLower().EndsWith("saurus");
-    }
+      return Name.CompareTo(e.Name);
+   }
 }
 
-/* This code example produces the following output:
+public class EmployeeSearch
+{
+   String _s;
 
-Compsognathus
-Amargasaurus
-Oviraptor
-Velociraptor
-Deinonychus
-Dilophosaurus
-Gallimimus
-Triceratops
+   public EmployeeSearch(String s)
+   {
+      _s = s;
+   }
 
-TrueForAll(EndsWithSaurus): False
+   public bool StartsWith(Employee e)
+   {
+      return e.Name.StartsWith(_s, StringComparison.InvariantCultureIgnoreCase);
+   }
+}
 
-Find(EndsWithSaurus): Amargasaurus
+public class Example
+{
+   public static void Main()
+   {
+      var employees = new List<Employee>();
+      employees.AddRange( new Employee[] { new Employee { Name = "Frank", Id = 2 },
+                                           new Employee { Name = "Jill", Id = 3 },
+                                           new Employee { Name = "Dave", Id = 5 },
+                                           new Employee { Name = "Jack", Id = 8 },
+                                           new Employee { Name = "Judith", Id = 12 },
+                                           new Employee { Name = "Robert", Id = 14 },
+                                           new Employee { Name = "Adam", Id = 1 } } );
+      employees.Sort();
 
-FindLast(EndsWithSaurus): Dilophosaurus
+      var es = new EmployeeSearch("J");
+      int index = employees.FindIndex(4, es.StartsWith);        
+      Console.WriteLine("Starting index of'J': {0}",
+                        index >= 0 ? index.ToString() : "Not found");
 
-FindAll(EndsWithSaurus):
-Amargasaurus
-Dilophosaurus
-
-2 elements removed by RemoveAll(EndsWithSaurus).
-
-List now contains:
-Compsognathus
-Oviraptor
-Velociraptor
-Deinonychus
-Gallimimus
-Triceratops
-
-Exists(EndsWithSaurus): False
- */
+      es = new EmployeeSearch("Ju");
+      index = employees.FindIndex(4, es.StartsWith);        
+      Console.WriteLine("Starting index of 'Ju': {0}",
+                        index >= 0 ? index.ToString() : "Not found");
+   }
+}
+// The example displays the following output:
+//       'J' starts at index 4
+//       'Ju' starts at index 5

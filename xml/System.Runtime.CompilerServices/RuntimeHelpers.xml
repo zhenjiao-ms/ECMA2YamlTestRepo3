@@ -138,11 +138,19 @@
         <Parameter Name="userData" Type="System.Object" />
       </Parameters>
       <Docs>
-        <param name="code">To be added.</param>
-        <param name="backoutCode">To be added.</param>
-        <param name="userData">To be added.</param>
-        <summary>To be added.</summary>
-        <remarks>To be added.</remarks>
+        <param name="code">A delegate to the code to try.</param>
+        <param name="backoutCode">A delegate to the code to run if an exception occurs.</param>
+        <param name="userData">The data to pass to `code` and `backoutCode`.</param>
+        <summary>Executes code using a <see cref="T:System.Delegate" /> while using another <see cref="T:System.Delegate" /> to execute additional code in case of an exception.</summary>
+        <remarks>
+          <format type="text/markdown"><![CDATA[  
+  
+## Remarks  
+ This method is used by compilers.  
+  
+ ]]></format>
+        </remarks>
+        <permission cref="T:System.Security.SecurityCriticalAttribute">requires full trust for the immediate caller. This member cannot be used by partially trusted or transparent code.</permission>
       </Docs>
     </Member>
     <Member MemberName="GetHashCode">

@@ -41,11 +41,18 @@
       </Parameters>
       <Docs>
         <typeparam name="T">To be added.</typeparam>
-        <param name="addMethod">To be added.</param>
-        <param name="removeMethod">To be added.</param>
-        <param name="handler">To be added.</param>
-        <summary>To be added.</summary>
+        <param name="addMethod">A delegate that represents the method that adds event handlers to the [!INCLUDE[wrt](~/add/includes/wrt-md.md)] event.</param>
+        <param name="removeMethod">A delegate that represents the method that removes event handlers from the [!INCLUDE[wrt](~/add/includes/wrt-md.md)] event.</param>
+        <param name="handler">A delegate the represents the event handler that is added.</param>
+        <summary>Adds the specified event handler to a [!INCLUDE[wrt](~/add/includes/wrt-md.md)] event.</summary>
         <remarks>To be added.</remarks>
+        <exception cref="T:System.ArgumentNullException">
+          <paramref name="addMethod" /> is <see langword="null" />.  
+  
+ -or-  
+  
+ <paramref name="removeMethod" /> is <see langword="null" />.</exception>
+        <permission cref="T:System.Security.SecurityCriticalAttribute">requires full trust for the immediate caller. This member cannot be used by partially trusted or transparent code.</permission>
       </Docs>
     </Member>
     <Member MemberName="FreeHString">
@@ -203,10 +210,13 @@
       </Parameters>
       <Docs>
         <typeparam name="T">To be added.</typeparam>
-        <param name="removeMethod">To be added.</param>
-        <param name="handler">To be added.</param>
-        <summary>To be added.</summary>
+        <param name="removeMethod">A delegate that represents the method that removes event handlers from the [!INCLUDE[wrt](~/add/includes/wrt-md.md)] event.</param>
+        <param name="handler">The event handler that is removed.</param>
+        <summary>Removes the specified event handler from a [!INCLUDE[wrt](~/add/includes/wrt-md.md)] event.</summary>
         <remarks>To be added.</remarks>
+        <exception cref="T:System.ArgumentNullException">
+          <paramref name="removeMethod" /> is <see langword="null" />.</exception>
+        <permission cref="T:System.Security.SecurityCriticalAttribute">requires full trust for the immediate caller. This member cannot be used by partially trusted or transparent code.</permission>
       </Docs>
     </Member>
     <Member MemberName="StringToHString">

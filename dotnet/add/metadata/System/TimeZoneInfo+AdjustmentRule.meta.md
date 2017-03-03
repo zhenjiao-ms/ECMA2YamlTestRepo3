@@ -39,6 +39,16 @@ internalonly: False
 ---
 
 ---
+uid: System.TimeZoneInfo.AdjustmentRule.CreateAdjustmentRule(System.DateTime,System.DateTime,System.TimeSpan,System.TimeZoneInfo.TransitionTime,System.TimeZoneInfo.TransitionTime)
+internalonly: False
+---
+
+---
 uid: System.TimeZoneInfo.AdjustmentRule.DaylightTransitionStart
+internalonly: False
+---
+
+---
+uid: System.TimeZoneInfo.AdjustmentRule.Equals(System.TimeZoneInfo.AdjustmentRule)
 internalonly: False
 ---

@@ -1,39 +1,67 @@
 using System;
 using System.Collections.Generic;
 
-class Program
+public class Example
 {
-    static void Main()
+    public static void Main()
     {
-        List<String> names = new List<String>();
-        names.Add("Bruce");
-        names.Add("Alfred");
-        names.Add("Tim");
-        names.Add("Richard");
+        List<string> dinosaurs = new List<string>(4);
 
-        // Display the contents of the list using the Print method.
-        names.ForEach(Print);
+        Console.WriteLine("\nCapacity: {0}", dinosaurs.Capacity);
 
-        // The following demonstrates the anonymous method feature of C#
-        // to display the contents of the list to the console.
-        names.ForEach(delegate(String name)
+        dinosaurs.Add("Tyrannosaurus");
+        dinosaurs.Add("Amargasaurus");
+        dinosaurs.Add("Mamenchisaurus");
+        dinosaurs.Add("Deinonychus");
+
+        Console.WriteLine();
+        foreach(string s in dinosaurs)
         {
-            Console.WriteLine(name);
-        });
-    }
+            Console.WriteLine(s);
+        }
 
-    private static void Print(string s)
-    {
-        Console.WriteLine(s);
+        Console.WriteLine("\nIList<string> roDinosaurs = dinosaurs.AsReadOnly()");
+        IList<string> roDinosaurs = dinosaurs.AsReadOnly();
+
+        Console.WriteLine("\nElements in the read-only IList:");
+        foreach(string dinosaur in roDinosaurs)
+        {
+            Console.WriteLine(dinosaur);
+        }
+
+        Console.WriteLine("\ndinosaurs[2] = \"Coelophysis\"");
+        dinosaurs[2] = "Coelophysis";
+
+        Console.WriteLine("\nElements in the read-only IList:");
+        foreach(string dinosaur in roDinosaurs)
+        {
+            Console.WriteLine(dinosaur);
+        }
     }
 }
-/* This code will produce output similar to the following:
- * Bruce
- * Alfred
- * Tim
- * Richard
- * Bruce
- * Alfred
- * Tim
- * Richard
+
+/* This code example produces the following output:
+
+Capacity: 4
+
+Tyrannosaurus
+Amargasaurus
+Mamenchisaurus
+Deinonychus
+
+IList<string> roDinosaurs = dinosaurs.AsReadOnly()
+
+Elements in the read-only IList:
+Tyrannosaurus
+Amargasaurus
+Mamenchisaurus
+Deinonychus
+
+dinosaurs[2] = "Coelophysis"
+
+Elements in the read-only IList:
+Tyrannosaurus
+Amargasaurus
+Coelophysis
+Deinonychus
  */

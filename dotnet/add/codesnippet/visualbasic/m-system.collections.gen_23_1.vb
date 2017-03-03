@@ -5,48 +5,94 @@ Public Class Example
 
     Public Shared Sub Main()
 
-        Dim dinosaurs As New List(Of String)
+        Dim input() As String = { "Brachiosaurus", _
+                                  "Amargasaurus", _
+                                  "Mamenchisaurus" }
 
-        dinosaurs.Add("Tyrannosaurus")
-        dinosaurs.Add("Amargasaurus")
-        dinosaurs.Add("Mamenchisaurus")
-        dinosaurs.Add("Brachiosaurus")
-        dinosaurs.Add("Deinonychus")
-        dinosaurs.Add("Tyrannosaurus")
-        dinosaurs.Add("Compsognathus")
+        Dim dinosaurs As New List(Of String)(input)
+
+        Console.WriteLine(vbLf & "Capacity: {0}", dinosaurs.Capacity)
 
         Console.WriteLine()
         For Each dinosaur As String In dinosaurs
             Console.WriteLine(dinosaur)
         Next
 
-        Console.WriteLine(vbLf & _
-            "LastIndexOf(""Tyrannosaurus""): {0}", _
-            dinosaurs.LastIndexOf("Tyrannosaurus"))
+        Console.WriteLine(vbLf & "AddRange(dinosaurs)")
+        dinosaurs.AddRange(dinosaurs)
 
-        Console.WriteLine(vbLf & _
-            "LastIndexOf(""Tyrannosaurus"", 3): {0}", _
-            dinosaurs.LastIndexOf("Tyrannosaurus", 3))
+        Console.WriteLine()
+        For Each dinosaur As String In dinosaurs
+            Console.WriteLine(dinosaur)
+        Next
 
-        Console.WriteLine(vbLf & _
-            "LastIndexOf(""Tyrannosaurus"", 4, 4): {0}", _
-            dinosaurs.LastIndexOf("Tyrannosaurus", 4, 4))
+        Console.WriteLine(vbLf & "RemoveRange(2, 2)")
+        dinosaurs.RemoveRange(2, 2)
+
+        Console.WriteLine()
+        For Each dinosaur As String In dinosaurs
+            Console.WriteLine(dinosaur)
+        Next
+
+        input = New String() { "Tyrannosaurus", _
+                               "Deinonychus", _
+                               "Velociraptor" }
+
+        Console.WriteLine(vbLf & "InsertRange(3, input)")
+        dinosaurs.InsertRange(3, input)
+
+        Console.WriteLine()
+        For Each dinosaur As String In dinosaurs
+            Console.WriteLine(dinosaur)
+        Next
+
+        Console.WriteLine(vbLf & "output = dinosaurs.GetRange(2, 3).ToArray")
+        Dim output() As String = dinosaurs.GetRange(2, 3).ToArray()
+        
+        Console.WriteLine()
+        For Each dinosaur As String In output
+            Console.WriteLine(dinosaur)
+        Next
 
     End Sub
 End Class
 
 ' This code example produces the following output:
 '
-'Tyrannosaurus
+'Capacity: 3
+'
+'Brachiosaurus
+'Amargasaurus
+'Mamenchisaurus
+'
+'AddRange(dinosaurs)
+'
+'Brachiosaurus
 'Amargasaurus
 'Mamenchisaurus
 'Brachiosaurus
-'Deinonychus
+'Amargasaurus
+'Mamenchisaurus
+'
+'RemoveRange(2, 2)
+'
+'Brachiosaurus
+'Amargasaurus
+'Amargasaurus
+'Mamenchisaurus
+'
+'InsertRange(3, input)
+'
+'Brachiosaurus
+'Amargasaurus
+'Amargasaurus
 'Tyrannosaurus
-'Compsognathus
+'Deinonychus
+'Velociraptor
+'Mamenchisaurus
 '
-'LastIndexOf("Tyrannosaurus"): 5
+'output = dinosaurs.GetRange(2, 3).ToArray
 '
-'LastIndexOf("Tyrannosaurus", 3): 0
-'
-'LastIndexOf("Tyrannosaurus", 4, 4): -1
+'Amargasaurus
+'Tyrannosaurus
+'Deinonychus

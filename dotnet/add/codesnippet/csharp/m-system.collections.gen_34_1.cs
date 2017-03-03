@@ -1,50 +1,59 @@
 using System;
 using System.Collections.Generic;
 
-public class Example
+public class Employee : IComparable
 {
-    public static void Main()
-    {
-        List<string> dinosaurs = new List<string>();
+   public String Name { get; set; }
+   public int Id { get; set; }
 
-        dinosaurs.Add("Tyrannosaurus");
-        dinosaurs.Add("Amargasaurus");
-        dinosaurs.Add("Mamenchisaurus");
-        dinosaurs.Add("Brachiosaurus");
-        dinosaurs.Add("Deinonychus");
-        dinosaurs.Add("Tyrannosaurus");
-        dinosaurs.Add("Compsognathus");
+   public int CompareTo(Object o )
+   {
+      Employee e = o as Employee;
+      if (e == null)
+         throw new ArgumentException("o is not an Employee object.");
 
-        Console.WriteLine();
-        foreach(string dinosaur in dinosaurs)
-        {
-            Console.WriteLine(dinosaur);
-        }
-
-        Console.WriteLine("\nIndexOf(\"Tyrannosaurus\"): {0}", 
-            dinosaurs.IndexOf("Tyrannosaurus"));
-
-        Console.WriteLine("\nIndexOf(\"Tyrannosaurus\", 3): {0}", 
-            dinosaurs.IndexOf("Tyrannosaurus", 3));
-
-        Console.WriteLine("\nIndexOf(\"Tyrannosaurus\", 2, 2): {0}", 
-            dinosaurs.IndexOf("Tyrannosaurus", 2, 2));
-    }
+      return Name.CompareTo(e.Name);
+   }
 }
 
-/* This code example produces the following output:
+public class EmployeeSearch
+{
+   String _s;
 
-Tyrannosaurus
-Amargasaurus
-Mamenchisaurus
-Brachiosaurus
-Deinonychus
-Tyrannosaurus
-Compsognathus
+   public EmployeeSearch(String s)
+   {
+      _s = s;
+   }
 
-IndexOf("Tyrannosaurus"): 0
+   public bool StartsWith(Employee e)
+   {
+      return e.Name.StartsWith(_s, StringComparison.InvariantCultureIgnoreCase);
+   }
+}
 
-IndexOf("Tyrannosaurus", 3): 5
+public class Example
+{
+   public static void Main()
+   {
+      var employees = new List<Employee>();
+      employees.AddRange( new Employee[] { new Employee { Name = "Frank", Id = 2 },
+                                           new Employee { Name = "Jill", Id = 3 },
+                                           new Employee { Name = "Dave", Id = 5 },
+                                           new Employee { Name = "Jack", Id = 8 },
+                                           new Employee { Name = "Judith", Id = 12 },
+                                           new Employee { Name = "Robert", Id = 14 },
+                                           new Employee { Name = "Adam", Id = 1 } } );
+      employees.Sort();
 
-IndexOf("Tyrannosaurus", 2, 2): -1
- */
+      var es = new EmployeeSearch("J");
+      Console.WriteLine("'J' starts at index {0}",
+                        employees.FindIndex(es.StartsWith));
+
+      es = new EmployeeSearch("Ju");
+      Console.WriteLine("'Ju' starts at index {0}",
+                        employees.FindIndex(es.StartsWith));
+   }
+}
+// The example displays the following output:
+//       'J' starts at index 3
+//       'Ju' starts at index 5

@@ -51,9 +51,16 @@
         <Parameter Name="modes" Type="System.Diagnostics.DebuggableAttribute+DebuggingModes" />
       </Parameters>
       <Docs>
-        <param name="modes">To be added.</param>
-        <summary>To be added.</summary>
-        <remarks>To be added.</remarks>
+        <param name="modes">A bitwise combination of the <see cref="T:System.Diagnostics.DebuggableAttribute.DebuggingModes" /> values specifying the debugging mode for the JIT compiler.</param>
+        <summary>Initializes a new instance of the <see cref="T:System.Diagnostics.DebuggableAttribute" /> class, using the specified debugging modes for the just-in-time (JIT) compiler.</summary>
+        <remarks>
+          <format type="text/markdown"><![CDATA[  
+  
+## Remarks  
+ Calling the DebuggableAttribute constructor with a `modes` parameter value of <xref:System.Diagnostics.DebuggableAttribute.DebuggingModes> is equivalent to calling the <xref:System.Diagnostics.DebuggableAttribute.%23ctor%28System.Boolean%2CSystem.Boolean%29> constructor with an `isJITTrackingEnabled` parameter value of `true`.  
+  
+ ]]></format>
+        </remarks>
       </Docs>
     </Member>
     <Member MemberName=".ctor">

@@ -240,11 +240,33 @@
         <Parameter Name="createValueCallback" Type="System.Runtime.CompilerServices.ConditionalWeakTable&lt;TKey,TValue&gt;+CreateValueCallback" />
       </Parameters>
       <Docs>
-        <param name="key">To be added.</param>
-        <param name="createValueCallback">To be added.</param>
-        <summary>To be added.</summary>
-        <returns>To be added.</returns>
-        <remarks>To be added.</remarks>
+        <param name="key">The key to search for. `key` represents the object to which the property is attached.</param>
+        <param name="createValueCallback">A delegate to a method that can create a value for the given `key`. It has a single parameter of type `TKey`, and returns a value of type `TValue`.</param>
+        <summary>Atomically searches for a specified key in the table and returns the corresponding value. If the key does not exist in the table, the method invokes a callback method to create a value that is bound to the specified key.</summary>
+        <returns>The value attached to <paramref name="key" />, if <paramref name="key" /> already exists in the table; otherwise, the new value returned by the <paramref name="createValueCallback" /> delegate.</returns>
+        <remarks>
+          <format type="text/markdown"><![CDATA[  
+  
+## Remarks  
+ If `key` does not exist in the table, GetValue invokes the method that is defined by the `createValueCallback` parameter and passes it the key. A new value is bound to the key in the table and returned as a result.  
+  
+ Use this method only when the class that represents the table's value does not define a default constructor. If it does define a default constructor, use the <xref:System.Runtime.CompilerServices.ConditionalWeakTable%602.GetOrCreateValue%2A> method instead. To retrieve the value of an existing key without adding the key/value pair if the key is not found in the table, call the <xref:System.Runtime.CompilerServices.ConditionalWeakTable%602.TryGetValue%2A> method.  
+  
+ If multiple threads try to create the same key, `createValueCallback` may be invoked multiple times with the same key. Only one of these calls will succeed, and its returned value will be added to the table. Which thread succeeds in creating the value is indeterminate. This rule permits the table to invoke `createValueCallback` outside the internal table lock to prevent deadlocks.  
+  
+   
+  
+## Examples  
+ The following example defines a `MainClass` class and a `MainInfo` class, which provides information about the `MainClass` instance. It also defines a static (`Shared` in Visual Basic) `CreateAttachedValue` method that can be assigned to the <xref:System.Runtime.CompilerServices.ConditionalWeakTable%602.CreateValueCallback> delegate and passed to the GetValue method. The example calls the GetValue method to add a `MainClass` object and its attached `MainInfo` object to a <xref:System.Runtime.CompilerServices.ConditionalWeakTable%602> table. The example also illustrates calls to the <xref:System.Runtime.CompilerServices.ConditionalWeakTable%602.Add%2A> and <xref:System.Runtime.CompilerServices.ConditionalWeakTable%602.GetOrCreateValue%2A> methods to add key/value pairs to the table, and to the <xref:System.Runtime.CompilerServices.ConditionalWeakTable%602.TryGetValue%2A> method to retrieve the value of an existing key.  
+  
+ [!code-vb[System.Runtime.CompilerServices.ConditionalWeakTable.GetValue#1](~/add/codesnippet/visualbasic/81db18e1-f021-44af-afa3-_1.vb)]
+ [!code-cs[System.Runtime.CompilerServices.ConditionalWeakTable.GetValue#1](~/add/codesnippet/csharp/81db18e1-f021-44af-afa3-_1.cs)]  
+  
+ ]]></format>
+        </remarks>
+        <exception cref="T:System.ArgumentNullException">
+          <paramref name="key" /> or <paramref name="createValueCallback" /> is <see langword="null" />.</exception>
+        <permission cref="T:System.Security.SecurityCriticalAttribute">requires full trust for the immediate caller. This member cannot be used by partially trusted or transparent code.</permission>
       </Docs>
     </Member>
     <Member MemberName="Remove">

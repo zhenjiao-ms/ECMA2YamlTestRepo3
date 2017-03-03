@@ -1,10 +1,9 @@
-    Private Shared pleaseThrow As Boolean = True
-    Public Sub New()
-        If pleaseThrow Then
-            pleaseThrow = False
-            Throw New ApplicationException("Throw only ONCE.")
+    Private Shared instanceCount As Integer = 0
+    Private Shared Function InitLargeObject() As LargeObject
+        If 1 = Interlocked.Increment(instanceCount) Then
+            Throw New ApplicationException( _
+                "Lazy initialization function failed on thread " & _
+                Thread.CurrentThread.ManagedThreadId & ".")
         End If
-
-        Console.WriteLine("LargeObject was created on thread id {0}.", _
-            Thread.CurrentThread.ManagedThreadId)
-    End Sub
+        Return New LargeObject(Thread.CurrentThread.ManagedThreadId)
+    End Function

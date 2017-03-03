@@ -11,6 +11,8 @@ Public Class Example
         dinosaurs.Add("Amargasaurus")
         dinosaurs.Add("Mamenchisaurus")
         dinosaurs.Add("Brachiosaurus")
+        dinosaurs.Add("Deinonychus")
+        dinosaurs.Add("Tyrannosaurus")
         dinosaurs.Add("Compsognathus")
 
         Console.WriteLine()
@@ -18,17 +20,17 @@ Public Class Example
             Console.WriteLine(dinosaur)
         Next
 
-        ' Declare an array with 15 elements (0 through 14).
-        Dim array(14) As String
+        Console.WriteLine(vbLf & _
+            "LastIndexOf(""Tyrannosaurus""): {0}", _
+            dinosaurs.LastIndexOf("Tyrannosaurus"))
 
-        dinosaurs.CopyTo(array)
-        dinosaurs.CopyTo(array, 6)
-        dinosaurs.CopyTo(2, array, 12, 3)
+        Console.WriteLine(vbLf & _
+            "LastIndexOf(""Tyrannosaurus"", 3): {0}", _
+            dinosaurs.LastIndexOf("Tyrannosaurus", 3))
 
-        Console.WriteLine(vbLf & "Contents of the array:")
-        For Each dinosaur As String In array
-            Console.WriteLine(dinosaur)
-        Next
+        Console.WriteLine(vbLf & _
+            "LastIndexOf(""Tyrannosaurus"", 4, 4): {0}", _
+            dinosaurs.LastIndexOf("Tyrannosaurus", 4, 4))
 
     End Sub
 End Class
@@ -39,21 +41,12 @@ End Class
 'Amargasaurus
 'Mamenchisaurus
 'Brachiosaurus
-'Compsognathus
-'
-'Contents of the array:
+'Deinonychus
 'Tyrannosaurus
-'Amargasaurus
-'Mamenchisaurus
-'Brachiosaurus
 'Compsognathus
 '
-'Tyrannosaurus
-'Amargasaurus
-'Mamenchisaurus
-'Brachiosaurus
-'Compsognathus
+'LastIndexOf("Tyrannosaurus"): 5
 '
-'Mamenchisaurus
-'Brachiosaurus
-'Compsognathus
+'LastIndexOf("Tyrannosaurus", 3): 0
+'
+'LastIndexOf("Tyrannosaurus", 4, 4): -1

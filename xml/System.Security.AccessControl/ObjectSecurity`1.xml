@@ -44,9 +44,10 @@
         <Parameter Name="resourceType" Type="System.Security.AccessControl.ResourceType" />
       </Parameters>
       <Docs>
-        <param name="isContainer">To be added.</param>
-        <param name="resourceType">To be added.</param>
-        <summary>To be added.</summary>
+        <param name="isContainer">
+          <see langword="true" /> if the new <see cref="System.Security.AccessControl.ObjectSecurity%601" /> object is a container object.</param>
+        <param name="resourceType">The type of resource.</param>
+        <summary>Initializes a new instance of the ObjectSecurity`1 class.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -70,11 +71,12 @@
         <Parameter Name="includeSections" Type="System.Security.AccessControl.AccessControlSections" />
       </Parameters>
       <Docs>
-        <param name="isContainer">To be added.</param>
-        <param name="resourceType">To be added.</param>
-        <param name="safeHandle">To be added.</param>
-        <param name="includeSections">To be added.</param>
-        <summary>To be added.</summary>
+        <param name="isContainer">
+          <see langword="true" /> if the new <see cref="System.Security.AccessControl.ObjectSecurity%601" /> object is a container object.</param>
+        <param name="resourceType">The type of resource.</param>
+        <param name="safeHandle">A handle.</param>
+        <param name="includeSections">The sections to include.</param>
+        <summary>Initializes a new instance of the ObjectSecurity`1 class.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -93,11 +95,12 @@
         <Parameter Name="includeSections" Type="System.Security.AccessControl.AccessControlSections" />
       </Parameters>
       <Docs>
-        <param name="isContainer">To be added.</param>
-        <param name="resourceType">To be added.</param>
-        <param name="name">To be added.</param>
-        <param name="includeSections">To be added.</param>
-        <summary>To be added.</summary>
+        <param name="isContainer">
+          <see langword="true" /> if the new <see cref="System.Security.AccessControl.ObjectSecurity%601" /> object is a container object.</param>
+        <param name="resourceType">The type of resource.</param>
+        <param name="name">The name of the securable object with which the new <see cref="System.Security.AccessControl.ObjectSecurity%601" /> object is associated.</param>
+        <param name="includeSections">The sections to include.</param>
+        <summary>Initializes a new instance of the ObjectSecurity`1 class.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -123,13 +126,14 @@
         <Parameter Name="exceptionContext" Type="System.Object" />
       </Parameters>
       <Docs>
-        <param name="isContainer">To be added.</param>
-        <param name="resourceType">To be added.</param>
-        <param name="safeHandle">To be added.</param>
-        <param name="includeSections">To be added.</param>
-        <param name="exceptionFromErrorCode">To be added.</param>
-        <param name="exceptionContext">To be added.</param>
-        <summary>To be added.</summary>
+        <param name="isContainer">
+          <see langword="true" /> if the new <see cref="System.Security.AccessControl.ObjectSecurity%601" /> object is a container object.</param>
+        <param name="resourceType">The type of resource.</param>
+        <param name="safeHandle">A handle.</param>
+        <param name="includeSections">The sections to include.</param>
+        <param name="exceptionFromErrorCode">A delegate implemented by integrators that provides custom exceptions.</param>
+        <param name="exceptionContext">An object that contains contextual information about the source or destination of the exception.</param>
+        <summary>Initializes a new instance of the ObjectSecurity`1 class.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -150,13 +154,14 @@
         <Parameter Name="exceptionContext" Type="System.Object" />
       </Parameters>
       <Docs>
-        <param name="isContainer">To be added.</param>
-        <param name="resourceType">To be added.</param>
-        <param name="name">To be added.</param>
-        <param name="includeSections">To be added.</param>
-        <param name="exceptionFromErrorCode">To be added.</param>
-        <param name="exceptionContext">To be added.</param>
-        <summary>To be added.</summary>
+        <param name="isContainer">
+          <see langword="true" /> if the new <see cref="System.Security.AccessControl.ObjectSecurity%601" /> object is a container object.</param>
+        <param name="resourceType">The type of resource.</param>
+        <param name="name">The name of the securable object with which the new <see cref="System.Security.AccessControl.ObjectSecurity%601" /> object is associated.</param>
+        <param name="includeSections">The sections to include.</param>
+        <param name="exceptionFromErrorCode">A delegate implemented by integrators that provides custom exceptions.</param>
+        <param name="exceptionContext">An object that contains contextual information about the source or destination of the exception.</param>
+        <summary>Initializes a new instance of the ObjectSecurity`1 class.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -197,14 +202,15 @@
         <Parameter Name="type" Type="System.Security.AccessControl.AccessControlType" />
       </Parameters>
       <Docs>
-        <param name="identityReference">To be added.</param>
-        <param name="accessMask">To be added.</param>
-        <param name="isInherited">To be added.</param>
-        <param name="inheritanceFlags">To be added.</param>
-        <param name="propagationFlags">To be added.</param>
-        <param name="type">To be added.</param>
-        <summary>To be added.</summary>
-        <returns>To be added.</returns>
+        <param name="identityReference">Represents a user account.</param>
+        <param name="accessMask">The access type.</param>
+        <param name="isInherited">
+          <see langword="" /> <see langword="true" /> if the access rule is inherited; otherwise, <see langword="false" />.</param>
+        <param name="inheritanceFlags">Specifies how to propagate access masks to child objects.</param>
+        <param name="propagationFlags">Specifies how to propagate Access Control Entries (ACEs) to child objects.</param>
+        <param name="type">Specifies whether access is allowed or denied.</param>
+        <summary>Initializes a new instance of the ObjectAccessRule class that represents a new access control rule for the associated security object.</summary>
+        <returns>Represents a new access control rule for the specified user, with the specified access rights, access control, and flags.</returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>

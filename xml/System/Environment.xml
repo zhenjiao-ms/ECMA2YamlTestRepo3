@@ -485,9 +485,9 @@ goto :EOF
 ## Examples  
  The following example displays the application's command line arguments.  
   
- [!code-cs[Environment.GetCommandLineArgs#1](~/add/codesnippet/csharp/m-system.environment.get_4_1.cs)]
- [!code-cpp[Environment.GetCommandLineArgs#1](~/add/codesnippet/cpp/m-system.environment.get_4_1.cpp)]
- [!code-vb[Environment.GetCommandLineArgs#1](~/add/codesnippet/visualbasic/m-system.environment.get_4_1.vb)]  
+ [!code-cs[Environment.GetCommandLineArgs#1](~/add/codesnippet/csharp/m-system.environment.get_5_1.cs)]
+ [!code-cpp[Environment.GetCommandLineArgs#1](~/add/codesnippet/cpp/m-system.environment.get_5_1.cpp)]
+ [!code-vb[Environment.GetCommandLineArgs#1](~/add/codesnippet/visualbasic/m-system.environment.get_5_1.vb)]  
   
  ]]></format>
         </remarks>
@@ -544,14 +544,14 @@ goto :EOF
 ## Examples  
  The following example uses the GetEnvironmentVariable method to retrieve the `windir` environment variable, which contains the path of the Windows directory.  
   
- [!code-cpp[System.Environment#4](~/add/codesnippet/cpp/m-system.environment.get_3_1.cpp)]
- [!code-cs[System.Environment#4](~/add/codesnippet/csharp/m-system.environment.get_3_1.cs)]
- [!code-vb[System.Environment#4](~/add/codesnippet/visualbasic/m-system.environment.get_3_1.vb)]  
+ [!code-cpp[System.Environment#4](~/add/codesnippet/cpp/m-system.environment.get_4_1.cpp)]
+ [!code-cs[System.Environment#4](~/add/codesnippet/csharp/m-system.environment.get_4_1.cs)]
+ [!code-vb[System.Environment#4](~/add/codesnippet/visualbasic/m-system.environment.get_4_1.vb)]  
   
  The following example attempts to retrieve the value of an environment variable named `Test1` from the process environment block. If the variable doesn't exist, the example creates its and retrieves its value. The example displays the value of the variable. If the example created the variable, it also calls the <xref:System.Environment.GetEnvironmentVariables%28System.EnvironmentVariableTarget%29> method with each member of the <xref:System.EnvironmentVariableTarget> enumeration to establish that the variable can be retrieved only from the current process environment block. Finally, if the example created the variable, it deletes it.  
   
- [!code-vb[System.Environment.GetEnvironmentVariable#2](~/add/codesnippet/visualbasic/m-system.environment.get_3_2.vb)]
- [!code-cs[System.Environment.GetEnvironmentVariable#2](~/add/codesnippet/csharp/m-system.environment.get_3_2.cs)]  
+ [!code-vb[System.Environment.GetEnvironmentVariable#2](~/add/codesnippet/visualbasic/m-system.environment.get_4_2.vb)]
+ [!code-cs[System.Environment.GetEnvironmentVariable#2](~/add/codesnippet/csharp/m-system.environment.get_4_2.cs)]  
   
  ]]></format>
         </remarks>
@@ -704,9 +704,9 @@ goto :EOF
 ## Examples  
  The following example creates environment variables for the Process, User, and Machine targets, checks whether the operating system registry contains the User and Machine environment variables, then deletes the environment variables.  
   
- [!code-cpp[environment.getsetenvar#1](~/add/codesnippet/cpp/m-system.environment.get_2_1.cpp)]
- [!code-vb[environment.getsetenvar#1](~/add/codesnippet/visualbasic/m-system.environment.get_2_1.vb)]
- [!code-cs[environment.getsetenvar#1](~/add/codesnippet/csharp/m-system.environment.get_2_1.cs)]  
+ [!code-cpp[environment.getsetenvar#1](~/add/codesnippet/cpp/m-system.environment.get_3_1.cpp)]
+ [!code-vb[environment.getsetenvar#1](~/add/codesnippet/visualbasic/m-system.environment.get_3_1.vb)]
+ [!code-cs[environment.getsetenvar#1](~/add/codesnippet/csharp/m-system.environment.get_3_1.cs)]  
   
  ]]></format>
         </remarks>
@@ -743,10 +743,36 @@ goto :EOF
         <Parameter Name="folder" Type="System.Environment+SpecialFolder" />
       </Parameters>
       <Docs>
-        <param name="folder">To be added.</param>
-        <summary>To be added.</summary>
-        <returns>To be added.</returns>
-        <remarks>To be added.</remarks>
+        <param name="folder">An enumerated constant that identifies a system special folder.</param>
+        <summary>Gets the path to the system special folder that is identified by the specified enumeration.</summary>
+        <returns>The path to the specified system special folder, if that folder physically exists on your computer; otherwise, an empty string ("").  
+  
+ A folder will not physically exist if the operating system did not create it, the existing folder was deleted, or the folder is a virtual directory, such as My Computer, which does not correspond to a physical path.</returns>
+        <remarks>
+          <format type="text/markdown"><![CDATA[  
+  
+## Remarks  
+ This method retrieves the path to a system special folder, such as Program Files, Programs, System, or Startup, which can be used to access common information. Special folders are set by default by the system, or explicitly by the user, when installing a version of Windows.  
+  
+ The `folder` parameter designates the special folder to retrieve and must be one of the values in the <xref:System.Environment.SpecialFolder> enumeration; any other value throws an exception.  
+  
+ For more information about special folders, see the [CSIDL](http://go.microsoft.com/fwlink/?LinkId=116664) values topic.  
+  
+   
+  
+## Examples  
+ The following example demonstrates how to use the GetFolderPath method to return and display the path associated with the `folder` parameter.  
+  
+ [!code-cpp[Environment.GetFolderPath#1](~/add/codesnippet/cpp/m-system.environment.get_2_1.cpp)]
+ [!code-vb[Environment.GetFolderPath#1](~/add/codesnippet/visualbasic/m-system.environment.get_2_1.vb)]
+ [!code-cs[Environment.GetFolderPath#1](~/add/codesnippet/csharp/m-system.environment.get_2_1.cs)]  
+  
+ ]]></format>
+        </remarks>
+        <exception cref="T:System.ArgumentException">
+          <paramref name="folder" /> is not a member of <see cref="T:System.Environment.SpecialFolder" />.</exception>
+        <exception cref="T:System.PlatformNotSupportedException">The current platform is not supported.</exception>
+        <permission cref="T:System.Security.Permissions.FileIOPermission">for access to the information in the path itself. Associated enumeration: <see cref="T:System.Security.Permissions.FileIOPermissionAccess" /></permission>
       </Docs>
     </Member>
     <Member MemberName="GetFolderPath">
@@ -770,11 +796,30 @@ goto :EOF
         <Parameter Name="option" Type="System.Environment+SpecialFolderOption" />
       </Parameters>
       <Docs>
-        <param name="folder">To be added.</param>
-        <param name="option">To be added.</param>
-        <summary>To be added.</summary>
-        <returns>To be added.</returns>
-        <remarks>To be added.</remarks>
+        <param name="folder">An enumerated constant that identifies a system special folder.</param>
+        <param name="option">Specifies options to use for accessing a special folder.</param>
+        <summary>Gets the path to the system special folder that is identified by the specified enumeration, and uses a specified option for accessing special folders.</summary>
+        <returns>The path to the specified system special folder, if that folder physically exists on your computer; otherwise, an empty string ("").  
+  
+ A folder will not physically exist if the operating system did not create it, the existing folder was deleted, or the folder is a virtual directory, such as My Computer, which does not correspond to a physical path.</returns>
+        <remarks>
+          <format type="text/markdown"><![CDATA[  
+  
+## Remarks  
+ This method retrieves the path to a system special folder, such as Program Files, Programs, System, or Startup, which can be used to access common information. Special folders are set by default by the system, or explicitly by the user, when installing a version of Windows.  
+  
+ The `folder` parameter designates the special folder to retrieve and must be one of the values in the <xref:System.Environment.SpecialFolder> enumeration; any other value throws an exception.  
+  
+ For more information about special folders, see the [CSIDL](http://go.microsoft.com/fwlink/?LinkId=116664) values topic.  
+  
+ ]]></format>
+        </remarks>
+        <exception cref="T:System.ArgumentException">
+          <paramref name="folder" /> is not a member of <see cref="T:System.Environment.SpecialFolder" /></exception>
+        <exception cref="T:System.PlatformNotSupportedException">
+          <see cref="T:System.PlatformNotSupportedException" />
+        </exception>
+        <permission cref="T:System.Security.Permissions.FileIOPermission">for access to the information in the path itself. Associated enumeration: <see cref="T:System.Security.Permissions.FileIOPermissionAccess" /></permission>
       </Docs>
     </Member>
     <Member MemberName="GetLogicalDrives">

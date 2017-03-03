@@ -762,15 +762,83 @@
         <Parameter Name="adjustmentRules" Type="System.TimeZoneInfo+AdjustmentRule[]" />
       </Parameters>
       <Docs>
-        <param name="id">To be added.</param>
-        <param name="baseUtcOffset">To be added.</param>
-        <param name="displayName">To be added.</param>
-        <param name="standardDisplayName">To be added.</param>
-        <param name="daylightDisplayName">To be added.</param>
-        <param name="adjustmentRules">To be added.</param>
-        <summary>To be added.</summary>
-        <returns>To be added.</returns>
-        <remarks>To be added.</remarks>
+        <param name="id">The time zone's identifier.</param>
+        <param name="baseUtcOffset">An object that represents the time difference between this time zone and Coordinated Universal Time (UTC).</param>
+        <param name="displayName">The display name of the new time zone.</param>
+        <param name="standardDisplayName">The new time zone's standard time name.</param>
+        <param name="daylightDisplayName">The daylight saving time name of the new time zone.</param>
+        <param name="adjustmentRules">An array that augments the base UTC offset for a particular period.</param>
+        <summary>Creates a custom time zone with a specified identifier, an offset from Coordinated Universal Time (UTC), a display name, a standard time name, a daylight saving time name, and daylight saving time rules.</summary>
+        <returns>A <see cref="T:System.TimeZoneInfo" /> object that represents the new time zone.</returns>
+        <remarks>
+          <format type="text/markdown"><![CDATA[  
+  
+## Remarks  
+ This overload of the CreateCustomTimeZone method is suitable for creating a time zone that supports daylight saving time. To define a time zone that does not support daylight saving time, use either the <xref:System.TimeZoneInfo.CreateCustomTimeZone%2A?displayProperty=fullName> or the <xref:System.TimeZoneInfo.CreateCustomTimeZone%2A?displayProperty=fullName> method.  
+  
+ The following table shows the relationship between the parameters that are provided to the CreateCustomTimeZone method and the members of the <xref:System.TimeZoneInfo> object that are returned by the method call.  
+  
+|CreateCustomTimeZone parameter|TimeZoneInfo member|  
+|------------------------------------|-------------------------|  
+|`id`|<xref:System.TimeZoneInfo.Id%2A>|  
+|`baseUtcOffset`|<xref:System.TimeZoneInfo.BaseUtcOffset%2A>|  
+|`displayName`|<xref:System.TimeZoneInfo.DisplayName%2A>|  
+|`standardDisplayName`|<xref:System.TimeZoneInfo.StandardName%2A>|  
+|`daylightDisplayName`|<xref:System.TimeZoneInfo.DaylightName%2A>|  
+|`adjustmentRules`|An array of <xref:System.TimeZoneInfo.AdjustmentRule?displayProperty=fullName> objects returned by the <xref:System.TimeZoneInfo.GetAdjustmentRules%2A> method.|  
+  
+ Typically, the time zone's standard time name and its identifier are the same. However, the length of the time zone's identifier should not exceed 32 characters. The string passed to the `displayName` parameter follows a fairly standard format. The first portion of the display name is the time zone's base offset from Coordinated Universal Time, which is indicated by the acronym GMT (for Greenwich Mean Time), enclosed in parentheses. This is followed by a string that identifies the time zone itself, or one or more of the cities, regions, or countries in the time zone, or both. For example:  
+  
+```  
+(GMT+02:00) Athens, Beirut, Istanbul, Minsk  
+(GMT-02:00) Mid-Atlantic  
+(GMT-07:00) Mountain Time (US & Canada)  
+```  
+  
+ The `baseUtcOffset` parameter defines the custom time zone's offset from Coordinated Universal Time (UTC) for all of the time zone's adjustment rules. In other words, the <xref:System.TimeZoneInfo> object model assumes that the time zone's offset from UTC is constant throughout the life of the time zone, and exists independent of particular adjustment rules. To reflect a time zone that has changed its offset from UTC, you must create a new time zone object.  
+  
+ A time zone's adjustment rules are defined by doing the following:  
+  
+1.  Calling either the <xref:System.TimeZoneInfo.TransitionTime.CreateFloatingDateRule%2A> or the <xref:System.TimeZoneInfo.TransitionTime.CreateFixedDateRule%2A> method to define the starting and ending transition time for each adjustment rule.  
+  
+2.  Calling the <xref:System.TimeZoneInfo.AdjustmentRule.CreateAdjustmentRule%2A> method for each adjustment rule.  
+  
+3.  Assigning the adjustment rules to an array that can be passed as the `adjustmentRules` parameter.  
+  
+   
+  
+## Examples  
+ The following example creates a custom time zone for the Palmer station and Anvers Island in Antarctica. It then converts the local time to the time in the new time zone and displays the result.  
+  
+ [!code-cs[System.TimeZone2.CreateTimeZone#2](~/add/codesnippet/csharp/fb48487c-306d-4320-8a8f-_1.cs)]
+ [!code-vb[System.TimeZone2.CreateTimeZone#2](~/add/codesnippet/visualbasic/fb48487c-306d-4320-8a8f-_1.vb)]  
+  
+ ]]></format>
+        </remarks>
+        <exception cref="T:System.ArgumentNullException">The <paramref name="id" /> parameter is <see langword="null" />.</exception>
+        <exception cref="T:System.ArgumentException">The <paramref name="id" /> parameter is an empty string ("").  
+  
+ -or-  
+  
+ The <paramref name="baseUtcOffset" /> parameter does not represent a whole number of minutes.</exception>
+        <exception cref="T:System.ArgumentOutOfRangeException">The <paramref name="baseUtcOffset" /> parameter is greater than 14 hours or less than -14 hours.</exception>
+        <exception cref="T:System.InvalidTimeZoneException">The adjustment rules specified in the <paramref name="adjustmentRules" /> parameter overlap.  
+  
+ -or-  
+  
+ The adjustment rules specified in the <paramref name="adjustmentRules" /> parameter are not in chronological order.  
+  
+ -or-  
+  
+ One or more elements in <paramref name="adjustmentRules" /> are <see langword="null" />.  
+  
+ -or-  
+  
+ A date can have multiple adjustment rules applied to it.  
+  
+ -or-  
+  
+ The sum of the <paramref name="baseUtcOffset" /> parameter and the <see cref="System.TimeZoneInfo.AdjustmentRule.DaylightDelta%2A" /> value of one or more objects in the <paramref name="adjustmentRules" /> array is greater than 14 hours or less than -14 hours.</exception>
       </Docs>
     </Member>
     <Member MemberName="CreateCustomTimeZone">
@@ -794,16 +862,86 @@
         <Parameter Name="disableDaylightSavingTime" Type="System.Boolean" />
       </Parameters>
       <Docs>
-        <param name="id">To be added.</param>
-        <param name="baseUtcOffset">To be added.</param>
-        <param name="displayName">To be added.</param>
-        <param name="standardDisplayName">To be added.</param>
-        <param name="daylightDisplayName">To be added.</param>
-        <param name="adjustmentRules">To be added.</param>
-        <param name="disableDaylightSavingTime">To be added.</param>
-        <summary>To be added.</summary>
-        <returns>To be added.</returns>
-        <remarks>To be added.</remarks>
+        <param name="id">The time zone's identifier.</param>
+        <param name="baseUtcOffset">A <see cref="T:System.TimeSpan" /> object that represents the time difference between this time zone and Coordinated Universal Time (UTC).</param>
+        <param name="displayName">The display name of the new time zone.</param>
+        <param name="standardDisplayName">The standard time name of the new time zone.</param>
+        <param name="daylightDisplayName">The daylight saving time name of the new time zone.</param>
+        <param name="adjustmentRules">An array of <see cref="T:System.TimeZoneInfo.AdjustmentRule" /> objects that augment the base UTC offset for a particular period.</param>
+        <param name="disableDaylightSavingTime">
+          <see langword="true" /> to discard any daylight saving time-related information present in `adjustmentRules` with the new object; otherwise, <see langword="false" />.</param>
+        <summary>Creates a custom time zone with a specified identifier, an offset from Coordinated Universal Time (UTC), a display name, a standard time name, a daylight saving time name, daylight saving time rules, and a value that indicates whether the returned object reflects daylight saving time information.</summary>
+        <returns>The new time zone. If the <paramref name="disableDaylightSavingTime" /> parameter is <see langword="true" />, the returned object has no daylight saving time data.</returns>
+        <remarks>
+          <format type="text/markdown"><![CDATA[  
+  
+## Remarks  
+ You can use this overload of the CreateCustomTimeZone method to create a custom time zone whose support for daylight saving time can be determined by conditions at run time.  
+  
+ The following table shows the relationship between the parameters that are provided to the CreateCustomTimeZone method and the members of the <xref:System.TimeZoneInfo> object that are returned by the method call.  
+  
+|CreateCustomTimeZone parameter|TimeZoneInfo property|  
+|------------------------------------|---------------------------|  
+|`id`|<xref:System.TimeZoneInfo.Id%2A>|  
+|`baseUtcOffset`|<xref:System.TimeZoneInfo.BaseUtcOffset%2A>|  
+|`displayName`|<xref:System.TimeZoneInfo.DisplayName%2A>|  
+|`standardDisplayName`|<xref:System.TimeZoneInfo.StandardName%2A>|  
+|`daylightDisplayName`|<xref:System.TimeZoneInfo.DaylightName%2A> if `disableDaylightSavingTime` is `false`; <xref:System.String.Empty?displayProperty=fullName> if `disableDaylightSavingTime` is `true`.|  
+|`adjustmentRules`|An array of <xref:System.TimeZoneInfo.AdjustmentRule> objects returned by the <xref:System.TimeZoneInfo.GetAdjustmentRules%2A> method if `disableDaylightSavingTime` is `false`; an empty array returned by the <xref:System.TimeZoneInfo.GetAdjustmentRules%2A> method if `disableDaylightSavingTime` is `true`.|  
+|`disableDaylightSavingTime`|Not <xref:System.TimeZoneInfo.SupportsDaylightSavingTime%2A>.|  
+  
+ Typically, the time zone's standard time name and its identifier are the same. However, the length of the time zone's identifier should not exceed 32 characters. The string passed to the `displayName` parameter follows a fairly standard format. The first portion of the display name is the time zone's base offset from Coordinated Universal Time, which is indicated by the acronym GMT (for Greenwich Mean Time), enclosed in parentheses. This is followed by a string that identifies the time zone itself, or one or more of the cities, regions, or countries in the time zone, or both. For example:  
+  
+```  
+(GMT+02:00) Athens, Beirut, Istanbul, Minsk  
+(GMT-02:00) Mid-Atlantic  
+(GMT-07:00) Mountain Time (US & Canada)  
+```  
+  
+ A time zone's adjustment rules are defined by doing the following:  
+  
+1.  Calling either the <xref:System.TimeZoneInfo.TransitionTime.CreateFloatingDateRule%2A> or the <xref:System.TimeZoneInfo.TransitionTime.CreateFixedDateRule%2A> method to define the starting and ending transition rules for each adjustment rule.  
+  
+2.  Calling the <xref:System.TimeZoneInfo.AdjustmentRule.CreateAdjustmentRule%2A> method for each adjustment rule.  
+  
+3.  Assigning the adjustment rules to an array that can be passed as the `adjustmentRules` parameter.  
+  
+ If `disableDaylightSavingTime` parameter is `false`, the operation of this method is identical to the <xref:System.TimeZoneInfo.CreateCustomTimeZone%2A?displayProperty=fullName> overload. If `disableDaylightSavingTime` is `true`, the returned object includes no adjustment rules and a <xref:System.TimeZoneInfo.DaylightName%2A> property whose value is an empty string.  
+  
+   
+  
+## Examples  
+ The following example creates a custom time zone for the Palmer station and Anvers Island in Antarctica. It sets the `disableDaylightSavingTime` parameter in the call to the CreateCustomTimeZone method to `true`. It then displays the new time zone's daylight saving time name, if one is present, and the number of adjustment rules to confirm that the new time zone has no daylight saving time information.  
+  
+ [!code-cs[System.TimeZone2.CreateTimeZone#3](~/add/codesnippet/csharp/b2270e45-f95f-490d-9dc3-_1.cs)]
+ [!code-vb[System.TimeZone2.CreateTimeZone#3](~/add/codesnippet/visualbasic/b2270e45-f95f-490d-9dc3-_1.vb)]  
+  
+ ]]></format>
+        </remarks>
+        <exception cref="T:System.ArgumentNullException">The <paramref name="id" /> parameter is <see langword="null" />.</exception>
+        <exception cref="T:System.ArgumentException">The <paramref name="id" /> parameter is an empty string ("").  
+  
+ -or-  
+  
+ The <paramref name="baseUtcOffset" /> parameter does not represent a whole number of minutes.</exception>
+        <exception cref="T:System.ArgumentOutOfRangeException">The <paramref name="baseUtcOffset" /> parameter is greater than 14 hours or less than -14 hours.</exception>
+        <exception cref="T:System.InvalidTimeZoneException">The adjustment rules specified in the <paramref name="adjustmentRules" /> parameter overlap.  
+  
+ -or-  
+  
+ The adjustment rules specified in the <paramref name="adjustmentRules" /> parameter are not in chronological order.  
+  
+ -or-  
+  
+ One or more elements in <paramref name="adjustmentRules" /> are <see langword="null" />.  
+  
+ -or-  
+  
+ A date can have multiple adjustment rules applied to it.  
+  
+ -or-  
+  
+ The sum of the <paramref name="baseUtcOffset" /> parameter and the <see cref="System.TimeZoneInfo.AdjustmentRule.DaylightDelta%2A" /> value of one or more objects in the <paramref name="adjustmentRules" /> array is greater than 14 hours or less than -14 hours.</exception>
       </Docs>
     </Member>
     <Member MemberName="DaylightName">

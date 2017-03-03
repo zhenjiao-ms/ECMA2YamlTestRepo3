@@ -1,56 +1,98 @@
+Imports System
 Imports System.Collections.Generic
 
-Public Class Employee : Implements IComparable
-   Public Property Name As String
-   Public Property Id As Integer
-   
-   Public Function CompareTo(o As Object) As Integer _
-         Implements IComparable.CompareTo
-      Dim e As Employee = TryCast(o, Employee)
-      If e Is Nothing Then
-         Throw New ArgumentException("o is not an Employee object.")
-      End If
+Public Class Example
 
-      Return Name.CompareTo(e.Name)
-   End Function
+    Public Shared Sub Main()
+
+        Dim input() As String = { "Brachiosaurus", _
+                                  "Amargasaurus", _
+                                  "Mamenchisaurus" }
+
+        Dim dinosaurs As New List(Of String)(input)
+
+        Console.WriteLine(vbLf & "Capacity: {0}", dinosaurs.Capacity)
+
+        Console.WriteLine()
+        For Each dinosaur As String In dinosaurs
+            Console.WriteLine(dinosaur)
+        Next
+
+        Console.WriteLine(vbLf & "AddRange(dinosaurs)")
+        dinosaurs.AddRange(dinosaurs)
+
+        Console.WriteLine()
+        For Each dinosaur As String In dinosaurs
+            Console.WriteLine(dinosaur)
+        Next
+
+        Console.WriteLine(vbLf & "RemoveRange(2, 2)")
+        dinosaurs.RemoveRange(2, 2)
+
+        Console.WriteLine()
+        For Each dinosaur As String In dinosaurs
+            Console.WriteLine(dinosaur)
+        Next
+
+        input = New String() { "Tyrannosaurus", _
+                               "Deinonychus", _
+                               "Velociraptor" }
+
+        Console.WriteLine(vbLf & "InsertRange(3, input)")
+        dinosaurs.InsertRange(3, input)
+
+        Console.WriteLine()
+        For Each dinosaur As String In dinosaurs
+            Console.WriteLine(dinosaur)
+        Next
+
+        Console.WriteLine(vbLf & "output = dinosaurs.GetRange(2, 3).ToArray")
+        Dim output() As String = dinosaurs.GetRange(2, 3).ToArray()
+        
+        Console.WriteLine()
+        For Each dinosaur As String In output
+            Console.WriteLine(dinosaur)
+        Next
+
+    End Sub
 End Class
 
-Public Class EmployeeSearch
-   Dim _s As String
-   
-   Public Sub New(s As String)
-      _s = s
-   End Sub
-   
-   Public Function StartsWith(e As Employee) As Boolean
-      Return e.Name.StartsWith(_s, StringComparison.InvariantCultureIgnoreCase)
-   End Function
-End Class
-
-Module Example
-   Public Sub Main()
-      Dim employees As New List(Of Employee)()
-      employees.AddRange( { New Employee() With { .Name = "Frank", .Id = 2 },
-                            New Employee() With { .Name = "Jill", .Id = 3 },
-                            New Employee() With { .Name = "Dave", .Id = 5 },
-                            New Employee() With { .Name = "Jack", .Id = 8 },
-                            New Employee() With { .Name = "Judith", .Id = 12 },
-                            New Employee() With { .Name = "Robert", .Id = 14 },
-                            New Employee() With { .Name = "Adam", .Id = 1 } } )
-      employees.Sort()
-
-      Dim es As New EmployeeSearch("J")
-      Dim index As Integer = employees.FindIndex(4, AddressOf es.StartsWith)        
-      Console.WriteLine("Starting index of'J': {0}",
-                        If(index >= 0, index.ToString(), "Not found"))
-
-      es = New EmployeeSearch("Ju")
-      index = employees.FindIndex(4, AddressOf es.StartsWith) 
-      Console.WriteLine("Starting index of'Ju': {0}",
-                        If(index >= 0, index.ToString(), "Not found"))
-
-   End Sub
-End Module
-' The example displays the following output:
-'       'J' starts at index 4
-'       'Ju' starts at index 5
+' This code example produces the following output:
+'
+'Capacity: 3
+'
+'Brachiosaurus
+'Amargasaurus
+'Mamenchisaurus
+'
+'AddRange(dinosaurs)
+'
+'Brachiosaurus
+'Amargasaurus
+'Mamenchisaurus
+'Brachiosaurus
+'Amargasaurus
+'Mamenchisaurus
+'
+'RemoveRange(2, 2)
+'
+'Brachiosaurus
+'Amargasaurus
+'Amargasaurus
+'Mamenchisaurus
+'
+'InsertRange(3, input)
+'
+'Brachiosaurus
+'Amargasaurus
+'Amargasaurus
+'Tyrannosaurus
+'Deinonychus
+'Velociraptor
+'Mamenchisaurus
+'
+'output = dinosaurs.GetRange(2, 3).ToArray
+'
+'Amargasaurus
+'Tyrannosaurus
+'Deinonychus

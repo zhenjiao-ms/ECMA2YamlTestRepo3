@@ -94,6 +94,11 @@ internalonly: False
 ---
 
 ---
+uid: System.Collections.Generic.List`1.ConvertAll``1(System.Converter{`0,``0})
+internalonly: False
+---
+
+---
 uid: System.Collections.Generic.List`1.System#Collections#IList#Item(System.Int32)
 internalonly: False
 ---

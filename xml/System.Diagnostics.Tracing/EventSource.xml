@@ -1145,11 +1145,64 @@ public void Info1(string arg1)
         <Parameter Name="data" Type="System.Diagnostics.Tracing.EventSource+EventData*" />
       </Parameters>
       <Docs>
-        <param name="eventId">To be added.</param>
-        <param name="eventDataCount">To be added.</param>
-        <param name="data">To be added.</param>
-        <summary>To be added.</summary>
-        <remarks>To be added.</remarks>
+        <param name="eventId">The event identifier.</param>
+        <param name="eventDataCount">The number of event data items.</param>
+        <param name="data">The structure that contains the event data.</param>
+        <summary>Creates a new <see cref="System.Diagnostics.Tracing.EventSource.WriteEvent%2A" /> overload by using the provided event identifier and event data.</summary>
+        <remarks>
+          <format type="text/markdown"><![CDATA[  
+  
+## Remarks  
+ `eventid` should be greater than 0 or less than 65535 or errors can occur in the operation. If errors do occur, you can get more information about the source of the error by checking the output stream of the debugger, if you have a debugger attached to the process firing events. You can also look for errors reported in the ETW event stream, if you have an ETW listener on the event source where the error occurs.  
+  
+ This protected method  enables users to define new <xref:System.Diagnostics.Tracing.EventSource.WriteEvent%2A> overloads that are faster than the provided overloads.   Creating a new overload involves unsafe code.  The basic procedure is to stack-allocate an array of event data descriptors that matches the number of payload items.   For each payload item, set the correct size and value in the event data array.Call WriteEventCore with the initialized array.  
+  
+ The following example shows how to add a <xref:System.Diagnostics.Tracing.EventSource.WriteEvent%2A> overload that accepts four arguments. An example would be if you have a logging event that logs a string and 3 integers.  
+  
+```c#  
+  
+[Event(1)]  
+public void LogTime(string tag, int hour, int minute, int second)   
+{  
+    WriteEvent(1, tag, hour, minute, second);  
+}  
+  
+```  
+  
+ You could do this without calling WriteEventCore, but it would be slower than it needs to be. That is because it uses arrays and reflection to figure out what to do. If you log these at a high rate (> 1000 / sec), it can be worth making a fast helper, as shown in the following example. The method shadows the existing <xref:System.Diagnostics.Tracing.EventSource.WriteEvent%2A>. Thus the original caller code (LogTime) does not actually change, but the C# compiler will use the more specialized version which will be faster.  
+  
+ To compile unsafe code, you must specify the [/unsafe (C# Compiler Options)](../Topic/-unsafe%20\(C%23%20Compiler%20Options\).md) compiler option.  
+  
+```c#  
+class AnotherEventSource : EventSource {  
+  
+    [NonEvent]  
+    public unsafe void WriteEvent(int eventId, string arg1, int arg2, int arg3, int arg4)  
+    {  
+  
+        fixed (char* arg1Ptr = arg1)  
+        {  
+            EventData* dataDesc = stackalloc EventProvider.EventData[4];  
+  
+            dataDesc[0].DataPointer = (IntPtr)arg1Ptr;  
+            dataDesc[0].Size = (arg1.Length + 1) * 2; // Size in bytes, including a null terminator.   
+            dataDesc[1].DataPointer = (IntPtr)(&arg2);  
+            dataDesc[1].Size = 4;  
+            dataDesc[2].DataPointer = (IntPtr)(&arg3);  
+            dataDesc[2].Size = 4;  
+            dataDesc[3].DataPointer = (IntPtr)(&arg4);  
+            dataDesc[3].Size = 4;  
+  
+            WriteEventCore(eventId, 4, (IntPtr)dataDesc);  
+        }  
+    }  
+}  
+  
+```  
+  
+ ]]></format>
+        </remarks>
+        <permission cref="T:System.Security.SecurityCriticalAttribute">requires full trust for the immediate caller. This member cannot be used by partially trusted or transparent code.</permission>
       </Docs>
     </Member>
   </Members>

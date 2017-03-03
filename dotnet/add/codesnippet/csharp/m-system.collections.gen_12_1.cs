@@ -1,22 +1,46 @@
-        // Create a new dictionary of strings, with string keys.
-        //
-        Dictionary<string, string> openWith = 
-            new Dictionary<string, string>();
+using System;
+using System.Drawing;
+using System.Collections.Generic;
 
-        // Add some elements to the dictionary. There are no 
-        // duplicate keys, but some of the values are duplicates.
-        openWith.Add("txt", "notepad.exe");
-        openWith.Add("bmp", "paint.exe");
-        openWith.Add("dib", "paint.exe");
-        openWith.Add("rtf", "wordpad.exe");
+public class Example
+{
+    public static void Main()
+    {
+        List<PointF> lpf = new List<PointF>();
 
-        // The Add method throws an exception if the new key is 
-        // already in the dictionary.
-        try
+        lpf.Add(new PointF(27.8F, 32.62F));
+        lpf.Add(new PointF(99.3F, 147.273F));
+        lpf.Add(new PointF(7.5F, 1412.2F));
+
+        Console.WriteLine();
+        foreach( PointF p in lpf )
         {
-            openWith.Add("txt", "winword.exe");
+            Console.WriteLine(p);
         }
-        catch (ArgumentException)
+
+        List<Point> lp = lpf.ConvertAll( 
+            new Converter<PointF, Point>(PointFToPoint));
+
+        Console.WriteLine();
+        foreach( Point p in lp )
         {
-            Console.WriteLine("An element with Key = \"txt\" already exists.");
+            Console.WriteLine(p);
         }
+    }
+
+    public static Point PointFToPoint(PointF pf)
+    {
+        return new Point(((int) pf.X), ((int) pf.Y));
+    }
+}
+
+/* This code example produces the following output:
+
+{X=27.8, Y=32.62}
+{X=99.3, Y=147.273}
+{X=7.5, Y=1412.2}
+
+{X=27,Y=32}
+{X=99,Y=147}
+{X=7,Y=1412}
+ */

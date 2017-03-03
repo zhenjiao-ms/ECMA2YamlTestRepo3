@@ -3,62 +3,45 @@ using namespace System::Collections::Generic;
 
 void main()
 {
-    List<String^>^ dinosaurs = gcnew List<String^>(4);
-
-    Console::WriteLine("\nCapacity: {0}", dinosaurs->Capacity);
+    List<String^>^ dinosaurs = gcnew List<String^>();
 
     dinosaurs->Add("Tyrannosaurus");
     dinosaurs->Add("Amargasaurus");
     dinosaurs->Add("Mamenchisaurus");
+    dinosaurs->Add("Brachiosaurus");
     dinosaurs->Add("Deinonychus");
+    dinosaurs->Add("Tyrannosaurus");
+    dinosaurs->Add("Compsognathus");
 
     Console::WriteLine();
-    for each(String^ dinosaur in dinosaurs)
+    for each(String^ dinosaur in dinosaurs )
     {
         Console::WriteLine(dinosaur);
     }
 
-    Console::WriteLine("\nIList<String^>^ roDinosaurs = dinosaurs->AsReadOnly()");
-    IList<String^>^ roDinosaurs = dinosaurs->AsReadOnly();
+    Console::WriteLine("\nIndexOf(\"Tyrannosaurus\"): {0}", 
+        dinosaurs->IndexOf("Tyrannosaurus"));
 
-    Console::WriteLine("\nElements in the read-only IList:");
-    for each(String^ dinosaur in roDinosaurs)
-    {
-        Console::WriteLine(dinosaur);
-    }
+    Console::WriteLine("\nIndexOf(\"Tyrannosaurus\", 3): {0}", 
+        dinosaurs->IndexOf("Tyrannosaurus", 3));
 
-    Console::WriteLine("\ndinosaurs[2] = \"Coelophysis\"");
-    dinosaurs[2] = "Coelophysis";
-
-    Console::WriteLine("\nElements in the read-only IList:");
-    for each(String^ dinosaur in roDinosaurs)
-    {
-        Console::WriteLine(dinosaur);
-    }
+    Console::WriteLine("\nIndexOf(\"Tyrannosaurus\", 2, 2): {0}", 
+        dinosaurs->IndexOf("Tyrannosaurus", 2, 2));
 }
 
 /* This code example produces the following output:
 
-Capacity: 4
-
 Tyrannosaurus
 Amargasaurus
 Mamenchisaurus
+Brachiosaurus
 Deinonychus
-
-IList<String^>^ roDinosaurs = dinosaurs->AsReadOnly()
-
-Elements in the read-only IList:
 Tyrannosaurus
-Amargasaurus
-Mamenchisaurus
-Deinonychus
+Compsognathus
 
-dinosaurs[2] = "Coelophysis"
+IndexOf("Tyrannosaurus"): 0
 
-Elements in the read-only IList:
-Tyrannosaurus
-Amargasaurus
-Coelophysis
-Deinonychus
+IndexOf("Tyrannosaurus", 3): 5
+
+IndexOf("Tyrannosaurus", 2, 2): -1
  */

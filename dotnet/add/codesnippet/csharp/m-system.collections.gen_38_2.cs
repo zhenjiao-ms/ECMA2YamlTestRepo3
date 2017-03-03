@@ -1,48 +1,11 @@
-using System;
-using System.Collections.Generic;
-
-class Program
-{
-    static void Main(string[] args)
-    {
-        List<Cube> cubes = new List<Cube>();
-
-        cubes.Add(new Cube(8, 8, 4));
-        cubes.Add(new Cube(8, 4, 8));
-        cubes.Add(new Cube(8, 6, 4));
-
-        if (cubes.Contains(new Cube(8, 6, 4))) {
-            Console.WriteLine("An equal cube is already in the collection.");
+        // The indexer throws an exception if the requested key is
+        // not in the dictionary.
+        try
+        {
+            Console.WriteLine("For key = \"tif\", value = {0}.", 
+                openWith["tif"]);
         }
-        else {
-            Console.WriteLine("Cube can be added.");
+        catch (KeyNotFoundException)
+        {
+            Console.WriteLine("Key = \"tif\" is not found.");
         }
-
-        //Outputs "An equal cube is already in the collection."
-    }
-}
-
-public class Cube : IEquatable<Cube>
-{
-
-    public Cube(int h, int l, int w)
-    {
-        this.Height = h;
-        this.Length = l;
-        this.Width = w;
-    }
-    public int Height { get; set; }
-    public int Length { get; set; }
-    public int Width { get; set; }
-
-    public bool Equals(Cube other)
-    {
-        if (this.Height == other.Height && this.Length == other.Length
-            && this.Width == other.Width) {
-            return true;
-        }
-        else {
-            return false;
-        }
-    }
-}

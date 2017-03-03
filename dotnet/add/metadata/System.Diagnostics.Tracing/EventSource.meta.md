@@ -59,6 +59,11 @@ internalonly: False
 ---
 
 ---
+uid: System.Diagnostics.Tracing.EventSource.WriteEventCore(System.Int32,System.Int32,System.Diagnostics.Tracing.EventSource.EventData*)
+internalonly: False
+---
+
+---
 uid: System.Diagnostics.Tracing.EventSource.GetGuid(System.Type)
 internalonly: False
 ---

@@ -5,46 +5,99 @@ public class Example
 {
     public static void Main()
     {
-        List<string> dinosaurs = new List<string>();
+        string[] input = { "Brachiosaurus", 
+                           "Amargasaurus", 
+                           "Mamenchisaurus" };
 
-        dinosaurs.Add("Tyrannosaurus");
-        dinosaurs.Add("Amargasaurus");
-        dinosaurs.Add("Mamenchisaurus");
-        dinosaurs.Add("Brachiosaurus");
-        dinosaurs.Add("Deinonychus");
-        dinosaurs.Add("Tyrannosaurus");
-        dinosaurs.Add("Compsognathus");
+        List<string> dinosaurs = new List<string>(input);
+
+        Console.WriteLine("\nCapacity: {0}", dinosaurs.Capacity);
 
         Console.WriteLine();
-        foreach(string dinosaur in dinosaurs)
+        foreach( string dinosaur in dinosaurs )
         {
             Console.WriteLine(dinosaur);
         }
 
-        Console.WriteLine("\nLastIndexOf(\"Tyrannosaurus\"): {0}", 
-            dinosaurs.LastIndexOf("Tyrannosaurus"));
+        Console.WriteLine("\nAddRange(dinosaurs)");
+        dinosaurs.AddRange(dinosaurs);
 
-        Console.WriteLine("\nLastIndexOf(\"Tyrannosaurus\", 3): {0}", 
-            dinosaurs.LastIndexOf("Tyrannosaurus", 3));
+        Console.WriteLine();
+        foreach( string dinosaur in dinosaurs )
+        {
+            Console.WriteLine(dinosaur);
+        }
 
-        Console.WriteLine("\nLastIndexOf(\"Tyrannosaurus\", 4, 4): {0}", 
-            dinosaurs.LastIndexOf("Tyrannosaurus", 4, 4));
+        Console.WriteLine("\nRemoveRange(2, 2)");
+        dinosaurs.RemoveRange(2, 2);
+
+        Console.WriteLine();
+        foreach( string dinosaur in dinosaurs )
+        {
+            Console.WriteLine(dinosaur);
+        }
+
+        input = new string[] { "Tyrannosaurus", 
+                               "Deinonychus", 
+                               "Velociraptor"};
+
+        Console.WriteLine("\nInsertRange(3, input)");
+        dinosaurs.InsertRange(3, input);
+
+        Console.WriteLine();
+        foreach( string dinosaur in dinosaurs )
+        {
+            Console.WriteLine(dinosaur);
+        }
+
+        Console.WriteLine("\noutput = dinosaurs.GetRange(2, 3).ToArray()");
+        string[] output = dinosaurs.GetRange(2, 3).ToArray();
+        
+        Console.WriteLine();
+        foreach( string dinosaur in output )
+        {
+            Console.WriteLine(dinosaur);
+        }
     }
 }
 
 /* This code example produces the following output:
 
-Tyrannosaurus
+Capacity: 3
+
+Brachiosaurus
+Amargasaurus
+Mamenchisaurus
+
+AddRange(dinosaurs)
+
+Brachiosaurus
 Amargasaurus
 Mamenchisaurus
 Brachiosaurus
-Deinonychus
+Amargasaurus
+Mamenchisaurus
+
+RemoveRange(2, 2)
+
+Brachiosaurus
+Amargasaurus
+Amargasaurus
+Mamenchisaurus
+
+InsertRange(3, input)
+
+Brachiosaurus
+Amargasaurus
+Amargasaurus
 Tyrannosaurus
-Compsognathus
+Deinonychus
+Velociraptor
+Mamenchisaurus
 
-LastIndexOf("Tyrannosaurus"): 5
+output = dinosaurs.GetRange(2, 3).ToArray()
 
-LastIndexOf("Tyrannosaurus", 3): 0
-
-LastIndexOf("Tyrannosaurus", 4, 4): -1
+Amargasaurus
+Tyrannosaurus
+Deinonychus
  */

@@ -271,8 +271,8 @@
 ## Examples  
  The following example illustrates calls to the Equals method.  
   
- [!code-cs[System.TimeZone2.TransitionTime.Class#1](~/add/codesnippet/csharp/m-system.timezoneinfo.tr_1.cs)]
- [!code-vb[System.TimeZone2.TransitionTime.Class#1](~/add/codesnippet/visualbasic/m-system.timezoneinfo.tr_1.vb)]  
+ [!code-cs[System.TimeZone2.TransitionTime.Class#1](~/add/codesnippet/csharp/m-system.timezoneinfo.tr_0_1.cs)]
+ [!code-vb[System.TimeZone2.TransitionTime.Class#1](~/add/codesnippet/visualbasic/m-system.timezoneinfo.tr_0_1.vb)]  
   
  ]]></format>
         </remarks>
@@ -293,10 +293,26 @@
         <Parameter Name="other" Type="System.TimeZoneInfo+TransitionTime" />
       </Parameters>
       <Docs>
-        <param name="other">To be added.</param>
-        <summary>To be added.</summary>
-        <returns>To be added.</returns>
-        <remarks>To be added.</remarks>
+        <param name="other">An object to compare to the current instance.</param>
+        <summary>Determines whether the current <see cref="T:System.TimeZoneInfo.TransitionTime" /> object has identical values to a second <see cref="T:System.TimeZoneInfo.TransitionTime" /> object.</summary>
+        <returns>
+          <see langword="true" /> if the two objects have identical property values; otherwise, <see langword="false" />.</returns>
+        <remarks>
+          <format type="text/markdown"><![CDATA[  
+  
+## Remarks  
+ To determine whether the two <xref:System.TimeZoneInfo.TransitionTime> objects are equal, this method performs a property-by-property comparison. The method returns `true` only if the current <xref:System.TimeZoneInfo.TransitionTime> object and the `other` object have identical values for each of the <xref:System.TimeZoneInfo.TransitionTime> object's six property values.  
+  
+   
+  
+## Examples  
+ The following example illustrates calls to the Equals method.  
+  
+ [!code-cs[System.TimeZone2.TransitionTime.Class#7](~/add/codesnippet/csharp/m-system.timezoneinfo.tr_1_1.cs)]
+ [!code-vb[System.TimeZone2.TransitionTime.Class#7](~/add/codesnippet/visualbasic/m-system.timezoneinfo.tr_1_1.vb)]  
+  
+ ]]></format>
+        </remarks>
       </Docs>
     </Member>
     <Member MemberName="GetHashCode">
@@ -410,11 +426,19 @@
         <Parameter Name="t2" Type="System.TimeZoneInfo+TransitionTime" />
       </Parameters>
       <Docs>
-        <param name="t1">To be added.</param>
-        <param name="t2">To be added.</param>
-        <summary>To be added.</summary>
-        <returns>To be added.</returns>
-        <remarks>To be added.</remarks>
+        <param name="t1">The first object to compare.</param>
+        <param name="t2">The second object to compare.</param>
+        <summary>Determines whether two specified <see cref="T:System.TimeZoneInfo.TransitionTime" /> objects are equal.</summary>
+        <returns>
+          <see langword="true" /> if <paramref name="t1" /> and <paramref name="t2" /> have identical values; otherwise, <see langword="false" />.</returns>
+        <remarks>
+          <format type="text/markdown"><![CDATA[  
+  
+## Remarks  
+ Two <xref:System.TimeZoneInfo.TransitionTime> objects are equal if they have identical values for each of their six properties. Otherwise, they are unequal.  
+  
+ ]]></format>
+        </remarks>
       </Docs>
     </Member>
     <Member MemberName="op_Inequality">
@@ -433,11 +457,19 @@
         <Parameter Name="t2" Type="System.TimeZoneInfo+TransitionTime" />
       </Parameters>
       <Docs>
-        <param name="t1">To be added.</param>
-        <param name="t2">To be added.</param>
-        <summary>To be added.</summary>
-        <returns>To be added.</returns>
-        <remarks>To be added.</remarks>
+        <param name="t1">The first object to compare.</param>
+        <param name="t2">The second object to compare.</param>
+        <summary>Determines whether two specified <see cref="T:System.TimeZoneInfo.TransitionTime" /> objects are not equal.</summary>
+        <returns>
+          <see langword="true" /> if <paramref name="t1" /> and <paramref name="t2" /> have any different member values; otherwise, <see langword="false" />.</returns>
+        <remarks>
+          <format type="text/markdown"><![CDATA[  
+  
+## Remarks  
+ Two <xref:System.TimeZoneInfo.TransitionTime> objects are unequal if they have different values for any of their six properties. Otherwise, they are equal.  
+  
+ ]]></format>
+        </remarks>
       </Docs>
     </Member>
     <Member MemberName="System.Runtime.Serialization.IDeserializationCallback.OnDeserialization">

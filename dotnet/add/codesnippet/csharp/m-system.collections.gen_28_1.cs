@@ -7,11 +7,14 @@ public class Example
     {
         List<string> dinosaurs = new List<string>();
 
-        dinosaurs.Add("Tyrannosaurus");
-        dinosaurs.Add("Amargasaurus");
-        dinosaurs.Add("Mamenchisaurus");
-        dinosaurs.Add("Brachiosaurus");
         dinosaurs.Add("Compsognathus");
+        dinosaurs.Add("Amargasaurus");
+        dinosaurs.Add("Oviraptor");
+        dinosaurs.Add("Velociraptor");
+        dinosaurs.Add("Deinonychus");
+        dinosaurs.Add("Dilophosaurus");
+        dinosaurs.Add("Gallimimus");
+        dinosaurs.Add("Triceratops");
 
         Console.WriteLine();
         foreach(string dinosaur in dinosaurs)
@@ -19,43 +22,74 @@ public class Example
             Console.WriteLine(dinosaur);
         }
 
-        // Declare an array with 15 elements.
-        string[] array = new string[15];
+        Console.WriteLine("\nTrueForAll(EndsWithSaurus): {0}",
+            dinosaurs.TrueForAll(EndsWithSaurus));
 
-        dinosaurs.CopyTo(array);
-        dinosaurs.CopyTo(array, 6);
-        dinosaurs.CopyTo(2, array, 12, 3);
+        Console.WriteLine("\nFind(EndsWithSaurus): {0}", 
+            dinosaurs.Find(EndsWithSaurus));
 
-        Console.WriteLine("\nContents of the array:");
-        foreach(string dinosaur in array)
+        Console.WriteLine("\nFindLast(EndsWithSaurus): {0}",
+            dinosaurs.FindLast(EndsWithSaurus));
+
+        Console.WriteLine("\nFindAll(EndsWithSaurus):");
+        List<string> sublist = dinosaurs.FindAll(EndsWithSaurus);
+
+        foreach(string dinosaur in sublist)
         {
             Console.WriteLine(dinosaur);
         }
+
+        Console.WriteLine(
+            "\n{0} elements removed by RemoveAll(EndsWithSaurus).", 
+            dinosaurs.RemoveAll(EndsWithSaurus));
+
+        Console.WriteLine("\nList now contains:");
+        foreach(string dinosaur in dinosaurs)
+        {
+            Console.WriteLine(dinosaur);
+        }
+
+        Console.WriteLine("\nExists(EndsWithSaurus): {0}", 
+            dinosaurs.Exists(EndsWithSaurus));
+    }
+
+    // Search predicate returns true if a string ends in "saurus".
+    private static bool EndsWithSaurus(String s)
+    {
+        return s.ToLower().EndsWith("saurus");
     }
 }
 
 /* This code example produces the following output:
 
-Tyrannosaurus
+Compsognathus
 Amargasaurus
-Mamenchisaurus
-Brachiosaurus
-Compsognathus
+Oviraptor
+Velociraptor
+Deinonychus
+Dilophosaurus
+Gallimimus
+Triceratops
 
-Contents of the array:
-Tyrannosaurus
+TrueForAll(EndsWithSaurus): False
+
+Find(EndsWithSaurus): Amargasaurus
+
+FindLast(EndsWithSaurus): Dilophosaurus
+
+FindAll(EndsWithSaurus):
 Amargasaurus
-Mamenchisaurus
-Brachiosaurus
-Compsognathus
+Dilophosaurus
 
-Tyrannosaurus
-Amargasaurus
-Mamenchisaurus
-Brachiosaurus
-Compsognathus
+2 elements removed by RemoveAll(EndsWithSaurus).
 
-Mamenchisaurus
-Brachiosaurus
+List now contains:
 Compsognathus
+Oviraptor
+Velociraptor
+Deinonychus
+Gallimimus
+Triceratops
+
+Exists(EndsWithSaurus): False
  */

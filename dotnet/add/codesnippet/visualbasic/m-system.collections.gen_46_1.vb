@@ -1,52 +1,29 @@
-Imports System
 Imports System.Collections.Generic
 
-Public Class Example
+Module Example
+   Public Sub Main()
+      Dim names() As String = { "Samuel", "Dakota", "Koani", "Saya",
+                                "Vanya", "Yiska", "Yuma", "Jody",
+                                "Nikita" }
+      Dim nameList As New List(Of String)()
+      nameList.AddRange(names)
+      Console.WriteLine("List in unsorted order: ")
+      For Each name In nameList
+         Console.Write("   {0}", name)
+      Next
+      Console.WriteLine(vbCrLf)
 
-    Public Shared Sub Main()
-
-        Dim dinosaurs As New List(Of String)
-
-        dinosaurs.Add("Tyrannosaurus")
-        dinosaurs.Add("Amargasaurus")
-        dinosaurs.Add("Mamenchisaurus")
-        dinosaurs.Add("Brachiosaurus")
-        dinosaurs.Add("Deinonychus")
-        dinosaurs.Add("Tyrannosaurus")
-        dinosaurs.Add("Compsognathus")
-
-        Console.WriteLine()
-        For Each dinosaur As String In dinosaurs
-            Console.WriteLine(dinosaur)
-        Next
-
-        Console.WriteLine(vbLf & _
-            "LastIndexOf(""Tyrannosaurus""): {0}", _
-            dinosaurs.LastIndexOf("Tyrannosaurus"))
-
-        Console.WriteLine(vbLf & _
-            "LastIndexOf(""Tyrannosaurus"", 3): {0}", _
-            dinosaurs.LastIndexOf("Tyrannosaurus", 3))
-
-        Console.WriteLine(vbLf & _
-            "LastIndexOf(""Tyrannosaurus"", 4, 4): {0}", _
-            dinosaurs.LastIndexOf("Tyrannosaurus", 4, 4))
-
+      nameList.Sort()
+      Console.WriteLine("List in sorted order: ")
+      For Each name In nameList
+         Console.Write("   {0}", name)
+      Next
+      Console.WriteLine()
     End Sub
-End Class
-
-' This code example produces the following output:
+End Module
+' The example displays the following output:
+'    List in unsorted order:
+'       Samuel   Dakota   Koani   Saya   Vanya   Yiska   Yuma   Jody   Nikita
 '
-'Tyrannosaurus
-'Amargasaurus
-'Mamenchisaurus
-'Brachiosaurus
-'Deinonychus
-'Tyrannosaurus
-'Compsognathus
-'
-'LastIndexOf("Tyrannosaurus"): 5
-'
-'LastIndexOf("Tyrannosaurus", 3): 0
-'
-'LastIndexOf("Tyrannosaurus", 4, 4): -1
+'    List in sorted order:
+'       Dakota   Jody   Koani   Nikita   Samuel   Saya   Vanya   Yiska   Yuma

@@ -5,63 +5,46 @@ public class Example
 {
     public static void Main()
     {
-        List<string> dinosaurs = new List<string>(4);
-
-        Console.WriteLine("\nCapacity: {0}", dinosaurs.Capacity);
+        List<string> dinosaurs = new List<string>();
 
         dinosaurs.Add("Tyrannosaurus");
         dinosaurs.Add("Amargasaurus");
         dinosaurs.Add("Mamenchisaurus");
+        dinosaurs.Add("Brachiosaurus");
         dinosaurs.Add("Deinonychus");
+        dinosaurs.Add("Tyrannosaurus");
+        dinosaurs.Add("Compsognathus");
 
         Console.WriteLine();
-        foreach(string s in dinosaurs)
-        {
-            Console.WriteLine(s);
-        }
-
-        Console.WriteLine("\nIList<string> roDinosaurs = dinosaurs.AsReadOnly()");
-        IList<string> roDinosaurs = dinosaurs.AsReadOnly();
-
-        Console.WriteLine("\nElements in the read-only IList:");
-        foreach(string dinosaur in roDinosaurs)
+        foreach(string dinosaur in dinosaurs)
         {
             Console.WriteLine(dinosaur);
         }
 
-        Console.WriteLine("\ndinosaurs[2] = \"Coelophysis\"");
-        dinosaurs[2] = "Coelophysis";
+        Console.WriteLine("\nIndexOf(\"Tyrannosaurus\"): {0}", 
+            dinosaurs.IndexOf("Tyrannosaurus"));
 
-        Console.WriteLine("\nElements in the read-only IList:");
-        foreach(string dinosaur in roDinosaurs)
-        {
-            Console.WriteLine(dinosaur);
-        }
+        Console.WriteLine("\nIndexOf(\"Tyrannosaurus\", 3): {0}", 
+            dinosaurs.IndexOf("Tyrannosaurus", 3));
+
+        Console.WriteLine("\nIndexOf(\"Tyrannosaurus\", 2, 2): {0}", 
+            dinosaurs.IndexOf("Tyrannosaurus", 2, 2));
     }
 }
 
 /* This code example produces the following output:
 
-Capacity: 4
-
 Tyrannosaurus
 Amargasaurus
 Mamenchisaurus
+Brachiosaurus
 Deinonychus
-
-IList<string> roDinosaurs = dinosaurs.AsReadOnly()
-
-Elements in the read-only IList:
 Tyrannosaurus
-Amargasaurus
-Mamenchisaurus
-Deinonychus
+Compsognathus
 
-dinosaurs[2] = "Coelophysis"
+IndexOf("Tyrannosaurus"): 0
 
-Elements in the read-only IList:
-Tyrannosaurus
-Amargasaurus
-Coelophysis
-Deinonychus
+IndexOf("Tyrannosaurus", 3): 5
+
+IndexOf("Tyrannosaurus", 2, 2): -1
  */

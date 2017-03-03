@@ -1,8 +1,63 @@
-        // Use the Remove method to remove a key/value pair.
-        Console.WriteLine("\nRemove(\"doc\")");
-        openWith.Remove("doc");
+using System;
+using System.Collections.Generic;
 
-        if (!openWith.ContainsKey("doc"))
+public class Example
+{
+    public static void Main()
+    {
+        List<string> dinosaurs = new List<string>();
+
+        dinosaurs.Add("Pachycephalosaurus");
+        dinosaurs.Add("Parasauralophus");
+        dinosaurs.Add("Mamenchisaurus");
+        dinosaurs.Add("Amargasaurus");
+        dinosaurs.Add("Coelophysis");
+        dinosaurs.Add("Oviraptor");
+
+        Console.WriteLine();
+        foreach(string dinosaur in dinosaurs)
         {
-            Console.WriteLine("Key \"doc\" is not found.");
+            Console.WriteLine(dinosaur);
         }
+
+        dinosaurs.Reverse();
+
+        Console.WriteLine();
+        foreach(string dinosaur in dinosaurs)
+        {
+            Console.WriteLine(dinosaur);
+        }
+
+        dinosaurs.Reverse(1, 4);
+
+        Console.WriteLine();
+        foreach(string dinosaur in dinosaurs)
+        {
+            Console.WriteLine(dinosaur);
+        }
+    }
+}
+
+/* This code example produces the following output:
+
+Pachycephalosaurus
+Parasauralophus
+Mamenchisaurus
+Amargasaurus
+Coelophysis
+Oviraptor
+
+Oviraptor
+Coelophysis
+Amargasaurus
+Mamenchisaurus
+Parasauralophus
+Pachycephalosaurus
+
+Oviraptor
+Parasauralophus
+Mamenchisaurus
+Amargasaurus
+Coelophysis
+Pachycephalosaurus
+ */

@@ -1,63 +1,22 @@
-using System;
-using System.Collections.Generic;
+        // Create a new dictionary of strings, with string keys.
+        //
+        Dictionary<string, string> openWith = 
+            new Dictionary<string, string>();
 
-public class Example
-{
-    public static void Main()
-    {
-        List<string> dinosaurs = new List<string>();
+        // Add some elements to the dictionary. There are no 
+        // duplicate keys, but some of the values are duplicates.
+        openWith.Add("txt", "notepad.exe");
+        openWith.Add("bmp", "paint.exe");
+        openWith.Add("dib", "paint.exe");
+        openWith.Add("rtf", "wordpad.exe");
 
-        dinosaurs.Add("Pachycephalosaurus");
-        dinosaurs.Add("Parasauralophus");
-        dinosaurs.Add("Mamenchisaurus");
-        dinosaurs.Add("Amargasaurus");
-        dinosaurs.Add("Coelophysis");
-        dinosaurs.Add("Oviraptor");
-
-        Console.WriteLine();
-        foreach(string dinosaur in dinosaurs)
+        // The Add method throws an exception if the new key is 
+        // already in the dictionary.
+        try
         {
-            Console.WriteLine(dinosaur);
+            openWith.Add("txt", "winword.exe");
         }
-
-        dinosaurs.Reverse();
-
-        Console.WriteLine();
-        foreach(string dinosaur in dinosaurs)
+        catch (ArgumentException)
         {
-            Console.WriteLine(dinosaur);
+            Console.WriteLine("An element with Key = \"txt\" already exists.");
         }
-
-        dinosaurs.Reverse(1, 4);
-
-        Console.WriteLine();
-        foreach(string dinosaur in dinosaurs)
-        {
-            Console.WriteLine(dinosaur);
-        }
-    }
-}
-
-/* This code example produces the following output:
-
-Pachycephalosaurus
-Parasauralophus
-Mamenchisaurus
-Amargasaurus
-Coelophysis
-Oviraptor
-
-Oviraptor
-Coelophysis
-Amargasaurus
-Mamenchisaurus
-Parasauralophus
-Pachycephalosaurus
-
-Oviraptor
-Parasauralophus
-Mamenchisaurus
-Amargasaurus
-Coelophysis
-Pachycephalosaurus
- */

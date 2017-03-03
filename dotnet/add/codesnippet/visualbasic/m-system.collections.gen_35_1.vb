@@ -4,14 +4,15 @@ Imports System.Collections.Generic
 Public Class Example
 
     Public Shared Sub Main()
-        Dim dinosaurs As New List(Of String)
 
-        Console.WriteLine(vbLf & "Capacity: {0}", dinosaurs.Capacity)
+        Dim dinosaurs As New List(Of String)
 
         dinosaurs.Add("Tyrannosaurus")
         dinosaurs.Add("Amargasaurus")
         dinosaurs.Add("Mamenchisaurus")
+        dinosaurs.Add("Brachiosaurus")
         dinosaurs.Add("Deinonychus")
+        dinosaurs.Add("Tyrannosaurus")
         dinosaurs.Add("Compsognathus")
 
         Console.WriteLine()
@@ -19,79 +20,33 @@ Public Class Example
             Console.WriteLine(dinosaur)
         Next
 
-        Console.WriteLine(vbLf & "Capacity: {0}", dinosaurs.Capacity)
-        Console.WriteLine("Count: {0}", dinosaurs.Count)
+        Console.WriteLine(vbLf & _
+            "IndexOf(""Tyrannosaurus""): {0}", _
+            dinosaurs.IndexOf("Tyrannosaurus"))
 
-        Console.WriteLine(vbLf & "Contains(""Deinonychus""): {0}", _
-            dinosaurs.Contains("Deinonychus"))
+        Console.WriteLine(vbLf & _
+            "IndexOf(""Tyrannosaurus"", 3): {0}", _
+            dinosaurs.IndexOf("Tyrannosaurus", 3))
 
-        Console.WriteLine(vbLf & "Insert(2, ""Compsognathus"")")
-        dinosaurs.Insert(2, "Compsognathus")
+        Console.WriteLine(vbLf & _
+            "IndexOf(""Tyrannosaurus"", 2, 2): {0}", _
+            dinosaurs.IndexOf("Tyrannosaurus", 2, 2))
 
-        Console.WriteLine()
-        For Each dinosaur As String In dinosaurs
-            Console.WriteLine(dinosaur)
-        Next
-        ' Shows how to access the list using the Item property.
-        Console.WriteLine(vbLf & "dinosaurs(3): {0}", dinosaurs(3))
-        Console.WriteLine(vbLf & "Remove(""Compsognathus"")")
-        dinosaurs.Remove("Compsognathus")
-
-        Console.WriteLine()
-        For Each dinosaur As String In dinosaurs
-            Console.WriteLine(dinosaur)
-        Next
-
-        dinosaurs.TrimExcess()
-        Console.WriteLine(vbLf & "TrimExcess()")
-        Console.WriteLine("Capacity: {0}", dinosaurs.Capacity)
-        Console.WriteLine("Count: {0}", dinosaurs.Count)
-
-        dinosaurs.Clear()
-        Console.WriteLine(vbLf & "Clear()")
-        Console.WriteLine("Capacity: {0}", dinosaurs.Capacity)
-        Console.WriteLine("Count: {0}", dinosaurs.Count)
     End Sub
 End Class
 
 ' This code example produces the following output:
 '
-'Capacity: 0
-'
 'Tyrannosaurus
 'Amargasaurus
 'Mamenchisaurus
+'Brachiosaurus
 'Deinonychus
-'Compsognathus
-'
-'Capacity: 8
-'Count: 5
-'
-'Contains("Deinonychus"): True
-'
-'Insert(2, "Compsognathus")
-'
 'Tyrannosaurus
-'Amargasaurus
-'Compsognathus
-'Mamenchisaurus
-'Deinonychus
 'Compsognathus
 '
-'dinosaurs(3): Mamenchisaurus
+'IndexOf("Tyrannosaurus"): 0
 '
-'Remove("Compsognathus")
+'IndexOf("Tyrannosaurus", 3): 5
 '
-'Tyrannosaurus
-'Amargasaurus
-'Mamenchisaurus
-'Deinonychus
-'Compsognathus
-'
-'TrimExcess()
-'Capacity: 5
-'Count: 5
-'
-'Clear()
-'Capacity: 5
-'Count: 0
+'IndexOf("Tyrannosaurus", 2, 2): -1

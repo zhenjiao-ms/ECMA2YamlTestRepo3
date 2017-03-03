@@ -5,14 +5,15 @@ Public Class Example
 
     Public Shared Sub Main()
 
-        Dim dinosaurs As New List(Of String)(4)
-
-        Console.WriteLine(vbLf & "Capacity: {0}", dinosaurs.Capacity)
+        Dim dinosaurs As New List(Of String)
 
         dinosaurs.Add("Tyrannosaurus")
         dinosaurs.Add("Amargasaurus")
         dinosaurs.Add("Mamenchisaurus")
+        dinosaurs.Add("Brachiosaurus")
         dinosaurs.Add("Deinonychus")
+        dinosaurs.Add("Tyrannosaurus")
+        dinosaurs.Add("Compsognathus")
 
         Console.WriteLine()
         For Each dinosaur As String In dinosaurs
@@ -20,46 +21,32 @@ Public Class Example
         Next
 
         Console.WriteLine(vbLf & _
-            "Dim roDinosaurs As IList(Of String) = dinosaurs.AsReadOnly")
-        Dim roDinosaurs As IList(Of String) = dinosaurs.AsReadOnly
+            "IndexOf(""Tyrannosaurus""): {0}", _
+            dinosaurs.IndexOf("Tyrannosaurus"))
 
-        Console.WriteLine(vbLf & "Elements in the read-only IList:")
-        For Each dinosaur As String In roDinosaurs
-            Console.WriteLine(dinosaur)
-        Next
+        Console.WriteLine(vbLf & _
+            "IndexOf(""Tyrannosaurus"", 3): {0}", _
+            dinosaurs.IndexOf("Tyrannosaurus", 3))
 
-        Console.WriteLine(vbLf & "dinosaurs(2) = ""Coelophysis""")
-        dinosaurs(2) = "Coelophysis"
-
-        Console.WriteLine(vbLf & "Elements in the read-only IList:")
-        For Each dinosaur As String In roDinosaurs
-            Console.WriteLine(dinosaur)
-        Next
+        Console.WriteLine(vbLf & _
+            "IndexOf(""Tyrannosaurus"", 2, 2): {0}", _
+            dinosaurs.IndexOf("Tyrannosaurus", 2, 2))
 
     End Sub
 End Class
 
 ' This code example produces the following output:
 '
-'Capacity: 4
-'
 'Tyrannosaurus
 'Amargasaurus
 'Mamenchisaurus
+'Brachiosaurus
 'Deinonychus
-'
-'Dim roDinosaurs As IList(Of String) = dinosaurs.AsReadOnly
-'
-'Elements in the read-only IList:
 'Tyrannosaurus
-'Amargasaurus
-'Mamenchisaurus
-'Deinonychus
+'Compsognathus
 '
-'dinosaurs(2) = "Coelophysis"
+'IndexOf("Tyrannosaurus"): 0
 '
-'Elements in the read-only IList:
-'Tyrannosaurus
-'Amargasaurus
-'Coelophysis
-'Deinonychus
+'IndexOf("Tyrannosaurus", 3): 5
+'
+'IndexOf("Tyrannosaurus", 2, 2): -1

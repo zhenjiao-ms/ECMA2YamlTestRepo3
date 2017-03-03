@@ -24,6 +24,11 @@ internalonly: False
 ---
 
 ---
+uid: System.Runtime.CompilerServices.ConditionalWeakTable`2.GetValue(`0,System.Runtime.CompilerServices.ConditionalWeakTable{`0,`1}.CreateValueCallback)
+internalonly: False
+---
+
+---
 uid: System.Runtime.CompilerServices.ConditionalWeakTable`2.GetOrCreateValue(`0)
 internalonly: False
 ---
