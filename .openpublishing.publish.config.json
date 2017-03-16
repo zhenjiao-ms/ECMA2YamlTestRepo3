@@ -16,10 +16,16 @@
       },
       "build_entry_point": "docs",
       "template_folder": "_themes",
+      "customized_tasks": {
+        "docset_prebuild": [
+          "_dependentPackages/ECMA2Yaml/tools/Run.ps1",
+          "_dependentPackages/splitToc/tools/run.ps1"
+        ]
+      },
       "customized_template_paths": [
         "_dependentPackages/memberpage.plugins/content"
       ],
-      "is_dynamic_rendering": false
+      "is_dynamic_rendering": true
     }
   ],
   "notification_subscribers": [],
@@ -30,32 +36,39 @@
     {
       "path_to_root": "_themes",
       "url": "https://github.com/Microsoft/templates.docs.msft",
-      "branch": "master",
+      "branch": "preview",
       "branch_mapping": {}
     }
   ],
   "dependent_packages": [
     {
       "id": "Microsoft.DocAsCode.ECMA2Yaml",
-      "nuget_feed": "https://www.nuget.org/api/v2",
+      "nuget_feed": "https://www.myget.org/F/op-dev/api/v2",
       "path_to_root": "_dependentPackages/ECMA2Yaml",
       "target_framework": "net45",
       "version": "latest"
     },
     {
       "id": "memberpage.plugins",
-      "nuget_feed": "https://www.myget.org/F/docfx-test/api/v2",
+      "nuget_feed": "https://www.myget.org/F/docfx-dev/api/v2",
       "path_to_root": "_dependentPackages/memberpage.plugins",
+      "target_framework": "net45",
+      "version": "latest-prerelease"
+    },
+    {
+      "id": "SplitToc",
+      "nuget_feed": "https://www.myget.org/F/op-dev/api/v2",
+      "path_to_root": "_dependentPackages/splitToc",
       "target_framework": "net45",
       "version": "latest-prerelease"
     }
   ],
-  "customized_tasks": [
-    {
-      "repo_setup": [
-        "_dependentPackages/ECMA2Yaml/tools/Run.ps1"
-      ]
-    }
-  ],
-  "need_generate_pdf_url_template": false
+  "need_generate_pdf_url_template": false,
+  "ECMA2Yaml": {
+    "SourceXmlFolder": "xml",
+    "OutputYamlFolder": "dotnet",
+    "Flatten": true,
+    "RepoUrl": "https://github.com/TianqiZhang/ECMA2YamlTestRepo3/"
+  },
+  "toc_path_need_to_split": "dotnet/toc.yml"
 }
