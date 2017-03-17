@@ -3,11 +3,11 @@
   "need_generate_intellisense": false,
   "docsets_to_publish": [
     {
-      "docset_name": "smalldotnetzhen",
-      "build_source_folder": "dotnet",
-      "build_output_subfolder": "smalldotnetzhen",
+      "docset_name": "smalldotnet",
+      "build_source_folder": ".",
+      "build_output_subfolder": "smalldotnet",
       "locale": "en-us",
-      "version": 0,
+      "monikers": [],
       "open_to_public_contributors": true,
       "type_mapping": {
         "Conceptual": "Content",
@@ -16,16 +16,23 @@
       },
       "build_entry_point": "docs",
       "template_folder": "_themes",
-      "customized_tasks": {
-        "docset_prebuild": [
-          "_dependentPackages/ECMA2Yaml/tools/Run.ps1",
-          "_dependentPackages/splitToc/tools/run.ps1"
-        ]
+      "version": 0
+    },
+    {
+      "docset_name": "smalldotnetzhen",
+      "build_source_folder": "dotnet",
+      "build_output_subfolder": "smalldotnetzhen",
+      "locale": "en-us",
+      "monikers": [],
+      "open_to_public_contributors": true,
+      "type_mapping": {
+        "Conceptual": "Content",
+        "ManagedReference": "Content",
+        "RestApi": "Content"
       },
-      "customized_template_paths": [
-        "_dependentPackages/memberpage.plugins/content"
-      ],
-      "is_dynamic_rendering": true
+      "build_entry_point": "docs",
+      "template_folder": "_themes",
+      "version": 0
     }
   ],
   "notification_subscribers": [],
@@ -36,39 +43,9 @@
     {
       "path_to_root": "_themes",
       "url": "https://github.com/Microsoft/templates.docs.msft",
-      "branch": "preview",
+      "branch": "master",
       "branch_mapping": {}
     }
   ],
-  "dependent_packages": [
-    {
-      "id": "Microsoft.DocAsCode.ECMA2Yaml",
-      "nuget_feed": "https://www.myget.org/F/op-dev/api/v2",
-      "path_to_root": "_dependentPackages/ECMA2Yaml",
-      "target_framework": "net45",
-      "version": "latest"
-    },
-    {
-      "id": "memberpage.plugins",
-      "nuget_feed": "https://www.myget.org/F/docfx-dev/api/v2",
-      "path_to_root": "_dependentPackages/memberpage.plugins",
-      "target_framework": "net45",
-      "version": "latest-prerelease"
-    },
-    {
-      "id": "SplitToc",
-      "nuget_feed": "https://www.myget.org/F/op-dev/api/v2",
-      "path_to_root": "_dependentPackages/splitToc",
-      "target_framework": "net45",
-      "version": "latest-prerelease"
-    }
-  ],
-  "need_generate_pdf_url_template": false,
-  "ECMA2Yaml": {
-    "SourceXmlFolder": "dotnet\\xml",
-    "OutputYamlFolder": "dotnet",
-    "Flatten": true,
-    "RepoUrl": "https://github.com/zhenjiao/ECMA2YamlTestRepo3/"
-  },
-  "toc_path_need_to_split": "dotnet/toc.yml"
+  "need_generate_pdf_url_template": false
 }
